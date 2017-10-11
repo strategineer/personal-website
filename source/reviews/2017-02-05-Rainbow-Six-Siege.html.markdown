@@ -1,8 +1,8 @@
 ---
 title: Rainbow Six Siege
+blog: reviews
 date: 2017-02-05
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 218
 store_link: http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/
 ---

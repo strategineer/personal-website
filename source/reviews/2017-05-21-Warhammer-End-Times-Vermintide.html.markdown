@@ -1,8 +1,8 @@
 ---
 title: Warhammer End Times - Vermintide 
+blog: reviews
 date: 2017-05-21
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 63
 store_link: http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/
 ---

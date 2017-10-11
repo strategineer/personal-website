@@ -1,5 +1,6 @@
 ---
 title: Example Article
+blog: blog
 date: 2016-01-02
 tags: example
 ---

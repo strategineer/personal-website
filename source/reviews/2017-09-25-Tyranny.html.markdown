@@ -1,8 +1,8 @@
 ---
 title: Tyranny
+blog: reviews
 date: 2017-09-25
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 30
 store_link: http://store.steampowered.com/app/362960/Tyranny/
 ---

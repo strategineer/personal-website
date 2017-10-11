@@ -1,8 +1,8 @@
 ---
 title: Snake Pass
+blog: reviews
 date: 2017-06-30
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 8
 store_link: http://store.steampowered.com/app/544330/Snake_Pass/
 ---

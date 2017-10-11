@@ -1,8 +1,8 @@
 ---
 title: Rock of Ages II
+blog: reviews
 date: 2017-09-04
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 8
 store_link: http://store.steampowered.com/app/434460/Rock_of_Ages_2_Bigger__Boulder/
 ---

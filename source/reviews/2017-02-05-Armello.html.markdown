@@ -1,8 +1,8 @@
 ---
 title: Armello 
+blog: reviews
 date: 2017-02-05
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 17
 store_link: http://store.steampowered.com/app/290340/Armello/
 ---

@@ -1,8 +1,8 @@
 ---
 title: Octodad Daliest Catch
+blog: reviews
 date: 2017-06-25
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 3
 store_link: http://store.steampowered.com/app/224480/Octodad_Dadliest_Catch/
 ---

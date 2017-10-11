@@ -1,8 +1,8 @@
 ---
 title: Hook 
+blog: reviews
 date: 2017-05-29
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 2
 store_link: http://store.steampowered.com/app/367580/Hook/
 ---

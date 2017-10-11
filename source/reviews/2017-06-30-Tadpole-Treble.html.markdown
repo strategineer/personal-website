@@ -1,8 +1,8 @@
 ---
 title: Tadpole Treble
+blog: reviews
 date: 2017-06-30
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 1
 store_link: http://store.steampowered.com/app/354400/Tadpole_Treble/
 ---

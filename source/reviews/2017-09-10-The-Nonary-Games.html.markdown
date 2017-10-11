@@ -1,8 +1,8 @@
 ---
 title: The Nonary Games
+blog: reviews
 date: 2017-09-10
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 73
 store_link: http://store.steampowered.com/app/477740/Zero_Escape_The_Nonary_Games/
 ---

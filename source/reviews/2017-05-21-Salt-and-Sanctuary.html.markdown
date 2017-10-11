@@ -1,8 +1,8 @@
 ---
 title: Salt and Sanctuary 
+blog: reviews
 date: 2017-05-21
-platform: PC
-thumbs_up: true
+tags: PC, thumbs_up
 playtime_hours: 19
 store_link: http://store.steampowered.com/app/283640/Salt_and_Sanctuary/
 ---
