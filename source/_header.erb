@@ -1,20 +1,19 @@
-<%= link_to(
-  "About",
-  "/about.html",
-) %>
-<%= link_to(
-  "Blog",
-  "/blog.html",
-) %>
-<%= link_to(
-  "Games",
-  "/games.html",
-) %>
-<%= link_to(
-  "Reviews",
-  "/reviews.html",
-) %>
-<%= link_to(
-  "Resume",
-  "/resume.html",
-) %>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Bill Christian Tyros</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <% ['about', 'blog', 'games', 'reviews', 'resume'].each do |page| %>
+                <% if current_page.path.end_with?("#{page}.html") %>
+                    <li class="nav-item active">
+                <% else %>
+                    <li class="nav-item">
+                <% end %>
+                        <a class="nav-link" href="/<%= page %>.html"><%= page.capitalize %></a>
+                    </li>
+            <% end %>
+        </ul>
+    </div>
+</nav>

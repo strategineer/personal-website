@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+        <%= partial "css_include" %>
         <%= stylesheet_link_tag "site" %>
-        <%= partial "js_include" %>
         <%= javascript_include_tag "site" %>
         <%= feed_tag :atom, "#{blog('blog').options.prefix.to_s}/feed.xml", title: "Atom Feed - Blog" %>
     </head>
@@ -40,5 +40,6 @@
                 <% end %>
             </ol>
         </aside>
+        <%= partial "js_include" %>
     </body>
 </html>
