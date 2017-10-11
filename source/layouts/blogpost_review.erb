@@ -2,5 +2,13 @@
     <h1>
         <%= current_page.data.title %> Review
     </h1>
+    <p>playtime: <%= current_page.data.playtime_hours %>h</p>
+    <p>
+        <% if current_article.tags.include?('thumbs_up') %>
+            thumbs up  
+        <% else %>
+            thumbs down
+        <% end %>
+    </p>
     <%= yield %>
 <% end %>
