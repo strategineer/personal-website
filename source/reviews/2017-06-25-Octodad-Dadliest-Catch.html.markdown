@@ -1,0 +1,22 @@
+---
+title: Octodad Daliest Catch
+date: 2017-06-25
+platform: PC
+thumbs_up: true
+playtime_hours: 3
+store_link: http://store.steampowered.com/app/224480/Octodad_Dadliest_Catch/
+---
+In Octodad: Dadliest Catch, you play the role of Octodad who must go through his day to day life with his wife and kids and avoid being found out for what he truly is, an octopus.
+
+Octodad: Dadliest Catch is a unique game that can be loosely described as an action-adventure/puzzle game with QWOP-like controls in 3D.
+
+## Pros
+
+- Puzzles are quite varied and most require some thinking and/or decent control over Octodad to complete.
+- Unique control scheme makes moving Octodad around a joy to do.
+- Story and VO will make you laugh or smile at the least.
+- Cartoony visuals mesh well with the gameplay and the story.
+
+## Cons
+
+- Short (game can be finished in around 2h).
