@@ -9,8 +9,10 @@
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
   </head>
   <body>
+    <%= partial "header" %>
     <%= yield %>
   </body>
 </html>

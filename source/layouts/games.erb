@@ -1,0 +1,11 @@
+<% wrap_layout :layout do %>
+    <h1>
+        Games
+    </h1>
+    <ol>
+        <% sitemap.resources.select{ |r| r.path.start_with?("games/")}.sort_by{|r| r.data.date }.reverse.each do |resource| %>
+            <li><%= link_to resource.data.title + " - " + resource.data.date.strftime('%b %e %Y'), resource.path%></li>
+        <% end %>
+    </ol>
+    <%= yield %>
+<% end %>
