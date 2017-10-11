@@ -1,6 +1,7 @@
 ---
 title: Assault Android Cactus 
 blog: reviews
+category: video-game
 date: 2017-06-04
 tags: PC, thumbs_up
 playtime_hours: 4

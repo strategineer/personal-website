@@ -1,6 +1,7 @@
 ---
 title: Tadpole Treble
 blog: reviews
+category: video-game
 date: 2017-06-30
 tags: PC, thumbs_up
 playtime_hours: 1

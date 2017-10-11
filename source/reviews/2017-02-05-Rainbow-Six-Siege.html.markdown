@@ -1,6 +1,7 @@
 ---
 title: Rainbow Six Siege
 blog: reviews
+category: video-game
 date: 2017-02-05
 tags: PC, thumbs_up
 playtime_hours: 218

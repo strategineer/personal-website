@@ -9,7 +9,7 @@
         <%= stylesheet_link_tag "site" %>
         <%= partial "js_include" %>
         <%= javascript_include_tag "site" %>
-        <%= feed_tag :atom, "#{blog('reviews').options.prefix.to_s}/feed.xml", title: "Atom Feed - Reviews" %>
+        <%= feed_tag :atom, "#{blog('games').options.prefix.to_s}/feed.xml", title: "Atom Feed - Reviews" %>
     </head>
     <body>
 
@@ -19,23 +19,23 @@
         </div>
 
         <aside>
-            <h2>Recent Reviews</h2>
+            <h2>Recent Games</h2>
             <ol>
-                <% blog('reviews').articles[0...10].each do |article| %>
-                    <li><%= link_to article.title, article %> <span><%= article.data.category + " - "  + article.date.strftime('%b %e %Y') %></span></li>
+                <% blog('games').articles[0...10].each do |article| %>
+                    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
                 <% end %>
             </ol>
 
             <h2>Tags</h2>
             <ol>
-                <% blog('reviews').tags.each do |tag, articles| %>
+                <% blog('games').tags.each do |tag, articles| %>
                     <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
                 <% end %>
             </ol>
 
             <h2>By Year</h2>
             <ol>
-                <% blog('reviews').articles.group_by {|a| a.date.year }.each do |year, articles| %>
+                <% blog('games').articles.group_by {|a| a.date.year }.each do |year, articles| %>
                     <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
                 <% end %>
             </ol>

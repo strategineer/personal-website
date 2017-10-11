@@ -1,6 +1,7 @@
 ---
 title: Octodad Daliest Catch
 blog: reviews
+category: video-game
 date: 2017-06-25
 tags: PC, thumbs_up
 playtime_hours: 3

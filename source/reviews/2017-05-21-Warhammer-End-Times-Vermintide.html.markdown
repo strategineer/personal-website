@@ -1,6 +1,7 @@
 ---
 title: Warhammer End Times - Vermintide 
 blog: reviews
+category: video-game
 date: 2017-05-21
 tags: PC, thumbs_up
 playtime_hours: 63

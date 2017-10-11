@@ -1,6 +1,7 @@
 ---
 title: Transistor
 blog: reviews
+category: video-game
 date: 2017-08-19
 tags: PC, thumbs_up
 playtime_hours: 5

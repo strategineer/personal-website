@@ -1,6 +1,7 @@
 ---
 title: Hollow Knight 
 blog: reviews
+category: video-game
 date: 2017-05-27
 tags: PC, thumbs_up
 playtime_hours: 18

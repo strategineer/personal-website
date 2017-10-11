@@ -1,5 +1,13 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
+# config.rb
+activate :robots, 
+  :rules => [
+    {:user_agent => 'Googlebot', :allow => %w(/)},
+    {:user_agent => 'Googlebot-Image', :allow => %w(/)},
+    {:user_agent => '*', :disallow => %w(/)}
+  ],
+  :sitemap => "http://localhost:4567/__middleman/sitemap/"
 
 activate :blog do |blog|
     # This will add a prefix to all links, template references and source paths
@@ -52,7 +60,35 @@ activate :blog do |blog|
     blog.page_link = "page/{num}"
 end
 
-page "/feed.xml", layout: false
+activate :blog do |blog|
+    # This will add a prefix to all links, template references and source paths
+    blog.name = "games"
+    blog.prefix = "games"
+
+    blog.permalink = "{year}/{month}/{day}/{title}.html"
+    # Matcher for blog source files
+    blog.sources = "{year}-{month}-{day}-{title}.html"
+    blog.taglink = "tags/{tag}.html"
+    blog.layout = "blogpost_game"
+    # blog.summary_separator = /(READMORE)/
+    # blog.summary_length = 250
+    blog.year_link = "{year}.html"
+    blog.month_link = "{year}/{month}.html"
+    blog.day_link = "{year}/{month}/{day}.html"
+    blog.default_extension = ".markdown"
+
+    blog.tag_template = "tag.html"
+    blog.calendar_template = "calendar.html"
+
+    # Enable pagination
+    blog.paginate = true
+    blog.per_page = 10
+    blog.page_link = "page/{num}"
+end
+
+page "feeds/blog.xml", layout: false
+page "feeds/games.xml", layout: false
+page "feeds/reviews.xml", layout: false
 # Reload the browser automatically whenever files change
 configure :development do
     activate :livereload
@@ -74,11 +110,11 @@ page '/*.txt', layout: false
 page 'about.html', :layout => 'about'
 page 'blog.html', :layout => 'blog_blog'
 page 'reviews.html', :layout => 'blog_reviews'
-page 'games.html', :layout => 'games'
+page 'games.html', :layout => 'blog_games'
 page 'resume.html', :layout => 'resume'
 page '/blog/*', :layout => 'blogpost_blog'
 page '/reviews/*', :layout => 'blogpost_review'
-page '/games/*', :layout => 'game'
+page '/games/*', :layout => 'blogpost_game'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/

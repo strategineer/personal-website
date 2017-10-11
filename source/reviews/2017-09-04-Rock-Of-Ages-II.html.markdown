@@ -1,6 +1,7 @@
 ---
 title: Rock of Ages II
 blog: reviews
+category: video-game
 date: 2017-09-04
 tags: PC, thumbs_up
 playtime_hours: 8

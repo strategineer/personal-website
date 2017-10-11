@@ -2,6 +2,7 @@
     <h1>
         <%= current_page.data.title %> Review
     </h1>
+    <%= link_to "Store Link", current_page.data.store_link %>
     <p>playtime: <%= current_page.data.playtime_hours %>h</p>
     <p>
         <% if current_article.tags.include?('thumbs_up') %>

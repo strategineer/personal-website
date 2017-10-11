@@ -7,6 +7,7 @@
 
         <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
         <%= stylesheet_link_tag "site" %>
+        <%= partial "js_include" %>
         <%= javascript_include_tag "site" %>
         <%= feed_tag :atom, "#{blog('blog').options.prefix.to_s}/feed.xml", title: "Atom Feed - Blog" %>
     </head>

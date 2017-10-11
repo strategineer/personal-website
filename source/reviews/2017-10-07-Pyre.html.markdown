@@ -1,6 +1,7 @@
 ---
 title: Pyre
 blog: reviews
+category: video-game
 date: 2017-10-07
 tags: PC, thumbs_up
 playtime_hours: 11

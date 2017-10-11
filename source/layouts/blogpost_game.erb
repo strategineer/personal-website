@@ -1,0 +1,10 @@
+<% wrap_layout :layout do %>
+    <h1>
+        <%= current_page.data.title %> Game
+    </h1>
+    <%= link_to "Play", current_page.data.play_link %>
+    <p>engine: <%= current_page.data.engine %></p>
+    <p>languages: <%= current_page.data.languages %></p>
+    <p>platforms: <%= current_page.data.platforms %></p>
+    <%= yield %>
+<% end %>

@@ -1,6 +1,7 @@
 ---
 title: The Nonary Games
 blog: reviews
+category: video-game
 date: 2017-09-10
 tags: PC, thumbs_up
 playtime_hours: 73

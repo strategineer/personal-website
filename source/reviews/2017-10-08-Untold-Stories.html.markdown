@@ -1,6 +1,7 @@
 ---
 title: Untold Stories
 blog: reviews
+category: video-game
 date: 2017-10-08
 tags: PC, thumbs_up
 playtime_hours: 4
