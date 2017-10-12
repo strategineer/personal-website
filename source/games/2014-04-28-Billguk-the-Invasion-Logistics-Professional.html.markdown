@@ -1,11 +1,14 @@
 ---
-title: Billguk the Invasion Logistics Professional
+title: Invasion Logistics Pro
 blog: games
 date: 2014-04-28
-tags: Unity, Ludum Dare
+tags: Unity, csharp, Ludum Dare
 engine: Unity
 languages: C#
 platforms: PC
+thumbnail: billguk.png
+screenshots:
+videos:
 play_link:
 ---
 ...

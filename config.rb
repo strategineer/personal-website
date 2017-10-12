@@ -26,8 +26,8 @@ activate :blog do |blog|
     blog.day_link = "{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
-    blog.tag_template = "tag.html"
-    blog.calendar_template = "calendar.html"
+    blog.tag_template = "tags/blog.html"
+    blog.calendar_template = "calendars/blog.html"
 
     # Enable pagination
     blog.paginate = true
@@ -51,8 +51,8 @@ activate :blog do |blog|
     blog.day_link = "{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
-    blog.tag_template = "tag.html"
-    blog.calendar_template = "calendar.html"
+    blog.tag_template = "tags/reviews.html"
+    blog.calendar_template = "calendars/reviews.html"
 
     # Enable pagination
     blog.paginate = true
@@ -77,13 +77,11 @@ activate :blog do |blog|
     blog.day_link = "{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
-    blog.tag_template = "tag.html"
-    blog.calendar_template = "calendar.html"
+    blog.tag_template = "tags/games.html"
+    blog.calendar_template = "calendars/games.html"
 
     # Enable pagination
-    blog.paginate = true
-    blog.per_page = 10
-    blog.page_link = "page/{num}"
+    blog.paginate = false
 end
 
 page "feeds/blog.xml", layout: false
@@ -112,9 +110,6 @@ page 'blog.html', :layout => 'blog_blog'
 page 'reviews.html', :layout => 'blog_reviews'
 page 'games.html', :layout => 'blog_games'
 page 'resume.html', :layout => 'resume'
-page '/blog/*', :layout => 'blogpost_blog'
-page '/reviews/*', :layout => 'blogpost_review'
-page '/games/*', :layout => 'blogpost_game'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/

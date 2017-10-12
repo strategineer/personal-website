@@ -1,0 +1,19 @@
+---
+title: Bill C. Tyros
+blog: games
+---
+<% wrap_layout :blog_games do %>
+    <% page_articles.each do |article| %>
+        <div class="col-xs-6 col-sm-3">
+            <div class="card">
+                <a href="<%= article.url %>">
+                    <img class="card-img-top" src="/images/games/thumbnail/<%= article.data.thumbnail %>" alt="<%= article.title + " Thumbnail" %>" >
+                    <div class="card-body">
+                        <h5 class="card-title"><%= article.title %></h4>
+                        <p class="card-text"><%= "(" + article.data.platforms + ") - " + article.data.engine + ", " + article.data.languages%></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    <% end %>
+<% end %>

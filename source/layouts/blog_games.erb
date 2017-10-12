@@ -8,38 +8,55 @@
         <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
         <%= partial "css_include" %>
         <%= stylesheet_link_tag "site" %>
+        <%= stylesheet_link_tag "album" %>
         <%= javascript_include_tag "site" %>
         <%= feed_tag :atom, "#{blog('games').options.prefix.to_s}/feed.xml", title: "Atom Feed - Reviews" %>
     </head>
     <body>
+        <%= partial "header" %>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar">
+                    <% if defined? tagname %>
+                        <h3><%= "Games tagged " + tagname %></h3>
+                    <% end %>
+                    <% if defined? page_type and (page_type == 'day' or page_type == 'month' or page_type == 'year' ) %>
+                        <h3>Archive for
+                          <% case page_type
+                             when 'day' %>
+                            <%= Date.new(year, month, day).strftime('%b %e %Y') %>
+                          <% when 'month' %>
+                            <%= Date.new(year, month, 1).strftime('%b %Y') %>
+                          <% when 'year' %>
+                            <%= year %>
+                          <% end %>
+                        </h3>
+                    <% end %>
+                    <%= link_to "All Games", "/games.html" %>
+                    <h4>Tags</h4>
+                    <ol>
+                        <% blog('games').tags.each do |tag, articles| %>
+                            <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+                        <% end %>
+                    </ol>
 
-        <div id="main" role="main">
-            <%= partial "header" %>
-            <%= yield %>
+                    <h4>By Year</h4>
+                    <ol>
+                        <% blog('games').articles.group_by {|a| a.date.year }.each do |year, articles| %>
+                            <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+                        <% end %>
+                    </ol>
+                </div>
+                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                    <div class="album text-muted">
+                        <div class="row">
+                            <%= yield %>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <aside>
-            <h2>Recent Games</h2>
-            <ol>
-                <% blog('games').articles[0...10].each do |article| %>
-                    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
-                <% end %>
-            </ol>
-
-            <h2>Tags</h2>
-            <ol>
-                <% blog('games').tags.each do |tag, articles| %>
-                    <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-                <% end %>
-            </ol>
-
-            <h2>By Year</h2>
-            <ol>
-                <% blog('games').articles.group_by {|a| a.date.year }.each do |year, articles| %>
-                    <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-                <% end %>
-            </ol>
-        </aside>
         <%= partial "js_include" %>
     </body>
 </html>

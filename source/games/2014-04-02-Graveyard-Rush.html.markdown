@@ -6,6 +6,9 @@ tags: haxe, flixel
 engine: Flixel
 languages: Haxe
 platforms: PC
+thumbnail: test.jpg
+screenshots:
+videos:
 play_link:
 ---
 ...

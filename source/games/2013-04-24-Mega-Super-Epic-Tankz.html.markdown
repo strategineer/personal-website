@@ -6,6 +6,9 @@ tags: Torque2D
 engine: Torque2D
 languages: TorqueScript
 platforms: PC
+thumbnail: mest.png
+screenshots:
+videos:
 play_link:
 ---
 ...

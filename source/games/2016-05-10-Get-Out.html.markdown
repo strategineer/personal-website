@@ -2,10 +2,13 @@
 title: Get Out
 blog: games
 date: 2016-05-10
-tags: Unreal Engine, DDJV
+tags: Unreal, cpp, DDJV
 engine: Unreal Engine
 languages: C++
 platforms: PC
+thumbnail: test.jpg
+screenshots:
+videos:
 play_link:
 ---
 ...

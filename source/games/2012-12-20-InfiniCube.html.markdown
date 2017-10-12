@@ -6,6 +6,9 @@ tags: python
 engine: pygame
 languages: Python
 platforms: PC
+thumbnail: infinicube.png
+screenshots:
+videos:
 play_link:
 ---
 ...
