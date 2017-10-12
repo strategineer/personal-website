@@ -22,11 +22,10 @@ module CustomHelpers
             if File.file?("#{source_images_path}/#{file}")
                 name = File.basename(file, File.extname(file))
                 screenshot_path = "#{images_path}/#{file}"
-                thumbnail_path = "#{images_path}/thumbnails/#{file}"
-                next_data = OpenStruct.new(:name => name, :screenshot_path => screenshot_path, :thumbnail_path => thumbnail_path)
+                next_data = OpenStruct.new(:name => name, :screenshot_path => screenshot_path)
                 res.push(next_data)
             end
         end
         return res
-    end 
+    end
 end

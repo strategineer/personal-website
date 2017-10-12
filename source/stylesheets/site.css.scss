@@ -10,10 +10,10 @@ body {
 }
 
 a {
-    color: rgba(#000, 0.7);
+    color: rgba(#000, 0.6);
 
     &:focus,
     &:hover {
-        color: rgba(#000, 0.6);
+        color: rgba(#000, 0.3);
     }
 }

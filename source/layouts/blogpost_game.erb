@@ -1,12 +1,8 @@
 <% wrap_layout :layout do %>
-    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-        <div class="slides"></div>
-        <h3 class="title"></h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <a class="play-pause"></a>
-        <ol class="indicator"></ol>
+    <div id="gallery-links">
+        <% get_game_images(current_article).each do |data| %>
+            <a href="<%= data.screenshot_path %>" title="<%= data.name %>"></a>
+        <% end %>
     </div>
     <div class="container">
         <div class="row">
@@ -32,34 +28,37 @@
                 </div>
                 <%# video %>
                 <div class="row justify-content-center">
-                    <% columns_left = 12%>
+                    <% columns_left = 9 %>
                     <% unless current_article.data.youtube_video_id.nil? %>
                         <div class="col-lg-6">
-                            <div class="row justify-content-center justify-content-lg-end">
-                                <iframe width=560 height=340 src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            <div class="row align-items-center justify-content-center justify-content-lg-end">
+                                <div class="col">
+                                    <iframe width=512 height=288 src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                         <% columns_left = 6 %>
                     <% end %>
                     <%# images %>
-                    <div class="col-lg-<%= columns_left %>" id="lightbox-links">
-                        <div class="row align-items-center justify-content-center justify-content-lg-start" style="height: 100%">
-                            <% get_game_images(current_article).each do |data| %>
-                                <div class="col-2">
-                                    <a href="<%= data.screenshot_path %>" title="<%= data.name %>">
-                                        <img src="<%= data.thumbnail_path %>" alt="<%= data.name %>">
-                                    </a>
-                                </div>
-                            <% end %>
+                    <div class="col-12 col-lg-<%= columns_left %>">
+                        <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+                            <div class="slides"></div>
+                            <h3 class="title"></h3>
+                            <a class="prev">‹</a>
+                            <a class="next">›</a>
+                            <a class="play-pause"></a>
+                            <ol class="indicator"></ol>
                         </div>
                     </div>
                 </div>
-                <%# play link %>
-                <div class="row justify-content-center">
-                    <h2>
-                        <%= link_to "Play Now", current_page.data.play_link %>
-                    </h2>
-                </div>
+                <% unless current_page.data.play_url.nil? %>
+                    <%# play link %>
+                    <div class="row justify-content-center">
+                        <h2>
+                            <%= link_to "Play Now", current_page.data.play_url %>
+                        </h2>
+                    </div>
+                <% end %>
                 <%# text %>
                 <div class="row justify-content-center">
                     <%= yield %>

@@ -9,4 +9,7 @@ platforms: PC
 youtube_video_id:
 play_url:
 ---
-...
+- 3D Online multiplayer FPS (Client-Server).
+- Gameplay and networking programmer as well as Scrum master.
+- Implemented an API for managing and drawing a gameplay timeline for each player
+- Team of six programmers

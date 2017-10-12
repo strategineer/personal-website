@@ -9,4 +9,5 @@ platforms: PC
 youtube_video_id:
 play_url:
 ---
-...
+- 2D turn-based strategy online multiplayer game (Client-Server).
+- Implemented the game client (Graphics, UI, SDL integration).

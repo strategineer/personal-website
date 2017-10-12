@@ -9,4 +9,4 @@ platforms: PC
 youtube_video_id: GaEUUxbzzHw
 play_url:
 ---
-...
+- 2D 2P arena duel game.

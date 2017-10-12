@@ -9,4 +9,4 @@ platforms: PC
 youtube_video_id:
 play_url:
 ---
-...
+- 2D shmup with no shooting

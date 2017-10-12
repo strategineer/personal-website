@@ -1,7 +1,7 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 # config.rb
-activate :robots, 
+activate :robots,
   :rules => [
     {:user_agent => 'Googlebot', :allow => %w(/)},
     {:user_agent => 'Googlebot-Image', :allow => %w(/)},
@@ -105,11 +105,9 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 
-page 'about.html', :layout => 'about'
 page 'blog.html', :layout => 'blog_blog'
 page 'reviews.html', :layout => 'blog_reviews'
 page 'games.html', :layout => 'blog_games'
-page 'resume.html', :layout => 'resume'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
