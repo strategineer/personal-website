@@ -6,9 +6,7 @@ tags: SDL2, cpp
 engine: Custom (SDL2)
 languages: C++
 platforms: PC
-thumbnail: test.jpg
-screenshots:
-videos:
-play_link:
+youtube_video_id:
+play_url:
 ---
 ...

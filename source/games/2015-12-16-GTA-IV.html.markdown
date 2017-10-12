@@ -6,9 +6,7 @@ tags: DDJV
 engine: Custom
 languages: C++
 platforms: PC
-thumbnail: test.jpg
-screenshots:
-videos:
-play_link:
+youtube_video_id:
+play_url:
 ---
 ...

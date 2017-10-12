@@ -6,7 +6,7 @@ blog: games
     <div class="col-xs-6 col-sm-3">
         <div class="card">
             <a href="<%= article.url %>">
-                <img class="card-img-top" src="/images/games/thumbnail/<%= article.data.thumbnail %>" alt="<%= article.title + " Thumbnail" %>" >
+                <img class="card-img-top" src="<%=  get_game_primary_thumbnail_path(article) %>" alt="<%= article.title + " Thumbnail" %>" >
                 <div class="card-body">
                     <h5 class="card-title"><%= article.title %></h4>
                     <p class="card-text"><%= "(" + article.data.platforms + ") - " + article.data.engine + ", " + article.data.languages%></p>

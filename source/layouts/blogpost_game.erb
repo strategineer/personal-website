@@ -1,10 +1,46 @@
 <% wrap_layout :layout do %>
-    <h1>
-        <%= current_page.data.title %> Game
-    </h1>
-    <%= link_to "Play", current_page.data.play_link %>
-    <p>engine: <%= current_page.data.engine %></p>
-    <p>languages: <%= current_page.data.languages %></p>
-    <p>platforms: <%= current_page.data.platforms %></p>
-    <%= yield %>
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <h1>
+                <%= current_article.title %>
+            </h1>
+        </div>
+        <div class="row">
+            <% unless current_article.data.youtube_video_id.nil? %>
+                <div class="col-xs-6">
+                    <iframe width=800 height=450 src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <% columns_left = 6 %>
+            <% else %>
+                <% columns_left = 12 %>
+            <% end %>
+            <div id="lightbox-links" class="col-xs-<%= columns_left %>">
+                <% get_game_images(current_article).each do |data| %>
+                    <a href="<%= data.screenshot_path %>" title="<%= data.name %>">
+                        <img src="<%= data.thumbnail_path %>" alt="<%= data.name %>">
+                    </a>
+                <% end %>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-xs-4">
+                <%= link_to "Play", current_page.data.play_link %>
+                <p>engine: <%= current_page.data.engine %></p>
+                <p>languages: <%= current_page.data.languages %></p>
+                <p>platforms: <%= current_page.data.platforms %></p>
+            </div>
+            <div class="col-xs-8">
+                <%= yield %>
+            </div>
+        </div>
+    </div>
 <% end %>

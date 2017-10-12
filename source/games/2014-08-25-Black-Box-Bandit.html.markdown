@@ -6,9 +6,7 @@ tags: Unity, csharp, Ludum Dare
 engine: Unity
 languages: C#
 platforms: PC
-thumbnail: test.jpg
-screenshots:
-videos:
-play_link:
+youtube_video_id:
+play_url:
 ---
 ...

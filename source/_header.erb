@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
             <% ['about', 'blog', 'games', 'reviews', 'resume'].each do |page| %>
-                <% if current_page.path.end_with?("#{page}.html") %>
+                <% if current_page.path.include?("#{page}") %>
                     <li class="nav-item active">
                 <% else %>
                     <li class="nav-item">
