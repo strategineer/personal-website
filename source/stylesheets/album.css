@@ -1,6 +1,5 @@
 .album {
 }
-
 .card {
   float: left;
   margin-bottom: 1rem;
@@ -8,6 +7,9 @@
   text-align: center;
 }
 
+.card-body {
+    background: #FFD670;
+}
 .card h5 {
   margin-bottom: 0;
 }
