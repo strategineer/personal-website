@@ -13,6 +13,17 @@ module CustomHelpers
         glob = Dir.glob("#{source_thumbnail_path}/thumbnail.*")
         return "#{thumbnail_path}/#{File.basename(glob[0])}"
     end
+    def has_game_images?(article)
+        id = get_article_id(current_article)
+        images_path = "/images/games/#{id}/screenshots"
+        source_images_path = "source#{images_path}"
+        Dir.foreach(source_images_path) do |file|
+            if File.file?("#{source_images_path}/#{file}")
+                return true
+            end
+        end
+        return false
+    end
     def get_game_images(article)
         res = []
         id = get_article_id(current_article)

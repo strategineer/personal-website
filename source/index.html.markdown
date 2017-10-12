@@ -5,7 +5,7 @@ Hi! I'm Bill, I'm a programmer and I make games!
 
 Take a look at them [games](/games.html)
 
-You can contact me by email at tyros.bill@gmail.com
+You can contact me by email at <tyros.bill@gmail.com>
 
 You can find me on these platforms:
 

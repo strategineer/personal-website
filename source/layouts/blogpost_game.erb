@@ -26,31 +26,36 @@
                         <p>platforms: <%= current_page.data.platforms %></p>
                     </div>
                 </div>
-                <%# video %>
-                <div class="row justify-content-center">
-                    <% columns_left = 9 %>
-                    <% unless current_article.data.youtube_video_id.nil? %>
-                        <div class="col-lg-6">
-                            <div class="row align-items-center justify-content-center justify-content-lg-end">
-                                <div class="col">
-                                    <iframe width=512 height=288 src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <%# video and images %>
+                <% has_video = !current_article.data.youtube_video_id.nil? %>
+                <% has_images = has_game_images?(current_article) %>
+                <% if has_video or has_images %>
+                    <div class="row justify-content-center">
+                        <% columns_left = 9 %>
+                        <% if has_video %>
+                            <div class="col-lg-6">
+                                <div class="row align-items-center justify-content-center justify-content-lg-end">
+                                    <div class="col">
+                                        <iframe width=512 height=288 src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <% columns_left = 6 %>
-                    <% end %>
-                    <%# images %>
-                    <div class="col-12 col-lg-<%= columns_left %>">
-                        <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
-                            <div class="slides"></div>
-                            <h3 class="title"></h3>
-                            <a class="prev">‹</a>
-                            <a class="next">›</a>
-                            <a class="play-pause"></a>
-                            <ol class="indicator"></ol>
-                        </div>
+                            <% columns_left = 6 %>
+                        <% end %>
+                        <% if has_images %>
+                            <div class="col-12 col-lg-<%= columns_left %>">
+                                <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+                                    <div class="slides"></div>
+                                    <h3 class="title"></h3>
+                                    <a class="prev">‹</a>
+                                    <a class="next">›</a>
+                                    <a class="play-pause"></a>
+                                    <ol class="indicator"></ol>
+                                </div>
+                            </div>
+                        <% end %>
                     </div>
-                </div>
+                <% end %>
                 <% unless current_page.data.play_url.nil? %>
                     <%# play link %>
                     <div class="row justify-content-center">
