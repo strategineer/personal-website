@@ -8,38 +8,62 @@
         <a class="play-pause"></a>
         <ol class="indicator"></ol>
     </div>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <h1>
-                <%= current_article.title %>
-            </h1>
-        </div>
-        <div class="row">
-            <% unless current_article.data.youtube_video_id.nil? %>
-                <div class="col-xs-6">
-                    <iframe width=800 height=450 src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <%# left %>
+            <div class="col">
+                <%# title %>
+                <div class="row justify-content-center">
+                    <h1>
+                        <%= current_article.title %>
+                    </h1>
                 </div>
-                <% columns_left = 6 %>
-            <% else %>
-                <% columns_left = 12 %>
-            <% end %>
-            <div id="lightbox-links" class="col-xs-<%= columns_left %>">
-                <% get_game_images(current_article).each do |data| %>
-                    <a href="<%= data.screenshot_path %>" title="<%= data.name %>">
-                        <img src="<%= data.thumbnail_path %>" alt="<%= data.name %>">
-                    </a>
-                <% end %>
-            </div>
-        </div>
-        <div class="row" >
-            <div class="col-xs-4">
-                <%= link_to "Play", current_page.data.play_link %>
-                <p>engine: <%= current_page.data.engine %></p>
-                <p>languages: <%= current_page.data.languages %></p>
-                <p>platforms: <%= current_page.data.platforms %></p>
-            </div>
-            <div class="col-xs-8">
-                <%= yield %>
+                <%# data %>
+                <div class="row justify-content-center">
+                    <div class="col-4 col-lg-auto">
+                        <p>engine: <%= current_page.data.engine %></p>
+                    </div>
+                    <div class="col-4 col-lg-auto">
+                        <p>languages: <%= current_page.data.languages %></p>
+                    </div>
+                    <div class="col-4 col-lg-auto">
+                        <p>platforms: <%= current_page.data.platforms %></p>
+                    </div>
+                </div>
+                <%# video %>
+                <div class="row justify-content-center">
+                    <% columns_left = 12%>
+                    <% unless current_article.data.youtube_video_id.nil? %>
+                        <div class="col-lg-6">
+                            <div class="row justify-content-center justify-content-lg-end">
+                                <iframe width=560 height=340 src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <% columns_left = 6 %>
+                    <% end %>
+                    <%# images %>
+                    <div class="col-lg-<%= columns_left %>" id="lightbox-links">
+                        <div class="row align-items-center justify-content-center justify-content-lg-start" style="height: 100%">
+                            <% get_game_images(current_article).each do |data| %>
+                                <div class="col-2">
+                                    <a href="<%= data.screenshot_path %>" title="<%= data.name %>">
+                                        <img src="<%= data.thumbnail_path %>" alt="<%= data.name %>">
+                                    </a>
+                                </div>
+                            <% end %>
+                        </div>
+                    </div>
+                </div>
+                <%# play link %>
+                <div class="row justify-content-center">
+                    <h2>
+                        <%= link_to "Play Now", current_page.data.play_link %>
+                    </h2>
+                </div>
+                <%# text %>
+                <div class="row justify-content-center">
+                    <%= yield %>
+                </div>
             </div>
         </div>
     </div>
