@@ -18,7 +18,7 @@
         <% end %>
         <%= yield_content :head %>
     </head>
-    <body>
+    <body class="<%= page_classes %>">
         <%= partial "header" %>
         <% if content_for?(:sidebar) %>
             <div class="container-fluid">
