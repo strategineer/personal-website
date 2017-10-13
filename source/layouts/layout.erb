@@ -6,7 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Bill C. Tyros<%= ' - ' + current_article.title unless current_article.nil? %></title>
-        <%= partial "css_include" %>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+        <%# HACK BEGIN this should only be included in game pages %>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.27.1/css/blueimp-gallery.min.css" rel="stylesheet" >
+        <%# HACK END %>
+
         <%= stylesheet_link_tag "site" %>
         <% if content_for?(:sidebar) %>
             <%= stylesheet_link_tag "sidebar" %>
@@ -22,7 +27,7 @@
                     <div class="col-sm-3 col-md-2 sidebar">
                         <%= yield_content :sidebar %>
                     </div>
-                    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                    <div class="col-12 col-md-10 col-md-offset-2 main">
                         <%= yield %>
                     </div>
                 </div>
@@ -30,6 +35,23 @@
         <% else %>
             <%= yield %>
         <% end %>
-        <%= partial "js_include" %>
+        <script type="text/javascript" src="http://livejs.com/live.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+        <%# HACK BEGIN this should only be included in game pages %>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.27.1/js/blueimp-gallery.min.js"></script>
+        <script>
+        blueimp.Gallery(
+            document.getElementById('gallery-links').getElementsByTagName('a'),
+            {
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            }
+        );
+        </script>
+        <%# HACK END %>
+
     </body>
 </html>
