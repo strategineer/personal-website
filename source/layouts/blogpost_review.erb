@@ -5,18 +5,36 @@
     <% content_for :sidebar do %>
         <%= partial "sidebar_reviews" %>
     <% end %>
-    <h1>
-        <%= current_page.data.title %> Review
-    </h1>
-    <%= link_to "Store Link", current_page.data.store_link %>
-    <p>category: <%= current_page.data.category %></p>
-    <p>playtime: <%= current_page.data.playtime_hours %>h</p>
-    <p>
-        <% if current_article.tags.include?('thumbs_up') %>
-            thumbs up
-        <% else %>
-            thumbs down
-        <% end %>
-    </p>
-    <%= yield %>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>
+                <%= current_page.data.title %> Review
+            </h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>category: <%= current_page.data.category %></p>
+            </div>
+            <div class="col-auto">
+                <p>playtime: <%= current_page.data.playtime_hours %>h</p>
+            </div>
+            <% unless current_page.data.store_link.nil? %>
+                <div class="col-auto">
+                    <%= link_to "Store Link", current_page.data.store_link %>
+                </div>
+            <% end %>
+        </div>
+        <div class="row justify-content-center">
+            <p>
+                <% if current_article.tags.include?('thumbs_up') %>
+                    thumbs up
+                <% else %>
+                    thumbs down
+                <% end %>
+            </p>
+        </div>
+        <div class="row justify-content-center">
+            <%= yield %>
+        </div>
+    </div>
 <% end %>
