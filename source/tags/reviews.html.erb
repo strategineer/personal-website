@@ -4,7 +4,7 @@ per_page: 12
 blog: reviews
 ---
 <% content_for :header do %>
-    <%= feed_tag :atom, "#{blog('reviews').options.prefix.to_s}/feed.xml", title: "Atom Feed - Reviews" %>
+    <%= partial "feed_reviews" %>
 <% end %>
 <% content_for :sidebar do %>
     <%= partial "sidebar_reviews" %>

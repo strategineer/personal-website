@@ -4,7 +4,7 @@ blog: games
 ---
 <% content_for :header do %>
     <%= stylesheet_link_tag "album" %>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed - Games" %>
+    <%= partial "feed_games" %>
 <% end %>
 <% content_for :sidebar do %>
     <%= partial "sidebar_games" %>
