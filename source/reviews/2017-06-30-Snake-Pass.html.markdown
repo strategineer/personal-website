@@ -7,13 +7,13 @@ tags: PC, thumbs_up
 playtime_hours: 8
 store_link: http://store.steampowered.com/app/544330/Snake_Pass/
 pros:
-    - Controlling Noodle is a unique and fun experience and learning to control him well is very rewarding.
-    - Gameplay is quite simple and relaxing consisting of you exploring a level, solving environmental puzzles and performing cool moves to collect collectables.
-    - Additional obstacles and puzzle elements are added over the course of the game which keeps the game interesting as you go along.
-    - Art is cartoony and clean.
+    - "Controlling Noodle is a unique and fun experience and learning to control him well is very rewarding."
+    - "Gameplay is quite simple and relaxing consisting of you exploring a level, solving environmental puzzles and performing cool moves to collect collectables."
+    - "Additional obstacles and puzzle elements are added over the course of the game which keeps the game interesting as you go along."
+    - "Art is cartoony and clean."
 cons:
-    - Music is okay but can get quite repetitive because the same songs will end up looping each for an hour or two.
-outro: If you're looking to play a relaxing and rewarding platformer with a unique control scheme then you can hardly go wrong with Snake Pass.
+    - "Music is okay but can get quite repetitive because the same songs will end up looping each for an hour or two."
+outro: "If you're looking to play a relaxing and rewarding platformer with a unique control scheme then you can hardly go wrong with Snake Pass."
 ---
 In Snake Pass, you play the role of Noodle, a lazy snake basking in the sun when suddenly he must go on an adventure to save the world.
 

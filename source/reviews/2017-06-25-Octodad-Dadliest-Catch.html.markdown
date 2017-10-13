@@ -7,12 +7,12 @@ tags: PC, thumbs_up
 playtime_hours: 3
 store_link: http://store.steampowered.com/app/224480/Octodad_Dadliest_Catch/
 pros:
-    - Puzzles are quite varied and most require some thinking and/or decent control over Octodad to complete.
-    - Unique control scheme makes moving Octodad around a joy to do.
-    - Story and VO will make you laugh or smile at the least.
-    - Cartoony visuals mesh well with the gameplay and the story.
+    - "Puzzles are quite varied and most require some thinking and/or decent control over Octodad to complete."
+    - "Unique control scheme makes moving Octodad around a joy to do."
+    - "Story and VO will make you laugh or smile at the least."
+    - "Cartoony visuals mesh well with the gameplay and the story."
 cons:
-    - Short (game can be finished in around 2h).
+    - "Short (game can be finished in around 2h)."
 outro:
 ---
 In Octodad: Dadliest Catch, you play the role of Octodad who must go through his day to day life with his wife and kids and avoid being found out for what he truly is, an octopus.

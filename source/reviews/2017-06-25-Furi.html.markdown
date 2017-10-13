@@ -7,14 +7,14 @@ tags: PC, thumbs_up
 playtime_hours: 7
 store_link: http://store.steampowered.com/app/423230/Furi/
 pros:
-    - Tough but fair gameplay.
-    - Bosses are a blast to fight against and vary greatly in their design.
-    - Environments and characters are visually unique and interesting to look at.
-    - Story is intriguing and keeps you interested from fight to fight.
-    - Soundtrack is a great mix of tracks from different artists with a cohesive sound.
-    - VO is fully done in English, French and Japanese. I listened to the English VO and it was quite good.
+    - "Tough but fair gameplay."
+    - "Bosses are a blast to fight against and vary greatly in their design."
+    - "Environments and characters are visually unique and interesting to look at."
+    - "Story is intriguing and keeps you interested from fight to fight."
+    - "Soundtrack is a great mix of tracks from different artists with a cohesive sound."
+    - "VO is fully done in English, French and Japanese. I listened to the English VO and it was quite good."
 cons:
-    - Some relatively important info isn't given the player (for example, pressing A in between boss fights will make the Stranger walk along the path to the next fight automatically, also, LB acts an alternative dodge button that is more optimal than the default A that is shown in the tutorial).
+    - "Some relatively important info isn't given the player (for example, pressing A in between boss fights will make the Stranger walk along the path to the next fight automatically, also, LB acts an alternative dodge button that is more optimal than the default A that is shown in the tutorial)."
 outro:
 ---
 In Furi, you play the role of a mysterious katana wielding prisoner named the Stranger who breaks out of his cell and ventures forth to fight his jailers, one by one.

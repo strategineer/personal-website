@@ -63,10 +63,6 @@ end
 page "feeds/games.xml", layout: false
 page "feeds/reviews.xml", layout: false
 
-# Reload the browser automatically whenever files change
-configure :development do
-    activate :livereload
-end
 #
 activate :autoprefixer do |prefix|
     prefix.browsers = "last 2 versions"
@@ -103,8 +99,14 @@ page '/*.txt', layout: false
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
+# Reload the browser automatically whenever files change
+configure :development do
+    activate :livereload
+end
 
 configure :build do
     activate :minify_css
     activate :minify_javascript
 end
+
+set :build_dir, 'C:\mongoose_server'

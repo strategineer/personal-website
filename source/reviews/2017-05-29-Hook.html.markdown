@@ -8,6 +8,6 @@ playtime_hours: 2
 store_link: http://store.steampowered.com/app/367580/Hook/
 pros:
 cons:
-outro: If you're a fan of puzzle games, you can't go wrong with Hook.
+outro: "If you're a fan of puzzle games, you can't go wrong with Hook."
 ---
 Hook is a short (1-2h) and relaxing minimalist puzzle game with an interesting core mechanic that is expanded upon progressively in each of the 50 levels.
