@@ -14,12 +14,11 @@
                 </h1>
             </div>
             <div class="row justify-content-center">
-                <div class="col-auto">
-                    <p>category: <%= current_page.data.category %></p>
-                </div>
-                <div class="col-auto">
-                    <p>playtime: <%= current_page.data.playtime_hours %>h</p>
-                </div>
+                <% unless current_page.data.playtime_hours.nil? %>
+                    <div class="col-auto">
+                        <p>playtime: <%= current_page.data.playtime_hours %>h</p>
+                    </div>
+                <% end %>
                 <% unless current_page.data.store_link.nil? %>
                     <div class="col-auto">
                         <%= link_to "Play Now", current_page.data.store_link %>

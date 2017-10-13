@@ -13,7 +13,7 @@ activate :blog do |blog|
     blog.name = "reviews"
     blog.prefix = "reviews"
 
-    blog.permalink = "{year}/{month}/{day}/{title}.html"
+    blog.permalink = "{category}/{year}/{month}/{day}/{title}.html"
     # Matcher for blog source files
     blog.sources = "{year}-{month}-{day}-{title}.html"
     blog.taglink = "tags/{tag}.html"
@@ -32,6 +32,13 @@ activate :blog do |blog|
     blog.paginate = true
     blog.per_page = 10
     blog.page_link = "page/{num}"
+
+    blog.custom_collections = {
+        category: {
+          link: '/categories/{category}.html',
+          template: 'reviews_category.html'
+        }
+      }
 end
 
 activate :blog do |blog|

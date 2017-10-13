@@ -1,0 +1,20 @@
+---
+title: Bill C. Tyros
+blog: reviews
+---
+<% content_for :head do %>
+    <%= partial "feed_reviews" %>
+<% end %>
+<% content_for :sidebar do %>
+    <%= partial "sidebar_reviews" %>
+<% end %>
+<div class="row justify-content-center">
+    <div class="col-12 col-sm-auto">
+        <h2><%= get_review_categories_data().find{ |x| x.category == category}.name %> Reviews</h2>
+        <ol>
+            <% blog.articles.select{ |x| x.data.category == category }.each do |article| %>
+                <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
+            <% end %>
+        </ol>
+    </div>
+</div>

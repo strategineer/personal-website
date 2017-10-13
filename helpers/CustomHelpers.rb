@@ -68,4 +68,17 @@ res <<
 }
         return res
     end
+
+    def get_review_categories_data()
+        res = []
+        articles = blog('reviews').articles
+        data.review_categories.each do |c|
+            name = c.name
+            category = c.category
+            count = articles.count{ |x| x.data['category'] == c.category };
+            next_data = OpenStruct.new(:name => name, :category => category, :count => count)
+            res.push(next_data)
+        end
+        return res
+    end
 end

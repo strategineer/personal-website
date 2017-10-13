@@ -1,3 +1,9 @@
 - 
-    tag: video-game
+    category: video-game
     name: Video Game
+- 
+    category: anime
+    name: Anime
+- 
+    category: novel
+    name: Novel

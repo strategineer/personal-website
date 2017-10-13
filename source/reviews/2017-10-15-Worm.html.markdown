@@ -1,0 +1,14 @@
+---
+title: Worm
+blog: reviews
+category: novel
+date: 2017-10-15
+tags: thumbs_up
+pros:
+    - "Sexy MC."
+cons:
+    - "Short but worth it."
+outro: "If you're looking for a great short anime horror experience then you can hardly go wrong with Worm."
+---
+Worm is a great short interactive horror experience.
+
