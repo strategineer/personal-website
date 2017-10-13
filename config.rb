@@ -1,6 +1,7 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 # config.rb
+
 activate :robots,
   :rules => [
     {:user_agent => 'Googlebot', :allow => %w(/)},
@@ -115,3 +116,4 @@ configure :build do
     activate :minify_css
     activate :minify_javascript
 end
+
