@@ -115,5 +115,3 @@ configure :build do
     activate :minify_css
     activate :minify_javascript
 end
-
-set :build_dir, 'C:\mongoose_server'
