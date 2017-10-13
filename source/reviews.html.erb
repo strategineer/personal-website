@@ -8,3 +8,15 @@ blog: reviews
 <% content_for :sidebar do %>
     <%= partial "sidebar_reviews" %>
 <% end %>
+<div class="row justify-content-center">
+    <% data.review_categories.each do |c| %>
+        <div class="col-12 col-sm-auto">
+            <h2><%= c.name %> Reviews</h2>
+            <ol>
+                <% blog.articles.select{ |x| x.data.category == c.tag }.each do |article| %>
+                    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
+                <% end %>
+            </ol>
+        </div>
+    <% end %>
+</div>

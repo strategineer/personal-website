@@ -6,20 +6,17 @@ date: 2017-09-04
 tags: PC, thumbs_up
 playtime_hours: 8
 store_link: http://store.steampowered.com/app/434460/Rock_of_Ages_2_Bigger__Boulder/
+pros:
+    - Rolling the boulder and avoiding obstacles placed by your opponent feels good and is easy to learn but hard to master.
+    - Placing defenses to stop and slow down your opponent's boulder is fun and requires a good amount strategy and tactics.
+    - Choosing your loading consisting of a choice of boulders and defenses at the start of a match allows you to focus on certain strategies depending on the level and on countering your opponent's choices.
+    - So much content; 15 levels that are truly different in how they play and look, 16 different boulders (most of which have unique characteristics and/or abilities) and 19 different defenses.
+    - Humour is expressed through the visuals, the voice acting and the gameplay and it's quite funny.
+    - Game can be enjoyed with a friend through the entire campaign locally and has various different modes of play locally and online.
+cons:
+    - Campaign might be a little too easy if you're playing against the AI and you're really good at life/games. I recommend playing against friends in 1v1 (local or online) or 2v2 (online) matches.
+outro:
 ---
 In Rock of Ages 2: Bigger and Boulder, you play the role of a historical figure trying to bust down an opponent's castle by rolling a boulder through a level whilst protecting your own castle from your opponent's boulder by placing various obstacles in his path.
 
 Rock of Ages 2: Bigger and Boulder is a fun mix of Rolling Ball and Tower Defense genres of games and is quite unique concept that is well-executed and is a blast to play with friends.
-
-## Pros
-
-- Rolling the boulder and avoiding obstacles placed by your opponent feels good and is easy to learn but hard to master.
-- Placing defenses to stop and slow down your opponent's boulder is fun and requires a good amount strategy and tactics.
-- Choosing your loading consisting of a choice of boulders and defenses at the start of a match allows you to focus on certain strategies depending on the level and on countering your opponent's choices.
-- So much content: 15 levels that are truly different in how they play and look, 16 different boulders (most of which have unique characteristics and/or abilities) and 19 different defenses.
-- Humour is expressed through the visuals, the voice acting and the gameplay and it's quite funny.
-- Game can be enjoyed with a friend through the entire campaign locally and has various different modes of play locally and online.
-
-## Cons
-
-- Campaign might be a little too easy if you're playing against the AI and you're really good at life/games. I recommend playing against friends in 1v1 (local or online) or 2v2 (online) matches.

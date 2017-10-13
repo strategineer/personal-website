@@ -7,34 +7,71 @@
     <% end %>
     <div class="container">
         <div class="row justify-content-center">
-            <h1>
-                <%= current_page.data.title %> Review
-            </h1>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-auto">
-                <p>category: <%= current_page.data.category %></p>
+        <div class="col-12 col-sm-11 col-md-10 col-lg-9">
+            <div class="row justify-content-center">
+                <h1>
+                    <%= current_page.data.title %> Review
+                </h1>
             </div>
-            <div class="col-auto">
-                <p>playtime: <%= current_page.data.playtime_hours %>h</p>
-            </div>
-            <% unless current_page.data.store_link.nil? %>
+            <div class="row justify-content-center">
                 <div class="col-auto">
-                    <%= link_to "Store Link", current_page.data.store_link %>
+                    <p>category: <%= current_page.data.category %></p>
+                </div>
+                <div class="col-auto">
+                    <p>playtime: <%= current_page.data.playtime_hours %>h</p>
+                </div>
+                <% unless current_page.data.store_link.nil? %>
+                    <div class="col-auto">
+                        <%= link_to "Play Now", current_page.data.store_link %>
+                    </div>
+                <% end %>
+            </div>
+            <div class="row justify-content-center">
+                <p>
+                    <% if current_article.tags.include?('thumbs_up') %>
+                        thumbs up
+                    <% else %>
+                        thumbs down
+                    <% end %>
+                </p>
+            </div>
+            <div class="row justify-content-center">
+                <%= yield %>
+            </div>
+            <% has_any_pros = !current_page.data.pros.nil? and current_page.data.pros.length > 0 %>
+            <% has_any_cons = !current_page.data.cons.nil? and current_page.data.cons.length > 0 %>
+            <% if has_any_pros or has_any_cons %>
+                <% if has_any_pros %>
+                    <div class="row justify-content-center">
+                        <h2>Pros</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <ul>
+                            <% current_page.data.pros.each do |pro| %>
+                                <li><%= pro %></li>
+                            <% end %>
+                        </ul>
+                    </div>
+                <% end %>
+                <% if has_any_cons %>
+                    <div class="row justify-content-center">
+                        <h2>Cons</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <ul>
+                            <% current_page.data.cons.each do |con| %>
+                                <li><%= con %></li>
+                            <% end %>
+                        </ul>
+                    </div>
+                <% end %>
+            <% end %>
+            <% unless current_page.data.outro.nil? %>
+                <div class="row justify-content-center">
+                    <%= current_page.data.outro %>
                 </div>
             <% end %>
         </div>
-        <div class="row justify-content-center">
-            <p>
-                <% if current_article.tags.include?('thumbs_up') %>
-                    thumbs up
-                <% else %>
-                    thumbs down
-                <% end %>
-            </p>
-        </div>
-        <div class="row justify-content-center">
-            <%= yield %>
         </div>
     </div>
 <% end %>

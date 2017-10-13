@@ -6,21 +6,16 @@ date: 2017-09-25
 tags: PC, thumbs_up
 playtime_hours: 30
 store_link: http://store.steampowered.com/app/362960/Tyranny/
+pros:
+    - Gameplay mechanics are fun and well designed (honed to perfection from Pillars of Destiny?).
+    - The setting of Tyranny is unique and fun to play in (perhaps due to how your decisions impact the world in a meaningful way).
+    - Companions are interesting and each has their own unique abilities and skill tree (no generic classes).
+    - Choices you make are meaningful and have a big impact on the story, your place within it and what you'll experience in the game.
+    - Magic system consisting of combining various sigils to produce "custom" spells is interesting and fun to experiment with.
+cons:
+    - Voice acting is so good that it hurts you a little bit when a character loses their voice in middle of a dialogue.
+outro: If you enjoy CRPGs, especially if you've enjoyed more modern RPGs such as Pillars of Destiny, then you can hardly go wrong with Tyranny.
 ---
 In Tyranny, you play the role of a Fatebinder, a servant of Kyros the Overlord, in a world where the epic struggle between good and evil is over and you're tasked with overseeing the takeover of the last free area of land on the continent of Terratus.
 
 Tyranny is a modern CRPG by Obsidian Entertainment with tight gameplay mechanics and an intriguing world.
-
-## Pros
-
-- Gameplay mechanics are fun and well designed (honed to perfection from Pillars of Destiny?).
-- The setting of Tyranny is unique and fun to play in (perhaps due to how your decisions impact the world in a meaningful way).
-- Companions are interesting and each has their own unique abilities and skill tree (no generic classes).
-- Choices you make are meaningful and have a big impact on the story, your place within it and what you'll experience in the game.
-- Magic system consisting of combining various sigils to produce "custom" spells is interesting and fun to experiment with.
-
-## Cons
-
-- Voice acting is so good that it hurts you a little bit when a character loses their voice in middle of a dialogue.
-
-If you enjoy CRPGs, especially if you've enjoyed more modern RPGs such as Pillars of Destiny, then you can hardly go wrong with Tyranny.

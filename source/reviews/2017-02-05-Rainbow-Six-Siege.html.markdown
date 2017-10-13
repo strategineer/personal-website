@@ -6,14 +6,12 @@ date: 2017-02-05
 tags: PC, thumbs_up
 playtime_hours: 218
 store_link: http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/
+pros:
+    - The game focuses less on twitch reflexes and more on teamwork, strategy and tactical prowess.
+    - Each operator's ability makes them unique and interesting in their own way and allows players to play a style of gameplay that suits them.
+    - The environmental destruction and its interaction with many operators abilities makes for an FPS experience unlike any other.
+    - The huge number of maps and operators means you'll rarely get bored of playing Siege if you enjoy the core game.
+cons:
+outro: If you've got a small group of friends who are interested in playing a tactical FPS together, then you can hardly go wrong with Rainbow Six Siege.
 ---
 Rainbow Six Siege is a 5v5 tactical FPS with environmental destruction which directly impacts the gameplay in interesting ways. In Siege, you play the role of an "operator", a person with a gun as well a gadget or ability that makes them unique and are tasked with defending or attacking in game modes such as Objective, Bomb Defusal and Hostage.
-
-There are a lot of FPS games out there so what makes Siege worth playing?
-
-- The game focuses less on twitch reflexes and more on teamwork, strategy and tactical prowess.
-- Each operator's ability makes them unique and interesting in their own way and allows players to play a style of gameplay that suits them.
-- The environmental destruction and its interaction with many operators abilities makes for an FPS experience unlike any other.
-- The huge number of maps and operators means you'll rarely get bored of playing Siege if you enjoy the core game.
-
-If you've got a small group of friends who are interested in playing a tactical FPS together, then you can hardly go wrong with Rainbow Six Siege.
