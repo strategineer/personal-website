@@ -1,8 +1,15 @@
 <% wrap_layout :layout do %>
+    <% content_for :header do %>
+        <%= partial "feed_reviews" %>
+    <% end %>
+    <% content_for :sidebar do %>
+        <%= partial "sidebar_reviews" %>
+    <% end %>
     <h1>
         <%= current_page.data.title %> Review
     </h1>
     <%= link_to "Store Link", current_page.data.store_link %>
+    <p>category: <%= current_page.data.category %></p>
     <p>playtime: <%= current_page.data.playtime_hours %>h</p>
     <p>
         <% if current_article.tags.include?('thumbs_up') %>

@@ -1,4 +1,10 @@
 <% wrap_layout :layout do %>
+    <% content_for :header do %>
+        <%= partial "feed_games" %>
+    <% end %>
+    <% content_for :sidebar do %>
+        <%= partial "sidebar_games" %>
+    <% end %>
     <div id="gallery-links">
         <% get_game_images(current_article).each do |data| %>
             <a href="<%= data.screenshot_path %>" title="<%= data.name %>"></a>
