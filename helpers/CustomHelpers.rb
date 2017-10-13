@@ -39,4 +39,33 @@ module CustomHelpers
         end
         return res
     end
+    def game_album(games)
+        res =
+%{
+<div class="album text-muted">
+    <div class="row">
+}
+        games.each do |game|
+            res <<
+%{
+        <div class="col-xs-6 col-sm-3">
+            <div class="card">
+                <a href="#{game.url}">
+                    <img class="card-img-top" src="#{get_game_primary_thumbnail_path(game)}" alt="#{game.title} Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">#{game.title}</h4>
+                        <p class="card-text">(#{game.data.platforms}) - #{game.data.engine} , #{game.data.languages}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+}
+        end
+res <<
+%{
+    </div>
+</div>
+}
+        return res
+    end
 end

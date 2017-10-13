@@ -10,32 +10,6 @@ activate :robots,
   :sitemap => "http://localhost:4567/__middleman/sitemap/"
 
 activate :blog do |blog|
-    # This will add a prefix to all links, template references and source paths
-    blog.name = "blog"
-    blog.prefix = "blog"
-
-    blog.permalink = "{year}/{month}/{day}/{title}.html"
-    # Matcher for blog source files
-    blog.sources = "{year}-{month}-{day}-{title}.html"
-    blog.taglink = "tags/{tag}.html"
-    blog.layout = "blogpost_blog"
-    # blog.summary_separator = /(READMORE)/
-    # blog.summary_length = 250
-    blog.year_link = "{year}.html"
-    blog.month_link = "{year}/{month}.html"
-    blog.day_link = "{year}/{month}/{day}.html"
-    blog.default_extension = ".markdown"
-
-    blog.tag_template = "tags/blog.html"
-    blog.calendar_template = "calendars/blog.html"
-
-    # Enable pagination
-    blog.paginate = true
-    blog.per_page = 10
-    blog.page_link = "page/{num}"
-end
-
-activate :blog do |blog|
     blog.name = "reviews"
     blog.prefix = "reviews"
 
@@ -81,12 +55,14 @@ activate :blog do |blog|
     blog.calendar_template = "calendars/games.html"
 
     # Enable pagination
-    blog.paginate = false
+    blog.paginate = true
+    blog.per_page = 8
+    blog.page_link = "page/{num}"
 end
 
-page "feeds/blog.xml", layout: false
 page "feeds/games.xml", layout: false
 page "feeds/reviews.xml", layout: false
+
 # Reload the browser automatically whenever files change
 configure :development do
     activate :livereload
@@ -103,11 +79,6 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-
-
-page 'blog.html', :layout => 'blog_blog'
-page 'reviews.html', :layout => 'blog_reviews'
-page 'games.html', :layout => 'blog_games'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/

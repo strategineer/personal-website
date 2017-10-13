@@ -1,6 +1,0 @@
-<% wrap_layout :layout do %>
-    <h1>
-       Blog Post<%= ' - ' + current_article.title unless current_article.nil? %><%= ' - ' + current_article.title unless current_article.nil? %>
-    </h1>
-    <%= yield %>
-<% end %>

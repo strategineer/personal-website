@@ -1,16 +1,18 @@
 ---
 pageable: true
 per_page: 12
+blog: reviews
 ---
+<% content_for :header do %>
+    <%= feed_tag :atom, "#{blog('reviews').options.prefix.to_s}/feed.xml", title: "Atom Feed - Reviews" %>
+<% end %>
+<% content_for :sidebar do %>
+    <%= partial "sidebar_reviews" %>
+<% end %>
 <h1>Articles tagged '<%= tagname %>'</h1>
 
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
-
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
+<%= partial "page_number" %>
+<%= partial "page_previous" %>
 
 <ul>
   <% page_articles.each_with_index do |article, i| %>
@@ -18,8 +20,4 @@ per_page: 12
   <% end %>
 </ul>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>
+<%= partial "page_next" %>

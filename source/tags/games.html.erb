@@ -1,19 +1,16 @@
 ---
-title: Bill C. Tyros
+pageable: true
+per_page: 12
 blog: games
 ---
-<% wrap_layout :blog_games do %>
-    <% page_articles.each do |article| %>
-        <div class="col-xs-6 col-sm-3">
-            <div class="card">
-                <a href="<%= article.url %>">
-                    <img class="card-img-top" src="/images/games/thumbnail/<%= article.data.thumbnail %>" alt="<%= article.title + " Thumbnail" %>" >
-                    <div class="card-body">
-                        <h5 class="card-title"><%= article.title %></h4>
-                        <p class="card-text"><%= "(" + article.data.platforms + ") - " + article.data.engine + ", " + article.data.languages%></p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    <% end %>
+<% content_for :header do %>
+    <%= stylesheet_link_tag "album" %>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed - Games" %>
 <% end %>
+<% content_for :sidebar do %>
+    <%= partial "sidebar_games" %>
+<% end %>
+<%= game_album(page_articles) %>
+<%= partial "page_number" %>
+<%= partial "page_previous" %>
+<%= partial "page_next" %>

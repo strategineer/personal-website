@@ -1,0 +1,26 @@
+<h3>Recent Video Game Reviews</h2>
+<ol>
+    <% blog('reviews').articles.select{ |x| x.data.category == 'video-game'}[0...5].each do |article| %>
+        <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
+    <% end %>
+</ol>
+<h3>Recent Anime Reviews</h2>
+<ol>
+    <% blog('reviews').articles.select{ |x| x.data.category == 'anime'}[0...5].each do |article| %>
+        <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
+    <% end %>
+</ol>
+
+<h3>Tags</h2>
+<ol>
+    <% blog('reviews').tags.each do |tag, articles| %>
+        <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+    <% end %>
+</ol>
+
+<h3>By Year</h2>
+<ol>
+    <% blog('reviews').articles.group_by {|a| a.date.year }.each do |year, articles| %>
+        <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+    <% end %>
+</ol>

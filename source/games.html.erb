@@ -2,16 +2,11 @@
 title: Bill C. Tyros
 blog: games
 ---
-<% blog('games').articles.each do |article| %>
-    <div class="col-xs-6 col-sm-3">
-        <div class="card">
-            <a href="<%= article.url %>">
-                <img class="card-img-top" src="<%=  get_game_primary_thumbnail_path(article) %>" alt="<%= article.title + " Thumbnail" %>" >
-                <div class="card-body">
-                    <h5 class="card-title"><%= article.title %></h4>
-                    <p class="card-text"><%= "(" + article.data.platforms + ") - " + article.data.engine + ", " + article.data.languages%></p>
-                </div>
-            </a>
-        </div>
-    </div>
+<% content_for :header do %>
+    <%= stylesheet_link_tag "album" %>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed - Games" %>
 <% end %>
+<% content_for :sidebar do %>
+    <%= partial "sidebar_games" %>
+<% end %>
+<%= game_album(blog.articles[0..7]) %>

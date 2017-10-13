@@ -3,17 +3,33 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport"
-              content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Use the title from a page's frontmatter if it has one -->
-        <title><%= current_page.data.title || "Middleman" %></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Bill C. Tyros<%= ' - ' + current_article.title unless current_article.nil? %></title>
         <%= partial "css_include" %>
         <%= stylesheet_link_tag "site" %>
+        <% if content_for?(:sidebar) %>
+            <%= stylesheet_link_tag "sidebar" %>
+        <% end %>
         <%= javascript_include_tag "site" %>
+        <%= yield_content :head %>
     </head>
     <body>
         <%= partial "header" %>
-        <%= yield %>
+        <% if content_for?(:sidebar) %>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3 col-md-2 sidebar">
+                        <%= yield_content :sidebar %>
+                    </div>
+                    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                        <%= yield %>
+                    </div>
+                </div>
+            </div>
+        <% else %>
+            <%= yield %>
+        <% end %>
         <%= partial "js_include" %>
     </body>
 </html>
