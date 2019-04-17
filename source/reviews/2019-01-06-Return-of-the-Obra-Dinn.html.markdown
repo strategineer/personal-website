@@ -1,0 +1,19 @@
+---
+title: Return of the Obra Dinn
+blog: reviews
+category: video-game
+date: 2019-01-06
+tags: PC, thumbs_up
+playtime_hours: 1
+store_link:
+pros:
+    - "Intriguing mysteries/plot to unravel through the time traveling to freeze framed scenes of a person's death."
+    - "Discovering the identity and fate of each crew member is extremely satisfying."
+    - "Unique visuals of 3D black and white and 2D drawings combine to bring you into the historical context and render the violent scenes less gruesome."
+cons:
+    - "&quot;short&quot; at 5h but I enjoyed all of it and it did not overstay its welcome."
+outro: "The Return of the Obra Dinn is an interesting experience that I would recommend to almost anybody but especially to people who like any of the following: mystery/detective novels or Zero Escape / Danganronpa."
+---
+In the Return of the Obra Dinn, you play the role of a Chief Inspector in the East India Company in 1808 investigating the tragedy of the Obra Dinn, a ship that set sail with sixty people onboard and eventually came back to port devoid of any signs of life.
+
+The Return of the Obra Dinn is a unique historical narrative murder mystery game that immerses you completely in the shoes of a time traveling insurance inspector.

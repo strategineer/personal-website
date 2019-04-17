@@ -1,0 +1,19 @@
+---
+title: Bayonetta
+blog: reviews
+category: video-game
+date: 2018-03-24
+tags: PC, thumbs_up
+playtime_hours: 1
+store_link:
+pros:
+    - "Character action game like no other from the masters of character action games, Platinum Games."
+    - "Every fight feels like a boss fight, boss fights feel like the second coming of Christ."
+    - "Amazing set piece fights, each more exciting than the last."
+    - "Great cinematics act as a reward for your hard work battling the forces of evil/good/I'm-not-sure."
+    - "Everything in the game exudes extreme style and elegance from the character designs to the gameplay."
+cons:
+    - "Some alternate gameplay sequences where you aren't really playing a character action game are the weakest portions of the game."
+outro: "If you like character action games then Bayonetta will most likely provide you with an unforgettable experience."
+---
+Bayonetta is a larger than life character action game that defies expectations and will leave anyone but the most dead to the world impressed and satisfied to the core.

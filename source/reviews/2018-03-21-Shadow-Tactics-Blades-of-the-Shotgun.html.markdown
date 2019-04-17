@@ -1,0 +1,19 @@
+---
+title: Shadow Tactics Blades of the Shotgun
+blog: reviews
+category: video-game
+date: 2018-03-21
+tags: PC, thumbs_up
+playtime_hours: 1
+store_link:
+pros:
+    - "Gameplay is fair but challenging and requires a lot of thinking but also quick reflexes."
+    - "Feudal Japan is the perfect setting for a modern evolution of this line of classic games."
+    - "Each level forces you to make use of specific characters and as such keeps the gameplay fresh throughout."
+    - "Great visuals that remind you of japanese paintings sort of (Okami-esque)."
+    - "Instant panty drop for any true weeb."
+cons:
+    - "VO is great for the most part but sometimes it's not so good."
+outro: "If you are a weeb or are interested in playing a great game inspired by the classic JA2/Commandos games then you can't go wrong with Shadow Tactics: Blade of the Shogun."
+---
+Shadow Tactics: Blades of the Shogun is a stealth-action tactical strategy game set in feudal Japan with tight gameplay reminiscent of Jagged Alliance 2, Commandos and Silent Storm.

@@ -1,0 +1,19 @@
+---
+title: Prismata
+blog: reviews
+category: video-game
+date: 2018-03-21
+tags: PC, thumbs_up
+playtime_hours: 1
+store_link:
+pros:
+    - "No Collecting Legendary e-peen/cards: both players in a match always have access to the exact same tools (randomized sets of units)."
+    - "100+ Randomized units means that every match provides a fresh experience and keeps you on your toes."
+    - "No Pay 2 Win: only a generous Pay 2 Cosmetics Quicker system."
+    - "No BS RNG: when you lose it's because you were outplayed by your opponent."
+    - "Prismata allows for replaying and analyzing previous matches which encourages study, learning and eventual mastery of the game."
+cons:
+    - "Relatively small player base (100-200 concurrent players) but it will grow when the game goes F2P."
+outro: "If you've always wanted to play Starcraft but never had the APM to be a pro or if you've always wanted to play competitive card games but without any Pay2Win mechanics then you'll most likely fall in love with Prismata."
+---
+Prismata is a turn-based abstract Starcraft-esque game whereby both players have access to the same (randomized per match) set of units.

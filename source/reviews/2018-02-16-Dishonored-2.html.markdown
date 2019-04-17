@@ -1,0 +1,21 @@
+---
+title: Dishonored 2
+blog: reviews
+category: video-game
+date: 2018-02-16
+tags: PC, thumbs_up
+playtime_hours: 1
+store_link:
+pros:
+    - "Like Dishonored 1 but better."
+    - "Two playable characters with different abilities."
+    - "Strong initial setup for the story."
+    - "Diverse set of targets and environments that encourage exploration."
+    - "Tight experience with high replayability."
+    - "Handling targets without killing them makes sense for the most part."
+cons:
+    - "Story is interesting at the beginning and at the end, almost everything in the middle is plastered on and just serves to give context to why you are going around killing/subduing people."
+    - "Twist at the end is ham-fisted and just serves to set up the standalone DLC instead of actually mattering like the one in the first game."
+outro: "If you enjoyed the first Dishonored game or if the main premise of the game seems interesting, then you'll most likely enjoy your time with Dishonored 2."
+---
+Dishonored 2 is a sequel to Dishonored... You sneak around, you observe, then you strike either by assassinating your target or subduing them in some other way and, finally you get away. Sooner rather than later, you get access to a variety of supernatural powers to help you along the way.

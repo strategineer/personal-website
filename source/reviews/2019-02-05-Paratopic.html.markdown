@@ -1,0 +1,10 @@
+---
+title: Paratopic
+blog: reviews
+category: video-game
+date: 2019-02-05
+tags: PC, thumbs_up
+playtime_hours: 1
+store_link:
+---
+Paratopic is a spooky PS1/lofi horror experience. Its use of lofi weird graphics, its soundtrack and the story all work in unison to make you feel extremely uncomfortable and unsettled whilst playing the game. I enjoy concise and short experiences however Paratopic feels shorter than it deserves to be and thus left me wanting more.

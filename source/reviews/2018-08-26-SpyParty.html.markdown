@@ -1,0 +1,21 @@
+---
+title: SpyParty
+blog: reviews
+category: video-game
+date: 2018-08-26
+tags: PC, thumbs_up
+playtime_hours: 1
+store_link:
+pros:
+    - "Unique: the concept, the asymmetrical 1v1 gameplay and the beautiful art design."
+    - "Stays interesting through dozens if not hundreds if not thousands of hours of play."
+    - "Replay system is the best I've seen in a game and is amazing for mastering the game."
+    - "In development since 2009, it exudes polish."
+cons:
+    - "Low player count can be rage inducing when you're looking to play."
+    - "In-game UI needs some work, I'm hoping sooner rather than later."
+outro: "If the game's premise seems interesting then you likely won't be disappointed by SpyParty."
+---
+NB: I've played the game since 2014 (username: billtowin) and I've got around 50h of playtime.
+
+SpyParty is an asymmetrical 1v1 competitive game in which one player plays the Spy at a party filled with NPCs partygoers, the Spy must perform spy-like actions without being found out by the other player who's playing the Sniper who's watching the party from a safe distance.
