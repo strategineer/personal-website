@@ -1,16 +1,16 @@
 ---
 pageable: true
 per_page: 12
-blog: games
+blog: projects
 ---
 <% content_for :head do %>
     <%= stylesheet_link_tag "album" %>
-    <%= partial "feed_games" %>
+    <%= partial "feed_projects" %>
 <% end %>
 <% content_for :sidebar do %>
-    <%= partial "sidebar_games" %>
+    <%= partial "sidebar_projects" %>
 <% end %>
-<%= partial "games_title" %>
+<%= partial "projects_title" %>
 <%= game_album(page_articles) %>
 <%= partial "page_number" %>
 <%= partial "page_previous" %>

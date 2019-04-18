@@ -1,12 +1,12 @@
 ---
 title: Bill C. Tyros
-blog: games
+blog: projects
 ---
 <% content_for :head do %>
     <%= stylesheet_link_tag "album" %>
-    <%= partial "feed_games" %>
+    <%= partial "feed_projects" %>
 <% end %>
 <% content_for :sidebar do %>
-    <%= partial "sidebar_games" %>
+    <%= partial "sidebar_projects" %>
 <% end %>
 <%= game_album(blog.articles[0..11]) %>

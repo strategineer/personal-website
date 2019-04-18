@@ -1,6 +1,6 @@
 ---
 title: Black Box Bandit
-blog: games
+blog: projects
 date: 2014-08-25
 tags: Unity, csharp, Ludum Dare
 engine: Unity

@@ -1,6 +1,6 @@
 ---
 title: Invasion Logistics Pro
-blog: games
+blog: projects
 date: 2014-04-28
 tags: Unity, csharp, Ludum Dare
 engine: Unity

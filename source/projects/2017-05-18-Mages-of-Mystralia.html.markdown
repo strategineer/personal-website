@@ -1,6 +1,6 @@
 ---
 title: Mages of Mystralia
-blog: games
+blog: projects
 date: 2017-05-18
 tags: Unity, csharp
 engine: Unity

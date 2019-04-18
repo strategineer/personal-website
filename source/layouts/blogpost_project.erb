@@ -1,9 +1,9 @@
 <% wrap_layout :layout do %>
     <% content_for :header do %>
-        <%= partial "feed_games" %>
+        <%= partial "feed_projects" %>
     <% end %>
     <% content_for :sidebar do %>
-        <%= partial "sidebar_games" %>
+        <%= partial "sidebar_projects" %>
     <% end %>
     <div id="gallery-links">
         <% get_game_images(current_article).each do |data| %>

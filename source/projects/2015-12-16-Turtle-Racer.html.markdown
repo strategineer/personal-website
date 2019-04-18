@@ -1,6 +1,6 @@
 ---
 title: Turtle Racer
-blog: games
+blog: projects
 date: 2015-12-16
 tags: DDJV
 engine: Custom (DX10, PhysX)

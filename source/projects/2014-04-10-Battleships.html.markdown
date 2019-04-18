@@ -1,6 +1,6 @@
 ---
 title: Battleships
-blog: games
+blog: projects
 date: 2014-04-10
 tags: SDL2, cpp
 engine: Custom (SDL2)

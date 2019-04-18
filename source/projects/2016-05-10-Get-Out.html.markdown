@@ -1,6 +1,6 @@
 ---
 title: Get Out
-blog: games
+blog: projects
 date: 2016-05-10
 tags: Unreal, cpp, DDJV
 engine: Unreal Engine

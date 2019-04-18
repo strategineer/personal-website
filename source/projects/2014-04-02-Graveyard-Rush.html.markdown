@@ -1,6 +1,6 @@
 ---
 title: Graveyard Rush
-blog: games
+blog: projects
 date: 2014-04-02
 tags: haxe, flixel
 engine: Flixel
