@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-11-27
 tags: PC, thumbs_up
-playtime_hours: 30
-store_link: https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/
 pros:
     - "Super satisfying overarching story, intrigue, reveals and conclusion."
     - "Unique mix of ideas and game genres (visual novel, dating sim, mystery/investigation game, rhythm game) into a cohesive whole."

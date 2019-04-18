@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-08-25
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "AAA Monster Hunter experience like we've never seen before."
     - "Fighting gigantic monsters makes you feel like a badass especially due to the modern AAA graphics and great art direction."

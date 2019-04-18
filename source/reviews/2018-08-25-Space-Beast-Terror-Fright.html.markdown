@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-08-25
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Experience feels straight out of Warhammer 40k or Aliens."
     - "Intense core gameplay loop; shooting aliens and exploring the derelict ship whilst the alien infestation drastically worsens each passing second."

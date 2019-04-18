@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-09-06
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Fixes a fundamental flaw with with most Total War games, specifically that campaigns never end, this is fixed by having continuously increasing stakes over the course of a campaign and a time limit gated by the progress of each race toward control over the Great Vortex."
     - "Magical spells and Warhammer's wide range of races and other creatures adds much needed spice to the regular Total War formula."

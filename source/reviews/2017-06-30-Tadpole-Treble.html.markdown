@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-06-30
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link: http://store.steampowered.com/app/354400/Tadpole_Treble/
 ---
 Have you ever found yourself at home without any LSD but wanting to go on a magical journey that will no doubt redefine the way you perceive the world around you?
 

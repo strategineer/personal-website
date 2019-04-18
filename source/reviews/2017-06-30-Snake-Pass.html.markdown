@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-06-30
 tags: PC, thumbs_up
-playtime_hours: 8
-store_link: http://store.steampowered.com/app/544330/Snake_Pass/
 pros:
     - "Controlling Noodle is a unique and fun experience and learning to control him well is very rewarding."
     - "Gameplay is quite simple and relaxing consisting of you exploring a level, solving environmental puzzles and performing cool moves to collect collectables."

@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2019-01-07
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "FPS gameplay felt good."
     - "Graphics are dated but in a nostalgic kind of way that feels authentic."

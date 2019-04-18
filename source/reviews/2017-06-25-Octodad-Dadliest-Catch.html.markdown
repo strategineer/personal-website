@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-06-25
 tags: PC, thumbs_up
-playtime_hours: 3
-store_link: http://store.steampowered.com/app/224480/Octodad_Dadliest_Catch/
 pros:
     - "Puzzles are quite varied and most require some thinking and/or decent control over Octodad to complete."
     - "Unique control scheme makes moving Octodad around a joy to do."

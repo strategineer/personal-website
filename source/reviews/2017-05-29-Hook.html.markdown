@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-05-29
 tags: PC, thumbs_up
-playtime_hours: 2
-store_link: http://store.steampowered.com/app/367580/Hook/
 pros:
 cons:
 outro: "If you're a fan of puzzle games, you can't go wrong with Hook."

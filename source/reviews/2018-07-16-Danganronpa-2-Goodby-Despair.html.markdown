@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-07-16
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Very similar to the first Danganronpa game."
     - "Fun new character designs that will most likely grow on you."

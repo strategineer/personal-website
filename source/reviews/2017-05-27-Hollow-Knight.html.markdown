@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-05-27
 tags: PC, thumbs_up
-playtime_hours: 18
-store_link: http://store.steampowered.com/app/367520/Hollow_Knight/
 pros:
     - "Exploring the beautiful, interesting and varied levels is enjoyable."
     - "Looking for and finding collectables is intrinsically fun because they are always useful."

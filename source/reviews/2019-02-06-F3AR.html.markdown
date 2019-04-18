@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2019-02-06
 tags: PC, thumbs_down
-playtime_hours: 1
-store_link:
 ---
 F3AR is a horror themed FPS that I played as a cooperative experience with a friend. Its core gameplay of shooting bad dudes is quite dated, combining that with its hard to follow and impossible to care about storyline told through very video gamey cinematics results in an experience that leaves much to be desired.
 

@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-02-01
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Risk on super crack."
     - "Diverse cast of nations with unique gameplay from evil Greek forest creatures to undead remnants of the Roman Empire to Aztec-like lizard men, we can go on."

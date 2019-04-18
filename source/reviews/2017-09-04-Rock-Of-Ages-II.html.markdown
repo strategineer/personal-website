@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-09-04
 tags: PC, thumbs_up
-playtime_hours: 8
-store_link: http://store.steampowered.com/app/434460/Rock_of_Ages_2_Bigger__Boulder/
 pros:
     - "Rolling the boulder and avoiding obstacles placed by your opponent feels good and is easy to learn but hard to master."
     - "Placing defenses to stop and slow down your opponent's boulder is fun and requires a good amount strategy and tactics."

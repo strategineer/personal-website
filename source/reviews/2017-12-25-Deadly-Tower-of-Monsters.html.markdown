@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-12-25
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Weird and unique."
     - "Visuals, effects, sounds and the commentary make you really feel as if you're playing the DVD commentary of a sci-fi B-movie."

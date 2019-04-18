@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2019-01-06
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Intriguing mysteries/plot to unravel through the time traveling to freeze framed scenes of a person's death."
     - "Discovering the identity and fate of each crew member is extremely satisfying."

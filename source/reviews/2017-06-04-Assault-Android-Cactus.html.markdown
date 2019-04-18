@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-06-04
 tags: PC, thumbs_up
-playtime_hours: 4
-store_link: http://store.steampowered.com/app/250110/Assault_Android_Cactus/
 pros:
     - "Each of the eight different androids, which you unlock as you progress through the game, plays quite differently from one another which provides a lot of variety and replayability."
     - "The core gameplay loop is simple but it works really well. It consists of shooting enemies, picking up powerups, avoid/dodging enemies, shooting with your secondary more powerful weapon and doing it over and over again against a wide variety of different enemies and bosses. There's never a dull moment, it's action action and even more action."

@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-08-26
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Unique: the concept, the asymmetrical 1v1 gameplay and the beautiful art design."
     - "Stays interesting through dozens if not hundreds if not thousands of hours of play."

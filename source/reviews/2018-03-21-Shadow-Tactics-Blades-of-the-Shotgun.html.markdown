@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-03-21
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Gameplay is fair but challenging and requires a lot of thinking but also quick reflexes."
     - "Feudal Japan is the perfect setting for a modern evolution of this line of classic games."

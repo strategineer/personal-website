@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-01-06
 tags: PC, thumbs_down
-playtime_hours: 1
-store_link:
 pros:
     - "Art style is intriguing but just don't look at the hands."
 cons:
@@ -13,7 +11,7 @@ cons:
     - "Horrible VO."
     - "Horrible music."
     - "Moon logic garbage &quot;puzzles&quot; (at least the first &quot;puzzle&quot; before I uninstalled)."
-outro: "If you're dead inside and/or are a fan of archaic graphic adventure games that ask you to solve &quot;puzzles&quot; for no reason then you might be interested in Dead Synchronicity: Tomorrow Comes Today."---
+outro: "If you're dead inside and/or are a fan of archaic graphic adventure games that ask you to solve &quot;puzzles&quot; for no reason then you might be interested in Dead Synchronicity: Tomorrow Comes Today."
 ---
 In Dead Synchronicity Tomorrow Comes Today, you play as an amnesiac named Michael, the world has hit by some kind of mysterious calamity.
 

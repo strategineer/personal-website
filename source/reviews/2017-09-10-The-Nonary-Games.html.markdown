@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-09-10
 tags: PC, thumbs_up
-playtime_hours: 73
-store_link: http://store.steampowered.com/app/477740/Zero_Escape_The_Nonary_Games/
 pros:
     - "Puzzles are fun, they are just hard enough to be interesting and rewarding while not being frustrating."
     - "Piecing together the intriguing overarching plot and learning more about various the characters is very enjoyable."

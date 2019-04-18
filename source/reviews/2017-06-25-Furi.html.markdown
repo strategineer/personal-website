@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-06-25
 tags: PC, thumbs_up
-playtime_hours: 7
-store_link: http://store.steampowered.com/app/423230/Furi/
 pros:
     - "Tough but fair gameplay."
     - "Bosses are a blast to fight against and vary greatly in their design."

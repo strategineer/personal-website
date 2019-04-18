@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-07-15
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Tough but fair on the hardest starting difficulty (with a healthy amount of checkpoints that serve to soften the blow during hard fights)."
     - "Certain initial plot elements are quite cliche but overall there is a lot of room for intrigue and excitement throughout the game."

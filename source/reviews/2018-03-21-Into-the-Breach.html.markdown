@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-03-21
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Every decision matters within both the tactical and strategic layers."
     - "Deep gameplay will keep you coming back for hundreds of hours."

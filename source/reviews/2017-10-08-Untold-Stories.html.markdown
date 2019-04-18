@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-10-08
 tags: PC, thumbs_up
-playtime_hours: 4
-store_link: http://store.steampowered.com/app/558420/Stories_Untold/
 pros:
     - "Spooky AF."
     - "Immersive atmosphere."

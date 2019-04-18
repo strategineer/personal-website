@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-01-06
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 ---
 11/10
 

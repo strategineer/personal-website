@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2019-02-26
 tags: PC, thumbs_down
-playtime_hours: 1
-store_link:
 pros:
     - "Unique and compelling man vs. (with?) nature experience that you can't find anywhere else."
     - "Getting a vehicle weighed down by logs stuck in mud (god forbid flipped over in mud) and having to tow it out is a slow, methodical but extremely tense and exciting experience like no other."

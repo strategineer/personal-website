@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-08-19
 tags: PC, thumbs_up
-playtime_hours: 5
-store_link: http://store.steampowered.com/app/237930/Transistor/
 pros:
     - "Gameplay is an innovative mix between realtime action, turn-based tactics and strategic planning that feels great."
     - "Diverse number of different playstyles is allowed by the variety of abilities and how they work with each other."

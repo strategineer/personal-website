@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-01-03
 tags: PC, thumbs_down
-playtime_hours: 1
-store_link:
 pros:
     - "Sandbox gameplay is fun for a little while."
     - "Traversal is better than ever: maneuvering around the world using the grappling hook, parachute, wingsuit and especially the jetpack (DLC) is tons of fun."

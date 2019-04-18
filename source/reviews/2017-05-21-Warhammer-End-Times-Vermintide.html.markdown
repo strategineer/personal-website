@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-05-21
 tags: PC, thumbs_up
-playtime_hours: 63
-store_link: http://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/
 pros:
     - "Gameplay is similar to L4D, and so it's great, but with an bigger emphasis on melee combat."
     - "The diversity of the loot, consisting of many different weapons, trinkets (passive buffs) and hats, keeps the game fresh and the players consistently coming back in the search for better loot."

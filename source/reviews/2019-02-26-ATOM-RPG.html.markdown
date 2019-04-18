@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2019-02-26
 tags: PC, thumbs_down
-playtime_hours: 1
-store_link:
 cons:
     - "ATOM RPG feels like it was released in 1997; nothing of relevance has been modernized. I didn't fall in love with Fallout 1 and 2 because managing my items felt like getting waterboarded."
     - "The world doesn't feel cohesive or interesting largely because speaking to the NPCs usually have nothing to say and only respond to being asked about their name, their job, their thoughts on where they live (eg. a slightly extended version of &quot;ASL?&quot;) and a couple rumors that they all seem to repeat. The NPCs that have a little bit more to say aren't going to blow your mind."

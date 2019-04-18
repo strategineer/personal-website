@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-11-27
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Mimicks real world mini putt but with crazier holes than you can find in real life."
     - "Swinging your putter by moving your mouse back and thrusting it forward is great."

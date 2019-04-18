@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-03-24
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Character action game like no other from the masters of character action games, Platinum Games."
     - "Every fight feels like a boss fight, boss fights feel like the second coming of Christ."

@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-10-07
 tags: PC, thumbs_up
-playtime_hours: 11
-store_link: http://store.steampowered.com/app/462770/Pyre/
 pros:
     - "Rites are a joy to play and require solid tactics at higher difficulty levels."
     - "Your strategies must constantly adapt to the growth and changes that occur within your party over time."

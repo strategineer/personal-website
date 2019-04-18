@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-05-21
 tags: PC, thumbs_up
-playtime_hours: 19
-store_link: http://store.steampowered.com/app/283640/Salt_and_Sanctuary/
 pros:
     - "Environments, enemies and bosses are numerous and diverse."
     - "Gameplay is fair but tough and encourages the player to min-max and fully explore the environments."

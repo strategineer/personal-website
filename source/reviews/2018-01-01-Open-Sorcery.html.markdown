@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-01-01
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 outro: "I highly recommend playing Open Sorcery if you're interested in short experimental games with unique premises."
 ---
 In Open Sorcery you play as BEL/S v5.6 an elemental spirit of fire bound to C++ code charged with protecting her environment (a school, an old folk's home and her creators's homes) from various spiritual beings by her creators.

@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-02-16
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Like Dishonored 1 but better."
     - "Two playable characters with different abilities."

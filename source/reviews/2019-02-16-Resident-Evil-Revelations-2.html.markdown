@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2019-02-16
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Good mix of modern, actiony behind the shoulder, and old school, survival / puzzle solving / methodical, Resident Evil gameplay that should appeal to a wide-range of players."
     - "Great asymmetric coop core gameplay with four different characters to play as, each of which plays quite differently from one another."

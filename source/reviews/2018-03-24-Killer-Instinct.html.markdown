@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-03-24
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Encourages offense rather than defense (unlike SF4)."
     - "Gigantic roster of thirty plus interesting characters."

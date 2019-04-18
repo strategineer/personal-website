@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2017-06-28
 tags: PC, thumbs_up
-playtime_hours: 6
-store_link: http://store.steampowered.com/app/404540/Nex_Machina/
 pros:
     - "Core gameplay loop consisting of avoiding enemies, shooting enemies, saving humans and handling secret side objectives encourages you to constantly move around in a deliberate way, like a dance, making for a dynamic and fulfilling experience."
     - "Gameplay is non-stop action from the start all the way to the end with no filler in between."

@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-02-08
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Plot keeps you on your toes the entire way through and pushes you forward."
     - "Combat is fun due to the number of different enemies and different approaches for tackling them."

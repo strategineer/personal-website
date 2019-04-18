@@ -4,8 +4,6 @@ blog: reviews
 category: video-game
 date: 2018-03-21
 tags: PC, thumbs_up
-playtime_hours: 1
-store_link:
 pros:
     - "Amazing gameplay from the first game returns with many additions making this a must have coop experience."
     - "Enormous amounts of new content (60+ weapons, bosses, minibosses, specials and an entire new faction to fight against)."
