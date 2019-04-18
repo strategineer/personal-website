@@ -1,0 +1,11 @@
+
+[...]
+Shortly after deciding to go into Software Engineering at McGill, I've had to explain what Software Engineering is and what programmers actually do to non-programmers A LOT. I have no problem teaching others about I do; I enjoy it. 
+And so this is what I'm setting out to do in this post.
+[...]
+I've yet to explain what programming is exactly. Let's get to it!
+A programmer is someone who has acquired the ability, through study and a healthy dose of curiosity, to speak a language that computers can understand. More precisely, a programmer writes in a human-readable programming language which is converted to the language of computers, i.e. binary or 1's and 0's. 
+By "speaking" to computers, a programmer is capable of leveraging a computer's computing power to solve problems. All in order to improve the lives of their fellow man by pushing their creativity to the limit. 
+The use of computers in today's society is ubiquitous. It's unfortunate that most people are unaware that all their devices run not only on electricity but on programmers' sweat and tears. 
+[...]
+Hopefully, I've helped you learn a little about programming.

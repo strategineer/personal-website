@@ -1,0 +1,8 @@
+[This post has high pun potential, the programmer's "code")
+1) I will be nice to programmers who write "bad" code
+2) I will not disrespect other programmers' favorite languages
+3) I will not willingly write code that formats the user's hard drive
+4) I will not write painfully obvious comments in my code (a=b; #b is assigned to a)
+5) I will show respect to programmers with full beards
+6) I will not use another programmer's code without their consent.
+7) I will give credit where credit is due
