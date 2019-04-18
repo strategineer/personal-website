@@ -1,0 +1,15 @@
+<% if defined? tagname %>
+    <h3><%= "Journal tagged " + tagname %></h3>
+<% end %>
+<% if defined? page_type and (page_type == 'day' or page_type == 'month' or page_type == 'year' ) %>
+    <h3>Archive for
+      <% case page_type
+         when 'day' %>
+        <%= Date.new(year, month, day).strftime('%b %e %Y') %>
+      <% when 'month' %>
+        <%= Date.new(year, month, 1).strftime('%b %Y') %>
+      <% when 'year' %>
+        <%= year %>
+      <% end %>
+    </h3>
+<% end %>

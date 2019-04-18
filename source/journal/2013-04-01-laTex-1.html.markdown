@@ -1,0 +1,21 @@
+---
+title: LaTex 1
+blog: journal
+date: 2013-04-01
+tags:
+---
+I've always wondered how people made awesome looking PDFs with mathematical equations, graphs, figures, plots, notations, references and all kinds of other complicated graphical elements. For so long, these magical and strange PDF documents have brought me to my knees, time and time again in awe and wonder.
+
+This semester I decided to step up and find out how to make my own mystical PDFs. I was motivated mainly by my terrible hand writing, which is very difficult for other people to read. Just to give you an idea of the horror that is my handwriting, once upon a time, a close friend of mine, looking at a fine example of my writing for the first time, asked me, "Is that some sort secret language?"
+
+She was being sarcastic, but you get the point. In order to feel confident handing in my assignments, I searched online for some info on PDFs in general and I came across a little tool called LaTex. Turns out that LaTex is an old typesetting language used to create PDFs. Basically, it's like a programming language built for displaying data/text rather than performing computations.
+
+LaTex, unlike Microsoft Word or LibreOffice, creates documents (in PDF format) that retain their formatting across computers which an amazing feature in today's world considering its rich technodiversity. (Over 9 billion different devices with different underlying architechtures, all set up differently with different software and the same software but different versions)
+
+The most impressive aspect of LaTex, that brings it above any other kind of editor, is that it is a "What You Want Is What You Get" editor rather than a "What You See Is What You Get" editor like Microsoft Word. Building documents is as easy as opening a basic text editor (like Notepad or Vim), specifying various sections (table,chapter,image,...), adding your content (text, image,...) and pressing go. No more fiddling with thousands of display options, moving a picture then having all the text disperse in a ridiculous manner, changing one option (like the page size for example) then seeing all your previous work become undone by that one change. You know what I'm talking about, MS Word-like editors are a real pain in the ass to use. Fortunately, LaTex acts as a shot of metaphorical and highly concentrated morphine meant to dull that same pain.
+
+LaTex allows you to define what type of content you want to display (eg tables, proofs, figures, sections, paragraphs) and does all the formatting required automatically. If you're unsatisfied with the default results then LaTex allows you to tweak the display of your content in a quasi-infinite amount of ways. But, the good thing is that most of the time LaTex's formatting is beautiful and, unlike MS Word-like editors, LaTex never forces you to perform the menial task of formatting various different types of content manually.
+
+If you like to see an example of what LaTex can do, check this link https://dl.dropbox.com/u/12722160/personal/resume.pdf
+
+If any of this sounds appealing to you, then stop, drop and download MikTex (basic LaTex package) here http://miktex.org/download and TexStudio (my favorite LaTex editor) here http://sourceforge.net/projects/texstudio/ and start PDFing!

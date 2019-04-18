@@ -43,6 +43,31 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
+    blog.name = "journal"
+    blog.prefix = "journal"
+
+    blog.permalink = "{category}/{year}/{month}/{day}/{title}.html"
+    # Matcher for blog source files
+    blog.sources = "{year}-{month}-{day}-{title}.html"
+    blog.taglink = "tags/{tag}.html"
+    blog.layout = "blogpost_journal"
+    # blog.summary_separator = /(READMORE)/
+    # blog.summary_length = 250
+    blog.year_link = "{year}.html"
+    blog.month_link = "{year}/{month}.html"
+    blog.day_link = "{year}/{month}/{day}.html"
+    blog.default_extension = ".markdown"
+
+    blog.tag_template = "tags/journal.html"
+    blog.calendar_template = "calendars/journal.html"
+
+    # Enable pagination
+    blog.paginate = true
+    blog.per_page = 10
+    blog.page_link = "page/{num}"
+end
+
+activate :blog do |blog|
     # This will add a prefix to all links, template references and source paths
     blog.name = "projects"
     blog.prefix = "projects"
@@ -70,6 +95,7 @@ end
 
 page "feeds/projects.xml", layout: false
 page "feeds/reviews.xml", layout: false
+page "feeds/journal.xml", layout: false
 
 #
 activate :autoprefixer do |prefix|

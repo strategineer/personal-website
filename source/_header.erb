@@ -5,7 +5,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-            <% ['index', 'projects', 'reviews', 'blog', 'contact'].each do |page| %>
+            <% ['index', 'projects', 'reviews', 'blog'].each do |page| %>
                 <li class="nav-item <%= current_page.path.include?("#{page}") ? "active" : "" %>">
                     <a class="nav-link" href="/<%= page %>.html"><%= page != 'index' ? page.capitalize : "Home" %></a>
                 </li>

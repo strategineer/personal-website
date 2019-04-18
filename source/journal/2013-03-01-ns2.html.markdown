@@ -1,0 +1,39 @@
+---
+title: Natural Selection 2
+blog: journal
+date: 2013-03-01
+tags: gaming
+---
+I've been playing Natural Selection 2 for a couple days now and I've clocked in around 16 hours of gameplay. So, I'll talk to you a little about the game and what I think of it so far.
+
+What is Natural Selection 2?
+
+Natural Selection 2 is a mix of real-time strategy (RTS) and first-person shooter (FPS) gameplay. It features asymmetric gameplay in which the human Marines battle against the aliens called the Kharaa.
+
+Imagine a game of Starcraft in which the Terran face the Zerg where each individual unit on each side is not controlled by the computer but by a living breathing human being.
+
+One player on each team, called the Commander, is tasked with building structures and giving orders to his team from an RTS prespective while the rest of the players battle for control of the map and its ressources from an FPS perspective.
+
+What's bad about NS2?
+
+Not much really :). The developers behind NS2, Unknown World Entertainment, are a rather small team (around 10 or so people) and it's not surprising that NS2 currently requires a somewhat modern computer to play on.
+
+I play on a high-endish laptop from August 2010 with an overclocked GPU and an external fan. I play with all graphic settings except the resolution set to Low or Off and I get around around 30 to 50 frames per second normally but that number can dip down sometimes.
+
+If you've got anything better than what I have then you should be good to go. If not, the developers plan on providing support and updates for the game for several years after release and so hopefully, in time, they will optimize the game's performance for those with less powerful computers.
+
+What's good about NS2?
+
+Overall, Natural Selection 2 is a blast. It's the most fun I've had playing a competitive online game (League of Legends, Counter-Strike, Halo, ...) in a long while. The first-person shooting and first-person biting (for the Aliens) is fun and refreshing. I've always had a soft spot for asymmetric gameplay and the dynamic between the Marines and the Aliens really scratches that itch.
+
+What I enjoy the most is the fact that everything about Natural Selection 2 encourages players to communicate with each other and work together as a team in order to win.
+
+I was really surprised when I entered my first game and heard people communicating inteligently and respectfully with each other over voice communication.
+
+The fact that we were, complete strangers playing on a public server, all involved in coordinating attacks on the enemy, implementing strategies and protecting our structures without knowing each other beforehand was a breath of fresh air for me.
+
+This level of cooperation and teamwork is completely unheard of in competitive online team games when playing with strangers. I've experienced the same teamwork in most, if not all, my games played since then which made me interested in finding out why Natural Selection 2 succeeded where other games have failed.
+
+The community surrounding a game plays a strong role in fostering cooperation and good-will between players within any game (MOBA games like Dota and LoL are infamous for their terrible communities). But, for NS2, I think that the presence of the Commander, who acts as a guiding hand for fostering cooperation within a team, makes teamwork between strangers easier to accomplish.
+
+All in all, I highly recommend checking out Natural Selection 2. Due to a lack of space, I'll leave a more detailed overview of the gameplay on both the Marine and Alien teams for those who are interested for a future post.

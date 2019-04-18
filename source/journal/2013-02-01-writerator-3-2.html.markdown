@@ -1,0 +1,31 @@
+---
+title: Writerator Part III - Lessons Learned II
+blog: journal
+date: 2013-02-01
+tags: projects
+---
+Here's the second part of my lessons learned while working on my Writerator project. These are those that I could think of off the top of my head. Next time I work on a project, I'll make sure to keep a small journal where I'll keep track of everything I learn.
+
+Why? Well, keeping track of what goes wrong and what goes right will allow me to become a better programmer. I want to become the best programmer that I can be and the only of doing that is by taking notes and learning from my mistakes and my successes.
+
+- (Refactor, Refactor, Refactor until the code speaks for itself) && (Document each function well but use comments in other places sparingly)
+
+Everyone agrees that documentation in programming is essential. Well-documented code is easy to read, easy to use and easy to change. But, code is always changing and therefore keeping code well-documented is hard.
+
+How can we solve this problem? Well, one way is to use well-named functions (getPotato, blow_up_new_car, findRandomColor) which each include one single concise comment describing what it does. By doing so, a function's documentation only needs to change when its "functionality" (what it does) changes.
+
+You might ask, "Ok, but can someone understand what's going on within a function?" My answer to that is simple: make functions within functions which each have a descriptive name and one single comment describing what it does.
+
+This ends up being a very nice way to build a program because it forces you to encapsulate your code using functions, it encourages you to write orthogonal code (functions with no side-effects) and, finally, the documentation of your program becomes much easier to keep up-to-date.
+
+- (Use a source control system such as Git) && (Don't be afraid to delete code)
+
+I was introduced to Git in November. I used it in two smaller Perl projects to get comfortable with it. And, by the time I got to Writerator I began to realize how useful source control systems are so important.
+
+Before I used Git, I was forced to code in a passive manner (afraid to delete code) which prevented me from working efficiently.
+
+Why? Because, when you delete lines code in order to clean up your program, sometimes you delete an essential part of your program by mistake. Without any sort of source control, you have no way to go back to a working version of your code. This punishes you for deleting code and therefore conditions you to not delete code often.
+
+But, removing bloat (useless/[badly written] lines) from your code is an essential part of maintaining your code. By using source control, you free yourself from this artificial restraint and you're able to delete code at will without the fear of breaking your program and not being able to fix it.
+
+Think of source control as a programmer's Control-Z. It will make you a better programmer. I recommend Git because it's what I know how to use and because it has a reputation of being easy for beginners. Here's a good place to get started with Git: http://git-scm.com/book

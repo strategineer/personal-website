@@ -1,0 +1,31 @@
+---
+pageable: true
+blog: journal
+---
+<% content_for :head do %>
+    <%= partial "feed_journal" %>
+<% end %>
+<% content_for :sidebar do %>
+    <%= partial "sidebar_journal" %>
+<% end %>
+<h1>Archive for
+  <% case page_type
+     when 'day' %>
+    <%= Date.new(year, month, day).strftime('%b %e %Y') %>
+  <% when 'month' %>
+    <%= Date.new(year, month, 1).strftime('%b %Y') %>
+  <% when 'year' %>
+    <%= year %>
+  <% end %>
+</h1>
+
+<%= partial "page_number" %>
+<%= partial "page_previous" %>
+
+<ul>
+  <% page_articles.each_with_index do |article, i| %>
+    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+  <% end %>
+</ul>
+
+<%= partial "page_next" %>

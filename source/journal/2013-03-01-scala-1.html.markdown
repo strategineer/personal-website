@@ -1,0 +1,54 @@
+---
+title: Scala - Introduction I
+blog: journal
+date: 2013-03-01
+tags:
+---
+Coding is Java is somewhat dull. Ever since I learned programming with Python, I've been gently prodded into programming in Java because Java was the language used in the first programming courses I took. And so, I had forgotten how pleasant it was to code in Python.
+
+In my mind, Java will forever be linked to boiler plate code. Some lines of code have no reason to exist, but often, Java requires the programmer to write them out.
+
+If you'd like to see this in action, I have a simple test for you. First, launch your favorite IDE or text editor and create a clean .java file. Then, write a program which prints its command line arguments without referring to the Internet or previously coded .java files.
+
+Were even able to write it out? If so, how long did it take you? How many lines of boiler plate code does it have? More importantly, why isn't there a simpler way of doing this?
+
+Recently, I've started working with Python again (look at my Writerator and InfiniCube projects) and I've come to realize just how unpleasant it is to code in Java in comparison to a cleaner more concise languages like Python.
+
+When my friend CJ (not his real name) asked me if I wanted to start a programming project with him in Java, I politely declined. I'd like to work with CJ though, but I'd have to program in Java because its the only language that CJ currently knows. And like I said, I'd rather avoid coding in Java even though I'm quite capable of doing so, it wouldn't be much fun for me.
+
+So, I started searching for a solution online and very quickly I found one. Scala which is a multi-paradigm (integrating both functional and object-oriented programming) JVM-based language designed to be like Java but better.
+
+Scala maintains high interoperability with Java making a great solution for my problem. If CJ and I were to work together, I could code in Scala and he could code in Java and our code would be 100% compatible.
+
+If you've never seen Scala before then let me show you what it's all about. I'll highlight some of the major differences between Java and Scala using a simple Point class.
+
+```
+class Point(var x: Double, var y: Double)
+```
+
+Surprised? Yes, it's a one liner and isn't it beautiful? Let me unpack this one line of Scala in order to prove to you that it's the equivalent of about 15 lines of Java code.
+
+In this one line, we've defined a class named Point with two variables named x and y. Interestingly, by declaring both x and y as vars (which means that they can be reassigned to, unlike final variables in Java or vals in Scala), we're given an accessor and getter method for both x and y (without needing to write them out explicitely).
+
+So, if you've got a variable name `center` referring to a Point then the following code shows how you would access and set it.
+
+```
+newX = center.x + 5 // access
+center.x = 10 // set
+```
+
+Not only are the accessor and getter methods for each var given to us for free, by defining Point as shown above, its constructor is also generated automatically. Have any idea how it might look?
+
+```
+var newPoint = new Point(5,5)
+```
+
+Makes sense doesn't it? Notice, that I didn't need to specify the type of newPoint because the Scala compiler is smart enough to realize that newPoint is of type Point without me having to specify it. I could also have written:
+
+```
+var newPoint: Point = new Point(5,5)
+```
+
+But, thankfully, as you've seen the Scala compiler allows programmers to write less boiler plate code and therefore you can be explicit if you wish but you also have the choice to let the compiler to the dirty work.
+
+I could go on (and I will in a future post ;]) but for now, I think you've seen enough. Hopefully, I've made you interested in Scala and given you enough reason to introduce others to this new and exciting language.
