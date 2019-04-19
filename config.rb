@@ -30,8 +30,8 @@ activate :blog do |blog|
     blog.calendar_template = "calendars/reviews.html"
 
     # Enable pagination
-    blog.paginate = true
-    blog.per_page = 10
+    blog.paginate = false
+    # blog.per_page = 10
     blog.page_link = "page/{num}"
 
     blog.custom_collections = {
@@ -62,8 +62,8 @@ activate :blog do |blog|
     blog.calendar_template = "calendars/journal.html"
 
     # Enable pagination
-    blog.paginate = true
-    blog.per_page = 10
+    blog.paginate = false
+    # blog.per_page = 20
     blog.page_link = "page/{num}"
 end
 
@@ -88,8 +88,8 @@ activate :blog do |blog|
     blog.calendar_template = "calendars/projects.html"
 
     # Enable pagination
-    blog.paginate = true
-    blog.per_page = 12
+    blog.paginate = false
+    # blog.per_page = 20
     blog.page_link = "page/{num}"
 end
 
