@@ -6,7 +6,7 @@
         <%= partial "sidebar_projects" %>
     <% end %>
     <div id="gallery-links">
-        <% get_game_images(current_article).each do |data| %>
+        <% get_project_images(current_article).each do |data| %>
             <a href="<%= data.screenshot_path %>" title="<%= data.name %>"></a>
         <% end %>
     </div>
@@ -34,7 +34,7 @@
                 </div>
                 <%# video and images %>
                 <% has_video = !current_article.data.youtube_video_id.nil? %>
-                <% has_images = has_game_images?(current_article) %>
+                <% has_images = has_project_images?(current_article) %>
                 <% if has_video or has_images %>
                     <div class="row justify-content-center">
                         <% columns_left = 9 %>

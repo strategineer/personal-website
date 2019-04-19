@@ -5,17 +5,17 @@ module CustomHelpers
         res = path.match(/\/([^\/]+)#{ext}/)
         return res.captures[0]
     end
-    def get_game_primary_thumbnail_path(article)
-# this doesn't work because request path doesn't work on the games page
+    def get_project_thumbnail_path(article)
+# this doesn't work because request path doesn't work on the projects page
         id = get_article_id(article)
-        thumbnail_path = "/images/games/#{id}"
+        thumbnail_path = "/images/projects/#{id}"
         source_thumbnail_path = "source#{thumbnail_path}"
         glob = Dir.glob("#{source_thumbnail_path}/thumbnail.*")
         return "#{thumbnail_path}/#{File.basename(glob[0])}"
     end
-    def has_game_images?(article)
+    def has_project_images?(article)
         id = get_article_id(current_article)
-        images_path = "/images/games/#{id}/screenshots"
+        images_path = "/images/projects/#{id}/screenshots"
         source_images_path = "source#{images_path}"
         Dir.foreach(source_images_path) do |file|
             if File.file?("#{source_images_path}/#{file}")
@@ -24,10 +24,10 @@ module CustomHelpers
         end
         return false
     end
-    def get_game_images(article)
+    def get_project_images(article)
         res = []
         id = get_article_id(current_article)
-        images_path = "/images/games/#{id}/screenshots"
+        images_path = "/images/projects/#{id}/screenshots"
         source_images_path = "source#{images_path}"
         Dir.foreach(source_images_path) do |file|
             if File.file?("#{source_images_path}/#{file}")
@@ -39,22 +39,22 @@ module CustomHelpers
         end
         return res
     end
-    def game_album(games)
+    def project_album(projects)
         res =
 %{
 <div class="album text-muted">
     <div class="row">
 }
-        games.each do |game|
+        projects.each do |project|
             res <<
 %{
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card">
-                <a href="#{game.url}">
-                    <img class="card-img-top" src="#{get_game_primary_thumbnail_path(game)}" alt="#{game.title} Thumbnail">
+                <a href="#{project.url}">
+                    <img class="card-img-top" src="#{get_project_thumbnail_path(project)}" alt="#{project.title} Thumbnail">
                     <div class="card-body">
-                        <h5 class="card-title">#{game.title}</h4>
-                        <p class="card-text">(#{game.data.platforms}) - #{game.data.engine} - #{game.data.languages}</p>
+                        <h5 class="card-title">#{project.title}</h4>
+                        <p class="card-text">(#{project.data.platforms}) - #{project.data.engine} - #{project.data.languages}</p>
                     </div>
                 </a>
             </div>
