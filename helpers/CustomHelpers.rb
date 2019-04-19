@@ -5,12 +5,18 @@ module CustomHelpers
         res = path.match(/\/([^\/]+)#{ext}/)
         return res.captures[0]
     end
+    def has_project_thumbnail(article)
+      return get_project_thumbnail_path(article) != ""
+    end
     def get_project_thumbnail_path(article)
 # this doesn't work because request path doesn't work on the projects page
         id = get_article_id(article)
         thumbnail_path = "/images/projects/#{id}"
         source_thumbnail_path = "source#{thumbnail_path}"
         glob = Dir.glob("#{source_thumbnail_path}/thumbnail.*")
+        if not glob[0]
+          return ""
+        end
         return "#{thumbnail_path}/#{File.basename(glob[0])}"
     end
     def has_project_images?(article)

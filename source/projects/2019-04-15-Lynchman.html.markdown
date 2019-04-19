@@ -1,0 +1,14 @@
+---
+title: Lynchman
+blog: projects
+date: 2019-04-15
+tags: python
+engine:
+languages: Python
+platforms:
+youtube_video_id:
+play_url:
+---
+Beat Saber tool for generating maps from audio files automatically as well as computing/displaying data on existing maps for learning purposes, detecting outliers/problematic maps, etc.
+
+https://github.com/KeikakuB/lynchman
