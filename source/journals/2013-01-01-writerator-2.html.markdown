@@ -1,6 +1,6 @@
 ---
 title: Writerator Part II - Overview
-blog: journal
+blog: journals
 date: 2013-01-01
 tags: projects
 ---

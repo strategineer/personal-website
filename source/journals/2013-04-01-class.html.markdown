@@ -1,6 +1,6 @@
 ---
 title: Class
-blog: journal
+blog: journals
 date: 2013-04-01
 tags:
 ---

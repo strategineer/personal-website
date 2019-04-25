@@ -1,6 +1,6 @@
 ---
 title: Summer Time - Fun Time
-blog: journal
+blog: journals
 date: 2013-03-01
 tags:
 ---

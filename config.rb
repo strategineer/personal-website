@@ -43,10 +43,10 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
-    blog.name = "journal"
-    blog.prefix = "journal"
+    blog.name = "journals"
+    blog.prefix = "journals"
 
-    blog.permalink = "{category}/{year}/{month}/{day}/{title}.html"
+    blog.permalink = "{year}/{month}/{day}/{title}.html"
     # Matcher for blog source files
     blog.sources = "{year}-{month}-{day}-{title}.html"
     blog.taglink = "tags/{tag}.html"
@@ -58,8 +58,8 @@ activate :blog do |blog|
     blog.day_link = "{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
-    blog.tag_template = "tags/journal.html"
-    blog.calendar_template = "calendars/journal.html"
+    blog.tag_template = "tags/journals.html"
+    blog.calendar_template = "calendars/journals.html"
 
     # Enable pagination
     blog.paginate = false

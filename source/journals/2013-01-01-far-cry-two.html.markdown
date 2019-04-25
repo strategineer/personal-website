@@ -1,6 +1,6 @@
 ---
 title: Far Cry 3
-blog: journal
+blog: journals
 date: 2013-01-01
 tags: gaming
 ---

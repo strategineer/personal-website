@@ -1,6 +1,6 @@
 ---
 title: Natural Selection 2
-blog: journal
+blog: journals
 date: 2013-03-01
 tags: gaming
 ---

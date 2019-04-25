@@ -1,6 +1,6 @@
 ---
 title: The Walking Dead
-blog: journal
+blog: journals
 date: 2013-01-01
 tags: gaming
 ---

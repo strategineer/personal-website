@@ -1,6 +1,6 @@
 ---
 title: Developers, Developers, Developers
-blog: journal
+blog: journals
 date: 2012-12-01
 tags:
 ---

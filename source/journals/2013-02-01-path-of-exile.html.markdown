@@ -1,6 +1,6 @@
 ---
 title: Path of Exile
-blog: journal
+blog: journals
 date: 2013-02-01
 tags: gaming
 ---

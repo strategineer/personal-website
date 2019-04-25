@@ -1,6 +1,6 @@
 ---
 title: The website, Mortal Kombat 11 and microtransactions
-blog: journal
+blog: journals
 date: 2019-04-24
 tags:
 ---

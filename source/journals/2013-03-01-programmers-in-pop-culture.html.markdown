@@ -1,6 +1,6 @@
 ---
 title: Programmers in Pop Culture
-blog: journal
+blog: journals
 date: 2013-03-01
 tags:
 ---

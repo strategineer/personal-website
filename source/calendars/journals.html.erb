@@ -1,12 +1,12 @@
 ---
 pageable: false
-blog: journal
+blog: journals
 ---
 <% content_for :head do %>
-    <%= partial "feed_journal" %>
+    <%= partial "feed_journals" %>
 <% end %>
 <% content_for :sidebar do %>
-    <%= partial "sidebar_journal" %>
+    <%= partial "sidebar_journals" %>
 <% end %>
 <h1>Archive for
   <% case page_type

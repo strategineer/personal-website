@@ -1,6 +1,6 @@
 ---
 title: New Semester, New Challenges
-blog: journal
+blog: journals
 date: 2013-01-01
 tags:
 ---

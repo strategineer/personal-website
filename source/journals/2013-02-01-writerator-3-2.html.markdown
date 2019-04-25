@@ -1,6 +1,6 @@
 ---
 title: Writerator Part III - Lessons Learned II
-blog: journal
+blog: journals
 date: 2013-02-01
 tags: projects
 ---
