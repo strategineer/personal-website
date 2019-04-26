@@ -23,11 +23,7 @@
                 <%# data %>
                 <% unless current_page.tags.nil? %>
                   <div class="row justify-content-center">
-                      <% current_page.tags.each do |tag| %>
-                        <div class="col-4 col-lg-auto">
-                            <p><%= tag %></p>
-                        </div>
-                      <% end %>
+                      <p><%= current_page.tags.join(' - ') %></p>
                   </div>
                 <% end %>
                 <%# video and images %>
