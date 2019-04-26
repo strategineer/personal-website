@@ -24,9 +24,16 @@
                     </h1>
                 </div>
                 <%# data %>
+                <div class="row justify-content-center">
+                  <%= link_to "#{current_article.date.year}", blog_year_path(current_article.date.year) %>
+                </div>
                 <% unless current_page.tags.nil? %>
                   <div class="row justify-content-center">
-                      <p><%= current_page.tags.join(' - ') %></p>
+                      <ul class="list-inline">
+                        <% current_page.tags.each do |tag, articles| %>
+                              <li class="list-inline-item"><%= link_to "#{tag}", tag_path(tag) %></li>
+                        <% end %>
+                      </ul>
                   </div>
                 <% end %>
                 <%# video and images %>
