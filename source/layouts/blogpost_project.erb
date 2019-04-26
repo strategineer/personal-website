@@ -56,20 +56,19 @@
                         <% end %>
                     </div>
                 <% end %>
+                <%# text %>
+                <div class="row">
+                    <p class="lead" >
+                       <%= current_page.data.blurb %>
+                    </p>
+                </div>
                 <% unless current_page.data.project_url.nil? %>
-                    <%# play link %>
                     <div class="row justify-content-center">
                         <h2>
                             <%= link_to current_page.data.url_text, current_page.data.project_url %>
                         </h2>
                     </div>
                 <% end %>
-                <%# text %>
-                <div class="row">
-                    <p class="lead" >
-                       "<%= current_page.data.blurb %>"
-                    </p>
-                </div>
                 <div class="row">
                     <%= yield %>
                 </div>
