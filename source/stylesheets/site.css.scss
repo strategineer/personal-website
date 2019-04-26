@@ -1,7 +1,32 @@
+@import '../../../../bootstrap/_functions.scss';
+@import '../../../../bootstrap/_variables.scss';
+@import '../../../../bootstrap/mixins/_breakpoints.scss';
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
 body {
     background: #191919;
     color: #e5e5e5;
-    font-size: large;
     font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -21,5 +46,5 @@ a {
 
 .blockquote {
     background: #191919;
-
 }
+
