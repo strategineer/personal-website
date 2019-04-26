@@ -3,7 +3,6 @@ title: InfiniCube
 blog: projects
 date: 2012-12-20
 tags: python, pygame
-youtube_video_id:
 project_url: https://github.com/KeikakuB/infini-cube/releases
 url_text: Play Now
 blurb: "InfiniCube is an oddly addictive arcade-like avoid-them-all game. You play White Cube, a small but agile cube, orphaned at birth, eternally chased by the cubifications of his personal demons, the Evil Cubes."

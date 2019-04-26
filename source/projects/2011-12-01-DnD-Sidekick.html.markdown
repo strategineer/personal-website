@@ -3,8 +3,6 @@ title: DnD Sidekick
 blog: projects
 date: 2011-12-01
 tags: C#, Windows Phone
-youtube_video_id:
-project_url:
 blurb: "DnD Sidekick is a Windows Phone companion app for Pen and Paper roleplaying players, playing games like Dungeons and Dragons 3.5 and/or Pathfinder, allowing them to speed up various processes like generating loot automatically, character creation, etc."
 ---
 I developed DnD Sidekick the end of 2012.

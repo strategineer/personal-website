@@ -3,7 +3,6 @@ title: Battleships
 blog: projects
 date: 2014-04-10
 tags: C++, SDL2
-youtube_video_id:
 project_url: https://github.com/KeikakuB/battleships
 url_text: See code
 blurb: "Battleships is a networked 2D top down turn-based strategy game inspired by the Battleships board game."

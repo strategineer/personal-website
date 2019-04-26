@@ -3,8 +3,6 @@ title: Get Out
 blog: projects
 date: 2016-05-10
 tags: C++, Unreal Engine
-youtube_video_id:
-project_url:
 blurb: ""
 ---
 - 3D Online multiplayer FPS (Client-Server).

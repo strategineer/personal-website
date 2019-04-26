@@ -3,12 +3,8 @@ title: Pew Pew
 blog: projects
 date: 2017-08-01
 tags: pico8
-engine:
-languages: pico8
-platforms:
-youtube_video_id:
 project_url: https://github.com/KeikakuB/experiments/tree/master/pico-games
 url_text: See code
-blurb: ""
+blurb: "Pew Pew is a fast paced local competitive multiplayer game inspired by Asteroids."
 ---
-
+I developed Pew Pew using pico8 (which is a fantasy console with substantial constraints tied to memory, graphics, sounds, etc.) while working at Borealy Games. I was inspired to work on this project by [Dominique Morin](https://www.linkedin.com/in/dominique-morin-71331621) who was truly a pleasure to work with and impressed me greatly with his portfolio of games.

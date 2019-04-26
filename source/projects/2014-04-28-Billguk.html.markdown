@@ -3,7 +3,6 @@ title: Invasion Logistics Pro
 blog: projects
 date: 2014-04-28
 tags: C#, Unity
-youtube_video_id:
 project_url: https://github.com/KeikakuB/experiments/tree/master/ludum-dare-29
 url_text: See code
 blurb: "Billguk the Invasion Logistics Professional is a arcade-style highscore game in which you're tasked invasion pods launched from our underground bunkers towards the surface of the Earth while avoiding dangerous zones."
