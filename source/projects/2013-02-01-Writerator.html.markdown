@@ -4,7 +4,7 @@ blog: projects
 date: 2013-02-01
 tags: python
 project_url: https://github.com/KeikakuB/writerator
-url_text: See code
+url_text: code
 blurb: writerator is a command line tool which analyzes plain text files containing english language writing, acquires data on the text and uses it to generate poems.
 ---
 A wise computer once told me, "Peremptory personal, Perpendiculars, Forestry spreadsheets zaniest."
