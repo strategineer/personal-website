@@ -36,7 +36,7 @@ body {
 }
 
 a {
-   color: #cccccc;
+   color: #999999;
 
    &:focus,
    &:hover {
@@ -45,6 +45,10 @@ a {
 }
 
 .blockquote {
+    background: #333333;
+}
+
+.jumbotron {
     background: #333333;
 }
 

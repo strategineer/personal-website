@@ -1,24 +1,15 @@
 ---
 title: Bill C. Tyros
 ---
-<div class="row justify-content-center">
-  <p class="lead">
-    Hi! I'm Bill, I'm a programmer, I love video games and tackling tough challenges.
-  </p>
+<div class="container-fluid">
+</div>
 
-  <p>
-  Take a look at the work I've done if you're interested <%= link_to 'projects', '/projects.html' %>.
-  </p>
-
-  <p>
-  You can contact me by email at <%= mail_to 'tyros.bill@gmail.com' , 'tyros.bill@gmail.com' %>.
-  </p>
-
-  <p>
-  You can find me on these platforms:
-  </p>
-  <ul class="list-unstyled">
-    <li><%= link_to 'Github', 'https://github.com/keikakub' %></li>
-    <li><%= link_to 'LinkedIn', 'https://www.linkedin.com/in/billtyros/' %></li>
-  </ul>
+<div class="jumbotron">
+  <h1 class="display-4">Hey! Nice to meet you!</h1>
+  <hr class="my-1">
+  <p>My name's Bill, I'm a programmer, I love video games and tackling tough challenges.</p>
+  <hr class="my-4">
+  <p>Take a look at the work I've done if you're interested (<%= link_to 'projects', '/projects.html' %>).</p>
+  <p>You can contact me by email at <%= mail_to 'tyros.bill@gmail.com' , 'tyros.bill@gmail.com' %>.</p>
+  <p>You can find me on these platforms: <%= link_to 'Github', 'https://github.com/keikakub' %>, <%= link_to 'LinkedIn', 'https://www.linkedin.com/in/billtyros/' %>.</p>
 </div>
