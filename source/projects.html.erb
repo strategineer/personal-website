@@ -9,4 +9,5 @@ blog: projects
 <% content_for :sidebar do %>
     <%= partial "sidebar_projects" %>
 <% end %>
-<%= project_album(blog.articles) %>
+<%= project_album(blog.articles, "Highlights", lambda { |p| p.data.is_important }) %>
+<%= project_album(blog.articles, "All", lambda { |p| true } ) %>

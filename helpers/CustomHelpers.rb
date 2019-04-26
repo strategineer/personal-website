@@ -49,13 +49,25 @@ module CustomHelpers
         end
         return res
     end
-    def project_album(projects)
-        res =
+    def project_album(projects, title = nil, pred = nil)
+        res = ""
+        if pred.nil?
+          pred = lambda {|p| true}
+        end
+        unless title.nil?
+          res <<
+%{
+<h1>
+#{title}
+</h1>
+}
+        end
+        res <<
 %{
 <div class="album text-muted">
     <div class="row">
 }
-        projects.each do |project|
+          projects.select{|p| pred.call(p)}.each do |project|
           tags_subtitle =  project.tags.join(" - ")
             res <<
 %{
