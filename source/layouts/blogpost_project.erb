@@ -21,17 +21,15 @@
                     </h1>
                 </div>
                 <%# data %>
-                <div class="row justify-content-center">
-                    <div class="col-4 col-lg-auto">
-                        <p>engine: <%= current_page.data.engine %></p>
-                    </div>
-                    <div class="col-4 col-lg-auto">
-                        <p>languages: <%= current_page.data.languages %></p>
-                    </div>
-                    <div class="col-4 col-lg-auto">
-                        <p>platforms: <%= current_page.data.platforms %></p>
-                    </div>
-                </div>
+                <% unless current_page.tags.nil? %>
+                  <div class="row justify-content-center">
+                      <% current_page.tags.each do |tag| %>
+                        <div class="col-4 col-lg-auto">
+                            <p><%= tag %></p>
+                        </div>
+                      <% end %>
+                  </div>
+                <% end %>
                 <%# video and images %>
                 <% has_video = !current_article.data.youtube_video_id.nil? %>
                 <% has_images = has_project_images?(current_article) %>
@@ -62,16 +60,21 @@
                         <% end %>
                     </div>
                 <% end %>
-                <% unless current_page.data.play_url.nil? %>
+                <% unless current_page.data.project_url.nil? %>
                     <%# play link %>
                     <div class="row justify-content-center">
                         <h2>
-                            <%= link_to "Play Now", current_page.data.play_url %>
+                            <%= link_to current_page.data.url_text, current_page.data.project_url %>
                         </h2>
                     </div>
                 <% end %>
                 <%# text %>
-                <div class="row justify-content-center">
+                <div class="row">
+                    <h3>
+                       "<%= current_page.data.blurb %>"
+                    </h3>
+                </div>
+                <div class="row">
                     <%= yield %>
                 </div>
             </div>

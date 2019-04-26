@@ -52,6 +52,7 @@ module CustomHelpers
     <div class="row">
 }
         projects.each do |project|
+          tags_subtitle =  project.tags.join(" - ")
             res <<
 %{
         <div class="col-12 col-md-6 col-lg-3">
@@ -60,7 +61,7 @@ module CustomHelpers
                     <img class="card-img-top" src="#{get_project_thumbnail_path(project)}" alt="#{project.title} Thumbnail">
                     <div class="card-body">
                         <h5 class="card-title">#{project.title}</h4>
-                        <p class="card-text">(#{project.data.platforms}) - #{project.data.engine} - #{project.data.languages}</p>
+                        <p class="card-text">#{tags_subtitle}</p>
                     </div>
                 </a>
             </div>

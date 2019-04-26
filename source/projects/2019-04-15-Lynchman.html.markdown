@@ -7,8 +7,7 @@ engine:
 languages: Python
 platforms:
 youtube_video_id:
-play_url:
+project_url: https://github.com/KeikakuB/lynchman
+url_text: See code
+blurb: "Beat Saber tool for generating maps from audio files automatically as well as computing/displaying data on existing maps for learning purposes, detecting outliers/problematic maps, etc."
 ---
-Beat Saber tool for generating maps from audio files automatically as well as computing/displaying data on existing maps for learning purposes, detecting outliers/problematic maps, etc.
-
-https://github.com/KeikakuB/lynchman
