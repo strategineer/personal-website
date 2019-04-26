@@ -23,10 +23,12 @@ module CustomHelpers
         id = get_article_id(current_article)
         images_path = "/images/projects/#{id}/screenshots"
         source_images_path = "source#{images_path}"
-        Dir.foreach(source_images_path) do |file|
-            if File.file?("#{source_images_path}/#{file}")
-                return true
-            end
+        if Dir.exists?(source_images_path)
+          Dir.foreach(source_images_path) do |file|
+              if File.file?("#{source_images_path}/#{file}")
+                  return true
+              end
+          end
         end
         return false
     end
@@ -35,13 +37,15 @@ module CustomHelpers
         id = get_article_id(current_article)
         images_path = "/images/projects/#{id}/screenshots"
         source_images_path = "source#{images_path}"
-        Dir.foreach(source_images_path) do |file|
-            if File.file?("#{source_images_path}/#{file}")
-                name = File.basename(file, File.extname(file))
-                screenshot_path = "#{images_path}/#{file}"
-                next_data = OpenStruct.new(:name => name, :screenshot_path => screenshot_path)
-                res.push(next_data)
-            end
+        if Dir.exists?(source_images_path)
+          Dir.foreach(source_images_path) do |file|
+              if File.file?("#{source_images_path}/#{file}")
+                  name = File.basename(file, File.extname(file))
+                  screenshot_path = "#{images_path}/#{file}"
+                  next_data = OpenStruct.new(:name => name, :screenshot_path => screenshot_path)
+                  res.push(next_data)
+              end
+          end
         end
         return res
     end
