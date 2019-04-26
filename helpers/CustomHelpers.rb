@@ -49,6 +49,7 @@ module CustomHelpers
         end
         return res
     end
+
     def project_album(projects, title = nil, pred = nil)
         res = ""
         if pred.nil?
@@ -84,12 +85,50 @@ module CustomHelpers
         </div>
 }
         end
-res <<
+        res <<
 %{
     </div>
 </div>
 }
         return res
+    end
+
+    def articles_table(articles, title = nil)
+        res = ""
+        unless title.nil?
+          res <<
+%{
+<h2>
+#{title}
+</h2>
+}
+        end
+        res <<
+%{
+<table class="table">
+  <thead>
+    <th scope="col">Date</th>
+    <th scope="col">Title</th>
+    <th scope="col">Tags</th>
+  </thead>
+  <tbody>
+}
+      articles.each do |article|
+        res <<
+%{
+    <tr>
+      <td>#{link_to article.date.strftime('%Y-%m-%d'), blog_year_path(article.date.year)}</td>
+      <td>#{link_to article.title, article }</td>
+      <td>#{article.tags.collect{ |t| link_to t, tag_path(t) }.join(' - ')}</td>
+    </tr>
+}
+      end
+      res <<
+%{
+  </tbody>
+</table>
+}
+      return res
     end
 
     def get_review_categories_data()

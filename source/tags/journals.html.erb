@@ -8,15 +8,7 @@ blog: journals
 <% content_for :sidebar do %>
     <%= partial "sidebar_journals" %>
 <% end %>
-<h1>Articles tagged '<%= tagname %>'</h1>
-
 <%= partial "page_number" %>
 <%= partial "page_previous" %>
-
-<ul>
-  <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
-  <% end %>
-</ul>
-
+<%= articles_table(page_articles, "Blog posts tagged with '" + tagname + "'") %>
 <%= partial "page_next" %>
