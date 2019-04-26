@@ -3,7 +3,7 @@ title: Framestore VR
 blog: projects
 date: 2019-02-03
 tags: C++, python, Jenkins
-blurb: ""
+blurb: Framestore VR blurb
 ---
 I worked at Framestore VR from December 2017 to February 2019 as a generalist programmer focusing on tools. At the time, the division of the company was focusing primarily on providing high-end VR experiences tied to some of the biggest intellectual properties that exist.
 

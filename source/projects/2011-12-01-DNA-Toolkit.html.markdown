@@ -3,7 +3,7 @@ title: DNA Toolkit
 blog: projects
 date: 2011-12-01
 tags: C#, Windows Phone
-blurb: "DNA Toolkit was a free Windows Phone educational app allowing the user to enter nucleobase (ACGT) sequences and having the names of the entered sequences be displayed."
+blurb: DNA Toolkit was a free Windows Phone educational app allowing the user to enter nucleobase (ACGT) sequences and having the names of the entered sequences be displayed.
 ---
 I developed DNA Toolkit at the end of 2011.
 

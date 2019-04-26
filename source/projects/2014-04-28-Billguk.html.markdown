@@ -5,18 +5,12 @@ date: 2014-04-28
 tags: C#, Unity
 project_url: https://github.com/KeikakuB/experiments/tree/master/ludum-dare-29
 url_text: See code
-blurb: "Billguk the Invasion Logistics Professional is a arcade-style highscore game in which you're tasked invasion pods launched from our underground bunkers towards the surface of the Earth while avoiding dangerous zones."
+blurb: Billguk the Invasion Logistics Professional is a arcade-style highscore game in which you're tasked invasion pods launched from our underground bunkers towards the surface of the Earth while avoiding dangerous zones.
 ---
 Billguk the Invasion Logistics Professional was developed using Unity for Ludum Dare 29 (theme: Beneath the Surface).
 
-```
-Dear Billguk,
-
-Today, our Guk leaders have decided to lead their fellow Guks into battle against the hated Surfacers.
-
-Billguk, I'm calling upon you now to perform the duty you've trained for your entire life.
-
-I ask you to show your fellow Guks that the Invasion Logistics Professional diploma on your bedroom wall actually means something.
-
-Bobbyguk Gukguk, Urgugurk War CEO
-```
+> Dear Billguk,
+> Today, our Guk leaders have decided to lead their fellow Guks into battle against the hated Surfacers.
+> Billguk, I'm calling upon you now to perform the duty you've trained for your entire life.
+> I ask you to show your fellow Guks that the Invasion Logistics Professional diploma on your bedroom wall actually means something.
+> Bobbyguk Gukguk, Urgugurk War CEO
