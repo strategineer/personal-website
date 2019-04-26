@@ -1,6 +1,6 @@
 body {
-    background-color: #fbc547;
-    color: #333;
+    background: #191919;
+    color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -10,10 +10,10 @@ body {
 }
 
 a {
-    color: rgba(#000, 0.6);
+   color: #cccccc;
 
-    &:focus,
-    &:hover {
-        color: rgba(#000, 0.3);
-    }
+   &:focus,
+   &:hover {
+       color: #fff;
+   }
 }
