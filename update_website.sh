@@ -3,6 +3,9 @@ if [[ $# -eq 0 ]] || [[ $# -gt 1 ]] ; then
     exit 1
 fi
 
+git add .
+git commit -m "$1"
+
 PROJECT_OUTPUT_DIRECTORY=~/projects/keikakub.github.io 
 
 middleman build
