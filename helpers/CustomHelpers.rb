@@ -152,6 +152,47 @@ module CustomHelpers
       return res
     end
 
+    def page_links(page)
+      res = ""
+      res <<
+%{
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-1">
+      Year:
+    </div>
+    <a href="#{blog_year_path(page.date.year)}">
+      <div>
+      #{page.date.year}
+      </div>
+    </a>
+  </div>
+}
+      if not page.tags.nil? and not page.tags.size == 0
+        res <<
+%{
+  <div class="row justify-content-center">
+    <div class="col-1">
+    Tags:
+    </div>
+    <ul class="list-inline">
+}
+        page.tags.each do |tag, articles|
+          res <<
+%{
+      <li class="list-inline-item">#{link_to tag, tag_path(tag) }</li>
+}
+        end
+        res <<
+%{
+    </ul>
+  </div>
+</div>
+}
+      end
+      return res
+    end
+
     def get_review_categories_data()
         res = []
         articles = blog('reviews').articles

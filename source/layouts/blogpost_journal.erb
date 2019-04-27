@@ -2,18 +2,19 @@
     <% content_for :header do %>
         <%= partial "feed_journals" %>
     <% end %>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-sm-offset-2 col-md-9 col-md-offset-3 col-lg-8 col-lg-offset-4">
-            <div class="row justify-content-center">
-                <h1>
-                    <%= current_page.data.title %>
-                </h1>
-            </div>
-            <div class="row">
-                <%= yield %>
-            </div>
+            <h1>
+                <%= current_page.data.title %>
+            </h1>
         </div>
+        <%= page_links(current_page) %>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-10 col-sm-offset-2 col-md-9 col-md-offset-3 col-lg-8 col-lg-offset-4">
+              <div class="row">
+                  <%= yield %>
+              </div>
+          </div>
         </div>
     </div>
 <% end %>
