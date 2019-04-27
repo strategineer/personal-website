@@ -118,7 +118,7 @@ module CustomHelpers
   <thead>
     <th scope="col">Date</th>
     <th scope="col">Title</th>
-    <th scope="col">Tags</th>
+    <th scope="col" class="d-none d-md-table-cell">Tags</th>
   </thead>
   <tbody>
 }
@@ -140,7 +140,7 @@ module CustomHelpers
           </div>
         </a>
       </td>
-      <td>#{article.tags.collect{ |t| link_to t, tag_path(t) }.join(' - ')}</td>
+      <td class="d-none d-md-table-cell">#{article.tags.collect{ |t| link_to t, tag_path(t) }.join(' - ')}</td>
     </tr>
 }
       end
