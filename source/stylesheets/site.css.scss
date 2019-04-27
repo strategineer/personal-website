@@ -4,12 +4,12 @@
 
 $colors: #00080F	#031829	#062640	#073358	#0D4572	#175689	#1F66A1	#2C7ABB	#398DD2	#4C9BDC	#63A9E3	#81BBEA	#9BC9EF	#B4D8F6	#D5ECFF	#EFF7FF;
 
-$background_color1: nth($colors, 2); // From darkest to lightest
-$background_color2: nth($colors, 4);
-$background_color3: nth($colors, 6);
-$link_color1: nth($colors, 15);
-$color1: nth($colors, 13);
-$link_color2: nth($colors, 16);
+$bg_dark: nth($colors, 2); // From darkest to lightest
+$bg_light: nth($colors, 4);
+$bg_highlight: nth($colors, 6);
+$link_base: nth($colors, 15);
+$color_base: nth($colors, 13);
+$link_highlight: nth($colors, 16);
 
 
 body {
@@ -17,8 +17,8 @@ body {
 }
 
 body {
-    background: $background_color1;
-    color: $color1;
+    background: $bg_dark;
+    color: $color_base;
     font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -38,11 +38,11 @@ p {
 }
 
 a {
-   color: $link_color1;
+   color: $link_base;
 
    &:focus,
    &:hover {
-       color: $link_color2;
+       color: $link_highlight;
    }
 }
 
@@ -52,20 +52,20 @@ a:focus, a:hover, a:visited, a:link, a:active
 }
 
 .navbar {
-    background: $background_color2;
+    background: $bg_light;
     margin-bottom: 1em;
 }
 
 .blockquote {
-    background: $background_color2;
+    background: $bg_light;
 }
 
 .jumbotron {
-    background: $background_color2;
+    background: $bg_light;
 }
 
 .table th {
-   color: $color1;
+   color: $color_base;
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -84,7 +84,7 @@ td a div {
 
 td a div:focus,
 td a div:hover {
-    background: $background_color2;
+    background: $bg_light;
 }
 
 .album {
@@ -95,7 +95,7 @@ td a div:hover {
   margin-bottom: 1rem;
   border: 0;
   text-align: center;
-  background: $background_color1;
+  background: $bg_dark;
   width: 22rem;
 }
 
@@ -103,30 +103,30 @@ td a div:hover {
 .card-title,
 .card-subtitle,
 .card-text {
-   color: $color1;
+   color: $color_base;
 
    &:focus,
    &:hover {
-       color: $color1;
+       color: $color_base;
    }
 }
 
 .card-body {
-  background: $background_color2;
+  background: $bg_light;
 }
 
 /* highlight the card-body when any part of the card is highlighted. */
 .card:focus > .card-body,
 .card:hover > .card-body,
 {
-  background: $background_color3;
+  background: $bg_highlight;
 }
 
 /* override the focus/hover attributes for links from site.css stop the text from changing color. */
 .card-body a {
     &:focus,
     &:hover {
-       color: $link_color1;
+       color: $link_base;
     }
 }
 
