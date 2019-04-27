@@ -58,15 +58,15 @@ module CustomHelpers
         unless title.nil?
           res <<
 %{
-<h2 class="text-center">
-#{title}
-</h2>
+<div class="container-fluid album-title">
+  <h2 class="text-center">#{title} </h2>
+</div>
 }
         end
         res <<
 %{
 <div class="container-fluid album">
-  <div class="row justify-content-center">
+  <div class="row album-row justify-content-center">
 }
           projects.select{|p| pred.call(p)}.each do |project|
             tags_subtitle =  project.tags.select{|t| link_to t, tag_path(t)}.join(" - ")

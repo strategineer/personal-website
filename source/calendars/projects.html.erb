@@ -5,8 +5,15 @@ blog: projects
 <% content_for :head do %>
     <%= partial "feed_projects" %>
 <% end %>
-<%= partial "projects_title" %>
-<%= project_album(page_articles) %>
+<% case page_type
+   when 'day' %>
+  <% date = Date.new(year, month, day).strftime('%b %e %Y') %>
+<% when 'month' %>
+  <% date = Date.new(year, month, 1).strftime('%b %Y') %>
+<% when 'year' %>
+  <% date = year.to_s %>
+<% end %>
 <%= partial "page_number" %>
 <%= partial "page_previous" %>
+<%= project_album(page_articles, "Projects from " + date) %>
 <%= partial "page_next" %>

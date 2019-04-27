@@ -88,6 +88,11 @@ td a div:hover {
 }
 
 .album {
+    border-top: 0.3em groove $bg_highlight;
+}
+
+.album-row {
+    margin-top: 1em;
 }
 
 .card {
