@@ -5,9 +5,6 @@ blog: reviews
 <% content_for :head do %>
     <%= partial "feed_reviews" %>
 <% end %>
-<% content_for :sidebar do %>
-    <%= partial "sidebar_reviews" %>
-<% end %>
 <div class="row justify-content-center">
     <div class="col-12 col-sm-auto">
         <h2><%= get_review_categories_data().find{ |x| x.category == category}.name %> Reviews</h2>

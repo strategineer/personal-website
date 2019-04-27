@@ -58,36 +58,45 @@ module CustomHelpers
         unless title.nil?
           res <<
 %{
-<h1>
+<h2 class="text-center">
 #{title}
-</h1>
+</h2>
 }
         end
         res <<
 %{
-<div class="album text-muted">
-    <div class="row">
+<div class="container-fluid album">
+  <div class="row justify-content-center">
 }
           projects.select{|p| pred.call(p)}.each do |project|
-          tags_subtitle =  project.tags.join(" - ")
+            tags_subtitle =  project.tags.select{|t| link_to t, tag_path(t)}.join(" - ")
             res <<
 %{
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="card">
+            <div class="col">
+              <div class="card mx-auto">
                 <a href="#{project.url}">
-                    <img class="card-img-top" src="#{get_project_thumbnail_path(project)}" alt="#{project.title} Thumbnail">
-                    <div class="card-body">
-                        <h5 class="card-title">#{project.title}</h4>
-                        <p class="card-text">#{tags_subtitle}</p>
+                    <img class="card-img-top" src="#{get_project_thumbnail_path(project)}" alt="#{project.title} Thumbnail"></img>
+                    <div class="card-body border-dark mb-3">
+                        <h5 class="card-title">#{project.title}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">#{tags_subtitle}</h6>
+}
+            unless project.data.blurb.nil?
+              res <<
+%{
+                        <p class="card-text">#{project.data.blurb}</p>
+}
+            end
+            res <<
+%{
                     </div>
+                  </div>
                 </a>
             </div>
-        </div>
 }
         end
         res <<
 %{
-    </div>
+  </div>
 </div>
 }
         return res
@@ -98,14 +107,14 @@ module CustomHelpers
         unless title.nil?
           res <<
 %{
-<h2>
+<h2 class="text-center">
 #{title}
 </h2>
 }
         end
         res <<
 %{
-<table class="table">
+<table class="table mx-auto">
   <thead>
     <th scope="col">Date</th>
     <th scope="col">Title</th>
@@ -117,8 +126,20 @@ module CustomHelpers
         res <<
 %{
     <tr>
-      <td>#{link_to article.date.strftime('%Y-%m-%d'), blog_year_path(article.date.year)}</td>
-      <td>#{link_to article.title, article }</td>
+      <td>
+        <a href="#{blog_year_path(article.date.year)}">
+          <div>
+            #{article.date.strftime('%Y-%m-%d')}
+          </div>
+        </a>
+      </td>
+      <td>
+        <a href="#{article.url}">
+          <div>
+          #{article.title}
+          </div>
+        </a>
+      </td>
       <td>#{article.tags.collect{ |t| link_to t, tag_path(t) }.join(' - ')}</td>
     </tr>
 }

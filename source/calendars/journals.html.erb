@@ -5,9 +5,6 @@ blog: journals
 <% content_for :head do %>
     <%= partial "feed_journals" %>
 <% end %>
-<% content_for :sidebar do %>
-    <%= partial "sidebar_journals" %>
-<% end %>
 <% case page_type
    when 'day' %>
   <% date = Date.new(year, month, day).strftime('%b %e %Y') %>

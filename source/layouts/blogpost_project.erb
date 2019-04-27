@@ -2,9 +2,6 @@
     <% content_for :header do %>
         <%= partial "feed_projects" %>
     <% end %>
-    <% content_for :sidebar do %>
-        <%= partial "sidebar_projects" %>
-    <% end %>
     <div id="gallery-links">
         <% get_project_images(current_article).each do |data| %>
             <a href="<%= data.screenshot_path %>" title="<%= data.name %>"></a>

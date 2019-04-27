@@ -5,7 +5,4 @@ blog: journals
 <% content_for :head do %>
     <%= partial "feed_journals" %>
 <% end %>
-<% content_for :sidebar do %>
-    <%= partial "sidebar_journals" %>
-<% end %>
 <%= articles_table(blog.articles, "Blog Posts") %>
