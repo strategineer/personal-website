@@ -5,7 +5,7 @@ date: 2014-04-28
 tags: C#, Unity
 project_url: https://github.com/KeikakuB/experiments/tree/master/ludum-dare-29
 url_text: code
-blurb: Arcade-style game where you guide an subterranean vehicle to the planet's surface through procedurally generated obstacles.
+blurb: Arcade racing game with procedurally generated levels.
 ---
 Billguk the Invasion Logistics Professional was developed using Unity for Ludum Dare 29 (theme: Beneath the Surface).
 

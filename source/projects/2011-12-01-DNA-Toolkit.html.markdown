@@ -3,7 +3,7 @@ title: DNA Toolkit
 blog: projects
 date: 2011-12-01
 tags: C#, Windows Phone
-blurb: Windows Phone app for entering nucleobase (ACGT) sequences and learning the names of the entered sequences.
+blurb: Windows Phone app for entering ACGT sequences and displaying the names of the entered sequences.
 ---
 I developed DNA Toolkit at the end of 2011.
 
