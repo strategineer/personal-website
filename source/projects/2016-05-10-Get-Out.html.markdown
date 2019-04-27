@@ -2,7 +2,7 @@
 title: Get Out
 blog: projects
 date: 2016-05-10
-tags: C++, Unreal Engine
+tags: cpp, Unreal Engine
 is_important: true
 blurb: Online multiplayer FPS.
 ---

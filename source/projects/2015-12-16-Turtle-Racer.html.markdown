@@ -2,7 +2,7 @@
 title: Turtle Racer
 blog: projects
 date: 2015-12-16
-tags: C++
+tags: cpp
 is_important: true
 blurb: 3D racing game with a custom engine.
 ---

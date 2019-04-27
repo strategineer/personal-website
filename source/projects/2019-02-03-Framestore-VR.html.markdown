@@ -2,7 +2,7 @@
 title: Framestore VR
 blog: projects
 date: 2019-02-03
-tags: C++, python, Jenkins
+tags: cpp, python, Jenkins
 is_important: true
 blurb: VR subdivision within a special effects company focusing on developing high-end VR experiences.
 ---

@@ -2,7 +2,7 @@
 title: Battleships
 blog: projects
 date: 2014-04-10
-tags: C++, SDL2
+tags: cpp, SDL2
 project_url: https://github.com/KeikakuB/battleships
 url_text: code
 is_important: true
