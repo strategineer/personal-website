@@ -5,7 +5,7 @@ date: 2012-12-20
 tags: python, pygame
 project_url: https://github.com/KeikakuB/infini-cube/releases
 url_text: play
-blurb: InfiniCube is an oddly addictive arcade-like avoid-them-all game. You play White Cube, a small but agile cube, orphaned at birth, eternally chased by the cubifications of his personal demons, the Evil Cubes.
+blurb: SHMUP game without any shooting game.
 ---
 InfiniCube is the first "real" video game that I developed. I made it during the winter break of my first semester of the honours software engineering program at McGill University.
 

@@ -4,7 +4,7 @@ blog: projects
 date: 2015-12-16
 tags: C++
 is_important: true
-blurb: Turtle Racer is a 3D racing game.
+blurb: 3D racing game with a custom engine.
 ---
 Turtle Racer (AKA Grand Turtle Auto) was developed using a game engine I built (with DX10 and PhysX) based on code provided to us during the DDJV program at the University of Sherbrooke (Campus Longueuil).
 
