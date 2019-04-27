@@ -3,8 +3,8 @@ title: Black Box Bandit
 blog: projects
 date: 2014-08-25
 tags: C#, Unity
-project_url: https://github.com/KeikakuB/experiments/tree/master/ludum-dare-30
-url_text: code
+links:
+    - "code,https://github.com/KeikakuB/experiments/tree/master/ludum-dare-30"
 blurb: Puzzle game with procedurally generated levels.
 ---
 Black Box Bandit was developed using Unity for Ludum Dare 30 (theme: Connected Worlds).

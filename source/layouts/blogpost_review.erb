@@ -1,63 +1,49 @@
 <% wrap_layout :layout do %>
-    <% content_for :header do %>
-        <%= partial "feed_reviews" %>
-    <% end %>
-    <div class="container">
-        <div class="row justify-content-center">
-            <h1>
-                <%= current_page.data.title %> Review
-            </h1>
-        </div>
-        <%= page_links(current_page) %>
-        <div class="row justify-content-center">
-            <p>
-                <% if current_article.tags.include?('thumbs_up') %>
-                    thumbs up
-                <% end %>
-                <% if current_article.tags.include?('thumbs_down') %>
-                    thumbs down
-                <% end %>
-            </p>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-10 col-sm-offset-2 col-md-9 col-md-offset-3 col-lg-8 col-lg-offset-4">
-              <div class="row">
-                  <%= yield %>
-              </div>
-              <% has_any_pros = !current_page.data.pros.nil? and current_page.data.pros.length > 0 %>
-              <% has_any_cons = !current_page.data.cons.nil? and current_page.data.cons.length > 0 %>
-              <% if has_any_pros or has_any_cons %>
-                  <% if has_any_pros %>
-                      <div class="row">
-                          <h2>Pros</h2>
-                      </div>
-                      <div class="row">
-                          <ul>
-                              <% current_page.data.pros.each do |pro| %>
-                                  <li><%= pro %></li>
-                              <% end %>
-                          </ul>
-                      </div>
-                  <% end %>
-                  <% if has_any_cons %>
-                      <div class="row">
-                          <h2>Cons</h2>
-                      </div>
-                      <div class="row">
-                          <ul>
-                              <% current_page.data.cons.each do |con| %>
-                                  <li><%= con %></li>
-                              <% end %>
-                          </ul>
-                      </div>
-                  <% end %>
-              <% end %>
-              <% unless current_page.data.outro.nil? %>
-                  <div class="row">
-                      <%= current_page.data.outro %>
-                  </div>
-              <% end %>
-          </div>
-        </div>
+  <% content_for :header do %>
+    <%= partial "feed_reviews" %>
+  <% end %>
+  <div class="container">
+    <div class="row justify-content-center">
+      <h1>
+        <%= current_page.data.title %> Review
+      </h1>
     </div>
+    <%= page_links(current_page) %>
+    <div class="row justify-content-center readable">
+      <%= yield %>
+    </div>
+    <% has_any_pros = !current_page.data.pros.nil? and current_page.data.pros.length > 0 %>
+    <% has_any_cons = !current_page.data.cons.nil? and current_page.data.cons.length > 0 %>
+    <% if has_any_pros or has_any_cons %>
+      <% if has_any_pros %>
+        <div class="row justify-content-center">
+          <h2>Pros</h2>
+        </div>
+        <div class="row readable">
+          <ul>
+            <% current_page.data.pros.each do |pro| %>
+              <li><%= pro %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+      <% if has_any_cons %>
+        <div class="row justify-content-center">
+          <h2>Cons</h2>
+        </div>
+        <div class="row readable">
+          <ul>
+            <% current_page.data.cons.each do |con| %>
+              <li><%= con %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    <% end %>
+    <% unless current_page.data.outro.nil? %>
+      <div class="row readable">
+        <%= current_page.data.outro %>
+      </div>
+    <% end %>
+  </div>
 <% end %>

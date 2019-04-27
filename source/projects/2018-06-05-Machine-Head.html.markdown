@@ -3,8 +3,8 @@ title: Machine Head
 blog: projects
 date: 2018-06-05
 tags: python, linux
-project_url: https://github.com/KeikakuB/machine-head
-url_text: code
+links:
+    - "code,https://github.com/KeikakuB/machine-head"
 blurb: Discord (chat) bot running on a Raspberry Pi.
 ---
 Machine Head was developed in 2018 using python and runs on a Raspberry Pi. It was built for automating various manual processes tied to managing the Discord server that I got tired of doing over and over again.

@@ -29,6 +29,24 @@ body {
     line-height: 1.8;
 }
 
+.readable {
+    margin: auto;
+}
+
+@include media-breakpoint-up(xs) { 
+}
+@include media-breakpoint-up(sm) { 
+}
+@include media-breakpoint-up(md) { 
+    .readable {
+        width: 720px;
+    }
+}
+@include media-breakpoint-up(lg) { 
+}
+@include media-breakpoint-up(xl) { 
+}
+
 p {
     display: block;
     margin-block-start: 1em;

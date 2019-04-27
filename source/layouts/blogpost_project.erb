@@ -1,66 +1,58 @@
 <% wrap_layout :layout do %>
-    <% content_for :header do %>
-        <%= partial "feed_projects" %>
-    <% end %>
+  <% content_for :header do %>
+    <%= partial "feed_projects" %>
     <div id="gallery-links">
-        <% get_project_images(current_article).each do |data| %>
-            <a href="<%= data.screenshot_path %>" title="<%= data.name %>"></a>
-        <% end %>
+      <% get_project_images(current_article).each do |data| %>
+        <a href="<%= data.screenshot_path %>" title="<%= data.name %>"></a>
+      <% end %>
     </div>
-    <div class="container">
-        <div class="row">
-            <%# left %>
-            <div class="col">
-                <%# title %>
-                <div class="row justify-content-center">
-                    <h1>
-                        <%= current_article.title %>
-                        <% unless current_page.data.project_url.nil? %>
-                        (<%= link_to current_page.data.url_text, current_page.data.project_url %>)
-                        <% end %>
-                    </h1>
-                </div>
-                <%# video and images %>
-                <% has_video = !current_article.data.youtube_video_id.nil? %>
-                <% has_images = has_project_images?(current_article) %>
-                <% if has_video or has_images %>
-                    <div class="row justify-content-center">
-                        <% columns_left = 9 %>
-                        <% if has_video %>
-                            <div class="col-12 col-lg-6">
-                                <div class="row align-items-center justify-content-center justify-content-lg-end">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <% columns_left = 6 %>
-                        <% end %>
-                        <% if has_images %>
-                            <div class="col-12 col-lg-<%= columns_left %>">
-                                <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
-                                    <div class="slides"></div>
-                                    <h3 class="title"></h3>
-                                    <a class="prev">‹</a>
-                                    <a class="next">›</a>
-                                    <a class="play-pause"></a>
-                                    <ol class="indicator"></ol>
-                                </div>
-                            </div>
-                        <% end %>
-                    </div>
-                <% end %>
-                <%= page_links(current_page) %>
-                <%# text %>
-                <div class="row justify-content-center">
-                    <blockquote class="blockquote" >
-                       <%= current_page.data.blurb %>
-                    </blockquote>
-                </div>
-                <div class="row">
-                    <%= yield %>
-                </div>
+  <% end %>
+  <div class="container">
+    <%# title %>
+    <div class="row justify-content-center readable">
+      <h1>
+        <%= current_article.title %>
+      </h1>
+    </div>
+    <%= page_links(current_page) %>
+    <%# video and images %>
+    <% has_video = !current_article.data.youtube_video_id.nil? %>
+    <% has_images = has_project_images?(current_article) %>
+    <% if has_video or has_images %>
+      <div class="row justify-content-center">
+        <% columns_left = 9 %>
+        <% if has_video %>
+          <div class="col-12 col-lg-6">
+            <div class="row align-items-center justify-content-center justify-content-lg-end">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
-        </div>
+          </div>
+          <% columns_left = 6 %>
+        <% end %>
+        <% if has_images %>
+          <div class="col-12 col-lg-<%= columns_left %>">
+            <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+              <div class="slides"></div>
+              <h3 class="title"></h3>
+              <a class="prev">‹</a>
+              <a class="next">›</a>
+              <a class="play-pause"></a>
+              <ol class="indicator"></ol>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+    <%# text %>
+    <div class="row justify-content-center">
+      <blockquote class="blockquote" >
+        <%= current_page.data.blurb %>
+      </blockquote>
     </div>
+    <div class="row justify-content-center readable">
+      <%= yield %>
+    </div>
+  </div>
 <% end %>
