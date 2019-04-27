@@ -5,6 +5,7 @@ fi
 
 git add .
 git commit -m "$1"
+git push
 
 PROJECT_OUTPUT_DIRECTORY=~/projects/keikakub.github.io 
 
