@@ -7,8 +7,7 @@ $background_color2: #333333;
 $background_color3: #4c4c4c;
 $color1: #e5e5e5;
 $link_color1: #b2b2b2;
-$link_color2: #cccccc;
-$link_color3: #ffffff;
+$link_color2: #ffffff;
 
 
 body {
@@ -23,6 +22,17 @@ body {
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
     text-align: left;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 a {
@@ -30,13 +40,18 @@ a {
 
    &:focus,
    &:hover {
-       color: $link_color3;
+       color: $link_color2;
    }
 }
 
 a:focus, a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
+}
+
+.navbar {
+    background: $background_color2;
+    margin-bottom: 1em;
 }
 
 .blockquote {
