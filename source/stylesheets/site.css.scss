@@ -2,13 +2,22 @@
 @import '../../../../bootstrap/_variables.scss';
 @import '../../../../bootstrap/mixins/_breakpoints.scss';
 
+$background_color1: #191919;
+$background_color2: #333333;
+$background_color3: #4c4c4c;
+$color1: #e5e5e5;
+$link_color1: #b2b2b2;
+$link_color2: #cccccc;
+$link_color3: #ffffff;
+
+
 body {
   font-size: 1.2rem;
 }
 
 body {
-    background: #191919;
-    color: #e5e5e5;
+    background: $background_color1;
+    color: $color1;
     font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -17,11 +26,11 @@ body {
 }
 
 a {
-   color: #999999;
+   color: $link_color1;
 
    &:focus,
    &:hover {
-       color: #e5e5e5;
+       color: $link_color3;
    }
 }
 
@@ -31,15 +40,15 @@ a:focus, a:hover, a:visited, a:link, a:active
 }
 
 .blockquote {
-    background: #333333;
+    background: $background_color2;
 }
 
 .jumbotron {
-    background: #333333;
+    background: $background_color2;
 }
 
 .table th {
-    color: #e5e5e5;
+   color: $color1;
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -58,5 +67,52 @@ td a div {
 
 td a div:focus,
 td a div:hover {
-  background: #4c4c4c;
+    background: $background_color2;
+}
+
+.album {
+}
+
+.card {
+  float: center;
+  margin-bottom: 1rem;
+  border: 0;
+  text-align: center;
+  background: $background_color1;
+  width: 22rem;
+}
+
+/* override link color to make the text more visible. */
+.card-title,
+.card-subtitle,
+.card-text {
+   color: $color1;
+
+   &:focus,
+   &:hover {
+       color: $color1;
+   }
+}
+
+.card-body {
+  background: $background_color2;
+}
+
+/* highlight the card-body when any part of the card is highlighted. */
+.card:focus > .card-body,
+.card:hover > .card-body,
+{
+  background: $background_color3;
+}
+
+/* override the focus/hover attributes for links from site.css stop the text from changing color. */
+.card-body a {
+    &:focus,
+    &:hover {
+       color: $link_color1;
+    }
+}
+
+.card-text {
+    font-size: 75%;
 }

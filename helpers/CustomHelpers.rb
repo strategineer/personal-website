@@ -73,24 +73,24 @@ module CustomHelpers
             res <<
 %{
             <div class="col">
-              <div class="card mx-auto">
-                <a href="#{project.url}">
-                    <img class="card-img-top" src="#{get_project_thumbnail_path(project)}" alt="#{project.title} Thumbnail"></img>
-                    <div class="card-body border-dark mb-3">
-                        <h5 class="card-title">#{project.title}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">#{tags_subtitle}</h6>
+              <a href="#{project.url}">
+                <div class="card mx-auto">
+                  <img class="card-img-top" src="#{get_project_thumbnail_path(project)}" alt="#{project.title} Thumbnail"></img>
+                  <div class="card-body mb-3">
+                    <h5 class="card-title">#{project.title}</h5>
+                    <h6 class="card-subtitle mb-2">#{tags_subtitle}</h6>
 }
             unless project.data.blurb.nil?
               res <<
 %{
-                        <p class="card-text">#{project.data.blurb}</p>
+                    <p class="card-text">#{project.data.blurb}</p>
 }
             end
             res <<
 %{
-                    </div>
                   </div>
-                </a>
+                </div>
+              </a>
             </div>
 }
         end
