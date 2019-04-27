@@ -1,11 +1,6 @@
 <% wrap_layout :layout do %>
   <% content_for :header do %>
     <%= partial "feed_projects" %>
-    <div id="gallery-links">
-      <% get_project_images(current_article).each do |data| %>
-        <a href="<%= data.screenshot_path %>" title="<%= data.name %>"></a>
-      <% end %>
-    </div>
   <% end %>
   <div class="container">
     <%# title %>
@@ -33,23 +28,41 @@
         <% end %>
         <% if has_images %>
           <div class="col-12 col-lg-<%= columns_left %>">
-            <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
-              <div class="slides"></div>
-              <h3 class="title"></h3>
-              <a class="prev">‹</a>
-              <a class="next">›</a>
-              <a class="play-pause"></a>
-              <ol class="indicator"></ol>
-            </div>
+              <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <% index = 0 %>
+                  <% get_project_images(current_article).each do |data| %>
+                    <li data-target="#carouselScreenshots" data-slide-to="<%= index %>" class="<%= index == 0 ? " active" : ''%>"></li>
+                    <% index = index + 1 %>
+                  <% end %>
+                </ol>
+                <div class="carousel-inner">
+                  <% index = 0 %>
+                  <% get_project_images(current_article).each do |data| %>
+                    <div class="carousel-item<%= index == 0 ? " active" : ''%>">
+                      <img class="d-block w-100" src="<%= data.screenshot_path %>" alt="<%= data.name %>"/>
+                    </div>
+                    <% index = index + 1 %>
+                  <% end %>
+                </div>
+                <a class="carousel-control-prev" href="#carouselScreenshots" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselScreenshots" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
           </div>
         <% end %>
       </div>
     <% end %>
     <%# text %>
     <div class="row justify-content-center">
-      <blockquote class="blockquote" >
+      <div class="project-blurb readable text-center" >
         <%= current_page.data.blurb %>
-      </blockquote>
+      </div>
     </div>
     <div class="row justify-content-center readable">
       <%= yield %>

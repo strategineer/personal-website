@@ -28,8 +28,6 @@ body {
     margin: auto;
 }
 
-
-
 @include media-breakpoint-up(xs) { 
     body {
       font-size: 1.1rem;
@@ -72,13 +70,16 @@ a:focus, a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
+.project-blurb {
+    margin-top: 1em;
+    background: $bg_light;
+    outline: 0.2em solid $bg_light;
+    font-size: larger;
+}
+
 .navbar {
     background: $bg_light;
     margin-bottom: 1em;
-}
-
-.blockquote {
-    background: $bg_light;
 }
 
 .jumbotron {
