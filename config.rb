@@ -121,23 +121,9 @@ page '/*.txt', layout: false
 #   },
 # )
 
-# Helpers
-# Methods defined in the helpers block are available in templates
-# https://middlemanapp.com/basics/helper-methods/
-
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
-
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 # Reload the browser automatically whenever files change
-configure :development do
-    activate :livereload
-end
-
 configure :build do
     activate :minify_css
     activate :minify_javascript
