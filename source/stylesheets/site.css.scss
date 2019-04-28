@@ -135,7 +135,8 @@ td a div:hover {
   border: 0;
   text-align: center;
   background: $bg_dark;
-  width: 22rem;
+  min-width: 16rem;
+  max-width: 22rem;
 }
 
 /* override link color to make the text more visible. */
