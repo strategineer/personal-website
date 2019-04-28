@@ -200,6 +200,9 @@ ul.list-inline {
     body {
       font-size: 1.1rem;
     }
+    .page-title > h3 {
+        font-size: 1.7rem;
+    }
 }
 @include media-breakpoint-up(sm) { 
 }
@@ -213,6 +216,9 @@ ul.list-inline {
     // Increase size when not on super small screen.
     body {
       font-size: 1.3rem;
+    }
+    .page-title > h3 {
+        font-size: 3rem;
     }
     // set the maximum with to allow for better readability.
     .jumbotron,
