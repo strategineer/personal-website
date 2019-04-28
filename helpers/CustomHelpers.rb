@@ -110,7 +110,7 @@ module CustomHelpers
       res <<
 %{
 <div class="row justify-content-center text-center page-title">
-<h1>#{title}</h1>
+<h3>#{title}</h3>
 </div>
 }
       return res

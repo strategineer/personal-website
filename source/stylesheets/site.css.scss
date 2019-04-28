@@ -42,9 +42,11 @@ body {
     border:1px solid $bg_highlight;
     color: $color_base;
 }
-.table tr:first-child th {
-  border-top: 0;
-}
+
+// this removes the top borders
+// .table tr:first-child th {
+//   // border-top: 0;
+// }
 .table tr:last-child td {
   border-bottom: 0;
 }
