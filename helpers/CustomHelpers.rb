@@ -176,11 +176,12 @@ module CustomHelpers
       </div>
     </a>
   </div>
-  <div class="w-100"></div>
+</div>
 }
       if not page.tags.nil? and not page.tags.size == 0
         res <<
 %{
+<div class="row justify-content-center">
   <div class="col text-right">
     Tags:
   </div>
@@ -197,32 +198,30 @@ module CustomHelpers
 %{
     </ul>
   </div>
-  <div class="w-100"></div>
+</div>
 }
-        if not current_page.data.links.nil? and not current_page.data.links.length == 0
-          res <<
+      end
+      if not current_page.data.links.nil? and not current_page.data.links.length == 0
+        res <<
 %{
+<div class="row justify-content-center">
   <div class="col text-right">
     Links:
   </div>
   <div class="col">
     <ul class="list-inline">
 }
-          current_page.data.links.collect{ |l| l.split(',')}.collect{ |l| link_to l[0], l[1]}.each do |l|
+        current_page.data.links.collect{ |l| l.split(',')}.collect{ |l| link_to l[0], l[1]}.each do |l|
           res <<
 %{
       <li class="list-inline-item">#{l}</li>
 }
 
-          end
-        res <<
-%{
-  </ul>
-  </div>
-}
         end
       res <<
 %{
+    </ul>
+  </div>
 </div>
 }
       end

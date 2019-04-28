@@ -97,7 +97,7 @@ a:focus, a:hover, a:visited, a:link, a:active
 }
 
 .project-blurb {
-    margin-top: 1em;
+    margin-top: 0.5em;
     background: $bg_light;
     outline: 0.2em solid $bg_light;
     font-size: larger;
@@ -127,6 +127,11 @@ td a div:hover {
 
 .album-row {
     margin-top: 1em;
+}
+
+// Remove this unneeded margin that messes up the page links
+ul.list-inline {
+    margin-bottom: 0;
 }
 
 .card {
