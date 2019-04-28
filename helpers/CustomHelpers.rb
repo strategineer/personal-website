@@ -59,7 +59,7 @@ module CustomHelpers
           res <<
 %{
 <div class="container-fluid album-title">
-  <h2 class="text-center">#{title} </h2>
+  <div class="display-4 text-center">#{title} </div>
 </div>
 }
         end
@@ -107,9 +107,9 @@ module CustomHelpers
         unless title.nil?
           res <<
 %{
-<h2 class="text-center">
+<div class="display-4 table-title text-center">
 #{title}
-</h2>
+</div>
 }
         end
         res <<

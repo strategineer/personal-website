@@ -39,6 +39,7 @@ body {
     body {
       font-size: 1.3rem;
     }
+    .jumbotron,
     .readable {
         width: 720px;
     }
@@ -63,6 +64,37 @@ a {
    &:hover {
        color: $link_highlight;
    }
+}
+
+.table-title {
+    margin-bottom: 0.25em;
+}
+
+.table > thead > tr > th{
+    border-top:1px solid $bg_highlight;
+    border-bottom:1px solid $bg_highlight;
+    border-right:1px solid $bg_highlight;
+}
+
+.table {
+  border-collapse: collapse;
+}
+.table td, .table th {
+    border:1px solid $bg_highlight;
+}
+.table tr:first-child th {
+  border-top: 0;
+}
+.table tr:last-child td {
+  border-bottom: 0;
+}
+.table tr td:first-child,
+.table tr th:first-child {
+  border-left: 0;
+}
+.table tr td:last-child,
+.table tr th:last-child {
+  border-right: 0;
 }
 
 a:focus, a:hover, a:visited, a:link, a:active
