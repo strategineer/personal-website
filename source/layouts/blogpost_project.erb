@@ -3,12 +3,7 @@
     <%= partial "feed_projects" %>
   <% end %>
   <div class="container">
-    <%# title %>
-    <div class="row justify-content-center readable">
-      <div class="display-4">
-        <%= current_article.title %>
-      </div>
-    </div>
+    <%= page_title(current_article.title) %>
     <%= page_links(current_page) %>
     <%# video and images %>
     <% has_video = !current_article.data.youtube_video_id.nil? %>

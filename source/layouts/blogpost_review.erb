@@ -3,11 +3,7 @@
     <%= partial "feed_reviews" %>
   <% end %>
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="display-4">
-        <%= current_page.data.title %> Review
-      </div>
-    </div>
+    <%= page_title(current_page.data.title + "Review") %>
     <%= page_links(current_page) %>
     <div class="row justify-content-center readable">
       <%= yield %>

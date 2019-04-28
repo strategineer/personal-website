@@ -59,7 +59,10 @@ module CustomHelpers
           res <<
 %{
 <div class="container-fluid album-title">
-  <div class="display-4 text-center">#{title} </div>
+}
+          res << page_title(title)
+          res <<
+%{
 </div>
 }
         end
@@ -102,15 +105,21 @@ module CustomHelpers
         return res
     end
 
+    def page_title(title)
+      res = ""
+      res <<
+%{
+<div class="row justify-content-center text-center page-title">
+<h1>#{title}</h1>
+</div>
+}
+      return res
+    end
+
     def articles_table(articles, title = nil)
         res = ""
         unless title.nil?
-          res <<
-%{
-<div class="display-4 table-title text-center">
-#{title}
-</div>
-}
+          res << page_title(title)
         end
         res <<
 %{
