@@ -116,7 +116,7 @@ module CustomHelpers
 %{
 <table class="table mx-auto">
   <thead>
-    <th scope="col">Date</th>
+    <th scope="col" class="table-nowrap">Date</th>
     <th scope="col">Title</th>
     <th scope="col" class="d-none d-md-table-cell">Tags</th>
   </thead>
@@ -126,7 +126,7 @@ module CustomHelpers
         res <<
 %{
     <tr>
-      <td>
+      <td class="table-nowrap">
         <a href="#{blog_year_path(article.date.year)}">
           <div>
             #{article.date.strftime('%Y-%m-%d')}

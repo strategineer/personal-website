@@ -28,25 +28,43 @@ body {
     margin: auto;
 }
 
-@include media-breakpoint-up(xs) { 
-    body {
-      font-size: 1.1rem;
-    }
+// Set internal borders.
+.table > thead > tr > th{
+    border-top:1px solid $bg_highlight;
+    border-bottom:1px solid $bg_highlight;
+    border-right:1px solid $bg_highlight;
 }
-@include media-breakpoint-up(sm) { 
+
+.table {
+  border-collapse: collapse;
 }
-@include media-breakpoint-up(md) { 
-    body {
-      font-size: 1.3rem;
-    }
-    .jumbotron,
-    .readable {
-        width: 720px;
-    }
+.table td, .table th {
+    border:1px solid $bg_highlight;
+    color: $color_base;
 }
-@include media-breakpoint-up(lg) { 
+.table tr:first-child th {
+  border-top: 0;
 }
-@include media-breakpoint-up(xl) { 
+.table tr:last-child td {
+  border-bottom: 0;
+}
+.table tr td:first-child,
+.table tr th:first-child {
+  border-left: 0;
+}
+.table tr td:last-child,
+.table tr th:last-child {
+  border-right: 0;
+}
+
+.navbar {
+    background: $bg_light;
+    margin-bottom: 1em;
+}
+
+.jumbotron {
+    margin: auto;
+    background: $bg_light;
 }
 
 p {
@@ -70,32 +88,6 @@ a {
     margin-bottom: 0.25em;
 }
 
-.table > thead > tr > th{
-    border-top:1px solid $bg_highlight;
-    border-bottom:1px solid $bg_highlight;
-    border-right:1px solid $bg_highlight;
-}
-
-.table {
-  border-collapse: collapse;
-}
-.table td, .table th {
-    border:1px solid $bg_highlight;
-}
-.table tr:first-child th {
-  border-top: 0;
-}
-.table tr:last-child td {
-  border-bottom: 0;
-}
-.table tr td:first-child,
-.table tr th:first-child {
-  border-left: 0;
-}
-.table tr td:last-child,
-.table tr th:last-child {
-  border-right: 0;
-}
 
 a:focus, a:hover, a:visited, a:link, a:active
 {
@@ -109,37 +101,22 @@ a:focus, a:hover, a:visited, a:link, a:active
     font-size: larger;
 }
 
-.navbar {
-    background: $bg_light;
-    margin-bottom: 1em;
-}
 
-.jumbotron {
-    margin: auto;
-    background: $bg_light;
-}
-
-.table th {
-   color: $color_base;
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 768px) 
-{ 
-    .table {
-       white-space: nowrap;
-       width: 1%;
-    }
-}
-
+// Maximize the size of background to fill the cell. 
 td a div {
     width: 100%;
     height: 100%;
 }
 
+// Highlight background when over on text.
 td a div:focus,
 td a div:hover {
     background: $bg_light;
+}
+
+// Ensure that the date field in table is not wrapped.
+.table-nowrap {
+    white-space: nowrap;
 }
 
 .album {
@@ -193,3 +170,55 @@ td a div:hover {
 .card-text {
     font-size: 75%;
 }
+
+
+@include media-breakpoint-down(xs) { 
+}
+@include media-breakpoint-down(sm) { 
+}
+// On md size and down, the third column (tags) is not shown therefore hide the next columns border.
+@include media-breakpoint-down(md) { 
+    .table tr td:nth-last-child(2),
+    .table tr th:nth-last-child(2){
+      border-right: 0;
+    }
+}
+@include media-breakpoint-down(lg) { 
+}
+@include media-breakpoint-down(xl) { 
+}
+
+@include media-breakpoint-up(xs) { 
+    body {
+      font-size: 1.1rem;
+    }
+}
+@include media-breakpoint-up(sm) { 
+}
+@include media-breakpoint-up(md) { 
+    // Center the navbar menu options when they are not collapsed.
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    // Increase size when not on super small screen.
+    body {
+      font-size: 1.3rem;
+    }
+    // set the maximum with to allow for better readability.
+    .jumbotron,
+    .readable {
+        width: 720px;
+    }
+    // Fit columns to the data.
+    .table {
+       white-space: nowrap;
+       width: 1%;
+    }
+}
+@include media-breakpoint-up(lg) { 
+}
+@include media-breakpoint-up(xl) { 
+}
+
