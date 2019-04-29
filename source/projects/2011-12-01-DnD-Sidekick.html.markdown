@@ -10,6 +10,7 @@ I developed DnD Sidekick the end of 2012.
 It was a milestone for me because it was the first fleshed out application that I made, it was used extensively by other people and I was paid for my work.
 
 DnD Sidekick ...
+
 – Simplifies the process of character creation for the player.
 – Allows players to roll any number and any combination of dice.
 – Contains Spell and Feat dictionaries for quick searches.
