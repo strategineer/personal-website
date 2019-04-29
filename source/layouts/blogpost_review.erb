@@ -1,6 +1,12 @@
 <% wrap_layout :layout do %>
   <div class="container">
-    <%= page_title(current_page.data.title + " Review") %>
+    <% if current_article.tags.include?('thumbs_up') %>
+      <% icon = "&#x1F44D" %>
+    <% end %>
+    <% if current_article.tags.include?('thumbs_down') %>
+      <% icon = "&#x1F44E" %>
+    <% end %>
+    <%= page_title(current_page.data.title + " Review " + icon) %>
     <%= page_links(current_page) %>
     <div class="row justify-content-center readable">
       <%= yield %>
@@ -38,5 +44,6 @@
         <%= current_page.data.outro %>
       </div>
     <% end %>
+  <%= page_tags(current_page) %>
   </div>
 <% end %>

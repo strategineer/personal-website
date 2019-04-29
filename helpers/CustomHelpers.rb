@@ -161,60 +161,48 @@ module CustomHelpers
       return res
     end
 
-    def page_links(page)
+    def page_tags(page)
       res = ""
       res <<
 %{
-<div class="row justify-content-center">
-  <div class="col text-right">
-    Year:
-  </div>
-  <div class="col">
-    <a href="#{blog_year_path(page.date.year)}">
-      <div>
-      #{page.date.year}
-      </div>
-    </a>
-  </div>
-</div>
+<div class="row row-links justify-content-center">
+  <div class="col text-center">
+    <ul class="list-inline ul-links">
+}
+      res <<
+%{
+      <li class="list-inline-item li-links">#{link_to page.date.year, blog_year_path(page.date.year)}</li>
 }
       if not page.tags.nil? and not page.tags.size == 0
-        res <<
-%{
-<div class="row justify-content-center">
-  <div class="col text-right">
-    Tags:
-  </div>
-  <div class="col">
-    <ul class="list-inline">
-}
         page.tags.each do |tag, articles|
           res <<
 %{
-      <li class="list-inline-item">#{link_to tag, tag_path(tag) }</li>
+      <li class="list-inline-item li-links">#{link_to tag, tag_path(tag) }</li>
 }
         end
-        res <<
+      res <<
 %{
     </ul>
   </div>
 </div>
 }
       end
+      return res
+    end
+
+    def page_links(page)
+      res = ""
       if not current_page.data.links.nil? and not current_page.data.links.length == 0
         res <<
 %{
-<div class="row justify-content-center">
-  <div class="col text-right">
-    Links:
-  </div>
-  <div class="col">
-    <ul class="list-inline">
+<div class="row row-links justify-content-center">
+  <div class="col text-center">
+    <ul class="list-inline ul-links">
 }
         current_page.data.links.collect{ |l| l.split(',')}.collect{ |l| link_to l[0], l[1]}.each do |l|
           res <<
 %{
-      <li class="list-inline-item">#{l}</li>
+      <li class="list-inline-item li-links">#{l}</li>
 }
 
         end

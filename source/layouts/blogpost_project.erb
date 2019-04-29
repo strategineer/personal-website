@@ -1,7 +1,6 @@
 <% wrap_layout :layout do %>
   <div class="container">
     <%= page_title(current_article.title) %>
-    <%= page_links(current_page) %>
     <%# video and images %>
     <% has_video = !current_article.data.youtube_video_id.nil? %>
     <% has_images = has_project_images?(current_article) %>
@@ -50,6 +49,7 @@
         <% end %>
       </div>
     <% end %>
+    <%= page_links(current_page) %>
     <%# text %>
     <div class="row justify-content-center">
       <div class="project-blurb readable text-center" >
@@ -59,5 +59,6 @@
     <div class="row justify-content-center readable">
       <%= yield %>
     </div>
+    <%= page_tags(current_page) %>
   </div>
 <% end %>
