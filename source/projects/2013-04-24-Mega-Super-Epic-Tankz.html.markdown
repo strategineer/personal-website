@@ -3,6 +3,7 @@ title: Mega Super Epic Tankz
 blog: projects
 date: 2013-04-24
 tags: Torque2D
+youtube_video_id: Y0TPGHLFeNo
 links:
     - "Play Now,https://github.com/KeikakuB/mega-epic-super-tankz/releases"
 blurb: 2D top down 2P arena tank game.
