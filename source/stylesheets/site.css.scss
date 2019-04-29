@@ -140,7 +140,6 @@ ul.list-inline {
   border: 0;
   text-align: center;
   background: $bg_dark;
-  min-width: 16rem;
   max-width: 22rem;
 }
 
@@ -203,10 +202,19 @@ ul.list-inline {
     .page-title > h3 {
         font-size: 1.7rem;
     }
+    .card {
+      min-width: 16rem;
+    }
 }
 @include media-breakpoint-up(sm) { 
+    .card {
+      min-width: 18rem;
+    }
 }
 @include media-breakpoint-up(md) { 
+    .card {
+      min-width: 20rem;
+    }
     // Center the navbar menu options when they are not collapsed.
     .navbar-nav.navbar-center {
         position: absolute;
