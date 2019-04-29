@@ -2,8 +2,5 @@
 title: Bill C. Tyros
 blog: projects
 ---
-<% content_for :head do %>
-    <%= partial "feed_projects" %>
-<% end %>
 <%= project_album(blog.articles, "Highlights", lambda { |p| p.data.is_important }) %>
 <%= project_album(blog.articles, "All", lambda { |p| true } ) %>

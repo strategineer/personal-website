@@ -2,10 +2,4 @@
 pageable: false
 blog: projects
 ---
-<% content_for :head do %>
-    <%= partial "feed_projects" %>
-<% end %>
 <%= project_album(page_articles, "Projects tagged with '" + tagname + "'") %>
-<%= partial "page_number" %>
-<%= partial "page_previous" %>
-<%= partial "page_next" %>

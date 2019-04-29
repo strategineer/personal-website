@@ -2,10 +2,4 @@
 pageable: false
 blog: journals
 ---
-<% content_for :head do %>
-    <%= partial "feed_journals" %>
-<% end %>
-<%= partial "page_number" %>
-<%= partial "page_previous" %>
 <%= articles_table(page_articles, "Blog posts tagged with '" + tagname + "'") %>
-<%= partial "page_next" %>

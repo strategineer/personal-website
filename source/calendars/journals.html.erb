@@ -2,9 +2,6 @@
 pageable: false
 blog: journals
 ---
-<% content_for :head do %>
-    <%= partial "feed_journals" %>
-<% end %>
 <% case page_type
    when 'day' %>
   <% date = Date.new(year, month, day).strftime('%b %e %Y') %>
@@ -13,7 +10,4 @@ blog: journals
 <% when 'year' %>
   <% date = year.to_s %>
 <% end %>
-<%= partial "page_number" %>
-<%= partial "page_previous" %>
 <%= articles_table(articles, "Blog posts from " + date) %>
-<%= partial "page_next" %>

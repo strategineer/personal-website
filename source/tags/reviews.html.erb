@@ -2,11 +2,4 @@
 pageable: false
 blog: reviews
 ---
-<% content_for :head do %>
-    <%= partial "feed_reviews" %>
-<% end %>
-<%= partial "page_number" %>
-<%= partial "page_previous" %>
 <%= articles_table(page_articles, "Reviews tagged with '" + tagname + "'") %>
-
-<%= partial "page_next" %>

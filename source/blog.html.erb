@@ -2,7 +2,4 @@
 title: Bill C. Tyros
 blog: journals
 ---
-<% content_for :head do %>
-    <%= partial "feed_journals" %>
-<% end %>
 <%= articles_table(blog.articles, "Blog Posts") %>
