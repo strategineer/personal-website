@@ -3,6 +3,7 @@ title: Invasion Logistics Pro
 blog: projects
 date: 2014-04-28
 tags: C#, Unity
+youtube_video_id: Y24-MfR2cBU
 links:
     - "Read Code,https://github.com/KeikakuB/experiments/tree/master/ludum-dare-29"
 blurb: Arcade racing game with procedurally generated levels.

@@ -3,6 +3,7 @@ title: Black Box Bandit
 blog: projects
 date: 2014-08-25
 tags: C#, Unity
+youtube_video_id: BpHJ3BNCliU
 links:
     - "Read Code,https://github.com/KeikakuB/experiments/tree/master/ludum-dare-30"
 blurb: Puzzle game with procedurally generated levels.
