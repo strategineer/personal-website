@@ -257,5 +257,8 @@ ul.list-inline {
 @include media-breakpoint-up(lg) { 
 }
 @include media-breakpoint-up(xl) { 
+    .album {
+        width: 1140px;
+    }
 }
 
