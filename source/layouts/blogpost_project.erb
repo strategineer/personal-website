@@ -5,20 +5,18 @@
     <% has_video = !current_article.data.youtube_video_id.nil? %>
     <% has_images = has_project_images?(current_article) %>
     <% if has_video or has_images %>
-      <div class="row justify-content-center">
-        <% columns_left = 9 %>
+      <div class="row justify-content-center readable">
         <% if has_video %>
-          <div class="col-12 col-lg-6">
+          <div class="col-12">
             <div class="row align-items-center justify-content-center justify-content-lg-end">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
-          <% columns_left = 6 %>
         <% end %>
-        <% if has_images %>
-          <div class="col-12 col-lg-<%= columns_left %>">
+        <% if not has_video and has_images %>
+          <div class="col-12">
               <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <% index = 0 %>
