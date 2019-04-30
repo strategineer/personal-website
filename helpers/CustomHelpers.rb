@@ -5,13 +5,13 @@ module CustomHelpers
         res = path.match(/\/([^\/]+)#{ext}/)
         return res.captures[0]
     end
-    def has_project_thumbnail(article)
-      return get_project_thumbnail_path(article) != ""
+    def has_thumbnail(article)
+      return get_thumbnail_path(article) != ""
     end
-    def get_project_thumbnail_path(article)
+    def get_thumbnail_path(article)
 # this doesn't work because request path doesn't work on the projects page
         id = get_article_id(article)
-        thumbnail_path = "/images/projects/#{id}"
+        thumbnail_path = "/images/#{article.data.blog}/#{id}"
         source_thumbnail_path = "source#{thumbnail_path}"
         glob = Dir.glob("#{source_thumbnail_path}/thumbnail.*")
         if not glob[0]
@@ -19,9 +19,14 @@ module CustomHelpers
         end
         return "#{thumbnail_path}/#{File.basename(glob[0])}"
     end
-    def has_project_images?(article)
-        id = get_article_id(current_article)
-        images_path = "/images/projects/#{id}/screenshots"
+
+    def has_video?(article)
+      return !article.data.youtube_video_id.nil?
+    end
+
+    def has_images?(article)
+        id = get_article_id(article)
+        images_path = "/images/#{article.data.blog}/#{id}/screenshots"
         source_images_path = "source#{images_path}"
         if Dir.exists?(source_images_path)
           Dir.foreach(source_images_path) do |file|
@@ -32,10 +37,10 @@ module CustomHelpers
         end
         return false
     end
-    def get_project_images(article)
+    def get_images(article)
         res = []
-        id = get_article_id(current_article)
-        images_path = "/images/projects/#{id}/screenshots"
+        id = get_article_id(article)
+        images_path = "/images/#{article.data.blog}/#{id}/screenshots"
         source_images_path = "source#{images_path}"
         if Dir.exists?(source_images_path)
           Dir.foreach(source_images_path) do |file|
@@ -48,6 +53,79 @@ module CustomHelpers
           end
         end
         return res
+    end
+
+    def try_page_video(page)
+      has_video = has_video?(page)
+      res = ""
+      if has_video
+        res <<
+%{
+<div class="row justify-content-center readable">
+    <div class="col-12">
+      <div class="row align-items-center justify-content-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/#{page.data.youtube_video_id}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+</div>
+  }
+      end
+      return res
+    end
+
+    def try_page_images(page)
+      has_images = has_images?(page)
+      res = ""
+      if has_images
+        res <<
+%{
+<div class="row justify-content-center readable">
+  <div class="col-12">
+      <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+}
+        index = 0
+        get_images(page).each do |data|
+          res <<
+%{
+            <li data-target="#carouselScreenshots" data-slide-to="#{index}" class="#{index == 0 ? "active" : ''}"></li>
+}
+            index = index + 1
+        end
+        res <<
+%{
+        </ol>
+        <div class="carousel-inner">
+}
+        index = 0
+        get_images(page).each do |data|
+          res <<
+%{
+            <div class="carousel-item#{index == 0 ? " active" : ''}">
+              <img class="d-block w-100" src="#{data.screenshot_path}" alt="#{data.name}"/>
+            </div>
+}
+          index = index + 1
+        end
+        res <<
+%{
+        </div>
+        <a class="carousel-control-prev" href="#carouselScreenshots" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselScreenshots" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </div>
+</div>
+}
+      end
+      return res
     end
 
     def project_album(projects, title = nil, pred = nil)
@@ -78,7 +156,7 @@ module CustomHelpers
             <div class="col">
               <a href="#{project.url}">
                 <div class="card mx-auto">
-                  <img class="card-img-top" src="#{get_project_thumbnail_path(project)}" alt="#{project.title} Thumbnail"></img>
+                  <img class="card-img-top" src="#{get_thumbnail_path(project)}" alt="#{project.title} Thumbnail"></img>
                   <div class="card-body mb-3">
                     <h5 class="card-title">#{project.title}</h5>
                     <h6 class="card-subtitle mb-2">#{tags_subtitle}</h6>

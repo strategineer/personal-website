@@ -1,52 +1,8 @@
 <% wrap_layout :layout do %>
   <div class="container">
     <%= page_title(current_article.title) %>
-    <%# video and images %>
-    <% has_video = !current_article.data.youtube_video_id.nil? %>
-    <% has_images = has_project_images?(current_article) %>
-    <% if has_video or has_images %>
-      <div class="row justify-content-center readable">
-        <% if has_video %>
-          <div class="col-12">
-            <div class="row align-items-center justify-content-center justify-content-lg-end">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/<%= current_article.data.youtube_video_id %>?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        <% end %>
-        <% if not has_video and has_images %>
-          <div class="col-12">
-              <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <% index = 0 %>
-                  <% get_project_images(current_article).each do |data| %>
-                    <li data-target="#carouselScreenshots" data-slide-to="<%= index %>" class="<%= index == 0 ? " active" : ''%>"></li>
-                    <% index = index + 1 %>
-                  <% end %>
-                </ol>
-                <div class="carousel-inner">
-                  <% index = 0 %>
-                  <% get_project_images(current_article).each do |data| %>
-                    <div class="carousel-item<%= index == 0 ? " active" : ''%>">
-                      <img class="d-block w-100" src="<%= data.screenshot_path %>" alt="<%= data.name %>"/>
-                    </div>
-                    <% index = index + 1 %>
-                  <% end %>
-                </div>
-                <a class="carousel-control-prev" href="#carouselScreenshots" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselScreenshots" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-          </div>
-        <% end %>
-      </div>
-    <% end %>
+    <%= try_page_video(current_article) %>
+    <%= try_page_images(current_article) %>
     <%= page_links(current_page) %>
     <%# text %>
     <div class="row justify-content-center">

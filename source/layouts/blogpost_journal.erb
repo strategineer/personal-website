@@ -1,6 +1,8 @@
 <% wrap_layout :layout do %>
   <div class="container">
     <%= page_title(current_page.data.title) %>
+    <%= try_page_video(current_article) %>
+    <%= try_page_images(current_article) %>
     <%= page_links(current_page) %>
     <div class="row justify-content-center readable">
           <%= yield %>
