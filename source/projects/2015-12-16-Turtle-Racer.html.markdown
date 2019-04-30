@@ -1,15 +1,15 @@
 ---
-title: Grand Turtle Auto
+title: Great Turtle Adventure IV
 blog: projects
 date: 2015-12-16
 tags: cpp
 is_important: true
-blurb: 3D racing game with a custom engine (DX10 and PhysX).
+blurb: 3D racing game with my own custom game engine (DX10 and PhysX).
 links:
     - "Read Code,https://github.com/KeikakuB/grand-turtle-racing"
     - "Play Now,https://github.com/KeikakuB/grand-turtle-racing/releases/tag/1.00"
 ---
-Grand Turtle Auto was developed using a custom game engine I designed and built (with DirectX 10 and PhysX) inspired by the [game engine](https://github.com/DDJV-INF740/GameEngine-src) built by [Gaspard Petit](https://www.linkedin.com/in/gaspardpetit/) and the DirectX 10 knowledge provided by François Jean during my first semester in the DDJV program at the University of Sherbrooke (Campus Longueuil).
+Great Turtle Adventure IV was developed using a custom game engine I designed and built (with DirectX 10 and PhysX) inspired by the [game engine](https://github.com/DDJV-INF740/GameEngine-src) built by [Gaspard Petit](https://www.linkedin.com/in/gaspardpetit/) and the DirectX 10 knowledge provided by François Jean during my first semester in the DDJV program at the University of Sherbrooke (Campus Longueuil).
 
 The project was completed mostly by myself with the help of [Mathieu Langlois](https://www.linkedin.com/in/mathieu-langlois-a019a1100) and [Dominique Lacombe](https://www.linkedin.com/in/lacombe-dominique/) who helped me close the project in the last couple of days before the deadline.
 
