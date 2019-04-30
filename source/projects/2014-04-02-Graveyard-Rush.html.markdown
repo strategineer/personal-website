@@ -5,6 +5,7 @@ date: 2014-04-02
 tags: haxe
 youtube_video_id: ENjE4YQMPro
 links:
+    - "Read Code,https://github.com/KeikakuB/graveyard-rush"
     - "Play Now,https://github.com/KeikakuB/graveyard-rush/releases"
 blurb: 2D top down arcade shooter with online leaderboards.
 ---

@@ -5,6 +5,7 @@ date: 2012-12-20
 tags: python, pygame
 youtube_video_id: xw3y5qrr3OU
 links:
+    - "Read Code,https://github.com/KeikakuB/infini-cube"
     - "Play Now,https://github.com/KeikakuB/infini-cube/releases"
 blurb: SHMUP game without any shooting game.
 ---

@@ -5,6 +5,9 @@ date: 2015-12-16
 tags: cpp
 is_important: true
 blurb: 3D racing game with a custom engine (DX10 and PhysX).
+links:
+    - "Read Code,https://github.com/KeikakuB/grand-turtle-racing"
+    - "Play Now,https://github.com/KeikakuB/grand-turtle-racing/releases/tag/1.00"
 ---
 Turtle Racer (AKA Grand Turtle Auto) was developed using a game engine I built (with DX10 and PhysX) based on code provided to us during the DDJV program at the University of Sherbrooke (Campus Longueuil).
 
