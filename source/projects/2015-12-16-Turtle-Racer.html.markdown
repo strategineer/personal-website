@@ -1,5 +1,5 @@
 ---
-title: Turtle Racer
+title: Grand Turtle Auto
 blog: projects
 date: 2015-12-16
 tags: cpp
@@ -9,8 +9,8 @@ links:
     - "Read Code,https://github.com/KeikakuB/grand-turtle-racing"
     - "Play Now,https://github.com/KeikakuB/grand-turtle-racing/releases/tag/1.00"
 ---
-Turtle Racer (AKA Grand Turtle Auto) was developed using a game engine I built (with DX10 and PhysX) based on code provided to us during the DDJV program at the University of Sherbrooke (Campus Longueuil).
+Grand Turtle Auto was developed using a custom game engine I designed and built (with DirectX 10 and PhysX) inspired by the [game engine](https://github.com/DDJV-INF740/GameEngine-src) built by [Gaspard Petit](https://www.linkedin.com/in/gaspardpetit/) and the DirectX 10 knowledge provided by François Jean during my first semester in the DDJV program at the University of Sherbrooke (Campus Longueuil).
 
-The project was completed mostly by myself with the help of [Mathieu Langlois](https://www.linkedin.com/in/mathieu-langlois-a019a1100) who helped close the project near the deadline.
+The project was completed mostly by myself with the help of [Mathieu Langlois](https://www.linkedin.com/in/mathieu-langlois-a019a1100) and [Dominique Lacombe](https://www.linkedin.com/in/lacombe-dominique/) who helped me close the project in the last couple of days before the deadline.
 
 Notably, I took an ax to the game engine and 3D rendering code we were given and built it my own way to support the project specifically. One notable system I built was a post-effect shader manager allowing us to create the opening cinematic of the game in which the turtle wakes up from a nap and dazes lazily at the sun (don't ask me how).
