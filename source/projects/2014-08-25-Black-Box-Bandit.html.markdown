@@ -5,7 +5,7 @@ date: 2014-08-25
 tags: C#, Unity
 youtube_video_id: BpHJ3BNCliU
 links:
-    - "Read Code,https://github.com/KeikakuB/experiments/tree/master/ludum-dare-30"
+    - "Read Code,https://github.com/KeikakuB/experiments/tree/master/2014/08/ludum-dare-30"
     - "Play Now,https://github.com/KeikakuB/experiments/releases"
 blurb: Puzzle game with procedurally generated levels.
 ---
