@@ -13,7 +13,7 @@ for i in $ids; do
     name=$(echo ${name} | sed 's/-/ /g')
     echo "Generating ${name}... in $(pwd)"
     # Generate image with text filling the whole given space.
-    convert -background black -fill white -size ${size_text} -gravity center -font Noto-Mono label:" ${name} " ${filename}
+    convert -background black -fill white -gravity center -size ${size_text} -font Noto-Mono label:"${name}" ${filename}
     # Extend the "canvas" of the image to give the text some room to breath.
     mogrify -background black -gravity center -extent ${size_final} ${filename}
 done
