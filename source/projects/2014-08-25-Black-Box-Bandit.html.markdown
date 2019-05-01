@@ -9,7 +9,7 @@ links:
     - "Play Now,https://github.com/KeikakuB/experiments/releases"
 blurb: Puzzle game with procedurally generated levels.
 ---
-Black Box Bandit was developed using Unity for Ludum Dare 30 (theme: Connected Worlds).
+Black Box Bandit was developed using Unity in 48h during Ludum Dare 30 (theme: Connected Worlds).
 
 <blockquote class="blockquote">
 You are the Black Box Bandit. You travel through the Interwebs and destroy the black boxes of the Utech corporation's computer systems. <BR>

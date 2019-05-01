@@ -14,4 +14,4 @@ Great Turtle Adventure IV was developed using a custom game engine I designed an
 
 The project was completed mostly by myself with the help of [Mathieu Langlois](https://www.linkedin.com/in/mathieu-langlois-a019a1100) and [Dominique Lacombe](https://www.linkedin.com/in/lacombe-dominique/) who helped me close the project in the last couple of days before the deadline.
 
-Notably, I took an ax to the game engine and 3D rendering code we were given and built it my own way to support the project specifically. One notable system I built was a post-effect shader manager allowing us to create the opening cinematic of the game in which the turtle wakes up from a nap and dazes lazily at the sun (don't ask me how).
+I took an ax to the existing game engine and 3D rendering code we were given and built it my own way to support our project specifically. Also, I built was a post-effect shader manager allowing us to create the opening cinematic of the game in which the turtle wakes up from a nap and dazes lazily at the sun (I don't think turtles can actually do that but hey).

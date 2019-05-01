@@ -7,7 +7,7 @@ blurb: Windows Phone companion app for Pen and Paper roleplaying players.
 ---
 I developed DnD Sidekick the end of 2012.
 
-It was a milestone for me because it was the first fleshed out application that I made, it was used extensively by other people and I was paid for my work.
+It was a personal milestone because it was the first fleshed out application that I built from the ground up, it was used extensively by other people and I was paid for my work.
 
 DnD Sidekick ...
 

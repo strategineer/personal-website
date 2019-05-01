@@ -9,7 +9,7 @@ links:
     - "Play Now,https://github.com/KeikakuB/experiments/releases"
 blurb: Arcade racing game with procedurally generated levels.
 ---
-Billguk the Invasion Logistics Professional was developed using Unity for Ludum Dare 29 (theme: Beneath the Surface).
+Billguk the Invasion Logistics Professional was developed using Unity in 48h during Ludum Dare 29 (theme: Beneath the Surface).
 
 <blockquote class="blockquote">
 Dear Billguk,<BR>
