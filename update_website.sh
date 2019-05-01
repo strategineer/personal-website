@@ -1,3 +1,4 @@
+#!/bin/bash
 if [[ $# -eq 0 ]] || [[ $# -gt 1 ]] ; then
     echo 'ERROR: Must supply the commit message as a single parameter.'
     exit 1
