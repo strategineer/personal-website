@@ -8,11 +8,11 @@
     <% .each do |article| %>
     <item>
     <% prefix = "" %>
-    <% if article.path.start_with? "projects" } %>
+    <% if article.path.start_with? "projects" %>
       <% prefix = "Project - " %>
-    <% elsif article.path.start_with? "reviews" } %>
+    <% elsif article.path.start_with? "reviews" %>
       <% prefix = "Review - " %>
-    <% elsif article.path.start_with? "journals" } %>
+    <% elsif article.path.start_with? "journals" %>
       <% prefix = "Blog Post - " %>
     <% end %>
       <title><%= prefix + article.title %></title>
