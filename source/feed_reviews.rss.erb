@@ -13,7 +13,7 @@
       <guid><!-- same --></guid>
       <description><%= article.data["summary"] %></description>
       <pubDate><%= article.date.utc.rfc822 %></pubDate>
-      <% article.data["tags"].each do |tag| %>
+      <% article.data["tags"].split(', ').each do |tag| %>
       <category><%= tag %></category>
       <% end %>
     </item>
