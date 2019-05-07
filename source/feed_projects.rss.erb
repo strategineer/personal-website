@@ -8,10 +8,10 @@
     <% .sort { |a, b| a.date <=> b.date }.reverse %>
     <% .each do |article| %>
     <item>
-      <title><%= article.title %></title>
+      <title>Project - <%= article.title %></title>
       <link>https://btyros.com/<%= article.destination_path %></link>
       <guid><!-- same --></guid>
-      <description><%= article.data["summary"] %></description>
+      <description><%= article.summary(250, '>>') %></description>
       <pubDate><%= article.date.utc.rfc822 %></pubDate>
       <% article.data["tags"].split(', ').each do |tag| %>
       <category><%= tag %></category>

@@ -7,10 +7,19 @@
     <% .sort { |a, b| a.date <=> b.date }.reverse %>
     <% .each do |article| %>
     <item>
-      <title><%= article.title %></title>
-      <link>https://btyros.com/<%= article.destination_path %></link>
-      <guid><!-- same --></guid>
-      <description><%= article.data["summary"] %></description>
+    <% prefix = "" %>
+    <% if article.path.start_with? "projects" } %>
+      <% prefix = "Project - " %>
+    <% elsif article.path.start_with? "reviews" } %>
+      <% prefix = "Review - " %>
+    <% elsif article.path.start_with? "journals" } %>
+      <% prefix = "Blog Post - " %>
+    <% end %>
+      <title><%= prefix + article.title %></title>
+      <% article_link = "https://btyros.com/" + article.destination_path %>
+      <link><%= article_link %></link>
+      <guid><%= article_link %></guid>
+      <description><%= article.summary(250, '>>') %></description>
       <pubDate><%= article.date.utc.rfc822 %></pubDate>
       <% article.data["tags"].split(', ').each do |tag| %>
       <category><%= tag %></category>
