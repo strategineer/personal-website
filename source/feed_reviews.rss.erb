@@ -1,0 +1,22 @@
+<rss>
+  <channel>
+    <lastBuildDate><%= DateTime.now.utc.rfc822 %></lastBuildDate>
+
+    <% sitemap.resources %>
+    <% .select { |r| r.is_a? Middleman::Blog::BlogArticle } %>
+    <% .select { |b| b.path.start_with? "reviews" } %>
+    <% .sort { |a, b| a.date <=> b.date }.reverse %>
+    <% .each do |article| %>
+    <item>
+      <title><%= article.title %></title>
+      <link>https://btyros.com/<%= article.destination_path %></link>
+      <guid><!-- same --></guid>
+      <description><%= article.data["summary"] %></description>
+      <pubDate><%= article.date.utc.rfc822 %></pubDate>
+      <% article.data["tags"].each do |tag| %>
+      <category><%= tag %></category>
+      <% end %>
+    </item>
+    <% end %>
+  </channel>
+</rss>
