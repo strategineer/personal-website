@@ -2,7 +2,7 @@
 title: The website, Mortal Kombat 11 and microtransactions
 blog: journals
 date: 2019-04-24
-tags:
+tags: gaming
 ---
 I'm currently working on finishing up my personal website (the one you're currently on, I should probably put a "work-in-progress" sign up...). Work has been going well, I had done most of the 'setting everything up' a year and a half ago before I was employed by Framestore VR. I was quite busy after that with various things and this project sadly fell to the wayside.
 
