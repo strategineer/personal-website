@@ -1,4 +1,14 @@
 module CustomHelpers
+    def get_articles_shortlist(max_count=nil, blog_type=nil)
+      ls = sitemap.resources
+        .select { |r| r.is_a?(Middleman::Blog::BlogArticle) }
+        .select { |b| blog_type.nil? ? true : b.path.start_with?(blog_type) }
+        .sort { |a, b| a.date <=> b.date }
+        .reverse
+      max_count = max_count.nil? ? ls.size : max_count
+      return [ls.take(max_count), [ls.size - max_count, 0].max]
+    end
+
     def get_article_id(article)
         path = article.source_file
         ext = article.ext

@@ -13,6 +13,39 @@
       <div class="row justify-content-center">
       <%= page_tags(current_page) %>
       </div>
+      <% blog_id = ""%>
+      <% blog_name = ""%>
+      <% blog_archive = ""%>
+      <% is_blog = current_page.path.start_with?("journals/") %>
+      <% is_project = current_page.path.start_with?("projects/") %>
+      <% is_review = current_page.path.start_with?("reviews/") %>
+      <% if is_blog %>
+        <% blog_id = "journals"%>
+        <% blog_name = "blog posts"%>
+        <% blog_archive = "/blog.html"%>
+      <% elsif is_project %>
+        <% blog_id = "projects"%>
+        <% blog_name = "projects"%>
+        <% blog_archive = "/projects.html"%>
+      <% elsif is_review %>
+        <% blog_id = "reviews"%>
+        <% blog_name = "reviews"%>
+        <% blog_archive = "/reviews.html"%>
+      <% end %>
+      <% if is_blog or is_project or is_review %>
+        <div class="row justify-content-center">
+          Recent <%= blog_name %>:
+        </div>
+        <% ls = get_articles_shortlist(10, blog_id) %>
+        <ul class="articles-shortlist">
+          <% ls[0].each do |article| %>
+            <li><%= link_to article.title, article %></li>
+          <% end %>
+          <% if ls[1] > 0 %>
+            <li><a href="<%= blog_archive %>">... with <%= ls[1] %> more <%= blog_name %> in the archive</a>.</li>
+          <% end %>
+        </ul>
+      <% end %>
     </div>
   </div>
 </nav>
