@@ -112,6 +112,7 @@ a:focus, a:hover, a:visited, a:link, a:active
 }
 
 
+/* Tabular archive for reviews and blog posts */
 // Maximize the size of background to fill the cell. 
 td a div {
     width: 100%;
@@ -127,14 +128,6 @@ td a div:hover {
 // Ensure that the date field in table is not wrapped.
 .table-nowrap {
     white-space: nowrap;
-}
-
-.album {
-    border-top: 0.3em groove $bg_highlight;
-}
-
-.album-row {
-    margin-top: 1em;
 }
 
 // Remove this unneeded margin that messes up the page links
@@ -155,6 +148,16 @@ ul.list-inline {
 .li-links {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+/* Projects Album */
+
+.album {
+    border-top: 0.3em groove $bg_highlight;
+}
+
+.album-row {
+    margin-top: 1em;
 }
 
 .card {
@@ -201,6 +204,27 @@ ul.list-inline {
     font-size: 75%;
 }
 
+
+/* CV */
+.cv-sidebar {
+    // border-right: 2px solid $bg_highlight;
+}
+
+.cv-main-section {
+    // border-bottom: 3px solid $bg_highlight;
+    margin-top: 1em;
+}
+
+.cv-main-entry {
+    border-left: 2px solid $bg_highlight;
+    border-bottom: 2px solid $bg_highlight;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.cv-main-entry-bullets {
+    font-size: 95%;
+}
 
 @include media-breakpoint-down(xs) { 
 }

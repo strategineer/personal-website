@@ -46,10 +46,10 @@
                       "list":
                       [
                         "Gameplay Programming",
-"Multiplatform development including generic port infrastructure/support and optimization for the PS4 and Xbox One ports",
-"UI (3D, effects, support for controller and keyboard and mouse, etc.).",
-"Tools (cheats, real-time debugging, editor tools, etc.).",
-"Build Management for PC, PS4, Xbox One, Steam, GOG, Twitch, etc."
+                        "Multiplatform development including generic port infrastructure/support and optimization for the PS4 and Xbox One ports",
+                        "UI (3D, effects, support for controller and keyboard and mouse, etc.).",
+                        "Tools (cheats, real-time debugging, editor tools, etc.).",
+                        "API integration and build automation for PC, PS4, Xbox One, Steam, GOG, Twitch, etc."
                       ]
                   },
                   {
@@ -111,11 +111,11 @@
       "sidebar_section":
       [
           {
-              "title": "Languages",
-              "list": ["English", "French"]
+              "title": "Langues",
+              "list": ["Français", "Anglais"]
           },
           {
-              "title": "Programming",
+              "title": "Programmation",
               "list": ["C++", "C#", "Python"]
           },
           {
@@ -123,21 +123,21 @@
               "list": ["Unreal Engine 4", "Unity 4, 5, 2017", "SDL"]
           },
           {
-              "title": "Methods",
+              "title": "Méthodes",
               "list": ["Agile (SCRUM)"]
           }
       ],
       "main_section":
       [
           {
-              "title": "Work Experience",
+              "title": "Expérience professionelle",
               "list":
               [
                   {
                       "year": "2017-2018",
-                      "title": "Programmer at Framestore VR ",
+                      "title": "Programmeur chez Framestore VR ",
                       "tech": ["C++", "Python", "Unreal Engine 4", "Jenkins"],
-                      "hint": "Full Time - 14 months",
+                      "hint": "Temps plein - 14 mois",
                       "list":
                       [
                         "..."
@@ -145,64 +145,65 @@
                   },
                   {
                       "year": "2016-2017",
-                      "title": "Programmer at Borealys Games",
+                      "title": "Programmeur chez Borealys Games",
                       "tech": ["C#", "Unity 5/2017", "Python"],
-                      "hint": "Full Time - 18 months",
+                      "hint": "Temps plein - 18 mois",
                       "list":
                       [
-                        "Gameplay Programming",
-"Multiplatform development including generic port infrastructure/support and optimization for the PS4 and Xbox One ports",
-"UI (3D, effects, support for controller and keyboard and mouse, etc.).",
-"Tools (cheats, real-time debugging, editor tools, etc.).",
-"Build Management for PC, PS4, Xbox One, Steam, GOG, Twitch, etc."
+                        "Programmation gameplay",
+                        "Développement multiplatforme incluant infrastructure, et optimization pour les ports PS4 et Xbox One",
+                        "IU (3D, effets, support pour mannette, clavier et souris, etc.).",
+                        "Outils (outils de déboguage en temps réel, outils éditeur, etc.).",
+                        "Intégration API et automatisation de build pour PC, PS4, Xbox One, Steam, GOG, Twitch, etc."
                       ]
                   },
                   {
                       "year": "2014",
-                      "title": "Software Developer at CAE",
+                      "title": "Développeur de logiciels chez CAE",
                       "tech": ["C#", "ASP.NET", "Javascript"],
-                      "hint": "Internship - 4 months",
+                      "hint": "Stage - 4 mois",
                       "list":
                       [
-                        "Developed, released and maintained issue management website built in 2013.",
-                        "Added interactive charts and intelligent tooltips using Ajax.",
-                        "Improved user experience based on frequent user feedback."
+                        "Développé, livré et maintenu le site de gestion de bogues construit en 2013.",
+                        "Ajouté des graphiques interactifs et des infobulles intelligentes avec Ajax.",
+                        "Amélioré l’expérience utilisateur en tenant compte des commentaires des utilisateurs.",
+                        "Rédigé et maintenu la documentation technique."
                       ]
                   },
                   {
                       "year": "2013",
-                      "title": "Software Developer at CAE",
+                      "title": "Développeur de logiciels chez CAE",
                       "tech": ["C#", "ASP.NET", "PHP"],
-                      "hint": "Internship - 4 months",
+                      "hint": "Stage - 4 mois",
                       "list":
                       [
-                          "Built a website to manage simulator issues (C#, ASP.NET).",
-                          "Built a website to help clients manage purchase orders (C#, ASP.NET).",
-                          "Built a web-based scheduling system for booking time on simulators (PHP, MRBS)."
+                          "Développé un site pour la gestion de bogues (C#, ASP.NET).",
+                          "Développé un site pour aider les clients à gérer leurs ordres d’achat (C#, ASP.NET).",
+                          "Développé un site pour permettre aux ingénieurs de réserver des simulateurs (PHP, MRBS)."
                       ]
                   }
               ]
           },
           {
-              "title": "Education",
+              "title": "Éducation",
               "list":
               [
                   {
                       "year": "2016",
-                      "title": "Video Game Development Diploma (DDJV)",
-                      "hint": "University of Sherbrooke",
+                      "title": "Diplôme de 2e cycle en développement du jeu vidéo (DDJV)",
+                      "hint": "Université de Sherbrooke",
                       "list":
                       [
-                        "Recipient of the WB Games Bursary."
+                        "Gagnant de la bourse WB Games."
                       ]
                   },
                   {
                       "year": "2015",
-                      "title": "B.Sc. Software Engineering (Honours)",
-                      "hint": "McGill University",
+                      "title": "B.Sc. en génie logiciel (Concentration)",
+                      "hint": "Université McGill",
                       "list":
                       [
-                        "Research on Automated Exploration in Roguelikes supervised by Clark Verbrugge."
+                        "Recherche sur l’exploration automatisée dans les jeux roguelike supervisée par Clark Verbrugge."
                       ]
                   }
               ]
