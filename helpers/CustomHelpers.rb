@@ -3,6 +3,7 @@ module CustomHelpers
       ls = sitemap.resources
         .select { |r| r.is_a?(Middleman::Blog::BlogArticle) }
         .select { |b| blog_type.nil? ? true : b.path.start_with?(blog_type) }
+        .select { |b| get_article_id(current_page) != get_article_id(b) }
         .sort { |a, b| a.date <=> b.date }
         .reverse
       max_count = max_count.nil? ? ls.size : max_count

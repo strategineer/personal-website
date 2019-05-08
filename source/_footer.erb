@@ -36,7 +36,7 @@
       <% end %>
       <% if is_blog or is_project or is_review %>
         <div class="row justify-content-center">
-          Recent <%= blog_name %>:
+          Other recent <%= blog_name %>:
         </div>
         <% ls = get_articles_shortlist(10, blog_id) %>
         <ul class="articles-shortlist">
