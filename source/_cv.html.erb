@@ -1,0 +1,52 @@
+<div class="row justify-content-center">
+  <div class="col-12 text-center">
+    <h1><%= d.name %></h1>
+  </div>
+</div>
+<div class="row justify-content-center">
+  <div class="col-12 text-center">
+    <h2><%= d.title %></h2>
+  </div>
+</div>
+<div class="row justify-content-center">
+  <div class="col-sm-3 text-center">
+    <% d.sidebar_section.each do |v| %>
+      <h4><%= v.title %></h4>
+      <% v.list.each do |e| %>
+        <p><%= e %></p>
+      <% end %>
+    <% end %>
+  </div>
+  <div class="col-sm-9">
+    <% d.main_section.each do |v| %>
+      <h3><%= v.title %></h3>
+      <% v.list.each do |e| %>
+        <div class="row">
+          <div class="col-2">
+          <%= e.year %>
+          </div>
+          <div class="col-6">
+            <h4><%= e.title %></h4>
+          </div>
+          <div class="col-4">
+          <%= e.hint %>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+        <% if defined? e.tech %>
+          <ul class="list-inline">
+          <% e.tech.each do |t| %>
+            <li class="list-inline-item"><%= t %></li>
+          <% end %>
+          </div>
+          </ul>
+        <% end %>
+        <ul>
+        <% e.list.each do |b| %>
+          <li><%= b %></li>
+        <% end %>
+        </ul>
+      <% end %>
+    <% end %>
+  </div>
+</div>

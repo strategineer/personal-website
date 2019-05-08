@@ -29,7 +29,7 @@
         <%= partial "header" %>
         <div class="container">
         <%# hack to prevent projects.html page from having the footer %>
-        <% has_footer = (not current_page.path.include?("projects.html") and not current_page.path.include?("index.html"))%>
+        <% has_footer = (not current_page.path.include?("projects.html") and not current_page.path.include?("index.html") and not current_page.path.start_with?("cv"))%>
           <div class="row justify-content-end">
             <div class="<%= has_footer ? "col-xl-9" : "col-xl-12" %> main">
                   <%= yield %>

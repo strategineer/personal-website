@@ -1,0 +1,112 @@
+{
+    "en":
+        {
+          "name": "Bill Christian Tyros",
+          "title": "Software Engineer",
+          "sidebar_section":
+          [
+              {
+                  "title": "Languages",
+                  "list": ["English", "French"]
+              },
+              {
+                  "title": "Programming",
+                  "list": ["C++", "C#", "Python"]
+              },
+              {
+                  "title": "Technologies",
+                  "list": ["Unreal Engine 4", "Unity 4, 5, 2017", "SDL"]
+              },
+              {
+                  "title": "Methods",
+                  "list": ["Agile (SCRUM)"]
+              }
+          ],
+          "main_section":
+          [
+              {
+                  "title": "Work Experience",
+                  "list":
+                  [
+                      {
+                          "year": "2017-2018",
+                          "title": "Programmer at Framestore VR ",
+                          "tech": ["C++", "Python", "Unreal Engine 4", "Jenkins"],
+                          "hint": "Full Time - 14 months",
+                          "list":
+                          [
+                            "..."
+                          ]
+                      },
+                      {
+                          "year": "2016-2017",
+                          "title": "Programmer at Borealys Games",
+                          "tech": ["C#", "Unity 5/2017", "Python"],
+                          "hint": "Full Time - 18 months",
+                          "list":
+                          [
+                            "Gameplay Programming",
+"Multiplatform development including generic port infrastructure/support and optimization for the PS4 and Xbox One ports",
+"UI (3D, effects, support for controller and keyboard and mouse, etc.).",
+"Tools (cheats, real-time debugging, editor tools, etc.).",
+"Build Management for PC, PS4, Xbox One, Steam, GOG, Twitch, etc."
+                          ]
+                      },
+                      {
+                          "year": "2014",
+                          "title": "Software Developer at CAE",
+                          "tech": ["C#", "ASP.NET", "Javascript"],
+                          "hint": "Internship - 4 months",
+                          "list":
+                          [
+                            "Developed, released and maintained issue management website built in 2013.",
+                            "Added interactive charts and intelligent tooltips using Ajax.",
+                            "Improved user experience based on frequent user feedback."
+                          ]
+                      },
+                      {
+                          "year": "2013",
+                          "title": "Software Developer at CAE",
+                          "tech": ["C#", "ASP.NET", "PHP"],
+                          "hint": "Internship - 4 months",
+                          "list":
+                          [
+                              "Built a website to manage simulator issues (C#, ASP.NET).",
+                              "Built a website to help clients manage purchase orders (C#, ASP.NET).",
+                              "Built a web-based scheduling system for booking time on simulators (PHP, MRBS)."
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "title": "Education",
+                  "list":
+                  [
+                      {
+                          "year": "2016",
+                          "title": "Video Game Development Diploma (DDJV)",
+                          "hint": "University of Sherbrooke",
+                          "list":
+                          [
+                            "Recipient of the WB Games Bursary."
+                          ]
+                      },
+                      {
+                          "year": "2015",
+                          "title": "B.Sc. Software Engineering (Honours)",
+                          "hint": "McGill University",
+                          "list":
+                          [
+                            "Research on Automated Exploration in Roguelikes supervised by Clark Verbrugge."
+                          ]
+                      }
+                  ]
+              }
+          ]
+        },
+    "fr":
+        {
+          "name": "Bill Christian Tyros",
+          "title": "Ingénieur logiciel"
+        }
+}
