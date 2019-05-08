@@ -35,7 +35,10 @@
                       "hint": "Full Time - 14 months",
                       "list":
                       [
-                        "..."
+                        "Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click.",
+                        "Developed a data-driven system for automating the generation of new projects in Perforce and Jenkins.",
+                        "Developed a Python command line tool for detecting changed art assets in Perforce, generating turntables automatically using Jenkins and uploading them for review by stakeholders to Shotgun.",
+                        "Overhauled all Jenkins jobs into Pipeline script jobs for improved performance (hours to minutes) for lengthy jobs, for building more project-specific features."
                       ]
                   },
                   {
@@ -140,7 +143,10 @@
                       "hint": "Temps plein - 14 mois",
                       "list":
                       [
-                        "..."
+                        "Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click.",
+                        "Developed a data-driven system for automating the generation of new projects in Perforce and Jenkins.",
+                        "Developed a Python command line tool for detecting changed art assets in Perforce, generating turntables automatically using Jenkins and uploading them for review by stakeholders to Shotgun.",
+                        "Overhauled all Jenkins jobs into Pipeline script jobs for improved performance (hours to minutes) for lengthy jobs, for building more project-specific features."
                       ]
                   },
                   {
