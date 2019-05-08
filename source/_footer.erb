@@ -37,14 +37,20 @@
       <% if is_blog or is_project or is_review %>
       <% next_article = get_next_article(blog_id) %>
       <% previous_article = get_previous_article(blog_id) %>
+      <% right_arrow = "&#x27A1" %>
+      <% left_arrow = "&#x2B05" %>
       <% unless next_article.nil? %>
       <div class="row justify-content-center footer-paginator-next">
-            <%= link_to "Next: " + next_article.title, next_article %>
+        <div class="col-12 mx-auto">
+            <%= link_to next_article.title + " " + right_arrow, next_article %>
+        </div>
       </div>
       <% end %>
       <% unless previous_article.nil? %>
       <div class="row justify-content-center footer-paginator-previous">
-            <%= link_to "Previous: " + previous_article.title, previous_article %>
+        <div class="col-12 mx-auto">
+            <%= link_to left_arrow + " " + previous_article.title, previous_article %>
+        </div>
       </div>
       <% end %>
         <div class="row justify-content-center footer-shortlist-title">

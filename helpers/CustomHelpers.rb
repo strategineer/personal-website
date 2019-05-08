@@ -275,19 +275,19 @@ module CustomHelpers
       if defined?(page.date)
         res <<
 %{
-<div class="row row-links justify-content-center">
+<div class="row row-tags justify-content-center">
   <div class="col text-center">
-    <ul class="list-inline ul-links">
+    <ul class="list-inline ul-tags">
 }
         res <<
 %{
-      <li class="list-inline-item li-links">#{link_to page.date.year, blog_year_path(page.date.year)}</li>
+      <li class="list-inline-item li-tags">#{link_to page.date.year, blog_year_path(page.date.year)}</li>
 }
         if not page.tags.nil? and not page.tags.size == 0
           page.tags.each do |tag, articles|
             res <<
 %{
-      <li class="list-inline-item li-links">#{link_to tag, tag_path(tag) }</li>
+      <li class="list-inline-item li-tags">#{link_to tag, tag_path(tag) }</li>
 }
           end
         res <<

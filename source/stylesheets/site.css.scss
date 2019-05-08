@@ -24,21 +24,29 @@ body {
     line-height: 1.8;
 }
 
-.footer {
-    margin-top: 1em;
-}
-
 .readable,
 .cv-readable {
     margin: auto;
 }
 
 /* Footer */
+.footer {
+    margin-top: 1em;
+}
+
 .footer-content {
     margin-bottom: 1em;
 }
-.footer-paginator-next,
-.footer-paginator-tags,
+
+.footer-paginator-previous,
+.footer-paginator-next {
+    font-size: 85%;
+}
+
+.footer-tags {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 .footer-shortlist-title{
     margin-top: 1em;
 }
@@ -48,7 +56,7 @@ body {
 }
 
 .footer-shortlist-list{
-    font-size: 0.95rem;
+    font-size: 75%;
 }
 
 // Set internal borders.
@@ -150,17 +158,17 @@ ul.list-inline {
     margin-bottom: 0;
 }
 
-.row-links {
+.row-tags {
     font-size: 1.5rem;
     margin-top: 5;
     margin-bottom: 5px;
 }
 
-.ul-links {
+.ul-tags {
     margin: 5px;
 }
 
-.li-links {
+.li-tags {
     margin-left: 5px;
     margin-right: 5px;
 }
