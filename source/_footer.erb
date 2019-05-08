@@ -35,6 +35,18 @@
         <% blog_archive = "/reviews.html"%>
       <% end %>
       <% if is_blog or is_project or is_review %>
+      <% previous_article = get_previous_article(blog_id) %>
+      <% next_article = get_next_article(blog_id) %>
+      <% unless previous_article.nil? %>
+      <div class="row justify-content-center">
+            <%= link_to "Previous: " + previous_article.title, previous_article %>
+      </div>
+      <% end %>
+      <% unless next_article.nil? %>
+      <div class="row justify-content-center">
+            <%= link_to "Next: " + next_article.title, next_article %>
+      </div>
+      <% end %>
         <div class="row justify-content-center">
           Other recent <%= blog_name %>:
         </div>

@@ -1,24 +1,40 @@
 module CustomHelpers
-    def get_articles_shortlist(max_count=nil, blog_type=nil)
-      ls = sitemap.resources
-        .select { |r| r.is_a?(Middleman::Blog::BlogArticle) }
-        .select { |b| blog_type.nil? ? true : b.path.start_with?(blog_type) }
-        .select { |b| get_article_id(current_page) != get_article_id(b) }
-        .sort { |a, b| a.date <=> b.date }
-        .reverse
-      max_count = max_count.nil? ? ls.size : max_count
-      return [ls.take(max_count), [ls.size - max_count, 0].max]
-    end
-
     def get_article_id(article)
         path = article.source_file
         ext = article.ext
         res = path.match(/\/([^\/]+)#{ext}/)
         return res.captures[0]
     end
+
+    def get_articles_shortlist(max_count=nil, blog_type=nil, exclude_self=true)
+      ls = sitemap.resources.select { |r| r.is_a?(Middleman::Blog::BlogArticle) }
+      unless blog_type.nil?
+        ls = ls.select { |b| b.path.start_with?(blog_type) }
+      end
+      if exclude_self
+        ls = ls.select { |b| get_article_id(current_page) != get_article_id(b) }
+      end
+      ls = ls.sort { |a, b| a.date <=> b.date }.reverse
+      max_count = max_count.nil? ? ls.size : max_count
+      return [ls.take(max_count), [ls.size - max_count, 0].max]
+    end
+
+    def get_next_article(blog_type=nil)
+      ls = get_articles_shortlist(nil, blog_type, exclude_self=false)[0]
+      entry_index = ls.index{|x| get_article_id(current_page) == get_article_id(x)}
+      return (entry_index.nil? or entry_index - 1 < 0) ? nil : ls[entry_index - 1]
+    end
+
+    def get_previous_article(blog_type=nil)
+      ls = get_articles_shortlist(nil, blog_type, exclude_self=false)[0]
+      entry_index = ls.index{|x| get_article_id(current_page) == get_article_id(x)}
+      return (entry_index.nil? or ls.size == entry_index) ? nil : ls[entry_index + 1]
+    end
+
     def has_thumbnail(article)
       return get_thumbnail_path(article) != ""
     end
+
     def get_thumbnail_path(article)
 # this doesn't work because request path doesn't work on the projects page
         id = get_article_id(article)
