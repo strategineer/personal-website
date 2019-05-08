@@ -241,29 +241,31 @@ module CustomHelpers
 
     def page_tags(page)
       res = ""
-      res <<
+      if defined?(page.date)
+        res <<
 %{
 <div class="row row-links justify-content-center">
   <div class="col text-center">
     <ul class="list-inline ul-links">
 }
-      res <<
+        res <<
 %{
       <li class="list-inline-item li-links">#{link_to page.date.year, blog_year_path(page.date.year)}</li>
 }
-      if not page.tags.nil? and not page.tags.size == 0
-        page.tags.each do |tag, articles|
-          res <<
+        if not page.tags.nil? and not page.tags.size == 0
+          page.tags.each do |tag, articles|
+            res <<
 %{
       <li class="list-inline-item li-links">#{link_to tag, tag_path(tag) }</li>
 }
-        end
-      res <<
+          end
+        res <<
 %{
     </ul>
   </div>
 </div>
 }
+        end
       end
       return res
     end
