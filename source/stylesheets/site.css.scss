@@ -28,7 +28,8 @@ body {
     margin-top: 1em;
 }
 
-.readable {
+.readable,
+.cv-readable {
     margin: auto;
 }
 
@@ -211,7 +212,8 @@ ul.list-inline {
 }
 
 .cv-sidebar-section {
-    margin: 1em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .cv-main-section {
@@ -298,6 +300,9 @@ ul.list-inline {
 }
 @include media-breakpoint-up(xl) { 
     .album {
+        width: 1140px;
+    }
+    .cv-readable {
         width: 1140px;
     }
 }

@@ -15,7 +15,7 @@
           },
           {
               "title": "Technologies",
-              "list": ["Unreal Engine 4", "Unity 4, 5, 2017", "SDL"]
+              "list": ["Jenkins", "Perforce", "Shotgun", "Unreal Engine 4", "Unity"]
           },
           {
               "title": "Methods",
@@ -123,7 +123,7 @@
           },
           {
               "title": "Technologies",
-              "list": ["Unreal Engine 4", "Unity 4, 5, 2017", "SDL"]
+              "list": ["Jenkins", "Perforce", "Shotgun", "Unreal Engine 4", "Unity"]
           },
           {
               "title": "Méthodes",

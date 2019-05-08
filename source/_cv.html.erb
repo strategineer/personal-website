@@ -1,11 +1,3 @@
-<div class="row justify-content-center" style="margin-bottom: 1em;">
-  <div class="col-sm-2 text-center">
-    <%= link_to "English CV", "/cv.html" %>
-  </div>
-  <div class="col-sm-2 text-center">
-    <%= link_to "French CV", "/cv_fr.html" %>
-  </div>
-</div>
 <div class="row justify-content-center cv-name">
   <div class="col-12 text-center">
     <h1><%= d.name %></h1>
@@ -16,8 +8,20 @@
     <h2><%= d.title %></h2>
   </div>
 </div>
-<div class="row justify-content-center cv-content">
+<div class="row justify-content-center cv-content cv-readable">
   <div class="col-xl-3 text-center cv-sidebar">
+    <div class="row">
+      <% if current_page.path.start_with?("cv_fr.html") %>
+        <div class="col-12 justify-content-center">
+          <%= link_to "CV in english", "/cv.html" %>
+        </div>
+      <% elsif current_page.path.start_with?("cv.html") %>
+        <div class="col-12 justify-content-center">
+          <%= link_to "CV en français", "/cv_fr.html" %>
+        </div>
+      <% end %>
+    </div>
+    <div class="row">
     <% d.sidebar_section.each do |v| %>
       <div class="col-12 cv-sidebar-section">
         <h4><%= v.title %></h4>
@@ -28,6 +32,7 @@
         </ul>
       </div>
     <% end %>
+    </div>
   </div>
   <div class="col-xl-9 cv-main">
     <% d.main_section.each do |v| %>
