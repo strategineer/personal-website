@@ -38,7 +38,7 @@
                         "Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click.",
                         "Developed a data-driven system for automating the generation of new projects in Perforce and Jenkins.",
                         "Developed a Python command line tool for detecting changed art assets in Perforce, generating turntables automatically using Jenkins and uploading them for review by stakeholders to Shotgun.",
-                        "Overhauled all Jenkins jobs into Pipeline script jobs for improved performance (hours to minutes) for lengthy jobs, for building more project-specific features."
+                        "Overhauled all Jenkins jobs into Pipeline script jobs for improved performance (hours to minutes) for lengthy jobs and for building more project-specific features more easily."
                       ]
                   },
                   {
@@ -48,8 +48,8 @@
                       "hint": "Full Time - 18 months",
                       "list":
                       [
-                        "Gameplay Programming",
-                        "Multiplatform development including generic port infrastructure/support and optimization for the PS4 and Xbox One ports",
+                        "Gameplay Programming.",
+                        "Multiplatform development including generic port infrastructure/support and optimization for the PS4 and Xbox One ports.",
                         "UI (3D, effects, support for controller and keyboard and mouse, etc.).",
                         "Tools (cheats, real-time debugging, editor tools, etc.).",
                         "API integration and build automation for PC, PS4, Xbox One, Steam, GOG, Twitch, etc."
@@ -143,10 +143,10 @@
                       "hint": "Temps plein - 14 mois",
                       "list":
                       [
-                        "Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click.",
-                        "Developed a data-driven system for automating the generation of new projects in Perforce and Jenkins.",
-                        "Developed a Python command line tool for detecting changed art assets in Perforce, generating turntables automatically using Jenkins and uploading them for review by stakeholders to Shotgun.",
-                        "Overhauled all Jenkins jobs into Pipeline script jobs for improved performance (hours to minutes) for lengthy jobs, for building more project-specific features."
+                        "Développé un plugin Unreal Engine 4 (C++) pour l'importation et l'itération d'art provenant de Shotgun et Perforce dans des projets Unreal avec un clique.",
+                        "Développé un système piloté par les données pour l'automatisation de la génération de nouveaux projets dans Perforce et Jenkins.",
+                        "Développé un outil de ligne de command en Python pour détecter des modifications sur l'art dans Perforce, générer des \"turntables\" avec Jenkins et les télécharger dans Shotgun pour être révisé par les parties prenantes.",
+                        "Remanié tous nos jobs Jenkins vers des jobs \"pipeliné\" pour pouvoir améliorer la performance (heures vers minutes) de nos jobs longues et pour bàtir des fonctionnalités spécifique à certains projets plus facilement."
                       ]
                   },
                   {
@@ -156,8 +156,8 @@
                       "hint": "Temps plein - 18 mois",
                       "list":
                       [
-                        "Programmation gameplay",
-                        "Développement multiplatforme incluant infrastructure, et optimization pour les ports PS4 et Xbox One",
+                        "Programmation gameplay.",
+                        "Développement multiplatforme incluant infrastructure, et optimization pour les ports PS4 et Xbox One.",
                         "IU (3D, effets, support pour mannette, clavier et souris, etc.).",
                         "Outils (outils de déboguage en temps réel, outils éditeur, etc.).",
                         "Intégration API et automatisation de build pour PC, PS4, Xbox One, Steam, GOG, Twitch, etc."

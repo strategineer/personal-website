@@ -17,28 +17,32 @@
   </div>
 </div>
 <div class="row justify-content-center cv-content">
-  <div class="col-sm-3 text-center cv-sidebar">
+  <div class="col-xl-3 text-center cv-sidebar">
     <% d.sidebar_section.each do |v| %>
-      <h4><%= v.title %></h4>
-      <% v.list.each do |e| %>
-        <p><%= e %></p>
-      <% end %>
+      <div class="col-12 cv-sidebar-section">
+        <h4><%= v.title %></h4>
+        <ul class="list-inline">
+        <% v.list.each do |e| %>
+          <li class="list-inline-item"><%= e %></li>
+        <% end %>
+        </ul>
+      </div>
     <% end %>
   </div>
-  <div class="col-sm-9 cv-main">
+  <div class="col-xl-9 cv-main">
     <% d.main_section.each do |v| %>
       <div class="col-12 cv-main-section">
         <h3 class="cv-main-title"><%= v.title %></h3>
         <% v.list.each do |e| %>
           <div class="col-12 cv-main-entry">
             <div class="row cv-main-entry-header">
-              <div class="col-6 text-left cv-main-entry-title">
+              <div class="col-xl-6 text-left cv-main-entry-title">
                 <h4><%= e.title %></h4>
               </div>
-              <div class="col-2 text-right cv-main-entry-year">
+              <div class="col-xl-2 text-right cv-main-entry-year">
               <%= e.year %>
               </div>
-              <div class="col-4 text-right cv-main-entry-hint">
+              <div class="col-xl-4 text-right cv-main-entry-hint">
               <%= e.hint %>
               </div>
             </div>
