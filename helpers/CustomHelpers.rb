@@ -249,6 +249,10 @@ module CustomHelpers
       return res
     end
 
+    def has_tags?(page)
+      return (defined?(page.date) and not page.tags.nil? and page.tags.size > 0)
+    end
+
     def page_tags(page)
       res = ""
       if defined?(page.date)

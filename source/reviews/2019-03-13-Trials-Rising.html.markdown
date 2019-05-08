@@ -3,7 +3,7 @@ title: Trials Rising
 blog: reviews
 category: video-game
 date: 2019-03-13
-tags: PC, thumbs_up
+tags: PC, thumbs_up, video
 youtube_video_id: hnmdKu9lswg
 ---
 Trials Rising, and the Trials series as a whole, fully embraces the &quot;Easy to Learn, Hard to Master&quot; motto as a core game design pillar and provides an experience that is easier to get into for new players while providing the challenging gameplay that the series is known for.

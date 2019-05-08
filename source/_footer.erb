@@ -5,14 +5,16 @@
         <img class="mx-auto" src="/images/portrait.png" style="height: 175px; width: 175px;" alt="Memoji of Bill">
       </div>
       <div class="row justify-content-center">
-          <p class="text-center">I'm a software engineer living in Montreal, Canada. I mostly write about video games.
-          </p>
-          <p class="text-center">Read more <a href="/index.html">about me</a> or <a href="mailto:me@btyros.com">send me a message</a>.
-          </p>
+          <div class="col-12 text-center" style="margin-top: 0.5em;">I'm a software engineer living in Montreal, Canada. I write about video games, tech and my life.
+          </div>
+          <div class="col-12 text-center" style="margin-top: 0.5em;">Read more <a href="/index.html">about me</a> or <a href="mailto:me@btyros.com">poke me</a>.
+          </div>
       </div>
+      <% if has_tags?(current_page) %>
       <div class="row justify-content-center">
       <%= page_tags(current_page) %>
       </div>
+      <% end %>
       <% blog_id = ""%>
       <% blog_name = ""%>
       <% blog_archive = ""%>
