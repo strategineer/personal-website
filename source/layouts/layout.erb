@@ -1,52 +1,61 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139862229-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        <title>Bill C. Tyros<%= ' - ' + current_article.title unless current_article.nil? %></title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      gtag('config', 'UA-139862229-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="alternate" href="//btyros.com/feed.rss" type="application/rss+xml" title="Bill Christian Tyros" />
-        <link rel="alternate" href="//btyros.com/feed_blog.rss" type="application/rss+xml" title="Bill Christian Tyros - Blog" />
-        <link rel="alternate" href="//btyros.com/feed_reviews.rss" type="application/rss+xml" title="Bill Christian Tyros - Reviews" />
-        <link rel="alternate" href="//btyros.com/feed_projects.rss" type="application/rss+xml" title="Bill Christian Tyros - Projects" />
+    <title>Bill C. Tyros<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <!-- favicon stuff -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
+    <link rel="alternate" href="//btyros.com/feed.rss" type="application/rss+xml" title="Bill Christian Tyros" />
+    <link rel="alternate" href="//btyros.com/feed_blog.rss" type="application/rss+xml" title="Bill Christian Tyros - Blog" />
+    <link rel="alternate" href="//btyros.com/feed_reviews.rss" type="application/rss+xml" title="Bill Christian Tyros - Reviews" />
+    <link rel="alternate" href="//btyros.com/feed_projects.rss" type="application/rss+xml" title="Bill Christian Tyros - Projects" />
 
-        <%= stylesheet_link_tag "site" %>
-        <%= yield_content :head %>
-    </head>
-    <body class="<%= page_classes %>">
-        <%= partial "header" %>
-        <div class="container">
-        <%# hack to prevent projects.html page from having the footer %>
-        <% has_footer = (not current_page.path.include?("projects.html") and not current_page.path.include?("index.html") and not current_page.path.start_with?("cv"))%>
-          <div class="row justify-content-end">
-            <div class="<%= has_footer ? "col-xl-9" : "col-xl-12" %> main">
-                  <%= yield %>
-              </div>
-              <% if has_footer %>
-                <div class="col-xl-3 readable-footer">
-                  <%= partial "footer" %>
-                </div>
-              <% end %>
-          </div>
+    <!-- favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <%= stylesheet_link_tag "site" %>
+    <%= yield_content :head %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= partial "header" %>
+    <div class="container">
+      <%# hack to prevent projects.html page from having the footer %>
+      <% has_footer = (not current_page.path.include?("projects.html") and not current_page.path.include?("index.html") and not current_page.path.start_with?("cv"))%>
+      <div class="row justify-content-end">
+        <div class="<%= has_footer ? "col-xl-9" : "col-xl-12" %> main">
+          <%= yield %>
         </div>
-        <%= javascript_include_tag "site" %>
-        <% if development? %>
-            <script type="text/javascript" src="http://livejs.com/live.js"></script>
+        <% if has_footer %>
+          <div class="col-xl-3 readable-footer">
+            <%= partial "footer" %>
+          </div>
         <% end %>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+      </div>
+    </div>
+    <%= javascript_include_tag "site" %>
+    <% if development? %>
+      <script type="text/javascript" src="http://livejs.com/live.js"></script>
+    <% end %>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
