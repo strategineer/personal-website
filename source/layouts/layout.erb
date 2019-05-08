@@ -27,11 +27,18 @@
     </head>
     <body class="<%= page_classes %>">
         <%= partial "header" %>
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-              <div class="col-12 main">
+        <div class="container">
+        <%# hack to prevent projects.html page from having the footer %>
+        <% has_footer = (not current_page.path.include?("projects.html") and not current_page.path.include?("index.html"))%>
+          <div class="row justify-content-end">
+            <div class="<%= has_footer ? "col-xl-9" : "col-xl-12" %> main">
                   <%= yield %>
               </div>
+              <% if has_footer %>
+                <div class="col-xl-3 readable-footer">
+                  <%= partial "footer" %>
+                </div>
+              <% end %>
           </div>
         </div>
         <%= javascript_include_tag "site" %>

@@ -24,8 +24,15 @@ body {
     line-height: 1.8;
 }
 
+.footer {
+    margin-top: 1em;
+}
+
 .readable {
     margin: auto;
+}
+
+.readable-footer {
 }
 
 // Set internal borders.
@@ -206,6 +213,10 @@ ul.list-inline {
     }
 }
 @include media-breakpoint-down(lg) { 
+    .readable-footer {
+        margin: auto;
+        width: 500px;
+    }
 }
 @include media-breakpoint-down(xl) { 
 }
