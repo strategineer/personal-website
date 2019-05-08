@@ -33,7 +33,21 @@ body {
     margin: auto;
 }
 
-.articles-shortlist{
+/* Footer */
+.footer-content {
+    margin-bottom: 1em;
+}
+.footer-paginator-next,
+.footer-paginator-tags,
+.footer-shortlist-title{
+    margin-top: 1em;
+}
+
+.footer-paginator-previous {
+    margin-top: 0.25em;
+}
+
+.footer-shortlist-list{
     font-size: 0.95rem;
 }
 

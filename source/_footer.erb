@@ -1,17 +1,17 @@
 <nav class="footer">
   <div class="row justify-content-center">
     <div class="col-12">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center footer-image">
         <img class="mx-auto" src="/images/portrait.png" style="height: 175px; width: 175px;" alt="Memoji of Bill">
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center footer-content">
           <div class="col-12 text-center" style="margin-top: 0.5em;">I'm a software engineer living in Montreal, Canada. I write about video games, tech and my life.
           </div>
           <div class="col-12 text-center" style="margin-top: 0.5em;">Read more <a href="/index.html">about me</a> or <a href="mailto:me@btyros.com">poke me</a>.
           </div>
       </div>
       <% if has_tags?(current_page) %>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center footer-tags">
       <%= page_tags(current_page) %>
       </div>
       <% end %>
@@ -35,23 +35,23 @@
         <% blog_archive = "/reviews.html"%>
       <% end %>
       <% if is_blog or is_project or is_review %>
-      <% previous_article = get_previous_article(blog_id) %>
       <% next_article = get_next_article(blog_id) %>
-      <% unless previous_article.nil? %>
-      <div class="row justify-content-center">
-            <%= link_to "Previous: " + previous_article.title, previous_article %>
-      </div>
-      <% end %>
+      <% previous_article = get_previous_article(blog_id) %>
       <% unless next_article.nil? %>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center footer-paginator-next">
             <%= link_to "Next: " + next_article.title, next_article %>
       </div>
       <% end %>
-        <div class="row justify-content-center">
-          Other recent <%= blog_name %>:
+      <% unless previous_article.nil? %>
+      <div class="row justify-content-center footer-paginator-previous">
+            <%= link_to "Previous: " + previous_article.title, previous_article %>
+      </div>
+      <% end %>
+        <div class="row justify-content-center footer-shortlist-title">
+          <h4>Other recent <%= blog_name %>:</h4>
         </div>
         <% ls = get_articles_shortlist(10, blog_id) %>
-        <ul class="articles-shortlist">
+        <ul class="footer-shortlist-list">
           <% ls[0].each do |article| %>
             <li><%= link_to article.title, article %></li>
           <% end %>
