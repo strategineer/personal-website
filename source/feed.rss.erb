@@ -19,7 +19,8 @@
       <% article_link = "https://btyros.com/" + article.destination_path %>
       <link><%= article_link %></link>
       <guid><%= article_link %></guid>
-      <description><%= article.summary(250, '>>') %></description>
+      <% desc = article.summary(250, '>>').gsub("<p>", "").gsub("</p>", "") %>
+      <description><%= desc %></description>
       <pubDate><%= article.date.utc.rfc822 %></pubDate>
       <% article.data["tags"].split(', ').each do |tag| %>
       <category><%= tag %></category>
