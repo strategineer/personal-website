@@ -1,5 +1,6 @@
 ---
 title: Bill C. Tyros
 ---
-<% d = data.cv["en"] %>
-<%= partial("cv" , :locals => { :d => d })%>
+<%= partial("cv" , :locals => { :lang => "en" })%>
+<br>
+<%= partial("cv" , :locals => { :lang => "fr" })%>

@@ -11,9 +11,83 @@ $link_base: nth($colors, 15);
 $color_base: nth($colors, 13);
 $link_highlight: nth($colors, 16);
 
+@media screen {
+    body {
+        background: $bg_dark;
+        color: $color_base;
+    }
+    .table td, .table th {
+        color: $color_base;
+    }
+    a {
+       color: $link_base;
+
+       &:focus,
+       &:hover {
+           color: $link_highlight;
+       }
+    }
+    /* override link color to make the text more visible. */
+    .card-title,
+    .card-subtitle,
+    .card-text {
+       color: $color_base;
+
+       &:focus,
+       &:hover {
+           color: $color_base;
+       }
+    }
+    /* override the focus/hover attributes for links from site.css stop the text from changing color. */
+    .card-body a {
+        &:focus,
+        &:hover {
+           color: $link_base;
+        }
+    }
+}
+
+@media print {
+    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+      display: none !important;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+    .table td, .table th {
+        color: black;
+    }
+    a {
+       color: black;
+
+       &:focus,
+       &:hover {
+           color: black;
+       }
+    }
+    /* override link color to make the text more visible. */
+    .card-title,
+    .card-subtitle,
+    .card-text {
+       color: black;
+
+       &:focus,
+       &:hover {
+           color: black;
+       }
+    }
+    /* override the focus/hover attributes for links from site.css stop the text from changing color. */
+    .card-body a {
+        &:focus,
+        &:hover {
+           color: black;
+        }
+    }
+}
+
 body {
-    background: $bg_dark;
-    color: $color_base;
     font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -71,7 +145,6 @@ body {
 }
 .table td, .table th {
     border:1px solid $bg_highlight;
-    color: $color_base;
 }
 
 // this removes the top borders
@@ -92,7 +165,7 @@ body {
 
 .navbar {
     background: $bg_light;
-    margin-bottom: 1em;
+    margin-bottom: 0.25em;
 }
 
 .jumbotron {
@@ -106,15 +179,6 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-
-a {
-   color: $link_base;
-
-   &:focus,
-   &:hover {
-       color: $link_highlight;
-   }
 }
 
 .page-title {
@@ -192,18 +256,6 @@ ul.list-inline {
   max-width: 22rem;
 }
 
-/* override link color to make the text more visible. */
-.card-title,
-.card-subtitle,
-.card-text {
-   color: $color_base;
-
-   &:focus,
-   &:hover {
-       color: $color_base;
-   }
-}
-
 .card-body {
   background: $bg_light;
 }
@@ -215,39 +267,50 @@ ul.list-inline {
   background: $bg_highlight;
 }
 
-/* override the focus/hover attributes for links from site.css stop the text from changing color. */
-.card-body a {
-    &:focus,
-    &:hover {
-       color: $link_base;
-    }
-}
-
 .card-text {
     font-size: 75%;
 }
 
 
 /* CV */
-.cv-sidebar {
-    // border-right: 2px solid $bg_highlight;
+a.cv-anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
 }
-
-.cv-sidebar-section {
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
+.cv-name{
+    margin-top: .5em;
+}
+.cv-content {
+    margin-top: .5em;
 }
 
 .cv-main-section {
     // border-bottom: 3px solid $bg_highlight;
-    margin-top: 1em;
+    margin-top: 0.5em;
+}
+
+h3.cv-main-title {
+    margin-bottom: 0;
+}
+
+h4.cv-main-entry-title {
+    margin-bottom: 0;
+}
+
+.cv-main-entry-title,
+.cv-main-entry-year,
+.cv-main-entry-tech,
+.cv-main-entry-hint {
+    white-space: nowrap;
 }
 
 .cv-main-entry {
     border-left: 2px solid $bg_highlight;
     border-bottom: 2px solid $bg_highlight;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    margin-top: 0.1em;
 }
 
 .cv-main-entry-bullets {
