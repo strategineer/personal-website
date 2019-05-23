@@ -38,9 +38,16 @@
         <% v.list.each do |e| %>
           <div class="col-12 cv-main-entry">
             <div class="row cv-main-entry-header">
+              <% has_link = (not e.link.nil?) %>
+              <% if has_link %>
+                <a href="<%= e.link %>">
+              <% end %>
               <div class="col text-left">
                 <h4 class="cv-main-entry-title"><%= e.title %></h4>
               </div>
+              <% if has_link %>
+                </a>
+              <% end %>
               <% if defined? e.tech %>
               <div class="col text-center">
                 <div class="row justify-content-center cv-main-entry-tech">
