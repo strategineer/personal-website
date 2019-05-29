@@ -38,7 +38,7 @@
                       "year": "2016-2017",
                       "title": "Programmer at Borealys Games",
                       "link": "./projects/2017/05/18/mages-of-mystralia.html",
-                      "tech": ["C#", "Unity 5/2017", "Python"],
+                      "tech": ["C#", "Python", "TeamCity", "Unity 5/2017"],
                       "hint": "18 months",
                       "list":
                       [
@@ -142,7 +142,7 @@
                       "year": "2016-2017",
                       "title": "Programmeur chez Borealys Games",
                       "link": "./projects/2017/05/18/mages-of-mystralia.html",
-                      "tech": ["C#", "Unity 5/2017", "Python"],
+                      "tech": ["C#", "Python", "TeamCity", "Unity 5/2017"],
                       "hint": "18 mois",
                       "list":
                       [
