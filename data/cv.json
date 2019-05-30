@@ -1,4 +1,12 @@
 {
+    "tags":
+    {
+        "C++": "./projects/tags/cpp.html",
+        "UE4": "./projects/tags/unreal-engine.html",
+        "C#": "./projects/tags/c.html",
+        "Python": "./projects/tags/python.html",
+        "Unity": "./projects/tags/unity.html"
+    },
     "en":
     {
       "name": "Bill Christian Tyros",
@@ -38,7 +46,7 @@
                       "year": "2016-2017",
                       "title": "Programmer at Borealys Games",
                       "link": "./projects/2017/05/18/mages-of-mystralia.html",
-                      "tech": ["C#", "Python", "TeamCity", "Unity 5/2017", "Windows"],
+                      "tech": ["C#", "Python", "TeamCity", "Unity", "Windows"],
                       "hint": "18 months",
                       "list":
                       [
@@ -138,7 +146,7 @@
                       "year": "2016-2017",
                       "title": "Programmeur chez Borealys Games",
                       "link": "./projects/2017/05/18/mages-of-mystralia.html",
-                      "tech": ["C#", "Python", "TeamCity", "Unity 5/2017", "Windows"],
+                      "tech": ["C#", "Python", "TeamCity", "Unity", "Windows"],
                       "hint": "18 mois",
                       "list":
                       [

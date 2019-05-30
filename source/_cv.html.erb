@@ -1,4 +1,5 @@
 <% d = data.cv[lang] %>
+<% my_tags = data.cv["tags"] %>
 <a class="cv-anchor" id="<%= lang %>"></a>
 <div class="row justify-content-center cv-name">
   <div class="col-12 text-center display-4">
@@ -28,7 +29,13 @@
           <div class="col cv-header-section text-center text-md-left">
             <ul class="list-inline">
             <% v.list.each do |e| %>
-              <li class="list-inline-item"><%= e %></li>
+              <li class="list-inline-item">
+                <% if my_tags.include?(e) %>
+                  <a href="<%= my_tags[e] %>"><%= e %><a/>
+                <% else %>
+                  <%= e %>
+                <% end %>
+              </li>
             <% end %>
             </ul>
           </div>
@@ -59,7 +66,13 @@
                 <div class="row justify-content-center cv-main-entry-tech">
                   <ul class="list-inline">
                   <% e.tech.each do |t| %>
-                    <li class="list-inline-item"><%= t %></li>
+                    <li class="list-inline-item">
+                    <% if my_tags.include?(t) %>
+                      <a href="<%= my_tags[t] %>"><%= t %><a/>
+                    <% else %>
+                      <%= t %>
+                    <% end %>
+                    </li>
                   <% end %>
                   </ul>
                 </div>

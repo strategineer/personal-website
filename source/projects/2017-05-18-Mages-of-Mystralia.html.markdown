@@ -2,7 +2,7 @@
 title: Mages of Mystralia
 blog: projects
 date: 2017-05-18
-tags: C#, python, Unity
+tags: C#, python, TeamCity, Unity
 youtube_video_id: 6bsPf994Nt0
 links:
     - "Play Now,http://store.steampowered.com/app/529660/Mages_of_Mystralia/"
