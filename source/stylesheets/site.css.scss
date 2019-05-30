@@ -8,6 +8,7 @@ $bg_dark: nth($colors, 2); // From darkest to lightest
 $bg_light: nth($colors, 4);
 $bg_highlight: nth($colors, 6);
 $link_base: nth($colors, 15);
+$link_print: nth($colors, 7);
 $color_base: nth($colors, 13);
 $link_highlight: nth($colors, 16);
 
@@ -60,11 +61,11 @@ $link_highlight: nth($colors, 16);
         color: black;
     }
     a {
-       color: black;
+       color: $link_print;
 
        &:focus,
        &:hover {
-           color: black;
+           color: $link_print;
        }
     }
     /* override link color to make the text more visible. */
