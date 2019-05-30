@@ -11,7 +11,7 @@
           },
           {
               "title": "Programming",
-              "list": ["C++", "C#", "Python"]
+              "list": ["Python", "C#", "C++"]
           }
       ],
       "main_section":
@@ -24,13 +24,13 @@
                       "year": "2017-2018",
                       "title": "Programmer at Framestore VR ",
                       "link": "./projects/2019/02/03/framestore-vr.html",
-                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
+                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4", "Windows", "Linux"],
                       "hint": "14 months",
                       "list":
                       [
-                        "Developed a UE4 plugin for importing and iterating on art assets from Shotgun and Perforce into projects in one click.",
-                        "Developed a data-driven system for automating the generation of new projects in Perforce and Jenkins.",
-                        "Built a system to detect changed assets in Perforce, generate turntables with Jenkins and upload them to Shotgun.",
+                        "Developed a UE4 plugin for importing art assets from Shotgun and P4 in one click.",
+                        "Developed a data-driven system for automating the generation of new projects in P4 and Jenkins.",
+                        "Built a system to detect changed assets in P4, generate turntables with Jenkins and upload them to Shotgun.",
                         "Overhauled Jenkins jobs using Pipeline script for better performance (hours to minutes) for lengthy jobs."
                       ]
                   },
@@ -38,39 +38,43 @@
                       "year": "2016-2017",
                       "title": "Programmer at Borealys Games",
                       "link": "./projects/2017/05/18/mages-of-mystralia.html",
-                      "tech": ["C#", "Python", "TeamCity", "Unity 5/2017"],
+                      "tech": ["C#", "Python", "TeamCity", "Unity 5/2017", "Windows"],
                       "hint": "18 months",
                       "list":
                       [
                         "Responsible for multiplatform development; worked on infrastructure and optimization for PS4 and Xbox One ports.",
-                        "Responsible for API integration and build automation for PC, PS4, Xbox One, Steam, GOG, Twitch, etc.",
+                        "Responsible for API integration and build automation for PC, PS4, Xbox One et Steam.",
                         "Developed UI using 3D effects and supporting controller, keyboard and mouse.",
                         "Developed several gameplay systems.",
                         "Developed editor and real-time debugging tools."
                       ]
                   },
                   {
-                      "year": "2014",
+                      "year": "2013-2014",
                       "title": "Software Developer at CAE",
-                      "tech": ["C#", "ASP.NET", "Javascript"],
-                      "hint": "4 months",
+                      "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP", "Windows"],
+                      "hint": "4/4 months",
                       "list":
                       [
-                        "Developed, released and maintained issue management website built in 2013.",
-                        "Added interactive charts and intelligent tooltips using Ajax.",
-                        "Improved user experience based on frequent user feedback."
-                      ]
-                  },
-                  {
-                      "year": "2013",
-                      "title": "Software Developer at CAE",
-                      "tech": ["C#", "ASP.NET", "PHP"],
-                      "hint": "4 months",
-                      "list":
-                      [
-                          "Developed a website to manage simulator issues.",
+                          "Developed, released and maintained a website to manage simulator issues.",
                           "Developed a website to help clients manage purchase orders.",
                           "Developed a web-based scheduling system for booking time on simulators."
+                      ]
+                  }
+              ]
+          },
+          {
+              "title": "Recent Projects",
+              "list":
+              [
+                  {
+                      "tech": ["Python", "C++", "Windows", "Linux"],
+                      "list":
+                      [
+                          "Lynchman: CLI for generating Beat Saber maps from audio files automatically using Markov Chains with data gathered from existing maps (Python).",
+                          "Artifact Stat Tracker: Google Sheets plugin for facilitating stat tracking for Valve's Artifact game (Python, Google Apps Script).",
+                          "Machine Head: Discord bot for managing my discord server running on a Raspberry Pi (Python).",
+                          "Great Turtle Adventure 4: 3D racing game with my own custom game engine (C++)."
                       ]
                   }
               ]
@@ -83,21 +87,13 @@
                       "year": "2016",
                       "title": "Video Game Development Diploma (DDJV)",
                       "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
-                      "hint": "University of Sherbrooke",
-                      "list":
-                      [
-                        "Recipient of the WB Games Bursary."
-                      ]
+                      "hint": "University of Sherbrooke"
                   },
                   {
                       "year": "2015",
                       "title": "B.Sc. Software Engineering (Honours)",
                       "link": "https://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-honours-software-engineering",
-                      "hint": "McGill University",
-                      "list":
-                      [
-                        "Research on Automated Exploration in Roguelikes supervised by Clark Verbrugge."
-                      ]
+                      "hint": "McGill University"
                   }
               ]
           }
@@ -115,7 +111,7 @@
           },
           {
               "title": "Programmation",
-              "list": ["C++", "C#", "Python"]
+              "list": ["Python", "C#", "C++"]
           }
       ],
       "main_section":
@@ -128,13 +124,13 @@
                       "year": "2017-2018",
                       "title": "Programmeur chez Framestore VR ",
                       "link": "./projects/2019/02/03/framestore-vr.html",
-                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
+                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4", "Windows", "Linux"],
                       "hint": "14 mois",
                       "list":
                       [
-                        "Développé un plugin UE4 pour l'importation et l'itération d'art provenant de Shotgun et Perforce dans des projets avec un clique.",
-                        "Développé un système piloté par les données pour générer de nouveaux projets dans Perforce et Jenkins.",
-                        "Développé un système pour détecter des modifications sur l'art dans Perforce, générer des \"turntables\" avec Jenkins et les télécharger vers Shotgun.",
+                        "Développé un plugin UE4 pour l'importation d'art provenant de Shotgun et P4 avec un clique.",
+                        "Développé un système piloté par les données qui génére de nouveaux projets dans P4 et Jenkins.",
+                        "Développé un système pour détecter des modifications sur l'art dans P4, générer des \"turntables\" avec Jenkins et les télécharger vers Shotgun.",
                         "\"Pipeliné\" les jobs Jenkins pour améliorer la performance (heures vers minutes) de nos jobs longues."
                       ]
                   },
@@ -142,40 +138,43 @@
                       "year": "2016-2017",
                       "title": "Programmeur chez Borealys Games",
                       "link": "./projects/2017/05/18/mages-of-mystralia.html",
-                      "tech": ["C#", "Python", "TeamCity", "Unity 5/2017"],
+                      "tech": ["C#", "Python", "TeamCity", "Unity 5/2017", "Windows"],
                       "hint": "18 mois",
                       "list":
                       [
                         "Responsable pour le développement multiplatforme; travaillé sur l'infra et l'optimization pour PS4 et Xbox One.",
-                        "Responsable pour l'intégration API et l'automatisation de build pour PC, PS4, Xbox One, Steam, GOG, Twitch, etc.",
+                        "Responsable pour l'intégration API et l'automatisation de build pour PC, PS4, Xbox One et Steam.",
                         "Développé IU avec des effets 3D et supportant mannette, clavier et souris.",
                         "Développé plusieurs systèmes gameplay.",
                         "Développé divers outils d'éditeur et de déboguage en temps réel."
                       ]
                   },
                   {
-                      "year": "2014",
+                      "year": "2013-2014",
                       "title": "Développeur de logiciels chez CAE",
-                      "tech": ["C#", "ASP.NET", "Javascript"],
-                      "hint": "4 mois",
+                      "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP", "Windows"],
+                      "hint": "4/4 mois",
                       "list":
                       [
-                        "Développé, livré et maintenu le site de gestion de bogues construit en 2013.",
-                        "Ajouté des graphiques interactifs et des infobulles intelligentes avec Ajax.",
-                        "Amélioré l’expérience utilisateur en tenant compte des commentaires des utilisateurs.",
-                        "Rédigé et maintenu la documentation technique."
+                        "Développé, livré et maintenu un site pour la gestion de bogues.",
+                        "Développé un site pour aider les clients à gérer leurs ordres d’achat.",
+                        "Développé un site pour permettre aux ingénieurs de réserver des simulateurs."
                       ]
-                  },
+                  }
+              ]
+          },
+          {
+              "title": "Projets récents",
+              "list":
+              [
                   {
-                      "year": "2013",
-                      "title": "Développeur de logiciels chez CAE",
-                      "tech": ["C#", "ASP.NET", "PHP"],
-                      "hint": "4 mois",
+                      "tech": ["Python", "C++", "Windows", "Linux"],
                       "list":
                       [
-                          "Développé un site pour la gestion de bogues (C#, ASP.NET).",
-                          "Développé un site pour aider les clients à gérer leurs ordres d’achat (C#, ASP.NET).",
-                          "Développé un site pour permettre aux ingénieurs de réserver des simulateurs (PHP, MRBS)."
+                          "Lynchman: outil pour générer des niveaux Beat Saber à partir de fichiers audio automatiquement utilisant des chaînes de Markov avec les données recueillies de niveaux existants (Python).",
+                          "Artifact Stat Tracker: Plugin Google Sheets pour faciliter le suivi des statistiques pour Artifact le jeu de carte digital de Valve (Python, Google Apps Script).",
+                          "Machine Head: Discord bot pour gérer mon serveur Discord hébergé sur un Raspberry Pi (Python).",
+                          "Great Turtle Adventure 4: Jeu de course 3D avec mon propre engine de jeu vidéo (C++)."
                       ]
                   }
               ]
@@ -188,21 +187,13 @@
                       "year": "2016",
                       "title": "Diplôme de 2e cycle en développement du jeu vidéo (DDJV)",
                       "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
-                      "hint": "Université de Sherbrooke",
-                      "list":
-                      [
-                        "Gagnant de la bourse WB Games."
-                      ]
+                      "hint": "Université de Sherbrooke"
                   },
                   {
                       "year": "2015",
                       "title": "B.Sc. en génie logiciel (Concentration)",
                       "link": "https://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-honours-software-engineering",
-                      "hint": "Université McGill",
-                      "list":
-                      [
-                        "Recherche sur l’exploration automatisée dans les jeux roguelike supervisée par Clark Verbrugge."
-                      ]
+                      "hint": "Université McGill"
                   }
               ]
           }

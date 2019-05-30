@@ -6,10 +6,13 @@
   </div>
 </div>
 <div class="row justify-content-center cv-email">
-  <div class="col-6 text-right">
+  <div class="col-4 text-right">
      <a href="mailto:me@btyros.com">me@btyros.com</a>
   </div>
-  <div class="col-6 text-left">
+  <div class="col-4 text-center">
+     <a href="https://btyros.com/projects.html">btyros.com/projects</a>
+  </div>
+  <div class="col-4 text-left">
      <a href="https://github.com/KeikakuB/">github.com/KeikakuB</a>
   </div>
 </div>
@@ -63,7 +66,10 @@
               </div>
               <% end %>
               <div class="col text-right cv-main-entry-hint">
-              <%= e.year %> (<%= e.hint %>)
+                <%= e.year %>
+                <% unless e.hint.nil? %>
+                (<%= e.hint %>)
+                <% end %>
               </div>
             </div>
             <% if defined? e.list %>
