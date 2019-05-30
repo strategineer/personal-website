@@ -72,8 +72,8 @@
                       "list":
                       [
                           "Lynchman: CLI for generating Beat Saber maps from audio files automatically using Markov Chains with data gathered from existing maps (Python).",
-                          "Artifact Stat Tracker: Google Sheets plugin for facilitating stat tracking for Valve's Artifact game (Python, Google Apps Script).",
-                          "Machine Head: Discord bot for managing my discord server running on a Raspberry Pi (Python).",
+                          "Artifact Stat Tracker: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python, Google Apps Script).",
+                          "Machine Head: bot for managing my Discord server, running on a Raspberry Pi (Python).",
                           "Great Turtle Adventure 4: 3D racing game with my own custom game engine (C++)."
                       ]
                   }
@@ -173,7 +173,7 @@
                       [
                           "Lynchman: outil pour générer des niveaux Beat Saber à partir de fichiers audio automatiquement utilisant des chaînes de Markov avec les données recueillies de niveaux existants (Python).",
                           "Artifact Stat Tracker: Plugin Google Sheets pour faciliter le suivi des statistiques pour Artifact le jeu de carte digital de Valve (Python, Google Apps Script).",
-                          "Machine Head: Discord bot pour gérer mon serveur Discord hébergé sur un Raspberry Pi (Python).",
+                          "Machine Head: bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
                           "Great Turtle Adventure 4: Jeu de course 3D avec mon propre engine de jeu vidéo (C++)."
                       ]
                   }
