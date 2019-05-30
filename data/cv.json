@@ -81,7 +81,7 @@
                       [
                           "<a href=\"./projects/2019/04/15/lynchman.html\">Lynchman<a/>: CLI for generating Beat Saber maps from audio files automatically using Markov Chains with data gathered from existing maps (Python).",
                           "<a href=\"./projects/2018/12/01/artifact-stat-tracker.html\">Artifact Stat Tracker<a/>: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python, Google Apps Script).",
-                          "<a href=\"./projects/2018/06/05/machine-head.html\">Machine Head<a/>: bot for managing my Discord server, running on a Raspberry Pi (Python).",
+                          "<a href=\"./projects/2018/06/05/machine-head.html\">Machine Head<a/>: Bot for managing my Discord server, running on a Raspberry Pi (Python).",
                           "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv.html\">Great Turtle Adventure 4<a/>: 3D racing game with my own custom game engine (C++)."
                       ]
                   }
@@ -181,7 +181,7 @@
                       [
                           "<a href=\"./projects/2019/04/15/lynchman.html\">Lynchman<a/>: outil pour générer des niveaux Beat Saber à partir de fichiers audio automatiquement utilisant des chaînes de Markov avec les données recueillies de niveaux existants (Python).",
                           "<a href=\"./projects/2018/12/01/artifact-stat-tracker.html\">Artifact Stat Tracker<a/>: Plugin Google Sheets pour faciliter le suivi des statistiques pour Artifact le jeu de carte digital de Valve (Python, Google Apps Script).",
-                          "<a href=\"./projects/2018/06/05/machine-head.html\">Machine Head<a/>: bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
+                          "<a href=\"./projects/2018/06/05/machine-head.html\">Machine Head<a/>: Bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
                           "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv.html\">Great Turtle Adventure 4<a/>: Jeu de course 3D avec mon propre engin de jeu vidéo (C++)."
                       ]
                   }
