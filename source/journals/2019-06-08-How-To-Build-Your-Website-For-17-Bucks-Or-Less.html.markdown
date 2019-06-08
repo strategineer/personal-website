@@ -16,7 +16,19 @@ I'll only be touching on how each tool is used however I won't be going into det
 
 We'll be creating a static website meaning that all our web pages will be created (or generated) ahead of time and when a user requests a specific page, the server will serve the page to the user and wait for further requests.
 
-We'll start by creating our _index.html_ file which is the page that the server will provide by default when a user navigates to our web site, it'll serve as our homepage. Open your favorite text editor, enter the text "Hello World!" and save the file as _index.html_.
+We'll start by creating our _index.html_ file which is the page that the server will provide by default when a user navigates to our web site, it'll serve as our homepage.
+
+~~~ html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  Hello World!
+  </body>
+</html>
+~~~
 
 Now that we have our homepage, which is admittedly bare bones, we'd like to host it somewhere.
 

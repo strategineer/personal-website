@@ -2,6 +2,10 @@
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 # config.rb
 
+activate :syntax, :line_numbers => true
+set :markdown_engine, :kramdown
+
+
 activate :robots,
   :rules => [
     {:user_agent => 'Googlebot', :allow => %w(/)},
