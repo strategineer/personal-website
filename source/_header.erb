@@ -9,9 +9,9 @@
   </div>
   <div class="collapse navbar-collapse text-right" id="navBarCollapse">
     <ul class="navbar-nav navbar-center mx-auto flex-nowrap">
-      <% ['index', 'blog', 'projects', 'reviews'].each do |page| %>
-          <li class="nav-item <%= current_page.path.include?("#{page}") ? "active" : "" %>">
-              <a class="nav-link" href="/<%= page %>.html"><%= page != 'index' ? page.capitalize : "Home" %></a>
+      <% ['index', 'blog', 'projects', 'reviews'].each do |page_name| %>
+          <li class="nav-item <%= current_page.path.include?(page_name != "blog" ? page_name : "journals") ? "active" : "" %>">
+              <a class="nav-link" href="/<%= page_name %>.html"><%= page_name != 'index' ? page_name.capitalize : "Home" %></a>
           </li>
       <% end %>
     </ul>
