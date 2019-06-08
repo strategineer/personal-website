@@ -18,10 +18,11 @@
       <% blog_id = ""%>
       <% blog_name = ""%>
       <% blog_archive = ""%>
+      <% is_home = current_page.path.start_with?("index.html") %>
       <% is_blog = current_page.path.start_with?("journals/") %>
       <% is_project = current_page.path.start_with?("projects/") %>
       <% is_review = current_page.path.start_with?("reviews/") %>
-      <% if is_blog %>
+      <% if is_blog or is_home %>
         <% blog_id = "journals"%>
         <% blog_name = "blog posts"%>
         <% blog_archive = "/blog.html"%>
@@ -34,7 +35,7 @@
         <% blog_name = "reviews"%>
         <% blog_archive = "/reviews.html"%>
       <% end %>
-      <% if is_blog or is_project or is_review %>
+      <% if is_home or is_blog or is_project or is_review %>
       <% next_article = get_next_article(blog_id) %>
       <% previous_article = get_previous_article(blog_id) %>
       <% right_arrow = "&#x27A1" %>
@@ -54,7 +55,7 @@
       </div>
       <% end %>
         <div class="row justify-content-center footer-shortlist-title">
-          <h4>Other recent <%= blog_name %>:</h4>
+          <h4>Recent <%= blog_name %>:</h4>
         </div>
         <% ls = get_articles_shortlist(10, blog_id) %>
         <ul class="footer-shortlist-list">
