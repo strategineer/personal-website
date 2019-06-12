@@ -1,5 +1,5 @@
 ---
-title: Reviewing code from a project I coded almost 8 years ago
+title: Reviewing code from a project I designed/coded 8 years ago
 blog: journals
 date: 2019-06-12
 tags: tech
@@ -9,7 +9,7 @@ One of the first projects I worked on after learning how to program, around 8 ye
 
 After taking a quick look at the code, I quickly realized that if I was to write the same code today I would not write it at all like it is now.
 
-I thought it would be an interesting (and useful) exercise to perform an extensive code review on the existing code from the perspective of a programmer with a couple years of work experience under his belt and use it as a jumping off point to overhaul the code and use it for my new "daily poem" project.
+I thought it would be an interesting exercise to perform a code review on the project from the perspective of a programmer with many more years of experience under my belt, use the code review as a jumping off point to overhaul the code and be able to use it as the foundation of my "daily poem" project.
 
 The writerator project is pretty small in scope. The repo contains ~600 lines of code and ~150 lines of comments (about 30% of which are old Apache license contained within each _.py_ file, even though I changed the license to the MIT license years ago). Ignoring the _writeratorgui.py_ file which contains placeholder/example code for the tkinter GUI framework, the writerator project has three different _.py_ files which do work.
 
