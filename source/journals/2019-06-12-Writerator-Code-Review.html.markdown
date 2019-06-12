@@ -37,7 +37,7 @@ def make_parser(config):
 Fix:
 : I would go about fixing this in two ways. Firstly, I would analyze the features offered by the CLI, determine the usefulness of each and cut the features that don't provide enough value to counteract the added complexity due to their inclusion in the code and the interface. By trimming the interface down like so we simplify the code but also improve the ease of use of the CLI.
 
-Secondly, I would not use argparse unless I was forced to. The code, seen above, for setting your arguments up is not elegant when compared to the argument parsing module that I prefer to use: click. The code is cleaner, easier to setup and understand due to the design of the click module centering around function decorators to setup your CLI. The difference between the modules is made clear when implementing sub-commands. Using the click module, sub-commands of a complex CLI each have their own function whereas with the argparse module all commands are defined and executed in a single main function.
+Secondly, I would not use argparse unless I was forced to. The code, seen above, for setting your arguments up is not elegant when compared to the argument parsing module that I prefer to use: click. The code is cleaner, easier to setup and understand due to the design of the click module centering around function decorators. The difference between the modules is made clear when implementing sub-commands. Using the click module, sub-commands of a complex CLI each have their own function whereas with the argparse module all commands are defined and executed in a single main function.
 
 ~~~ python
 @click.group()
@@ -63,13 +63,15 @@ class ElementParamType(click.ParamType):
             return "sentences"
         else:
             self.fail(
-                "Choices must be 'c' for characters 'w' for words 's' for sentences.",
+                """Choices must be 'c' for characters, 'w' for words
+                    and 's' for sentences.""",
                 param, ctx)
 ELEMENT_TYPE = ElementParamType()
 
 # ...
 @click.option( "-t", "--type", "element_type", type=ELEMENT_TYPE, default='w',
-    help= """determine the type of text elements (words, characters, sentences) to analyze"""
+    help= """determine the type of text elements
+        (words, characters, sentences) to analyze"""
 )
 # ...
 ~~~
@@ -92,7 +94,7 @@ I don't find this to be elegant because the configuration files (yes there more 
 Also, these configurations files are hardcoded making it impossible to swap them on the fly without changing the code.
 
 Fix:
-: Remove these configuration files and the code associated to them. Use sane default values for the associated command line parameters, if the user wants to change these they can on a per-call basis (or they can create a wrapper ,Facade design pattern, around our CLI with their own allowing them to change the interface and handle the default values as they wish).
+: Remove these configuration files and the code associated to them. Use sane default values for the associated command line parameters, if the user wants to change these they can on a per-call basis (or they can create a wrapper, _Facade design pattern_, around our CLI with their own allowing them to change the interface and handle the default values as they wish).
 
 Problem:
 : Useless _stdout_ redirection parameter. The _outfile_ command line parameter shown below adds complexity to the interface while adding no value.
@@ -103,7 +105,7 @@ main_parser.add_argument('outfile', nargs='?', type=argparse.FileType('w'),
 ~~~
 
 Fix:
-: We can remove the _outfile_ command line argument and always print our results to _stdout_. Doing so allows the user redirect these results as they wish when calling our CLI to their terminal (by default) or save the results into a file of their choice, etc. using the redirection/piping afforded to the user in any modern command line.
+: We can remove the _outfile_ command line argument and always print our results to _stdout_. Doing so allows the user redirect these results to their terminal (by default) or save the results into a file of their choice, etc. using the redirection/piping afforded to the user in any modern command line.
 
 Problem:
 : Lack of comments. Excluding the shebang comment at the start, the outdated license comments at the start of each file and the commented out code there are two legitimate comments in the file presented below.
@@ -128,9 +130,9 @@ Fix:
 : A couple comments explaining the why (not necessarily the how) would go a long way to demystifying this code.
 
 Problem:
-: Tiny functions used once. There are around ten different tiny (1-5 lines) functions which are used exactly once in the code. At the time, I must have been thinking that if I could take a couple of related lines of code, give them a descriptive name then encapsulating them into their own function would make the code clearer.
+: Tiny functions used once. There are around ten different tiny (1-5 lines) functions which are used exactly once in the code. I must have been thinking that taking a couple lines of code and putting them in a function with a descriptive name would make the code clearer.
 
-I don't think this is usually the case and I don't think it is the case for most of the functions in this file.
+I don't think this is usually the case and I don't think it is the case for the tiny functions in this file.
 
 ~~~ python
 def get_readability_test_output(text, test):
@@ -142,7 +144,7 @@ Fix:
 : Take each of these functions, paste their implementations where they are called in the code and add a comment explaining the operation that's being performed if needed.
 
 Problem:
-: Functions within functions for no reason. There isn't an inherent problem with putting functions inside of other functions in Python code but there has to be a reason for it. When used badly, they act as misdirection that reduces the clarity of the code. See the worst offender in the code below.
+: Functions within functions without good reason. There isn't an inherent problem with putting functions inside of other functions in Python code but there has to be a reason for it. Otherwise, they act as misdirection reducing the clarity of the code. See the worst offender in the code below.
 
 ~~~ python
 def generate_ranked_list_output(rank_list, number_to_show):
@@ -162,10 +164,10 @@ Fix:
 This file has 214 lines of code, 60 comment lines and 94 blank lines. It contains utility classes and functions for manipulating text, counting syllables and generating poems.
 
 Problem:
-: Fail-safe alternate algorithm used in case of missing dependency. In case the PyHyphen module is not found on the system instead of failing completely the code runs an alternate (crappy) algorithm for counting the syllables in a word. In some contexts a fail-safe like this could be an essential feature to have, in this case I don't think we need it given that the PyHyphen module should work and be accessible on any machine which can run python.
+: Fail-safe alternate algorithm used in case of missing dependency. If the PyHyphen module is not found on the system instead of exiting gracefully (like it probably shoud) the code runs an alternate, and much worse, algorithm for counting the syllables in a word. A fail-safe like this could be an essential feature to have but in this case I don't think we need it given that the PyHyphen module should work and be accessible on any machine which can run python and can run our code.
 
 Fix:
-: Remove the fail-safe code, simplifying the code and ensuring consistent quality provided by the syllables counting method (and the poem generation) no matter the environment we run it in.
+: Remove the fail-safe code to simplify the code and ensure a more consistent quality to the poems we generate no matter the environment we run it in.
 
 Problem:
 : Functions returning booleans values using if statements badly. Functions written like this are a classic beginner's mistake. Code written like betrays a misunderstanding of how boolean conditions work.
@@ -180,7 +182,7 @@ def isAdverb(self):
 ~~~
 
 Fix:
-: There is a much simpler way of writing functions like this as shown below. The understanding here is that an _if_ condition evaluates to a boolean value so returning _True_ when it evaluates to true (and vice-versa) is pointless. I've heard some people claim that the code above somehow improves the readability of the code compared to what I'm proposing below; I disagree.
+: There is a much simpler way of writing functions like this as shown below.
 
 ~~~ python
 def isAdverb(self):
@@ -188,8 +190,11 @@ def isAdverb(self):
     return re.match(r"\w+ly", self.text):
 ~~~
 
+The understanding here is that an _if_ condition evaluates to a boolean value so returning _True_ when it evaluates to true (and vice-versa) is pointless. I've heard some people claim that the code above somehow improves the readability of the code compared to what I'm proposing below; I disagree.
+
+
 Problem:
-: Infinite loop. The following code snippet contains a loop that can loop forever; the scenario in which we never manage to find a set of words which combine to give us the required number of syllables. Infinite loops are bad. In this case we can implement this function, which generates a line of poetry with a specific number of syllables, using a better algorithm but if we don't want to change the algorithm adding a sanity check which breaks out of the loop in cases where we look to be stuck.
+: Infinite loop. The following function contains a loop that can loop forever; the edge case where the code never manages to find a set of words which combine to give us the required number of syllables. Infinite loops are bad. We can either change the algorithm for this function which generates a line of poetry with a specific number of syllables or we can more easily add a sanity check which breaks out of the loop when we detect that we might be stuck.
 
 ~~~ python
 def generate_poem_line(set_of_words, syllables_needed):
@@ -234,8 +239,8 @@ Fix:
 
 ## Conclusion
 
-I've taken the time to fix the project given the recommendations above [legacy code](https://github.com/KeikakuB/writerator/tree/legacy)/[current code](https://github.com/KeikakuB/writerator/tree/master) in preparation for working on my Twitter poetry bot project. As well as making some improvements to the poetry generation algorithm using Markov Chains to produce poems that make a little more sense.
+I've taken the time to fix the project given the recommendations above, you can take a look at the [legacy code](https://github.com/KeikakuB/writerator/tree/legacy) or the [current code](https://github.com/KeikakuB/writerator/tree/master). I also made some improvements to the poetry generation algorithm using Markov Chains to produce poems that make much more sense.
 
 It's not perfect, code never is, but it's definitely closer to perfection than before. I need to rework the caching system to allow for it to be disabled, and allow to user to use _stdin_ as the input to allow for piping instead of using _.txt_ files.
 
-But I feel confident using it in my Twitter poetry bot project now and I believe this exercise was a success. Code review is usually best done by someone other than the programmer who wrote the code however given any significant amount of time (7+ years in this case) inevitably you won't be the same programmer you were back then.
+I believe this exercise was a success. I feel confident using it in my new Twitter poetry bot project now. Code review is usually best done by someone other than the programmer who wrote the code however given any significant amount of time (7+ years in this case) inevitably you won't be the same programmer you were back then.
