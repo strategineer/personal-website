@@ -1,7 +1,7 @@
 ---
 title: Reviewing code from a project I coded almost 8 years ago
 blog: journals
-date: 2019-06-09
+date: 2019-06-12
 tags: tech
 ---
 
