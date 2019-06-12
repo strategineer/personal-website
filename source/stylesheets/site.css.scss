@@ -7,10 +7,10 @@ $colors: #00080F	#031829	#062640	#073358	#0D4572	#175689	#1F66A1	#2C7ABB	#398DD2
 $bg_dark: nth($colors, 2); // From darkest to lightest
 $bg_light: nth($colors, 4);
 $bg_highlight: nth($colors, 6);
-$link_base: nth($colors, 15);
+$link_base: nth($colors, 16);
 $link_print: nth($colors, 7);
-$color_base: nth($colors, 13);
-$link_highlight: nth($colors, 16);
+$color_base: nth($colors, 14);
+$link_highlight: nth($colors, 15);
 
 @media screen {
     body {
@@ -112,6 +112,11 @@ body {
 .footer-content {
     margin-bottom: 1em;
 }
+
+.footnotes {
+    font-size: 85%;
+}
+
 
 .footer-paginator-previous,
 .footer-paginator-next {

@@ -29,8 +29,8 @@
               "list":
               [
                   {
-                      "year": "2017-2018",
-                      "title": "Programmer at Framestore VR ",
+                      "year": "2017-2019",
+                      "title": "Programmer at Framestore VR",
                       "link": "./projects/2019/02/03/framestore-vr.html",
                       "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4", "Windows", "Linux"],
                       "hint": "14 months",
@@ -129,7 +129,7 @@
               "list":
               [
                   {
-                      "year": "2017-2018",
+                      "year": "2017-2019",
                       "title": "Programmeur chez Framestore VR ",
                       "link": "./projects/2019/02/03/framestore-vr.html",
                       "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4", "Windows", "Linux"],
