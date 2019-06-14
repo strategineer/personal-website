@@ -1,3 +1,3 @@
 #!/bin/bash
 killall middleman
-middleman server -d
+bundle exec middleman server -d
