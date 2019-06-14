@@ -7,7 +7,7 @@ tags: tech
 
 One of the first projects I worked on after learning how to program, around 8 years ago, is called [writerator](https://github.com/KeikakuB/writerator/tree/legacy). It is a Python command line interface (or CLI for short) for analyzing English language text and generating randomized poetry such as haikus and poems. I was contemplating using it to build a new side project which would analyze text from all over the internet from the previous day (news articles, Twitter posts, etc.), then generate a new short poem every day using the words from the analyzed text and post it to Twitter.
 
-After taking a quick look at the code, I quickly realized that if I was to write the same code today I would not write it at all like it is now.
+After taking a look at the code, I quickly realized that if I was to write the same code today I would not write it at all like it is now.
 
 I thought it would be an interesting exercise to perform a code review on the project from the perspective of a programmer with many more years of experience under my belt, use the code review as a jumping off point to overhaul the code and be able to use it as the foundation of my "daily poem" project.
 
