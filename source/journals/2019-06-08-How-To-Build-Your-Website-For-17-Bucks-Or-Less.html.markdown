@@ -1,5 +1,5 @@
 ---
-title: How to build your own website for 17$ or less
+title: Building a website for 17$ or less
 blog: journals
 date: 2019-06-08
 tags: tech

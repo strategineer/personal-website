@@ -1,5 +1,5 @@
 ---
-title: Reviewing code from a project I designed/coded 8 years ago
+title: Code review on an 8 year old project
 blog: journals
 date: 2019-06-12
 tags: tech
