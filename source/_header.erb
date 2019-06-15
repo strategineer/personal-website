@@ -10,7 +10,12 @@
   <div class="collapse navbar-collapse text-right" id="navBarCollapse">
     <ul class="navbar-nav navbar-center mx-auto flex-nowrap">
       <% ['index', 'blog', 'projects', 'reviews'].each do |page_name| %>
-          <li class="nav-item <%= current_page.path.include?(page_name != "blog" ? page_name : "journals") ? "active" : "" %>">
+        <% if page_name == "blog" %>
+          <% is_active = (current_page.path.include?("blog.html") or current_page.path.include?("journals/")) %>
+        <% else %>
+          <% is_active = current_page.path.include?(page_name) %>
+        <% end %>
+          <li class="nav-item <%= is_active ? "active" : "" %>">
               <a class="nav-link" href="/<%= page_name %>.html"><%= page_name != 'index' ? page_name.capitalize : "Home" %></a>
           </li>
       <% end %>

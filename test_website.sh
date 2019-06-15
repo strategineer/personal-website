@@ -1,3 +1,3 @@
 #!/bin/bash
-killall middleman
-bundle exec middleman server -d
+killall ruby2.5 
+middleman server -d
