@@ -1,3 +1,0 @@
-<pre class="prettyprint">...</pre>
-
-InfiniCube - Part III - Lessons Learned II
