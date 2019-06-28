@@ -1,102 +1,104 @@
 <% d = data.cv[lang] %>
 <% my_tags = data.cv["tags"] %>
 <a class="cv-anchor" id="<%= lang %>"></a>
-<div class="row justify-content-center cv-name">
-  <div class="col-12 text-center display-4">
-    <%= d.name %>.<%= d.title %>
-  </div>
-</div>
-<div class="row justify-content-center cv-email">
-  <div class="col-4 text-right">
-     <a href="mailto:me@btyros.com">me@btyros.com</a>
-  </div>
-  <div class="col-4 text-center">
-     <a href="https://btyros.com/projects.html">btyros.com/projects</a>
-  </div>
-  <div class="col-4 text-left">
-     <a href="https://github.com/KeikakuB/">github.com/KeikakuB</a>
-  </div>
-</div>
-<div class="row justify-content-center cv-content cv-readable">
-  <div class="col-12 text-center cv-header">
-    <div class="row">
-    <% d.sidebar_section.each do |v| %>
-      <div class="col">
-        <div class="row">
-          <div class="col cv-header-title text-center text-md-right">
-            <h4><%= v.title %>:</h4>
-          </div>
-          <div class="col cv-header-section text-center text-md-left">
-            <ul class="list-inline">
-            <% v.list.each do |e| %>
-              <li class="list-inline-item">
-                <% if my_tags.include?(e) %>
-                  <a href="<%= my_tags[e] %>"><%= e %><a/>
-                <% else %>
-                  <%= e %>
-                <% end %>
-              </li>
-            <% end %>
-            </ul>
-          </div>
-        </div>
-      </div>
-    <% end %>
+<div class="cv">
+  <div class="row justify-content-center cv-name">
+    <div class="col-12 text-center display-4">
+      <%= d.name %>.<%= d.title %>
     </div>
   </div>
-  <div class="col-12 cv-main">
-    <% d.main_section.each do |v| %>
-      <div class="col-12 cv-main-section">
-        <h3 class="cv-main-title"><%= v.title %></h3>
-        <% v.list.each do |e| %>
-          <div class="col-12 cv-main-entry">
-            <div class="row cv-main-entry-header">
-              <% has_link = (not e.link.nil?) %>
-              <% if has_link %>
-                <a href="<%= e.link %>">
-              <% end %>
-              <div class="col text-left">
-                <h4 class="cv-main-entry-title"><%= e.title %></h4>
-              </div>
-              <% if has_link %>
-                </a>
-              <% end %>
-              <% if defined? e.tech %>
-              <div class="col text-center">
-                <div class="row justify-content-center cv-main-entry-tech">
-                  <ul class="list-inline">
-                  <% e.tech.each do |t| %>
-                    <li class="list-inline-item">
-                    <% if my_tags.include?(t) %>
-                      <a href="<%= my_tags[t] %>"><%= t %><a/>
-                    <% else %>
-                      <%= t %>
-                    <% end %>
-                    </li>
-                  <% end %>
-                  </ul>
-                </div>
-              </div>
-              <% end %>
-              <div class="col text-right cv-main-entry-hint">
-                <%= e.year %>
-                <% unless e.hint.nil? %>
-                (<%= e.hint %>)
-                <% end %>
-              </div>
+  <div class="row justify-content-center cv-email">
+    <div class="col-md-4 text-center text-sm-right">
+       <a href="mailto:me@btyros.com">me@btyros.com</a>
+    </div>
+    <div class="col-md-4 text-center">
+       <a href="https://btyros.com/projects.html">btyros.com/projects</a>
+    </div>
+    <div class="col-md-4 text-center text-sm-left">
+       <a href="https://github.com/KeikakuB/">github.com/KeikakuB</a>
+    </div>
+  </div>
+  <div class="row justify-content-center cv-content cv-readable">
+    <div class="col-12 text-center cv-header">
+      <div class="row">
+      <% d.sidebar_section.each do |v| %>
+        <div class="col">
+          <div class="row">
+            <div class="col cv-header-title text-center text-md-right">
+              <h4><%= v.title %>:</h4>
             </div>
-            <% if defined? e.list %>
-            <div class="row justify-content-left cv-main-entry-bullets">
-              <ul>
-              <% e.list.each do |b| %>
-                <li><%= b %></li>
+            <div class="col cv-header-section text-center text-md-left">
+              <ul class="list-inline">
+              <% v.list.each do |e| %>
+                <li class="list-inline-item">
+                  <% if my_tags.include?(e) %>
+                    <a href="<%= my_tags[e] %>"><%= e %><a/>
+                  <% else %>
+                    <%= e %>
+                  <% end %>
+                </li>
               <% end %>
               </ul>
             </div>
-            <% end %>
           </div>
-        <% end %>
+        </div>
+      <% end %>
       </div>
-    <% end %>
+    </div>
+    <div class="col-12 cv-main">
+      <% d.main_section.each do |v| %>
+        <div class="col-12 cv-main-section">
+          <div class="cv-main-title"><%= v.title %></div>
+          <% v.list.each do |e| %>
+            <div class="col-12 cv-main-entry">
+              <div class="row cv-main-entry-header">
+                <% has_link = (not e.link.nil?) %>
+                <% if has_link %>
+                  <a href="<%= e.link %>">
+                <% end %>
+                <div class="col text-left">
+                  <div class="cv-main-entry-title"><%= e.title %></div>
+                </div>
+                <% if has_link %>
+                  </a>
+                <% end %>
+                <% if defined? e.tech %>
+                <div class="col text-center">
+                  <div class="row justify-content-center cv-main-entry-tech">
+                    <ul class="list-inline">
+                    <% e.tech.each do |t| %>
+                      <li class="list-inline-item">
+                      <% if my_tags.include?(t) %>
+                        <a href="<%= my_tags[t] %>"><%= t %><a/>
+                      <% else %>
+                        <%= t %>
+                      <% end %>
+                      </li>
+                    <% end %>
+                    </ul>
+                  </div>
+                </div>
+                <% end %>
+                <div class="col text-right cv-main-entry-hint">
+                  <%= e.year %>
+                  <% unless e.hint.nil? %>
+                  (<%= e.hint %>)
+                  <% end %>
+                </div>
+              </div>
+              <% if defined? e.list %>
+              <div class="row justify-content-left cv-main-entry-bullets">
+                <ul>
+                <% e.list.each do |b| %>
+                  <li><%= b %></li>
+                <% end %>
+                </ul>
+              </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>

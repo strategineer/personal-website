@@ -30,27 +30,27 @@
               [
                   {
                       "year": "2017-2019",
-                      "title": "Programmer at Framestore VR",
+                      "title": "Programmer - Framestore VR",
                       "link": "./projects/2019/02/03/framestore-vr.html",
-                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4", "Windows", "Linux"],
+                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
                       "hint": "14 months",
                       "list":
                       [
                         "Developed a UE4 plugin for importing art assets from Shotgun and P4 in one click.",
                         "Developed a data-driven system for automating the generation of new projects in P4 and Jenkins.",
                         "Built a system to detect changed assets in P4, generate turntables with Jenkins and upload them to Shotgun.",
-                        "Overhauled Jenkins jobs using Pipeline script for better performance (hours to minutes) for lengthy jobs."
+                        "Overhauled Jenkins jobs using Pipeline script for better performance (hours to minutes)."
                       ]
                   },
                   {
                       "year": "2016-2017",
-                      "title": "Programmer at Borealys Games",
+                      "title": "Programmer - Borealys Games",
                       "link": "./projects/2017/05/18/mages-of-mystralia.html",
-                      "tech": ["C#", "Python", "TeamCity", "Unity", "Windows"],
+                      "tech": ["C#", "Python", "TeamCity", "Unity"],
                       "hint": "18 months",
                       "list":
                       [
-                        "Responsible for multiplatform development; worked on infrastructure and optimization for PS4 and Xbox One ports.",
+                        "Responsible for multiplatform development; built infrastructure and optimization for PS4 and Xbox One ports.",
                         "Responsible for API integration and build automation for PC, PS4, Xbox One et Steam.",
                         "Developed UI using 3D effects and supporting controller, keyboard and mouse.",
                         "Developed several gameplay systems.",
@@ -59,8 +59,8 @@
                   },
                   {
                       "year": "2013-2014",
-                      "title": "Software Developer at CAE",
-                      "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP", "Windows"],
+                      "title": "Software Developer - CAE",
+                      "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP"],
                       "hint": "4/4 months",
                       "list":
                       [
@@ -79,8 +79,8 @@
                       "tech": ["Python", "C++", "Windows", "Linux"],
                       "list":
                       [
-                          "<a href=\"./projects/2019/04/15/lynchman.html\">Lynchman<a/>: CLI for generating Beat Saber maps from audio files automatically using Markov Chains with data gathered from existing maps (Python).",
-                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker.html\">Artifact Stat Tracker<a/>: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python, Google Apps Script).",
+                          "<a href=\"./projects/2019/04/15/lynchman.html\">Lynchman<a/>: Beat Saber map generator using Markov Chains with data gathered from existing maps (Python).",
+                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker.html\">Artifact Stat Tracker<a/>: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python).",
                           "<a href=\"./projects/2018/06/05/machine-head.html\">Machine Head<a/>: Bot for managing my Discord server, running on a Raspberry Pi (Python).",
                           "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv.html\">Great Turtle Adventure 4<a/>: 3D racing game with my own custom game engine (C++)."
                       ]
@@ -130,27 +130,27 @@
               [
                   {
                       "year": "2017-2019",
-                      "title": "Programmeur chez Framestore VR ",
+                      "title": "Programmeur - Framestore VR ",
                       "link": "./projects/2019/02/03/framestore-vr.html",
-                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4", "Windows", "Linux"],
+                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
                       "hint": "14 mois",
                       "list":
                       [
                         "Développé un plugin UE4 pour l'importation d'art provenant de Shotgun et P4 avec un clique.",
                         "Développé un système piloté par les données qui génére de nouveaux projets dans P4 et Jenkins.",
                         "Développé un système pour détecter des modifications sur l'art dans P4, générer des \"turntables\" avec Jenkins et les télécharger vers Shotgun.",
-                        "\"Pipeliné\" les jobs Jenkins pour améliorer la performance (heures vers minutes) de nos jobs longues."
+                        "\"Pipeliné\" les jobs Jenkins pour améliorer la performance (heures vers minutes) de jobs longues."
                       ]
                   },
                   {
                       "year": "2016-2017",
-                      "title": "Programmeur chez Borealys Games",
+                      "title": "Programmeur - Borealys Games",
                       "link": "./projects/2017/05/18/mages-of-mystralia.html",
-                      "tech": ["C#", "Python", "TeamCity", "Unity", "Windows"],
+                      "tech": ["C#", "Python", "TeamCity", "Unity"],
                       "hint": "18 mois",
                       "list":
                       [
-                        "Responsable pour le développement multiplatforme; travaillé sur l'infra et l'optimization pour PS4 et Xbox One.",
+                        "Responsable pour le développement multiplatforme; infra et optimization pour PS4 et Xbox One.",
                         "Responsable pour l'intégration API et l'automatisation de build pour PC, PS4, Xbox One et Steam.",
                         "Développé IU avec des effets 3D et supportant mannette, clavier et souris.",
                         "Développé plusieurs systèmes gameplay.",
@@ -159,8 +159,8 @@
                   },
                   {
                       "year": "2013-2014",
-                      "title": "Développeur de logiciels chez CAE",
-                      "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP", "Windows"],
+                      "title": "Développeur de logiciels - CAE",
+                      "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP"],
                       "hint": "4/4 mois",
                       "list":
                       [
@@ -179,8 +179,8 @@
                       "tech": ["Python", "C++", "Windows", "Linux"],
                       "list":
                       [
-                          "<a href=\"./projects/2019/04/15/lynchman.html\">Lynchman<a/>: outil pour générer des niveaux Beat Saber à partir de fichiers audio automatiquement utilisant des chaînes de Markov avec les données recueillies de niveaux existants (Python).",
-                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker.html\">Artifact Stat Tracker<a/>: Plugin Google Sheets pour faciliter le suivi des statistiques pour Artifact le jeu de carte digital de Valve (Python, Google Apps Script).",
+                          "<a href=\"./projects/2019/04/15/lynchman.html\">Lynchman<a/>: générateur de niveaux Beat Saber utilisant des chaînes de Markov et les données recueillies de niveaux existants (Python).",
+                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker.html\">Artifact Stat Tracker<a/>: Plugin Google Sheets pour faciliter le suivi des statistiques pour Artifact (Python).",
                           "<a href=\"./projects/2018/06/05/machine-head.html\">Machine Head<a/>: Bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
                           "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv.html\">Great Turtle Adventure 4<a/>: Jeu de course 3D avec mon propre engin de jeu vidéo (C++)."
                       ]
@@ -193,7 +193,7 @@
               [
                   {
                       "year": "2016",
-                      "title": "Diplôme de 2e cycle en développement de système intéractif en temps réel",
+                      "title": "Développement de système intéractif en temps réel (2e cycle)",
                       "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
                       "hint": "Université de Sherbrooke"
                   },

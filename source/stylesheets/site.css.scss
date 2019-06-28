@@ -296,11 +296,11 @@ a.cv-anchor {
     margin-top: 0.4em;
 }
 
-h3.cv-main-title {
+.cv-main-title {
     margin-bottom: 0;
 }
 
-h4.cv-main-entry-title {
+.cv-main-entry-title {
     margin-bottom: 0;
 }
 
@@ -325,6 +325,12 @@ h4.cv-main-entry-title {
 @include media-breakpoint-down(xs) { 
 }
 @include media-breakpoint-down(sm) { 
+    .cv {
+        font-size: 95%;
+    }
+    .cv-readable {
+        font-size: 95%;
+    }
 }
 // On md size and down, the third column (tags) is not shown therefore hide the next columns border.
 @include media-breakpoint-down(md) { 
@@ -351,6 +357,12 @@ h4.cv-main-entry-title {
     }
     .card {
       min-width: 16rem;
+    }
+    .cv-main-entry-title {
+        font-size: 100%;
+    }
+    .cv-main-title {
+        font-size: 125%;
     }
 }
 @include media-breakpoint-up(sm) { 
@@ -384,6 +396,12 @@ h4.cv-main-entry-title {
     .table {
        white-space: nowrap;
        width: 1%;
+    }
+    .cv-main-entry-title {
+        font-size: 120%;
+    }
+    .cv-main-title {
+        font-size: 140%;
     }
 }
 @include media-breakpoint-up(lg) { 
