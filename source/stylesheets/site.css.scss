@@ -350,19 +350,19 @@ a.cv-anchor {
 
 @include media-breakpoint-up(xs) { 
     body {
-      font-size: 1.1rem;
+        font-size: 1.1rem;
     }
     .page-title > h3 {
         font-size: 1.7rem;
     }
     .card {
-      min-width: 16rem;
+        min-width: 16rem;
     }
     .cv-main-entry-title {
-        font-size: 100%;
+        font-size: 1.2rem;
     }
     .cv-main-title {
-        font-size: 125%;
+        font-size: 1.5rem;
     }
 }
 @include media-breakpoint-up(sm) { 
@@ -398,10 +398,10 @@ a.cv-anchor {
        width: 1%;
     }
     .cv-main-entry-title {
-        font-size: 120%;
+        font-size: 1.5rem;
     }
     .cv-main-title {
-        font-size: 140%;
+        font-size: 1.9rem;
     }
 }
 @include media-breakpoint-up(lg) { 
