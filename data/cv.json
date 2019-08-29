@@ -51,7 +51,7 @@
                       "list":
                       [
                         "Responsible for multiplatform development; built infrastructure and optimization for PS4 and Xbox One ports.",
-                        "Responsible for API integration and build automation for PC, PS4, Xbox One et Steam.",
+                        "Responsible for API integration and build automation for PC, PS4, Xbox One and Steam.",
                         "Developed UI using 3D effects and supporting controller, keyboard and mouse.",
                         "Developed several gameplay systems.",
                         "Developed editor and real-time debugging tools."
@@ -64,9 +64,9 @@
                       "hint": "4/4 months",
                       "list":
                       [
-                          "Developed, released and maintained a website to manage simulator issues.",
-                          "Developed a website to help clients manage purchase orders.",
-                          "Developed a web-based scheduling system for booking time on simulators."
+                          "Developed, released and maintained a web application to manage simulator issues.",
+                          "Developed a web application to help clients manage purchase orders.",
+                          "Developed a web application for booking time on simulators."
                       ]
                   }
               ]
