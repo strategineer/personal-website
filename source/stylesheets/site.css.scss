@@ -179,6 +179,15 @@ body {
     background: $bg_light;
 }
 
+// Journals
+blockquote {
+    background: $bg_light;
+    p {
+        margin-left: 0.5em;
+        color: $link_highlight;
+    }
+}
+
 p {
     display: block;
     margin-block-start: 1em;
