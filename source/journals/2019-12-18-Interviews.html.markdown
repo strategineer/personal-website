@@ -1,5 +1,5 @@
 ---
-title: Interviews: The Good, the Bad and the Ugly
+title: Interviews - The Good, the Bad and the Ugly
 blog: journals
 date: 2019-12-18
 tags: tech
@@ -108,6 +108,6 @@ I was undergoing the interview process for three companies. The company I was mo
 
 > Notice that you only need to receive a single offer, the fact that a couple other companies don't think you were a good fit doesn't matter. Ideally the company you were most interested in is one of the ones that makes you an offer. Fingers crossed.
 
-That's where our story ends for today. I've been working at my new job for a couple months now and it's been going well.
+I've been working at my new job for a couple months now and it's been going well.
 
-Looking for a job does suck big time. Looking for a relationship sucks even bigger time.
+So, we've learned that looking for a job does suck big time. However, looking for a relationship sucks even bigger time. But that's a story for another day.
