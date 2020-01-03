@@ -10,6 +10,7 @@ Here's a blow-by-blow review of the interviews I went through. I've reflected on
 
 My help will be most relevant to those working in a similar field to my own (software engineering) so your mileage may vary.
 
+
 # Interview 1
 
 As soon as I started looking for work, a coworker from my previous job reached out to me asking me if I was interested in new opportunities. He put me in contact through email directly to the CEO of a company that he wasn't working for according to his CV. After looking into the company, I wasn't ecstatic about working there because it was a bit too similar to the kind of work I had been doing previously but I wasn't completely against it either.
@@ -73,7 +74,7 @@ Let's take a step back. This company hires non-software engineers (electrical, a
 
 Total BS.
 
-They have to give a reason because that's in their policies probably because they don't want to get sued for dismissing people for reasons other than their qualifications (looks, race, gender, etc.) even though it happens all the time and everyone knows it.
+They have to give a reason because that's in their policies because they don't want to get sued for dismissing people for reasons other than their qualifications (looks, race, gender, etc.) even though it happens all the time and everyone knows it.
 
 > After every interview think about how you can improve the first impression you give by making modifications to your CV. One of my mistakes for this interview was that I had removed a section featuring my many notable school and personal projects. This made it harder for me to convince my two interviewers that my C++ capabilities were on point. You could go so far as to build a CV for each job you apply for. After a couple years of experience, you'll have to pick and choose the most relevant aspects of yourself that you want to present first.
 
@@ -90,15 +91,14 @@ I've been told by native French speakers that I'm perfectly bilingual. I don't k
 
 I got an email from the recruiter I spoke to saying that the company wasn't interested in continuing the recruitment process with me. I replied back nicely asking the reasons why. I never got an answer.
 
-Cool.
 
 # Interview 4
 
 Another company requested that I do an online programming test as the first step of the recruitment process. I hadn't done one of those in a couple years. I was rusty and I didn't perform well on it.
 
-I over engineered a solution that would have taken me more time to implement than I had allotted to take the test. Our dog, who rarely barks, was barking non stop for almost all of the hour and a half that I had to take the test so that wasn't helping.
+I over engineered a solution that would have taken me more time to implement than the hour and a half I had to take the test. Our dog, who rarely barks, was barking non-stop which wasn't helping me concentrate.
 
-Unsurprisingly, my results didn't impress the company and they weren't interested in continuing the interview process.
+My results didn't impress the company and they weren't interested in continuing the interview process.
 
 > Each company's interview process is going to be different. When preparing for interviews speak to others in a similar field to yours and to get an idea of what to expect and prepare accordingly. Shortly after failing this test I spent a couple days building a framework for solving problems on projecteuler.net with automated test generation and I used it to solve around thirty problems that I had never solved before. I wrote two similar frameworks: one in Python, a language I know very well, and one in Go, a language I didn't know.
 
@@ -107,6 +107,8 @@ Unsurprisingly, my results didn't impress the company and they weren't intereste
 I was undergoing the interview process for three companies. The company I was most interested in gave me an offer that I couldn't refuse and so I accepted it.
 
 > Notice that you only need to receive a single offer, the fact that a couple other companies don't think you were a good fit doesn't matter. Ideally the company you were most interested in is one of the ones that makes you an offer. Fingers crossed.
+
+Their interview process was the most reasonable and effective (at least from my perspective). I was able to meet many of my future coworkers who asked me a good mix of questions about the work I've done in the past and technical questions.
 
 I've been working at my new job for a couple months now and it's been going well.
 
