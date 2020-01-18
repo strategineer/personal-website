@@ -1,4 +1,5 @@
 module CustomHelpers
+
     def get_article_id(article)
         path = article.source_file
         ext = article.ext
@@ -210,6 +211,17 @@ module CustomHelpers
         return res
     end
 
+    def page_info(article)
+      res = ""
+      res <<
+%{
+<div class="row justify-content-center text-center page-reading-time">
+#{reading_time(article)} read
+</div>
+}
+      return res
+    end
+
     def page_title(title)
       res = ""
       res <<
@@ -338,5 +350,16 @@ module CustomHelpers
             res.push(next_data)
         end
         return res
+    end
+
+    def word_count(article)
+      return article.body.split.size
+    end
+
+    def reading_time(article)
+      words_per_minute = 180
+      words = word_count(article)
+      minutes = (words/words_per_minute).round
+      return minutes >= 1 ? "#{minutes} min" : '< 1 min'
     end
 end
