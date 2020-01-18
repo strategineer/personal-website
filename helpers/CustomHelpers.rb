@@ -353,13 +353,17 @@ module CustomHelpers
     end
 
     def word_count(article)
-      return article.body.split.size
+      n_body = article.body.split.size
+      n_outro = article.data.outro.nil? ? 0 : article.data.outro.split.size
+      n_pros = article.data.pros.nil? ? 0 : article.data.pros.inject(0){|sum,x| sum + x.split.size }
+      n_cons = article.data.cons.nil? ? 0 : article.data.cons.inject(0){|sum,x| sum + x.split.size }
+      return n_body + n_outro + n_pros + n_cons
     end
 
     def reading_time(article)
-      words_per_minute = 180
+      words_per_minute = 160
       words = word_count(article)
-      minutes = (words/words_per_minute).round
+      minutes = (words/words_per_minute).floor
       return minutes >= 1 ? "#{minutes} min" : '< 1 min'
     end
 end
