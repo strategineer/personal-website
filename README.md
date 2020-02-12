@@ -10,8 +10,8 @@
 - Make newsletter for new blog posts
 - Use watchman for watching source and rebuilding site if anything changes for dev (and refreshing the browser)
 - I want blurbs for my posts to display on my main page
-- Figure out an rss reader again
 - Have the blog be the blog and nothing else, don't link to old-style reviews and projects but keep them there
 - Name the blog (brainstorm for names)
 - After overhaul, post my first new blog post to hacker News
 - Add a blurb to every post asking to hangout if in area and interested in tech or gaming
+- Add recipes section for my recipes with pictures
