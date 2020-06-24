@@ -65,9 +65,10 @@
       };
       var player = new Twitch.Player("twitch-embed", options);
       player.addEventListener(Twitch.Embed.READY, () => {
-        player.addEventListener(Twitch.Embed.ONLINE, () => {
           player.play();
-        });
+        //player.addEventListener(Twitch.Embed.ONLINE, () => {
+          //player.play();
+        //});
       });
     </script>
   </body>
