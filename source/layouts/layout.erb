@@ -56,21 +56,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
-      var v = document.getElementById("twitch-embed");
-      var twitch_embed = new Twitch.Embed("twitch-embed", {
+      var options = {
         width: "400",
         height: "300",
         channel: "strategineer",
         autoplay: false,
         parent: ["strategineer.com"]
-      });
-      twitch_embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
-        // Twitch yaya
-        var player = twitch_embed.getPlayer();
-        player.addEventListener(Twitch.Embed.READY, () => {
-          player.addEventListener(Twitch.Embed.ONLINE, () => {
-            player.play();
-          });
+      };
+      var player = new Twitch.Player("twitch-embed", options);
+      player.addEventListener(Twitch.Embed.READY, () => {
+        player.addEventListener(Twitch.Embed.ONLINE, () => {
+          player.play();
         });
       });
     </script>
