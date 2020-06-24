@@ -76,7 +76,7 @@ My other templates are used within the middleman-blog module to allow for the ea
 
 A _CustomHelpers_ module containing my own Ruby code allows me to create my own functions which can be called from the various templates, which facilitates the generation of aggregate content pages and page elements such as the archive, tag and calendar pages as well as my sidebar.
 
-The [source code for this website](https://github.com/KeikakuB/personal-website) can be of use to you if you want to see what a project built with Middleman can look like. It also contains some useful scripts for making it easy to deploy your changes.
+The [source code for this website](https://github.com/strategineer/personal-website) can be of use to you if you want to see what a project built with Middleman can look like. It also contains some useful scripts for making it easy to deploy your changes.
 
 Figuring out how to effectively use Middleman and Bootstrap to build your website will be where you'll be spending most of your time if you're anything like me.
 

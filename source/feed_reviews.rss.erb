@@ -9,7 +9,7 @@
     <% .each do |article| %>
     <item>
       <title>Review - <%= article.title %></title>
-      <% article_link = "https://btyros.com/" + article.destination_path %>
+      <% article_link = "https://strategineer.com/" + article.destination_path %>
       <link><%= article_link %></link>
       <guid><%= article_link %></guid>
       <% desc = article.summary(250, '>>').gsub("<p>", "").gsub("</p>", "").gsub("</", "").gsub("<p", "").gsub("</p", "").gsub("</", "").gsub("<", "") %>

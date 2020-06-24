@@ -5,7 +5,7 @@ date: 2017-08-01
 tags: pico8
 youtube_video_id: UqM3gm63BHI
 links:
-    - "Read Code,https://github.com/KeikakuB/experiments/tree/master/2017/11/pico-games"
+    - "Read Code,https://github.com/strategineer/experiments/tree/master/2017/11/pico-games"
     - "Play Now,https://www.lexaloffle.com/bbs/?tid=34099"
 blurb: Local competitive multiplayer game inspired by Asteroids.
 ---

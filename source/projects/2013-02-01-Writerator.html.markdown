@@ -4,7 +4,7 @@ blog: projects
 date: 2013-02-01
 tags: python
 links:
-    - "Read Code,https://github.com/KeikakuB/writerator"
+    - "Read Code,https://github.com/strategineer/writerator"
 blurb: Random poetry generator using english language writing as reference data.
 ---
 A wise computer once told me, "Peremptory personal, Perpendiculars, Forestry spreadsheets zaniest."
