@@ -5,7 +5,7 @@ date: 2017-05-18
 tags: C#, python, TeamCity, Unity
 youtube_video_id: 6bsPf994Nt0
 links:
-    - "Play Now,http://store.steampowered.com/app/529660/Mages_of_Mystralia/"
+    - "Play Now,https://store.steampowered.com/app/529660/Mages_of_Mystralia/"
 is_important: true
 blurb: Zelda-like action adventure game with an innovative spellcasting system on PC, PS4 and Xbox One.
 ---
