@@ -64,11 +64,9 @@
         parent: ["strategineer.com"]
       };
       var player = new Twitch.Player("twitch-embed", options);
-      player.addEventListener(Twitch.Embed.READY, () => {
-          player.play();
-        //player.addEventListener(Twitch.Embed.ONLINE, () => {
-          //player.play();
-        //});
+      player.addEventListener(Twitch.Player.READY, () => {
+        player.setMuted(true);
+        player.play();
       });
     </script>
   </body>
