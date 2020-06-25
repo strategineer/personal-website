@@ -4,7 +4,7 @@ blog: journals
 date: 2019-05-07
 tags: gaming
 ---
-"Blood Bowl 2 smashes Warhammer and American football together, in an explosive cocktail of turn-based strategy, humor and brutality, adapted from Games Workshop's famous boardgame."
+"Blood Bowl 2 smashes Warhammer and American football together, in an explosive cocktail of turn-based strategy, humour and brutality, adapted from Games Workshop's famous board game."
 
 I'd be hard pressed to come up with a better brief description of what Blood Bowl is.
 
@@ -16,7 +16,7 @@ Playing Blood Bowl is about performing constant risk evaluation and risk mitigat
 
 Most actions a player can perform requires dice to be rolled, if successful the action is performed otherwise the action fails and usually the coach's turn ends immediately. This is called the "turnover", it is a quite unique game mechanic and is fundamental to the Blood Bowl experience.
 
-Over the course of a match, coaches will be rolling hundreds of dice, good coaches will manipulate the game state such that the dice will be more likely to land in their favor and lead them to victory more often than not.
+Over the course of a match, coaches will be rolling hundreds of dice, good coaches will manipulate the game state such that the dice will be more likely to land in their favour and lead them to victory more often than not.
 
 In practice, playing consistently well is quite difficult and requires a lot of experience and deep knowledge of the game mechanics. Furthermore, the thirty or so different factions play quite differently from one another and so require different strategies to play with and against them well.
 
@@ -28,7 +28,7 @@ Most skills serve to improve a player's odds of successfully performing an actio
 
 The design of Blood Bowl encourages coaches to become attached to their team, invested in the moment to moment gameplay of a match as well as the meta game layer where they are tasked with managing the team by buying more players to widen their bench, replacing dead or crippled players as well as managing each players' development.
 
-One of my favorite game series of all time is XCOM, which shares many similarities with Blood Bowl, where players lead squads of high-tech soldiers on missions against an alien invasion. Given that both games were developed in Britain, Blood Bowl as a board game in 1986 and XCOM as a video game in 1991, I could imagine that the design of Blood Bowl might have influenced the design of XCOM and eventually led to me being a big fan of both games today.
+One of my favourite game series of all time is XCOM, which shares many similarities with Blood Bowl, where players lead squads of high-tech soldiers on missions against an alien invasion. Given that both games were developed in Britain, Blood Bowl as a board game in 1986 and XCOM as a video game in 1991, I could imagine that the design of Blood Bowl might have influenced the design of XCOM and eventually led to me being a big fan of both games today.
 
 Both Blood Bowl and XCOM, but especially XCOM, have had tremendous critical and commercial success which can be seen with recent releases such as XCOM 2 and Blood Bowl 2. However I would argue that they remain uncontested in terms of the specific core gameplay loop that both games provide. I believe that this is primarily because players playing either of many versions of each of these games will experience very high highs and very low lows during the course of play.
 

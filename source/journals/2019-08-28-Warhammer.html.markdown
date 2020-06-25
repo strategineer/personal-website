@@ -18,7 +18,7 @@ As a couple buddies were introducing me to the game I found a good deal on a use
 
 It was a beaten up Astra Militarum army, formerly known as the Imperial Guard. The guardsmen, which form the backbone of most Imperial Guard armies, are conscripts taken from population dense worlds. They are given minimal amounts of training and a set of equipment which is commonly referred to as a "flashlight" and a "shirt", a laser gun and a flak jacket, both of which are of dubious quality.
 
-The Imperial Guard are one of the oldest armies and thus have a generous amount of different units they can field with a wide range of competitive options at their disposal. There are exceptions to the rule but most lists, meaning the list of units and set of options a player choose to bring to the table, will favor having a large number of cheap guardsmen coupled with fewer but more expensive units such as Leman Russ tanks, various artillery guns, Valkyries (VTOL jets), Ogryns (towering genetically modified beings), etc.
+The Imperial Guard are one of the oldest armies and thus have a generous amount of different units they can field with a wide range of competitive options at their disposal. There are exceptions to the rule but most lists, meaning the list of units and set of options a player choose to bring to the table, will favour having a large number of cheap guardsmen coupled with fewer but more expensive units such as Leman Russ tanks, various artillery guns, Valkyries (VTOL jets), Ogryns (towering genetically modified beings), etc.
 
 The guardsmen serve to capture objectives, screen off more important targets, act as an annoyance and optimally do some damage themselves. The more expensive units have more specific roles tied to their stats, skills and also how they fit into the list and interact with other units. For example, Valkyries move fast and can transport a small number of infantry so we can use them in combination with small squads of Ogryns (usually their Bullgryn variant) to transport them where they need to be given that the Ogryns are slow but strong melee units.
 
@@ -30,7 +30,7 @@ The game remains fresh and interesting because:
 
 Another aspect of the Warhammer experience is painting the miniatures.
 
-Let me paint a picture for you. Little Timmy enters his friendly local game store. He sees rows of boxes with cool looking toy soldiers, aliens and monsters on them. He points and he says "I want that!" He reaches for one of the boxes, the large humans in armor box, pays for it and heads back home.
+Let me paint a picture for you. Little Timmy enters his friendly local game store. He sees rows of boxes with cool looking toy soldiers, aliens and monsters on them. He points and he says "I want that!" He reaches for one of the boxes, the large humans in armour box, pays for it and heads back home.
 
 To little Timmy's dismay, he opens the box only to find small grey plastic heads, arms, legs, guns, etc. attached together by thin rods of plastic.
 
@@ -38,11 +38,11 @@ Little did Timmy know that a large part of the fun of Warhammer for some players
 
 I took it upon myself to learn how to paint miniatures to finish what the previous owner of the army started. I've painted around thirty five guardsmen, five special characters and three smallish vehicles. I've also done the bases (the round platform below most miniatures that stabilizes it and denotes the space it takes on the board) for almost sixty miniatures. Instead of standing on a solid black platform, most of my guardsmen are now standing in and on a muddy/swampy surface uniquely sculpted using a texture paste (think of a thick acrylic paste that dries solid) combined with various pigments.
 
-In doing so, I discovered a passion for painting miniatures that I didn't know I had. Creatively speaking, I've done a little bit of many things: composing music, playing drums, pixel art, 3D modeling. But nothing has grabbed me the way that miniature painting has. It's a flexible hobby in that I can both challenge myself by exploring new painting techniques, color schemes or thinking up processes for painting miniatures well and quickly but I can also choose to paint another batch of miniatures exactly how I painted the previous ones without thinking too hard.
+In doing so, I discovered a passion for painting miniatures that I didn't know I had. Creatively speaking, I've done a little bit of many things: composing music, playing drums, pixel art, 3D modelling. But nothing has grabbed me the way that miniature painting has. It's a flexible hobby in that I can both challenge myself by exploring new painting techniques, colour schemes or thinking up processes for painting miniatures well and quickly but I can also choose to paint another batch of miniatures exactly how I painted the previous ones without thinking too hard.
 
 Painting miniatures requires a steady hand, a good eye and intense concentration at times which encourages me to take deep breaths mimicking the physical state I enter when meditating. I find it quite easy to enter into a state of Flow when painting.
 
-Furthermore, it is well documented that building something yourself, like Ikea furniture, makes you more attached and happier with whatever it is you built. I would hypothesize that the same principle can be applied to miniatures given my own experience and what I've seen in others.
+Furthermore, it is well documented that building something yourself, like IKEA furniture, makes you more attached and happier with whatever it is you built. I would hypothesize that the same principle can be applied to miniatures given my own experience and what I've seen in others.
 
 The assembly, painting, theory crafting and actual playing of the game combine to make Warhammer a compelling hobby for me even though the cost verges on the outrageous even if you're lucky enough to find someone selling a used army for cheap.
 

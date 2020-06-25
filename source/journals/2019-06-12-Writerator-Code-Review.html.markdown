@@ -164,13 +164,13 @@ Fix:
 This file has 214 lines of code, 60 comment lines and 94 blank lines. It contains utility classes and functions for manipulating text, counting syllables and generating poems.
 
 Problem:
-: Fail-safe alternate algorithm used in case of missing dependency. If the PyHyphen module is not found on the system instead of exiting gracefully (like it probably shoud) the code runs an alternate, and much worse, algorithm for counting the syllables in a word. A fail-safe like this could be an essential feature to have but in this case I don't think we need it given that the PyHyphen module should work and be accessible on any machine which can run python and can run our code.
+: Fail-safe alternate algorithm used in case of missing dependency. If the PyHyphen module is not found on the system instead of exiting gracefully (like it probably should) the code runs an alternate, and much worse, algorithm for counting the syllables in a word. A fail-safe like this could be an essential feature to have but in this case I don't think we need it given that the PyHyphen module should work and be accessible on any machine which can run python and can run our code.
 
 Fix:
 : Remove the fail-safe code to simplify the code and ensure a more consistent quality to the poems we generate no matter the environment we run it in.
 
 Problem:
-: Functions returning booleans values using if statements badly. Functions written like this are a classic beginner's mistake. Code written like betrays a misunderstanding of how boolean conditions work.
+: Functions returning Boolean values using if statements badly. Functions written like this are a classic beginner's mistake. Code written like betrays a misunderstanding of how Boolean conditions work.
 
 ~~~ python
 def isAdverb(self):
@@ -190,7 +190,7 @@ def isAdverb(self):
     return re.match(r"\w+ly", self.text):
 ~~~
 
-The understanding here is that an _if_ condition evaluates to a boolean value so returning _True_ when it evaluates to true (and vice-versa) is pointless. I've heard some people claim that the code above somehow improves the readability of the code compared to what I'm proposing below; I disagree.
+The understanding here is that an _if_ condition evaluates to a Boolean value so returning _True_ when it evaluates to true (and vice-versa) is pointless. I've heard some people claim that the code above somehow improves the readability of the code compared to what I'm proposing below; I disagree.
 
 
 Problem:

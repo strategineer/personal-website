@@ -60,7 +60,7 @@ You'll most likely be looking to create a website with some sort of content and 
 
 ## Facilitating content creation and maintenance using Middleman.
 
-[Middleman](https://middlemanapp.com/) is a framework for creating static websites. There are many others that exist, you can search for "static website generator" on your favorite search engine to find any number of them.
+[Middleman](https://middlemanapp.com/) is a framework for creating static websites. There are many others that exist, you can search for "static website generator" on your favourite search engine to find any number of them.
 
 Choose the one you that seems to be the best fit for you. The rest of this tutorial will assume you've picked Middleman though.
 
@@ -92,6 +92,6 @@ If you follow instructions in the [article on using custom domains with GitHub P
 
 ## Now what?
 
-Well.. That's up to you. You can setup your own email address with your new custom domain, you can add Easter eggs to your website for intrepid users to find, you can spice up your website with easily accessible tools coded in JavaScript like a dice roller, a character generator for your favorite RPG, a text adventure, etc.
+Well.. That's up to you. You can setup your own email address with your new custom domain, you can add Easter eggs to your website for intrepid users to find, you can spice up your website with easily accessible tools coded in JavaScript like a dice roller, a character generator for your favourite RPG, a text adventure, etc.
 
 Furnish your new home on the internet however you wish, feel free to bask in the joy of having built something for yourself and having learned something new along the way.

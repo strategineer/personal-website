@@ -40,11 +40,11 @@ I cleaned myself up, shaved, cut my hair and headed out the door with a stride i
 
 I arrived around fifteen minutes early. I notified the receptionist of my interview and sat down. I double checked my look, I closed my eyes and then I performed some deep breathing exercises to put my mind at ease.
 
-> Most jobs are stressful to some degree, life can sometimes be stressful, practicing meditation at any level is great no matter what you do or who you are and I highly recommend it.
+> Most jobs are stressful to some degree, life can sometimes be stressful, practising meditation at any level is great no matter what you do or who you are and I highly recommend it.
 
 Ideally I would have opened my eyes before my interviewers found me. With my eyes closed I could have come off as being stressed or not confident even though I was.
 
-> Interviews have much more to do with the way you present yourself and how agreeable you are than with your technical skills or knowledge you have. Once you get the job, that's when your skills are really put to the test. Most people would rather work with someone who is nice to be around but less competent than a genius who is an complete asshole.
+> Interviews have much more to do with the way you present yourself and how agreeable you are than with your technical skills or knowledge you have. Once you get the job, that's when your skills are really put to the test. Most people would rather work with someone who is nice to be around but less competent than a genius who is a complete asshole.
 
 > Again, first impressions are important, so make it count. You don't want your interviewer(s) to decide that you're not fit for the position the first time they lay eyes on you.
 
@@ -80,7 +80,7 @@ They have to give a reason because that's in their policies because they don't w
 
 > You should make your CV fit on one page no matter what. Feel free to link to a longer form CV if you have a lot of experience but the likelihood of someone reading past the first page of a CV is not very high unless you're already in the interview room at which point the CV doesn't really matter anymore.
 
-> Students, I recommend you favor education programs (university or otherwise) which provide you with real work experience. It is invaluable. You'll discover your likes and dislikes, you'll make professional contacts in whatever industry you're working in (maybe several others), you'll learn by osmosis through working with more experienced coworkers. Also, you'll be able to fill out your CV with real experience which interviewers like to see.
+> Students, I recommend you favour education programs (university or otherwise) which provide you with real work experience. It is invaluable. You'll discover your likes and dislikes, you'll make professional contacts in whatever industry you're working in (maybe several others), you'll learn by osmosis through working with more experienced coworkers. Also, you'll be able to fill out your CV with real experience which interviewers like to see.
 
 
 # Interview 3

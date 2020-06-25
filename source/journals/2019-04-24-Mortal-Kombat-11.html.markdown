@@ -18,7 +18,7 @@ Ever since I played Super Street Fighter II Turbo Remix on the Xbox 360, I've be
 
 The closest I've come to was with Killer Instinct in late 2017. KI is easy to pick up and play, it has a great tutorial system for teaching new players, it plays well on a controller, its combo assist system allows new players to perform combos easily and the combo breaker system allows for a constant back and forth between players even when one player is being comboed by the other.
 
-I didn't enjoy playing as any of the thirty plus characters in the game. I enjoyed the mechanics of the game in theory but it was hard to stay invested in the game longterm because I didn't really connect with any of the characters.
+I didn't enjoy playing as any of the thirty plus characters in the game. I enjoyed the mechanics of the game in theory but it was hard to stay invested in the game long term because I didn't really connect with any of the characters.
 
 My impression of Mortal Kombat 11 so far, as a person who has barely touched any of the previous games, is a positive one and I'm excited to continue exploring it.
 
@@ -34,7 +34,7 @@ Microtransactions are not going away anytime soon, they are going to become more
 
 I think that certain microtransaction practices are predatory and should be regulated, for example forcing companies to reveal the odds of receiving each item from a "loot box". While other microtransaction economies can be relatively benign.
 
-As a community, we should try and educate others (especially those of us who are more vulnerable to these tactics such as children, individuals suffering from obsessive compulsive disorders, etc.), about the psychology behind microtransacitions (topics such as the Skinner Box, fake currency/point systems which make it harder for the player to understand the real cost of the microtransaction they're paying for, etc.) to avoid them falling into the trap set by predatory microtransaction systems in games.
+As a community, we should try and educate others (especially those of us who are more vulnerable to these tactics such as children, individuals suffering from obsessive compulsive disorders, etc.), about the psychology behind microtransactions (topics such as the Skinner Box, fake currency/point systems which make it harder for the player to understand the real cost of the microtransaction they're paying for, etc.) to avoid them falling into the trap set by predatory microtransaction systems in games.
 
 I'm not currently in a position where I can analyze how microtransactions are used in Mortal Kombat 11 and their impact on the experience however I can say that you can purchase the game, pick any character you want (other than Shao Khan who is a pre-order bonus but that's a story for another day) and play against other players online on a level playing field no matter how big their wallet is.
 
