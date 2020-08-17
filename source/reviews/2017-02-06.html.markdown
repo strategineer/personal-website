@@ -2,7 +2,7 @@
 title: Armello
 blog: reviews
 category: video-game
-date: 2017-02-05
+date: 2017-02-06
 tags: PC, thumbs_up
 pros:
     - "It is a deep strategic tabletop-like experience with multiple paths to victory and interesting decisions throughout."

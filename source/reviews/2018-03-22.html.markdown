@@ -2,7 +2,7 @@
 title: Prismata
 blog: reviews
 category: video-game
-date: 2018-03-21
+date: 2018-03-22
 tags: PC, thumbs_up
 pros:
     - "No Collecting Legendary e-peen/cards: both players in a match always have access to the exact same tools (randomized sets of units)."

@@ -2,7 +2,7 @@
 title: Octodad Daliest Catch
 blog: reviews
 category: video-game
-date: 2017-06-25
+date: 2017-06-26
 tags: PC, thumbs_up
 pros:
     - "Puzzles are quite varied and most require some thinking and/or decent control over Octodad to complete."

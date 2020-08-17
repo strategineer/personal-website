@@ -2,7 +2,7 @@
 title: Space Beast Terror Fright
 blog: reviews
 category: video-game
-date: 2018-08-25
+date: 2018-08-26
 tags: PC, thumbs_up
 pros:
     - "Experience feels straight out of Warhammer 40k or Aliens."

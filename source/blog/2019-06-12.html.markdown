@@ -1,6 +1,6 @@
 ---
 title: Code review on an 8 year old project
-blog: journals
+blog: blog
 date: 2019-06-12
 tags: tech
 ---

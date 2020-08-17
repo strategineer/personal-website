@@ -2,7 +2,7 @@
 title: Resident Evil Revelations 2
 blog: reviews
 category: video-game
-date: 2019-02-16
+date: 2019-02-17
 tags: PC, thumbs_up
 pros:
     - "Good mix of modern, actiony behind the shoulder, and old school, survival / puzzle solving / methodical, Resident Evil gameplay that should appeal to a wide-range of players."

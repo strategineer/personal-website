@@ -2,7 +2,7 @@
 title: The Long Dark
 blog: reviews
 category: video-game
-date: 2017-12-25
+date: 2017-12-26
 tags: PC, thumbs_up
 pros:
     - "It's a good survival game."

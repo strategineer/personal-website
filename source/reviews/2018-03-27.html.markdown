@@ -2,7 +2,7 @@
 title: Wasteland 2
 blog: reviews
 category: video-game
-date: 2018-03-25
+date: 2018-03-27
 tags: PC, thumbs_down
 pros:
     - "Post apocalyptic setting is fresh and well-written."

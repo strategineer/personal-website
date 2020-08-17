@@ -2,7 +2,7 @@
 title: Warhammer Vermintide 2
 blog: reviews
 category: video-game
-date: 2018-03-21
+date: 2018-03-26
 tags: PC, thumbs_up
 pros:
     - "Amazing gameplay from the first game returns with many additions making this a must have coop experience."

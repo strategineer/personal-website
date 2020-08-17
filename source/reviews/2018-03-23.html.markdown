@@ -2,7 +2,7 @@
 title: Shadow Tactics Blades of the Shotgun
 blog: reviews
 category: video-game
-date: 2018-03-21
+date: 2018-03-23
 tags: PC, thumbs_up
 pros:
     - "Gameplay is fair but challenging and requires a lot of thinking but also quick reflexes."

@@ -1,6 +1,6 @@
 ---
 title: Building a website for 17$ or less
-blog: journals
+blog: blog
 date: 2019-06-08
 tags: tech
 ---

@@ -18,9 +18,9 @@ activate :blog do |blog|
     blog.name = "reviews"
     blog.prefix = "reviews"
 
-    blog.permalink = "{category}/{year}/{month}/{day}/{title}.html"
+    blog.permalink = "{category}-{year}-{month}-{day}.html"
     # Matcher for blog source files
-    blog.sources = "{year}-{month}-{day}-{title}.html"
+    blog.sources = "{year}-{month}-{day}.html"
     blog.taglink = "tags/{tag}.html"
     blog.layout = "blogpost_review"
     # blog.summary_separator = /(READMORE)/
@@ -47,14 +47,14 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
-    blog.name = "journals"
-    blog.prefix = "journals"
+    blog.name = "blog"
+    blog.prefix = "blog"
 
-    blog.permalink = "{year}/{month}/{day}/{title}.html"
+    blog.permalink = "{year}-{month}-{day}.html"
     # Matcher for blog source files
-    blog.sources = "{year}-{month}-{day}-{title}.html"
+    blog.sources = "{year}-{month}-{day}.html"
     blog.taglink = "tags/{tag}.html"
-    blog.layout = "blogpost_journal"
+    blog.layout = "blogpost_blog"
     # blog.summary_separator = /(READMORE)/
     # blog.summary_length = 250
     blog.year_link = "calendar/{year}.html"
@@ -62,8 +62,8 @@ activate :blog do |blog|
     blog.day_link = "calendar/{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
-    blog.tag_template = "tags/journals.html"
-    blog.calendar_template = "calendars/journals.html"
+    blog.tag_template = "tags/blog.html"
+    blog.calendar_template = "calendars/blog.html"
 
     # Enable pagination
     blog.paginate = false
@@ -76,9 +76,9 @@ activate :blog do |blog|
     blog.name = "projects"
     blog.prefix = "projects"
 
-    blog.permalink = "{year}/{month}/{day}/{title}.html"
+    blog.permalink = "{year}-{month}-{day}.html"
     # Matcher for blog source files
-    blog.sources = "{year}-{month}-{day}-{title}.html"
+    blog.sources = "{year}-{month}-{day}.html"
     blog.taglink = "tags/{tag}.html"
     blog.layout = "blogpost_project"
     # blog.summary_separator = /(READMORE)/
@@ -99,7 +99,7 @@ end
 
 page "feeds/projects.xml", layout: false
 page "feeds/reviews.xml", layout: false
-page "feeds/journal.xml", layout: false
+page "feeds/blog.xml", layout: false
 
 #
 activate :autoprefixer do |prefix|

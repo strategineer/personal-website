@@ -11,7 +11,7 @@
     <ul class="navbar-nav navbar-center mx-auto flex-nowrap">
       <% ['index', 'blog', 'projects', 'reviews'].each do |page_name| %>
         <% if page_name == "blog" %>
-          <% is_active = (current_page.path.include?("blog.html") or current_page.path.include?("journals/")) %>
+          <% is_active = (current_page.path.include?("blog.html") or current_page.path.include?("blog/")) %>
         <% else %>
           <% is_active = current_page.path.include?(page_name) %>
         <% end %>

@@ -4,7 +4,7 @@
 
     <% sitemap.resources %>
     <% .select { |r| r.is_a? Middleman::Blog::BlogArticle } %>
-    <% .select { |b| b.path.start_with? "journals" } %>
+    <% .select { |b| b.path.start_with? "blog" } %>
     <% .sort { |a, b| a.date <=> b.date }.reverse %>
     <% .each do |article| %>
     <item>

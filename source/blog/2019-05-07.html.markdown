@@ -1,6 +1,6 @@
 ---
 title: Influencing the odds inside and outside of Blood Bowl 2
-blog: journals
+blog: blog
 date: 2019-05-07
 tags: gaming
 ---

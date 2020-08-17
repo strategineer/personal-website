@@ -2,7 +2,7 @@
 title: Total War Warhammer 2
 blog: reviews
 category: video-game
-date: 2018-09-06
+date: 2018-09-07
 tags: PC, thumbs_up
 pros:
     - "Fixes a fundamental flaw with with most Total War games, specifically that campaigns never end, this is fixed by having continuously increasing stakes over the course of a campaign and a time limit gated by the progress of each race toward control over the Great Vortex."

@@ -2,7 +2,7 @@
 title: Warhammer - Vermintide
 blog: reviews
 category: video-game
-date: 2017-05-21
+date: 2017-05-22
 tags: PC, thumbs_up
 pros:
     - "Gameplay is similar to L4D, and so it's great, but with an bigger emphasis on melee combat."
