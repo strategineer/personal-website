@@ -1,0 +1,119 @@
+---
+title: "A Gamer's Guide to: Servers"
+blog: blog
+date: 2020-08-23
+tags: gaming
+---
+<% graphviz do %>
+digraph G {
+
+  subgraph cluster_0 {
+    style=filled;
+    color=lightgrey;
+    node [style=filled,color=white];
+    a0 -> a1 -> a2 -> a3;
+    label = "process #1";
+  }
+
+  subgraph cluster_1 {
+    node [style=filled];
+    b0 -> b1 -> b2 -> b3;
+    label = "process #2";
+    color=blue
+  }
+  start -> a0;
+  start -> b0;
+  a1 -> b3;
+  b2 -> a3;
+  a3 -> a0;
+  a3 -> end;
+  b3 -> end;
+
+  start [shape=Mdiamond];
+  end [shape=Msquare];
+}
+<% end %>
+
+
+Welcome to my first "A Gamer's Guide to…" post.They will cover a wide range of topics, in this first one I will be covering servers and online Network to play in general. My credentials are simple I spent one year in my postgraduate studies in a program where we studied software engineering through the lens of video games. I then went on to spend three years working on video games,  one of which was released on Steam, Xbox, PlayStation 4,  and others which can be found in amusement parks around the world.
+
+Although I'm not working in the video game Space any longer, the knowledge I gained over the course of my time in it and my Avid love for video games give me the knowledge needed to explain certain topics that Gamers might be into.
+
+As discussed previously, we're going to start this series of articles with online multiplayer.
+
+How can you and your friends play together over the internet? How can a game be developed to prevents or make it very hard for hackers to ruin the experience for everyone? What's the difference between a dedicated server and a non dedicated server? when someone says peer-to-peer what does that mean?
+
+I will try to answer all these questions and more over the course of the next few paragraphs. I hope you come along with me on this journey.
+
+# Basics
+We're going to start this off by being extremely reductive and gradually build on what we've previously built in order to gain a better understanding of the more complex aspects of online multiplayer gameplay.
+
+For all intents and purposes,  computers work on the basis of zeros and ones.  all the computer understands is and generates is a sequence of zeros and ones.
+
+Anything you do on a computer in one form or another is a sequence of zeros and ones. Images,  videos, games, websites, it's all just zeros and ones. The zeros and ones may represent letters of the alphabet, they can be used to represent larger numbers, gradually building on zeros and ones we can build anything that you've ever seen or used on a computer.
+
+and so fundamentally the problem we're trying to solve when making a online multiplayer video game is, how can we send zeros and runs across the internet in between computers (or consoles)in such a way that each player feels as though they are participating in a group activity.
+
+I will be covering the basics, however I will be simplifying everything a lot. There are exceptions to everything I say, there are specific implementations of online multiplayer games that you may have heard about, for example GGPO,Which are exceptions to the rule. although the peer-to-peer architecture has fallen out of favour in general, any competent fighting game uses GGPO which is a peer-to-peer architecture.
+
+There are many ways of doing this. I will start by explaining what a peer-to-peer architecture looks like, then I will cover the more modern client-server architecture and why it's used in most video games these days.
+
+# Peer-to-Peer Architecture
+<% graphviz do %>
+digraph G {
+
+  subgraph cluster_0 {
+    style=filled;
+    color=lightgrey;
+    node [style=filled,color=white];
+    a0 -> a1 -> a2 -> a3;
+    label = "process #1";
+  }
+
+  subgraph cluster_1 {
+    node [style=filled];
+    b0 -> b1 -> b2 -> b3;
+    label = "process #2";
+    color=blue
+  }
+  start -> a0;
+  start -> b0;
+  a1 -> b3;
+  b2 -> a3;
+  a3 -> a0;
+  a3 -> end;
+  b3 -> end;
+
+  start [shape=Mdiamond];
+  end [shape=Msquare];
+}
+<% end %>
+If you've ever heard a seven year old child stream for his mother to unplug his router, then you most likely played a game with a peer-to-peer architecture. my first online gaming experiences namely Starcraft 2 and Halo 2, suffered from the use of a peer-to-peer architecture.
+
+The peer-to-peer architecture is somewhat complex to implement, but is cheaper to run over the long term than a client-server architecture. It has fallen out of favour because most triple A video games have more than two players in an online video game world ( the simplest Edge case for a peer-to-peer architecture) and the last thing a AAA video game Studio wants is for players to cheat on their game.
+
+A purely peer-to-peer architecture makes it profoundly easy for players to cheat. in a purely peer-to-peer architecture each player is given a certain amount of trust that's their understanding of the simulation of the video game is correct. However, players May modify their games in such a way to give them a competitive advantage against other players.
+
+in a peer-to-peer architecture, it is much easier for a player to lie about their game state in such a way to get them an advantage. for example, a player May modify their game clients such that it always sends back the fact that they have full HP. Or a player might modify their game clients such that instead of moving at 1.0 speed they are now moving at 2.0 speed excetera excetera.
+
+These are specific examples, although depending on what kind of information clients have to send to each other, .the kind of cheating that would occur would be different. of course depending on what kind of game it is would have an impact on what variables the players could lie about to one another.
+
+There's a simple solution to this oh, that is to not use a peer-to-peer architecture but you use a client-server architecture. Which we will discuss now.
+
+# Client-Server Architecture
+As seen previously, we're trying to solve the problem of sending zeros and ones over the network between computers in order to allow them to communicate with each other in such a way to provide a shared multiplayer video game experience for two or more players over the internet..
+
+A client-server architecture is built upon the principle of having one computer, the server,  communicate with several clients, the players. There are many reasons why this architecture is favoured these days but one of the main ones is that the game developers have full control over the server and thus have a means of controlling the flow of data to prevent players, or clients, from cheating.
+
+Briefly, let's discuss the difference between a dedicated server and a non dedicated server. A dedicated server is a server whose sole purpose is to conduct and run the simulation of the shared world inhabited by the players, it is non graphical usually. A non dedicated server is a server which simultaneously acts as a simulation of the shared world but also a graphical display, allowing one player to "host" a multiplayer game.
+
+This is less interesting than the dedicated server approach for performance reasons (the host player's computer must both simulate the game for all players and display/react to the host player's inputs) and because the host player has ample opportunity to cheat at the game.
+
+The dedicated server approach within a client-server architecture is the favoured method of implementation of online multiplayer play in today's AAA industry. It tends to be the most expensive of all possible implementations, however it is the best in terms of security and preventing players from cheating.
+
+# MMOs?
+I have no experienceIn how MMOs are built. What I can tell you is that they are the most complex online multiplayer games in existence, so much so that most games nowadays that call themselves atomos hard really and of those. if you're interested in the topic I know that both wow and best science fiction game oh, both have very interesting online networking architectures and both of these are available to read about online I think.
+
+# Conclusion
+I hope that this post was instructive. And has given you the tools to understand, at a basic level, how the online multiplayer games you play work. I hope that the next time you want to play a game that requires you to setup a dedicated server you have a little bit more knowledge and understanding of why.
+

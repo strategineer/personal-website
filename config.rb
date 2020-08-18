@@ -14,6 +14,8 @@ activate :robots,
   ],
   :sitemap => "http://localhost:4567/__middleman/sitemap/"
 
+activate :graphviz
+
 activate :blog do |blog|
     blog.name = "reviews"
     blog.prefix = "reviews"
