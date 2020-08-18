@@ -49,7 +49,7 @@ graph G {
 
 If you've ever heard a seven year old child scream at his mother to "unplug the router, you cunt!", then you have most likely played a game with some form of peer-to-peer architecture. My first online gaming experiences, namely Starcraft 2 and Halo 2, suffered from the use of a peer-to-peer architecture.
 
-The most common form of peer-to-peer architecture is one client, acting as a "host", who's game communicates with all other clients in order to ensure that each is playing within a consistent game simulation but also reacts to the host player inputs and displays the game to that player graphically. Very rarely, do you see a purely peer-to-peer architectures in video games.
+The most common form of peer-to-peer architecture is one client, acting as a "host", who's game communicates with all other clients in order to ensure that each is playing within a consistent game simulation but also reacts to the host player inputs and displays the game to that player graphically. Very rarely, do you see a purely peer-to-peer architectures in video games. This can be considered to be the polar opposite of the dedicated server paradigm which we will be looking at in the next section.
 
 <% graphviz do %>
 graph G {
@@ -75,17 +75,11 @@ This architecture has fallen out of favour because:
 
 It's not used much these days but before we move on to the client-server architecture, let's take a quick look at cheating.
 
-In a peer-to-peer architecture, the host player's game process is fully responsible for simulating the shared game world inhabited by all the players. Thus,
+In a peer-to-peer architecture, the host player's game process is fully responsible for simulating the shared game world inhabited by all the players. Thus, a malicious host can modify their own game process through reverse engineering in order to give them an unfair advantage. For example, they could potentially gives their character invincible, make their character invisible, allow their character to teleport or phase through walls, etc.
 
-.........................
+These are generic examples, every game is built differently and so the specific kind of cheating that could occur in a peer-to-peer architecture is vast. As is clear by the efficiency and popularity of GGPO, it is possible to create a peer-to-peer networking architecture that works and prevents cheating but it's more of an exception to the rule.
 
-respongiven a of trust that's their understanding of the simulation of the video game is correct. However, players May modify their games in such a way to give them a competitive advantage against other players.
-
-in a peer-to-peer architecture, it is much easier for a player to lie about their game state in such a way to get them an advantage. for example, a player May modify their game clients such that it always sends back the fact that they have full HP. Or a player might modify their game clients such that instead of moving at 1.0 speed they are now moving at 2.0 speed excetera excetera.
-
-These are specific examples, although depending on what kind of information clients have to send to each other, .the kind of cheating that would occur would be different. of course depending on what kind of game it is would have an impact on what variables the players could lie about to one another.
-
-There's a simple solution to this oh, that is to not use a peer-to-peer architecture but you use a client-server architecture. Which we will discuss now.
+Now we'll take a look at the much more common network architecture, the client-server architecture.
 
 # Client-Server Architecture
 
@@ -102,6 +96,8 @@ graph G {
   c3 [label="Client 3"]
 }
 <% end %>
+
+..............................
 
 As seen previously, we're trying to solve the problem of sending zeros and ones over the network between computers in order to allow them to communicate with each other in such a way to provide a shared multiplayer video game experience for two or more players over the internet..
 
