@@ -17,9 +17,17 @@ A server is a computer. To understand what a server does, we need to understand 
 
 We build on top of these zeros and ones to make a computer work for us. So, the problem we're trying to solve when designing an online multiplayer video game is, how can we allow multiple players to play with each other over the internet? Zeros and ones...
 
-At the most basic level, we need to send zeros and ones over the internet, in some way, to ensure that all the players are experience the same simulated game world, or as close to the same as possible.
+At the most basic level, we need to send zeros and ones over the internet, in some way, to ensure that all the players experience a shared simulated game world.
 
-I will now discuss the two major architectures that you are most likely to run into in the wild. I will simplify a lot to make the topic digestible. There are exceptions to everything I will write, for example peer-to-peer architectures have mostly fallen out of favor however if you're a fighting game player, you'll know that the best kind of online network architecture is GGPO which is a peer-to-peer architecture.
+I use the term "simulated" because there isn't actually one game world. There is one for each player in the game. A big complexity of online multiplayer games is ensuring that each simulation is synchronized as much as possible so that each player is having as close to the same experience as every other player.
+
+In a single player FPS game, if I press the Right Trigger on my controller, my character shoots his gun. The game will react to my pressing of the button by playing visual effects, playing a sound and applying any sort of damage (visual or not) to the enviromnent or any enemies as appropriate.
+
+This simple act becomes much more complicated in a multiplayer context. When I press the Right Trigger, the same events occur because if we had to wait for a response from the server before we saw the gun smoke, heard the sound and saw the damage caused then the game would feel very sluggish.
+
+But, behind the scenes, the information that I shot my gun needs to be sent to all the other clients so that they can also display the gunfire, play the sounds and react to the damage caused in their own simulations.
+
+There is two main architectures, of which there many different variations and implementations, which are commonly used in video games to solve this problem. I will now discuss them. Full disclosure, I will simplify the topic to make it digestible. There are exceptions to everything I will write, but after reading this article you should have a good baseline understanding of how the online multiplayer video games that you play work under the hood.
 
 I will start by explaining what a peer-to-peer architecture looks like, then I will cover the more common client-server architecture and explain why it's used in most video games these days.
 
@@ -49,7 +57,9 @@ graph G {
 
 If you've ever heard a seven year old child scream at his mother to "unplug the router, you cunt!", then you have most likely played a game with some form of peer-to-peer architecture. My first online gaming experiences, namely Starcraft 2 and Halo 2, suffered from the use of a peer-to-peer architecture.
 
-The most common form of peer-to-peer architecture is one client, acting as a "host", who's game communicates with all other clients in order to ensure that each is playing within a consistent game simulation but also reacts to the host player inputs and displays the game to that player graphically. Very rarely, do you see a purely peer-to-peer architectures in video games. This can be considered to be the polar opposite of the dedicated server paradigm which we will be looking at in the next section.
+The most common form of peer-to-peer architecture is one client, acting as a "host", who's client acts as both a pure client and a server. On one hand, it displays the simulation graphically for the player and reacts to the player's inputs. On the other, it communicates with all the other clients to synchronize their game simulations.
+
+This host-based peer-to-peer architecture can be considered to be the polar opposite of the dedicated server paradigm which we will be looking at in the next section.
 
 <% graphviz do %>
 graph G {
@@ -65,19 +75,19 @@ graph G {
 }
 <% end %>
 
-A peer-to-peer architecture is usually more complex to implement than a client-server architecture, but it is usually cheaper to run over the long term because the game developer doesn't maintain to have as many (or any potentially) of their own servers. The players use their own hardware (PCs, consoles or phones) to play the game. In theory, this approach can be infinitely scalable because if there are more players then by definition there are more servers for players to play on.
+A peer-to-peer architecture is usually more complex to implement than a client-server architecture, but it is usually cheaper to run over the long term because the game developer doesn't need to maintain as many (or any potentially) of their own servers. The players use their own hardware (PCs, consoles or phones) to play the game and so, in theory, this approach is infinitely scalable. More players means more servers for players to play on.
 
 This architecture has fallen out of favour because:
 - Most AAA video games have more than two players playing with each other at once.
-- Most AAA video games are competitive in nature, and peer-to-peer architectures can suffer from unfairness caused by, usually, one player having an advantage over the others.
+- Most AAA video games are competitive in nature, and peer-to-peer architectures suffer from unfairness due to the host player having an advantage over the others players.
 - Also, the host player can easily cheat given that they have complete control over the simulation of the game world.
-- It's difficult to ensure the quality of connection that a particular player will provide given not everyone's internet is great and also they can decide to make it especially bad by pulling the plug. No matter how this is handled, it is extremely disruptive to the multiplayer experience.
+- It's difficult to ensure the quality of connection that a particular player will provide given not everyone's internet is great. Also, the host player can decide to pull the plug, disrupting everyone's experience no matter how this edge case is handled.
 
-It's not used much these days but before we move on to the client-server architecture, let's take a quick look at cheating.
+Peer-to-peer architectures are not used much these days but before we move on to the client-server architecture, let's take a quick look at cheating.
 
-In a peer-to-peer architecture, the host player's game process is fully responsible for simulating the shared game world inhabited by all the players. Thus, a malicious host can modify their own game process through reverse engineering in order to give them an unfair advantage. For example, they could potentially gives their character invincible, make their character invisible, allow their character to teleport or phase through walls, etc.
+In a peer-to-peer architecture, the host player's client is fully responsible for simulating the shared game world inhabited by all the players. Thus, a malicious host player can modify their client through reverse engineerin to give themselves an unfair advantage. For example, they could potentially make their character invincible, make their character invisible, allow their character to teleport or phase through walls, etc.
 
-These are generic examples, every game is built differently and so the specific kind of cheating that could occur in a peer-to-peer architecture is vast. As is clear by the efficiency and popularity of GGPO, it is possible to create a peer-to-peer networking architecture that works and prevents cheating but it's more of an exception to the rule.
+These are generic examples, every game is built differently and so the specific kind of cheating that could occur in a peer-to-peer architecture is vast. As is clear by the efficiency and popularity of GGPO, which is a peer-to-peer architecture, it is possible to create a peer-to-peer architecture that works and doesn't allow for cheating but it's quite hard when you've got more than two players.
 
 Now we'll take a look at the much more common network architecture, the client-server architecture.
 
