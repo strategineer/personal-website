@@ -2,19 +2,18 @@
 @import '../../include/bootstrap/_variables.scss';
 @import '../../include/bootstrap/mixins/_breakpoints.scss';
 
-$colors: #00080F	#031829	#062640	#073358	#0D4572	#175689	#1F66A1	#2C7ABB	#398DD2	#4C9BDC	#63A9E3	#81BBEA	#9BC9EF	#B4D8F6	#D5ECFF	#EFF7FF;
+$colors: #00080F #f2f2f2 #1a0dab #FFFFFF;	
 
-$bg_dark: nth($colors, 2); // From darkest to lightest
+$bg_dark: nth($colors, 2);
 $bg_light: nth($colors, 4);
-$bg_highlight: nth($colors, 6);
-$link_base: nth($colors, 16);
-$link_print: nth($colors, 7);
-$color_base: nth($colors, 14);
-$link_highlight: nth($colors, 15);
+$link_base: nth($colors, 3);
+$link_print: nth($colors, 1);
+$color_base: nth($colors, 1);
+$link_highlight: nth($colors, 1);
 
 @media screen {
     body {
-        background: $bg_dark;
+        background: $bg_light;
         color: $color_base;
     }
     .table td, .table th {
@@ -26,6 +25,7 @@ $link_highlight: nth($colors, 15);
        &:focus,
        &:hover {
            color: $link_highlight;
+           background: $bg_dark;
        }
     }
     /* override link color to make the text more visible. */
@@ -141,16 +141,16 @@ body {
 
 // Set internal borders.
 .table > thead > tr > th{
-    border-top:1px solid $bg_highlight;
-    border-bottom:1px solid $bg_highlight;
-    border-right:1px solid $bg_highlight;
+    border-top:1px solid $bg_dark;
+    border-bottom:1px solid $bg_dark;
+    border-right:1px solid $bg_dark;
 }
 
 .table {
   border-collapse: collapse;
 }
 .table td, .table th {
-    border:1px solid $bg_highlight;
+    border:1px solid $bg_dark;
 }
 
 // this removes the top borders
@@ -170,21 +170,21 @@ body {
 }
 
 .navbar {
-    background: $bg_light;
+    background: $bg_dark;
     margin-bottom: 0.25em;
 }
 
 .jumbotron {
     margin: auto;
-    background: $bg_light;
+    background: $bg_dark;
 }
 
 // Journals
 blockquote {
-    background: $bg_light;
+    background: $bg_dark;
     p {
         margin-left: 0.5em;
-        color: $link_highlight;
+        color: $color_base;
     }
 }
 
@@ -228,7 +228,7 @@ td a div {
 // Highlight background when over on text.
 td a div:focus,
 td a div:hover {
-    background: $bg_light;
+    background: $bg_dark;
 }
 
 // Ensure that the date field in table is not wrapped.
@@ -259,7 +259,7 @@ ul.list-inline {
 /* Projects Album */
 
 .album {
-    border-top: 0.3em groove $bg_highlight;
+    border-top: 0.3em groove $bg_dark;
 }
 
 .album-row {
@@ -269,21 +269,21 @@ ul.list-inline {
 .card {
   float: center;
   margin-bottom: 1rem;
-  border: 0;
+  border: solid;
   text-align: center;
   background: $bg_dark;
   max-width: 22rem;
 }
 
 .card-body {
-  background: $bg_light;
+  background: $bg_dark;
 }
 
 /* highlight the card-body when any part of the card is highlighted. */
 .card:focus > .card-body,
 .card:hover > .card-body,
 {
-  background: $bg_highlight;
+  background: $bg_dark;
 }
 
 .card-text {
@@ -325,8 +325,8 @@ a.cv-anchor {
 }
 
 .cv-main-entry {
-    border-left: 2px solid $bg_highlight;
-    border-bottom: 2px solid $bg_highlight;
+    border-left: 2px solid $bg_dark;
+    border-bottom: 2px solid $bg_dark;
     margin-bottom: 0.2em;
     margin-top: 0.1em;
 }
