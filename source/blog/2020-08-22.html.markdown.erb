@@ -17,7 +17,7 @@ A server usually refers to a computer (or a program running on a computer) with 
 
 To understand what a server does, we need to understand what a computer does. Computers speak in zeros and ones. Anything you do on a computer is just a sequence of zeros and ones on some level. Streaming video? Zeros and ones. Drawing anime girls? Zeros and ones. Playing video games? Zeros and ones. You get the idea.
 
-We build systems on top of these zeros and ones to make a computer solve problems for us. The problem we're trying to solve when designing an online multiplayer video game is, how can we allow multiple players to play with each other over the internet? Zeros and ones...
+We build systems on top of these zeros and ones to make a computer solve problems for us. The problem we're trying to solve when designing an online multiplayer video game is, how can we allow multiple players to play with each other over the internet?
 
 We need to send zeros and ones over the internet, in some way, to ensure that all the players experience a shared game world.
 
@@ -29,9 +29,9 @@ This becomes much more complicated in a multiplayer context. When I press the Ri
 
 But, behind the scenes, the information that I shot my gun needs to be sent to all the other clients so that they can also display the gunfire, play the sounds and react to the damage caused in their own game worlds. How should this data, these zeros and ones, be handled and shared to all the other clients to keep all their game worlds in sync?
 
-There are as many specific solutions to this problem as there are online multiplayer games in existence. However, there are two main categories of network architectures used in video games to solve this problem. I will now discuss them and their differences in a digestible way. There are exceptions to everything I will write, but after reading this article you should have a basic understanding of how the online multiplayer video games that you play, work under the hood.
+There are as many specific solutions to this problem as there are online multiplayer games in existence. However, there are two broad categories of network architectures used in video games to solve this problem. I will now discuss them and their differences in a digestible way. There are exceptions to everything I will write, but after reading this article you should have a basic understanding of how the online multiplayer video games that you play, work under the hood.
 
-I will start by explaining what a peer-to-peer architecture looks like, then I will cover the more common client-server architecture and explain why it's used in most video games these days.
+I will start by explaining how a peer-to-peer architecture works, then I will cover the more common client-server architecture and explain why it's used in most video games these days.
 
 # Peer-to-Peer Architecture
 
@@ -59,7 +59,7 @@ graph G {
 
 My first online gaming experiences, namely Starcraft and Halo 2, suffered from the use of a peer-to-peer architecture. If you've ever heard a seven year old child scream at his mother like so, "unplug the router, you cunt!", then you've probably played a game with a peer-to-peer architecture.
 
-The most common form of peer-to-peer architecture is one client, acting as a "host", which acts as both a client and a server. It displays the game world graphically for the host player and reacts to their inputs but the client/server also communicates with all the other clients to keep their game worlds in sync.
+The most common form of peer-to-peer architecture is one client, the "host", which acts as both a client and a server. It displays the game world graphically for the host player and reacts to their inputs but the client/server also communicates with all the other clients to keep their game worlds in sync.
 
 <% graphviz do %>
 graph G {
@@ -77,11 +77,11 @@ graph G {
 
 A peer-to-peer architecture is usually more complex to implement than a client-server architecture, but it is usually cheaper to run over the long term because the game developer doesn't need to maintain as many of their own servers. The players use their own hardware (PCs, consoles or phones) to play the game and so this approach is very scalable; more players means more servers for players to play on. However, this architecture has fallen out of favour because:
 
-- Most AAA video games have more than two players playing with each other at once so if the host player's internet connection is unstable (or if their mother unplugs the ethernet cable out of the router) this disturbs the experience for all the other players in the game. A notable (and unfortunately recent) example of this is For Honor, a medieval melee combat game by our friends at Ubisoft. At launch, if the host of a game quit, then all other players in the game would have to wait for minutes for another host to be selected before continuing to play. Inside and outside of the company, people were rolling on the floor and face palming continuously at the decision to use a peer-to-peer architecture for the game. It took them over a year to implement a client-server architecture to replace the existing peer-to-peer architecture. My rough estimate is that this must have cost hundreds of thousands if not millions of dollars to change.
-- Most AAA video games are competitive in nature. Peer-to-peer architectures inherently suffer from unfairness due to the host player having several advantages over the other players. The big one being a non-existent ping (this is not a marker on the map but the time it takes for the data a client sends to the server to come back to that same client) meaning that the host player can act and react faster to anything that other players do within the shared game world.
-- It's much harder, perhaps even impossible given enough time and reverse engineering know-how, to stop a host player from cheating given that they have complete control over the server running the game world.
+- Most AAA video games have more than two players playing with each other at once so if the host player's internet connection is unstable (or if their mother unplugs the ethernet cable out of the router) this disturbs the experience for all the other players in the game. A notable (and unfortunately recent) example of this is For Honor, a medieval melee combat game by our friends at Ubisoft. At launch, if the host of a game quit, all other players in the game would have to wait for minutes for another host to be selected before continuing to play. Inside and outside of the company, people were rolling on the floor and face palming continuously at the decision to use a peer-to-peer architecture for the game. It took them over a year to implement a client-server architecture to replace the existing peer-to-peer architecture. My rough estimate is that this must have cost hundreds of thousands if not millions of dollars to change.
+- Most AAA video games are competitive in nature. Peer-to-peer architectures inherently suffer from unfairness due to the host player having several advantages over the other players. The big one being a non-existent ping (this is not a marker on the map but the time it takes for the data a client sends to the server to come back to that same client) meaning that the host player can act and react faster to anything that the other players do within the shared game world.
+- It's much harder, given enough time and reverse engineering know-how it is theoretically impossible, to stop a host player from cheating given that they have complete control over the server running the game world.
 
-Peer-to-peer architectures are not used much these days in AAA video games for these reasons, unless you're Ubisoft of course. Next, let's discuss the more popular, for good reason, client-server architecture.
+Peer-to-peer architectures are not used much these days in AAA video games for these reasons, unless you're Ubisoft of course. Next, let's discuss the more popular client-server architecture.
 
 # Client-Server Architecture
 
@@ -103,7 +103,7 @@ As discussed previously, we're trying to solve the problem of sending zeros and 
 
 A client-server architecture is built upon the principle of having one server communicate with several clients. There are many reasons why this architecture is favoured these days compared to peer-to-peer architectures as discussed above. The main one is that the game developers have full control over the server. They can provide a consistent online experience by ensuring that the servers are beefy enough and well connected enough to handle the demand of the game and by controlling the flow of data to make it harder for players to cheat. We wouldn't want players to give themselves infinite premium currency, would we?
 
-Briefly, let's talk about the difference between a dedicated server and a non-dedicated server. A dedicated server is a server whose sole purpose is to conduct and orchestrate the synchronization of the shared game world inhabited by the clients. So, by definition in a client-server architecture you're using dedicated servers. A non-dedicated server is a server which does the same but also provides a graphical display for a "host" player to participate in the game. We discussed this kind of server in the peer-to-peer architecture section of this article.
+Let's talk about the difference between a dedicated server and a non-dedicated server. A dedicated server is a server whose sole purpose is to orchestrate the synchronization of the shared game world inhabited by the clients. So, by definition in a client-server architecture you're using dedicated servers. A non-dedicated server is a server which does the same but also provides a graphical display for a "host" player to participate in the game. We discussed this kind of server in the peer-to-peer architecture section of this article.
 
 <% graphviz do %>
 digraph G {
@@ -119,7 +119,7 @@ digraph G {
   start -> ppa [label="Ubisoft?"]
   start -> csa [label="Everyone else?"]
 
-  start [label="I want to make a multiplayer video game!",shape=Mbox];
+  start [label="I want to make a AAA multiplayer video game!",shape=Mbox];
   ds [label="Dedicated Servers"]
   nds [label="Non-Dedicated Servers"]
   csa [label="Client-Server Architecture"]
@@ -137,4 +137,4 @@ I have little knowledge on how massively multiplayer online role playing games a
 Games like EVE Online and WoW are good examples of this. Here's an [article on Gamasutra about the network architecture in EVE Online](https://www.gamasutra.com/view/feature/132563/infinite_space_an_argument_for_.php?print=1) if you're interested in further reading on the topic of network architectures in MMORPGs.
 
 # Conclusion
-You now have the tools to understand, how the online multiplayer games you play, work behind the curtain. Alas, all good things must come to an end. I hope that this post was interesting and instructive. If you have any comments, feedback or thoughts on topics that you would like me to cover, please [let me know](me@strategineer.com)!
+You now have the tools to understand, how the online multiplayer games you play, work behind the curtain. Alas, all good things must come to an end. I hope that this post was interesting and instructive. If you have any comments, feedback or thoughts on topics that you would like me to cover, please [let me know](mailto:me@strategineer.com)!
