@@ -5,13 +5,13 @@ date: 2020-08-30
 tags: gaming, tech
 published: false
 ---
-Welcome to my second "A Gamer's Guide to" article (check out my [previous one on online multiplayer video games](../../../../blog/2020-08-22.html)). Today I'll be talking about cheating in single-player games on PC. If you're feeling like a rebel then take a seat and bask in the glory of infinite health, infinite currency and infinity itself.
+Welcome to my second "A Gamer's Guide to" article (check out my [previous one on online multiplayer video games](../../../../blog/2020-08-22.html)). Today I'll be talking about cheating in single-player games on PC. If you're feeling like a rebel then take a seat and bask in the glow of infinite health, infinite currency and infinity itself.
 
 Feel free to use the techniques that I describe below at your own risk, I don't advise cheating in any game that is a live service, is online in any way, has leaderboards or has micro-transactions.
 
 You're very unlikely to succeed in your #cheatinggoals using the techniques discussed here in these cases and you might get into trouble, with the gaming police, just by trying it.
 
-Today, we'll be looking at the most basic kind of cheating: using a memory scanner to scan for numbers being used in a game; allowing us to manipulate them at will. I'll start by explaining the basics of how this works, then go into more detail into how you can cheat and finally I'll discuss a real world example of a game, Trials Rising, where cheaters using techniques in the same vein, probably, as the one shown below ruined the experience for everyone.
+Today, we'll be looking at the most basic kind of cheating: using a memory scanner to scan for numbers being used in a game; allowing us to manipulate them at will. I'll start by explaining the basics of how this works, then go into more detail into how you can cheat and finally I'll discuss a real world example of a game, Trials Rising, where cheaters using similar techniques to the one shown below ruined the experience for everyone.
 
 # Basics
 You may know that computers only understand two things: zero and one. Everything that a computer does at some level is zeros and ones. In my previous article, we looked at how we could transfer zeros and ones between computers to design an online multiplayer video game experience.
@@ -22,17 +22,15 @@ Zeros and ones are the fuel that make computer programs, including video games, 
 
 The difference between the two is that turning off the power wipes your computer's volatile storage clean but not your non-volatile storage. A form of volatile storage that you might have heard of is RAM, or random-access memory. As for non-volatile storage, you've probably heard the terms hard disk drive (HDD) or solid state drive (SSD), if you haven't, well, now you have!
 
-Programs of all kinds, photos, videos, any "file" really, all exist on your non-volatile storage. When you decide to play a game, a portion of it will be loaded into volatile storage because accessing data from there is much quicker than doing so from non-volatile storage.
+Programs, photos, videos, any "file" really, all exist on your non-volatile storage. When you decide to play a game, a portion of it will be loaded into volatile storage because accessing data from there is much quicker than doing so from non-volatile storage.
 
-Video games are considered to be "real-time applications" because you, as a big G Gamer, expect the video games you play to react to your actions instantly. And so, all the data that a video game requires to function like images, 3D models, gameplay numbers (health, damage, lives, positions, score, etc.) will be loaded from non-volatile storage to volatile storage either before or during gameplay.
+Video games are considered to be "real-time applications" because you, as a big G Gamer, expect the video games you play to react to your actions instantly. And so, all the data that a video game requires to function like images, 3D models and, most importantly for us, gameplay numbers (health, damage, lives, character position, score, etc.) will be loaded from non-volatile storage to volatile storage either before or during gameplay.
 
-Loading screens, which may soon disappear due to SSDs being adopted in consoles, disguise the game's loading of data from non-volatile storage into RAM. Also, open world games will dynamically load data into RAM depending on where you decide to go within the world. Open world tend to be so large that there's no reason to load the 3D models and images (textures) for areas that are far from the player character.
+Loading screens, which may soon disappear due to SSDs being adopted in consoles, disguise the game's loading of data from non-volatile storage into RAM. Open world games will dynamically load data into RAM depending on where you decide to go within the world. Open world games tend to be so large that there's no reason to load the 3D models and images (textures) for areas that are far from the player character.
 
-So, if all the data that makes a video game, a video game exists in RAM then we could scan all of our RAM to find and manipulate the locations in memory where the zeros and ones that store the information on variables like your character's health, the amount of money you have, the damage you do when you hit an enemy, the number of lives you have, the position of your character in the world and the list goes on and on.
+So, if all the data that makes a video game, a video game exists in our computer's RAM then we could scan all of it to find and manipulate numbers like your character's health, the amount of money you have, the damage you do when you hit an enemy, the number of lives you have, the position of your character in the world and the list goes on and on.
 
-All of these numbers are present in RAM, somewhere, and usually if we stick to purely single-player games they should be easy to find and easy to play with. Sometimes a game developer might use obfuscation techniques to make it harder for us to find and manipulate the numbers we want to play with but this is pretty rare in purely single-player video games.
-
-If we can find the locations of these numbers in RAM, we can modify them or lock them in place. This is the most basic way of cheating in a single-player video game and is what I'll talk about next.
+All of these numbers are present in RAM, somewhere, and , especially in purely single-player games, they should be easy to find and play with. If we can find the locations of these numbers in RAM, we can modify them or lock them in place. This is the most basic way of cheating in a single-player video game and is what I'll talk about next.
 
 # Memory Scanning with Cheat Engine
 
@@ -40,23 +38,24 @@ If we can find the locations of these numbers in RAM, we can modify them or lock
 
 Cheat Engine is a program which allows you to analyze the memory associated to the programs that you are running on your computer, including your video games. It allows you to find the locations in RAM where game variables are located which then gives you control over them.
 
-> Be careful when installing Cheat Engine, read every page of the installer carefully, if you're not careful you'll install some ad/spyware alongside it.
+> Be careful when installing Cheat Engine, read every page of the installer carefully, if you're not careful you'll install some adware and spyware alongside it.
 
 Next, I'll cover the most basic use of Cheat Engine to give you a taste of what it can do but Cheat Engine includes a great beginner tutorial which I highly recommend if you want to dig a little deeper.
 
-The simplest way of using Cheat Engine is by choosing an "easy" to manipulate variable in your game. Money/Skill points are usually a good choice because these tend to be easy to increase and decrease within the game and the actual numerical value, say 5, is usually visible to you.
+The simplest way of using Cheat Engine is by choosing an "easy" to manipulate variable in your game. Money or skill points are usually a good choice because these tend to be easy to increase and decrease within the game. Also, the actual numerical value, say 5, tied to these variables is usually visible to you.
 
+- Launch your game.
+- Launch Cheat Engine and select the game's process.
 - Choose your variable! Health, money, skill points, etc.
-- Enter the current value of the variable, say 50, then hit the Scan button. If you don't know the current value of the variable then just hit the Scan button.
-- A list of locations in memory should appear in the box to the left, these represent all the possibilities of locations in RAM which might represent the variable you're searching for.
-- You have to narrow down the list to one entry so that you can find the location in RAM that's tied to the variable you want to manipulate.
-- The best way to narrow the list down is by increasing or descreasing the variable the game itself. For example, buying something or selling something if we're trying to find the location of the game's money variable.
-    - If you can see the new exact value of the number, you can type it into the text box and hit the Scan button again. This will filter out all memory locations from our previous search which aren't equal to the newly specified value for the variable.
+- Enter the current value of the variable, say 50, then hit the Scan button. If you don't know the current value of the variable then just hit the Scan button without specifying an exact value for it.
+- A list of locations in memory should appear in the box to the left, these represent all the possibilities of locations in RAM tied to the game you've selected where the variable you're searching for might be located.
+- You need to now narrow down the list to one entry to single out the location in RAM tied to the variable you want to manipulate. You must now increase or descrease the variable's value within the game itself. For example, buying something or selling something if we're trying to find the location of the game's money variable.
+    - If you can see the new exact value of the number, you can type it into the text box, making sure that the "equals" radio button is selected, then hit the Scan button again. This will filter out all memory locations from our previous search which aren't equal to the newly specified value for the variable.
     - Otherwise, you can click on either of the "increasing" or "decreasing" radio buttons then hit the Scan button. This will filter out all memory locations which haven't changed in the way you've specified.
-- By repeating this, you should eventually be able to narrow the list down to one memory location. This should be where the variable you're looking for is hiding. You can confirm this by looking at the number as you change it in-game to make sure that the values match up.
-- You can now click on the memory location in the list to change it or lock it to a specific value.
+- You might have to repeat this a couple times, but you should eventually be able to narrow the list down to one memory location. You can confirm that this is the correct location in memory by looking at the number as you change it in-game to make sure that the values match up.
+- You can now click on the memory location in the list to change it or lock it to a specific value. Infinite money here we come.
 
-There you go! You're a cheater now. Loud and proud. You can do a lot more with Cheat Engine such as automating the search for specific numbers, creating cheat "tables", and more!
+There you go! You're a cheater now. Loud and proud. You can do a lot more with Cheat Engine such as automating the search for specific numbers, creating cheat "tables" to share with others, and more!
 
 # Obfuscation techniques / Anti-cheat solutions
 Video game development is hard. So, game devs usually don't spend any of their valuable time on preventing players from cheating in purely single-player games.
@@ -67,7 +66,7 @@ If you've ever wondered why leaderboards in most games are always filled with ch
 
 As a good rule of thumb, an indie game with leaderboards is going to be filled with hackers because it's likely that the game developers don't have the resources to create a bulletproof implementation that prevents cheaters from going to town. AAA games with leaderboards are probably also going to be filled with hackers because where there is a will there's usually a way.
 
-An example of how cheaters can ruin the experience for other players is Trials Rising by our friends at Ubisoft. Trials is a time trials side scrolling motorbike racing game series which I've loved for over a decade now and so when Ubisoft released the latest entry in the series I was cautiously optimistic (if you're interested you can [watch or read my review of the game here](../../../../reviews/video-game/2019-03-13.html)).
+An example of how cheaters can ruin the experience for other players is Trials Rising by our friends at Ubisoft. Trials is a time trials side scrolling motorbike racing game series which I've loved for over a decade now. So, when Ubisoft released the latest entry in the series I was cautiously optimistic (if you're interested you can [watch or read my review of the game here](../../../../reviews/video-game/2019-03-13.html)).
 
 They mostly did a great job. However, they really messed up one, important, thing. For months after release, players were unable to improve their times on certain tracks. This is a critical issue because a lot of the draw for players of the Trials series is the competition that occurs on the leaderboards.
 
@@ -75,9 +74,9 @@ In these tracks, you were pitted against the ghosts of other players. Ok? If you
 
 Seems reasonable right?
 
-Well, unfortunately, the top of the leaderboard for these tracks was filled with cheaters and for some reason the game would always make you race against cheaters.
+Well, unfortunately, the top of the leaderboard for these tracks was filled with cheaters and, only God knows why, the game would always make you race against cheaters.
 
-So, you would start the track, gasp and then watch in horror as most of the other players disappeared into thin air and instantly completed the race. It was pretty hard for legitimate players like me to beat these cheaters and thus this prevented me, and many others, from improving times on these tracks for months.
+So, you would start the track, gasp and then watch in horror as most of the other players disappeared into thin air and instantly completed the race. It was pretty hard for legitimate players like me to beat these cheaters and thus this prevented me, and many other players, from improving times on these tracks for months.
 
 Eventually they fixed the issue, and the rest of the game is really great. But, I can't stop myself from taking a short detour to laugh at Ubisoft. They've always got something interesting cooking in their kitchen.
 
