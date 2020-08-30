@@ -20,7 +20,7 @@ activate :blog do |blog|
     blog.name = "reviews"
     blog.prefix = "reviews"
 
-    blog.permalink = "{category}-{year}-{month}-{day}.html"
+    blog.permalink = "{category}/{year}-{month}-{day}.html"
     # Matcher for blog source files
     blog.sources = "{year}-{month}-{day}.html"
     blog.taglink = "tags/{tag}.html"

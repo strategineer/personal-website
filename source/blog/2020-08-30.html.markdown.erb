@@ -1,0 +1,54 @@
+---
+title: "A Gamer's Guide to: Cheating in Single Player Games"
+blog: blog
+date: 2020-08-30
+tags: gaming, tech
+published: false
+---
+Welcome to my second "A Gamer's Guide to" article (check out my [previous one on online multiplayer video games](../../../../blog/2020-06-22.html)). Today I'll be talking about cheating in single player games on PC. If you're feeling like a rebel then by the end of this text you should be on your way to becoming a beginner single player game cheater.
+
+Feel free to use the techniques that I describe below at your own risk, I don't advise cheating in any game that is a live service, is online in any way, has leaderboards or has micro-transactions.
+
+You're very unlikely to succeed in your #cheatinggoals using the techniques discussed here in these cases and you might get into trouble, with the gaming police, just by trying it.
+
+Let's get started. Today, we'll be looking at the most basic kind of cheating: using a memory scanner to scan for variables (numbers usually) being used in a game, allowing us to manipulate them at will.
+
+# Basics
+You may know that computers only understand two things: zero and one. Everything that a computer does at some level is zeros and ones. In my previous article, we looked at how we could transfer zeros and ones between computers to design an online multiplayer video game experience.
+
+Now, we'll be looking at how we can manipulate zeros and ones on your own computer to cheat in a single player video game.
+
+The zeros and ones are fuel that make computer programs, including video games, "go". These zeros and ones have to physically exist somewhere on the computer. They are usually stored in one of two places, in volatile storage or in non-volatile storage.
+
+The difference between the two is that turning off the power wipes volatile storage clean but that's not the case for non-volatile storage. A form of volatile storage that you might have heard of is RAM, or random-access memory. As for non-volatile storage, you've probably heard the terms hard disk drive (HDD) or solid state drive (SSD), if you haven't now you have!
+
+Programs of all kinds, photos, videos, any "file" really, all exist on your non-volatile storage. When you decide to play a game, a portion of it will be loaded into volatile storage because accessing data from volatile storage is much quicker than doing so from non-volatile storage.
+
+Video games are considered to be real-time applications because you, as a big G Gamer, expect the video games you play to react to your actions instantly. And so, all the data that a video game requires to function like images, 3D models, gameplay numbers (health, damage, lives, etc.) will be loaded from non-volatile storage to volatile storage. Loading screens, which may soon go the way of the dodo due to the SSDs being adopted in consoles, disguise the game pausing to load data from non-volatile storage into RAM. This is the most simple case, but others such as open world games will dynamically load data into RAM depending on where you decide to go and what you decide to do in the game.
+
+So, if all the data, the zeros and ones, that make a video game, a video game exists in RAM then what would happen if we scanned the zeros and ones in RAM to find and manipulate variables like your character's health, the amount of currency you have, the damage you do when you hit an enemy, the number of lives you have, the position of your character in the world and the list goes on and on.
+
+All of these numbers are present in RAM and ready to be played around with. Sometimes a game developer might use obfuscation techniques to make it harder for us to find the numbers we want to play with but this is pretty rare in purely single player video games.
+
+If we can find these numbers and modify them or lock them in place, that's the most basic way of cheating in a single-player video game. So how do we do this? We need to find a memory scanner, there are many available online although the one I've been using for over a decade now is Cheat Engine.
+
+# Memory Scanning with Cheat Engine
+Cheat Engine is a program which allows you to analyze the memory associated to the programs that you are running on your computer, including your video games. Through several different means, it allows you to find specific numbers in RAM and allows you to modify them or lock them in place.
+
+It includes a great beginner tutorial which I highly recommend you take a look at if you're interested! It's very easy to use; anybody can do it.
+
+> Before you do anything, one short PSA from me to you is that you should never run an executable file from a source that you do not trust. An executable file that you run can do ANYTHING it wants on your computer. Don't install drugs kids. Be careful when installing Cheat Engine, read every page carefully, if you're not careful you'll install some ad/spyware alongside it.
+
+With that out of the way, I'll explain the most basic use of Cheat Engine. The tutorial provided by Cheat Engine goes into much more detail but this should give you a taste.
+
+......
+
+
+The simplest way of doing so is by searching for the number. what cheat engine does is that it scans the entirety of the RAM dedicated to the program ( each program running on your computer has an Associated space in Ram that belongs to it to avoid programs messing with each other), by doing so it will provide you a list of of possibilities. given the cheat engine has no specific understanding of the video game it has no way of knowing which one of these numbers is the correct one.
+
+We need to help it stop the way we do this is by changing the number in game. For example, if you're at Full House taking some damage is a good Next Step. After taking damage, we can tell cheat engine that we've lowered the number and then it should search for a subset of the possibilities that it previously gave us now running them down to only the ones that decreased in value.
+
+ If we do this enough times will eventually find the correct zeros and ones that represent the number we're looking to modify or lock in place in our game. and so you can do with this as you will, you have the power
+
+# Conclusion
+Cheating in single player games is quite fun. No one gets hurt and if that's something you're interested then why not?

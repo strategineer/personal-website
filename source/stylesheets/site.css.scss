@@ -335,6 +335,22 @@ a.cv-anchor {
     font-size: 95%;
 }
 
+.avatar-static {
+  position:absolute;
+  background: white;
+  height: 192px;
+  width: 192px;
+}
+
+.avatar-static:hover {
+  opacity:0;
+}
+
+.avatar-active {
+  height: 192px;
+  width: 192px;
+}
+
 @include media-breakpoint-down(xs) { 
 }
 @include media-breakpoint-down(sm) { 
