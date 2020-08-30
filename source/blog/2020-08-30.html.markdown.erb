@@ -33,7 +33,7 @@ All of these numbers are present in RAM and ready to be played around with. Some
 If we can find these numbers and modify them or lock them in place, that's the most basic way of cheating in a single-player video game. So how do we do this? We need to find a memory scanner, there are many available online although the one I've been using for over a decade now is Cheat Engine.
 
 # Memory Scanning with Cheat Engine
-Cheat Engine is a program which allows you to analyze the memory associated to the programs that you are running on your computer, including your video games. Through several different means, it allows you to find specific numbers in RAM and allows you to modify them or lock them in place.
+Cheat Engine is a program which allows you to analyze the memory associated to the programs that you are running on your computer, including your video games. Through several different means, it allows you to find the locations in RAM where game variables are and then allows you to have full control over them.
 
 It includes a great beginner tutorial which I highly recommend you take a look at if you're interested! It's very easy to use; anybody can do it.
 
@@ -41,14 +41,19 @@ It includes a great beginner tutorial which I highly recommend you take a look a
 
 With that out of the way, I'll explain the most basic use of Cheat Engine. The tutorial provided by Cheat Engine goes into much more detail but this should give you a taste.
 
-......
+The easiest way of starting is by choosing an "easy" to manipulate variable in your game. Currency/Skill points are usually a good choice because these tend to be easy to increase and decrease within the game and the actual numerical value, like 5, is usually visible to you.
 
+- Choose your variable!
+- It's easiest if you have a hard number to refer to, say 50 dollars instead of "full" health, but you don't *have* to know the specific value of the variable.
+- Enter the current value of the variable, say 50, then hit the Scan button.
+- A list of numbers should appear in the box to the left, these represent all the possibilities of places in RAM that might represent the variable you're searching for
+- Now, we have to narrow down the list to one entry so that we can find the number you're looking for
+- We can continue clicking the scan button, this will reduce the number of entries because most of them represent random spots in memory which might change since the last time we scanned
+- A faster way of finding the variable is by making it bigger or smaller within the game itself, then by clicking on the "search for increasing" or "search for descreasing" button so that we filter out all possible memory locations which haven't changed in the way that they should have
+- Eventually we should be able to narrow the list down to one memory location which should be the variable you're looking for. You can confirm this by looking at the number as you change it in-game to make sure that the values you see seem reasonable
+- You can now click on the number to change it or lock it to a specific value.
 
-The simplest way of doing so is by searching for the number. what cheat engine does is that it scans the entirety of the RAM dedicated to the program ( each program running on your computer has an Associated space in Ram that belongs to it to avoid programs messing with each other), by doing so it will provide you a list of of possibilities. given the cheat engine has no specific understanding of the video game it has no way of knowing which one of these numbers is the correct one.
-
-We need to help it stop the way we do this is by changing the number in game. For example, if you're at Full House taking some damage is a good Next Step. After taking damage, we can tell cheat engine that we've lowered the number and then it should search for a subset of the possibilities that it previously gave us now running them down to only the ones that decreased in value.
-
- If we do this enough times will eventually find the correct zeros and ones that represent the number we're looking to modify or lock in place in our game. and so you can do with this as you will, you have the power
+There you go! You're a cheater now. Loud and proud. You can do a lot more with Cheat Engine such as automating the search for specific numbers, creating cheat "tables", and more!
 
 # Conclusion
-Cheating in single player games is quite fun. No one gets hurt and if that's something you're interested then why not?
+You now have the tools to cheat in your single player games at will. I hope that this post was interesting and instructive. If you have any comments, feedback or thoughts on topics that you would like me to cover, please [let me know](mailto:me@strategineer.com)!
