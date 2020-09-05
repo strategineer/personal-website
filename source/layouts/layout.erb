@@ -34,7 +34,6 @@
     <%= yield_content :head %>
   </head>
   <body class="<%= page_classes %>">
-    <%= partial "header" %>
     <div class="container">
       <%# hack to prevent some pages from having the footer due to it not displaying well %>
       <% has_footer = (not current_page.path.include?("projects.html") and not current_page.path.start_with?("projects/tags") and not current_page.path.start_with?("projects/calendar") and not current_page.path.start_with?("cv"))%>
