@@ -1,0 +1,40 @@
+<% blog_id = ""%>
+<% blog_name = ""%>
+<% blog_archive = ""%>
+<% is_home = current_page.path.start_with?("index.html") %>
+<% is_blog = current_page.path.start_with?("blog/") %>
+<% is_project = current_page.path.start_with?("projects/") %>
+<% is_review = current_page.path.start_with?("reviews/") %>
+<% if is_blog or is_home %>
+  <% blog_id = "blog"%>
+  <% blog_name = "blog posts"%>
+  <% blog_archive = "/blog.html"%>
+<% elsif is_project %>
+  <% blog_id = "projects"%>
+  <% blog_name = "projects"%>
+  <% blog_archive = "/projects.html"%>
+<% elsif is_review %>
+  <% blog_id = "reviews"%>
+  <% blog_name = "reviews"%>
+  <% blog_archive = "/reviews.html"%>
+<% end %>
+<% if is_home or is_blog or is_project or is_review %>
+<% next_article = get_next_article(blog_id) %>
+<% previous_article = get_previous_article(blog_id) %>
+<% right_arrow = "&#x27A1" %>
+<% left_arrow = "&#x2B05" %>
+<% unless next_article.nil? %>
+<div class="row justify-content-center footer-paginator-next">
+  <div class="next-article-link col-12 mx-auto">
+      <%= link_to next_article.title + " " + right_arrow, next_article %>
+  </div>
+</div>
+<% end %>
+<% unless previous_article.nil? %>
+<div class="row justify-content-center footer-paginator-previous">
+  <div class="previous-article-link col-12 mx-auto">
+      <%= link_to left_arrow + " " + previous_article.title, previous_article %>
+  </div>
+</div>
+<% end %>
+<% end %>

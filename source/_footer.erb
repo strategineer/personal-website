@@ -1,62 +1,10 @@
-<% blog_id = ""%>
-<% blog_name = ""%>
-<% blog_archive = ""%>
-<% is_home = current_page.path.start_with?("index.html") %>
-<% is_blog = current_page.path.start_with?("blog/") %>
-<% is_project = current_page.path.start_with?("projects/") %>
-<% is_review = current_page.path.start_with?("reviews/") %>
-<% if is_blog or is_home %>
-  <% blog_id = "blog"%>
-  <% blog_name = "blog posts"%>
-  <% blog_archive = "/blog.html"%>
-<% elsif is_project %>
-  <% blog_id = "projects"%>
-  <% blog_name = "projects"%>
-  <% blog_archive = "/projects.html"%>
-<% elsif is_review %>
-  <% blog_id = "reviews"%>
-  <% blog_name = "reviews"%>
-  <% blog_archive = "/reviews.html"%>
-<% end %>
 <nav class="footer">
   <div class="row justify-content-center">
     <div class="col-12">
-      <% if is_home or is_blog or is_project or is_review %>
-      <% next_article = get_next_article(blog_id) %>
-      <% previous_article = get_previous_article(blog_id) %>
-      <% right_arrow = "&#x27A1" %>
-      <% left_arrow = "&#x2B05" %>
-      <% unless next_article.nil? %>
-      <div class="row justify-content-center footer-paginator-next">
-        <div class="next-article-link col-12 mx-auto">
-            <%= link_to next_article.title + " " + right_arrow, next_article %>
-        </div>
-      </div>
-      <% end %>
-      <% unless previous_article.nil? %>
-      <div class="row justify-content-center footer-paginator-previous">
-        <div class="previous-article-link col-12 mx-auto">
-            <%= link_to left_arrow + " " + previous_article.title, previous_article %>
-        </div>
-      </div>
-      <% end %>
-      <div class="row justify-content-center footer-image">
-        <img class="mx-auto avatar-static" src="/images/fe_portrait.png" alt="Bill's Avatar">
-        <img class="mx-auto avatar-active" src="/images/fe_portrait_idle.gif" alt="Bill's Avatar Animated">
-      </div>
-      <div class="row justify-content-center footer-content">
-          <div class="col-12 text-center" style="margin-top: 0.5em;">My name's Bill, I'm a software engineer, a video game aficionado and an avid reader/writer.
-          </div>
-          <div class="col-12 text-center" style="margin-top: 0.5em;"><a href="mailto:me@strategineer.com">I'd love to hear from you!</a>
-          </div>
-      </div>
-      <% if has_tags?(current_page) and false %>
-      <div class="row justify-content-center footer-tags">
-      <%= page_tags(current_page) %>
-      </div>
-      <% end %>
-      <%= partial "footer_recent_posts" %>
-      <% end %>
+      <%= partial "article_pager" %>
+      <%= partial "author_blurb" %>
+      <%= partial "article_tags" %>
+      <%= partial "recent_articles" %>
     </div>
   </div>
 </nav>

@@ -25,10 +25,12 @@
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
     <% ls[0].each do |article| %>
-      <li class="footer-shortlist-item"><%= link_to article.title, article %></li>
+      <a href="<%= article.url %>">
+        <li class="footer-shortlist-item"> <%= article.title %></li>
+      </a>
     <% end %>
     <% if ls[1] > 0 %>
-      <li><a href="<%= blog_archive %>">... with <%= ls[1] %> more <%= blog_name %> in the archive</a>.</li>
+      <li class="footer-shortlist-archive"><a href="<%= blog_archive %>">... with <%= ls[1] %> more <%= blog_name %> in the archive</a>.</li>
     <% end %>
   </ul>
 </div>

@@ -19,7 +19,8 @@ $link_highlight: nth($colors, 1);
     .table td, .table th {
         color: $color_base;
     }
-    a {
+    a,
+    a > li {
        color: $link_base;
 
        &:focus,
@@ -150,12 +151,19 @@ body {
 }
 
 .footer-shortlist-list{
+    width: 100%;
     font-size: 75%;
     padding-inline-start: 0px;
+    list-style-type: none;
 }
 
 .footer-shortlist-item{
-    white-space: nowrap;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.footer-shortlist-archive{
 }
 
 // Set internal borders.
