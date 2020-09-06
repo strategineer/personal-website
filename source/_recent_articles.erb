@@ -8,15 +8,15 @@
 <% if is_blog or is_home %>
   <% blog_id = "blog"%>
   <% blog_name = "blog posts"%>
-  <% blog_archive = "/blog.html"%>
+  <% blog_archive = "/"%>
 <% elsif is_project %>
   <% blog_id = "projects"%>
   <% blog_name = "projects"%>
-  <% blog_archive = "/projects.html"%>
+  <% blog_archive = "/projects/"%>
 <% elsif is_review %>
   <% blog_id = "reviews"%>
   <% blog_name = "reviews"%>
-  <% blog_archive = "/reviews.html"%>
+  <% blog_archive = "/reviews/"%>
 <% end %>
 <div class="row justify-content-center footer-shortlist-title">
   <h4>Recent <%= blog_name %>:</h4>
