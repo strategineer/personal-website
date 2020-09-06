@@ -241,11 +241,6 @@ module CustomHelpers
         res <<
 %{
 <table class="table mx-auto">
-  <thead>
-    <th scope="col" class="table-nowrap">Date</th>
-    <th scope="col">Title</th>
-    <th scope="col" class="d-none d-md-table-cell">Tags</th>
-  </thead>
   <tbody>
 }
       articles.each do |article|
