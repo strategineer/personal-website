@@ -104,6 +104,12 @@ body {
     margin: auto;
 }
 
+.previous-article-link,
+.next-article-link {
+    text-align: center;
+    white-space: nowrap;
+}
+
 /* Footer */
 .footer {
     margin-top: 1em;
@@ -135,8 +141,21 @@ body {
     margin-top: 0.25em;
 }
 
+.footer-shortlist-parent {
+    text-align: center
+}
+
+.footer-shortlist-parent > .footer-shortlist-list {
+    display: inline-block;
+}
+
 .footer-shortlist-list{
     font-size: 75%;
+    padding-inline-start: 0px;
+}
+
+.footer-shortlist-item{
+    white-space: nowrap;
 }
 
 // Set internal borders.

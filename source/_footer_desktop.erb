@@ -18,7 +18,7 @@
   <% blog_name = "reviews"%>
   <% blog_archive = "/reviews.html"%>
 <% end %>
-<nav class="footer">
+<nav class="footer-index d-none d-xl-block">
   <div class="row justify-content-center">
     <div class="col-12">
       <% if is_home or is_blog or is_project or is_review %>
@@ -38,21 +38,6 @@
         <div class="previous-article-link col-12 mx-auto">
             <%= link_to left_arrow + " " + previous_article.title, previous_article %>
         </div>
-      </div>
-      <% end %>
-      <div class="row justify-content-center footer-image">
-        <img class="mx-auto avatar-static" src="/images/fe_portrait.png" alt="Bill's Avatar">
-        <img class="mx-auto avatar-active" src="/images/fe_portrait_idle.gif" alt="Bill's Avatar Animated">
-      </div>
-      <div class="row justify-content-center footer-content">
-          <div class="col-12 text-center" style="margin-top: 0.5em;">My name's Bill, I'm a software engineer, a video game aficionado and an avid reader/writer.
-          </div>
-          <div class="col-12 text-center" style="margin-top: 0.5em;"><a href="mailto:me@strategineer.com">I'd love to hear from you!</a>
-          </div>
-      </div>
-      <% if has_tags?(current_page) and false %>
-      <div class="row justify-content-center footer-tags">
-      <%= page_tags(current_page) %>
       </div>
       <% end %>
       <%= partial "footer_recent_posts" %>

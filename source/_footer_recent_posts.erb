@@ -22,11 +22,13 @@
   <h4>Recent <%= blog_name %>:</h4>
 </div>
 <% ls = get_articles_shortlist(10, blog_id) %>
-<ul class="footer-shortlist-list">
-  <% ls[0].each do |article| %>
-    <li><%= link_to article.title, article %></li>
-  <% end %>
-  <% if ls[1] > 0 %>
-    <li><a href="<%= blog_archive %>">... with <%= ls[1] %> more <%= blog_name %> in the archive</a>.</li>
-<% end %>
-</ul>
+<div class="footer-shortlist-parent">
+  <ul class="footer-shortlist-list">
+    <% ls[0].each do |article| %>
+      <li class="footer-shortlist-item"><%= link_to article.title, article %></li>
+    <% end %>
+    <% if ls[1] > 0 %>
+      <li><a href="<%= blog_archive %>">... with <%= ls[1] %> more <%= blog_name %> in the archive</a>.</li>
+    <% end %>
+  </ul>
+</div>
