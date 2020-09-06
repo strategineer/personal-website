@@ -109,6 +109,8 @@ body {
 .next-article-link {
     text-align: center;
     white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 
 /* Footer */
@@ -127,13 +129,14 @@ body {
 
 .footer-paginator-previous,
 .footer-paginator-next {
-    font-size: 85%;
+    font-size: 75%;
 }
 
 .footer-tags {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 .footer-shortlist-title{
     margin-top: 1em;
 }

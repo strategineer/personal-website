@@ -26,7 +26,7 @@
 <% unless next_article.nil? %>
 <div class="row justify-content-center footer-paginator-next">
   <div class="next-article-link col-12 mx-auto">
-      <%= link_to next_article.title + " " + right_arrow, next_article %>
+      <%= link_to right_arrow + " " + next_article.title, next_article %>
   </div>
 </div>
 <% end %>

@@ -1,27 +1,7 @@
-<% blog_id = ""%>
-<% blog_name = ""%>
-<% blog_archive = ""%>
-<% is_home = current_page.path.start_with?("index.html") %>
-<% is_blog = current_page.path.start_with?("blog/") %>
-<% is_project = current_page.path.start_with?("projects/") %>
-<% is_review = current_page.path.start_with?("reviews/") %>
-<% if is_blog or is_home %>
-  <% blog_id = "blog"%>
-  <% blog_name = "blog posts"%>
-  <% blog_archive = "/blog.html"%>
-<% elsif is_project %>
-  <% blog_id = "projects"%>
-  <% blog_name = "projects"%>
-  <% blog_archive = "/projects.html"%>
-<% elsif is_review %>
-  <% blog_id = "reviews"%>
-  <% blog_name = "reviews"%>
-  <% blog_archive = "/reviews.html"%>
-<% end %>
-<nav class="footer-index d-none d-xl-block">
+<nav class="footer d-none d-xl-block">
   <div class="row justify-content-center">
     <div class="col-12">
-      <%= partial "article_pager" %>
+      <%= partial "article_paginator" %>
       <%= partial "recent_articles" %>
     </div>
   </div>
