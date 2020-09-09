@@ -122,6 +122,10 @@ body {
     margin-bottom: 1em;
 }
 
+.footer-image-artist {
+    font-size: 75%;
+}
+
 .footnotes {
     font-size: 85%;
 }
@@ -181,6 +185,7 @@ body {
 }
 .table td, .table th {
     border:1px solid $bg_dark;
+    padding:.50em;
 }
 
 // this removes the top borders

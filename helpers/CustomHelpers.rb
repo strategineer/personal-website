@@ -235,7 +235,7 @@ module CustomHelpers
 
     def articles_table(articles, title = nil)
         res = ""
-        unless title.nil?
+        unless title.blank?
           res << page_title(title)
         end
         res <<
