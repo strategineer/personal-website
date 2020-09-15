@@ -114,16 +114,16 @@ activate :imageoptim do |options|
   options.threads = true
 
   # Image extensions to attempt to compress
-  options.image_extensions = %w(.png .jpg .gif)
+  options.image_extensions = %w(.jpg)
 
   # Compressor worker options, individual optimisers can be disabled by passing
   # false instead of a hash
-  options.advpng    = { :level => 4 }
-  options.gifsicle  = { :interlace => false }
   options.jpegoptim = { :strip => ['all'], :allow_lossy => true, :max_quality => 75}
   options.jpegtran  = { :copy_chunks => false, :progressive => false, :jpegrescan => true }
-  options.optipng   = { :level => 6, :interlace => false }
-  options.pngcrush  = { :chunks => ['alla'], :fix => false, :brute => false }
+  options.advpng    = false
+  options.gifsicle  = false
+  options.optipng   = false
+  options.pngcrush  = false
   options.pngout    = false
   options.svgo      = false
 end
