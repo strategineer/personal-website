@@ -124,8 +124,8 @@ activate :imageoptim do |options|
   options.jpegtran  = { :copy_chunks => false, :progressive => true, :jpegrescan => true }
   options.optipng   = { :level => 6, :interlace => false }
   options.pngcrush  = { :chunks => ['alla'], :fix => false, :brute => false }
-  options.pngout    = { :copy_chunks => false, :strategy => 0 }
-  options.svgo      = {}
+  options.pngout    = false
+  options.svgo      = false
 end
 
 page "feeds/projects.xml", layout: false
