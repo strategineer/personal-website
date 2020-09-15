@@ -1,10 +1,10 @@
 <% blog_id = ""%>
 <% blog_name = ""%>
 <% blog_archive = ""%>
-<% is_home = current_page.path.start_with?("index.html") %>
-<% is_blog = current_page.path.start_with?("blog/") %>
-<% is_project = current_page.path.start_with?("projects/") %>
-<% is_review = current_page.path.start_with?("reviews/") %>
+<% is_home = current_page.destination_path.start_with?("index.html") %>
+<% is_blog = current_page.destination_path.start_with?("blog") %>
+<% is_project = current_page.destination_path.start_with?("projects") %>
+<% is_review = current_page.destination_path.start_with?("reviews") %>
 <% if is_blog or is_home %>
   <% blog_id = "blog"%>
   <% blog_name = "blog posts"%>
