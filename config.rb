@@ -118,8 +118,8 @@ activate :imageoptim do |options|
 
   # Compressor worker options, individual optimisers can be disabled by passing
   # false instead of a hash
-  options.jpegoptim = { :strip => ['all'], :allow_lossy => true, :max_quality => 75}
-  options.jpegtran  = { :copy_chunks => false, :progressive => false, :jpegrescan => true }
+  options.jpegoptim = { :strip => ['all'], :allow_lossy => true, :max_quality => 60}
+  options.jpegtran  = { :copy_chunks => false, :progressive => true, :jpegrescan => false }
   options.advpng    = false
   options.gifsicle  = false
   options.optipng   = false
