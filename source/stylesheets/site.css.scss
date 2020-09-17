@@ -106,8 +106,8 @@ body {
 .readable > h4,
 .readable > h5,
 .readable > h6 {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: .25em;
+    margin-bottom: .25em;
 }
 
 .readable,
@@ -125,7 +125,7 @@ body {
 
 /* Footer */
 .footer {
-    margin-top: 1em;
+    margin-top: 0.5em;
 }
 
 .footer-content {
@@ -240,8 +240,8 @@ blockquote {
 
 p {
     display: block;
-    margin-block-start: 0.75em;
-    margin-block-end: 0em;
+    margin-block-start: 0.365em;
+    margin-block-end: 0.365em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
