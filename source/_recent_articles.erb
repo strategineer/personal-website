@@ -5,7 +5,8 @@
 <% is_blog = current_page.destination_path.start_with?("blog") %>
 <% is_project = current_page.destination_path.start_with?("projects") %>
 <% is_review = current_page.destination_path.start_with?("reviews") %>
-<% if is_blog or is_home %>
+<% is_portfolio = current_page.destination_path.start_with?("portfolio") %>
+<% if is_blog or is_home or is_portfolio %>
   <% blog_id = "blog"%>
   <% blog_name = "blog posts"%>
   <% blog_archive = "/"%>

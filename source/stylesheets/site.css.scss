@@ -100,6 +100,16 @@ body {
     line-height: 1.8;
 }
 
+.readable > h1,
+.readable > h2,
+.readable > h3,
+.readable > h4,
+.readable > h5,
+.readable > h6 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
 .readable,
 .cv-readable {
     margin: auto;
@@ -119,6 +129,7 @@ body {
 }
 
 .footer-content {
+    font-size: 90%;
     padding: 0.25em;
 }
 
@@ -146,7 +157,7 @@ body {
 }
 
 .footer-shortlist-title{
-    margin-top: 1em;
+    margin-top: 0.25em;
 }
 
 .footer-paginator-previous {

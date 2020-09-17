@@ -226,7 +226,7 @@ module CustomHelpers
     res <<
     %{
 <div class="row justify-content-center text-center page-title">
-<h3>#{title}</h3>
+<h1>#{title}</h3>
 </div>
     }
     return res
