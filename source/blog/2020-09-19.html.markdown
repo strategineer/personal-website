@@ -4,7 +4,7 @@ blog: blog
 date: 2020-09-19
 tags: tech
 ---
-In these UNCERTAIN TIMES, I've found myself with a little more free time because I don't have to commute to an office every day. I've tried to funnel that energy into creative and constructive hobbies. ¯\\_(ツ)_/¯
+In these UNCERTAIN TIMES, I've found myself with a little more free time than usual because I haven't needed to commute to an office every day. I've tried to funnel that energy into creative and constructive hobbies. Keyword: tried. ¯\\_(ツ)_/¯
 
 In the past week, I've spent some time learning the Rust programming language. I've heard a lot of good things about it and I finally took the plunge. Here's a couple of notable features that I've managed to grok from my brief time with it.
 
@@ -52,7 +52,7 @@ impl Counter {
 }
 ~~~
 
-Without using the `mut` keyword, you cannot modify the defined variable in any way; making it truly immutable. This is similar to how C++ handles its `const` keyword. Although, in Rust, having everything be immutable by default is even better.
+Without using the `mut` keyword, you cannot modify the defined variable in any way; making it immutable. This is similar to how C++ handles its `const` keyword. Although, in Rust, having everything be immutable by default is even better.
 
 ## Null values, no more!
 
@@ -64,7 +64,7 @@ If we can avoid it we should.
 
 Most, if not all, functional programming languages use the concept of an option type which is a much better way of handling missing values. Although Rust isn't a purely functional programming language, it borrows some features from that paradigm like the option type.
 
-In Rust, unlike other procedural programming languages, especially object-oriented ones, the option type is not just ONE of many ways to handle missing values, it is the ONLY way. This combined with pattern matching, as shown below, forces you to handle any potentially missing values otherwise the compiler will complain (which is good).
+In Rust, unlike other procedural programming languages, especially the object-oriented ones, the option type is not just ONE of many ways to handle missing values, it is the ONLY way. This combined with pattern matching, as shown below, forces you to handle any potentially missing values otherwise the compiler will complain (which is good).
 
 ~~~ rust
 let o = if i % 2 == 0 {
@@ -85,7 +85,9 @@ Having the compiler detect, and nag us about, every possible case where we might
 
 ## Cargo - an environment and package manager for the common folk!
 
-Cargo is the package manager of the Rust language and it does exactly what you would expect it to do. Compared to the profoundly awful mess that is the equivalent Python solution. I don't want to get into the mess that is Python virtual environments, the differences between Python 2 and Python 3, pip vs. pip3, and more. Even after a decade of working with Python I still don't fully understand all the intricacies of how it handles, or doesn't handle really, dependencies.
+Cargo is the package manager of the Rust language and it does exactly what you would expect it to do. Compared to the profoundly awful mess that is the equivalent Python solution.
+
+I don't want to get into the mess that is Python virtual environments, the differences between Python 2 and Python 3, pip vs. pip3, and more. Even after a decade of working with Python I still don't fully understand all the intricacies of how it handles, or doesn't handle reeeeeeeeeeeeeally, dependencies.
 
 Comparatively, Cargo is God's gift to the world. It is easy to understand and make use of.
 
@@ -124,9 +126,13 @@ Cargo just works. Unlike other systems like it, I don't need to be a brain surge
 
 ## Plug and Play - Traits!
 
-Basically, traits are interfaces that specify functionality possibly providing default implementations for said functionality. They are somewhat reminiscent of mixins in object-oriented programming.
+Basically, traits are:
 
-You can take a struct and add traits to it to augment your struct with added functionality.
+- Interfaces
+- With default implementations
+- Can be added willy-nilly to any struct
+
+They are somewhat reminiscent of mixins in object-oriented programming. You can take any struct, add traits to it to augment it with added functionality.
 
 ~~~ rust
 #[derive(Debug)]
@@ -150,7 +156,7 @@ fn main() {
 }
 ~~~
 
-We can use the following syntax to specify a trait's behavior explicitly, overriding a trait's default implementation if it has one. For example, if we would like to allow a struct to be transformed into text a specific way (for non-debugging purposes) then we can implement the `fmt::Display` trait like so.
+We can use the following syntax to specify a trait's behavior explicitly, overriding a trait's default implementation if it has one. For example, if we would like to allow a struct to be transformed into text a specific way (for non-debugging purposes) then we can implement the `fmt::Display` trait for the `Counter` struct like so.
 
 ~~~ rust
 use std::fmt;
