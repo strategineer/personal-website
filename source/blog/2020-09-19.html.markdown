@@ -175,7 +175,7 @@ Notice that this is done outside of the context of the struct's definition. So, 
 
 These are simple examples. Built-in traits like the `Eq` and `Ord` traits provide the interfaces and default implementations for equality checking and ordering, respectively. Add them to any struct and it just works as you would expect.
 
-## Rusternoi Pepperoni
+## Rusteroni Pepperoni
 And that's all folks.
 
 I've been enjoying playing around with Rust; I'm building a small command line application that randomly generates teams over multiple rounds for playing games online with friends called [tmer](https://github.com/strategineer/tmer). If you want to take a look at that or help out, feel free!
