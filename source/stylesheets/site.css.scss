@@ -459,10 +459,7 @@ a.cv-anchor {
 
 @include media-breakpoint-up(xs) { 
     p {
-        font-size: 0.935rem;
-    }
-    .page-title > h3 {
-        font-size: 1.445rem;
+        font-size: 1.1rem;
     }
     .card {
         min-width: 16rem;
@@ -491,10 +488,7 @@ a.cv-anchor {
     }
     // Increase size when not on super small screen.
     p {
-      font-size: 1.3rem;
-    }
-    .page-title > h3 {
-        font-size: 3rem;
+      font-size: 1.4rem;
     }
     // set the maximum with to allow for better readability.
     .jumbotron,
