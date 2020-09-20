@@ -146,19 +146,21 @@ body {
 
 .footer-nav > div {
     padding-right: .5em;
+    font-size: 1.5rem;
 }
 
 .footer-image-artist {
-    font-size: 75%;
+    font-size: 0.75rem;
 }
 
 .footnotes {
-    font-size: 85%;
+    font-size: 0.85rem;
 }
 
 
 .footer-paginator-previous,
 .footer-paginator-next {
+    font-size: 0.95rem;
 }
 
 .footer-tags {
@@ -184,6 +186,7 @@ body {
 
 .footer-shortlist-list{
     width: 100%;
+    font-size: 0.95rem;
     padding-inline-start: 0px;
     list-style-type: none;
 }
@@ -347,7 +350,7 @@ ul.list-inline {
 }
 
 .card-text {
-    font-size: 75%;
+    font-size: 0.75rem;
 }
 
 
@@ -392,7 +395,7 @@ a.cv-anchor {
 }
 
 .cv-main-entry-bullets {
-    font-size: 95%;
+    font-size: 0.95rem;
 }
 
 .avatar-static {
@@ -426,10 +429,10 @@ a.cv-anchor {
 }
 @include media-breakpoint-down(sm) { 
     .cv {
-        font-size: 95%;
+        font-size: 0.95rem;
     }
     .cv-readable {
-        font-size: 95%;
+        font-size: 0.95rem;
     }
 }
 // On md size and down, the third column (tags) is not shown therefore hide the next columns border.
