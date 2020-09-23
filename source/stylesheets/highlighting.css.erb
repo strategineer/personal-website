@@ -1,14 +1,18 @@
-<%= Rouge::Themes::Monokai.render(:scope => '.highlight') %>
+<%= Rouge::Themes::Github.render(:scope => '.highlight') %>
+
 
 @media screen {
   .highlight {
-    background: #073358;
     margin-bottom: 0;
+    display: grid;
   }
   pre {
-    color: #B4D8F6;
+    color: #00080F;
+  }
+  code {
+    background: #f2f2f2;
   }
   .highlight .c, .highlight .cd {
-    color: #D5ECFF;
+    color: #1a0dab;
   }
 }
