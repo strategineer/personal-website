@@ -367,6 +367,13 @@ module CustomHelpers
     return res
   end
 
+  def stl(filename, height=620, width=420)
+    res = %{
+<script src="https://embed.github.com/view/3d/strategineer/3D-printing/master/stl/#{filename}.stl?height=#{height}&width=#{width}"></script>
+    }
+    return res;
+  end
+
   def get_review_categories_data()
     res = []
     articles = blog('reviews').articles
