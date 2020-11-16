@@ -1,11 +1,11 @@
 {
     "tags":
     {
-        "C++": "./projects/tags/cpp.html",
-        "UE4": "./projects/tags/unreal-engine.html",
-        "C#": "./projects/tags/c.html",
-        "Python": "./projects/tags/python.html",
-        "Unity": "./projects/tags/unity.html"
+        "C++": "./projects/tags/cpp",
+        "UE4": "./projects/tags/unreal-engine",
+        "C#": "./projects/tags/c",
+        "Python": "./projects/tags/python",
+        "Unity": "./projects/tags/unity"
     },
     "en":
     {
@@ -31,7 +31,7 @@
                   {
                       "year": "2017-2019",
                       "title": "Programmer - Framestore VR",
-                      "link": "./projects/2019/02/03/framestore-vr.html",
+                      "link": "./projects/2019/02/03/framestore-vr",
                       "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
                       "hint": "14 months",
                       "list":
@@ -45,7 +45,7 @@
                   {
                       "year": "2016-2017",
                       "title": "Programmer - Borealys Games",
-                      "link": "./projects/2017/05/18/mages-of-mystralia.html",
+                      "link": "./projects/2017/05/18/mages-of-mystralia",
                       "tech": ["C#", "Python", "TeamCity", "Unity"],
                       "hint": "18 months",
                       "list":
@@ -79,10 +79,10 @@
                       "tech": ["Python", "C++", "Windows", "Linux"],
                       "list":
                       [
-                          "<a href=\"./projects/2019/04/15/lynchman.html\">Lynchman<a/>: Beat Saber map generator using Markov Chains with data gathered from existing maps (Python).",
-                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker.html\">Artifact Stat Tracker<a/>: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python).",
-                          "<a href=\"./projects/2018/06/05/machine-head.html\">Machine Head<a/>: Bot for managing my Discord server, running on a Raspberry Pi (Python).",
-                          "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv.html\">Great Turtle Adventure 4<a/>: 3D racing game with my own custom game engine (C++)."
+                          "<a href=\"./projects/2019/04/15/lynchman\">Lynchman<a/>: Beat Saber map generator using Markov Chains with data gathered from existing maps (Python).",
+                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker\">Artifact Stat Tracker<a/>: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python).",
+                          "<a href=\"./projects/2018/06/05/machine-head\">Machine Head<a/>: Bot for managing my Discord server, running on a Raspberry Pi (Python).",
+                          "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv\">Great Turtle Adventure 4<a/>: 3D racing game with my own custom game engine (C++)."
                       ]
                   }
               ]
@@ -131,7 +131,7 @@
                   {
                       "year": "2017-2019",
                       "title": "Programmeur - Framestore VR ",
-                      "link": "./projects/2019/02/03/framestore-vr.html",
+                      "link": "./projects/2019/02/03/framestore-vr",
                       "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
                       "hint": "14 mois",
                       "list":
@@ -145,7 +145,7 @@
                   {
                       "year": "2016-2017",
                       "title": "Programmeur - Borealys Games",
-                      "link": "./projects/2017/05/18/mages-of-mystralia.html",
+                      "link": "./projects/2017/05/18/mages-of-mystralia",
                       "tech": ["C#", "Python", "TeamCity", "Unity"],
                       "hint": "18 mois",
                       "list":
@@ -179,10 +179,10 @@
                       "tech": ["Python", "C++", "Windows", "Linux"],
                       "list":
                       [
-                          "<a href=\"./projects/2019/04/15/lynchman.html\">Lynchman<a/>: générateur de niveaux Beat Saber utilisant des chaînes de Markov et les données recueillies de niveaux existants (Python).",
-                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker.html\">Artifact Stat Tracker<a/>: Plugin Google Sheets qui aide le suivi des statistiques pour Artifact (Python).",
-                          "<a href=\"./projects/2018/06/05/machine-head.html\">Machine Head<a/>: Bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
-                          "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv.html\">Great Turtle Adventure 4<a/>: Jeu de course 3D avec mon propre engin de jeu vidéo (C++)."
+                          "<a href=\"./projects/2019/04/15/lynchman\">Lynchman<a/>: générateur de niveaux Beat Saber utilisant des chaînes de Markov et les données recueillies de niveaux existants (Python).",
+                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker\">Artifact Stat Tracker<a/>: Plugin Google Sheets qui aide le suivi des statistiques pour Artifact (Python).",
+                          "<a href=\"./projects/2018/06/05/machine-head\">Machine Head<a/>: Bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
+                          "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv\">Great Turtle Adventure 4<a/>: Jeu de course 3D avec mon propre engin de jeu vidéo (C++)."
                       ]
                   }
               ]
