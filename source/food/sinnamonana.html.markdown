@@ -1,6 +1,6 @@
 ---
 title: Sinnamonana
-url_title: sinnamonana
+id_title: sinnamonana
 blog: food
 date: 2020-11-16
 tags: dessert

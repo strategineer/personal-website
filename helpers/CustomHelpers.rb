@@ -156,14 +156,14 @@ module CustomHelpers
   end
 
   def album(articles, title = nil, pred = nil)
+    if pred.nil?
+      pred = lambda {|p| true}
+    end
     filtered_articles = articles.select{|p| pred.call(p)}
     if filtered_articles.length == 0
       return ""
     end
     res = ""
-    if pred.nil?
-      pred = lambda {|p| true}
-    end
     if not title.nil? and not title.empty?
       res <<
       %{
