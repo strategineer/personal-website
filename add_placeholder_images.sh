@@ -1,6 +1,6 @@
 #!/bin/bash
 base_path="source/images/food"
-ids="red_scare_shrimp"
+ids="red_scare_shrimp sinnamonana struggle_pizza"
 filename="thumbnail.png"
 size_text="250x180"
 size_final="318x180"
