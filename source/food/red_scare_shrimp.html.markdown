@@ -2,7 +2,7 @@
 title: Red Scare Shrimp
 id_title: red_scare_shrimp
 blog: food
-date: 2020-11-17
+date: 2020-11-16
 tags: communist, hot
 is_important: true
 blurb: Communist shrimp, small in size yet large in number, red through and through best served on pasta with a white sauce.

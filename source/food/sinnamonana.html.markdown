@@ -2,7 +2,7 @@
 title: Sinnamonana
 id_title: sinnamonana
 blog: food
-date: 2020-11-16
+date: 2020-11-15
 tags: dessert
 is_important: true
 blurb: Sinfully sliced banana sprinkled with cinnamon served with honey.
