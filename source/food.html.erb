@@ -1,0 +1,6 @@
+---
+title: Strategineer
+blog: food
+---
+<%= album(blog.articles, "Recipe highlights", lambda { |p| p.data.is_important }) %>
+<%= album(blog.articles, "Other recipes", lambda { |p| not p.data.is_important } ) %>

@@ -1,0 +1,48 @@
+<% wrap_layout :layout do %>
+  <div class="review-content container">
+    <%= page_title(current_page.data.title) %>
+    <% unless current_page.data.servings.nil? %>
+      <div class="row justify-content-center">
+        Serves <%= current_page.data.servings %>
+      </div>
+    <% end %>
+    <%= page_links(current_page) %>
+    <%= try_page_video(current_article) %>
+    <%= try_page_images(current_article) %>
+    <% unless current_page.data.blurb.nil? %>
+      <div class="row justify-content-center">
+        <%= current_page.data.blurb %>
+      </div>
+    <% end %>
+    <% has_any_ingredients = !current_page.data.ingredients.nil? and current_page.data.ingredients.length > 0 %>
+    <% if has_any_ingredients %>
+        <div class="row justify-content-center">
+          <h2>Ingredients:</h2>
+        </div>
+        <div class="row justify-content-center">
+          <ul>
+            <% current_page.data.ingredients.each do |i| %>
+              <li><%= i %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+    <% has_any_steps = !current_page.data.steps.nil? and current_page.data.steps.length > 0 %>
+    <% if has_any_steps %>
+        <div class="row justify-content-center">
+          <h2>Steps:</h2>
+        </div>
+        <div class="row justify-content-center">
+          <ol>
+            <% current_page.data.steps.each do |i| %>
+              <li><%= i %></li>
+            <% end %>
+          </ol>
+        </div>
+    <% end %>
+    <div class="row justify-content-center">
+      <%= yield %>
+    </div>
+  <%= partial "footer_desktop" %>
+  </div>
+<% end %>

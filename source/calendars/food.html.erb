@@ -1,6 +1,6 @@
 ---
 pageable: false
-blog: projects
+blog: food
 ---
 <% case page_type
    when 'day' %>
@@ -10,4 +10,4 @@ blog: projects
 <% when 'year' %>
   <% date = year.to_s %>
 <% end %>
-<%= album(page_articles, "Projects from " + date) %>
+<%= album(page_articles, "Recipes from " + date) %>

@@ -155,12 +155,16 @@ module CustomHelpers
     return res
   end
 
-  def project_album(projects, title = nil, pred = nil)
+  def album(articles, title = nil, pred = nil)
+    filtered_articles = articles.select{|p| pred.call(p)}
+    if filtered_articles.length == 0
+      return ""
+    end
     res = ""
     if pred.nil?
       pred = lambda {|p| true}
     end
-    unless title.nil?
+    if not title.nil? and not title.empty?
       res <<
       %{
 <div class="container-fluid album-title">
@@ -176,22 +180,22 @@ module CustomHelpers
 <div class="container-fluid album">
   <div class="row album-row justify-content-center">
     }
-    projects.select{|p| pred.call(p)}.each do |project|
-      tags_subtitle =  project.tags.select{|t| link_to t, tag_path(t)}.join(" - ")
+    filtered_articles.each do |article|
+      tags_subtitle =  article.tags.select{|t| link_to t, tag_path(t)}.join(" - ")
       res <<
       %{
             <div class="col">
-              <a href="#{project.url}">
+              <a href="#{article.url}">
                 <div class="card mx-auto">
-                  <img class="card-img-top" src="#{get_thumbnail_path(project)}" alt="#{project.title} Thumbnail"></img>
+                  <img class="card-img-top" src="#{get_thumbnail_path(article)}" alt="#{article.title} Thumbnail"></img>
                   <div class="card-body mb-3">
-                    <h5 class="card-title">#{project.title}</h5>
+                    <h5 class="card-title">#{article.title}</h5>
                     <h6 class="card-subtitle mb-2">#{tags_subtitle}</h6>
       }
-      unless project.data.blurb.nil?
+      unless article.data.blurb.nil?
         res <<
         %{
-                    <p class="card-text">#{project.data.blurb}</p>
+                    <p class="card-text">#{article.data.blurb}</p>
         }
       end
       res <<

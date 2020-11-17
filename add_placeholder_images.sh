@@ -1,6 +1,6 @@
 #!/bin/bash
-base_path="source/images/projects"
-ids="2019-02-03-Framestore-VR 2018-06-05-Machine-Head 2013-02-01-Writerator"
+base_path="source/images/food"
+ids="Sinnamonana"
 filename="thumbnail.png"
 size_text="250x180"
 size_final="318x180"

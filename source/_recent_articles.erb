@@ -6,6 +6,7 @@
 <% is_project = current_page.destination_path.start_with?("projects") %>
 <% is_review = current_page.destination_path.start_with?("reviews") %>
 <% is_portfolio = current_page.destination_path.start_with?("portfolio") %>
+<% is_food = current_page.destination_path.start_with?("food") %>
 <% if is_blog or is_home or is_portfolio %>
   <% blog_id = "blog"%>
   <% blog_name = "blog posts"%>
@@ -18,11 +19,16 @@
   <% blog_id = "reviews"%>
   <% blog_name = "reviews"%>
   <% blog_archive = "/reviews/"%>
+<% elsif is_food %>
+  <% blog_id = "food"%>
+  <% blog_name = "food"%>
+  <% blog_archive = "/food/"%>
 <% end %>
+<% ls = get_articles_shortlist(10, blog_id) %>
+<% if ls[0].length() > 0 %>
 <div class="row justify-content-center footer-shortlist-title">
   <h4>Recent <%= blog_name %>:</h4>
 </div>
-<% ls = get_articles_shortlist(10, blog_id) %>
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
     <% ls[0].each do |article| %>
@@ -35,3 +41,4 @@
     <% end %>
   </ul>
 </div>
+<% end %>

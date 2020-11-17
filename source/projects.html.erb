@@ -2,5 +2,5 @@
 title: Strategineer
 blog: projects
 ---
-<%= project_album(blog.articles, "Projects Highlights", lambda { |p| p.data.is_important }) %>
-<%= project_album(blog.articles, "All Projects", lambda { |p| true } ) %>
+<%= album(blog.articles, "Projects Highlights", lambda { |p| p.data.is_important }) %>
+<%= album(blog.articles, "Other Projects", lambda { |p| not p.data.is_important } ) %>
