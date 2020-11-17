@@ -104,9 +104,9 @@ activate :blog do |blog|
     blog.name = "food"
     blog.prefix = "food"
 
-    blog.permalink = "{title}.html"
+    blog.permalink = "{id_title}.html"
     # Matcher for blog source files
-    blog.sources = "{title}.html"
+    blog.sources = "{id_title}.html"
     blog.taglink = "tags/{tag}.html"
     blog.layout = "blogpost_food"
     # blog.summary_separator = /(READMORE)/
