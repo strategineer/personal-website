@@ -21,5 +21,6 @@ steps:
   - Mix all the ingredients together in a large mixing bowl.
   - Set aside, covered, in refridgerator for 8h to let the flavors mix.
   - Serve with bread.
+notes:
+  - If you self identify as a basic person then use 1 clove of garlic, if you self identify as a hairy smelly greek man then use up to 12 cloves of garlic.
 ---
-- If you self identify as a basic person then use 1 clove of garlic, if you self identify as a hairy smelly greek man then use up to 12 cloves of garlic.
