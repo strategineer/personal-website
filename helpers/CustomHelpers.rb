@@ -31,7 +31,7 @@ module CustomHelpers
     return (entry_index.nil? or ls.size == entry_index) ? nil : ls[entry_index + 1]
   end
 
-  def has_thumbnail(article)
+  def has_thumbnail?(article)
     return get_thumbnail_path(article) != ""
   end
 
@@ -64,11 +64,18 @@ module CustomHelpers
     end
     return false
   end
-  def get_images(article)
+  def get_images(article, use_thumbnail_as_screenshot)
     res = []
     id = get_article_id(article)
     images_path = "/images/#{article.data.blog}/#{id}/screenshots"
     source_images_path = "source#{images_path}"
+    if use_thumbnail_as_screenshot
+      if has_thumbnail?(article)
+        thumbnail_path = get_thumbnail_path(article)
+        next_data = OpenStruct.new(:name => "thumbnail", :screenshot_path => thumbnail_path)
+        res.push(next_data)
+      end
+    end
     if Dir.exists?(source_images_path)
       Dir.foreach(source_images_path) do |file|
         if File.file?("#{source_images_path}/#{file}")
@@ -102,10 +109,10 @@ module CustomHelpers
     return res
   end
 
-  def try_page_images(page)
+  def try_page_images(page, use_thumbnail_as_screenshot=false)
     has_images = has_images?(page)
     res = ""
-    if has_images
+    if has_images or has_thumbnail?(page) and use_thumbnail_as_screenshot
       res <<
       %{
 <div class="row justify-content-center readable">
@@ -114,7 +121,7 @@ module CustomHelpers
         <ol class="carousel-indicators">
       }
       index = 0
-      get_images(page).each do |data|
+      get_images(page, use_thumbnail_as_screenshot).each do |data|
         res <<
         %{
             <li data-target="#carouselScreenshots" data-slide-to="#{index}" class="#{index == 0 ? "active" : ''}"></li>
@@ -127,7 +134,7 @@ module CustomHelpers
         <div class="carousel-inner">
       }
       index = 0
-      get_images(page).each do |data|
+      get_images(page, use_thumbnail_as_screenshot).each do |data|
         res <<
         %{
             <div class="carousel-item#{index == 0 ? " active" : ''}">

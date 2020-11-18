@@ -8,7 +8,7 @@
     <% end %>
     <%= page_links(current_page) %>
     <%= try_page_video(current_article) %>
-    <%= try_page_images(current_article) %>
+    <%= try_page_images(current_article, true) %>
     <% unless current_page.data.blurb.nil? %>
       <div class="row justify-content-center">
         <%= current_page.data.blurb %>
