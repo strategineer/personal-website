@@ -1,17 +1,17 @@
 <% wrap_layout :layout do %>
   <div class="review-content container">
     <%= page_title(current_page.data.title) %>
-    <% unless current_page.data.servings.nil? %>
-      <div class="row justify-content-center">
-        Serves <%= current_page.data.servings %>
-      </div>
-    <% end %>
     <%= page_links(current_page) %>
     <%= try_page_video(current_article) %>
     <%= try_page_images(current_article, true) %>
     <% unless current_page.data.blurb.nil? %>
       <div class="row justify-content-center">
         <%= current_page.data.blurb %>
+      </div>
+    <% end %>
+    <% unless current_page.data.servings.nil? %>
+      <div class="row justify-content-center">
+        Serves <%= current_page.data.servings %>
       </div>
     <% end %>
     <% has_any_ingredients = !current_page.data.ingredients.nil? and current_page.data.ingredients.length > 0 %>
