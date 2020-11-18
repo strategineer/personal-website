@@ -2,10 +2,10 @@
 title: Red Scare Shrimp
 id_title: red_scare_shrimp
 blog: food
-date: 2020-11-16
+date: 2020-11-15
 tags: communist, hot
 is_important: true
-blurb: Communist shrimp, small in size yet large in number, red through and through best served on pasta with a white sauce.
+blurb: Communist shrimp small in size yet numerous and red through and through; best served on pasta with a white sauce.
 servings: 4
 ingredients:
   - 61-70 or 625g Pacific White shrimp (any small or medium sized shrimp will do)
@@ -21,4 +21,3 @@ steps:
   - Heat the butter on a large pan, once it's melted toss the shrimp on it for about 10min.
   - Serve on pasta with white sauce.
 ---
-Comrades.
