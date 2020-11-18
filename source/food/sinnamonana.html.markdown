@@ -2,6 +2,7 @@
 title: Sinnamonana
 id_title: sinnamonana
 blog: food
+order: 5
 date: 2020-11-14
 tags: dessert
 is_important: true

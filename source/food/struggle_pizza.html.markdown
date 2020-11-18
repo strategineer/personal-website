@@ -2,6 +2,7 @@
 title: Struggle Pizza
 id_title: struggle_pizza
 blog: food
+order: 4
 date: 2020-11-16
 tags: cheap
 is_important: true

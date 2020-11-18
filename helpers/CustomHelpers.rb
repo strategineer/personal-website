@@ -162,9 +162,12 @@ module CustomHelpers
     return res
   end
 
-  def album(articles, title = nil, pred = nil)
+  def album(articles, title = nil, pred = nil, sort_fn = nil)
     if pred.nil?
       pred = lambda {|p| true}
+    end
+    if sort_fn.nil?
+      sort_fn = lambda { |a, b| b.date <=> a.date }
     end
     filtered_articles = articles.select{|p| pred.call(p)}
     if filtered_articles.length == 0
@@ -187,7 +190,7 @@ module CustomHelpers
 <div class="container-fluid album">
   <div class="row album-row justify-content-center">
     }
-    filtered_articles.each do |article|
+    filtered_articles.sort{ |a, b| sort_fn.call(a, b) }.each do |article|
       tags_subtitle =  article.tags.select{|t| link_to t, tag_path(t)}.join(" - ")
       res <<
       %{

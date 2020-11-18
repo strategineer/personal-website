@@ -2,6 +2,7 @@
 title: Red Scare Shrimp
 id_title: red_scare_shrimp
 blog: food
+order: 2
 date: 2020-11-15
 tags: communist, hot
 is_important: true

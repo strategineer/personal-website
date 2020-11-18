@@ -2,6 +2,7 @@
 title: Mush de Vegan
 id_title: mush_de_vegan
 blog: food
+order: 1
 date: 2020-11-17
 tags: vegan
 is_important: true
