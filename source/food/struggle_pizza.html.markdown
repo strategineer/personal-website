@@ -5,7 +5,7 @@ blog: food
 date: 2020-11-16
 tags: cheap
 is_important: true
-blurb: A frozen pizza that makes you reflect on your crippling depression caused by living in a world where megacorporations rule and people suffer into a decent frozen pizza.
+blurb: Take a cheap frozen pizza, that makes you reflect on your crippling depression caused by living in a world where megacorporations rule and people suffer, and turn it into a decent frozen pizza.
 servings: 1
 ingredients:
   - 1 store-bought thin crust frozen pizza (ideally with some meat on it)
