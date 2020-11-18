@@ -1,11 +1,12 @@
 #!/bin/bash
 base_path="source/images/food"
-ids="red_scare_shrimp sinnamonana struggle_pizza mush_de_vegan"
+ids="supreme_tzatziki elf_blood_guac"
 filename="thumbnail.png"
 size_text="250x180"
 size_final="318x180"
 cwd=$(pwd)
 for i in $ids; do
+    mkdir "${cwd}/${base_path}/${i}"
     cd "${cwd}/${base_path}/${i}"
     # Get name from id.
     name=${i#*-*-*-}
