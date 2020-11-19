@@ -20,7 +20,7 @@ ingredients:
   - 1/2 tsp salt
   - 2 cups white chocolate chips
 steps:
-  - Preheat oven to 350°F/175°C.
+  - Preheat oven to 350F/175C.
   - Cream together the butter, white sugar, brown sugar until smooth.
   - Beat the eggs in one at a time, then stir in the vanilla extract.
   - Dissolve the baking soda in hot water, add it to batter along with salt.
@@ -31,5 +31,5 @@ steps:
   - Serve with milk for dipping.
 notes:
   - This recipe makes 24 large cookies, if you're a lonely bachelor or a Karen looking for a love, you can seperate the dough into batches wrapped in tin foil and freeze them. Take the dough out and thaw it out whenever you want to make more cookies.
-  - If you're using a convection oven, reduce the heat by 25°, flatten the cookie dough balls on the pan and follow the time precisely because the edges won't brown (heat is distributed evenly so everything is going to brown equally).
+  - If you're using a convection oven, reduce the heat by 25F, flatten the cookie dough balls on the pan and follow the time precisely because the edges won't brown (heat is distributed evenly so everything is going to brown equally).
 ---

@@ -162,11 +162,11 @@ module CustomHelpers
     return res
   end
 
-  def prettify_ingredients_text(text)
+  def prettify_food_text(text)
     if text.nil? or text.empty?
       return ""
     end
-    straight_replacements = [
+    from_value_to_replacement = [
       ["0/3", "↉"],
       ["1/10", "⅒ "],
       ["1/9", "⅑"],
@@ -185,10 +185,12 @@ module CustomHelpers
       ["4/5", "⅘"],
       ["5/8", "⅝"],
       ["5/6", "⅚"],
-      ["7/8", "⅞"]
+      ["7/8", "⅞"],
+      [/(\d+)F/, '\1°F'],
+      [/(\d+)C/, '\1°C']
     ]
     pretty_text = text
-    straight_replacements.each do |t|
+    from_value_to_replacement.each do |t|
       pretty_text.gsub!(t[0], t[1])
     end
     return pretty_text

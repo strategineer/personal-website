@@ -22,7 +22,7 @@
         <div class="row justify-content-center">
           <ul>
             <% current_page.data.ingredients.each do |i| %>
-              <li><%= prettify_ingredients_text(i) %></li>
+              <li><%= prettify_food_text(i) %></li>
             <% end %>
           </ul>
         </div>
@@ -35,7 +35,7 @@
         <div class="row justify-content-center">
           <ol>
             <% current_page.data.steps.each do |i| %>
-              <li><%= i %></li>
+              <li><%= prettify_food_text(i) %></li>
             <% end %>
           </ol>
         </div>
@@ -48,7 +48,7 @@
         <div class="row justify-content-center">
           <ul>
             <% current_page.data.notes.each do |i| %>
-              <li><%= i %></li>
+              <li><%= prettify_food_text(i) %></li>
             <% end %>
           </ul>
         </div>
