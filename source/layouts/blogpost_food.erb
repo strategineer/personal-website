@@ -22,7 +22,7 @@
         <div class="row justify-content-center">
           <ul>
             <% current_page.data.ingredients.each do |i| %>
-              <li><%= i %></li>
+              <li><%= prettify_ingredients_text(i) %></li>
             <% end %>
           </ul>
         </div>

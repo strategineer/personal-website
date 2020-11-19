@@ -162,6 +162,38 @@ module CustomHelpers
     return res
   end
 
+  def prettify_ingredients_text(text)
+    if text.nil? or text.empty?
+      return ""
+    end
+    straight_replacements = [
+      ["0/3", "↉"],
+      ["1/10", "⅒ "],
+      ["1/9", "⅑"],
+      ["1/8", "⅛"],
+      ["1/7", "⅐"],
+      ["1/6", "⅙"],
+      ["1/5", "⅕"],
+      ["1/4", "¼"],
+      ["1/3", "⅓"],
+      ["1/2", "½"],
+      ["2/5", "⅖"],
+      ["2/3", "⅔"],
+      ["3/8", "⅜"],
+      ["3/5", "⅗"],
+      ["3/4", "¾"],
+      ["4/5", "⅘"],
+      ["5/8", "⅝"],
+      ["5/6", "⅚"],
+      ["7/8", "⅞"]
+    ]
+    pretty_text = text
+    straight_replacements.each do |t|
+      pretty_text.gsub!(t[0], t[1])
+    end
+    return pretty_text
+  end
+
   def album(articles, title = nil, pred = nil, sort_fn = nil)
     if pred.nil?
       pred = lambda {|p| true}
