@@ -20,6 +20,7 @@ ingredients:
   - 2 cups of basmati rice (cooked and seasoned with curry powder)
   - 398ml green peas
   - (optional) parmesan cheese
+  - (optional) egg
 steps:
   - Heat the olive oil on a large pan.
   - Saute the onion and garlic on low heat, adding salt, pepper and chili flakes to taste.
@@ -27,5 +28,5 @@ steps:
   - Once the chick peas soften, add the red kidney beans.
   - After 1min or so, add the tomato sauce and bring the mix to a boil and simmer.
   - Add the rice and green peas to the pan, mixing it all together.
-  - Serve in small bowls, adding parmesan cheese on top for a little extra flavor if you don't hate having a good time.
+  - Serve in small bowls, add parmesan cheese and/or a sunny side up egg on top for a little extra flavor.
 ---

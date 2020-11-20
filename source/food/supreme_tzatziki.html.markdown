@@ -4,7 +4,7 @@ id_title: supreme_tzatziki
 blog: food
 order: 0
 date: 2020-11-10
-tags: dips
+tags: dip
 is_important: true
 blurb: Unleash you inner greek god by enjoying this perfect tzatziki.
 servings: 12
