@@ -2,7 +2,7 @@
 title: Elf's Blood Guac
 id_title: elf_blood_buac
 blog: food
-order: 102
+order: -100
 date: 2020-11-09
 tags: dips
 is_important: true

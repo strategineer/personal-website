@@ -6,7 +6,7 @@ order: 2
 date: 2020-11-15
 tags: communist, hot
 is_important: true
-blurb: Communist shrimp small in size yet numerous and red through and through; best served on pasta with a white sauce.
+blurb: Shrimp, small but numerous, red through and through; best served on pasta with a white sauce.
 servings: 4
 ingredients:
   - 61-70 or 625g Pacific White shrimp (any small or medium sized shrimp will do)

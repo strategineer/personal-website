@@ -2,11 +2,11 @@
 title: Mush de Vegan
 id_title: mush_de_vegan
 blog: food
-order: 1
+order: -50
 date: 2020-11-17
 tags: vegan
 is_important: true
-blurb: Not a vegan turned into mush but a vegan mush that a vegan would approve of. Non-vegans might approve of vegans being turned into mush but, for me, chick peas are a great substitute.
+blurb: Not a vegan turned into mush but a vegan mush that a vegan would approve of.
 servings: 6
 ingredients:
   - 3 tbsp extra virgin olive oil

@@ -6,7 +6,7 @@ order: 4
 date: 2020-11-16
 tags: cheap
 is_important: true
-blurb: Take a cheap frozen pizza, that makes you reflect on your crippling depression caused by living in a world where megacorporations rule and people suffer, and turn it into a decent frozen pizza.
+blurb: Take a cheap frozen pizza and transform it into a decent frozen pizza.
 servings: 1
 ingredients:
   - 1 store-bought thin crust frozen pizza (ideally with some meat on it)

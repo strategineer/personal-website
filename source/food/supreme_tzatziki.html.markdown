@@ -2,7 +2,7 @@
 title: Supreme Tzatziki
 id_title: supreme_tzatziki
 blog: food
-order: 101
+order: 0
 date: 2020-11-10
 tags: dips
 is_important: true
