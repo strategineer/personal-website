@@ -22,8 +22,10 @@
       <% desc = article.summary(250, '>>').gsub("<p>", "").gsub("</p>", "").gsub("</", "").gsub("<p", "").gsub("</p", "").gsub("</", "").gsub("<", "") %>
       <description><%= desc %></description>
       <pubDate><%= article.date.utc.rfc822 %></pubDate>
-      <% article.data["tags"].split(', ').each do |tag| %>
-      <category><%= tag %></category>
+      <% if not article.data["tags"].nil? %>
+        <% article.data["tags"].split(', ').each do |tag| %>
+        <category><%= tag %></category>
+        <% end %>
       <% end %>
     </item>
     <% end %>
