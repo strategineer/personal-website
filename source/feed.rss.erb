@@ -4,18 +4,11 @@
 
     <% sitemap.resources %>
     <% .select { |r| r.is_a? Middleman::Blog::BlogArticle } %>
+    <% .select { |b| b.path.start_with? "blog" } %>
     <% .sort { |a, b| a.date <=> b.date }.reverse %>
     <% .each do |article| %>
     <item>
-    <% prefix = "" %>
-    <% if article.path.start_with? "projects" %>
-      <% prefix = "Project - " %>
-    <% elsif article.path.start_with? "reviews" %>
-      <% prefix = "Review - " %>
-    <% elsif article.path.start_with? "blog" %>
-      <% prefix = "Blog Post - " %>
-    <% end %>
-      <title><%= prefix + article.title %></title>
+      <title>Blog - <%= article.title %></title>
       <% article_link = "https://strategineer.com/" + article.destination_path %>
       <link><%= article_link %></link>
       <guid><%= article_link %></guid>
@@ -31,4 +24,3 @@
     <% end %>
   </channel>
 </rss>
-
