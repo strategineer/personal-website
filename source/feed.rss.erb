@@ -8,7 +8,7 @@
     <% .sort { |a, b| a.date <=> b.date }.reverse %>
     <% .each do |article| %>
     <item>
-      <title>Blog - <%= article.title %></title>
+      <title><%= article.title %></title>
       <% article_link = "https://strategineer.com/" + article.destination_path %>
       <link><%= article_link %></link>
       <guid><%= article_link %></guid>
