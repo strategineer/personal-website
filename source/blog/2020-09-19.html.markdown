@@ -1,5 +1,5 @@
 ---
-title: The Second Coming of Rust
+title: "The Second Coming of Rust"
 blog: blog
 date: 2020-09-19
 tags: tech

@@ -1,5 +1,5 @@
 ---
-title: Interviews - The Good, the Bad and the Ugly
+title: "Interviews - The Good, the Bad and the Ugly"
 blog: blog
 date: 2020-06-26
 tags: tech
