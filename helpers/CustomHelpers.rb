@@ -51,6 +51,12 @@ module CustomHelpers
     return !article.data.youtube_video_id.nil?
   end
 
+  def has_audio?(article)
+    id = get_article_id(article)
+    audio_path = "source/#{article.data.blog}/#{id}/audio.mp3"
+    return File.file?(audio_path)
+  end
+
   def has_images?(article)
     id = get_article_id(article)
     images_path = "/images/#{article.data.blog}/#{id}/screenshots"
@@ -85,6 +91,32 @@ module CustomHelpers
           res.push(next_data)
         end
       end
+    end
+    return res
+  end
+
+  def try_page_audio(page)
+    has_audio = has_audio?(page)
+    res = ""
+    if has_audio
+      res <<
+      %{
+<div class="row justify-content-center readable">
+    <div class="col-12">
+      <div class="row align-items-center justify-content-center">
+        <figure>
+          <figcaption>Listen to this essay if you prefer:</figcaption>
+          <audio
+            controls
+            src="./audio.mp3">
+                Your browser does not support the
+                <code>audio</code> element.
+          </audio>
+        </figure>
+      </div>
+    </div>
+</div>
+      }
     end
     return res
   end
