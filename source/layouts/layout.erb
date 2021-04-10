@@ -12,7 +12,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title><%= current_article.title + ' - ' unless current_article.nil? %>Strategineer</title>
+    <title><%= if current_article.nil? then 'Strategineer' else current_article.title end %></title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="alternate" href="//strategineer.com/feed.rss" type="application/rss+xml" title="Strategineer's Blog" />

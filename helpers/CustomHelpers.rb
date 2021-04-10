@@ -370,6 +370,15 @@ module CustomHelpers
       <td>
         <a href="#{article.url}">
           <div>
+      }
+      if has_audio?(article)
+        res <<
+        %{
+        🎧
+        }
+      end
+      res <<
+      %{
           #{article.title}
           </div>
         </a>
