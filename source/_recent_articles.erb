@@ -33,7 +33,8 @@
   <ul class="footer-shortlist-list">
     <% ls[0].each do |article| %>
       <a href="<%= article.url %>">
-        <li class="footer-shortlist-item"> <%= article.title %></li>
+
+        <li class="footer-shortlist-item"> <%= if has_audio?(article) then "🎧" else "" end + article.title %></li>
       </a>
     <% end %>
     <% if ls[1] > 0 %>
