@@ -4,6 +4,8 @@ title: Movie Time
 # Movie Time babyyyyyyyyyyy
 If you're reading this, it's because you've been invited to my hyper ultra exclusive VIP weekly movie screenings.
 
+![](./images/reactions/mind-blown-wow.gif)
+
 Come with whoever you want. RSVP (by phone, by text message or by email at <me@strategineer.com>) a little bit ahead of time if you can. If you want to bring beer or snacks, feel free but don't feel obligated to.
 
 After the past year or two we've had, I can't be the only one wanting to talk with old friends (maybe see some new faces) while watching interesting movies sitting on the same couch ;0
