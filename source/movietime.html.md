@@ -2,6 +2,12 @@
 title: Movie Time
 ---
 # Movie Time babyyyyyyyyyyy
+
+| When?       | What? |
+| ----------- | ----------- |
+| ***24 Sep 2021 at 6pm*** | ***Mandy*** |
+| | _Produced by our lord and saviour, Elijah Wood, Mandy is a psychedelic horror film directed by a Greek-Italian-Canadian director and starring Nicolas Cage... This one might be goooooooood._ |
+
 If you're reading this, it's because you've been invited to my hyper ultra exclusive VIP weekly movie screenings.
 
 ![](./images/reactions/mind-blown-wow.gif)
@@ -12,11 +18,12 @@ After the past year or two we've had, I can't be the only one wanting to talk wi
 
 I hope to see you sometime!
 
+### Past/Future viewings
 
 | When?       | What? |
 | ----------- | ----------- |
-| ***24 Sep 2021 at 6pm*** | ***Mandy*** |
-| | _Produced by our lord and saviour, Elijah Wood, Mandy is a psychedelic horror film directed by a Greek-Italian-Canadian director and starring Nicolas Cage... This one might be goooooooood._ |
+| 17 Sep 2021 at 6pm | Johnny Mnemonic |
+| | _Keanu Reeves in a business suit going absolutely insane in a dystopian cyberpunk future._|
 | 01 Oct 2021 at 6pm | TBD |
 | 08 Oct 2021 at 6pm | TBD |
 | 15 Oct 2021 at 6pm | TBD |
@@ -33,10 +40,3 @@ I hope to see you sometime!
 | 17 Dec 2021 at 6pm | TBD |
 | 24 Dec 2021 at 6pm | Die Hard|
 | 31 Dec 2021 at 6pm | TBD |
-
-### Past viewings
-
-| When?       | What? |
-| ----------- | ----------- |
-| 17 Sep 2021 at 6pm | Johnny Mnemonic |
-| | _Keanu Reeves in a business suit going absolutely insane in a dystopian cyberpunk future._|
