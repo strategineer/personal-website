@@ -14,9 +14,10 @@ I hope to see you sometime!
 
 | When?       | What? |
 | ----------- | ----------- |
-| 17 Sep 2021 at 6pm | ***Johnny Mnemonic*** |
+| 17 Sep 2021 at 6pm | Johnny Mnemonic |
 | | _Keanu Reeves in a business suit going absolutely insane in a dystopian cyberpunk future._|
-| 24 Sep 2021 at 6pm | TBD |
+| ***24 Sep 2021 at 6pm*** | ***Mandy*** |
+| | _Produced by our lord and saviour, Elijah Wood, Mandy is a psychedelic horror film directed by a Greek-Italian-Canadian director and starring Nicolas Cage... This one might be goooooooood._ |
 | 01 Oct 2021 at 6pm | TBD |
 | 08 Oct 2021 at 6pm | TBD |
 | 15 Oct 2021 at 6pm | TBD |
