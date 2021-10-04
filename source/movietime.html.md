@@ -2,11 +2,10 @@
 title: Movie Time
 ---
 # Movie Time babyyyyyyyyyyy
-
 ### Next Screening
 
-***01 Oct 2021 at 6pm - Another Round (2020)***
-: Mads Mikkelsen plays a danish high school teacher. It's a black comedy that involves a lot of drinking.
+***08 Oct 2021 at 6pm - Mission Impossible***
+: _The mission is impossible... Or is it?_
 
 ### Info
 
@@ -29,6 +28,11 @@ I hope to see you sometime!
 24 Sep 2021 at 6pm - Mandy
 : _Produced by our lord and saviour, Elijah Wood, Mandy is a psychedelic horror film directed by a Greek-Italian-Canadian director and starring Nicolas Cage... This one might be goooooooood._
 : I went in expecting a comedy but nothing was funny? Nicholas Cage is doing a real bad job here. The first 45min were interesting and then it became mediocre John Wick.
+
+01 Oct 2021 at 6pm - Another Round (2020)
+: _Mads Mikkelsen plays a danish high school teacher. It's a black comedy that involves a lot of drinking._
+: I liked movie. I recently got myself some bottles of vodka, gin and rum. If I'm not sure if that's related.
+: "Don't go swimming when you're drunk."
 
 08 Oct 2021 at 6pm - TBD
 : ...
