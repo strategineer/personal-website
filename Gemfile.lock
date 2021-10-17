@@ -64,7 +64,6 @@ GEM
     image_size (1.5.0)
     in_threads (1.5.4)
     kramdown (1.17.0)
-    libv8 (7.3.492.27.1)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -125,8 +124,6 @@ GEM
       middleman-core (>= 3.2)
       rouge (~> 2.0)
     mini_portile2 (2.4.0)
-    mini_racer (0.2.6)
-      libv8 (>= 6.9.411)
     minitest (5.11.3)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
@@ -200,8 +197,7 @@ DEPENDENCIES
   middleman-imageoptim (~> 0.3.0)
   middleman-robots
   middleman-syntax
-  mini_racer
   tzinfo-data
 
 BUNDLED WITH
-   2.0.2
+   2.2.29
