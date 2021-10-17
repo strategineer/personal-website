@@ -1,3 +1,5 @@
+@import "bootstrap";
+
 $colors: #00080F #f2f2f2 #1a0dab #FFFFFF;	
 
 $bg_dark: nth($colors, 2);
@@ -509,8 +511,10 @@ a.cv-anchor {
         font-size: 1.9rem;
     }
 }
+
 @include media-breakpoint-up(lg) { 
 }
+
 @include media-breakpoint-up(xl) { 
     .album {
         width: 1140px;

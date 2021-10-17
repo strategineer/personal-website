@@ -183,6 +183,8 @@ page '/*.txt', layout: false
 #     which_fake_page: 'Rendering a fake page with a local variable'
 #   },
 # )
+#
+config[:sass_assets_paths] << Bootstrap.stylesheets_path
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

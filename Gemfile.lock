@@ -202,9 +202,9 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 4.4)
   middleman-autoprefixer
-  middleman-blog (~> 4.0)
+  middleman-blog
   middleman-graphviz
-  middleman-imageoptim (~> 0.3.0)
+  middleman-imageoptim
   middleman-robots
   middleman-syntax
   tzinfo-data
