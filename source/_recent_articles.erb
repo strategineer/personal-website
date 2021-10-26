@@ -7,6 +7,7 @@
 <% is_review = current_page.destination_path.start_with?("reviews") %>
 <% is_portfolio = current_page.destination_path.start_with?("portfolio") %>
 <% is_food = current_page.destination_path.start_with?("food") %>
+<% is_cocktails= current_page.destination_path.start_with?("cocktails") %>
 <% if is_blog or is_home or is_portfolio %>
   <% blog_id = "blog"%>
   <% blog_name = "blog posts"%>
@@ -23,6 +24,10 @@
   <% blog_id = "food"%>
   <% blog_name = "recipes"%>
   <% blog_archive = "/food/"%>
+<% elsif is_cocktails %>
+  <% blog_id = "cocktails"%>
+  <% blog_name = "cocktails"%>
+  <% blog_archive = "/cocktails/"%>
 <% end %>
 <% ls = get_articles_shortlist(10, blog_id) %>
 <% if ls[0].length() > 0 %>

@@ -125,6 +125,32 @@ activate :blog do |blog|
     blog.page_link = "page/{num}"
 end
 
+activate :blog do |blog|
+    # This will add a prefix to all links, template references and source paths
+    blog.name = "cocktails"
+    blog.prefix = "cocktails"
+
+    blog.permalink = "{id_title}.html"
+    # Matcher for blog source files
+    blog.sources = "{id_title}.html"
+    blog.taglink = "tags/{tag}.html"
+    blog.layout = "blogpost_cocktails"
+    # blog.summary_separator = /(READMORE)/
+    # blog.summary_length = 250
+    blog.year_link = "calendar/{year}.html"
+    blog.month_link = "calendar/{year}/{month}.html"
+    blog.day_link = "calendar/{year}/{month}/{day}.html"
+    blog.default_extension = ".markdown"
+
+    blog.tag_template = "tags/cocktails.html"
+    blog.calendar_template = "calendars/cocktails.html"
+
+    # Enable pagination
+    blog.paginate = false
+    # blog.per_page = 20
+    blog.page_link = "page/{num}"
+end
+
 activate :imageoptim do |options|
   # Use a build manifest to prevent re-compressing images between builds
   options.manifest = true
