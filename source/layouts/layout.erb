@@ -33,7 +33,7 @@
   <body class="<%= page_classes %>">
     <div class="container">
       <%# hack to prevent some pages from having the footer due to it not displaying well %>
-      <% has_footer = (not current_page.destination_path.end_with?("projects/index.html") and not current_page.destination_path.end_with?("cocktails/index.html") and not current_page.destination_path.end_with?("food/index.html") and not (current_page.destination_path.end_with?("movietime/index.html")) and not current_page.destination_path.start_with?("index.html") and not current_page.destination_path.start_with?("portfolio") and not current_page.path.start_with?("projects/tags") and not current_page.path.start_with?("projects/calendar") and not current_page.path.start_with?("food/tags") and not current_page.path.start_with?("food/calendar") and not current_page.path.start_with?("cv"))%>
+      <% has_footer = (not current_page.destination_path.end_with?("projects/index.html") and not current_page.destination_path.include?("cocktails") and not current_page.destination_path.include?("food") and not (current_page.destination_path.end_with?("movietime/index.html")) and not current_page.destination_path.start_with?("index.html") and not current_page.destination_path.start_with?("portfolio") and not current_page.path.start_with?("projects/tags") and not current_page.path.start_with?("projects/calendar") and not current_page.path.start_with?("food/tags") and not current_page.path.start_with?("food/calendar") and not current_page.path.start_with?("cv"))%>
       <div class="row justify-content-end">
         <div class="<%= has_footer ? "col-xl-8" : "col-xl-12" %> main">
           <%= yield %>
