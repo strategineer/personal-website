@@ -7,7 +7,7 @@
       <%= d.name %>.<%= d.title %>
     </div>
   </div>
-  <div class="d-flex justify-content-center cv-email">
+  <div class="row justify-content-center cv-email">
     <div class="col-md-4 text-center text-sm-right">
        <a href="mailto:me@strategineer.com">me@strategineer.com</a>
     </div>
@@ -18,12 +18,12 @@
        <a href="https://github.com/strategineer/">github.com/strategineer</a>
     </div>
   </div>
-  <div class="d-flex justify-content-center cv-content cv-readable">
+  <div class="row justify-content-center cv-content cv-readable">
     <div class="col-12 text-center cv-header">
       <div class="d-flex">
       <% d.sidebar_section.each do |v| %>
         <div class="col">
-          <div class="d-flex">
+          <div class="row">
             <div class="col cv-header-title text-center text-md-right">
               <h4><%= v.title %>:</h4>
             </div>
@@ -51,7 +51,7 @@
           <div class="cv-main-title"><%= v.title %></div>
           <% v.list.each do |e| %>
             <div class="col-12 cv-main-entry">
-              <div class="d-flex cv-main-entry-header">
+              <div class="row cv-main-entry-header">
                 <% has_link = (not e.link.nil?) %>
                 <% if has_link %>
                   <a href="<%= e.link %>">
