@@ -1,6 +1,6 @@
 #!/bin/bash
 base_path="source/images/food"
-ids="supreme_tzatziki elf_blood_guac"
+ids="tahini breaded_chicken falafel chili"
 filename="thumbnail.png"
 size_text="250x180"
 size_final="318x180"

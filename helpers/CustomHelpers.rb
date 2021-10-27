@@ -101,9 +101,9 @@ module CustomHelpers
     if has_audio
       res <<
       %{
-<div class="row justify-content-center readable">
+<div class="d-flex justify-content-center readable">
     <div class="col-12">
-      <div class="row align-items-center justify-content-center">
+      <div class="d-flex align-items-center justify-content-center">
         <figure>
           <figcaption>Listen to this essay if you prefer:</figcaption>
           <audio
@@ -127,9 +127,9 @@ module CustomHelpers
     if has_video
       res <<
       %{
-<div class="row justify-content-center readable">
+<div class="d-flex justify-content-center readable">
     <div class="col-12">
-      <div class="row align-items-center justify-content-center">
+      <div class="d-flex align-items-center justify-content-center">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/#{page.data.youtube_video_id}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -147,7 +147,7 @@ module CustomHelpers
     if has_images or has_thumbnail?(page) and use_thumbnail_as_screenshot
       res <<
       %{
-<div class="row justify-content-center readable">
+<div class="d-flex justify-content-center readable">
   <div class="col-12">
       <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -254,7 +254,7 @@ module CustomHelpers
     res <<
     %{
 <div class="container-fluid album">
-  <div class="row album-row justify-content-center">
+  <div class="row row-album justify-content-center">
     }
     filtered_articles.sort{ |a, b| sort_fn.call(a, b) }.each do |article|
       tags_subtitle =  article.tags.select{|t| link_to t, tag_path(t)}.join(" - ")
@@ -294,7 +294,7 @@ module CustomHelpers
     res = ""
     res <<
     %{
-<div class="row justify-content-center text-center page-reading-time">
+<div class="d-flex justify-content-center text-center page-reading-time">
 #{reading_time(article)} read
 </div>
     }
@@ -305,7 +305,7 @@ module CustomHelpers
     res = ""
     res <<
     %{
-<div class="row justify-content-center text-center page-title">
+<div class="d-flex justify-content-center text-center page-title">
 <h1>#{title}</h3>
 </div>
     }
@@ -404,7 +404,7 @@ module CustomHelpers
     if defined?(page.date)
       res <<
       %{
-<div class="row row-tags justify-content-center">
+<div class="d-flex d-flex-tags justify-content-center">
   <div class="col text-center">
     <ul class="list-inline ul-tags">
       }
@@ -435,7 +435,7 @@ module CustomHelpers
     if not current_page.data.links.nil? and not current_page.data.links.length == 0
       res <<
       %{
-<div class="row row-links justify-content-center">
+<div class="d-flex d-flex-links justify-content-center">
   <div class="col text-center">
     <ul class="list-inline ul-links">
       }

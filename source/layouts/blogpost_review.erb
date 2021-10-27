@@ -18,10 +18,10 @@
     <% has_any_cons = !current_page.data.cons.nil? and current_page.data.cons.length > 0 %>
     <% if has_any_pros or has_any_cons %>
       <% if has_any_pros %>
-        <div class="row justify-content-center">
+        <div class="d-flex justify-content-center">
           <h2>Pros</h2>
         </div>
-        <div class="row readable">
+        <div class="d-flex readable">
           <ul>
             <% current_page.data.pros.each do |pro| %>
               <li><%= pro %></li>
@@ -30,10 +30,10 @@
         </div>
       <% end %>
       <% if has_any_cons %>
-        <div class="row justify-content-center">
+        <div class="d-flex justify-content-center">
           <h2>Cons</h2>
         </div>
-        <div class="row readable">
+        <div class="d-flex readable">
           <ul>
             <% current_page.data.cons.each do |con| %>
               <li><%= con %></li>
@@ -43,7 +43,7 @@
       <% end %>
     <% end %>
     <% unless current_page.data.outro.nil? %>
-      <div class="row readable">
+      <div class="d-flex readable">
         <%= current_page.data.outro %>
       </div>
     <% end %>

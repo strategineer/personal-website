@@ -16,14 +16,14 @@
 <% right_arrow = "&#x27A1" %>
 <% left_arrow = "&#x2B05" %>
 <% unless next_article.nil? %>
-<div class="row justify-content-center footer-paginator-next">
+<div class="d-flex justify-content-center footer-paginator-next">
   <div class="next-article-link col-12 mx-auto">
       <%= link_to right_arrow + " " + next_article.title, next_article %>
   </div>
 </div>
 <% end %>
 <% unless previous_article.nil? %>
-<div class="row justify-content-center footer-paginator-previous">
+<div class="d-flex justify-content-center footer-paginator-previous">
   <div class="previous-article-link col-12 mx-auto">
       <%= link_to left_arrow + " " + previous_article.title, previous_article %>
   </div>
