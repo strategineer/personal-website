@@ -2,7 +2,7 @@
   <div class="review-content container">
     <%= page_title(current_page.data.title) %>
     <%= page_links(current_page) %>
-    <%= page_tags(current_page) %>
+    <%= page_tags(current_page, should_show_year_tags=false) %>
     <%= try_page_video(current_article) %>
     <%= try_page_images(current_article, true) %>
     <% unless current_page.data.blurb.nil? %>

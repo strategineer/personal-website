@@ -57,18 +57,19 @@ module CustomHelpers
     return File.file?(audio_path)
   end
 
-  def has_images?(article)
+  def count_article_images?(article)
     id = get_article_id(article)
     images_path = "/images/#{article.data.blog}/#{id}/screenshots"
     source_images_path = "source#{images_path}"
+    n_images = 0
     if Dir.exists?(source_images_path)
       Dir.foreach(source_images_path) do |file|
         if File.file?("#{source_images_path}/#{file}")
-          return true
+          n_images += 1
         end
       end
     end
-    return false
+    return n_images
   end
   def get_images(article, use_thumbnail_as_screenshot)
     res = []
@@ -141,14 +142,10 @@ module CustomHelpers
     return res
   end
 
-  def try_page_images(page, use_thumbnail_as_screenshot=false)
-    has_images = has_images?(page)
+  def page_images_multiple(page, use_thumbnail_as_screenshot=false)
     res = ""
-    if has_images or has_thumbnail?(page) and use_thumbnail_as_screenshot
-      res <<
-      %{
-<div class="d-flex justify-content-center readable">
-  <div class="col-12">
+    res <<
+    %{
       <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
       }
@@ -187,6 +184,41 @@ module CustomHelpers
           <span class="sr-only">Next</span>
         </a>
       </div>
+      }
+      return res
+  end
+
+  def page_images_singular(page, use_thumbnail_as_screenshot=false)
+    res = ""
+    get_images(page, use_thumbnail_as_screenshot).each do |data|
+      res <<
+      %{
+        <img src="#{data.screenshot_path}" class="img-fluid" alt="#{data.name}">
+      }
+    end
+    return res
+  end
+
+  def try_page_images(page, use_thumbnail_as_screenshot=false)
+    n_images = count_article_images?(page)
+    if has_thumbnail?(page) and use_thumbnail_as_screenshot
+      n_images += 1
+    end
+    res = ""
+    if n_images > 0
+      res <<
+      %{
+<div class="d-flex justify-content-center readable">
+  <div class="col-12">
+      }
+      if n_images > 1
+        res += page_images_multiple(page, use_thumbnail_as_screenshot)
+      end
+      if n_images == 1
+        res += page_images_singular(page, use_thumbnail_as_screenshot)
+      end
+      res <<
+      %{
   </div>
 </div>
       }
@@ -399,7 +431,7 @@ module CustomHelpers
     return (defined?(page.date) and not page.tags.nil? and page.tags.size > 0)
   end
 
-  def page_tags(page)
+  def page_tags(page, should_show_year_tags=true)
     res = ""
     if defined?(page.date)
       res <<
@@ -408,10 +440,12 @@ module CustomHelpers
   <div class="col text-center">
     <ul class="list-inline ul-tags">
       }
-      res <<
-      %{
-      <li class="list-inline-item li-tags">#{link_to page.date.year, blog_year_path(page.date.year)}</li>
-      }
+      if should_show_year_tags
+        res <<
+        %{
+        <li class="list-inline-item li-tags">#{link_to page.date.year, blog_year_path(page.date.year)}</li>
+        }
+      end
       if not page.tags.nil? and not page.tags.size == 0
         page.tags.each do |tag, articles|
           res <<
