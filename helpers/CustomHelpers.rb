@@ -260,6 +260,14 @@ module CustomHelpers
     return pretty_text
   end
 
+  def randomArticleButton(articles)
+    urls = articles.collect{|x| x.url }
+    joined_urls = "['" + urls.join("','") + "']"
+    return  %{
+       <button onclick="goToRandomUrl(#{joined_urls})">🎲</button>
+    }
+  end
+
   def album(articles, title = nil, pred = nil, sort_fn = nil)
     if pred.nil?
       pred = lambda {|p| true}
@@ -277,7 +285,7 @@ module CustomHelpers
       %{
 <div class="container-fluid album-title">
       }
-      res << page_title(title)
+      res << page_title(title, filtered_articles)
       res <<
       %{
 </div>
@@ -333,12 +341,18 @@ module CustomHelpers
     return res
   end
 
-  def page_title(title)
+  def page_title(title, articles=nil)
     res = ""
     res <<
     %{
 <div class="d-flex justify-content-center text-center page-title">
-<h1>#{title}</h3>
+<h1>#{title}
+    }
+    unless articles.nil?
+      res << randomArticleButton(articles)
+    end
+    res << %{
+</h1>
 </div>
     }
     return res
@@ -381,7 +395,7 @@ module CustomHelpers
   def articles_table(articles, title = nil)
     res = ""
     unless title.blank?
-      res << page_title(title)
+      res << page_title(title, articles)
     end
     res <<
     %{
