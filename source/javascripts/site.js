@@ -11,7 +11,7 @@ function goBackToMainPage() {
   if (url === "blog") {
     url = "/index.html";
   } else {
-    url = `/${url}/`;
+    url = "/" + url + "/";
   }
   window.location.href = url;
 }
