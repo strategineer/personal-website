@@ -146,14 +146,14 @@ module CustomHelpers
     res = ""
     res <<
     %{
-      <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
+      <div id="carouselScreenshots" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
       }
       index = 0
       get_images(page, use_thumbnail_as_screenshot).each do |data|
         res <<
         %{
-            <li data-target="#carouselScreenshots" data-slide-to="#{index}" class="#{index == 0 ? "active" : ''}"></li>
+            <li data-bs-target="#carouselScreenshots" data-bs-slide-to="#{index}" class="#{index == 0 ? "active" : ''}"></li>
         }
         index = index + 1
       end
@@ -175,14 +175,14 @@ module CustomHelpers
       res <<
       %{
         </div>
-        <a class="carousel-control-prev" href="#carouselScreenshots" role="button" data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselScreenshots" role="button" data-slide="next">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       }
       return res
@@ -260,21 +260,21 @@ module CustomHelpers
     return pretty_text
   end
 
-  def randomArticleButton(articles)
-    urls = articles.collect{|x| x.url }
-    joined_urls = "['" + urls.join("','") + "']"
+  def button(onclick, icon)
     return  %{
-       <div class="col-6 justify-content-left">
-         <button onclick="goToRandomUrl(#{joined_urls})">🎲</button>
+       <div class="col justify-content-left">
+         <button onclick="#{onclick}">#{icon}</button>
        </div>
     }
   end
+
+  def randomArticleButton(articles)
+    urls = articles.collect{|x| x.url }
+    joined_urls = "['" + urls.join("','") + "']"
+    return button("goToRandomUrl(#{joined_urls})", "🎲")
+  end
   def goBackToMainPageButton()
-    return  %{
-       <div class="col-6 justify-content-right">
-         <button onclick="goBackToMainPage()">🏠</button>
-       </div>
-    }
+    return button("goBackToMainPage()", "🏠")
   end
 
   def album(articles, is_main_page, title = nil, pred = nil, sort_fn = nil)
@@ -356,8 +356,8 @@ module CustomHelpers
     end
     res = ""
     res << %{
-    <div class="d-flex d-flex-inline-list justify-content-center">
-      <div class="col text-center">
+    <div class="d-flex justify-content-center d-flex-inline-list">
+      <div class="text-center">
         <ul class="list-inline ul-inline">
      }
     ls.each do |e|
@@ -377,11 +377,7 @@ module CustomHelpers
     return res
   end
 
-  def page_title(title, is_main_page, articles=nil)
-    res = ""
-    res << %{
-<div class="container justify-content-center text-center page-title">
-    }
+  def menu_buttons(is_main_page, articles=nil)
     ls = []
     if not is_main_page
       ls.append(goBackToMainPageButton())
@@ -389,7 +385,15 @@ module CustomHelpers
     if not articles.nil?
       ls.append(randomArticleButton(articles))
     end
-    res << inline_list(ls)
+    return inline_list(ls)
+  end
+
+  def page_title(title, is_main_page, articles=nil)
+    res = ""
+    res << %{
+<div class="container justify-content-center text-center page-title">
+    }
+    res << menu_buttons(is_main_page, articles)
     res << %{
   <div class="row">
     <h1>
