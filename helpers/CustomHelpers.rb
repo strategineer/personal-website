@@ -167,7 +167,7 @@ module CustomHelpers
         res <<
         %{
             <div class="carousel-item#{index == 0 ? " active" : ''}">
-              <img class="d-block w-100" src="#{data.screenshot_path}" alt="#{data.name}"/>
+              <img class="rounded d-block w-100" src="#{data.screenshot_path}" alt="#{data.name}"/>
             </div>
         }
         index = index + 1
@@ -193,7 +193,7 @@ module CustomHelpers
     get_images(page, use_thumbnail_as_screenshot).each do |data|
       res <<
       %{
-        <img src="#{data.screenshot_path}" class="img-fluid" alt="#{data.name}">
+        <img src="#{data.screenshot_path}" class="img-fluid rounded mx-auto d-block" alt="#{data.name}">
       }
     end
     return res
