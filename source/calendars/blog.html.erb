@@ -10,4 +10,4 @@ blog: blog
 <% when 'year' %>
   <% date = year.to_s %>
 <% end %>
-<%= articles_table(articles, "Blog posts from " + date) %>
+<%= articles_table(articles, false, "Blog posts from " + date) %>

@@ -10,4 +10,4 @@ blog: food
 <% when 'year' %>
   <% date = year.to_s %>
 <% end %>
-<%= album(page_articles, "Recipes from " + date) %>
+<%= album(page_articles, false, "Recipes from " + date) %>

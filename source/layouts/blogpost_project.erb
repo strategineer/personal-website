@@ -1,6 +1,6 @@
 <% wrap_layout :layout do %>
   <div class="project-content container">
-    <%= page_title(current_article.title, blog.articles) %>
+    <%= page_title(current_article.title, false, blog.articles) %>
     <%= try_page_video(current_article) %>
     <%= try_page_images(current_article) %>
     <%= page_links(current_page) %>

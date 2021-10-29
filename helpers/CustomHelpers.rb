@@ -264,11 +264,20 @@ module CustomHelpers
     urls = articles.collect{|x| x.url }
     joined_urls = "['" + urls.join("','") + "']"
     return  %{
-       <button onclick="goToRandomUrl(#{joined_urls})">🎲</button>
+       <div class="col-6 justify-content-left">
+         <button onclick="goToRandomUrl(#{joined_urls})">🎲</button>
+       </div>
+    }
+  end
+  def goBackToMainPageButton()
+    return  %{
+       <div class="col-6 justify-content-right">
+         <button onclick="goBackToMainPage()">🏠</button>
+       </div>
     }
   end
 
-  def album(articles, title = nil, pred = nil, sort_fn = nil)
+  def album(articles, is_main_page, title = nil, pred = nil, sort_fn = nil)
     if pred.nil?
       pred = lambda {|p| true}
     end
@@ -285,7 +294,7 @@ module CustomHelpers
       %{
 <div class="container-fluid album-title">
       }
-      res << page_title(title, filtered_articles)
+      res << page_title(title, is_main_page, filtered_articles)
       res <<
       %{
 </div>
@@ -341,18 +350,54 @@ module CustomHelpers
     return res
   end
 
-  def page_title(title, articles=nil)
+  def inline_list(ls)
+    if ls.length == 0
+      return ""
+    end
     res = ""
-    res <<
-    %{
-<div class="d-flex justify-content-center text-center page-title">
-<h1>#{title}
-    }
-    unless articles.nil?
-      res << randomArticleButton(articles)
+    res << %{
+    <div class="d-flex d-flex-inline-list justify-content-center">
+      <div class="col text-center">
+        <ul class="list-inline ul-inline">
+     }
+    ls.each do |e|
+      res << %{
+          <li class="list-inline-item li-inline">
+      }
+      res << e
+      res << %{
+          </li>
+      }
     end
     res << %{
-</h1>
+       </ul>
+     </div>
+   </div>
+    }
+    return res
+  end
+
+  def page_title(title, is_main_page, articles=nil)
+    res = ""
+    res << %{
+<div class="container justify-content-center text-center page-title">
+    }
+    ls = []
+    if not is_main_page
+      ls.append(goBackToMainPageButton())
+    end
+    if not articles.nil?
+      ls.append(randomArticleButton(articles))
+    end
+    res << inline_list(ls)
+    res << %{
+  <div class="row">
+    <h1>
+        #{title}
+    </h1>
+  </div>
+    }
+    res << %{
 </div>
     }
     return res
@@ -363,7 +408,7 @@ module CustomHelpers
     glob = Dir.glob("source#{portfolio_path}/*.jpg")
     res = ""
     unless title.blank?
-      res << page_title(title)
+      res << page_title(title, true)
     end
     res <<
     %{
@@ -392,10 +437,10 @@ module CustomHelpers
     return res
   end
 
-  def articles_table(articles, title = nil)
+  def articles_table(articles, is_main_page, title = nil)
     res = ""
     unless title.blank?
-      res << page_title(title, articles)
+      res << page_title(title, is_main_page, articles)
     end
     res <<
     %{
@@ -448,32 +493,14 @@ module CustomHelpers
   def page_tags(page, should_show_year_tags=true)
     res = ""
     if defined?(page.date)
-      res <<
-      %{
-<div class="d-flex d-flex-tags justify-content-center">
-  <div class="col text-center">
-    <ul class="list-inline ul-tags">
-      }
+      ls = []
       if should_show_year_tags
-        res <<
-        %{
-        <li class="list-inline-item li-tags">#{link_to page.date.year, blog_year_path(page.date.year)}</li>
-        }
+        ls.append(link_to page.date.year, blog_year_path(page.date.year))
       end
       if not page.tags.nil? and not page.tags.size == 0
-        page.tags.each do |tag, articles|
-          res <<
-          %{
-      <li class="list-inline-item li-tags">#{link_to tag, tag_path(tag) }</li>
-          }
-        end
-        res <<
-        %{
-    </ul>
-  </div>
-</div>
-        }
+        ls += page.tags.collect{ |x| link_to x, tag_path(x)}
       end
+      res << inline_list(ls)
     end
     return res
   end

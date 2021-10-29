@@ -10,4 +10,4 @@ blog: cocktails
 <% when 'year' %>
   <% date = year.to_s %>
 <% end %>
-<%= album(page_articles, "Cocktails from " + date) %>
+<%= album(page_articles, false, "Cocktails from " + date) %>

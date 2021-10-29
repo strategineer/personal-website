@@ -5,3 +5,13 @@ function goToRandomUrl(urls) {
   url = urls[Math.floor(Math.random() * urls.length)];
   window.location.href = url;
 }
+
+function goBackToMainPage() {
+  var url = window.location.href.split("/")[3];
+  if (url === "blog") {
+    url = "/index.html";
+  } else {
+    url = `/${url}/`;
+  }
+  window.location.href = url;
+}

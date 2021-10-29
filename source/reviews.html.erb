@@ -3,5 +3,5 @@ title: Strategineer
 blog: reviews
 ---
 <% get_review_categories_data().each do |c| %>
-  <%= articles_table(blog.articles, c.name + " Reviews") %>
+  <%= articles_table(blog.articles, true, c.name + " Reviews") %>
 <% end %>

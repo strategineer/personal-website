@@ -3,4 +3,4 @@ title: Strategineer
 blog: cocktails
 ---
 <% sort_fn = lambda { |a, b| (not a.data.order.nil? and not b.data.order.nil?) ? a.data.order <=> b.data.order : (a.data.order.nil? ? 1 : -1) } %>
-<%= album(blog.articles, "Strat's Cocktail Menu", lambda { |p| true }, sort_fn) %>
+<%= album(blog.articles, true, "Strat's Cocktail Menu", lambda { |p| true }, sort_fn) %>

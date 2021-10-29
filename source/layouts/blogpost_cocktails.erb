@@ -1,6 +1,6 @@
 <% wrap_layout :layout do %>
-  <div class="review-content container">
-    <%= page_title(current_page.data.title, blog.articles) %>
+  <div class="cocktails-content container">
+    <%= page_title(current_page.data.title, false, blog.articles) %>
     <%= page_links(current_page) %>
     <%= page_tags(current_page, should_show_year_tags=false) %>
     <%= try_page_video(current_article) %>
