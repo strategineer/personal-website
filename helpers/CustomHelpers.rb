@@ -512,16 +512,17 @@ module CustomHelpers
   def page_links(page)
     res = ""
     if not current_page.data.links.nil? and not current_page.data.links.length == 0
+      # TODO(strategineer): Use the inline list code here
       res <<
       %{
-<div class="d-flex d-flex-links justify-content-center">
+<div class="d-flex d-flex-inline-list justify-content-center">
   <div class="col text-center">
-    <ul class="list-inline ul-links">
+    <ul class="list-inline ul-inline">
       }
       current_page.data.links.collect{ |l| l.split(',')}.collect{ |l| link_to l[0], l[1]}.each do |l|
         res <<
         %{
-      <li class="list-inline-item li-links">#{l}</li>
+      <li class="list-inline-item li-inline">#{l}</li>
         }
 
       end
