@@ -22,7 +22,8 @@ $link_highlight: nth($colors, 1);
        color: $link_base;
 
        &:focus,
-       &:hover {
+       &:hover,
+       &:active {
            color: $link_highlight;
            background: $bg_dark;
        }
@@ -34,14 +35,16 @@ $link_highlight: nth($colors, 1);
        color: $color_base;
 
        &:focus,
-       &:hover {
+       &:hover,
+       &:active {
            color: $color_base;
        }
     }
     /* override the focus/hover attributes for links from site.css stop the text from changing color. */
     .card-body a {
         &:focus,
-        &:hover {
+        &:hover,
+        &:active {
            color: $link_base;
         }
     }
@@ -63,7 +66,8 @@ $link_highlight: nth($colors, 1);
        color: $link_print;
 
        &:focus,
-       &:hover {
+       &:hover,
+       &:active {
            color: $link_print;
        }
     }
@@ -74,14 +78,16 @@ $link_highlight: nth($colors, 1);
        color: black;
 
        &:focus,
-       &:hover {
+       &:hover,
+       &:active {
            color: black;
        }
     }
     /* override the focus/hover attributes for links from site.css stop the text from changing color. */
     .card-body a {
         &:focus,
-        &:hover {
+        &:hover;
+        &:active {
            color: black;
         }
     }
@@ -294,7 +300,8 @@ td a div {
 
 // Highlight background when over on text.
 td a div:focus,
-td a div:hover {
+td a div:hover,
+td a div:active {
     background: $bg_dark;
 }
 
@@ -348,7 +355,7 @@ ul.list-inline {
 /* highlight the card-body when any part of the card is highlighted. */
 .card:focus > .card-body,
 .card:hover > .card-body,
-{
+.card:active > .card-body {
   background: $bg_dark;
 }
 
