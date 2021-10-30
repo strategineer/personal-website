@@ -434,6 +434,23 @@ a.cv-anchor {
 }
 
 
+.to-top {
+    background-color: $color_base;
+    opacity: 0.5;
+    width: 2.75rem;
+    height: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 16px; 
+    right: 16px;
+    z-index: 99;
+}
+
+
 @include media-breakpoint-down(xs) { 
 }
 @include media-breakpoint-down(sm) { 
@@ -512,6 +529,9 @@ a.cv-anchor {
 }
 
 @include media-breakpoint-up(lg) { 
+    .to-top {
+        display: none;
+    }
 }
 
 @include media-breakpoint-up(xl) { 
