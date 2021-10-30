@@ -448,12 +448,6 @@ a.cv-anchor {
     bottom: 16px; 
     right: 16px;
     z-index: 99;
-    a {
-       &:focus,
-       &:hover {
-           background: $color_base;
-       }
-    }
 }
 
 
