@@ -21,6 +21,7 @@ $link_highlight: nth($colors, 1);
     a > li {
        color: $link_base;
 
+       &:focus,
        &:hover {
            color: $link_highlight;
            background: $bg_dark;
@@ -32,12 +33,14 @@ $link_highlight: nth($colors, 1);
     .card-text {
        color: $color_base;
 
+       &:focus,
        &:hover {
            color: $color_base;
        }
     }
-    /* override the hover attributes for links from site.css stop the text from changing color. */
+    /* override the focus/hover attributes for links from site.css stop the text from changing color. */
     .card-body a {
+        &:focus,
         &:hover {
            color: $link_base;
         }
@@ -59,6 +62,7 @@ $link_highlight: nth($colors, 1);
     a {
        color: $link_print;
 
+       &:focus,
        &:hover {
            color: $link_print;
        }
@@ -69,12 +73,14 @@ $link_highlight: nth($colors, 1);
     .card-text {
        color: black;
 
+       &:focus,
        &:hover {
            color: black;
        }
     }
-    /* override the hover attributes for links from site.css stop the text from changing color. */
+    /* override the focus/hover attributes for links from site.css stop the text from changing color. */
     .card-body a {
+        &:focus,
         &:hover {
            color: black;
         }
