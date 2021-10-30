@@ -15,3 +15,8 @@ function goBackToMainPage() {
   }
   window.location.href = url;
 }
+
+function scrollToTopAndBlur() {
+  window.scrollTo(0, 0);
+  document.activeElement.blur();
+}
