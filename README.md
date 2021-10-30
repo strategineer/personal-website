@@ -1,5 +1,6 @@
 # TODO
 
+- Change the favicons with a new logo
 - Fix css on mobile for the floating button staying focused after click
 - Create a better home page with summaries for my blog post
     - https://middlemanapp.com/basics/blogging/
