@@ -435,7 +435,7 @@ a.cv-anchor {
 
 
 .to-top {
-    background-color: $color_base;
+    background: $color_base;
     opacity: 0.5;
     width: 2.75rem;
     height: 2.75rem;
@@ -448,6 +448,12 @@ a.cv-anchor {
     bottom: 16px; 
     right: 16px;
     z-index: 99;
+    a {
+       &:focus,
+       &:hover {
+           background: $color_base;
+       }
+    }
 }
 
 
