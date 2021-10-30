@@ -86,7 +86,7 @@ $link_highlight: nth($colors, 1);
     /* override the focus/hover attributes for links from site.css stop the text from changing color. */
     .card-body a {
         &:focus,
-        &:hover;
+        &:hover,
         &:active {
            color: black;
         }
