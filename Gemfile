@@ -10,3 +10,4 @@ gem 'middleman-graphviz'
 gem "middleman-imageoptim"
 gem 'bootstrap'
 gem 'tzinfo-data'
+gem "middleman-livereload", "~> 3.4.3"

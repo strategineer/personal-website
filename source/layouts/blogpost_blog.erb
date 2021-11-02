@@ -7,6 +7,13 @@
     <%= try_page_images(current_article) %>
     <%= try_page_audio(current_article) %>
     <div class="row justify-content-center readable">
+      <% if current_page.tags.include?("ramble") %>
+      <blockquote>
+        <div class="col-12 text-center">
+          This blog post is one of many (hopefully) daily posts. It will likely be less structured and more experimental (read: bad) than my other writing. It's a writing exercise more than anything. By writing something everyday, I'm looking to find my voice and figure out if I have anything of value to say.
+        </div>
+      </blockquote>
+      <% end %>
       <%= yield %>
       <blockquote class="blog-call-to-action">
         <div class="col-12 text-center">

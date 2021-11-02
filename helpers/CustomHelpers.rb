@@ -452,9 +452,13 @@ module CustomHelpers
   <tbody>
     }
     articles.each do |article|
+      row_style_class = ""
+      if article.tags.include?("ramble")
+        row_style_class = "less-important"
+      end
       res <<
       %{
-    <tr>
+    <tr class="#{row_style_class}">
       <td class="table-nowrap">
         <a href="#{blog_year_path(article.date.year)}">
           <div>
