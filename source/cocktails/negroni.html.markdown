@@ -2,12 +2,10 @@
 title: Negroni
 id_title: negroni
 blog: cocktails
-order: -999
 date: 2021-10-26
-tags: strong, gin
-is_important: false
+tags: ⭐⭐⭐, 💪, gin
 inspired_by: The Joy of Mixology by Gary Reagan (p. 254)
-blurb: ...
+blurb: It tastes like mouthwash? But I like it?
 ingredients:
   - 1 oz of Tanqueray gin
   - 1 oz of Campari

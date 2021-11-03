@@ -2,10 +2,8 @@
 title: Southside Cocktail
 id_title: southside_cocktail
 blog: cocktails
-order: -100
 date: 2021-10-22
-tags: strong, gin, mint
-is_important: true
+tags: ⭐⭐⭐, 💪, gin, mint
 inspired_by: The Joy of Mixology by Gary Reagan (p. 281)
 blurb: The mint garnish pokes at your nose while you drink this minty cocktail. If you like mint with your mint for more mint per square mint then this is the cocktail for you.
 ingredients:

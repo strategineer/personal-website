@@ -1,6 +1,6 @@
 #!/bin/bash
-base_path="source/images/food"
-ids="tahini breaded_chicken falafel chili"
+base_path="source/images/cocktails"
+ids="green_mans_whiskers moscow_mule"
 filename="thumbnail.png"
 size_text="250x180"
 size_final="318x180"

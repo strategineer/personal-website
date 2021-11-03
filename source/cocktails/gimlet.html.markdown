@@ -2,10 +2,8 @@
 title: Gimlet
 id_title: gimlet
 blog: cocktails
-order: -100
 date: 2021-10-09
-tags: strong, gin
-is_important: false
+tags: ⭐⭐, 💪, gin
 inspired_by: https://jeffreymorgenthaler.com/lime-cordial/
 blurb: Limey and Giney. This drink prevents scurvy and that would be relevant information for you if you were a sailor 100+ years ago.
 ingredients:
