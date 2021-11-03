@@ -2,7 +2,7 @@
 title: Moscow Mule
 id_title: moscow_mule
 blog: cocktails
-date: 2021-11-05
+date: 2021-11-03
 tags: ⚖️, rum
 inspired_by: The Joy of Mixology by Gary Reagan (p. 253)
 blurb: TBD
