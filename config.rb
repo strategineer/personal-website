@@ -28,8 +28,6 @@ activate :blog do |blog|
     # blog.summary_separator = /(READMORE)/
     # blog.summary_length = 250
     blog.year_link = "calendar/{year}.html"
-    blog.month_link = "calendar/{year}/{month}.html"
-    blog.day_link = "calendar/{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/reviews.html"
@@ -60,8 +58,6 @@ activate :blog do |blog|
     # blog.summary_separator = /(READMORE)/
     # blog.summary_length = 250
     blog.year_link = "calendar/{year}.html"
-    blog.month_link = "calendar/{year}/{month}.html"
-    blog.day_link = "calendar/{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/blog.html"
@@ -85,9 +81,6 @@ activate :blog do |blog|
     blog.layout = "blogpost_project"
     # blog.summary_separator = /(READMORE)/
     # blog.summary_length = 250
-    blog.year_link = "calendar/{year}.html"
-    blog.month_link = "calendar/{year}/{month}.html"
-    blog.day_link = "calendar/{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/projects.html"
@@ -111,9 +104,6 @@ activate :blog do |blog|
     blog.layout = "blogpost_food"
     # blog.summary_separator = /(READMORE)/
     # blog.summary_length = 250
-    blog.year_link = "calendar/{year}.html"
-    blog.month_link = "calendar/{year}/{month}.html"
-    blog.day_link = "calendar/{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/food.html"
@@ -137,9 +127,6 @@ activate :blog do |blog|
     blog.layout = "blogpost_cocktails"
     # blog.summary_separator = /(READMORE)/
     # blog.summary_length = 250
-    blog.year_link = "calendar/{year}.html"
-    blog.month_link = "calendar/{year}/{month}.html"
-    blog.day_link = "calendar/{year}/{month}/{day}.html"
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/cocktails.html"
