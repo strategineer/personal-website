@@ -27,11 +27,9 @@ activate :blog do |blog|
     blog.layout = "blogpost_review"
     # blog.summary_separator = /(READMORE)/
     # blog.summary_length = 250
-    blog.year_link = "calendar/{year}.html"
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/reviews.html"
-    blog.year_template = "calendars/reviews.html"
 
     # Enable pagination
     blog.paginate = false
@@ -57,11 +55,9 @@ activate :blog do |blog|
     blog.layout = "blogpost_blog"
     # blog.summary_separator = /(READMORE)/
     # blog.summary_length = 250
-    blog.year_link = "calendar/{year}.html"
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/blog.html"
-    blog.year_template = "calendars/blog.html"
 
     # Enable pagination
     blog.paginate = false

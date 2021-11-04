@@ -460,11 +460,9 @@ module CustomHelpers
       %{
     <tr class="#{row_style_class}">
       <td class="table-nowrap">
-        <a href="#{blog_year_path(article.date.year)}">
-          <div>
-            #{article.date.strftime('%Y-%m-%d')}
-          </div>
-        </a>
+        <div>
+          #{article.date.strftime('%Y-%m-%d')}
+        </div>
       </td>
       <td>
         <a href="#{article.url}">
@@ -498,13 +496,10 @@ module CustomHelpers
     return (defined?(page.date) and not page.tags.nil? and page.tags.size > 0)
   end
 
-  def page_tags(page, should_show_year_tags=true)
+  def page_tags(page)
     res = ""
     if defined?(page.date)
       ls = []
-      if should_show_year_tags
-        ls.append(link_to page.date.year, blog_year_path(page.date.year))
-      end
       if not page.tags.nil? and not page.tags.size == 0
         ls += page.tags.collect{ |x| link_to x, tag_path(x)}
       end
