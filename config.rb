@@ -131,7 +131,7 @@ activate :blog do |blog|
     blog.page_link = "page/{num}"
 end
 
-activate :imageoptim do |options|
+activate :image_optim do |options|
   # Use a build manifest to prevent re-compressing images between builds
   options.manifest = true
 
@@ -160,8 +160,6 @@ activate :imageoptim do |options|
   options.svgo      = false
 end
 
-page "feeds/projects.xml", layout: false
-page "feeds/reviews.xml", layout: false
 page "feeds/blog.xml", layout: false
 
 #
@@ -199,5 +197,3 @@ configure :build do
     activate :minify_css
     activate :minify_javascript
 end
-
-activate :livereload
