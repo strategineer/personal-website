@@ -31,7 +31,7 @@ activate :blog do |blog|
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/reviews.html"
-    blog.calendar_template = "calendars/reviews.html"
+    blog.year_template = "calendars/reviews.html"
 
     # Enable pagination
     blog.paginate = false
@@ -61,7 +61,7 @@ activate :blog do |blog|
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/blog.html"
-    blog.calendar_template = "calendars/blog.html"
+    blog.year_template = "calendars/blog.html"
 
     # Enable pagination
     blog.paginate = false
@@ -84,7 +84,6 @@ activate :blog do |blog|
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/projects.html"
-    blog.calendar_template = "calendars/projects.html"
 
     # Enable pagination
     blog.paginate = false
@@ -107,7 +106,6 @@ activate :blog do |blog|
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/food.html"
-    blog.calendar_template = "calendars/food.html"
 
     # Enable pagination
     blog.paginate = false
@@ -130,7 +128,6 @@ activate :blog do |blog|
     blog.default_extension = ".markdown"
 
     blog.tag_template = "tags/cocktails.html"
-    blog.calendar_template = "calendars/cocktails.html"
 
     # Enable pagination
     blog.paginate = false
