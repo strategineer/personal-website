@@ -458,13 +458,13 @@ module CustomHelpers
       end
       res <<
       %{
-    <tr class="#{row_style_class}">
+    <tr>
       <td class="table-nowrap">
         <div>
           #{article.date.strftime('%Y-%m-%d')}
         </div>
       </td>
-      <td>
+      <td class="#{row_style_class}">
         <a href="#{article.url}">
           <div>
       }
