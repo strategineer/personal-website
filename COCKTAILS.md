@@ -8,12 +8,10 @@ NB: All sourced from the Joy of Mixology book by Gary Regan unless stated otherw
 - Daiquiri
 - Gin-Gin Mule
 - Whiskey Sour
-- Satan's Whiskers
 - Treacle
 
 # Other (in no particular order)
 - John Collins
-- Moscow Mule
 - Rickey
 - Oriental Cocktail
 - Sazerak
