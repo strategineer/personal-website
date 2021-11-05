@@ -226,6 +226,13 @@ module CustomHelpers
     return res
   end
 
+  def prettify_tag(tag)
+    if data.tag_mapping.include?(tag)
+      return data.tag_mapping[tag]
+    end
+    return tag
+  end
+
   def prettify_food_text(text)
     if text.nil? or text.empty?
       return ""
@@ -306,7 +313,7 @@ module CustomHelpers
   <div class="row row-album justify-content-center">
     }
     filtered_articles.sort{ |a, b| sort_fn.call(a, b) }.each do |article|
-      tags_subtitle =  article.tags.select{|t| link_to t, tag_path(t)}.join(" - ")
+      tags_subtitle =  article.tags.select{|t| link_to prettify_tag(t), tag_path(t)}.join(" - ")
       res <<
       %{
             <div class="col">
@@ -501,7 +508,7 @@ module CustomHelpers
     if defined?(page.date)
       ls = []
       if not page.tags.nil? and not page.tags.size == 0
-        ls += page.tags.collect{ |x| link_to x, tag_path(x)}
+        ls += page.tags.collect{ |x| link_to prettify_tag(x), tag_path(x)}
       end
       res << inline_list(ls)
     end

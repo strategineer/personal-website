@@ -2,6 +2,7 @@
 title: Strategineer
 blog: cocktails
 ---
-<% rating_character = "⭐" %>
-<% sort_fn = lambda { |a, b| b.tags[0].count(rating_character) <=> a.tags[0].count(rating_character) } %>
+<% # TODO(strategineer): Put this into a config file %>
+<% rating_order = ["3stars", "2stars", "1star", "untested"] %>
+<% sort_fn = lambda { |a, b| rating_order.index(a.tags[0]) <=> rating_order.index(b.tags[0]) } %>
 <%= album(blog.articles, true, "Strat's Cocktail Menu", lambda { |p| true }, sort_fn) %>

@@ -3,7 +3,7 @@ title: Moscow Mule
 id_title: moscow_mule
 blog: cocktails
 date: 2021-11-02
-tags: ⚖️, rum
+tags: untested, light, rum
 inspired_by: The Joy of Mixology by Gary Reagan (p. 253)
 blurb: TBD
 ingredients:
