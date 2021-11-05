@@ -11,7 +11,7 @@ ingredients:
   - 3 oz of Fever Tree ginger beer
   - 1 lime wedge, for garnish
 steps:
-  - Build (pour each ingredient one after the other into the glass) in an ice-filled highball glass. Add the garnish.
+  - Build in an ice-filled highball glass. Add the garnish.
 notes:
   - Substite 1 oz of Havana Club 7 Years rum with 1 oz of Havana Club 3 Years rum for a _Light and Stormy_ (I haven't tried this yet but I plan to).
 ---

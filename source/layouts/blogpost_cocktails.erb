@@ -41,6 +41,7 @@
           </ol>
         </div>
     <% end %>
+    <%= page_cocktail_legend(current_page) %>
     <% has_any_notes = !current_page.data.notes.nil? and current_page.data.notes.length > 0 %>
     <% if has_any_notes %>
         <div class="d-flex justify-content-center">

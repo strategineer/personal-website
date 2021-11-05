@@ -8,7 +8,7 @@
     - I want blurbs for my posts to display on my main page
 - Add sole, potato thing, alfredo penne recipes to my site
 - implement erb code to insert an image with optional caption inline of a blog post
-- add tooltips to words like "Build" and "Shake and strain" to explain what I mean by them
+- when words like "Build" and "Shake and strain" are found in the notes of a cocktail I should add a legend section below explaining to explain what I mean by them... Or I can link them automatically to a cocktails_legend page with explanations for all the terms?
 - improve cocktail sorting function to take other factors into account
 - Reevaluate use of CDNs vs. providing the files locally
 - Reorganize images to be placed in a folder named the same as the blog, so that we can simplify the logic we use to tie images to blog posts

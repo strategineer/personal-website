@@ -1,0 +1,13 @@
+{
+  "terms": {
+    "Build": "Fill the glass with ice, if called for, and add the ingredients in the order given. Add any garnish called for, stir briefly, and serve.",
+    "Dry shake": "Add all the ingredients to an empty shaker and shake for around 20s to emulsify the egg white with the other ingredients. Add ice to the shaker, shake for approximately 15s, and strain into the appropriate glass.",
+    "Float": "After making the drink, float the last ingredient on top by pouring it slowly over the back of the barspoon.",
+    "Layer": "Pour the first ingredient into the glass. Then slowly pour each of the other ingredients, in the order given, over the back of the barspoon, so that each successive ingredient floats on top of the previous ingredient.",
+    "Mix and Chill": "Combine the ingredients in a large container, stir thoroughly, and store the container in a refrigerator until well chillled.",
+    "Muddle": "Put the ingredients into an empty glass and grind them with a muddler until all the juices have been extracted from the fruit and any sugar in the recipe is completely dissolved.",
+    "Rinse": "Pour the ingredient called for into the glass and, by tilting the glass and rotating it at the same time, coat the entire enterior of the glass. Discard any excess.",
+    "Shake and Strain": "Fill a shaker two-thirds full of ice and add the ingredients in the order given. Shake for approximately 15s and strain the drink into the appropriate glass.",
+    "Stir and Strain": "Fill a mixing glass two-thirds full of ice and add the ingredients in the order given. Stir for approximately 30s, then strain the drink into the appropriate glass."
+  }
+}
