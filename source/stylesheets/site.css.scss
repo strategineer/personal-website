@@ -19,40 +19,40 @@ $link_highlight: nth($colors, 1);
     }
     a,
     a > li {
-       color: $link_base;
+        color: $link_base;
 
-       &:focus,
-       &:hover,
-       &:active {
-           color: $link_highlight;
-           background: $bg_dark;
-       }
+        &:focus,
+        &:hover,
+        &:active {
+            color: $link_highlight;
+            background: $bg_dark;
+        }
     }
     /* override link color to make the text more visible. */
     .card-title,
     .card-subtitle,
     .card-text {
-       color: $color_base;
+        color: $color_base;
 
-       &:focus,
-       &:hover,
-       &:active {
-           color: $color_base;
-       }
+        &:focus,
+        &:hover,
+        &:active {
+            color: $color_base;
+        }
     }
     /* override the focus/hover attributes for links from site.css stop the text from changing color. */
     .card-body a {
         &:focus,
         &:hover,
         &:active {
-           color: $link_base;
+            color: $link_base;
         }
     }
 }
 
 @media print {
     header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
-      display: none !important;
+        display: none !important;
     }
 
     body {
@@ -63,32 +63,32 @@ $link_highlight: nth($colors, 1);
         color: black;
     }
     a {
-       color: $link_print;
+        color: $link_print;
 
-       &:focus,
-       &:hover,
-       &:active {
-           color: $link_print;
-       }
+        &:focus,
+        &:hover,
+        &:active {
+            color: $link_print;
+        }
     }
     /* override link color to make the text more visible. */
     .card-title,
     .card-subtitle,
     .card-text {
-       color: black;
+        color: black;
 
-       &:focus,
-       &:hover,
-       &:active {
-           color: black;
-       }
+        &:focus,
+        &:hover,
+        &:active {
+            color: black;
+        }
     }
     /* override the focus/hover attributes for links from site.css stop the text from changing color. */
     .card-body a {
         &:focus,
         &:hover,
         &:active {
-           color: black;
+            color: black;
         }
     }
 }
@@ -218,7 +218,7 @@ h6 {
 }
 
 .table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 .table td, .table th {
     border:1px solid $bg_dark;
@@ -230,15 +230,15 @@ h6 {
 //   // border-top: 0;
 // }
 .table tr:last-child td {
-  border-bottom: 0;
+    border-bottom: 0;
 }
 .table tr td:first-child,
 .table tr th:first-child {
-  border-left: 0;
+    border-left: 0;
 }
 .table tr td:last-child,
 .table tr th:last-child {
-  border-right: 0;
+    border-right: 0;
 }
 
 .navbar {
@@ -341,22 +341,26 @@ ul.list-inline {
 }
 
 .card {
-  float: center;
-  margin-bottom: 1rem;
-  text-align: center;
-  background: $bg_dark;
-  max-width: 22rem;
+    float: center;
+    margin-bottom: 1rem;
+    text-align: center;
+    background: $bg_dark;
+    max-width: 22rem;
+}
+
+.card-title {
+    font-size: 1.75rem;
 }
 
 .card-body {
-  background: $bg_dark;
+    background: $bg_dark;
 }
 
 /* highlight the card-body when any part of the card is highlighted. */
 .card:focus > .card-body,
 .card:hover > .card-body,
 .card:active > .card-body {
-  background: $bg_dark;
+    background: $bg_dark;
 }
 
 .card-text {
@@ -409,24 +413,24 @@ a.cv-anchor {
 }
 
 .avatar-static {
-  position:absolute;
-  background: white;
-  height: 192px;
-  width: 192px;
+    position:absolute;
+    background: white;
+    height: 192px;
+    width: 192px;
 }
 
 .avatar-static:hover {
-  opacity:0;
+    opacity:0;
 }
 
 .avatar-active {
-  height: 192px;
-  width: 192px;
+    height: 192px;
+    width: 192px;
 }
 
 // Portfolio
 .photo {
-  max-width:100%;
+    max-width:100%;
 }
 
 .photo-td {
@@ -478,7 +482,7 @@ a.cv-anchor {
 @include media-breakpoint-down(md) { 
     .table tr td:nth-last-child(2),
     .table tr th:nth-last-child(2){
-      border-right: 0;
+        border-right: 0;
     }
 }
 @include media-breakpoint-down(lg) { 
@@ -506,12 +510,12 @@ a.cv-anchor {
 }
 @include media-breakpoint-up(sm) { 
     .card {
-      min-width: 18rem;
+        min-width: 18rem;
     }
 }
 @include media-breakpoint-up(md) { 
     .card {
-      min-width: 20rem;
+        min-width: 20rem;
     }
     // Center the navbar menu options when they are not collapsed.
     .navbar-nav.navbar-center {
@@ -521,7 +525,7 @@ a.cv-anchor {
     }
     // Increase size when not on super small screen.
     p {
-      font-size: 1.4rem;
+        font-size: 1.4rem;
     }
     // set the maximum with to allow for better readability.
     .jumbotron,
@@ -530,8 +534,8 @@ a.cv-anchor {
     }
     // Fit columns to the data.
     .table {
-       white-space: nowrap;
-       width: 1%;
+        white-space: nowrap;
+        width: 1%;
     }
     .cv-main-entry-title {
         font-size: 1.5rem;
@@ -555,6 +559,6 @@ a.cv-anchor {
         width: 1140px;
     }
     .blog-content {
-      margin-bottom: 20em;
+        margin-bottom: 20em;
     }
 }

@@ -2,4 +2,4 @@
 pageable: false
 blog: cocktails
 ---
-<%= album(page_articles, false, "Cocktails tagged with '" + tagname + "'") %>
+<%= album(page_articles, false, "Cocktails tagged with '" + prettify_tag(tagname) + "'") %>

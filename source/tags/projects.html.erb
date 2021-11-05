@@ -2,4 +2,4 @@
 pageable: false
 blog: projects
 ---
-<%= album(page_articles, false, "Projects tagged with '" + tagname + "'") %>
+<%= album(page_articles, false, "Projects tagged with '" + prettify_tag(tagname) + "'") %>

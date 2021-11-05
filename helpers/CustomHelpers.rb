@@ -313,7 +313,7 @@ module CustomHelpers
   <div class="row row-album justify-content-center">
     }
     filtered_articles.sort{ |a, b| sort_fn.call(a, b) }.each do |article|
-      tags_subtitle =  article.tags.select{|t| link_to prettify_tag(t), tag_path(t)}.join(" - ")
+      tags_subtitle = page_tags(article)
       res <<
       %{
             <div class="col">

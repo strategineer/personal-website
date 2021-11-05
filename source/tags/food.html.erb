@@ -2,4 +2,4 @@
 pageable: false
 blog: food
 ---
-<%= album(page_articles, false, "Recipes tagged with '" + tagname + "'") %>
+<%= album(page_articles, false, "Recipes tagged with '" + prettify_tag(tagname) + "'") %>
