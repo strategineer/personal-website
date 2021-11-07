@@ -1,5 +1,5 @@
 #!/bin/bash
-base_path="source/images/cocktails"
+base_path="source/cocktails"
 ids="green_mans_whiskers moscow_mule"
 filename="thumbnail.png"
 size_text="250x180"

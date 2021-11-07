@@ -40,7 +40,7 @@ module CustomHelpers
   def get_thumbnail_path(article)
     # this doesn't work because request path doesn't work on the projects page
     id = get_article_id(article)
-    thumbnail_path = "/images/#{article.data.blog}/#{id}"
+    thumbnail_path = "/#{article.data.blog}/#{id}"
     source_thumbnail_path = "source#{thumbnail_path}"
     glob = Dir.glob("#{source_thumbnail_path}/thumbnail.*")
     if not glob[0]
@@ -59,9 +59,9 @@ module CustomHelpers
     return File.file?(audio_path)
   end
 
-  def count_article_images?(article)
+  def count_article_images?(article, use_thumbnail_as_image)
     id = get_article_id(article)
-    images_path = "/images/#{article.data.blog}/#{id}/screenshots"
+    images_path = "/#{article.data.blog}/#{id}/img"
     source_images_path = "source#{images_path}"
     n_images = 0
     if Dir.exists?(source_images_path)
@@ -71,17 +71,20 @@ module CustomHelpers
         end
       end
     end
+    if has_thumbnail?(article) and use_thumbnail_as_image
+      n_images += 1
+    end
     return n_images
   end
-  def get_images(article, use_thumbnail_as_screenshot)
+  def get_images(article, use_thumbnail_as_image)
     res = []
     id = get_article_id(article)
-    images_path = "/images/#{article.data.blog}/#{id}/screenshots"
+    images_path = "/#{article.data.blog}/#{id}/img"
     source_images_path = "source#{images_path}"
-    if use_thumbnail_as_screenshot
+    if use_thumbnail_as_image
       if has_thumbnail?(article)
         thumbnail_path = get_thumbnail_path(article)
-        next_data = OpenStruct.new(:name => "thumbnail", :screenshot_path => thumbnail_path)
+        next_data = OpenStruct.new(:name => "thumbnail", :image_src => thumbnail_path)
         res.push(next_data)
       end
     end
@@ -89,8 +92,8 @@ module CustomHelpers
       Dir.foreach(source_images_path) do |file|
         if File.file?("#{source_images_path}/#{file}")
           name = File.basename(file, File.extname(file))
-          screenshot_path = "#{images_path}/#{file}"
-          next_data = OpenStruct.new(:name => name, :screenshot_path => screenshot_path)
+          image_src = "#{images_path}/#{file}"
+          next_data = OpenStruct.new(:name => name, :image_src => image_src)
           res.push(next_data)
         end
       end
@@ -144,7 +147,7 @@ module CustomHelpers
     return res
   end
 
-  def page_images_multiple(page, use_thumbnail_as_screenshot=false)
+  def page_images_multiple(page, use_thumbnail_as_image=false)
     res = ""
     res <<
     %{
@@ -152,7 +155,7 @@ module CustomHelpers
         <ol class="carousel-indicators">
       }
       index = 0
-      get_images(page, use_thumbnail_as_screenshot).each do |data|
+      get_images(page, use_thumbnail_as_image).each do |data|
         res <<
         %{
             <li data-bs-target="#carouselScreenshots" data-bs-slide-to="#{index}" class="#{index == 0 ? "active" : ''}"></li>
@@ -165,11 +168,11 @@ module CustomHelpers
         <div class="carousel-inner">
       }
       index = 0
-      get_images(page, use_thumbnail_as_screenshot).each do |data|
+      get_images(page, use_thumbnail_as_image).each do |data|
         res <<
         %{
             <div class="carousel-item#{index == 0 ? " active" : ''}">
-              <img class="rounded d-block w-100" src="#{data.screenshot_path}" alt="#{data.name}"/>
+              <img class="rounded d-block w-100" src="#{data.image_src}" alt="#{data.name}"/>
             </div>
         }
         index = index + 1
@@ -190,22 +193,19 @@ module CustomHelpers
       return res
   end
 
-  def page_images_singular(page, use_thumbnail_as_screenshot=false)
+  def page_images_singular(page, use_thumbnail_as_image=false)
     res = ""
-    get_images(page, use_thumbnail_as_screenshot).each do |data|
+    get_images(page, use_thumbnail_as_image).each do |data|
       res <<
       %{
-        <img src="#{data.screenshot_path}" class="img-fluid rounded mx-auto d-block" alt="#{data.name}">
+        <img src="#{data.image_src}" class="img-fluid rounded mx-auto d-block" alt="#{data.name}">
       }
     end
     return res
   end
 
-  def try_page_images(page, use_thumbnail_as_screenshot=false)
-    n_images = count_article_images?(page)
-    if has_thumbnail?(page) and use_thumbnail_as_screenshot
-      n_images += 1
-    end
+  def try_page_images(page, use_thumbnail_as_image=false)
+    n_images = count_article_images?(page, use_thumbnail_as_image)
     res = ""
     if n_images > 0
       res <<
@@ -214,10 +214,10 @@ module CustomHelpers
   <div class="col-12">
       }
       if n_images > 1
-        res += page_images_multiple(page, use_thumbnail_as_screenshot)
+        res += page_images_multiple(page, use_thumbnail_as_image)
       end
       if n_images == 1
-        res += page_images_singular(page, use_thumbnail_as_screenshot)
+        res += page_images_singular(page, use_thumbnail_as_image)
       end
       res <<
       %{
@@ -310,7 +310,7 @@ module CustomHelpers
     res = ""
     res << %{
         <div class="d-flex justify-content-center">
-          <h2>Legend:</h2>
+          <h2>Legend</h2>
         </div>
         <div class="d-flex justify-content-center">
     }
@@ -464,7 +464,7 @@ module CustomHelpers
   end
 
   def portfolio(title = nil)
-    portfolio_path = "/images/portfolio"
+    portfolio_path = "/img/portfolio"
     glob = Dir.glob("source#{portfolio_path}/*.jpg")
     res = ""
     unless title.blank?

@@ -3,9 +3,9 @@ title: Green Man's Whiskers
 id_title: green_mans_whiskers
 blog: cocktails
 date: 2021-11-02
-tags: untested, strong, gin
+tags: 5stars, strong, gin
 inspired_by: The Joy of Mixology by Gary Reagan (p. 274)
-blurb: TBD
+blurb: Very green but tastes very orangey. The gin combined with the two types of vermouth and the orange juice and liqueur gives this cocktail a unique flavor that's hard to describe.
 ingredients:
   - 1/2 oz gin
   - 1/2 oz dry vermouth
@@ -16,5 +16,5 @@ ingredients:
 steps:
   - Shake and strain into a chilled cocktail glass.
 notes:
-  - This is a variation on the Satan's Whiskers cocktail which replaces the Grand Marnier / orange curaçao with blue curaçao because that's what I have.
+  - This is a variation on the "curled" Satan's Whiskers cocktail which replaces the orange curaçao with blue curaçao because that's what I had at the time.
 ---

@@ -12,3 +12,4 @@
 - improve cocktail sorting function to take other factors into account
 - Reevaluate use of CDNs vs. providing the files locally
 - Reorganize images to be placed in a folder named the same as the blog, so that we can simplify the logic we use to tie images to blog posts
+- Make cocktail legend terms have a different look (italics?)

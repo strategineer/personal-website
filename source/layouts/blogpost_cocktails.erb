@@ -10,15 +10,10 @@
         <%= current_page.data.blurb %>
       </div>
     <% end %>
-    <% unless current_page.data.servings.nil? %>
-      <div class="d-flex justify-content-center">
-        Serves <%= current_page.data.servings %>
-      </div>
-    <% end %>
     <% has_any_ingredients = !current_page.data.ingredients.nil? and current_page.data.ingredients.length > 0 %>
     <% if has_any_ingredients %>
         <div class="d-flex justify-content-center">
-          <h2>Ingredients:</h2>
+          <h2>Ingredients</h2>
         </div>
         <div class="d-flex justify-content-center">
           <ul>
@@ -31,7 +26,7 @@
     <% has_any_steps = !current_page.data.steps.nil? and current_page.data.steps.length > 0 %>
     <% if has_any_steps %>
         <div class="d-flex justify-content-center">
-          <h2>Steps:</h2>
+          <h2>Steps</h2>
         </div>
         <div class="d-flex justify-content-center">
           <ol>
@@ -45,7 +40,7 @@
     <% has_any_notes = !current_page.data.notes.nil? and current_page.data.notes.length > 0 %>
     <% if has_any_notes %>
         <div class="d-flex justify-content-center">
-          <h2>Notes:</h2>
+          <h2>Notes</h2>
         </div>
         <div class="d-flex justify-content-center">
           <ul>
