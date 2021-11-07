@@ -59,23 +59,6 @@ module CustomHelpers
     return File.file?(audio_path)
   end
 
-  def count_article_images?(article, use_thumbnail_as_image)
-    id = get_article_id(article)
-    images_path = "/#{article.data.blog}/#{id}/img"
-    source_images_path = "source#{images_path}"
-    n_images = 0
-    if Dir.exists?(source_images_path)
-      Dir.foreach(source_images_path) do |file|
-        if File.file?("#{source_images_path}/#{file}")
-          n_images += 1
-        end
-      end
-    end
-    if has_thumbnail?(article) and use_thumbnail_as_image
-      n_images += 1
-    end
-    return n_images
-  end
   def get_images(article, use_thumbnail_as_image)
     res = []
     id = get_article_id(article)
@@ -147,55 +130,55 @@ module CustomHelpers
     return res
   end
 
-  def page_images_multiple(page, use_thumbnail_as_image=false)
+  def page_images_multiple(images)
     res = ""
     res <<
     %{
       <div id="carouselScreenshots" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
       }
-      index = 0
-      get_images(page, use_thumbnail_as_image).each do |data|
-        res <<
-        %{
-            <li data-bs-target="#carouselScreenshots" data-bs-slide-to="#{index}" class="#{index == 0 ? "active" : ''}"></li>
-        }
-        index = index + 1
-      end
+    index = 0
+    images.each do |data|
       res <<
       %{
-        </ol>
-        <div class="carousel-inner">
+          <li data-bs-target="#carouselScreenshots" data-bs-slide-to="#{index}" class="#{index == 0 ? "active" : ''}"></li>
       }
-      index = 0
-      get_images(page, use_thumbnail_as_image).each do |data|
-        res <<
-        %{
-            <div class="carousel-item#{index == 0 ? " active" : ''}">
-              <img class="rounded d-block w-100" src="#{data.image_src}" alt="#{data.name}"/>
-            </div>
-        }
-        index = index + 1
-      end
+      index = index + 1
+    end
+    res <<
+    %{
+      </ol>
+      <div class="carousel-inner">
+    }
+    index = 0
+    images.each do |data|
       res <<
       %{
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <div class="carousel-item#{index == 0 ? " active" : ''}">
+            <img class="rounded d-block w-100" src="#{data.image_src}" alt="#{data.name}"/>
+          </div>
+      }
+      index = index + 1
+    end
+    res <<
+    %{
       </div>
-      }
-      return res
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    }
+    return res
   end
 
-  def page_images_singular(page, use_thumbnail_as_image=false)
+  def page_images_singular(images)
     res = ""
-    get_images(page, use_thumbnail_as_image).each do |data|
+    images.each do |data|
       res <<
       %{
         <img src="#{data.image_src}" class="img-fluid rounded mx-auto d-block" alt="#{data.name}">
@@ -205,19 +188,19 @@ module CustomHelpers
   end
 
   def try_page_images(page, use_thumbnail_as_image=false)
-    n_images = count_article_images?(page, use_thumbnail_as_image)
+    images = get_images(page, use_thumbnail_as_image)
     res = ""
-    if n_images > 0
+    if images.length > 0
       res <<
       %{
 <div class="d-flex justify-content-center readable">
   <div class="col-12">
       }
-      if n_images > 1
-        res += page_images_multiple(page, use_thumbnail_as_image)
+      if images.length > 1
+        res += page_images_multiple(images)
       end
-      if n_images == 1
-        res += page_images_singular(page, use_thumbnail_as_image)
+      if images.length == 1
+        res += page_images_singular(images)
       end
       res <<
       %{
