@@ -1,6 +1,5 @@
 # TODO
 
-- Change the favicons with a new logo
 - Fix css on mobile for the floating button staying focused after click
     - probably just a fix on the css
 - Create a better home page with summaries for my blog post
