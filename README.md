@@ -6,6 +6,4 @@
     - https://middlemanapp.com/basics/blogging/
     - I want blurbs for my posts to display on my main page
 - Add sole, potato thing, alfredo penne recipes to my site
-- implement erb code to insert an image with optional caption inline of a blog post
-- Reevaluate use of CDNs vs. providing the files locally
 - Make cocktail legend terms have a different look (italics?)

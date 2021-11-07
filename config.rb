@@ -197,3 +197,17 @@ configure :build do
     activate :minify_css
     activate :minify_javascript
 end
+
+helpers do
+  # This magic code copied from https://forum.middlemanapp.com/t/automatically-add-class-to-img-tag-for-every-blog-post/1761
+  #   adds the specified classes to images inserted into a blog post inline.
+  def image_tag( path, params = {} )
+    blog_prefix = blog_controller.try(:options).try(:prefix).try(:gsub, "/", "")
+    if current_path =~ %r{^#{blog_prefix}}
+      classes = params[:class].try(:split, " ") || []
+      classes << "img-fluid rounded mx-auto d-block"
+    end
+    params[:class] = classes.try(:join, "")
+    super( path, params )
+  end
+end

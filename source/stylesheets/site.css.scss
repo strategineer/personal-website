@@ -467,6 +467,13 @@ a.cv-anchor {
     font-size: 0.90rem;
 }
 
+// Images Captions
+img + em {
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+}
+
 
 @include media-breakpoint-down(xs) { 
 }
