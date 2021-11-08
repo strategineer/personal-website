@@ -13,5 +13,5 @@ ingredients:
 steps:
   - Build in an ice-filled highball glass. Add the garnish.
 notes:
-  - Substite 1 oz of Havana Club 7 Years rum with 1 oz of Havana Club 3 Years rum for a _Light and Stormy_ (I haven't tried this yet but I plan to).
+  - Substite 1 oz of Havana Club 7 Years rum with 1 oz of Havana Club 3 Years rum for a <em>Light and Stormy</em> (I haven't tried this yet but I plan to).
 ---

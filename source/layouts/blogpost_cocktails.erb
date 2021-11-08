@@ -18,7 +18,7 @@
         <div class="d-flex justify-content-center">
           <ul>
             <% current_page.data.ingredients.each do |i| %>
-              <li><%= prettify_food_text(i) %></li>
+              <li><%= prettify_cocktail_text(current_page, i) %></li>
             <% end %>
           </ul>
         </div>
@@ -31,7 +31,7 @@
         <div class="d-flex justify-content-center">
           <ol>
             <% current_page.data.steps.each do |i| %>
-              <li><%= prettify_food_text(i) %></li>
+              <li><%= prettify_cocktail_text(current_page, i) %></li>
             <% end %>
           </ol>
         </div>
@@ -45,7 +45,7 @@
         <div class="d-flex justify-content-center">
           <ul>
             <% current_page.data.notes.each do |i| %>
-              <li><%= prettify_food_text(i) %></li>
+              <li><%= prettify_cocktail_text(current_page, i) %></li>
             <% end %>
           </ul>
         </div>

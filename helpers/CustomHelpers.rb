@@ -218,6 +218,34 @@ module CustomHelpers
     return tag
   end
 
+  def split_and_capitalize(s)
+    new_s = []
+    s.split(" ").each do |e|
+      if e != "and"
+        new_s.append(e.capitalize)
+      else
+        new_s.append(e)
+      end
+    end
+    return new_s.join(" ")
+  end
+
+  def prettify_cocktail_text(page, text)
+    ls = cocktail_legend_items(page)
+    ls.each do | term, definition |
+      if text.downcase.include?(term.downcase)
+        # HACK I don't know what kind of capitalization I'll be using initially
+        #   so let's just try a bunch of different things
+        text.gsub!(term, "<em>" + term + "</em>")
+        text.gsub!(term.downcase, "<em>" + term + "</em>")
+        text.gsub!(term.capitalize, "<em>" + term + "</em>")
+        text.gsub!(split_and_capitalize(term), "<em>" + term + "</em>")
+      end
+    end
+    text = prettify_food_text(text)
+    return text
+  end
+
   def prettify_food_text(text)
     if text.nil? or text.empty?
       return ""
