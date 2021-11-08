@@ -29,15 +29,16 @@ steps:
 notes:
   - The lettuce can be replaced with thinly sliced cabbage
 ---
-The guacamole can be made by doubling the ingredients in the [following recipe](food/guacamole/)
+The guacamole can be made by doubling the ingredients in the [following recipe](/food/guacamole/)
 
 Taco seasoning is made with:
-  - 2 teaspoons ancho chili powder
-  - 2 teaspoons ground cumin
-  - 2 teaspoons smoked paprika (or use regular)
-  - 2 teaspoons granulated garlic
-  - 1 teaspoon ground coriander
-  - 1/2 teaspoon Mexican oregano (dried)
-  - 1/4 teaspoon sea salt
-  - 1/4 teaspoon black pepper
-  - 1/16 teaspoon chipotle powder (skip for no heat or more for higher heat)
+
+- 2 teaspoons ancho chili powder
+- 2 teaspoons ground cumin
+- 2 teaspoons smoked paprika (or use regular)
+- 2 teaspoons granulated garlic
+- 1 teaspoon ground coriander
+- 1/2 teaspoon Mexican oregano (dried)
+- 1/4 teaspoon sea salt
+- 1/4 teaspoon black pepper
+- 1/16 teaspoon chipotle powder (skip for no heat or more for higher heat)
