@@ -254,6 +254,8 @@ h6 {
 // Journals
 blockquote {
     background: $bg_dark;
+    border: 2px $bg_dark;
+    border-style: solid;
     p {
         margin-left: 0.5em;
         color: $color_base;
