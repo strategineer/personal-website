@@ -616,4 +616,15 @@ module CustomHelpers
     minutes = (words/words_per_minute).floor
     return minutes >= 1 ? "#{minutes} min" : '< 1 min'
   end
+
+  def contact_info()
+    return %{
+        <div class="col-12 text-center">
+          <a href="https://fraidyc.at">Follow me with fraidycat</a>, or your <a href="https://en.wikipedia.org/wiki/RSS">RSS reader of choice</a>, to be notified whenever I publish an essay.
+        </div>
+        <div class="col-12 text-center">
+            I would hate to hear from you. You can reach <a href="mailto:me@strategineer.com">me@strategineer.com</a>.
+        </div>
+    }
+  end
 end
