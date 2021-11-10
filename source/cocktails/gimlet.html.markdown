@@ -7,7 +7,7 @@ tags: 2stars, strong, gin
 inspired_by: https://jeffreymorgenthaler.com/lime-cordial/
 blurb: Limey and Giney. This drink prevents scurvy and that would be relevant information for you if you were a sailor 100+ years ago.
 ingredients:
-  - 1 1/2 oz of gin
+  - 1 1/2 oz Tanqueray gin
   - 1 oz homemade lime juice cordial
   - 1 lime wedge, for garnish
 steps:

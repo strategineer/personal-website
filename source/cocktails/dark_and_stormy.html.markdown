@@ -7,8 +7,8 @@ tags: 5stars, light, rum
 inspired_by: The Joy of Mixology by Gary Reagan (p. 204)
 blurb: Dark rum combined with stormy (?) ginger beer. A storm of flavors... In your mouth.
 ingredients:
-  - 2 oz of Havana Club 7 Years rum
-  - 3 oz of Fever Tree ginger beer
+  - 2 oz Havana Club 7 Years rum
+  - 3 oz Fever Tree ginger beer
   - 1 lime wedge, for garnish
 steps:
   - Build in an ice-filled highball glass. Add the garnish.

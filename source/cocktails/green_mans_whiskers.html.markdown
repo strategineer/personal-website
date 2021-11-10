@@ -7,7 +7,7 @@ tags: 5stars, strong, gin
 inspired_by: The Joy of Mixology by Gary Reagan (p. 274)
 blurb: Very green but tastes very orangey. The gin combined with the two types of vermouth and the orange juice and liqueur gives this cocktail a unique flavor that's hard to describe.
 ingredients:
-  - 1/2 oz gin
+  - 1/2 oz Tanqueray gin
   - 1/2 oz dry vermouth
   - 1/2 oz sweet vermouth
   - 1/2 oz fresh orange juice

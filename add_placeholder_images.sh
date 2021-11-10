@@ -1,6 +1,6 @@
 #!/bin/bash
 base_path="source/cocktails"
-ids="green_mans_whiskers moscow_mule"
+ids="sky_tai"
 filename="thumbnail.png"
 size_text="250x180"
 size_final="318x180"
