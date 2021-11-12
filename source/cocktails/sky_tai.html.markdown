@@ -3,7 +3,7 @@ title: Sky Tai
 id_title: sky_tai
 blog: cocktails
 date: 2021-11-09
-tags: untested, rum
+tags: 4stars, rum
 inspired_by: The Joy of Mixology by Gary Reagan (p. 237)
 blurb: A (slight) variation on the Mai Tai, a classic tropical cocktail that will make you feel like you're a pensioner living in Florida.
 ingredients:
