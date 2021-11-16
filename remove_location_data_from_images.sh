@@ -1,2 +1,2 @@
 #!/bin/bash
-exiftool -delete_original -gps:all= ./source/*/*/*.{jpg,png}
+exiftool -overwrite_original -gps:all= ./source/*/*/*.{jpg,png}
