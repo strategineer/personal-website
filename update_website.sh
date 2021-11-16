@@ -4,6 +4,8 @@ if [[ $# -eq 0 ]] || [[ $# -gt 1 ]] ; then
     exit 1
 fi
 
+./remove_location_data_from_images.sh
+
 git add .
 git commit -m "$1"
 git push
