@@ -1,4 +1,4 @@
-window.onload = (event) => {
+window.onload = function () {
   setRandomGreeting();
 };
 
