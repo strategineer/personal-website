@@ -3,7 +3,7 @@ title: "Gin-Gin Mule"
 id_title: gin_gin_mule
 blog: cocktails
 date: 2021-11-16
-tags: untested, rum
+tags: untested, gin
 inspired_by: The Joy of Mixology by Gary Reagan (p. 213)
 blurb:
 ingredients:
