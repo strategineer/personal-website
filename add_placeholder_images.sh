@@ -1,6 +1,6 @@
 #!/bin/bash
 base_path="source/cocktails"
-ids="sky_tai"
+ids="gin_gin_mule ginger_beer"
 filename="thumbnail.png"
 size_text="250x180"
 size_final="318x180"
