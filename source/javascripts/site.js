@@ -11,7 +11,7 @@ function setRandomGreeting() {
     "noncesense: the preternatural ability to detect British sex offenders.",
   ];
   greeting = pickOne(greetings);
-  document.getElementById("greeting").innerText = `"${greeting}"`;
+  document.getElementById("greeting").innerText = '"' + greeting + '"';
 }
 
 function pickOne(ls) {
