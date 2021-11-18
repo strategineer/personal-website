@@ -1,6 +1,62 @@
 require 'set'
 
 module CustomHelpers
+  def audio(path, caption = "")
+    res = ""
+    if path
+      res <<
+      %{
+<div class="d-flex justify-content-center readable">
+    <div class="col-12">
+      <div class="d-flex align-items-center justify-content-center">
+        <figure>
+          <figcaption>#{caption}</figcaption>
+          <audio
+            controls
+            src="#{path}">
+                Your browser does not support the
+                <code>audio</code> element.
+          </audio>
+        </figure>
+      </div>
+    </div>
+</div>
+      }
+    end
+    return res
+  end
+  def video(path)
+    res = ""
+    if path
+      res <<
+      %{
+  <video controls width="ratio ratio-16x9">
+    <source src="#{path}"/>
+    Sorry, your browser doesn't support embedded videos.
+</video>
+      }
+    end
+    return res
+  end
+  def youtube_video(video_id)
+    res = ""
+    if video_id
+      res <<
+      %{
+<div class="d-flex justify-content-center readable">
+    <div class="col-12">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube-nocookie.com/embed/#{video_id}?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+</div>
+      }
+    end
+    return res
+  end
+
   def get_article_id(article)
     path = article.source_file
     ext = article.ext
@@ -55,8 +111,14 @@ module CustomHelpers
 
   def has_audio?(article)
     id = get_article_id(article)
-    audio_path = "source/#{article.data.blog}/#{id}/audio.mp3"
-    return File.file?(audio_path)
+    supported_extensions = ["mp3", "wav"]
+    supported_extensions.each() do | ext |
+      audio_path = "source/#{article.data.blog}/#{id}/audio.#{ext}"
+      if File.file?(audio_path)
+        return "./audio.#{ext}"
+      end
+    end
+    return nil
   end
 
   def get_images(article, use_thumbnail_as_image)
@@ -84,48 +146,17 @@ module CustomHelpers
     return res
   end
 
+
   def try_page_audio(page)
-    has_audio = has_audio?(page)
-    res = ""
-    if has_audio
-      res <<
-      %{
-<div class="d-flex justify-content-center readable">
-    <div class="col-12">
-      <div class="d-flex align-items-center justify-content-center">
-        <figure>
-          <figcaption>Listen to this essay if you prefer:</figcaption>
-          <audio
-            controls
-            src="./audio.mp3">
-                Your browser does not support the
-                <code>audio</code> element.
-          </audio>
-        </figure>
-      </div>
-    </div>
-</div>
-      }
-    end
-    return res
+    audio_filepath = has_audio?(page)
+    return audio(audio_filepath, "Listen to this essay if you prefer:")
   end
 
   def try_page_video(page)
     has_video = has_video?(page)
     res = ""
     if has_video
-      res <<
-      %{
-<div class="d-flex justify-content-center readable">
-    <div class="col-12">
-      <div class="d-flex align-items-center justify-content-center">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/#{page.data.youtube_video_id}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-</div>
-      }
+      return youtube_video(page.data.youtube_video_id)
     end
     return res
   end
