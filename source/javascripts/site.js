@@ -8,7 +8,7 @@ function setRandomGreeting() {
     "Loading ...",
     "I loved skateboarding as a kid, this one time... I ate shit. It's definitely an acquired taste.",
     "Believe 👏 in 👏 the 👏 me 👏 that 👏 believes 👏 in 👏 you 👏 #faith 👏 #love 👏 #hope 👏 #destiny",
-    "noncesense: the preternatural ability to detect British sex offenders.",
+    "noncesense: the preternatural ability to detect British sex offenders in your immediate vicinity.",
   ];
   greeting = pickOne(greetings);
   document.getElementById("greeting").innerText = '"' + greeting + '"';
