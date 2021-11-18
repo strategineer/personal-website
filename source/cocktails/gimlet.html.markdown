@@ -12,7 +12,6 @@ ingredients:
   - 1 lime wedge, for garnish
 steps:
   - Stir and strain into an ice-filled old-fashioned glass. Add the garnish.
-notes:
-  - You can follow the recipe described [here](https://jeffreymorgenthaler.com/lime-cordial/) to make your own lime juice cordial.
-  - Make sure to only zest the green skin of the limes. You don't want any of the white stuff in your cordial.
 ---
+- You can make your own [homemade lime juice cordial with this recipe](https://jeffreymorgenthaler.com/lime-cordial/)
+- Make sure to only zest the green skin of the limes. You don't want any of the white stuff in your cordial.

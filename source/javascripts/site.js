@@ -4,13 +4,14 @@ window.onload = function () {
 
 function setRandomGreeting() {
   greetings = [
-    '"Are all social media sites destined to be filled with porn? Yes." - strat',
+    "Are all social media sites destined to be filled with porn? Yes.",
     "Loading ...",
-    '"I loved skateboarding as a kid, this one time... I ate shit. It\'s definitely an acquired taste." - strat',
-    '"Believe 👏 in 👏 the 👏 me 👏 that 👏 believes 👏 in 👏 you 👏 #faith 👏 #love 👏 #hope 👏 #destiny" - strat',
+    "I loved skateboarding as a kid, this one time... I ate shit. It's definitely an acquired taste.",
+    "Believe 👏 in 👏 the 👏 me 👏 that 👏 believes 👏 in 👏 you 👏 #faith 👏 #love 👏 #hope 👏 #destiny",
+    "noncesense: the preternatural ability to detect British sex offenders.",
   ];
   greeting = pickOne(greetings);
-  document.getElementById("greeting").innerText = greeting;
+  document.getElementById("greeting").innerText = `"${greeting}"`;
 }
 
 function pickOne(ls) {

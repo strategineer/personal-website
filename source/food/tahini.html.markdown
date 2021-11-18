@@ -16,6 +16,5 @@ ingredients:
   - 1/4 tsp salt, or more to taste
 steps:
   - Mix ingredients until thick.
-notes:
-  - Serve on falafel balls or use as a dip.
 ---
+- Serve on falafel balls or use as a dip.

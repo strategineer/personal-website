@@ -41,22 +41,15 @@
           </ol>
         </div>
     <% end %>
-    <% has_any_notes = !current_page.data.notes.nil? and current_page.data.notes.length > 0 %>
+    <% has_any_notes = current_page.summary.strip().length > 0 %>
     <% if has_any_notes %>
         <div class="d-flex justify-content-center">
           <h2>Notes</h2>
         </div>
         <div class="d-flex justify-content-center">
-          <ul>
-            <% current_page.data.notes.each do |i| %>
-              <li><%= prettify_food_text(i) %></li>
-            <% end %>
-          </ul>
+          <%= yield %>
         </div>
     <% end %>
-    <div class="row justify-content-center">
-      <%= yield %>
-    </div>
     <%= partial "footer_desktop" %>
   </div>
 <% end %>

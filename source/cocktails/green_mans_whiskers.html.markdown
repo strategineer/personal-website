@@ -15,6 +15,5 @@ ingredients:
   - 1 to 2 dashes of orange bitters
 steps:
   - Shake and strain into a chilled cocktail glass.
-notes:
-  - This is a variation on the "curled" Satan's Whiskers cocktail which replaces the orange curaçao with blue curaçao because that's what I had at the time.
 ---
+- This is a variation on the "curled" Satan's Whiskers cocktail which replaces the orange curaçao with blue curaçao because that's what I had at the time.

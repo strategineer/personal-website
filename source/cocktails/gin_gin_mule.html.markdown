@@ -18,5 +18,4 @@ steps:
   - Add the gin, ginger beer, and ice.
   - Shake and strain into an ice-filled highball glass, add garnishes and straws.
 ---
-[Recipe for homemade ginger beer](/cocktails/ginger_beer)
-
+- [Recipe for homemade ginger beer](/cocktails/ginger_beer)
