@@ -3,13 +3,13 @@
     <%= page_title(current_article.title, false, blog.articles) %>
     <%= page_links(current_page) %>
     <%= page_tags(current_page) %>
-    <%= try_page_video(current_article) %>
-    <%= try_page_images(current_article, true) %>
     <% unless current_page.data.blurb.nil? %>
       <div class="d-flex justify-content-center">
         <%= current_page.data.blurb %>
       </div>
     <% end %>
+    <%= try_page_video(current_article) %>
+    <%= try_page_images(current_article, true) %>
     <% unless current_page.data.servings.nil? %>
       <div class="d-flex justify-content-center">
         Serves <%= current_page.data.servings %>
