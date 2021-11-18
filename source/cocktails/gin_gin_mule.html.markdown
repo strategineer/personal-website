@@ -3,9 +3,9 @@ title: "Gin-Gin Mule"
 id_title: gin_gin_mule
 blog: cocktails
 date: 2021-11-16
-tags: untested, gin
+tags: 5stars, gin
 inspired_by: The Joy of Mixology by Gary Reagan (p. 213)
-blurb:
+blurb: Tastes like a less minty and more gingery Southside cocktail. It's dayum good.
 ingredients:
   - 3/4 oz fresh lime juice
   - 1 oz simple syrup
@@ -19,3 +19,4 @@ steps:
   - Shake and strain into an ice-filled highball glass, add garnishes and straws.
 ---
 - [Recipe for homemade ginger beer](/cocktails/ginger_beer)
+- This cocktail specifically tastes best with Tanquery gin, although feel free to use whatever you have.
