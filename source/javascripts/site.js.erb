@@ -1,0 +1,43 @@
+var GREETINGS = [
+  <% data.greetings.each_with_index do |g, i| %>
+    <%= "\"#{g}\"" %><%= ',' unless i == data.greetings.length-1 %>
+  <% end %>
+];
+
+window.onload = function () {
+  setRandomGreeting();
+};
+
+function setRandomGreeting() {
+  var greeting = pickOne(GREETINGS);
+  var e = document.getElementById("greeting")
+  if(typeof e !== 'undefined' && e !== null) {
+    e.innerText = '"' + greeting + '"';
+  }
+}
+
+function pickOne(ls) {
+  return ls[Math.floor(Math.random() * ls.length)];
+}
+
+function goToRandomUrl(urls) {
+  var urls = urls.filter(function (u) {
+    return !window.location.href.endsWith(u);
+  });
+  window.location.href = pickOne(urls);
+}
+
+function goBackToMainPage() {
+  var url = window.location.href.split("/")[3];
+  if (url === "blog") {
+    url = "/index.html";
+  } else {
+    url = "/" + url + "/";
+  }
+  window.location.href = url;
+}
+
+function scrollToTopAndBlur() {
+  window.scrollTo(0, 0);
+  document.activeElement.blur();
+}

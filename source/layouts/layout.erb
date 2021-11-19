@@ -34,9 +34,20 @@
   <body id="documentTop" class="<%= page_classes %>">
     <div class="container">
       <% should_have_footer = should_have_footer?(current_page) %>
+      <% should_have_header = should_have_header?(current_page) %>
+      <% should_have_readable = should_have_readable?(current_page) %>
       <div class="row justify-content-end">
-        <div class="<%= should_have_footer ? "col-xl-8" : "col-xl-12" %> main">
-          <%= yield %>
+        <div class="<%= should_have_footer ? "col-xl-8" : "col-xl-12" %> main ">
+          <% if should_have_header %>
+            <%= partial "header" %>
+          <% end %>
+          <% if should_have_readable %>
+            <div class="readable">
+          <% end %>
+            <%= yield %>
+          <% if should_have_readable %>
+            </div>
+          <% end %>
         </div>
         <% if should_have_footer %>
           <div class="col-xl-4 readable-footer">

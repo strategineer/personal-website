@@ -657,10 +657,27 @@ module CustomHelpers
     }
   end
 
+  def should_have_header?(page)
+    unless page.data.has_header.nil?
+      return page.data.has_header
+    end
+    return false
+  end
+
+  def should_have_readable?(page)
+    unless page.data.is_readable.nil?
+      return page.data.is_readable
+    end
+    return false
+  end
+
   def should_have_footer?(page)
+    if should_have_header?(page)
+      return false
+    end
     unless page.data.has_footer.nil?
       return page.data.has_footer
     end
-    return true
+    return (not page.data.blog.nil?)
   end
 end
