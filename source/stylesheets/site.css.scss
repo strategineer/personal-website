@@ -480,7 +480,7 @@ video + p > em,
 div + p > em {
     text-align: center;
     display: block;
-    font-size: 1.2rem;
+    font-size: 0.95rem;
 }
 
 
@@ -511,7 +511,8 @@ div + p > em {
 }
 
 @include media-breakpoint-up(xs) { 
-    p {
+    p,
+    em {
         font-size: 1.1rem;
     }
     .card {
@@ -540,7 +541,8 @@ div + p > em {
         transform: translatex(-50%);
     }
     // Increase size when not on super small screen.
-    p {
+    p,
+    em {
         font-size: 1.4rem;
     }
     // set the maximum with to allow for better readability.
