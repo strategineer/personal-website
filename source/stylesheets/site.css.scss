@@ -164,7 +164,7 @@ h6 {
 }
 
 .footnotes {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
 }
 
 
@@ -513,7 +513,7 @@ div + p > em {
 @include media-breakpoint-up(xs) { 
     p,
     em {
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
     .card {
         min-width: 16rem;
@@ -543,7 +543,7 @@ div + p > em {
     // Increase size when not on super small screen.
     p,
     em {
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }
     // set the maximum with to allow for better readability.
     .jumbotron,
