@@ -3,7 +3,8 @@ title: Fruity Old Fashioned
 id_title: fruity_old_fashioned
 blog: cocktails
 date: 2021-10-23
-tags: 3stars, strong, whiskey
+tags: strong, whiskey
+personal_rating: 3
 inspired_by: The Joy of Mixology by Gary Reagan (p. 259)
 blurb: An old fashioned is the preferred way of making bourbon enjoyable to drink.
 ingredients:

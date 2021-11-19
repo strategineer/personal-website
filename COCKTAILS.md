@@ -6,7 +6,6 @@ NB: All sourced from the Joy of Mixology book by Gary Regan unless stated otherw
 - Kamikaze
 - Caricature Cocktail
 - Daiquiri
-- Gin-Gin Mule
 - Whiskey Sour
 - Treacle
 

@@ -2,7 +2,5 @@
 title: Strategineer
 blog: cocktails
 ---
-<% # TODO(strategineer): Put this into a config file %>
-<% rating_order = ["5stars", "4stars", "3stars", "2stars", "1star", "untested"] %>
-<% sort_fn = lambda { |a, b| rating_order.index(a.tags[0]) <=> rating_order.index(b.tags[0]) } %>
+<% sort_fn = lambda { |a, b| b.data.personal_rating <=> a.data.personal_rating  } %>
 <%= album(blog.articles, true, "Strat's Cocktail Menu", lambda { |p| true }, sort_fn) %>

@@ -3,7 +3,8 @@ title: "Gin-Gin Mule"
 id_title: gin_gin_mule
 blog: cocktails
 date: 2021-11-16
-tags: 5stars, gin
+tags: gin
+personal_rating: 5
 inspired_by: The Joy of Mixology by Gary Reagan (p. 213)
 blurb: Tastes like a less minty and more gingery Southside cocktail. It's dayum good.
 ingredients:
