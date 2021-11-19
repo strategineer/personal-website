@@ -7,19 +7,17 @@ module CustomHelpers
       res <<
       %{
 <div class="d-flex justify-content-center readable">
-    <div class="col-12">
-      <div class="d-flex align-items-center justify-content-center">
-        <figure>
-          <figcaption>#{caption}</figcaption>
-          <audio
-            controls
-            src="#{path}">
-                Your browser does not support the
-                <code>audio</code> element.
-          </audio>
-        </figure>
-      </div>
-    </div>
+    <div class="d-flex align-items-center justify-content-center">
+      <figure>
+        <figcaption>#{caption}</figcaption>
+        <audio
+          controls
+          src="#{path}">
+              Your browser does not support the
+              <code>audio</code> element.
+        </audio>
+      </figure>
+  </div>
 </div>
       }
     end
