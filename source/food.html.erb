@@ -1,6 +1,7 @@
 ---
 title: Strategineer
 blog: food
+has_footer: false
 ---
 <% sort_fn = lambda { |a, b| (not a.data.order.nil? and not b.data.order.nil?) ? a.data.order <=> b.data.order : (a.data.order.nil? ? 1 : -1) } %>
 <%= album(blog.articles, true, "Strat's Recipe Book ", lambda { |p| true }, sort_fn) %>

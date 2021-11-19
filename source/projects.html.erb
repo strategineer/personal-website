@@ -1,6 +1,7 @@
 ---
 title: Strategineer
 blog: projects
+has_footer: false
 ---
 <%= album(blog.articles, true, "Projects Highlights", lambda { |p| p.data.is_important }) %>
 <%= album(blog.articles, true, "Other Projects", lambda { |p| not p.data.is_important } ) %>

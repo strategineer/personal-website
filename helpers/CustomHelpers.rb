@@ -165,7 +165,7 @@ module CustomHelpers
     %{
       <div id="carouselScreenshots" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
-      }
+    }
     index = 0
     images.each do |data|
       res <<
@@ -359,10 +359,10 @@ module CustomHelpers
         <dl>
       }
       ls.each do | k, v |
-      res << %{
+        res << %{
         <dt>#{k}</dt>
         <dd>#{v}</dd>
-      }
+        }
       end
       res << %{
         </dl>
@@ -455,7 +455,7 @@ module CustomHelpers
     <div class="d-flex justify-content-center d-flex-inline-list">
       <div class="text-center">
         <ul class="list-inline ul-inline">
-     }
+    }
     ls.each do |e|
       res << %{
           <li class="list-inline-item li-inline">
@@ -605,8 +605,8 @@ module CustomHelpers
   end
 
   def page_links(page)
-    if not current_page.data.links.nil? and not current_page.data.links.length == 0
-      return inline_list(current_page.data.links.collect{ |l| l.split(',')}.collect{ |l| link_to l[0], l[1]})
+    if not page.data.links.nil? and not page.data.links.length == 0
+      return inline_list(page.data.links.collect{ |l| l.split(',')}.collect{ |l| link_to l[0], l[1]})
     end
     return ""
   end
@@ -655,5 +655,12 @@ module CustomHelpers
             I would hate to hear from you. You can reach <a href="mailto:me@strategineer.com">me@strategineer.com</a>.
         </div>
     }
+  end
+
+  def should_have_footer?(page)
+    unless page.data.has_footer.nil?
+      return page.data.has_footer
+    end
+    return true
   end
 end

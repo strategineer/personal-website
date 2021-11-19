@@ -1,6 +1,7 @@
 ---
 title: Strategineer
 blog: cocktails
+has_footer: false
 ---
 <% sort_fn = lambda { |a, b| b.data.personal_rating <=> a.data.personal_rating  } %>
 <%= album(blog.articles, true, "Strat's Cocktail Menu", lambda { |p| true }, sort_fn) %>
