@@ -6,6 +6,7 @@ date: 2021-11-15
 tags: non-alcoholic
 personal_rating: -1
 inspired_by: The Joy of Mixology by Gary Reagan (p. 214)
+sub_ingredient: true
 blurb:
 ingredients:
   - 2L water
