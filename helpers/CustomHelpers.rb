@@ -561,9 +561,39 @@ module CustomHelpers
 <table class="table mx-auto">
   <tbody>
     }
-    articles.each do |article|
+    ls = []
+    rambles_ls = []
+    is_previous_ramble = false
+    if current_page.path.include?("ramble")
+      articles.each do |article|
+        ls.append([article.tags, article.title, article.date.strftime('%Y-%m-%d'), article.url, has_audio?(article)])
+      end
+    else
+      # TODO(strategineer): This code could use a refactoring
+      # This code aggregates articles tagged with "ramble" so that they don't take up too much space on the website given the lower quality
+      articles.each do |article|
+        is_ramble = article.tags.include?("ramble")
+        if not is_ramble
+          if is_previous_ramble
+            start_date = rambles_ls[0].date.strftime('%Y-%m-%d')
+            ls.append([["ramble"], "... there are #{rambles_ls.length()} other low effort \"ramble\" blog posts here.", start_date, "/blog/tags/ramble", false])
+            rambles_ls = []
+          end
+          ls.append([article.tags, article.title, article.date.strftime('%Y-%m-%d'), article.url, has_audio?(article)])
+        else
+          if is_previous_ramble
+            # don't post, just aggregate
+            rambles_ls.append(article)
+          else
+            ls.append([article.tags, article.title, article.date.strftime('%Y-%m-%d'), article.url, has_audio?(article)])
+          end
+        end
+        is_previous_ramble = is_ramble
+      end
+    end
+    ls.each do |tags, title, date, url, has_audio|
       row_style_class = ""
-      if article.tags.include?("ramble")
+      if tags.include?("ramble")
         row_style_class = "less-important"
       end
       res <<
@@ -571,14 +601,14 @@ module CustomHelpers
     <tr>
       <td class="table-nowrap">
         <div>
-          #{article.date.strftime('%Y-%m-%d')}
+          #{date}
         </div>
       </td>
       <td class="#{row_style_class}">
-        <a href="#{article.url}">
+        <a href="#{url}">
           <div>
       }
-      if has_audio?(article)
+      if has_audio
         res <<
         %{
         🎧
@@ -586,11 +616,11 @@ module CustomHelpers
       end
       res <<
       %{
-          #{article.title}
+          #{title}
           </div>
         </a>
       </td>
-      <td class="d-none d-md-table-cell">#{article.tags.collect{ |t| link_to t, tag_path(t) }.join(' - ')}</td>
+      <td class="d-none d-md-table-cell">#{tags.collect{ |t| link_to t, tag_path(t) }.join(' - ')}</td>
     </tr>
       }
     end
