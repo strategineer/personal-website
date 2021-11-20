@@ -390,7 +390,7 @@ module CustomHelpers
       %{
 <div class="container-fluid album-title">
       }
-      res << page_title(title, is_main_page, filtered_articles)
+      res << page_title(title, is_main_page, filtered_articles, true)
       res <<
       %{
 </div>
@@ -484,7 +484,7 @@ module CustomHelpers
     return inline_list(ls)
   end
 
-  def page_title(title, is_main_page, articles=nil)
+  def page_title(title, is_main_page, articles=nil, should_title_be_link_to_home=false)
     res = ""
     res << %{
 <div class="container justify-content-center text-center page-title">
@@ -493,7 +493,21 @@ module CustomHelpers
     res << %{
   <div class="row">
     <h1>
+    }
+    if should_title_be_link_to_home
+      res << %{
+        <a href="/">
+      }
+    end
+    res << %{
         #{title}
+    }
+    if should_title_be_link_to_home
+      res << %{
+        </a>
+      }
+    end
+    res << %{
     </h1>
   </div>
     }
