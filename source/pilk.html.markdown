@@ -1,5 +1,5 @@
 ---
-title: Strategineer
+title: Pilk
 is_readable: true
 ---
 If you're reading this heartfelt message, it is because you are a curious individual looking for answers.
