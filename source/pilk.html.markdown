@@ -50,7 +50,7 @@ I was shown a vision across time and space of the Original Pilker. In his hand, 
 
 He spoke to me and me alone.
 
-"Pilk. One part Pepsi, One part milk. Heed my words... I think drinking Pilk halved my IQ."
+"Pilk. One part Pepsi, One part milk. Worship this brew... I think drinking Pilk halved my IQ."
 
 <br>
 <br>
