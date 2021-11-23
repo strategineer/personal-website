@@ -9,13 +9,13 @@ is_important: true
 blurb: Shrimp, small but numerous, red through and through; best served on pasta with a white sauce.
 servings: 4
 ingredients:
-  - 61-70 or 625g Pacific White shrimp (any small or medium sized shrimp will do)
-  - 5 cloves of garlic (minced)
-  - 2 tsp of paprika
-  - 2 tsp of cayenne pepper
+  - 625g Pacific White shrimp
+  - 3 cloves of garlic (minced)
+  - 1 tsp of paprika
+  - 1 tsp of cayenne pepper
   - salt and pepper to taste
-  - 1 cup of extra virgin olive oil
-  - 2 tbsp of butter
+  - 1/4 cup of extra virgin olive oil
+  - 1 tbsp of butter
 steps:
   - Remove the shells from the shrimp.
   - Mix all the ingredients together, except the butter, in a freezer bag or a mixing bowl, seal the container and let it rest in the fridge for about 1h.
