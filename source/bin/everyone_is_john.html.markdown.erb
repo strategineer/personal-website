@@ -4,23 +4,37 @@ is_readable: true
 ---
 
 
-- TODO(strategineer): Create discord server for VO + text chat + video and send invite links to players before the game
-- TODO(strategineer): Display skills and current willpower of each voice in Google Sheets
-- TODO(strategineer): Handle secret votes with willpower using a channel where anyone can send messages, I can read all of the them, anyone can read my messages and the bots messages. Worst case: use DMs.... This channel can be used for everything?
-- TODO(strategineer): Revive my discord bot and implement a d6 dice roller
+- TODO(strategineer): Implement feature to track obsessions being achieved
+- TODO(strategineer): Implement feature to start (reset bids) + end test of control "/gm control start"
+- TODO(strategineer): Refactor override feature "/gm override willpower"
+- TODO(strategineer): When the current voice changes send me a reminder of what the skills and obsessions that voice
 - TODO(strategineer): Write John's tagline
 - TODO(strategineer): Improve instructions and review rules
 
-1. The GM reveals John's tagline to players.
-2. The PCs talk through and create their Voices' skills (GM must approve all skills), adding them to the spreadsheet.
+The GM reveals John's tagline to players.
+
+The PCs talk through and create their Voices' skills (GM must approve all skills), adding them to the spreadsheet.
+
   - Choose two specific skills, gain 10 Willpower
   - Choose three, gain 7 Willpower
-  - For maximum fun, don't pick skills that are similar to skills that other players are doing
-3. The PCs secretly writes down their Level 1, 2 and 3 Obsessions (Each PC must secretly send their obsessions to the GM for approval, some private back-and-forth may occur to make them just right).
+  - For maximum fun, don't pick skills that are similar to skills that other players have
+
+~~~
+/set skills skill1: Drinking excessive amounts of Pilk skill2: Making Pilk
+or
+/set skills skill1: Drinking excessive amounts of Pilk skill2: Making Pilk skill3: Quick Reflexes
+~~~
+
+The PCs run the command below to set their Level 1, 2 and 3 Obsessions (Each PC must secretly send their obsessions to the GM for approval beforehand, some private back-and-forth may occur to make them just right).
   - Obsessions are the insane (and sometimes nonsensical) drives of each Voice. Completing them rewards points.
   - Each level of obsession should be progressively harder to achieve.
   - Each should be relatively simple and written in a short sentence.
-4. Play begins.
+
+~~~
+/set obsessions obsession1: Drink Pilk obsession2: Get somebody else to drink Pilk obsession3: Drink Pilk made from fresh milk you've milked from a cow yourself
+~~~
+
+Play begins.
 
 # How to Play
 
@@ -29,6 +43,10 @@ is_readable: true
 - Voices spend willpower in two ways:
   - In [Tests for Control](#tests-for-control), to assert their dominance and take control of John.
   - To improve the chances of their [Skill Checks](#skill-checks) succeeding
+
+~~~
+/view willpower
+~~~
 
 ## Skill Checks
 - Roll a six-sided die:
@@ -45,9 +63,13 @@ Tests for control occur when:
 - Any Check is failed.
 - John Gets Distracted and Falls Asleep (pg. 19).
 
-Each Voice sends a private message to the GM with their bid (in Willpower points)
+Each Voice runs the following command with their bid in Willpower points
 
-The Voice with the highest bid takes control of John. If multiple Voices tie for the highest bid, then they roll off to see who becomes the active Voice.
+~~~
+/set bid 7
+~~~
+
+The Voice with the highest bid takes control of John. If multiple Voices tie for the highest bid, then dice are rolled to see who becomes the active Voice.
 
 The Voice who becomes active loses the amount of Willpower they bid. All
 others keep their bids.
