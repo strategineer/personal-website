@@ -3,20 +3,12 @@ title: "2021-11-28: Everyone is John and/or George"
 is_readable: true
 ---
 
-
-- TODO(strategineer): Implement feature to track obsessions being achieved
-- TODO(strategineer): Implement feature to start (reset bids) + end test of control "/gm control start"
-- TODO(strategineer): Refactor override feature "/gm override willpower"
-- TODO(strategineer): When the current voice changes send me a reminder of what the skills and obsessions that voice
-- TODO(strategineer): Write John's tagline
-- TODO(strategineer): Improve instructions and review rules
-
 The GM reveals John's tagline to players.
 
 The PCs talk through and create their Voices' skills (GM must approve all skills), adding them to the spreadsheet.
 
-  - Choose two specific skills, gain 10 Willpower
-  - Choose three, gain 7 Willpower
+  - Choose 2 skills, gain 10 Willpower
+  - Choose 3 skills, gain 7 Willpower
   - For maximum fun, don't pick skills that are similar to skills that other players have
 
 ~~~
@@ -37,10 +29,15 @@ The PCs run the command below to set their Level 1, 2 and 3 Obsessions (Each PC 
 Play begins.
 
 # How to Play
+## Telling Secrets
+Use the following command to whisper secrets to the GM.
+~~~
+/whisper secret: I just achieved my obsession level 3, wake up you cunt
+~~~
 
 ## Willpower
-- Each Voice starts with 10 (or 7 if they've chosen three skills) willpower
-- Voices spend willpower in two ways:
+- Each Voice starts with 10 (or 7 if they've chosen 3 skills) willpower
+- Voices spend willpower in 2 ways:
   - In [Tests for Control](#tests-for-control), to assert their dominance and take control of John.
   - To improve the chances of their [Skill Checks](#skill-checks) succeeding
 
@@ -54,6 +51,12 @@ Play begins.
   - Succeed on a 6 for skills you don't have
 - Before the roll, you can spend Willpower to add a +1 to the result
 
+~~~
+/roll
+or
+/roll willpower: 2
+~~~
+
 ## Tests for Control
 Tests for control occur when:
 
@@ -66,10 +69,17 @@ Tests for control occur when:
 Each Voice runs the following command with their bid in Willpower points
 
 ~~~
-/set bid 7
+/set bid willpower: 1
 ~~~
 
 The Voice with the highest bid takes control of John. If multiple Voices tie for the highest bid, then dice are rolled to see who becomes the active Voice.
 
 The Voice who becomes active loses the amount of Willpower they bid. All
 others keep their bids.
+
+## Winning
+You win by achieving as many of your obsessions as possible. Achieving a level 1 obsession rewards you 1 point, a level 2 obsession 2 points and a level 3 obsession 3 points.
+
+An obsession can be completed at any time, whether or not your voice is currently in control.
+
+Whenever any voice achieves an obsession, a test for control occurs. The GM should usually be aware of when this happens and start a test for control at that point but feel free to secretely nudge him if he forgets (there's a lot of obsessions for him to keep track of).
