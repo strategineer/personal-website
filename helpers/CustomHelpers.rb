@@ -70,6 +70,7 @@ module CustomHelpers
     if exclude_self
       ls = ls.select { |b| get_article_id(current_page) != get_article_id(b) }
     end
+    ls = ls.select { |b| not b.tags.include?("ramble") }
     ls = ls.sort { |a, b| a.date <=> b.date }.reverse
     max_count = max_count.nil? ? ls.size : max_count
     return [ls.take(max_count), [ls.size - max_count, 0].max]
@@ -574,7 +575,7 @@ module CustomHelpers
       articles.each do |article|
         is_ramble = article.tags.include?("ramble")
         if not is_ramble
-          if is_previous_ramble
+          if is_previous_ramble and rambles_ls.length() > 0
             start_date = rambles_ls[0].date.strftime('%Y-%m-%d')
             ls.append([["ramble"], "... there are #{rambles_ls.length()} other low effort \"ramble\" blog posts here.", start_date, "/blog/tags/ramble", false])
             rambles_ls = []

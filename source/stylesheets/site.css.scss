@@ -205,10 +205,12 @@ h6 {
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
+    font-size: 1rem;
 }
 
-.footer-shortlist-archive{
-}
+.footer-shortlist-archive {
+    font-size: 1rem;
+ }
 
 // Set internal borders.
 .table > thead > tr > th{
@@ -475,6 +477,7 @@ figure {
 }
 
 // Captions for images, videos, audio files and youtube embeds
+dd > em,
 img + em ,
 video + p > em,
 div + p > em {
