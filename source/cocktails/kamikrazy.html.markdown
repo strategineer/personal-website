@@ -4,7 +4,7 @@ id_title: kamikrazy
 blog: cocktails
 date: 2021-11-22
 tags: strong, vodka
-personal_rating: -1
+personal_rating: 4
 inspired_by: The Joy of Mixology by Gary Reagan (p. 228)
 blurb: A variation on the "Kamikaze" cocktail... TBD
 ingredients:
