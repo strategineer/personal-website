@@ -5,3 +5,4 @@
 - Figure out how to do markdown reference
 - Add more greetings
 - Add normal footer to album pages in a reasonable way (must look good on desktop or mobile)
+- Make markdown headers clickable (#title)
