@@ -205,7 +205,7 @@ helpers do
     #blog_prefix = blog_controller.try(:options).try(:prefix).try(:gsub, "/", "")
     #if current_path =~ %r{^#{blog_prefix}}
     classes = params[:class].try(:split, " ") || []
-    classes << "img-fluid rounded mx-auto d-block"
+    classes << "img-fluid rounded mx-auto d-block img-fluid-max-height"
     #end
     params[:class] = classes.try(:join, "")
     super( path, params )
