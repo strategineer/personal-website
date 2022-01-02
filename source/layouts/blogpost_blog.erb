@@ -7,6 +7,13 @@
     <%= try_page_images(current_article) %>
     <%= try_page_audio(current_article) %>
     <div class="row justify-content-center readable">
+      <% if current_page.tags.include?("fiction") %>
+      <blockquote>
+        <div class="col-12 text-center">
+          This is a work of fiction. Names, characters, events and incidents are the products of the author’s imagination. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.
+        </div>
+      </blockquote>
+      <% end %>
       <% if current_page.tags.include?("ramble") %>
       <blockquote>
         <div class="col-12 text-center">
