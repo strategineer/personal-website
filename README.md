@@ -6,3 +6,4 @@
 - Add normal footer to album pages in a reasonable way (must look good on desktop or mobile)
 - Make markdown headers clickable (#title)
 - Add ids to blog title and make them clickable too URLXX.COM/#title
+- Make a page that aggregates stats on word count, number of articles per year, tag use, word use
