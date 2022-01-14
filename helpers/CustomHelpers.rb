@@ -577,8 +577,14 @@ module CustomHelpers
         if not is_ramble
           if is_previous_ramble and rambles_ls.length() > 0
             start_date = rambles_ls[0].date.strftime('%Y-%m-%d')
-            is_are = rambles_ls.length() == 1 ? "is" : "are"
-            ls.append([["ramble"], "... there #{is_are} #{rambles_ls.length()} other low effort \"ramble\" blog posts here.", start_date, "/blog/tags/ramble", false])
+            if rambles_ls.length() == 1
+              is_are = "is"
+              plural_indicator = ""
+            else
+              is_are = "are"
+              plural_indicator = "s"
+            end
+            ls.append([["ramble"], "... there #{is_are} #{rambles_ls.length()} other low effort \"ramble\" blog post#{plural_indicator} here.", start_date, "/blog/tags/ramble", false])
             rambles_ls = []
           end
           ls.append([article.tags, article.title, article.date.strftime('%Y-%m-%d'), article.url, has_audio?(article)])
