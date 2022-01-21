@@ -484,12 +484,18 @@ figure {
 dd > em,
 img + em ,
 video + p > em,
+blockquote + p > em,
 div + p > em {
     text-align: center;
     display: block;
     font-size: 0.95rem;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
+
+blockquote {
+    margin-bottom: 0.5em;
+}
+
 
 li {
     margin-left: 2.5rem;
