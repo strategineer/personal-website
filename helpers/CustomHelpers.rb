@@ -701,10 +701,10 @@ module CustomHelpers
   def contact_info()
     return %{
         <div class="col-12 text-center">
-          <a href="https://fraidyc.at">Follow me with fraidycat</a>, or your <a href="https://en.wikipedia.org/wiki/RSS">RSS reader of choice</a>, to be notified whenever I publish an essay.
+          <a href="https://fraidyc.at">Follow me with fraidycat</a>, or your <a href="https://en.wikipedia.org/wiki/RSS">RSS reader of choice</a>, to be notified whenever I publish an post.
         </div>
         <div class="col-12 text-center">
-            I would hate to hear from you. You can reach <a href="mailto:me@strategineer.com">me@strategineer.com</a>.
+            I would 💖 to hear from you. You can reach <a href="mailto:me@strategineer.com">me@strategineer.com</a>.
         </div>
     }
   end
