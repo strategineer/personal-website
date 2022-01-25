@@ -192,10 +192,10 @@ config[:sass_assets_paths] << Bootstrap.stylesheets_path
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-# Reload the browser automatically whenever files change
 configure :build do
     activate :minify_css
-    activate :minify_javascript
+    # This doesn't work anymore because of my use of backticks?
+    #activate :minify_javascript
 end
 
 helpers do
