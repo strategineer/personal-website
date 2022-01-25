@@ -4,9 +4,46 @@ var MEDITATIONS = [
   <% end %>
 ];
 
-window.onload = function () {
-  setRandomMeditation();
+var MEDITATIONS_DICT_FROM_INDEX = {
+  <% data.meditations.each_with_index do |g, i| %>
+    <%= "#{i}" + ":" + "\"#{g[0, g.index("\n")]}\"" %><%= ',' unless i == data.meditations.length-1 %>
+  <% end %>
 };
+
+var MEDITATIONS_DICT_FROM_NUMBERS = {
+  <% data.meditations.each_with_index do |g, i| %>
+    <%= "\"#{g[0, g.index("\n")]}\"" + ":" + "#{i}" %><%= ',' unless i == data.meditations.length-1 %>
+  <% end %>
+};
+
+window.onload = function () {
+  if (performance.navigation.type == performance.navigation.TYPE_RELOAD
+  || tryLoadMeditationFromLocationHash()) {
+    setRandomMeditation();
+  }
+};
+
+function tryLoadMeditationFromLocationHash() {
+  //console.log(window.location.hash);
+  if(window.location.hash) {
+    var meditation_index = MEDITATIONS_DICT_FROM_NUMBERS[window.location.hash.substring(1)]
+    //console.log(meditation_index);
+    if(isValidMeditationIndex(meditation_index)) {
+      //console.log("Setting meditation from hash: " + meditation_index)
+      setMeditation(meditation_index);
+      return false;
+    }
+  }
+  return true;
+}
+
+function locationHashChanged() {
+  //console.log("hash changed event triggered");
+  tryLoadMeditationFromLocationHash();
+}
+
+window.onhashchange = locationHashChanged;
+
 
 document.body.onkeyup = function(e){
   if(e.keyCode == 32 // space
@@ -16,11 +53,31 @@ document.body.onkeyup = function(e){
   }
 }
 
-function setRandomMeditation() {
-  var meditation = pickOne(MEDITATIONS);
+function isValidMeditationIndex(meditation_index) {
+  if(typeof meditation_index !== 'undefined' && meditation_index !== null) {
+    if(0 <= meditation_index && meditation_index < MEDITATIONS.length) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function setMeditation(meditation_index) {
+  if(!isValidMeditationIndex(meditation_index)) {
+    return;
+  }
+  //console.log("Setting meditation to: " + meditation_index)
+  var meditation = MEDITATIONS[meditation_index]
   var e = document.getElementById("meditation")
   if(typeof e !== 'undefined' && e !== null) {
     e.innerText = meditation;
+    window.location.hash = MEDITATIONS_DICT_FROM_INDEX[meditation_index]
   }
+}
+
+function setRandomMeditation() {
+  var meditation_index = pickIndex(MEDITATIONS);
+  //console.log("Setting random meditation: " + meditation_index)
+  setMeditation(meditation_index);
 }
 

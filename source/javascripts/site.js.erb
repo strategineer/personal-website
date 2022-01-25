@@ -16,8 +16,12 @@ function setRandomGreeting() {
   }
 }
 
+function pickIndex(ls) {
+  return Math.floor(Math.random() * ls.length)
+}
+
 function pickOne(ls) {
-  return ls[Math.floor(Math.random() * ls.length)];
+  return ls[pickIndex(ls)];
 }
 
 function goToRandomUrl(urls) {
