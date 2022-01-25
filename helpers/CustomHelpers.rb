@@ -709,6 +709,13 @@ module CustomHelpers
     }
   end
 
+  def should_have_meditation?(page)
+    unless page.data.has_meditation.nil?
+      return page.data.has_meditation
+    end
+    return false
+  end
+
   def should_have_header?(page)
     unless page.data.has_header.nil?
       return page.data.has_header

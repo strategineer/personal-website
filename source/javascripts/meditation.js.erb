@@ -1,0 +1,26 @@
+var MEDITATIONS = [
+  <% data.meditations.each_with_index do |g, i| %>
+    <%= "\`#{g}\`" %><%= ',' unless i == data.meditations.length-1 %>
+  <% end %>
+];
+
+window.onload = function () {
+  setRandomMeditation();
+};
+
+document.body.onkeyup = function(e){
+  if(e.keyCode == 32 // space
+    || e.keyCode == 13 // enter
+  ){
+    setRandomMeditation();
+  }
+}
+
+function setRandomMeditation() {
+  var meditation = pickOne(MEDITATIONS);
+  var e = document.getElementById("meditation")
+  if(typeof e !== 'undefined' && e !== null) {
+    e.innerText = meditation + "\n- Marcus Aurelius";
+  }
+}
+
