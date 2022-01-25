@@ -501,22 +501,28 @@ li {
     margin-left: 2.5rem;
 }
 
-
 .meditations-info-link {
     color: $color_base !important;
     background: white !important;
 }
 
-#meditation-another {
+.meditation-footer-button {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     border-radius: 50%;
     position: fixed;
-    bottom: 8px; 
-    right: 8px;
+    bottom: 15px; 
     z-index: 99;
+}
+
+#meditation-footer-button-another {
+    right: 0px;
+}
+
+#meditation-footer-button-share {
+    right: 100px;
 }
 
 
