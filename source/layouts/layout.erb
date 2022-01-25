@@ -56,9 +56,11 @@
         <% end %>
       </div>
     </div>
-    <%= partial "to_top" %>
-    <%= javascript_include_tag "site" %>
     <% should_have_meditation = should_have_meditation?(current_page) %>
+    <% if not should_have_meditation %>
+      <%= partial "to_top" %>
+    <% end %>
+    <%= javascript_include_tag "site" %>
     <% if should_have_meditation %>
       <%= javascript_include_tag "meditation" %>
     <% end %>
