@@ -139,18 +139,14 @@ async function shareMeditation() {
   if (!navigator.canShare) {
     return;
   }
-  const e = document.getElementById("meditation");
-  if(typeof e !== 'undefined' && e !== null) {
-    const shareData = {
+  try {
+    await navigator.share({
       title: `Marcus Aurelius's Meditation ${getMeditationNumberString()}`,
-      text: e.innerText,
-      url: window.location.href
-    };
-    try {
-      await navigator.share(shareData);
-    } catch(err) {
-      return
-    }
+      text: MEDITATIONS[currentMeditationIndex],
+      url: ''
+    });
+  } catch(err) {
+    return
   }
 }
 
