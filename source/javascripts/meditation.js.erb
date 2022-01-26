@@ -20,13 +20,15 @@ const MEDITATIONS_DICT_FROM_NUMBERS = {
 let currentMeditationIndex = undefined
 
 window.onload = function () {
-  if (navigator.canShare) {
-    const btn = document.querySelector('#meditation-footer-button-share');
-    btn.classList.remove("d-none");
-  }
   if (performance.navigation.type == performance.navigation.TYPE_RELOAD
   || tryLoadMeditationFromLocationHash()) {
     setRandomMeditation();
+  }
+
+  const data = getMeditationDataToShare()
+  if (navigator.canShare(data)) {
+    const btn = document.querySelector('#meditation-footer-button-share');
+    btn.classList.remove("d-none");
   }
 };
 
@@ -135,16 +137,21 @@ function getMeditationNumberString() {
   return window.location.hash.substring(1);
 }
 
+function getMeditationDataToShare() {
+  return {
+    title: `Marcus Aurelius's Meditation ${getMeditationNumberString()}`,
+    text: MEDITATIONS[currentMeditationIndex],
+    url: window.location.href
+  };
+}
+
 async function shareMeditation() {
-  if (!navigator.canShare) {
+  const data = getMeditationDataToShare()
+  if (!navigator.canShare(data)) {
     return;
   }
   try {
-    await navigator.share({
-      title: `Marcus Aurelius's Meditation ${getMeditationNumberString()}`,
-      text: MEDITATIONS[currentMeditationIndex],
-      url: window.location.href
-    });
+    await navigator.share(data);
   } catch(err) {
     return
   }
