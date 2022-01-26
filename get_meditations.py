@@ -5,7 +5,7 @@ import sys
 
 BOOK_REGEX = re.compile(r"Book [0-9]+")
 POINT_REGEX = re.compile(r"[0-9]+\.")
-ARTIFICIAL_LINE_BREAK_REGEX = re.compile(r"([a-zA-Z ]|,)\n+([a-zA-Z ])")
+ARTIFICIAL_LINE_BREAK_REGEX = re.compile(r"([a-zA-Z\- ]|,)\n+([a-zA-Z ])")
 
 with open('secret/meditations.txt', 'r') as file:
     data = file.read()
