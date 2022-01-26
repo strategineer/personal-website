@@ -140,7 +140,7 @@ function getMeditationNumberString() {
 function getMeditationDataToShare() {
   return {
     title: `Marcus Aurelius's Meditation ${getMeditationNumberString()}`,
-    text: MEDITATIONS[currentMeditationIndex] + " " + window.location.href
+    text: `${window.location.href}\n${MEDITATIONS[currentMeditationIndex]}`
   };
 }
 
