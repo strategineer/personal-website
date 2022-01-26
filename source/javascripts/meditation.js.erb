@@ -64,7 +64,7 @@ function searchForClickedWordInOtherMeditations() {
   s = window.getSelection();
   let range = s.getRangeAt(0);
   let node = s.anchorNode;
-  while(range.toString().indexOf(' ') != 0) {
+  while(range.toString().indexOf(' ') != 0 && range.toString().indexOf('—') != 0) {
     try {
       range.setStart(node,(range.startOffset -1));
     } catch {
@@ -78,8 +78,9 @@ function searchForClickedWordInOtherMeditations() {
     } catch {
       break;
     }
-  } while(range.toString().indexOf(' ') == -1 && range.toString().trim() != '');
+  } while(range.toString().indexOf(' ') == -1 && range.toString().indexOf('—') == -1 && range.toString().trim() != '');
   const term = range.toString().trim().replace(/^\W/g, '').replace(/\W$/g, '').toLowerCase();
+  //console.log(`term: ${term}`)
   setMeditationThroughSearchTerm(term);
 }
 
