@@ -56,16 +56,16 @@ POINT_REGEX = re.compile(r"[0-9]+\.")
 ~~~
 _This simple regex should be read as "find one or more digits followed by a dot". The '.' is a special regex character which refers to any character (it's a wildcard) so we must 'escape' its special meaning using a backslash._
 
-The text we've extracted from the PDF file has a ton of extra line breaks everywhere which we don't want because we're not planning on displaying the text in a fixed print format. The line breaks will be added as needed depending on whether someone is looking at the web page from a tiny phone or a gigantic computer screen.
+The text we've extracted from the PDF file has a ton of extra line breaks everywhere which we don't want because we're not planning on displaying the text in a fixed print format. The line breaks will be added as needed depending on whether you're using a tiny phone or a gigantic computer screen to use this tool.
 
 So, I wrote the following regex to find and remove all of these line breaks.
 
 ~~~ python
 ARTIFICIAL_LINE_BREAK_REGEX = re.compile(r"([a-zA-Z\-,\(\) ])\n+([a-zA-Z ])")
 ~~~
-_This less simple regex should be read as "find a letter, dash, comma, left parentheses, right parentheses or space followed by a newline followed a letter or space". Notice that we've put everything to the left of the newline in parentheses as well as everything to the right of the newline. These are called "groups" and are useful to separate the different parts of a regex. In this case, we use groups to detect the offending newlines (which we want to remove) separate from its surrounding characters (which we don't want to remove)._
+_This less simple regex should be read as "find a letter, dash, comma, left parentheses, right parentheses or space followed by a newline followed a letter or space". Notice that we've put everything to the left of the newline in parentheses as well as everything to the right of the newline. These are called "groups" and are useful to separate the different parts of a regex. In this case, we use groups to detect the offending newlines (which we want to remove) separate from there surrounding characters (which we don't want to remove)._
 
-Now that we have separated each book into each of its meditations in order. The script prints this data out in a JSON format (which we want so that we can reuse it elsewhere).
+We've separated each book into each of its meditations in order, and so now the script can print this data out in a JSON format which we can easily read and use elsewhere.
 
 ~~~ bash
 python3 get_meditations.py > data/meditations.json
@@ -73,11 +73,9 @@ python3 get_meditations.py > data/meditations.json
 
 ## Make use of the Meditations in our code
 
-My entire website is built using [Middleman 4](https://middlemanapp.com/) which is a static site generator. It helps you make static web pages (which unlike dynamic web pages, are served to your browser exactly how they are stored on the server) by making it easier to separate your content from its layout and look.
+The website you're on currently is built using [Middleman 4](https://middlemanapp.com/). Middleman helps you make static web pages by making it easier to separate your content from its layout and look.
 
 This allows me to define how my blog posts look in one place (updating the look if needed over time) while making it easy for me to write new blog posts without having to think about how they're going to look while I'm writing them.
-
-I can either focus on the look or the content, I don't need to be thinking about both at all times.
 
 So now, we have a JSON file containing all of the insightful and, sometimes, cringe meditations.
 
@@ -92,7 +90,7 @@ So now, we have a JSON file containing all of the insightful and, sometimes, cri
 
 All the web pages on my website are "static" but that doesn't mean that I can't do anything "dynamic" in them. I can, as long as I do it using javascript (which runs locally in your browser).
 
-Using the Embedded RuBy (ERB) templating engine, we can read all the meditations from the JSON file we generated earlier then stamp it directly into the client-side javascript file (that's responsible for making the meditations tool work).
+Using the Embedded RuBy (ERB) templating engine, we can read all the meditations from the JSON file we generated earlier then paste them directly into the client-side javascript code (that's going to be responsible for making the meditations tool work).
 
 Separating our data from our code is useful (it usually is), because we can change our data without needing to change our code. I did this every time I tweaked the complex "line break removing" regex while I was trying to get it to work properly and cover all of the weird edge cases.
 
@@ -104,9 +102,9 @@ I built it up in layers.
 
 I started by implementing the core functionality of showing a random meditation every time the page was loaded.
 
-Then, I added the meditation's book and number as a hash to the URL allowing users to share or refer to specific meditations as well as navigate back and forth between meditations that they've read.
+Then, I added the meditation's book and number as a hash to the URL allowing you to share or refer to specific meditations as well as navigate back and forth between meditations that you've read.
 
-Finally, I added a feature allowing users to click/tap on a word in a meditation to randomly show another meditation containing that same word. This allows users to browse through meditations that cover similar topics which makes it easier to discover the nuances and, sometimes, contradictions in them.
+Finally, I added a feature allowing you to click/tap on a word in a meditation to randomly show another meditation containing that same word. This allows you to browse through meditations that cover similar topics which makes it easier for you to discover the nuances and, sometimes, contradictions in them.
 
 All throughout this process, I played around with the look and feel of the tool using my decent knowlege of CSS and [Bootstrap](https://getbootstrap.com/) (which I've been cultivating my entire career).
 
