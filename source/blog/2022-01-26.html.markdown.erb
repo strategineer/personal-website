@@ -54,7 +54,7 @@ So, I wrote the following regex to separate each book into each of its meditatio
 ~~~ python
 POINT_REGEX = re.compile(r"[0-9]+\.")
 ~~~
-_This simple regex should be read as "find one or more digits followed by a dot". The '.' is a special character within the regex language so we must 'escape' it using a backslash._
+_This simple regex should be read as "find one or more digits followed by a dot". The '.' is a special regex character which refers to any character (it's a wildcard) so we must 'escape' its special meaning using a backslash._
 
 The text we've extracted from the PDF file has a ton of extra line breaks everywhere which we don't want because we're not planning on displaying the text in a fixed print format. The line breaks will be added as needed depending on whether someone is looking at the web page from a tiny phone or a gigantic computer screen.
 
