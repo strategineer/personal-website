@@ -9,6 +9,10 @@ async function onNavigateToSteam() {
   await setRandomDiscovery();
 }
 
+function getGameUrlFromKey(key) {
+  return `https://store.steampowered.com/app/${key}/`;
+}
+
 
 ExplorerImp = {
   map: games,
@@ -21,17 +25,18 @@ ExplorerImp = {
     }
     let gameUrlElement = document.getElementById("explorer-game-url");
     if(typeof gameUrlElement !== 'undefined' && gameUrlElement !== null) {
-      const url = `https://store.steampowered.com/app/${key}/`
-      gameUrlElement.href = url;
-      gameUrlElement.innerText = url;
+      const gameUrl = getGameUrlFromKey(key);
+      gameUrlElement.href = gameUrl;
+      gameUrlElement.innerText = gameUrl;
     }
   },
   generateShareData: function () {
     const gameName = ExplorerImp.map.get(ExplorerImp.currentKey);
+    const gameUrl = getGameUrlFromKey(key);
     return {
-      title: `Find a Steam Game`,
-      text: gameName,
-      url: window.location.href
+      title: `Infinite Steam Queue - ${gameName}`,
+      text: window.location.href,
+      url: gameUrl
     }
   },
   onClickWord: async function (word) {}
