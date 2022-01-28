@@ -1,0 +1,35 @@
+let meditations = new Map();
+<% data.meditations.each_with_index do |g, i| %>
+<%= "meditations.set(\"#{g[0, g.index("\n")]}\"" + "," + "\`#{g}\`);" %>
+<% end %>
+let meditationKeys =[ ...meditations.keys() ];
+
+function getAllMeditationKeys(term) {
+  let keys = [], i;
+  for(i = 0; i < ExplorerImp.map.size; i++) {
+    const key = ExplorerImp.keys[i]
+    if (key == ExplorerImp.currentKey)
+      continue;
+    if (ExplorerImp.map.get(key).toLowerCase().includes(term))
+      keys.push(key);
+  }
+  return keys;
+}
+
+
+ExplorerImp = {
+  map: meditations,
+  keys: meditationKeys,
+  currentKey: undefined,
+  generateShareData: function () {
+    return {
+      title: `Marcus Aurelius's Meditation ${ExplorerImp.currentKey}`,
+      text: ExplorerImp.map.get(ExplorerImp.currentKey),
+      url: window.location.href
+    }
+  },
+  onClickWord: function (word) {
+    const key = pickOne(getAllMeditationKeys(word));
+    setDiscovery(key);
+  }
+}

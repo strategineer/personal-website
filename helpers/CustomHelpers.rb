@@ -709,9 +709,9 @@ module CustomHelpers
     }
   end
 
-  def should_have_meditation?(page)
-    unless page.data.has_meditation.nil?
-      return page.data.has_meditation
+  def should_have_explorer?(page)
+    unless page.data.is_explorer.nil?
+      return page.data.is_explorer
     end
     return false
   end

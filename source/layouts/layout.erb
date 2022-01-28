@@ -56,13 +56,16 @@
         <% end %>
       </div>
     </div>
-    <% should_have_meditation = should_have_meditation?(current_page) %>
-    <% if not should_have_meditation %>
+    <% should_have_explorer = should_have_explorer?(current_page) %>
+    <% if not should_have_explorer %>
       <%= partial "to_top" %>
     <% end %>
     <%= javascript_include_tag "site" %>
-    <% if should_have_meditation %>
-      <%= javascript_include_tag "meditation" %>
+    <% if should_have_explorer %>
+      <%= javascript_include_tag "explorer" %>
+    <% end %>
+    <% if current_page.destination_path.end_with?("meditations/index.html") %>
+      <%= javascript_include_tag "meditations" %>
     <% end %>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

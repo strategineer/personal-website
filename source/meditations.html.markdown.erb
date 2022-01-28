@@ -1,11 +1,11 @@
 ---
 title: "Marcus Aurelius' Meditations Explorer"
 is_readable: true
-has_meditation: true
+is_explorer: true
 ---
 <div class="jumbotron-fluid" style="margin: auto;">
   <div class="container">
-    <p id="explorer-text" onclick="searchForClickedWordInOtherMeditations()">Loading.</p>
+    <p id="explorer-text" onclick="detectClickOnDiscovery()">Loading.</p>
     <p class="lead">
       <a class="explorer-info-link text-muted" href="https://en.wikipedia.org/wiki/Meditations">excerpt from Marcus Aurelius' Meditations</a>
     </p>
@@ -14,5 +14,5 @@ has_meditation: true
     </span>
   </div>
 </div>
-<a id="explorer-footer-button-another" class="btn explorer-footer-button" onclick="setRandomMeditation()" role="button">Another?</a>
-<a id="explorer-footer-button-share" class="btn explorer-footer-button d-none" onclick="shareMeditation()" role="button">Share</a>
+<a id="explorer-footer-button-another" class="btn explorer-footer-button" onclick="setRandomDiscovery()" role="button">Another?</a>
+<a id="explorer-footer-button-share" class="btn explorer-footer-button d-none" onclick="shareDiscovery()" role="button">Share</a>
