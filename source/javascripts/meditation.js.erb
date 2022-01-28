@@ -1,23 +1,10 @@
-const MEDITATIONS = [
-  <% data.meditations.each_with_index do |g, i| %>
-    <%= "\`#{g}\`" %><%= ',' unless i == data.meditations.length-1 %>
-  <% end %>
-];
+let meditations = new Map();
+<% data.meditations.each_with_index do |g, i| %>
+<%= "meditations.set(\"#{g[0, g.index("\n")]}\"" + "," + "\`#{g}\`);" %>
+<% end %>
+let meditationKeys =[ ...meditations.keys() ];
 
-const MEDITATIONS_DICT_FROM_INDEX = {
-  <% data.meditations.each_with_index do |g, i| %>
-    <%= "#{i}" + ":" + "\"#{g[0, g.index("\n")]}\"" %><%= ',' unless i == data.meditations.length-1 %>
-  <% end %>
-};
-
-const MEDITATIONS_DICT_FROM_NUMBERS = {
-  <% data.meditations.each_with_index do |g, i| %>
-    <%= "\"#{g[0, g.index("\n")]}\"" + ":" + "#{i}" %><%= ',' unless i == data.meditations.length-1 %>
-  <% end %>
-};
-
-
-let currentMeditationIndex = undefined
+let currentKey = undefined
 
 window.onload = function () {
   if (performance.navigation.type == performance.navigation.TYPE_RELOAD
@@ -27,7 +14,7 @@ window.onload = function () {
 
   const data = getMeditationDataToShare()
   if (navigator.canShare(data)) {
-    const btn = document.querySelector('#meditation-footer-button-share');
+    const btn = document.querySelector('#explorer-footer-button-share');
     btn.classList.remove("d-none");
   }
 };
@@ -35,11 +22,11 @@ window.onload = function () {
 function tryLoadMeditationFromLocationHash() {
   //console.log(window.location.hash);
   if(window.location.hash) {
-    const meditationIndex = MEDITATIONS_DICT_FROM_NUMBERS[getMeditationNumberString()]
-    //console.log(meditationIndex);
-    if(isValidMeditationIndex(meditationIndex)) {
-      //console.log("Setting meditation from hash: " + meditationIndex)
-      setMeditation(meditationIndex);
+    const key = window.location.hash.substring(1)
+    //console.log(key);
+    if(isValidMeditationKey(key)) {
+      //console.log("Setting meditation from hash: " + key)
+      setMeditation(key);
       return false;
     }
   }
@@ -86,61 +73,53 @@ function searchForClickedWordInOtherMeditations() {
   setMeditationThroughSearchTerm(term);
 }
 
-function isValidMeditationIndex(meditationIndex) {
-  if(typeof meditationIndex !== 'undefined' && meditationIndex !== null) {
-    if(0 <= meditationIndex && meditationIndex < MEDITATIONS.length) {
-      return true;
-    }
-  }
-  return false;
+function isValidMeditationKey(key) {
+  return meditations.has(key)
 }
 
-function setMeditation(meditationIndex) {
-  if(!isValidMeditationIndex(meditationIndex)) {
+function setMeditation(key) {
+  if(!isValidMeditationKey(key)) {
     return;
   }
-  currentMeditationIndex = meditationIndex;
-  //console.log("Setting meditation to: " + meditationIndex)
-  let meditation = MEDITATIONS[meditationIndex]
-  let e = document.getElementById("meditation")
+  currentKey = key;
+  //console.log("Setting meditation to: " + key)
+  let meditation = meditations.get(key)
+  let e = document.getElementById("explorer-text")
   if(typeof e !== 'undefined' && e !== null) {
     e.innerText = meditation;
-    window.location.hash = MEDITATIONS_DICT_FROM_INDEX[meditationIndex]
+    window.location.hash = key
   }
 }
 
-function getAllMeditationIndexes(term) {
-  let indexes = [], i;
-  for(i = 0; i < MEDITATIONS.length; i++) {
-    if (i == currentMeditationIndex)
+function getAllMeditationKeys(term) {
+  let keys = [], i;
+  for(i = 0; i < meditations.size; i++) {
+    const key = meditationKeys[i]
+    if (key == currentKey)
       continue;
-    if (MEDITATIONS[i].toLowerCase().includes(term))
-      indexes.push(i);
+    if (meditations.get(key).toLowerCase().includes(term))
+      keys.push(key);
   }
-  //console.log(`Number of choices: ${indexes}`)
-  return indexes;
+  //console.log(`Number of choices: ${keys}`)
+  return keys;
 }
 
 function setMeditationThroughSearchTerm(term) {
-  const meditationIndex = pickOne(getAllMeditationIndexes(term));
-  //console.log("Setting meditation through search term: " + meditationIndex)
-  setMeditation(meditationIndex);
+  const key = pickOne(getAllMeditationKeys(term));
+  //console.log("Setting meditation through search term: " + meditationKeys)
+  setMeditation(key);
 }
 
 function setRandomMeditation() {
-  const meditationIndex = pickIndex(MEDITATIONS);
-  //console.log("Setting random meditation: " + meditationIndex)
-  setMeditation(meditationIndex);
-}
-
-function getMeditationNumberString() {
-  return window.location.hash.substring(1);
+  const key = pickOne(meditationKeys);
+  //console.log("Setting random meditation: " + key)
+  setMeditation(key);
 }
 
 function getMeditationDataToShare() {
   return {
-    title: `Marcus Aurelius's Meditation ${getMeditationNumberString()}`,
-    text: MEDITATIONS[currentMeditationIndex],
+    title: `Marcus Aurelius's Meditation ${currentKey}`,
+    text: meditations.get(currentKey),
     url: window.location.href
   };
 }
