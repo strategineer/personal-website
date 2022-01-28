@@ -61,16 +61,16 @@ function setDiscovery(key) {
     return;
   }
   ExplorerImp.currentKey = key;
-  let meditation = ExplorerImp.map.get(key)
-  let e = document.getElementById("explorer-text")
-  if(typeof e !== 'undefined' && e !== null) {
-    e.innerText = meditation;
-    window.location.hash = key
-  }
+  window.location.hash = key
+  const discovery = ExplorerImp.map.get(key);
+  ExplorerImp.onSetDiscovery(discovery);
 }
 
 function setRandomDiscovery() {
-  const key = pickOne(ExplorerImp.keys);
+  let key = undefined
+  do {
+    key = pickOne(ExplorerImp.keys);
+  } while(ExplorerImp.size > 1 && key === ExplorerImp.currentKey)
   setDiscovery(key);
 }
 

@@ -21,6 +21,12 @@ ExplorerImp = {
   map: meditations,
   keys: meditationKeys,
   currentKey: undefined,
+  onSetDiscovery: function (discovery) {
+    let e = document.getElementById("explorer-text")
+    if(typeof e !== 'undefined' && e !== null) {
+      e.innerText = discovery;
+    }
+  },
   generateShareData: function () {
     return {
       title: `Marcus Aurelius's Meditation ${ExplorerImp.currentKey}`,
