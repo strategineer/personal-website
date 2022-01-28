@@ -6,11 +6,14 @@ fi
 
 ./remove_location_data_from_images.sh
 
+curl "http://api.steampowered.com/ISteamApps/GetAppList/v0002/?format=json" -o data/steamgames.json
+
 git add .
 git commit -m "$1"
 git push
 
 PROJECT_OUTPUT_DIRECTORY=~/projects/keikakub.github.io 
+
 
 bundle exec middleman build
 

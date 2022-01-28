@@ -10,21 +10,24 @@ window.onload = function () {
   }
 };
 
-function tryLoadFromLocationHash() {
+async function tryLoadFromLocationHash() {
   if(window.location.hash) {
     const key = window.location.hash.substring(1)
     if(ExplorerImp.map.has(key)) {
-      setDiscovery(key);
+      await setDiscovery(key);
       return false;
     }
   }
   return true;
 }
 
-window.onhashchange = tryLoadFromLocationHash;
+
+window.onhashchange = async function() {
+  await tryLoadFromLocationHash();
+};
 
 
-document.body.onkeyup = function(e){
+document.body.onkeyup = async function(e){
   if(e.keyCode == 32 // space
     || e.keyCode == 13 // enter
   ){
@@ -32,7 +35,10 @@ document.body.onkeyup = function(e){
   }
 }
 
-function detectClickOnDiscovery() {
+async function detectClickOnDiscovery() {
+  if (ExplorerImp.onClickWord === undefined) {
+    return;
+  }
   s = window.getSelection();
   let range = s.getRangeAt(0);
   let node = s.anchorNode;
@@ -52,26 +58,26 @@ function detectClickOnDiscovery() {
     }
   } while(range.toString().indexOf(' ') == -1 && range.toString().indexOf('—') == -1 && range.toString().trim() != '');
   const term = range.toString().trim().replace(/^\W/g, '').replace(/\W$/g, '').toLowerCase();
-  ExplorerImp.onClickWord(term);
+  await ExplorerImp.onClickWord(term);
 }
 
 
-function setDiscovery(key) {
+async function setDiscovery(key) {
   if(!ExplorerImp.map.has(key)) {
     return;
   }
   ExplorerImp.currentKey = key;
   window.location.hash = key
   const discovery = ExplorerImp.map.get(key);
-  ExplorerImp.onSetDiscovery(discovery);
+  await ExplorerImp.onSetDiscovery(key, discovery);
 }
 
-function setRandomDiscovery() {
+async function setRandomDiscovery() {
   let key = undefined
   do {
     key = pickOne(ExplorerImp.keys);
   } while(ExplorerImp.size > 1 && key === ExplorerImp.currentKey)
-  setDiscovery(key);
+  await setDiscovery(key);
 }
 
 async function shareDiscovery() {

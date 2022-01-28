@@ -1,0 +1,38 @@
+let games = new Map();
+<% data.steamgames.applist.apps.each do |g| %>
+<%= "games.set(\"#{g.appid}\"" + "," + "\`#{g.name.gsub("`", "")}\`);" %>
+<% end %>
+let gameKeys =[ ...games.keys() ];
+
+async function onNavigateToSteam() {
+  await new Promise(resolve => setTimeout(resolve, 250));
+  await setRandomDiscovery();
+}
+
+
+ExplorerImp = {
+  map: games,
+  keys: gameKeys,
+  currentKey: undefined,
+  onSetDiscovery: async function (key, discovery) {
+    let gameNameElement = document.getElementById("explorer-game-name");
+    if(typeof gameNameElement !== 'undefined' && gameNameElement !== null) {
+      gameNameElement.innerText = discovery;
+    }
+    let gameUrlElement = document.getElementById("explorer-game-url");
+    if(typeof gameUrlElement !== 'undefined' && gameUrlElement !== null) {
+      const url = `https://store.steampowered.com/app/${key}/`
+      gameUrlElement.href = url;
+      gameUrlElement.innerText = url;
+    }
+  },
+  generateShareData: function () {
+    const gameName = ExplorerImp.map.get(ExplorerImp.currentKey);
+    return {
+      title: `Find a Steam Game`,
+      text: gameName,
+      url: window.location.href
+    }
+  },
+  onClickWord: async function (word) {}
+}
