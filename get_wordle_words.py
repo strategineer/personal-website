@@ -34,9 +34,10 @@ ENGLISH_LETTER_FREQUENCY_IN_DICTIONARIES_DICT = {
 
 
 def compute_wordle_value(s):
-    if len(s) != len(set(s)):
-        return -1
     n = 0
+    if len(s) == len(set(s)):
+        # no duplicates, that's usually good
+        n += 100
     for c in s:
         n += ENGLISH_LETTER_FREQUENCY_IN_DICTIONARIES_DICT[c]
     return n
