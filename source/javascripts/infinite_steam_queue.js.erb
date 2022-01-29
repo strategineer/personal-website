@@ -27,13 +27,15 @@ ExplorerImp = {
     let gameListElement = document.getElementById("explorer-game-list");
     gameListElement.innerText = "";
     for (const d of discoveries) {
-      let gameNameElement = document.createElement("a");
-      gameNameElement.classList.add("display-6");
+      let gameNameElement = document.createElement("p");
       gameNameElement.innerText = d.discovery;
-      gameNameElement.target = "_blank";
-      gameNameElement.href = getGameUrlFromKey(d.key);
       gameListElement.appendChild(gameNameElement);
-      gameListElement.appendChild(document.createElement("hr"));
+      let gameEmbedElement = document.createElement("iframe");
+      gameEmbedElement.src = `https://store.steampowered.com/widget/${d.key}/`;
+      gameEmbedElement.frameborder = 0;
+      gameEmbedElement.width = "100%";
+      gameEmbedElement.height = 190;
+      gameListElement.appendChild(gameEmbedElement);
     }
   },
   generateShareData: function (discoveries) {
