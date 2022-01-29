@@ -13,12 +13,19 @@ function getGameUrlFromKey(key) {
   return `https://store.steampowered.com/app/${key}/`;
 }
 
+let gameCounter = 0
 
 ExplorerImp = {
   map: games,
   keys: gameKeys,
   currentKey: undefined,
   onSetDiscovery: async function (key, discovery) {
+    console.log(`onSetDiscovery: ${key} -> ${discovery}`)
+    gameCounter += 1;
+    let gameQueueElement = document.getElementById("explorer-queue-count");
+    if(typeof gameQueueElement !== 'undefined' && gameQueueElement !== null) {
+      gameQueueElement.innerText = `${gameCounter} / ${ExplorerImp.map.size} games/DLCs/movies/shows seen so far.`;
+    }
     let gameNameElement = document.getElementById("explorer-game-name");
     if(typeof gameNameElement !== 'undefined' && gameNameElement !== null) {
       gameNameElement.innerText = discovery;
@@ -30,12 +37,12 @@ ExplorerImp = {
       gameUrlElement.innerText = gameUrl;
     }
   },
-  generateShareData: function () {
-    const gameName = ExplorerImp.map.get(ExplorerImp.currentKey);
+  generateShareData: function (key) {
+    const gameTitle = `Infinite Steam Queue - ${ExplorerImp.map.get(key)}`
     const gameUrl = getGameUrlFromKey(key);
     return {
-      title: `Infinite Steam Queue - ${gameName}`,
-      text: window.location.href,
+      title: gameTitle,
+      text: gameTitle,
       url: gameUrl
     }
   },

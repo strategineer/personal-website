@@ -4,7 +4,7 @@ window.onload = function () {
     setRandomDiscovery();
   }
 
-  if (navigator.canShare(ExplorerImp.generateShareData())) {
+  if (navigator.canShare(ExplorerImp.generateShareData(ExplorerImp.currentKey))) {
     const btn = document.querySelector('#explorer-footer-button-share');
     btn.classList.remove("d-none");
   }
@@ -63,7 +63,7 @@ async function detectClickOnDiscovery() {
 
 
 async function setDiscovery(key) {
-  if(!ExplorerImp.map.has(key)) {
+  if(!ExplorerImp.map.has(key) || ExplorerImp.currentKey == key) {
     return;
   }
   ExplorerImp.currentKey = key;
