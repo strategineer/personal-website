@@ -2,14 +2,14 @@ console.log = function() {}
 
 const SPLIT_CHARACTER = ",";
 
-window.onload = async function () {
+window.onload = function () {
   if (performance.navigation.type == performance.navigation.TYPE_RELOAD
   || tryLoadFromLocationHash()) {
-    await ExplorerImp.onDefaultActionActivated();
+    ExplorerImp.onDefaultActionActivated();
   }
 };
 
-async function tryLoadFromLocationHash() {
+function tryLoadFromLocationHash() {
   console.log(`tryLoadFromLocationHash()`);
   if(window.location.hash) {
     const hash = window.location.hash.substring(1)
@@ -19,29 +19,29 @@ async function tryLoadFromLocationHash() {
     } else {
       keys = [hash];
     }
-    await setDiscovery(keys);
+    setDiscovery(keys);
     return false;
   }
   return true;
 }
 
 
-window.onhashchange = async function() {
-  await tryLoadFromLocationHash();
+window.onhashchange = function() {
+  tryLoadFromLocationHash();
 };
 
 
-document.body.onkeyup = async function(e){
+document.body.onkeyup = function(e){
   if(e.keyCode == 32 // space
     || e.keyCode == 13 // enter
   ){
     if (ExplorerImp.onDefaultActionActivated !== undefined) {
-      await ExplorerImp.onDefaultActionActivated();
+      ExplorerImp.onDefaultActionActivated();
     }
   }
 }
 
-async function detectClickOnDiscovery() {
+function detectClickOnDiscovery() {
   console.log(`detectClickOnDiscovery()`);
   if (ExplorerImp.onClickWord === undefined) {
     return;
@@ -65,7 +65,7 @@ async function detectClickOnDiscovery() {
     }
   } while(range.toString().indexOf(' ') == -1 && range.toString().indexOf('—') == -1 && range.toString().trim() != '');
   const term = range.toString().trim().replace(/^\W/g, '').replace(/\W$/g, '').toLowerCase();
-  await ExplorerImp.onClickWord(term);
+  ExplorerImp.onClickWord(term);
 }
 
 function getDiscoveries(keys) {
@@ -77,7 +77,7 @@ function getDiscoveries(keys) {
 }
 
 
-async function setDiscovery(keys) {
+function setDiscovery(keys) {
   console.log(`setDiscovery(${keys})`);
   if (ExplorerImp.currentKeys !== undefined && ExplorerImp.currentKeys.length == keys.length) {
     let allEqual = true;
@@ -102,7 +102,7 @@ async function setDiscovery(keys) {
   ExplorerImp.currentKeys = keys;
   window.location.hash = keys.join(SPLIT_CHARACTER);
   const discoveries = getDiscoveries(keys);
-  await ExplorerImp.onSetDiscovery(discoveries);
+  ExplorerImp.onSetDiscovery(discoveries);
   if (navigator.canShare(ExplorerImp.generateShareData(discoveries))) {
     const btn = document.querySelector('#explorer-footer-button-share');
     btn.classList.remove("d-none");
@@ -110,7 +110,7 @@ async function setDiscovery(keys) {
 }
 
 
-async function setNextDiscovery() {
+function setNextDiscovery() {
   console.log(`setNextDiscovery()`);
   if (ExplorerImp.currentIndex  === undefined) {
     ExplorerImp.currentIndex = pickIndex(ExplorerImp.keys);
@@ -124,10 +124,10 @@ async function setNextDiscovery() {
     const key = ExplorerImp.keys[nextIndex];
     keys.push(key);
   }
-  await setDiscovery(keys);
+  setDiscovery(keys);
 }
 
-async function setRandomDiscovery() {
+function setRandomDiscovery() {
   console.log(`setRandomDiscovery()`);
   let keys = [];
   for (let i = 0; i < ExplorerImp.count; ++i) {
@@ -136,20 +136,20 @@ async function setRandomDiscovery() {
     do {
       key = pickOne(ExplorerImp.keys);
       ++n_sanity;
-    } while (n_sanity < 100 && (keys.includes(key) || ExplorerImp.currentKeys.includes(key)));
+    } while (n_sanity < 100 && (keys.includes(key) || ExplorerImp.currentKeys !== undefined && ExplorerImp.currentKeys.includes(key)));
     keys.push(key);
   }
-  await setDiscovery(keys);
+  setDiscovery(keys);
 }
 
-async function shareDiscovery() {
+function shareDiscovery() {
   console.log(`shareDiscovery()`);
   const data = ExplorerImp.generateShareData(getDiscoveries(ExplorerImp.currentKeys));
   if (!navigator.canShare(data)) {
     return;
   }
   try {
-    await navigator.share(data);
+    navigator.share(data);
   } catch(err) {
     return
   }

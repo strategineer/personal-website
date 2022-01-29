@@ -14,10 +14,10 @@ ExplorerImp = {
   map: games,
   keys: gameKeys.sort((a, b) => 0.5 - Math.random()),
   count: 5,
-  onDefaultActionActivated: async function () {
-    await setNextDiscovery();
+  onDefaultActionActivated: function () {
+    setNextDiscovery();
   },
-  onSetDiscovery: async function (discoveries) {
+  onSetDiscovery: function (discoveries) {
     gameCounter += discoveries.length;
     let gameQueueElement = document.getElementById("explorer-queue-count");
     if(typeof gameQueueElement !== 'undefined' && gameQueueElement !== null) {
@@ -47,5 +47,5 @@ ExplorerImp = {
       url: window.location.href
     }
   },
-  onClickWord: async function (word) {}
+  onClickWord: function (word) {}
 }
