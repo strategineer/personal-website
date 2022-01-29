@@ -12,8 +12,10 @@ let gameCounter = 0
 
 ExplorerImp = {
   map: games,
-  keys: gameKeys,
-  currentKey: undefined,
+  keys: gameKeys.sort((a, b) => 0.5 - Math.random()),
+  onDefaultActionActivated: async function () {
+    await setNextDiscovery();
+  },
   onSetDiscovery: async function (key, discovery) {
     gameCounter += 1;
     let gameQueueElement = document.getElementById("explorer-queue-count");

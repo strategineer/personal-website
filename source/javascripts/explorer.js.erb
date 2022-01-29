@@ -1,16 +1,14 @@
-window.onload = function () {
+console.log = function() {}
+
+window.onload = async function () {
   if (performance.navigation.type == performance.navigation.TYPE_RELOAD
   || tryLoadFromLocationHash()) {
-    setRandomDiscovery();
-  }
-
-  if (navigator.canShare(ExplorerImp.generateShareData(ExplorerImp.currentKey))) {
-    const btn = document.querySelector('#explorer-footer-button-share');
-    btn.classList.remove("d-none");
+    await ExplorerImp.onDefaultActionActivated();
   }
 };
 
 async function tryLoadFromLocationHash() {
+  console.log(`tryLoadFromLocationHash()`);
   if(window.location.hash) {
     const key = window.location.hash.substring(1)
     if(ExplorerImp.map.has(key) && ExplorerImp.currentKey !== key) {
@@ -31,11 +29,14 @@ document.body.onkeyup = async function(e){
   if(e.keyCode == 32 // space
     || e.keyCode == 13 // enter
   ){
-    setRandomDiscovery();
+    if (ExplorerImp.onDefaultActionActivated !== undefined) {
+      await ExplorerImp.onDefaultActionActivated();
+    }
   }
 }
 
 async function detectClickOnDiscovery() {
+  console.log(`detectClickOnDiscovery()`);
   if (ExplorerImp.onClickWord === undefined) {
     return;
   }
@@ -63,6 +64,7 @@ async function detectClickOnDiscovery() {
 
 
 async function setDiscovery(key) {
+  console.log(`setDiscovery(${key})`);
   if(!ExplorerImp.map.has(key)) {
     return;
   }
@@ -70,9 +72,29 @@ async function setDiscovery(key) {
   window.location.hash = key
   const discovery = ExplorerImp.map.get(key);
   await ExplorerImp.onSetDiscovery(key, discovery);
+
+  if (navigator.canShare(ExplorerImp.generateShareData(key))) {
+    const btn = document.querySelector('#explorer-footer-button-share');
+    btn.classList.remove("d-none");
+  }
+}
+
+
+async function setNextDiscovery() {
+  console.log(`setNextDiscovery()`);
+  if (ExplorerImp.currentIndex  === undefined) {
+    ExplorerImp.currentIndex = pickIndex(ExplorerImp.keys);
+  }
+  console.log(`${ExplorerImp.currentIndex}`);
+  const nextIndex = (ExplorerImp.currentIndex + 1) % ExplorerImp.keys.length;
+  console.log(`${ExplorerImp.currentIndex} -> ${nextIndex}`);
+  ExplorerImp.currentIndex = nextIndex;
+  const key = ExplorerImp.keys[nextIndex];
+  await setDiscovery(key);
 }
 
 async function setRandomDiscovery() {
+  console.log(`setRandomDiscovery()`);
   let key = undefined
   do {
     key = pickOne(ExplorerImp.keys);
@@ -81,6 +103,7 @@ async function setRandomDiscovery() {
 }
 
 async function shareDiscovery() {
+  console.log(`shareDiscovery()`);
   const data = ExplorerImp.generateShareData();
   if (!navigator.canShare(data)) {
     return;

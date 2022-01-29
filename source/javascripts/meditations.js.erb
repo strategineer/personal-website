@@ -20,7 +20,9 @@ function getAllMeditationKeys(term) {
 ExplorerImp = {
   map: meditations,
   keys: meditationKeys,
-  currentKey: undefined,
+  onDefaultActionActivated: async function () {
+    await setRandomDiscovery();
+  },
   onSetDiscovery: async function (key, discovery) {
     let e = document.getElementById("explorer-text")
     if(typeof e !== 'undefined' && e !== null) {
