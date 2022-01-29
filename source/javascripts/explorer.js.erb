@@ -1,4 +1,4 @@
-// console.log = function() {}
+console.log = function() {}
 
 const SPLIT_CHARACTER = ",";
 
@@ -132,9 +132,11 @@ async function setRandomDiscovery() {
   let keys = [];
   for (let i = 0; i < ExplorerImp.count; ++i) {
     let key = undefined;
+    let n_sanity = 0;
     do {
       key = pickOne(ExplorerImp.keys);
-    } while (ExplorerImp.size > 1 && ExplorerImp.currentKeys.includes(key));
+      ++n_sanity;
+    } while (n_sanity < 100 && (keys.includes(key) || ExplorerImp.currentKeys.includes(key)));
     keys.push(key);
   }
   await setDiscovery(keys);
