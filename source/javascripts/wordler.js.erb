@@ -4,7 +4,7 @@ let words = new Map();
 <% end %>
 let wordKeys =[ ...words.keys() ];
 
-function letsGo() {
+function updateGuesses() {
   setAllDiscovery();
 }
 
@@ -16,24 +16,84 @@ ExplorerImp = {
     setAllDiscovery();
   },
   keysFilter: function (key) {
-    const l1 = document.getElementById("letter1").value || "[a-z]";
-    const l2 = document.getElementById("letter2").value || "[a-z]";
-    const l3 = document.getElementById("letter3").value || "[a-z]";
-    const l4 = document.getElementById("letter4").value || "[a-z]";
-    const l5 = document.getElementById("letter5").value || "[a-z]";
-    const unplacedLetters  = document.getElementById("lettersUnplaced").value;
+
     const unusedLetters = document.getElementById("lettersNotUsed").value;
-    let re = new RegExp(`^${l1}${l2}${l3}${l4}${l5}$`);
-    for (const l of unplacedLetters) {
-      if (!key.includes(l)) {
-        return false
-      }
-    }
     for (const l of unusedLetters) {
       if (key.includes(l)) {
         return false
       }
     }
+
+    const aL1 = document.getElementById("aLetterUnplaced1").value || '';
+    const aL2 = document.getElementById("aLetterUnplaced2").value || '';
+    const aL3 = document.getElementById("aLetterUnplaced3").value || '';
+    const aL4 = document.getElementById("aLetterUnplaced4").value || '';
+    const aL5 = document.getElementById("aLetterUnplaced5").value || '';
+    const bL1 = document.getElementById("bLetterUnplaced1").value || '';
+    const bL2 = document.getElementById("bLetterUnplaced2").value || '';
+    const bL3 = document.getElementById("bLetterUnplaced3").value || '';
+    const bL4 = document.getElementById("bLetterUnplaced4").value || '';
+    const bL5 = document.getElementById("bLetterUnplaced5").value || '';
+    const cL1 = document.getElementById("cLetterUnplaced1").value || '';
+    const cL2 = document.getElementById("cLetterUnplaced2").value || '';
+    const cL3 = document.getElementById("cLetterUnplaced3").value || '';
+    const cL4 = document.getElementById("cLetterUnplaced4").value || '';
+    const cL5 = document.getElementById("cLetterUnplaced5").value || '';
+    const dL1 = document.getElementById("dLetterUnplaced1").value || '';
+    const dL2 = document.getElementById("dLetterUnplaced2").value || '';
+    const dL3 = document.getElementById("dLetterUnplaced3").value || '';
+    const dL4 = document.getElementById("dLetterUnplaced4").value || '';
+    const dL5 = document.getElementById("dLetterUnplaced5").value || '';
+
+    const l1 = document.getElementById("letter1").value || '';
+    const l2 = document.getElementById("letter2").value || '';
+    const l3 = document.getElementById("letter3").value || '';
+    const l4 = document.getElementById("letter4").value || '';
+    const l5 = document.getElementById("letter5").value || '';
+
+
+    const confirmedLetters = `${l1}${l2}${l3}${l4}${l5}${aL1}${aL2}${aL3}${aL4}${aL5}${bL1}${bL2}${bL3}${bL4}${bL5}${cL1}${cL2}${cL3}${cL4}${cL5}${dL1}${dL2}${dL3}${dL4}${dL5}`;
+    for (const l of confirmedLetters) {
+      if (!key.includes(l)) {
+        return false
+      }
+    }
+
+    let r1, r2, r3, r4, r5;
+    const anythingExceptLetters = `[^${unusedLetters}]`
+    r1 = anythingExceptLetters;
+    r2 = anythingExceptLetters;
+    r3 = anythingExceptLetters;
+    r4 = anythingExceptLetters;
+    r5 = anythingExceptLetters;
+
+    if (l1) {
+      r1 = l1;
+    } else if (aL1 || bL1 || cL1 || dL1) {
+      r1 = `[^${aL1}${bL1}${cL1}${dL1}]`;
+    }
+    if (l2) {
+      r2 = l2;
+    } else if (aL2 || bL2 || cL2 || dL2) {
+      r2 = `[^${aL2}${bL2}${cL2}${dL2}]`;
+    }
+    if (l3) {
+      r3 = l3;
+    } else if (aL3 || bL3 || cL3 || dL3) {
+      r3 = `[^${aL3}${bL3}${cL3}${dL3}]`;
+    }
+    if (l4) {
+      r4 = l4;
+    } else if (aL4 || bL4 || cL4 || dL4) {
+      r4 = `[^${aL4}${bL4}${cL4}${dL4}]`;
+    }
+    if (l5) {
+      r5 = l5;
+    } else if (aL5 || bL5 || cL5 || dL5) {
+      r5 = `[^${aL5}${bL5}${cL5}${dL5}]`;
+    }
+    const regex_str = `^${r1}${r2}${r3}${r4}${r5}$`;
+    let re = new RegExp(regex_str);
     return re.test(key);
   },
   onSetDiscovery: function (discoveries) {
