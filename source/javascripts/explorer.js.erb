@@ -1,4 +1,6 @@
-console.log = function() {}
+// console.log = function() {}
+
+const SPLIT_CHARACTER = ",";
 
 window.onload = async function () {
   if (performance.navigation.type == performance.navigation.TYPE_RELOAD
@@ -10,11 +12,15 @@ window.onload = async function () {
 async function tryLoadFromLocationHash() {
   console.log(`tryLoadFromLocationHash()`);
   if(window.location.hash) {
-    const key = window.location.hash.substring(1)
-    if(ExplorerImp.map.has(key) && ExplorerImp.currentKey !== key) {
-      await setDiscovery(key);
-      return false;
+    const hash = window.location.hash.substring(1)
+    let keys = undefined;
+    if (hash.includes(SPLIT_CHARACTER)) {
+      keys = hash.split(SPLIT_CHARACTER);
+    } else {
+      keys = [hash];
     }
+    await setDiscovery(keys);
+    return false;
   }
   return true;
 }
@@ -62,18 +68,42 @@ async function detectClickOnDiscovery() {
   await ExplorerImp.onClickWord(term);
 }
 
-
-async function setDiscovery(key) {
-  console.log(`setDiscovery(${key})`);
-  if(!ExplorerImp.map.has(key)) {
-    return;
+function getDiscoveries(keys) {
+  let discoveries = [];
+  for (const k of keys) {
+    discoveries.push({key: k, discovery: ExplorerImp.map.get(k)})
   }
-  ExplorerImp.currentKey = key;
-  window.location.hash = key
-  const discovery = ExplorerImp.map.get(key);
-  await ExplorerImp.onSetDiscovery(key, discovery);
+  return discoveries;
+}
 
-  if (navigator.canShare(ExplorerImp.generateShareData(key))) {
+
+async function setDiscovery(keys) {
+  console.log(`setDiscovery(${keys})`);
+  if (ExplorerImp.currentKeys !== undefined && ExplorerImp.currentKeys.length == keys.length) {
+    let allEqual = true;
+    for (let i = 0; i < ExplorerImp.currentKeys.length; ++i) {
+      if(ExplorerImp.currentKeys[i] !== keys[i]) {
+        allEqual = false;
+        break;
+      }
+    }
+    if (allEqual) {
+      console.log("ERROR: keys not equal");
+      return;
+    }
+  }
+  for (const k of keys) {
+    if (!ExplorerImp.map.has(k)) {
+      console.log("ERROR: k not found");
+      console.log(k);
+      return;
+    }
+  }
+  ExplorerImp.currentKeys = keys;
+  window.location.hash = keys.join(SPLIT_CHARACTER);
+  const discoveries = getDiscoveries(keys);
+  await ExplorerImp.onSetDiscovery(discoveries);
+  if (navigator.canShare(ExplorerImp.generateShareData(discoveries))) {
     const btn = document.querySelector('#explorer-footer-button-share');
     btn.classList.remove("d-none");
   }
@@ -86,25 +116,33 @@ async function setNextDiscovery() {
     ExplorerImp.currentIndex = pickIndex(ExplorerImp.keys);
   }
   console.log(`${ExplorerImp.currentIndex}`);
-  const nextIndex = (ExplorerImp.currentIndex + 1) % ExplorerImp.keys.length;
-  console.log(`${ExplorerImp.currentIndex} -> ${nextIndex}`);
-  ExplorerImp.currentIndex = nextIndex;
-  const key = ExplorerImp.keys[nextIndex];
-  await setDiscovery(key);
+  let keys = [];
+  for (let i = 0; i < ExplorerImp.count; ++i) {
+    const nextIndex = (ExplorerImp.currentIndex + 1) % ExplorerImp.keys.length;
+    console.log(`${ExplorerImp.currentIndex} -> ${nextIndex}`);
+    ExplorerImp.currentIndex = nextIndex;
+    const key = ExplorerImp.keys[nextIndex];
+    keys.push(key);
+  }
+  await setDiscovery(keys);
 }
 
 async function setRandomDiscovery() {
   console.log(`setRandomDiscovery()`);
-  let key = undefined
-  do {
-    key = pickOne(ExplorerImp.keys);
-  } while(ExplorerImp.size > 1 && key === ExplorerImp.currentKey)
-  await setDiscovery(key);
+  let keys = [];
+  for (let i = 0; i < ExplorerImp.count; ++i) {
+    let key = undefined;
+    do {
+      key = pickOne(ExplorerImp.keys);
+    } while (ExplorerImp.size > 1 && ExplorerImp.currentKeys.includes(key));
+    keys.push(key);
+  }
+  await setDiscovery(keys);
 }
 
 async function shareDiscovery() {
   console.log(`shareDiscovery()`);
-  const data = ExplorerImp.generateShareData();
+  const data = ExplorerImp.generateShareData(getDiscoveries(ExplorerImp.currentKeys));
   if (!navigator.canShare(data)) {
     return;
   }

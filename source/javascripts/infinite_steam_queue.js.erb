@@ -13,33 +13,38 @@ let gameCounter = 0
 ExplorerImp = {
   map: games,
   keys: gameKeys.sort((a, b) => 0.5 - Math.random()),
+  count: 5,
   onDefaultActionActivated: async function () {
     await setNextDiscovery();
   },
-  onSetDiscovery: async function (key, discovery) {
-    gameCounter += 1;
+  onSetDiscovery: async function (discoveries) {
+    gameCounter += discoveries.length;
     let gameQueueElement = document.getElementById("explorer-queue-count");
     if(typeof gameQueueElement !== 'undefined' && gameQueueElement !== null) {
       gameQueueElement.innerText = `${gameCounter} / ${ExplorerImp.map.size} games/DLCs/movies/shows seen so far.`;
     }
-    let gameNameElement = document.getElementById("explorer-game-name");
-    if(typeof gameNameElement !== 'undefined' && gameNameElement !== null) {
-      gameNameElement.innerText = discovery;
-    }
-    let gameUrlElement = document.getElementById("explorer-game-url");
-    if(typeof gameUrlElement !== 'undefined' && gameUrlElement !== null) {
-      const gameUrl = getGameUrlFromKey(key);
-      gameUrlElement.href = gameUrl;
-      gameUrlElement.innerText = gameUrl;
+
+    let gameListElement = document.getElementById("explorer-game-list");
+    gameListElement.innerText = "";
+    for (const d of discoveries) {
+      let gameNameElement = document.createElement("a");
+      gameNameElement.classList.add("display-6");
+      gameNameElement.innerText = d.discovery;
+      gameNameElement.target = "_blank";
+      gameNameElement.href = getGameUrlFromKey(d.key);
+      gameListElement.appendChild(gameNameElement);
+      gameListElement.appendChild(document.createElement("hr"));
     }
   },
-  generateShareData: function (key) {
-    const gameTitle = `Infinite Steam Queue - ${ExplorerImp.map.get(key)}`
-    const gameUrl = getGameUrlFromKey(key);
+  generateShareData: function (discoveries) {
+    gameNames = []
+    for (const d of discoveries) {
+      gameNames.push(d.discovery);
+    }
     return {
-      title: gameTitle,
-      text: gameTitle,
-      url: gameUrl
+      title: "Infinite Steam Queue",
+      text: gameNames.join("\n"),
+      url: window.location.href
     }
   },
   onClickWord: async function (word) {}

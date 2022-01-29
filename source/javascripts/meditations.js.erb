@@ -20,19 +20,22 @@ function getAllMeditationKeys(term) {
 ExplorerImp = {
   map: meditations,
   keys: meditationKeys,
+  count: 1,
   onDefaultActionActivated: async function () {
     await setRandomDiscovery();
   },
-  onSetDiscovery: async function (key, discovery) {
-    let e = document.getElementById("explorer-text")
+  onSetDiscovery: async function (discoveries) {
+    const d = discoveries[0];
+    let e = document.getElementById("explorer-text");
     if(typeof e !== 'undefined' && e !== null) {
-      e.innerText = discovery;
+      e.innerText = d.discovery;
     }
   },
-  generateShareData: function () {
+  generateShareData: function (discoveries) {
+    const d = discoveries[0]
     return {
-      title: `Marcus Aurelius's Meditation ${ExplorerImp.currentKey}`,
-      text: ExplorerImp.map.get(ExplorerImp.currentKey),
+      title: `Marcus Aurelius's Meditation ${d.key}`,
+      text: d.discovery,
       url: window.location.href
     }
   },
