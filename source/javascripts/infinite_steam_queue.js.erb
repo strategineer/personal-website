@@ -4,11 +4,6 @@ let games = new Map();
 <% end %>
 let gameKeys =[ ...games.keys() ];
 
-async function onNavigateToSteam() {
-  await new Promise(resolve => setTimeout(resolve, 250));
-  await setRandomDiscovery();
-}
-
 function getGameUrlFromKey(key) {
   return `https://store.steampowered.com/app/${key}/`;
 }
@@ -20,7 +15,6 @@ ExplorerImp = {
   keys: gameKeys,
   currentKey: undefined,
   onSetDiscovery: async function (key, discovery) {
-    console.log(`onSetDiscovery: ${key} -> ${discovery}`)
     gameCounter += 1;
     let gameQueueElement = document.getElementById("explorer-queue-count");
     if(typeof gameQueueElement !== 'undefined' && gameQueueElement !== null) {

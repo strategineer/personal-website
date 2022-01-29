@@ -13,7 +13,7 @@ window.onload = function () {
 async function tryLoadFromLocationHash() {
   if(window.location.hash) {
     const key = window.location.hash.substring(1)
-    if(ExplorerImp.map.has(key)) {
+    if(ExplorerImp.map.has(key) && ExplorerImp.currentKey !== key) {
       await setDiscovery(key);
       return false;
     }
@@ -63,7 +63,7 @@ async function detectClickOnDiscovery() {
 
 
 async function setDiscovery(key) {
-  if(!ExplorerImp.map.has(key) || ExplorerImp.currentKey == key) {
+  if(!ExplorerImp.map.has(key)) {
     return;
   }
   ExplorerImp.currentKey = key;
