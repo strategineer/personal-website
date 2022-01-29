@@ -5,7 +5,9 @@ const SPLIT_CHARACTER = ",";
 window.onload = function () {
   if (performance.navigation.type == performance.navigation.TYPE_RELOAD
   || tryLoadFromLocationHash()) {
-    ExplorerImp.onDefaultActionActivated();
+    if (ExplorerImp.onDefaultActionActivated !== undefined) {
+      ExplorerImp.onDefaultActionActivated();
+    }
   }
 };
 
@@ -79,6 +81,9 @@ function getDiscoveries(keys) {
 
 function setDiscovery(keys) {
   console.log(`setDiscovery(${keys})`);
+  if (keys.length > ExplorerImp.count) {
+    keys = keys.slice(0, ExplorerImp.count);
+  }
   if (ExplorerImp.currentKeys !== undefined && ExplorerImp.currentKeys.length == keys.length) {
     let allEqual = true;
     for (let i = 0; i < ExplorerImp.currentKeys.length; ++i) {
@@ -103,10 +108,15 @@ function setDiscovery(keys) {
   window.location.hash = keys.join(SPLIT_CHARACTER);
   const discoveries = getDiscoveries(keys);
   ExplorerImp.onSetDiscovery(discoveries);
-  if (navigator.canShare(ExplorerImp.generateShareData(discoveries))) {
+  if (ExplorerImp.generateShareData !== undefined && navigator.canShare(ExplorerImp.generateShareData(discoveries))) {
     const btn = document.querySelector('#explorer-footer-button-share');
     btn.classList.remove("d-none");
   }
+}
+
+function setAllDiscovery() {
+  console.log(`setAllDiscovery()`);
+  setDiscovery(ExplorerImp.keys.filter(ExplorerImp.keysFilter));
 }
 
 
@@ -144,6 +154,9 @@ function setRandomDiscovery() {
 
 function shareDiscovery() {
   console.log(`shareDiscovery()`);
+  if (ExplorerImp.generateShareData === undefined) {
+    return;
+  }
   const data = ExplorerImp.generateShareData(getDiscoveries(ExplorerImp.currentKeys));
   if (!navigator.canShare(data)) {
     return;

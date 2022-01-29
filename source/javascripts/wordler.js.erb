@@ -1,0 +1,49 @@
+let words = new Map();
+<% data.wordle_words.each do |k, v| %>
+<%= "words.set(\"#{k}\",#{v});" %>
+<% end %>
+let wordKeys =[ ...words.keys() ];
+
+function letsGo() {
+  setAllDiscovery();
+}
+
+ExplorerImp = {
+  map: words,
+  keys: wordKeys,
+  count: 10,
+  onDefaultActionActivated: function () {
+    setAllDiscovery();
+  },
+  keysFilter: function (key) {
+    const l1 = document.getElementById("letter1").value || "[a-z]";
+    const l2 = document.getElementById("letter2").value || "[a-z]";
+    const l3 = document.getElementById("letter3").value || "[a-z]";
+    const l4 = document.getElementById("letter4").value || "[a-z]";
+    const l5 = document.getElementById("letter5").value || "[a-z]";
+    const unplacedLetters  = document.getElementById("lettersUnplaced").value;
+    const unusedLetters = document.getElementById("lettersNotUsed").value;
+    let re = new RegExp(`^${l1}${l2}${l3}${l4}${l5}$`);
+    for (const l of unplacedLetters) {
+      if (!key.includes(l)) {
+        return false
+      }
+    }
+    for (const l of unusedLetters) {
+      if (key.includes(l)) {
+        return false
+      }
+    }
+    return re.test(key);
+  },
+  onSetDiscovery: function (discoveries) {
+    let wordListElement = document.getElementById("explorer-word-list");
+    let words = []
+    for (const d of discoveries) {
+      words.push(`${d.key} - ${d.discovery}`);
+    }
+    if(typeof wordListElement !== 'undefined' && wordListElement !== null) {
+      wordListElement.innerText = words.join("\n");
+    }
+  }
+}

@@ -1,0 +1,22 @@
+---
+title: "Wordle Helper"
+is_readable: true
+is_explorer: true
+---
+<div class="jumbotron-fluid" style="margin: auto;">
+  <div class="container">
+    <h1 class="display-4">Wordle Helper</h1>
+    <input type="text" oninput="letsGo();" id="letter1" maxlength="1" size="3" placeholder="Letter 1">
+    <input type="text" oninput="letsGo();" id="letter2" maxlength="1" size="3" placeholder="Letter 2">
+    <input type="text" oninput="letsGo();" id="letter3" maxlength="1" size="3" placeholder="Letter 3">
+    <input type="text" oninput="letsGo();" id="letter4" maxlength="1" size="3" placeholder="Letter 4">
+    <input type="text" oninput="letsGo();" id="letter5" maxlength="1" size="3" placeholder="Letter 5">
+    <hr>
+    <input type="text" oninput="letsGo();" id="lettersUnplaced" maxlength="5" size="20" placeholder="Letters Unplaced">
+    <hr>
+    <input type="text" oninput="letsGo();" id="lettersNotUsed" maxlength="27" size="20" placeholder="Letters Not Used">
+    <hr>
+    <p>word - score (bigger is better)</p>
+    <p id="explorer-word-list">Loading.</p>
+  </div>
+</div>
