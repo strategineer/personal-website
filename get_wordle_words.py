@@ -43,7 +43,6 @@ def compute_wordle_value(s):
     return n
 
 
-
 WORD_REGEX = re.compile(r"^[a-zA-Z]{5}$")
 
 with open('/usr/share/dict/words', 'r') as file:

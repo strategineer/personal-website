@@ -211,3 +211,6 @@ helpers do
     super( path, params )
   end
 end
+
+redirect "meditations/index.html", to: "bin/meditations"
+redirect "infinite_steam_queue/index.html", to: "bin/infinite_steam_queue"
