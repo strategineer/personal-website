@@ -82,6 +82,7 @@ function getDiscoveries(keys) {
 function setDiscovery(keys) {
   console.log(`setDiscovery(${keys})`);
   if (keys.length > ExplorerImp.count) {
+    console.log(`limiting length to: ${ExplorerImp.count} from ${keys.length}`)
     keys = keys.slice(0, ExplorerImp.count);
   }
   if (ExplorerImp.currentKeys !== undefined && ExplorerImp.currentKeys.length == keys.length) {
