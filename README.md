@@ -7,3 +7,8 @@
 - Make markdown headers clickable (#title)
 - Add ids to blog title and make them clickable too URLXX.COM/#title
 - Make a page that aggregates stats on word count, number of articles per year, tag use, word use
+- create a meme page template for pictures (given a folder, go through each of them)
+- make interactive CV
+- share button:
+    - improve share/another button visibility on a dark background
+    - improve visibility and placement of another/share button on desktop

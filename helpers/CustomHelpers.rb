@@ -602,6 +602,7 @@ module CustomHelpers
     ls.each do |tags, title, date, url, has_audio|
       row_style_class = ""
       if tags.include?("ramble")
+        tags.delete("ramble")
         row_style_class = "less-important"
       end
       res <<
