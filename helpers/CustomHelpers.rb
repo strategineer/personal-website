@@ -565,7 +565,7 @@ module CustomHelpers
     ls = []
     rambles_ls = []
     is_previous_ramble = false
-    if current_page.path.include?("ramble")
+    if current_page.path.include?("blog/tags")
       articles.each do |article|
         ls.append([article.tags, article.title, article.date.strftime('%Y-%m-%d'), article.url, has_audio?(article)])
       end
