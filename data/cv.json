@@ -1,210 +1,234 @@
 {
-    "tags":
-    {
-        "C++": "./projects/tags/cpp",
-        "UE4": "./projects/tags/unreal-engine",
-        "C#": "./projects/tags/c",
-        "Python": "./projects/tags/python",
-        "Unity": "./projects/tags/unity"
-    },
-    "en":
-    {
-      "name": "Bill Christian Tyros",
-      "title": "Software Engineer",
-      "sidebar_section":
-      [
+  "tags": {
+    "C++": "./projects/tags/cpp",
+    "UE4": "./projects/tags/unreal-engine",
+    "C#": "./projects/tags/c",
+    "Python": "./projects/tags/python",
+    "Unity": "./projects/tags/unity"
+  },
+  "en": {
+    "name": "Bill Christian Tyros",
+    "title": "Software Engineer",
+    "sidebar_section": [
+      {
+        "title": "Languages",
+        "list": ["English", "French"]
+      },
+      {
+        "title": "Programming",
+        "list": ["Python", "Javascript", "C#", "C++"]
+      }
+    ],
+    "main_section": [
+      {
+        "title": "Work Experience",
+        "list": [
           {
-              "title": "Languages",
-              "list": ["English", "French"]
+            "year": "2019-...",
+            "title": "Software Engineer - Morgan Stanley (Agile/Devops Metrics)",
+            "link": "",
+            "tech": [
+              "Python",
+              "Typescript",
+              "Jenkins",
+              "Flask",
+              "pandas",
+              "DB2",
+              "Sybase",
+              "Angular2"
+            ],
+            "hint": "2 and half years",
+            "list": [
+              "Implemented code to collect data from in-house and vendor sources (Jira, BitBucket, Splunk, Sonar, etc.).",
+              "Implemented code to aggregate data and present it to devs (to encourage best practices) and to upper management (to guide decision-making).",
+              "Implemented devops processes within the team (Jenkins Pipeline, Pull Request validation, Delphix integration).",
+              "Maintained and overhauled UI/UX of a Jira self-service webapp.",
+              "Developed and maintained a webapp used for querying and troubleshooting Agile/Devops Metrics data."
+            ]
           },
           {
-              "title": "Programming",
-              "list": ["Python", "C#", "C++"]
+            "year": "2017-2019",
+            "title": "Programmer - Framestore VR",
+            "link": "./projects/2019/02/03/framestore-vr",
+            "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
+            "hint": "14 months",
+            "list": [
+              "Developed a UE4 plugin for importing art assets from Shotgun and P4 in one click.",
+              "Developed a data-driven system for automating the generation of new projects in P4 and Jenkins.",
+              "Built a system to detect changed assets in P4, generate turntables with Jenkins and upload them to Shotgun.",
+              "Overhauled Jenkins jobs using Pipeline script for better performance (hours to minutes)."
+            ]
+          },
+          {
+            "year": "2016-2017",
+            "title": "Programmer - Borealys Games",
+            "link": "./projects/2017/05/18/mages-of-mystralia",
+            "tech": ["C#", "Python", "TeamCity", "Unity"],
+            "hint": "18 months",
+            "list": [
+              "Responsible for multiplatform development; built infrastructure and optimization for PS4 and Xbox One ports.",
+              "Responsible for API integration and build automation for PC, PS4, Xbox One and Steam.",
+              "Developed UI using 3D effects and supporting controller, keyboard and mouse.",
+              "Developed several gameplay systems.",
+              "Developed editor and real-time debugging tools."
+            ]
+          },
+          {
+            "year": "2013-2014",
+            "title": "Software Developer - CAE",
+            "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP"],
+            "hint": "4/4 months",
+            "list": [
+              "Developed, released and maintained a web application to manage simulator issues.",
+              "Developed a web application to help clients manage purchase orders.",
+              "Developed a web application for booking time on simulators."
+            ]
           }
-      ],
-      "main_section":
-      [
+        ]
+      },
+      {
+        "title": "Recent Projects",
+        "list": [
           {
-              "title": "Work Experience",
-              "list":
-              [
-                  {
-                      "year": "2017-2019",
-                      "title": "Programmer - Framestore VR",
-                      "link": "./projects/2019/02/03/framestore-vr",
-                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
-                      "hint": "14 months",
-                      "list":
-                      [
-                        "Developed a UE4 plugin for importing art assets from Shotgun and P4 in one click.",
-                        "Developed a data-driven system for automating the generation of new projects in P4 and Jenkins.",
-                        "Built a system to detect changed assets in P4, generate turntables with Jenkins and upload them to Shotgun.",
-                        "Overhauled Jenkins jobs using Pipeline script for better performance (hours to minutes)."
-                      ]
-                  },
-                  {
-                      "year": "2016-2017",
-                      "title": "Programmer - Borealys Games",
-                      "link": "./projects/2017/05/18/mages-of-mystralia",
-                      "tech": ["C#", "Python", "TeamCity", "Unity"],
-                      "hint": "18 months",
-                      "list":
-                      [
-                        "Responsible for multiplatform development; built infrastructure and optimization for PS4 and Xbox One ports.",
-                        "Responsible for API integration and build automation for PC, PS4, Xbox One and Steam.",
-                        "Developed UI using 3D effects and supporting controller, keyboard and mouse.",
-                        "Developed several gameplay systems.",
-                        "Developed editor and real-time debugging tools."
-                      ]
-                  },
-                  {
-                      "year": "2013-2014",
-                      "title": "Software Developer - CAE",
-                      "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP"],
-                      "hint": "4/4 months",
-                      "list":
-                      [
-                          "Developed, released and maintained a web application to manage simulator issues.",
-                          "Developed a web application to help clients manage purchase orders.",
-                          "Developed a web application for booking time on simulators."
-                      ]
-                  }
-              ]
-          },
-          {
-              "title": "Recent Projects",
-              "list":
-              [
-                  {
-                      "tech": ["Python", "C++", "Windows", "Linux"],
-                      "list":
-                      [
-                          "<a href=\"./projects/2019/04/15/lynchman\">Lynchman<a/>: Beat Saber map generator using Markov Chains with data gathered from existing maps (Python).",
-                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker\">Artifact Stat Tracker<a/>: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python).",
-                          "<a href=\"./projects/2018/06/05/machine-head\">Machine Head<a/>: Bot for managing my Discord server, running on a Raspberry Pi (Python).",
-                          "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv\">Great Turtle Adventure 4<a/>: 3D racing game with my own custom game engine (C++)."
-                      ]
-                  }
-              ]
-          },
-          {
-              "title": "Education",
-              "list":
-              [
-                  {
-                      "year": "2016",
-                      "title": "Interactive Real Time Systems Development",
-                      "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
-                      "hint": "University of Sherbrooke"
-                  },
-                  {
-                      "year": "2015",
-                      "title": "B.Sc. Software Engineering (Honours)",
-                      "link": "https://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-honours-software-engineering",
-                      "hint": "McGill University"
-                  }
-              ]
+            "tech": ["Python", "C++", "Windows", "Linux"],
+            "list": [
+              "<a href=\"./projects/2019/04/15/lynchman\">Lynchman<a/>: Beat Saber map generator using Markov Chains with data gathered from existing maps (Python).",
+              "<a href=\"./projects/2018/12/01/artifact-stat-tracker\">Artifact Stat Tracker<a/>: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python).",
+              "<a href=\"./projects/2018/06/05/machine-head\">Machine Head<a/>: Bot for managing my Discord server, running on a Raspberry Pi (Python).",
+              "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv\">Great Turtle Adventure 4<a/>: 3D racing game with my own custom game engine (C++)."
+            ]
           }
-      ]
-    },
-    "fr":
-    {
-      "name": "Bill Christian Tyros",
-      "title": "Ingénieur logiciel",
-      "sidebar_section":
-      [
+        ]
+      },
+      {
+        "title": "Education",
+        "list": [
           {
-              "title": "Langues",
-              "list": ["Français", "Anglais"]
+            "year": "2016",
+            "title": "Interactive Real Time Systems Development",
+            "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
+            "hint": "University of Sherbrooke"
           },
           {
-              "title": "Programmation",
-              "list": ["Python", "C#", "C++"]
+            "year": "2015",
+            "title": "B.Sc. Software Engineering (Honours)",
+            "link": "https://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-honours-software-engineering",
+            "hint": "McGill University"
           }
-      ],
-      "main_section":
-      [
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "name": "Bill Christian Tyros",
+    "title": "Ingénieur logiciel",
+    "sidebar_section": [
+      {
+        "title": "Langues",
+        "list": ["Français", "Anglais"]
+      },
+      {
+        "title": "Programmation",
+        "list": ["Python", "Javascript", "C#", "C++"]
+      }
+    ],
+    "main_section": [
+      {
+        "title": "Expérience professionelle",
+        "list": [
           {
-              "title": "Expérience professionelle",
-              "list":
-              [
-                  {
-                      "year": "2017-2019",
-                      "title": "Programmeur - Framestore VR ",
-                      "link": "./projects/2019/02/03/framestore-vr",
-                      "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
-                      "hint": "14 mois",
-                      "list":
-                      [
-                        "Développé un plugin UE4 pour l'importation d'art provenant de Shotgun et P4 avec un clique.",
-                        "Développé un système piloté par les données qui génére de nouveaux projets dans P4 et Jenkins.",
-                        "Développé un système pour détecter des modifications sur l'art dans P4, générer des \"turntables\" avec Jenkins et les télécharger vers Shotgun.",
-                        "\"Pipeliné\" les jobs Jenkins pour améliorer la performance (heures vers minutes) de jobs longues."
-                      ]
-                  },
-                  {
-                      "year": "2016-2017",
-                      "title": "Programmeur - Borealys Games",
-                      "link": "./projects/2017/05/18/mages-of-mystralia",
-                      "tech": ["C#", "Python", "TeamCity", "Unity"],
-                      "hint": "18 mois",
-                      "list":
-                      [
-                        "Responsable pour le développement multiplatforme; infra et optimization pour PS4 et Xbox One.",
-                        "Responsable pour l'intégration API et l'automatisation de build pour PC, PS4, Xbox One et Steam.",
-                        "Développé IU avec des effets 3D et supportant mannette, clavier et souris.",
-                        "Développé plusieurs systèmes gameplay.",
-                        "Développé divers outils d'éditeur et de déboguage en temps réel."
-                      ]
-                  },
-                  {
-                      "year": "2013-2014",
-                      "title": "Développeur de logiciels - CAE",
-                      "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP"],
-                      "hint": "4/4 mois",
-                      "list":
-                      [
-                        "Développé, livré et maintenu un site pour la gestion de bogues.",
-                        "Développé un site pour aider les clients à gérer leurs ordres d’achat.",
-                        "Développé un site pour permettre aux ingénieurs de réserver des simulateurs."
-                      ]
-                  }
-              ]
+            "year": "2019-...",
+            "title": "Ingénieur logiciel - Morgan Stanley (Agile/Devops Metrics)",
+            "link": "",
+            "tech": [
+              "Python",
+              "Typescript",
+              "Flask",
+              "pandas",
+              "DB2",
+              "Sybase",
+              "Angular2"
+            ],
+            "hint": "2 and half years",
+            "list": [
+              "Implementé code pour collection de données provenant de diverse sources (Jira, BitBucket, Splunk, Sonar, etc.).",
+              "Implementé code pour l'agrégation de données pour etre présenté aux developeurs pour encourager les meilleurs pratiques et a la haute direction pour guider leurs décisions.",
+              "Implementé les processus devops dans l'équipe (Jenkins Pipeline, validation de Pull Request, intégration Delphix).",
+              "Maintenu and revisé le UI/UX d'un webapp Jira en libre service.",
+              "Developé and maintenu un webapp utilisé pour le dépannage de données Agile/Devops Metrics."
+            ]
           },
           {
-              "title": "Projets récents",
-              "list":
-              [
-                  {
-                      "tech": ["Python", "C++", "Windows", "Linux"],
-                      "list":
-                      [
-                          "<a href=\"./projects/2019/04/15/lynchman\">Lynchman<a/>: générateur de niveaux Beat Saber utilisant des chaînes de Markov et les données recueillies de niveaux existants (Python).",
-                          "<a href=\"./projects/2018/12/01/artifact-stat-tracker\">Artifact Stat Tracker<a/>: Plugin Google Sheets qui aide le suivi des statistiques pour Artifact (Python).",
-                          "<a href=\"./projects/2018/06/05/machine-head\">Machine Head<a/>: Bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
-                          "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv\">Great Turtle Adventure 4<a/>: Jeu de course 3D avec mon propre engin de jeu vidéo (C++)."
-                      ]
-                  }
-              ]
+            "year": "2017-2019",
+            "title": "Programmeur - Framestore VR",
+            "link": "./projects/2019/02/03/framestore-vr",
+            "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
+            "hint": "14 mois",
+            "list": [
+              "Développé un plugin UE4 pour l'importation d'art provenant de Shotgun et P4 avec un clique.",
+              "Développé un système piloté par les données qui génére de nouveaux projets dans P4 et Jenkins.",
+              "Développé un système pour détecter des modifications sur l'art dans P4, générer des \"turntables\" avec Jenkins et les télécharger vers Shotgun.",
+              "\"Pipeliné\" les jobs Jenkins pour améliorer la performance (heures vers minutes) de jobs longues."
+            ]
           },
           {
-              "title": "Éducation",
-              "list":
-              [
-                  {
-                      "year": "2016",
-                      "title": "Développement de système intéractif en temps réel (2e cycle)",
-                      "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
-                      "hint": "Université de Sherbrooke"
-                  },
-                  {
-                      "year": "2015",
-                      "title": "B.Sc. en génie logiciel (Concentration)",
-                      "link": "https://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-honours-software-engineering",
-                      "hint": "Université McGill"
-                  }
-              ]
+            "year": "2016-2017",
+            "title": "Programmeur - Borealys Games",
+            "link": "./projects/2017/05/18/mages-of-mystralia",
+            "tech": ["C#", "Python", "TeamCity", "Unity"],
+            "hint": "18 mois",
+            "list": [
+              "Responsable pour le développement multiplatforme; infra et optimization pour PS4 et Xbox One.",
+              "Responsable pour l'intégration API et l'automatisation de build pour PC, PS4, Xbox One et Steam.",
+              "Développé IU avec des effets 3D et supportant mannette, clavier et souris.",
+              "Développé plusieurs systèmes gameplay.",
+              "Développé divers outils d'éditeur et de déboguage en temps réel."
+            ]
+          },
+          {
+            "year": "2013-2014",
+            "title": "Développeur de logiciels - CAE",
+            "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP"],
+            "hint": "4/4 mois",
+            "list": [
+              "Développé, livré et maintenu un site pour la gestion de bogues.",
+              "Développé un site pour aider les clients à gérer leurs ordres d’achat.",
+              "Développé un site pour permettre aux ingénieurs de réserver des simulateurs."
+            ]
           }
-      ]
-    }
+        ]
+      },
+      {
+        "title": "Projets récents",
+        "list": [
+          {
+            "tech": ["Python", "C++", "Windows", "Linux"],
+            "list": [
+              "<a href=\"./projects/2019/04/15/lynchman\">Lynchman<a/>: générateur de niveaux Beat Saber utilisant des chaînes de Markov et les données recueillies de niveaux existants (Python).",
+              "<a href=\"./projects/2018/12/01/artifact-stat-tracker\">Artifact Stat Tracker<a/>: Plugin Google Sheets qui aide le suivi des statistiques pour Artifact (Python).",
+              "<a href=\"./projects/2018/06/05/machine-head\">Machine Head<a/>: Bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
+              "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv\">Great Turtle Adventure 4<a/>: Jeu de course 3D avec mon propre engin de jeu vidéo (C++)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Éducation",
+        "list": [
+          {
+            "year": "2016",
+            "title": "Développement de système intéractif en temps réel (2e cycle)",
+            "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
+            "hint": "Université de Sherbrooke"
+          },
+          {
+            "year": "2015",
+            "title": "B.Sc. en génie logiciel (Concentration)",
+            "link": "https://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-honours-software-engineering",
+            "hint": "Université McGill"
+          }
+        ]
+      }
+    ]
+  }
 }
