@@ -35,15 +35,16 @@
               "pandas",
               "DB2",
               "Sybase",
-              "Angular2"
+              "Angular2",
+              "Delphix"
             ],
             "hint": "2 and half years",
             "list": [
-              "Implemented code to collect data from in-house and vendor sources (Jira, BitBucket, Splunk, Sonar, etc.).",
-              "Implemented code to aggregate data and present it to devs (to encourage best practices) and to upper management (to guide decision-making).",
-              "Implemented devops processes within the team (Jenkins Pipeline, Pull Request validation, Delphix integration).",
-              "Maintained and overhauled UI/UX of a Jira self-service webapp.",
-              "Developed and maintained a webapp used for querying and troubleshooting Agile/Devops Metrics data."
+              "Implemented code to collect data from in-house and vendor sources like Jira, BitBucket, Splunk, Sonar, etc.",
+              "Implemented code to analyse data and present it to devs (badges to encourage best practices) and to upper management (charts to guide decision-making).",
+              "Improved devops processes for the team (Jenkins Pipeline jobs, Pull Request validation, Delphix integration, etc.).",
+              "Developed and overhauled UI/UX of a Jira self-service webapp.",
+              "Developed a webapp used for querying and troubleshooting Agile/Devops Metrics data."
             ]
           },
           {
@@ -143,19 +144,21 @@
             "tech": [
               "Python",
               "Typescript",
+              "Jenkins",
               "Flask",
               "pandas",
               "DB2",
               "Sybase",
-              "Angular2"
+              "Angular2",
+              "Delphix"
             ],
             "hint": "2 and half years",
             "list": [
-              "Implementé code pour collection de données provenant de diverse sources (Jira, BitBucket, Splunk, Sonar, etc.).",
-              "Implementé code pour l'agrégation de données pour etre présenté aux developeurs pour encourager les meilleurs pratiques et a la haute direction pour guider leurs décisions.",
-              "Implementé les processus devops dans l'équipe (Jenkins Pipeline, validation de Pull Request, intégration Delphix).",
-              "Maintenu and revisé le UI/UX d'un webapp Jira en libre service.",
-              "Developé and maintenu un webapp utilisé pour le dépannage de données Agile/Devops Metrics."
+              "Implementé code pour collecter les données provenant de plusieurs sources comme Jira, BitBucket, Splunk, Sonar, etc.",
+              "Implementé code pour analyzer ces données pour les présenter aux dévelopeurs (pour encourager les meilleurs pratiques) et a la haute direction (pour guider leurs décisions).",
+              "Amélioré les processus devops dans l'équipe (Jenkins Pipeline, validation de pull request, intégration de Delphix).",
+              "Developpé et revisé le UI/UX d'un webapp libre service pour Jira .",
+              "Developpé un webapp utilisé pour le dépannage de données Agile/Devops Metrics."
             ]
           },
           {
