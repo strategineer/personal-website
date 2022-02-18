@@ -1,10 +1,10 @@
 {
   "tags": {
-    "C++": "./projects/tags/cpp",
-    "UE4": "./projects/tags/unreal-engine",
-    "C#": "./projects/tags/c",
-    "Python": "./projects/tags/python",
-    "Unity": "./projects/tags/unity"
+    "C++": "/projects/tags/cpp",
+    "UE4": "/projects/tags/unreal-engine",
+    "C#": "/projects/tags/c",
+    "Python": "/projects/tags/python",
+    "Unity": "/projects/tags/unity"
   },
   "en": {
     "name": "Bill Christian Tyros",

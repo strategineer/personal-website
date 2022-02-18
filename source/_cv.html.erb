@@ -32,7 +32,7 @@
             <% v.list.each do |e| %>
               <li class="cv-header-item list-inline-item">
                 <% if my_tags.include?(e) %>
-                  <a href="<%= my_tags[e] %>"><%= e %><a/>
+                  <a href="<%= my_tags[e] %>"><%= e %></a>
                 <% else %>
                   <%= e %>
                 <% end %>
@@ -79,7 +79,7 @@
                     <% e.tech.each do |t| %>
                       <li class="cv-tech-item list-inline-item">
                       <% if my_tags.include?(t) %>
-                        <a href="<%= my_tags[t] %>"><%= t %><a/>
+                        <a href="<%= my_tags[t] %>"><%= t %></a>
                       <% else %>
                         <%= t %>
                       <% end %>
