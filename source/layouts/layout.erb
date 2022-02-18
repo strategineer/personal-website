@@ -32,7 +32,8 @@
     <%= yield_content :head %>
   </head>
   <body id="documentTop" class="<%= page_classes %>">
-    <div class="container">
+    <% is_cv = is_cv?(current_page) %>
+    <div class="<%= is_cv ? "container-fluid" : "container" %>">
       <% should_have_footer = should_have_footer?(current_page) %>
       <% should_have_header = should_have_header?(current_page) %>
       <% should_have_readable = should_have_readable?(current_page) %>

@@ -710,6 +710,13 @@ module CustomHelpers
     }
   end
 
+  def is_cv?(page)
+    unless page.data.is_cv.nil?
+      return page.data.is_cv
+    end
+    return false
+  end
+
   def should_have_explorer?(page)
     unless page.data.is_explorer.nil?
       return page.data.is_explorer

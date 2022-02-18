@@ -16,7 +16,7 @@
       },
       {
         "title": "Programming",
-        "list": ["Python", "Javascript", "C#", "C++"]
+        "list": ["Python", "JS", "C#", "C++"]
       }
     ],
     "main_section": [
@@ -24,9 +24,8 @@
         "title": "Work Experience",
         "list": [
           {
-            "year": "2019-...",
-            "title": "Software Engineer - Morgan Stanley (Agile/Devops Metrics)",
-            "link": "",
+            "year": "2019-TBD",
+            "title": "Software Engineer @ Morgan Stanley",
             "tech": [
               "Python",
               "Typescript",
@@ -35,68 +34,60 @@
               "pandas",
               "DB2",
               "Sybase",
-              "Angular2",
-              "Delphix"
+              "Angular2"
             ],
-            "hint": "2 and half years",
             "list": [
-              "Implemented code to collect data from in-house and vendor sources like Jira, BitBucket, Splunk, Sonar, etc.",
-              "Implemented code to analyse data and present it to devs (badges to encourage best practices) and to upper management (charts to guide decision-making).",
-              "Improved devops processes for the team (Jenkins Pipeline jobs, Pull Request validation, Delphix integration, etc.).",
-              "Developed and overhauled UI/UX of a Jira self-service webapp.",
-              "Developed a webapp used for querying and troubleshooting Agile/Devops Metrics data."
+              "Implemented code to collect data from in-house and vendor sources (like Jira, BitBucket, Splunk, Sonar, etc.), analyze it present it to devs (badges to encourage best practices) and to upper management (charts to guide decision-making).",
+              "Developed and overhauled UI/UX of a Jira self-service web app.",
+              "Developed web app used for querying and viewing Agile/Devops Metrics data.",
+              "Improved devops processes within the team (Jenkins jobs, Pull Request validation, etc.)."
             ]
           },
           {
             "year": "2017-2019",
-            "title": "Programmer - Framestore VR",
-            "link": "./projects/2019/02/03/framestore-vr",
+            "title": "Programmer @ Framestore VR",
+            "link": "./projects/2019-02-03/",
             "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
-            "hint": "14 months",
             "list": [
-              "Developed a UE4 plugin for importing art assets from Shotgun and P4 in one click.",
-              "Developed a data-driven system for automating the generation of new projects in P4 and Jenkins.",
-              "Built a system to detect changed assets in P4, generate turntables with Jenkins and upload them to Shotgun.",
-              "Overhauled Jenkins jobs using Pipeline script for better performance (hours to minutes)."
+              "Developed UE4 plugin for importing art assets from Shotgun/P4.",
+              "Developed system to detect changed art, generate and upload turntables for review."
             ]
           },
           {
             "year": "2016-2017",
-            "title": "Programmer - Borealys Games",
-            "link": "./projects/2017/05/18/mages-of-mystralia",
-            "tech": ["C#", "Python", "TeamCity", "Unity"],
-            "hint": "18 months",
+            "title": "Programmer @ Borealys Games",
+            "link": "./projects/2017-05-18/",
+            "tech": [
+              "C#",
+              "Python",
+              "TeamCity",
+              "Unity",
+              "Xbox",
+              "Playstation"
+            ],
             "list": [
-              "Responsible for multiplatform development; built infrastructure and optimization for PS4 and Xbox One ports.",
-              "Responsible for API integration and build automation for PC, PS4, Xbox One and Steam.",
-              "Developed UI using 3D effects and supporting controller, keyboard and mouse.",
-              "Developed several gameplay systems.",
-              "Developed editor and real-time debugging tools."
+              "Responsible for optimization, API integration and build automation for all platforms.",
+              "Developed UI/UX, gameplay systems and real-time debugging tools."
             ]
           },
           {
             "year": "2013-2014",
-            "title": "Software Developer - CAE",
-            "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP"],
-            "hint": "4/4 months",
+            "title": "Software Developer @ CAE",
+            "tech": ["C#", "ASP.NET", "HTML/CSS/JS", "PHP"],
             "list": [
-              "Developed, released and maintained a web application to manage simulator issues.",
-              "Developed a web application to help clients manage purchase orders.",
-              "Developed a web application for booking time on simulators."
+              "Developed web applications to help with project management and scheduling."
             ]
           }
         ]
       },
       {
-        "title": "Recent Projects",
+        "title": "Recent Personal Projects",
         "list": [
           {
-            "tech": ["Python", "C++", "Windows", "Linux"],
             "list": [
-              "<a href=\"./projects/2019/04/15/lynchman\">Lynchman<a/>: Beat Saber map generator using Markov Chains with data gathered from existing maps (Python).",
-              "<a href=\"./projects/2018/12/01/artifact-stat-tracker\">Artifact Stat Tracker<a/>: Google Sheets plugin for facilitating stat tracking for the digital card game Artifact (Python).",
-              "<a href=\"./projects/2018/06/05/machine-head\">Machine Head<a/>: Bot for managing my Discord server, running on a Raspberry Pi (Python).",
-              "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv\">Great Turtle Adventure 4<a/>: 3D racing game with my own custom game engine (C++)."
+              "<a href=\"https://github.com/strategineer/speedrun-tools-peb\">Pig Eat Ball Speedrunning Tool<a/>: Pig Eat Ball mod for speedrunning (C#).",
+              "<a href=\"./blog/2022-01-26/\">Marcus Aurelius' Meditations Explorer<a/>: web app to help study/share the Meditations (JS).",
+              "<a href=\"https://github.com/strategineer/discord-bot\">Tabletop RPG Chatbot<a/>: chatbot to help play a tabletop RPG with friends online (JS/node)."
             ]
           }
         ]
@@ -105,15 +96,13 @@
         "title": "Education",
         "list": [
           {
-            "year": "2016",
+            "year": "2015-2016",
             "title": "Interactive Real Time Systems Development",
-            "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
             "hint": "University of Sherbrooke"
           },
           {
-            "year": "2015",
+            "year": "2012-2015",
             "title": "B.Sc. Software Engineering (Honours)",
-            "link": "https://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-honours-software-engineering",
             "hint": "McGill University"
           }
         ]
@@ -130,7 +119,7 @@
       },
       {
         "title": "Programmation",
-        "list": ["Python", "Javascript", "C#", "C++"]
+        "list": ["Python", "JS", "C#", "C++"]
       }
     ],
     "main_section": [
@@ -140,7 +129,6 @@
           {
             "year": "2019-...",
             "title": "Ingénieur logiciel - Morgan Stanley (Agile/Devops Metrics)",
-            "link": "",
             "tech": [
               "Python",
               "Typescript",
@@ -149,24 +137,21 @@
               "pandas",
               "DB2",
               "Sybase",
-              "Angular2",
-              "Delphix"
+              "Angular2"
             ],
-            "hint": "2 and half years",
             "list": [
               "Implementé code pour collecter les données provenant de plusieurs sources comme Jira, BitBucket, Splunk, Sonar, etc.",
               "Implementé code pour analyzer ces données pour les présenter aux dévelopeurs (pour encourager les meilleurs pratiques) et a la haute direction (pour guider leurs décisions).",
               "Amélioré les processus devops dans l'équipe (Jenkins Pipeline, validation de pull request, intégration de Delphix).",
-              "Developpé et revisé le UI/UX d'un webapp libre service pour Jira .",
-              "Developpé un webapp utilisé pour le dépannage de données Agile/Devops Metrics."
+              "Developpé et revisé le UI/UX d'un web app libre service pour Jira .",
+              "Developpé un web app utilisé pour le dépannage de données Agile/Devops Metrics."
             ]
           },
           {
             "year": "2017-2019",
             "title": "Programmeur - Framestore VR",
-            "link": "./projects/2019/02/03/framestore-vr",
+            "link": "./projects/2019-02-03/",
             "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
-            "hint": "14 mois",
             "list": [
               "Développé un plugin UE4 pour l'importation d'art provenant de Shotgun et P4 avec un clique.",
               "Développé un système piloté par les données qui génére de nouveaux projets dans P4 et Jenkins.",
@@ -177,26 +162,20 @@
           {
             "year": "2016-2017",
             "title": "Programmeur - Borealys Games",
-            "link": "./projects/2017/05/18/mages-of-mystralia",
+            "link": "./projects/2017-05-18/",
             "tech": ["C#", "Python", "TeamCity", "Unity"],
-            "hint": "18 mois",
             "list": [
               "Responsable pour le développement multiplatforme; infra et optimization pour PS4 et Xbox One.",
               "Responsable pour l'intégration API et l'automatisation de build pour PC, PS4, Xbox One et Steam.",
-              "Développé IU avec des effets 3D et supportant mannette, clavier et souris.",
-              "Développé plusieurs systèmes gameplay.",
-              "Développé divers outils d'éditeur et de déboguage en temps réel."
+              "Développé UI/UX, systèmes gameplay et des outils de d'éditeur et de déboguage en temps réel"
             ]
           },
           {
             "year": "2013-2014",
             "title": "Développeur de logiciels - CAE",
-            "tech": ["C#", "ASP.NET", "HTML/CSS/Javascript", "PHP"],
-            "hint": "4/4 mois",
+            "tech": ["C#", "ASP.NET", "HTML/CSS/JS", "PHP"],
             "list": [
-              "Développé, livré et maintenu un site pour la gestion de bogues.",
-              "Développé un site pour aider les clients à gérer leurs ordres d’achat.",
-              "Développé un site pour permettre aux ingénieurs de réserver des simulateurs."
+              "Développé des applications Web C# pour la gestion de projet, la gestion des bons de commande et la planification du temps sur les simulateurs."
             ]
           }
         ]
@@ -205,12 +184,11 @@
         "title": "Projets récents",
         "list": [
           {
-            "tech": ["Python", "C++", "Windows", "Linux"],
+            "tech": ["C#", "JS", "node", "reverse engineering"],
             "list": [
-              "<a href=\"./projects/2019/04/15/lynchman\">Lynchman<a/>: générateur de niveaux Beat Saber utilisant des chaînes de Markov et les données recueillies de niveaux existants (Python).",
-              "<a href=\"./projects/2018/12/01/artifact-stat-tracker\">Artifact Stat Tracker<a/>: Plugin Google Sheets qui aide le suivi des statistiques pour Artifact (Python).",
-              "<a href=\"./projects/2018/06/05/machine-head\">Machine Head<a/>: Bot pour gérer mon serveur Discord, hébergé sur un Raspberry Pi (Python).",
-              "<a href=\"./projects/2015/12/16/great-turtle-adventure-iv\">Great Turtle Adventure 4<a/>: Jeu de course 3D avec mon propre engin de jeu vidéo (C++)."
+              "<a href=\"https://github.com/strategineer/speedrun-tools-peb\">Outil speedrun pour Pig Eat Ball <a/>: un outil pour le jeu Pig Eat Ball pour améliorer l'expérience de speedrun en utilisant de la rétro-ingénierie (C#).",
+              "<a href=\"./blog/2022-01-26/\">Explorateur des méditations de Marcus Aurelius<a/>: une application web permettant aux utilisateurs d'étudier et de partager les méditations de Marcus Aurelius (JS).",
+              "<a href=\"https://github.com/strategineer/discord-bot\">Chatbot Tabletop RPG<a/>: un chatbot pour m'aider à jouer à un RPG de table avec des amis en ligne (JS)."
             ]
           }
         ]
@@ -221,13 +199,11 @@
           {
             "year": "2016",
             "title": "Développement de système intéractif en temps réel (2e cycle)",
-            "link": "https://www.usherbrooke.ca/cefti/futurs-etudiants/diplome-detudes-superieures-specialisees-de-2e-cycle-en-developpement-du-jeu-video/",
             "hint": "Université de Sherbrooke"
           },
           {
             "year": "2015",
             "title": "B.Sc. en génie logiciel (Concentration)",
-            "link": "https://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-honours-software-engineering",
             "hint": "Université McGill"
           }
         ]

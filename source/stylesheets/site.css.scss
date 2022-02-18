@@ -50,8 +50,16 @@ $link_highlight: nth($colors, 1);
     }
 }
 
+@page
+{
+    size: auto;   /* auto is the initial value */
+
+    /* this affects the margin in the printer settings */
+    margin: 1mm 1mm 1mm 1mm;
+}
+
 @media print {
-    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot, .cv-download-link{
         display: none !important;
     }
 
@@ -59,6 +67,7 @@ $link_highlight: nth($colors, 1);
         background: white;
         color: black;
     }
+
     .table td, .table th {
         color: black;
     }
@@ -377,6 +386,12 @@ ul.list-inline {
 
 
 /* CV */
+.cv-header-item {
+}
+
+.cv-tech-item {
+}
+
 a.cv-anchor {
     display: block;
     position: relative;
@@ -396,6 +411,11 @@ a.cv-anchor {
 
 .cv-main-title {
     margin-bottom: 0;
+}
+
+.cv-bullet-item {
+    margin-left: 0rem;
+    font-size: 0.95rem;
 }
 
 .cv-main-entry-title {
@@ -524,16 +544,17 @@ li {
     right: 100px;
 }
 
+// Bootstrap tweak
+ 
+.list-inline-item {
+  margin-left: 0.75rem;
+  margin-right: 0;
+}
+
 
 @include media-breakpoint-down(xs) { 
 }
 @include media-breakpoint-down(sm) { 
-    .cv {
-        font-size: 0.95rem;
-    }
-    .cv-readable {
-        font-size: 0.95rem;
-    }
 }
 // On md size and down, the third column (tags) is not shown therefore hide the next columns border.
 @include media-breakpoint-down(md) { 
@@ -564,7 +585,7 @@ li {
         font-size: 1.02rem;
     }
     .cv-main-title {
-        font-size: 1.275rem;
+        font-size: 1.2rem;
     }
 }
 @include media-breakpoint-up(sm) { 
@@ -599,10 +620,10 @@ li {
         width: 1%;
     }
     .cv-main-entry-title {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .cv-main-title {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
     }
 }
 
