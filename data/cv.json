@@ -37,10 +37,10 @@
               "Angular2"
             ],
             "list": [
-              "Implemented code to collect data from in-house and vendor sources (like Jira, BitBucket, Splunk, Sonar, etc.), analyze it present it to devs (badges to encourage best practices) and to upper management (charts to guide decision-making).",
+              "Implemented code to collect data from in-house and vendor sources (like Jira, BitBucket, Splunk, Sonar, etc.), analyze it and present it to devs (badges to encourage best practices) and to upper management (metrics/charts to guide decision-making).",
               "Developed and overhauled UI/UX of a Jira self-service web app.",
-              "Developed web app used for querying and viewing Agile/Devops Metrics data.",
-              "Improved devops processes within the team (Jenkins jobs, Pull Request validation, etc.)."
+              "Developed web app used for querying and viewing agile/devops metrics.",
+              "Improved devops processes within the team (Jenkins jobs, pull request validation, etc.)."
             ]
           },
           {
@@ -49,8 +49,8 @@
             "link": "./projects/2019-02-03/",
             "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
             "list": [
-              "Developed UE4 plugin for importing art assets from Shotgun/P4.",
-              "Developed system to detect changed art, generate and upload turntables for review."
+              "Developed Unreal Engine 4 plugin for importing art assets from Shotgun/P4.",
+              "Developed system to detect changed assets, generate and upload turntables for review."
             ]
           },
           {
@@ -85,7 +85,7 @@
         "list": [
           {
             "list": [
-              "<a href=\"https://github.com/strategineer/speedrun-tools-peb\">Pig Eat Ball Speedrunning Tool<a/>: Pig Eat Ball mod for speedrunning (C#).",
+              "<a href=\"https://github.com/strategineer/speedrun-tools-peb\">Pig Eat Ball Speedrunning Tool<a/>: Pig Eat Ball game mod for speedrunning (C#).",
               "<a href=\"./blog/2022-01-26/\">Marcus Aurelius' Meditations Explorer<a/>: web app to help study/share the Meditations (JS).",
               "<a href=\"https://github.com/strategineer/discord-bot\">Tabletop RPG Chatbot<a/>: chatbot to help play a tabletop RPG with friends online (JS/node)."
             ]
