@@ -46,7 +46,7 @@
           {
             "year": "2017-2019",
             "title": "Programmer @ Framestore VR",
-            "link": "./projects/2019-02-03/",
+            "link": "/projects/2019-02-03/",
             "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
             "list": [
               "Developed Unreal Engine 4 plugin for importing art assets from Shotgun/P4.",
@@ -56,7 +56,7 @@
           {
             "year": "2016-2017",
             "title": "Programmer @ Borealys Games",
-            "link": "./projects/2017-05-18/",
+            "link": "/projects/2017-05-18/",
             "tech": [
               "C#",
               "Python",
@@ -150,7 +150,7 @@
           {
             "year": "2017-2019",
             "title": "Programmeur - Framestore VR",
-            "link": "./projects/2019-02-03/",
+            "link": "/projects/2019-02-03/",
             "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
             "list": [
               "Développé un plugin UE4 pour l'importation d'art provenant de Shotgun et P4 avec un clique.",
@@ -162,7 +162,7 @@
           {
             "year": "2016-2017",
             "title": "Programmeur - Borealys Games",
-            "link": "./projects/2017-05-18/",
+            "link": "/projects/2017-05-18/",
             "tech": ["C#", "Python", "TeamCity", "Unity"],
             "list": [
               "Responsable pour le développement multiplatforme; infra et optimization pour PS4 et Xbox One.",
