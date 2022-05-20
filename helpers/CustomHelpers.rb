@@ -409,7 +409,7 @@ module CustomHelpers
             <div class="col">
               <a href="#{article.url}">
                 <div class="card mx-auto">
-                  <img class="card-img-top" src="#{get_thumbnail_path(article)}" alt="#{article.title} Thumbnail"></img>
+                  <img class="card-img-top img-fluid rounded mx-auto d-block img-fluid-max-height-album" src="#{get_thumbnail_path(article)}" alt="#{article.title} Thumbnail"></img>
                   <div class="card-body mb-3">
                     <h5 class="card-title">#{article.title}</h5>
                     <h6 class="card-subtitle mb-2">#{tags_subtitle}</h6>
