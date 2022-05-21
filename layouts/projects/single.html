@@ -1,18 +1,24 @@
-<% wrap_layout :layout do %>
+{{ define "title" }}
+  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
   <div class="project-content container">
-    <%= page_title(current_article.title, false, blog.articles) %>
-    <%= try_page_video(current_article) %>
-    <%= try_page_images(current_article) %>
-    <%= page_links(current_page) %>
-    <%# text %>
+    {{/*= page_title(current_article.title, false, blog.articles) */}}
+    {{/*= try_page_video(current_article) */}}
+    {{/*= try_page_images(current_article) */}}
+    {{/*= page_links(current_page) */}}
+    {{ if .Params.blurb }}
     <div class="d-flex justify-content-center">
       <div class="project-blurb readable text-center" >
-        <%= current_page.data.blurb %>
+        {{ .Params.blurb }}
       </div>
     </div>
+    {{ end }}
     <div class="row justify-content-center readable">
-      <%= yield %>
+      {{ .Content }}
     </div>
-    <%= partial "footer_desktop" %>
+    {{/*= partial "footer_desktop" */}}
   </div>
-<% end %>
+{{ end }}

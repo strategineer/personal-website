@@ -1,52 +1,55 @@
-<% wrap_layout :layout do %>
+{{ define "title" }}
+  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
   <div class="review-content container">
-    <% if current_article.tags.include?('thumbs_up') %>
-      <% icon = "&#x1F44D" %>
-    <% end %>
-    <% if current_article.tags.include?('thumbs_down') %>
-      <% icon = "&#x1F44E" %>
-    <% end %>
-    <%= page_title(current_page.data.title + " Review " + icon, false, blog.articles) %>
-    <%= page_links(current_page) %>
-    <%= try_page_video(current_article) %>
-    <%= try_page_images(current_article) %>
-    <%= page_info(current_article) %>
+    {{/* if current_article.tags.include?('thumbs_up') */}}
+      {{/* icon = "&#x1F44D" */}}
+    {{/* end */}}
+    {{/* if current_article.tags.include?('thumbs_down') */}}
+      {{/* icon = "&#x1F44E" */}}
+    {{/* end */}}
+    {{/*= page_title(current_page.data.title + " Review " + icon, false, blog.articles) */}}
+    {{/*= page_links(current_page) */}}
+    {{/*= try_page_video(current_article) */}}
+    {{/*= try_page_images(current_article) */}}
+    {{/*= page_info(current_article) */}}
     <div class="row justify-content-center readable">
-      <%= yield %>
+      {{ .Content }}
     </div>
-    <% has_any_pros = !current_page.data.pros.nil? and current_page.data.pros.length > 0 %>
-    <% has_any_cons = !current_page.data.cons.nil? and current_page.data.cons.length > 0 %>
-    <% if has_any_pros or has_any_cons %>
-      <% if has_any_pros %>
+    {{ if or .Params.pros .Params.cons }}
+      {{ if .Params.pros }}
         <div class="d-flex justify-content-center">
           <h2>Pros</h2>
         </div>
         <div class="d-flex readable">
           <ul>
-            <% current_page.data.pros.each do |pro| %>
-              <li><%= pro %></li>
-            <% end %>
+            {{ range $index, $val := .Params.pros }}
+              <li>{{ $val }}</li>
+            {{ end }}
           </ul>
         </div>
-      <% end %>
-      <% if has_any_cons %>
+      {{ end }}
+      {{ if .Params.cons }}
         <div class="d-flex justify-content-center">
           <h2>Cons</h2>
         </div>
         <div class="d-flex readable">
           <ul>
-            <% current_page.data.cons.each do |con| %>
-              <li><%= con %></li>
-            <% end %>
+            {{ range $index, $val := .Params.cons }}
+              <li>{{ $val }}</li>
+            {{ end }}
           </ul>
         </div>
-      <% end %>
-    <% end %>
-    <% unless current_page.data.outro.nil? %>
+      {{ end }}
+    {{ end }}
+    {{ if .Params.outro }}
       <div class="d-flex readable">
-        <%= current_page.data.outro %>
+        {{ .Params.outro }}
       </div>
-    <% end %>
-  <%= partial "footer_desktop" %>
+    {{ end }}
+  {{/*= partial "footer_desktop" */}}
   </div>
-<% end %>
+{{ end }}

@@ -7,22 +7,5 @@
         <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
     </article>
   {{ end }}
-
-{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
-  {{ if eq "tags" $taxonomyname }}
-    {{ range $key, $value := $taxonomy }}
-    {{ if ge (where $value.Pages "Section" "blog") 1 }}
-    <div class="col-md-3 col-sm-6 col-xs-12">
-      <h4 class="text-center">{{ $key }}</h4>
-      <ol>
-      {{range first 5 (where $value.Pages "Section" "blog") }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-      {{ end }}
-      </ol>
-    </div>
-    {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
 {{ end }}
 

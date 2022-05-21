@@ -1,63 +1,67 @@
-<% wrap_layout :layout do %>
+{{ define "title" }}
+  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
   <div class="cocktails-content container">
-    <%= page_title(current_page.data.title, false, blog.articles) %>
-    <%= page_links(current_page) %>
-    <%= page_tags(current_page) %>
-    <% unless current_page.data.blurb.nil? %>
+    {{/*= page_title(current_page.data.title, false, blog.articles) */}}
+    {{/*= page_links(current_page) */}}
+    {{/*= page_tags(current_page) */}}
+    {{ if .Params.blurb }}
       <div class="d-flex justify-content-center">
-        <%= current_page.data.blurb %>
+        {{ .Params.blurb }}
       </div>
-    <% end %>
-    <%= try_page_video(current_article) %>
-    <%= try_page_images(current_article, true) %>
-    <% unless current_page.data.inspired_by.nil? %>
+    {{ end }}
+    {{/*= try_page_video(current_article) */}}
+    {{/*= try_page_images(current_article, true) */}}
+    {{ if .Params.inspired_by }}
       <div class="d-flex justify-content-center">
           Inspired by:
-        <% if current_page.data.inspired_by.start_with?("http") %>
-          <a href="<%= current_page.data.inspired_by %>">
-        <% end %>
-          <%= current_page.data.inspired_by %>
-        <% if current_page.data.inspired_by.start_with?("http") %>
+          {{ $isInspiredByALink := hasPrefix .Params.inspired_by "http" }}
+        {{ if $isInspiredByALink }}
+          <a href="{{ .Params.inspired_by }}">
+        {{ else }}
+        {{ end }}
+          {{ .Params.inspired_by }}
+        {{ if $isInspiredByALink }}
           </a>
-        <% end %>
+        {{ end }}
       </div>
-    <% end %>
-    <% has_any_ingredients = !current_page.data.ingredients.nil? and current_page.data.ingredients.length > 0 %>
-    <% if has_any_ingredients %>
+    {{ end }}
+    {{ if .Params.ingredients }}
         <div class="d-flex justify-content-center">
           <h2>Ingredients</h2>
         </div>
         <div class="d-flex justify-content-center">
           <ul>
-            <% current_page.data.ingredients.each do |i| %>
-              <li><%= prettify_cocktail_text(current_page, i) %></li>
-            <% end %>
+            {{ range $index, $val := .Params.ingredients }}
+              <li>{{ $val }}</li>
+            {{ end }}
           </ul>
         </div>
-    <% end %>
-    <% has_any_steps = !current_page.data.steps.nil? and current_page.data.steps.length > 0 %>
-    <% if has_any_steps %>
+    {{ end }}
+    {{ if .Params.steps }}
         <div class="d-flex justify-content-center">
           <h2>Steps</h2>
         </div>
         <div class="d-flex justify-content-center">
           <ol>
-            <% current_page.data.steps.each do |i| %>
-              <li><%= prettify_cocktail_text(current_page, i) %></li>
-            <% end %>
+            {{ range $index, $val := .Params.steps }}
+              <li>{{ $val }}</li>
+            {{ end }}
           </ol>
         </div>
-    <% end %>
-    <%= page_cocktail_legend(current_page) %>
-    <% has_any_notes = current_page.summary.strip().length > 0 %>
-    <% if has_any_notes %>
+    {{ end }}
+    {{/*= page_cocktail_legend(current_page) */}}
+    {{ if .Content }}
         <div class="d-flex justify-content-center">
           <h2>Notes</h2>
         </div>
         <div class="d-flex justify-content-center">
-          <%= yield %>
+          {{ .Content }}
         </div>
-    <% end %>
-    <%= partial "footer_desktop" %>
+    {{ end }}
+    {{/*= partial "footer_desktop" */}}
   </div>
-<% end %>
+{{ end }}
