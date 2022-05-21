@@ -2,8 +2,9 @@
   <h1>Posts</h1>
   {{ range .Pages }}
     <article>
-      <h2>{{ .Title }}</h2>
-      {{ .Content }}
+      {{ if or (and .IsSection .IsHome) .IsPage}} 
+        <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+      {{ end }}
     </article>
   {{ end }}
 {{ end }}
