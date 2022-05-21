@@ -18,15 +18,17 @@
     </div>
 </li>
 {{ end }}
-{{ $urls_str := "" }}
-{{ range $index, $val := .RegularPages }}
-    {{ $urls_str := printf "%s" $urls_str | printf "%s,%s" .Permalink | printf "%s" }}
-{{ end }}
+{{ $pages := where $.Site.RegularPages "Section" .Section }}
+{{ if $pages }}
+    {{ $urls := slice }}
+    {{ range $pages }}
+        {{ $urls = $urls | append .Permalink }}
+    {{ end }}
 
-{{ if $urls_str }}
-<li class="list-inline-item li-inline">
-    <div class="col justify-content-left">
-        <button onclick="goToRandomUrl({{ $urls_str }})">🎲</button>
-    </div>
-</li>
+
+    <li class="list-inline-item li-inline">
+        <div class="col justify-content-left">
+            <button onclick="goToRandomUrl({{ $urls }})">🎲</button>
+        </div>
+    </li>
 {{ end }}
