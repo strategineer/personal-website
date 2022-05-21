@@ -10,7 +10,8 @@ enableRobotsTXT: true
 
 
 markup:
-  goldmark:
+ defaultMarkdownHandler: goldmark
+ goldmark:
     extensions:
       definitionList: true
       footnote: true
