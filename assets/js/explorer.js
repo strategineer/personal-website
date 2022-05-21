@@ -1,20 +1,26 @@
-console.log = function() {}
+console.log = function () {};
 
 const SPLIT_CHARACTER = ",";
 
-window.onload = function () {
-  if (performance.navigation.type == performance.navigation.TYPE_RELOAD
-  || tryLoadFromLocationHash()) {
-    if (ExplorerImp.onDefaultActionActivated !== undefined) {
-      ExplorerImp.onDefaultActionActivated();
+window.addEventListener(
+  "load",
+  function (event) {
+    if (
+      performance.navigation.type == performance.navigation.TYPE_RELOAD ||
+      tryLoadFromLocationHash()
+    ) {
+      if (ExplorerImp.onDefaultActionActivated !== undefined) {
+        ExplorerImp.onDefaultActionActivated();
+      }
     }
-  }
-};
+  },
+  false
+);
 
 function tryLoadFromLocationHash() {
   console.log(`tryLoadFromLocationHash()`);
-  if(window.location.hash) {
-    const hash = window.location.hash.substring(1)
+  if (window.location.hash) {
+    const hash = window.location.hash.substring(1);
     let keys = undefined;
     if (hash.includes(SPLIT_CHARACTER)) {
       keys = hash.split(SPLIT_CHARACTER);
@@ -27,21 +33,20 @@ function tryLoadFromLocationHash() {
   return true;
 }
 
-
-window.onhashchange = function() {
+window.onhashchange = function () {
   tryLoadFromLocationHash();
 };
 
-
-document.body.onkeyup = function(e){
-  if(e.keyCode == 32 // space
-    || e.keyCode == 13 // enter
-  ){
+document.body.onkeyup = function (e) {
+  if (
+    e.keyCode == 32 || // space
+    e.keyCode == 13 // enter
+  ) {
     if (ExplorerImp.onDefaultActionActivated !== undefined) {
       ExplorerImp.onDefaultActionActivated();
     }
   }
-}
+};
 
 function detectClickOnDiscovery() {
   console.log(`detectClickOnDiscovery()`);
@@ -51,44 +56,58 @@ function detectClickOnDiscovery() {
   s = window.getSelection();
   let range = s.getRangeAt(0);
   let node = s.anchorNode;
-  while(range.toString().indexOf(' ') != 0 && range.toString().indexOf('—') != 0) {
+  while (
+    range.toString().indexOf(" ") != 0 &&
+    range.toString().indexOf("—") != 0
+  ) {
     try {
-      range.setStart(node,(range.startOffset -1));
+      range.setStart(node, range.startOffset - 1);
     } catch {
       break;
     }
   }
-  range.setStart(node, range.startOffset +1);
-  do{
+  range.setStart(node, range.startOffset + 1);
+  do {
     try {
-      range.setEnd(node,range.endOffset + 1);
+      range.setEnd(node, range.endOffset + 1);
     } catch {
       break;
     }
-  } while(range.toString().indexOf(' ') == -1 && range.toString().indexOf('—') == -1 && range.toString().trim() != '');
-  const term = range.toString().trim().replace(/^\W/g, '').replace(/\W$/g, '').toLowerCase();
+  } while (
+    range.toString().indexOf(" ") == -1 &&
+    range.toString().indexOf("—") == -1 &&
+    range.toString().trim() != ""
+  );
+  const term = range
+    .toString()
+    .trim()
+    .replace(/^\W/g, "")
+    .replace(/\W$/g, "")
+    .toLowerCase();
   ExplorerImp.onClickWord(term);
 }
 
 function getDiscoveries(keys) {
   let discoveries = [];
   for (const k of keys) {
-    discoveries.push({key: k, discovery: ExplorerImp.map.get(k)})
+    discoveries.push({ key: k, discovery: ExplorerImp.map.get(k) });
   }
   return discoveries;
 }
 
-
 function setDiscovery(keys) {
   console.log(`setDiscovery(${keys})`);
   if (keys.length > ExplorerImp.count) {
-    console.log(`limiting length to: ${ExplorerImp.count} from ${keys.length}`)
+    console.log(`limiting length to: ${ExplorerImp.count} from ${keys.length}`);
     keys = keys.slice(0, ExplorerImp.count);
   }
-  if (ExplorerImp.currentKeys !== undefined && ExplorerImp.currentKeys.length == keys.length) {
+  if (
+    ExplorerImp.currentKeys !== undefined &&
+    ExplorerImp.currentKeys.length == keys.length
+  ) {
     let allEqual = true;
     for (let i = 0; i < ExplorerImp.currentKeys.length; ++i) {
-      if(ExplorerImp.currentKeys[i] !== keys[i]) {
+      if (ExplorerImp.currentKeys[i] !== keys[i]) {
         allEqual = false;
         break;
       }
@@ -109,8 +128,11 @@ function setDiscovery(keys) {
   window.location.hash = keys.join(SPLIT_CHARACTER);
   const discoveries = getDiscoveries(keys);
   ExplorerImp.onSetDiscovery(discoveries);
-  if (ExplorerImp.generateShareData !== undefined && navigator.canShare(ExplorerImp.generateShareData(discoveries))) {
-    const btn = document.querySelector('#explorer-footer-button-share');
+  if (
+    ExplorerImp.generateShareData !== undefined &&
+    navigator.canShare(ExplorerImp.generateShareData(discoveries))
+  ) {
+    const btn = document.querySelector("#explorer-footer-button-share");
     btn.classList.remove("d-none");
   }
 }
@@ -120,10 +142,9 @@ function setAllDiscovery() {
   setDiscovery(ExplorerImp.keys.filter(ExplorerImp.keysFilter));
 }
 
-
 function setNextDiscovery() {
   console.log(`setNextDiscovery()`);
-  if (ExplorerImp.currentIndex  === undefined) {
+  if (ExplorerImp.currentIndex === undefined) {
     ExplorerImp.currentIndex = pickIndex(ExplorerImp.keys);
   }
   console.log(`${ExplorerImp.currentIndex}`);
@@ -147,7 +168,12 @@ function setRandomDiscovery() {
     do {
       key = pickOne(ExplorerImp.keys);
       ++n_sanity;
-    } while (n_sanity < 100 && (keys.includes(key) || ExplorerImp.currentKeys !== undefined && ExplorerImp.currentKeys.includes(key)));
+    } while (
+      n_sanity < 100 &&
+      (keys.includes(key) ||
+        (ExplorerImp.currentKeys !== undefined &&
+          ExplorerImp.currentKeys.includes(key)))
+    );
     keys.push(key);
   }
   setDiscovery(keys);
@@ -158,14 +184,15 @@ function shareDiscovery() {
   if (ExplorerImp.generateShareData === undefined) {
     return;
   }
-  const data = ExplorerImp.generateShareData(getDiscoveries(ExplorerImp.currentKeys));
+  const data = ExplorerImp.generateShareData(
+    getDiscoveries(ExplorerImp.currentKeys)
+  );
   if (!navigator.canShare(data)) {
     return;
   }
   try {
     navigator.share(data);
-  } catch(err) {
-    return
+  } catch (err) {
+    return;
   }
 }
-

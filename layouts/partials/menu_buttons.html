@@ -1,0 +1,32 @@
+<div class="d-flex justify-content-center d-flex-inline-list">
+    <div class="text-center">
+        <ul class="list-inline ul-inline">
+            {{ range $index, $name_link_pair := .Params.links }}
+            {{ $split_pair := split $name_link_pair "," }}
+            <li class="list-inline-item li-inline">
+                <a href="{{ index $split_pair 1 }}">{{ index $split_pair 0 }}</a>
+            </li>
+            {{ end }} 
+        </ul>
+    </div>
+</div>
+    
+{{ if or .IsSection .IsPage }}
+<li class="list-inline-item li-inline">
+    <div class="col justify-content-left">
+        <button onclick="goBackToMainPage()">🏠</button>
+    </div>
+</li>
+{{ end }}
+{{ $urls_str := "" }}
+{{ range $index, $val := .RegularPages }}
+    {{ $urls_str := printf "%s" $urls_str | printf "%s,%s" .Permalink | printf "%s" }}
+{{ end }}
+
+{{ if $urls_str }}
+<li class="list-inline-item li-inline">
+    <div class="col justify-content-left">
+        <button onclick="goToRandomUrl({{ $urls_str }})">🎲</button>
+    </div>
+</li>
+{{ end }}

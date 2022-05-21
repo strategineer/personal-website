@@ -83,26 +83,18 @@
         {{ end }}
       </div>
     </div>
-    {{ if not .Params.is_explorer }}
+    {{ if not .Params.explorer }}
       {{ partial "to_top" . }}
+    {{ else }}
+      {{ $explorer_js := resources.Get "js/explorer.js" | resources.ExecuteAsTemplate "js/explorer.js" . }}
+       <script type="text/javascript" src="{{ $explorer_js.Permalink }}"> </script>
+      {{ $explorer_implementation_path := ".js" | printf "%s%s" .Params.explorer | printf "%s%s" "js/" }}
+      {{ $explorer_implementation_js := resources.Get $explorer_implementation_path | resources.ExecuteAsTemplate $explorer_implementation_path . }}
+       <script type="text/javascript" src="{{ $explorer_implementation_js.Permalink }}"> </script>
     {{ end }}
-    {{ if .Params.is_explorer }}
-      {{/*= javascript_include_tag "explorer" */}}
-    {{ with .File }}
-      {{ if eq .TranslationBaseName "meditations" }}
-        {{/*= javascript_include_tag "meditations" */}}
-      {{ end }}
-      {{ if eq .TranslationBaseName "infinite_steam_queue" }}
-        {{/*= javascript_include_tag "infinite_steam_queue" */}}
-      {{ end }}
-      {{ if eq .TranslationBaseName "eggstermination" }}
-        {{/*= javascript_include_tag "eggstermination" */}}
-      {{ end }}
-      {{ if eq .TranslationBaseName "wordler" }}
-        {{/*= javascript_include_tag "wordler" */}}
-      {{ end }}
-    {{ end }}
-    {{ end }}
+    {{ $js := resources.Get "js/site.js" }}
+    {{ $site_js := $js | resources.ExecuteAsTemplate "js/site.js" . }}
+    <script type="text/javascript" src="{{ $site_js.Permalink }}"> </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

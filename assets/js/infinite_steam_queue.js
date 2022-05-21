@@ -1,7 +1,7 @@
 let games = new Map();
-<% data.steamgames.applist.apps.each do |g| %>
-<%= "games.set(\"#{g.appid}\"" + "," + "\`#{g.name.gsub("`", "")}\`);" %>
-<% end %>
+{{ range $i, $g := $.Site.Data.steamgames.applist.apps }}
+games.set({{ $g.appid }}, `{{ replace $g.name "`" ""}}`);
+{{ end }}
 
 function shuffle(array) {
   let currentIndex = array.length,  randomIndex;

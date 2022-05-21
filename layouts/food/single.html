@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="food-content container">
-    {{/*= page_title(current_article.title, false, blog.articles) */}}
+    {{ partial "title" . }}
     {{ partial "links" . }}
     <ul>
         {{ range (.GetTerms "tags") }}

@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="cocktails-content container">
-    {{/*= page_title(current_page.data.title, false, blog.articles) */}}
+    {{ partial "title" . }}
     {{ partial "links" . }}
     <ul>
         {{ range (.GetTerms "tags") }}

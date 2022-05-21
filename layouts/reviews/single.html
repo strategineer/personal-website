@@ -6,7 +6,8 @@
     {{/* if current_article.tags.include?('thumbs_down') */}}
       {{/* icon = "&#x1F44E" */}}
     {{/* end */}}
-    {{/*= page_title(current_page.data.title + " Review " + icon, false, blog.articles) */}}
+    {{/*= TODO(strategineer): I want this to add "Review" to the title and the icon */}}
+    {{ partial "title" . }}
     {{ partial "links" . }}
     {{/*= try_page_video(current_article) */}}
     {{/*= try_page_images(current_article) */}}

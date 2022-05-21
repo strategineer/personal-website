@@ -1,7 +1,7 @@
 let words = new Map();
-<% data.wordle_words.each do |k, v| %>
-<%= "words.set(\"#{k}\",#{v});" %>
-<% end %>
+{{- range $k, $v := $.Site.Data.wordle_words -}}
+words.set("{{ $k }}", "{{ $v }}")
+{{ end }}
 let wordKeys =[ ...words.keys() ];
 
 function updateGuesses() {

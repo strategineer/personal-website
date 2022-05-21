@@ -1,7 +1,7 @@
 let meditations = new Map();
-<% data.meditations.each_with_index do |g, i| %>
-<%= "meditations.set(\"#{g[0, g.index("\n")]}\"" + "," + "\`#{g}\`);" %>
-<% end %>
+{{- range $i, $g := $.Site.Data.meditations -}}
+meditations.set("{{ index (split $g "\n" | first 1) 0 }}", `{{ $g }}`);
+{{ end }}
 let meditationKeys =[ ...meditations.keys() ];
 
 function getAllMeditationKeys(term) {

@@ -1,12 +1,16 @@
 var GREETINGS = [
-  <% data.greetings.each_with_index do |g, i| %>
-    <%= "\"#{g}\"" %><%= ',' unless i == data.greetings.length-1 %>
-  <% end %>
+{{- range $i, $g := $.Site.Data.greetings -}}
+  {{- if eq $i (sub (len $.Site.Data.greetings) 1) -}}
+    "{{ $g }}"
+  {{- else -}}
+    "{{ $g }}",
+  {{- end -}}
+{{- end -}}
 ];
 
-window.onload = function () {
-  setRandomGreeting();
-};
+window.addEventListener("load",function(event) {
+ setRandomGreeting();
+},false);
 
 function setRandomGreeting() {
   var greeting = pickOne(GREETINGS);

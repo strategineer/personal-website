@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="blog-content container">
-    {{/*= page_title(current_page.data.title, false, blog.articles) */}}
+    {{ partial "title" . }}
     {{/*= page_info(current_article) */}}
     {{ partial "links" . }}
     {{/*= try_page_video(current_article) */}}
