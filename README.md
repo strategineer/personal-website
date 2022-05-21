@@ -15,4 +15,10 @@
 
 # TODO -> Hugo migration
 - recent_articles don't show audio symbol
-- create a partial for the menu buttons
+- create a partial for the menu buttons -> the layout is weird?
+- fix cv
+- fix images carousel display
+- fix all the page_* functions
+- implement table with posts partial
+- fix main page not presenting the blog posts by default
+- fix weirdness here and there

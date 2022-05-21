@@ -1,5 +1,4 @@
 ---
-title: Strategineer
 has_header: true
 is_readable: true
 ---

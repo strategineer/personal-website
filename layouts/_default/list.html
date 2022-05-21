@@ -3,10 +3,14 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ range .Pages }}
-    <article>
-        <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
-    </article>
+  {{ if .IsHome }}
+  TODO(strategineer): this 
+  {{ else }}
+    {{ range .Pages }}
+      <article>
+          <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+      </article>
+    {{ end }}
   {{ end }}
 {{ end }}
 

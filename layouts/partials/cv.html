@@ -1,6 +1,6 @@
-{{/* d = data[data_key][lang] */}}
-{{/* my_tags = data[data_key]["tags"] */}}
-<a class="cv-anchor" id="{{/*= lang */}}"></a>
+{{ $d := $.Site.Data.cv.en }}
+{{ $my_tags := $d.tags }}
+<a class="cv-anchor" id="en"></a>
 <div class="cv">
   <div class="d-flex justify-content-center cv-download-link">
      <a href="/cv/cv.pdf" download="bill_christian_tyros_cv.pdf">
@@ -9,7 +9,7 @@
   </div>
   <div class="d-flex justify-content-center cv-name">
     <div class="col-12 text-center display-6">
-      {{/*= d.name */}}.{{/*= d.title */}}
+      {{ $d.name }}.{{ $d.title }}
     </div>
   </div>
   <div class="row text-center cv-email">
@@ -25,84 +25,84 @@
   <div class="row justify-content-center cv-content cv-readable">
     <div class="col-12 text-center cv-header">
       <div class="d-flex">
-      {{/* d.sidebar_section.each do |v| */}}
+      {{ range $v := $d.sidebar_section }}
         <div class="col">
           <div class="row cv-header-section text-center">
             <ul class="list-inline">
-            {{/* v.list.each do |e| */}}
+            {{ range $e := $v.list }}
               <li class="cv-header-item list-inline-item">
-                {{/* if my_tags.include?(e) */}}
-                  <a href="{{/*= my_tags[e] */}}">{{/*= e */}}</a>
-                {{/* else */}}
-                  {{/*= e */}}
-                {{/* end */}}
+                {{ if in $my_tags $e }}
+                  <a href="{{ index $my_tags $e }}">{{ $e }}</a>
+                {{ else }}
+                  {{ $e }}
+                {{ end }}
               </li>
-            {{/* end */}}
+            {{ end }}
             </ul>
           </div>
         </div>
-      {{/* end */}}
+      {{ end }}
       </div>
     </div>
     <div class="col-12 cv-main">
-      {{/* d.main_section.each do |v| */}}
+      {{ range $v := $d.main_section }}
         <div class="col-12 cv-main-section">
-          <div class="cv-main-title">{{/*= v.title */}}</div>
-          {{/* v.list.each do |e| */}}
+          <div class="cv-main-title">{{ $v.title }}</div>
+          {{ range $e := $v.list }}
             <div class="col-12 cv-main-entry">
               <div class="row cv-main-entry-header">
-                {{/* has_link = (not e.link.nil?) */}}
-                {{/* if has_link */}}
+                {{ $has_link := (not $e.link) }}
+                {{ if $has_link }}
                   <a href="{{/*= e.link */}}">
-                {{/* end */}}
+                {{ end }}
                 <div class="col text-left">
                   <div class="cv-main-entry-title">
-                  {{/* unless e.year.nil? */}}
-                  {{/*= e.year */}}
-                  {{/* end */}}
-                  {{/* unless e.year.nil? and e.hint.nil? */}}
+                  {{ if $e.year }}
+                  {{ $e.year }}
+                  {{ end }}
+                  {{ if not (and $e.year $e.hint) }}
                     /
-                  {{/* end */}}
-                  {{/*= e.title */}}
-                  {{/* unless e.hint.nil? */}}
-                  ({{/*= e.hint */}})
-                  {{/* end */}}
+                  {{ end }}
+                  {{ $e.title }}
+                  {{ if $e.hint }}
+                  ({{ $e.hint }})
+                  {{ end }}
                   </div>
                 </div>
-                {{/* if has_link */}}
+                {{ if $has_link }}
                   </a>
-                {{/* end */}}
-                {{/* if defined? e.tech */}}
+                {{ end }}
+                {{ if $e.tech }}
                 <div class="col text-center">
                   <div class="d-flex justify-content-center cv-main-entry-tech">
                     <ul class="list-inline">
-                    {{/* e.tech.each do |t| */}}
+                    {{ range $t := $e.tech }}
                       <li class="cv-tech-item list-inline-item">
-                      {{/* if my_tags.include?(t) */}}
-                        <a href="{{/*= my_tags[t] */}}">{{/*= t */}}</a>
-                      {{/* else */}}
-                        {{/*= t */}}
-                      {{/* end */}}
+                      {{ if in $my_tags $t }}
+                        <a href="{{ index $my_tags $t }}">{{ $t }}</a>
+                      {{ else }}
+                        {{ $t }}
+                      {{ end }}
                       </li>
-                    {{/* end */}}
+                    {{ end }}
                     </ul>
                   </div>
                 </div>
-                {{/* end */}}
+                {{ end }}
               </div>
-              {{/* if defined? e.list */}}
+              {{ if $e.list }}
               <div class="d-flex justify-content-left cv-main-entry-bullets">
                 <ul>
-                {{/* e.list.each do |b| */}}
-                  <li class="cv-bullet-item">{{/*= b */}}</li>
-                {{/* end */}}
+                  {{ range $b := $e.list }}
+                  <li class="cv-bullet-item">{{ $b }}</li>
+                {{ end }}
                 </ul>
               </div>
-              {{/* end */}}
+              {{ end }}
             </div>
-          {{/* end */}}
+          {{ end }}
         </div>
-      {{/* end */}}
+      {{ end }}
     </div>
   </div>
 </div>

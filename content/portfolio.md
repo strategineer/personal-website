@@ -1,5 +1,5 @@
 ---
-title: Strategineer
+title: Some nice pictures I took
 has_header: true
 ---
 ![](/img/portfolio/0001.jpg)
