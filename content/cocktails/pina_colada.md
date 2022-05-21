@@ -3,7 +3,9 @@ title: Pina Colada
 id_title: pina_colada
 blog: cocktails
 date: 2021-12-02
-tags: strong, rum
+tags:
+  - strong
+  - rum
 personal_rating: 2
 inspired_by: The Joy of Mixology by Gary Reagan (p. 264)
 blurb: I didn't use ripe pineapple and that messes up the cocktail. I'm going to have to try this one again...

@@ -3,7 +3,9 @@ title: Green Man's Whiskers
 id_title: green_mans_whiskers
 blog: cocktails
 date: 2021-11-02
-tags: strong, gin
+tags:
+  - strong
+  - gin
 personal_rating: 5
 inspired_by: The Joy of Mixology by Gary Reagan (p. 274)
 blurb: Very green but tastes very orangey. The gin combined with the two types of vermouth and the orange juice and liqueur gives this cocktail a unique flavor that's hard to describe.

@@ -3,7 +3,9 @@ title: Whiskey Sour
 id_title: whiskey_sour
 blog: cocktails
 date: 2021-11-20
-tags: strong, whiskey
+tags:
+  - strong
+  - whiskey
 personal_rating: 2
 inspired_by: The Joy of Mixology by Gary Reagan (p. 290)
 blurb: Another way to make bourbon enjoyable to drink.

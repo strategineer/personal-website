@@ -4,7 +4,8 @@ id_title: sinnamonana
 blog: food
 order: 5
 date: 2020-11-14
-tags: dessert
+tags:
+  - dessert
 is_important: true
 blurb: Simple yet delicious sliced banana sprinkled with cinnamon served with honey.
 servings: 1

@@ -4,7 +4,8 @@ id_title: brazilian_pancakes
 blog: food
 order: -100
 date: 2021-12-22
-tags: dip
+tags:
+  - dip
 is_important: true
 blurb:
 servings: 4

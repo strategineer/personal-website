@@ -4,7 +4,8 @@ id_title: blessed cookies
 blog: food
 order: -10
 date: 2020-11-18
-tags: dessert
+tags:
+  - dessert
 is_important: true
 blurb: Heavenly melt-in-your-mouth cookies that even a Karen would enjoy.
 servings: 24

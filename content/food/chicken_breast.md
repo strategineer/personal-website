@@ -4,7 +4,8 @@ id_title: chick_breast
 blog: food
 order: 2
 date: 2021-11-15
-tags: juicy
+tags:
+  - juicy
 is_important: true
 blurb:
 servings: 4

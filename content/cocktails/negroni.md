@@ -3,7 +3,9 @@ title: Negroni
 id_title: negroni
 blog: cocktails
 date: 2021-10-26
-tags: strong, gin
+tags:
+  - strong
+  - gin
 personal_rating: 4
 inspired_by: The Joy of Mixology by Gary Reagan (p. 254)
 blurb: It tastes like mouthwash? But I like it?

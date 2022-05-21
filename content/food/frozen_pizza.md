@@ -4,7 +4,8 @@ id_title: struggle_pizza
 blog: food
 order: 4
 date: 2020-11-16
-tags: cheap
+tags:
+  - cheap
 is_important: true
 blurb: Take a cheap frozen pizza and transform it into a decent frozen pizza.
 servings: 1

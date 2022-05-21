@@ -4,7 +4,8 @@ id_title: shrimp_tacos
 blog: food
 order: -10000
 date: 2021-11-06
-tags: hot
+tags:
+  - hot
 is_important: true
 inspired_by: https://www.yummly.com/recipe/Spicy-Shrimp-Tacos-1223822?prm-v1
 blurb: Spice up your life with spicy shrimp tacos.

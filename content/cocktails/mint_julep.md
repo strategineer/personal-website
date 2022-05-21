@@ -3,7 +3,9 @@ title: Mint Julep
 id_title: mint_julep
 blog: cocktails
 date: 2022-05-03
-tags: light, bourbon
+tags:
+  - light
+  - bourbon
 personal_rating: 5
 inspired_by: The Joy of Mixology by Gary Reagan (p. 249-250)
 blurb: I like mint, I like bourbon, I like them together on some crushed ice.

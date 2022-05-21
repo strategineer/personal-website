@@ -2,11 +2,20 @@
   <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
   {{ .Title }} &ndash; {{ .Site.Title }}
 {{ end }}
+
 {{ define "main" }}
+<ul>
+    {{ range (.GetTerms "tags") }}
+        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+</ul>
+
+
 <main>
     <article>
     <header>
         <h1>{{ .Title }}</h1>
+        {{ .FuzzyWordCount }} words
     </header>
         {{ .Content }}
     </article>

@@ -4,7 +4,8 @@ id_title: mush_de_vegan
 blog: food
 order: -50
 date: 2020-11-17
-tags: vegan
+tags:
+  - vegan
 is_important: true
 blurb: Not a vegan turned into mush but a vegan mush that a vegan would approve of.
 servings: 6

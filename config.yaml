@@ -1,3 +1,6 @@
+author:
+  name: "Strategineer"
+
 baseURL: 'http://strategineer.com/'
 languageCode: 'en-us'
 title: 'Strategineer'
@@ -10,6 +13,8 @@ permalinks:
   posts: /:section/:year-:month-:day
 
 
+taxonomies:
+  tag: tags
 
 markup:
  defaultMarkdownHandler: goldmark
