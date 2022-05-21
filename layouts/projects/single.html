@@ -1,8 +1,3 @@
-{{ define "title" }}
-  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
-  {{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
-
 {{ define "main" }}
   <div class="project-content container">
     {{/*= page_title(current_article.title, false, blog.articles) */}}

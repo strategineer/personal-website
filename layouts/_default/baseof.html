@@ -32,7 +32,7 @@
 
     <link rel="stylesheet" href="/static/css/site.css">
     <title>
-    {{ block "title" . }}
+    {{ block "page_title" . }}
       <!-- Blocks may include default content. -->
       {{ .Site.Title }}
     {{ end }}
@@ -41,6 +41,9 @@
     {{ end }}
   </head>
   <body>
+    {{ block "title" . }}
+      {{ .Title }}
+    {{ end }}
     <!-- Code that all your templates share, like a header -->
     {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->

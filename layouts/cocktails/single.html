@@ -1,13 +1,12 @@
-{{ define "title" }}
-  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
-  {{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
-
 {{ define "main" }}
   <div class="cocktails-content container">
     {{/*= page_title(current_page.data.title, false, blog.articles) */}}
     {{/*= page_links(current_page) */}}
-    {{/*= page_tags(current_page) */}}
+    <ul>
+        {{ range (.GetTerms "tags") }}
+            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+    </ul>
     {{ if .Params.blurb }}
       <div class="d-flex justify-content-center">
         {{ .Params.blurb }}
