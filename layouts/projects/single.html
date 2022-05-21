@@ -3,7 +3,7 @@
     {{/*= page_title(current_article.title, false, blog.articles) */}}
     {{/*= try_page_video(current_article) */}}
     {{/*= try_page_images(current_article) */}}
-    {{/*= page_links(current_page) */}}
+    {{ partial "links" . }}
     {{ if .Params.blurb }}
     <div class="d-flex justify-content-center">
       <div class="project-blurb readable text-center" >

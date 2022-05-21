@@ -3,23 +3,5 @@
 {{ end }}
 
 {{ define "main" }}
-<ul>
-    {{ range (.GetTerms "tags") }}
-        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-    {{ end }}
-</ul>
-
-
-<main>
-    <article>
-    <header>
-        <h1>{{ .Title }}</h1>
-        {{ .FuzzyWordCount }} words
-    </header>
-        {{ .Content }}
-    </article>
-    <aside>
-        {{ .TableOfContents }}
-    </aside>
-</main>
+{{ .Content }}
 {{ end }}

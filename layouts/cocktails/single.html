@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="cocktails-content container">
     {{/*= page_title(current_page.data.title, false, blog.articles) */}}
-    {{/*= page_links(current_page) */}}
+    {{ partial "links" . }}
     <ul>
         {{ range (.GetTerms "tags") }}
             <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
