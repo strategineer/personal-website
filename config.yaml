@@ -8,7 +8,6 @@ enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 
-
 permalinks:
   posts: /:section/:year-:month-:day
 

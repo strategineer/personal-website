@@ -1,5 +1,5 @@
 ---
-title: "2021-11-28: Everyone is John and/or George"
+title: "Everyone is John and/or George"
 is_readable: true
 ---
 # How to Play

@@ -13,7 +13,7 @@
       </div>
     {{ end }}
     {{/*= try_page_video(current_article) */}}
-    {{/*= try_page_images(current_article, true) */}}
+    {{ partial "images" . }}
     {{ if .Params.inspired_by }}
       <div class="d-flex justify-content-center">
           Inspired by:

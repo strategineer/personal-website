@@ -4,7 +4,7 @@
     {{/*= page_info(current_article) */}}
     {{ partial "links" . }}
     {{/*= try_page_video(current_article) */}}
-    {{/*= try_page_images(current_article) */}}
+    {{ partial "images" . }}
     {{/*= try_page_audio(current_article) */}}
     <div class="row justify-content-center readable">
       {{ if in .Params.tags "fiction" }}

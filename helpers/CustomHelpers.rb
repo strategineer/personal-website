@@ -76,18 +76,6 @@ module CustomHelpers
     return [ls.take(max_count), [ls.size - max_count, 0].max]
   end
 
-  def get_next_article(blog_type=nil)
-    ls = get_articles_shortlist(nil, blog_type, exclude_self=false)[0]
-    entry_index = ls.index{|x| get_article_id(current_page) == get_article_id(x)}
-    return (entry_index.nil? or entry_index - 1 < 0) ? nil : ls[entry_index - 1]
-  end
-
-  def get_previous_article(blog_type=nil)
-    ls = get_articles_shortlist(nil, blog_type, exclude_self=false)[0]
-    entry_index = ls.index{|x| get_article_id(current_page) == get_article_id(x)}
-    return (entry_index.nil? or ls.size == entry_index) ? nil : ls[entry_index + 1]
-  end
-
   def has_thumbnail?(article)
     return get_thumbnail_path(article) != ""
   end

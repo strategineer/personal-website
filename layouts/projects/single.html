@@ -2,7 +2,7 @@
   <div class="project-content container">
     {{ partial "title" . }}
     {{/*= try_page_video(current_article) */}}
-    {{/*= try_page_images(current_article) */}}
+    {{ partial "images" . }}
     {{ partial "links" . }}
     {{ if .Params.blurb }}
     <div class="d-flex justify-content-center">

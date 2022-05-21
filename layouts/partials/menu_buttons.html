@@ -1,34 +1,34 @@
+{{- if .Params.links -}}
 <div class="d-flex justify-content-center d-flex-inline-list">
     <div class="text-center">
         <ul class="list-inline ul-inline">
-            {{ range $index, $name_link_pair := .Params.links }}
-            {{ $split_pair := split $name_link_pair "," }}
+            {{- range $index, $name_link_pair := .Params.links -}}
+            {{- $split_pair := split $name_link_pair "," -}}
             <li class="list-inline-item li-inline">
                 <a href="{{ index $split_pair 1 }}">{{ index $split_pair 0 }}</a>
             </li>
-            {{ end }} 
+            {{- end -}} 
         </ul>
     </div>
 </div>
+{{- end -}} 
     
-{{ if or .IsSection .IsPage }}
+{{- if or .IsSection .IsPage -}}
 <li class="list-inline-item li-inline">
     <div class="col justify-content-left">
         <button onclick="goBackToMainPage()">🏠</button>
     </div>
 </li>
-{{ end }}
-{{ $pages := where $.Site.RegularPages "Section" .Section }}
-{{ if $pages }}
-    {{ $urls := slice }}
-    {{ range $pages }}
-        {{ $urls = $urls | append .Permalink }}
-    {{ end }}
-
-
+{{- end -}}
+{{- $pages := where $.Site.RegularPages "Section" .Section -}}
+{{- if $pages -}}
+    {{- $urls := slice -}}
+    {{- range $pages -}}
+        {{- $urls = $urls | append .Permalink -}}
+    {{- end -}}
     <li class="list-inline-item li-inline">
         <div class="col justify-content-left">
             <button onclick="goToRandomUrl({{ $urls }})">🎲</button>
         </div>
     </li>
-{{ end }}
+{{- end -}}

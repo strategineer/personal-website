@@ -1,0 +1,5 @@
+---
+cascade:
+  resources:
+    images: "**.jpg"
+---

@@ -1,0 +1,31 @@
+
+{{ with .Resources.GetMatch "**.jpg" }}
+  <img src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
+{{ end }}
+
+
+{{/*
+  def try_page_images(page, use_thumbnail_as_image=false)
+    images = get_images(page, use_thumbnail_as_image)
+    res = ""
+    if images.length > 0
+      res <<
+      %{
+<div class="d-flex justify-content-center readable">
+  <div class="col-12">
+      }
+      if images.length > 1
+        res += page_images_multiple(images)
+      end
+      if images.length == 1
+        res += page_images_singular(images)
+      end
+      res <<
+      %{
+  </div>
+</div>
+      }
+    end
+    return res
+  end
+*/}}

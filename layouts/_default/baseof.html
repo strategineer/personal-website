@@ -28,11 +28,7 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-
     {{ $style := resources.Get "css/site.scss" | resources.ToCSS }}
-
-
-
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     <title>
     {{ block "page_title" . }}
@@ -44,7 +40,6 @@
   </head>
   <body id="documentTop" class="{{/*= page_classes */}}">
     {{ block "title" . }}
-      {{ .Title }}
     {{ end }}
     <!-- Code that all your templates share, like a header -->
     {{ block "footer" . }}

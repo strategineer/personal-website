@@ -1,7 +1,7 @@
-{{/*= menu_buttons(is_main_page, blog.articles) */}}
 {{ $n_max := 10 }}
 {{ $pages := where $.Site.RegularPages "Section" .Section }}
 {{ if $pages }}
+{{ partial "menu_buttons" . }}
 <div class="d-flex justify-content-center footer-shortlist-title">
   <h4>Recent {{ .Section }}:</h4>
 </div>
@@ -13,7 +13,7 @@
         <li class="footer-shortlist-item"> {{ .Title }}</li>
       </a>
     {{ end }}
-    {{ $n_pages_left := sub (len $pages) $n_max }}
+    {{ $n_pages_left := sub $n_max (len $pages)  }}
     {{ if $n_pages_left }}
       <li class="footer-shortlist-archive">
         <a href="/{{ .Section }}">... with {{ $n_pages_left }} more {{ .Section }} in the archive</a>
