@@ -17,7 +17,7 @@ PROJECT_OUTPUT_DIRECTORY=~/projects/keikakub.github.io
 
 bundle exec middleman build
 
-rsync -av --exclude '.git' --exclude 'CNAME' ./build/. ${PROJECT_OUTPUT_DIRECTORY} --delete
+rsync -av --exclude '.git' --exclude 'CNAME' ./public/. ${PROJECT_OUTPUT_DIRECTORY} --delete
 
 cd ${PROJECT_OUTPUT_DIRECTORY}
 git add .
