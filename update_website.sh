@@ -15,7 +15,7 @@ git push
 PROJECT_OUTPUT_DIRECTORY=~/projects/keikakub.github.io 
 
 
-bundle exec middleman build
+hugo 
 
 rsync -av --exclude '.git' --exclude 'CNAME' ./public/. ${PROJECT_OUTPUT_DIRECTORY} --delete
 
