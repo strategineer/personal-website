@@ -12,18 +12,31 @@
     </div>
 </div>
 {{- end -}} 
-    
-{{- if or .IsSection .IsPage -}}
+
+{{ $tags_suffix := "/tags" }}
+{{- $pages := slice -}}
+{{ $targetted_section := slice }}
+{{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
+{{ if $is_tag_page }}
+  {{ $targetted_section = replace .Section $tags_suffix "" }}
+  {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
+{{ else }}
+  {{ $targetted_section = .Section }}
+  {{- $pages = where $.Site.RegularPages "Section" $targetted_section -}}
+{{ end }}
+{{- $has_home_button := or $is_tag_page .IsPage }}
+{{- $has_random_button := $pages }}
+{{- if or $has_home_button $has_random_button -}}
 <div class="d-flex justify-content-center d-flex-inline-list">
   <div class="text-center">
-<li class="list-inline-item li-inline">
+    {{ if $has_home_button }}
+    <li class="list-inline-item li-inline">
     <div class="col justify-content-left">
         <button onclick="goBackToMainPage()">🏠</button>
     </div>
-</li>
-{{- end -}}
-{{- $pages := where $.Site.RegularPages "Section" .Section -}}
-{{- if $pages -}}
+    </li>
+    {{ end }}
+    {{- if $has_random_button -}}
     {{- $urls := slice -}}
     {{- range $pages -}}
         {{- $urls = $urls | append .Permalink -}}
@@ -33,6 +46,7 @@
             <button onclick="goToRandomUrl({{ $urls }})">🎲</button>
         </div>
     </li>
+    </div>
 </div>
-</div>
+{{- end -}}
 {{- end -}}

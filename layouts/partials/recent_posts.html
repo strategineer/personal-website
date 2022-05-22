@@ -10,7 +10,6 @@
   {{ $pages = $non_ramble_pages }}
 {{ end }}
 {{ if $pages }}
-{{ partial "menu_buttons" . }}
 {{ $post_name := pluralize .Params.post_name }}
 <div class="d-flex justify-content-center footer-shortlist-title">
   <h4>Recent {{ $post_name }}:</h4>
