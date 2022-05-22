@@ -5,8 +5,8 @@
     {{ if $thumbnail }}
       <div class="col">
         <a href='{{ .Permalink }}'>
-          {{ with $thumbnail }}
-          <img class="img-fluid rounded mx-auto d-block img-fluid-max-height" src="data:{{ .ResourceType }};base64,{{ .Content | base64Encode }}">
+          {{ with $thumbnail.Resize "x400 webp q50" }}
+          <img class="img-fluid rounded mx-auto d-block" src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
           {{ end }}
         </a>
       </div>

@@ -4,9 +4,9 @@ if [[ $# -eq 0 ]] || [[ $# -gt 1 ]] ; then
     exit 1
 fi
 
-./bin/remove_location_data_from_images.sh
+#./bin/remove_location_data_from_images.sh
 
-curl "http://api.steampowered.com/ISteamApps/GetAppList/v0002/?format=json" | json_pp -json_opt pretty,canonical > data/steamgames.json
+#curl "http://api.steampowered.com/ISteamApps/GetAppList/v0002/?format=json" | json_pp -json_opt pretty,canonical > data/steamgames.json
 
 git add .
 git commit -m "$1"
@@ -15,9 +15,7 @@ git push
 PROJECT_OUTPUT_DIRECTORY=~/projects/keikakub.github.io 
 
 
-hugo 
-
-rsync -av --exclude '.git' --exclude 'CNAME' ./public/. ${PROJECT_OUTPUT_DIRECTORY} --delete
+hugo && rsync -av --exclude '.git' --exclude 'CNAME' ./public/. ${PROJECT_OUTPUT_DIRECTORY} --delete
 
 cd ${PROJECT_OUTPUT_DIRECTORY}
 git add .
