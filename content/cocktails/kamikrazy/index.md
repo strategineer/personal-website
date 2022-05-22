@@ -1,7 +1,5 @@
 ---
 title: Kamikrazy
-id_title: kamikrazy
-blog: cocktails
 date: 2021-11-22
 tags:
   - strong

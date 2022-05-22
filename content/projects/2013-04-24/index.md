@@ -1,6 +1,5 @@
 ---
 title: Mega Super Epic Tankz
-blog: projects
 date: 2013-04-24
 tags:
     - Torque2D

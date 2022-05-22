@@ -1,6 +1,5 @@
 ---
 title: "Social Deduction through Text Chat in Untrusted"
-blog: blog
 date: 2021-03-15
 tags:
    - gaming

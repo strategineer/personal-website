@@ -1,6 +1,5 @@
 ---
 title: VTOL VR
-blog: blog
 date: 2022-01-17
 tags:
     - ramble

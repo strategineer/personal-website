@@ -1,12 +1,8 @@
 ---
 title: "Breaded Chicken"
-id_title: breaded chicken
-blog: food
-order: -10
 date: 2021-10-17
 tags:
   - dinner
-is_important: true
 blurb: Breaded Chicken
 servings: 6-8
 ingredients:

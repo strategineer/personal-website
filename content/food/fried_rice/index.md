@@ -1,12 +1,8 @@
 ---
 title: Fried Rice
-id_title: fried_rice
-blog: food
-order: 2
 date: 2021-11-09
 tags:
   - fried
-is_important: true
 blurb: ...
 servings: 4
 inspired_by: french youtube cooking man

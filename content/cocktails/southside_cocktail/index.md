@@ -1,7 +1,5 @@
 ---
 title: Southside Cocktail
-id_title: southside_cocktail
-blog: cocktails
 date: 2021-10-22
 tags:
   - strong

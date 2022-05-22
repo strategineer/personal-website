@@ -1,12 +1,8 @@
 ---
 title: "My Chili"
-id_title: my chili
-blog: food
-order: -10
 date: 2021-10-17
 tags:
   - dinner
-is_important: true
 blurb: Chili.
 servings: 8
 ingredients:

@@ -1,6 +1,5 @@
 ---
 title: "\"That's never happened before\" syndrome"
-blog: blog
 date: 2022-01-03
 tags:
     - gaming

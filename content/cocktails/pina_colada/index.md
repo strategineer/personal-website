@@ -1,7 +1,5 @@
 ---
 title: Pina Colada
-id_title: pina_colada
-blog: cocktails
 date: 2021-12-02
 tags:
   - strong

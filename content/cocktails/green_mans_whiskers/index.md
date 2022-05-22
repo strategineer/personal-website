@@ -1,7 +1,5 @@
 ---
 title: Green Man's Whiskers
-id_title: green_mans_whiskers
-blog: cocktails
 date: 2021-11-02
 tags:
   - strong

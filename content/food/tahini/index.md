@@ -1,12 +1,8 @@
 ---
 title: "Tahini sauce"
-id_title: tahini sauce
-blog: food
-order: -10
 date: 2021-10-17
 tags:
   - dip
-is_important: true
 blurb: Tahini sauce.
 servings: 2 cups
 ingredients:

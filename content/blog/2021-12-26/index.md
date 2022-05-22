@@ -1,6 +1,5 @@
 ---
 title: Games I played in 2021
-blog: blog
 date: 2021-12-26
 tags:
     - gaming

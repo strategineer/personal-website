@@ -1,6 +1,5 @@
 ---
 title: "Time to Die in Risk of Rain 2"
-blog: blog
 date: 2021-02-04
 tags:
    - gaming

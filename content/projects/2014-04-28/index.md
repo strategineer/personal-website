@@ -1,6 +1,5 @@
 ---
 title: Invasion Logistics Pro
-blog: projects
 date: 2014-04-28
 tags:
     - C#

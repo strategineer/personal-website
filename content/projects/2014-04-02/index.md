@@ -1,6 +1,5 @@
 ---
 title: Graveyard Rush
-blog: projects
 date: 2014-04-02
 tags:
     - haxe

@@ -1,6 +1,5 @@
 ---
 title: DNA Toolkit
-blog: projects
 date: 2011-12-01
 tags:
     - "C#"

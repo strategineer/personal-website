@@ -1,6 +1,5 @@
 ---
 title: "Piloting and Tinkering in Ring Runner"
-blog: blog
 date: 2020-12-31
 tags:
    - gaming

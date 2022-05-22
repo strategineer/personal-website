@@ -1,6 +1,5 @@
 ---
 title: Lynchman
-blog: projects
 date: 2019-04-15
 tags:
     - python

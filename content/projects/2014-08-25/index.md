@@ -1,6 +1,5 @@
 ---
 title: Black Box Bandit
-blog: projects
 date: 2014-08-25
 tags:
     - C#

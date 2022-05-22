@@ -1,6 +1,5 @@
 ---
 title: "Beware the God Killer in Yoku's Island Express"
-blog: blog
 date: 2021-01-18
 tags:
    - gaming

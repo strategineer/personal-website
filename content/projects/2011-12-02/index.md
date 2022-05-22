@@ -1,6 +1,5 @@
 ---
 title: DnD Sidekick
-blog: projects
 date: 2011-12-02
 tags:
     - "C#"

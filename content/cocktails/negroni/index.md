@@ -1,7 +1,5 @@
 ---
 title: Negroni
-id_title: negroni
-blog: cocktails
 date: 2021-10-26
 tags:
   - strong

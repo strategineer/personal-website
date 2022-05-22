@@ -1,7 +1,5 @@
 ---
 title: Homemade Ginger Beer
-id_title: ginger_beer
-blog: cocktails
 date: 2021-11-15
 tags:
   - "non-alcoholic"

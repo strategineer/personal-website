@@ -1,6 +1,5 @@
 ---
 title: Benefiting from the Nasal Douche
-blog: blog
 date: 2022-02-07
 tags:
     - life

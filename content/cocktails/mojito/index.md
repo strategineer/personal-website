@@ -1,7 +1,5 @@
 ---
 title: Mojito
-id_title: mojito
-blog: cocktails
 date: 2022-05-18
 tags:
   - light

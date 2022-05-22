@@ -1,7 +1,5 @@
 ---
 title: Whiskey Sour
-id_title: whiskey_sour
-blog: cocktails
 date: 2021-11-20
 tags:
   - strong

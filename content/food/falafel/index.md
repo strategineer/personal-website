@@ -1,12 +1,8 @@
 ---
 title: "Baked Falafel"
-id_title: baked falafel
-blog: food
-order: -10
 date: 2021-10-17
 tags:
   - dinner
-is_important: true
 blurb: Falafel.
 servings: 12 falafels
 ingredients:

@@ -1,7 +1,5 @@
 ---
 title: Sky Tai
-id_title: sky_tai
-blog: cocktails
 date: 2021-11-09
 tags:
   - light

@@ -1,6 +1,5 @@
 ---
 title: Embeds, embeds, embeds
-blog: blog
 date: 2021-11-18
 tags:
     - ramble

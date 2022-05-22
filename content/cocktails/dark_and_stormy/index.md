@@ -1,7 +1,5 @@
 ---
 title: Dark and Stormy
-id_title: dark_and_stormy
-blog: cocktails
 date: 2021-10-15
 tags:
   - light

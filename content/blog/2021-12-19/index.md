@@ -1,6 +1,5 @@
 ---
 title: Books I read in 2021
-blog: blog
 date: 2021-12-19
 tags:
     - media

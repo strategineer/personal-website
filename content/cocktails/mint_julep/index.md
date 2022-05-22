@@ -1,7 +1,5 @@
 ---
 title: Mint Julep
-id_title: mint_julep
-blog: cocktails
 date: 2022-05-03
 tags:
   - light

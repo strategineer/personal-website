@@ -1,7 +1,5 @@
 ---
 title: Gimlet
-id_title: gimlet
-blog: cocktails
 date: 2021-10-09
 tags:
   - strong

@@ -1,7 +1,5 @@
 ---
 title: Tequila Sunrise
-id_title: tequila_sunrise
-blog: cocktails
 date: 2021-12-03
 tags:
   - strong

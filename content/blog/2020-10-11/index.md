@@ -1,6 +1,5 @@
 ---
 title: "Chronic Pain and HUGE Trackballs"
-blog: blog
 date: 2020-10-11
 tags:
     - life

@@ -1,6 +1,5 @@
 ---
 title: "Hunt, Showdown, Repeat"
-blog: blog
 date: 2020-09-04
 tags:
    - gaming

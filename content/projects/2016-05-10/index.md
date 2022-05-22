@@ -1,6 +1,5 @@
 ---
 title: Get Out
-blog: projects
 date: 2016-05-10
 tags:
     - cpp

@@ -1,12 +1,8 @@
 ---
 title: Elf's Blood Guac
-id_title: elf_blood_buac
-blog: food
-order: -100
 date: 2020-11-09
 tags:
   - dip
-is_important: true
 blurb: Let the blood of your puny enemies flow while you enjoy this creamy guacamole.
 servings: 4
 ingredients:

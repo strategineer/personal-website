@@ -1,7 +1,5 @@
 ---
 title: Fruity Old Fashioned
-id_title: fruity_old_fashioned
-blog: cocktails
 date: 2021-10-23
 tags:
   - strong

@@ -1,6 +1,5 @@
 ---
 title: Writerator
-blog: projects
 date: 2013-02-01
 tags:
     - python

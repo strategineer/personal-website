@@ -1,6 +1,5 @@
 ---
 title: "A Political Video Game: Suzerain"
-blog: blog
 date: 2021-04-05
 tags:
   - gaming

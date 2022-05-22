@@ -1,6 +1,5 @@
 ---
 title: Pew Pew
-blog: projects
 date: 2017-08-01
 tags:
     - pico8

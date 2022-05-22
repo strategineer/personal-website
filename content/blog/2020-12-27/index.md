@@ -1,6 +1,5 @@
 ---
 title: "Good games I played in 2020"
-blog: blog
 date: 2020-12-27
 tags:
     - gaming

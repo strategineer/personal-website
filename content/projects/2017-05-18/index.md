@@ -1,6 +1,5 @@
 ---
 title: Mages of Mystralia
-blog: projects
 date: 2017-05-18
 tags:
     - C#

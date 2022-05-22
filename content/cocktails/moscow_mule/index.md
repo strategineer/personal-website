@@ -1,7 +1,5 @@
 ---
 title: Moscow Mule
-id_title: moscow_mule
-blog: cocktails
 date: 2021-11-02
 tags:
   - light

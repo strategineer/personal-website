@@ -1,6 +1,5 @@
 ---
 title: InfiniCube
-blog: projects
 date: 2012-12-20
 tags:
     - python

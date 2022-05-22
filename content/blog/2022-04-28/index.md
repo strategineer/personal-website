@@ -1,6 +1,5 @@
 ---
 title: Turbo Kid
-blog: blog
 date: 2022-04-28
 tags:
     - media

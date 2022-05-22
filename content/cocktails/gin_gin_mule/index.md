@@ -1,7 +1,5 @@
 ---
 title: "Gin-Gin Mule"
-id_title: gin_gin_mule
-blog: cocktails
 date: 2021-11-16
 tags:
   - light

@@ -1,6 +1,5 @@
 ---
 title: Machine Head
-blog: projects
 date: 2018-06-05
 tags:
     - python
