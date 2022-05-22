@@ -14,11 +14,9 @@
     - improve visibility and placement of another/share button on desktop
 
 # TODO -> Hugo migration
-- recent_articles don't show audio symbol
-- fix cv
+- recent_posts don't show audio symbol
 - fix all the page_* functions
 - fix weirdness here and there
 - figure out how to compress images in markdown (render-image.html)
-- fix youtube video embed "caption" not displaying correctly
 - Recode the ramble shortening code in the summary.html, I can use .Next,.Prev for this?
 - bin page is weird

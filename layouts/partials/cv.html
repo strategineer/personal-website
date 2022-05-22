@@ -51,16 +51,16 @@
           {{ range $e := $v.list }}
             <div class="col-12 cv-main-entry">
               <div class="row cv-main-entry-header">
-                {{ $has_link := (not $e.link) }}
+                {{ $has_link := $e.link }}
                 {{ if $has_link }}
-                  <a href="{{/*= e.link */}}">
+                  <a href="{{ $e.link }}">
                 {{ end }}
                 <div class="col text-left">
                   <div class="cv-main-entry-title">
                   {{ if $e.year }}
                   {{ $e.year }}
                   {{ end }}
-                  {{ if not (and $e.year $e.hint) }}
+                  {{ if and (not (and $e.year $e.hint)) $e.title }}
                     /
                   {{ end }}
                   {{ $e.title }}
@@ -94,7 +94,7 @@
               <div class="d-flex justify-content-left cv-main-entry-bullets">
                 <ul>
                   {{ range $b := $e.list }}
-                  <li class="cv-bullet-item">{{ $b }}</li>
+                  <li class="cv-bullet-item">{{ $b | htmlUnescape | safeHTML }}</li>
                 {{ end }}
                 </ul>
               </div>

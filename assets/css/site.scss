@@ -509,7 +509,9 @@ dd > em,
 img + em ,
 video + p > em,
 blockquote + p > em,
-div + p > em {
+div + p > em,
+div > em,
+.caption {
     text-align: center;
     display: block;
     font-size: 0.95rem;
