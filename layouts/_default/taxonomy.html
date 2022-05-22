@@ -1,0 +1,11 @@
+{{ define "title" }}
+{{ partial "taxonomy_title" . }}
+{{ end }}
+
+{{ define "main" }}
+  <div>
+    {{ range .Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </div>
+{{ end }}

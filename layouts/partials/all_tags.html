@@ -8,7 +8,9 @@
               {{ $n_values := len $values }}
                 {{ if gt $n_values 0 }}
                 {{  $pretty_tag := index $.Site.Data.tag_mapping $tag | default $tag }}
+                <a href="/{{- $taxonomyname -}}/{{- $tag -}}">
                 <li> {{ $pretty_tag }} </li>
+                </a>
                       <ul>
                       {{ range $values }}
                           <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>

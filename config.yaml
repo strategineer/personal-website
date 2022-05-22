@@ -13,18 +13,18 @@ permalinks:
 
 
 taxonomies:
-  blogtag: "blog/tags"
-  reviewstag: "reviews/tags"
-  cocktailstag: "cocktails/tags"
-  foodtag: "food/tags"
-  projectstag: "projects/tags"
+  "blog post": "blog/tags"
+  "review": "reviews/tags"
+  "cocktail": "cocktails/tags"
+  "recipe": "food/tags"
+  "project": "projects/tags"
 
 permalinks:
-  blogtags: /blog/tags/:slug/
-  reviewstags: /reviews/tags/:slug/
-  cocktailstags: /cocktails/tags/:slug/
-  foodtags: /food/tags/:slug/
-  projectstags: /projects/tags/:slug/
+  "blog post": /blog/tags/:slug/
+  "review": /reviews/tags/:slug/
+  "cocktail": /cocktails/tags/:slug/
+  "recipe": /food/tags/:slug/
+  "project": /projects/tags/:slug/
 
 markup:
  defaultMarkdownHandler: goldmark

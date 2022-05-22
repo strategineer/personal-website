@@ -1,0 +1,9 @@
+<div class="container justify-content-center text-center page-title">
+  <div class="row">
+    <h1>
+      <a href="/{{ .Data.Plural }}">
+            {{ humanize (pluralize .Data.Singular) }} tagged with '{{ .Title }}'
+        </a>
+    </h1>
+  </div>
+</div>
