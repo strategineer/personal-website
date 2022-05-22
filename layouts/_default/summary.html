@@ -1,0 +1,34 @@
+<article class="post-summary">
+  <div class="row summary-row">
+  {{ if .Params.use_album_summary }}
+    {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
+    {{ if $thumbnail }}
+      <div class="col">
+        <a href='{{ .Permalink }}'>
+          {{ with $thumbnail }}
+          <img class="img-fluid rounded mx-auto d-block img-fluid-max-height" src="data:{{ .ResourceType }};base64,{{ .Content | base64Encode }}">
+          {{ end }}
+        </a>
+      </div>
+    {{ end }}
+  {{ end }}
+    <div class="col">
+      <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+      {{ if .Params.use_album_summary }}
+        {{ if .Params.blurb }}
+          {{ .Params.blurb }}
+        {{ else }}
+        ...
+        {{ end }}
+      {{ else }}
+        <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words </div>
+        {{ .Summary }}
+      {{ end }}
+    </div>
+  </div>
+  {{ if not .Params.use_album_summary }}
+    <footer>
+    <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+    </footer>
+  {{ end }}
+</article>

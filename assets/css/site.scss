@@ -555,6 +555,11 @@ li {
   margin-right: 0;
 }
 
+.post-summary {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
 
 @include media-breakpoint-down(xs) { 
 }
