@@ -2,8 +2,9 @@
 {{ $pages := where $.Site.RegularPages "Section" .Section }}
 {{ if $pages }}
 {{ partial "menu_buttons" . }}
+{{ $post_name := cond (eq .Section "blog") "posts" .Section }}
 <div class="d-flex justify-content-center footer-shortlist-title">
-  <h4>Recent {{ .Section }}:</h4>
+  <h4>Recent {{ $post_name }}:</h4>
 </div>
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
@@ -13,10 +14,10 @@
         <li class="footer-shortlist-item"> {{ .Title }}</li>
       </a>
     {{ end }}
-    {{ $n_pages_left := sub $n_max (len $pages)  }}
+    {{ $n_pages_left := sub (len $pages) $n_max }}
     {{ if $n_pages_left }}
       <li class="footer-shortlist-archive">
-        <a href="/{{ .Section }}">... with {{ $n_pages_left }} more {{ .Section }} in the archive</a>
+        <a href="/{{ .Section }}">... with {{ $n_pages_left }} more {{ $post_name }} in the archive</a>
       </li>
     {{ end }}
   </ul>
