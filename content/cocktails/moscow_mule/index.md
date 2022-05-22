@@ -4,6 +4,7 @@ date: 2021-11-02
 tags:
   - light
   - rum
+exclude_from_summary: true
 weight: 5
 inspired_by: The Joy of Mixology by Gary Reagan (p. 253)
 blurb: TBD

@@ -1,5 +1,8 @@
+{{ if not .Params.exclude_from_summary }}
 <article class="post-summary">
-  <div class="row summary-row">
+  {{ $is_less_important := in .Params.tags "ramble" }}
+  {{ $summary_classes := cond $is_less_important "less-important" "" }}
+  <div class="row summary-row {{ $summary_classes }}">
   {{ if .Params.use_album_summary }}
     {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
     {{ if $thumbnail }}
@@ -21,14 +24,17 @@
         ...
         {{ end }}
       {{ else }}
-        <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words </div>
+        <div class="post-meta">
+          {{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words - {{ .ReadingTime }}min read
+        </div>
         {{ .Summary }}
       {{ end }}
     </div>
   </div>
-  {{ if not .Params.use_album_summary }}
+  {{ if and (not .Params.use_album_summary) .Truncated }}
     <footer>
-    <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+      <a class="read-more" href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
     </footer>
   {{ end }}
 </article>
+{{ end }}

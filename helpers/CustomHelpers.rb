@@ -208,37 +208,6 @@ module CustomHelpers
     return ls
   end
 
-  def page_cocktail_legend(page)
-    ls = cocktail_legend_items(page)
-    if ls.length == 0
-      return ""
-    end
-    res = ""
-    res << %{
-        <div class="d-flex justify-content-center">
-          <h2>Legend</h2>
-        </div>
-        <div class="d-flex justify-content-center">
-    }
-    if ls.length > 0
-      res << %{
-        <dl>
-      }
-      ls.each do | k, v |
-        res << %{
-        <dt>#{k}</dt>
-        <dd>#{v}</dd>
-        }
-      end
-      res << %{
-        </dl>
-        </div>
-      }
-    end
-    return res
-  end
-
-
   def album(articles, is_main_page, title = nil, pred = nil, sort_fn = nil)
     if pred.nil?
       pred = lambda {|p| true}

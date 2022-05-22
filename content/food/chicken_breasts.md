@@ -4,7 +4,7 @@ date: 2021-11-15
 weight: 5
 tags:
   - juicy
-blurb:
+blurb: Chicken breasts that have "some" flavor instead of none.
 servings: 4
 ingredients:
   - 4-5 chicken breasts
