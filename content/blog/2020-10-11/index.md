@@ -1,7 +1,7 @@
 ---
 title: "Chronic Pain and HUGE Trackballs"
 date: 2020-10-11
-tags:
+blog/tags:
     - life
 ---
 > WARNING: If you've got pain in your body, listen to it. If you're a big Gamer, please take breaks and play responsibly. Video games are wonderful but they aren't worth destroying your mind and body over playing them, or making them. You'll thank me later.

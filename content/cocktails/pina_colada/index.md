@@ -1,7 +1,7 @@
 ---
 title: Pina Colada
 date: 2021-12-02
-tags:
+cocktails/tags:
   - strong
   - rum
 weight: 4

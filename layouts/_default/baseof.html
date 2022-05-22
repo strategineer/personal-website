@@ -45,13 +45,10 @@
     {{ block "footer" . }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{ end }}
-    {{ with .File }}
-    {{ $is_cv := eq .ContentBaseName "cv" }}
-      {{ if $is_cv }}
+    {{ if and .File (eq .File.ContentBaseName "cv") }}
         <div class="container-fluid">
-      {{ else }}
+    {{ else }}
         <div class="container">
-      {{ end }}
     {{ end }}
     {{/* TODO(strategineer): I messed this condition up I'm sure, check it again */}}
       {{ $should_have_footer := and (or (not .Params.has_header) .Params.has_footer) (not (eq .File.ContentBaseName "cv")) }}

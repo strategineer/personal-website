@@ -1,7 +1,7 @@
 ---
 title: Mint Julep
 date: 2022-05-03
-tags:
+cocktails/tags:
   - light
   - bourbon
 weight: 1

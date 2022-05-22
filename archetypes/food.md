@@ -2,6 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
+food/tags:
+    - salty
 blurb: This food is x, y, z
 servings: 9999
 ingredients:

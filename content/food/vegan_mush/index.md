@@ -2,7 +2,7 @@
 title: Mush de Vegan
 date: 2020-11-17
 weight: 3
-tags:
+food/tags:
   - vegan
 blurb: Not a vegan turned into mush but a vegan mush that a vegan would approve of.
 servings: 6

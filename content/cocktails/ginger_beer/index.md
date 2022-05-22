@@ -1,7 +1,7 @@
 ---
 title: Homemade Ginger Beer
 date: 2021-11-15
-tags:
+cocktails/tags:
   - "non-alcoholic"
 weight: 5
 exclude_from_summary: true

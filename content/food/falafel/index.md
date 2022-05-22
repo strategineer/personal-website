@@ -2,7 +2,7 @@
 title: "Baked Falafel"
 date: 2021-10-17
 weight: 2
-tags:
+food/tags:
   - dinner
 blurb: Falafel.
 servings: 12 falafels

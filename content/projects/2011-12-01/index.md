@@ -1,7 +1,7 @@
 ---
 title: DNA Toolkit
 date: 2011-12-01
-tags:
+projects/tags:
     - "C#"
     - Windows Phone
 blurb: Windows Phone app for entering ACGT sequences and displaying the names of the entered sequences.

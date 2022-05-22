@@ -1,7 +1,7 @@
 ---
 title: Black Box Bandit
 date: 2014-08-25
-tags:
+projects/tags:
     - C#
     - Unity
 youtube_video_id: BpHJ3BNCliU

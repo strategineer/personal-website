@@ -1,7 +1,7 @@
 ---
 title: Movies I watched in 2021
 date: 2021-12-22
-tags:
+blog/tags:
     - media
 ---
 

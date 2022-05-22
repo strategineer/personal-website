@@ -1,7 +1,7 @@
 ---
 title: Mega Super Epic Tankz
 date: 2013-04-24
-tags:
+projects/tags:
     - Torque2D
 youtube_video_id: Y0TPGHLFeNo
 links:

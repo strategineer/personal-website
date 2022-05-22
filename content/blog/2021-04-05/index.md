@@ -1,7 +1,7 @@
 ---
 title: "A Political Video Game: Suzerain"
 date: 2021-04-05
-tags:
+blog/tags:
   - gaming
 links:
   - "Steam,https://steamcommunity.com/id/strategineer/recommended/1207650"

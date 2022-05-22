@@ -1,16 +1,14 @@
-<div class="d-flex justify-content-center d-flex-inline-list">
-  <div class="text-center">
+<div>
     {{ $p := .Scratch.Get "tags_section" }}
-      <ul class="list-inline ul-inline">
+      <ul>
       {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
-          <li class="list-inline-item li-inline">
-            <a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
             <ul>
-              {{ range $key, $value := $taxonomy }}
+              {{ range $tag, $value := $taxonomy }}
               {{ $values := (where .Pages "Section" $p)}}
               {{ $n_values := len $values }}
                 {{ if gt $n_values 0 }}
-                <li> {{ $key }} </li>
+                {{  $pretty_tag := index $.Site.Data.tag_mapping $tag | default $tag }}
+                <li> {{ $pretty_tag }} </li>
                       <ul>
                       {{ range $values }}
                           <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
@@ -19,8 +17,6 @@
                 {{ end }}
               {{ end }}
             </ul>
-          </li>
         {{ end }}
     </ul>
   </div>
-</div>

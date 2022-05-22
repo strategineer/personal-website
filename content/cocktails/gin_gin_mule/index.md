@@ -1,7 +1,7 @@
 ---
 title: "Gin-Gin Mule"
 date: 2021-11-16
-tags:
+cocktails/tags:
   - light
   - gin
   - mint

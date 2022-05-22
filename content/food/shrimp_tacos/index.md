@@ -2,7 +2,7 @@
 title: Shrimp Tacos
 date: 2021-11-06
 weight: 2
-tags:
+food/tags:
   - hot
 inspired_by: https://www.yummly.com/recipe/Spicy-Shrimp-Tacos-1223822?prm-v1
 blurb: Spice up your life with spicy shrimp tacos.

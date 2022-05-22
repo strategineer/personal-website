@@ -1,7 +1,7 @@
 ---
 title: Gimlet
 date: 2021-10-09
-tags:
+cocktails/tags:
   - strong
   - gin
 weight: 4

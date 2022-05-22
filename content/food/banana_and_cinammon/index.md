@@ -2,7 +2,7 @@
 title: Sinnamonana
 date: 2020-11-14
 weight: 2
-tags:
+food/tags:
   - dessert
 blurb: Simple yet delicious sliced banana sprinkled with cinnamon served with honey.
 servings: 1

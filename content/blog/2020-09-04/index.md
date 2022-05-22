@@ -1,7 +1,7 @@
 ---
 title: "Hunt, Showdown, Repeat"
 date: 2020-09-04
-tags:
+blog/tags:
    - gaming
 links:
    - "Steam,https://steamcommunity.com/id/strategineer/recommended/594650/"

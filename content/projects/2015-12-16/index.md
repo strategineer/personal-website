@@ -1,7 +1,7 @@
 ---
 title: Great Turtle Adventure IV
 date: 2015-12-16
-tags:
+projects/tags:
     - cpp
 is_important: true
 youtube_video_id: nBXTABJErkk

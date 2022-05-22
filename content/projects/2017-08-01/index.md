@@ -1,7 +1,7 @@
 ---
 title: Pew Pew
 date: 2017-08-01
-tags:
+projects/tags:
     - pico8
 youtube_video_id: UqM3gm63BHI
 links:

@@ -1,7 +1,7 @@
 ---
 title: "Writing... It's a Process"
 date: 2021-04-09
-tags:
+blog/tags:
     - gaming
     - writing
 ---

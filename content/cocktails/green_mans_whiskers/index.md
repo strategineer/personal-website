@@ -1,7 +1,7 @@
 ---
 title: Green Man's Whiskers
 date: 2021-11-02
-tags:
+cocktails/tags:
   - strong
   - gin
 weight: 2

@@ -1,7 +1,7 @@
 ---
 title: I'm not laughing, you're laughing...
 date: 2022-04-26
-tags:
+blog/tags:
     - media
 ---
 

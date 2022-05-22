@@ -2,7 +2,7 @@
 title: Struggle Pizza
 date: 2020-11-16
 weight: 3
-tags:
+food/tags:
   - cheap
 blurb: Take a cheap frozen pizza and transform it into a decent frozen pizza.
 servings: 1

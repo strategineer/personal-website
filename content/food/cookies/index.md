@@ -2,7 +2,7 @@
 title: "#blessed Cookies"
 date: 2020-11-18
 weight: 1
-tags:
+food/tags:
   - dessert
 blurb: Heavenly melt-in-your-mouth cookies that even a Karen would enjoy.
 servings: 24

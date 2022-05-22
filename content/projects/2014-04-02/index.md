@@ -1,7 +1,7 @@
 ---
 title: Graveyard Rush
 date: 2014-04-02
-tags:
+projects/tags:
     - haxe
 youtube_video_id: ENjE4YQMPro
 links:

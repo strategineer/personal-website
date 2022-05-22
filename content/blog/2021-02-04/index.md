@@ -1,7 +1,7 @@
 ---
 title: "Time to Die in Risk of Rain 2"
 date: 2021-02-04
-tags:
+blog/tags:
    - gaming
 links:
    - "Steam,https://steamcommunity.com/id/strategineer/recommended/632360/"

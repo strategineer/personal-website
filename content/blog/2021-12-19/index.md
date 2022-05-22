@@ -1,7 +1,7 @@
 ---
 title: Books I read in 2021
 date: 2021-12-19
-tags:
+blog/tags:
     - media
 ---
 Please don't judge me.

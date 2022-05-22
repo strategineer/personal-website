@@ -1,7 +1,7 @@
 ---
 title: InfiniCube
 date: 2012-12-20
-tags:
+projects/tags:
     - python
     - pygame
 youtube_video_id: xw3y5qrr3OU

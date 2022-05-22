@@ -1,7 +1,7 @@
 ---
 title: "Social Deduction through Text Chat in Untrusted"
 date: 2021-03-15
-tags:
+blog/tags:
    - gaming
 links:
    - "Steam,https://steamcommunity.com/id/strategineer/recommended/1502660/"

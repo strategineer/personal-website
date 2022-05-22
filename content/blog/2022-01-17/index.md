@@ -1,7 +1,7 @@
 ---
 title: VTOL VR
 date: 2022-01-17
-tags:
+blog/tags:
     - ramble
     - gaming
 ---

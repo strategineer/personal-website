@@ -1,7 +1,7 @@
 ---
 title: Moscow Mule
 date: 2021-11-02
-tags:
+cocktails/tags:
   - light
   - rum
 exclude_from_summary: true

@@ -1,7 +1,7 @@
 ---
 title: "Piloting and Tinkering in Ring Runner"
 date: 2020-12-31
-tags:
+blog/tags:
    - gaming
 links:
    - "Steam,https://steamcommunity.com/id/strategineer/recommended/258010/"

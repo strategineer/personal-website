@@ -2,7 +2,7 @@
 title: "Tahini sauce"
 date: 2021-10-17
 weight: 4
-tags:
+food/tags:
   - dip
 blurb: Tahini sauce.
 servings: 2 cups

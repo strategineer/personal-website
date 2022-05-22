@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-tags:
+projects/tags:
     - python
 links:
     - "Read Code,https://github.com/strategineer/machine-head"

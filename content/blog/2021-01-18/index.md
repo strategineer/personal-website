@@ -1,7 +1,7 @@
 ---
 title: "Beware the God Killer in Yoku's Island Express"
 date: 2021-01-18
-tags:
+blog/tags:
    - gaming
 links:
    - "Steam,https://steamcommunity.com/id/strategineer/recommended/334940/"

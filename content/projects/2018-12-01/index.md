@@ -1,7 +1,7 @@
 ---
 title: Artifact Stat Tracker
 date: 2018-12-01
-tags:
+projects/tags:
     - python
     - google sheets
     - gscript

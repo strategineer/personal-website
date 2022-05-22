@@ -1,7 +1,7 @@
 ---
 title: Kamikrazy
 date: 2021-11-22
-tags:
+cocktails/tags:
   - strong
   - vodka
 weight: 2

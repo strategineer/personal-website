@@ -2,7 +2,7 @@
 title: Red Scare Shrimp
 date: 2020-11-15
 weight: 2
-tags:
+food/tags:
   - communist
   - hot
 blurb: Shrimp, small but numerous, red through and through; best served on pasta with a white sauce.

@@ -1,7 +1,7 @@
 ---
 title: Southside Cocktail
 date: 2021-10-22
-tags:
+cocktails/tags:
   - strong
   - gin
   - mint

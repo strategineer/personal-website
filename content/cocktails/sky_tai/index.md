@@ -1,7 +1,7 @@
 ---
 title: Sky Tai
 date: 2021-11-09
-tags:
+cocktails/tags:
   - light
   - rum
 weight: 2

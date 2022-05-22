@@ -2,7 +2,7 @@
 title: Elf's Blood Guac
 date: 2020-11-09
 weight: 3
-tags:
+food/tags:
   - dip
 blurb: Let the blood of your puny enemies flow while you enjoy this creamy guacamole.
 servings: 4

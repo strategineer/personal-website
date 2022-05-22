@@ -1,7 +1,7 @@
 ---
 title: Writerator
 date: 2013-02-01
-tags:
+projects/tags:
     - python
 links:
     - "Read Code,https://github.com/strategineer/writerator"

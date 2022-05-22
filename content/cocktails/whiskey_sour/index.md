@@ -1,7 +1,7 @@
 ---
 title: Whiskey Sour
 date: 2021-11-20
-tags:
+cocktails/tags:
   - strong
   - whiskey
 weight: 4

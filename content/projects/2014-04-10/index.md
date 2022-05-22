@@ -1,7 +1,7 @@
 ---
 title: Battleships
 date: 2014-04-10
-tags:
+projects/tags:
     - cpp
     - SDL2
 links:

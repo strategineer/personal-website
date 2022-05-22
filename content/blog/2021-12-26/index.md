@@ -1,7 +1,7 @@
 ---
 title: Games I played in 2021
 date: 2021-12-26
-tags:
+blog/tags:
     - gaming
 ---
 Despite getting sucked into Hunt Showdown in a big way this year, I spent less time playing games than I usually do.

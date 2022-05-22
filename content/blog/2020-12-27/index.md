@@ -1,7 +1,7 @@
 ---
 title: "Good games I played in 2020"
 date: 2020-12-27
-tags:
+blog/tags:
     - gaming
 ---
 2020 was definitely a year, but 2021 is just around the corner. I haven't had the opportunity to do much else other than play games this year which is a silver lining that I don't want to take for granted. I've never before had the time to play as many good games as I have this year. Without further ado, here are my favourite games I've played this year in no particular order ([You can read my 2019 GOTY list here](/blog/2020-01-17/)).

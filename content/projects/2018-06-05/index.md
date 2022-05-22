@@ -1,7 +1,7 @@
 ---
 title: Machine Head
 date: 2018-06-05
-tags:
+projects/tags:
     - python
     - linux
 links:

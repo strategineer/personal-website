@@ -1,7 +1,7 @@
 ---
 title: Tequila Sunrise
 date: 2021-12-03
-tags:
+cocktails/tags:
   - strong
   - tequila
 weight: 1

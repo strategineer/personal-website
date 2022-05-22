@@ -2,7 +2,7 @@
 {{ $pages := where $.Site.RegularPages "Section" .Section }}
 {{ if $pages }}
 {{ partial "menu_buttons" . }}
-{{ $post_name := cond (eq .Section "blog") "posts" .Section }}
+{{ $post_name := pluralize .Params.post_name }}
 <div class="d-flex justify-content-center footer-shortlist-title">
   <h4>Recent {{ $post_name }}:</h4>
 </div>

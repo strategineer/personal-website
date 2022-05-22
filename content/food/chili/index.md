@@ -2,7 +2,7 @@
 title: "My Chili"
 date: 2021-10-17
 weight: 2
-tags:
+food/tags:
   - dinner
 blurb: Chili.
 servings: 8

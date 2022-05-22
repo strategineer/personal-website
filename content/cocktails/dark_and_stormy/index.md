@@ -1,7 +1,7 @@
 ---
 title: Dark and Stormy
 date: 2021-10-15
-tags:
+cocktails/tags:
   - light
   - rum
 weight: 1

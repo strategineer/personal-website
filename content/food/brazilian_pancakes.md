@@ -3,7 +3,7 @@ title: Brazilian Pancakes
 date: 2021-12-22
 exclude_from_summary: true
 weight: 5
-tags:
+food/tags:
   - dip
 blurb:
 servings: 4

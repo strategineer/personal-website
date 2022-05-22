@@ -1,7 +1,7 @@
 ---
 title: Mages of Mystralia
 date: 2017-05-18
-tags:
+projects/tags:
     - C#
     - python
     - TeamCity

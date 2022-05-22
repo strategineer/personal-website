@@ -1,7 +1,7 @@
 ---
 title: Get Out
 date: 2016-05-10
-tags:
+projects/tags:
     - cpp
     - Unreal Engine
 is_important: true

@@ -1,7 +1,7 @@
 ---
 title: Mojito
 date: 2022-05-18
-tags:
+cocktails/tags:
   - light
   - rum
 weight: 1

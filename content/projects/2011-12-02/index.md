@@ -1,7 +1,7 @@
 ---
 title: DnD Sidekick
 date: 2011-12-02
-tags:
+projects/tags:
     - "C#"
     - Windows Phone
 blurb: Windows Phone companion app for Pen and Paper roleplaying players.

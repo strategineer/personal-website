@@ -1,7 +1,7 @@
 ---
 title: "Low Effort Meals: The Breakfast Quesadilla"
 date: 2022-05-14
-tags:
+blog/tags:
   - food
   - lem
 draft: true

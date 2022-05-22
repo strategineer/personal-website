@@ -1,7 +1,7 @@
 ---
 title: Benefiting from the Nasal Douche
 date: 2022-02-07
-tags:
+blog/tags:
     - life
 ---
 I've suffered from seasonal allergies and dust mite allergies (and cats make me want to die) most of my life. I wasn't brought to an allergy doctor when I was a kid and so I just learned how to deal with it.

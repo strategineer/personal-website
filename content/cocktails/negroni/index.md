@@ -1,7 +1,7 @@
 ---
 title: Negroni
 date: 2021-10-26
-tags:
+cocktails/tags:
   - strong
   - gin
 weight: 3
