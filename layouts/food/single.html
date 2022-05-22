@@ -1,15 +1,15 @@
 {{ define "main" }}
   <div class="food-content container">
     {{ partial "title" . }}
-    {{ partial "links" . }}
-    {{ partial "tags" . }}
+    {{ partial "try_links" . }}
+    {{ partial "try_tags" . }}
     {{ if .Params.blurb }}
       <div class="d-flex justify-content-center">
         {{ .Params.blurb }}
       </div>
     {{ end }}
-    {{/*= try_page_video(current_article) */}}
-    {{ partial "images" . }}
+    {{ partial "try_video" . }}
+    {{ partial "try_images" . }}
     {{ if .Params.servings }}
       <div class="d-flex justify-content-center">
         Serves {{ .Params.servings }}

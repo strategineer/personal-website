@@ -1,0 +1,11 @@
+{{ if .Params.youtube_video_id }}
+<div class="d-flex justify-content-center readable">
+    <div class="col-12">
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube-nocookie.com/embed/{{.Params.youtube_video_id}}?rel=0&amp;showinfo=0"            allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

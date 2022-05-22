@@ -8,19 +8,19 @@ blog/tags:
 I wrote some code to help me embed audio files into my blog posts easily...
 
 
-<%= audio("/bin/music/TheThird.wav") %>
+{{< audio "/bin/music/TheThird.wav" >}}
 _Here's a song I produced about 5 years ago. It's a decent "bop"?_
 
 I wrote some more code to help me embed video files into my blog posts easily...
 
 
-<%= video("./Thomas_The_Robot.mp4") %>
+{{< video "./Thomas_The_Robot.mp4" >}}
 _Here's a video of a robot character I modeled and animated myself in Java a long time ago in a university far, far away_
 
 I wrote some more code to help me embed Youtube video into my blog posts easily...
 
 
-<%= youtube_video("dQw4w9WgXcQ") %>
+{{< youtube dQw4w9WgXcQ >}}
 _Here's a classic song from Rick Astley_
 
 I ran the following Linux command to generate a QR code that links to my [cocktail menu](/cocktails).

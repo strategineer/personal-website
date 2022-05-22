@@ -1,10 +1,10 @@
 {{ define "main" }}
   <div class="project-content container">
     {{ partial "title" . }}
-    {{/*= try_page_video(current_article) */}}
-    {{ partial "images" . }}
-    {{ partial "links" . }}
-    {{ partial "tags" . }}
+    {{ partial "try_video" . }}
+    {{ partial "try_images" . }}
+    {{ partial "try_links" . }}
+    {{ partial "try_tags" . }}
     {{ if .Params.blurb }}
     <div class="d-flex justify-content-center">
       <div class="project-blurb readable text-center" >

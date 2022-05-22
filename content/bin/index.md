@@ -10,7 +10,6 @@ is_readable: true
 - [Egg-Based Breakfast Restaurant Name Generator](/bin/eggstermination)
 
 ## Miscelaneous links
-- [All the random greetings that can appear under my logo](/bin/greetings)
 - [My Cocktail bucket list](/bin/cocktail_bucket_list)
 - [My Everyone is John tabletop roleplaying instructions](/bin/everyone_is_john)
 - [My CV](/cv)

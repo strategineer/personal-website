@@ -8,9 +8,9 @@
     {{/* end */}}
     {{/*= TODO(strategineer): I want this to add "Review" to the title and the icon */}}
     {{ partial "title" . }}
-    {{ partial "links" . }}
-    {{/*= try_page_video(current_article) */}}
-    {{ partial "images" . }}
+    {{ partial "try_links" . }}
+    {{ partial "try_video" . }}
+    {{ partial "try_images" . }}
     {{ partial "reading_time" . }}
     <div class="row justify-content-center readable">
       {{ .Content }}

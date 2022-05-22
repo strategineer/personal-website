@@ -1,6 +1,6 @@
 {{ if not .Params.exclude_from_summary }}
 <article class="post-summary">
-  {{ $is_less_important := in .Params.tags "ramble" }}
+  {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
   {{ $summary_classes := cond $is_less_important "less-important" "" }}
   <div class="row summary-row {{ $summary_classes }}">
   {{ if .Params.use_album_summary }}
@@ -29,7 +29,7 @@
         </div>
         {{ .Summary }}
       {{ end }}
-      {{ partial "tags" . }}
+      {{ partial "try_tags" . }}
     </div>
   </div>
   {{ if and (not .Params.use_album_summary) .Truncated }}

@@ -31,7 +31,7 @@ Tension rises as the comedians laugh nervously while Matsumoto walks through the
 
 _If you're curious, here's what this looks like:_
 
-<%= video("tldr_documental.webm") %>
+{{< video "tldr_documental.webm"  >}}
 _Say hello to Daisuke and Jimmy, two of my favorite comedians in the show who appear in season 1 and 2._
 
 Tension is released as everyone reviews the tape, discusses what exactly made the person laugh, says their goodbyes if needed and waits for Matsumoto to return to his control room.
