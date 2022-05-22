@@ -1,30 +1,37 @@
-{{ with .Resources.GetMatch "**.jpg" }}
-  <img class="img-fluid rounded mx-auto d-block img-fluid-max-height" src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
-{{ end }}
-
-
-{{/*
-  def try_page_images(page, use_thumbnail_as_image=false)
-    images = get_images(page, use_thumbnail_as_image)
-    res = ""
-    if images.length > 0
-      res <<
-      %{
 <div class="d-flex justify-content-center readable">
   <div class="col-12">
-      }
-      if images.length > 1
-        res += page_images_multiple(images)
-      end
-      if images.length == 1
-        res += page_images_singular(images)
-      end
-      res <<
-      %{
+{{ $images := .Resources.Match "**.jpg" }}
+{{ if eq (len $images) 1 }}
+  {{ with (index $images 0) }}
+  <img class="img-fluid rounded mx-auto d-block img-fluid-max-height" src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
+  {{ end }}
+{{ else if gt (len $images) 1 }}
+    <div id="carouselScreenshots" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+    {{ range $i, $v := $images }}
+    {{ $class := cond (eq $i 0) `active` `` }}
+        <li data-bs-target="#carouselScreenshots" data-bs-slide-to="{{ $i }}" class="{{ $class }}"></li>
+    {{ end }}
+      </ol>
+      <div class="carousel-inner">
+    {{ range $i, $v := $images }}
+        {{ $class := cond (eq $i 0) `carousel-item active` `carousel-item` }}
+        <div class="{{ $class }}">
+          {{ with $v }}
+          <img class="rounded d-block w-100" src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}"/>
+          {{ end }}
+        </div>
+    {{ end }}
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+{{ end }}
   </div>
 </div>
-      }
-    end
-    return res
-  end
-*/}}
