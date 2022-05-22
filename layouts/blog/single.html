@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="blog-content container">
     {{ partial "title" . }}
-    {{/*= page_info(current_article) */}}
+    {{ partial "reading_time" . }}
     {{ partial "links" . }}
     {{/*= try_page_video(current_article) */}}
     {{ partial "images" . }}

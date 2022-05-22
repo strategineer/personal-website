@@ -11,7 +11,7 @@
     {{ partial "links" . }}
     {{/*= try_page_video(current_article) */}}
     {{ partial "images" . }}
-    {{/*= page_info(current_article) */}}
+    {{ partial "reading_time" . }}
     <div class="row justify-content-center readable">
       {{ .Content }}
     </div>

@@ -76,22 +76,6 @@ module CustomHelpers
     return [ls.take(max_count), [ls.size - max_count, 0].max]
   end
 
-  def has_thumbnail?(article)
-    return get_thumbnail_path(article) != ""
-  end
-
-  def get_thumbnail_path(article)
-    # this doesn't work because request path doesn't work on the projects page
-    id = get_article_id(article)
-    thumbnail_path = "/#{article.data.blog}/#{id}"
-    source_thumbnail_path = "source#{thumbnail_path}"
-    glob = Dir.glob("#{source_thumbnail_path}/thumbnail.*")
-    if not glob[0]
-      return ""
-    end
-    return "#{thumbnail_path}/#{File.basename(glob[0])}"
-  end
-
   def has_video?(article)
     return !article.data.youtube_video_id.nil?
   end
@@ -107,32 +91,6 @@ module CustomHelpers
     end
     return nil
   end
-
-  def get_images(article, use_thumbnail_as_image)
-    res = []
-    id = get_article_id(article)
-    images_path = "/#{article.data.blog}/#{id}/img"
-    source_images_path = "source#{images_path}"
-    if use_thumbnail_as_image
-      if has_thumbnail?(article)
-        thumbnail_path = get_thumbnail_path(article)
-        next_data = OpenStruct.new(:name => "thumbnail", :image_src => thumbnail_path)
-        res.push(next_data)
-      end
-    end
-    if Dir.exists?(source_images_path)
-      Dir.foreach(source_images_path) do |file|
-        if File.file?("#{source_images_path}/#{file}")
-          name = File.basename(file, File.extname(file))
-          image_src = "#{images_path}/#{file}"
-          next_data = OpenStruct.new(:name => name, :image_src => image_src)
-          res.push(next_data)
-        end
-      end
-    end
-    return res
-  end
-
 
   def try_page_audio(page)
     audio_filepath = has_audio?(page)
