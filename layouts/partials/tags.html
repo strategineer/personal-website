@@ -1,22 +1,11 @@
-{{ $p := .Scratch.Get "tags_section" }}
-<ul>
-  {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
-      <li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
-        <ul>
-          {{ range $key, $value := $taxonomy }}
-          {{ $values := (where .Pages "Section" $p)}}
-          {{ $n_values := len $values }}
-            {{ if gt $n_values 0 }}
-            <li> {{ $key }} </li>
-                  <ul>
-                  {{ range $values }}
-                      <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
-                  {{ end }}
-                  </ul>
-            {{ end }}
-          {{ end }}
-        </ul>
+<div class="d-flex justify-content-center d-flex-inline-list">
+  <div class="text-center">
+    <ul class="list-inline ul-inline">
+      {{ range (.GetTerms "tags") }}
+      <li class="list-inline-item li-inline">
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
       </li>
-    {{ end }}
-</ul>
-</section>
+      {{ end }}
+    </ul>
+  </div>
+</div>
