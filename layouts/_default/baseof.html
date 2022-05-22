@@ -89,6 +89,15 @@
     {{ $js := resources.Get "js/site.js" }}
     {{ $site_js := $js | resources.ExecuteAsTemplate "js/site.js" . }}
     <script type="text/javascript" src="{{ $site_js.Permalink }}"> </script>
+    {{ if .Page.Store.Get "hasMermaid" }}
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        startOnLoad: true ,
+        theme: "neutral"
+      });
+    </script>
+  {{ end }}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
