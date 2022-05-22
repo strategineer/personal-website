@@ -8,10 +8,6 @@ enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 
-outputs:
-  home:
-    - "RSS"
-
 outputFormats:
   RSS:
     mediatype: "application/rss"
