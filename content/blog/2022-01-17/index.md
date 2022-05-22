@@ -11,7 +11,7 @@ _Perfect Landing!_
 
 I played a few hours of VTOL VR today (streaming the Steam version to my Quest 2 using Virtual Desktop).
 
-I've never been super excited about planes and doing bombing runs on tiny white dots (collateral damage anyone?) bbuUuUuuuut I had a ton of fun. Maybe [I just like roleplaying as a terrible person](/reviews/video-game/2017-09-25/)?
+I've never been super excited about planes and doing bombing runs on tiny white dots (collateral damage anyone?) bbuUuUuuuut I had a ton of fun. Maybe [I just like roleplaying as a terrible person](/reviews/2017-09-25/)?
 
 In VTOL VR, you're a pilot of a fully-interactable yet simplified VTOL jet. The cockpit you're in has a ton of fully functioning buttons, levers and joysticks that you use to pilot the jet.
 

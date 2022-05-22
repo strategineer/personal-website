@@ -4,7 +4,7 @@ if [[ $# -eq 0 ]] || [[ $# -gt 1 ]] ; then
     exit 1
 fi
 
-#./bin/remove_location_data_from_images.sh
+./bin/remove_location_data_from_images.sh
 
 #curl "http://api.steampowered.com/ISteamApps/GetAppList/v0002/?format=json" | json_pp -json_opt pretty,canonical > data/steamgames.json
 

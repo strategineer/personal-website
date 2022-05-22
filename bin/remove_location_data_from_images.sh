@@ -1,2 +1,3 @@
 #!/bin/bash
-exiftool -overwrite_original -gps:all= ./source/*/*/*.{jpg,png}
+exiftool -r -overwrite_original -gps:all= ./content/.
+exiftool -r -overwrite_original -gps:all= ./static/.

@@ -16,3 +16,4 @@
 # TODO -> Hugo migration
 - double check everything for weirdness here and there
 - bin page is weird
+- Make sure RSS feeds works
