@@ -1,11 +1,15 @@
+{{ $tags := (.GetTerms "tags") }}
+{{ if $tags }}
 <div class="d-flex justify-content-center d-flex-inline-list">
   <div class="text-center">
     <ul class="list-inline ul-inline">
-      {{ range (.GetTerms "tags") }}
+      {{ range $tags }}
       <li class="list-inline-item li-inline">
-        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{  $pretty_tag_name := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+        <a href="{{ .Permalink }}">{{ $pretty_tag_name }}</a>
       </li>
       {{ end }}
     </ul>
   </div>
 </div>
+{{ end }}

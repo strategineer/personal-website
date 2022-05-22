@@ -29,6 +29,7 @@
         </div>
         {{ .Summary }}
       {{ end }}
+      {{ partial "tags" . }}
     </div>
   </div>
   {{ if and (not .Params.use_album_summary) .Truncated }}

@@ -4,5 +4,5 @@
 
 {{ define "main" }}
   {{ .Scratch.Set "tags_section" "blog" }}
-  {{ partialCached "tags.html" . }}
+  {{ partialCached "all_tags.html" . }}
 {{ end }}

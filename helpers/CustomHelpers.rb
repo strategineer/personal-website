@@ -468,18 +468,6 @@ module CustomHelpers
     return (defined?(page.date) and not page.tags.nil? and page.tags.size > 0)
   end
 
-  def page_tags(page)
-    res = ""
-    if defined?(page.date)
-      ls = []
-      if not page.tags.nil? and not page.tags.size == 0
-        ls += page.tags.collect{ |x| link_to prettify_tag(x), tag_path(x)}
-      end
-      res << inline_list(ls)
-    end
-    return res
-  end
-
   def page_links(page)
     if not page.data.links.nil? and not page.data.links.length == 0
       return inline_list(page.data.links.collect{ |l| l.split(',')}.collect{ |l| link_to l[0], l[1]})
