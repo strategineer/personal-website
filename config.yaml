@@ -8,6 +8,15 @@ enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 
+outputs:
+  home:
+    - "RSS"
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"
+
 taxonomies:
   "blog post": "blog/tags"
   "review": "reviews/tags"
