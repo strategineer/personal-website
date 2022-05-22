@@ -28,7 +28,7 @@
     {{ end -}}
 
     {{ $style := resources.Get "css/site.scss" | resources.ToCSS | resources.Minify }}
-    <link rel="stylesheet" href="/css/site.min.css">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <title>
     {{ block "page_title" . }}
     {{ if .Section }} {{ .Section }}/ {{ end }} {{ .Site.Title }}
@@ -87,7 +87,7 @@
     {{ end }}
     {{ $js := resources.Get "js/site.js" }}
     {{ $site_js := $js | resources.ExecuteAsTemplate "js/site.js" . | resources.Minify }}
-    <script type="text/javascript" src="/js/site.min.js"> </script>
+    <script type="text/javascript" src="{{ $site_js.RelPermalink }}"> </script>
     {{ if .Page.Store.Get "hasMermaid" }}
     <script defer type="text/javascript" src="/js/mermaid.min.js"></script>
     <script>
