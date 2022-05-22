@@ -8,7 +8,7 @@
     {{ if $thumbnail }}
       <div class="col">
         <a href='{{ .Permalink }}'>
-          {{ with $thumbnail.Resize "x400 webp q50" }}
+          {{ with $thumbnail.Resize "x400 webp" }}
           <img class="img-fluid rounded mx-auto d-block" src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
           {{ end }}
         </a>

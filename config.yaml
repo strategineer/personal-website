@@ -8,10 +8,6 @@ enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 
-permalinks:
-  posts: /:section/:year-:month-:day
-
-
 taxonomies:
   "blog post": "blog/tags"
   "review": "reviews/tags"
@@ -20,11 +16,18 @@ taxonomies:
   "project": "projects/tags"
 
 permalinks:
+  posts: /:section/:year-:month-:day
   "blog post": /blog/tags/:slug/
   "review": /reviews/tags/:slug/
   "cocktail": /cocktails/tags/:slug/
   "recipe": /food/tags/:slug/
   "project": /projects/tags/:slug/
+
+imaging:
+  quality: 90
+  exif:
+    disableDate: true
+    disableLatLong: true
 
 markup:
  defaultMarkdownHandler: goldmark

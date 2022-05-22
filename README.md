@@ -14,9 +14,6 @@
     - improve visibility and placement of another/share button on desktop
 
 # TODO -> Hugo migration
-- recent_posts don't show audio symbol
-- fix all the page_* functions
-- fix weirdness here and there
-- figure out how to compress images in markdown (render-image.html)
+- double check everything for weirdness here and there
 - Recode the ramble shortening code in the summary.html, I can use .Next,.Prev for this?
 - bin page is weird
