@@ -4,7 +4,7 @@ date: 2021-10-15
 tags:
   - light
   - rum
-personal_rating: 5
+weight: 1
 inspired_by: The Joy of Mixology by Gary Reagan (p. 204)
 blurb: Dark rum combined with stormy (?) ginger beer. A storm of flavors... In your mouth.
 ingredients:

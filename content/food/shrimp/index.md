@@ -1,6 +1,7 @@
 ---
 title: Red Scare Shrimp
 date: 2020-11-15
+weight: 2
 tags:
   - communist
   - hot

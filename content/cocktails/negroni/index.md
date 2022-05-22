@@ -4,7 +4,7 @@ date: 2021-10-26
 tags:
   - strong
   - gin
-personal_rating: 4
+weight: 3
 inspired_by: The Joy of Mixology by Gary Reagan (p. 254)
 blurb: It tastes like mouthwash? But I like it?
 ingredients:

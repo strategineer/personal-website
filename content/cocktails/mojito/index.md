@@ -4,7 +4,7 @@ date: 2022-05-18
 tags:
   - light
   - rum
-personal_rating: 5
+weight: 1
 inspired_by: The Joy of Mixology by Gary Reagan (p. 252)
 blurb: Light and refreshing. Feels great to sip outside on a hot summer day.
 ingredients:

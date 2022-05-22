@@ -5,7 +5,7 @@ tags:
   - light
   - gin
   - mint
-personal_rating: 5
+weight: 1
 inspired_by: The Joy of Mixology by Gary Reagan (p. 213)
 blurb: Tastes like a less minty and more gingery Southside cocktail. It's dayum good.
 ingredients:

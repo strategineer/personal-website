@@ -4,7 +4,7 @@ date: 2021-11-09
 tags:
   - light
   - rum
-personal_rating: 4
+weight: 2
 inspired_by: The Joy of Mixology by Gary Reagan (p. 237)
 blurb: A (slight) variation on the Mai Tai, a classic tropical cocktail that will make you feel like you're a pensioner living in Florida.
 ingredients:

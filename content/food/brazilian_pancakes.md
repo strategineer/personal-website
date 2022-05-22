@@ -1,6 +1,7 @@
 ---
 title: Brazilian Pancakes
 date: 2021-12-22
+weight: 5
 tags:
   - dip
 blurb:

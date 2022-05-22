@@ -4,7 +4,7 @@ date: 2022-05-03
 tags:
   - light
   - bourbon
-personal_rating: 5
+weight: 1
 inspired_by: The Joy of Mixology by Gary Reagan (p. 249-250)
 blurb: I like mint, I like bourbon, I like them together on some crushed ice.
 ingredients:

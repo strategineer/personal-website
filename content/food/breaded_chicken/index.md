@@ -1,6 +1,7 @@
 ---
 title: "Breaded Chicken"
 date: 2021-10-17
+weight: 2
 tags:
   - dinner
 blurb: Breaded Chicken

@@ -1,6 +1,7 @@
 ---
-title: Chicken Boobbas
+title: Chicken Breasts
 date: 2021-11-15
+weight: 5
 tags:
   - juicy
 blurb:

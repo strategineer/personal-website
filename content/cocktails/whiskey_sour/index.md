@@ -4,7 +4,7 @@ date: 2021-11-20
 tags:
   - strong
   - whiskey
-personal_rating: 2
+weight: 4
 inspired_by: The Joy of Mixology by Gary Reagan (p. 290)
 blurb: Another way to make bourbon enjoyable to drink.
 ingredients:

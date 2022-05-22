@@ -5,7 +5,7 @@ tags:
   - strong
   - gin
   - mint
-personal_rating: 4
+weight: 2
 inspired_by: The Joy of Mixology by Gary Reagan (p. 281)
 blurb: The mint garnish pokes at your nose while you drink this minty cocktail. If you like mint with your mint for more mint per square mint then this is the cocktail for you.
 ingredients:

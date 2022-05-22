@@ -1,6 +1,7 @@
 ---
 title: Supreme Tzatziki
 date: 2020-11-10
+weight: 4
 tags:
   - dip
 blurb: Unleash you inner greek god by enjoying this perfect tzatziki.

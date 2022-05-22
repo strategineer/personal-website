@@ -1,6 +1,7 @@
 ---
 title: "Tahini sauce"
 date: 2021-10-17
+weight: 4
 tags:
   - dip
 blurb: Tahini sauce.

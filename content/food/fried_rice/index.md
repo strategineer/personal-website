@@ -1,6 +1,7 @@
 ---
 title: Fried Rice
 date: 2021-11-09
+weight: 2
 tags:
   - fried
 blurb: ...
