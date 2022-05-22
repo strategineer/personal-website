@@ -1,7 +1,7 @@
 author:
   name: "Strategineer"
 
-baseURL: 'http://strategineer.com/'
+baseURL: 'https://strategineer.com/'
 languageCode: 'en-us'
 title: 'Strategineer'
 enableEmoji: true
