@@ -37,13 +37,13 @@
         {{ end }}
       {{ end }}
       {{ if not $is_ramble_blog_post }}
-      {{ partial "try_tags" . }}
+        {{ partial "try_tags" . }}
       {{ end }}
     </div>
   </div>
   {{ if not $is_ramble_blog_post }}
     {{ if and (not .Params.use_album_summary) .Truncated }}
-      <footer>
+      <footer class="read-more-footer">
         <a class="read-more" href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
       </footer>
     {{ end }}
