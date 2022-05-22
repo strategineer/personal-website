@@ -301,17 +301,6 @@ module CustomHelpers
     return res
   end
 
-  def page_info(article)
-    res = ""
-    res <<
-    %{
-<div class="d-flex justify-content-center text-center page-reading-time">
-#{reading_time(article)} read
-</div>
-    }
-    return res
-  end
-
   def inline_list(ls)
     if ls.length == 0
       return ""

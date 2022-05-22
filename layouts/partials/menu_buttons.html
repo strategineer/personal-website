@@ -14,6 +14,8 @@
 {{- end -}} 
     
 {{- if or .IsSection .IsPage -}}
+<div class="d-flex justify-content-center d-flex-inline-list">
+  <div class="text-center">
 <li class="list-inline-item li-inline">
     <div class="col justify-content-left">
         <button onclick="goBackToMainPage()">🏠</button>
@@ -31,4 +33,6 @@
             <button onclick="goToRandomUrl({{ $urls }})">🎲</button>
         </div>
     </li>
+</div>
+</div>
 {{- end -}}
