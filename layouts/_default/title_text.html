@@ -1,0 +1,19 @@
+{{ .Title }}
+{{ $audio := .Resources.GetMatch "audio.mp3" }}
+{{ if $audio }}
+🎧
+{{ end }}
+{{ $reviews_tags := (index .Params "reviews/tags") }}
+{{ if in $reviews_tags "thumbs_up" }}
+👍
+{{ end }}
+{{ if in $reviews_tags "thumbs_down" }}
+👎
+{{ end }}
+{{ $cocktails_tags := (index .Params "cocktails/tags") }}
+{{ if in $cocktails_tags "light" }}
+⚖️
+{{ end }}
+{{ if in $cocktails_tags "strong" }}
+💪
+{{ end }}

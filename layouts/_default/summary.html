@@ -16,7 +16,11 @@
     {{ end }}
   {{ end }}
     <div class="col">
-      <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+      <h2>
+        <a href='{{ .Permalink }}'>
+        {{ .Render "title_text" }}
+        </a>
+      </h2>
       {{ if .Params.use_album_summary }}
         {{ if .Params.blurb }}
           {{ .Params.blurb }}

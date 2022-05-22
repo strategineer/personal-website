@@ -11,7 +11,9 @@
     {{ range $pages | first $n_max }}
       <a href="{{ .Permalink }}">
 
-        <li class="footer-shortlist-item"> {{ .Title }}</li>
+        <li class="footer-shortlist-item">
+          {{ .Render "title_text" }}
+        </li>
       </a>
     {{ end }}
     {{ $n_pages_left := sub (len $pages) $n_max }}
