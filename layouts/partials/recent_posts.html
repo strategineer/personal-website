@@ -1,5 +1,14 @@
 {{ $n_max := 10 }}
 {{ $pages := where $.Site.RegularPages "Section" .Section }}
+{{ if eq .Section "blog" }}
+  {{ $non_ramble_pages := slice }}
+  {{ range $pages }}
+    {{ if not (in (index .Params "blog/tags") "ramble") }}
+      {{ $non_ramble_pages =  $non_ramble_pages | append .}}
+    {{ end }}
+  {{ end }}
+  {{ $pages = $non_ramble_pages }}
+{{ end }}
 {{ if $pages }}
 {{ partial "menu_buttons" . }}
 {{ $post_name := pluralize .Params.post_name }}

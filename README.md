@@ -15,5 +15,4 @@
 
 # TODO -> Hugo migration
 - double check everything for weirdness here and there
-- Recode the ramble shortening code in the summary.html, I can use .Next,.Prev for this?
 - bin page is weird
