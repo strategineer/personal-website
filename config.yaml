@@ -1,0 +1,54 @@
+author:
+  name: "Strategineer"
+
+baseURL: 'http://strategineer.com/'
+languageCode: 'en-us'
+title: 'Strategineer'
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+
+taxonomies:
+  "blog post": "blog/tags"
+  "review": "reviews/tags"
+  "cocktail": "cocktails/tags"
+  "recipe": "food/tags"
+  "project": "projects/tags"
+
+permalinks:
+  posts: /:section/:year-:month-:day
+  "blog post": /blog/tags/:slug/
+  "review": /reviews/tags/:slug/
+  "cocktail": /cocktails/tags/:slug/
+  "recipe": /food/tags/:slug/
+  "project": /projects/tags/:slug/
+
+imaging:
+  quality: 90
+  exif:
+    disableDate: true
+    disableLatLong: true
+
+markup:
+ defaultMarkdownHandler: goldmark
+ goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
+

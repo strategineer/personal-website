@@ -12,3 +12,7 @@
 - share button:
     - improve share/another button visibility on a dark background
     - improve visibility and placement of another/share button on desktop
+
+# TODO -> Hugo migration
+- double check everything for weirdness here and there
+- bin page is weird

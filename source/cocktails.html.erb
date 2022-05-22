@@ -1,7 +1,0 @@
----
-title: Strategineer
-blog: cocktails
-has_footer: false
----
-<% sort_fn = lambda { |a, b| b.data.personal_rating <=> a.data.personal_rating  } %>
-<%= album(blog.articles, true, "Strat's Cocktails", lambda { |p| (p.data.sub_ingredient.nil? or not p.data.sub_ingredient) and p.data.personal_rating != -1}, sort_fn) %>

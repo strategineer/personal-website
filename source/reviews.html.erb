@@ -1,8 +1,0 @@
----
-title: Strategineer
-blog: reviews
-has_header: true
----
-<% get_review_categories_data().each do |c| %>
-  <%= articles_table(blog.articles, true, c.name + " Reviews") %>
-<% end %>

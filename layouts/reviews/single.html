@@ -1,0 +1,51 @@
+{{ define "main" }}
+  <div class="review-content container">
+    {{/* if current_article.tags.include?('thumbs_up') */}}
+      {{/* icon = "&#x1F44D" */}}
+    {{/* end */}}
+    {{/* if current_article.tags.include?('thumbs_down') */}}
+      {{/* icon = "&#x1F44E" */}}
+    {{/* end */}}
+    {{/*= TODO(strategineer): I want this to add "Review" to the title and the icon */}}
+    {{ partial "title" . }}
+    {{ partial "try_links" . }}
+    {{ partial "try_video" . }}
+    {{ partial "try_images" . }}
+    {{ partial "reading_time" . }}
+    <div class="row justify-content-center readable">
+      {{ .Content }}
+    </div>
+    {{ if or .Params.pros .Params.cons }}
+      {{ if .Params.pros }}
+        <div class="d-flex justify-content-center">
+          <h2>Pros</h2>
+        </div>
+        <div class="d-flex readable">
+          <ul>
+            {{ range $index, $val := .Params.pros }}
+              <li>{{ $val }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+      {{ if .Params.cons }}
+        <div class="d-flex justify-content-center">
+          <h2>Cons</h2>
+        </div>
+        <div class="d-flex readable">
+          <ul>
+            {{ range $index, $val := .Params.cons }}
+              <li>{{ $val }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    {{ end }}
+    {{ if .Params.outro }}
+      <div class="d-flex readable">
+        {{ .Params.outro }}
+      </div>
+    {{ end }}
+  {{ partial "footer_desktop" . }}
+  </div>
+{{ end }}

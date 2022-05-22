@@ -1,0 +1,108 @@
+{{ $d := $.Site.Data.cv.en }}
+{{ $my_tags := $d.tags }}
+<a class="cv-anchor" id="en"></a>
+<div class="cv">
+  <div class="d-flex justify-content-center cv-download-link">
+     <a href="/cv/cv.pdf" download="bill_christian_tyros_cv.pdf">
+       Download CV as a PDF!
+     </a>
+  </div>
+  <div class="d-flex justify-content-center cv-name">
+    <div class="col-12 text-center display-6">
+      {{ $d.name }}.{{ $d.title }}
+    </div>
+  </div>
+  <div class="row text-center cv-email">
+    <ul class="list-inline">
+      <li class="list-inline-item">
+       <a href="mailto:me@strategineer.com">me@strategineer.com</a>
+      </li>
+      <li class="list-inline-item">
+       <a href="https://github.com/strategineer/">github.com/strategineer</a>
+      </li>
+    </ul>
+  </div>
+  <div class="row justify-content-center cv-content cv-readable">
+    <div class="col-12 text-center cv-header">
+      <div class="d-flex">
+      {{ range $v := $d.sidebar_section }}
+        <div class="col">
+          <div class="row cv-header-section text-center">
+            <ul class="list-inline">
+            {{ range $e := $v.list }}
+              <li class="cv-header-item list-inline-item">
+                {{ if in $my_tags $e }}
+                  <a href="{{ index $my_tags $e }}">{{ $e }}</a>
+                {{ else }}
+                  {{ $e }}
+                {{ end }}
+              </li>
+            {{ end }}
+            </ul>
+          </div>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+    <div class="col-12 cv-main">
+      {{ range $v := $d.main_section }}
+        <div class="col-12 cv-main-section">
+          <div class="cv-main-title">{{ $v.title }}</div>
+          {{ range $e := $v.list }}
+            <div class="col-12 cv-main-entry">
+              <div class="row cv-main-entry-header">
+                {{ $has_link := $e.link }}
+                {{ if $has_link }}
+                  <a href="{{ $e.link }}">
+                {{ end }}
+                <div class="col text-left">
+                  <div class="cv-main-entry-title">
+                  {{ if $e.year }}
+                  {{ $e.year }}
+                  {{ end }}
+                  {{ if and (not (and $e.year $e.hint)) $e.title }}
+                    /
+                  {{ end }}
+                  {{ $e.title }}
+                  {{ if $e.hint }}
+                  ({{ $e.hint }})
+                  {{ end }}
+                  </div>
+                </div>
+                {{ if $has_link }}
+                  </a>
+                {{ end }}
+                {{ if $e.tech }}
+                <div class="col text-center">
+                  <div class="d-flex justify-content-center cv-main-entry-tech">
+                    <ul class="list-inline">
+                    {{ range $t := $e.tech }}
+                      <li class="cv-tech-item list-inline-item">
+                      {{ if in $my_tags $t }}
+                        <a href="{{ index $my_tags $t }}">{{ $t }}</a>
+                      {{ else }}
+                        {{ $t }}
+                      {{ end }}
+                      </li>
+                    {{ end }}
+                    </ul>
+                  </div>
+                </div>
+                {{ end }}
+              </div>
+              {{ if $e.list }}
+              <div class="d-flex justify-content-left cv-main-entry-bullets">
+                <ul>
+                  {{ range $b := $e.list }}
+                  <li class="cv-bullet-item">{{ $b | htmlUnescape | safeHTML }}</li>
+                {{ end }}
+                </ul>
+              </div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

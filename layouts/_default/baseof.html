@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-139862229-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link  rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+
+    {{ $style := resources.Get "css/site.scss" | resources.ToCSS | resources.Minify }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <title>
+    {{ block "page_title" . }}
+    {{ if .Section }} {{ .Section }}/ {{ end }} {{ .Site.Title }}
+    {{ end }}
+    </title>
+    {{ block "header" . }}
+    {{ end }}
+  </head>
+  <body id="documentTop">
+    {{ block "title" . }}
+    {{ end }}
+    <!-- Code that all your templates share, like a header -->
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+    {{ if and .File (eq .File.ContentBaseName "cv") }}
+        <div class="container-fluid">
+    {{ else }}
+        <div class="container">
+    {{ end }}
+    {{/* TODO(strategineer): I messed this condition up I'm sure, check it again */}}
+      {{ $should_have_footer := and (or (not .Params.has_header) .Params.has_footer) (not (eq .File.ContentBaseName "cv")) }}
+      <div class="row justify-content-end">
+      {{ if $should_have_footer }}
+        <div class="col-xl-8 main ">
+      {{ else }}
+        <div class="col-xl-12 main ">
+      {{ end }}
+          {{ if .Params.has_header }}
+            {{ partial "header" . }}
+          {{ end }}
+          {{ if .Params.is_readable }}
+            <div class="readable">
+          {{ end }}
+            {{ block "main" . }}
+            {{ end }}
+          {{ if .Params.is_readable }}
+            </div>
+          {{ end }}
+        </div>
+        {{ if $should_have_footer }}
+          <div class="col-xl-4 readable-footer">
+            {{ partial "footer" . }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ if not .Params.explorer }}
+      {{ partial "to_top" . }}
+    {{ else }}
+      {{ $explorer_js := resources.Get "js/explorer.js" | resources.ExecuteAsTemplate "js/explorer.js" . | resources.Minify }}
+       <script type="text/javascript" src="{{ $explorer_js.Permalink }}"> </script>
+      {{ $explorer_implementation_path := ".js" | printf "%s%s" .Params.explorer | printf "%s%s" "js/" }}
+      {{ $explorer_implementation_js := resources.Get $explorer_implementation_path | resources.ExecuteAsTemplate $explorer_implementation_path . | resources.Minify }}
+       <script type="text/javascript" src="{{ $explorer_implementation_js.Permalink }}"> </script>
+    {{ end }}
+    {{ $js := resources.Get "js/site.js" }}
+    {{ $site_js := $js | resources.ExecuteAsTemplate "js/site.js" . | resources.Minify }}
+    <script type="text/javascript" src="{{ $site_js.Permalink }}"> </script>
+    {{ if .Page.Store.Get "hasMermaid" }}
+    <script defer type="text/javascript" src="/js/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        startOnLoad: true ,
+        theme: "neutral"
+      });
+    </script>
+  {{ end }}
+    <script defer type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+

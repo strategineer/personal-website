@@ -1,0 +1,52 @@
+{{- if .Params.links -}}
+<div class="d-flex justify-content-center d-flex-inline-list">
+    <div class="text-center">
+        <ul class="list-inline ul-inline">
+            {{- range $index, $name_link_pair := .Params.links -}}
+            {{- $split_pair := split $name_link_pair "," -}}
+            <li class="list-inline-item li-inline">
+                <a href="{{ index $split_pair 1 }}">{{ index $split_pair 0 }}</a>
+            </li>
+            {{- end -}} 
+        </ul>
+    </div>
+</div>
+{{- end -}} 
+
+{{ $tags_suffix := "/tags" }}
+{{- $pages := slice -}}
+{{ $targetted_section := slice }}
+{{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
+{{ if $is_tag_page }}
+  {{ $targetted_section = replace .Section $tags_suffix "" }}
+  {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
+{{ else }}
+  {{ $targetted_section = .Section }}
+  {{- $pages = where $.Site.RegularPages "Section" $targetted_section -}}
+{{ end }}
+{{- $has_home_button := or $is_tag_page .IsPage }}
+{{- $has_random_button := $pages }}
+{{- if or $has_home_button $has_random_button -}}
+<div class="d-flex justify-content-center d-flex-inline-list">
+  <div class="text-center">
+    {{ if $has_home_button }}
+    <li class="list-inline-item li-inline">
+    <div class="col justify-content-left">
+        <button onclick="goBackToMainPage()">🏠</button>
+    </div>
+    </li>
+    {{ end }}
+    {{- if $has_random_button -}}
+    {{- $urls := slice -}}
+    {{- range $pages -}}
+        {{- $urls = $urls | append .Permalink -}}
+    {{- end -}}
+    <li class="list-inline-item li-inline">
+        <div class="col justify-content-left">
+            <button onclick="goToRandomUrl({{ $urls }})">🎲</button>
+        </div>
+    </li>
+    </div>
+</div>
+{{- end -}}
+{{- end -}}

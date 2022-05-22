@@ -1,0 +1,14 @@
+{{ with .NextInSection }}
+<div class="d-flex justify-content-center footer-paginator-next">
+  <div class="next-article-link col-12 mx-auto">
+    <a href="{{ .Permalink }}">{{ emojify ":arrow_backward:" }}{{ .Title }}</a>
+  </div>
+</div>
+{{ end }}
+{{ with .PrevInSection }}
+<div class="d-flex justify-content-center footer-paginator-previous">
+  <div class="previous-article-link col-12 mx-auto">
+      <a href="{{ .Permalink }}">{{ emojify ":arrow_forward:" }}{{ .Title }}</a>
+  </div>
+</div>
+{{ end }}

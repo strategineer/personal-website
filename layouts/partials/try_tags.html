@@ -1,0 +1,16 @@
+{{ $tag_name := "/tags" | printf "%s%s" .Section }}
+{{ $tags := (.GetTerms $tag_name ) }}
+{{ if $tags }}
+<div class="d-flex justify-content-center d-flex-inline-list">
+  <div class="text-center">
+    <ul class="list-inline ul-inline">
+      {{ range $tags }}
+      <li class="list-inline-item li-inline">
+        {{  $pretty_tag := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+        <a href="{{ .Permalink }}">{{ $pretty_tag }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,52 @@
+{{ if not .Params.exclude_from_summary }}
+{{ $is_ramble_blog_post := and (eq .Section "blog")  (in (index .Params "blog/tags") "ramble") }}
+<article class="post-summary">
+  {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
+  {{ $summary_classes := cond $is_less_important "less-important" "" }}
+  <div class="row summary-row {{ $summary_classes }}">
+  {{ if .Params.use_album_summary }}
+    {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
+    {{ if $thumbnail }}
+      <div class="col">
+        <a href='{{ .Permalink }}'>
+          {{ with $thumbnail.Resize "x400 webp" }}
+          <img class="img-fluid rounded mx-auto d-block" src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
+          {{ end }}
+        </a>
+      </div>
+    {{ end }}
+  {{ end }}
+    <div class="col">
+      <h2>
+        <a href='{{ .Permalink }}'>
+        {{ .Render "title_text" }}
+        </a>
+      </h2>
+      {{ if .Params.use_album_summary }}
+        {{ if .Params.blurb }}
+          {{ .Params.blurb }}
+        {{ else }}
+        ...
+        {{ end }}
+      {{ else }}
+        <div class="post-meta">
+          {{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words - {{ .ReadingTime }}min read
+        </div>
+        {{ if not $is_ramble_blog_post }}
+        {{ .Summary }}
+        {{ end }}
+      {{ end }}
+      {{ if not $is_ramble_blog_post }}
+      {{ partial "try_tags" . }}
+      {{ end }}
+    </div>
+  </div>
+  {{ if not $is_ramble_blog_post }}
+    {{ if and (not .Params.use_album_summary) .Truncated }}
+      <footer>
+        <a class="read-more" href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+      </footer>
+    {{ end }}
+  {{ end }}
+</article>
+{{ end }}
