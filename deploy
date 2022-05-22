@@ -8,6 +8,8 @@ fi
 
 #curl "http://api.steampowered.com/ISteamApps/GetAppList/v0002/?format=json" | json_pp -json_opt pretty,canonical > data/steamgames.json
 
+rm -rf ./public/
+
 git add .
 git commit -m "$1"
 git push
