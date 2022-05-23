@@ -1,0 +1,14 @@
+{{/* When you have a header that's also a link, the anchor URLs look really ugly so let's override the default behavior here */}}
+{{ $anchor := "" }}
+{{ if in .Text `<a href=` }}
+{{ $anchor = .PlainText }}
+{{ else }}
+{{ $anchor = .Anchor }}
+{{ end }}
+{{ $anchor = $anchor | safeURL }}
+<h{{ .Level }} id="{{ $anchor }}">
+{{ .Text | safeHTML }}
+    <a href="#{{ $anchor }}">
+        ¶
+    </a>
+</h{{ .Level }}>
