@@ -21,3 +21,5 @@
 ## bin/
 - Create rap name generator (lil X)
 - implement dom 5 nap visualizer using mermaid
+- Fix random button not working correctly on bin page
+- fix random button appearing in odd places, in general try to add the buttons somewhere useful
