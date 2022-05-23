@@ -2,7 +2,7 @@
 title: Mages of Mystralia
 date: 2017-05-18
 projects/tags:
-    - C#
+    - c_sharp
     - python
     - TeamCity
     - Unity

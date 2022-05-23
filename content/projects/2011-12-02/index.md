@@ -2,7 +2,7 @@
 title: DnD Sidekick
 date: 2011-12-02
 projects/tags:
-    - "C#"
+    - c_sharp
     - Windows Phone
 blurb: Windows Phone companion app for Pen and Paper roleplaying players.
 ---

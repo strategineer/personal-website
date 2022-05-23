@@ -2,7 +2,7 @@
 title: Invasion Logistics Pro
 date: 2014-04-28
 projects/tags:
-    - C#
+    - c_sharp
     - Unity
 youtube_video_id: Y24-MfR2cBU
 links:
