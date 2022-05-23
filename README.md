@@ -30,4 +30,4 @@
   - add a turn checklist
 
 - change Videos to h.264 from webm for Apple devices
-
+- In recent_posts partial, I wouldn't show the post for the page we're currently in
