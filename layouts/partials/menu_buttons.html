@@ -1,13 +1,10 @@
 {{ $tags_suffix := "/tags" }}
 {{ $pages := slice -}}
-{{ $targetted_section := slice }}
 {{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
 {{ if $is_tag_page }}
-  {{ $targetted_section = replace .Section $tags_suffix "" }}
   {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
 {{ else }}
-  {{ $targetted_section = .Section }}
-  {{ $pages = where $.Site.RegularPages "Section" $targetted_section }}
+  {{ $pages = where $.Site.RegularPages "Section" .Section }}
 {{ end }}
 {{ $has_random_button := $pages }}
 {{ if $has_random_button }}
