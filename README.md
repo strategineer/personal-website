@@ -17,12 +17,10 @@
 - Make paginator skip rambles
 - Use summary field in blog posts to have better summaries
     - If I need to, normalize look of using automated summaries vs. manually adding the summary field
-- Fix random button not working correctly on bin page
 - fix random button appearing in odd places, in general try to add the buttons somewhere useful
 - don't start builds if unrelated files change ( like the readme file)
 
 ## bin/
-- None of the bin stuff works
 - Create rap name generator (lil X)
 - implement dom 5 nap visualizer using mermaid
 - add dominions section to website

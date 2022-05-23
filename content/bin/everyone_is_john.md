@@ -1,6 +1,7 @@
 ---
 title: "Everyone is John and/or George"
 is_readable: true
+blurb: Everyone is John tabletop roleplaying rules.
 ---
 # How to Play
 
