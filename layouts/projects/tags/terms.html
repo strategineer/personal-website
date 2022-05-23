@@ -3,6 +3,5 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ .Scratch.Set "tags_section" "projects" }}
-  {{ partialCached "all_tags.html" . }}
+  {{ partial "all_tags.html" . }}
 {{ end }}

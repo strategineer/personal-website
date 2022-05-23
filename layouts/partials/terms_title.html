@@ -3,7 +3,7 @@
     <h1>
       {{ $v := split .Data.Plural "/" }}
       <a href="/{{ index $v 0 }}">
-            All {{ pluralize .Data.Singular }} tags
+            All {{ .Data.Singular }} tags
         </a>
     </h1>
   </div>
