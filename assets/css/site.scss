@@ -213,6 +213,11 @@ a:focus, a:hover, a:visited, a:link, a:active
     font-size: larger;
 }
 
+.notes > ul,
+.notes > ol,
+.post-bullet-list {
+    padding-left: 0;
+}
 
 // Remove this unneeded margin that messes up the page links
 ul.list-inline {
@@ -312,6 +317,10 @@ a.cv-anchor {
 // Make audio files not have bottom margin
 figure {
     margin: 0 0 0 0;
+}
+.no-margin {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 

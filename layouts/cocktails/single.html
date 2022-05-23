@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="cocktails-content container">
+  <div class="cocktails-content">
     {{ partial "title" . }}
     {{ partial "try_links" . }}
     {{ partial "try_tags" . }}
@@ -29,7 +29,7 @@
           <h2>Ingredients</h2>
         </div>
         <div class="d-flex justify-content-center">
-          <ul>
+          <ul class="post-bullet-list">
             {{ range $index, $val := .Params.ingredients }}
               <li>{{ $val }}</li>
             {{ end }}
@@ -41,7 +41,7 @@
           <h2>Steps</h2>
         </div>
         <div class="d-flex justify-content-center">
-          <ol>
+          <ol class="post-bullet-list">
             {{ range $index, $val := .Params.steps }}
               <li>{{ $val }}</li>
             {{ end }}

@@ -55,11 +55,11 @@
       {{ else }}
         {{ $should_have_footer = .IsPage}}
       {{ end }}
-      <div class="row justify-content-end">
+      <div class="row no-margin justify-content-end">
       {{ if $should_have_footer }}
-        <div class="col-xl-8 main ">
+        <div class="col-xl-8 main no-margin ">
       {{ else }}
-        <div class="col-xl-12 main ">
+        <div class="col-xl-12 main no-margin ">
       {{ end }}
           {{ if $should_have_header }}
             {{ partial "header" . }}

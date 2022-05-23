@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="review-content container">
+  <div class="reviews-content">
     {{/* if current_article.tags.include?('thumbs_up') */}}
       {{/* icon = "&#x1F44D" */}}
     {{/* end */}}
@@ -21,7 +21,7 @@
           <h2>Pros</h2>
         </div>
         <div class="d-flex readable">
-          <ul>
+          <ul class="post-bullet-list">
             {{ range $index, $val := .Params.pros }}
               <li>{{ $val }}</li>
             {{ end }}
@@ -33,7 +33,7 @@
           <h2>Cons</h2>
         </div>
         <div class="d-flex readable">
-          <ul>
+          <ul class="post-bullet-list">
             {{ range $index, $val := .Params.cons }}
               <li>{{ $val }}</li>
             {{ end }}
