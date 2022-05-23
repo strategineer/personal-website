@@ -1,3 +1,4 @@
+{{ $current_page_permalink := .Permalink }}
 {{ $n_max := 5 }}
 {{ $pages := where $.Site.RegularPages "Section" .Section }}
 {{ if eq .Section "blog" }}
@@ -9,6 +10,7 @@
   {{ end }}
   {{ $pages = $non_ramble_pages }}
 {{ end }}
+{{ $pages = where $pages "Permalink" "!=" $current_page_permalink }}
 {{ if $pages }}
 {{ $post_name := pluralize .Params.post_name }}
 <div class="d-flex justify-content-center footer-shortlist-title">
