@@ -45,22 +45,31 @@
     <div class="container">
     {{ end }}
     {{/* TODO(strategineer): I messed this condition up I'm sure, check it again */}}
-      {{ $should_have_footer := and (or (not .Params.has_header) .Params.has_footer) (not (eq .File.ContentBaseName "cv")) }}
+      {{ $should_have_header := .Params.has_header }}
+      {{ $is_readable := default .Params.is_readable true}}
+      {{ $should_have_footer := false }}
+      {{ if $should_have_header }}
+        {{ $should_have_footer = false }}
+      {{ else if .Params.has_footer }}
+        {{ $should_have_footer = .Params.has_footer }}
+      {{ else }}
+        {{ $should_have_footer = .IsPage}}
+      {{ end }}
       <div class="row justify-content-end">
       {{ if $should_have_footer }}
         <div class="col-xl-8 main ">
       {{ else }}
         <div class="col-xl-12 main ">
       {{ end }}
-          {{ if .Params.has_header }}
+          {{ if $should_have_header }}
             {{ partial "header" . }}
           {{ end }}
-          {{ if .Params.is_readable }}
+          {{ if $is_readable }}
             <div class="readable">
           {{ end }}
             {{ block "main" . }}
             {{ end }}
-          {{ if .Params.is_readable }}
+          {{ if $is_readable }}
             </div>
           {{ end }}
         </div>
