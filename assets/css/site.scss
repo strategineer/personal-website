@@ -168,8 +168,8 @@ h6 {
     font-size: 1.5rem;
 }
 
-.footer-image-artist {
-    font-size: 0.75rem;
+.author-blurb {
+    padding-bottom: 0.5em;
 }
 
 .footnotes {
@@ -338,8 +338,6 @@ ul.list-inline {
 
 .d-flex-inline-list {
     font-size: 1.5rem;
-    margin-top: 5;
-    margin-bottom: 5px;
 }
 
 .ul-inline {
@@ -494,7 +492,7 @@ figure {
     font-size: 0.90rem;
 }
 
-.read-more-footer {
+.read-more {
     margin-bottom: 1.5em;
 }
 
@@ -505,6 +503,11 @@ figure {
 
 .float-left {
     float: left;
+}
+
+
+.menu-icon {
+    padding: 1em;
 }
 
 

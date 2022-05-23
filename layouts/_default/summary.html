@@ -19,7 +19,7 @@
     <div class="col">
       <h2>
         <a href='{{ .Permalink }}'>
-        {{ .Render "title_text" }}
+          {{ .Render "title_text" }}
         </a>
       </h2>
       {{ if .Params.use_album_summary }}
@@ -29,23 +29,28 @@
         ...
         {{ end }}
       {{ else }}
-        <div class="post-meta">
-          {{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words - {{ .ReadingTime }}min read
+        <div class="row post-meta">
+          <div class="col-auto align-middle">
+          {{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .ReadingTime }}min read
+          </div>
+          {{ if not $is_ramble_blog_post }}
+          <div class="col float-right">
+            {{ partial "try_tags" . }}
+          </div>
+          {{ end }}
         </div>
         {{ if not $is_ramble_blog_post }}
         {{ .Summary }}
         {{ end }}
       {{ end }}
-      {{ if not $is_ramble_blog_post }}
-        {{ partial "try_tags" . }}
-      {{ end }}
-    </div>
   </div>
   {{ if not $is_ramble_blog_post }}
     {{ if and (not .Params.use_album_summary) .Truncated }}
-      <footer class="read-more-footer">
-        <a class="read-more" href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
-      </footer>
+    <div class="row read-more">
+      <div class="col">
+        <a class="float-right" href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+      </div>
+    </div>
     {{ end }}
   {{ end }}
 </article>

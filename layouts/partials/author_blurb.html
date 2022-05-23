@@ -1,24 +1,42 @@
-<div class="row justify-content-center">
-  <a class="mx-auto text-center" href="/bin/">
-  🗑️
-  </a>
-  <a class="mx-auto text-center" href="/food/">
-  🍲
-  </a>
-  <a class="mx-auto text-center" href="/cocktails/">
-  🍸
-  </a>
-</div>
-<a href="/">
-  <div class="d-flex justify-content-center footer-image">
-    <img class="mx-auto avatar-static" src="/img/fe_portrait.png" alt="Strat's Avatar">
+<div class="container author-blurb">
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <a href="/bin/">
+        <button class="menu-icon">
+          🗑️
+        </button>
+      </a>
+    </div>
+    <div class="col-auto">
+      <a href="/food/">
+        <button class="menu-icon">
+          🍲
+        </button>
+      </a>
+    </div>
+    <div class="col-auto">
+      <a href="/cocktails/">
+        <button class="menu-icon">
+          🍸
+        </button>
+      </a>
+    </div>
   </div>
-</a>
-<div class="row justify-content-center footer-content">
-  <div id="greeting" class="col-12 text-center">
-    ...
+  <div class="row">
+    <div class="col">
+      <a href="mailto:me@strategineer.com">
+        <img class="rounded mx-auto d-block avatar-static" src="/img/fe_portrait.png" alt="Strat's Avatar">
+        </div>
+      </a>
+    </div>
+    <div class="col-auto">
+      <div class="row justify-content-left footer-content">
+        <div class="col-12 text-center">Name's Strat; I'm a rooster illusion and I write about whatever I feel like writing about.
+        </div>
+        <div class="col-12 text-center">
+        {{ partial "contact_info" . }}
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-12 text-center">Name's Strat; I'm a rooster illusion and I write about whatever I feel like writing about.
-  </div>
-  {{ partial "contact_info" . }}
 </div>
