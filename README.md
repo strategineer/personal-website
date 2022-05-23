@@ -23,3 +23,6 @@
 - implement dom 5 nap visualizer using mermaid
 - Fix random button not working correctly on bin page
 - fix random button appearing in odd places, in general try to add the buttons somewhere useful
+- add dominions section to website
+  - add all of my resources
+  - add a turn checklist
