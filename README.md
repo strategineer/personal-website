@@ -22,6 +22,7 @@
 - don't start builds if unrelated files change ( like the readme file)
 
 ## bin/
+- None of the bin stuff works
 - Create rap name generator (lil X)
 - implement dom 5 nap visualizer using mermaid
 - add dominions section to website
