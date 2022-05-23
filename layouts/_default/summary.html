@@ -16,8 +16,8 @@
       </div>
     {{ end }}
   {{ end }}
-    <div class="col">
-      <h2>
+    <div class="col align-self-center">
+      <h2 class="summary-title">
         <a href='{{ .Permalink }}'>
           {{ .Render "title_text" }}
         </a>
@@ -30,7 +30,7 @@
         {{ end }}
       {{ else }}
         <div class="row post-meta">
-          <div class="col-auto align-middle">
+          <div class="col-auto align-self-center">
           {{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .ReadingTime }}min read
           </div>
           {{ if not $is_ramble_blog_post }}
@@ -44,14 +44,17 @@
         {{ end }}
       {{ end }}
   </div>
-  {{ if not $is_ramble_blog_post }}
-    {{ if and (not .Params.use_album_summary) .Truncated }}
-    <div class="row read-more">
-      <div class="col">
-        <a class="float-right" href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
-      </div>
+  <div class="row read-more">
+    <div class="col">
+      <a class="float-right" href='{{ .Permalink }}'><nobr>
+        {{ if not .Params.use_album_summary }}
+        Read more →
+        {{ else }}
+        Check it out →
+        {{ end }}
+        </nobr>
+      </a>
     </div>
-    {{ end }}
-  {{ end }}
+  </div>
 </article>
 {{ end }}

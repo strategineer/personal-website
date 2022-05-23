@@ -5,5 +5,5 @@
   {{ end }}
 {{ else }}
 {{/* Fallback */}}
-<img class="img-fluid rounded mx-auto d-block img-fluid-max-height" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+<img class="img-fluid rounded mx-auto d-block" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
 {{ end }}

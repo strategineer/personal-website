@@ -28,26 +28,6 @@ $link_highlight: nth($colors, 1);
             background: $bg_dark;
         }
     }
-    /* override link color to make the text more visible. */
-    .card-title,
-    .card-subtitle,
-    .card-text {
-        color: $color_base;
-
-        &:focus,
-        &:hover,
-        &:active {
-            color: $color_base;
-        }
-    }
-    /* override the focus/hover attributes for links from site.css stop the text from changing color. */
-    .card-body a {
-        &:focus,
-        &:hover,
-        &:active {
-            color: $link_base;
-        }
-    }
 }
 
 @page
@@ -80,26 +60,6 @@ $link_highlight: nth($colors, 1);
             color: $link_print;
         }
     }
-    /* override link color to make the text more visible. */
-    .card-title,
-    .card-subtitle,
-    .card-text {
-        color: black;
-
-        &:focus,
-        &:hover,
-        &:active {
-            color: black;
-        }
-    }
-    /* override the focus/hover attributes for links from site.css stop the text from changing color. */
-    .card-body a {
-        &:focus,
-        &:hover,
-        &:active {
-            color: black;
-        }
-    }
 }
 
 body {
@@ -117,26 +77,6 @@ h4,
 h5,
 h6 {
     font-family: serif;
-}
-
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.container {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.readable > h1,
-.readable > h2,
-.readable > h3,
-.readable > h4,
-.readable > h5,
-.readable > h6 {
-    margin-top: .25em;
-    margin-bottom: .25em;
 }
 
 .readable,
@@ -157,15 +97,6 @@ h6 {
     margin-top: 0.5em;
     padding-left: 5px;
     padding-right: 5px;
-}
-
-.footer-content {
-    padding: 0.25em;
-}
-
-.footer-nav > div {
-    padding-right: .5em;
-    font-size: 1.5rem;
 }
 
 .author-blurb {
@@ -221,21 +152,6 @@ h6 {
     font-size: 1rem;
  }
 
-// Set internal borders.
-.table > thead > tr > th{
-    border-top:1px solid $bg_dark;
-    border-bottom:1px solid $bg_dark;
-    border-right:1px solid $bg_dark;
-}
-
-.img-fluid-max-height {
-    max-height: 20em;
-}
-
-.img-fluid-max-height-album {
-    max-height: 30em;
-}
-
 .table {
     border-collapse: collapse;
 }
@@ -244,34 +160,9 @@ h6 {
     padding:.50em;
 }
 
-// this removes the top borders
-// .table tr:first-child th {
-//   // border-top: 0;
-// }
-.table tr:last-child td {
-    border-bottom: 0;
-}
-.table tr td:first-child,
-.table tr th:first-child {
-    border-left: 0;
-}
-.table tr td:last-child,
-.table tr th:last-child {
-    border-right: 0;
-}
-
-.navbar {
-    background: $bg_dark;
-    margin-bottom: 0.25em;
-}
-
-.jumbotron {
-    margin: auto;
-    background: $bg_dark;
-}
-
 // Journals
 blockquote {
+    margin-bottom: 0.5em;
     background: $bg_dark;
     border: 2px $bg_dark;
     border-style: solid;
@@ -289,6 +180,17 @@ p {
     margin-inline-end: 0px;
     width: 100%;
 }
+
+.post-summary {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.mermaid {
+    width: auto;
+}
+
+
 
 .page-title {
     margin-bottom: 0.25em;
@@ -312,25 +214,6 @@ a:focus, a:hover, a:visited, a:link, a:active
 }
 
 
-/* Tabular archive for reviews and blog posts */
-// Maximize the size of background to fill the cell. 
-td a div {
-    width: 100%;
-    height: 100%;
-}
-
-// Highlight background when over on text.
-td a div:focus,
-td a div:hover,
-td a div:active {
-    background: $bg_dark;
-}
-
-// Ensure that the date field in table is not wrapped.
-.table-nowrap {
-    white-space: nowrap;
-}
-
 // Remove this unneeded margin that messes up the page links
 ul.list-inline {
     margin-bottom: 0;
@@ -349,51 +232,7 @@ ul.list-inline {
     margin-right: 5px;
 }
 
-/* Projects Album */
-
-.album {
-    border-top: 0.3em groove $bg_dark;
-}
-
-.row-album {
-    margin-top: 1em;
-}
-
-.card {
-    float: center;
-    margin-bottom: 1rem;
-    text-align: center;
-    background: $bg_dark;
-    max-width: 22rem;
-}
-
-.card-title {
-    font-size: 1.75rem;
-}
-
-.card-body {
-    background: $bg_dark;
-}
-
-/* highlight the card-body when any part of the card is highlighted. */
-.card:focus > .card-body,
-.card:hover > .card-body,
-.card:active > .card-body {
-    background: $bg_dark;
-}
-
-.card-text {
-    font-size: 0.75rem;
-}
-
-
 /* CV */
-.cv-header-item {
-}
-
-.cv-tech-item {
-}
-
 a.cv-anchor {
     display: block;
     position: relative;
@@ -448,17 +287,6 @@ a.cv-anchor {
     width: 192px;
 }
 
-// Portfolio
-.photo {
-    max-width:100%;
-}
-
-.photo-td {
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
-}
-
-
 // Blog
 .blog-call-to-action {
     margin-top: 2.5em;
@@ -493,7 +321,7 @@ figure {
 }
 
 .read-more {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 
 
@@ -510,6 +338,10 @@ figure {
     padding: 1em;
 }
 
+.summary-title {
+    margin: 0;
+}
+
 
 // Captions for images, videos, audio files and youtube embeds
 dd > em,
@@ -524,11 +356,6 @@ div > em,
     font-size: 0.95rem;
     margin-bottom: 1.5em;
 }
-
-blockquote {
-    margin-bottom: 0.5em;
-}
-
 
 li {
     margin-left: 2.5rem;
@@ -564,16 +391,6 @@ li {
   margin-right: 0;
 }
 
-.post-summary {
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
-}
-
-.mermaid {
-    width: auto;
-}
-
-
 @include media-breakpoint-down(xs) { 
 }
 @include media-breakpoint-down(sm) { 
@@ -600,9 +417,6 @@ li {
     em {
         font-size: 1.1rem;
     }
-    .card {
-        min-width: 16rem;
-    }
     .cv-main-entry-title {
         font-size: 1.02rem;
     }
@@ -611,14 +425,8 @@ li {
     }
 }
 @include media-breakpoint-up(sm) { 
-    .card {
-        min-width: 18rem;
-    }
 }
 @include media-breakpoint-up(md) { 
-    .card {
-        min-width: 20rem;
-    }
     // Center the navbar menu options when they are not collapsed.
     .navbar-nav.navbar-center {
         position: absolute;
