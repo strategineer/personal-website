@@ -25,5 +25,3 @@
 - add dominions section to website
   - add all of my resources
   - add a turn checklist
-
-- change Videos to h.264 from webm for Apple devices

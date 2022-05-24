@@ -12,7 +12,7 @@ Is there a God?
 
 Any and all questions you've ever asked yourself can be answered with one simple word. It is a word that describes a way of living that will allow you to transcend from your human husk and become one with the universe.
 
-![Pilk](/img/pilk.jpg)
+![Pilk](img/pilk.jpg)
 _Pilk_
 
 
