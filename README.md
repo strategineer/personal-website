@@ -27,3 +27,5 @@
   - add all of my resources
   - add a turn checklist
 
+- Investigate Hugo built in menus and see if they're appropriate for me
+
