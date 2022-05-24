@@ -10,7 +10,6 @@ on:
       - 'README.md'
       - 'COMMANDS.md'
       - 'LICENSE'
-      - '.github/workflows/main.yml'
 
 jobs:
   deploy:
