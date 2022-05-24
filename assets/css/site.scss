@@ -308,6 +308,7 @@ a.cv-anchor {
 
 
 .to-top {
+    color: white !important;
     background: $color_base;
     opacity: 0.5;
     width: 2.75rem;
@@ -321,6 +322,11 @@ a.cv-anchor {
     bottom: 16px; 
     right: 16px;
     z-index: 99;
+}
+
+.to-top:active {
+    color: white !important;
+    background: $color_base;
 }
 
 // Make audio files not have bottom margin
