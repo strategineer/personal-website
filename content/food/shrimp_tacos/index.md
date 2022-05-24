@@ -4,7 +4,7 @@ date: 2021-11-06
 weight: 2
 food/tags:
   - hot
-inspired_by: https://www.yummly.com/recipe/Spicy-Shrimp-Tacos-1223822?prm-v1
+inspired_by: "[https://www.yummly.com/recipe/Spicy-Shrimp-Tacos-1223822?prm-v1](https://www.yummly.com/recipe/Spicy-Shrimp-Tacos-1223822?prm-v1)"
 blurb: Spice up your life with spicy shrimp tacos.
 servings: 4
 ingredients:

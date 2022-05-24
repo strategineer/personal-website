@@ -12,16 +12,7 @@
     {{ partial "try_images" . }}
     {{ if .Params.inspired_by }}
       <div class="d-flex justify-content-center">
-          Inspired by:
-          {{ $isInspiredByALink := hasPrefix .Params.inspired_by "http" }}
-        {{ if $isInspiredByALink }}
-          <a href="{{ .Params.inspired_by }}">
-        {{ else }}
-        {{ end }}
-          {{ .Params.inspired_by }}
-        {{ if $isInspiredByALink }}
-          </a>
-        {{ end }}
+          Inspired by: {{ .Params.inspired_by | markdownify }}
       </div>
     {{ end }}
     {{ if .Params.ingredients }}
@@ -31,7 +22,7 @@
         <div class="d-flex justify-content-center">
           <ul class="post-bullet-list">
             {{ range $index, $val := .Params.ingredients }}
-              <li>{{ $val }}</li>
+              <li>{{ $val | markdownify }}</li>
             {{ end }}
           </ul>
         </div>
@@ -43,7 +34,7 @@
         <div class="d-flex justify-content-center">
           <ol class="post-bullet-list">
             {{ range $index, $val := .Params.steps }}
-              <li>{{ $val }}</li>
+              <li>{{ $val | markdownify }}</li>
             {{ end }}
           </ol>
         </div>

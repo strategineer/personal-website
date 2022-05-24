@@ -22,7 +22,7 @@
         <div class="d-flex justify-content-center">
           <ul class="post-bullet-list">
             {{ range $index, $val := .Params.ingredients }}
-              <li>{{ $val }}</li>
+              <li>{{ $val | markdownify }}</li>
             {{ end }}
           </ul>
         </div>
@@ -34,7 +34,7 @@
         <div class="d-flex justify-content-center">
           <ol class="post-bullet-list">
             {{ range $index, $val := .Params.steps }}
-              <li>{{ $val }}</li>
+              <li>{{ $val | markdownify }}</li>
             {{ end }}
           </ol>
         </div>
