@@ -6,7 +6,7 @@
 {{ if eq (len $images) 1 }}
   {{ $image := (index $images 0) }}
   {{ with $image.Resize "x400 webp" }}
-  <img class="img-fluid rounded mx-auto d-block" src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
+  <img class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}" >
   {{ end }}
 {{ else if gt (len $images) 1 }}
     <div id="carouselScreenshots" class="carousel slide" data-bs-ride="carousel">
@@ -21,7 +21,7 @@
         {{ $class := cond (eq $i 0) `carousel-item active` `carousel-item` }}
         <div class="{{ $class }}">
           {{ with $v.Resize "x400 webp" }}
-          <img class="rounded d-block w-100" src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}"/>
+          <img class="rounded d-block w-100" src="{{ .RelPermalink }}"/>
           {{ end }}
         </div>
     {{ end }}

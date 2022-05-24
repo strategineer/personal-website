@@ -11,7 +11,6 @@
 - share button:
     - improve share/another button visibility on a dark background
     - improve visibility and placement of another/share button on desktop
-- optimize size of repo, see what's taking up the most space
 
 ## Post-Hugo
 - Make paginator skip rambles
