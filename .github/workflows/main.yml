@@ -4,10 +4,22 @@ on:
   push:
     branches:
       - master # Set a branch to deploy
-     paths-ignore:
+    paths:
+      - 'content/**'
+      - 'static/**'
+      - 'assets/**'
+      - 'data/**'
+      - 'layouts/**'
+      - 'resources/**'
+      - 'config.yaml'
+      - 'package.json'
+      - 'package-lock.json'
+    paths-ignore:
       - 'bin/**'
       - 'archetypes/**'
       - 'README.md'
+      - 'COMMANDS.md'
+      - 'LICENSE'
       - '.github/workflows/main.yml'
 
 jobs:
