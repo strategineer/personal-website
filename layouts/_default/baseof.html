@@ -55,6 +55,8 @@
       {{ else }}
         {{ $should_have_footer = .IsPage}}
       {{ end }}
+      {{ $should_have_footer = and $should_have_footer (not .Params.explorer) }}
+      {{ $should_have_header = and $should_have_header (not .Params.explorer) }}
       <div class="row no-margin justify-content-end">
       {{ if $should_have_footer }}
         <div class="col-xl-8 main no-margin ">

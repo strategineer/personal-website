@@ -6,24 +6,24 @@
 {{ else }}
   {{ $pages = where $.Site.RegularPages "Section" .Section }}
 {{ end }}
-{{ $has_random_button := $pages }}
+{{ $has_random_button := and ($pages) (not .Params.explorer) }}
 {{ if $has_random_button }}
-{{ $urls := slice }}
-{{ range $pages }}
-{{ $is_ramble := in (index .Params "blog/tags") "ramble" }}
-{{ if not $is_ramble }}
-{{ $urls = $urls | append .Permalink }}
-{{ end }}
-{{ end }}
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-auto">
-      <a onclick="goToRandomUrl({{ $urls }})">
-        <button class="menu-icon">
-          🎲
-        </button>
-      </a>
+  {{ $urls := slice }}
+  {{ range $pages }}
+  {{ $is_ramble := in (index .Params "blog/tags") "ramble" }}
+  {{ if not $is_ramble }}
+  {{ $urls = $urls | append .Permalink }}
+  {{ end }}
+  {{ end }}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a onclick="goToRandomUrl({{ $urls }})">
+          <button class="menu-icon">
+            🎲
+          </button>
+        </a>
+      </div>
     </div>
   </div>
-</div>
 {{- end -}}
