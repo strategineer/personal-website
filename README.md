@@ -14,10 +14,7 @@
 - optimize size of repo, see what's taking up the most space
 
 ## Post-Hugo
-- double check everything for weirdness here and there
 - Make paginator skip rambles
-- Use summary field in blog posts to have better summaries
-    - If I need to, normalize look of using automated summaries vs. manually adding the summary field
 - fix random button appearing in odd places, in general try to add the buttons somewhere useful
 
 ## bin/
