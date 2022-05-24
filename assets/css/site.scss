@@ -105,8 +105,13 @@ h6 {
     padding-right: 0;
 }
 
+hr + ol {
+    padding-left: 0;
+}
+
 .footnotes {
     font-size: 0.95rem;
+    padding-left: 0;
 }
 
 

@@ -30,6 +30,3 @@
 - Investigate Hugo built in menus and see if they're appropriate for me
 - Rework the header/footer completely so that human beings can understand it
   - have two completely different setups for big screens vs. small screens (check out other blogs for reference)
-
-- Make sure that I always put the footnote link after the period and not before
-- Fix footnotes padding on mobile

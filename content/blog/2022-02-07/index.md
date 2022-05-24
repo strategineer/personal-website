@@ -30,7 +30,7 @@ I was recommended to try [nasal irrigation](https://en.wikipedia.org/wiki/Nasal_
 
 Doctors are a little busier than usual these days. I wonder why?
 
-Before you start running in the opposite direction, let me tell you that nasal irrigation is legit [^1] (this is a meta-analysis study that you can read yourself by going to your nearest _science hub_). You should do an investigation for yourself, always be skeptical!
+Before you start running in the opposite direction, let me tell you that nasal irrigation is legit (this is a meta-analysis study that you can read yourself by going to your nearest _science hub_).[^1] You should do an investigation for yourself, always be skeptical!
 
 It's very simple. You need:
 
