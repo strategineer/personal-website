@@ -18,7 +18,6 @@
 - Use summary field in blog posts to have better summaries
     - If I need to, normalize look of using automated summaries vs. manually adding the summary field
 - fix random button appearing in odd places, in general try to add the buttons somewhere useful
-- don't start builds if unrelated files change ( like the readme file)
 
 ## bin/
 - Create rap name generator (lil X)
