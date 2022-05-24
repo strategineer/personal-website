@@ -11,6 +11,7 @@
 - share button:
     - improve share/another button visibility on a dark background
     - improve visibility and placement of another/share button on desktop
+- optimize size of repo, see what's taking up the most space
 
 ## Post-Hugo
 - double check everything for weirdness here and there
@@ -25,3 +26,4 @@
 - add dominions section to website
   - add all of my resources
   - add a turn checklist
+
