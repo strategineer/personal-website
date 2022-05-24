@@ -12,9 +12,8 @@
 {{ end }}
 {{ $pages = where $pages "Permalink" "!=" $current_page_permalink }}
 {{ if $pages }}
-{{ $post_name := pluralize .Params.post_name }}
 <div class="d-flex justify-content-center footer-shortlist-title">
-  <h4>Recent {{ $post_name }}:</h4>
+  <h4>Recent {{ pluralize .Params.post_name }}</h4>
 </div>
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
@@ -29,7 +28,7 @@
     {{ $n_pages_left := sub (len $pages) $n_max }}
     {{ if $n_pages_left }}
       <li class="footer-shortlist-archive">
-        <a href="/{{ .Section }}">... with {{ $n_pages_left }} more {{ $post_name }} in the archive</a>
+        <a href="/{{ .Section }}">... with {{ $n_pages_left }} more in the archive</a>
       </li>
     {{ end }}
   </ul>
