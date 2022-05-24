@@ -4,16 +4,6 @@ on:
   push:
     branches:
       - master # Set a branch to deploy
-    paths:
-      - 'content/**'
-      - 'static/**'
-      - 'assets/**'
-      - 'data/**'
-      - 'layouts/**'
-      - 'resources/**'
-      - 'config.yaml'
-      - 'package.json'
-      - 'package-lock.json'
     paths-ignore:
       - 'bin/**'
       - 'archetypes/**'
