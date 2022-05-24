@@ -322,6 +322,12 @@ a.cv-anchor {
     bottom: 16px; 
     right: 16px;
     z-index: 99;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 }
 
 .to-top:active {
