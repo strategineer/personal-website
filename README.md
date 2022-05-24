@@ -16,10 +16,6 @@
 
 ## bin/
 - Create rap name generator (lil X)
-- implement dom 5 nap visualizer using mermaid
-- add dominions section to website
-  - add all of my resources
-  - add a turn checklist
 
 - Investigate Hugo built in menus and see if they're appropriate for me
 - Rework the header/footer completely so that human beings can understand it
