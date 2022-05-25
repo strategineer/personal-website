@@ -24,3 +24,4 @@
   - while I'm at it, set up this https://github.com/wjdp/htmltest and check for any other dead links
   - or maybe this one
 - put menu buttons right on top of title for ease of access on mobile 
+- create a custom 404 page
