@@ -17,3 +17,4 @@
 
 - Make the menu buttons act like a drawer on mobile, popping out of the bottom
 - Fix bullet points margins in blog posts
+- waifu 2x my avatar and see if fits better with the new site look
