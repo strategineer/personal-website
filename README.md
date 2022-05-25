@@ -21,3 +21,4 @@
 - fix typo: Name's Strat; Sometimes I work on tools and toys in my free time and here's where I put it.
 - make titles bigger
 - fix meditations link in my blog post about it
+  - while I'm at it, set up this https://github.com/wjdp/htmltest and check for any other dead links 
