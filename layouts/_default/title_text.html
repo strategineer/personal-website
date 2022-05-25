@@ -10,10 +10,3 @@
 {{ if in $reviews_tags "thumbs_down" }}
 👎
 {{ end }}
-{{ $cocktails_tags := (index .Params "cocktails/tags") }}
-{{ if in $cocktails_tags "light" }}
-⚖️
-{{ end }}
-{{ if in $cocktails_tags "strong" }}
-💪
-{{ end }}

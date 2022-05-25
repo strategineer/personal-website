@@ -24,6 +24,9 @@
       </h2>
       {{ if .Params.blurb }}
         {{ .Params.blurb |  markdownify }}
+          <div class="col float-right">
+            {{ partial "try_tags" . }}
+          </div>
       {{ else if not .Params.use_album_summary }}
         <div class="row post-meta">
           <div class="col-auto align-self-center">
