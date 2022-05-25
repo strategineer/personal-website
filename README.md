@@ -18,3 +18,4 @@
 - Make the menu buttons act like a drawer on mobile, popping out of the bottom
 - Fix bullet points margins in blog posts
 - waifu 2x my avatar and see if fits better with the new site look
+- fix typo: Name's Strat; Sometimes I work on tools and toys in my free time and here's where I put it.
