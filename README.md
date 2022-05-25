@@ -16,3 +16,4 @@
 - Create rap name generator (lil X)
 
 - Make the menu buttons act like a drawer on mobile, popping out of the bottom
+- Fix bullet points margins in blog posts
