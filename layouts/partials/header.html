@@ -1,7 +1,27 @@
+{{ if .Params.header.text }}
 <nav class="footer-index">
   <div class="d-flex justify-content-center">
     <div class="col-xl-9 col-12">
-      {{ partial "author_blurb" . }}
+      <div class="container author-blurb">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <a href="{{ with .Parent }} {{ .Permalink }} {{ end }}">
+              <img class="rounded avatar-static float-left" src="/img/fe_portrait.png" alt="Strat's Avatar"/>
+            </a>
+          </div>
+          <div class="col-md-6 col-auto align-self-center">
+            <div class="row">
+                <div class="col-auto text-center">
+                {{ .Params.header.text }}
+                {{ if .Params.header.follow_me }}
+                  {{ partial "contact_info" . }}
+                {{ end }}
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
+{{ end }}

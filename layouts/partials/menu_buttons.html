@@ -4,8 +4,8 @@
 {{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/"}}
 {{ $is_tools := hasPrefix .RelPermalink "/bin/"}}
 {{ $is_blog := or (hasPrefix .RelPermalink "/blog/") (eq .RelPermalink "/")}}
-<div class="row justify-content-center">
-  <div class="col-auto menu-buttons">
+<div class="menu-buttons row justify-content-center">
+  <div class="col-auto">
     <div class="btn-toolbar" role="toolbar" aria-label="Main Toolbar">
       <div class="btn-group btn-group-lg">
         <a href="/">
@@ -28,7 +28,29 @@
               <img src="/icons/egg.svg" width="32" height="32" label="Go to Strat's Recipes"/>
             </button>
         </a>
-        {{ partial "random_button" . }}
+      {{ $tags_suffix := "/tags" }}
+      {{ $pages := slice -}}
+      {{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
+      {{ if $is_tag_page }}
+        {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
+      {{ else }}
+        {{ $pages = where $.Site.RegularPages "Section" .Section }}
+      {{ end }}
+      {{ $has_random_button := and ($pages) (not .Params.explorer) }}
+      {{ if $has_random_button }}
+        {{ $urls := slice }}
+        {{ range $pages }}
+        {{ $is_ramble := in (index .Params "blog/tags") "ramble" }}
+        {{ if not $is_ramble }}
+        {{ $urls = $urls | append .Permalink }}
+        {{ end }}
+        {{ end }}
+        <a onclick="goToRandomUrl({{ $urls }})">
+          <button type="button" class="btn btn-lg btn-light">
+          <img src="/icons/shuffle.svg" width="32" height="32" label="Go to a random page"/>
+          </button>
+        </a>
+      {{- end -}}
       </div>
     </div>
   </div>

@@ -39,7 +39,7 @@ $link_highlight: nth($colors, 1);
 }
 
 @media print {
-    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot, .cv-download-link{
+    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot, .cv-download-link, .menu-buttons {
         display: none !important;
     }
 
@@ -459,7 +459,6 @@ li {
         font-size: 1.4rem;
     }
     // set the maximum with to allow for better readability.
-    .jumbotron,
     .readable {
         width: 720px;
     }
@@ -484,9 +483,6 @@ li {
 
 @include media-breakpoint-up(xl) { 
     .album {
-        width: 1140px;
-    }
-    .cv-readable {
         width: 1140px;
     }
 }

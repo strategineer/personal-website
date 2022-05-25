@@ -1,6 +1,7 @@
 ---
 title: Strat's Tools and Toys
-has_header: true
 is_readable: true
 use_album_summary: true
+header:
+    text: "Name's Strat; Sometimes I work on tools and toys in my free time and here's where I put it."
 ---

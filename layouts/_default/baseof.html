@@ -29,13 +29,11 @@
     {{ if .Section }} {{ .Section }}/ {{ end }} {{ .Site.Title }}
     {{ end }}
     </title>
-    {{ block "header" . }}
-    {{ end }}
   </head>
   <body id="documentTop">
     <div class="container-fluid">
       {{ $is_readable := default .Params.is_readable true}}
-      <div class="row no-margin justify-content-end">
+      <div class="row no-margin justify-content-center">
         <div class="col-xl-12 main no-margin ">
           {{ partial "menu_buttons" . }}
           {{ partial "header" . }}

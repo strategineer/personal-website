@@ -1,6 +1,5 @@
 ---
 title: Strat's Projects
-has_header: true
 is_readable: true
 cascade:
   post_name: "project"

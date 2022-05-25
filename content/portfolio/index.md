@@ -1,6 +1,5 @@
 ---
 title: Some nice pictures I took
-has_header: true
 ---
 ![](img/0001.jpg)
 ![](img/0002.jpg)
