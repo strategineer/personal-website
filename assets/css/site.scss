@@ -407,6 +407,13 @@ li {
     margin: 0;
 }
 
+.btn-light:hover,
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: transparent;
+  border-color: #000;
+}
+
 @include media-breakpoint-down(xs) { 
 }
 @include media-breakpoint-down(sm) { 
