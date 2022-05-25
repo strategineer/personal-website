@@ -11,11 +11,6 @@
 
 ## Post-Hugo
 - Make paginator skip rambles
-- fix random button appearing in odd places, in general try to add the buttons somewhere useful
 
 ## bin/
 - Create rap name generator (lil X)
-
-- Investigate Hugo built in menus and see if they're appropriate for me
-- Rework the header/footer completely so that human beings can understand it
-  - have two completely different setups for big screens vs. small screens (check out other blogs for reference)
