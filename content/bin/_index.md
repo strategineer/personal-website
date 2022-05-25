@@ -5,4 +5,5 @@ header:
     text: "Name's Strat; Sometimes I work on tools and toys in my free time and here's where I put it."
 cascade:
     use_album_summary: true
+    post_name: "tools and toy"
 ---
