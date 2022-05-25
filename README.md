@@ -3,7 +3,6 @@
 # TODO
 
 ## General
-- Make a page that aggregates stats on word count, number of articles per year, tag use, word use
 - create a meme page template for pictures (given a folder, go through each of them)
 - make interactive CV
 - share button:

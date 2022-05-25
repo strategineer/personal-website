@@ -4,7 +4,6 @@
 
 {{ define "main" }}
   <div>
-    {{ partial "menu_buttons" . }}
     {{ .Content }}
     {{ range .Pages }}
       {{ .Render "summary" }}

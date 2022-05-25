@@ -307,34 +307,6 @@ a.cv-anchor {
 }
 
 
-.to-top {
-    color: white !important;
-    background: $color_base;
-    opacity: 0.5;
-    width: 2.75rem;
-    height: 2.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 16px; 
-    right: 16px;
-    z-index: 99;
-    
-    user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-}
-
-.to-top:active {
-    color: white !important;
-    background: $color_base;
-}
-
 // Make audio files not have bottom margin
 figure {
     margin: 0 0 0 0;
@@ -374,6 +346,9 @@ figure {
     margin: .25em;
 }
 
+.btn-toolbar{
+  text-align: center;
+}
 
 // Captions for images, videos, audio files and youtube embeds
 dd > em,
@@ -395,6 +370,11 @@ li {
 
 .explorer-info-link {
     background: white !important;
+}
+
+.menu-buttons {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .explorer-footer-button {
@@ -457,6 +437,9 @@ li {
     }
 }
 @include media-breakpoint-up(sm) { 
+    .mobile-only {
+        display: none;
+    }
 }
 @include media-breakpoint-up(md) { 
     // Center the navbar menu options when they are not collapsed.
@@ -490,9 +473,6 @@ li {
 }
 
 @include media-breakpoint-up(lg) { 
-    .to-top {
-        display: none;
-    }
 }
 
 @include media-breakpoint-up(xl) { 

@@ -33,17 +33,12 @@
     {{ end }}
   </head>
   <body id="documentTop">
-    {{ block "title" . }}
-    {{ end }}
     <!-- Code that all your templates share, like a header -->
     {{ block "footer" . }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{ end }}
-    {{ if and .File (eq .File.ContentBaseName "cv") }}
     <div class="container-fluid">
-    {{ else }}
-    <div class="container">
-    {{ end }}
+    {{ partial "menu_buttons" . }}
     {{/* TODO(strategineer): I messed this condition up I'm sure, check it again */}}
       {{ $should_have_header := .Params.has_header }}
       {{ $is_readable := default .Params.is_readable true}}
@@ -66,6 +61,8 @@
           {{ if $should_have_header }}
             {{ partial "header" . }}
           {{ end }}
+          {{ block "title" . }}
+          {{ end }}
           {{ if $is_readable }}
             <div class="readable">
           {{ end }}
@@ -75,6 +72,9 @@
             </div>
           {{ end }}
         </div>
+        <div class="mobile-only">
+        {{ partial "menu_buttons" . }}
+        </div>
         {{ if $should_have_footer }}
           <div class="col-xl-4 readable-footer">
             {{ partial "footer" . }}
@@ -82,9 +82,7 @@
         {{ end }}
       </div>
     </div>
-    {{ if not .Params.explorer }}
-      {{ partial "to_top" . }}
-    {{ else }}
+    {{ if .Params.explorer }}
       {{ $explorer_js := resources.Get "js/explorer.js" | resources.ExecuteAsTemplate "js/explorer.js" . | resources.Minify }}
        <script defer type="text/javascript" src="{{ $explorer_js.Permalink }}"> </script>
       {{ $explorer_implementation_path := ".js" | printf "%s%s" .Params.explorer | printf "%s%s" "js/" }}

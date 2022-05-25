@@ -1,29 +1,35 @@
-{{ $tags_suffix := "/tags" }}
-{{ $pages := slice -}}
-{{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
-{{ if $is_tag_page }}
-  {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
-{{ else }}
-  {{ $pages = where $.Site.RegularPages "Section" .Section }}
-{{ end }}
-{{ $has_random_button := and ($pages) (not .Params.explorer) }}
-{{ if $has_random_button }}
-  {{ $urls := slice }}
-  {{ range $pages }}
-  {{ $is_ramble := in (index .Params "blog/tags") "ramble" }}
-  {{ if not $is_ramble }}
-  {{ $urls = $urls | append .Permalink }}
-  {{ end }}
-  {{ end }}
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a onclick="goToRandomUrl({{ $urls }})">
-        <button type="button" class="btn btn-light menu-button">
-          Surprise me!
-        </button>
+{{ $active_class := "btn-outline-dark" }}
+{{ $inactive_class := "btn-light" }}
+{{ $is_food := hasPrefix .RelPermalink "/food/"}}
+{{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/"}}
+{{ $is_tools := hasPrefix .RelPermalink "/bin/"}}
+{{ $is_blog := or (hasPrefix .RelPermalink "/blog/") (eq .RelPermalink "/")}}
+<div class="row justify-content-center">
+  <div class="col-auto menu-buttons">
+    <div class="btn-toolbar" role="toolbar" aria-label="Main Toolbar">
+      <div class="btn-group btn-group-lg">
+        <a href="/">
+            <button type="button" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
+              <img src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
+            </button>
         </a>
+        <a href="/bin/">
+          <button type="button" class="btn btn-lg {{ cond $is_tools $active_class $inactive_class }}">
+            <img src="/icons/tools.svg" width="32" height="32" label="Go to Strat's Tools and Toys"/>
+          </button>
+        </a>
+        <a href="/cocktails/">
+          <button type="button" class="btn btn-lg {{ cond $is_cocktails $active_class $inactive_class }}">
+            <img src="/icons/cup-straw.svg" width="32" height="32" label="Go to Strat's Cocktails"/>
+          </button>
+        </a>
+        <a href="/food/">
+            <button type="button" class="btn btn-lg {{ cond $is_food $active_class $inactive_class }}">
+              <img src="/icons/egg.svg" width="32" height="32" label="Go to Strat's Recipes"/>
+            </button>
+        </a>
+        {{ partial "random_button" . }}
       </div>
     </div>
   </div>
-{{- end -}}
+</div>
