@@ -38,7 +38,6 @@
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{ end }}
     <div class="container-fluid">
-    {{ partial "menu_buttons" . }}
     {{/* TODO(strategineer): I messed this condition up I'm sure, check it again */}}
       {{ $should_have_header := .Params.has_header }}
       {{ $is_readable := default .Params.is_readable true}}
@@ -53,14 +52,9 @@
       {{ $should_have_footer = and $should_have_footer (not .Params.explorer) }}
       {{ $should_have_header = and $should_have_header (not .Params.explorer) }}
       <div class="row no-margin justify-content-end">
-      {{ if $should_have_footer }}
-        <div class="col-xl-8 main no-margin ">
-      {{ else }}
         <div class="col-xl-12 main no-margin ">
-      {{ end }}
-          {{ if $should_have_header }}
-            {{ partial "header" . }}
-          {{ end }}
+          {{ partial "menu_buttons" . }}
+          {{ partial "header" . }}
           {{ block "title" . }}
           {{ end }}
           {{ if $is_readable }}
@@ -71,15 +65,13 @@
           {{ if $is_readable }}
             </div>
           {{ end }}
-        </div>
-        <div class="mobile-only">
-        {{ partial "menu_buttons" . }}
-        </div>
-        {{ if $should_have_footer }}
-          <div class="col-xl-4 readable-footer">
+        <div class="row justify-content-center">
+          {{ partial "menu_buttons" . }}
+          <div class="col-xl-6 readable-footer">
             {{ partial "footer" . }}
           </div>
-        {{ end }}
+        </div>
+        </div>
       </div>
     </div>
     {{ if .Params.explorer }}

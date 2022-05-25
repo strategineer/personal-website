@@ -403,6 +403,10 @@ li {
   margin-right: 0;
 }
 
+.readable-footer {
+    margin: 0;
+}
+
 @include media-breakpoint-down(xs) { 
 }
 @include media-breakpoint-down(sm) { 
@@ -415,10 +419,6 @@ li {
     }
 }
 @include media-breakpoint-down(lg) { 
-    .readable-footer {
-        margin: auto;
-        width: 500px;
-    }
 }
 @include media-breakpoint-down(xl) { 
 }
@@ -437,9 +437,6 @@ li {
     }
 }
 @include media-breakpoint-up(sm) { 
-    .mobile-only {
-        display: none;
-    }
 }
 @include media-breakpoint-up(md) { 
     // Center the navbar menu options when they are not collapsed.
@@ -473,6 +470,9 @@ li {
 }
 
 @include media-breakpoint-up(lg) { 
+    .mobile-only {
+        display: none;
+    }
 }
 
 @include media-breakpoint-up(xl) { 
@@ -481,8 +481,5 @@ li {
     }
     .cv-readable {
         width: 1140px;
-    }
-    .blog-content {
-        margin-bottom: 20em;
     }
 }

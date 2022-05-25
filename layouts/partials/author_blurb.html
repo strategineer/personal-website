@@ -1,7 +1,7 @@
 <div class="container author-blurb">
   <div class="row justify-content-center">
     <div class="col-auto">
-      <a href="{{ .Parent.Permalink }}">
+      <a href="{{ with .Parent }} {{ .Permalink }} {{ end }}">
         <img class="rounded avatar-static" src="/img/fe_portrait.png" alt="Strat's Avatar"/>
       </a>
     </div>
