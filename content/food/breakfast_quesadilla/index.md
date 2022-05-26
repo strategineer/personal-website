@@ -3,15 +3,14 @@ title: "Breakfast Quesadilla"
 date: 2022-05-14
 weight: 1
 food/tags:
-  - "low-effort-meal"
-draft: true
+  - low-effort-meal
 blurb: ...
 servings: 1
 ingredients:
   - 1x Big Tortilla (about 11in / 28cm or bigger)
   - Some good quesadilla cheese (you'll know it when you see it but I recommend marble cheddar)
   - Fresh salsa (chopped onion, chopped tomato, chopped jalapenos, salt, mix it all up then add some olive oil then mix it all up again)
-  - Scrambled eggs (put worcestershire sauce in the egg before you scramble them).
+  - Scrambled eggs (put worcestershire sauce in the egg before you scramble them)
   - [Optional] [Guacamole](/food/guacamole)
 steps:
   - Put the tortilla on a plate and then a reasonable amount of cheese in the middle of it.
