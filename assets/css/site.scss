@@ -70,6 +70,10 @@ body {
     line-height: 1.8;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 h1,
 h2,
 h3,
@@ -365,7 +369,7 @@ div > em,
 }
 
 li {
-    margin-left: 2.5rem;
+    margin-left: 1.25rem;
 }
 
 .explorer-info-link {
@@ -414,9 +418,23 @@ li {
   border-color: #000;
 }
 
+.offcanvas-sm {
+    --#{$prefix}offcanvas-width: #{$offcanvas-horizontal-width};
+    --#{$prefix}offcanvas-height: auto;
+    --#{$prefix}offcanvas-padding-x: 0;
+    --#{$prefix}offcanvas-padding-y: 0;
+    --#{$prefix}offcanvas-bg: #{$offcanvas-bg-color};
+    --#{$prefix}offcanvas-border-width: 0;
+}
+
+  
+
 @include media-breakpoint-down(xs) { 
 }
 @include media-breakpoint-down(sm) { 
+    .desktop-only {
+        display: none;
+    }
 }
 // On md size and down, the third column (tags) is not shown therefore hide the next columns border.
 @include media-breakpoint-down(md) { 
