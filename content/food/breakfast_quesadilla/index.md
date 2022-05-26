@@ -7,11 +7,11 @@ food/tags:
 blurb: ...
 servings: 1
 ingredients:
-  - 1x Big Tortilla (about 11in / 28cm or bigger)
-  - Some good quesadilla cheese (you'll know it when you see it but I recommend marble cheddar)
-  - Fresh salsa (chopped onion, chopped tomato, chopped jalapenos, salt, mix it all up then add some olive oil then mix it all up again)
-  - Scrambled eggs (put worcestershire sauce in the egg before you scramble them)
-  - [Optional] [Guacamole](/food/guacamole)
+  - "1x Big Tortilla (about 11in / 28cm or bigger)"
+  - "Some good quesadilla cheese (you'll know it when you see it but I recommend marble cheddar)"
+  - "Fresh salsa (chopped onion, chopped tomato, chopped jalapenos, salt, mix it all up then add some olive oil then mix it all up again)"
+  - "Scrambled eggs (put worcestershire sauce in the egg before you scramble them)"
+  - "[Optional] [Guacamole](/food/guacamole)"
 steps:
   - Put the tortilla on a plate and then a reasonable amount of cheese in the middle of it.
   - Throw the plate in the microwave for a min or two until it's reasonably melted.
