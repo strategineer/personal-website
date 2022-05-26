@@ -15,3 +15,5 @@
 ## bin/
 - Create rap name generator (lil X)
 - create a custom 404 page
+
+- Fail the build if an image isn't found

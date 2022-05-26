@@ -72,6 +72,7 @@ body {
 
 h1 {
     font-size: 2.5rem;
+    margin: 0;
 }
 
 h1,
@@ -234,7 +235,7 @@ a:focus, a:hover, a:visited, a:link, a:active
 
 // Remove this unneeded margin that messes up the page links
 ul.list-inline {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .d-flex-inline-list {
@@ -308,6 +309,7 @@ a.cv-anchor {
 // Blog
 .blog-call-to-action {
     margin-top: 2.5em;
+    margin-bottom: 2.5em;
 }
 
 
@@ -411,19 +413,24 @@ li {
     margin: 0;
 }
 
+.btn-light,
+.btn-outline-dark{
+  background-color: white;
+}
+
 .btn-light:hover,
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: transparent;
+  background-color: white;
   border-color: #000;
 }
 
-.offcanvas-sm {
+.offcanvas {
     --#{$prefix}offcanvas-width: #{$offcanvas-horizontal-width};
     --#{$prefix}offcanvas-height: auto;
     --#{$prefix}offcanvas-padding-x: 0;
     --#{$prefix}offcanvas-padding-y: 0;
-    --#{$prefix}offcanvas-bg: #{$offcanvas-bg-color};
+    --#{$prefix}offcanvas-bg: transparent;
     --#{$prefix}offcanvas-border-width: 0;
 }
 
