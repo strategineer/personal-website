@@ -14,9 +14,12 @@
 
 ## bin/
 - Create rap name generator (lil X)
-- create a custom 404 page
 
 - Fail the build if an image isn't found
 - give the random button a bit of a left margin
+<<<<<<< Updated upstream
 - change the button ordering so that the blog is on the right then tools then cocktails then food 
 - implement a single button menu on mobile that expands vertically into a few more buttons
+=======
+- change the button ordering so that the blog is on the right then tools then cocktails then food
+>>>>>>> Stashed changes

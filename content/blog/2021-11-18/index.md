@@ -29,7 +29,7 @@ I ran the following Linux command to generate a QR code that links to my [cockta
 qrencode -o qr.png https://strategineer.com/cocktails/
 ~~~
 
-![QR Code for my cocktail menu](/img/qr.png)
+[QR Code for my cocktail menu](/static/img/qr.png)
 _This'll come in handy next time I have guests over._
 
 And on the 7th day, he rested.

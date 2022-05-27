@@ -4,6 +4,5 @@
   <img class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}">
   {{ end }}
 {{ else }}
-{{/* Fallback */}}
-<img class="img-fluid rounded mx-auto d-block" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+  {{ errorf "No image found at path %q for page %q" .Destination .Page.Path }}
 {{ end }}

@@ -11,7 +11,7 @@ Well, here you go.
 
 This is some text before the image.
 
-![an awful picture dark and stormy cocktail](/cocktails/dark_and_stormy/thumbnail.png)
+![an awful picture dark and stormy cocktail](depression.jpg)
 *testing the caption*
 
 This is some text after the image.

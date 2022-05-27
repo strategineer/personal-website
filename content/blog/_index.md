@@ -11,4 +11,6 @@ cascade:
   post_name: "blog post"
   resources:
     thumbnail: "thumbnail.*"
+    images_jpg: "*.jpg"
+    images_png: "*.png"
 ---

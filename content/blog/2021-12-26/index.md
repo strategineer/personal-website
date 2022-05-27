@@ -12,7 +12,7 @@ Here's a list of games that I enjoyed this year in no particular order.
 
 ### Supernatural (Oculus Quest 2)
 
-![](./supernatural.jpg)
+![](supernatural.jpg)
 
 I've worked in the VR space, I've had 3 different headsets and I've played a lot of VR games. Maybe that adds to my credibility when I say that Supernatural is the best VR workout experience I've had.
 
@@ -35,7 +35,7 @@ The game is tricking me into thinking that there's someone out there, other than
 It feels a little weird but it works and I'm fitter than I've ever been. I can't complain.
 
 ### It Takes Two (Xbox Series X)
-![](./it_takes_two.jpg)
+![](it_takes_two.jpg)
 
 It Takes Two surprised me by being:
 
@@ -51,7 +51,7 @@ And, I'm very happy to have experienced it with someone I care about.
 
 ### Heavenly Bodies (PC)
 
-![](./heavenly_bodies.jpg)
+![](heavenly_bodies.jpg)
 
 Heavenly Bodies is, also, a cooperative multiplayer game.
 
@@ -78,7 +78,7 @@ Immersing yourself in the atmosphere, or lack of it.
 
 ### Resident Evil 4 VR (Oculus Quest 2)
 
-![](./resident_evil_4_vr.jpg)
+![](resident_evil_4_vr.jpg)
 
 Resident Evil 4 was released on the GameCube on January 11th, 2005.
 
@@ -100,7 +100,7 @@ If that's the case, you might want to stay away from Resident Evil 4 VR until th
 
 ### GarticPhone (PC)
 
-![](./garticphone.png)
+![](garticphone.png)
 
 What is GarticPhone?
 
@@ -114,7 +114,7 @@ When everything is done, you all look at each of the albums together and laugh h
 
 ### DUSK (PC)
 
-![](./dusk.jpg)
+![](dusk.jpg)
 
 Dusk was an effective gateway drug leading me into the world of modern boomer shooters. I have a lot of nostalgia for playing Doom when I was a kid, that might be why I enjoyed playing Dusk so much this year.
 
@@ -133,7 +133,7 @@ I can't wait to see what tomorrow will bring.
 
 ### Guilty Gear Strive (PC)
 
-![](./guilty_gear_strive.jpg)
+![](guilty_gear_strive.jpg)
 
 Guilty Gear Strive is a good fighting game, and the only one I've gotten "seriously" into in my entire life. After 115 hours playing it, I feel comfortable saying that. I've stopped playing it now because:
 
@@ -143,7 +143,7 @@ Guilty Gear Strive is a good fighting game, and the only one I've gotten "seriou
 I like the idea of playing fighting games more than I do actually playing them. If you're in good health then Guilty Gear Strive is a game that you might actually enjoy playing, whether or not you're an experienced fighting game player.
 
 ### Hunt Showdown (PC)
-![](./hunt_showdown.jpg)
+![](hunt_showdown.jpg)
 
 I feel a mix of shame and pride about spending 200 hours playing Hunt Showdown this year. [Hunt is the gift that keeps on giving and I've written about it a few times](/blog/2020-09-04/). Described like a drug by many, it contains more [Skinner boxes](https://en.wikipedia.org/wiki/Operant_conditioning_chamber) than I've ever seen in a video game.
 
@@ -156,7 +156,7 @@ I'm done with Hunt Showdown for now but I'm glad to have stuck with a game for t
 
 ### Siralim Ultimate (PC)
 
-![](./siralim_ultimate.jpg)
+![](siralim_ultimate.jpg)
 
 Siralim Ultimate is what you get when you combine the creature gathering of Pokemon with the RPG battle system of Final Fantasy.
 
@@ -170,7 +170,7 @@ Ignoring that, the [game's amazing as I've previously discussed](/blog/2021-11-2
 
 ### Psychonauts 2 (PC)
 
-![](./psychonauts_2.jpg)
+![](psychonauts_2.jpg)
 
 I won't be able to finish Psychonauts 2 before the end of the year, and that's the only reason why it's here and not in the main list.
 

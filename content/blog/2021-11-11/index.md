@@ -4,7 +4,7 @@ date: 2021-11-11
 blog/tags:
     - ramble
 ---
-![chicken pot pie](/img/chicken_pot_pie.jpg)
+![chicken pot pie](chicken_pot_pie.jpg)
 
 > Alcohol, being crushed, dull every freedom
 >

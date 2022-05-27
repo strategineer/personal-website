@@ -13,7 +13,7 @@ Over the holidays, I played through the physics-based "astronaut doing astronaut
 
 [My first speedrun of the game took me more than hour to complete](https://youtu.be/0-qp2HjhADw) and, eventually, I brought my time down to [54 minutes and 33 seconds with my most recent run](https://youtu.be/NK4sCz-UkYA).
 
-![](./speedrun_world_record_thumbnail.jpg)
+![](speedrun_world_record_thumbnail.jpg)
 
 
 I'm now the world record holder for Heavenly Bodies (although I don't think that's going to last very long).

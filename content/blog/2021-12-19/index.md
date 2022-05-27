@@ -14,7 +14,7 @@ This summer, I decided to set aside a bit of time every day to read and here we 
 
 #### Understanding Power by Noam Chomsky
 
-![](./understanding_power_by_noam_chomsky.jpg)
+![](understanding_power_by_noam_chomsky.jpg)
 
 Understanding Power is the book that convinced me that I needed to start reading again. It's just a bunch of transcripts taken from Noam Chomsky Q/A sessions, but man, I'm glad that I was convinced to sit down and read through it.
 
@@ -33,7 +33,7 @@ If you decide to read one book I mention here, it should probably be this one, b
 
 #### Infrastructure: A Field Guide to the Industrial Landscape by Brian Hayes
 
-![](./infrastructure_by_brian_hayes.jpg)
+![](infrastructure_by_brian_hayes.jpg)
 
 Infrastructure: A Field Guide to the Industrial Landscape is exactly what you think it is and it's amazing. It's a book that covers anything that you could consider to be "Infrastructure" (water treatment, electricity, farming, cargo ships, airplanes, mining, etc.) and gives you a broad yet deep understanding of how it all works through clear writing and beautiful photos taken by the author himself.
 
@@ -42,7 +42,7 @@ After reading Infrastructure, I now have a better understanding of all the infra
 
 #### On Writing: A Memoir of the Craft by Stephen King
 
-![](./on_writing_by_stephen_king.jpg)
+![](on_writing_by_stephen_king.jpg)
 
 On Writing by Stephen King is half part autobiography and half part a guide to writing. You probably know Stephen King's work and you've probably seen one of the thousands of movie adaptations of his books like It, Carrie or Shawshank Redemption). He is extremely prolific and he's one of my favorite writers so when I heard that he wrote this book on writing, I picked it up right away.
 
@@ -61,11 +61,11 @@ There's something very personal about writing and reading that makes it worth do
 
 #### The Greek Myths: The Complete and Definitive Edition by Robert Graves
 
-![](./the_greek_myths_by_robert_graves.jpg)
+![](the_greek_myths_by_robert_graves.jpg)
 
 I've always been fascinated by Greek mythology but my understanding of it came from the sanitized stories I read in D'Aulaires Book Of Greek Myths and secondhand from the many modern interpretations of the myths I had seen throughout my life.
 
-![](./d_aulaires_book_of_greek_myths.jpg)
+![](d_aulaires_book_of_greek_myths.jpg)
 
 Prior to reading this book, I had never really taken the time to dive deep into Greek mythology.
 
@@ -77,7 +77,7 @@ If you want to learn about every single Greek myth that exists, then you should 
 
 #### Norse Mythology by Neil Gaiman
 
-![](./norse_mythology_by_neil_gaiman.jpg)
+![](norse_mythology_by_neil_gaiman.jpg)
 
 Unlike Greek mythology, we don't have many written records describing Norse mythology as it existed. So, there's not really much we know about Norse mythology.
 
@@ -87,7 +87,7 @@ It's OK. I like a lot of Neil Gaiman's work (especially American Gods), his pass
 
 #### The Joy of Mixology, Revised and Updated Edition: The Consummate Guide to the Bartender's Craft by Gary Regan
 
-![](./the_joy_of_mixology_by_gary_regan.jpg)
+![](the_joy_of_mixology_by_gary_regan.jpg)
 
 
 [Cocktails, Cocktails, Cocktails, Cocktails, Cocktails... Cocktails, Everybody!](https://strategineer.com/cocktails/)
@@ -100,7 +100,7 @@ Robert posits that Ganymedes was a character created by the Greeks/Romans much l
 
 #### The Odyssey by Homer (translated by Emily Wilson)
 
-![](./the_odyssey_translated_by_emily_wilson.jpg)
+![](the_odyssey_translated_by_emily_wilson.jpg)
 
 I've never read the Odyssey, and so I chose to read a recent translation of it by Emily Wilson.
 
@@ -128,7 +128,7 @@ I neglected to mention the mangas and comic books that I read this year so let's
 
 #### The Drifting Classroom by Kazuo Umezz
 
-![](./the_drifting_classroom_by_kazuo_umezz.jpg)
+![](the_drifting_classroom_by_kazuo_umezz.jpg)
 
 Everyone knows about Junji Ito but not many people know about the work of Kazuo Umezz and that's a shame.
 
@@ -136,12 +136,12 @@ This manga falls into one of my preferred manga sub-genres "kids suffering great
 
 #### Remina by Junji Ito
 
-![](./remina_by_junji_ito.jpg)
+![](remina_by_junji_ito.jpg)
 
 Junji Ito is cool. Uzumaki is great. A lot of his other work is just OK. I think Remina is also just OK.
 
 #### Sandcastles by Frederik Peeters and Pierre Oscar Levy
 
-![](./sandcastles_by_frederik_peeters_and_pierre_oscar_levy.jpg)
+![](sandcastles_by_frederik_peeters_and_pierre_oscar_levy.jpg)
 
 I didn't like Sandcastles. I'm not exactly qualified to critique graphic novels. I'm either too stupid to understand what it's trying to say or it's not trying to say anything at all. Either way, it didn't make me feel anything... Maybe I'm dead inside?
