@@ -19,3 +19,4 @@
 - Fail the build if an image isn't found
 - give the random button a bit of a left margin
 - change the button ordering so that the blog is on the right then tools then cocktails then food 
+- implement a single button menu on mobile that expands vertically into a few more buttons
