@@ -18,3 +18,8 @@
 - give the random button a bit of a left margin
 - change the button ordering so that the blog is on the right then tools then cocktails then food
 - implement a single button menu on mobile that expands vertically into a few more buttons
+
+
+# Ideas
+- X things I like about Blades in the Dark
+- Knotwords vs. Dominions 5 (comparing what each game experience is like and how different they are, how they're similar)
