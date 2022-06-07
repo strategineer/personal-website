@@ -153,6 +153,11 @@ hr + ol {
     list-style-type: none;
 }
 
+
+.img-paranoia {
+  margin: 2px;
+}
+
 .footer-shortlist-item{
     white-space:nowrap;
     overflow:hidden;
@@ -485,7 +490,7 @@ li {
     }
     // set the maximum with to allow for better readability.
     .readable {
-        width: 720px;
+        width: 860px;
     }
     // Fit columns to the data.
     .table {
