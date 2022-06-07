@@ -87,12 +87,11 @@ function shuffle(array) {
 }
 
 let choiceIds = [...choices.keys()];
-shuffle(choiceIds);
 
 ExplorerImp = {
   map: choices,
   keys: choiceIds,
-  count: 10,
+  count: 6,
   onDefaultActionActivated: function () {
     setNextDiscovery();
   },
