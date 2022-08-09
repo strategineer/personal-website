@@ -13,7 +13,7 @@
     {{ partial "try_video" . }}
     {{ partial "try_audio" . }}
     <div class="row justify-content-center readable">
-      {{ if in .Params.tags "fiction" }}
+      {{ if in (index .Params "blog/tags") "fiction" }}
       <blockquote>
         <div class="col-12 text-center">
           This is a work of fiction. Names, characters, events and incidents are the products of the author’s imagination. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.
