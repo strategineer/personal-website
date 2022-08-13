@@ -3,6 +3,18 @@
 <article class="post-summary">
   {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
   {{ $summary_classes := cond $is_less_important "less-important" "" }}
+  {{ if .Params.use_blog_summary }}
+    {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
+    {{ if $thumbnail }}
+      <div class="row">
+        <a href='{{ .Permalink }}'>
+          {{ with $thumbnail.Resize "x400 webp" }}
+          <img class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}">
+          {{ end }}
+        </a>
+      </div>
+    {{ end }}
+  {{ end }}
   <div class="row summary-row {{ $summary_classes }}">
   {{ if .Params.use_album_summary }}
     {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
