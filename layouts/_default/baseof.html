@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- for discord embed -->
-    <meta content="{{ .Site.Title }}" property="og:title" />
-    <meta content="Name's Strat; I'm a rooster illusion and I write about whatever I feel like writing about." property="og:description" />
+    <meta content="{{ .Site.Title}} - {{ .Page.Title }}" property="og:title" />
+    <meta content="{{ .Page.Summary }}" property="og:description" />
     <meta content="{{ .Page.Permalink }}" property="og:url" />
     {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
     {{ if $thumbnail }}
