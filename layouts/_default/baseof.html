@@ -13,10 +13,10 @@
     {{ if $thumbnail }}
       {{ with $thumbnail.Resize "x400 webp" }}
       <meta content="{{ .RelPermalink }}" property="og:image" />
+      <meta name="twitter:card" content="summary_large_image">
       {{ end }}
     {{ end }}
     <!-- make image large -->
-    <meta name="twitter:card" content="summary_large_image">
     <meta content="#43B581" data-react-helmet="true" name="theme-color" />
 
     <link  rel="stylesheet" href="/css/bootstrap.min.css">
