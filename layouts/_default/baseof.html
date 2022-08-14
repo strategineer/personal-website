@@ -7,7 +7,7 @@
 
     <!-- for discord embed -->
     <meta content="{{ .Site.Title}} - {{ .Page.Title }}" property="og:title" />
-    <meta content="{{ .Page.Summary }}[...]" property="og:description" />
+    <meta content="{{ .Page.Summary }}..." property="og:description" />
     <meta content="{{ .Page.Permalink }}" property="og:url" />
     {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
     {{ if $thumbnail }}
