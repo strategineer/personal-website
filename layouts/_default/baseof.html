@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <title>
     {{ block "page_title" . }}
-    {{ if .Section }} {{ .Section }}/ {{ end }} {{ .Site.Title }}
+    {{ if .Section }} {{- .Section -}}/{{- end -}}{{- .Site.Title -}}
     {{ end }}
     </title>
   </head>
