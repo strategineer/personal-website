@@ -3,7 +3,7 @@ author:
 
 baseURL: 'https://strategineer.com/'
 languageCode: 'en-us'
-title: 'Strategineer'
+title: "Strat"
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
