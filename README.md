@@ -24,3 +24,7 @@
 # Ideas
 - X things I like about Blades in the Dark
 - Knotwords vs. Dominions 5 (comparing what each game experience is like and how different they are, how they're similar)
+
+# Images
+- Improve layout of blog thumbnails
+- Add blog thumbnails to the blog page
