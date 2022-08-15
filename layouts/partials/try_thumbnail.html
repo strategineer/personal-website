@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-center readable">
+  <div class="col-12">
+{{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
+{{ if $thumbnail }}
+  <div class="row">
+      {{ with $thumbnail.Resize "x400 webp" }}
+      <a href='{{ .RelPermalink }}'>
+      <img class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}">
+      </a>
+      {{ end }}
+  </div>
+{{ end }}
+</div>
