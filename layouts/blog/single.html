@@ -1,16 +1,16 @@
 {{ define "main" }}
   <div class="blog-content">
-    <div class="col-auto align-self-center">
-    {{ partial "try_thumbnail" . }}
-    </div>
     {{ partial "title" . }}
     <div class="row justify-content-center">
-    <div class="col-auto align-self-center">
-    {{ partial "reading_time" . }}
-    </div>
-    <div class="col-auto align-self-center">
-    {{ partial "try_tags" . }}
-    </div>
+      <div class="col-auto align-self-center text-center">
+      {{ partial "reading_time" . }}
+      </div>
+      <div class="col-auto align-self-center">
+      {{ partial "try_tags" . }}
+      </div>
+      <div class="col-auto align-self-center">
+      {{ partial "try_thumbnail" . }}
+      </div>
     </div>
     {{ partial "try_links" . }}
     {{ partial "try_video" . }}
