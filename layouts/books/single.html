@@ -1,6 +1,9 @@
 {{ define "main" }}
   <div class="books-content">
     {{ partial "title" . }}
+    <div class="col-auto text-center">
+    {{ partial "try_author" . }}
+    </div>
     <div class="row justify-content-center">
       <div class="col-auto align-self-center">
       {{ partial "try_tags" . }}
