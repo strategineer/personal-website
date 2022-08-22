@@ -1,9 +1,10 @@
 ---
-title: "The Joy of Mixology, Revised and Updated Edition: The Consummate Guide to the Bartender’s Craft"
+title: "The Joy of Mixology"
 author: "Gary Regan"
 date: 2021-11-15
 books/tags:
     - "non-fiction"
+summary: "Everything you need to know about mixing cocktails."
 ---
 [Cocktails, Cocktails, Cocktails, Cocktails, Cocktails... Cocktails, Everybody!](https://strategineer.com/cocktails/)
 

@@ -5,5 +5,5 @@ date: 2022-04-15
 books/tags:
     - "non-fiction"
     - "philosophy"
-summary: "The Pig That Wants to Be Eaten offers one hundred philosophical thought-experiments. To get the most out of it, you might want to pull it out and discuss a thought-experimet with some friends because the book doesn't do much more than present the thought-experiments one after the other without thinking about it too much."
+summary: "The Pig That Wants to Be Eaten offers one hundred philosophical thought-experiments. To get the most out of it, you might want to pull it out and discuss a thought-experiment with some friends because the book doesn't do much more than present the thought-experiments one after the other."
 ---

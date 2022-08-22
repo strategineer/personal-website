@@ -4,6 +4,7 @@ author: "Stephen King"
 date: 2021-11-01
 books/tags:
     - "non-fiction"
+summary: "Stephen King tells you about his life and his advice on how you can become better at writing. This amounts to him basically saying \"Just write a lot bro\" but despite this, this was quite a fun read. And... He's not wrong."
 ---
 On Writing by Stephen King is half part autobiography and half part a guide to writing. You probably know Stephen King's work and you've probably seen one of the thousands of movie adaptations of his books like It, Carrie or Shawshank Redemption). He is extremely prolific and he's one of my favorite writers so when I heard that he wrote this book on writing, I picked it up right away.
 
