@@ -1,4 +1,5 @@
 {{ if not .Params.exclude_from_summary }}
+{{ $is_books := eq .Section "books" }}
 {{ $is_ramble_blog_post := and (eq .Section "blog")  (in (index .Params "blog/tags") "ramble") }}
 <article class="post-summary">
   {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
@@ -42,7 +43,7 @@
       {{ else if not .Params.use_album_summary }}
         <div class="row post-meta">
           <div class="col-auto align-self-center">
-          {{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .ReadingTime }}min read
+            {{ .Date.Format "Mon, Jan 2, 2006" }} - {{ if not $is_books -}}{{ .ReadingTime }}min read {{- else -}} by {{.Params.author}}{{- end -}}
           </div>
           {{ if not $is_ramble_blog_post }}
           <div class="col float-right">

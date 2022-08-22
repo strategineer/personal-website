@@ -19,6 +19,7 @@ taxonomies:
   "cocktail": "cocktails/tags"
   "recipe": "food/tags"
   "project": "projects/tags"
+  "book": "books/tags"
 
 permalinks:
   posts: /:section/:year-:month-:day
@@ -27,6 +28,7 @@ permalinks:
   "cocktail": /cocktails/tags/:slug/
   "recipe": /food/tags/:slug/
   "project": /projects/tags/:slug/
+  "book": /books/tags/:slug/
 
 imaging:
   quality: 90

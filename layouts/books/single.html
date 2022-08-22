@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="books-content">
+    {{ partial "title" . }}
+    <div class="row justify-content-center">
+      <div class="col-auto align-self-center">
+      {{ partial "try_tags" . }}
+      </div>
+      <div class="col-auto align-self-center">
+      {{ partial "try_thumbnail" . }}
+      </div>
+    </div>
+    {{ partial "try_links" . }}
+    {{ partial "try_video" . }}
+    {{ partial "try_audio" . }}
+    <div class="row justify-content-center readable">
+      {{ .Content }}
+    </div>
+  </div>
+{{ end }}

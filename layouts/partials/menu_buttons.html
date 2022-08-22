@@ -2,6 +2,7 @@
 {{ $inactive_class := "btn-light" }}
 {{ $is_food := hasPrefix .RelPermalink "/food/"}}
 {{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/"}}
+{{ $is_books := hasPrefix .RelPermalink "/books/"}}
 {{ $is_tools := hasPrefix .RelPermalink "/bin/"}}
 {{ $is_blog := or (hasPrefix .RelPermalink "/blog/") (eq .RelPermalink "/")}}
 {{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}} 
@@ -14,6 +15,11 @@
             <button type="button" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
               <img src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
             </button>
+        </a>
+        <a href="/books/">
+          <button type="button" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
+            <img src="/icons/book.svg" width="32" height="32" label="Go to Strat's Books he's reading"/>
+          </button>
         </a>
         <a href="/bin/">
           <button type="button" class="btn btn-lg {{ cond $is_tools $active_class $inactive_class }}">
