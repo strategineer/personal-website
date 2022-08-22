@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure"
 author: "Brian Hayes"
-date: 2021-10-01T07:33:45-04:00
+date: 2021-10-01
 books/tags:
     - "non-fiction"
 ---

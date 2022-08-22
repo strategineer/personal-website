@@ -1,7 +1,7 @@
 ---
 title: "On Writing: A Memoir of the Craft"
 author: "Stephen King"
-date: 2021-11-01T07:35:51-04:00
+date: 2021-11-01
 books/tags:
     - "non-fiction"
 ---

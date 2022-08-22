@@ -1,11 +1,12 @@
 ---
-title: "👉 🌐: 🤔 🌱 📃 🔠"
+title: "Because Internet: Understanding the New Rules of Language"
+author: "Gretchen McCulloch"
 date: 2022-01-20
-blog/tags:
-    - media
+books/tags:
+    - "non-fiction"
+    - "linguistics"
+summary: "Because Internet: Understanding the New Rules of Language discusses how we express ourselves on the internet, how we got here and where we're going from the perspective of a linguist."
 ---
-EDIT 2022-08-22: Check out my new [/books page](/books) where I talk about books I've read and my thoughts on them.
-
 I'm [always been in 💖 with words](/blog/2022-01-14/) but, somehow, I've gone through most of my life without studying linguistics at all.
 
 (ノಠ益ಠ)ノ彡┻━┻

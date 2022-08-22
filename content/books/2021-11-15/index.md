@@ -1,7 +1,7 @@
 ---
 title: "The Joy of Mixology, Revised and Updated Edition: The Consummate Guide to the Bartender’s Craft"
 author: "Gary Regan"
-date: 2021-11-15T07:39:09-04:00
+date: 2021-11-15
 books/tags:
     - "non-fiction"
 ---

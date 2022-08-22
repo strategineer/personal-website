@@ -1,7 +1,7 @@
 ---
 title: "Sandcastles"
 author: "Frederik Peeters and Pierre Oscar Levy"
-date: 2021-07-22T07:48:38-04:00
+date: 2021-07-22
 books/tags:
     - "fiction"
     - "comic book"

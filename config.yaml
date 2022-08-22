@@ -59,3 +59,11 @@ markup:
       unsafe: false
       xhtml: false
 
+security:
+  exec:
+    allow:
+      - '^dart-sass-embedded$'
+      - '^go$'
+      - '^npx$'
+      - '^postcss$'
+      - '^nvim$'

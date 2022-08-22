@@ -1,12 +1,11 @@
 ---
-title: "TLDR: Media Literacy by W. James Potter"
+title: "Media Literacy"
+author: "W. James Potter"
 date: 2022-04-07
-blog/tags:
-    - media
+books/tags:
+    - "non-fiction"
+summary: "Media Literacy teaches you how to navigate through the overwhelming flood of information found in today's media-saturated world. Drawing from thousands of media research studies, author W. James Potter explores key components to understanding the fascinating world of mass media. Potter presents examples and facts to help you understand how the media operate, how they attract attention, and how they influence you and the public."
 ---
-
-EDIT 2022-08-22: check out my new [/books page](/books) to see what the books I've been reading and what I think about them.
-
 I've been reading the Media Literacy (8th edition) textbook by W. James Potter recently. It's a super interesting topic. Here's a few passages that I've underlined in the text (I've read about half of the textbook so far).
 
 Hopefully reading a few of these passages encourages you to pick up a media literacy textbook and start learning about the topic so that I can talk about it with you!
@@ -58,4 +57,3 @@ _Say it with me, parasocial relationships are not real relationships._
 > "Most of us feel that the real world is too limited; that is, we cannot get all the experiences and information we want in the real world. [...] We are continually entering the media world to get experiences and information we cannot get very well in our real lives. We enter the media world to expand our real-world experience and help us understand the real world better. But those experiences we have in the media world are different than if we had experienced them directly in the real world. We often forget this as we bring media-world experiences back into our real world."
 
 And that's all for now folks. Textbooks are lonnnnnnng. But I don't mind.
-

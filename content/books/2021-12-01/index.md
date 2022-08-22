@@ -1,7 +1,7 @@
 ---
 title: "The Greek Myths: The Complete and Definitive Edition"
 author: "Robert Graves"
-date: 2021-12-01T07:36:56-04:00
+date: 2021-12-01
 books/tags:
     - "non-fiction"
 ---

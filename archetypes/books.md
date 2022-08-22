@@ -1,8 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: ""
 author: ""
-date: {{ .Date }}
+date: {{ .Name }}
 books/tags:
     - "non-fiction"
-summary: "summarize the book and my thoughts on it"
 ---
