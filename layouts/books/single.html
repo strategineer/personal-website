@@ -16,6 +16,12 @@
     {{ partial "try_video" . }}
     {{ partial "try_audio" . }}
     <div class="row justify-content-center readable">
+      {{ if .Params.summary }}
+        <p>
+          {{ .Params.summary }}
+        </p>
+        <hr>
+      {{ end }}
       {{ .Content }}
     </div>
   </div>
