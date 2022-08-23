@@ -8,6 +8,8 @@ summary: "Monster of the Week is a standalone action-horror RPG for 3-5 people. 
 ---
 If you and your friends are into Monster of the Week style shows, maybe you would be into this system?
 
-Although this feels like a rulebook made for people to buy and keep on their shelf rather than play.
+This feels like a rulebook made for people to buy and keep on their shelf rather than play though.
 
-There's nothing extraordinary about the ruleset itself, it seems a little too loose to my liking.
+There's nothing extraordinary about the ruleset itself, it seems a little too loose for my tastes.
+
+But I don't expect to be playing it any time soon so what do I know?
