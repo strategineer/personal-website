@@ -25,4 +25,6 @@ Sonic is Hermes.
 
 One Piece is a retelling of Jason’s, and the Argonauts’s, quest for the Golden Fleece.
 
-Odysseus is a superhero, with powers coming from Athena’s favor, straight out of a comic book (or Marvel movie). Normal humans can’t murder 105+ people with a bow in a dining hall, make anyone believe anything and wear some rags to perfectly disguise their identity.
+Odysseus is a superhero, with powers coming from Athena’s favor, straight out of a comic book (or Marvel movie). Normal humans can’t murder a hundred people with a bow in a dining hall, make anyone believe anything and wear some rags to perfectly disguise their identity.
+
+But that's in part what makes the story interesting.
