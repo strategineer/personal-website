@@ -2,6 +2,7 @@
 title: "The Drifting Classroom"
 author: "Kazuo Umezz"
 date: 2021-07-01
+weight: 6
 books/tags:
     - "fiction"
     - "manga"

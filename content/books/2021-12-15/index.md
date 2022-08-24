@@ -2,6 +2,7 @@
 title: "Norse Mythology"
 author: "Neil Gaiman"
 date: 2021-12-15
+weight: 6
 books/tags:
     - "fiction"
 summary: "Neil Gaiman's Norse Mythology is a retelling of a few stories from Norse mythology (which we don't know very much about). I'm a fan of Neil Gaiman's work generally but I found this to be quite boring."

@@ -2,13 +2,16 @@
 title: "Media Literacy"
 author: "W. James Potter"
 date: 2022-04-07
+weight: 2
 books/tags:
     - "non-fiction"
 summary: "Media Literacy teaches you how to navigate through the overwhelming flood of information found in today's media-saturated world. Drawing from thousands of media research studies, author W. James Potter explores key components to understanding the fascinating world of mass media. Potter presents examples and facts to help you understand how the media operate, how they attract attention, and how they influence you and the public."
 ---
-I've been reading the Media Literacy (8th edition) textbook by W. James Potter recently. It's a super interesting topic. Here's a few passages that I've underlined in the text (I've read about half of the textbook so far).
+A must read, don't sit on this one!
 
-Hopefully reading a few of these passages encourages you to pick up a media literacy textbook and start learning about the topic so that I can talk about it with you!
+Learn about Media Literacy, especially if you're name is Louis (I swear to God).
+
+Here's some random quotes from the book that I highlighted for whatever reason:
 
 > "[...] while choice is attractive, too much choice can paralyze us into inaction. When we feel overwhelmed, we rely more and more on automatic routines, and leads us into a deeper and deeper rut of doing the same things over and over."
 

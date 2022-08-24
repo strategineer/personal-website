@@ -33,6 +33,7 @@
       <h2 class="summary-title">
         <a href='{{ .Permalink }}'>
           {{ .Render "title_text" }}
+          {{ if $is_books -}} by {{ .Params.author }}{{- end -}}
         </a>
       </h2>
       {{ if .Params.blurb }}
@@ -43,7 +44,15 @@
       {{ else if not .Params.use_album_summary }}
         <div class="row post-meta">
           <div class="col-auto align-self-center">
-            {{ .Date.Format "Mon, Jan 2, 2006" }} - {{ if not $is_books -}}{{ .ReadingTime }}min read {{- else -}} by {{.Params.author}}{{- end -}}
+            {{ if $is_books -}}
+              {{- if eq .Params.weight 1 -}}
+              Currently reading...
+              {{- else -}}
+              Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
+              {{- end -}}
+            {{- else -}}
+            {{- .Date.Format "Mon, Jan 2, 2006" }} - {{ .ReadingTime }}min read
+            {{- end -}}
           </div>
           {{ if not $is_ramble_blog_post }}
           <div class="col float-right">

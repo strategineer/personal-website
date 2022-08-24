@@ -2,6 +2,7 @@
 title: "Remina"
 author: "Junji Ito"
 date: 2021-07-15
+weight: 6
 books/tags:
     - "fiction"
     - "manga"

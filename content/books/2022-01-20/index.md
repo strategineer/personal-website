@@ -2,6 +2,7 @@
 title: "Because Internet: Understanding the New Rules of Language"
 author: "Gretchen McCulloch"
 date: 2022-01-20
+weight: 5
 books/tags:
     - "non-fiction"
     - "linguistics"

@@ -2,6 +2,7 @@
 title: "Think"
 author: "Simon Blackburn"
 date: 2022-05-15
+weight: 3
 books/tags:
     - "non-fiction"
     - "philosophy"
@@ -10,9 +11,7 @@ summary: "Think is a book about the big questions in life: knowledge, consciousn
 
 Reading this book was a revelation to me. I always thought that philosophy was a waste of time, but I realize now that in some ways it's the ONLY thing that matters.
 
-Reading it, I was pulled between thinking that the entire field of philosophy is a gigantic waste of time.
-
-But I can't stop thinking about it now?
+I can't stop thinking about it now.
 
 Why do I believe what I believe? Why do I think what I think? Why do I do what I do?
 
@@ -20,4 +19,4 @@ If you don't know the answer to these questions and you're not actively trying t
 
 That's philosophy.
 
-
+I guess? I'm not an expert but I hope to become one.

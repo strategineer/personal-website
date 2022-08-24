@@ -2,6 +2,7 @@
 title: "Infrastructure: A Field Guide to the Industrial Landscape"
 author: "Brian Hayes"
 date: 2021-10-01
+weight: 2
 books/tags:
     - "non-fiction"
 summary: "Infrastructure is a guide to all the major \"ecosystems\" of our modern industrial world. In exploring railroad tracks, antenna towers, highway overpasses, power lines, coal mines, nuclear power plants, grain elevators, oil refineries, steel mills, and more, Brian Hayes reveals how our familiar and often-overlooked industrial environment can be as dazzling as nature."

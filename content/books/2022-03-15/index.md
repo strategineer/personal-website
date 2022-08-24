@@ -2,9 +2,10 @@
 title: "Nine Lives: In Search of the Sacred in Modern India"
 author: "William Dalrymple"
 date: 2022-03-15
+weight: 4
 books/tags:
     - "non-fiction"
     - "travel"
     - "religion"
-summary: "A Buddhist monk takes up arms to resist the Chinese invasion of Tibet - then spends the rest of his life trying to atone for the violence by hand printing the best prayer flags in India. A Jain nun tests her powers of detachment as she watches her best friend ritually starve herself to death. Nine people, nine lives; each one taking a different religious path, each one an unforgettable story. William Dalrymple delves deep into the heart of a nation torn between the relentless onslaught of modernity and the ancient traditions that endure to this day."
+summary: "British guy goes to India and meets with nine different people, each one on a different religious path and with an interesting story to be shared. William Dalrymple acknowledges his white colonialist britishness at the start of the book and seems to mostly stay out of the way and let the people he meets with tell their stories."
 ---
