@@ -7,5 +7,5 @@ books/tags:
     - "non-fiction"
     - "travel"
     - "religion"
-summary: "British guy goes to India and meets with nine different people, each one on a different religious path and with an interesting story to be shared. William Dalrymple acknowledges his white colonialist britishness at the start of the book and seems to mostly stay out of the way and let the people he meets with tell their stories."
+summary: "British guy goes to India and meets with nine different people, each one on a different religious path and with an interesting story to share. William Dalrymple acknowledges his white colonialist britishness and seems to mostly stay out of the way and let the people he meets tell their stories."
 ---
