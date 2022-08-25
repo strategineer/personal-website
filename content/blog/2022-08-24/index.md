@@ -1,5 +1,5 @@
 ---
-title: "Midas's games: Every multiplayer game I love, dies."
+title: "Video Game Cemetery: Don't read this it's garbage"
 date: 2022-08-24T07:33:33-04:00
 blog/tags:
     - ramble
@@ -14,11 +14,23 @@ This leaves smaller, and often more interesting, multiplayer games off the waysi
 I've fallen in love with many interesting, and now dead, multiplayer games. Here's a list of them followed by my thoughts on what made these games special to me. I'll finish by discussing my new favorite, but probably soon to be dead, game: Rumbleverse.
 
 
-# Prismata
+# Prismata (time of death: 2018)
+
+Prismata is the holy union of all the best parts of chess, Starcraft and Magic the Gathering.
+
+Maybe, you like the idea of chess, but feel it's too dry.
+Maybe, you like the idea of Starcraft, but can't keep up the pace.
+Maybe, you like the idea of Magic, Hearthstone, or Dominion but feel like they're too random.
+
+Then, Prismata would have been the perfect game for you.
 
 ...
 
-# Artifact
+I can tell you one reason why this game was dead on arrival, that's because it left no room for bad players to blame the RNG for their failures.
+
+Unlike the game next game we're going to talk about, Artifact.
+
+# Artifact (time of death: 2018)
 
 On its surface, Artifact was a DOTA themed digital card game developed by Valve in collaboration with Richard Garfield, the designer of Magic the Gathering.
 
@@ -32,7 +44,7 @@ I'm not a special snowflake, I just have a particular set of tastes and these ar
 
 Now, let's talk about another dead game (despite its title): Chaos Reborn.
 
-# Chaos Reborn
+# Chaos Reborn (time of death: 2015)
 
 Chaos Reborn is a modern evolution of Julian Gollop's (the creator of XCOM) 1985 game Chaos: The Battle of Wizards.
 
@@ -54,8 +66,40 @@ It's a game in which you'll be spending a lot of time activating your neurons, l
 
 Now let's talk about another game involving the use of a lot of brainpower: Frozen Cortex.
 
-# Frozen Cortex
+# Frozen Cortex (time of death: 2015)
 
-# Rumbleverse (soon to be dead)
+Frozen Cortex was follow up to the hit Frozen Synapse. Both games, are turn-based strategy games that feature simultaneous turns meaning that both players play their turns at the same time.
+
+In Frozen Synapse, you ordered robot soldiers to take cover, perform flanking maneuvers and take shots at the enemies. In Frozen Cortex, core gameplay remained the same
+
+# Rumbleverse (time of death: 2023?)
+
+Rumbleverse is a what you get when take the good parts of fighting games (mostly reading your opponent kek) and slam it into a battle royale template.
+
+It works.
+
+It just works.
+
+The game is easy to learn and hard to master. The combos are simple to execute and thus don't act as an artificial barrier to playing the game at a high level (unlike most fighting games).
+
+There's nothing better than seeing little wrestling specks from the tallest building in the entire map, then jumping off it, performing the longest elbow drop maneuver ever attempted and slamming right into your unsuspecting victims.
+
+What's wrong with the game and why do I think it's going to die?
+
+When in doubt, make a list.
+
+1. The "skins"/clothing options are relatively limited.
+
+Counter argument: The game allows you to choose one of six different cartoonish and exagerated body types making it such that every costume
+
+2. The queue times are long-ish compared to a Fortnite.
+
+Counter argument: If more people see the light and start playing the game this won't be a problem anymore.
 
 
+
+# A ray of hope in a sea of despair
+
+All these games are still available to play, if you've got similar tastes to mine and you've got a friend on standby who's interested in doing some video game archeology with you, pick any one of these games and play it with your friend.
+
+Enjoy playing an amazing game who's time in the spotlight has past, a game that never reached the heights that it could have reached. If only we lived in a world where quality of design and execution were the only factors that decided whether or not a game succeeds.
