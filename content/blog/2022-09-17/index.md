@@ -14,9 +14,9 @@ The journey we're on is a one way trip and we're unlikely to discover a cure by 
 
 Knowing that, how will you decide to live the life you have?
 
-For most of my life, I wasn't thinking about this question much. I've spent a long time just going through the motions. Living my life through a path of least resistance.
+For most of my life, I wasn't thinking about this question much. I've spent a long time just going through the motions. Living my life through the path of least resistance.
 
-Yes, the world is ending and we're all going to die but the question is: what are we going to do in the meantime and why?
+The world is ending and we're all going to die but the question is: what are we going to do in the meantime and why?
 
 Sometime in 2021, I decided that, above all else, I want to avoid a "slow death". I don't want to live an unexamined life where I constantly obliterate my consciousness through video games and just do what I've always done.
 
@@ -28,13 +28,13 @@ The elevator in the building I live in broke down recently. There's quite a few 
 
 Past me might have not even understood that was something that I should do (I've spent a long time being pretty clueless).
 
-Thankfully, today's me was able to realize that I'm physically capable and I like helping people so I might as offer to help people who might need it.
+Thankfully, today's me was able to realize that I'm physically capable and I like helping people so I might as offer to help people move some heavy stuff around.
 
 In doing so, I was able to meet an older gentleman in my building who is absolutely amazing. A big nerd like me who's led a life that I can only dream of.
 
 If I hadn't offered to help out with this broken elevator, I wouldn't have ever met him and that would be very sad.
 
-Avoiding a "slow death" is a challenge because it seems that the world we live in today has been built to encourage us to live "slow deaths", in our little death cubes (if you're fortunate enough to be able to afford to have a roof over your head) with despair, pain and fear being injected straight into our brain stems through the little black boxes we carry around with us everywhere.
+Avoiding a "slow death" is a challenge because it seems that the world we live in today has been built to encourage us to live "slow deaths" in our little death cubes with despair, pain and fear being injected straight into our brain stems through the little black boxes we carry around with us everywhere.
 
 But, even if it's hard, even it requires everything from me, I need to fight the "slow death". I need to fight the urges programmed into my brain without my consent by a system built by the people in power who don't give a fuck about me (I'm glad the Queen is dead btw, fuck her and all she stands for).
 
