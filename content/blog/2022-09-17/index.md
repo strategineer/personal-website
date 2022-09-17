@@ -31,7 +31,7 @@ Thankfully, today's me was able to realize that I'm physically capable and I lik
 
 In doing so, I was able to meet an older gentleman in my building who is absolutely amazing. A big nerd like me who's led a life that I can only dream of.
 
-If I hadn't offered to help out with this broken elevator, I wouldn't have ever met him and that would be very sad.
+If I hadn't offered to help out with this broken elevator situation, I wouldn't have ever met him and that would be very sad.
 
 Avoiding a slow death is a challenge because it seems that the world we live in today has been shaped to encourage us to live "slow deaths" in our little cramped cubes with despair, pain and fear being injected straight into our brains through the little black boxes we carry around with us everywhere.
 
