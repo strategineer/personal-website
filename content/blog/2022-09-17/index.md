@@ -3,7 +3,6 @@ title: "Avoiding a slow death"
 date: 2022-09-17T09:30:31-04:00
 blog/tags:
     - life
-draft: true
 summary: "I regret to inform you that you're dying. We all are. The journey we're on is a one way trip and we're unlikely to discover a cure by the time you need it. Knowing that, how will you decide to live the life you have?"
 ---
 I regret to inform you that you're dying.
