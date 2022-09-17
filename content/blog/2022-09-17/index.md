@@ -38,7 +38,7 @@ Avoiding a "slow death" is a challenge because it seems that the world we live i
 
 But, even if it's hard, even it requires everything from me, I need to fight the "slow death". I need to fight the urges programmed into my brain without my consent by a system built by the people in power who don't give a fuck about me (I'm glad the Queen is dead btw, fuck her and all she stands for).
 
-It would be easier to give up. To decide that I am powerless in the face of a series of overwhelming obstacles whether present in my own psyche or the external world.
+It would be easier to give up. To decide that I am powerless in the face of a series of overwhelming obstacles whether present in my own psyche or the world outside of my own head.
 
 Even if there's no hope, the moment you let hope die is the moment you die. And, I don't want to die.
 
