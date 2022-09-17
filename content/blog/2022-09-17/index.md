@@ -34,7 +34,7 @@ In doing so, I was able to meet an older gentleman in my building who is absolut
 
 If I hadn't offered to help out with this broken elevator, I wouldn't have ever met him and that would be very sad.
 
-Avoiding a "slow death" is a challenge because it seems that the world we live in today has been built to encourage us to live "slow deaths" in our little death cubes with despair, pain and fear being injected straight into our brain stems through the little black boxes we carry around with us everywhere.
+Avoiding a "slow death" is a challenge because it seems that the world we live in today has been shaped to encourage us to live "slow deaths" in our little cramped cubes with despair, pain and fear being injected straight into our brains through the little black boxes we carry around with us everywhere.
 
 But, even if it's hard, even it requires everything from me, I need to fight the "slow death". I need to fight the urges programmed into my brain without my consent by a system built by the people in power who don't give a fuck about me (I'm glad the Queen is dead btw, fuck her and all she stands for).
 
