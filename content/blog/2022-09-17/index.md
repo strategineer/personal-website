@@ -17,7 +17,7 @@ For most of my life, I wasn't thinking about this question much. I've spent a lo
 
 The world is ending and we're all going to die but the question is: what are we going to do in the meantime and why?
 
-Sometime in 2021, I decided that, above all else, I want to avoid a "slow death". I don't want to live an unexamined life where I constantly obliterate my consciousness through video games and just do what I've always done.
+Sometime in 2021, I decided that, above all else, I want to avoid a slow death. I don't want to live an unexamined life where I constantly obliterate my consciousness through video games and just do what I've always done.
 
 Change is difficult, perhaps more difficult for me than most. But, change is something I strive for now more than ever before. I don't want to be the same person I was yesterday. Every day I'm alive is an opportunity for growth and for new experiences.
 
@@ -33,9 +33,9 @@ In doing so, I was able to meet an older gentleman in my building who is absolut
 
 If I hadn't offered to help out with this broken elevator, I wouldn't have ever met him and that would be very sad.
 
-Avoiding a "slow death" is a challenge because it seems that the world we live in today has been shaped to encourage us to live "slow deaths" in our little cramped cubes with despair, pain and fear being injected straight into our brains through the little black boxes we carry around with us everywhere.
+Avoiding a slow death is a challenge because it seems that the world we live in today has been shaped to encourage us to live "slow deaths" in our little cramped cubes with despair, pain and fear being injected straight into our brains through the little black boxes we carry around with us everywhere.
 
-But, even if it's hard, even it requires everything from me, I need to fight the "slow death". I need to fight the urges programmed into my brain without my consent by a system built by the people in power who don't give a fuck about me (I'm glad the Queen is dead btw, fuck her and all she stands for).
+But, even if it's hard, even it requires everything from me, I need to fight the slow death. I need to fight the urges programmed into my brain without my consent by a system built by the people in power who don't give a fuck about me (I'm glad the Queen is dead btw, fuck her and all she stands for).
 
 It would be easier to give up. To decide that I am powerless in the face of a series of overwhelming obstacles whether present in my psyche or the world outside of my own head.
 
