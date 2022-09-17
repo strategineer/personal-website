@@ -24,7 +24,7 @@ Change is difficult, perhaps more difficult for me than most. But, change is som
 
 New experiences are harder to come by these days but that doesn't mean that we shouldn't try.
 
-The elevator in the building I live in broke down recently. There's quite a few older people with reduced mobility living here, so I wrote a letter and posted it up offering to help anyone to get their groceries to their unit (imagine being in your 70s with a cane trying to get your groceries to the 7th floor without an elevator, it's not happening).
+The elevator in the building I live in broke down recently. There's quite a few older people with reduced mobility living here, so I wrote a letter and posted it up offering to help anyone to get their groceries to their uni. Imagine being in your 70s with a cane trying to get your groceries to the 7th floor without an elevator, it's not happening.
 
 Past me might have not even understood that was something that I should do (I've spent a long time being pretty clueless).
 
