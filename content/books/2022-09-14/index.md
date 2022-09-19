@@ -2,7 +2,7 @@
 title: "Games: Agency as Art"
 author: "C. Thi Nguyen"
 date: 2022-09-14
-weight: 5
+star_rating: 3
 books/tags:
     - "non-fiction"
     - "philosophy"
@@ -15,3 +15,7 @@ Games as in sports, video games, board games, etc.
 I love all of these things (sport a bit less these days) and they're a big part of my life and so there's value in me exploring why they might be more interesting than they might appear to be on a surface level.
 
 Reading this book might make me a better game critic and better at sharing my love of games with other people.
+
+EDIT 2022-09-14: I put this book down right before the end. I think that the text is in need of some more editing, there seems to be a lot of repetition of the same ideas over and over again. Maybe I wasn't in the right mindset to read this and I'll need to come back to it later
+
+Although reading this got me thinking about climbing/bouldering and I might not have ever discovered my new favorite passion if not for reading most of this book. I'll be forever grateful for that and I hope that I can continue being positively influenced by the media I come into contact with.

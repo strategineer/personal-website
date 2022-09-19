@@ -30,6 +30,9 @@
     {{ end }}
   {{ end }}
     <div class="col align-self-center">
+      <h2 class="summary-title text-center">
+          {{ partial "try_star_rating" . }}
+      </h2>
       <h2 class="summary-title">
         <a href='{{ .Permalink }}'>
           {{ .Render "title_text" }}

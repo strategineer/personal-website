@@ -2,7 +2,7 @@
 title: "The Joy of Mixology"
 author: "Gary Regan"
 date: 2021-11-15
-weight: 5
+star_rating: 3
 books/tags:
     - "non-fiction"
 summary: "Everything you need to know about mixing cocktails."

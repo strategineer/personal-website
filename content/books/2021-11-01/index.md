@@ -1,8 +1,8 @@
 ---
-title: "On Writing: A Memoir of the Craft"
+title: "On Writing"
 author: "Stephen King"
 date: 2021-11-01
-weight: 5
+star_rating: 3
 books/tags:
     - "non-fiction"
 summary: "Stephen King tells you about his life and his advice on how you can become better at writing. This amounts to him basically saying \"Just write a lot bro\" but despite this, this was quite a fun read. And... He's not wrong."

@@ -2,7 +2,7 @@
 title: "The Greek Myths"
 author: "Robert Graves"
 date: 2021-12-01
-weight: 3
+star_rating: 4
 books/tags:
     - "non-fiction"
 summary: "Robert Graves's The Greek Myths is more of an encyclopedia about everything related to the Greek myths rather than a pure retelling of the myths themselves. It's not meant to entertain, it's meant to inform. Although, if learning everything there is to know about Greek myths sounds entertaining to you then this is the book for you."

@@ -2,7 +2,7 @@
 title: "Media Literacy"
 author: "W. James Potter"
 date: 2022-04-07
-weight: 2
+star_rating: 5
 books/tags:
     - "non-fiction"
 summary: "Media Literacy teaches you how to navigate through the overwhelming flood of information found in today's media-saturated world. Drawing from thousands of media research studies, author W. James Potter explores key components to understanding the fascinating world of mass media. Potter presents examples and facts to help you understand how the media operate, how they attract attention, and how they influence you and the public."

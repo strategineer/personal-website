@@ -2,7 +2,7 @@
 title: "The Odyssey"
 author: "Homer (translated by Emily Wilson)"
 date: 2021-12-25
-weight: 4
+star_rating: 3
 books/tags:
     - "fiction"
 summary: "The Odyssey is a classic and there's more stories that have been inspired by it than I can count. After reading it, you'll be able to see it echoed everywhere you look."

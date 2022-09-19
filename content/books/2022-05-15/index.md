@@ -2,7 +2,7 @@
 title: "Think"
 author: "Simon Blackburn"
 date: 2022-05-15
-weight: 3
+star_rating: 4
 books/tags:
     - "non-fiction"
     - "philosophy"

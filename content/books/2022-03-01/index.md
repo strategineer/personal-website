@@ -2,7 +2,7 @@
 title: "Night"
 author: "Elie Wiesel"
 date: 2022-03-01
-weight: 3
+star_rating: 5
 books/tags:
     - "non-fiction"
     - "history"

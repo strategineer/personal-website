@@ -1,8 +1,8 @@
 ---
-title: "Nine Lives: In Search of the Sacred in Modern India"
+title: "Nine Lives"
 author: "William Dalrymple"
 date: 2022-03-15
-weight: 4
+star_rating: 4
 books/tags:
     - "non-fiction"
     - "travel"

@@ -2,7 +2,7 @@
 title: "The Pig that Wants to be Eaten"
 author: "Julian Baggini"
 date: 2022-04-15
-weight: 6
+star_rating: 2
 books/tags:
     - "non-fiction"
     - "philosophy"
