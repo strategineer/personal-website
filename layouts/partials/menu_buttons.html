@@ -11,16 +11,17 @@
   <div class="col-auto">
     <div class="btn-toolbar" role="toolbar" aria-label="Main Toolbar">
       <div class="btn-group btn-group-lg">
-        <a href="/">
-            <button type="button" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
-              <img src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
-            </button>
-        </a>
         <a href="/books/">
           <button type="button" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
             <img src="/icons/book.svg" width="32" height="32" label="Go to Strat's Books he's reading"/>
           </button>
         </a>
+        <a href="/">
+            <button type="button" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
+              <img src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
+            </button>
+        </a>
+        <!-- 
         <a href="/bin/">
           <button type="button" class="btn btn-lg {{ cond $is_tools $active_class $inactive_class }}">
             <img src="/icons/tools.svg" width="32" height="32" label="Go to Strat's Tools and Toys"/>
@@ -36,6 +37,7 @@
               <img src="/icons/egg.svg" width="32" height="32" label="Go to Strat's Recipes"/>
             </button>
         </a>
+-->
       {{ $tags_suffix := "/tags" }}
       {{ $pages := slice -}}
       {{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
