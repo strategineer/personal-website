@@ -1,23 +1,25 @@
 ---
 title: Homemade Ginger Beer
-date: 2021-11-15
+date: 2022-11-12
 cocktails/tags:
   - "non-alcoholic"
 weight: 5
 exclude_from_summary: true
-inspired_by: The Joy of Mixology by Gary Reagan (p. 214)
+inspired_by: https://www.reddit.com/r/Homebrewing/comments/p3fudz/basic_ginger_beer_recipe_for_anyone_curious/
 sub_ingredient: true
 blurb:
 ingredients:
-  - 2L water
-  - 1/2 pound fresh ginger, grated
-  - 1 oz fresh lime juice
-  - 2 oz light brown sugar
+  - 1 gallon water
+  - 1 thumb-sized piece organic ginger
+  - 2 cups sugar (light or dark)
+  - 1/2 tbsp citric acid (or wine maker's acid blend or lime or lemon juice)
+  - 1 tsp yeast nutrient
+  - "? yeast (1/4 tsp?)"
 steps:
-  - Heat 1 cup of the water and pour into a food processor with the ginger.
-  - Process until almost mulch-like.
-  - Add this to the rest of the water in a large pan and bring it to a boil. Cover, remove from the heat, and allow it to stand for 1 hour.
-  - Strain through a fine-mesh strainer (use a spoon to firmly press down on the ginger to extract all the flavor) and discard the pulp, add the lime juice and light brown sugar to the flavored water, stir well to dissolve, and allow the ginger mixture to come to room temperature before serving.
-  - To store, transfer to pint or quart glass jars, cover, and keep in the refrigerator for up to a week.
+  - Boil water.
+  - While water heats up, peel and slice the ginger into 1/8-inch thick pieces. Place into cheesecloth/hop bag.
+  - When water hits boil, stir in sugar, then add ginger. Swirl the bag to help steep the ginger.
+  - Boil for 15 minutes, then pull a sample, quickly cool it, and taste. If the flavor isn’t strong enough for you, boil another five minutes and check again. Repeat until the spice level is right for you. BUT keep in mind the sugar will ferment, so it’s best to be a bit under the intensity you desire.
+  - Cool, add to fermenter, add acid blend and yeast nutrient, pitch yeast.
 ---
 
