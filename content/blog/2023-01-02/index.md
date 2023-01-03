@@ -4,7 +4,6 @@ date: 2023-01-02
 blog/tags:
     - gaming
 summary: "A list of games I played and enjoyed most in 2022."
-draft: true
 ---
 Another 365 days have past and that means that it's time for another list of games that I've entertained myself with this past year.
 
