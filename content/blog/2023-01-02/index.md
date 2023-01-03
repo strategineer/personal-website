@@ -24,11 +24,11 @@ As long as you're willing to put up with all of its dark design patterns that ke
 
 The main gripe I have with the game is that there's no way to forfeit a match, so if you start a match then you HAVE to finish it, otherwise you are penalized heavily for it.
 
-In practice what this means is that sometimes you'll start a match and three minutes into the game your teamates have already managed to completely throw the game leaving you to waste the next hour of your life playing a match you have almost no chance to win.
+In practice what this means is that sometimes you'll start a match and 3 minutes into it your teammates have already managed to throw so completely leaving you to waste the next hour of your life playing a match you have almost no chance to win.
 
-This is common in MOBAs and, to a lesser extent, many competitive multiplayer games have this same problem. What's funny (to me) about this in DOTA 2 is that after a match is over you're presented with a bunch of statistics on the match you just played (it's extensive and unlike anything I've seen in any other game).
+This is common in MOBAs and, to a lesser extent, many competitive multiplayer games have this same problem. What's funny (to me) about this in DOTA 2 is that after a match is over you're presented with a bunch of statistics about the match you just played (it's extensive and unlike anything I've seen in any other game).
 
-This includes a graph showing a prediction throughout the game of which team would win. So, after having wasted an hour of your life playing a game you had barely any chance of winning, it's  hilarious to see DOTA 2 tell you that yes in fact, you had a less than 0.1% chance of winning the game after minute 3...
+This includes a graph showing a prediction throughout the game of which team would win. So, after having wasted an hour of your life playing a game you had barely any chance of winning, it's  hilarious to see DOTA 2 tell you that yes in fact, you had less than 0.1% chance of winning the game after minute 3...
 
 DOTA 2 is a weird game. When you're not getting absolutely blasted by your opponents there's a lot of fun to be had. The highs are high and the lows are low like many other games that I seem to be into. So if you're looking to inject some articifial excitement into your boring life then DOTA 2 might be the game for you.
 
@@ -54,15 +54,15 @@ The core gameplay is not as tight as Sekiro but if you're an old jaded gamer lik
 
 # Triangle Strategy
 
-As a longtime fan of the Fire Emblem series (ignoring the most recent mainline entry which is a grooming simulator with terribly broken tactical combat, AKA Fire Emblem: Three Houses),  I'm always looking for tactical strategy games with gripping narratives that give me a reason to keep pushing through mentally taxing tactical gameplay.
+As a longtime fan of the Fire Emblem series (ignoring the most recent mainline entry which is a grooming simulator with terribly broken tactical combat, AKA Fire Emblem: Three Houses),  I'm always looking for tactical strategy games with gripping narratives that give me a reason to keep pushing through their mentally taxing tactical gameplay.
 
-Triangle Strategy is exactly that and more. It tells a story of political intrigue (think Game of Thrones with less fucking) where you play the role of a lord surrounded by your retinue. Shit hits the fan and you're quickly thrust into a series of tactical fights interspersed with dialogue. At many key inflection points in the story, you are given the opportunity to make choices about what you and crew will do next. But, you don't simply make a choice and move on with the story, you actually have to convince your advisors that your choice is the right one. At the end of your deliberations, there's a vote and whatever choice gets the most votes is the one you make together.
+Triangle Strategy is exactly that and more. It tells a story of political intrigue (think Game of Thrones with less fucking) where you play the role of a lord surrounded by your retinue. Shit hits the fan and you're quickly thrust into a series of tactical fights interspersed with dialogue. At many key inflection points in the story, you are given the opportunity to make choices about what you and your crew will do next. But, you don't simply make a choice and move on with the story, you have to convince your advisors that your choice is the right one. At the end of your deliberations, there's a vote and whatever choice gets the most votes is the one you make together.
 
 This encourages you to pay attention to the story (which is already pretty engaging to begin with) and get to know your advisors, to know what kinds of arguments you'll be able to convince them with. Sometimes, discussing a choice with your advisors will lead you to changing your own mind about what the "correct" choice is. Initially, I thought that this "Scales of Conviction" system was going to be a gimmick but it actually works much better in practice then I thought it would.
 
 Also, they've absolutely nailed the tactical fights. Each character brings something to the table, and it's up to you as their leader to choose who to use, when and how. The different environments and objectives you're given drastically change how you need to play to succeed, keeping combat interesting throughout the long playtime (~35h).
 
-Suprisingly, unlike most other games in this genre, the user experience (UX) just works. Controlling your troops has never been easier and because you're spending so much time doing this, that's a really good thing. I won't be able to play tactical strategy games like this unless they have absolutely banger UX like Triangle Strategy does. 
+Suprisingly, unlike most other games in this genre, the user experience (UX) just works. Controlling your troops has never been easier and because you're spending so much time doing this, that's a really good thing. I won't be able to play tactical strategy games like this anymore unless they have absolutely banger UX like Triangle Strategy does. 
 
 # Against the Storm
 
@@ -70,7 +70,7 @@ What if you made a roguelike city builder where each choice you made mattered an
 
 That's Against the Storm and it is amazing.
 
-The game is set in a universe where a (you guessed it!) storm comes through every so often and wipes everything out, everything except whoever and whatever is residing in the capital.
+The game is set in a universe where a (you guessed it!) storm comes through every so often and wipes everything out, everything except whoever and whatever is safely inside the capital.
 
 You are tasked by the queen with settling the wilds over and over again, creating self sustaining settlements and sending some of the resources you gather back to the city.
 
@@ -78,7 +78,7 @@ That's the overarching game loop and it works.
 
 There's a few different biomes to settle in and each time you start a new settlement you bring a different set of starting workers (of different races with different strengths and weaknesses) and resources which leads to every "run" feeling unique enough to keep you coming back for more.
 
-As you satisfy the queen's requests during a run, she'll reward you with sets of building blueprints to choose from, each of which convert some resources into other resources at various levels of efficiency. For example, a carpenter might produce planks of wood and barrels from wooden logs with a decent conversion rate (5 logs for 1 plank) compared to a lumbermill which might only produce planks of wood but at a great conversion rate (3 logs for 1 plank).
+As you satisfy the queen's requests during a run, she'll reward you with sets of building blueprints to choose from, each of which convert some resources into other resources at various levels of efficiency. For example, a carpenter might produce planks of wood and barrels from wooden logs with a decent conversion rate (5 logs for 1 plank) compared to a lumbermill which might ONLY produce planks of wood but at a great conversion rate (3 logs for 1 plank).
 
 In a sense, Against the Storm is less of a city builder and more of a roguelike Factorio-like game where you're creating and optimizing supply chains based on the resources you find in the surrounding area as well as the buildings you get access to. And, it's very good.
 
@@ -97,9 +97,7 @@ The biggest improvement in my eyes is the new scoring system which is always tic
 # The Forgotten City
 The Forgotten City started out as a Skyrim mod and you can tell. Ever since I played Morrowind in the early-mid 2000s on my Xbox, I've been a fan of the Elder Scrolls games so the Forgotten City's shared DNA with that series is a good thing.
 
-The Forgotten City starts with you in the modern day exploring some ruins you found in the forest. Soon enough you find yourself flung into what appears to be an enclosed Roman city populated with a dozen or so characters. There's been a murder (kidnapping?) and as an outsider you're tasked with investigating it by speaking to everyone and gathering evidence.
-
->! And playing around with a timeloop.
+The Forgotten City starts with you in the modern day exploring some ruins you found in the forest. Soon enough you find yourself flung into what appears to be an enclosed Roman city populated with a dozen or so characters. There's been a murder (kidnapping?) and as an outsider you're tasked with investigating it by speaking to everyone and gathering evidence (and playing around with a timeloop).
 
 It's a journey. I started playing the Forgotten City at 5pm and finished it in one sitting the next morning with tears of joy/sadness in my eyes. For those few hours, I was completely sucked into this world that the developers had so lovingly crafted filled with characters that felt very real and human to me despite being pixels on a screen.
 
@@ -110,9 +108,9 @@ Pheonix Point is Julian Gollop's spiritual successor to the XCOM series which he
 
 "Aliens" are invading the Earth and you're tasked with saving it. Unlike in XCOM, you're not the only group fighting off the invading force.
 
-There are three other groups you can befriend or hinder along the way. Each will provide you with a series of mission and an "end condition" allowing you to fend of the alien threat permanently (at a cost).
+There are three other groups you can befriend or hinder along the way. Each will provide you with a series of missions and an "end condition" allowing you to fend of the alien threat permanently (at a cost).
 
-Basically, you've got the right wing fascists, the hyper leftist scientists run by an AI and the religious fanatics/mutants. During a playthrough you'll likely need to ally yourself with one of these groups, have another be indifferent to you and have the third as an enemy (or you can tell all of these nut jobs to fuck off but that'll make it much hard to fend off the aliens).
+Basically, you've got the right wing fascists, the hyper leftist scientists run by an AI and the religious fanatics/mutants. During a playthrough you'll likely need to ally yourself with one of these groups, have another be indifferent to you and have the third as an enemy (or you can tell all of these nut jobs to fuck off but that'll make it much harder to fend off the aliens).
 
 So, pick your poison and go shoot some aliens.
 
@@ -134,7 +132,7 @@ If you know you know.
 
 I might be the only person alive today who played Pig Eat Ball and decided that Pig Eat Ball was one of the best games to have ever been made.
 
-My love of Pig Eat Ball comes from a lot of places but primarily centers around how absolutely off the wall insane the game is. From the story, to the art, to the gameplay everything is bonkers.
+My love of Pig Eat Ball comes from a lot of places but primarily centers around how absolutely off the wall insane the game is. From the story, to the art, to the gameplay, everything is bonkers.
 
 It's extremely unlikely that you would get as much out of PEB as I did. But you're welcome to try.
 
