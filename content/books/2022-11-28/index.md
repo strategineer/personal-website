@@ -6,7 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "fantasy"
-summary: "An incompetent wizard is tasked with protecting a visitor visiting from a faraway land. Shit hits the fan. This is the first Terry Pratchett novel set in his Discworld universe."
+summary: "An incompetent wizard is tasked with protecting a visitor visiting from a faraway land. A fantasy novel for people who don't like fantasy novels."
 ---
 
 I've read a lot of fantasy in my day (I kind of hate fantasy now) but nothing quite like this. Somehow I had never read anything by Terry Pratchett, I started by reading his first novel (of many) set in his Discworld universe.
