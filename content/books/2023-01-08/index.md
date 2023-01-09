@@ -1,8 +1,8 @@
 ---
 title: "Brave New World"
 author: "Aldous Huxley"
-date: 2023-01-02
-star_rating: -1
+date: 2023-01-08
+star_rating: 3
 books/tags:
     - "fiction"
     - "science-fiction"
