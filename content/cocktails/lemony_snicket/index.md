@@ -5,7 +5,7 @@ cocktails/tags:
   - light
   - gin
 weight: 1
-blurb:.. 
+blurb: ...
 ingredients:
   - 2 oz gin
   - 1 oz triple sec
