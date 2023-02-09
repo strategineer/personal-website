@@ -14,12 +14,12 @@ ingredients:
   - 1/2 tbsp citric acid (or wine maker's acid blend or lime or lemon juice)
   - 1 tsp yeast nutrient (optional but recommended)
   - 1/8 tsp yeast
-  - 4 tablespoons of authentic maple syrup 
+  - 4 tbsp of authentic maple syrup 
 steps:
-  - Boil water.
+  - Start boiling water.
   - While water heats up, peel and slice the ginger into 1/8-inch thick pieces. Push down on the pieces with your knife to soften the ginger. Place into a cheesecloth/hop bag.
-  - When water hits boil, stir in sugar, then add ginger. Swirl the bag to help steep the ginger.
-  - Boil for 30 minutes.
+  - When water starts boiling, stir in sugar, then add ginger. Swirl the bag to help steep the ginger.
+  - Let simmer for 30 minutes.
   - Cool for about 90 minutes
   - Add cooled ginger water to jug (ideally a jug with an airlock but in a pinch you can use a balloon with a tiny hole in it as a cap), add acid blend,  yeast nutrient and yeast.
   - Let jug sit at room temperature for about 2-3 days (if you're not sure, try 3) (you don't want the fermentation to finish completely).
