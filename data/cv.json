@@ -7,7 +7,7 @@
     "Unity": "/projects/tags/unity"
   },
   "en": {
-    "name": "Bill Christian Tyros",
+    "name": "Bill Tyros",
     "title": "Software Engineer",
     "sidebar_section": [
       {
@@ -24,7 +24,17 @@
         "title": "Work Experience",
         "list": [
           {
-            "year": "2019-TBD",
+            "year": "2022-TBD",
+            "title": "Senior Software Engineer @ Sonder",
+            "tech": ["Python", "PostgreSQL"],
+            "list": [
+              "Grew revenue across the business by building and maintaining the revenue management system allowing for pricing inventory through automation.",
+              "Led overhaul of team's planning ceremonies to improve dev ownership of work.",
+              "Built Asana Kanban board template copied/used company-wide dozens of times."
+            ]
+          },
+          {
+            "year": "2019-2022",
             "title": "Software Engineer @ Morgan Stanley",
             "tech": [
               "Python",
@@ -37,17 +47,15 @@
               "Angular2"
             ],
             "list": [
-              "Implemented code to collect data from in-house and vendor sources (like Jira, BitBucket, Splunk, Sonar, etc.), analyze it and present it to devs (badges to encourage best practices) and to upper management (metrics/charts to guide decision-making).",
-              "Developed and overhauled UI/UX of a Jira self-service web app.",
-              "Developed web app used for querying and viewing agile/devops metrics.",
+              "Developed code to collect data from in-house and vendor sources (like Jira, BitBucket, Splunk, Sonar, etc.), analyze it and present it to devs (badges to encourage best practices) and to upper management (metrics/charts to guide decision-making).",
+              "Developed several self-service web apps (querying agile/devops metrics, JIRA admin).",
               "Improved devops processes within the team (Jenkins jobs, pull request validation, etc.)."
             ]
           },
           {
             "year": "2017-2019",
             "title": "Programmer @ Framestore VR",
-            "link": "/projects/2019-02-03/",
-            "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
+            "tech": ["C++", "Python", "Jenkins", "P4", "UE4"],
             "list": [
               "Developed Unreal Engine 4 plugin for importing art assets from Shotgun/P4.",
               "Developed system to detect changed assets, generate and upload turntables for review."
@@ -56,18 +64,9 @@
           {
             "year": "2016-2017",
             "title": "Programmer @ Borealys Games",
-            "link": "/projects/2017-05-18/",
-            "tech": [
-              "C#",
-              "Python",
-              "TeamCity",
-              "Unity",
-              "Xbox",
-              "Playstation"
-            ],
+            "tech": ["C#", "Python", "TeamCity", "Unity"],
             "list": [
-              "Responsible for optimization, API integration and build automation for all platforms.",
-              "Developed UI/UX, gameplay systems and real-time debugging tools."
+              "Developed UI/UX, gameplay systems, time debugging tools and build automation."
             ]
           },
           {
@@ -86,8 +85,7 @@
           {
             "list": [
               "<a href=\"https://github.com/strategineer/speedrun-tools-peb\">Pig Eat Ball Speedrunning Tool<a/>: Pig Eat Ball game mod for speedrunning (C#).",
-              "<a href=\"/blog/2022-01-26/\">Marcus Aurelius' Meditations Explorer<a/>: web app to help study/share the Meditations (JS).",
-              "<a href=\"https://github.com/strategineer/discord-bot\">Tabletop RPG Chatbot<a/>: chatbot to help play a tabletop RPG with friends online (JS/node)."
+              "<a href=\"/blog/2022-01-26/\">Marcus Aurelius' Meditations Explorer<a/>: web app to help study/share the Meditations (JS)."
             ]
           }
         ]
@@ -110,7 +108,7 @@
     ]
   },
   "fr": {
-    "name": "Bill Christian Tyros",
+    "name": "Bill Tyros",
     "title": "Ingénieur logiciel",
     "sidebar_section": [
       {
@@ -150,7 +148,6 @@
           {
             "year": "2017-2019",
             "title": "Programmeur - Framestore VR",
-            "link": "/projects/2019-02-03/",
             "tech": ["C++", "Python", "Jenkins", "P4", "Shotgun", "UE4"],
             "list": [
               "Développé un plugin UE4 pour l'importation d'art provenant de Shotgun et P4 avec un clique.",
@@ -162,7 +159,6 @@
           {
             "year": "2016-2017",
             "title": "Programmeur - Borealys Games",
-            "link": "/projects/2017-05-18/",
             "tech": ["C#", "Python", "TeamCity", "Unity"],
             "list": [
               "Responsable pour le développement multiplatforme; infra et optimization pour PS4 et Xbox One.",
