@@ -28,9 +28,8 @@
             "title": "Senior Software Engineer @ Sonder",
             "tech": ["Python", "PostgreSQL"],
             "list": [
-              "Grew revenue across the business by building and maintaining the revenue management system allowing for pricing inventory through automation.",
-              "Led overhaul of team's planning ceremonies to improve dev ownership of work.",
-              "Built Asana Kanban board template copied/used company-wide dozens of times."
+              "Grew revenue across the business by building and maintaining Sonder's dynamic pricing system.",
+              "Headed team to build a new dynamic pricing system to integrate with a third party PMS."
             ]
           },
           {
@@ -85,7 +84,7 @@
           {
             "list": [
               "<a href=\"https://github.com/strategineer/speedrun-tools-peb\">Pig Eat Ball Speedrunning Tool<a/>: Pig Eat Ball game mod for speedrunning (C#).",
-              "<a href=\"/blog/2022-01-26/\">Marcus Aurelius' Meditations Explorer<a/>: web app to help study/share the Meditations (JS)."
+              "<a href=\"https://strategineer.com/blog/2022-01-26/\">Marcus Aurelius' Meditations Explorer<a/>: web app to help study/share the Meditations (JS)."
             ]
           }
         ]
@@ -183,7 +182,7 @@
             "tech": ["C#", "JS", "node", "reverse engineering"],
             "list": [
               "<a href=\"https://github.com/strategineer/speedrun-tools-peb\">Outil speedrun pour Pig Eat Ball <a/>: un outil pour le jeu Pig Eat Ball pour améliorer l'expérience de speedrun en utilisant de la rétro-ingénierie (C#).",
-              "<a href=\"/blog/2022-01-26/\">Explorateur des méditations de Marcus Aurelius<a/>: une application web permettant aux utilisateurs d'étudier et de partager les méditations de Marcus Aurelius (JS).",
+              "<a href=\"https://strategineer.com/blog/2022-01-26/\">Explorateur des méditations de Marcus Aurelius<a/>: une application web permettant aux utilisateurs d'étudier et de partager les méditations de Marcus Aurelius (JS).",
               "<a href=\"https://github.com/strategineer/discord-bot\">Chatbot Tabletop RPG<a/>: un chatbot pour m'aider à jouer à un RPG de table avec des amis en ligne (JS)."
             ]
           }
