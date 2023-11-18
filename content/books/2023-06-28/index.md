@@ -8,7 +8,9 @@ books/tags:
     - "science-fiction"
 ---
 **"They think."**
+
 **"Not thinking like us, though."**
+
 **"Well that's to be expected."**
 
 *Minor spoilers below about the basic premise of the series/novel*
