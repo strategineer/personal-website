@@ -1,7 +1,7 @@
 ---
-title: "Eyes of the Void"
-author: "Adrian Tchaikovsky"
-date: 2023-11-05
+title: "The Consuming Fire"
+author: "John Scalzi"
+date: 2023-08-06
 star_rating: 5
 books/tags:
     - "fiction"

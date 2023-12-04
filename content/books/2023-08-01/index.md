@@ -1,7 +1,7 @@
 ---
-title: "Eyes of the Void"
-author: "Adrian Tchaikovsky"
-date: 2023-11-05
+title: "The Collapsing Empire"
+author: "John Scalzi"
+date: 2023-08-01
 star_rating: 5
 books/tags:
     - "fiction"
