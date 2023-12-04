@@ -7,7 +7,7 @@ books/tags:
     - "fiction"
     - "fantasy"
 ---
-**spoiler alert** It was an enjoyable romp but doesn't necessarily hit the highs of the previous books in the series. As the third and final(ish) book in the series I was expecting something a little bit more. Or maybe I was expecting a little bit less, a more tightly edited and polished story. Either would have been nice.
+{{% spoiler %}}It was an enjoyable romp but doesn't necessarily hit the highs of the previous books in the series. As the third and final(ish) book in the series I was expecting something a little bit more. Or maybe I was expecting a little bit less, a more tightly edited and polished story. Either would have been nice.{{% /spoiler %}}
 
 Here's some thoughts:
 
