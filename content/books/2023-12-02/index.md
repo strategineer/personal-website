@@ -6,4 +6,5 @@ star_rating: 0
 weight: 1
 books/tags:
     - "fiction"
+    - "fantasy"
 ---

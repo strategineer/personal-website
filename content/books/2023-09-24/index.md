@@ -16,8 +16,7 @@ I enjoyed it quite a bit. It's fun, it's cute and it subverts enough tropes to k
 
 In both of her novels, Xiran portrays main characters who commit murder (and other crimes against humanity) but it's ok because "the ends justify the means". These characters are the heroes of the novels so we're supposed to be rooting for them despite these murders they've committed for the "greater good".
 
-Sidenote: [ Technically nobody actually dies in Zachary Ying and The Dragon Emperor, a book for twelve year olds, but only technically. Our memories make us who we are, if you take away 2000 years of memories from someone, don't ask, you've killed that version of them.
-(hide spoiler)]
+Sidenote: Technically nobody actually dies in Zachary Ying and The Dragon Emperor, a book for twelve year olds, but only technically. Our memories make us who we are, if you take away 2000 years of memories from someone, don't ask, you've killed that version of them.
 
 Xiran's novels also make reference to other heinous crimes against humanity that aren't justified and are portrayed as such like ancient Chinese foot binding rituals and the Chinese genocide of the Muslim Uyghurs in Xinjiang.
 

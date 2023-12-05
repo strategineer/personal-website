@@ -45,9 +45,9 @@ There are many conversations in this book where each character seems to know eve
 
 Obviously, all books are written this way. But an author's job is to convince the reader that these characters actually exist, each having their own goals, behaviors, etc. and aren't just mindless puppets controlled entirely by the author.
 
-You could argue that this awful writing is explained by the premise of the book. The fact that [the story is narrated by a god in a universe where a god's words have power and in saying something it becomes true. (hide spoiler)]
+You could argue that this awful writing is explained by the premise of the book. The fact that the story is narrated by a god in a universe where a god's words have power and in saying something it becomes true.
 
-However, even if that's the case, I dislike when books have premises that explain away the author's inability to write well (refer to [I'm Thinking of Ending Things by Iain Reid (hide spoiler)] for another example of this)
+However, even if that's the case, I dislike when books have premises that explain away the author's inability to write well (refer to I'm Thinking of Ending Things by Iain Reid for another example of this)
 
 Is everything in this book terrible? No. But it's hard for me to focus on the OK parts of the book because the bad parts are so bad.
 
