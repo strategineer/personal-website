@@ -1,5 +1,5 @@
 ---
-title: "Collapsing Empire"
+title: "The Collapsing Empire"
 author: "John Scalzi"
 date: 2023-09-20
 star_rating: 4
