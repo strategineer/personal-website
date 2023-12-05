@@ -1,6 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-$colors: #00080F #f2f2f2 #1a0dab #FFFFFF;	
+$colors: #00080F #f2f2f2 #1a0dab #FFFFFF;
 
 $bg_dark: nth($colors, 2);
 $bg_light: nth($colors, 4);
@@ -14,11 +14,14 @@ $link_highlight: nth($colors, 1);
         background: $bg_light;
         color: $color_base;
     }
-    .table td, .table th {
+
+    .table td,
+    .table th {
         color: $color_base;
     }
+
     a,
-    a > li {
+    a>li {
         color: $link_base;
 
         &:focus,
@@ -30,16 +33,27 @@ $link_highlight: nth($colors, 1);
     }
 }
 
-@page
-{
-    size: auto;   /* auto is the initial value */
+@page {
+    size: auto;
+    /* auto is the initial value */
 
     /* this affects the margin in the printer settings */
     margin: 1mm 1mm 1mm 1mm;
 }
 
 @media print {
-    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot, .cv-download-link, .menu-buttons {
+
+    header,
+    footer,
+    aside,
+    nav,
+    form,
+    iframe,
+    .menu,
+    .hero,
+    .adslot,
+    .cv-download-link,
+    .menu-buttons {
         display: none !important;
     }
 
@@ -48,9 +62,11 @@ $link_highlight: nth($colors, 1);
         color: black;
     }
 
-    .table td, .table th {
+    .table td,
+    .table th {
         color: black;
     }
+
     a {
         color: $link_print;
 
@@ -93,8 +109,8 @@ h6 {
 .next-article-link {
     text-align: center;
     white-space: nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Footer */
@@ -110,7 +126,7 @@ h6 {
     padding-right: 0;
 }
 
-hr + ol {
+hr+ol {
     padding-left: 0;
 }
 
@@ -130,7 +146,7 @@ hr + ol {
     margin-bottom: 1em;
 }
 
-.footer-shortlist-title{
+.footer-shortlist-title {
     margin-top: 0.25em;
 }
 
@@ -142,11 +158,11 @@ hr + ol {
     text-align: center
 }
 
-.footer-shortlist-parent > .footer-shortlist-list {
+.footer-shortlist-parent>.footer-shortlist-list {
     display: inline-block;
 }
 
-.footer-shortlist-list{
+.footer-shortlist-list {
     width: 100%;
     font-size: 0.95rem;
     padding-inline-start: 0px;
@@ -155,13 +171,13 @@ hr + ol {
 
 
 .img-paranoia {
-  margin: 2px;
+    margin: 2px;
 }
 
-.footer-shortlist-item{
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
+.footer-shortlist-item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: 1rem;
     margin-left: 0;
 }
@@ -169,14 +185,16 @@ hr + ol {
 .footer-shortlist-archive {
     font-size: 1rem;
     margin-left: 0;
- }
+}
 
 .table {
     border-collapse: collapse;
 }
-.table td, .table th {
-    border:1px solid $bg_dark;
-    padding:.50em;
+
+.table td,
+.table th {
+    border: 1px solid $bg_dark;
+    padding: .50em;
 }
 
 // Journals
@@ -185,6 +203,7 @@ blockquote {
     background: $bg_dark;
     border: 2px $bg_dark;
     border-style: solid;
+
     p {
         margin-left: 0.5em;
         color: $color_base;
@@ -201,8 +220,9 @@ p {
 }
 
 .post-summary {
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    border-style: none none dashed none;
 }
 
 .mermaid {
@@ -220,8 +240,11 @@ p {
 }
 
 
-a:focus, a:hover, a:visited, a:link, a:active
-{
+a:focus,
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
 }
 
@@ -232,8 +255,8 @@ a:focus, a:hover, a:visited, a:link, a:active
     font-size: larger;
 }
 
-.notes > ul,
-.notes > ol,
+.notes>ul,
+.notes>ol,
 .post-bullet-list {
     padding-left: 0;
 }
@@ -263,9 +286,11 @@ a.cv-anchor {
     top: -75px;
     visibility: hidden;
 }
-.cv-name{
+
+.cv-name {
     margin-top: .4em;
 }
+
 .cv-content {
     margin-top: .5em;
 }
@@ -322,6 +347,7 @@ a.cv-anchor {
 figure {
     margin: 0 0 0 0;
 }
+
 .no-margin {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -357,17 +383,17 @@ figure {
     margin: .25em;
 }
 
-.btn-toolbar{
-  text-align: center;
+.btn-toolbar {
+    text-align: center;
 }
 
 // Captions for images, videos, audio files and youtube embeds
-dd > em,
-img + em ,
-video + p > em,
-blockquote + p > em,
-div + p > em,
-div > em,
+dd>em,
+img+em,
+video+p>em,
+blockquote+p>em,
+div+p>em,
+div>em,
 .caption {
     text-align: center;
     display: block;
@@ -395,7 +421,7 @@ li {
     cursor: pointer;
     border-radius: 50%;
     position: fixed;
-    bottom: 15px; 
+    bottom: 15px;
     z-index: 99;
 }
 
@@ -408,10 +434,10 @@ li {
 }
 
 // Bootstrap tweak
- 
+
 .list-inline-item {
-  margin-left: 0.75rem;
-  margin-right: 0;
+    margin-left: 0.75rem;
+    margin-right: 0;
 }
 
 .readable-footer {
@@ -419,15 +445,15 @@ li {
 }
 
 .btn-light,
-.btn-outline-dark{
-  background-color: white;
+.btn-outline-dark {
+    background-color: white;
 }
 
 .btn-light:hover,
 .btn-outline-dark:hover {
-  color: #fff;
-  background-color: white;
-  border-color: #000;
+    color: #fff;
+    background-color: white;
+    border-color: #000;
 }
 
 .offcanvas {
@@ -439,79 +465,91 @@ li {
     --#{$prefix}offcanvas-border-width: 0;
 }
 
-  
 
-@include media-breakpoint-down(xs) { 
-}
-@include media-breakpoint-down(sm) { 
+
+@include media-breakpoint-down(xs) {}
+
+@include media-breakpoint-down(sm) {
     .desktop-only {
         display: none;
     }
 }
+
 // On md size and down, the third column (tags) is not shown therefore hide the next columns border.
-@include media-breakpoint-down(md) { 
+@include media-breakpoint-down(md) {
+
     .table tr td:nth-last-child(2),
-    .table tr th:nth-last-child(2){
+    .table tr th:nth-last-child(2) {
         border-right: 0;
     }
 }
-@include media-breakpoint-down(lg) { 
-}
-@include media-breakpoint-down(xl) { 
-}
 
-@include media-breakpoint-up(xs) { 
+@include media-breakpoint-down(lg) {}
+
+@include media-breakpoint-down(xl) {}
+
+@include media-breakpoint-up(xs) {
+
     p,
     li,
     em {
         font-size: 1.1rem;
     }
+
     .cv-main-entry-title {
         font-size: 1.02rem;
     }
+
     .cv-main-title {
         font-size: 1.2rem;
     }
 }
-@include media-breakpoint-up(sm) { 
-}
-@include media-breakpoint-up(md) { 
+
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {
+
     // Center the navbar menu options when they are not collapsed.
     .navbar-nav.navbar-center {
         position: absolute;
         left: 50%;
         transform: translatex(-50%);
     }
+
     // Increase size when not on super small screen.
     p,
     li,
     em {
         font-size: 1.4rem;
     }
+
     // set the maximum with to allow for better readability.
     .readable {
         width: 860px;
     }
+
     // Fit columns to the data.
     .table {
         white-space: nowrap;
         width: 1%;
     }
+
     .cv-main-entry-title {
         font-size: 1.4rem;
     }
+
     .cv-main-title {
         font-size: 1.6rem;
     }
 }
 
-@include media-breakpoint-up(lg) { 
+@include media-breakpoint-up(lg) {
     .mobile-only {
         display: none;
     }
 }
 
-@include media-breakpoint-up(xl) { 
+@include media-breakpoint-up(xl) {
     .album {
         width: 1140px;
     }
