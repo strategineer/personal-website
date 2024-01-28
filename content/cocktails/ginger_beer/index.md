@@ -14,7 +14,7 @@ ingredients:
   - 1/2 tbsp citric acid (or wine maker's acid blend or lime or lemon juice)
   - 1 tsp yeast nutrient (optional but recommended)
   - 1/8 tsp yeast
-  - 4 tbsp of authentic maple syrup 
+  - 1/3 of a cup of authentic maple syrup 
 steps:
   - Start boiling water.
   - While water heats up, peel and slice the ginger into 1/8-inch thick pieces. Push down on the pieces with your knife to soften the ginger. Place into a cheesecloth/hop bag.
