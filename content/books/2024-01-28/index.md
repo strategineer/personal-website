@@ -27,7 +27,7 @@ Severian is biased, he disguises the truth, he's violent (he's a torturer after 
 
 The meta-ness of it all with Gene Wolfe writing a story about a fictional torturer in a far future for us, the current day, reader, with this torturer writing about himself from his biased and insane perspective for his audience is very compelling.
 
-I could spend hours discussing any randomly chosen paragraph from the first half of the Book of the New Sun. It's dense, multi-faceted and layered unlike anything I've ever read before. It's begging to be read multiple times over which I'm already planning to do despite only being halfway through the series as I write this.
+I could spend hours discussing any randomly chosen paragraph from the first half of the Book of the New Sun. It's dense, multi-faceted and layered unlike anything I've ever read. It's begging to be read multiple times over which I'm already planning to do despite only being halfway through the series as I write this.
 
 The first part of the The Book of the New Sun was published in 1980, way before the era of trigger warnings in novels. If you're sensitive to that, please inform yourself ahead of time before diving into this series because it's grim as hell and contains many events and themes that some people might find uncomfortable (and understandably so).
 
