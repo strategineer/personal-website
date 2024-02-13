@@ -17,13 +17,13 @@ if you prefer."**
 
 Shadow & Claw is an omnibus containing the first half of Gene Wolfe's Book of the New Sun which is a far future sci-fi fantasy epic following the story of Severian the torturer, a self described insane person who has trouble differentiating between reality, his memories and his dreams.
 
-An older Severian, sitting on his throne, starts writing the story of his life and how he came into the position of power he's, presumably, currently in. The story begins as a coming of age story where he describes his youth as an journeyman in the Torturer's Guild. Eventually, he leaves the Tower he has called home for his entire life and embarks on an adventure becoming an executioner for hire where he roams around, kills people for the state, meets a diverse cast of characters and discovers the, absolutely wild, world he lives in.
+An older Severian, sitting on his throne, starts writing the story of his life and how he came into the position of power he's, presumably, currently in. The story begins as a coming of age story with Severian describing his youth as an journeyman in the Torturer's Guild. Eventually, he leaves the Tower he has called home for his entire life and embarks on an adventure becoming an executioner for hire where he roams around, kills people for the state, meets a diverse cast of characters and discovers the, absolutely wild, world he lives in.
 
 Gene Wolfe is known for writing stories from the perspective of characters deeply embedded in the narrative. His Book of the New Sun is no exception. Severian doesn't ever do any exposition or go out his way to explain facets of his world that are obvious to him and obvious to the fictional audience he's writing the story for.
 
-This puts you as the reader in a state of perpetual confusion and forces you to constantly interpret the events, and re-interpret past events, in the novel as you are exposed to more and more contextual information and details revealed by Severian. This framing for the story combined with the far future setting as well Severian's, let's just say unreliability as a narrator, makes for a compelling read.
+Also, Severian is biased, he disguises the truth, he's not always paying attention to what he should be paying attention to and he can't tell the difference between his memories and his dreams.
 
-Severian is biased, he disguises the truth, he's violent (he's a torturer after all) and he treats people poorly. He sucks and you're not meant to like him. But his many faults add layers to the story he's telling you.
+All of this puts you as the reader in a state of perpetual confusion and forces you to constantly interpret the events, and re-interpret past events, in the novel as you are exposed to more and more contextual information and details revealed by Severian. This framing for the story combined with the far future setting as well Severian's, let's just say unreliability as a narrator, makes for a compelling read.
 
 The meta-ness of it all with Gene Wolfe writing a story about a torturer in a far future for us, the current day, reader, with this torturer writing about himself from his biased and insane perspective for his audience is very compelling.
 
@@ -31,4 +31,4 @@ I could spend hours discussing any randomly chosen paragraph from the first half
 
 The first part of the The Book of the New Sun was published in 1980, way before the era of trigger warnings in novels. If you're sensitive to that, please inform yourself ahead of time before diving into this series because it's grim as hell and contains many events and themes that some people might find uncomfortable (and understandably so).
 
-Barring that, I can recommend this series, or at least what I've read of it so far, to anyone interested in high concept sci-fi/fantasy stories with many mysteries to unravel as they progress.
+Barring that, I can recommend this series, or at least what I've read of it so far, to anyone interested in high concept yet grounded sci-fi/fantasy stories.
