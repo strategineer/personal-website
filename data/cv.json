@@ -26,10 +26,10 @@
           {
             "year": "2022-TBD",
             "title": "Senior Software Engineer @ Sonder",
-            "tech": ["Python", "PostgreSQL", "Ruby", "Ruby on Rails"],
+            "tech": ["Python", "Ruby", "Ruby on Rails", "PostgreSQL"],
             "list": [
-              "Developed/maintained dynamic pricing system.",
-              "Developed/maintained 3rd party distribution system to sync in-house inventory on Airbnb, Booking.com, Expedia, etc.",
+              "Developed/maintained dynamic pricing system to price inventory through automation based on supply/demand.",
+              "Developed/maintained 3rd party distribution system to sync inventory on Airbnb, Booking.com, Expedia, etc.",
               "Upgraded legacy codebase from RoR 5.2 to 7.1 and Ruby 2.7 to 3.0."
             ]
           },
