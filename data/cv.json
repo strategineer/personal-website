@@ -29,7 +29,7 @@
             "tech": ["Python", "PostgreSQL", "Ruby", "Ruby on Rails"],
             "list": [
               "Developed/maintained dynamic pricing system.",
-              "Developed/maintained 3rd party distribution code (Airbnb, Booking.com, Expedia, etc.).",
+              "Developed/maintained 3rd party distribution system to sync in-house inventory on Airbnb, Booking.com, Expedia, etc.",
               "Upgraded legacy codebase from RoR 5.2 to 7.1 and Ruby 2.7 to 3.0."
             ]
           },
