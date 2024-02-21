@@ -75,12 +75,10 @@
         "title": "Education",
         "list": [
           {
-            "year": "2015-2016",
             "title": "Interactive Real Time Systems Development",
             "hint": "University of Sherbrooke"
           },
           {
-            "year": "2012-2015",
             "title": "B.Sc. Software Engineering (Honours)",
             "hint": "McGill University"
           }
