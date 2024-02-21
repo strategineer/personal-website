@@ -23,7 +23,7 @@
             "year": "2022-Present",
             "title": "Senior Software Engineer @ Sonder",
             "list": [
-              "Developed dynamic pricing system in Python to price inventory through automation based on supply/demand.",
+              "Developed dynamic pricing system in Python to price inventory based on supply/demand.",
               "Developed 3rd party distribution system in Ruby to sync inventory on Airbnb, Booking.com, Expedia, etc.",
               "Maintained gigantic legacy Ruby on Rails codebase."
             ]
@@ -33,7 +33,7 @@
             "title": "Software Engineer @ Morgan Stanley",
             "list": [
               "Developed Python project to collect data from in-house and vendor sources (like Jira, BitBucket, Splunk, Sonar, etc.), analyze it and present it to devs (badges to encourage best practices) and to upper management (metrics/charts to guide decision-making).",
-              "Developed several self-service web apps in Typescript/Angular2 (querying agile/devops metrics, JIRA admin)."
+              "Developed self-service web apps in Typescript/Angular2 (querying agile/devops metrics, JIRA admin)."
             ]
           },
           {
