@@ -32,7 +32,7 @@
             "year": "2019-2022",
             "title": "Software Engineer @ Morgan Stanley",
             "list": [
-              "Developed system in Python to aggregate data from in-house and vendor sources, analyze it and present it to devs (badges to encourage best practices) and to upper management (metrics/charts to guide decision-making).",
+              "Developed system in Python to aggregate data from in-house and vendor sources, analyze it and present it to devs (badges to encourage best practices) and to management (metrics/charts to guide decision-making).",
               "Developed self-service web apps in Typescript/Angular2 (querying agile/devops metrics, JIRA admin)."
             ]
           },
