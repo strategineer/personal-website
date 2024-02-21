@@ -11,12 +11,8 @@
     "title": "Software Engineer",
     "sidebar_section": [
       {
-        "title": "Languages",
-        "list": ["Bilingual:", "English", "French"]
-      },
-      {
         "title": "Programming",
-        "list": ["Python", "Ruby", "JS", "C#", "C++", "Go"]
+        "list": ["Python", "Ruby", "Javascript", "C#", "C++", "Go"]
       }
     ],
     "main_section": [
@@ -24,57 +20,42 @@
         "title": "Work Experience",
         "list": [
           {
-            "year": "2022-TBD",
+            "year": "2022-Present",
             "title": "Senior Software Engineer @ Sonder",
-            "tech": ["Python", "Ruby", "Ruby on Rails", "PostgreSQL"],
             "list": [
-              "Developed/maintained dynamic pricing system to price inventory through automation based on supply/demand.",
-              "Developed/maintained 3rd party distribution system to sync inventory on Airbnb, Booking.com, Expedia, etc.",
-              "Upgraded legacy codebase from RoR 5.2 to 7.1 and Ruby 2.7 to 3.0."
+              "Developed dynamic pricing system in Python to price inventory through automation based on supply/demand.",
+              "Developed 3rd party distribution system in Ruby to sync inventory on Airbnb, Booking.com, Expedia, etc.",
+              "Maintained gigantic legacy Ruby on Rails codebase."
             ]
           },
           {
             "year": "2019-2022",
             "title": "Software Engineer @ Morgan Stanley",
-            "tech": [
-              "Python",
-              "Typescript",
-              "Jenkins",
-              "Flask",
-              "pandas",
-              "DB2",
-              "Sybase",
-              "Angular2"
-            ],
             "list": [
-              "Developed code to collect data from in-house and vendor sources (like Jira, BitBucket, Splunk, Sonar, etc.), analyze it and present it to devs (badges to encourage best practices) and to upper management (metrics/charts to guide decision-making).",
-              "Developed several self-service web apps (querying agile/devops metrics, JIRA admin).",
-              "Improved devops processes within the team (Jenkins jobs, pull request validation, etc.)."
+              "Developed Python project to collect data from in-house and vendor sources (like Jira, BitBucket, Splunk, Sonar, etc.), analyze it and present it to devs (badges to encourage best practices) and to upper management (metrics/charts to guide decision-making).",
+              "Developed several self-service web apps in Typescript/Angular2 (querying agile/devops metrics, JIRA admin)."
             ]
           },
           {
             "year": "2017-2019",
             "title": "Programmer @ Framestore VR",
-            "tech": ["C++", "Python", "Jenkins", "P4", "UE4"],
             "list": [
-              "Developed Unreal Engine 4 plugin for importing art assets from Shotgun/P4.",
-              "Developed system to detect changed assets, generate and upload turntables for review."
+              "Developed Unreal Engine 4 plugin in C++ for importing art assets from Shotgun into Perforce.",
+              "Developed automation code in Python to detect changed assets, generate and upload turntables for review."
             ]
           },
           {
             "year": "2016-2017",
             "title": "Programmer @ Borealys Games",
-            "tech": ["C#", "Python", "TeamCity", "Unity"],
             "list": [
-              "Developed UI/UX, gameplay systems, time debugging tools and build automation."
+              "Developed UI and various gameplay systems in Unity (C#) on Mages of Mystralia."
             ]
           },
           {
             "year": "2013-2014",
             "title": "Software Developer @ CAE",
-            "tech": ["C#", "ASP.NET", "HTML/CSS/JS", "PHP"],
             "list": [
-              "Developed web applications to help with project management and scheduling."
+              "Developed web apps in C#/Javascript to help with project management and scheduling."
             ]
           }
         ]
