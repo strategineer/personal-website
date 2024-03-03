@@ -1,8 +1,11 @@
 ---
-title: "Death with Interruptions"
-author: "Jose Saramago"
+title: "New Dark Age: Technology and the End of the Future"
+author: "James Bridle"
 date: 2024-03-02
-weight: 1
+star_rating: 5
 books/tags:
-    - "fiction"
+    - "non-fiction"
 ---
+Talks about a variety of technology related gigantic world ending issues we're facing.
+
+It's bleak but really well put together.
