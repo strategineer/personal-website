@@ -8,31 +8,13 @@
   },
   "en": {
     "name": "Bill Tyros",
-    "title": "Software Engineer",
-    "sidebar_section": [
-      {
-        "title": "Location",
-        "list": ["Montreal, Quebec, Canada"]
-      }
-    ],
+    "location": "Montreal, QC",
     "main_section": [
       {
         "list": [
           {
             "list": [
-              "I'm a software engineer with over 13 years of experience programming working in the video game industry, the VFX world, the financial sector and the hospitality industry.",
-              "I love my work. Ask me to do anything and I'll figure out how to do it."
-            ] 
-          }
-        ]
-      },
-      {
-        "title": "Skills / Technologies",
-        "list": [
-          {
-            "list": [
-              "Languages: Python, C#, Ruby, Go, Typescript, Javascript, C++",
-              "CI: Github Actions, Jenkins, Buddy, CircleCI"
+              "Software Engineer with over 13 years of experience in the video game industry, the VFX world, the financial sector and the hospitality industry."
             ] 
           }
         ]
@@ -70,6 +52,17 @@
             "list": [
               "Developed UI and various gameplay systems in Unity (C#) on Mages of Mystralia."
             ]
+          }
+        ]
+      },
+      {
+        "title": "Skills / Technologies",
+        "list": [
+          {
+            "list": [
+              "Languages: Python, C#, Ruby, Go, Typescript, Javascript, C++",
+              "CI: Github Actions, Jenkins, Buddy, CircleCI"
+            ] 
           }
         ]
       },
