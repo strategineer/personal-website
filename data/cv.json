@@ -11,16 +11,37 @@
     "title": "Software Engineer",
     "sidebar_section": [
       {
-        "title": "Programming",
-        "list": ["Python", "Ruby", "Javascript", "C#", "C++", "Go"]
+        "title": "Location",
+        "list": ["Montreal, Quebec, Canada"]
       }
     ],
     "main_section": [
       {
+        "list": [
+          {
+            "list": [
+              "I'm a software engineer with over 13 years of experience programming working in the video game industry, the VFX world, the financial sector and the hospitality industry.",
+              "I love my work. Ask me to do anything and I'll figure out how to do it."
+            ] 
+          }
+        ]
+      },
+      {
+        "title": "Skills / Technologies",
+        "list": [
+          {
+            "list": [
+              "Languages: Python, C#, Ruby, Go, Typescript, Javascript, C++",
+              "CI: Github Actions, Jenkins, Buddy, CircleCI"
+            ] 
+          }
+        ]
+      },
+      {
         "title": "Work Experience",
         "list": [
           {
-            "year": "2022-Present",
+            "hint": "2022-Present",
             "title": "Senior Software Engineer @ Sonder",
             "list": [
               "Developed dynamic pricing system in Python to price inventory based on supply/demand.",
@@ -29,33 +50,25 @@
             ]
           },
           {
-            "year": "2019-2022",
+            "hint": "2019-2022",
             "title": "Software Engineer @ Morgan Stanley",
             "list": [
-              "Developed system in Python to aggregate data from in-house and vendor sources, analyze it and present it to devs (badges to encourage best practices) and to management (metrics/charts to guide decision-making).",
+              "Developed system in Python to aggregate data from in-house and vendor sources, analyze and present it to devs (badges to encourage best practices) and to management (metrics/charts to guide decision-making).",
               "Developed self-service web apps in Typescript/Angular2 (querying agile/devops metrics, JIRA admin)."
             ]
           },
           {
-            "year": "2017-2019",
+            "hint": "2017-2019",
             "title": "Programmer @ Framestore VR",
             "list": [
-              "Developed Unreal Engine 4 plugin in C++ for importing art assets from Shotgun into Perforce.",
-              "Developed automation code in Python to detect changed assets, generate and upload turntables for review."
+              "Built an art asset pipeline for UE4, writing plugins in C++ and Python code to glue everything together."
             ]
           },
           {
-            "year": "2016-2017",
+            "hint": "2016-2017",
             "title": "Programmer @ Borealys Games",
             "list": [
               "Developed UI and various gameplay systems in Unity (C#) on Mages of Mystralia."
-            ]
-          },
-          {
-            "year": "2013-2014",
-            "title": "Software Developer @ CAE",
-            "list": [
-              "Developed web apps in C#/Javascript to help with project management and scheduling."
             ]
           }
         ]
@@ -65,8 +78,8 @@
         "list": [
           {
             "list": [
-              "<a href=\"https://github.com/strategineer/speedrun-tools-peb\">Pig Eat Ball Speedrunning Tool<a/>: Pig Eat Ball game mod for speedrunning (C#).",
-              "<a href=\"https://strategineer.com/blog/2022-01-26/\">Marcus Aurelius' Meditations Explorer<a/>: web app to help study/share the Meditations (JS)."
+              "<a href=\"https://github.com/strategineer/kaleidoslug\">Caves of Qud game mods coded in C# through reverse engineering / patching.</a>",
+              "<a href=\"https://github.com/strategineer/orangutan\">Tampermonkey scripts to link bookoutlet.ca with goodsreads.com to improve the browsing experience.</a>"
             ]
           }
         ]
@@ -75,12 +88,12 @@
         "title": "Education",
         "list": [
           {
-            "title": "Interactive Real Time Systems Development",
-            "hint": "University of Sherbrooke"
+            "hint": "2016",
+            "title": "Interactive Real Time Systems Development @ University of Sherbrooke"
           },
           {
-            "title": "B.Sc. Software Engineering (Honours)",
-            "hint": "McGill University"
+            "hint": "2015",
+            "title": "B.Sc. Software Engineering (Honours) @ McGill University"
           }
         ]
       }

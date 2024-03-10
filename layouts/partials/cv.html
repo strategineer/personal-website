@@ -58,10 +58,7 @@
               <div class="col text-left">
                 <div class="cv-main-entry-title">
                   {{ if $e.year }}
-                  {{ $e.year }}
-                  {{ end }}
-                  {{ if and (not (and $e.year $e.hint)) $e.title }}
-                  /
+                  {{ $e.year }} /
                   {{ end }}
                   {{ $e.title }}
                   {{ if $e.hint }}
