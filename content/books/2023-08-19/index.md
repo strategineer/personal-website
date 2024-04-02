@@ -1,6 +1,6 @@
 ---
 title: "The Essential Tao"
-author: "Thomas"
+author: "Thomas Cleary"
 date: 2023-08-19
 star_rating: 4
 books/tags:

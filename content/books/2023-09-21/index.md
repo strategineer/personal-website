@@ -14,11 +14,11 @@ As the oldest kid (11 years old) in his family, Gregor is tasked with taking car
 
 His grandmother lives with them and has Dementia (although Gregor doesn't know that's what it is).
 
-For the last year his grandma had been slipping in and out of reality. One minute she was clear as a bell and the next she was calling him Simon. Who was Simon? He had no idea.
+**For the last year his grandma had been slipping in and out of reality. One minute she was clear as a bell and the next she was calling him Simon. Who was Simon? He had no idea.**
 
 Gregor doesn't speak like a child, in a lot of ways he's a grown ass man in a boy's body. Children don't speak like this:
 
-"Great, Day One and I'm looking forward to a trip to the laundry room," Gregor thought. "By September, I'll probably be ecstatic when we get the phone bill."
+**"Great, Day One and I'm looking forward to a trip to the laundry room," Gregor thought. "By September, I'll probably be ecstatic when we get the phone bill."**
 
 This is fine because:
 1. It makes it easier for me to step into Gregor's shoes.
@@ -27,14 +27,13 @@ This is fine because:
 
 Gregor is old at heart and he's been through some shit. He's depressed as hell because he misses his dad.
 
-Gregor tried to remember the last time he'd felt as happy as Boots did with her ball. He had had some decent times over the past couple of years. [...] But if he was honest with himself, Gregor knew it had been years since he'd felt real happiness.
+**Gregor tried to remember the last time he'd felt as happy as Boots did with her ball. He had had some decent times over the past couple of years. [...] But if he was honest with himself, Gregor knew it had been years since he'd felt real happiness.**
 
 THIS IS A BOOK FOR CHILDREN, PLEASE SEND HELP!
 
 Not only has Gregor been through "some" shit, he's about to go through "the" shit because each book involves Gregor going on a military/diplomatic mission in a world at war, or about to be at war.
 
 Story spoilers for the end of the first book:
-(view spoiler)
 
 I know why this series is so important to me and blows me away whenever I read it. I experienced a lot of trauma as a kid, I'm not sure I've overcome that trauma by now but I know that it made me who I am today.
 
@@ -44,8 +43,8 @@ This series is great. Is it perfect? No. I find it a little odd that the books c
 
 This is at odds with the series's anti-war message because in a world where war is inevitable, the people involved in it shouldn't be held morally accountable for it. Right? If you're fated/forced to do something then you shouldn't be blamed for the consequences of your actions.
 
-I don't think Suzanne Collins is saying that wars in the real world are inevitable (they're not IMO) but these prophecies do weaken the series's anti-war message while also providing a driving force to thrust Gregor into the thick of things and propel the story in interesting directions.
+I don't think Suzanne Collins is saying that wars in the real world are inevitable but these prophecies do weaken the series's anti-war message while also providing a driving force to thrust Gregor into the thick of things and propel the story in interesting directions.
 
-Overall though, this story is a story to end all stories. It's so good. It's Suzanne Collins's best work and she wrote the Hunger Games (also pretty good IMO) so that's saying something.
+Overall though, this story is a story to end all stories. It's so good. It's Suzanne Collins's best work and she wrote the Hunger Games (also pretty good) so that's saying something.
 
 This story has no right to be this good. And yet it is. And I thank (insert your preferred deity here) every day for its existence.
