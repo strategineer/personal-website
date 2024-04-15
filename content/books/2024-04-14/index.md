@@ -1,14 +1,14 @@
 ---
 title: "We"
-author: "Yevgeny Zamyatin, Mirra Ginsburg"
+author: "Yevgeny Zamyatin"
 date: 2024-04-14
-weight: 1
+star_rating: 5
 books/tags:
     - "fiction"
     - "science-fiction"
 ---
 
-The translation I'm reading is based on an older version of the text (potentially censored in some way).
+The translation I'm reading by Mirra Ginsburg is based on an older version of the text (potentially censored in some way).
 
 I'd love to read a more recent translation if only to see how they deal with the racist black caricature character and other stuff.
 
