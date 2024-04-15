@@ -1,6 +1,6 @@
 ---
 title: "All's Well"
-author: "Mona Awad"
+authors: "Mona Awad"
 date: 2023-12-15
 star_rating: 4
 books/tags:

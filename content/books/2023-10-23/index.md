@@ -1,6 +1,6 @@
 ---
 title: "We Have Always Lived in the Castle"
-author: "Shirley Jackson"
+authors: "Shirley Jackson"
 date: 2023-10-23
 star_rating: 5
 books/tags:

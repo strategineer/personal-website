@@ -1,6 +1,6 @@
 ---
 title: "Monster of the Week"
-author: "Micheal Sands"
+authors: "Micheal Sands"
 date: 2022-08-17
 star_rating: 3
 books/tags:

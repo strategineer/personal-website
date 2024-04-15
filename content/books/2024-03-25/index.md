@@ -1,6 +1,6 @@
 ---
 title: "Ancient Legends, Mystic Charms and Superstitions of Ireland"
-author: "Lady Wylde"
+authors: "Lady Wylde"
 date: 2024-03-25
 star_rating: 2
 books/tags:

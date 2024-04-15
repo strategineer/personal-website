@@ -1,6 +1,6 @@
 ---
 title: "Amusing Ourselves to Death"
-author: "Neil Postman"
+authors: "Neil Postman"
 date: 2022-05-01
 star_rating: 5
 books/tags:

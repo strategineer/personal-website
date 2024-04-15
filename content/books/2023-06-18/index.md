@@ -1,6 +1,6 @@
 ---
 title: "A Conjuring of Light"
-author: "V. E. Schwab"
+authors: "V. E. Schwab"
 date: 2023-06-18
 star_rating: 4
 books/tags:

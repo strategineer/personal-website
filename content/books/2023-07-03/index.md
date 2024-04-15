@@ -1,6 +1,6 @@
 ---
 title: "Small Gods"
-author: "Terry Pratchett"
+authors: "Terry Pratchett"
 date: 2023-07-03
 star_rating: 4
 books/tags:

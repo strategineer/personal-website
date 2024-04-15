@@ -1,6 +1,6 @@
 ---
 title: "Wuthering Heights"
-author: "Emily Bronte"
+authors: "Emily Bronte"
 date: 2023-11-23
 star_rating: 1
 books/tags:

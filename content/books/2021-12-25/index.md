@@ -1,6 +1,8 @@
 ---
 title: "The Odyssey"
-author: "Homer (translated by Emily Wilson)"
+authors:
+    - "Homer"
+    - "Emily Wilson"
 date: 2021-12-25
 star_rating: 3
 books/tags:

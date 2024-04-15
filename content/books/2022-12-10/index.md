@@ -1,6 +1,8 @@
 ---
 title: "Good Omens"
-author: "Neil Gaiman and Terry Pratchett"
+authors:
+    - "Neil Gaiman"
+    - "Terry Pratchett"
 date: 2022-12-10
 star_rating: 3
 books/tags:

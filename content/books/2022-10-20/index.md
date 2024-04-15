@@ -1,6 +1,6 @@
 ---
 title: "The Boulder: A Philosophy for Bouldering"
-author: "Francis Sanzaro"
+authors: "Francis Sanzaro"
 date: 2022-10-20
 star_rating: 4
 books/tags:

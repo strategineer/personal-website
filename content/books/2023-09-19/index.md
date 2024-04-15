@@ -1,6 +1,6 @@
 ---
 title: "Empire of Wild"
-author: "Cherie Dimaline"
+authors: "Cherie Dimaline"
 date: 2023-09-19
 star_rating: 4
 books/tags:

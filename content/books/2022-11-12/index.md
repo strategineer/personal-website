@@ -1,6 +1,6 @@
 ---
 title: "Axiom's End"
-author: "Lindsay Ellis"
+authors: "Lindsay Ellis"
 date: 2022-11-12
 star_rating: 4
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "The Drifting Classroom"
-author: "Kazuo Umezz"
+authors: "Kazuo Umezz"
 date: 2021-07-01
 star_rating: 3
 books/tags:

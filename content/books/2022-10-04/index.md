@@ -1,6 +1,6 @@
 ---
 title: "Living Beyond Borders: Growing up Mexican in America"
-author: "Margarita Longoria"
+authors: "Margarita Longoria"
 date: 2022-10-04
 star_rating: 2
 books/tags:

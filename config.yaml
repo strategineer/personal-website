@@ -1,5 +1,5 @@
 params:
-  author:
+  authors:
     email: "me@strategineer.com"
     copyright-year: "2024"
     name: "Strategineer"
@@ -23,6 +23,7 @@ taxonomies:
   "recipe": "food/tags"
   "project": "projects/tags"
   "book": "books/tags"
+  "author": "authors"
 
 permalinks:
   posts: /:section/:year-:month-:day
@@ -32,6 +33,7 @@ permalinks:
   "recipe": /food/tags/:slug/
   "project": /projects/tags/:slug/
   "book": /books/tags/:slug/
+  "author": /authors/:slug/
 
 imaging:
   quality: 90

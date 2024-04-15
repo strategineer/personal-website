@@ -1,6 +1,6 @@
 ---
 title: "The Farthest Shore"
-author: "Ursula K. Le Guin"
+authors: "Ursula K. Le Guin"
 date: 2023-10-21
 star_rating: 3
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "Terminal Alliance"
-author: "Jim C. Hines"
+authors: "Jim C. Hines"
 date: 2023-08-17
 star_rating: 1
 books/tags:

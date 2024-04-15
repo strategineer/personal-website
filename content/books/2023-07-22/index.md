@@ -1,6 +1,6 @@
 ---
 title: "To Be Taught, If Fortunate"
-author: "Becky Chambers"
+authors: "Becky Chambers"
 date: 2023-07-22
 star_rating: 2
 books/tags:

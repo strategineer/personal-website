@@ -1,6 +1,8 @@
 ---
 title: "Performance Rock Climbing"
-author: "Dale Goddard and Udo Neumann"
+authors:
+    - "Dale Goddard"
+    - "Udo Neumann"
 date: 2022-09-18
 star_rating: 4
 books/tags:

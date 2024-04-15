@@ -1,6 +1,6 @@
 ---
 title: "A Gathering of Shadows"
-author: "V. E. Schwab"
+authors: "V. E. Schwab"
 date: 2023-08-18
 star_rating: 5
 books/tags:

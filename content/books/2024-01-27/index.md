@@ -1,6 +1,8 @@
 ---
 title: "The Iliad"
-author: "Homer"
+authors:
+    - "Homer"
+    - "Emily Wilson"
 date: 2024-01-27
 star_rating: 4
 books/tags:

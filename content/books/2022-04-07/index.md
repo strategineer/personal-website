@@ -1,6 +1,6 @@
 ---
 title: "Media Literacy"
-author: "W. James Potter"
+authors: "W. James Potter"
 date: 2022-04-07
 star_rating: 5
 books/tags:

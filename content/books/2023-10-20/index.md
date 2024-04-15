@@ -1,6 +1,6 @@
 ---
 title: "Blindness"
-author: "José Saramago"
+authors: "José Saramago"
 date: 2023-10-20
 star_rating: 5
 books/tags:

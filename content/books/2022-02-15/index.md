@@ -1,6 +1,8 @@
 ---
 title: "Meditations: A New Translation"
-author: "Marcus Aurelius (translated by Gregory Hays)"
+authors:
+    - "Marcus Aurelius"
+    - "Gregory Hays"
 date: 2022-02-15
 star_rating: 3
 books/tags:

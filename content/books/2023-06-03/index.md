@@ -1,6 +1,6 @@
 ---
 title: "Children of Ruin"
-author: "Adrian Tchaikovsky"
+authors: "Adrian Tchaikovsky"
 date: 2023-06-03
 star_rating: 4
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "Vicious"
-author: "V. E. Schwab"
+authors: "V. E. Schwab"
 date: 2023-09-27
 star_rating: 3
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "Network Effect"
-author: "Martha Wells"
+authors: "Martha Wells"
 date: 2023-07-16
 star_rating: 4
 books/tags:

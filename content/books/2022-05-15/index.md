@@ -1,6 +1,6 @@
 ---
 title: "Think"
-author: "Simon Blackburn"
+authors: "Simon Blackburn"
 date: 2022-05-15
 star_rating: 4
 books/tags:

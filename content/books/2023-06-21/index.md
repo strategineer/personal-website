@@ -1,6 +1,6 @@
 ---
 title: "The Galaxy, and the Ground Within"
-author: "Becky Chambers"
+authors: "Becky Chambers"
 date: 2023-06-21
 star_rating: 5
 books/tags:

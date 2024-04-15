@@ -1,6 +1,6 @@
 ---
 title: "The Light Brigade"
-author: "Kameron Hurley"
+authors: "Kameron Hurley"
 date: 2023-08-09
 star_rating: 4
 books/tags:

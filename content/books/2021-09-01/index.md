@@ -1,6 +1,6 @@
 ---
 title: "Understanding Power"
-author: "Noam Chomsky"
+authors: "Noam Chomsky"
 date: 2021-09-01
 star_rating: 5
 books/tags:

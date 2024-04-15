@@ -1,6 +1,6 @@
 ---
 title: "The Martian"
-author: "Andy Weir"
+authors: "Andy Weir"
 date: 2023-10-14
 star_rating: 4
 books/tags:

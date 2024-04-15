@@ -1,6 +1,6 @@
 ---
 title: "Games: Agency as Art"
-author: "C. Thi Nguyen"
+authors: "C. Thi Nguyen"
 date: 2022-09-14
 star_rating: 3
 books/tags:

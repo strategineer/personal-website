@@ -1,6 +1,8 @@
 ---
 title: "Roadside Picnic"
-author: "Arkady Strugatsky, Boris Strugatsky"
+authors:
+    - "Arkady Strugatsky"
+    - "Boris Strugatsky"
 date: 2024-04-03
 star_rating: 5
 books/tags:

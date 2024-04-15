@@ -1,6 +1,8 @@
 ---
 title: "We"
-author: "Yevgeny Zamyatin"
+authors:
+    - "Yevgeny Zamyatin"
+    - "Mirra Ginsburg"
 date: 2024-04-14
 star_rating: 5
 books/tags:

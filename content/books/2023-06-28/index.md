@@ -1,6 +1,6 @@
 ---
 title: "Children of Memory"
-author: "Adrian Tchaikovsky"
+authors: "Adrian Tchaikovsky"
 date: 2023-06-28
 star_rating: 5
 books/tags:

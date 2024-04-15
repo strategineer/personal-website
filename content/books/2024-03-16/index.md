@@ -1,6 +1,6 @@
 ---
 title: "Maybe Next Time"
-author: "Cesca Major"
+authors: "Cesca Major"
 date: 2024-03-16
 star_rating: 5
 books/tags:

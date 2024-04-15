@@ -1,6 +1,6 @@
 ---
 title: "The Raven Tower"
-author: "Ann Leckie"
+authors: "Ann Leckie"
 date: 2023-09-25
 star_rating: 1
 books/tags:

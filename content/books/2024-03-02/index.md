@@ -1,6 +1,6 @@
 ---
 title: "New Dark Age: Technology and the End of the Future"
-author: "James Bridle"
+authors: "James Bridle"
 date: 2024-03-02
 star_rating: 5
 books/tags:

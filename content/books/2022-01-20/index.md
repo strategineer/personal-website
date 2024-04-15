@@ -1,6 +1,6 @@
 ---
 title: "Because Internet"
-author: "Gretchen McCulloch"
+authors: "Gretchen McCulloch"
 date: 2022-01-20
 star_rating: 4
 books/tags:

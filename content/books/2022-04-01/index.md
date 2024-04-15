@@ -1,6 +1,6 @@
 ---
 title: "The Man Who Mistook His Wife for a Hat"
-author: "Oliver Sacks"
+authors: "Oliver Sacks"
 date: 2022-04-01
 star_rating: 3
 books/tags:

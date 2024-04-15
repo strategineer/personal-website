@@ -1,6 +1,6 @@
 ---
 title: "Doorways in the Sand"
-author: "Roger Zelazny"
+authors: "Roger Zelazny"
 date: 2023-07-29
 star_rating: 5
 books/tags:

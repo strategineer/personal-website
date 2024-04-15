@@ -1,6 +1,6 @@
 ---
 title: "The Anthropocene Reviewed"
-author: "John Green"
+authors: "John Green"
 date: 2022-02-01
 star_rating: 1
 books/tags:

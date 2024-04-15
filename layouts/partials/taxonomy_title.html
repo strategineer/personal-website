@@ -2,7 +2,17 @@
   <div class="row">
     <h1>
       <a href="/{{ .Data.Plural }}">
-            {{ humanize (pluralize .Data.Singular) }} tagged with '{{ .Title }}'
+            {{- $name := humanize (pluralize .Data.Singular) -}}
+            {{- $mid := "tagged with" -}}
+            {{- $title := add "'" .Title "'" -}}
+            {{- $is_authors := eq $name "Authors" -}}
+            {{- if eq $name .Title -}}
+            {{- $title = "" -}}
+            {{- $mid = "" -}}
+            {{- else if and $is_authors (ne .Title "Authors") -}}
+            {{- $name = "Books" -}}
+            {{- end -}}
+            {{- $name }} {{ $mid }} {{ $title }}
         </a>
     </h1>
   </div>

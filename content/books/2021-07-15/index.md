@@ -1,6 +1,6 @@
 ---
 title: "Remina"
-author: "Junji Ito"
+authors: "Junji Ito"
 date: 2021-07-15
 star_rating: 2
 books/tags:

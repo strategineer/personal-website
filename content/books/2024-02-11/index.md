@@ -1,6 +1,6 @@
 ---
 title: "Shadow & Claw: The First Half of The Book of the New Sun"
-author: "Gene Wolfe"
+authors: "Gene Wolfe"
 date: 2024-02-11
 star_rating: 5
 books/tags:

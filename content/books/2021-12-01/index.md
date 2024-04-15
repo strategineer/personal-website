@@ -1,6 +1,6 @@
 ---
 title: "The Greek Myths"
-author: "Robert Graves"
+authors: "Robert Graves"
 date: 2021-12-01
 star_rating: 4
 books/tags:

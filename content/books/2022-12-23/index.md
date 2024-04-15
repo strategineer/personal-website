@@ -1,6 +1,8 @@
 ---
 title: "Terraform: Watch/Worlds/Burn"
-author: "Brian Merchant (editor) and Claire L. Evans (editor)"
+authors:
+- "Brian Merchant"
+- "Claire L. Evans"
 date: 2022-12-23
 star_rating: 4
 books/tags:

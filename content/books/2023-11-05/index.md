@@ -1,6 +1,6 @@
 ---
 title: "Eyes of the Void"
-author: "Adrian Tchaikovsky"
+authors: "Adrian Tchaikovsky"
 date: 2023-11-05
 star_rating: 5
 books/tags:

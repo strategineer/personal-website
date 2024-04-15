@@ -1,4 +1,5 @@
 {{ if not .Params.exclude_from_summary }}
+{{ $is_authors := eq .Section "authors" }}
 {{ $is_books := eq .Section "books" }}
 {{ $is_ramble_blog_post := and (eq .Section "blog")  (in (index .Params "blog/tags") "ramble") }}
 <article class="post-summary">
@@ -36,11 +37,23 @@
       <h2 class="summary-title">
         <a href='{{ .Permalink }}'>
           {{ .Render "title_text" }}
-          {{ if $is_books -}} by {{ .Params.author }}{{- end -}}
+          {{ if $is_books -}}
+            {{ $authors := (.GetTerms "authors" ) }}
+              {{ if $authors }}
+              by
+              {{ $i := 0 }}
+              {{ range $authors }}
+                {{- if (ge $i 1) -}} , {{- end -}}
+                {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+                {{ $pretty_author }}
+                {{ $i = add $i 1 }}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
         </a>
       </h2>
       {{ if .Params.blurb }}
-        {{ .Params.blurb |  markdownify }}
+        {{ .Params.blurb | markdownify }}
           <div class="col float-right">
             {{ partial "try_tags" . }}
           </div>
@@ -54,7 +67,11 @@
               Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
               {{- end -}}
             {{- else -}}
-            {{- .Date.Format "Mon, Jan 2, 2006" }} - {{ .ReadingTime }}min read
+            {{- .Date.Format "Mon, Jan 2, 2006" }}
+            {{- $reading_time := .ReadingTime -}}
+              {{- if ne $reading_time 0 }}
+              - {{ $reading_time }}min read
+              {{- end -}}
             {{- end -}}
           </div>
           {{ if not $is_ramble_blog_post }}
@@ -65,6 +82,14 @@
         </div>
         {{ if not $is_ramble_blog_post }}
         {{ .Summary }}
+        {{- if $is_authors -}}
+        {{ $taxonomyObject := .Site.Taxonomies.authors }}
+        {{ $weightedPages := index $taxonomyObject (lower .Page.Data.Term) }}
+          {{ range $weightedPages }}
+            {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+            <a href="{{ .Permalink }}">{{ $pretty_book }}</a><br>
+            {{ end }}
+          {{ end }}
         {{ end }}
       {{ else }}
         ...

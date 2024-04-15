@@ -1,6 +1,6 @@
 ---
 title: "Iron Widow"
-author: "Xiran Jay Zhao"
+authors: "Xiran Jay Zhao"
 date: 2023-09-13
 star_rating: 5
 books/tags:

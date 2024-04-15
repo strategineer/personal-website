@@ -1,6 +1,6 @@
 ---
 title: "The Collapsing Empire"
-author: "John Scalzi"
+authors: "John Scalzi"
 date: 2023-09-20
 star_rating: 4
 books/tags:

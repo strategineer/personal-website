@@ -1,6 +1,6 @@
 ---
 title: "Terry Pratchett: A Life with Footnotes"
-author: "Rob Wilkins"
+authors: "Rob Wilkins"
 date: 2023-10-28
 star_rating: 4
 books/tags:

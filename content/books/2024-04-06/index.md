@@ -1,6 +1,6 @@
 ---
 title: "Tales from Earthsea"
-author: "Ursula K. Le Guin"
+authors: "Ursula K. Le Guin"
 date: 2024-04-06
 star_rating: 3
 books/tags:

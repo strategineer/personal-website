@@ -1,6 +1,6 @@
 ---
 title: "Norse Mythology"
-author: "Neil Gaiman"
+authors: "Neil Gaiman"
 date: 2021-12-15
 star_rating: 2
 books/tags:

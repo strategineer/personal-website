@@ -1,6 +1,6 @@
 ---
 title: "Tehanu"
-author: "Ursula K. Le Guin"
+authors: "Ursula K. Le Guin"
 date: 2024-03-27
 star_rating: 4
 books/tags:

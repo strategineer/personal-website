@@ -1,6 +1,9 @@
 ---
 title: "Aesthetic Life and Why It Matters (Thinking Art)"
-author: "Dominic Lopes, Bence Nanay, and Nick Riggle"
+authors:
+    - "Dominic Lopes" 
+    - "Bence Nanay"
+    - "Nick Riggle"
 date: 2022-10-03
 star_rating: 4
 books/tags:

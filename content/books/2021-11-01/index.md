@@ -1,6 +1,6 @@
 ---
 title: "On Writing"
-author: "Stephen King"
+authors: "Stephen King"
 date: 2021-11-01
 star_rating: 3
 books/tags:

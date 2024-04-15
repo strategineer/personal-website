@@ -1,6 +1,6 @@
 ---
 title: "A Darker Shade of Magic"
-author: "V. E. Schwab"
+authors: "V. E. Schwab"
 date: 2023-06-12
 star_rating: 5
 books/tags:

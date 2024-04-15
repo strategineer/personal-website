@@ -1,6 +1,6 @@
 ---
 title: "A Desolation Called Peace"
-author: "Arkady Martine"
+authors: "Arkady Martine"
 date: 2024-04-11
 star_rating: 1
 books/tags:

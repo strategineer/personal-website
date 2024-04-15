@@ -1,6 +1,6 @@
 ---
 title: "Wicked Ones"
-author: "Bandit Camp"
+authors: "Ben Nielson"
 date: 2022-11-01
 star_rating: 4
 books/tags:

@@ -1,6 +1,8 @@
 ---
 title: "Sandcastles"
-author: "Frederik Peeters and Pierre Oscar Levy"
+authors:
+- "Frederik Peeters"
+- "Pierre Oscar Levy"
 date: 2021-07-22
 star_rating: 1
 books/tags:

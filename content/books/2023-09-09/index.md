@@ -1,6 +1,6 @@
 ---
 title: "Neverwhere"
-author: "Neil Gaiman"
+authors: "Neil Gaiman"
 date: 2023-09-09
 star_rating: 1
 books/tags:

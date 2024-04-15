@@ -1,6 +1,6 @@
 ---
 title: "All the Names"
-author: "José Saramago"
+authors: "José Saramago"
 date: 2023-09-16
 star_rating: 5
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "Murder on the Orient Express"
-author: "Agatha Christie"
+authors: "Agatha Christie"
 date: 2023-10-29
 star_rating: 3
 books/tags:

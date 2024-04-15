@@ -1,6 +1,6 @@
 ---
 title: "Gregor The Overlander"
-author: "Suzanne Collins"
+authors: "Suzanne Collins"
 date: 2023-09-21
 star_rating: 5
 books/tags:

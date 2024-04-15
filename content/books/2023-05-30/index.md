@@ -1,6 +1,6 @@
 ---
 title: "Piranesi"
-author: "Susanna Clarke"
+authors: "Susanna Clarke"
 date: 2023-05-30
 star_rating: 5
 books/tags:

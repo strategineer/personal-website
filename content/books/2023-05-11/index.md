@@ -1,6 +1,6 @@
 ---
 title: "To Hold Up the Sky"
-author: "Cixin Liu"
+authors: "Cixin Liu"
 date: 2023-05-11
 star_rating: 3
 books/tags:

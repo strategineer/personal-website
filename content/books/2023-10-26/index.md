@@ -1,6 +1,6 @@
 ---
 title: "A Canticle for Leibowitz"
-author: "Walter M. Miller Jr."
+authors: "Walter M. Miller Jr."
 date: 2023-10-26
 star_rating: 0
 books/tags:

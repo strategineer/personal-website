@@ -1,6 +1,6 @@
 ---
 title: "A Memory Called Empire"
-author: "Arkady Martine"
+authors: "Arkady Martine"
 date: 2024-03-29
 star_rating: 5
 books/tags:

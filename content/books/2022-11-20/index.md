@@ -1,6 +1,6 @@
 ---
 title: "Truth of the Divine"
-author: "Lindsay Ellis"
+authors: "Lindsay Ellis"
 date: 2022-11-20
 star_rating: 3
 books/tags:

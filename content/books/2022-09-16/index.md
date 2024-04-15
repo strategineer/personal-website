@@ -1,6 +1,6 @@
 ---
 title: "9 out of 10 climbers make the same mistakes"
-author: "Dave Macleod"
+authors: "Dave Macleod"
 date: 2022-09-16
 star_rating: 1
 books/tags:

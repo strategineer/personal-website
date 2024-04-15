@@ -1,6 +1,8 @@
 ---
 title: "Heart: The City Beneath"
-author: "Grant Howitt and Christopher Taylor"
+authors:
+    - "Grant Howitt"
+    - "Christopher Taylor"
 date: 2022-08-16
 star_rating: 4
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "Solaris"
-author: "Stanislaw Lem"
+authors: "Stanislaw Lem"
 date: 2023-08-11
 star_rating: 5
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "Zachary Ying and the Dragon Emperor"
-author: "Xiran Jay Zhao"
+authors: "Xiran Jay Zhao"
 date: 2023-09-24
 star_rating: 5
 books/tags:

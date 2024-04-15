@@ -1,6 +1,6 @@
 ---
 title: "Gideon the Ninth"
-author: "Tamsyn Muir"
+authors: "Tamsyn Muir"
 date: 2023-10-18
 star_rating: 3
 books/tags:

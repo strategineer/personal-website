@@ -1,6 +1,6 @@
 ---
 title: "The Pig that Wants to be Eaten"
-author: "Julian Baggini"
+authors: "Julian Baggini"
 date: 2022-04-15
 star_rating: 2
 books/tags:

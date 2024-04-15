@@ -1,6 +1,8 @@
 ---
 title: "Self Coached Climber"
-author: "Dan Hague and Douglas Hunter"
+authors:
+    - "Dan Hague"
+    - "Douglas Hunter"
 date: 2022-09-15
 star_rating: 4
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "Cassandra in Reverse"
-author: "Holly Smale"
+authors: "Holly Smale"
 date: 2023-06-17
 star_rating: 5
 books/tags:

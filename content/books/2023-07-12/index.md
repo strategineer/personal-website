@@ -1,6 +1,6 @@
 ---
 title: "Thud!"
-author: "Terry Pratchett"
+authors: "Terry Pratchett"
 date: 2023-07-12
 star_rating: 5
 books/tags:

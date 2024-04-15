@@ -1,6 +1,6 @@
 ---
 title: "Space Opera"
-author: "Catherynne M. Valente"
+authors: "Catherynne M. Valente"
 date: 2023-06-07
 star_rating: 4
 books/tags:

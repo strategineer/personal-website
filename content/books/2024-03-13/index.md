@@ -1,6 +1,6 @@
 ---
 title: "The Futurological Congress"
-author: "Stanislaw Lem"
+authors: "Stanislaw Lem"
 date: 2024-03-13
 star_rating: 5
 books/tags:

@@ -1,6 +1,6 @@
 ---
 title: "The Colour of Magic"
-author: "Terry Pratchett"
+authors: "Terry Pratchett"
 date: 2022-11-28
 star_rating: 5
 books/tags:

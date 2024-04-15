@@ -1,6 +1,6 @@
 ---
 title: "Night"
-author: "Elie Wiesel"
+authors: "Elie Wiesel"
 date: 2022-03-01
 star_rating: 5
 books/tags:

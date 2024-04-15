@@ -1,6 +1,6 @@
 ---
 title: "All Systems Red"
-author: "Martha Wells"
+authors: "Martha Wells"
 date: 2023-07-06
 star_rating: 5
 books/tags:

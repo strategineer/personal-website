@@ -1,6 +1,6 @@
 ---
 title: "Words are my Matter"
-author: "Ursula K. Le Guin"
+authors: "Ursula K. Le Guin"
 date: 2023-09-23
 star_rating: 5
 books/tags:

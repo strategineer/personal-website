@@ -1,6 +1,8 @@
 ---
 title: "Mork Borg"
-author: "Free League Publishing"
+authors:
+    - "Pelle Nilsson"
+    - "Johan Nohr"
 date: 2022-11-02
 star_rating: 4
 books/tags:

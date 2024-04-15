@@ -1,6 +1,6 @@
 ---
 title: "The Mindbody Prescription"
-author: "John E. Sarno, M.D."
+authors: "John E. Sarno"
 date: 2022-08-01
 star_rating: 5
 books/tags:

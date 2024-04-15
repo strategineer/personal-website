@@ -1,6 +1,6 @@
 ---
 title: "Nine Lives"
-author: "William Dalrymple"
+authors: "William Dalrymple"
 date: 2022-03-15
 star_rating: 4
 books/tags:
