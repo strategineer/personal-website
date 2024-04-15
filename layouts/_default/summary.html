@@ -88,7 +88,7 @@
         <div class="row">
           {{ range $weightedPages }}
             {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-                  <div class="col-sm">
+                  <div class="col-sm-auto">
                     <div class="row">
                       <a href="{{ .Permalink }}">{{ $pretty_book }}</a>
                     </div>
