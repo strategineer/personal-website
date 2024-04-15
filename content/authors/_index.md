@@ -3,7 +3,7 @@ title: Authors
 is_readable: true
 cascade:
   header:
-    text: "Name's Strat; I read a lot of books, here's the authors who's books I've read."
+    text: "Name's Strat; I read a lot of books, here's the authors I've read."
   post_name: "book"
   resources:
     thumbnail: "thumbnail.*"

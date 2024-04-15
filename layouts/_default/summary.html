@@ -85,10 +85,22 @@
         {{- if $is_authors -}}
         {{ $taxonomyObject := .Site.Taxonomies.authors }}
         {{ $weightedPages := index $taxonomyObject (lower .Page.Data.Term) }}
+        <div class="row">
           {{ range $weightedPages }}
             {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-            <a href="{{ .Permalink }}">{{ $pretty_book }}</a><br>
+                  <div class="col-sm">
+                    <div class="row">
+                      <a href="{{ .Permalink }}">{{ $pretty_book }}</a>
+                    </div>
+                    <div class="row">
+                      {{ partial "try_star_rating" . }}
+                    </div>
+                    <div class="row">
+                      {{ partial "try_thumbnail_small" . }}
+                    </div>
+                  </div>
             {{ end }}
+          </div>
           {{ end }}
         {{ end }}
       {{ else }}
