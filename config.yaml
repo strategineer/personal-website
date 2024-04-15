@@ -1,5 +1,8 @@
-author:
-  name: "Strategineer"
+params:
+  author:
+    email: "me@strategineer.com"
+    copyright-year: "2024"
+    name: "Strategineer"
 
 baseURL: 'https://strategineer.com/'
 languageCode: 'en-us'

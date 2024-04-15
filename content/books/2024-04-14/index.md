@@ -27,3 +27,7 @@ Great works of art can be re-interpreted and re-evaluated throughout time. Art d
 ---
 
 My recent foray into slav sci fi (Stanislaw Lem's Solaris and The Futurological Congress, Strugatsky Brothers's Roadside Picnic and Yevgeny Zamyatin's We) has been quite fruitful. I've vibed with these works in a bunch of different ways. They've tended to be shorter works that don't waste time and are more than just a sequence of events like a lot of modern sci fi seems to be these days.
+
+---
+
+Low key goated. It's a great book, highly recommend this and I REALLY want to read another translation of the text.
