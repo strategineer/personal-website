@@ -5,23 +5,23 @@
   {{ if gt $t.Count 0 }}
   {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
   {{ if eq $p "authors" }}
-  <div class="row">
+  <div class="row align-items-center">
     <a href="{{ $t.Page.RelPermalink }}">
       <h1>{{ $t.Page.Title }}</h1>
     </a>
   </div>
-  <div class="row">
+  <div class="row align-items-center">
     {{ range $t.Pages }}
     {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-    <div class="col-sm-auto">
+    <div class="col">
       <a href="{{ .Permalink }}">
         <div class="row">
-          <div class="col-mx-auto">
+          <div class="col">
           {{ partial "try_star_rating" . }}
           </div>
         </div>
         <div class="row">
-          <div class="col-mx-auto">
+          <div class="col">
           {{ partial "try_thumbnail_small" . }}
           </div>
         </div>
