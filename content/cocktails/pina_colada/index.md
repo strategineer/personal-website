@@ -6,7 +6,7 @@ cocktails/tags:
   - rum
 weight: 4
 inspired_by: The Joy of Mixology by Gary Reagan (p. 264)
-blurb: I didn't use ripe pineapple and that messes up the cocktail. I'm going to have to try this one again...
+summary: I didn't use ripe pineapple and that messes up the cocktail. I'm going to have to try this one again...
 ingredients:
   - 2 oz Havana Club 3 Years rum
   - 4 1/2 oz (weight) super-ripe fresh pineapple chunks

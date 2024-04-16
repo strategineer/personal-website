@@ -4,7 +4,7 @@ date: 2022-05-14
 weight: 1
 food/tags:
   - low-effort-meal
-blurb: ...
+summary: ...
 servings: 1
 ingredients:
   - "1x Big Tortilla (about 11in / 28cm or bigger)"

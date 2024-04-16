@@ -5,7 +5,7 @@ cocktails/tags:
   - light
   - Tequila
 weight: 1
-blurb: Smooth and sweet but not too sweet.
+summary: Smooth and sweet but not too sweet.
 ingredients:
   - 2 oz golden tequila
   - 1 oz orgeat syrup

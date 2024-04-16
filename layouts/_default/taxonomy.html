@@ -3,9 +3,13 @@
 {{ end }}
 
 {{ define "main" }}
+  {{ if or (eq .Section "authors") (eq .Section "books")}}
+  {{ partial "all_tags.html" . }}
+  {{ else }}
   <div>
     {{ range .Pages }}
       {{ .Render "summary"}}
     {{ end }}
   </div>
+  {{ end }}
 {{ end }}

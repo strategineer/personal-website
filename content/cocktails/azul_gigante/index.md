@@ -5,7 +5,7 @@ cocktails/tags:
   - light
   - rum
 weight: 1
-blurb: "Refreshing big blue drink. Dangerously easy to drink."
+summary: "Refreshing big blue drink. Dangerously easy to drink."
 ingredients:
   - 2 oz dark rum
   - 1 oz blue curacao

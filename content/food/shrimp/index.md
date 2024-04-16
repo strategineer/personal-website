@@ -5,7 +5,7 @@ weight: 2
 food/tags:
   - communist
   - hot
-blurb: Shrimp, small but numerous, red through and through; best served on pasta with a white sauce.
+summary: Shrimp, small but numerous, red through and through; best served on pasta with a white sauce.
 servings: 4
 ingredients:
   - 625g Pacific White shrimp

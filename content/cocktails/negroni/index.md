@@ -6,7 +6,7 @@ cocktails/tags:
   - gin
 weight: 3
 inspired_by: The Joy of Mixology by Gary Reagan (p. 254)
-blurb: It tastes like mouthwash? But I like it?
+summary: It tastes like mouthwash? But I like it?
 ingredients:
   - 1 oz Tanqueray gin
   - 1 oz Campari

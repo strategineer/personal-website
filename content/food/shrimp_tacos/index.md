@@ -5,7 +5,7 @@ weight: 2
 food/tags:
   - hot
 inspired_by: "[https://www.yummly.com/recipe/Spicy-Shrimp-Tacos-1223822?prm-v1](https://www.yummly.com/recipe/Spicy-Shrimp-Tacos-1223822?prm-v1)"
-blurb: Spice up your life with spicy shrimp tacos.
+summary: Spice up your life with spicy shrimp tacos.
 servings: 4
 ingredients:
   - ~1 lbs shrimp (any sized shrimp will do but I prefer the larger ones)

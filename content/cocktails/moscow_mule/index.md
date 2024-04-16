@@ -7,7 +7,7 @@ cocktails/tags:
 exclude_from_summary: true
 weight: 5
 inspired_by: The Joy of Mixology by Gary Reagan (p. 253)
-blurb: TBD
+summary: TBD
 ingredients:
   - 2 oz vodka
   - 3 oz Fever Tree ginger beer

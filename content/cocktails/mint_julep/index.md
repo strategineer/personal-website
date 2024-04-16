@@ -6,7 +6,7 @@ cocktails/tags:
   - bourbon
 weight: 5
 inspired_by: The Joy of Mixology by Gary Reagan (p. 249-250)
-blurb: I don't like this drink.
+summary: I don't like this drink.
 ingredients:
   - 2 oz bourbon
   - 1 to 2 oz simple syrup

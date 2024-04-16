@@ -1,7 +1,7 @@
 ---
 title: Miscellaneous Links
 is_readable: true
-blurb: A bunch of links. What did you expect?
+summary: A bunch of links. What did you expect?
 ---
 - [My CV](/cv)
 - [My projects](/projects)

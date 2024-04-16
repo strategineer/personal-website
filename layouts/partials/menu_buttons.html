@@ -1,8 +1,11 @@
 {{ $active_class := "btn-outline-dark" }}
 {{ $inactive_class := "btn-light" }}
 {{ $is_food := hasPrefix .RelPermalink "/food/"}}
+
 {{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/"}}
-{{ $is_books := hasPrefix .RelPermalink "/books/"}}
+{{ $is_authors := hasPrefix .RelPermalink "/authors"}}
+{{ $is_books_tags := hasPrefix .RelPermalink "/books/tags"}}
+{{ $is_books := and (hasPrefix .RelPermalink "/books/") (not $is_books_tags) }}
 {{ $is_tools := hasPrefix .RelPermalink "/bin/"}}
 {{ $is_blog := or (hasPrefix .RelPermalink "/blog/") (eq .RelPermalink "/")}}
 {{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}} 
@@ -12,8 +15,13 @@
     <div class="btn-toolbar" role="toolbar" aria-label="Main Toolbar">
       <div class="btn-group btn-group-lg">
         <a href="/authors/">
-          <button type="button" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
+          <button type="button" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
             <img src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+          </button>
+        </a>
+        <a href="/books/tags">
+          <button type="button" class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}">
+            <img src="/icons/tag.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
           </button>
         </a>
         <a href="/books/">

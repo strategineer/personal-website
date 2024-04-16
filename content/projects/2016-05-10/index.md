@@ -6,7 +6,7 @@ projects/tags:
     - Unreal Engine
 is_important: true
 youtube_video_id: XzGEQkfpk9M
-blurb: Online multiplayer FPS.
+summary: Online multiplayer FPS.
 ---
 Get Out was developed using Unreal Engine 4 for my team's final project in the DDJV program at the University of Sherbrooke (Campus Longueuil).
 

@@ -5,7 +5,7 @@ projects/tags:
     - python
     - google sheets
     - gscript
-blurb: Stat Tracking for Artifact, the competitive card game.
+summary: Stat Tracking for Artifact, the competitive card game.
 ---
 Artifact Stat Tracker was developed using python and Google Sheets.
 

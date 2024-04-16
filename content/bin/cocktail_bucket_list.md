@@ -2,7 +2,7 @@
 title: Cocktail Bucket List
 has_header: true
 is_readable: true
-blurb: Cocktails I want to make some day.
+summary: Cocktails I want to make some day.
 ---
 Cocktails I have all (or almost) of the ingredients (including simple substitutions) that I would like to try.
 

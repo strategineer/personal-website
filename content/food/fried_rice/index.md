@@ -4,7 +4,7 @@ date: 2021-11-09
 weight: 2
 food/tags:
   - fried
-blurb: ...
+summary: ...
 servings: 4
 inspired_by: french youtube cooking man
 ingredients:

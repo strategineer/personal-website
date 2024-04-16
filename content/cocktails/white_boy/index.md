@@ -5,7 +5,7 @@ cocktails/tags:
   - light
   - gin
 weight: 1
-blurb: Smooth and sweet but not too sweet.
+summary: Smooth and sweet but not too sweet.
 ingredients:
   - 2 oz Bombay Saphire gin
   - 1 oz orgeat syrup

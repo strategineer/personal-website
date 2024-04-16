@@ -4,7 +4,7 @@ date: 2020-11-10
 weight: 4
 food/tags:
   - dip
-blurb: Unleash you inner greek god by enjoying this perfect tzatziki.
+summary: Unleash you inner greek god by enjoying this perfect tzatziki.
 servings: 12
 ingredients:
   - 1 large cucumber (grated, less seeds is good)

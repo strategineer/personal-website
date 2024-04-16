@@ -5,7 +5,7 @@ cocktails/tags:
   - light
   - whiskey
 weight: 2
-blurb: "A fruity sweet and sour drink. A lot of flavors in every sip."
+summary: "A fruity sweet and sour drink. A lot of flavors in every sip."
 ingredients:
   - 1 oz Jack Daniel's whiskey
   - 1/2 oz Campari 

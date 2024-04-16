@@ -10,7 +10,7 @@ youtube_video_id: 6bsPf994Nt0
 links:
     - "Play Now,https://store.steampowered.com/app/529660/Mages_of_Mystralia/"
 is_important: true
-blurb: Zelda-like action adventure game with an innovative spellcasting system on PC, PS4 and Xbox One.
+summary: Zelda-like action adventure game with an innovative spellcasting system on PC, PS4 and Xbox One.
 ---
 I worked at Borealys Games, an independent video game studio, from May 2016 until November 2017. I mostly worked on Mages of Mystralia but I also worked on other unannounced/cancelled projects.
 

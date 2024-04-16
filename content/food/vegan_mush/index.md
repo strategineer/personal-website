@@ -4,7 +4,7 @@ date: 2020-11-17
 weight: 3
 food/tags:
   - vegan
-blurb: Not a vegan turned into mush but a vegan mush that a vegan would approve of.
+summary: Not a vegan turned into mush but a vegan mush that a vegan would approve of.
 servings: 6
 ingredients:
   - 3 tbsp extra virgin olive oil

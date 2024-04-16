@@ -5,7 +5,7 @@ projects/tags:
     - python
 links:
     - "Read Code,https://github.com/strategineer/writerator"
-blurb: Random poetry generator using english language writing as reference data.
+summary: Random poetry generator using english language writing as reference data.
 ---
 A wise computer once told me, "Peremptory personal, Perpendiculars, Forestry spreadsheets zaniest."
 

@@ -5,7 +5,7 @@ exclude_from_summary: true
 weight: 5
 food/tags:
   - dip
-blurb:
+summary:
 servings: 4
 ingredients:
   - 1.5 cup (375mL) of milk

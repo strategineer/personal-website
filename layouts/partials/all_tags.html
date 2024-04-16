@@ -1,10 +1,16 @@
 {{ $p := .Section }}
+
+{{ if eq $p "books" }}
+{{ $p = "books/tags"}}
+{{ end }}
+
+
 {{ $taxonomy := index .Site.Taxonomies $p }}
 {{ $taxonomy = $taxonomy.ByCount }}
 {{ range $t := $taxonomy }}
   {{ if gt $t.Count 0 }}
   {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
-  {{ if eq $p "authors" }}
+  {{ if or (eq $p "authors") (eq $p "books/tags") }}
   <div class="row align-items-center">
     <a href="{{ $t.Page.RelPermalink }}">
       <h1>{{ $t.Page.Title }}</h1>

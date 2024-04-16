@@ -4,7 +4,7 @@ date: 2011-12-02
 projects/tags:
     - c_sharp
     - Windows Phone
-blurb: Windows Phone companion app for Pen and Paper roleplaying players.
+summary: Windows Phone companion app for Pen and Paper roleplaying players.
 ---
 I developed DnD Sidekick the end of 2012.
 

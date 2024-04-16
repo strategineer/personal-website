@@ -4,7 +4,7 @@ date: 2020-11-16
 weight: 3
 food/tags:
   - cheap
-blurb: Take a cheap frozen pizza and transform it into a decent frozen pizza.
+summary: Take a cheap frozen pizza and transform it into a decent frozen pizza.
 servings: 1
 ingredients:
   - 1 store-bought thin crust frozen pizza (ideally with some meat on it)

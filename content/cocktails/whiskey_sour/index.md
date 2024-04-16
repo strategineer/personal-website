@@ -6,7 +6,7 @@ cocktails/tags:
   - whiskey
 weight: 4
 inspired_by: The Joy of Mixology by Gary Reagan (p. 290)
-blurb: Another way to make bourbon enjoyable to drink.
+summary: Another way to make bourbon enjoyable to drink.
 ingredients:
   - 2 oz bourbon or rye whiskey
   - 1 oz fresh lemon juice

@@ -9,7 +9,7 @@ projects/tags:
     - Shotgun
     - Unreal Engine
 is_important: true
-blurb: VR subdivision within a special effects company focusing on developing high-end VR experiences.
+summary: VR subdivision within a special effects company focusing on developing high-end VR experiences.
 ---
 - Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click.
 - Developed a data-driven system for automating the generation of new projects in Perforce and Jenkins based on a project-specific specification of Perforce hierarchies of depots, streams and source branching strategies.

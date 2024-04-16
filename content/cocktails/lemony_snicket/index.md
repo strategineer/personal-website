@@ -5,7 +5,7 @@ cocktails/tags:
   - light
   - gin
 weight: 1
-blurb: Tastes like lemon, a little sour but not too sour. 
+summary: Tastes like lemon, a little sour but not too sour. 
 ingredients:
   - 2 oz Ungava gin
   - 1 oz triple sec

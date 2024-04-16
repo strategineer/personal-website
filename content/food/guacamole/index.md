@@ -4,7 +4,7 @@ date: 2020-11-09
 weight: 3
 food/tags:
   - dip
-blurb: Let the blood of your puny enemies flow while you enjoy this creamy guacamole.
+summary: Let the blood of your puny enemies flow while you enjoy this creamy guacamole.
 servings: 4
 ingredients:
   - 2 avocados (ripe)

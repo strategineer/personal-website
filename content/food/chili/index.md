@@ -4,7 +4,7 @@ date: 2021-10-17
 weight: 2
 food/tags:
   - dinner
-blurb: Chili.
+summary: Chili.
 servings: 8
 ingredients:
   - 1 onion, finely chopped

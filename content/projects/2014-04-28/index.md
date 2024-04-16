@@ -8,7 +8,7 @@ youtube_video_id: Y24-MfR2cBU
 links:
     - "Read Code,https://github.com/strategineer/experiments/tree/master/2014/04/ludum-dare-29"
     - "Play Now,https://github.com/strategineer/experiments/releases"
-blurb: Arcade racing game with procedurally generated levels.
+summary: Arcade racing game with procedurally generated levels.
 ---
 Billguk the Invasion Logistics Professional was developed using Unity in 48h during Ludum Dare 29 (theme: Beneath the Surface).
 

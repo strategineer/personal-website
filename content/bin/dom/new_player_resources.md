@@ -1,7 +1,7 @@
 ---
 title: "Dominions 5 - New Player Resources"
 is_readable: true
-blurb: "Are you new to Dominions 5? Here's some resources for you."
+summary: "Are you new to Dominions 5? Here's some resources for you."
 weight: 1
 ---
 # General

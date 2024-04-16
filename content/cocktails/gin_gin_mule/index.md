@@ -7,7 +7,7 @@ cocktails/tags:
   - mint
 weight: 1
 inspired_by: The Joy of Mixology by Gary Reagan (p. 213)
-blurb: Tastes like a less minty and more gingery Southside cocktail. It's dayum good.
+summary: Tastes like a less minty and more gingery Southside cocktail. It's dayum good.
 ingredients:
   - 3/4 oz fresh lime juice
   - 1 oz simple syrup

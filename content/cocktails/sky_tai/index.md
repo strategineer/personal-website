@@ -6,7 +6,7 @@ cocktails/tags:
   - rum
 weight: 2
 inspired_by: The Joy of Mixology by Gary Reagan (p. 237)
-blurb: A (slight) variation on the Mai Tai, a classic tropical cocktail that will make you feel like you're a pensioner living in Florida.
+summary: A (slight) variation on the Mai Tai, a classic tropical cocktail that will make you feel like you're a pensioner living in Florida.
 ingredients:
   - 1 oz fresh lime juice
   - 1 oz Havana Club 7 Years rum

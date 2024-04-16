@@ -4,7 +4,7 @@ date: 2021-10-17
 weight: 2
 food/tags:
   - dinner
-blurb: Falafel.
+summary: Falafel.
 servings: 12 falafels
 ingredients:
   - 4 tablespoons olive oil

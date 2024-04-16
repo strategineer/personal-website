@@ -5,7 +5,7 @@ projects/tags:
     - python
 links:
     - "Read Code,https://github.com/strategineer/lynchman"
-blurb: Tool for generating Beat Saber maps from audio files automatically.
+summary: Tool for generating Beat Saber maps from audio files automatically.
 ---
 Lynchman was developed with python. It can be used to compute data based on Beat Saber (a Virtual Reality rhythm game where you're tasked with using your arms to slice fast moving blocks in time with music) maps and using that data to generate maps automatically (using Markov Chains) for given song files.
 

@@ -6,7 +6,7 @@ cocktails/tags:
   - gin
 weight: 4
 inspired_by: "[https://jeffreymorgenthaler.com/lime-cordial/](https://jeffreymorgenthaler.com/lime-cordial/)"
-blurb: Limey and Giney. This drink prevents scurvy and that would be relevant information for you if you were a sailor 100+ years ago.
+summary: Limey and Giney. This drink prevents scurvy and that would be relevant information for you if you were a sailor 100+ years ago.
 ingredients:
   - 1 1/2 oz Tanqueray gin
   - 1 oz homemade lime juice cordial

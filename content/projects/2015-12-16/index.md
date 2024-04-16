@@ -5,7 +5,7 @@ projects/tags:
     - cpp
 is_important: true
 youtube_video_id: nBXTABJErkk
-blurb: 3D racing game with my own custom game engine (DX10 and PhysX).
+summary: 3D racing game with my own custom game engine (DX10 and PhysX).
 links:
     - "Read Code,https://github.com/strategineer/grand-turtle-racing"
     - "Play Now,https://github.com/strategineer/grand-turtle-racing/releases/tag/1.00"

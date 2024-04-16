@@ -4,7 +4,7 @@ date: 2020-11-18
 weight: 1
 food/tags:
   - dessert
-blurb: Heavenly melt-in-your-mouth cookies that even a Karen would enjoy.
+summary: Heavenly melt-in-your-mouth cookies that even a Karen would enjoy.
 servings: 24
 ingredients:
   - 1 cup butter, softened

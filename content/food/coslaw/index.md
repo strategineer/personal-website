@@ -4,7 +4,7 @@ date: 2022-11-12
 weight: 1
 food/tags:
   - yummy
-blurb: Some slaw.
+summary: Some slaw.
 ingredients:
   - 1/2 medium cabbage, thinly sliced
   - 2-3 medium carrots, peeled and shredded

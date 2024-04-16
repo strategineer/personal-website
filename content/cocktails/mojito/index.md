@@ -6,7 +6,7 @@ cocktails/tags:
   - rum
 weight: 1
 inspired_by: The Joy of Mixology by Gary Reagan (p. 252)
-blurb: Light and refreshing. Feels great to sip outside on a hot summer day.
+summary: Light and refreshing. Feels great to sip outside on a hot summer day.
 ingredients:
   - 4 lime wedges
   - 2 to 3 teaspoons of granulated sugar

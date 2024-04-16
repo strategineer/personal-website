@@ -2,7 +2,7 @@
 title: Music
 has_header: true
 is_readable: true
-blurb: Some bad music I made one day.
+summary: Some bad music I made one day.
 ---
 Here's all the music I've ever produced. I wasn't very prolific and I don't think any of it is great but here it is for posterity.
 

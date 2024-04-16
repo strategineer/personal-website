@@ -6,7 +6,7 @@ cocktails/tags:
   - "non-alcoholic"
 weight: 5
 inspired_by: https://www.reddit.com/r/Homebrewing/comments/p3fudz/basic_ginger_beer_recipe_for_anyone_curious/
-blurb: My homebrewed ginger beer recipe. It's really good. 
+summary: My homebrewed ginger beer recipe. It's really good. 
 ingredients:
   - 1 gallon water
   - 3 thumb-sized pieces organic ginger

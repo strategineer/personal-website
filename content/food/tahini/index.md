@@ -4,7 +4,7 @@ date: 2021-10-17
 weight: 4
 food/tags:
   - dip
-blurb: Tahini sauce.
+summary: Tahini sauce.
 servings: 2 cups
 ingredients:
   - 1/2 cup tahini sesame seed paste
