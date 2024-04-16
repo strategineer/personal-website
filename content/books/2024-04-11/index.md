@@ -192,6 +192,6 @@ But are you sure that you're really being honest with yourself?
 
 If you don't want to hear what I have to say, fine, but at least listen to Chad Le Guin. If we continue to accept slop like this, praise its greatness, and put it on a pedestal, publishers have no incentive to give authors and editors the time they need to do their best work.
 
-Maybe I'm wrong? Maybe this is really one of the best sci-fi novels of our generation?
+Maybe I'm wrong? Maybe this is really one of the best sci-fi novels of our generation? Maybe the author and the editor and everyone involved got all the time they needed to make A Desolation Called Peace the best it could be.
 
-If A Desolation Called Peace is the peak of what modern sci-fi can bring to the table, I don't want to read it anymore.
+Well then, if A Desolation Called Peace is the peak of what modern sci-fi can bring to the table, I don't want to read it anymore.
