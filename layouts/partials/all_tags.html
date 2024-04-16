@@ -10,7 +10,7 @@
       <h1>{{ $t.Page.Title }}</h1>
     </a>
   </div>
-  {{ if ne $t.Page.Summary "" }}
+  {{ if $t.Page.Summary }}
   <div class="row align-items-center">
     <p class="text-center">{{ $t.Page.Summary }}</p>
   </div>

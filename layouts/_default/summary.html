@@ -26,13 +26,13 @@
           <img class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}">
           {{ end }}
         </a>
+        <h2 class="summary-title text-center">
+          {{ partial "try_star_rating" . }}
+        </h2>
       </div>
     {{ end }}
   {{ end }}
-    <div class="col align-self-center">
-      <h2 class="summary-title text-center">
-          {{ partial "try_star_rating" . }}
-      </h2>
+    <div class="col-sm-8 align-self-center">
       <h2 class="summary-title">
         <a href='{{ .Permalink }}'>
           {{ .Render "title_text" }}
@@ -59,18 +59,10 @@
       {{ else if not .Params.use_album_summary }}
         <div class="row post-meta">
           <div class="col-auto align-self-center">
-            {{ if $is_books -}}
-              {{- if eq .Params.weight 1 -}}
-              Currently reading...
-              {{- else -}}
-              Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
-              {{- end -}}
-            {{- else -}}
             {{- .Date.Format "Mon, Jan 2, 2006" }}
             {{- $reading_time := .ReadingTime -}}
-              {{- if ne $reading_time 0 }}
-              - {{ $reading_time }}min read
-              {{- end -}}
+            {{- if ne $reading_time 0 }}
+            - {{ $reading_time }}min read
             {{- end -}}
           </div>
           {{ if not $is_ramble_blog_post }}
@@ -83,7 +75,18 @@
         {{ .Summary }}
         {{ end }}
       {{ else }}
-        ...
+      <div>
+      {{ if $is_books -}}
+        {{- if eq .Params.weight 1 -}}
+        Currently reading...
+        {{- else -}}
+        Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
+        {{- end -}}
+      {{- end -}}
+      </div>
+      <div>
+      {{ .Summary }}
+      </div>
       {{ end }}
   </div>
   <div class="row read-more">
