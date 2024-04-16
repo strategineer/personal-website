@@ -167,3 +167,31 @@ I should have listened. Maybe then I wouldn't be headed straight for the mental 
 Author's note: this review is a little satirical, please be chill
 
 NB: p. 404, O face due to great diplomacy by Mahit
+
+---
+
+I've written more than three thousand words between five different first drafts trying to explain exactly why reading A Desolation Called Peace made me so angry. Instead of fumbling with my words, I'll let Ursula K. Le Guin speak for me (quote taken from her essay The Stalin in the Soul).
+
+**Reading is not a passive reaction, but an action, involving the mind, the emotions, and the will. To accept trashy books because they are "best-sellers" is the same thing as accepting adulterated food, ill-made machines, corrupt government, and military and corporative tyranny, and praising them, and calling them the American Way of Life or the American Dream. It is a betrayal of reality. Every betrayal, every lie accepted, leads to the next betrayal and the next lie.**
+
+Suffice to say that I feel **betrayed**.
+
+It's clear to me from reading this book closely, that it was rushed to the printing press in an attempt to capitalize on the unexpected (but mostly deserved) acclaim received by the previous book in the series, A Memory Called Empire. With a bit more time in the oven, the sequel could have been fantastic, and yet here we are.
+
+Open the book on any page, put your finger anywhere to find:
+
+- Omnipresent awkward run-on sentences that are begging to be trimmed by a competent editor.
+- Multiple POV characters who all suffer from the same never ending stream of consciousness narrative voice that is a pain to read.
+- Some absolutely baffling ignorance about aliens, linguistics, the definition of the word "spy" and basic biology.
+
+I've rated the book 1 star although it's probably deserving of more (maybe a 2 or a 3), but I need to fight the good fight and do my part to pull this book back into the void where it belongs.
+
+If you enjoyed A Desolation Called Peace, great! Maybe you even rated it 5 stars? Fantastic. I'm truly glad you enjoyed it.
+
+But are you sure that you're really being honest with yourself?
+
+If you don't want to hear what I have to say, fine, but at least listen to Chad Le Guin. If we continue to accept slop like this, praise its greatness, and put it on a pedestal, publishers have no incentive to give authors and editors the time they need to do their best work.
+
+Maybe I'm wrong? Maybe this is really one of the best sci-fi novels of our generation?
+
+If A Desolation Called Peace is the peak of what modern sci-fi can bring to the table, I don't want to read it anymore.
