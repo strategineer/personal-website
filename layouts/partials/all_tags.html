@@ -10,6 +10,11 @@
       <h1>{{ $t.Page.Title }}</h1>
     </a>
   </div>
+  {{ if ne $t.Page.Summary "" }}
+  <div class="row align-items-center">
+    <p class="text-center">{{ $t.Page.Summary }}</p>
+  </div>
+  {{ end }}
   <div class="row align-items-center">
     {{ range $t.Pages }}
     {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
