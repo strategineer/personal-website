@@ -6,10 +6,7 @@
             {{- $mid := "tagged with" -}}
             {{- $title := add "'" .Title "'" -}}
             {{- $is_authors := eq $name "Authors" -}}
-            {{- if eq $name .Title -}}
-            {{- $title = "" -}}
-            {{- $mid = "" -}}
-            {{- else if and $is_authors (ne .Title "Authors") -}}
+            {{- if and $is_authors (ne .Title "Authors") -}}
             {{- $name = "Books" -}}
             {{- end -}}
             {{- $name }} {{ $mid }} {{ $title }}

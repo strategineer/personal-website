@@ -1,5 +1,4 @@
 {{ if not .Params.exclude_from_summary }}
-{{ $is_authors := eq .Section "authors" }}
 {{ $is_books := eq .Section "books" }}
 {{ $is_ramble_blog_post := and (eq .Section "blog")  (in (index .Params "blog/tags") "ramble") }}
 <article class="post-summary">
@@ -82,26 +81,6 @@
         </div>
         {{ if not $is_ramble_blog_post }}
         {{ .Summary }}
-        {{- if $is_authors -}}
-        {{ $taxonomyObject := .Site.Taxonomies.authors }}
-        {{ $weightedPages := index $taxonomyObject (lower .Page.Data.Term) }}
-        <div class="row">
-          {{ range $weightedPages }}
-            {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-                  <div class="col-sm-auto">
-                    <div class="row">
-                      <a href="{{ .Permalink }}">{{ $pretty_book }}</a>
-                    </div>
-                    <div class="row">
-                      {{ partial "try_star_rating" . }}
-                    </div>
-                    <div class="row">
-                      {{ partial "try_thumbnail_small" . }}
-                    </div>
-                  </div>
-            {{ end }}
-          </div>
-          {{ end }}
         {{ end }}
       {{ else }}
         ...

@@ -2,9 +2,7 @@
 {{ if $thumbnail }}
 
             {{ with $thumbnail.Resize "x200 webp" }}
-            <a href='{{ .RelPermalink }}'>
-              <img class="img-fluid rounded mx-auto" src="{{ .RelPermalink }}">
-            </a>
+            <img class="img-fluid rounded mx-auto" src="{{ .RelPermalink }}">
             {{ end }}
 
 {{ end }}
