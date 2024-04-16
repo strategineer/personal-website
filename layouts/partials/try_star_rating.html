@@ -2,4 +2,6 @@
    {{ $stars_unfilled := sub 5 (int .Params.star_rating) }}
    {{- strings.Repeat .Params.star_rating "⭐" -}}
    {{- strings.Repeat $stars_unfilled "▫️" -}}
+{{ else }}
+⠀⠀⠀⠀⠀
 {{ end }}
