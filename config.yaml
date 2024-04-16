@@ -10,7 +10,7 @@ title: "Strat"
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
-timeout: "600s"
+timeout: "60s"
 
 outputFormats:
   RSS:
