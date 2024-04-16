@@ -1,5 +1,5 @@
 ---
-title: "Aesthetic Life and Why It Matters (Thinking Art)"
+title: "Aesthetic Life and Why It Matters"
 authors:
     - "Dominic Lopes" 
     - "Bence Nanay"
