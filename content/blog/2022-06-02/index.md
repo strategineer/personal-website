@@ -3,7 +3,7 @@ title: "Sniper Elite 5's Axis Invasion Mode"
 date: 2022-06-02T21:04:25-04:00
 blog/tags:
     - gaming
-summary: Sniper Elite 5's multiplayer Axis Invasion mode is really cool and here's a few reasons why.
+summary: "Sniper Elite 5's multiplayer Axis Invasion mode is really cool and here's a few reasons why."
 ---
 - It's a Dark Souls-esque multiplayer mode.
 - But it's not "just" a Dark Souls multiplayer mode.
