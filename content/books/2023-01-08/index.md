@@ -5,7 +5,8 @@ date: 2023-01-08
 star_rating: 3
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "dystopian"
 summary: "Brave New World is a dystopian novel from 1932 about dystopian shit and it has a lot to say about the dystopia we're currently living in."
 ---
 Brave New World was on some kind of reading list when I was in high school (don't ask me why). I didn't understand much of it because I was reading it in French (French from France that is) and I lacked the vocabulary to fully understand even a quarter of the sentences I was reading.

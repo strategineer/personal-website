@@ -6,6 +6,7 @@ star_rating: 4
 books/tags:
     - "fiction"
     - "fantasy"
+    - "comic"
 ---
 Terry is dedicated to the bit. More than anything he is committed to creating absurd worlds that feel real. His work has aged beautifully because the world we live in is as absurd as it's ever been and it's only getting more absurd from here on out.
 

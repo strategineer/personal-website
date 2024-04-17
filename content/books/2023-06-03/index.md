@@ -5,7 +5,7 @@ date: 2023-06-03
 star_rating: 4
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 **"We're going on an adventure!"**
 

@@ -5,7 +5,7 @@ date: 2023-06-28
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 **"They think."**
 

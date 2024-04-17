@@ -7,7 +7,8 @@ date: 2022-12-23
 star_rating: 4
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "short story collection"
 summary: "A collection of science-fiction short stories that'll make you go \"huh, interesting...\" and might encourage you to think about how technology affects your life currently and how it might affect it in the not so distant future."
 ---
 I liked this one a lot.

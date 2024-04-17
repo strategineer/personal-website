@@ -5,7 +5,7 @@ date: 2023-06-07
 star_rating: 4
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 **Which of us are people and which of us are meat?**
 

@@ -5,7 +5,8 @@ date: 2023-07-22
 star_rating: 2
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "novella"
 ---
 Humm...
 

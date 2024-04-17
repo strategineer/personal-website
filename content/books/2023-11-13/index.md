@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "fantasy"
+    - "comic"
 ---
 It's a Terry Pratchett novel so that implies that it's pretty good. I liked this one quite a bit. After reading Thud! and enjoying that, I decided to start reading the entire Discworld City/Night Watch series. Captain Vimes, Carrot, Sergeant Colon and Nobby are great characters.
 

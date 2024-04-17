@@ -5,7 +5,7 @@ date: 2023-08-24
 star_rating: 5
 books/tags:
     - "fiction"
-    - "fantasy"
+    - "science fantasy"
 ---
 **spoiler alert** This novel suffers from middle book syndrome. It continues the story set up in the first book and, hopefully, sets up the third and final book.
 

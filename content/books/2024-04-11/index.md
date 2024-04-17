@@ -5,7 +5,7 @@ date: 2024-04-11
 star_rating: 1
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
     - "space opera"
     - "trash"
 ---

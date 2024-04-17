@@ -5,7 +5,7 @@ date: 2024-03-29
 star_rating: 4
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
     - "space opera"
     - "mystery"
 ---

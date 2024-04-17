@@ -5,7 +5,7 @@ date: 2023-07-13
 star_rating: 3
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 The Murderbot Diaries series so far have been extremely cyberpunk:
 - Murderbot hacks its own brain (or part of it) and tells us about it on page 1 of the first novella.

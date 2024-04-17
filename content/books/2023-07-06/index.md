@@ -5,7 +5,7 @@ date: 2023-07-06
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 summary: "All Systems Red is about a sentient robot-human hybrid, calling themselves Murderbot, a slave to a mega corporation, tasked with protecting the humans it's told to protect.
 "
 ---

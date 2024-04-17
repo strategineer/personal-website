@@ -5,7 +5,8 @@ date: 2023-09-13
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "young adult"
 ---
 Big robots,
 

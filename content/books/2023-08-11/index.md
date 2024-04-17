@@ -5,7 +5,9 @@ date: 2023-08-11
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "horror"
+    - "slavic"
 ---
 Fantastic genre-bending sci-fi.
 

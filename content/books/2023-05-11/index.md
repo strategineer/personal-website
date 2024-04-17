@@ -5,7 +5,8 @@ date: 2023-05-11
 star_rating: 3
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "short story collection"
 ---
 To Hold Up the Sky is a collection of short stories from Liu Cixin who's mostly known for his Three Body Problem trilogy.
 

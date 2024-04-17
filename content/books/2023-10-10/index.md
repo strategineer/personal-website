@@ -5,7 +5,7 @@ date: 2023-10-10
 star_rating: 4
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 Dawn - 5 stars
 Adulthood Rites - 3 stars

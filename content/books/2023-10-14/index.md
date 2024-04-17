@@ -5,7 +5,7 @@ date: 2023-10-14
 star_rating: 4
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 An astronaut is abandoned on Mars after a dust storm separates him from his crew. Through journal entries, he tells the story of how he tries to survive.
 

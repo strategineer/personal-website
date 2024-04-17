@@ -7,6 +7,7 @@ date: 2022-12-10
 star_rating: 3
 books/tags:
     - "fiction"
+    - "comic"
 summary: "A cool guy devil and a flamboyantly effeminate angel living on Earth try to stop the end times from happening because they've come to enjoy all of Earth's pleasures (mosly driving fast cars and reading, respectively). Also, there's the anti-christ, a descendant of a prophet who's predicted everything, some dude, etc. There's a lot going on here."
 ---
 On the heels of reading [the Colour of Magic](/books/2022-11-28/) and enjoying it a lot I decided to read Good Omens. I've read a lot of Neil Gaiman and I've enjoyed most of his work so I decided that it was about time I read this book.

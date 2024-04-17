@@ -7,7 +7,9 @@ date: 2024-04-14
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "dystopian"
+    - "slavic"
 ---
 
 The translation I'm reading by Mirra Ginsburg is based on an older version of the text (potentially censored in some way).

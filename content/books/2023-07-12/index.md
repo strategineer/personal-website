@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "fantasy"
+    - "comic"
 ---
 **It would be a lot simpler [...] if this was a story. A sword is pulled out of a stone or a magic ring is flung into the depths of the sea, and with general rejoicing the world turns.**
 

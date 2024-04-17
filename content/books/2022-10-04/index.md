@@ -5,8 +5,7 @@ date: 2022-10-04
 star_rating: 2
 books/tags:
     - "fiction"
-    - "poetry"
-    - "graphic novel"
+    - "short story collection"
 summary: "An anthology of short stories, comics, and poems from Mexican American authors."
 ---
 

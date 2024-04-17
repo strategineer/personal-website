@@ -5,7 +5,7 @@ date: 2023-10-18
 star_rating: 3
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fantasy"
 ---
 A murder mystery set in a Warhammer 40k-esque far far future universe setting with necromancy at the core of everything. Also it's horny but not explicitly so.
 

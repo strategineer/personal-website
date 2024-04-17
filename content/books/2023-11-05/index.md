@@ -5,7 +5,7 @@ date: 2023-11-05
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 Probably the best "second novel in a trilogy" that I've read in a while. To no one's surprise, Adrian Tchaikovsky is responsible.
 

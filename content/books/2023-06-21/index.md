@@ -5,7 +5,7 @@ date: 2023-06-21
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 The Galaxy, and the Ground Within is a science fiction novel about a diverse cast of characters from all over the galaxy, stuck at an inter-planetary truck stop for an indeterminate span of time, getting to know one another and helping each other overcome (or make peace with) problems in their personal lives.
 

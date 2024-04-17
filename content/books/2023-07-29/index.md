@@ -5,7 +5,7 @@ date: 2023-07-29
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fantasy"
 ---
 **The shake that passes will echo. The wave that recedes will come back. The mountain that rumbles will roar.**
 

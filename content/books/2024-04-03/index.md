@@ -7,7 +7,8 @@ date: 2024-04-03
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "slavic"
 ---
 
 I love the S.T.A.L.K.E.R. games! Especially the third one. It's a game I always come back to over the years.

@@ -5,5 +5,5 @@ date: 2024-04-02
 weight: 1
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---

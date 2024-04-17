@@ -5,7 +5,7 @@ date: 2023-08-17
 star_rating: 1
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
     - "trash"
 ---
 This book is a joke and not a very funny one. It fails completely in its stated goal of being funny.

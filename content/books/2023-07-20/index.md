@@ -6,4 +6,5 @@ star_rating: 3
 books/tags:
     - "fiction"
     - "fantasy"
+    - "comic"
 ---

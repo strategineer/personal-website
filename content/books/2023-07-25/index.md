@@ -5,7 +5,9 @@ date: 2023-07-29
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
+    - "detective fiction"
+    - "comic"
 ---
 **In fair puzzles there should always be a way out. But I saw no doorways in the sand, and try as I might I could not make the puzzle fall fair.**
 

@@ -5,10 +5,10 @@ date: 2024-03-13
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
-    - "comedy"
-    - "satire"
+    - "science fiction"
+    - "comic"
     - "horror"
+    - "slavic"
 ---
 
 Stanislaw Lem pops off once again. I'm blown away at how he can integrate all these disparate emotions and ideas into one novel. He did a similar thing for me with Solaris.

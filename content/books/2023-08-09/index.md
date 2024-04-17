@@ -5,7 +5,7 @@ date: 2023-08-09
 star_rating: 4
 books/tags:
     - "fiction"
-    - "science-fiction"
+    - "science fiction"
 ---
 **spoiler alert** The Light Brigade is a story about breaking people down and putting them back together again, both mentally and physically, to turn them into perfect soldiers/monsters.
 
