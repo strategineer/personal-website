@@ -23,7 +23,7 @@
   </div>
   {{ end }}
   <div class="row align-items-center">
-    {{ range ($t.Pages.ByParam "star_rating").Reverse }}
+    {{ range ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
     {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
     <div class="col">
       <a href="{{ .Permalink }}">
