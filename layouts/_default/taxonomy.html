@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ if or (eq .Section "authors") (eq .Section "books")}}
+  {{ if or (eq .Section "authors") (and (eq .Kind "taxonomy") (eq .Section "books"))}}
   {{ partial "all_tags.html" . }}
   {{ else }}
   <div>

@@ -5,9 +5,12 @@
             {{- $name := humanize (pluralize .Data.Singular) -}}
             {{- $mid := "tagged with" -}}
             {{- $title := add "'" .Title "'" -}}
-            {{- $is_authors := eq $name "Authors" -}}
-            {{- if and $is_authors (ne .Title "Authors") -}}
+            {{- if and (eq $name "Authors") (ne .Title "Authors") -}}
             {{- $name = "Books" -}}
+            {{- end -}}
+            {{- if and (eq $name "Books") (eq .Title "Tags") -}}
+            {{- $mid = "by genre" -}}
+            {{- $title = "" -}}
             {{- end -}}
             {{- $name }} {{ $mid }} {{ $title }}
         </a>

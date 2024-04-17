@@ -11,6 +11,7 @@
   {{ if gt $t.Count 0 }}
   {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
   {{ if or (eq $p "authors") (eq $p "books/tags") }}
+  {{ if ne $t.Page.Title "Fiction" }}
   <div class="row align-items-center">
     <a href="{{ $t.Page.RelPermalink }}">
       <h1>{{ $t.Page.Title }}</h1>
@@ -22,7 +23,7 @@
   </div>
   {{ end }}
   <div class="row align-items-center">
-    {{ range $t.Pages }}
+    {{ range ($t.Pages.ByParam "star_rating").Reverse }}
     {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
     <div class="col">
       <a href="{{ .Permalink }}">
@@ -40,6 +41,7 @@
     </div>
     {{ end }}
   </div>
+  {{ end }}
   {{ else }}
   <a href="{{ $t.Page.RelPermalink }}">
     <li> {{ humanize $pretty_tag }} </li>

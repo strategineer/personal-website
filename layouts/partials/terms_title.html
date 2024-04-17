@@ -3,7 +3,11 @@
     <h1>
       {{ $v := split .Data.Plural "/" }}
       <a href="/{{ index $v 0 }}">
-            All {{ .Data.Singular }} tags
+        {{ if ne .Data.Singular "author" }}
+          All {{ .Data.Singular }} tags
+        {{ else }}
+          Books by author
+        {{ end }}
         </a>
     </h1>
   </div>

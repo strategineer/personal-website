@@ -3,7 +3,7 @@ title: What's Strat reading?
 is_readable: true
 cascade:
   header:
-    text: "Name's Strat; I read a lot of books, here's where I share some thoughts on the books I've read."
+    text: "Name's Strat; I read a lot of books, here's my digital bookshelf sorted by genre."
   post_name: "book"
   resources:
     thumbnail: "thumbnail.*"
