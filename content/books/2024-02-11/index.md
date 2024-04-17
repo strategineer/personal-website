@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "science fantasy"
+    - "post-apocalyptic"
 ---
 
 **"What will you be, Severian? A torturer? You may leave the guild, you know,
