@@ -6,6 +6,7 @@ star_rating: 1
 books/tags:
     - "fiction"
     - "fantasy"
+    - "trash"
 ---
 *NB: "The Raven Tower" is one of the worst books I have ever read. I've only covered the tip of the iceberg in this review because reading through this book has left me completely drained of energy. Please don't read this book, it is beyond trash. If you really want to, I can't stop you but I really wish I could.*
 

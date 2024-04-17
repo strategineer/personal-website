@@ -5,6 +5,7 @@ date: 2023-10-25
 star_rating: 1
 books/tags:
     - "philosophy"
+    - "trash"
 ---
 Not my cup of tea. Philosophy should be understandable, this text is incomprehensible.
 

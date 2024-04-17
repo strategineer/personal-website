@@ -6,4 +6,5 @@ star_rating: 1
 books/tags:
     - "fiction"
     - "science-fiction"
+    - "trash"
 ---

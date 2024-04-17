@@ -5,6 +5,7 @@ date: 2023-09-09
 star_rating: 1
 books/tags:
     - "fiction"
+    - "trash"
 ---
 NB: I read the "Author's Preferred Text" version of this text published in 2016. I'm not certain what changes were made to the text compared to the original but just FYI.
 

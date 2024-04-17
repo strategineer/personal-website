@@ -6,8 +6,10 @@ star_rating: 1
 books/tags:
     - "fiction"
     - "science-fiction"
+    - "space opera"
+    - "trash"
 ---
-In working through my thoughts after reading this trashfire of a novel book, I wrote four first drafts of a review. They're incomplete but I'm posting them here mostly un-edited (just some typo fixes) for posterity. They're either too incomplete, too snarky, too snooty or too mean-spirited to post on Goodreads.
+In working through my thoughts after reading this trashfire of a novel book, I wrote five first drafts of a review. They're incomplete but I'm posting them here mostly un-edited (just some typo fixes) for posterity. They're either too incomplete, too snarky, too snooty or too mean-spirited to post on Goodreads.
 
 My ideal review would be very short, just focus on my complaints (the book was probably rushed to the printing press due to the unexpected acclaim received by the previous book and suffers from poor editing/polish especially in the middle of the text because of this) without giving any examples.
 

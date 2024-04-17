@@ -5,9 +5,8 @@ date: 2023-11-25
 star_rating: 1
 books/tags:
     - "philosophy"
+    - "trash"
 ---
 1. Conserve your semen.
 2. Achieve immortality.
 3. Rejoice.
-
-I'm on it!

@@ -6,6 +6,7 @@ star_rating: 1
 books/tags:
     - "non-fiction"
     - "climbing"
+    - "trash"
 summary: "A bunch of mistakes climbers (apparently) make and how to avoid them. Not as concrete and consise as I would like but if you're willing to filter out the fluff, there's some interesting information here."
 ---
 Less concrete and more philisophical than the [Self Coached Climber](/books/2022-09-15). It hides its interesting insights in a lot of fluff and repeated information.

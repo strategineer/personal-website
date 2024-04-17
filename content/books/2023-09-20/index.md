@@ -6,6 +6,7 @@ star_rating: 4
 books/tags:
     - "fiction"
     - "science-fiction"
+    - "space opera"
 ---
 Felt more like a soap opera than a space opera at times.
 

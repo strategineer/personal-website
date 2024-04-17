@@ -5,6 +5,7 @@ date: 2023-09-18
 star_rating: 1
 books/tags:
     - "philosophy"
+    - "trash"
 ---
 DNF 50%
 
