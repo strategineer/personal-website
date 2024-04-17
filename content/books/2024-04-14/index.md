@@ -12,13 +12,22 @@ books/tags:
     - "slavic"
 ---
 
+The much more interesting but lesser known dystopian novel that inspired George Orwell's 1984.
+
+Not as prophetic as Aldous Huxley's Brave New World but it's more consistently well written and has mostly aged better. 
+
+It's more open to interpretation than I was expecting. 
+
+<!--more--> 
+
+---
+
 The translation I'm reading by Mirra Ginsburg is based on an older version of the text (potentially censored in some way).
 
 I'd love to read a more recent translation if only to see how they deal with the racist black caricature character and other stuff.
 
 I'm about three quarters of the way through the text, so far so good.
 
-It's not as prophetic as Aldous Huxley's Brave New World but it's a much more interesting read than George Orwell's 1984.
 
 ---
 
