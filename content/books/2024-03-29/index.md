@@ -13,6 +13,8 @@ A Memory Called Empire has big "Hugo award winner" energy: an interesting premis
 
 I loved my time with it and very excited to dig into the next book in the series although I suspect that it won't be as good.
 
+<!--more--> 
+
 ---
 
 [I can confirm the second book was not as good. In fact, I think it's a trashfire.](/books/2024-04-11)
