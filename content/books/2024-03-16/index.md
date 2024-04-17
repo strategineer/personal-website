@@ -6,7 +6,6 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "romance"
-    - "time loop"
 ---
 
 This was the first romance novel I've read. It was fantastically written. The time loop conceit combined with the story being told interspersed with the love letters sent from the husband to his wife (the main character) over the course of their relationship as well as the text messages flooding the her phone was great.
