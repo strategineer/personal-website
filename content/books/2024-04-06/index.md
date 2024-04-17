@@ -2,11 +2,17 @@
 title: "Tales from Earthsea"
 authors: "Ursula K. Le Guin"
 date: 2024-04-06
-star_rating: 3
+star_rating: 4
 books/tags:
     - "fiction"
     - "fantasy"
 ---
+
+A collection of short stories and novellas set in the Earthsea setting that Ursula wrote to help her find out how to continue the story when prompted to do so by her publisher.
+
+There's some great stories here but I prefer the Earthsea novels to this generally (don't get me started on The Farthest Shore).
+
+<!--more--> 
 
 I've read through the two first stories so far and I'm beginning to wonder why Ursula is so fascinated by mages retaining their semen. It's a little wacky.
 
