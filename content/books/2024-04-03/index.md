@@ -13,7 +13,7 @@ books/tags:
 
 I love the S.T.A.L.K.E.R. games! Especially the third one. It's a game I always come back to over the years.
 
-I'm excited as hell to read through the original inspiration for the games.
+Reading through the original inspiration for the games was a real pleasure. 
 
 <!--more--> 
 
