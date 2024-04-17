@@ -4,7 +4,7 @@ authors: "James D'Amato"
 date: 2023-11-18
 star_rating: 4
 books/tags:
-    - "roleplaying"
+    - "tabletop roleplaying"
 ---
 It is what it says it is. Being a collection of a bunch small one shot tabletop RPGs means that their quality will vary and not all of them will be of interest to the people you play with.
 

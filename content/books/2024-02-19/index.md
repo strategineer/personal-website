@@ -5,7 +5,5 @@ date: 2024-02-19
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
-    - "deep future"
-    - "fantasy"
+    - "science fantasy"
 ---

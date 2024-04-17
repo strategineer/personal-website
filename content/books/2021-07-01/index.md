@@ -5,7 +5,7 @@ date: 2021-07-01
 star_rating: 3
 books/tags:
     - "fiction"
-    - "manga"
+    - "graphic novel"
 summary: "The Drifting Classroom is a Japanese horror manga series published from 1972 to 1974 that follows a school (and its students) that is mysteriously transported through time to a post-apocalyptic future."
 ---
 Everyone knows about Junji Ito but not many people know about the work of Kazuo Umezz and that's a shame.

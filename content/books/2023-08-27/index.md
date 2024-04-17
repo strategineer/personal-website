@@ -1,5 +1,5 @@
 ---
-title: "Feline Philosphy: Cats and the Meaning of Life"
+title: "Feline Philosophy: Cats and the Meaning of Life"
 authors: "John Gray"
 date: 2023-08-27
 star_rating: 2

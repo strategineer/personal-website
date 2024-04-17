@@ -4,7 +4,7 @@ authors: "Joshua Halberstam"
 date: 2023-09-18
 star_rating: 1
 books/tags:
-    - "philosphy"
+    - "philosophy"
 ---
 DNF 50%
 

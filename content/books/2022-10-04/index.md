@@ -6,7 +6,7 @@ star_rating: 2
 books/tags:
     - "fiction"
     - "poetry"
-    - "comic"
+    - "graphic novel"
 summary: "An anthology of short stories, comics, and poems from Mexican American authors."
 ---
 

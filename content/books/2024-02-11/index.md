@@ -5,9 +5,7 @@ date: 2024-02-11
 star_rating: 5
 books/tags:
     - "fiction"
-    - "science-fiction"
-    - "deep future"
-    - "fantasy"
+    - "science fantasy"
 ---
 
 **"What will you be, Severian? A torturer? You may leave the guild, you know,
