@@ -6,7 +6,9 @@ star_rating: 4
 books/tags:
     - "tabletop roleplaying"
 ---
-It is what it says it is. Being a collection of a bunch small one shot tabletop RPGs means that their quality will vary and not all of them will be of interest to the people you play with.
+A collection of small one shot tabletop RPGs. Their quality varies and not all of them will be interesting to the people you play with BUT there's some bangers in here.
+
+<!--more-->
 
 I read through all of them and picked out a few that seemed interesting, presented them to my group and we chose to play Unkindness, a game about adolescent ravens causing havoc and experiencing emotions.
 
