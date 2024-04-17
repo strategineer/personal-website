@@ -6,7 +6,6 @@ star_rating: 2
 books/tags:
     - "fiction"
     - "science fiction"
-    - "novella"
 ---
 Humm...
 
