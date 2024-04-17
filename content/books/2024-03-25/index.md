@@ -6,6 +6,7 @@ star_rating: 2
 books/tags:
     - "fiction"
     - "folklore"
+    - "DNF"
 ---
 A really tough read. I'm not sure who to blame exactly for how boring most of the parts of this book are: the British for their empire and the consequences of that on the Irish, the Catholics for influencing the Irish and warping their existing folkloric beliefs, or Lady Wylde herself for presenting these stories in a very blunt and uninteresting way.
 

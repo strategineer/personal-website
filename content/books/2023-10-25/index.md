@@ -6,6 +6,7 @@ star_rating: 1
 books/tags:
     - "philosophy"
     - "trash"
+    - "DNF"
 ---
 Not my cup of tea. Philosophy should be understandable, this text is incomprehensible.
 

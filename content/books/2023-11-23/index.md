@@ -6,6 +6,7 @@ star_rating: 1
 books/tags:
     - "fiction"
     - "trash"
+    - "DNF"
 ---
 DNF on page 7
 

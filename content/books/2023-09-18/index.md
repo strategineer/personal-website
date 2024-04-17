@@ -6,6 +6,7 @@ star_rating: 1
 books/tags:
     - "philosophy"
     - "trash"
+    - "DNF"
 ---
 DNF 50%
 

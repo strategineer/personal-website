@@ -6,6 +6,7 @@ star_rating: 0
 books/tags:
     - "fiction"
     - "post-apocalyptic"
+    - "DNF"
 ---
 Part 1: Amazing. Seems like this could have easily been an inspiration for the old school Fallout games I've always loved. Following one monk through the post-apocalypse is cool.
 

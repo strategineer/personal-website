@@ -6,6 +6,7 @@ star_rating: 1
 books/tags:
     - "philosophy"
     - "trash"
+    - "DNF"
 ---
 1. Conserve your semen.
 2. Achieve immortality.
