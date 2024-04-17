@@ -5,7 +5,7 @@ date: 2023-08-05
 star_rating: 4
 books/tags:
     - "fiction"
-    - "mystery"
+    - "detective fiction"
 ---
 Agatha Christie is described as the "Queen of Mystery" and the "Queen of Crime".
 

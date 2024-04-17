@@ -5,7 +5,7 @@ date: 2023-10-29
 star_rating: 3
 books/tags:
     - "fiction"
-    - "mystery"
+    - "detective fiction"
 ---
 Murder on the Orient Express is similar to Agatha Christie's Death on the Nile (the other Agatha Christie novel I've read recently).
 
