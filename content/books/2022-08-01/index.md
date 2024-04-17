@@ -2,10 +2,9 @@
 title: "The Mindbody Prescription"
 authors: "John E. Sarno"
 date: 2022-08-01
-star_rating: 5
+star_rating: 3
 books/tags:
     - "non-fiction"
-    - "health"
 summary: "As someone who's been suffering with chronic pain issues for years now, I'm always on the lookout for anything I can do to help myself feel less pain. Underneath all the quackery contained in this book there seems to be a grain of truth (for me, at least). It helped helped me reduce my chronic pain symptoms considerably in just a short amount of time. If you (or someone you know) suffers from chronic pain, I would highly recommend this book."
 ---
 The crux of the book is that for some people chronic pain is a Pavlovian response programmed into you shortly after suffering an injury, causing you pain ever after despite the inciting injury having been healed a long time ago.
