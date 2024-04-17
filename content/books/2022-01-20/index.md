@@ -5,7 +5,6 @@ date: 2022-01-20
 star_rating: 4
 books/tags:
     - "non-fiction"
-    - "linguistics"
 summary: "Because Internet: Understanding the New Rules of Language discusses how we express ourselves on the internet, how we got here and where we're going from the perspective of a linguist."
 ---
 I'm [always been in 💖 with words](/blog/2022-01-14/) but, somehow, I've gone through most of my life without studying linguistics at all.
