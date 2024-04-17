@@ -8,4 +8,13 @@ books/tags:
     - "science-fiction"
 summary: "spoiler alert"
 ---
-**spoiler alert** Gaslight, Manifest, Philosophize.
+Gaslight, Manifest, Philosophize.
+
+
+Gaslight, Manifest, Philosophize.
+
+
+Gaslight, Manifest, Philosophize.
+
+
+{{< spoiler >}} Gaslight, Manifest, Philosophize. {{< /spoiler >}}

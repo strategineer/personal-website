@@ -554,3 +554,17 @@ li {
         width: 1140px;
     }
 }
+
+
+.spoiler, .spoiler2, .spoiler a, .spoiler2 a{ 
+    color: black; 
+    background-color: black;
+}
+
+.spoiler:hover, .spoiler:hover a {
+    color: white;
+}
+
+.spoiler2:hover, .spoiler2:hover a { 
+    background-color:white; 
+}
