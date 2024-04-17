@@ -20,7 +20,9 @@ John Scalzi is an amazing writer; every few pages I would have to stop reading a
 
 He managed to immerse me in this universe with an empire on the verge of collapse that felt real(ish) and lived in by real(ish) people which kept me engaged and interested in seeing what would happen next.
 
-The POV characters are all great in their own ways and have such different voices which made reading their chapters fun. (view spoiler)
+<!--more-->
+
+The POV characters are all great in their own ways and have such different voices which made reading their chapters fun. {{< spoiler >}} All their story threads tie up neatly at the end of the book which I really appreciated. {{< /spoiler >}} 
 
 Kiva is the best though, she's completely absurd and definitely who I want to be when I grow up and become the rich nymphomaniac noble lady I'm meant to be.
 

@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "fantasy"
+    - "comic"
 summary: "An incompetent wizard is tasked with protecting a visitor visiting from a faraway land. A fantasy novel for people who don't like fantasy novels."
 ---
 

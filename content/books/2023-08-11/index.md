@@ -15,7 +15,11 @@ My mind's eye has never been very good so I rarely latch on to descriptions of t
 
 The space station's color scheme of white combined with stripes of vibrant colors lit by the alternating blue and red hues of the system's both suns was breathtaking.
 
-** SPOILERS AHEAD
+<!--more-->
+
+** SPOILERS AHEAD **
+
+{{< spoiler >}}
 
 The station's retrofuturism aesthetic (actual paper books in an actual library for example) combined with the disorder caused by the station's inhabitants slowly losing their minds (or are they?) contrasted beautifully with all of the above.
 
@@ -30,3 +34,5 @@ There's a few dozen pages of Kelvin reading deep lore about the planet and techn
 The text is a little dated in parts --- we've got at least one slur and a dated reference to autism ("autistic ocean" hehehehehehe lmaoooooooooo).
 
 Overall though, Solaris is a wild ride with a healthy helping of existential dread on the side that I'm really glad to have read. I can't wait to watch the 1972 movie (based on the book) by Andrei Tarkovsky!
+
+{{< /spoiler >}}

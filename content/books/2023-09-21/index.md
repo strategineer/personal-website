@@ -33,7 +33,11 @@ THIS IS A BOOK FOR CHILDREN, PLEASE SEND HELP!
 
 Not only has Gregor been through "some" shit, he's about to go through "the" shit because each book involves Gregor going on a military/diplomatic mission in a world at war, or about to be at war.
 
+<!--more-->
+
 Story spoilers for the end of the first book:
+
+{{< spoiler >}}
 
 I know why this series is so important to me and blows me away whenever I read it. I experienced a lot of trauma as a kid, I'm not sure I've overcome that trauma by now but I know that it made me who I am today.
 
@@ -44,6 +48,8 @@ This series is great. Is it perfect? No. I find it a little odd that the books c
 This is at odds with the series's anti-war message because in a world where war is inevitable, the people involved in it shouldn't be held morally accountable for it. Right? If you're fated/forced to do something then you shouldn't be blamed for the consequences of your actions.
 
 I don't think Suzanne Collins is saying that wars in the real world are inevitable but these prophecies do weaken the series's anti-war message while also providing a driving force to thrust Gregor into the thick of things and propel the story in interesting directions.
+
+{{< /spoiler >}}
 
 Overall though, this story is a story to end all stories. It's so good. It's Suzanne Collins's best work and she wrote the Hunger Games (also pretty good) so that's saying something.
 

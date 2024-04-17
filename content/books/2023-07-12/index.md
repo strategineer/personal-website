@@ -22,7 +22,11 @@ The choice to have the protagonist be a prototypical white man in a position of 
 
 Sam Vimes is an honest man doing the best he can but sometimes that's just not good enough. So, for me, throughout the novel, he flip-flopped between being the hero I was rooting for and the antihero I loved to hate.
 
+<!--more-->
+
 *Minor story spoilers*
+
+{{< spoiler >}}
 
 An example of this is when Sam Vimes suffers a particularly heinous attack from a few deep dwarves. He feels extremely angry and frustrated about this (rightfully so) but unfortunately he expresses that anger by mistreating other dwarves who had nothing to do with the attack.
 
@@ -31,6 +35,8 @@ This hits home for me because it's something we see time and time again in our o
 For example, post-911, Muslims around the world suffered from an increase in hate crimes against them. This is a tragedy because the actions of a few extremists (completely divorced from Islam) led to all this hate being directed towards the wrong people. Another more recent example of this was post-COVID, there was a similar increase in hate crimes towards Asian people who, obviously, had nothing to do with COVID, other than suffering because of it like everyone else.
 
 So when Vimes starts getting pissed at dwarves in the same way, it felt real.
+
+{{< /spoiler >}}
 
 Thud! is filled with situations like this; touching on issues like discrimination in the workplace, police brutality, racism, etc. that lend a weight to the story that isn't usually present in other Discworld novels. I'm really into it!
 

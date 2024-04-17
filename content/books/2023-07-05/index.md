@@ -6,9 +6,11 @@ star_rating: 1
 books/tags:
     - "fiction"
     - "trash"
-summary: "spoiler alert"
 ---
-**spoiler alert** SPOILER ALERT
+
+<!--more-->
+
+{{< spoiler >}}
 
 It's got a twist.
 
@@ -18,11 +20,15 @@ I loooooOooOoove twists.
 
 Especially when the foreshadowing of the twist is indistinguishable from terrible writing (absurd internal monologues, nonsensical dialogue between characters) on your first, and probably last, reading of the text.
 
-SPOILER ALERT
+{{< /spoiler >}}
 
 SPOILER ALERT
 
 SPOILER ALERT
+
+SPOILER ALERT
+
+{{< spoiler >}}
 
 Canonically, the book you're reading, except for the flashforward interstitials between most chapters, was written by an autistic man who kills himself by the end of the book (a truly inspirational tale, thank you so much for your service Iain).
 
@@ -33,3 +39,5 @@ I hesitate to say that this book is bad. For me, the way the story is told combi
 I think that "I'm thinking of ending things" is a good piece of art because of how confused and angry it makes me.
 
 Overall though, it's not for me.
+
+{{< /spoiler >}}

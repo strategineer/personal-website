@@ -6,15 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "science fiction"
-summary: "spoiler alert"
 ---
-Gaslight, Manifest, Philosophize.
-
-
-Gaslight, Manifest, Philosophize.
-
-
-Gaslight, Manifest, Philosophize.
-
+<!--more-->
 
 {{< spoiler >}} Gaslight, Manifest, Philosophize. {{< /spoiler >}}

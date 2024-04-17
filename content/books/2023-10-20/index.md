@@ -32,7 +32,9 @@ The prospect of losing it is appropriately terrifying. Blindness (the novel) tur
 
 Even with a very surface level reading of the novel, Blindness offers a compelling narrative with meaningful stakes and mostly believable world building that sinks its teeth into you and doesn't let go until the very end.
 
-I say mostly believable because for the most part everything that happens makes sense but I find it very hard to believe that (view spoiler)
+<!--more-->
+
+I say mostly believable because for the most part everything that happens makes sense but I find it very hard to believe that {{< spoiler >}}the doctor's wife, the only person who can see in the asylum, couldn't have prevented the horrific series of gang ra*es from happening a little earlier.{{< /spoiler >}}
 
 Always remember to put on your suspension of disbelief pants on before reading and you'll be just fine.
 

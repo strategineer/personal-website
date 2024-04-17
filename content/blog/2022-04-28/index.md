@@ -7,9 +7,15 @@ blog/tags:
 
 > The following text contains spoilers for the movie Turbo Kid (2015), reader discretion is advised.
 
+<!--more-->
+
+{{< spoiler >}}
 Let's get into a relatively quick but complete summary of the plot of Turbo Kid before I dive into some of my thoughts.
 
+
 [Feel free to skip ahead if you've recently watched the movie](#thoughts).
+
+
 
 # A quick summary
 
@@ -143,3 +149,6 @@ That's about it for now, I'm all juiced out.
 I might come back to this later and talk about how the machines in Turbo Kid are analogous to the big tech companies of our world, and that through their actions they've destroyed the world as we know it, have been instrumental in separating us from each other and have created the social wasteland we live in today.
 
 Yayyyyyyyyyyyyyyyyyyyyyyyyyyyyy.
+
+
+{{< /spoiler >}}
