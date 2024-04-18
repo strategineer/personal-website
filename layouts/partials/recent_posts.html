@@ -13,17 +13,16 @@
 {{ $pages = where $pages "Permalink" "!=" $current_page_permalink }}
 {{ if $pages }}
 <div class="d-flex justify-content-center footer-shortlist-title">
-  <h4>Recent {{ pluralize .Params.post_name }}</h4>
+  <span class="h4">Recent {{ pluralize .Params.post_name }}</span>
 </div>
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
     {{ range $pages | first $n_max }}
-      <a href="{{ .Permalink }}">
-
-        <li class="footer-shortlist-item">
+      <li class="footer-shortlist-item">
+        <a href="{{ .Permalink }}">
           {{ .Render "title_text" }}
-        </li>
-      </a>
+        </a>
+      </li>
     {{ end }}
     {{ $n_pages_left := sub (len $pages) $n_max }}
     {{ if $n_pages_left }}

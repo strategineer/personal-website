@@ -10,7 +10,7 @@
       <div class="row">
         <a href='{{ .Permalink }}'>
           {{ with $thumbnail.Resize "x200 webp" }}
-          <img loading="lazy" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
+          <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
           {{ end }}
         </a>
       </div>
@@ -23,7 +23,7 @@
       <div class="col">
         <a href='{{ .Permalink }}'>
           {{ with $thumbnail.Resize "x200 webp" }}
-          <img loading="lazy" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
+          <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
           {{ end }}
         </a>
         <h2 class="summary-title text-center">
