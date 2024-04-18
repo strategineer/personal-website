@@ -7,7 +7,11 @@ books/tags:
     - "fiction"
     - "fantasy"
 ---
-Way better than The Farthest Shore, which might be Ursula's worst work I've read so far. It's a sequel to both Tehanu and the Farthest Shore but I think you could probably skip The Farthest Shore and be OK with reading the rest of the series.
+A sequel to both The Tombs of Atuan and The Farthest Shore.
+
+Considering how uninteresting The Farthest Shore is, I'm confident saying that you can skip that book and go straight to Tehanu.
+
+<!--more--> 
 
 I've been reading the series alongside Ranged Touch Shelved by Genre podcast and it's been a lot of fun!
 

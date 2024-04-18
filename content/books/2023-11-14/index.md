@@ -9,6 +9,12 @@ books/tags:
 ---
 Feels like an Arthurian legend, a mix of fairy tales but grounded in a reality somewhat like our own with some fantastical twists layered into it.
 
+Short and sweet, deserving of all the praise it has received. 
+
+<!--more-->
+
+---
+
 Christ is implied to have existed in this universe so that's a little confusing. Where and when are we then? But it feels like an alternate fantastical reality.
 
 Inverting tropes: instead of a prince saving a princess, the princess wants to kill the prince and save her sister.

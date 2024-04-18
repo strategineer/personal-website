@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "non-fiction"
 ---
-Talks about a variety of technology related gigantic world ending issues we're facing.
 
-It's bleak but really well put together.
+A bleak but compelling investigation on a variety of world ending issues we're facing currently.
+
+You have to be in the right mood for this text but if you are, you're likely to learn something. 
