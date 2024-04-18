@@ -51,6 +51,16 @@
     </title>
   </head>
   <body id="documentTop">
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ 
+              element: "#search", 
+              showSubResults: true,
+            });
+        });
+    </script>
     <div class="container-fluid">
       {{ $is_readable := default .Params.is_readable true}}
       <div class="row no-margin justify-content-center">
@@ -58,6 +68,9 @@
           {{ partial "header" . }}
           {{ block "title" . }}
           {{ end }}
+          <div class="readable">
+          <div id="search"></div>
+          </div>
           {{ if $is_readable }}
             <div class="readable">
           {{ end }}

@@ -1,7 +1,7 @@
 {{ $tag_name := "/tags" | printf "%s%s" .Section }}
 {{ $tags := (.GetTerms $tag_name ) }}
 {{ if $tags }}
-<div class="d-flex justify-content-center d-flex-inline-list">
+<div class="d-flex justify-content-center d-flex-inline-list" data-pagefind-body>
   <div class="text-center">
     <ul class="list-inline ul-inline">
       {{ range $tags }}
