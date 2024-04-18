@@ -92,10 +92,8 @@
   <div class="row read-more">
     <div class="col">
       <a class="float-right" href='{{ .Permalink }}'><nobr>
-        {{ if not .Params.use_album_summary }}
-        Read more →
-        {{ else }}
-        Check it out →
+        {{ if ne .Summary .Content }}
+          <h2>More →</h3>
         {{ end }}
         </nobr>
       </a>
