@@ -2,7 +2,7 @@
 {{ if $thumbnail }}
 
             {{ with $thumbnail.Resize "x200 webp" }}
-            <img loading="lazy" class="img-fluid rounded mx-auto" src="{{ .RelPermalink }}">
+            <img loading="lazy" class="img-fluid rounded mx-auto" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
             {{ end }}
 
 {{ end }}
