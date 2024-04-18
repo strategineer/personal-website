@@ -92,7 +92,7 @@
   <div class="row read-more">
     <div class="col">
       <a class="float-right" href='{{ .Permalink }}'><nobr>
-        {{ if ne .Summary .Content }}
+        {{ if ne (len .Summary) (len .Plain) }}
           <h2>More →</h3>
         {{ end }}
         </nobr>
