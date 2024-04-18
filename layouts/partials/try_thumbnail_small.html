@@ -1,7 +1,7 @@
 {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
 {{ if $thumbnail }}
 
-            {{ with $thumbnail.Resize "x200 webp" }}
+            {{ with $thumbnail.Resize "x100 webp" }}
             <img loading="lazy" class="img-fluid rounded mx-auto" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
             {{ end }}
 
