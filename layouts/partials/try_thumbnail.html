@@ -7,7 +7,7 @@
         <div class="row">
             {{ with $thumbnail.Resize "x400 webp" }}
             <div class="col-mx-auto">
-              <img class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}">
+              <img loading="lazy" class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}">
             </div>
             {{ end }}
         </div>
