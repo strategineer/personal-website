@@ -6,3 +6,7 @@ star_rating: 4
 books/tags:
     - "non-fiction"
 ---
+
+A compelling historical portrayal of the lives of the men involved in writing for and/or editing the influential Astounding science-fiction magazine since it was first published in the 1930s.
+
+<!--more-->
