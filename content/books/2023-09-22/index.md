@@ -6,3 +6,9 @@ star_rating: 5
 books/tags:
     - "fiction"
 ---
+
+A short magical realism novel about a girl, her mother and her step father who's a human size crane, the bird that is.
+
+Hijinks ensue. 
+
+<!--more-->
