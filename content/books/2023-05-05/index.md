@@ -8,3 +8,9 @@ books/tags:
     - "science fiction"
     - "trash"
 ---
+
+After forcing my way through the entire Southern Reach trilogy,  I've decided to never read another Jeff VanderMeer novel. 
+
+Any goodwill I might have had for the author after reading Annihilation was siphoned away by the other two novels in the series. 
+
+<!--more-->
