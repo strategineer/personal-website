@@ -7,3 +7,7 @@ books/tags:
     - "fiction"
     - "science fiction"
 ---
+
+This book was OK but the movie is better.
+
+<!--more-->

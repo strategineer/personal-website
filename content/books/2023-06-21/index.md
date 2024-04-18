@@ -23,8 +23,6 @@ If you're looking for something a little bit out there, and are ok with reading 
 
 Here be spoilers, you've been warned:
 
-<!--more-->
-
 {{< spoiler >}}
 
 The book has an optimistic tone but it isn't wishy-washy when it comes to the grittier topics it tackles. For example, one of the characters, Speaker, is a member of a species that is very clearly a stand-in for Jewish people (systemically oppressed/enslaved, forced to be nomads with no land to call their own, etc).

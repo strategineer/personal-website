@@ -35,8 +35,6 @@ THIS IS A BOOK FOR CHILDREN, PLEASE SEND HELP!
 
 Not only has Gregor been through "some" shit, he's about to go through "the" shit because each book involves Gregor going on a military/diplomatic mission in a world at war, or about to be at war.
 
-<!--more-->
-
 Story spoilers for the end of the first book:
 
 {{< spoiler >}}

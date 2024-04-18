@@ -1,7 +1,6 @@
 {{- $inner := .Inner -}}
 {{- if strings.ContainsNonSpace $inner -}}
   {{- with $.Page -}}
-  {{- "<!--more-->" | .RenderString -}}
   <span class="spoiler" > 
     {{ $inner | .RenderString }}
   </span>

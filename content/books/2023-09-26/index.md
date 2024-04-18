@@ -7,3 +7,7 @@ books/tags:
     - "fiction"
     - "science fiction"
 ---
+
+Weird vignettes about humans landing on Mars and colonizing it.
+
+<!--more-->
