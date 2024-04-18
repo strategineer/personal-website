@@ -8,7 +8,11 @@ books/tags:
     - "fantasy"
     - "comic"
 ---
-It's a Terry Pratchett novel so that implies that it's pretty good. I liked this one quite a bit. After reading Thud! and enjoying that, I decided to start reading the entire Discworld City/Night Watch series. Captain Vimes, Carrot, Sergeant Colon and Nobby are great characters.
+The first novel in Terry Pratchett's City/Night Watch series featuring the drunk and depressed Captain Vimes, the human who thinks he's a dwarf Carrot, the everyman Nobby and the boomer Sergeant Colon. They act like a tight knit four man improv group, bouncing off each other really well and provide a great foundation for the humor, action and hijinks in the novel.
+
+<!--more-->
+
+After reading Thud! and enjoying that, I decided to start reading the entire Discworld City/Night Watch series from the start.
 
 Sam Vimes suffers from a combination of alcoholism and depression leading to his skewed perspective of the world.
 

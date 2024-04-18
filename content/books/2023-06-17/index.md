@@ -6,6 +6,17 @@ star_rating: 5
 books/tags:
     - "fiction"
 ---
+Cassandra in Reverse is a novel about a woman in her early 30s with a fascination for Greek mythology who has just been dumped by her boyfriend of 4 months and fired from her job in PR.
+
+In that moment, something snaps and she gains the ability to go back in time. She becomes like her namesake from myth who could see into the future but was cursed to never be believed.
+
+<!--more-->
+
+Cassandra begins to use her power to change her past, present and future and, in doing so, discovers who she is and who she wants to become.
+
+That's the gist of it. It's a really well told story (with properly thought out time travel mechanics) that will keep you hooked and waiting with expectation to see what happens next.
+
+
 **Everything is too far away and too close at the same time, too loud and also too quiet; a yellow door, an orange can, a blue sliver of sky, a dropped navy glove, the red ring around a street sign; a kaleidoscope turning.**
 
 **A pigeon flaps violently and I put my hands over my face.**
@@ -13,14 +24,6 @@ books/tags:
 **It's coming.**
 
 **It's coming and without my banana muffin there is nothing I can do to stop it.**
-
-Cassandra in Reverse is a novel about a woman in her early 30s with a fascination for Greek mythology who has just been dumped by her boyfriend of 4 months and fired from her job in PR.
-
-In that moment, something snaps and she gains the ability to go back in time. She becomes like her namesake from myth who could see into the future but was cursed to never be believed.
-
-Cassandra begins to use her power to change her past, present and future and, in doing so, discovers who she is and who she wants to become.
-
-That's the gist of it. It's a really well told story (with properly thought out time travel mechanics) that will keep you hooked and waiting with expectation to see what happens next.
 
 Like a cathartic Greek myth, Cassandra in Reverse has high highs and low lows (and everything in between) that'll make you smile and cry (or at least tear up a little if you're an emotionally stunted man child like me hehehe).
 

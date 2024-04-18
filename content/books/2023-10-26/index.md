@@ -14,6 +14,8 @@ Part 2: Gigantic shift in tone. A less personal, more political story takes hold
 
 Part 3: I haven't gotten that far yet.
 
-...
+<!--more-->
+
+---
 
 I'll have to get back to this eventually, it has a lot of potential but it was a challenge for me to read initially.

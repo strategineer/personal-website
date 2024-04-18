@@ -13,6 +13,8 @@ The Fifth Season is a story about suffering and trying to find moments of pleasu
 
 The POV characters are all persecuted and forced to suffer because of circumstances outside of their control.
 
+<!--more-->
+
 They're "orogenes", people born with the ability to exert control over stone, often, in exchange of their own life force and of the people around them.
 
 They are a minority and their powers make them targets to be used, abused and lynched by the majority.

@@ -14,6 +14,8 @@ José Saramago mostly refuses to name his characters and chooses to refer to the
 
 Why does José Saramago do this?
 
+<!--more-->
+
 I don't know. All I know is that it makes reading his work harder than it needs to be.
 
 If you're able to get past the way he writes, or perhaps even enjoy it if you're some kind of sicko, then you'll usually find an interesting story lying underneath with twists and turns that keep you emotionally invested in the world he's built.
@@ -31,8 +33,6 @@ Blindness (the affliction and the novel) is terrifying. Our eyesight is somethin
 The prospect of losing it is appropriately terrifying. Blindness (the novel) turns this fear into a reality we can perceive and forces us to imagine how horrifying it would be for you and everyone you know to lose their eyesight, and the chaos that would follow.
 
 Even with a very surface level reading of the novel, Blindness offers a compelling narrative with meaningful stakes and mostly believable world building that sinks its teeth into you and doesn't let go until the very end.
-
-<!--more-->
 
 I say mostly believable because for the most part everything that happens makes sense but I find it very hard to believe that {{< spoiler >}}the doctor's wife, the only person who can see in the asylum, couldn't have prevented the horrific series of gang ra*es from happening a little earlier.{{< /spoiler >}}
 

@@ -7,13 +7,17 @@ books/tags:
     - "fiction"
     - "science fiction"
 ---
+I was blown away by the premise of Dawn (the first novel in the trilogy) and its execution. The remnants of humanity, after a nuclear apocalypse occurs, are "saved" by aliens and forced to choose between mating with their saviors or never being able to have children again. The rest of the novels didn't hit me as hard but they were interesting nonetheless.
+
+<!--more-->
+
+---
+
 Dawn - 5 stars
 Adulthood Rites - 3 stars
 Imago - 3 stars
 
 What follows is mostly me rambling about the series.
-
-I was blown away by the premise of Dawn and its execution. The remnants of humanity, after a nuclear apocalypse occurs, are "saved" by aliens and forced to choose between mating with their saviors or never being able to have children again.
 
 This series is about biological determinism, consent, imbalanced power dynamics and sexual violence (among other things). Although, the books don't wrestle with these topics as much as I think they should have.
 

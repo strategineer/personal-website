@@ -7,11 +7,13 @@ books/tags:
     - "fiction"
     - "science fiction"
 ---
-Probably the best "second novel in a trilogy" that I've read in a while. To no one's surprise, Adrian Tchaikovsky is responsible.
+The best "second novel in a trilogy" that I've read in a while. To no one's surprise, Adrian Tchaikovsky is responsible.
 
 Eyes of the Void clicked for me when I realized that Adrian Tchaikovsky is an avid tabletop roleplayer and this novel comes alive because he's basically role-playing (to perfection) all of his characters.
 
 He's thought about (and nailed) the way each character thinks and speaks based on where they're from, who they are, their culture, etc. He's great at this and you can see this in all of his work but The Final Architecture series feels built for him to flex his ability to write great characters.
+
+<!--more-->
 
 Another strength of Adrian Tchaikovsky's work is his ability to interweave his world building into the plot as well as the characters in such a way that it all feels meaningful.
 

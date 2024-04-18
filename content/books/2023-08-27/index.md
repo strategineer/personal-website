@@ -12,6 +12,8 @@ I'm not allergic to philosophy though. This book talks about cats, talks about p
 
 At least, that's what I think it's trying to do?
 
+<!--more-->
+
 It's hard to tell because the author spends the first half of the book saying that philosophy is a waste of time and leads to depression. But cats don't do philosophy and aren't depressed so we should be more like cats.
 
 It wouldn't take a genius to pick apart this book, there's a lot of nonsense here. But in between the bits of nonsense there's a few interesting ideas.

@@ -13,7 +13,9 @@ After reading through Death on the Nile for the first time, I'd recommend that w
 
 Death on the Nile is one of the funniest books I've ever read. I don't think that was the intention of the author almost one hundred years ago when it was first published but reading it now I was chuckling nonstop at how campy and absurd it is.
 
-Let's set the scene. Hercules Poiroit, the world famous private investigator specializing in murders, finds himself on a boat on the Nile. He was looking to go on vacation, take a break from his work and relax.
+<!--more-->
+
+Hercules Poiroit, the world famous private investigator specializing in murders, finds himself on a boat on the Nile. He was looking to go on vacation, take a break from his work and relax.
 
 Unfortunately for M. Poirot, there are more than a dozen rich British people on the boat with him capable of murder.
 

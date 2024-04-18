@@ -11,3 +11,5 @@ Everyone in a small and nameless country becomes immortal, hijinks ensue. death,
 The End.
 
 The weakest of Jose Saramago's work by far. 
+
+<!--more-->

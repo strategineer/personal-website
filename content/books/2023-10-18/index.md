@@ -13,6 +13,8 @@ This novel is trying to do a little too much IMO and fails to tell a cohesive st
 
 It's not bad, far from it. It's just inconsistent and a little long.
 
+<!--more-->
+
 The setting is cool in theory but in execution I'm left feeling as though it's internally inconsistent (and so, less believable than it could be otherwise).
 
 Words are used in dialogue that don't fit in universe but serve to convey ideas to the 21st century reader. What's the likelihood that people in this universe would say things like: "Yaaaaassssss"? Probably zero, but characters, especially the main character Gideon, say things like this a lot.

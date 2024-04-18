@@ -14,6 +14,8 @@ The tonal clash between the comedic intent of the author and the violent story c
 
 The characters are nothing more than caricatures and this is a trainwreck waiting to happen given the inclusion of a comic relief autistic character.
 
+<!--more-->
+
 His stereotypically autistic behaviors are the punchline of every "joke" involving him and it's infuriating. Like genocide, slavery and other topics covered in this book, autism is not inherently funny and the way it's tackled in this book is insulting.
 
 Is the inclusion of a character who reads as autistic inherently bad? No, of course not. It depends on how the character is written and how the author treats them.

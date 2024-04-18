@@ -8,13 +8,14 @@ books/tags:
     - "science fantasy"
     - "post-apocalyptic"
 ---
+Shadow & Claw is an omnibus containing the first half of Gene Wolfe's Book of the New Sun which is a far future sci-fi fantasy epic following the story of Severian the torturer, a self described insane person who has trouble differentiating between reality, his memories and his dreams.
+
+<!--more-->
 
 **"What will you be, Severian? A torturer? You may leave the guild, you know,
 if you prefer."**
 
 **I told him firmly - and as though I were slightly shocked by the suggestion - that I had never considered it. It was a lie. I had known, as all the apprentices knew, that one was not firmly and finally a member of the guild until one consented as an adult to the connection. Furthermore, though I loved the guild I hated it too - not because of the pain it inflicted on clients who must sometimes have been innocent, and who must often have been punished beyond anything that could be justified by their offences; but because it seemed to me inefficient and ineffectual, serving a power that was not only ineffectual but remote. I do not know how better to express my feelings about it than by saying that I hated it for starving and humiliating me and loved it because it was my home, hated and loved it because it was the exemplar of old things, because it was weak, and because it seemed indestructible.**
-
-Shadow & Claw is an omnibus containing the first half of Gene Wolfe's Book of the New Sun which is a far future sci-fi fantasy epic following the story of Severian the torturer, a self described insane person who has trouble differentiating between reality, his memories and his dreams.
 
 An older Severian, sitting on his throne, starts writing the story of his life and how he came into the position of power he's, presumably, currently in. The story begins as a coming of age story with Severian describing his youth as an journeyman in the Torturer's Guild. Eventually, he leaves the Tower he has called home for his entire life and embarks on an adventure becoming an executioner for hire where he roams around, kills people for the state, meets a diverse cast of characters and discovers the, absolutely wild, world he lives in.
 

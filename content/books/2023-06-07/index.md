@@ -9,9 +9,11 @@ books/tags:
 ---
 **Which of us are people and which of us are meat?**
 
+<!--more-->
+
 Let's set the stage (you can read all of this on the front cover so no spoilers):
 
-In Space Opera, an intergalactic World War 2-standin breaks out, causing much destruction and suffering (while humans remain woefully unaware of this).
+In Space Opera, an intergalactic World War 2-stand-in breaks out, causing much destruction and suffering (while humans remain woefully unaware of this).
 
 As a result of this confrontation, the remaining alien civilizations unite and organize a Eurovision-esque contest (the Metagalactic Grand Prix) to determine how the resources of the galaxy will be shared amongst the participants for the following year (based on their relative ranking in contest).
 
@@ -21,7 +23,7 @@ Of course, eventually, humans find themselves participating for their first time
 
 Hijinks ensue.
 
-...
+---
 
 The novel executes on this wacky premise in a comedic way reminiscent of Douglas Adam's Hitchhiker's Guide to the Galaxy. I actually laughed out loud quite a few times and that's something i cherish because writing comedic novels is anything but easy.
 

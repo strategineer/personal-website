@@ -19,6 +19,8 @@ Once again, Murderbot finds itself protecting humans, prospectors surveying a pl
 
 Hijinks ensue.
 
+<!--more-->
+
 What impressed me most with All Systems Red was how Martha Wells was able to make Murderbot so believable and so easy to emphasize with.
 
 **So, I'm awkward with actual humans. It's not paranoia about my hacked governor module, and it's not them; it's me. I know I'm a horrifying murderbot, and they know it, and it makes us both nervous, which makes me even more nervous.**

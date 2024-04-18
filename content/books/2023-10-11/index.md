@@ -6,7 +6,11 @@ star_rating: 5
 books/tags:
     - "fiction"
 ---
-Atheist fan fiction written about the Old Testament.
+Old Testament fan fiction written by the militantly atheist Jose Saramago.
+
+Color me intrigued.
+
+<!--more-->
 
 Cain, the murderer of Abel, wanders around iconic moments from the Old Testament (Noah's Ark, the Tower of Babel, Sodom, Jericho, etc.) and points out how the God of the Old Testament is fucked up and not worth worshipping.
 

@@ -8,8 +8,11 @@ star_rating: 4
 books/tags:
     - "non-fiction"
     - "climbing"
-summary: "Reference guide for experienced climbers who want to further hone their skills. Has newspaper comic-style characters as well as photos to show off the various techniques. Expresses a lot of information succinctly, it doesn't waste your time."
 ---
+Reference guide for experienced climbers who want to further hone their skills. Has newspaper comic-style characters as well as photos to show off the various techniques. Expresses a lot of information succinctly, it doesn't waste your time.
+
+<!--more-->
+
 This one came highly recommended in the r/bouldering and r/climbharder reddit communities, and I can see why.
 
 There's a lot of relevant information presented in a clear and concise manner. If I decide to sit down and read a book like this, that's exactly what I want.

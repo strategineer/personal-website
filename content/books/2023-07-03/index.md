@@ -10,7 +10,9 @@ books/tags:
 ---
 Terry is dedicated to the bit. More than anything he is committed to creating absurd worlds that feel real. His work has aged beautifully because the world we live in is as absurd as it's ever been and it's only getting more absurd from here on out.
 
-Small Gods is about an autistic savant (pour a drink every time Terry Pratchett includes an autistic character in one of his Discworld books) named Brutha who is a lowly priest/monk in the church of Om.
+Small Gods is about an autistic savant (pour a drink every time Terry Pratchett includes an autistic character in one of his Discworld books) named Brutha who is a lowly priest/monk in the church of Om. Hijinks ensue.
+
+<!--more-->
 
 It turns out that Brutha is the only true believer of Om (everyone else only believes in the rules, the hierarchy, the organisation of the church, everything except the actual deity). And so, when Om finds himself reincarnated as a turtle (because only one person believes in him), he can only communicate with Brutha and no one else.
 

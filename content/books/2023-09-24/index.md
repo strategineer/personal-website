@@ -12,6 +12,8 @@ Xiran Jay Zhao strikes again. I was blown away by her YA novel Iron Window a few
 
 Once again, Xiran has interwoven ancient Chinese history and mythology seamlessly with an anime inspired aesthetic (Yugioh in this case whereas Iron Window was very Darling in the Franxx) serving it all through a genre appropriate lens.
 
+<!--more-->
+
 I enjoyed it quite a bit. It's fun, it's cute and it subverts enough tropes to keep you guessing. I got a kick out of the main villain being a rich tech bro dickhead.
 
 In both of her novels, Xiran portrays main characters who commit murder (and other crimes against humanity) but it's ok because "the ends justify the means". These characters are the heroes of the novels so we're supposed to be rooting for them despite these murders they've committed for the "greater good".

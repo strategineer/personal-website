@@ -10,6 +10,8 @@ I'm torn on this one. I enjoyed it but it was missing a bit of polish.
 
 I enjoyed the cast of characters being mostly of Canadian Indigenous ancestry (well, except the villain). It's not something I've seen before (which either speaks to my uncultured-ness or the lack of minority voices in the media I'm exposed to... or both).
 
+<!--more-->
+
 The story was simple (maybe too simple) but executed well. But it's definitely not a story for a younger demographic though --- it's got a few extremely explicit descriptions of sex in it (I've read some erotica in my day but this was something else).
 
 It's a story about a mixed Indigenous lady, Joan, who's husband goes missing.

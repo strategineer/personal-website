@@ -10,6 +10,8 @@ I much preferred Gia-Fu Feng and Jane English's translation of the Tao Te Ching.
 
 But I can say that the poetry doesn't flow well and some translation choices left me scratching my head --- wondering if Thomas Cleary understands how the English language works.
 
+<!--more-->
+
 Read the Feng / English's translation instead!
 
 Maybe his translation of the Chuang-tzu is worth a read? TBD

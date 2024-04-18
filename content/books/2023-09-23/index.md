@@ -12,7 +12,9 @@ books/tags:
 
 All written by Ursula K. Le Guin between 2000 and 2016.
 
-Ursula K. Le Guin is great so by the transitive property this text is also great.
+Ursula K. Le Guin is great, so to no one's surprise there's a lot to love about this text.
+
+<!--more-->
 
 As Le Guin writes in the book itself, the forewords and reviews she's written here shouldn't be misconstrued as recommendations per say.
 

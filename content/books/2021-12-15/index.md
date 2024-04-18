@@ -5,8 +5,11 @@ date: 2021-12-15
 star_rating: 2
 books/tags:
     - "fiction"
-summary: "Neil Gaiman's Norse Mythology is a retelling of a few stories from Norse mythology (which we don't know very much about). I'm a fan of Neil Gaiman's work generally but I found this to be quite boring."
 ---
+Neil Gaiman's Norse Mythology is a retelling of a few stories from Norse mythology (which we don't know very much about). I'm a fan of Neil Gaiman's work generally but I found this to be quite boring.
+
+<!--more-->
+
 Unlike Greek mythology, we don't have many written records describing Norse mythology as it existed. So, there's not really much we know about Norse mythology.
 
 In his book titled Norse Mythology, Neil Gaiman riffs on what we know about the Norse myths and creates his own retellings of the stories and some completely new ones.

@@ -12,15 +12,15 @@ Felt more like a soap opera than a space opera at times.
 
 There's a lot of people thinking about, talking about and having sex. There's a lot of scheming and plotting that sometimes makes sense but often doesn't.
 
-PS: I'm looking to have a good time reading a book so I try to meet the book I'm reading halfway and appreciate what it's trying to do instead of comment on what I think the author should have done.
-
 So I rolled with it, strapped on my suspension of disbelief pants and enjoyed the ride.
+
+<!--more-->
+
+PS: I'm looking to have a good time reading a book so I try to meet the book I'm reading halfway and appreciate what it's trying to do instead of comment on what I think the author should have done.
 
 John Scalzi is an amazing writer; every few pages I would have to stop reading and sit there, stunned, by how funny a joke was, or how well set up a scene was, etc.
 
 He managed to immerse me in this universe with an empire on the verge of collapse that felt real(ish) and lived in by real(ish) people which kept me engaged and interested in seeing what would happen next.
-
-<!--more-->
 
 The POV characters are all great in their own ways and have such different voices which made reading their chapters fun. {{< spoiler >}} All their story threads tie up neatly at the end of the book which I really appreciated. {{< /spoiler >}} 
 

@@ -8,6 +8,8 @@ books/tags:
 ---
 Understanding Power is the book that convinced me that I needed to start reading again. It's just a bunch of transcripts taken from Noam Chomsky Q/A sessions, but man, I'm glad that I was convinced to sit down and read through it.
 
+<!--more-->
+
 Noam Chomsky has eidetic memory (more commonly known as photographic memory) and so you can ask him about anything and he'll be able to perfectly recall everything he's read and written about the subject. So, even transcripts of his Q/A sessions can be just as informative and important as anything else you've read in your life.
 
 The book covers many important topics relating to "Power" but it mainly focuses on the US, and the many atrocities its leaders have played a part in, across the world.

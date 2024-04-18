@@ -13,6 +13,8 @@ Both novels involve Hercule Poirot on vacation traveling (on a train or on a boa
 
 But Death on the Nile was SO MUCH MORE of a compelling read for me. Murder on the Orient Express is... Uhhhhh... Express, it's fast and straightforward. It doesn't waste any time. As soon as possible you're jumping straight into the murder followed by a by-the-numbers solving of the mystery.
 
+<!--more-->
+
 It lacks a lot of the charm found in the more patient and denser Death on the Nile. We don't get to learn much about the characters in Murder on the Orient Express which made it hard for me to become invested in them.
 
 This is very unlike Death on the Nile where more than enough time was spent with each character (whether in a flashback or in a present day scene before or after the murder) allowing me to eventually start to understand them, care about them and understand their motives.

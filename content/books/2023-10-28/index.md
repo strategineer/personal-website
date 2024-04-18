@@ -12,4 +12,6 @@ This is a biography about him, and it's the best one we're going to get, written
 
 It is what it says it is, the story of Terry Pratchett from the beginning to the very end.
 
+<!--more-->
+
 Terry Pratchett's work speaks for itself but if you're interested in learning more about the man responsible for writing some of your favorite books, here's the perfect book for you. 

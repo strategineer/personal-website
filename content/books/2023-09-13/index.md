@@ -18,6 +18,8 @@ Wu Zetian, eventually becoming the Iron Widow, is sold to the army by her family
 
 Dayummmmmmmmmmmmmmmmmmmmmmmmmm this was good.
 
+<!--more-->
+
 I've never read YA before and it seems like I've been missing out. Iron Widow felt so raw and exploding with anger and love in equal measure. The action scenes moving between vivid descriptions of the pair-piloted robots smashing aliens into bits and Wu Zetian's experiences in the dreamy "mind realm" shared with her fellow pilot were really cool. They kept the energy high while allowing the Iron Widow, as well as the reader, to be shown instead of told about her partner's backstory.
 
 Wu Zetian's transformation into the Iron Widow was riveting. I loved watching her go from being very small and powerless, fighting her way to the top and forcing everyone else to respect the strength she had all along. The romantic relationships that evolve along the way felt real but also ripped straight from a k-drama in a way that I loved. I wasn't planning on being very enthusiastic about the romance in this but watching these relationships evolve over the course of the novel was very enjoyable. I can't lie, I was swooning over these men.

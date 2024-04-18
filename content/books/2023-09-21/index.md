@@ -8,7 +8,9 @@ books/tags:
     - "fantasy"
     - "middle-grade"
 ---
-It's heartbreaking. I'm tearing up by page four. This series is advertised as a story for kids but it's written in such a way that it's just as interesting reading through it as an adult. A younger reader wouldn't catch all the subtext (and there's a lot of it) consciously.
+It's heartbreaking. I'm tearing up by page 4. This series is advertised as a story for kids but it's written in such a way that it's just as interesting reading through it as an adult. A younger reader wouldn't catch all the subtext (and there's a lot of it).
+
+<!--more-->
 
 As the oldest kid (11 years old) in his family, Gregor is tasked with taking care of his 2 year old baby sister over the summer while his single mother (Gregor's father "disappeared" one night) works to put food on the table.
 

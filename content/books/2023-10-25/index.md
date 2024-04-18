@@ -11,3 +11,5 @@ books/tags:
 Not my cup of tea. Philosophy should be understandable, this text is incomprehensible.
 
 Maybe if was downing absinthe with Sartre and his crew back in the forties when this was written, I would "get" it. As-is though, this is pretty hard to get through.
+
+<!--more-->

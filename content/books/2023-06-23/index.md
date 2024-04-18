@@ -8,3 +8,6 @@ books/tags:
     - "fantasy"
     - "comic"
 ---
+Going Postal is my favorite Terry Pratchett novel. I'm facepalming right now.
+
+<!--more-->

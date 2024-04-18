@@ -11,3 +11,5 @@ books/tags:
 1. Conserve your semen.
 2. Achieve immortality.
 3. Rejoice.
+
+<!--more-->

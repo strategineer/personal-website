@@ -6,8 +6,11 @@ star_rating: 5
 books/tags:
     - "creative non-fiction"
     - "memoir"
-summary: "Elie Wiesel's Night is a retelling of what happened to him during World War 2. In a Nazi death camp, he witnesses the death of his family, the death of his innocence and the death of his God. Night shows you evil at its peak and convinces you that this horror must never be allowed to happen again."
 ---
+Elie Wiesel's Night is a retelling of what happened to him during World War 2. In a Nazi death camp, he witnesses the death of his family, the death of his innocence and the death of his God. Night shows you evil at its peak and convinces you that this horror must never be allowed to happen again.
+
+<!--more-->
+
 If more people read Night, there would be fewer fascists in the world.
 
 It's a powerful book that's very hard to forget. I experienced the tiniest fraction of the Holocaust vicariously through Elie Wiesel's account of what happened to him during World War 2, and even trying to remember how I felt when I read Night leaves me physically shook and deeply sad.

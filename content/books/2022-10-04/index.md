@@ -6,12 +6,15 @@ star_rating: 2
 books/tags:
     - "fiction"
     - "short story collection"
-summary: "An anthology of short stories, comics, and poems from Mexican American authors."
 ---
+
+An anthology of short stories, comics, and poems from Mexican American authors.
+
+<!--more-->
 
 Initially, I was expecting to read stories from adult authors looking back on their childhood, and not kids writing about their current experiences. It's not what I expected but it's interesting so far. I hope these kids got paid.
 
-...
+---
 
 So ya... Funnily enough, all the authors are adults, the large majority of which are middle grade and young adult fiction writers.
 

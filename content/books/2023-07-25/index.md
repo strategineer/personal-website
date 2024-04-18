@@ -21,6 +21,8 @@ Fred's idyllic existence is disrupted by the theft of a priceless alien artifact
 
 Hijinks ensue.
 
+<!--more-->
+
 I loved Doorways in the Sand. Fred, as a lovable rogue, is great and reading about him dealing with the many absurd and surreal situations he found himself in brought me a lot of joy.
 
 The text has aged remarkably well. If you told me that it was written yesterday (and not almost 50 years ago), I would believe you.

@@ -9,4 +9,6 @@ books/tags:
 
 A bleak but compelling investigation on a variety of world ending issues we're facing currently.
 
-You have to be in the right mood for this text but if you are, you're likely to learn something. 
+You have to be in the right mood for this text but if you are, you're likely to learn something.
+
+<!--more-->

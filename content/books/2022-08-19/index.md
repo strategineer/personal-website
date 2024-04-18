@@ -6,9 +6,10 @@ star_rating: 5
 books/tags:
     - "non-fiction"
     - "philosophy"
-summary: "A philosophical exploration of what it means to be awesome and not suck, and a plea for more awesomeness in our personal, social, and public lives."
 ---
-Nick Riggle's "On Being Awesome: A Unified Theory of How Not to Suck" is a philosophy book that discusses awesomeness and suckiness in detail. It defines language to accurately describe and reason about the awesomeness and suckiness that you perceive in yourself and in others.
+A philosophical exploration of what it means to be awesome and not suck, and a plea for more awesomeness in our personal, social, and public lives.
+
+<!--more-->
 
 According to Mr. Riggle, awesomeness and suckiness revolves all around _social openings_ which are moments when we can choose to break out of our norm-governed roles by expressing ourselves.[^1]
 

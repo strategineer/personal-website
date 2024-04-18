@@ -10,4 +10,6 @@ books/tags:
 ---
 To Hold Up the Sky is a collection of short stories from Liu Cixin who's mostly known for his Three Body Problem trilogy.
 
-This collection is a mixed bag. The stories range from very bad, to middling to great. Two (out of eleven) stories really spoke to me and the rest were mostly meh. 
+This collection is a mixed bag. The stories range from very bad, to middling to great. Two (out of eleven) stories really spoke to me and the rest were mostly meh.
+
+<!--more-->

@@ -13,4 +13,6 @@ I was skeptical at first (I've been burned too many times by boring and tropey f
 
 I was so immersed in the world that I was tearing up by the end of the book which doesn't happen to me very often (one character's arc really spoke to me)
 
+<!--more-->
+
 I can't wait to read the rest of novels in this series, here's hoping that they're just as good as this one if not better.

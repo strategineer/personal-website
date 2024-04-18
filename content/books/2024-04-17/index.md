@@ -1,9 +1,9 @@
 ---
-title: "The Oxford Companion to Food"
-authors:
-    - "Alan Davidson"
-date: 2024-04-14
+title: "The Left Hand of Darkness"
+authors: "Ursula K. Le Guin"
+date: 2024-04-17
 star_rating: 5
 books/tags:
-    - "reference"
+    - "fiction"
+    - "science fiction"
 ---

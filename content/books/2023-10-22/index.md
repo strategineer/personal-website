@@ -6,17 +6,13 @@ star_rating: 3
 books/tags:
     - "fiction"
 ---
-**"In Vengeful, V. E. Schwab is at the top of her game, with twisty action, oddball family pairings, and unexpected antiheroes you can't help but root for" - The Washington Post**
+There's no denying that V.E. Schwab is a great writer. She's able to construct stories that entice you to keep reading despite the underlying story not being all it's cracked up to be.
 
-Hold my beer.
+Her Villains duology leaves me feeling empty. She knows what the big moments she wants to have in her story are and she constantly steers her characters in the direction of those big moments without it feeling earned.
 
-...
+<!--more-->
 
-There's no denying that V.E. Schwab is a great writer. She's able to construct stories that entice you to keep reading even though the underlying story isn't all it's cracked up to be.
-
-Her Villains duology leaves me feeling empty. She knows what the big moments she wants to have in her story are and she steers the characters in the direction of those big moments.
-
-Usually they haphazardly waffle about, forcing her to quickly redirect the paths of characters such that the big moments can happen as she imagines them.
+Usually her characters haphazardly waffle about, forcing her to quickly redirect the paths of characters such that the big moments can happen as she imagines them.
 
 But these big moments come out of nowhere and don't feel earned. She has a hard time writing characters that feel real.
 

@@ -8,21 +8,21 @@ books/tags:
     - "fantasy"
     - "comic"
 ---
-**It would be a lot simpler [...] if this was a story. A sword is pulled out of a stone or a magic ring is flung into the depths of the sea, and with general rejoicing the world turns.**
-
-**But this was real life. The world didn't turn, it just went into a spin.**
-
 Thud! by Terry Pratchett tells the story of Sam Vimes, head of the Ankh-Morpork City Watch, and his fellow coppers trying to solve a dwarf's murder. The upcoming anniversary of the thousands years old Battle of Koom Valley is keeping tension high between the dwarves and the trolls; making it harder for the constables of the Watch to keep the peace and solve the crime.
 
 Thud! is a Terry Pratchett novel through and through. There's ample comedy interlaced with impactful action scenes with just a little bit of drama sprinkled in. This time around, it's a little grittier and darker than usual.
+
+<!--more-->
+
+**It would be a lot simpler [...] if this was a story. A sword is pulled out of a stone or a magic ring is flung into the depths of the sea, and with general rejoicing the world turns.**
+
+**But this was real life. The world didn't turn, it just went into a spin.**
 
 Thud! is about prejudice. The main plot as well as every sub plot has something to say about prejudice, how it can cloud our judgement and prevent us from doing the right thing and treating everyone with the respect they deserve.
 
 The choice to have the protagonist be a prototypical white man in a position of power is great because I would have had a hard time taking the novel seriously if Terry Pratchett, a very white man, had chosen to tell this story from the perspective of a minority.
 
 Sam Vimes is an honest man doing the best he can but sometimes that's just not good enough. So, for me, throughout the novel, he flip-flopped between being the hero I was rooting for and the antihero I loved to hate.
-
-<!--more-->
 
 *Minor story spoilers*
 

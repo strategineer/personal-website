@@ -6,8 +6,10 @@ star_rating: 4
 books/tags:
     - "non-fiction"
     - "philosophy"
-summary: "Think is a book about the big questions in life: knowledge, consciousness, fate, God, truth, goodness, justice. It is for anyone who believes there are big questions out there, but does not know how to approach them. Think sets out to explain what they are and why they are important. If you're like me, and you knew barely anything about philosophy before reading this, you're in for a wild ride."
 ---
+Think is a book about the big questions in life: knowledge, consciousness, fate, God, truth, goodness, justice. It is for anyone who believes there are big questions out there, but does not know how to approach them. Think sets out to explain what they are and why they are important. If you're like me, and you knew barely anything about philosophy before reading this, you're in for a wild ride.
+
+<!--more-->
 
 Reading this book was a revelation to me. I always thought that philosophy was a waste of time, but I realize now that in some ways it's the ONLY thing that matters.
 
