@@ -1,7 +1,7 @@
 {{ $image := .Page.Resources.GetMatch .Destination }}
 {{ if $image }}
   {{ with $image.Resize "x400 webp" }}
-  <img class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}">
+  <img loading="lazy" class="img-fluid rounded mx-auto d-block" src="{{ .RelPermalink }}">
   {{ end }}
 {{ else }}
   {{ errorf "No image found at path %q for page %q" .Destination .Page.Path }}

@@ -16,38 +16,38 @@
       <div class="btn-group btn-group-lg">
         <a href="/authors/">
           <button type="button" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
-            <img src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+            <img loading="lazy" src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
           </button>
         </a>
         <a href="/books/tags">
           <button type="button" class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}">
-            <img src="/icons/tag.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+            <img loading="lazy" src="/icons/tag.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
           </button>
         </a>
         <a href="/books/">
           <button type="button" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
-            <img src="/icons/book.svg" width="32" height="32" label="Go to Strat's books he's reading"/>
+            <img loading="lazy" src="/icons/book.svg" width="32" height="32" label="Go to Strat's books he's reading"/>
           </button>
         </a>
         <a href="/">
             <button type="button" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
-              <img src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
+              <img loading="lazy" src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
             </button>
         </a>
         <!-- 
         <a href="/bin/">
           <button type="button" class="btn btn-lg {{ cond $is_tools $active_class $inactive_class }}">
-            <img src="/icons/tools.svg" width="32" height="32" label="Go to Strat's Tools and Toys"/>
+            <img loading="lazy" src="/icons/tools.svg" width="32" height="32" label="Go to Strat's Tools and Toys"/>
           </button>
         </a>
         <a href="/cocktails/">
           <button type="button" class="btn btn-lg {{ cond $is_cocktails $active_class $inactive_class }}">
-            <img src="/icons/cup-straw.svg" width="32" height="32" label="Go to Strat's Cocktails"/>
+            <img loading="lazy" src="/icons/cup-straw.svg" width="32" height="32" label="Go to Strat's Cocktails"/>
           </button>
         </a>
         <a href="/food/">
             <button type="button" class="btn btn-lg {{ cond $is_food $active_class $inactive_class }}">
-              <img src="/icons/egg.svg" width="32" height="32" label="Go to Strat's Recipes"/>
+              <img loading="lazy" src="/icons/egg.svg" width="32" height="32" label="Go to Strat's Recipes"/>
             </button>
         </a>
 -->
@@ -70,7 +70,7 @@
         {{ end }}
         <a onclick="goToRandomUrl({{ $urls }})">
           <button type="button" class="btn btn-lg btn-light">
-          <img src="/icons/shuffle.svg" width="32" height="32" label="Go to a random page"/>
+          <img loading="lazy" src="/icons/shuffle.svg" width="32" height="32" label="Go to a random page"/>
           </button>
         </a>
       {{- end -}}
