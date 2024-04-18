@@ -8,8 +8,8 @@ books/tags:
     - "trash"
     - "DNF"
 ---
-DNF on page 7
-
 Yikes
 
 <!--more-->
+
+DNF on page 7
