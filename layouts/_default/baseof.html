@@ -73,26 +73,27 @@
         </div>
       </div>
     </div>
+    {{ $js_files := slice }}
     {{ if .Params.explorer }}
-      {{ $explorer_js := resources.Get "js/explorer.js" | resources.ExecuteAsTemplate "js/explorer.js" . | resources.Minify }}
-       <script defer type="text/javascript" src="{{ $explorer_js.Permalink }}"> </script>
+      {{ $explorer_js := resources.Get "js/explorer.js" | resources.ExecuteAsTemplate "js/explorer.js" . }}
+      {{ $js_files = $js_files | append $explorer_js }}
       {{ $explorer_implementation_path := ".js" | printf "%s%s" .Params.explorer | printf "%s%s" "js/" }}
-      {{ $explorer_implementation_js := resources.Get $explorer_implementation_path | resources.ExecuteAsTemplate $explorer_implementation_path . | resources.Minify }}
-       <script defer type="text/javascript" src="{{ $explorer_implementation_js.Permalink }}"> </script>
+      {{ $explorer_implementation_js := resources.Get $explorer_implementation_path | resources.ExecuteAsTemplate $explorer_implementation_path . }}
+      {{ $js_files = $js_files | append $explorer_implementation_js }}
     {{ end }}
-    {{ $js := resources.Get "js/site.js" }}
-    {{ $site_js := $js | resources.ExecuteAsTemplate "js/site.js" . | resources.Minify }}
-    <script defer type="text/javascript" src="{{ $site_js.RelPermalink }}"> </script>
+    {{ $js_files = $js_files | append (resources.Get "js/site.js") }}
     {{ if .Page.Store.Get "hasMermaid" }}
-    <script defer type="text/javascript" src="/js/mermaid.min.js"></script>
-    <script>
-      mermaid.initialize({
-        startOnLoad: true ,
-        theme: "neutral"
-      });
-    </script>
-  {{ end }}
-    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+      {{ $js_files = $js_files | append (resources.Get "js/mermaid.min.js") }}
+      <script>
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: "neutral"
+        });
+      </script>
+    {{ end }}
+    {{ $js_files = $js_files | append (resources.Get "js/bootstrap.bundle.min.js") }}
+    {{ $site_js := $js_files | resources.Concat "js/bundle.js" | resources.Minify }}
+    <script defer type="text/javascript" src="{{ $site_js.RelPermalink }}"> </script>
   </body>
 </html>
 
