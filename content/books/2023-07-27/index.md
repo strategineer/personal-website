@@ -7,6 +7,7 @@ books/tags:
     - "fiction"
     - "science fiction"
 ---
+
 <!--more-->
 
 {{< spoiler >}} Gaslight, Manifest, Philosophize. {{< /spoiler >}}
