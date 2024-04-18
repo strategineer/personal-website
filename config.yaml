@@ -73,3 +73,7 @@ security:
       - '^npx$'
       - '^postcss$'
       - '^nvim$'
+
+build:
+  buildStats:
+    enable: true
