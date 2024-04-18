@@ -6,3 +6,9 @@ star_rating: 5
 books/tags:
     - "non-fiction"
 ---
+
+A compelling and instructive book on the many logical fallacies we are guilty of committing ourselves and exposed to through the media and internet. 
+
+A book that made me feel as though it was written specifically for me. A must read book that very few people will read.  
+
+<!--more-->
