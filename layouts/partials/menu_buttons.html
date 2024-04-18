@@ -56,6 +56,8 @@
       {{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
       {{ if $is_tag_page }}
         {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
+      {{ else if strings.Contains .RelPermalink "authors" }}
+        {{ $pages = where $.Site.RegularPages "Section" "books" }}
       {{ else }}
         {{ $pages = where $.Site.RegularPages "Section" .Section }}
       {{ end }}
