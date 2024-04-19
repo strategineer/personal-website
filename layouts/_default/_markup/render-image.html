@@ -1,6 +1,6 @@
 {{ $image := .Page.Resources.GetMatch .Destination }}
 {{ if $image }}
-  {{ with $image.Resize "x300 webp" }}
+  {{ with $image.Resize "x400 webp" }}
   <img loading="lazy"  alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
   {{ end }}
 {{ else }}
