@@ -16,7 +16,7 @@
       {{ .NextInSection.Title }}
       {{ $lazy_loading = "lazy" }}
       {{ end }}
-      {{ with $thumbnail.Resize "x450 webp" }}
+      {{ with $thumbnail.Resize "x400 webp" }}
       <img loading="{{ $lazy_loading }}" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
       {{ end }}
     </div>
