@@ -10,6 +10,6 @@ books/tags:
 
 Le Guin mostly successful attempt to write a story in the world of a Wizard of Earthsea told from the perspective of a girl and, eventually, woman.
 
-Ged shows up and steals the show a little bit from Tehar which Le Guin will rectify in the subsequent novels.
+Ged shows up and steals the show a little bit from Tenar which Le Guin will rectify in the subsequent novels.
 
 <!--more-->
