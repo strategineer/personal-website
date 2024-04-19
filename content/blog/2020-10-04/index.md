@@ -14,7 +14,7 @@ It's 3D modeling but for engineers. Given that I've been mostly interested build
 
 What makes OpenSCAD unique is that it is 100% syntax-based. Essentially, you write your 3D object out purely as code and then OpenSCAD generates it.
 
-But depending on what you're interested in printing, you might be more interested in a different 3D modeling program. If you want to build organic shapes like peolpe, animals, terrain then a sculpting program like SculptGL or ZBrush would be good. If you want to build inorganic shapes like miniature buildings or vehicles then a program like TinkerCAD or Blender might be better suited to your needs. If you want to build real-world copies of people, buildings, objects, anything really then a program like AliceVision, which uses photogrammetry, is best.
+But depending on what you're interested in printing, you might be more interested in a different 3D modeling program. If you want to build organic shapes like people, animals, terrain then a sculpting program like SculptGL or ZBrush would be good. If you want to build inorganic shapes like miniature buildings or vehicles then a program like TinkerCAD or Blender might be better suited to your needs. If you want to build real-world copies of people, buildings, objects, anything really then a program like AliceVision, which uses photogrammetry, is best.
 
 
 The subreddit r/3Dprinting has a great ["Getting Started" guide](https://www.reddit.com/r/3Dprinting/wiki/gettingstarted) that can help point you in the right direction if you're interested in 3D printing.

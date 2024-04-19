@@ -108,7 +108,7 @@ Then, I added the meditation's book and number as a hash to the URL allowing you
 
 Finally, I added a feature allowing you to click/tap on a word in a meditation to randomly show another meditation containing that same word. This allows you to browse through meditations that cover similar topics which makes it easier for you to discover the nuances and, sometimes, contradictions in them.
 
-All throughout this process, I played around with the look and feel of the tool using my decent knowlege of CSS and [Bootstrap](https://getbootstrap.com/) (which I've been cultivating my entire career).
+All throughout this process, I played around with the look and feel of the tool using my decent knowledge of CSS and [Bootstrap](https://getbootstrap.com/) (which I've been cultivating my entire career).
 
 That's pretty much it.
 

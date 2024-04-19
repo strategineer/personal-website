@@ -8,7 +8,7 @@ blog/tags:
 
 I like to play games.
 
-And to no one's suprise, I guess I'm really into escape rooms.
+And to no one's surprise, I guess I'm really into escape rooms.
 
 What are escape rooms, you ask?
 
@@ -17,7 +17,7 @@ treasure hunts, movies, and TV shows, an escape room is "a live-action team-base
 
 Escape rooms are a relatively new concept, and they've become quite popular in recent years. The first escape rooms were created in Japan in 2007 and have been growing rapidly in the last few years, exploding from 2,800 rooms throughout the world in 2015 to over 7,200 in 2018.[^2]
 
-I expect to see the number of escape rooms around the world to continue skyrocketting because escape rooms are great for breaking you out of your comfort zone and injecting some much needed excitement into your mostly boring and sheltered mordern life (sorry but it's probably true).
+I expect to see the number of escape rooms around the world to continue skyrocketting because escape rooms are great for breaking you out of your comfort zone and injecting some much needed excitement into your mostly boring and sheltered modern life (sorry but it's probably true).
 
 Escape rooms are the ultimate form of healthy bite-sized escapism. For a brief period of time (usually about an hour or so), you and your friends are physically transported into another world and you're tasked with, well, escaping.
 

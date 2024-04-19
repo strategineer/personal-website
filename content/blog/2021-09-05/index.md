@@ -30,7 +30,7 @@ You can deal with the gates in many ways. You can use minions who can walk towar
 
 Let's agree to agree that gates, as I've described them, need to be dealt with ASAP. But, the real threats to your Rift Wizard's life don't come from gates. All enemies in the game are colour-coded: green means pushover, yellow means situationally scary and red means holy Dumbledore's rock hard staff.
 
-I've yet to discover all of the 500+ enemies in the game but all the red ones I've seen, scare me deeply. Unless you've prepared to deal with them, with the spells you've learned and by parting ways with some of the consumable "plz halp meh" items you've found, these scary enemies will kill you.
+I've yet to discover all of the 500+ enemies in the game but all the red ones I've seen, scare me deeply. Unless you've prepared to deal with them, with the spells you've learned and by parting ways with some of the consumable "plz help meh" items you've found, these scary enemies will kill you.
 
 Fortunately, you have around 200 spells and passive skills to choose from to help you deal with the enemies the game throws at you. The spells and skills interact with each other in many beneficial ways and, so, as you learn more of them during a run, you become exponentially stronger.
 

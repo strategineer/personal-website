@@ -28,5 +28,5 @@ steps:
   - Remove from oven, spatula them off onto a plate and let the cookies rest for 1min.
   - Serve with milk for dipping.
 ---
-- This recipe makes 24 large cookies, if you're a lonely bachelor or a Karen looking for a love, you can seperate the dough into batches wrapped in tin foil and freeze them. Take the dough out and thaw it out whenever you want to make more cookies.
+- This recipe makes 24 large cookies, if you're a lonely bachelor or a Karen looking for a love, you can separate the dough into batches wrapped in tin foil and freeze them. Take the dough out and thaw it out whenever you want to make more cookies.
 - If you're using a convection oven, reduce the heat by 25F, flatten the cookie dough balls on the pan and follow the time precisely because the edges won't brown (heat is distributed evenly so everything is going to brown equally).

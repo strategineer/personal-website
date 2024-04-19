@@ -30,7 +30,7 @@ This is common in MOBAs and, to a lesser extent, many competitive multiplayer ga
 
 This includes a graph showing a prediction throughout the game of which team would win. So, after having wasted an hour of your life playing a game you had barely any chance of winning, it's  hilarious to see DOTA 2 tell you that yes in fact, you had less than 0.1% chance of winning the game after minute 3...
 
-DOTA 2 is a weird game. When you're not getting absolutely blasted by your opponents there's a lot of fun to be had. The highs are high and the lows are low like many other games that I seem to be into. So if you're looking to inject some articifial excitement into your boring life then DOTA 2 might be the game for you.
+DOTA 2 is a weird game. When you're not getting absolutely blasted by your opponents there's a lot of fun to be had. The highs are high and the lows are low like many other games that I seem to be into. So if you're looking to inject some artificial excitement into your boring life then DOTA 2 might be the game for you.
 
 As long as you're willing to put up with all of its bullshit.
 
@@ -38,7 +38,7 @@ As long as you're willing to put up with all of its bullshit.
 
 As a longtime fan of Left 4 Dead and a sucker for the absurdity of the Warhammer universe, I've fallen in love with Fatshark's most recent entry in their series of more melee-focused Left 4 Dead-like games with loot.
 
-This time taking place in the Warhammer 40k universe, Warhammer 40k: Darktide (Darktide for short) emphasises ranged combat much moreso than its predecessors.
+This time taking place in the Warhammer 40k universe, Warhammer 40k: Darktide (Darktide for short) emphasises ranged combat much more than its predecessors.
 
 If you enjoyed their Vermintide games (and/or Left 4 Dead) then you're likely to find something to like about Darktide. Sadly, there are quite a few predatory monetization/engagement mechanics in the game (which are hard to look away from due to Tencent being the majority shareholder of Fatshark as of early 2021).
 
@@ -62,7 +62,7 @@ This encourages you to pay attention to the story (which is already pretty engag
 
 Also, they've absolutely nailed the tactical fights. Each character brings something to the table, and it's up to you as their leader to choose who to use, when and how. The different environments and objectives you're given drastically change how you need to play to succeed, keeping combat interesting throughout the long playtime (~35h).
 
-Suprisingly, unlike most other games in this genre, the user experience (UX) just works. Controlling your troops has never been easier and because you're spending so much time doing this, that's a really good thing. I won't be able to play tactical strategy games like this anymore unless they have absolutely banger UX like Triangle Strategy does. 
+Surprisingly, unlike most other games in this genre, the user experience (UX) just works. Controlling your troops has never been easier and because you're spending so much time doing this, that's a really good thing. I won't be able to play tactical strategy games like this anymore unless they have absolutely banger UX like Triangle Strategy does. 
 
 # Against the Storm
 

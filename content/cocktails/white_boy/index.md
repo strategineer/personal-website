@@ -7,7 +7,7 @@ cocktails/tags:
 weight: 1
 summary: Smooth and sweet but not too sweet.
 ingredients:
-  - 2 oz Bombay Saphire gin
+  - 2 oz Bombay Sapphire gin
   - 1 oz orgeat syrup
   - 1 lime
   - 1/2 oz mint syrup

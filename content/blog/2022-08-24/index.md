@@ -52,11 +52,11 @@ It's a turn-based strategy game about wizards summoning monsters to do their bid
 
 What makes the game unique, and gives it the unique risk management style gameplay that I love and that Julian Gollop is known for from his work on the original XCOM games, is the fact that each spell has a percentage chance of success to be cast.
 
-The more powerful a spell, the harder it's going to be for you to cast it succesfully.
+The more powerful a spell, the harder it's going to be for you to cast it successfully.
 
 On its own, this feature isn't exciting or interesting. But, when cast a spell to summon a monster, you can choose to cast the monster as an illusion which means that the spell will have a 100% chance of success.
 
-Illusion monsters are exactly the same as monsters cast normally with one key difference: enemy wizards can spend a turn to try to dispel any of your monsters, if the monster they try to dispel is an illusion it dissapears and they can continue their turn otherwise they lose their turn entirely.
+Illusion monsters are exactly the same as monsters cast normally with one key difference: enemy wizards can spend a turn to try to dispel any of your monsters, if the monster they try to dispel is an illusion it disappears and they can continue their turn otherwise they lose their turn entirely.
 
 And so, this makes the entire game work. You're always going to be at the edge of your seat, thinking really hard about which monsters if any are illusions and which aren't and how you're to respond to this in order to survive and be the last wizard standing.
 
@@ -90,7 +90,7 @@ When in doubt, make a list.
 
 1. The "skins"/clothing options are relatively limited.
 
-Counter argument: The game allows you to choose one of six different cartoonish and exagerated body types making it such that every costume
+Counter argument: The game allows you to choose one of six different cartoonish and exaggerated body types making it such that every costume
 
 2. The queue times are long-ish compared to a Fortnite.
 

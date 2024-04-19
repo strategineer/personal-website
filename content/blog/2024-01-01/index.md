@@ -61,7 +61,7 @@ Odysseus recounts his cursed encounter with Polyphemus, the Cyclops
 
 He tells tales of a cursed bag of wind, of Telepylus the city of, angry, giants and of the sexy witch Circe
 
-book 11: the dead ... At Circe's request, Odysseus reaches the land of the dead and speaks to heros of old, to his fellow warriors who died in the war?
+book 11: the dead ... At Circe's request, Odysseus reaches the land of the dead and speaks to heroes of old, to his fellow warriors who died in the war?
 ...
 
 book 23? Odysseus goes absolutely postal in his home and kills everyone who tried to cuck him
