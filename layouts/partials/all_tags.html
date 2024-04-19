@@ -23,7 +23,9 @@
   </div>
   {{ end }}
   <div class="row align-items-center">
+    {{ $i := 0 }}
     {{ range ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
+     {{ $i = add  $i 1 }}
     {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
     <div class="col">
       <a href="{{ .Permalink }}">
@@ -39,6 +41,9 @@
         </div>
       </a>
     </div>
+    {{ if eq (mod $i 5) 0 }}
+    <div class="w-100"></div>
+    {{ end }}
     {{ end }}
   </div>
   {{ end }}
