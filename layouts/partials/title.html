@@ -1,6 +1,5 @@
 <div class="container justify-content-center text-center page-title">
-  <div class="row">
-    <h1>
+  <div class="col h1">
       {{ if not (eq .Section "reviews") }}
         {{- .Title -}}
       {{ else }}
@@ -12,6 +11,5 @@
           {{- emojify ":thumbsdown:" -}}
         {{ end }}
       {{ end }}
-    </h1>
   </div>
 </div>

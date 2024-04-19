@@ -1,6 +1,5 @@
 <div class="container justify-content-center text-center page-title" data-pagefind-body>
-  <div class="row">
-    <h1>
+  <div class="col h1">
       {{ $v := split .Data.Plural "/" }}
       <a href="/{{ index $v 0 }}">
         {{ if ne .Data.Singular "author" }}
@@ -9,6 +8,5 @@
           Books by author
         {{ end }}
         </a>
-    </h1>
   </div>
 </div>
