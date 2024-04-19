@@ -13,7 +13,6 @@
       </div>
       {{ $lazy_loading := "" }}
       {{ if .NextInSection }}
-      {{ .NextInSection.Title }}
       {{ $lazy_loading = "lazy" }}
       {{ end }}
       {{ with $thumbnail.Resize "x400 webp" }}
