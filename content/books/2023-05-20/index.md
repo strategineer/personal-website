@@ -7,3 +7,9 @@ books/tags:
     - "fiction"
     - "science fiction"
 ---
+
+Alien aliens, AI/human constructs, time "travel" and a very human story. 
+
+The first Adrian Tchaikovsky story I read and perhaps the best. Once you pick this book up, you won't be putting it back down until it's done. 
+
+<!--more-->
