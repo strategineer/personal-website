@@ -8,7 +8,7 @@
     {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
     {{ if $thumbnail }}
       <div class="row">
-        <a href='{{ .Permalink }}'>
+        <a aria-label="Go to page titled: {{ .Title }}" href='{{ .Permalink }}'>
           {{ with $thumbnail.Resize "x200 webp" }}
           <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
           {{ end }}
