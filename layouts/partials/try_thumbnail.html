@@ -5,7 +5,7 @@
     <div class="d-flex justify-content-center readable">
       <div class="col-12">
         <div class="row">
-            {{ with $thumbnail.Resize "x450 webp" }}
+            {{ with $thumbnail.Resize "x400 webp" }}
             <div class="col-mx-auto">
               <img loading="lazy" alt="thumbnail" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
             </div>
