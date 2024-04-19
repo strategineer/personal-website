@@ -66,11 +66,11 @@
       <div class="row no-margin justify-content-center">
         <div class="col-xl-12 main no-margin ">
           {{ partial "header" . }}
+          <div class="readable">
+            <div id="search"></div>
+          </div>
           {{ block "title" . }}
           {{ end }}
-          <div class="readable">
-          <div id="search"></div>
-          </div>
           {{ if $is_readable }}
             <div class="readable">
           {{ end }}
