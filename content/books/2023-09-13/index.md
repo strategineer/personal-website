@@ -16,7 +16,7 @@ piloted by pairs of young men and women (mostly boys and girls), with the men dr
 
 Wu Zetian, eventually becoming the Iron Widow, is sold to the army by her family to become a concubine-pilot. She has a plan to avenge her sister, burn the system to the ground and build it back up again.
 
-Dayummmmmmmmmmmmmmmmmmmmmmmmmm this was good.
+Dayummmmmm this was good.
 
 <!--more-->
 
