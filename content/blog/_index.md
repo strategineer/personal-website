@@ -13,5 +13,4 @@ cascade:
     thumbnail: "thumbnail.*"
     images_jpg: "*.jpg"
     images_png: "*.png"
-  use_blog_summary: true
 ---

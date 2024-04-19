@@ -5,7 +5,7 @@
 {{ $images := union $images_jpg $images_png }}
 {{ if eq (len $images) 1 }}
   {{ $image := (index $images 0) }}
-  {{ with $image.Resize "x300 webp" }}
+  {{ with $image.Resize "x450 webp" }}
   <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}" >
   {{ end }}
 {{ else if gt (len $images) 1 }}
@@ -20,7 +20,7 @@
     {{ range $i, $v := $images }}
         {{ $class := cond (eq $i 0) `carousel-item active` `carousel-item` }}
         <div class="{{ $class }}">
-          {{ with $v.Resize "x300 webp" }}
+          {{ with $v.Resize "x450 webp" }}
           <img loading="lazy" alt="" class="rounded d-block w-100" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}"/>
           {{ end }}
         </div>

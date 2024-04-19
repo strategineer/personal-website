@@ -4,33 +4,19 @@
 <article class="post-summary">
   {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
   {{ $summary_classes := cond $is_less_important "less-important" "" }}
-  {{ if .Params.use_blog_summary }}
-    {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
-    {{ if $thumbnail }}
-      <div class="row">
-        <a href='{{ .Permalink }}'>
-          {{ with $thumbnail.Resize "x300 webp" }}
-          <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
-          {{ end }}
-        </a>
-      </div>
-    {{ end }}
-  {{ end }}
   <div class="row summary-row {{ $summary_classes }}">
-  {{ if .Params.use_album_summary }}
-    {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
-    {{ if $thumbnail }}
-      <div class="col">
-        <a href='{{ .Permalink }}'>
-          {{ with $thumbnail.Resize "x300 webp" }}
-          <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
-          {{ end }}
-        </a>
-        <h2 class="summary-title text-center">
-          {{ partial "try_star_rating" . }}
-        </h2>
-      </div>
-    {{ end }}
+  {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
+  {{ if $thumbnail }}
+    <div class="col">
+      <a href='{{ .Permalink }}'>
+        {{ with $thumbnail.Resize "x450 webp" }}
+        <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
+        {{ end }}
+      </a>
+      <h2 class="summary-title text-center">
+        {{ partial "try_star_rating" . }}
+      </h2>
+    </div>
   {{ end }}
     <div class="col-sm-8 align-self-center">
       <h2 class="summary-title">
@@ -51,42 +37,30 @@
           {{- end -}}
         </a>
       </h2>
-      {{ if not .Params.use_album_summary }}
-        <div class="row post-meta">
-          <div class="col-auto align-self-center">
-            {{- .Date.Format "Mon, Jan 2, 2006" }}
-            {{- $reading_time := .ReadingTime -}}
-            {{- if ne $reading_time 0 }}
-            - {{ $reading_time }}min read
+      <div class="row post-meta">
+        <div class="col-auto align-self-center">
+          {{ if $is_books -}}
+            {{- if eq .Params.weight 1 -}}
+            Currently reading...
+            {{ else }}
+            Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
             {{- end -}}
-          </div>
-          {{ if not $is_ramble_blog_post }}
-          <div class="col float-right">
-            {{ partial "try_tags" . }}
-          </div>
-          {{ end }}
+          {{ else }}
+          {{- .Date.Format "Mon, Jan 2, 2006" }}
+          {{- $reading_time := .ReadingTime -}}
+          {{- if ne $reading_time 0 }}
+          ({{ $reading_time }}min read)
+          {{- end -}}
+          {{- end -}}
         </div>
         {{ if not $is_ramble_blog_post }}
-        {{ .Summary }}
+        <div class="col float-right">
+          {{ partial "try_tags" . }}
+        </div>
         {{ end }}
-      {{ else }}
-      <div>
-      {{ if $is_books -}}
-        {{- if eq .Params.weight 1 -}}
-        Currently reading...
-        {{- else -}}
-        Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
-        {{- end -}}
-      {{- end -}}
       </div>
-      <div>
-      {{ if .Summary }}
-        {{ .Summary }}
-      {{ end }}
-      <div class="col float-right">
-        {{ partial "try_tags" . }}
-      </div>
-      </div>
+      {{ if not $is_ramble_blog_post }}
+      {{ .Summary }}
       {{ end }}
   </div>
   <div class="row read-more">
