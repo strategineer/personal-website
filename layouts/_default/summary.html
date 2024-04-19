@@ -8,8 +8,8 @@
     {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
     {{ if $thumbnail }}
       <div class="row">
-        <a aria-label="Go to page titled: {{ .Title }}" href='{{ .Permalink }}'>
-          {{ with $thumbnail.Resize "x200 webp" }}
+        <a href='{{ .Permalink }}'>
+          {{ with $thumbnail.Resize "x300 webp" }}
           <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
           {{ end }}
         </a>
@@ -22,7 +22,7 @@
     {{ if $thumbnail }}
       <div class="col">
         <a href='{{ .Permalink }}'>
-          {{ with $thumbnail.Resize "x200 webp" }}
+          {{ with $thumbnail.Resize "x300 webp" }}
           <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
           {{ end }}
         </a>
@@ -91,9 +91,9 @@
   </div>
   <div class="row read-more">
     <div class="col">
-      <a class="float-right" href='{{ .Permalink }}'><nobr>
+      <a aria-labelledby="more" class="float-right" href='{{ .Permalink }}'><nobr>
         {{ if ne (len .Summary) (len .Plain) }}
-          <h2>More →</h3>
+          <h2 id="more">More →</h3>
         {{ end }}
         </nobr>
       </a>

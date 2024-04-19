@@ -11,7 +11,7 @@
     <meta content="{{ .Page.Permalink }}" property="og:url" />
     {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
     {{ if $thumbnail }}
-      {{ with $thumbnail.Resize "x200 webp" }}
+      {{ with $thumbnail.Resize "x300 webp" }}
       <meta content="{{ .RelPermalink }}" property="og:image" />
       <meta name="twitter:card" content="summary_large_image">
       {{ end }}
@@ -84,7 +84,7 @@
             {{ partial "footer" . }}
           </div>
         </div>
-        <div class="offcanvas show offcanvas-bottom" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasBottom" aria-label="Navigation buttons">
+        <div class="offcanvas show offcanvas-bottom" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasBottom" aria-label="navigation bar">
           <div class="offcanvas-body">
             {{ partial "menu_buttons" . }}
           </div>
