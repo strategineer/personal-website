@@ -10,4 +10,6 @@ books/tags:
 
 This book was OK but the movie is better.
 
+Please do yourself a favor and do not read the rest of the novels in this series.
+
 <!--more-->
