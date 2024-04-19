@@ -1,0 +1,12 @@
+[files]
+extend-exclude = ["**/*.js", "build", "data/steamgames.json", "data/wordle_words.json"]
+
+[default.extend-words]
+# Don't correct the surname "Teh"
+DOTA = "DOTA"
+Strat = "Strat"
+Udo = "Udo"
+Thi = "Thi"
+Cleary = "Cleary"
+Welp = "Welp"
+UE = "UE"
