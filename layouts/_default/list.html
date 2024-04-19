@@ -3,11 +3,9 @@
 {{ end }}
 
 {{ define "main" }}
-  <div>
-    {{ .Content }}
-    {{ range .Pages }}
-      {{ .Render "summary" }}
-    {{ end }}
-  </div>
+{{ .Content }}
+{{ range .Pages }}
+  {{ .Render "summary" }}
+{{ end }}
 {{ end }}
 

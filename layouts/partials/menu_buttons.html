@@ -11,74 +11,72 @@
 {{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}} 
 {{ if (not .Params.explorer) }}
 <div class="menu-buttons row justify-content-center">
-  <div class="col-auto">
-    <div class="btn-toolbar" role="toolbar" aria-label="Main Toolbar">
-      <div class="btn-group btn-group-lg">
-        <a href="/authors/">
-          <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by author" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
-            <img loading="lazy" alt="person icon" src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+  <div class="col-auto btn-toolbar" role="toolbar" aria-label="Main Toolbar">
+    <div class="btn-group btn-group-lg">
+      <a href="/authors/">
+        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by author" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
+          <img alt="person icon" src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+        </button>
+      </a>
+      <a href="/books/tags">
+        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by genre" class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}">
+          <img alt="tag icon" src="/icons/tag.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+        </button>
+      </a>
+      <a href="/books/">
+        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted date read" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
+          <img alt="book icon" src="/icons/book.svg" width="32" height="32" label="Go to Strat's books he's reading"/>
+        </button>
+      </a>
+      <a href="/">
+          <button tabindex="-1" type="button" aria-label="Go to Strat's blog" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
+            <img alt="blog icon" src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
           </button>
-        </a>
-        <a href="/books/tags">
-          <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by genre" class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}">
-            <img loading="lazy" alt="tag icon" src="/icons/tag.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+      </a>
+      <!-- 
+      <a href="/bin/">
+        <button type="button" aria-label="Go to Strat's Tools and Toys" class="btn btn-lg {{ cond $is_tools $active_class $inactive_class }}">
+          <img alt="tools icon" src="/icons/tools.svg" width="32" height="32" label="Go to Strat's Tools and Toys"/>
+        </button>
+      </a>
+      <a href="/cocktails/">
+        <button type="button" aria-label="Go to Strat's cocktails" class="btn btn-lg {{ cond $is_cocktails $active_class $inactive_class }}">
+          <img alt="cocktail icon" src="/icons/cup-straw.svg" width="32" height="32" label="Go to Strat's Cocktails"/>
+        </button>
+      </a>
+      <a href="/food/">
+          <button type="button" aria-label="Go to Strat's recipes" class="btn btn-lg {{ cond $is_food $active_class $inactive_class }}">
+            <img alt="food icon" src="/icons/egg.svg" width="32" height="32" label="Go to Strat's Recipes"/>
           </button>
-        </a>
-        <a href="/books/">
-          <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted date read" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
-            <img loading="lazy" alt="book icon" src="/icons/book.svg" width="32" height="32" label="Go to Strat's books he's reading"/>
-          </button>
-        </a>
-        <a href="/">
-            <button tabindex="-1" type="button" aria-label="Go to Strat's blog" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
-              <img loading="lazy" alt="blog icon" src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
-            </button>
-        </a>
-        <!-- 
-        <a href="/bin/">
-          <button type="button" aria-label="Go to Strat's Tools and Toys" class="btn btn-lg {{ cond $is_tools $active_class $inactive_class }}">
-            <img loading="lazy" alt="tools icon" src="/icons/tools.svg" width="32" height="32" label="Go to Strat's Tools and Toys"/>
-          </button>
-        </a>
-        <a href="/cocktails/">
-          <button type="button" aria-label="Go to Strat's cocktails" class="btn btn-lg {{ cond $is_cocktails $active_class $inactive_class }}">
-            <img loading="lazy" alt="cocktail icon" src="/icons/cup-straw.svg" width="32" height="32" label="Go to Strat's Cocktails"/>
-          </button>
-        </a>
-        <a href="/food/">
-            <button type="button" aria-label="Go to Strat's recipes" class="btn btn-lg {{ cond $is_food $active_class $inactive_class }}">
-              <img loading="lazy" alt="food icon" src="/icons/egg.svg" width="32" height="32" label="Go to Strat's Recipes"/>
-            </button>
-        </a>
+      </a>
 -->
-      {{ $tags_suffix := "/tags" }}
-      {{ $pages := slice -}}
-      {{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
-      {{ if $is_tag_page }}
-        {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
-      {{ else if strings.Contains .RelPermalink "authors" }}
-        {{ $pages = where $.Site.RegularPages "Section" "books" }}
-      {{ else }}
-        {{ $pages = where $.Site.RegularPages "Section" .Section }}
+    {{ $tags_suffix := "/tags" }}
+    {{ $pages := slice -}}
+    {{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
+    {{ if $is_tag_page }}
+      {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
+    {{ else if strings.Contains .RelPermalink "authors" }}
+      {{ $pages = where $.Site.RegularPages "Section" "books" }}
+    {{ else }}
+      {{ $pages = where $.Site.RegularPages "Section" .Section }}
+    {{ end }}
+    {{ $has_random_button := and ($pages) (not .Params.explorer) }}
+    {{ if $has_random_button }}
+      {{ $urls := slice }}
+      {{ range $pages }}
+      {{ $is_ramble := in (index .Params "blog/tags") "ramble" }}
+      {{ if not $is_ramble }}
+      {{ $urls = $urls | append .Permalink }}
       {{ end }}
-      {{ $has_random_button := and ($pages) (not .Params.explorer) }}
-      {{ if $has_random_button }}
-        {{ $urls := slice }}
-        {{ range $pages }}
-        {{ $is_ramble := in (index .Params "blog/tags") "ramble" }}
-        {{ if not $is_ramble }}
-        {{ $urls = $urls | append .Permalink }}
-        {{ end }}
-        {{ end }}
-                <!-- 
-        <a onclick="goToRandomUrl({{ $urls }})">
-          <button type="button" aria-label="Go to random post" class="btn btn-lg btn-light">
-          <img loading="lazy" alt="shuffle icon" src="/icons/shuffle.svg" width="32" height="32" label="Go to a random page"/>
-          </button>
-        </a>
-      -->
-      {{- end -}}
-      </div>
+      {{ end }}
+              <!-- 
+      <a onclick="goToRandomUrl({{ $urls }})">
+        <button type="button" aria-label="Go to random post" class="btn btn-lg btn-light">
+        <img loading="lazy" alt="shuffle icon" src="/icons/shuffle.svg" width="32" height="32" label="Go to a random page"/>
+        </button>
+      </a>
+    -->
+    {{- end -}}
     </div>
   </div>
 </div>

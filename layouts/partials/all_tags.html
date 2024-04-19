@@ -14,7 +14,7 @@
   {{ if ne $t.Page.Title "Fiction" }}
   <div class="row align-items-center">
     <a href="{{ $t.Page.RelPermalink }}">
-      <h1>{{ $t.Page.Title }}</h1>
+      <span class="h1">{{ $t.Page.Title }}</span>
     </a>
   </div>
   {{ if $t.Page.Summary }}
@@ -29,7 +29,7 @@
     {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
     <div class="col">
       <a href="{{ .Permalink }}">
-        <div class="row">
+        <div class="row  text-center">
           <div class="col">
           {{ partial "try_star_rating" . }}
           </div>

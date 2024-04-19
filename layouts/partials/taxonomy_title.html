@@ -1,17 +1,15 @@
-<div class="container justify-content-center text-center page-title" data-pagefind-body>
+<div class="row justify-content-center text-center page-title" data-pagefind-body>
   <div class="col h1">
-      <a href="/{{ .Data.Plural }}">
-            {{- $name := humanize (pluralize .Data.Singular) -}}
-            {{- $mid := "tagged with" -}}
-            {{- $title := add "'" .Title "'" -}}
-            {{- if and (eq $name "Authors") (ne .Title "Authors") -}}
-            {{- $name = "Books" -}}
-            {{- end -}}
-            {{- if and (eq $name "Books") (eq .Title "Tags") -}}
-            {{- $mid = "by genre" -}}
-            {{- $title = "" -}}
-            {{- end -}}
-            {{- $name }} {{ $mid }} {{ $title }}
-        </a>
+      {{- $name := humanize (pluralize .Data.Singular) -}}
+      {{- $mid := "tagged with" -}}
+      {{- $title := add "'" .Title "'" -}}
+      {{- if and (eq $name "Authors") (ne .Title "Authors") -}}
+      {{- $name = "Books" -}}
+      {{- end -}}
+      {{- if and (eq $name "Books") (eq .Title "Tags") -}}
+      {{- $mid = "by genre" -}}
+      {{- $title = "" -}}
+      {{- end -}}
+      {{- $name }} {{ $mid }} {{ $title }}
   </div>
 </div>

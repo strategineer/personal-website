@@ -1,18 +1,10 @@
 {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
 {{ if $thumbnail }}
 <div class="row justify-content-center">
-  <div class="col-auto align-self-center">
-    <div class="d-flex justify-content-center readable">
-      <div class="col-12">
-        <div class="row">
-            {{ with $thumbnail.Resize "x400 webp" }}
-            <div class="col-mx-auto">
-              <img loading="lazy" alt="thumbnail" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
-            </div>
-            {{ end }}
-        </div>
-      </div>
-    </div>
+  {{ with $thumbnail.Resize "x400 webp" }}
+  <div class="col-mx-auto">
+    <img loading="lazy" alt="thumbnail" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
   </div>
+  {{ end }}
 </div>
 {{ end }}

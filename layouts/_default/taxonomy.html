@@ -6,10 +6,8 @@
   {{ if or (and (eq .Section "authors") .IsSection) (and (eq .Kind "taxonomy") (eq .Section "books"))}}
   {{ partial "all_tags.html" . }}
   {{ else }}
-  <div>
-    {{ range .Pages }}
-      {{ .Render "summary"}}
-    {{ end }}
-  </div>
+  {{ range .Pages }}
+    {{ .Render "summary"}}
+  {{ end }}
   {{ end }}
 {{ end }}
