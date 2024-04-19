@@ -37,8 +37,8 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-    {{ $css :=  resources.Get "css/site.scss" | toCSS }}
-    {{ $css = $css | resources.PostCSS }}
+    {{ $css :=  resources.Get "css/site.scss" | toCSS (dict "enableSourceMap" true) }}
+    {{ $css = $css | postCSS }}
     {{ if hugo.IsProduction }}
     {{ $css = $css | minify | fingerprint | resources.PostProcess }}
     {{ end }}

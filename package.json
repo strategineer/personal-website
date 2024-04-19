@@ -9,18 +9,5 @@
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "purgecss": "^6.0.0"
-  },
-  "postcss": {
-    "map": false,
-    "content": [
-      "**/*.html"
-    ],
-    "css": [
-      "**/*.css"
-    ],
-    "autoprefixer": {},
-    "cssnano": {
-      "preset": "default"
-    }
   }
 }
