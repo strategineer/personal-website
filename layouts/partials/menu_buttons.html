@@ -15,22 +15,22 @@
     <div class="btn-toolbar" role="toolbar" aria-label="Main Toolbar">
       <div class="btn-group btn-group-lg">
         <a href="/authors/">
-          <button type="button" aria-label="Go to Strat's bookshelf sorted by author" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
+          <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by author" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
             <img loading="lazy" alt="person icon" src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
           </button>
         </a>
         <a href="/books/tags">
-          <button type="button" aria-label="Go to Strat's bookshelf sorted by genre" class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}">
+          <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by genre" class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}">
             <img loading="lazy" alt="tag icon" src="/icons/tag.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
           </button>
         </a>
         <a href="/books/">
-          <button type="button" aria-label="Go to Strat's bookshelf sorted date read" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
+          <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted date read" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
             <img loading="lazy" alt="book icon" src="/icons/book.svg" width="32" height="32" label="Go to Strat's books he's reading"/>
           </button>
         </a>
         <a href="/">
-            <button type="button" aria-label="Go to Strat's blog" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
+            <button tabindex="-1" type="button" aria-label="Go to Strat's blog" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
               <img loading="lazy" alt="blog icon" src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
             </button>
         </a>
