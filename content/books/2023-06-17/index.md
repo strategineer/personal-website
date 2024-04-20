@@ -5,6 +5,7 @@ date: 2023-06-17
 star_rating: 5
 books/tags:
     - "fiction"
+    - "slay"
 ---
 Cassandra in Reverse is a novel about a woman in her early 30s with a fascination for Greek mythology who has just been dumped by her boyfriend of 4 months and fired from her job in PR.
 

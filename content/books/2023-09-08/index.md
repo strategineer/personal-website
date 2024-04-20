@@ -5,6 +5,7 @@ date: 2023-09-08
 star_rating: 5
 books/tags:
     - "non-fiction"
+    - "slay"
 ---
 
 A compelling and instructive book on the many logical fallacies we are guilty of committing ourselves and exposed to through the media and internet. 

@@ -9,6 +9,7 @@ books/tags:
     - "fiction"
     - "science fiction"
     - "slavic"
+    - "slay"
 ---
 
 I love the S.T.A.L.K.E.R. games! Especially the third one. It's a game I always come back to over the years.

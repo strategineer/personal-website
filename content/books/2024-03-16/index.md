@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "romance"
+    - "slay"
 ---
 
 This was the first romance novel I've read. Sometimes you have to unleash your inner mom and read a book by a mom for moms.

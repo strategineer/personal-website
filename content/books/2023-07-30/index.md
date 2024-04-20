@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "fantasy"
+    - "slay"
 ---
 
 There's a, soon-to-be wizard, on a archipelago world. He goes to wizard school and becomes xXx#1_Mage_NAxXx.

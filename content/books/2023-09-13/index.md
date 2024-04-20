@@ -7,6 +7,7 @@ books/tags:
     - "fiction"
     - "science fiction"
     - "young adult"
+    - "slay"
 ---
 Big robots,
 

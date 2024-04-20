@@ -1,5 +1,5 @@
 ---
-title: "Words are my Matter"
+title: "Words Are My Matter"
 authors: "Ursula K. Le Guin"
 date: 2023-09-23
 star_rating: 5

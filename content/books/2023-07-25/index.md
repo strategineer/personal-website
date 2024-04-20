@@ -8,6 +8,7 @@ books/tags:
     - "science fiction"
     - "detective fiction"
     - "comic"
+    - "slay"
 ---
 **In fair puzzles there should always be a way out. But I saw no doorways in the sand, and try as I might I could not make the puzzle fall fair.**
 

@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "science fantasy"
+    - "slay"
 ---
 **The shake that passes will echo. The wave that recedes will come back. The mountain that rumbles will roar.**
 

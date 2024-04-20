@@ -5,6 +5,7 @@ date: 2024-03-02
 star_rating: 5
 books/tags:
     - "non-fiction"
+    - "slay"
 ---
 
 A bleak but compelling investigation on a variety of world ending issues we're facing currently.

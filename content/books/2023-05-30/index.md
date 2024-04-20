@@ -5,6 +5,7 @@ date: 2023-05-30
 star_rating: 5
 books/tags:
     - "fiction"
+    - "slay"
 ---
 I guess this is what happens when a tremendously successful author with a single published novel to her name spends 16 years writing another one.
 

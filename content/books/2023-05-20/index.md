@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "science fiction"
+    - "slay"
 ---
 
 A very human story with Alien aliens, AI/human constructs and time "travel".

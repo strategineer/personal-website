@@ -6,6 +6,7 @@ star_rating: 5
 books/tags:
     - "non-fiction"
     - "philosophy"
+    - "slay"
 ---
 A philosophical exploration of what it means to be awesome and not suck, and a plea for more awesomeness in our personal, social, and public lives.
 
