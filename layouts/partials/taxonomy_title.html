@@ -1,15 +1,18 @@
+{{- $name := humanize (pluralize .Data.Singular) -}}
+{{- $mid := "tagged with" -}}
+{{- $title := add "'" .Title "'" -}}
+{{- if and (eq $name "Authors") (ne .Title "Authors") -}}
+{{- $name = "" -}}
+{{- end -}}
+{{- if and (eq $name "Books") (eq .Title "Tags") -}}
+{{- $name = "" -}}
+{{- $mid = "" -}}
+{{- $title = "" -}}
+{{- end -}}
+{{ if ne $name "" }}
 <div class="row justify-content-center text-center page-title" data-pagefind-body>
   <div class="col h1">
-      {{- $name := humanize (pluralize .Data.Singular) -}}
-      {{- $mid := "tagged with" -}}
-      {{- $title := add "'" .Title "'" -}}
-      {{- if and (eq $name "Authors") (ne .Title "Authors") -}}
-      {{- $name = "Books" -}}
-      {{- end -}}
-      {{- if and (eq $name "Books") (eq .Title "Tags") -}}
-      {{- $mid = "by genre" -}}
-      {{- $title = "" -}}
-      {{- end -}}
       {{- $name }} {{ $mid }} {{ $title }}
   </div>
 </div>
+{{ end }}

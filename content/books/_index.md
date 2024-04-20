@@ -1,12 +1,12 @@
 ---
-title: What's Strat reading?
+title: Strat's Bookshelf
 is_readable: true
 url: "/"
 aliases:
   - /books/index.html
 cascade:
   header:
-    text: "Name's Strat; I read a lot of books, here's my digital bookshelf."
+    text: "Name's Strat; I like reading hehe."
   post_name: "book"
   resources:
     thumbnail: "thumbnail.*"

@@ -3,8 +3,7 @@ title: Strat's Blog
 is_readable: true
 cascade:
   header:
-    text: "Name's Strat; I'm a rooster illusion and I write about whatever I feel like writing about."
-    follow_me: true
+    text: "Name's Strat; sometimes I write blog posts."
   post_name: "blog post"
   resources:
     thumbnail: "thumbnail.*"
