@@ -9,3 +9,5 @@ books/tags:
 I love nonsense.
 
 Yumyum.
+
+<!--more-->

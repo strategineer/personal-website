@@ -8,6 +8,8 @@ books/tags:
     - "science fiction"
 ---
 
+G\*\*\*\*\*\*\*, M\*\*\*\*\*\*\*, P\*\*\*\*\*\*\*\*\*\*\*.
+
 <!--more-->
 
 {{< spoiler >}} Gaslight, Manifest, Philosophize. {{< /spoiler >}}
