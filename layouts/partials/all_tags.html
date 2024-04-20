@@ -29,13 +29,13 @@
     {{ $pretty_book := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
     <div class="col">
       <a href="{{ .Permalink }}">
-        <div class="row  text-center">
+        <div class="row text-center">
           <div class="col">
           {{ partial "try_star_rating" . }}
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col text-center">
           {{ partial "try_thumbnail_small" . }}
           </div>
         </div>
