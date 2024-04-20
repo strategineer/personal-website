@@ -1,9 +1,6 @@
 ---
 title: Strat's Blog
 is_readable: true
-url: "/"
-aliases:
-  - /blog/index.html
 cascade:
   header:
     text: "Name's Strat; I'm a rooster illusion and I write about whatever I feel like writing about."
