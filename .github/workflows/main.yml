@@ -34,6 +34,9 @@ jobs:
           extended: true
 
       - run: npm ci
+      
+      - name: Get modules
+        run: hugo mod get
 
       - name: Build
         run: hugo --minify

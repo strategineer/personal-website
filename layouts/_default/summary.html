@@ -13,9 +13,14 @@
       {{ if .NextInSection }}
       {{ $lazy_loading = "lazy" }}
       {{ end }}
-      {{ with $thumbnail.Resize "x300 webp" }}
-      <img loading="{{ $lazy_loading }}" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
-      {{ end }}
+      {{ partial "img" (dict
+      "widths" (slice 100 200)
+      "src" "thumbnail.*"
+      "ctx" .
+      "class" "img-fluid rounded mx-auto d-block"
+      "alt" "Thumbnail"
+      "loading" $lazy_loading
+      ) }}
       {{ if and .Params.star_rating }}
       <div class="text-center">
         {{ partial "try_star_rating" . }}

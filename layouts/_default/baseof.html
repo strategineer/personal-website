@@ -66,7 +66,7 @@
       <div class="row no-margin justify-content-center">
         <div class="col-xl-12 main no-margin ">
           {{ partial "header" . }}
-          <div class="readable">
+          <div class="readable search">
             <div id="search"></div>
           </div>
           {{ block "title" . }}
@@ -84,6 +84,7 @@
             {{ partial "footer" . }}
           </div>
         </div>
+        <div class="end-page"></div>
         <div class="offcanvas show offcanvas-bottom" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasBottom" aria-label="navigation bar">
           <div class="offcanvas-body">
             {{ partial "menu_buttons" . }}
