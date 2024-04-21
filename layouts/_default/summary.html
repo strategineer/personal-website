@@ -24,49 +24,53 @@
     </div>
   {{ end }}
     <div class="col-md-8 align-self-center">
-      <h2 class="summary-title">
+      <div class="summary-title h2">
         {{ if $more_to_read }}
         <a href='{{ .Permalink }}'>
           {{ end }}
           {{ .Render "title_text" }}
-          {{ if $is_books -}}
-            {{ $authors := (.GetTerms "authors" ) }}
-              {{ if $authors }}
-              by
-              {{ $i := 0 }}
-              {{ range $authors }}
-                {{- if (ge $i 1) -}},{{- end -}}
-                {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-                {{ $pretty_author }}
-                {{ $i = add $i 1 }}
-              {{- end -}}
-            {{- end -}}
-          {{- end -}}
         {{ if $more_to_read }}
         </a>
         {{ end }}
-      </h2>
+      </div>
       <div class="row post-meta">
-        <div class="col-auto align-self-center">
-          {{ if $is_books -}}
-            {{- if eq .Params.weight 1 -}}
-            Currently reading...
-            {{ else }}
-            Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
-            {{- end -}}
-          {{ else }}
-          {{- .Date.Format "Mon, Jan 2, 2006" }}
-          {{- $reading_time := .ReadingTime -}}
-          {{- if ne $reading_time 0 }}
-          ({{ $reading_time }}min read)
-          {{- end -}}
-          {{- end -}}
+        <div class="col-mx-auto align-self-center">
+            <div class="row">
+            {{ $authors := (.GetTerms "authors" ) }}
+              <div class="col">
+                <div class="row">
+                  {{ if $authors }}
+                    {{ range $authors }}
+                    <div class="col-12">
+                      {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+                      <a href="{{ .RelPermalink }}"> {{ $pretty_author }}</a>
+                    </div>
+                    {{- end -}}
+                  {{- end -}}
+                  <div class="col-12">
+                    {{ if $is_books -}}
+                      {{- if eq .Params.weight 1 -}}
+                      Currently reading...
+                      {{ else }}
+                      Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
+                      {{- end -}}
+                    {{ else }}
+                      {{- .Date.Format "Mon, Jan 2, 2006" }}
+                      {{- $reading_time := .ReadingTime -}}
+                      {{- if ne $reading_time 0 }}
+                        ({{ $reading_time }}min read)
+                      {{- end -}}
+                    {{- end -}}
+                  </div>
+                </div>
+              </div>
+              {{- if not $is_ramble_blog_post -}}
+              <div class="col align-self-end">
+                {{ partial "try_tags" . }}
+              </div>
+              {{- end -}}
+            </div>
         </div>
-        {{ if not $is_ramble_blog_post }}
-        <div class="col float-right">
-          {{ partial "try_tags" . }}
-        </div>
-        {{ end }}
       </div>
       {{ if not $is_ramble_blog_post }}
       {{ .Summary }}
