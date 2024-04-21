@@ -4,7 +4,7 @@
 {{ $p = "books/tags"}}
 {{ end }}
 
-
+{{ $page_num := 0 }}
 {{ $taxonomy := index .Site.Taxonomies $p }}
 {{ $taxonomy = $taxonomy.ByCount }}
 {{ range $t := $taxonomy }}
@@ -26,6 +26,7 @@
     {{ $i := 0 }}
     {{ range ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
      {{ $i = add  $i 1 }}
+     {{ $page_num = add $page_num 1 }}
     <div class="col">
       <a href="{{ .Permalink }}">
         <div class="row text-center">
@@ -35,7 +36,11 @@
         </div>
         <div class="row">
           <div class="col text-center">
-          {{ partial "try_thumbnail_small" . }}
+            {{ if lt $page_num 6 }}
+            {{ partial "try_thumbnail_small_not_lazy" . }}
+            {{ else }}
+            {{ partial "try_thumbnail_small" . }}
+            {{ end }}
           </div>
         </div>
       </a>
