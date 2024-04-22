@@ -38,7 +38,7 @@
           <div class="col text-center">
             {{ $lazy_loading := "lazy"}}
             {{ if lt $page_num 7 }}
-              {{ $lazy_loading = ""}}
+              {{ $lazy_loading = "eager"}}
             {{ end }}
             {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
             {{ if $thumbnail }}

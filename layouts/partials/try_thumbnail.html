@@ -1,3 +1,7 @@
+{{ $lazy_loading := "lazy" }}
+{{ if .IsPage }}
+  {{ $lazy_loading = "eager" }}
+{{ end }}
 {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
 {{ if $thumbnail }}
   {{ partial "img" (dict
@@ -6,6 +10,6 @@
   "ctx" .
   "class" "img-fluid rounded mx-auto d-block"
   "alt" "Thumbnail"
-  "loading" "lazy"
+  "loading" $lazy_loading
   ) }}
 {{ end }}
