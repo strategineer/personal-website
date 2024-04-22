@@ -25,6 +25,8 @@
   <div class="row align-items-center">
     {{ $i := 0 }}
     {{ range ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
+    {{ $book_tags := index .Params "books/tags"}}
+     {{ if not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf"))) }}
      {{ $i = add  $i 1 }}
      {{ $page_num = add $page_num 1 }}
     <div class="col">
@@ -57,6 +59,7 @@
         </div>
       </a>
     </div>
+    {{ end }}
     {{ if eq (mod $i 6) 0 }}
     <div class="w-100"></div>
     {{ end }}
