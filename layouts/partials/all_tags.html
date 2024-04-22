@@ -26,13 +26,23 @@
   {{ end }}
   <div class="row align-items-center">
     {{ $i := 0 }}
-    {{ $books := slice }}
-    {{ if $is_authors_page }}
-    {{ $books = ($t.Pages.ByDate.ByParam "series").Reverse }}
-    {{ else }}
-    {{ $books = ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
-    {{ end}}
+    {{ $books := ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
+
+    {{ $all_books := slice }}
     {{ range $books }}
+      {{ $main_book := . }}
+      {{ if not (in $all_books $main_book) }}
+        {{ $related_books := (.Site.Pages.Related $main_book | append $main_book).ByDate }}
+        {{ range $related_books }}
+          {{ $related_book := . }}
+          {{ if not (in $all_books $related_book) }}
+            {{ $all_books = $all_books | append $related_book }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ range $all_books }}
     {{ $book_tags := index .Params "books/tags"}}
      {{ if or $is_authors_page (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf")))) }}
      {{ $i = add  $i 1 }}
