@@ -28,13 +28,13 @@ This is Japan.
 
 {{< spoiler >}}
 
-The last quarter of the book was a rollercoaster ride. Part of me would have liked some of the exposition and reveals that happen there to have been revealed more evenly throughout the book but I can't deny that back loading it all made more a powerful ending.
+The last quarter of the book was a rollercoaster ride. Part of me would have liked some of the exposition and reveals that happen there to have been revealed more evenly throughout the book but I can't deny that back loading it all made for a more powerful ending.
 
-I think that calling a book that features this many traumatic situations (serious bullying, attempted sexual violence, suicide, child cancer/death) to be **cozy** is a farce. But I would say that the overall message is one of hope and connection with others.
+I think that labeling a book that features this many traumatic situations (serious bullying, attempted sexual violence, suicide, child cancer/death) as **cozy** is a farce. But I would say that the overall message is one of hope and connection with others.
 
-Despite being filled with trauma on trauma, the way it's presented feels very real and earned. I hate "trauma porn" and this is definitely not that thankfully.
+Despite being rife with depictions of and references to traumatic events, the way it's presented feels very real and earned. I hate "trauma porn" and this is not that thankfully. 
 
-The POV switches that happen at the end, having not happened in the rest of the book, were a really powerful way to show us that you never can truly know what other people have been through and so it's important to be open minded and be kind to others. Everybody has an internal world that is as complex as your own, and you'll never really be able to fully know 100% of someone else's lived experience. So be kind!
+The POV switches that happen at the end were a great way to show the reader that you never can truly know what other people have been through and so it's important to be open minded and be kind to others. Everybody has an internal world that is as complex as your own, and you'll never really be able to fully know 100% of someone else's lived experience. So be kind!
 
 {{< /spoiler >}}
 
@@ -45,6 +45,8 @@ No matter how isolated and lonely you are, there's people who've been through wh
 And, time is fleeting and life is short so it's up to us to make the most of it while we're here.
 
 The book is not preachy but it presents these ideas in an organic and real way that feels earned.
+
+I loved the book. Reading a book like this when I was a kid would have been really great.
 
 ---
 
