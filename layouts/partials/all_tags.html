@@ -44,6 +44,8 @@
             {{ if $thumbnail }}
               {{ partial "img" (dict
               "widths" (slice 100 150)
+              "aspect_ratio" "2:3"
+              "fit" "contain"
               "src" "thumbnail.*"
               "ctx" .
               "class" "img-fluid rounded mx-auto"
