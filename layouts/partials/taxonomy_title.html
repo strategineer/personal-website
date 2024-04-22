@@ -3,6 +3,8 @@
 {{- $title := add "'" .Title "'" -}}
 {{- if and (eq $name "Authors") (ne .Title "Authors") -}}
 {{- $name = "Books" -}}
+{{- $mid = "by" -}}
+{{- $title = .Title -}}
 {{- end -}}
 {{- if and (eq $name "Books") (eq .Title "Tags") -}}
 {{- $name = "Books" -}}
