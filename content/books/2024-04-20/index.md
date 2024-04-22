@@ -20,3 +20,13 @@ The first chapter involves a sorcerer named Alder meeting with Hawk to help him 
 Cute and a well told story of Alder going through some shit up until the point he meets with Hawk.
 
 {{< /spoiler >}}
+
+---
+
+So far so good, I'm about 2/3 of the way through. I really like how we're getting POVs from the main characters from throughout the Earthsea series. 
+
+{{< spoiler >}}
+
+Alder is a great addition to the crew, although it's unclear what he has to do with the changes happening in Earthsea.
+
+{{< /spoiler >}}
