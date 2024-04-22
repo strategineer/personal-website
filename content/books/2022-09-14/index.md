@@ -2,7 +2,7 @@
 title: "Games: Agency as Art"
 authors: "C. Thi Nguyen"
 date: 2022-09-14
-star_rating: 3
+star_rating: 2
 books/tags:
     - "non-fiction"
     - "philosophy"

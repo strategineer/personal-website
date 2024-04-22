@@ -2,7 +2,7 @@
 title: "Vengeful"
 authors: "V. E. Schwab"
 date: 2023-10-22
-star_rating: 3
+star_rating: 2
 books/tags:
     - "fiction"
 ---

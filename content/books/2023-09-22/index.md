@@ -2,7 +2,7 @@
 title: "The Crane Husband"
 authors: "Kelly Barnhill"
 date: 2023-09-22
-star_rating: 5
+star_rating: 4
 books/tags:
     - "fiction"
 ---

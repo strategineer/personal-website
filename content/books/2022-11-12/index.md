@@ -2,7 +2,7 @@
 title: "Axiom's End"
 authors: "Lindsay Ellis"
 date: 2022-11-12
-star_rating: 4
+star_rating: 3
 books/tags:
     - "fiction"
     - "science fiction"

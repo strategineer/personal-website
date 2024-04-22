@@ -2,7 +2,7 @@
 title: "Truth of the Divine"
 authors: "Lindsay Ellis"
 date: 2022-11-20
-star_rating: 3
+star_rating: 2
 books/tags:
     - "fiction"
     - "science fiction"

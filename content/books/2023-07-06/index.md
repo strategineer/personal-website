@@ -2,7 +2,7 @@
 title: "All Systems Red"
 authors: "Martha Wells"
 date: 2023-07-06
-star_rating: 5
+star_rating: 4
 books/tags:
     - "fiction"
     - "science fiction"

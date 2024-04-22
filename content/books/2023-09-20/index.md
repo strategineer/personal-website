@@ -2,7 +2,7 @@
 title: "The Consuming Fire"
 authors: "John Scalzi"
 date: 2023-09-20
-star_rating: 5
+star_rating: 4
 books/tags:
     - "fiction"
     - "science fiction"

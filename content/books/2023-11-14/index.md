@@ -2,7 +2,7 @@
 title: "Nettle & Bone"
 authors: "T. Kingfisher"
 date: 2023-11-14
-star_rating: 5
+star_rating: 4
 books/tags:
     - "fiction"
     - "fantasy"

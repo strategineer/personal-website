@@ -2,7 +2,7 @@
 title: "The Futurological Congress"
 authors: "Stanislaw Lem"
 date: 2024-03-13
-star_rating: 5
+star_rating: 4
 books/tags:
     - "fiction"
     - "science fiction"

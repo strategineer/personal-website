@@ -2,7 +2,7 @@
 title: "Ancient Legends, Mystic Charms and Superstitions of Ireland"
 authors: "Lady Wylde"
 date: 2024-03-25
-star_rating: 2
+star_rating: 1
 books/tags:
     - "mythography"
     - "DNF"

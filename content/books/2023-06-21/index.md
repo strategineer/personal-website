@@ -2,7 +2,7 @@
 title: "The Galaxy, and the Ground Within"
 authors: "Becky Chambers"
 date: 2023-06-21
-star_rating: 5
+star_rating: 4
 books/tags:
     - "fiction"
     - "science fiction"

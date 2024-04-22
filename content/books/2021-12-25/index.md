@@ -4,7 +4,7 @@ authors:
     - "Homer"
     - "Emily Wilson"
 date: 2021-12-25
-star_rating: 3
+star_rating: 4
 books/tags:
     - "fiction"
 ---

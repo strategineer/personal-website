@@ -2,7 +2,7 @@
 title: "Words Are My Matter"
 authors: "Ursula K. Le Guin"
 date: 2023-09-23
-star_rating: 5
+star_rating: 4
 books/tags:
     - "non-fiction"
 ---

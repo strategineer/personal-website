@@ -2,7 +2,7 @@
 title: "Cain"
 authors: "Jose Saramago"
 date: 2023-10-11
-star_rating: 5
+star_rating: 4
 books/tags:
     - "fiction"
 ---

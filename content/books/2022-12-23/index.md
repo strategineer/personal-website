@@ -4,7 +4,7 @@ authors:
 - "Brian Merchant"
 - "Claire L. Evans"
 date: 2022-12-23
-star_rating: 4
+star_rating: 3
 books/tags:
     - "fiction"
     - "science fiction"
