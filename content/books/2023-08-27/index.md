@@ -5,6 +5,7 @@ date: 2023-08-27
 star_rating: 1
 books/tags:
     - "philosophy"
+    - "trash"
 ---
 I'm deathly allergic to cats (especially unneutered cats) so despite liking them in theory, I can't spend much time with them.
 
