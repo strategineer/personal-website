@@ -5,6 +5,8 @@ date: 2023-12-27
 star_rating: 3
 books/tags:
     - "fiction"
+params:
+  series: "Inheritance Trilogy"
 ---
 
 The precursor to N. K. Jemisin's Broken Earth trilogy, this is another fantasy setting fully divorced from Tolkien. For that reason alone, I'm into it. 

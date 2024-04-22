@@ -6,6 +6,8 @@ star_rating: 4
 books/tags:
     - "fiction"
     - "science fiction"
+params:
+  series: "Southern Reach Trilogy"
 ---
 
 This book was OK but the movie is better.

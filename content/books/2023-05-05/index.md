@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "science fiction"
     - "trash"
+params:
+  series: "Southern Reach Trilogy"
 ---
 
 After forcing my way through the entire Southern Reach trilogy,  I've decided to never read another Jeff VanderMeer novel. 

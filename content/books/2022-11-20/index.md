@@ -6,6 +6,8 @@ star_rating: 2
 books/tags:
     - "fiction"
     - "science fiction"
+params:
+  series: "Noumena"
 ---
 Aliens on Earth in the early/mid 2000s and everything that follows from that. Sequel to Axiom's End, continues Cora's story and adds some new fresh characters (alien and otherwise) into the mix.
 

@@ -7,4 +7,6 @@ books/tags:
     - "fiction"
     - "science fiction"
     - "trash"
+params:
+  series: "Southern Reach Trilogy"
 ---

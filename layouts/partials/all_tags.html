@@ -4,13 +4,15 @@
 {{ $p = "books/tags"}}
 {{ end }}
 
+{{ $is_authors_page := eq $p "authors" }}
+
 {{ $page_num := 0 }}
 {{ $taxonomy := index .Site.Taxonomies $p }}
 {{ $taxonomy = $taxonomy.ByCount }}
 {{ range $t := $taxonomy }}
   {{ if gt $t.Count 0 }}
   {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
-  {{ if or (eq $p "authors") (eq $p "books/tags") }}
+  {{ if or $is_authors_page (eq $p "books/tags") }}
   {{ if ne $t.Page.Title "Fiction" }}
   <div class="row align-items-center">
     <a href="{{ $t.Page.RelPermalink }}">
@@ -24,9 +26,15 @@
   {{ end }}
   <div class="row align-items-center">
     {{ $i := 0 }}
-    {{ range ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
+    {{ $books := slice }}
+    {{ if $is_authors_page }}
+    {{ $books = ($t.Pages.ByDate.ByParam "series").Reverse }}
+    {{ else }}
+    {{ $books = ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
+    {{ end}}
+    {{ range $books }}
     {{ $book_tags := index .Params "books/tags"}}
-     {{ if or (eq $p "authors") (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf")))) }}
+     {{ if or $is_authors_page (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf")))) }}
      {{ $i = add  $i 1 }}
      {{ $page_num = add $page_num 1 }}
     <div class="col">

@@ -6,6 +6,8 @@ star_rating: 3
 books/tags:
     - "fiction"
     - "science fiction"
+params:
+  series: "Noumena"
 ---
 Set in 2007, the novel is about a U.S. government coverup of contact with extraterrestrial life. You follow the story of Cora, daughter of an exiled whistleblower, who finds herself in the middle of the whole 'alien' situation.
 

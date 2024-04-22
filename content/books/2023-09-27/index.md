@@ -3,6 +3,8 @@ title: "Vicious"
 authors: "V. E. Schwab"
 date: 2023-09-27
 star_rating: 3
+params:
+  series: "Villains"
 books/tags:
     - "fiction"
 ---

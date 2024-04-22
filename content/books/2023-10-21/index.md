@@ -6,6 +6,8 @@ star_rating: 3
 books/tags:
     - "fiction"
     - "fantasy"
+params:
+  series: "Earthsea"
 ---
 Hasn't aged as well as the first two books in the series IMO.
 

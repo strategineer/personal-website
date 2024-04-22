@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "science fiction"
     - "space opera"
+params:
+  series: "The Interdependency"
 ---
 Felt more like a soap opera than a space opera at times.
 

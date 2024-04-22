@@ -8,6 +8,8 @@ books/tags:
     - "science fantasy"
     - "post-apocalyptic"
     - "slay"
+params:
+  series: "The Book of the New Sun"
 ---
 Shadow & Claw is an omnibus containing the first half of Gene Wolfe's Book of the New Sun which is a far future sci-fi fantasy epic following the story of Severian the torturer, a self described insane person who has trouble differentiating between reality, his memories and his dreams.
 

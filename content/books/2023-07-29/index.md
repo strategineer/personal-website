@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "science fantasy"
     - "slay"
+params:
+  series: "The Broken Earth"
 ---
 **The shake that passes will echo. The wave that recedes will come back. The mountain that rumbles will roar.**
 

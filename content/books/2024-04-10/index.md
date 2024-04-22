@@ -6,4 +6,6 @@ weight: 1
 books/tags:
     - "fiction"
     - "science fantasy"
+params:
+  series: "The Broken Earth"
 ---

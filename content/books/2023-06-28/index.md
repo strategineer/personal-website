@@ -6,6 +6,8 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "science fiction"
+params:
+  series: "Children of Time"
 ---
 **"They think."**
 

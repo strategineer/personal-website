@@ -6,6 +6,8 @@ star_rating: 4
 books/tags:
     - "fiction"
     - "fantasy"
+params:
+  series: "Earthsea"
 ---
 
 Le Guin mostly successful attempt to write a story in the world of a Wizard of Earthsea told from the perspective of a girl and, eventually, woman.

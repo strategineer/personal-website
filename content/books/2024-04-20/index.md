@@ -7,6 +7,8 @@ weight: 1
 books/tags:
     - "fiction"
     - "fantasy"
+params:
+  series: "Earthsea"
 ---
 
 The 6th and final novel in Le Guin's Earthsea series.

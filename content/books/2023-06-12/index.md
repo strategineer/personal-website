@@ -6,6 +6,8 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "fantasy"
+params:
+  series: "Shades of Magic"
 ---
 I really loved it...
 

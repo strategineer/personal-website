@@ -6,6 +6,8 @@ star_rating: 4
 books/tags:
     - "fiction"
     - "science fiction"
+params:
+  series: "Children of Time"
 ---
 **"We're going on an adventure!"**
 

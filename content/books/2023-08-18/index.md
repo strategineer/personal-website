@@ -6,6 +6,8 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "fantasy"
+params:
+  series: "Shades of Magic"
 ---
 An absolute page turner if I've ever read one (I couldn't put this book down). Each time I sat down to read, it only took a few sentences to transport me completely into this world that V.E. Schwab has so carefully built.
 

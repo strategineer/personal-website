@@ -6,6 +6,8 @@ star_rating: 3
 books/tags:
     - "fiction"
     - "science fiction"
+params:
+  series: "The Murderbot Diaries"
 ---
 The Murderbot Diaries series so far have been extremely cyberpunk.
 

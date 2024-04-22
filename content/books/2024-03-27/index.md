@@ -6,6 +6,8 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "fantasy"
+params:
+  series: "Earthsea"
 ---
 A sequel to both The Tombs of Atuan and The Farthest Shore.
 

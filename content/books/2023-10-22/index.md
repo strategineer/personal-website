@@ -5,6 +5,8 @@ date: 2023-10-22
 star_rating: 2
 books/tags:
     - "fiction"
+params:
+  series: "Villains"
 ---
 There's no denying that V.E. Schwab is a great writer. She's able to construct stories that entice you to keep reading despite the underlying story not being all it's cracked up to be.
 

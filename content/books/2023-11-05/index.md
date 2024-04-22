@@ -6,6 +6,8 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "science fiction"
+params:
+  series: "The Final Architecture"
 ---
 The best "second novel in a trilogy" that I've read in a while. To no one's surprise, Adrian Tchaikovsky is responsible.
 

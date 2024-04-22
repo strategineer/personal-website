@@ -6,6 +6,8 @@ star_rating: 4
 books/tags:
     - "fiction"
     - "fantasy"
+params:
+  series: "Earthsea"
 ---
 
 A collection of short stories and novellas set in the Earthsea setting that Ursula wrote to help her find out how to continue the story when prompted to do so by her publisher.

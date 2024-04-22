@@ -6,6 +6,8 @@ star_rating: 5
 books/tags:
     - "fiction"
     - "science fantasy"
+params:
+  series: "The Broken Earth"
 ---
 This novel suffers from middle book syndrome. It continues the story set up in the first book and, hopefully, sets up the third and final book.
 

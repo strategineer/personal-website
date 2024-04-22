@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "science fiction"
     - "space opera"
+params:
+  series: "The Interdependency"
 ---
 Not my favorite John Scalzi novel but it was fun.  I prefer when he doubles down on the absurd and comic modes. 
 

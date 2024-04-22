@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "science fiction"
     - "slay"
+params:
+  series: "Children of Time"
 ---
 
 A very human story with Alien aliens, AI/human constructs and time "travel".

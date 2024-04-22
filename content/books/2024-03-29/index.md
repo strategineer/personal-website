@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "science fiction"
     - "space opera"
+params:
+  series: "Teixcalaan"
 ---
 
 A Memory Called Empire has big "Hugo award winner" energy: an interesting premise, consistent and intriguing world building, a promising start and a propulsive ending.

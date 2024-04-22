@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "science fantasy"
     - "post-apocalyptic"
+params:
+  series: "The Book of the New Sun"
 ---
 
 A fantastic conclusion to the Book of the New Sun. Do not skip this one, it's cool, it's funny, it's wacky, it's begging to be read multiple times. 

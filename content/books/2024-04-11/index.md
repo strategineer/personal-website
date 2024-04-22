@@ -8,6 +8,8 @@ books/tags:
     - "science fiction"
     - "space opera"
     - "trash"
+params:
+  series: "Teixcalaan"
 ---
 In working through my thoughts after reading this trashfire of a novel book, I wrote five first drafts of a review. They're incomplete but I'm posting them here mostly un-edited (just some typo fixes) for posterity. They're either too incomplete, too snarky, too snooty or too mean-spirited to post on Goodreads.
 
