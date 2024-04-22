@@ -2,10 +2,11 @@
 title: "The Pig that Wants to be Eaten"
 authors: "Julian Baggini"
 date: 2022-04-15
-star_rating: 2
+star_rating: 1
 books/tags:
     - "non-fiction"
     - "philosophy"
+    - "trash"
 ---
 The Pig That Wants to Be Eaten offers one hundred philosophical thought-experiments. To get the most out of it, you might want to pull it out and discuss a thought-experiment with some friends because the book doesn't do much more than present the thought-experiments one after the other.
 
