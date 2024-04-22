@@ -2,7 +2,7 @@
 title: "To Hold Up the Sky"
 authors: "Cixin Liu"
 date: 2023-05-11
-star_rating: 3
+star_rating: 2
 books/tags:
     - "fiction"
     - "science fiction"
