@@ -2,7 +2,7 @@
 title: "Gideon the Ninth"
 authors: "Tamsyn Muir"
 date: 2023-10-18
-star_rating: 3
+star_rating: 4
 books/tags:
     - "fiction"
     - "science fantasy"
@@ -38,3 +38,11 @@ What do I like about this book?
 I'm conflicted on this one. I think if this book had sex in it instead of just being undeniably horny at all times maybe that would push me over the edge and get me to recommend this book.
 
 As-is though, Gideon the Ninth suffers from enough "First Author's Book Syndrome" (a lot of small-ish problems that add up) that I can't recommend it. Although, it's got enough going for it that I would consider getting the second novel in the series on sale and seeing if some of my complaints are addressed.
+
+---
+
+The more distance I have from this book the more I feel I was a little nitpicky and unfair to it. 
+
+I like A LOT about it.
+
+I'm excited to read the sequels which I've heard great things about.
