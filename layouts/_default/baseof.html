@@ -43,6 +43,7 @@
     {{ $css = $css | minify | fingerprint | resources.PostProcess }}
     {{ end }}
     <link href="{{ $css.RelPermalink }}" rel="stylesheet" />
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 
     <title>
     {{ block "page_title" . }}
@@ -51,16 +52,6 @@
     </title>
   </head>
   <body id="documentTop">
-    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-    <script src="/pagefind/pagefind-ui.js"></script>
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ 
-              element: "#search", 
-              showSubResults: true,
-            });
-        });
-    </script>
     <div class="container-fluid">
       {{ $is_readable := default .Params.is_readable true}}
       <div class="row no-margin justify-content-center">
@@ -119,6 +110,15 @@
     {{ with $js_files | resources.Concat "js/bundle.js" | resources.Minify }}
     <script defer type="text/javascript" src="{{ .RelPermalink }}"> </script>
     {{ end }}
+    <script defer src="/pagefind/pagefind-ui.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ 
+              element: "#search", 
+              showSubResults: true,
+            });
+        });
+    </script>
   </body>
 </html>
 
