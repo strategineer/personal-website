@@ -7,9 +7,9 @@ books/tags:
     - "fiction"
     - "trash"
     - "DNF"
+params:
+  dnf: "p. 7"
 ---
 Yikes
 
 <!--more-->
-
-DNF on page 7

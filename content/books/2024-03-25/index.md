@@ -6,6 +6,8 @@ star_rating: 1
 books/tags:
     - "mythography"
     - "DNF"
+params:
+  dnf: "70%"
 ---
 
 I'm not sure who to blame for how boring most of this book is:
