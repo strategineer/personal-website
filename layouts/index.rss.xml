@@ -3,7 +3,7 @@
 {{- end -}}
 {{- $pages := slice -}}
 {{- if $.IsHome -}}
-{{- $pages = (where $pctx.RegularPages "Section" "blog") -}}
+{{- $pages = (where $pctx.RegularPages "Section" "books") -}}
 {{- else if $.IsSection -}}
 {{- $pages = $pctx.RegularPages -}}
 {{- else -}}
@@ -16,7 +16,7 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} {{ end }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
