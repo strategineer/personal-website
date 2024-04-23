@@ -11,6 +11,7 @@ python = "^3.10"
 isbntools = "^4.3.29"
 python-frontmatter = "^1.1.0"
 click = "^8.1.7"
+requests = "^2.31.0"
 
 
 [build-system]

@@ -5,8 +5,8 @@ books/tags:
 - science fiction
 date: 2023-09-26
 params:
-  isbn13: '9780553278224'
-  year: '1977'
+  isbn13: '9780062079930'
+  year: '2011'
 star_rating: 4
 title: The Martian Chronicles
 ---

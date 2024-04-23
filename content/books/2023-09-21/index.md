@@ -6,8 +6,8 @@ books/tags:
 - middle-grade
 date: 2023-09-21
 params:
-  isbn13: '9780439678131'
-  year: '2003'
+  isbn13: '9781407172583'
+  year: '2016'
 star_rating: 5
 title: Gregor The Overlander
 ---

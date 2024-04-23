@@ -2,8 +2,10 @@ import json
 import glob
 import sys
 from io import BytesIO
+from pathlib import Path
 
 import click
+import requests
 import frontmatter
 from isbntools.app import *
 
@@ -69,6 +71,14 @@ def find_isbns():
         frontmatter.dump(post, bytes)
         with open(filename, "w") as f:
           f.write(bytes.getvalue().decode('utf-8'))
+        try:
+          x = cover(post.metadata["params"]["isbn13"])
+          img_data = requests.get(x["thumbnail"]).content
+          with open(Path(filename).parent / 'thumbnail.jpg', 'wb') as handler:
+              handler.write(img_data)
+        except:
+           click.echo(f"Failed to update image for {filename}")
+           continue      
 
     #{'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
 

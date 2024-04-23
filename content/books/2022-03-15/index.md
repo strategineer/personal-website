@@ -4,8 +4,8 @@ books/tags:
 - non-fiction
 date: 2022-03-15
 params:
-  isbn13: '9781408878194'
-  year: '2016'
+  isbn13: '9781408801536'
+  year: '2009'
 star_rating: 4
 title: Nine Lives - In Search Of The Sacred In Modern India
 ---

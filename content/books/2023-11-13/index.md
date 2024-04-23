@@ -6,9 +6,9 @@ books/tags:
 - comic
 date: 2023-11-13
 params:
-  isbn13: '9780061020643'
+  isbn13: '9780552166669'
   series: Watch
-  year: '2001'
+  year: '2012'
 star_rating: 5
 title: Guards! Guards!
 ---

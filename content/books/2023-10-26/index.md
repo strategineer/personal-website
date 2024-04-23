@@ -6,8 +6,8 @@ books/tags:
 - DNF
 date: 2023-10-26
 params:
-  isbn13: '9780356513171'
-  year: '2019'
+  isbn13: '9780553273816'
+  year: '1961'
 star_rating: 0
 title: A Canticle For Leibowitz
 ---

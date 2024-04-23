@@ -7,8 +7,8 @@ books/tags:
 date: 2023-11-23
 params:
   dnf: p. 7
-  isbn13: '9780198834786'
-  year: '2020'
+  isbn13: '9781840221893'
+  year: '2022'
 star_rating: 1
 title: Wuthering Heights
 ---

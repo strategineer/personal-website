@@ -8,8 +8,8 @@ books/tags:
 - slay
 date: 2023-07-29
 params:
-  isbn13: '9780491020220'
-  year: '1977'
+  isbn13: '9781515444985'
+  year: '2020'
 star_rating: 5
 title: Doorways In The Sand
 ---

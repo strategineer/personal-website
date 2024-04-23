@@ -4,10 +4,10 @@ books/tags:
 - tabletop roleplaying
 date: 2022-11-01
 params:
-  isbn13: '9781761298080'
-  year: '2023'
+  isbn13: '9798367027891'
+  year: '2022'
 star_rating: 4
-title: The Wicked Ones
+title: Wicked Ones
 ---
 
 WICKED ONES is a Forged in the Dark tabletop RPG about a group of fantasy

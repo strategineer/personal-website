@@ -6,8 +6,8 @@ books/tags:
 - philosophy
 date: 2023-07-23
 params:
-  isbn13: '9780934747165'
-  year: '1997'
+  isbn13: '9781401946593'
+  year: '2014'
 star_rating: 5
-title: Chuang Tsu - Inner Chapters
+title: 'Chuang Tsu - Inner Chapters : A Companion Volume To Tao Te Ching'
 ---

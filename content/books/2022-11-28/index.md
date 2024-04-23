@@ -6,11 +6,11 @@ books/tags:
 - comic
 date: 2022-11-28
 params:
-  isbn13: '9780062225672'
+  isbn13: '9780552166591'
   series: Rincewind
-  year: '2013'
+  year: '2012'
 star_rating: 5
-title: The Color Of Magic - A Novel Of Discworld
+title: The Colour Of Magic - Discworld Novel 1
 ---
 
 An incompetent wizard is tasked with protecting a visitor visiting from a

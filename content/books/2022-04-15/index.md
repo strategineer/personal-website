@@ -6,10 +6,10 @@ books/tags:
 - trash
 date: 2022-04-15
 params:
-  isbn13: '9781847081285'
-  year: '2010'
+  isbn13: '9780452287440'
+  year: '2006'
 star_rating: 1
-title: The Pig That Wants To Be Eaten - And Ninety-Nine Other Thought Experiments
+title: The Pig That Wants To Be Eaten - 100 Experiments For The Armchair Philosopher
 ---
 
 The Pig That Wants to Be Eaten offers one hundred philosophical
