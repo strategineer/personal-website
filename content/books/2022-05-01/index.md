@@ -5,8 +5,9 @@ books/tags:
 date: 2022-05-01
 params:
   isbn13: '9780143036531'
+  year: '2005'
 star_rating: 5
-title: Amusing Ourselves to Death
+title: Amusing Ourselves To Death - Public Discourse In The Age Of Show Business
 ---
 
 Amusing Ourselves to Death is a book about the corrosive effects of television

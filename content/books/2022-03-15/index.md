@@ -4,9 +4,10 @@ books/tags:
 - non-fiction
 date: 2022-03-15
 params:
-  isbn13: '9780063227903'
+  isbn13: '9781408878194'
+  year: '2016'
 star_rating: 4
-title: Nine Lives
+title: Nine Lives - In Search Of The Sacred In Modern India
 ---
 
 British guy goes to India and meets with nine different people, each one on a

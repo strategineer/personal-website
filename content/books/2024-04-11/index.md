@@ -9,6 +9,7 @@ date: 2024-04-11
 params:
   isbn13: '9781529001648'
   series: Teixcalaan
+  year: '2022'
 star_rating: 1
 title: A Desolation Called Peace
 ---

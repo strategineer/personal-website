@@ -8,6 +8,7 @@ books/tags:
 date: 2023-08-11
 params:
   isbn13: '9780156027601'
+  year: '2002'
 star_rating: 5
 title: Solaris
 ---

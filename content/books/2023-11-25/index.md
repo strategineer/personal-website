@@ -7,8 +7,9 @@ books/tags:
 date: 2023-11-25
 params:
   isbn13: '9781773239064'
+  year: '2023'
 star_rating: 1
-title: 'The Secret of the Golden Flower: A Chinese Book of Life'
+title: The Secret Of The Golden Flower - A Chinese Book Of Life
 ---
 
 1. Conserve your semen.

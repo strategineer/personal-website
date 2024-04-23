@@ -6,6 +6,7 @@ books/tags:
 date: 2021-07-15
 params:
   isbn13: '9781974717477'
+  year: '2020'
 star_rating: 2
 title: Remina
 ---

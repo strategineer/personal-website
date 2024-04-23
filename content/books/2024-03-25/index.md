@@ -7,8 +7,9 @@ date: 2024-03-25
 params:
   dnf: 70%
   isbn13: '9781480289833'
+  year: '2012'
 star_rating: 1
-title: Ancient Legends, Mystic Charms and Superstitions of Ireland
+title: Ancient Legends, Mystic Charms, And Superstitions Of Ireland
 ---
 
 I'm not sure who to blame for how boring most of this book is:

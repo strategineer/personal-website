@@ -8,8 +8,9 @@ date: 2023-09-18
 params:
   dnf: 50%
   isbn13: '9780140165586'
+  year: '1994'
 star_rating: 1
-title: 'Everyday Ethics: Inspired Solutions to Real-Life Dilemmas'
+title: Everyday Ethics - Inspired Solutions To Real-Life Dilemmas
 ---
 
 Joshua Halberstam is the king of strawmanning. Every chapter involves him

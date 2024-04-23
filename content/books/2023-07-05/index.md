@@ -6,8 +6,9 @@ books/tags:
 date: 2023-07-04
 params:
   isbn13: '9781501103452'
+  year: '2017'
 star_rating: 1
-title: I'm Thinking of Ending Things
+title: I'm Thinking Of Ending Things
 ---
 
 Uhhhhhh. Heavy sigh.

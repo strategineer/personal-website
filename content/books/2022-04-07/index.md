@@ -6,6 +6,7 @@ books/tags:
 date: 2022-04-07
 params:
   isbn13: '9781452206257'
+  year: '2013'
 star_rating: 5
 title: Media Literacy
 ---

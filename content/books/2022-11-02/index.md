@@ -7,6 +7,7 @@ books/tags:
 date: 2022-11-02
 params:
   isbn13: '9789188805645'
+  year: 2020
 star_rating: 4
 title: MÖRK BORG
 ---

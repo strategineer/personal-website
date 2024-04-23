@@ -6,8 +6,9 @@ books/tags:
 date: 2023-10-18
 params:
   isbn13: '9781250313188'
+  year: '2020'
 star_rating: 4
-title: Gideon the Ninth
+title: Gideon The Ninth
 ---
 
 A murder mystery set in a Warhammer 40k-esque far far future universe setting

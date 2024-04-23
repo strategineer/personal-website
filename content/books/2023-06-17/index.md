@@ -5,9 +5,10 @@ books/tags:
 - slay
 date: 2023-06-17
 params:
-  isbn13: '9780778334538'
+  isbn13: '9780778307877'
+  year: '2023'
 star_rating: 5
-title: Cassandra in Reverse
+title: Cassandra In Reverse - A Novel
 ---
 
 Cassandra in Reverse is a novel about a woman in her early 30s with a

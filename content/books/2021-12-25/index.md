@@ -6,7 +6,8 @@ books/tags:
 - fiction
 date: 2021-12-25
 params:
-  isbn13: '9780143039952'
+  isbn13: '9780393089059'
+  year: '2017'
 star_rating: 4
 title: The Odyssey
 ---

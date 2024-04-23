@@ -6,8 +6,9 @@ books/tags:
 date: 2021-07-01
 params:
   isbn13: '9781974709373'
+  year: '2019'
 star_rating: 3
-title: The Drifting Classroom
+title: 'The Drifting Classroom: Perfect Edition, Vol. 1'
 ---
 
 The Drifting Classroom is a Japanese horror manga series published from 1972 to

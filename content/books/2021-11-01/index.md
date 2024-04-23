@@ -6,8 +6,9 @@ books/tags:
 date: 2021-11-01
 params:
   isbn13: '9781439156810'
+  year: '2010'
 star_rating: 3
-title: On Writing
+title: 'On Writing: 10Th Anniversary Edition - A Memoir Of The Craft'
 ---
 
 Stephen King tells you about his life and his advice on how you can become

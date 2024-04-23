@@ -6,8 +6,9 @@ books/tags:
 date: 2023-08-27
 params:
   isbn13: '9781250800251'
+  year: '2021'
 star_rating: 1
-title: 'Feline Philosophy: Cats and the Meaning of Life'
+title: Feline Philosophy - Cats And The Meaning Of Life
 ---
 
 I'm deathly allergic to cats (especially unneutered cats) so despite liking them

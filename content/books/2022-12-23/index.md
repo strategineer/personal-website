@@ -9,8 +9,9 @@ books/tags:
 date: 2022-12-23
 params:
   isbn13: '9780374602666'
+  year: '2022'
 star_rating: 3
-title: 'Terraform: Watch/Worlds/Burn'
+title: Terraform - Watch/Worlds/Burn
 ---
 
 A collection of science-fiction short stories that'll make you go \"huh,

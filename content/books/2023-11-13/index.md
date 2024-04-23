@@ -8,6 +8,7 @@ date: 2023-11-13
 params:
   isbn13: '9780061020643'
   series: Watch
+  year: '2001'
 star_rating: 5
 title: Guards! Guards!
 ---

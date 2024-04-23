@@ -5,9 +5,10 @@ books/tags:
 - philosophy
 date: 2022-05-15
 params:
-  isbn13: '9781107508828'
+  isbn13: '9780192854254'
+  year: '2001'
 star_rating: 4
-title: Think
+title: Think - A Compelling Introduction To Philosophy
 ---
 
 Think is a book about the big questions in life: knowledge, consciousness, fate,

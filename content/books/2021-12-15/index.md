@@ -5,6 +5,7 @@ books/tags:
 date: 2021-12-15
 params:
   isbn13: '9780393609097'
+  year: '2017'
 star_rating: 2
 title: Norse Mythology
 ---

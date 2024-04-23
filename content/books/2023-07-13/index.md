@@ -7,8 +7,9 @@ date: 2023-07-13
 params:
   isbn13: '9781250186928'
   series: The Murderbot Diaries
+  year: '2018'
 star_rating: 3
-title: Artificial Condition
+title: Artificial Condition - The Murderbot Diaries
 ---
 
 The Murderbot Diaries series so far have been extremely cyberpunk.

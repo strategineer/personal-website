@@ -5,9 +5,10 @@ books/tags:
 - slay
 date: 2021-10-01
 params:
-  isbn13: '9781441948595'
+  isbn13: '9780393349832'
+  year: '2014'
 star_rating: 5
-title: Infrastructure
+title: Infrastructure - A Guide To The Industrial Landscape
 ---
 
 Infrastructure is a guide to all the major \"ecosystems\" of our modern

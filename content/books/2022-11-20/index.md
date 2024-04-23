@@ -7,8 +7,9 @@ date: 2022-11-20
 params:
   isbn13: '9781250274540'
   series: Noumena
+  year: '2021'
 star_rating: 2
-title: Truth of the Divine
+title: Truth Of The Divine - A Novel
 ---
 
 Aliens on Earth in the early/mid 2000s and everything that follows from that.

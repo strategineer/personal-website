@@ -6,8 +6,9 @@ books/tags:
 date: 2022-10-04
 params:
   isbn13: '9780593204979'
+  year: '2021'
 star_rating: 2
-title: 'Living Beyond Borders: Growing up Mexican in America'
+title: Living Beyond Borders - Growing Up Mexican In America
 ---
 
 An anthology of short stories, comics, and poems from Mexican American authors.

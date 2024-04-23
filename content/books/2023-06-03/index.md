@@ -7,8 +7,9 @@ date: 2023-06-03
 params:
   isbn13: '9781509865857'
   series: Children of Time
+  year: '2020'
 star_rating: 4
-title: Children of Ruin
+title: 'Children Of Ruin: Children Of Time Book 2'
 ---
 
 **"We're going on an adventure!"**

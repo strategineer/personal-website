@@ -7,8 +7,9 @@ books/tags:
 date: 2023-10-26
 params:
   isbn13: '9780356513171'
+  year: '2019'
 star_rating: 0
-title: A Canticle for Leibowitz
+title: A Canticle For Leibowitz
 ---
 
 Part 1: Amazing. Seems like this could have easily been an inspiration for the

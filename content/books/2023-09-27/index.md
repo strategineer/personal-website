@@ -6,6 +6,7 @@ date: 2023-09-27
 params:
   isbn13: '9781250160263'
   series: Villains
+  year: '2018'
 star_rating: 3
 title: Vicious
 ---

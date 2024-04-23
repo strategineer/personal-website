@@ -6,6 +6,7 @@ books/tags:
 date: 2022-03-01
 params:
   isbn13: '9780374500016'
+  year: '2006'
 star_rating: 5
 title: Night
 ---

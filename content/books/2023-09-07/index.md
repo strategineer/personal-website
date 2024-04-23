@@ -5,8 +5,9 @@ books/tags:
 date: 2023-09-07
 params:
   isbn13: '9780553213454'
+  year: '1984'
 star_rating: 4
-title: Alice's Adventures in Wonderland / Through the Looking Glass
+title: Alice's Adventures In Wonderland & Through The Looking-Glass
 ---
 
 I love nonsense.

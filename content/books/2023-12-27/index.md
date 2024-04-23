@@ -4,10 +4,10 @@ books/tags:
 - fiction
 date: 2023-12-27
 params:
-  isbn13: '9780316043922'
-  series: Inheritance Trilogy
+  isbn13: '9780316334006'
+  year: '2014'
 star_rating: 3
-title: The Hundred Thousand Kingdoms
+title: The Inheritance Trilogy
 ---
 
 The precursor to N. K. Jemisin's Broken Earth trilogy, this is another fantasy
@@ -18,5 +18,11 @@ and abused by the people in power. Hijinks ensue.
 
 <!--more-->
 
+# The Hundred Thousand Kingdoms
+
 The first novel in this series didn't capture me as much as I would have hoped
 but I am planning to read the rest to see how the series evolves.
+
+# Other books
+
+to read eventually...

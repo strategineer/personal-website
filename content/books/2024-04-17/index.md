@@ -6,8 +6,9 @@ books/tags:
 date: 2024-04-17
 params:
   isbn13: '9780441478125'
+  year: '1987'
 star_rating: 5
-title: The Left Hand of Darkness
+title: The Left Hand Of Darkness - 50Th Anniversary Edition
 ---
 
 **The king was pregnant.**

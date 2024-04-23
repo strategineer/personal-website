@@ -6,6 +6,7 @@ date: 2023-10-22
 params:
   isbn13: '9780765387523'
   series: Villains
+  year: 2018
 star_rating: 2
 title: Vengeful
 ---

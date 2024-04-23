@@ -7,10 +7,11 @@ books/tags:
 - slay
 date: 2024-02-11
 params:
-  isbn13: '9780312890179'
+  isbn13: '9781250781253'
   series: The Book of the New Sun
+  year: '2021'
 star_rating: 5
-title: 'Shadow & Claw: The First Half of The Book of the New Sun'
+title: Shadow & Claw - The First Half Of The Book Of The New Sun
 ---
 
 Shadow & Claw is an omnibus containing the first half of Gene Wolfe's Book of

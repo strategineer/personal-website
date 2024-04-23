@@ -7,8 +7,9 @@ books/tags:
 date: 2023-05-11
 params:
   isbn13: '9781250306081'
+  year: '2020'
 star_rating: 2
-title: To Hold Up the Sky
+title: To Hold Up The Sky
 ---
 
 To Hold Up the Sky is a collection of short stories from Liu Cixin who's mostly

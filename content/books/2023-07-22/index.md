@@ -6,6 +6,7 @@ books/tags:
 date: 2023-07-22
 params:
   isbn13: '9780062936011'
+  year: '2019'
 star_rating: 2
 title: To Be Taught, If Fortunate
 ---

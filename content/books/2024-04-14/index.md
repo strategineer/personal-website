@@ -10,6 +10,7 @@ books/tags:
 date: 2024-04-14
 params:
   isbn13: '9780140185850'
+  year: '1993'
 star_rating: 5
 title: We
 ---

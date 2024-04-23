@@ -7,8 +7,10 @@ books/tags:
 date: 2022-09-16
 params:
   isbn13: '9780956428103'
+  year: '2009'
 star_rating: 1
-title: 9 out of 10 Climbers Make the Same Mistakes
+title: 9 Out Of 10 Climbers Make The Same Mistakes - Navigation Through The Maze Of
+  Advice For The Self-Coached Climber
 ---
 
 A bunch of mistakes climbers (apparently) make and how to avoid them. Not as

@@ -4,9 +4,10 @@ books/tags:
 - non-fiction
 date: 2023-09-23
 params:
-  isbn13: '9781618731340'
+  isbn13: '9780358212102'
+  year: '2019'
 star_rating: 4
-title: Words Are My Matter
+title: Words Are My Matter - Writings On Life And Books
 ---
 
 1/3 essays about life 1/3 book forewords 1/3 book reviews

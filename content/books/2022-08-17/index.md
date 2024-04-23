@@ -5,8 +5,9 @@ books/tags:
 date: 2022-08-17
 params:
   isbn13: '9781613170922'
+  year: '2015'
 star_rating: 3
-title: Monster of the Week
+title: Monster Of The Week
 ---
 
 Monster of the Week is a standalone action-horror RPG for 3-5 people. Hunt high

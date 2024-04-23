@@ -7,8 +7,9 @@ books/tags:
 - fantasy
 date: 2024-04-20
 params:
-  isbn13: '9780441011254'
+  isbn13: '9780547722436'
   series: Earthsea
+  year: '2012'
 title: The Other Wind
 weight: 1
 ---

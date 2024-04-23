@@ -7,8 +7,9 @@ books/tags:
 date: 2023-09-24
 params:
   isbn13: '9781665900706'
+  year: '2022'
 star_rating: 5
-title: Zachary Ying and the Dragon Emperor
+title: Zachary Ying And The Dragon Emperor
 ---
 
 Xiran Jay Zhao strikes again. I was blown away by her YA novel Iron Window a few

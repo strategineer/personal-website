@@ -8,6 +8,7 @@ date: 2023-07-29
 params:
   isbn13: '9780316229296'
   series: The Broken Earth
+  year: '2015'
 star_rating: 5
 title: The Fifth Season
 ---

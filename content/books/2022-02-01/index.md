@@ -6,8 +6,9 @@ books/tags:
 date: 2022-02-01
 params:
   isbn13: '9780525556534'
+  year: '2021'
 star_rating: 1
-title: The Anthropocene Reviewed
+title: The Anthropocene Reviewed - Essays On A Human-Centered Planet
 ---
 
 The Anthropocene Reviewed is a book where author/youtuber John Green reviews a

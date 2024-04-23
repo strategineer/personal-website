@@ -5,8 +5,9 @@ books/tags:
 date: 2023-11-18
 params:
   isbn13: '9781507212868'
+  year: '2020'
 star_rating: 3
-title: 'The Ultimate Micro-RPG Book: 40 Fast, Easy, and Fun Tabletop Games'
+title: The Ultimate Micro-RPG Book - 40 Fast, Easy, And Fun Tabletop Games
 ---
 
 A collection of small one shot tabletop RPGs. Their quality varies and not all

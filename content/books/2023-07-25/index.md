@@ -9,8 +9,9 @@ books/tags:
 date: 2023-07-29
 params:
   isbn13: '9780491020220'
+  year: '1977'
 star_rating: 5
-title: Doorways in the Sand
+title: Doorways In The Sand
 ---
 
 **In fair puzzles there should always be a way out. But I saw no doorways in the

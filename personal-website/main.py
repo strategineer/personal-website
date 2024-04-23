@@ -33,6 +33,7 @@ def import_scan_data():
 @click.command()
 def find_isbns():
     click.echo('Add ISBNs from existing books')
+    print(dir("isbntools.app"))
     filenames = glob.glob('content/books/*/index.md')
     for filename in filenames:
       post = None
@@ -45,14 +46,21 @@ def find_isbns():
           continue
         if "params" not in post.metadata:
           post.metadata["params"] = {}
-        if "isbn13" not in post.metadata["params"]:
+        # "isbn13" not in post.metadata["params"] or 
+        if "year" not in post.metadata["params"]:
           has_isbn13 = False
           author = post.metadata['authors'][0] if isinstance(post.metadata['authors'], list) else post.metadata['authors']
           click.echo(f"Trying to find ISBN for {post.metadata['title']} by {author}")
-          a = isbn_from_words(f"{post.metadata['title']} {author}")
           try:
-            fetched_metadata = meta(a)
+            fetched_metadata = None
+            if "isbn13" in post.metadata["params"]:
+              fetched_metadata = meta(post.metadata["params"]["isbn13"])
+            else:
+              a = isbn_from_words(f"{post.metadata['title']} {author}")
+              fetched_metadata = meta(a)
             post.metadata["params"]["isbn13"] = fetched_metadata["ISBN-13"]
+            post.metadata["params"]["year"] = fetched_metadata["Year"]
+            post.metadata["title"] = fetched_metadata["Title"]
           except:
              click.echo(f"No isbn found for {post.metadata}")
              click.echo(f"fetched_metadata: {fetched_metadata}")

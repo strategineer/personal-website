@@ -7,8 +7,9 @@ date: 2023-06-28
 params:
   isbn13: '9780316466400'
   series: Children of Time
+  year: '2023'
 star_rating: 5
-title: Children of Memory
+title: Children Of Memory
 ---
 
 **"They think."**

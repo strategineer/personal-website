@@ -8,8 +8,9 @@ books/tags:
 date: 2022-12-10
 params:
   isbn13: '9780060853983'
+  year: '2006'
 star_rating: 3
-title: Good Omens
+title: Good Omens - The Nice And Accurate Prophecies Of Agnes Nutter, Witch
 ---
 
 A cool guy devil and a flamboyantly effeminate angel living on Earth try to stop

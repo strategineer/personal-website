@@ -6,6 +6,7 @@ books/tags:
 date: 2023-06-07
 params:
   isbn13: '9781481497497'
+  year: '2018'
 star_rating: 4
 title: Space Opera
 ---

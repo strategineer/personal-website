@@ -6,8 +6,9 @@ books/tags:
 date: 2023-10-29
 params:
   isbn13: '9780062073501'
+  year: '2011'
 star_rating: 3
-title: Murder on the Orient Express
+title: Murder On The Orient Express - A Hercule Piorot Mystery
 ---
 
 Murder on the Orient Express is similar to Agatha Christie's Death on the Nile

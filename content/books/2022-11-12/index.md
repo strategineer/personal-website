@@ -7,8 +7,9 @@ date: 2022-11-12
 params:
   isbn13: '9781250256737'
   series: Noumena
+  year: '2020'
 star_rating: 3
-title: Axiom's End
+title: Axiom's End - A Novel
 ---
 
 Set in 2007, the novel is about a U.S. government coverup of contact with

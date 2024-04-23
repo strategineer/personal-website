@@ -7,8 +7,9 @@ books/tags:
 date: 2023-10-25
 params:
   isbn13: '9781982105457'
+  year: '2021'
 star_rating: 1
-title: Being and Nothingness
+title: Being And Nothingness
 ---
 
 Not my cup of tea. Philosophy should be understandable, this text is

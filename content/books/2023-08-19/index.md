@@ -5,6 +5,7 @@ books/tags:
 date: 2023-08-19
 params:
   isbn13: '9780062502162'
+  year: '1993'
 star_rating: 4
 title: The Essential Tao
 ---

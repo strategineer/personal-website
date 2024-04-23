@@ -6,8 +6,9 @@ books/tags:
 date: 2024-02-29
 params:
   isbn13: '9780061671340'
+  year: '2010'
 star_rating: 3
-title: The Child Thief
+title: The Child Thief - A Novel
 ---
 
 An edgy retelling of Peter Pan by Brom, the illustrator who's work you've

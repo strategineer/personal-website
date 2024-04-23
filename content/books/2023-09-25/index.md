@@ -7,6 +7,7 @@ books/tags:
 date: 2023-09-25
 params:
   isbn13: '9780356507026'
+  year: '2019'
 star_rating: 1
 title: The Raven Tower
 ---

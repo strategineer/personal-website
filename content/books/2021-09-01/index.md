@@ -5,8 +5,9 @@ books/tags:
 date: 2021-09-01
 params:
   isbn13: '9781565847033'
+  year: '2002'
 star_rating: 5
-title: Understanding Power
+title: Understanding Power - The Indispensable Chomsky
 ---
 
 Understanding Power is the book that convinced me that I needed to start reading

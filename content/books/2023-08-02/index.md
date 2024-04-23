@@ -5,10 +5,11 @@ books/tags:
 - fantasy
 date: 2023-08-02
 params:
-  isbn13: '9780689845369'
+  isbn13: '9781442459915'
   series: Earthsea
+  year: '2012'
 star_rating: 4
-title: Tombs of Atuan
+title: The Tombs Of Atuan
 ---
 
 Le Guin mostly successful attempt to write a story in the world of a Wizard of

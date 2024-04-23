@@ -5,8 +5,9 @@ books/tags:
 date: 2021-11-15
 params:
   isbn13: '9780609608845'
+  year: '2003'
 star_rating: 3
-title: The Joy of Mixology
+title: The Joy Of Mixology
 ---
 
 Everything you need to know about mixing cocktails.

@@ -5,8 +5,9 @@ books/tags:
 date: 2023-09-19
 params:
   isbn13: '9780735277182'
+  year: '2019'
 star_rating: 3
-title: Empire of Wild
+title: Empire Of Wild
 ---
 
 I'm torn on this one. I enjoyed it but it was missing a bit of polish.

@@ -5,8 +5,9 @@ books/tags:
 date: 2023-09-16
 params:
   isbn13: '9780156010597'
+  year: '2001'
 star_rating: 4
-title: All the Names
+title: All The Names
 ---
 
 Another Jose Saramago banger. In All The Names, we follow the story of Senhor

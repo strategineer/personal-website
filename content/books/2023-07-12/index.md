@@ -8,8 +8,9 @@ date: 2023-07-12
 params:
   isbn13: '9780857525918'
   series: Watch
+  year: '2018'
 star_rating: 5
-title: Thud!
+title: Thud! - (Discworld Novel 34)
 ---
 
 Thud! by Terry Pratchett tells the story of Sam Vimes, head of the Ankh-Morpork

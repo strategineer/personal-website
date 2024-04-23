@@ -5,8 +5,9 @@ books/tags:
 date: 2022-10-20
 params:
   isbn13: '9780954877996'
+  year: '2013'
 star_rating: 4
-title: 'The Boulder: A Philosophy for Bouldering'
+title: The Boulder - A Philosophy For Bouldering
 ---
 
 A collection of thoughts on the practice of bouldering, bringing it into

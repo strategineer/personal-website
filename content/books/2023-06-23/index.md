@@ -9,8 +9,9 @@ date: 2023-06-23
 params:
   isbn13: '9780060013134'
   series: Moist Von Lipwig
+  year: '2004'
 star_rating: 5
-title: Going Postal
+title: Going Postal - A Novel Of Discworld
 ---
 
 Going Postal is my favorite Terry Pratchett novel. I'm facepalming right now for

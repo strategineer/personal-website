@@ -5,8 +5,9 @@ books/tags:
 date: 2022-04-01
 params:
   isbn13: '9780684853949'
+  year: '1998'
 star_rating: 3
-title: The Man Who Mistook His Wife for a Hat
+title: 'The Man Who Mistook His Wife For A Hat: And Other Clinical Tales'
 ---
 
 The Man Who Mistook His Wife for a Hat tells the stories of individuals

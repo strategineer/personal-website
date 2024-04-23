@@ -8,8 +8,9 @@ date: 2023-05-20
 params:
   isbn13: '9781447273301'
   series: Children of Time
+  year: '2016'
 star_rating: 5
-title: Children of Time
+title: Children Of Time
 ---
 
 A very human story with Alien aliens, AI/human constructs and time "travel".

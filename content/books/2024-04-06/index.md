@@ -7,8 +7,9 @@ date: 2024-04-06
 params:
   isbn13: '9780547773704'
   series: Earthsea
+  year: '2012'
 star_rating: 4
-title: Tales from Earthsea
+title: Tales From Earthsea
 ---
 
 A collection of short stories and novellas set in the Earthsea setting that

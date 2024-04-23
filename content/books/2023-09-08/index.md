@@ -6,9 +6,10 @@ books/tags:
 date: 2023-09-08
 params:
   isbn13: '9781615197934'
+  year: '2021'
 star_rating: 5
-title: 'Good Thinking: Why Flawed Logic Puts Us All at Risk and How Critical Thinking
-  Can Save the World'
+title: Good Thinking - Why Flawed Logic Puts Us All At Risk And How Critical Thinking
+  Can Save The World
 ---
 
 A compelling and instructive book on the many logical fallacies we are guilty of

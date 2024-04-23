@@ -6,8 +6,9 @@ books/tags:
 date: 2023-06-21
 params:
   isbn13: '9781473647688'
+  year: '2021'
 star_rating: 4
-title: The Galaxy, and the Ground Within
+title: The Galaxy, And The Ground Within - Wayfarers 4
 ---
 
 The Galaxy, and the Ground Within is a science fiction novel about a diverse

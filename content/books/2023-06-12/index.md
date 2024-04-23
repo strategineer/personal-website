@@ -5,10 +5,11 @@ books/tags:
 - fantasy
 date: 2023-06-12
 params:
-  isbn13: '9781250891211'
+  isbn13: '9780765376466'
   series: Shades of Magic
+  year: '2016'
 star_rating: 5
-title: A Darker Shade of Magic
+title: A Darker Shade Of Magic - A Novel
 ---
 
 I really loved it...

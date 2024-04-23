@@ -7,8 +7,9 @@ date: 2023-08-18
 params:
   isbn13: '9780765376473'
   series: Shades of Magic
+  year: '2016'
 star_rating: 5
-title: A Gathering of Shadows
+title: A Gathering Of Shadows - A Novel
 ---
 
 An absolute page turner if I've ever read one (I couldn't put this book down).

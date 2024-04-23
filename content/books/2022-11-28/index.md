@@ -8,8 +8,9 @@ date: 2022-11-28
 params:
   isbn13: '9780062225672'
   series: Rincewind
+  year: '2013'
 star_rating: 5
-title: The Colour of Magic
+title: The Color Of Magic - A Novel Of Discworld
 ---
 
 An incompetent wizard is tasked with protecting a visitor visiting from a

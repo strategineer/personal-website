@@ -7,8 +7,9 @@ books/tags:
 date: 2022-04-15
 params:
   isbn13: '9781847081285'
+  year: '2010'
 star_rating: 1
-title: The Pig that Wants to be Eaten
+title: The Pig That Wants To Be Eaten - And Ninety-Nine Other Thought Experiments
 ---
 
 The Pig That Wants to Be Eaten offers one hundred philosophical

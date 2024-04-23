@@ -6,7 +6,8 @@ books/tags:
 - dystopian
 date: 2023-01-08
 params:
-  isbn13: '9781508976097'
+  isbn13: '9780307356543'
+  year: '2007'
 star_rating: 3
 title: Brave New World
 ---

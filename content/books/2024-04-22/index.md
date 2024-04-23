@@ -8,8 +8,9 @@ books/tags:
 date: 2024-04-22
 params:
   isbn13: '9781645660408'
+  year: '2022'
 star_rating: 4
-title: Lonely Castle in the Mirror
+title: Lonely Castle In The Mirror
 ---
 
 Childhood trauma. Check.

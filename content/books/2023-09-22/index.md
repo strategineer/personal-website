@@ -5,6 +5,7 @@ books/tags:
 date: 2023-09-22
 params:
   isbn13: '9781250850973'
+  year: '2023'
 star_rating: 4
 title: The Crane Husband
 ---

@@ -6,8 +6,9 @@ books/tags:
 date: 2023-10-14
 params:
   isbn13: '9780553418026'
+  year: '2014'
 star_rating: 3
-title: The Martian
+title: The Martian - A Novel
 ---
 
 An astronaut is abandoned on Mars after a dust storm separates him from his

@@ -6,8 +6,9 @@ books/tags:
 date: 2023-09-02
 params:
   isbn13: '9781538732182'
+  year: '2019'
 star_rating: 3
-title: Parable of the Sower
+title: Parable Of The Sower
 ---
 
 A post-apocalyptic story following a messiah-like figure who wishes to both:

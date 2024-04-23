@@ -9,8 +9,9 @@ books/tags:
 date: 2022-10-03
 params:
   isbn13: '9780197625798'
+  year: '2022'
 star_rating: 4
-title: Aesthetic Life and Why It Matters
+title: Aesthetic Life And Why It Matters
 ---
 
 We all enjoy (and love to comment on) our experiences with media, cuisine,

@@ -7,6 +7,7 @@ books/tags:
 date: 2023-08-17
 params:
   isbn13: '9780756412746'
+  year: '2017'
 star_rating: 1
 title: Terminal Alliance
 ---

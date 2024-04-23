@@ -7,8 +7,9 @@ date: 2023-11-05
 params:
   isbn13: '9781529051933'
   series: The Final Architecture
+  year: '2022'
 star_rating: 5
-title: Eyes of the Void
+title: Eyes Of The Void
 ---
 
 The best "second novel in a trilogy" that I've read in a while. To no one's

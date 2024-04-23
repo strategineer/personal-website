@@ -8,8 +8,9 @@ date: 2023-07-30
 params:
   isbn13: '9780547773742'
   series: Earthsea
+  year: '2012'
 star_rating: 5
-title: A Wizard of Earthsea
+title: A Wizard Of Earthsea
 ---
 
 There's a, soon-to-be wizard, on a archipelago world. He goes to wizard school

@@ -8,8 +8,9 @@ date: 2023-06-24
 params:
   isbn13: '9780062307392'
   series: Death
+  year: '2014'
 star_rating: 4
-title: Thief of Time
+title: Thief Of Time - A Novel Of Discworld
 ---
 
 A few different cooky POV characters doing their own thing, eventually meet up

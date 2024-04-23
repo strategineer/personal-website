@@ -5,8 +5,9 @@ books/tags:
 - fantasy
 date: 2024-03-27
 params:
-  isbn13: '9780613495271'
+  isbn13: '9781442459960'
   series: Earthsea
+  year: '2012'
 star_rating: 5
 title: Tehanu
 ---

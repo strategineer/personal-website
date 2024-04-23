@@ -7,6 +7,7 @@ books/tags:
 date: 2023-07-23
 params:
   isbn13: '9780934747165'
+  year: '1997'
 star_rating: 5
-title: 'Chuang-Tsu: The Inner Chapters'
+title: Chuang Tsu - Inner Chapters
 ---

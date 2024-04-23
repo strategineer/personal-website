@@ -8,8 +8,9 @@ books/tags:
 date: 2022-02-15
 params:
   isbn13: '9780812968255'
+  year: '2003'
 star_rating: 3
-title: 'Meditations: A New Translation'
+title: Meditations - A New Translation
 ---
 
 Marcus Aurelius Antoninus (a.d. 121–180) succeeded his adoptive father as

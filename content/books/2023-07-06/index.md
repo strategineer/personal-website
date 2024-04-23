@@ -7,8 +7,9 @@ date: 2023-07-06
 params:
   isbn13: '9780765397539'
   series: The Murderbot Diaries
+  year: '2017'
 star_rating: 4
-title: All Systems Red
+title: All Systems Red - The Murderbot Diaries
 ---
 
 All Systems Red is about a sentient robot-human hybrid, calling themselves

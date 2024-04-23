@@ -7,8 +7,9 @@ date: 2023-08-16
 params:
   isbn13: '9781529051902'
   series: The Final Architecture
+  year: '2022'
 star_rating: 5
-title: Shards of Earth
+title: 'Shards Of Earth: The Final Architecture Book 1'
 ---
 
 A great space opera by the king of writing alien aliens. It's a fantastic romp

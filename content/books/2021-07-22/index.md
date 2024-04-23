@@ -9,8 +9,9 @@ books/tags:
 date: 2021-07-22
 params:
   isbn13: '9781906838386'
+  year: '2013'
 star_rating: 1
-title: Sandcastles
+title: Sandcastle
 ---
 
 Sandcastles is the french comic book that the recent M. Night Shyamalan's movie
