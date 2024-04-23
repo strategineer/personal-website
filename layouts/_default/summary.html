@@ -55,7 +55,7 @@
                   <div class="col-12">
                     {{ if $is_books -}}
                       {{- if eq .Params.weight 1 -}}
-                      Currently reading...
+                      Reading...
                       {{ else }}
                       Finished on: {{ .Date.Format "Mon, Jan 2, 2006" }}
                       {{- end -}}
