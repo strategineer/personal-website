@@ -1,9 +1,6 @@
 ---
 title: Strat's Bookshelf
 is_readable: true
-url: "/"
-aliases:
-  - /books/index.html
 cascade:
   header:
     text: "Name's Strat; I like reading hehe."

@@ -5,6 +5,7 @@ authors:
 date: 2024-04-21
 weight: 1
 books/tags:
+    - "currently reading"
     - "non-fiction"
     - "philosophy"
 ---

@@ -34,8 +34,11 @@
   {{ if and (lt $n $min_books_for_sorting) (ne $n 0) }}
   {{ $score = mul $score (div (div 1.0 $n) $min_books_for_sorting) }}
   {{ end }}
+  {{ if eq $t.Term "currently reading" }}
+  {{ $score = add $score 10000 }}
+  {{ end }}
   {{ if eq $t.Term "slay" }}
-  {{ $score = mul $score 100 }}
+  {{ $score = mul $score 10 }}
   {{ end }}
   {{ if eq $t.Term "dnf" }}
   {{ $score = mul $score 0.01 }}
@@ -66,7 +69,7 @@
       {{ if not (in $all_books $main_book) }}
         {{ $related_books := (.Site.Pages.Related $main_book).ByDate }}
         {{ $related_books = $related_books | append $main_book }}
-        {{ if ne $t.Term "slay" }}
+        {{ if and (ne $t.Term "slay") (ne $t.Term "currently reading") }}
           {{ range $related_books }}
             {{ $related_book := . }}
             {{ if not (in $all_books $related_book) }}
@@ -79,9 +82,9 @@
       {{ end }}
     {{ end }}
     {{ $res := mod (add $k 1) $max_books_per_row }}
-    {{ if eq $res 0 }}
-    {{ $k = add $k 1 }}
-    <div class="w-100"></div>
+    {{ if or (eq $res 0) (eq $t.Term "slay") }}
+      {{ $k = add $k 1 }}
+      <div class="w-100"></div>
     {{ end }}
     <div class="col-lg-2 all-tags">
       <a href="{{ $t.Page.RelPermalink }}">

@@ -5,6 +5,7 @@ authors:
 date: 2024-04-20
 weight: 1
 books/tags:
+    - "currently reading"
     - "fiction"
     - "fantasy"
 params:
