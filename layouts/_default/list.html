@@ -3,9 +3,8 @@
 {{ end }}
 
 {{ define "main" }}
-{{ .Content }}
-{{ range .Pages }}
-  {{ .Render "summary" }}
+  {{ .Content }}
+  {{ range .Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
 {{ end }}
-{{ end }}
-

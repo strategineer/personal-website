@@ -2,9 +2,10 @@
 title: "Bad Poetry #1"
 date: 2022-02-06
 blog/tags:
-    - ramble
-    - poetry
+  - ramble
+  - poetry
 ---
+
 Sifting through the filtered photographs
 
 Left and right, left and right

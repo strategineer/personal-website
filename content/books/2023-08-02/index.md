@@ -4,14 +4,16 @@ authors: "Ursula K. Le Guin"
 date: 2023-08-02
 star_rating: 4
 books/tags:
-    - "fiction"
-    - "fantasy"
+  - "fiction"
+  - "fantasy"
 params:
   series: "Earthsea"
 ---
 
-Le Guin mostly successful attempt to write a story in the world of a Wizard of Earthsea told from the perspective of a girl and, eventually, woman.
+Le Guin mostly successful attempt to write a story in the world of a Wizard of
+Earthsea told from the perspective of a girl and, eventually, woman.
 
-Ged shows up and steals the show a little bit from Tenar which Le Guin will rectify in the subsequent novels.
+Ged shows up and steals the show a little bit from Tenar which Le Guin will
+rectify in the subsequent novels.
 
 <!--more-->

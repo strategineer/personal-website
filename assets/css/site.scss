@@ -1,6 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-$colors: #00080F #f2f2f2 #bb1b1b #FFFFFF;
+$colors: #00080f #f2f2f2 #bb1b1b #ffffff;
 
 $bg_dark: nth($colors, 2);
 $bg_light: nth($colors, 4);
@@ -10,85 +10,84 @@ $color_base: nth($colors, 1);
 $link_highlight: nth($colors, 1);
 
 @media screen {
-    body {
-        background: $bg_light;
-        color: $color_base;
-    }
+  body {
+    background: $bg_light;
+    color: $color_base;
+  }
 
-    .table td,
-    .table th {
-        color: $color_base;
-    }
+  .table td,
+  .table th {
+    color: $color_base;
+  }
 
-    a,
-    a>li {
-        color: $link_base;
+  a,
+  a > li {
+    color: $link_base;
 
-        &:focus,
-        &:hover,
-        &:active {
-            color: $link_highlight;
-            background: $bg_dark;
-        }
+    &:focus,
+    &:hover,
+    &:active {
+      color: $link_highlight;
+      background: $bg_dark;
     }
+  }
 }
 
 @page {
-    size: auto;
-    /* auto is the initial value */
+  size: auto;
+  /* auto is the initial value */
 
-    /* this affects the margin in the printer settings */
-    margin: 1mm 1mm 1mm 1mm;
+  /* this affects the margin in the printer settings */
+  margin: 1mm 1mm 1mm 1mm;
 }
 
 @media print {
+  header,
+  footer,
+  aside,
+  nav,
+  form,
+  iframe,
+  .menu,
+  .hero,
+  .adslot,
+  .cv-download-link,
+  .menu-buttons {
+    display: none !important;
+  }
 
-    header,
-    footer,
-    aside,
-    nav,
-    form,
-    iframe,
-    .menu,
-    .hero,
-    .adslot,
-    .cv-download-link,
-    .menu-buttons {
-        display: none !important;
+  body {
+    background: white;
+    color: black;
+  }
+
+  .table td,
+  .table th {
+    color: black;
+  }
+
+  a {
+    color: $link_print;
+
+    &:focus,
+    &:hover,
+    &:active {
+      color: $link_print;
     }
-
-    body {
-        background: white;
-        color: black;
-    }
-
-    .table td,
-    .table th {
-        color: black;
-    }
-
-    a {
-        color: $link_print;
-
-        &:focus,
-        &:hover,
-        &:active {
-            color: $link_print;
-        }
-    }
+  }
 }
 
 body {
-    font-family: sans-serif;
-    text-align: left;
-    letter-spacing: 0;
-    font-weight: 400;
-    line-height: 1.8;
+  font-family: sans-serif;
+  text-align: left;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 1.8;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin: 0;
+  font-size: 2.5rem;
+  margin: 0;
 }
 
 h1,
@@ -97,478 +96,470 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: serif;
+  font-family: serif;
 }
 
 .readable,
 .cv-readable {
-    margin: auto;
+  margin: auto;
 }
 
 .previous-article-link,
 .next-article-link {
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Footer */
 .footer {
-    margin-top: 0.5em;
-    padding-left: 5px;
-    padding-right: 5px;
+  margin-top: 0.5em;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .author-blurb {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-hr+ol {
-    padding-left: 0;
+hr + ol {
+  padding-left: 0;
 }
 
 .footnotes {
-    font-size: 0.95rem;
-    padding-left: 0;
+  font-size: 0.95rem;
+  padding-left: 0;
 }
-
 
 .footer-paginator-previous,
 .footer-paginator-next {
-    font-size: 0.95rem;
+  font-size: 0.95rem;
 }
 
 .footer-tags {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .footer-shortlist-title {
-    margin-top: 0.25em;
+  margin-top: 0.25em;
 }
 
 .footer-paginator-previous {
-    margin-top: 0.25em;
+  margin-top: 0.25em;
 }
 
 .footer-shortlist-parent {
-    text-align: center
+  text-align: center;
 }
 
-.footer-shortlist-parent>.footer-shortlist-list {
-    display: inline-block;
+.footer-shortlist-parent > .footer-shortlist-list {
+  display: inline-block;
 }
 
 .footer-shortlist-list {
-    width: 100%;
-    font-size: 0.95rem;
-    padding-inline-start: 0px;
-    list-style-type: none;
+  width: 100%;
+  font-size: 0.95rem;
+  padding-inline-start: 0px;
+  list-style-type: none;
 }
 
-
 .img-paranoia {
-    margin: 2px;
+  margin: 2px;
 }
 
 .footer-shortlist-item {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 1rem;
-    margin-left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+  margin-left: 0;
 }
 
 .footer-shortlist-archive {
-    font-size: 1rem;
-    margin-left: 0;
+  font-size: 1rem;
+  margin-left: 0;
 }
 
 .table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 .table td,
 .table th {
-    border: 1px solid $bg_dark;
-    padding: .50em;
+  border: 1px solid $bg_dark;
+  padding: 0.5em;
 }
 
 // Journals
 blockquote {
-    margin-bottom: 0.5em;
-    background: $bg_dark;
-    border: 2px $bg_dark;
-    border-style: solid;
+  margin-bottom: 0.5em;
+  background: $bg_dark;
+  border: 2px $bg_dark;
+  border-style: solid;
 
-    p {
-        margin-left: 0.5em;
-        color: $color_base;
-    }
+  p {
+    margin-left: 0.5em;
+    color: $color_base;
+  }
 }
 
 p {
-    display: block;
-    margin-block-start: 0.365em;
-    margin-block-end: 0.365em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    width: 100%;
+  display: block;
+  margin-block-start: 0.365em;
+  margin-block-end: 0.365em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 100%;
 }
 
 .post-summary {
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 .mermaid {
-    width: auto;
+  width: auto;
 }
 
-
-
 .page-title {
-    margin-bottom: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 .page-reading-time {
-    font-style: italic;
+  font-style: italic;
 }
-
 
 a:focus,
 a:hover,
 a:visited,
 a:link,
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .project-blurb {
-    margin-top: 0.5em;
-    background: $bg_light;
-    outline: 0.2em solid $bg_light;
-    font-size: larger;
+  margin-top: 0.5em;
+  background: $bg_light;
+  outline: 0.2em solid $bg_light;
+  font-size: larger;
 }
 
-.notes>ul,
-.notes>ol,
+.notes > ul,
+.notes > ol,
 .post-bullet-list {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 // Remove this unneeded margin that messes up the page links
 ul.list-inline {
-    margin: 0;
+  margin: 0;
 }
 
 .d-flex-inline-list {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .ul-inline {
-    margin: 5px;
+  margin: 5px;
 }
 
 .li-inline {
-    margin-left: 5px;
-    margin-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /* CV */
 a.cv-anchor {
-    display: block;
-    position: relative;
-    top: -75px;
-    visibility: hidden;
+  display: block;
+  position: relative;
+  top: -75px;
+  visibility: hidden;
 }
 
 .cv-name {
-    margin-top: .4em;
+  margin-top: 0.4em;
 }
 
 .cv-content {
-    margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .cv-main-section {
-    margin-top: 0.4em;
+  margin-top: 0.4em;
 }
 
 .cv-main-title {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .cv-bullet-item {
-    margin-left: 0rem;
-    font-size: 0.95rem;
+  margin-left: 0rem;
+  font-size: 0.95rem;
 }
 
 .cv-main-entry-title {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .cv-main-entry-title,
 .cv-main-entry-year,
 .cv-main-entry-tech,
 .cv-main-entry-hint {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .cv-main-entry {
-    border-left: 2px solid $bg_dark;
-    border-bottom: 2px solid $bg_dark;
-    margin-bottom: 0.2em;
-    margin-top: 0.1em;
+  border-left: 2px solid $bg_dark;
+  border-bottom: 2px solid $bg_dark;
+  margin-bottom: 0.2em;
+  margin-top: 0.1em;
 }
 
 .cv-main-entry-bullets {
-    font-size: 0.95rem;
+  font-size: 0.95rem;
 }
 
 .avatar-static {
-    background: white;
-    width: 32px;
-    height: 32px;
+  background: white;
+  width: 32px;
+  height: 32px;
 }
 
 // Blog
 .blog-call-to-action {
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
-
 
 // Make audio files not have bottom margin
 figure {
-    margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .no-margin {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
-
 .less-important {
-    opacity: 0.65;
-    font-size: 0.90rem;
+  opacity: 0.65;
+  font-size: 0.9rem;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
 
 .float-left {
-    float: left;
+  float: left;
 }
-
 
 .summary-title {
-    margin: 0;
-    padding-bottom: 0.25em;
+  margin: 0;
+  padding-bottom: 0.25em;
 }
 
-
 .menu-button {
-    padding: 1em;
-    margin: .25em;
+  padding: 1em;
+  margin: 0.25em;
 }
 
 .btn-toolbar {
-    text-align: center;
+  text-align: center;
 }
 
 // Captions for images, videos, audio files and youtube embeds
-dd>em,
-img+em,
-video+p>em,
-blockquote+p>em,
-div+p>em,
-div>em,
+dd > em,
+img + em,
+video + p > em,
+blockquote + p > em,
+div + p > em,
+div > em,
 .caption {
-    text-align: center;
-    display: block;
-    font-size: 0.95rem;
-    margin-bottom: 1.5em;
+  text-align: center;
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 1.5em;
 }
 
 li {
-    margin-left: 1.25rem;
+  margin-left: 1.25rem;
 }
 
 .explorer-info-link {
-    background: white !important;
+  background: white !important;
 }
 
 .menu-buttons {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .explorer-footer-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 15px;
-    z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15px;
+  z-index: 99;
 }
 
 #explorer-footer-button-another {
-    right: 0px;
+  right: 0px;
 }
 
 #explorer-footer-button-share {
-    right: 100px;
+  right: 100px;
 }
 
 // Bootstrap tweak
 
 .list-inline-item {
-    margin-left: 0.75rem;
-    margin-right: 0;
+  margin-left: 0.75rem;
+  margin-right: 0;
 }
 
 .readable-footer {
-    margin: 0;
+  margin: 0;
 }
 
 .btn-light,
 .btn-outline-dark {
-    background-color: white;
+  background-color: white;
 }
 
 .btn-light:hover,
 .btn-outline-dark:hover {
-    color: #fff;
-    background-color: white;
-    border-color: #000;
+  color: #fff;
+  background-color: white;
+  border-color: #000;
 }
 
 .offcanvas {
-    --#{$prefix}offcanvas-width: #{$offcanvas-horizontal-width};
-    --#{$prefix}offcanvas-height: auto;
-    --#{$prefix}offcanvas-padding-x: 0;
-    --#{$prefix}offcanvas-padding-y: 0;
-    --#{$prefix}offcanvas-bg: transparent;
-    --#{$prefix}offcanvas-border-width: 0;
+  --#{$prefix}offcanvas-width: #{$offcanvas-horizontal-width};
+  --#{$prefix}offcanvas-height: auto;
+  --#{$prefix}offcanvas-padding-x: 0;
+  --#{$prefix}offcanvas-padding-y: 0;
+  --#{$prefix}offcanvas-bg: transparent;
+  --#{$prefix}offcanvas-border-width: 0;
 }
 
-
-
-@include media-breakpoint-down(xs) {}
+@include media-breakpoint-down(xs) {
+}
 
 @include media-breakpoint-down(sm) {
-    .desktop-only {
-        display: none;
-    }
+  .desktop-only {
+    display: none;
+  }
 }
 
 // On md size and down, the third column (tags) is not shown therefore hide the next columns border.
 @include media-breakpoint-down(md) {
-
-    .table tr td:nth-last-child(2),
-    .table tr th:nth-last-child(2) {
-        border-right: 0;
-    }
+  .table tr td:nth-last-child(2),
+  .table tr th:nth-last-child(2) {
+    border-right: 0;
+  }
 }
 
-@include media-breakpoint-down(lg) {}
+@include media-breakpoint-down(lg) {
+}
 
-@include media-breakpoint-down(xl) {}
+@include media-breakpoint-down(xl) {
+}
 
 @include media-breakpoint-up(xs) {
+  p,
+  li,
+  em {
+    font-size: 1.1rem;
+  }
 
-    p,
-    li,
-    em {
-        font-size: 1.1rem;
-    }
+  .cv-main-entry-title {
+    font-size: 1.02rem;
+  }
 
-    .cv-main-entry-title {
-        font-size: 1.02rem;
-    }
-
-    .cv-main-title {
-        font-size: 1.2rem;
-    }
+  .cv-main-title {
+    font-size: 1.2rem;
+  }
 }
 
-@include media-breakpoint-up(sm) {}
+@include media-breakpoint-up(sm) {
+}
 
 @include media-breakpoint-up(md) {
+  // Center the navbar menu options when they are not collapsed.
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
 
-    // Center the navbar menu options when they are not collapsed.
-    .navbar-nav.navbar-center {
-        position: absolute;
-        left: 50%;
-        transform: translatex(-50%);
-    }
+  // Increase size when not on super small screen.
+  p,
+  li,
+  em {
+    font-size: 1.4rem;
+  }
 
-    // Increase size when not on super small screen.
-    p,
-    li,
-    em {
-        font-size: 1.4rem;
-    }
+  // set the maximum with to allow for better readability.
+  .readable {
+    width: 860px;
+  }
 
-    // set the maximum with to allow for better readability.
-    .readable {
-        width: 860px;
-    }
+  // Fit columns to the data.
+  .table {
+    white-space: nowrap;
+    width: 1%;
+  }
 
-    // Fit columns to the data.
-    .table {
-        white-space: nowrap;
-        width: 1%;
-    }
+  .cv-main-entry-title {
+    font-size: 1.4rem;
+  }
 
-    .cv-main-entry-title {
-        font-size: 1.4rem;
-    }
-
-    .cv-main-title {
-        font-size: 1.6rem;
-    }
+  .cv-main-title {
+    font-size: 1.6rem;
+  }
 }
 
 @include media-breakpoint-up(lg) {
-    .mobile-only {
-        display: none;
-    }
+  .mobile-only {
+    display: none;
+  }
 }
 
 @include media-breakpoint-up(xl) {
-    .album {
-        width: 1140px;
-    }
+  .album {
+    width: 1140px;
+  }
 }
 
-
-.spoiler, .spoiler2, .spoiler a, .spoiler2 a{ 
-    color: black; 
-    background-color: black;
+.spoiler,
+.spoiler2,
+.spoiler a,
+.spoiler2 a {
+  color: black;
+  background-color: black;
 }
 
-.spoiler:hover, .spoiler:hover a {
-    color: white;
+.spoiler:hover,
+.spoiler:hover a {
+  color: white;
 }
 
-.spoiler2:hover, .spoiler2:hover a { 
-    background-color:white; 
+.spoiler2:hover,
+.spoiler2:hover a {
+  background-color: white;
 }
 
-.end-page
-{
-    padding-bottom: 5em;
+.end-page {
+  padding-bottom: 5em;
 }
 
-.search 
-{
-    padding-bottom: 0.5em;
+.search {
+  padding-bottom: 0.5em;
 }

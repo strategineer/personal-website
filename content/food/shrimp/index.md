@@ -5,7 +5,9 @@ weight: 2
 food/tags:
   - communist
   - hot
-summary: Shrimp, small but numerous, red through and through; best served on pasta with a white sauce.
+summary:
+  Shrimp, small but numerous, red through and through; best served on pasta with
+  a white sauce.
 servings: 4
 ingredients:
   - 625g Pacific White shrimp
@@ -17,7 +19,9 @@ ingredients:
   - 1 tbsp of butter
 steps:
   - Remove the shells from the shrimp.
-  - Mix all the ingredients together, except the butter, in a freezer bag or a mixing bowl, seal the container and let it rest in the fridge for about 1h.
-  - Heat the butter on a large pan, once it's melted toss the shrimp on it for about 10min.
+  - Mix all the ingredients together, except the butter, in a freezer bag or a
+    mixing bowl, seal the container and let it rest in the fridge for about 1h.
+  - Heat the butter on a large pan, once it's melted toss the shrimp on it for
+    about 10min.
   - Serve on pasta with white sauce.
 ---

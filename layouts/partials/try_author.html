@@ -1,9 +1,9 @@
 {{ $authors := (.GetTerms "authors" ) }}
 {{ if $authors }}
-{{ range $authors }}
-<li class="list-inline-item li-inline" data-pagefind-body>
-    {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-    <a href="{{ .Permalink }}">{{ $pretty_author }}</a>
-</li>
-{{ end }}
+  {{ range $authors }}
+    <li class="list-inline-item li-inline" data-pagefind-body>
+      {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+      <a href="{{ .Permalink }}">{{ $pretty_author }}</a>
+    </li>
+  {{ end }}
 {{ end }}

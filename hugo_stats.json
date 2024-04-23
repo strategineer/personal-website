@@ -80,7 +80,6 @@
       "cocktails-content",
       "col",
       "col-12",
-      "col-4",
       "col-7",
       "col-auto",
       "col-lg-2",
@@ -171,10 +170,8 @@
       "summary-title",
       "svg-container",
       "text-center",
-      "text-end",
       "text-left",
       "text-muted",
-      "text-start",
       "ul-inline",
       "visually-hidden",
       "w-100"

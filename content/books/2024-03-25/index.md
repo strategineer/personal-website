@@ -4,8 +4,8 @@ authors: "Lady Wylde"
 date: 2024-03-25
 star_rating: 1
 books/tags:
-    - "mythography"
-    - "DNF"
+  - "mythography"
+  - "DNF"
 params:
   dnf: "70%"
 ---
@@ -13,11 +13,15 @@ params:
 I'm not sure who to blame for how boring most of this book is:
 
 - The British for their empire and the consequences of that on the Irish
-- The Catholics for influencing the Irish and warping their existing folkloric beliefs
-- Lady Wylde herself for presenting these stories in a very blunt and uninteresting way.
+- The Catholics for influencing the Irish and warping their existing folkloric
+  beliefs
+- Lady Wylde herself for presenting these stories in a very blunt and
+  uninteresting way.
 
 All of the above?
 
-<!--more--> 
+<!--more-->
 
-All I know is that I DNF this one at around the 70% mark, life's too short. I need to become more comfortable with dropping a book if it's not good enough and lowering my "shitty book" threshold.
+All I know is that I DNF this one at around the 70% mark, life's too short. I
+need to become more comfortable with dropping a book if it's not good enough and
+lowering my "shitty book" threshold.

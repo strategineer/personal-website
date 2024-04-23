@@ -5,7 +5,7 @@
 {{ $p := .Section }}
 
 {{ if eq $p "books" }}
-{{ $p = "books/tags"}}
+  {{ $p = "books/tags" }}
 {{ end }}
 
 {{ $is_authors_page := eq $p "authors" }}
@@ -30,101 +30,102 @@
   {{ end }}
   {{ $score := 0 }}
   {{ $score = add $score $n_rating }}
-  {{ $score = add $score (mul $n 0.15)}}
+  {{ $score = add $score (mul $n 0.15) }}
   {{ if and (lt $n $min_books_for_sorting) (ne $n 0) }}
-  {{ $score = mul $score (div (div 1.0 $n) $min_books_for_sorting) }}
+    {{ $score = mul $score (div (div 1.0 $n) $min_books_for_sorting) }}
   {{ end }}
   {{ if eq $t.Term "currently reading" }}
-  {{ $score = add $score 10000 }}
+    {{ $score = add $score 10000 }}
   {{ end }}
   {{ if eq $t.Term "slay" }}
-  {{ $score = mul $score 10 }}
+    {{ $score = mul $score 10 }}
   {{ end }}
   {{ if eq $t.Term "dnf" }}
-  {{ $score = mul $score 0.01 }}
+    {{ $score = mul $score 0.01 }}
   {{ end }}
   {{ if eq $t.Term "trash" }}
-  {{ $score = mul $score 0 }}
+    {{ $score = mul $score 0 }}
   {{ end }}
   {{ $dict_to_avg_star_rating = merge $dict_to_avg_star_rating (dict $t.Term (dict "term" $t.Term "score" $score "object" $t) ) }}
 {{ end }}
 
 {{ $k := 0 }}
 <div class="row align-items-center">
-{{ $dict_to_avg_star_rating = sort $dict_to_avg_star_rating "score" "desc" }}
-{{ range $d := $dict_to_avg_star_rating }}
-  {{ $term := index $d "term"}}
-  {{ $score := index $d "score"}}
-  {{ $t := index $d "object"}}
-  {{ if gt $t.Count 0 }}
-  {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
-  {{ if eq $t.Page.Title "Fiction" }}
-    {{ continue }}
-  {{ end }}
-    {{ $i := 0 }}
-    {{ $books := ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
-    {{ $all_books := slice }}
-    {{ range $books }}
-      {{ $main_book := . }}
-      {{ if not (in $all_books $main_book) }}
-        {{ $related_books := (.Site.Pages.Related $main_book).ByDate }}
-        {{ $related_books = $related_books | append $main_book }}
-        {{ if and (ne $t.Term "slay") (ne $t.Term "currently reading") }}
-          {{ range $related_books }}
-            {{ $related_book := . }}
-            {{ if not (in $all_books $related_book) }}
-              {{ $all_books = $all_books | append $related_book }}
-            {{ end }}
-          {{ end }}
-        {{ else }}
-          {{ $all_books = $all_books | append $main_book }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-    {{ $res := mod (add $k 1) $max_books_per_row }}
-    {{ if or (eq $res 0) (eq $t.Term "slay") }}
-      {{ $k = add $k 1 }}
-      <div class="w-100"></div>
-    {{ end }}
-    <div class="col-lg-2 all-tags">
-      <a href="{{ $t.Page.RelPermalink }}">
-        <span class="h3">{{ $t.Page.Title }}</span>
-      </a>
-    </div>
-    {{ $k = add $k 1 }}
-    {{ range $all_books }}
-      {{ $book_tags := index .Params "books/tags"}}
-      {{ if not (or $is_authors_page (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf"))))) }}
+  {{ $dict_to_avg_star_rating = sort $dict_to_avg_star_rating "score" "desc" }}
+  {{ range $d := $dict_to_avg_star_rating }}
+    {{ $term := index $d "term" }}
+    {{ $score := index $d "score" }}
+    {{ $t := index $d "object" }}
+    {{ if gt $t.Count 0 }}
+      {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
+      {{ if eq $t.Page.Title "Fiction" }}
         {{ continue }}
       {{ end }}
+      {{ $i := 0 }}
+      {{ $books := ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
+      {{ $all_books := slice }}
+      {{ range $books }}
+        {{ $main_book := . }}
+        {{ if not (in $all_books $main_book) }}
+          {{ $related_books := (.Site.Pages.Related $main_book).ByDate }}
+          {{ $related_books = $related_books | append $main_book }}
+          {{ if not (in (slice "slay" "currently reading" "trash" "dnf") $t.Term) }}
+            {{ range $related_books }}
+              {{ $related_book := . }}
+              {{ if not (in $all_books $related_book) }}
+                {{ $all_books = $all_books | append $related_book }}
+              {{ end }}
+            {{ end }}
+          {{ else }}
+            {{ $all_books = $all_books | append $main_book }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $res := mod (add $k 1) $max_books_per_row }}
+      {{ if or (eq $res 0) (eq $t.Term "slay") }}
+        {{ $k = add $k 1 }}
+        <div class="w-100"></div>
+      {{ end }}
+      <div class="col-lg-2 all-tags">
+        <a href="{{ $t.Page.RelPermalink }}">
+          <span class="h3">{{ $t.Page.Title }}</span>
+        </a>
+      </div>
+      {{ $k = add $k 1 }}
+      {{ range $all_books }}
+        {{ $book_tags := index .Params "books/tags" }}
+        {{ if not (or $is_authors_page (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf"))))) }}
+          {{ continue }}
+        {{ end }}
         {{ $i = add  $i 1 }}
         {{ $page_num = add $page_num 1 }}
-        {{ $k = add $k 1 }} 
+        {{ $k = add $k 1 }}
         <div class="col col-lg-2">
           <a href="{{ .Permalink }}">
             <div class="row text-center">
               <div class="col">
-              {{ partial "try_star_rating" . }}
+                {{ partial "try_star_rating" . }}
               </div>
             </div>
             <div class="row">
               <div class="col text-center">
-                {{ $lazy_loading := "lazy"}}
+                {{ $lazy_loading := "lazy" }}
                 {{ if lt $page_num 12 }}
-                  {{ $lazy_loading = "eager"}}
+                  {{ $lazy_loading = "eager" }}
                 {{ end }}
                 {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
                 {{ if $thumbnail }}
                   {{ partial "img" (dict
-                  "widths" (slice 100 150)
-                  "aspect_ratio" "2:3"
-                  "fit" "contain"
-                  "src" "thumbnail.*"
-                  "ctx" .
-                  "class" "img-fluid rounded mx-auto"
-                  "alt" "Thumbnail"
-                  "loading" $lazy_loading
-                  ) }}
+                    "widths" (slice 100 150)
+                    "aspect_ratio" "2:3"
+                    "fit" "contain"
+                    "src" "thumbnail.*"
+                    "ctx" .
+                    "class" "img-fluid rounded mx-auto"
+                    "alt" "Thumbnail"
+                    "loading" $lazy_loading
+                    )
+                  }}
                 {{ end }}
               </div>
             </div>
@@ -132,5 +133,5 @@
         </div>
       {{ end }}
     {{ end }}
-{{ end }}
+  {{ end }}
 </div>

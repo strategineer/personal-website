@@ -3,13 +3,13 @@
     {{ partial "title" . }}
     <div class="row justify-content-center">
       <div class="col-auto align-self-center text-center">
-      {{ partial "reading_time" . }}
+        {{ partial "reading_time" . }}
       </div>
     </div>
     {{ partial "try_thumbnail" . }}
     <div class="row justify-content-center">
       <div class="col-auto align-self-center">
-      {{ partial "try_tags" . }}
+        {{ partial "try_tags" . }}
       </div>
     </div>
     {{ partial "try_links" . }}
@@ -17,22 +17,27 @@
     {{ partial "try_audio" . }}
     <div class="row justify-content-center readable">
       {{ if in (index .Params "blog/tags") "fiction" }}
-      <blockquote>
-        <div class="col-12 text-center">
-          This is a work of fiction. Names, characters, events and incidents are the products of the author’s imagination. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.
-        </div>
-      </blockquote>
+        <blockquote>
+          <div class="col-12 text-center">
+            This is a work of fiction. Names, characters, events and incidents
+            are the products of the author’s imagination. Any resemblance to
+            actual persons, living or dead, or actual events is purely
+            coincidental.
+          </div>
+        </blockquote>
       {{ end }}
       {{ if in (index .Params "blog/tags") "ramble" }}
-      <blockquote>
-        <div class="col-12 text-center">
-          This is a "ramble" blog post, it's sort of like a public journal with less structured and more experimental (read: bad) writing. Don't take it too seriously.
-        </div>
-      </blockquote>
+        <blockquote>
+          <div class="col-12 text-center">
+            This is a "ramble" blog post, it's sort of like a public journal
+            with less structured and more experimental (read: bad) writing.
+            Don't take it too seriously.
+          </div>
+        </blockquote>
       {{ end }}
       {{ .Content }}
       <blockquote class="blog-call-to-action">
-        {{partial "contact_info" . }}
+        {{ partial "contact_info" . }}
       </blockquote>
     </div>
   </div>

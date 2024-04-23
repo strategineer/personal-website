@@ -10,4 +10,3 @@ summary: Discord (chat) bot running on a Raspberry Pi.
 ---
 
 Talk about the project here
-

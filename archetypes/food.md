@@ -11,4 +11,3 @@ ingredients:
 steps:
     - Step 1
 ---
-

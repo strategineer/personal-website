@@ -5,11 +5,12 @@
 {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
 {{ if $thumbnail }}
   {{ partial "img" (dict
-  "widths" (slice 100 200)
-  "src" "thumbnail.*"
-  "ctx" .
-  "class" "img-fluid rounded mx-auto d-block"
-  "alt" "Thumbnail"
-  "loading" $lazy_loading
-  ) }}
+    "widths" (slice 100 200)
+    "src" "thumbnail.*"
+    "ctx" .
+    "class" "img-fluid rounded mx-auto d-block"
+    "alt" "Thumbnail"
+    "loading" $lazy_loading
+    )
+  }}
 {{ end }}

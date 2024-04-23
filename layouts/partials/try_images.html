@@ -1,40 +1,72 @@
 <div class="d-flex justify-content-center readable">
   <div class="col-12">
-{{ $images_jpg := .Resources.Match "**.jpg" }}
-{{ $images_png := .Resources.Match "**.png" }}
-{{ $images := union $images_jpg $images_png }}
-{{ if eq (len $images) 1 }}
-  {{ $image := (index $images 0) }}
-  {{ with $image.Resize "x400 webp" }}
-  <img loading="lazy" alt="" class="img-fluid rounded mx-auto d-block" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}" >
-  {{ end }}
-{{ else if gt (len $images) 1 }}
-    <div id="carouselScreenshots" class="carousel slide" data-bs-ride="carousel">
-      <ol class="carousel-indicators">
-    {{ range $i, $v := $images }}
-    {{ $class := cond (eq $i 0) `active` `` }}
-        <li data-bs-target="#carouselScreenshots" data-bs-slide-to="{{ $i }}" class="{{ $class }}"></li>
-    {{ end }}
-      </ol>
-      <div class="carousel-inner">
-    {{ range $i, $v := $images }}
-        {{ $class := cond (eq $i 0) `carousel-item active` `carousel-item` }}
-        <div class="{{ $class }}">
-          {{ with $v.Resize "x400 webp" }}
-          <img loading="lazy" alt="" class="rounded d-block w-100" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}"/>
+    {{ $images_jpg := .Resources.Match "**.jpg" }}
+    {{ $images_png := .Resources.Match "**.png" }}
+    {{ $images := union $images_jpg $images_png }}
+    {{ if eq (len $images) 1 }}
+      {{ $image := (index $images 0) }}
+      {{ with $image.Resize "x400 webp" }}
+        <img
+          loading="lazy"
+          alt=""
+          class="img-fluid rounded mx-auto d-block"
+          width="{{ .Width }}"
+          height="{{ .Height }}"
+          src="{{ .RelPermalink }}"
+        />
+      {{ end }}
+    {{ else if gt (len $images) 1 }}
+      <div
+        id="carouselScreenshots"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          {{ range $i, $v := $images }}
+            {{ $class := cond (eq $i 0) `active` `` }}
+            <li
+              data-bs-target="#carouselScreenshots"
+              data-bs-slide-to="{{ $i }}"
+              class="{{ $class }}"
+            ></li>
+          {{ end }}
+        </ol>
+        <div class="carousel-inner">
+          {{ range $i, $v := $images }}
+            {{ $class := cond (eq $i 0) `carousel-item active` `carousel-item` }}
+            <div class="{{ $class }}">
+              {{ with $v.Resize "x400 webp" }}
+                <img
+                  loading="lazy"
+                  alt=""
+                  class="rounded d-block w-100"
+                  width="{{ .Width }}"
+                  height="{{ .Height }}"
+                  src="{{ .RelPermalink }}"
+                />
+              {{ end }}
+            </div>
           {{ end }}
         </div>
-    {{ end }}
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselScreenshots"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselScreenshots"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-{{ end }}
+    {{ end }}
   </div>
 </div>

@@ -4,11 +4,12 @@ authors: "Kelly Barnhill"
 date: 2023-09-22
 star_rating: 4
 books/tags:
-    - "fiction"
+  - "fiction"
 ---
 
-A short magical realism novel about a girl, her mother and her step father who's a human size crane, the bird that is.
+A short magical realism novel about a girl, her mother and her step father who's
+a human size crane, the bird that is.
 
-Hijinks ensue. 
+Hijinks ensue.
 
 <!--more-->

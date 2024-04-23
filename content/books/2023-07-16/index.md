@@ -4,8 +4,8 @@ authors: "Martha Wells"
 date: 2023-07-16
 star_rating: 3
 books/tags:
-    - "fiction"
-    - "science fiction"
+  - "fiction"
+  - "science fiction"
 params:
   series: "The Murderbot Diaries"
 ---

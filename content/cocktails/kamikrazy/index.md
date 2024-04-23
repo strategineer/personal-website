@@ -6,7 +6,9 @@ cocktails/tags:
   - vodka
 weight: 2
 inspired_by: The Joy of Mixology by Gary Reagan (p. 228)
-summary: A variation on the "Kamikaze" cocktail. I'm not too crazy about it. Be warned, it's very strong.
+summary:
+  A variation on the "Kamikaze" cocktail. I'm not too crazy about it. Be warned,
+  it's very strong.
 ingredients:
   - 1 1/2 oz vodka
   - 1 oz blue curaçao

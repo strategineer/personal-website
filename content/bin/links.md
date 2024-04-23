@@ -3,6 +3,7 @@ title: Miscellaneous Links
 is_readable: true
 summary: A bunch of links. What did you expect?
 ---
+
 - [My CV](/cv)
 - [My projects](/projects)
 - [The source code for this website](https://github.com/strategineer/personal-website)

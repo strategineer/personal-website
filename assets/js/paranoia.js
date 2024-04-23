@@ -98,7 +98,7 @@ ExplorerImp = {
   onSetDiscovery: function (discoveries) {
     console.log(1);
     let troubleshooterListElement = document.getElementById(
-      "explorer-troubleshooter-list"
+      "explorer-troubleshooter-list",
     );
     let i = 0;
     for (const d of discoveries) {

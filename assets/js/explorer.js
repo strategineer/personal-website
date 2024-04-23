@@ -14,7 +14,7 @@ window.addEventListener(
       }
     }
   },
-  false
+  false,
 );
 
 function tryLoadFromLocationHash() {
@@ -185,7 +185,7 @@ function shareDiscovery() {
     return;
   }
   const data = ExplorerImp.generateShareData(
-    getDiscoveries(ExplorerImp.currentKeys)
+    getDiscoveries(ExplorerImp.currentKeys),
   );
   if (!navigator.canShare(data)) {
     return;

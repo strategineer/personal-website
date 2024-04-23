@@ -5,11 +5,11 @@ on:
     branches:
       - master # Set a branch to deploy
     paths-ignore:
-      - 'bin/**'
-      - 'archetypes/**'
-      - 'README.md'
-      - 'COMMANDS.md'
-      - 'LICENSE'
+      - "bin/**"
+      - "archetypes/**"
+      - "README.md"
+      - "COMMANDS.md"
+      - "LICENSE"
 
 jobs:
   deploy:
@@ -19,22 +19,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '17.1.0'
+          node-version: "17.1.0"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.124.1'
+          hugo-version: "0.124.1"
           extended: true
 
       - run: npm ci
-      
+
       - name: Get modules
         run: hugo mod get
 
@@ -52,6 +52,6 @@ jobs:
           external_repository: strategineer/keikakub.github.io
           publish_branch: master
           publish_dir: ./public
-          cname: strategineer.com 
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          cname: strategineer.com
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"

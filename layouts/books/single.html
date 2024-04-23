@@ -2,15 +2,15 @@
   <div class="books-content" data-pagefind-body>
     {{ partial "title" . }}
     <div class="col-auto text-center">
-    {{ partial "try_author" . }}
+      {{ partial "try_author" . }}
     </div>
     <div class="h4 col-auto text-center">
-    {{ partial "try_star_rating" . }}
+      {{ partial "try_star_rating" . }}
     </div>
     {{ partial "try_thumbnail" . }}
     <div class="row justify-content-center">
       <div class="col-auto align-self-center">
-      {{ partial "try_tags" . }}
+        {{ partial "try_tags" . }}
       </div>
     </div>
     {{ partial "try_links" . }}
@@ -21,7 +21,7 @@
         <p>
           {{ .Params.summary }}
         </p>
-        <hr>
+        <hr />
       {{ end }}
       {{ .Content }}
     </div>

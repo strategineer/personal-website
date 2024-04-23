@@ -5,31 +5,33 @@
   {{ $non_ramble_pages := slice }}
   {{ range $pages }}
     {{ if not (in (index .Params "blog/tags") "ramble") }}
-      {{ $non_ramble_pages =  $non_ramble_pages | append .}}
+      {{ $non_ramble_pages =  $non_ramble_pages | append . }}
     {{ end }}
   {{ end }}
   {{ $pages = $non_ramble_pages }}
 {{ end }}
 {{ $pages = where $pages "Permalink" "!=" $current_page_permalink }}
 {{ if $pages }}
-<div class="d-flex justify-content-center footer-shortlist-title">
-  <span class="h4">Recent {{ pluralize .Params.post_name }}</span>
-</div>
-<div class="footer-shortlist-parent">
-  <ul class="footer-shortlist-list">
-    {{ range $pages | first $n_max }}
-      <li class="footer-shortlist-item">
-        <a href="{{ .Permalink }}">
-          {{ .Render "title_text" }}
-        </a>
-      </li>
-    {{ end }}
-    {{ $n_pages_left := sub (len $pages) $n_max }}
-    {{ if $n_pages_left }}
-      <li class="footer-shortlist-archive">
-        <a href="/{{ .Section }}">... with {{ $n_pages_left }} more in the archive</a>
-      </li>
-    {{ end }}
-  </ul>
-</div>
+  <div class="d-flex justify-content-center footer-shortlist-title">
+    <span class="h4">Recent {{ pluralize .Params.post_name }}</span>
+  </div>
+  <div class="footer-shortlist-parent">
+    <ul class="footer-shortlist-list">
+      {{ range $pages | first $n_max }}
+        <li class="footer-shortlist-item">
+          <a href="{{ .Permalink }}">
+            {{ .Render "title_text" }}
+          </a>
+        </li>
+      {{ end }}
+      {{ $n_pages_left := sub (len $pages) $n_max }}
+      {{ if $n_pages_left }}
+        <li class="footer-shortlist-archive">
+          <a href="/{{ .Section }}"
+            >... with {{ $n_pages_left }} more in the archive</a
+          >
+        </li>
+      {{ end }}
+    </ul>
+  </div>
 {{ end }}

@@ -1,15 +1,13 @@
 {{ $audio := .Resources.GetMatch "audio.mp3" }}
 {{ if $audio }}
-<div class="d-flex justify-content-center readable">
+  <div class="d-flex justify-content-center readable">
     <div class="d-flex align-items-center justify-content-center">
       <figure>
-        <audio
-          controls
-          src="{{ $audio }}">
-              Your browser does not support the
-              <code>audio</code> element.
+        <audio controls src="{{ $audio }}">
+          Your browser does not support the
+          <code>audio</code> element.
         </audio>
       </figure>
+    </div>
   </div>
-</div>
 {{ end }}

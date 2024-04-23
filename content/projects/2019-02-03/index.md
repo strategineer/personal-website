@@ -2,26 +2,67 @@
 title: Framestore VR
 date: 2019-02-03
 projects/tags:
-    - cpp
-    - python
-    - Jenkins
-    - Perforce
-    - Shotgun
-    - Unreal Engine
+  - cpp
+  - python
+  - Jenkins
+  - Perforce
+  - Shotgun
+  - Unreal Engine
 is_important: true
-summary: VR subdivision within a special effects company focusing on developing high-end VR experiences.
+summary:
+  VR subdivision within a special effects company focusing on developing
+  high-end VR experiences.
 ---
-- Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click.
-- Developed a data-driven system for automating the generation of new projects in Perforce and Jenkins based on a project-specific specification of Perforce hierarchies of depots, streams and source branching strategies.
-- Developed a Python command line tool which acted as the glue connecting Perforce, Shotgun and Unreal Engine which was used primarily for detecting changed art assets, generating turntables automatically and uploading them to Shotgun for stakeholders to review if needed.
-- Overhauled all Jenkins jobs into Pipeline script jobs allowing us to build more project-specific continuous integration and automation features (such as a automated nightly release notes feature) into existing jobs, improve performance (from hours to minutes) of more lengthy jobs.
 
-I worked at Framestore VR from December 2017 to February 2019 as a generalist programmer focusing on tools. At the time, the division of the company was focusing primarily on providing high-end VR experiences tied to some of the biggest intellectual properties that exist.
+- Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art
+  assets from Shotgun and Perforce into Unreal Engine projects with one click.
+- Developed a data-driven system for automating the generation of new projects
+  in Perforce and Jenkins based on a project-specific specification of Perforce
+  hierarchies of depots, streams and source branching strategies.
+- Developed a Python command line tool which acted as the glue connecting
+  Perforce, Shotgun and Unreal Engine which was used primarily for detecting
+  changed art assets, generating turntables automatically and uploading them to
+  Shotgun for stakeholders to review if needed.
+- Overhauled all Jenkins jobs into Pipeline script jobs allowing us to build
+  more project-specific continuous integration and automation features (such as
+  a automated nightly release notes feature) into existing jobs, improve
+  performance (from hours to minutes) of more lengthy jobs.
 
-I worked on an internal Unreal Engine Plugin (C++) which allowed our team to import art assets from Shotgun into our Unreal Engine projects, turning the process from an error prone "hour long" process into an automated "seconds long" process. Eventually, the tool was transformed in such a way to allow for the art assets to be pulled directly from Perforce, circumventing Shotgun. Through automated build processes using Jenkins, it also was able to automatically generate turntables for the art assets in-engine, enabling stakeholders to review the work that was being done on the art, allowing for faster iteration loops.
+I worked at Framestore VR from December 2017 to February 2019 as a generalist
+programmer focusing on tools. At the time, the division of the company was
+focusing primarily on providing high-end VR experiences tied to some of the
+biggest intellectual properties that exist.
 
-I also worked on improving our use of Jenkins: overhauling all the Jenkins jobs for all of our projects from old-school GUI-based jobs to Pipeline script jobs to remove the limits imposed on us previously, for drastically improved performance (from hours to minutes), and making maintenance and bug fixing easier than before. I added continuous integration jobs to our newer projects to allow for problems in the code to be detected ASAP and minimizing the time in which projects would be broken. I also implemented a release notes feature for our projects which would generate a readable list of changes which had occurred in the project tied to the nightly build, allowing for better visibility of the changes appearing in each new build of the project especially useful when changes were coming hot and heavy during milestones/releases.
+I worked on an internal Unreal Engine Plugin (C++) which allowed our team to
+import art assets from Shotgun into our Unreal Engine projects, turning the
+process from an error prone "hour long" process into an automated "seconds long"
+process. Eventually, the tool was transformed in such a way to allow for the art
+assets to be pulled directly from Perforce, circumventing Shotgun. Through
+automated build processes using Jenkins, it also was able to automatically
+generate turntables for the art assets in-engine, enabling stakeholders to
+review the work that was being done on the art, allowing for faster iteration
+loops.
 
-I also worked on a data-driven system which allowed for the automated generation of new projects and project branches in Perforce and Jenkins (an error prone "week long" process which became an automated and "minutes long" process) based on a given specification of a Perforce hierarchies of depots and streams including several strategies for branching these streams for example an engine-only branch upgrading the game engine or a full branch for working on milestones safely.
+I also worked on improving our use of Jenkins: overhauling all the Jenkins jobs
+for all of our projects from old-school GUI-based jobs to Pipeline script jobs
+to remove the limits imposed on us previously, for drastically improved
+performance (from hours to minutes), and making maintenance and bug fixing
+easier than before. I added continuous integration jobs to our newer projects to
+allow for problems in the code to be detected ASAP and minimizing the time in
+which projects would be broken. I also implemented a release notes feature for
+our projects which would generate a readable list of changes which had occurred
+in the project tied to the nightly build, allowing for better visibility of the
+changes appearing in each new build of the project especially useful when
+changes were coming hot and heavy during milestones/releases.
 
-I also worked on a Python command line tool which acted as the glue connecting Perforce, Shotgun and Unreal Engine. This tool was expanded upon and used throughout my time at Framestore and was a key part of almost all my work.
+I also worked on a data-driven system which allowed for the automated generation
+of new projects and project branches in Perforce and Jenkins (an error prone
+"week long" process which became an automated and "minutes long" process) based
+on a given specification of a Perforce hierarchies of depots and streams
+including several strategies for branching these streams for example an
+engine-only branch upgrading the game engine or a full branch for working on
+milestones safely.
+
+I also worked on a Python command line tool which acted as the glue connecting
+Perforce, Shotgun and Unreal Engine. This tool was expanded upon and used
+throughout my time at Framestore and was a key part of almost all my work.

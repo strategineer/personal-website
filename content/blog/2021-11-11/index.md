@@ -2,8 +2,9 @@
 title: "ABCs #3"
 date: 2021-11-11
 blog/tags:
-    - ramble
+  - ramble
 ---
+
 ![chicken pot pie](chicken_pot_pie.jpg)
 
 > Alcohol, being crushed, dull every freedom

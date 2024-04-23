@@ -1,11 +1,11 @@
 ---
 title: "Taoism: The Parting of the Way"
 authors:
-    - "Holmes H. Welch Jr."
+  - "Holmes H. Welch Jr."
 date: 2024-04-21
 weight: 1
 books/tags:
-    - "currently reading"
-    - "non-fiction"
-    - "philosophy"
+  - "currently reading"
+  - "non-fiction"
+  - "philosophy"
 ---

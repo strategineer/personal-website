@@ -1,39 +1,83 @@
 {{ $active_class := "btn-outline-dark" }}
 {{ $inactive_class := "btn-light" }}
-{{ $is_food := hasPrefix .RelPermalink "/food/"}}
+{{ $is_food := hasPrefix .RelPermalink "/food/" }}
 
-{{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/"}}
-{{ $is_authors := hasPrefix .RelPermalink "/authors"}}
+{{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/" }}
+{{ $is_authors := hasPrefix .RelPermalink "/authors" }}
 {{ $is_books := hasPrefix .RelPermalink "/books/" }}
-{{ $is_books_tags := and (or (hasPrefix .RelPermalink "/books/tags") (eq .RelPermalink "/")) (not $is_books)}}
-{{ $is_tools := hasPrefix .RelPermalink "/bin/"}}
-{{ $is_blog := hasPrefix .RelPermalink "/blog/"}}
-{{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}} 
+{{ $is_books_tags := and (or (hasPrefix .RelPermalink "/books/tags") (eq .RelPermalink "/")) (not $is_books) }}
+{{ $is_tools := hasPrefix .RelPermalink "/bin/" }}
+{{ $is_blog := hasPrefix .RelPermalink "/blog/" }}
+{{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}}
 {{ if (not .Params.explorer) }}
-<div class="menu-buttons row justify-content-center">
-  <div class="col-auto btn-toolbar" role="toolbar" aria-label="Main Toolbar">
-    <div class="btn-group btn-group-lg">
-      <a href="/blog/">
-        <button tabindex="-1" type="button" aria-label="Go to Strat's blog" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
-          <img alt="blog icon" src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
-        </button>
-    </a>
-      <a href="/books/">
-        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by date read" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
-          <img alt="book icon" src="/icons/book.svg" width="32" height="32" label="Go to Strat's books he's reading"/>
-        </button>
-      </a>
-      <a href="/authors/">
-        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by author" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
-          <img alt="person icon" src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
-        </button>
-      </a>
-      <a href="/">
-        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by genre" class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}">
-          <img alt="tag icon" src="/icons/bookshelf.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
-        </button>
-      </a>
-      <!-- 
+  <div class="menu-buttons row justify-content-center">
+    <div class="col-auto btn-toolbar" role="toolbar" aria-label="Main Toolbar">
+      <div class="btn-group btn-group-lg">
+        <a href="/blog/">
+          <button
+            tabindex="-1"
+            type="button"
+            aria-label="Go to Strat's blog"
+            class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}"
+          >
+            <img
+              alt="blog icon"
+              src="/icons/journal-text.svg"
+              width="32"
+              height="32"
+              label="Go to Strat's Blog"
+            />
+          </button>
+        </a>
+        <a href="/books/">
+          <button
+            tabindex="-1"
+            type="button"
+            aria-label="Go to Strat's bookshelf sorted by date read"
+            class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}"
+          >
+            <img
+              alt="book icon"
+              src="/icons/book.svg"
+              width="32"
+              height="32"
+              label="Go to Strat's books he's reading"
+            />
+          </button>
+        </a>
+        <a href="/authors/">
+          <button
+            tabindex="-1"
+            type="button"
+            aria-label="Go to Strat's bookshelf sorted by author"
+            class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}"
+          >
+            <img
+              alt="person icon"
+              src="/icons/file-person.svg"
+              width="32"
+              height="32"
+              label="Go to Strat's author's he's read"
+            />
+          </button>
+        </a>
+        <a href="/">
+          <button
+            tabindex="-1"
+            type="button"
+            aria-label="Go to Strat's bookshelf sorted by genre"
+            class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}"
+          >
+            <img
+              alt="tag icon"
+              src="/icons/bookshelf.svg"
+              width="32"
+              height="32"
+              label="Go to Strat's author's he's read"
+            />
+          </button>
+        </a>
+        <!-- 
       <a href="/bin/">
         <button type="button" aria-label="Go to Strat's Tools and Toys" class="btn btn-lg {{ cond $is_tools $active_class $inactive_class }}">
           <img alt="tools icon" src="/icons/tools.svg" width="32" height="32" label="Go to Strat's Tools and Toys"/>
@@ -50,34 +94,34 @@
           </button>
       </a>
 -->
-    {{ $tags_suffix := "/tags" }}
-    {{ $pages := slice -}}
-    {{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
-    {{ if $is_tag_page }}
-      {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
-    {{ else if strings.Contains .RelPermalink "authors" }}
-      {{ $pages = where $.Site.RegularPages "Section" "books" }}
-    {{ else }}
-      {{ $pages = where $.Site.RegularPages "Section" .Section }}
-    {{ end }}
-    {{ $has_random_button := and ($pages) (not .Params.explorer) }}
-    {{ if $has_random_button }}
-      {{ $urls := slice }}
-      {{ range $pages }}
-      {{ $is_ramble := in (index .Params "blog/tags") "ramble" }}
-      {{ if not $is_ramble }}
-      {{ $urls = $urls | append .Permalink }}
-      {{ end }}
-      {{ end }}
-              <!-- 
+        {{ $tags_suffix := "/tags" }}
+        {{ $pages := slice -}}
+        {{ $is_tag_page := strings.HasSuffix .Section $tags_suffix }}
+        {{ if $is_tag_page }}
+          {{ $pages = index (index $.Site.Taxonomies .Section) .Title }}
+        {{ else if strings.Contains .RelPermalink "authors" }}
+          {{ $pages = where $.Site.RegularPages "Section" "books" }}
+        {{ else }}
+          {{ $pages = where $.Site.RegularPages "Section" .Section }}
+        {{ end }}
+        {{ $has_random_button := and ($pages) (not .Params.explorer) }}
+        {{ if $has_random_button }}
+          {{ $urls := slice }}
+          {{ range $pages }}
+            {{ $is_ramble := in (index .Params "blog/tags") "ramble" }}
+            {{ if not $is_ramble }}
+              {{ $urls = $urls | append .Permalink }}
+            {{ end }}
+          {{ end }}
+          <!-- 
       <a onclick="goToRandomUrl({{ $urls }})">
         <button type="button" aria-label="Go to random post" class="btn btn-lg btn-light">
         <img loading="lazy" alt="shuffle icon" src="/icons/shuffle.svg" width="32" height="32" label="Go to a random page"/>
         </button>
       </a>
     -->
-    {{- end -}}
+        {{- end -}}
+      </div>
     </div>
   </div>
-</div>
 {{- end -}}

@@ -1,13 +1,13 @@
 {{ define "title" }}
-{{ partial "taxonomy_title" . }}
+  {{ partial "taxonomy_title" . }}
 {{ end }}
 
 {{ define "main" }}
-  {{ if or (and (eq .Section "authors") .IsSection) (and (eq .Kind "taxonomy") (eq .Section "books"))}}
-  {{ partial "all_tags.html" . }}
+  {{ if or (and (eq .Section "authors") .IsSection) (and (eq .Kind "taxonomy") (eq .Section "books")) }}
+    {{ partial "all_tags.html" . }}
   {{ else }}
-  {{ range .Pages }}
-    {{ .Render "summary"}}
-  {{ end }}
+    {{ range .Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
   {{ end }}
 {{ end }}

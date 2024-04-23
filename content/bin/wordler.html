@@ -2,29 +2,92 @@
 title: "Wordle Helper"
 is_readable: true
 explorer: wordler
-summary: A tool to help you play wordle, a pretty mediocre word game ([try Knotwords instead](https://playknotwords.com/)).
+summary:
+  A tool to help you play wordle, a pretty mediocre word game ([try Knotwords
+  instead](https://playknotwords.com/)).
 weight: 2
 ---
+
 <div class="jumbotron-fluid" style="margin: auto;">
   <div class="container">
     <h1 class="display-4">Wordle Helper</h1>
     <p>confirmed letters</p>
-    <input type="text" onchange="updateGuesses();" id="letter1" maxlength="1" size="3">
-    <input type="text" onchange="updateGuesses();" id="letter2" maxlength="1" size="3">
-    <input type="text" onchange="updateGuesses();" id="letter3" maxlength="1" size="3">
-    <input type="text" onchange="updateGuesses();" id="letter4" maxlength="1" size="3">
-    <input type="text" onchange="updateGuesses();" id="letter5" maxlength="1" size="3">
-    <hr>
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="letter1"
+      maxlength="1"
+      size="3"
+    />
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="letter2"
+      maxlength="1"
+      size="3"
+    />
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="letter3"
+      maxlength="1"
+      size="3"
+    />
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="letter4"
+      maxlength="1"
+      size="3"
+    />
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="letter5"
+      maxlength="1"
+      size="3"
+    />
+    <hr />
     <p>letters not present</p>
-    <input type="text" onchange="updateGuesses();" id="lettersNotUsed" size="20">
-    <hr>
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="lettersNotUsed"
+      size="20"
+    />
+    <hr />
     <p>letters not in the right position</p>
-    <input type="text" onchange="updateGuesses();" id="lettersUnplacedPosition1" size="3">
-    <input type="text" onchange="updateGuesses();" id="lettersUnplacedPosition2" size="3">
-    <input type="text" onchange="updateGuesses();" id="lettersUnplacedPosition3" size="3">
-    <input type="text" onchange="updateGuesses();" id="lettersUnplacedPosition4" size="3">
-    <input type="text" onchange="updateGuesses();" id="lettersUnplacedPosition5" size="3">
-    <hr>
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="lettersUnplacedPosition1"
+      size="3"
+    />
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="lettersUnplacedPosition2"
+      size="3"
+    />
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="lettersUnplacedPosition3"
+      size="3"
+    />
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="lettersUnplacedPosition4"
+      size="3"
+    />
+    <input
+      type="text"
+      onchange="updateGuesses();"
+      id="lettersUnplacedPosition5"
+      size="3"
+    />
+    <hr />
     <p>word - score (bigger is better)</p>
     <p id="explorer-word-list">Loading.</p>
   </div>

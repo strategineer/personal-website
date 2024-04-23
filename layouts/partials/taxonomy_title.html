@@ -2,19 +2,24 @@
 {{- $mid := "tagged with" -}}
 {{- $title := add "'" .Title "'" -}}
 {{- if and (eq $name "Authors") (ne .Title "Authors") -}}
-{{- $name = "Books" -}}
-{{- $mid = "by" -}}
-{{- $title = .Title -}}
+  {{- $name = "Books" -}}
+  {{- $mid = "by" -}}
+  {{- $title = .Title -}}
 {{- end -}}
 {{- if and (eq $name "Books") (eq .Title "Tags") -}}
-{{- $name = "Books" -}}
-{{- $mid = "" -}}
-{{- $title = "" -}}
+  {{- $name = "Books" -}}
+  {{- $mid = "" -}}
+  {{- $title = "" -}}
 {{- end -}}
 {{ if and (ne $name "") (ne $mid "") }}
-<div class="row justify-content-center text-center page-title" data-pagefind-body>
-  <div class="col h1">
-      {{- $name }} {{ $mid }} {{ $title }}
+  <div
+    class="row justify-content-center text-center page-title"
+    data-pagefind-body
+  >
+    <div class="col h1">
+      {{- $name }}
+      {{ $mid }}
+      {{ $title }}
+    </div>
   </div>
-</div>
-{{ end}}
+{{ end }}
