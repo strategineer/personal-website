@@ -1,3 +1,5 @@
+{{ $min_books_for_sorting := 2 }}
+
 {{ $p := .Section }}
 
 {{ if eq $p "books" }}
@@ -7,9 +9,40 @@
 {{ $is_authors_page := eq $p "authors" }}
 
 {{ $page_num := 0 }}
-{{ $taxonomy := index .Site.Taxonomies $p }}
-{{ $taxonomy = $taxonomy.ByCount }}
+{{ $taxonomy := (index .Site.Taxonomies $p).ByCount }}
+{{ $dict_to_avg_star_rating := dict }}
 {{ range $t := $taxonomy }}
+  {{ $n_rating := 0.0 }}
+  {{ $n := 0 }}
+  {{ $pages := $t.Pages }}
+  {{ range $pages }}
+    {{ if and (gt .Params.star_rating 0) (ne .Params.weight 0) }}
+      {{ $n_rating = add $n_rating .Params.star_rating }}
+      {{ $n = add $n 1 }}
+    {{ end }}
+  {{ end }}
+  {{ if ne $n 0 }}
+    {{ $n_rating = div $n_rating $n }}
+  {{ else }}
+    {{ $n_rating = 0.0 }}
+  {{ end }}
+  {{ $score := 0 }}
+  {{ $score = add $score $n_rating }}
+  {{ $score = add $score (mul $n 0.15)}}
+  {{ if and (lt $n $min_books_for_sorting) (ne $n 0) }}
+  {{ $score = mul $score (div (div 1.0 $n) $min_books_for_sorting) }}
+  {{ end }}
+  {{ if eq $t.Term "slay"}}
+  {{ $score = mul $score 100 }}
+  {{ end }}
+  {{ $dict_to_avg_star_rating = merge $dict_to_avg_star_rating (dict $t.Term (dict "term" $t.Term "score" $score "object" $t) ) }}
+{{ end }}
+
+{{ $dict_to_avg_star_rating = sort $dict_to_avg_star_rating "score" "desc" }}
+{{ range $d := $dict_to_avg_star_rating }}
+  {{ $term := index $d "term"}}
+  {{ $score := index $d "score"}}
+  {{ $t := index $d "object"}}
   {{ if gt $t.Count 0 }}
   {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
   {{ if or $is_authors_page (eq $p "books/tags") }}
@@ -27,7 +60,6 @@
   <div class="row align-items-center">
     {{ $i := 0 }}
     {{ $books := ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
-
     {{ $all_books := slice }}
     {{ range $books }}
       {{ $main_book := . }}
