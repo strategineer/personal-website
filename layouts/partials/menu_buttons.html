@@ -13,6 +13,11 @@
 <div class="menu-buttons row justify-content-center">
   <div class="col-auto btn-toolbar" role="toolbar" aria-label="Main Toolbar">
     <div class="btn-group btn-group-lg">
+      <a href="/blog/">
+        <button tabindex="-1" type="button" aria-label="Go to Strat's blog" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
+          <img alt="blog icon" src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
+        </button>
+    </a>
       <a href="/authors/">
         <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by author" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
           <img alt="person icon" src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
@@ -24,14 +29,9 @@
         </button>
       </a>
       <a href="/">
-        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted date read" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
+        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by date read" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
           <img alt="book icon" src="/icons/book.svg" width="32" height="32" label="Go to Strat's books he's reading"/>
         </button>
-      </a>
-      <a href="/blog/">
-          <button tabindex="-1" type="button" aria-label="Go to Strat's blog" class="btn btn-lg {{ cond $is_blog $active_class $inactive_class }}">
-            <img alt="blog icon" src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
-          </button>
       </a>
       <!-- 
       <a href="/bin/">
