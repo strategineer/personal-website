@@ -18,19 +18,19 @@
           <img alt="blog icon" src="/icons/journal-text.svg" width="32" height="32" label="Go to Strat's Blog"/>
         </button>
     </a>
-      <a href="/authors/">
-        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by author" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
-          <img alt="person icon" src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
-        </button>
-      </a>
       <a href="/books/">
         <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by date read" class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}">
           <img alt="book icon" src="/icons/book.svg" width="32" height="32" label="Go to Strat's books he's reading"/>
         </button>
       </a>
+      <a href="/authors/">
+        <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by author" class="btn btn-lg {{ cond $is_authors $active_class $inactive_class }}">
+          <img alt="person icon" src="/icons/file-person.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+        </button>
+      </a>
       <a href="/">
         <button tabindex="-1" type="button" aria-label="Go to Strat's bookshelf sorted by genre" class="btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}">
-          <img alt="tag icon" src="/icons/tag.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
+          <img alt="tag icon" src="/icons/bookshelf.svg" width="32" height="32" label="Go to Strat's author's he's read"/>
         </button>
       </a>
       <!-- 
