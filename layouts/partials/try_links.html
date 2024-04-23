@@ -1,6 +1,14 @@
-{{ if .Params.links }}
+{{ if or .Params.links .Params.isbn13 }}
   <div class="d-flex justify-content-center d-flex-inline-list text-center">
     <ul class="list-inline ul-inline">
+      {{ if .Params.isbn13 }}
+      <li class="list-inline-item li-inline">
+        <a href="https://www.goodreads.com/search?utf8=%E2%9C%93&q=${{ .Params.isbn13 }}&search_type=books&search%5Bfield%5D=on
+        ">
+        Goodreads
+        </a>
+      </li>
+      {{ end }}
       {{ range $index, $name_link_pair := .Params.links }}
         {{ $split_pair := split $name_link_pair "," }}
         <li class="list-inline-item li-inline">
