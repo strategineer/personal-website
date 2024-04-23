@@ -3,7 +3,7 @@
     {{ with .File }}
       <li class="list-inline-item li-inline">
         {{ $base_url := "https://github.com/strategineer/personal-website/blob/master/content/" }}
-        <a href="{{ path.Join $base_url .Path }}">
+        <a href="{{add $base_url (path.Join .Path) }}">
         Github
         </a>
       </li>
