@@ -158,20 +158,6 @@ files = [
 ]
 
 [[package]]
-name = "isbntools"
-version = "4.3.29"
-description = "app and framework for 'all things ISBN' (International Standard Book Number) including metadata, descriptions, covers... ."
-optional = false
-python-versions = "*"
-files = [
-    {file = "isbntools-4.3.29-py2.py3-none-any.whl", hash = "sha256:b7e92d1db3b940e0b64356306f4288ad1334b436ccb1c396070f6a9685d56a49"},
-    {file = "isbntools-4.3.29.tar.gz", hash = "sha256:59e7eb8ca063b2241864166dca774fcbfb97ddd6ce5303ee91362753d6a8b90f"},
-]
-
-[package.dependencies]
-isbnlib = ">=3.10.9,<3.11.0"
-
-[[package]]
 name = "python-frontmatter"
 version = "1.1.0"
 description = "Parse and manage posts with YAML (or other) frontmatter"
@@ -290,4 +276,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "ea48e99ba5cb3940ee7191ab75117e72fa236c59b048a006ba3d69fb673b85c9"
+content-hash = "9abd17d3d79dc756e679a8474a93a4197fdc93ddd0ccfe6f8ef2891d554b72d3"

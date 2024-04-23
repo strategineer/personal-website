@@ -7,7 +7,7 @@ from pathlib import Path
 import click
 import requests
 import frontmatter
-from isbntools.app import *
+from isbnlib import meta, cover, isbn_from_words
 
 @click.group()
 def cli():
