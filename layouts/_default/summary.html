@@ -57,16 +57,20 @@
                       {{- if eq .Params.weight 1 -}}
                       Currently reading...
                       {{ else }}
-                      Date read: {{ .Date.Format "Mon, Jan 2, 2006" }}
+                      Finished on: {{ .Date.Format "Mon, Jan 2, 2006" }}
                       {{- end -}}
                     {{ else }}
                       {{- .Date.Format "Mon, Jan 2, 2006" }}
-                      {{- $reading_time := .ReadingTime -}}
-                      {{- if ne $reading_time 0 }}
-                        ({{ $reading_time }}min read)
-                      {{- end -}}
                     {{- end -}}
                   </div>
+                  {{ if $more_to_read }}
+                  {{- $reading_time := .ReadingTime -}}
+                  {{- if ne $reading_time 0 }}
+                  <div class="col-12">
+                      ({{ $reading_time }}min read)
+                  </div>
+                  {{- end -}}
+                  {{ end }}
                 </div>
               </div>
               {{- if not $is_ramble_blog_post -}}
