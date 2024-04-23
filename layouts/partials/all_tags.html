@@ -1,5 +1,7 @@
 {{ $min_books_for_sorting := 2 }}
 
+{{ $max_books_per_row := 6 }}
+
 {{ $p := .Section }}
 
 {{ if eq $p "books" }}
@@ -38,6 +40,8 @@
   {{ $dict_to_avg_star_rating = merge $dict_to_avg_star_rating (dict $t.Term (dict "term" $t.Term "score" $score "object" $t) ) }}
 {{ end }}
 
+{{ $k := 0 }}
+<div class="row align-items-center">
 {{ $dict_to_avg_star_rating = sort $dict_to_avg_star_rating "score" "desc" }}
 {{ range $d := $dict_to_avg_star_rating }}
   {{ $term := index $d "term"}}
@@ -45,19 +49,9 @@
   {{ $t := index $d "object"}}
   {{ if gt $t.Count 0 }}
   {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
-  {{ if or $is_authors_page (eq $p "books/tags") }}
-  {{ if ne $t.Page.Title "Fiction" }}
-  <div class="row align-items-center">
-    <a href="{{ $t.Page.RelPermalink }}">
-      <span class="h1">{{ $t.Page.Title }}</span>
-    </a>
-  </div>
-  {{ if $t.Page.Summary }}
-  <div class="row align-items-center">
-    <p class="text-center">{{ $t.Page.Summary }}</p>
-  </div>
+  {{ if eq $t.Page.Title "Fiction" }}
+    {{ continue }}
   {{ end }}
-  <div class="row align-items-center">
     {{ $i := 0 }}
     {{ $books := ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
     {{ $all_books := slice }}
@@ -73,61 +67,56 @@
         {{ end }}
       {{ end }}
     {{ end }}
-
-    {{ range $all_books }}
-    {{ $book_tags := index .Params "books/tags"}}
-     {{ if or $is_authors_page (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf")))) }}
-     {{ $i = add  $i 1 }}
-     {{ $page_num = add $page_num 1 }}
-    <div class="col">
-      <a href="{{ .Permalink }}">
-        <div class="row text-center">
-          <div class="col">
-          {{ partial "try_star_rating" . }}
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            {{ $lazy_loading := "lazy"}}
-            {{ if lt $page_num 7 }}
-              {{ $lazy_loading = "eager"}}
-            {{ end }}
-            {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
-            {{ if $thumbnail }}
-              {{ partial "img" (dict
-              "widths" (slice 100 150)
-              "aspect_ratio" "2:3"
-              "fit" "contain"
-              "src" "thumbnail.*"
-              "ctx" .
-              "class" "img-fluid rounded mx-auto"
-              "alt" "Thumbnail"
-              "loading" $lazy_loading
-              ) }}
-            {{ end }}
-          </div>
-        </div>
-      </a>
-    </div>
-    {{ end }}
-    {{ if eq (mod $i 6) 0 }}
+    {{ $res := mod (add $k 1) $max_books_per_row }}
+    {{ if eq $res 0 }}
+    {{ $k = add $k 1 }}
     <div class="w-100"></div>
     {{ end }}
+    <div class="col-lg-2 all-tags">
+      <a href="{{ $t.Page.RelPermalink }}">
+        <span class="h3">{{ $t.Page.Title }}</span>
+      </a>
+    </div>
+    {{ $k = add $k 1 }}
+    {{ range $all_books }}
+      {{ $book_tags := index .Params "books/tags"}}
+      {{ if not (or $is_authors_page (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf"))))) }}
+        {{ continue }}
+      {{ end }}
+        {{ $i = add  $i 1 }}
+        {{ $page_num = add $page_num 1 }}
+        {{ $k = add $k 1 }} 
+        <div class="col col-lg-2">
+          <a href="{{ .Permalink }}">
+            <div class="row text-center">
+              <div class="col">
+              {{ partial "try_star_rating" . }}
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">
+                {{ $lazy_loading := "lazy"}}
+                {{ if lt $page_num 12 }}
+                  {{ $lazy_loading = "eager"}}
+                {{ end }}
+                {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
+                {{ if $thumbnail }}
+                  {{ partial "img" (dict
+                  "widths" (slice 100 150)
+                  "aspect_ratio" "2:3"
+                  "fit" "contain"
+                  "src" "thumbnail.*"
+                  "ctx" .
+                  "class" "img-fluid rounded mx-auto"
+                  "alt" "Thumbnail"
+                  "loading" $lazy_loading
+                  ) }}
+                {{ end }}
+              </div>
+            </div>
+          </a>
+        </div>
+      {{ end }}
     {{ end }}
-  </div>
-  {{ end }}
-  {{ else }}
-  <a href="{{ $t.Page.RelPermalink }}">
-    <li> {{ humanize $pretty_tag }} </li>
-  </a>
-  <ul>
-    {{ range $t.Pages }}
-    <li hugo-nav="{{ .RelPermalink  }}">
-      <a href="{{ .Permalink  }}"> {{ .LinkTitle }} </a>
-    </li>
-    {{ end }}
-  </ul>
-  {{ end }}
-  {{ end }}
 {{ end }}
-
+</div>
