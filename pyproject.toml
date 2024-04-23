@@ -12,6 +12,7 @@ isbnlib = "^3.10.14"
 python-frontmatter = "^1.1.0"
 click = "^8.1.7"
 requests = "^2.31.0"
+mergedeep = "^1.3.4"
 
 
 [build-system]

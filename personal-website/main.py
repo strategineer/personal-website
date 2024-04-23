@@ -1,20 +1,61 @@
 import json
 import glob
 import sys
+import os
 from io import BytesIO
 from pathlib import Path
+from datetime import date, timedelta;
 
+from mergedeep import merge
 import click
 import requests
 import frontmatter
 from isbnlib import meta, cover, isbn_from_words
+
+IMPORT_START_DATE = date(1800, 1, 1)
+
+
+#{'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
+
+def merge_posts(post1, post2):
+  merged_metadata = merge(post1.metadata, post2.metadata)
+  post = frontmatter.Post(post1.content + post2.content, handler=None, **merged_metadata)
+  return post
+
+def get_primary_author_from_post(post):
+  return post.metadata['authors'][0] if isinstance(post.metadata['authors'], list) else post.metadata['authors']
+
+def write_post(post, filename):
+  dir = Path(filename).parents[0]
+  if not dir.exists():
+    os.makedirs(dir)
+  bytes = BytesIO()
+  frontmatter.dump(post, bytes)
+  with open(filename, "w") as f:
+    f.write(bytes.getvalue().decode('utf-8'))
+
+def load_existing_books():
+  isbn_to_post = {}
+  title_to_post = {}
+  filenames = glob.glob('content/books/*/index.md')
+  for filename in filenames:
+    with open(filename) as f:
+      try:
+        post = frontmatter.load(f)
+        if "params" in post.metadata and "isbn13" in post.metadata["params"]:
+          isbn_to_post[post.metadata["params"]["isbn13"]] = (filename, post)
+          title_to_post[post.metadata["title"]] = (filename, post)
+      except UnicodeDecodeError:
+        click.echo(f"Failed to load file {filename} with frontmatter parser due to unicode error")
+        continue
+  return (isbn_to_post, title_to_post)
 
 @click.group()
 def cli():
     pass
 
 @click.command()
-def import_scan_data():
+def import_scans():
     click.echo('Import scanned barcodes')
     filenames = glob.glob('**/bs_export_*.json')
     print(filenames)
@@ -24,13 +65,44 @@ def import_scan_data():
       with open(filename) as f:
           data = json.load(f)
           for b in data:
-            # todo validate that this is actually a book with an isbn 13 number?
             books[b["contents"]] = b
 
-    for isbn in books.keys():
-      print(isbn)
-      print(books[isbn])
-
+    (existing_books_by_isbn, existing_by_title) = load_existing_books()
+    date = IMPORT_START_DATE
+    for isbn in sorted(books.keys()):
+      book = books[isbn]
+      fetched_metadata = meta(isbn)
+      metadata = {
+         "title": fetched_metadata["Title"],
+         "authors": fetched_metadata["Authors"],
+         "params": {
+           "isbn13": fetched_metadata["ISBN-13"],
+            "year": fetched_metadata["Year"],
+         }
+      }
+      post = frontmatter.Post("", handler=None, **metadata)
+      date += timedelta(days=1)
+      filename = f'content/books/{ date }/index.md' 
+      if isbn in existing_books_by_isbn:
+        filename, existing_post = existing_books_by_isbn[isbn]
+        # todo we should do a merge here
+        click.echo(f"Found existing book with ISBN {isbn} ({filename}, {existing_post.metadata['title']}), merging data")
+        post = merge_posts(existing_post, post)
+      elif book["name"] in existing_by_title:
+        filename, existing_post = existing_by_title[book["name"]]
+        # todo we should do a merge here and replace the isbn
+        click.echo(f"Found existing book with title {book['name']} ({filename}, {existing_post.metadata['title']}), merging data")
+        post = merge_posts(existing_post, post)
+      else:
+        post.content = "\n<!--more-->"
+        post.metadata["draft"] = True
+        post.metadata["weight"] = 1
+        post.metadata["date"] = date
+        post.metadata["books/tags"] = ["owned-but-unread"]
+        click.echo(f"No existing book for ISBN {isbn}, creating new post")
+      click.echo(f"writing post for: {post.metadata} at {filename}")
+      write_post(post, filename)
+      #{'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
 
 @click.command()
 def find_isbns():
@@ -51,7 +123,7 @@ def find_isbns():
         # "isbn13" not in post.metadata["params"] or 
         if "year" not in post.metadata["params"]:
           has_isbn13 = False
-          author = post.metadata['authors'][0] if isinstance(post.metadata['authors'], list) else post.metadata['authors']
+          author = get_primary_author_from_post(post)
           click.echo(f"Trying to find ISBN for {post.metadata['title']} by {author}")
           try:
             fetched_metadata = None
@@ -67,10 +139,7 @@ def find_isbns():
              click.echo(f"No isbn found for {post.metadata}")
              click.echo(f"fetched_metadata: {fetched_metadata}")
       if not has_isbn13 and post is not None:
-        bytes = BytesIO()
-        frontmatter.dump(post, bytes)
-        with open(filename, "w") as f:
-          f.write(bytes.getvalue().decode('utf-8'))
+        write_post(post, filename)
         try:
           x = cover(post.metadata["params"]["isbn13"])
           img_data = requests.get(x["thumbnail"]).content
@@ -80,9 +149,7 @@ def find_isbns():
            click.echo(f"Failed to update image for {filename}")
            continue      
 
-    #{'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
-
-cli.add_command(import_scan_data)
+cli.add_command(import_scans)
 cli.add_command(find_isbns)
 
 if __name__ == '__main__':
