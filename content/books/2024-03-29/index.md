@@ -1,14 +1,15 @@
 ---
-title: "A Memory Called Empire"
-authors: "Arkady Martine"
-date: 2024-03-29
-star_rating: 4
+authors: Arkady Martine
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "space opera"
+- fiction
+- science fiction
+- space opera
+date: 2024-03-29
 params:
-  series: "Teixcalaan"
+  isbn13: '9781250186454'
+  series: Teixcalaan
+star_rating: 4
+title: A Memory Called Empire
 ---
 
 A Memory Called Empire has big "Hugo award winner" energy: an interesting

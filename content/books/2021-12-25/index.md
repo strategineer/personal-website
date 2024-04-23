@@ -1,12 +1,14 @@
 ---
-title: "The Odyssey"
 authors:
-  - "Homer"
-  - "Emily Wilson"
-date: 2021-12-25
-star_rating: 4
+- Homer
+- Emily Wilson
 books/tags:
-  - "fiction"
+- fiction
+date: 2021-12-25
+params:
+  isbn13: '9780143039952'
+star_rating: 4
+title: The Odyssey
 ---
 
 The Odyssey is a classic and there's more stories that have been inspired by it

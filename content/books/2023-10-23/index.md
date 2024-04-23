@@ -1,12 +1,14 @@
 ---
-title: "We Have Always Lived in the Castle"
-authors: "Shirley Jackson"
-date: 2023-10-23
-star_rating: 5
+authors: Shirley Jackson
 books/tags:
-  - "fiction"
-  - "gothic"
-  - "horror"
+- fiction
+- gothic
+- horror
+date: 2023-10-23
+params:
+  isbn13: '9780143039976'
+star_rating: 5
+title: We Have Always Lived in the Castle
 ---
 
 It's short and sweet (and sour) and that's what makes this novel so special.

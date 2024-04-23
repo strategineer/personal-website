@@ -80,8 +80,8 @@ If you have tried an escape room before and you didn't like it, well...
 Who hurt you and how can I help?
 
 [^1]:
-    Nicholson, S. (2015) “Peeking behind the locked door: A survey of escape
-    room facilities”, White Paper, pp. 1- 35, [online],
+    Nicholson, S. (2015) "Peeking behind the locked door: A survey of escape
+    room facilities", White Paper, pp. 1- 35, [online],
     http://scottnicholson.com/pubs/erfacwhite.pdf
 
 [^2]:

@@ -1,11 +1,13 @@
 ---
-title: "Infrastructure"
-authors: "Brian Hayes"
-date: 2021-10-01
-star_rating: 5
+authors: Brian Hayes
 books/tags:
-  - "non-fiction"
-  - "slay"
+- non-fiction
+- slay
+date: 2021-10-01
+params:
+  isbn13: '9781441948595'
+star_rating: 5
+title: Infrastructure
 ---
 
 Infrastructure is a guide to all the major \"ecosystems\" of our modern

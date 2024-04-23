@@ -1,11 +1,13 @@
 ---
-title: "The Left Hand of Darkness"
-authors: "Ursula K. Le Guin"
-date: 2024-04-17
-star_rating: 5
+authors: Ursula K. Le Guin
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2024-04-17
+params:
+  isbn13: '9780441478125'
+star_rating: 5
+title: The Left Hand of Darkness
 ---
 
 **The king was pregnant.**

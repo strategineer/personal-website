@@ -1,14 +1,15 @@
 ---
-title: "The Consuming Fire"
-authors: "John Scalzi"
-date: 2023-09-20
-star_rating: 4
+authors: John Scalzi
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "space opera"
+- fiction
+- science fiction
+- space opera
+date: 2023-09-20
 params:
-  series: "The Interdependency"
+  isbn13: '9780765388971'
+  series: The Interdependency
+star_rating: 4
+title: The Consuming Fire
 ---
 
 Not my favorite John Scalzi novel but it was fun. I prefer when he doubles down

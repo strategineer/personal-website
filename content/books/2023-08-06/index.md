@@ -1,14 +1,15 @@
 ---
-title: "The Collapsing Empire"
-authors: "John Scalzi"
-date: 2023-08-06
-star_rating: 4
+authors: John Scalzi
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "space opera"
+- fiction
+- science fiction
+- space opera
+date: 2023-08-06
 params:
-  series: "The Interdependency"
+  isbn13: '9780765388889'
+  series: The Interdependency
+star_rating: 4
+title: The Collapsing Empire
 ---
 
 Felt more like a soap opera than a space opera at times.

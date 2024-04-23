@@ -1,11 +1,13 @@
 ---
-title: "Death on the Nile"
-authors: "Agatha Christie"
-date: 2023-08-05
-star_rating: 4
+authors: Agatha Christie
 books/tags:
-  - "fiction"
-  - "detective fiction"
+- fiction
+- detective fiction
+date: 2023-08-05
+params:
+  isbn13: '9780062073556'
+star_rating: 4
+title: Death on the Nile
 ---
 
 Agatha Christie is described as the "Queen of Mystery" and the "Queen of Crime".
@@ -48,7 +50,7 @@ the gun I'm going to use.
 
 Scene 2:
 
-**“So we've got to go somewhere.**
+**"So we've got to go somewhere.**
 
 **[...] "I suppose we might as well go on to Egypt. It doesn't make any
 difference."**

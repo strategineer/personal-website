@@ -1,11 +1,13 @@
 ---
-title: "Nettle & Bone"
-authors: "T. Kingfisher"
-date: 2023-11-14
-star_rating: 4
+authors: T. Kingfisher
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2023-11-14
+params:
+  isbn13: '9781250244048'
+star_rating: 4
+title: Nettle & Bone
 ---
 
 Feels like an Arthurian legend, a mix of fairy tales but grounded in a reality

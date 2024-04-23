@@ -1,12 +1,14 @@
 ---
-title: "The Raven Tower"
-authors: "Ann Leckie"
-date: 2023-09-25
-star_rating: 1
+authors: Ann Leckie
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "trash"
+- fiction
+- fantasy
+- trash
+date: 2023-09-25
+params:
+  isbn13: '9780356507026'
+star_rating: 1
+title: The Raven Tower
 ---
 
 "The Raven Tower" is one of the worst books I have ever read. I've only covered
@@ -22,12 +24,12 @@ I have an important question for y'all.
 
 Is this how people speak?
 
-**“He must have had help, yes. Stalker surely helped him, it was worth her while
+**"He must have had help, yes. Stalker surely helped him, it was worth her while
 to do it. Do you think it would be less worth the Raven’s, to offer such
 opportunity to my father? Even with the god so distant, between Instruments,
 it’s a small thing to provide a sharp edge, a weapon in reach, anything. And do
 you imagine that, offered that help, my father would have failed to take it? He
-was loyal to the Raven. He was the Lease, and he knew his duty.”**
+was loyal to the Raven. He was the Lease, and he knew his duty."**
 
 No.
 

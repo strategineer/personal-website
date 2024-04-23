@@ -1,12 +1,14 @@
 ---
-title: "Being and Nothingness"
-authors: "Jean-Paul Sartre"
-date: 2023-10-25
-star_rating: 1
+authors: Jean-Paul Sartre
 books/tags:
-  - "philosophy"
-  - "trash"
-  - "DNF"
+- philosophy
+- trash
+- DNF
+date: 2023-10-25
+params:
+  isbn13: '9781982105457'
+star_rating: 1
+title: Being and Nothingness
 ---
 
 Not my cup of tea. Philosophy should be understandable, this text is

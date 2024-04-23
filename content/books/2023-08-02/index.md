@@ -1,13 +1,14 @@
 ---
-title: "Tombs of Atuan"
-authors: "Ursula K. Le Guin"
-date: 2023-08-02
-star_rating: 4
+authors: Ursula K. Le Guin
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2023-08-02
 params:
-  series: "Earthsea"
+  isbn13: '9780689845369'
+  series: Earthsea
+star_rating: 4
+title: Tombs of Atuan
 ---
 
 Le Guin mostly successful attempt to write a story in the world of a Wizard of

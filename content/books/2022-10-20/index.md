@@ -1,10 +1,12 @@
 ---
-title: "The Boulder: A Philosophy for Bouldering"
-authors: "Francis Sanzaro"
-date: 2022-10-20
-star_rating: 4
+authors: Francis Sanzaro
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2022-10-20
+params:
+  isbn13: '9780954877996'
+star_rating: 4
+title: 'The Boulder: A Philosophy for Bouldering'
 ---
 
 A collection of thoughts on the practice of bouldering, bringing it into

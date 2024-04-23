@@ -1,11 +1,13 @@
 ---
-title: "The Anthropocene Reviewed"
-authors: "John Green"
-date: 2022-02-01
-star_rating: 1
+authors: John Green
 books/tags:
-  - "non-fiction"
-  - "trash"
+- non-fiction
+- trash
+date: 2022-02-01
+params:
+  isbn13: '9780525556534'
+star_rating: 1
+title: The Anthropocene Reviewed
 ---
 
 The Anthropocene Reviewed is a book where author/youtuber John Green reviews a

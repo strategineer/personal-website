@@ -1,11 +1,13 @@
 ---
-title: "Murder on the Orient Express"
-authors: "Agatha Christie"
-date: 2023-10-29
-star_rating: 3
+authors: Agatha Christie
 books/tags:
-  - "fiction"
-  - "detective fiction"
+- fiction
+- detective fiction
+date: 2023-10-29
+params:
+  isbn13: '9780062073501'
+star_rating: 3
+title: Murder on the Orient Express
 ---
 
 Murder on the Orient Express is similar to Agatha Christie's Death on the Nile

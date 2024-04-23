@@ -1,11 +1,13 @@
 ---
-title: "The Galaxy, and the Ground Within"
-authors: "Becky Chambers"
-date: 2023-06-21
-star_rating: 4
+authors: Becky Chambers
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-06-21
+params:
+  isbn13: '9781473647688'
+star_rating: 4
+title: The Galaxy, and the Ground Within
 ---
 
 The Galaxy, and the Ground Within is a science fiction novel about a diverse

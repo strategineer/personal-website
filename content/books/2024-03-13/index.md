@@ -1,14 +1,16 @@
 ---
-title: "The Futurological Congress"
-authors: "Stanislaw Lem"
-date: 2024-03-13
-star_rating: 4
+authors: Stanislaw Lem
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "comic"
-  - "horror"
-  - "slavic"
+- fiction
+- science fiction
+- comic
+- horror
+- slavic
+date: 2024-03-13
+params:
+  isbn13: '9780156340403'
+star_rating: 4
+title: The Futurological Congress
 ---
 
 Stanislaw Lem pops off once again. I'm blown away at how he can integrate all

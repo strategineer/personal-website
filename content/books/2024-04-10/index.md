@@ -1,12 +1,13 @@
 ---
-title: "The Stone Sky"
-authors: "N. K. Jemisin"
-date: 2024-04-10
-weight: 1
+authors: N. K. Jemisin
 books/tags:
-  - "currently reading"
-  - "fiction"
-  - "science fantasy"
+- currently reading
+- fiction
+- science fantasy
+date: 2024-04-10
 params:
-  series: "The Broken Earth"
+  isbn13: '9780316229241'
+  series: The Broken Earth
+title: The Stone Sky
+weight: 1
 ---

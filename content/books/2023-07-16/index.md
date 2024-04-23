@@ -1,11 +1,12 @@
 ---
-title: "Network Effect"
-authors: "Martha Wells"
-date: 2023-07-16
-star_rating: 3
+authors: Martha Wells
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-07-16
 params:
-  series: "The Murderbot Diaries"
+  isbn13: '9781250229861'
+  series: The Murderbot Diaries
+star_rating: 3
+title: Network Effect
 ---

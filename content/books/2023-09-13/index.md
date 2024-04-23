@@ -1,13 +1,15 @@
 ---
-title: "Iron Widow"
-authors: "Xiran Jay Zhao"
-date: 2023-09-13
-star_rating: 5
+authors: Xiran Jay Zhao
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "young adult"
-  - "slay"
+- fiction
+- science fiction
+- young adult
+- slay
+date: 2023-09-13
+params:
+  isbn13: '9780735269934'
+star_rating: 5
+title: Iron Widow
 ---
 
 Big robots,

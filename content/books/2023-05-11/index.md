@@ -1,12 +1,14 @@
 ---
-title: "To Hold Up the Sky"
-authors: "Cixin Liu"
-date: 2023-05-11
-star_rating: 2
+authors: Cixin Liu
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "short story collection"
+- fiction
+- science fiction
+- short story collection
+date: 2023-05-11
+params:
+  isbn13: '9781250306081'
+star_rating: 2
+title: To Hold Up the Sky
 ---
 
 To Hold Up the Sky is a collection of short stories from Liu Cixin who's mostly

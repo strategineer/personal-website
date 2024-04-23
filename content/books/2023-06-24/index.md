@@ -1,14 +1,15 @@
 ---
-title: "Thief of Time"
-authors: "Terry Pratchett"
-date: 2023-06-24
-star_rating: 4
+authors: Terry Pratchett
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "comic"
+- fiction
+- fantasy
+- comic
+date: 2023-06-24
 params:
-  series: "Death"
+  isbn13: '9780062307392'
+  series: Death
+star_rating: 4
+title: Thief of Time
 ---
 
 A few different cooky POV characters doing their own thing, eventually meet up

@@ -1,14 +1,15 @@
 ---
-title: "Small Gods"
-authors: "Terry Pratchett"
-date: 2023-07-03
-star_rating: 4
+authors: Terry Pratchett
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "comic"
+- fiction
+- fantasy
+- comic
+date: 2023-07-03
 params:
-  series: "Ancient Civilizations"
+  isbn13: '9780552138901'
+  series: Ancient Civilizations
+star_rating: 4
+title: Small Gods
 ---
 
 Terry is dedicated to the bit. More than anything he is committed to creating

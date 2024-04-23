@@ -1,15 +1,17 @@
 ---
-title: "We"
 authors:
-  - "Yevgeny Zamyatin"
-  - "Mirra Ginsburg"
-date: 2024-04-14
-star_rating: 5
+- Yevgeny Zamyatin
+- Mirra Ginsburg
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "dystopian"
-  - "slavic"
+- fiction
+- science fiction
+- dystopian
+- slavic
+date: 2024-04-14
+params:
+  isbn13: '9780140185850'
+star_rating: 5
+title: We
 ---
 
 The much more interesting but lesser known dystopian novel that inspired George

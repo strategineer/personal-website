@@ -1,11 +1,13 @@
 ---
-title: "Piranesi"
-authors: "Susanna Clarke"
-date: 2023-05-30
-star_rating: 5
+authors: Susanna Clarke
 books/tags:
-  - "fiction"
-  - "slay"
+- fiction
+- slay
+date: 2023-05-30
+params:
+  isbn13: '9781635577808'
+star_rating: 5
+title: Piranesi
 ---
 
 I guess this is what happens when a tremendously successful author with a single

@@ -1,12 +1,14 @@
 ---
-title: "A Canticle for Leibowitz"
-authors: "Walter M. Miller Jr."
-date: 2023-10-26
-star_rating: 0
+authors: Walter M. Miller Jr.
 books/tags:
-  - "fiction"
-  - "post-apocalyptic"
-  - "DNF"
+- fiction
+- post-apocalyptic
+- DNF
+date: 2023-10-26
+params:
+  isbn13: '9780356513171'
+star_rating: 0
+title: A Canticle for Leibowitz
 ---
 
 Part 1: Amazing. Seems like this could have easily been an inspiration for the

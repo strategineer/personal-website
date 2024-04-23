@@ -1,11 +1,13 @@
 ---
-title: "Night"
-authors: "Elie Wiesel"
-date: 2022-03-01
-star_rating: 5
+authors: Elie Wiesel
 books/tags:
-  - "non-fiction"
-  - "memoir"
+- non-fiction
+- memoir
+date: 2022-03-01
+params:
+  isbn13: '9780374500016'
+star_rating: 5
+title: Night
 ---
 
 Elie Wiesel's Night is a retelling of what happened to him during World War 2.

@@ -1,15 +1,16 @@
 ---
-title: "A Desolation Called Peace"
-authors: "Arkady Martine"
-date: 2024-04-11
-star_rating: 1
+authors: Arkady Martine
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "space opera"
-  - "trash"
+- fiction
+- science fiction
+- space opera
+- trash
+date: 2024-04-11
 params:
-  series: "Teixcalaan"
+  isbn13: '9781529001648'
+  series: Teixcalaan
+star_rating: 1
+title: A Desolation Called Peace
 ---
 
 In working through my thoughts after reading this trashfire of a novel book, I
@@ -212,16 +213,16 @@ guess that's how Arkady Martine writes and her editor was not given the time and
 support they needed this time to take out the trash.
 
 Let's look at some examples:
-
-**Mahit said, “Well, that’s unexpectedly pleasant, all considered,” and didn’t
+"
+**Mahit said, “Well, that’s unexpectedly pleasant, all considered," and didn’t
 go on any further. She didn’t want to—she couldn’t tell Three Seagrass that she
 was here to spy on the war for Darj Tarats, in order to escape Aknel Amnardbat’s
 surgeons. To do worse things for Darj Tarats, if there was an opportunity. She
 couldn’t. So she got into the shuttle instead, settling amongst the supply
 crates and strapping herself into some freefall-control webbing. There were
 similar webbings on all of the walls, the floor, the ceiling. It was an
-efficient, well-designed ship. It must make a hundred of these short hops in a
-month— “Quite,” said Three Seagrass, all edges, interest and wariness and a sort
+efficie"t, well-designed ship. It must make a hundred of these short hops in a
+month— “Quite," said Three Seagrass, all edges, interest and wariness and a sort
 of invitation deferred: We can play, Mahit, even if we don’t play just now, if
 playing's what you want**
 
@@ -236,8 +237,8 @@ The issue is that this narrative voice bleeds into every other character's POV.
 
 For example, in this excerpt, Nine Hibiscus has just been informed by a
 subordinate that the alien's planet has been found.
-
-**“If we can get there without them seeing us,” Nine Hibiscus said. The
+"
+**“If we can get there without them seeing us," Nine Hibiscus said. The
 scatterbombs would do exactly what Eighteen Chisel was imagining. They would,
 yes, blow anyone out of their sky. And then they’d poison that sky, and the
 planets below it. The scatterbombs were deathrain. A last resort. Almost never

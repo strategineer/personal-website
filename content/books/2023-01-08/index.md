@@ -1,12 +1,14 @@
 ---
-title: "Brave New World"
-authors: "Aldous Huxley"
-date: 2023-01-08
-star_rating: 3
+authors: Aldous Huxley
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "dystopian"
+- fiction
+- science fiction
+- dystopian
+date: 2023-01-08
+params:
+  isbn13: '9781508976097'
+star_rating: 3
+title: Brave New World
 ---
 
 Brave New World is a dystopian novel from 1932 about dystopian shit and it has a

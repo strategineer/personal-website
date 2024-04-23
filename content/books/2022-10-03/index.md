@@ -1,14 +1,16 @@
 ---
-title: "Aesthetic Life and Why It Matters"
 authors:
-  - "Dominic Lopes"
-  - "Bence Nanay"
-  - "Nick Riggle"
-date: 2022-10-03
-star_rating: 4
+- Dominic Lopes
+- Bence Nanay
+- Nick Riggle
 books/tags:
-  - "non-fiction"
-  - "philosophy"
+- non-fiction
+- philosophy
+date: 2022-10-03
+params:
+  isbn13: '9780197625798'
+star_rating: 4
+title: Aesthetic Life and Why It Matters
 ---
 
 We all enjoy (and love to comment on) our experiences with media, cuisine,

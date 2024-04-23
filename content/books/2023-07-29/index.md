@@ -1,14 +1,15 @@
 ---
-title: "The Fifth Season"
-authors: "N. K. Jemisin"
-date: 2023-07-29
-star_rating: 5
+authors: N. K. Jemisin
 books/tags:
-  - "fiction"
-  - "science fantasy"
-  - "slay"
+- fiction
+- science fantasy
+- slay
+date: 2023-07-29
 params:
-  series: "The Broken Earth"
+  isbn13: '9780316229296'
+  series: The Broken Earth
+star_rating: 5
+title: The Fifth Season
 ---
 
 **The shake that passes will echo. The wave that recedes will come back. The

@@ -1,11 +1,13 @@
 ---
-title: "Space Opera"
-authors: "Catherynne M. Valente"
-date: 2023-06-07
-star_rating: 4
+authors: Catherynne M. Valente
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-06-07
+params:
+  isbn13: '9781481497497'
+star_rating: 4
+title: Space Opera
 ---
 
 **Which of us are people and which of us are meat?**

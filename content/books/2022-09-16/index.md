@@ -1,12 +1,14 @@
 ---
-title: "9 out of 10 Climbers Make the Same Mistakes"
-authors: "Dave Macleod"
-date: 2022-09-16
-star_rating: 1
+authors: Dave Macleod
 books/tags:
-  - "non-fiction"
-  - "climbing"
-  - "trash"
+- non-fiction
+- climbing
+- trash
+date: 2022-09-16
+params:
+  isbn13: '9780956428103'
+star_rating: 1
+title: 9 out of 10 Climbers Make the Same Mistakes
 ---
 
 A bunch of mistakes climbers (apparently) make and how to avoid them. Not as

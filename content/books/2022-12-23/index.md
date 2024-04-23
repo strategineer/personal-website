@@ -1,14 +1,16 @@
 ---
-title: "Terraform: Watch/Worlds/Burn"
 authors:
-  - "Brian Merchant"
-  - "Claire L. Evans"
-date: 2022-12-23
-star_rating: 3
+- Brian Merchant
+- Claire L. Evans
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "short story collection"
+- fiction
+- science fiction
+- short story collection
+date: 2022-12-23
+params:
+  isbn13: '9780374602666'
+star_rating: 3
+title: 'Terraform: Watch/Worlds/Burn'
 ---
 
 A collection of science-fiction short stories that'll make you go \"huh,

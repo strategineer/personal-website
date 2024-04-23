@@ -1,15 +1,16 @@
 ---
-title: "Shadow & Claw: The First Half of The Book of the New Sun"
-authors: "Gene Wolfe"
-date: 2024-02-11
-star_rating: 5
+authors: Gene Wolfe
 books/tags:
-  - "fiction"
-  - "science fantasy"
-  - "post-apocalyptic"
-  - "slay"
+- fiction
+- science fantasy
+- post-apocalyptic
+- slay
+date: 2024-02-11
 params:
-  series: "The Book of the New Sun"
+  isbn13: '9780312890179'
+  series: The Book of the New Sun
+star_rating: 5
+title: 'Shadow & Claw: The First Half of The Book of the New Sun'
 ---
 
 Shadow & Claw is an omnibus containing the first half of Gene Wolfe's Book of

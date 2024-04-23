@@ -1,10 +1,12 @@
 ---
-title: "Nine Lives"
-authors: "William Dalrymple"
-date: 2022-03-15
-star_rating: 4
+authors: William Dalrymple
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2022-03-15
+params:
+  isbn13: '9780063227903'
+star_rating: 4
+title: Nine Lives
 ---
 
 British guy goes to India and meets with nine different people, each one on a

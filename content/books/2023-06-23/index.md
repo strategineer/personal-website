@@ -1,15 +1,16 @@
 ---
-title: "Going Postal"
-authors: "Terry Pratchett"
-date: 2023-06-23
-star_rating: 5
+authors: Terry Pratchett
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "comic"
-  - "slay"
+- fiction
+- fantasy
+- comic
+- slay
+date: 2023-06-23
 params:
-  series: "Moist Von Lipwig"
+  isbn13: '9780060013134'
+  series: Moist Von Lipwig
+star_rating: 5
+title: Going Postal
 ---
 
 Going Postal is my favorite Terry Pratchett novel. I'm facepalming right now for

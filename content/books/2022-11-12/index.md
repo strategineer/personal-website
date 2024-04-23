@@ -1,13 +1,14 @@
 ---
-title: "Axiom's End"
-authors: "Lindsay Ellis"
-date: 2022-11-12
-star_rating: 3
+authors: Lindsay Ellis
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2022-11-12
 params:
-  series: "Noumena"
+  isbn13: '9781250256737'
+  series: Noumena
+star_rating: 3
+title: Axiom's End
 ---
 
 Set in 2007, the novel is about a U.S. government coverup of contact with

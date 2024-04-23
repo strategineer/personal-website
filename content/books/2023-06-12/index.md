@@ -1,13 +1,14 @@
 ---
-title: "A Darker Shade of Magic"
-authors: "V. E. Schwab"
-date: 2023-06-12
-star_rating: 5
+authors: V. E. Schwab
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2023-06-12
 params:
-  series: "Shades of Magic"
+  isbn13: '9781250891211'
+  series: Shades of Magic
+star_rating: 5
+title: A Darker Shade of Magic
 ---
 
 I really loved it...

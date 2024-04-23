@@ -1,10 +1,12 @@
 ---
-title: "Monster of the Week"
-authors: "Micheal Sands"
-date: 2022-08-17
-star_rating: 3
+authors: Micheal Sands
 books/tags:
-  - "tabletop roleplaying"
+- tabletop roleplaying
+date: 2022-08-17
+params:
+  isbn13: '9781613170922'
+star_rating: 3
+title: Monster of the Week
 ---
 
 Monster of the Week is a standalone action-horror RPG for 3-5 people. Hunt high

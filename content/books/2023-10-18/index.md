@@ -1,11 +1,13 @@
 ---
-title: "Gideon the Ninth"
-authors: "Tamsyn Muir"
-date: 2023-10-18
-star_rating: 4
+authors: Tamsyn Muir
 books/tags:
-  - "fiction"
-  - "science fantasy"
+- fiction
+- science fantasy
+date: 2023-10-18
+params:
+  isbn13: '9781250313188'
+star_rating: 4
+title: Gideon the Ninth
 ---
 
 A murder mystery set in a Warhammer 40k-esque far far future universe setting

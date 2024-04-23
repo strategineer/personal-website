@@ -1,14 +1,15 @@
 ---
-title: "Sword & Citadel: The Second Half of The Book of the New Sun"
-authors: "Gene Wolfe"
-date: 2024-02-19
-star_rating: 5
+authors: Gene Wolfe
 books/tags:
-  - "fiction"
-  - "science fantasy"
-  - "post-apocalyptic"
+- fiction
+- science fantasy
+- post-apocalyptic
+date: 2024-02-19
 params:
-  series: "The Book of the New Sun"
+  isbn13: '9780312890186'
+  series: The Book of the New Sun
+star_rating: 5
+title: 'Sword & Citadel: The Second Half of The Book of the New Sun'
 ---
 
 A fantastic conclusion to the Book of the New Sun. Do not skip this one, it's

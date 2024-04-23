@@ -1,13 +1,15 @@
 ---
-title: "Lonely Castle in the Mirror"
 authors:
-  - "Mizuki Tsujimura"
-  - "Philip Gabriel"
-date: 2024-04-22
-star_rating: 4
+- Mizuki Tsujimura
+- Philip Gabriel
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2024-04-22
+params:
+  isbn13: '9781645660408'
+star_rating: 4
+title: Lonely Castle in the Mirror
 ---
 
 Childhood trauma. Check.

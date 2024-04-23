@@ -1,10 +1,12 @@
 ---
-title: "Empire of Wild"
-authors: "Cherie Dimaline"
-date: 2023-09-19
-star_rating: 3
+authors: Cherie Dimaline
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-09-19
+params:
+  isbn13: '9780735277182'
+star_rating: 3
+title: Empire of Wild
 ---
 
 I'm torn on this one. I enjoyed it but it was missing a bit of polish.

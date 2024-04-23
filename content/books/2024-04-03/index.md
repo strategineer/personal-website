@@ -1,15 +1,17 @@
 ---
-title: "Roadside Picnic"
 authors:
-  - "Arkady Strugatsky"
-  - "Boris Strugatsky"
-date: 2024-04-03
-star_rating: 5
+- Arkady Strugatsky
+- Boris Strugatsky
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "slavic"
-  - "slay"
+- fiction
+- science fiction
+- slavic
+- slay
+date: 2024-04-03
+params:
+  isbn13: '9781613743416'
+star_rating: 5
+title: Roadside Picnic
 ---
 
 I love the S.T.A.L.K.E.R. games! Especially the third one. It's a game I always

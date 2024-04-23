@@ -1,14 +1,15 @@
 ---
-title: "A Wizard of Earthsea"
-authors: "Ursula K. Le Guin"
-date: 2023-07-30
-star_rating: 5
+authors: Ursula K. Le Guin
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "slay"
+- fiction
+- fantasy
+- slay
+date: 2023-07-30
 params:
-  series: "Earthsea"
+  isbn13: '9780547773742'
+  series: Earthsea
+star_rating: 5
+title: A Wizard of Earthsea
 ---
 
 There's a, soon-to-be wizard, on a archipelago world. He goes to wizard school

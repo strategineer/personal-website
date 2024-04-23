@@ -1,10 +1,12 @@
 ---
-title: "Words Are My Matter"
-authors: "Ursula K. Le Guin"
-date: 2023-09-23
-star_rating: 4
+authors: Ursula K. Le Guin
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2023-09-23
+params:
+  isbn13: '9781618731340'
+star_rating: 4
+title: Words Are My Matter
 ---
 
 1/3 essays about life 1/3 book forewords 1/3 book reviews

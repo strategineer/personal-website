@@ -1,11 +1,13 @@
 ---
-title: "The Drifting Classroom"
-authors: "Kazuo Umezz"
-date: 2021-07-01
-star_rating: 3
+authors: Kazuo Umezz
 books/tags:
-  - "fiction"
-  - "graphic novel"
+- fiction
+- graphic novel
+date: 2021-07-01
+params:
+  isbn13: '9781974709373'
+star_rating: 3
+title: The Drifting Classroom
 ---
 
 The Drifting Classroom is a Japanese horror manga series published from 1972 to

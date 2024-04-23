@@ -1,12 +1,14 @@
 ---
-title: "The Iliad"
 authors:
-  - "Homer"
-  - "Emily Wilson"
-date: 2024-01-27
-star_rating: 4
+- Homer
+- Emily Wilson
 books/tags:
-  - "fiction"
+- fiction
+date: 2024-01-27
+params:
+  isbn13: '9780140275360'
+star_rating: 4
+title: The Iliad
 ---
 
 I love Greek mythology which definitely elevated my appreciation of this text.

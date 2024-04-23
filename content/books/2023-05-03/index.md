@@ -1,13 +1,14 @@
 ---
-title: "Annihilation"
-authors: "Jeff VanderMeer"
-date: 2023-05-03
-star_rating: 4
+authors: Jeff VanderMeer
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-05-03
 params:
-  series: "Southern Reach Trilogy"
+  isbn13: '9780008139100'
+  series: Southern Reach Trilogy
+star_rating: 4
+title: Annihilation
 ---
 
 This book was OK but the movie is better.

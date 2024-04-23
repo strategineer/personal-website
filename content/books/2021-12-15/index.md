@@ -1,10 +1,12 @@
 ---
-title: "Norse Mythology"
-authors: "Neil Gaiman"
-date: 2021-12-15
-star_rating: 2
+authors: Neil Gaiman
 books/tags:
-  - "fiction"
+- fiction
+date: 2021-12-15
+params:
+  isbn13: '9780393609097'
+star_rating: 2
+title: Norse Mythology
 ---
 
 Neil Gaiman's Norse Mythology is a retelling of a few stories from Norse

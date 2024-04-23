@@ -1,13 +1,15 @@
 ---
-title: "Performance Rock Climbing"
 authors:
-  - "Dale Goddard"
-  - "Udo Neumann"
-date: 2022-09-18
-star_rating: 4
+- Dale Goddard
+- Udo Neumann
 books/tags:
-  - "non-fiction"
-  - "climbing"
+- non-fiction
+- climbing
+date: 2022-09-18
+params:
+  isbn13: '9780811722193'
+star_rating: 4
+title: Performance Rock Climbing
 ---
 
 Reference guide for experienced climbers who want to further hone their skills.

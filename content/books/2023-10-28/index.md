@@ -1,10 +1,12 @@
 ---
-title: "Terry Pratchett: A Life with Footnotes"
-authors: "Rob Wilkins"
-date: 2023-10-28
-star_rating: 4
+authors: Rob Wilkins
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2023-10-28
+params:
+  isbn13: '9780857526649'
+star_rating: 4
+title: 'Terry Pratchett: A Life with Footnotes'
 ---
 
 Terry Pratchett is an all-timer. The rare case of an author who is immensely

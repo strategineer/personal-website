@@ -1,13 +1,15 @@
 ---
-title: "Solaris"
-authors: "Stanislaw Lem"
-date: 2023-08-11
-star_rating: 5
+authors: Stanislaw Lem
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "horror"
-  - "slavic"
+- fiction
+- science fiction
+- horror
+- slavic
+date: 2023-08-11
+params:
+  isbn13: '9780156027601'
+star_rating: 5
+title: Solaris
 ---
 
 Fantastic genre-bending sci-fi.

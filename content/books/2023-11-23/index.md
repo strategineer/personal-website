@@ -1,14 +1,15 @@
 ---
-title: "Wuthering Heights"
-authors: "Emily Bronte"
-date: 2023-11-23
-star_rating: 1
+authors: Emily Bronte
 books/tags:
-  - "fiction"
-  - "trash"
-  - "DNF"
+- fiction
+- trash
+- DNF
+date: 2023-11-23
 params:
-  dnf: "p. 7"
+  dnf: p. 7
+  isbn13: '9780198834786'
+star_rating: 1
+title: Wuthering Heights
 ---
 
 Yikes

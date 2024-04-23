@@ -1,10 +1,12 @@
 ---
-title: "The Crane Husband"
-authors: "Kelly Barnhill"
-date: 2023-09-22
-star_rating: 4
+authors: Kelly Barnhill
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-09-22
+params:
+  isbn13: '9781250850973'
+star_rating: 4
+title: The Crane Husband
 ---
 
 A short magical realism novel about a girl, her mother and her step father who's

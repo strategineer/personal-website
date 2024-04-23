@@ -1,14 +1,15 @@
 ---
-title: "Guards! Guards!"
-authors: "Terry Pratchett"
-date: 2023-11-13
-star_rating: 5
+authors: Terry Pratchett
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "comic"
+- fiction
+- fantasy
+- comic
+date: 2023-11-13
 params:
-  series: "Watch"
+  isbn13: '9780061020643'
+  series: Watch
+star_rating: 5
+title: Guards! Guards!
 ---
 
 The first novel in Terry Pratchett's City/Night Watch series featuring the drunk
@@ -33,9 +34,9 @@ it through bottom of bottle.**
 Carrot is a human who was adopted by dwarven parents and so he's essentially a
 dwarf in a human body.
 
-**“Oh, give up!” he said. “Are you going to come quietly?” The mumbling went on.
-The air began to feel hot and dry. Vimes shrugged. “That’s it, then,” he said,
-and turned away. “Throw the book at him, Carrot.” “Right, sir.” Vimes remembered
+**"Oh, give up!" he said. "Are you going to come quietly?" The mumbling went on.
+The air began to feel hot and dry. Vimes shrugged. "That’s it, then," he said,
+and turned away. "Throw the book at him, Carrot." "Right, sir." Vimes remembered
 too late.**
 
 **Dwarfs have trouble with metaphors. They also have a very good aim. The Laws

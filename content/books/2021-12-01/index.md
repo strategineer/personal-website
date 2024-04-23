@@ -1,12 +1,14 @@
 ---
-title: "The Greek Myths"
-authors: "Robert Graves"
-date: 2021-12-01
-star_rating: 5
+authors: Robert Graves
 books/tags:
-  - "mythography"
-  - "reference"
-  - "slay"
+- mythography
+- reference
+- slay
+date: 2021-12-01
+params:
+  isbn13: '9780241982358'
+star_rating: 5
+title: The Greek Myths
 ---
 
 Robert Graves's The Greek Myths is more of an encyclopedia about everything

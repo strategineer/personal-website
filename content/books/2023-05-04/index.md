@@ -1,12 +1,13 @@
 ---
-title: "Authority"
-authors: "Jeff VanderMeer"
-date: 2023-05-04
-star_rating: 1
+authors: Jeff VanderMeer
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "trash"
+- fiction
+- science fiction
+- trash
+date: 2023-05-04
 params:
-  series: "Southern Reach Trilogy"
+  isbn13: '9780990825104'
+  series: Southern Reach Trilogy
+star_rating: 1
+title: Authority
 ---

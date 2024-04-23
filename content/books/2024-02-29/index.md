@@ -1,11 +1,13 @@
 ---
-title: "The Child Thief"
-authors: "Brom"
-date: 2024-02-29
-star_rating: 3
+authors: Brom
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2024-02-29
+params:
+  isbn13: '9780061671340'
+star_rating: 3
+title: The Child Thief
 ---
 
 An edgy retelling of Peter Pan by Brom, the illustrator who's work you've

@@ -1,10 +1,12 @@
 ---
-title: "Circe"
-authors: "Madeline Miller"
-date: 2023-12-01
-star_rating: 5
+authors: Madeline Miller
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-12-01
+params:
+  isbn13: '9781432869137'
+star_rating: 5
+title: Circe
 ---
 
 Madeline Miller, the first and the greatest of the authors writing Greek

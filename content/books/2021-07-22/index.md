@@ -1,14 +1,16 @@
 ---
-title: "Sandcastles"
 authors:
-  - "Frederik Peeters"
-  - "Pierre Oscar Levy"
-date: 2021-07-22
-star_rating: 1
+- Frederik Peeters
+- Pierre Oscar Levy
 books/tags:
-  - "fiction"
-  - "graphic novel"
-  - "trash"
+- fiction
+- graphic novel
+- trash
+date: 2021-07-22
+params:
+  isbn13: '9781906838386'
+star_rating: 1
+title: Sandcastles
 ---
 
 Sandcastles is the french comic book that the recent M. Night Shyamalan's movie

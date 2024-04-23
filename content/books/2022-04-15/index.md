@@ -1,12 +1,14 @@
 ---
-title: "The Pig that Wants to be Eaten"
-authors: "Julian Baggini"
-date: 2022-04-15
-star_rating: 1
+authors: Julian Baggini
 books/tags:
-  - "non-fiction"
-  - "philosophy"
-  - "trash"
+- non-fiction
+- philosophy
+- trash
+date: 2022-04-15
+params:
+  isbn13: '9781847081285'
+star_rating: 1
+title: The Pig that Wants to be Eaten
 ---
 
 The Pig That Wants to Be Eaten offers one hundred philosophical

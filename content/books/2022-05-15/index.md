@@ -1,11 +1,13 @@
 ---
-title: "Think"
-authors: "Simon Blackburn"
-date: 2022-05-15
-star_rating: 4
+authors: Simon Blackburn
 books/tags:
-  - "non-fiction"
-  - "philosophy"
+- non-fiction
+- philosophy
+date: 2022-05-15
+params:
+  isbn13: '9781107508828'
+star_rating: 4
+title: Think
 ---
 
 Think is a book about the big questions in life: knowledge, consciousness, fate,

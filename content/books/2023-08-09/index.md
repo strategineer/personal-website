@@ -1,12 +1,14 @@
 ---
-title: "The Light Brigade"
-authors: "Kameron Hurley"
-date: 2023-08-09
-star_rating: 5
+authors: Kameron Hurley
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "slay"
+- fiction
+- science fiction
+- slay
+date: 2023-08-09
+params:
+  isbn13: '9781481447966'
+star_rating: 5
+title: The Light Brigade
 ---
 
 The Light Brigade is a story about breaking people down and putting them back

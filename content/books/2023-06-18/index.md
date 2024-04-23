@@ -1,13 +1,14 @@
 ---
-title: "A Conjuring of Light"
-authors: "V. E. Schwab"
-date: 2023-06-18
-star_rating: 4
+authors: V. E. Schwab
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2023-06-18
 params:
-  series: "Shades of Magic"
+  isbn13: '9780765387462'
+  series: Shades of Magic
+star_rating: 4
+title: A Conjuring of Light
 ---
 
 It was an enjoyable romp but doesn't necessarily hit the highs of the previous

@@ -1,13 +1,14 @@
 ---
-title: "Children of Memory"
-authors: "Adrian Tchaikovsky"
-date: 2023-06-28
-star_rating: 5
+authors: Adrian Tchaikovsky
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-06-28
 params:
-  series: "Children of Time"
+  isbn13: '9780316466400'
+  series: Children of Time
+star_rating: 5
+title: Children of Memory
 ---
 
 **"They think."**

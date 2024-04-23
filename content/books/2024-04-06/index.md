@@ -1,13 +1,14 @@
 ---
-title: "Tales from Earthsea"
-authors: "Ursula K. Le Guin"
-date: 2024-04-06
-star_rating: 4
+authors: Ursula K. Le Guin
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2024-04-06
 params:
-  series: "Earthsea"
+  isbn13: '9780547773704'
+  series: Earthsea
+star_rating: 4
+title: Tales from Earthsea
 ---
 
 A collection of short stories and novellas set in the Earthsea setting that

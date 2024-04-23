@@ -1,10 +1,12 @@
 ---
-title: "Wicked Ones"
-authors: "Ben Nielson"
-date: 2022-11-01
-star_rating: 4
+authors: Ben Nielson
 books/tags:
-  - "tabletop roleplaying"
+- tabletop roleplaying
+date: 2022-11-01
+params:
+  isbn13: '9781761298080'
+star_rating: 4
+title: Wicked Ones
 ---
 
 WICKED ONES is a Forged in the Dark tabletop RPG about a group of fantasy

@@ -1,14 +1,16 @@
 ---
-title: "Doorways in the Sand"
-authors: "Roger Zelazny"
-date: 2023-07-29
-star_rating: 5
+authors: Roger Zelazny
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "detective fiction"
-  - "comic"
-  - "slay"
+- fiction
+- science fiction
+- detective fiction
+- comic
+- slay
+date: 2023-07-29
+params:
+  isbn13: '9780491020220'
+star_rating: 5
+title: Doorways in the Sand
 ---
 
 **In fair puzzles there should always be a way out. But I saw no doorways in the

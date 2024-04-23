@@ -1,12 +1,14 @@
 ---
-title: "On Being Awesome: A Unified Theory of How Not to Suck"
 authors: Nick Riggle
-date: 2022-08-19
-star_rating: 5
 books/tags:
-  - "non-fiction"
-  - "philosophy"
-  - "slay"
+- non-fiction
+- philosophy
+- slay
+date: 2022-08-19
+params:
+  isbn13: '9780143130901'
+star_rating: 5
+title: 'On Being Awesome: A Unified Theory of How Not to Suck'
 ---
 
 A philosophical exploration of what it means to be awesome and not suck, and a

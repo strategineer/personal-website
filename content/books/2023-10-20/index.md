@@ -1,10 +1,12 @@
 ---
-title: "Blindness"
-authors: "Jose Saramago"
-date: 2023-10-20
-star_rating: 5
+authors: Jose Saramago
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-10-20
+params:
+  isbn13: '9780156007757'
+star_rating: 5
+title: Blindness
 ---
 
 José Saramago refuses to use quotation marks, question marks and exclamation

@@ -1,12 +1,14 @@
 ---
-title: "Games: Agency as Art"
-authors: "C. Thi Nguyen"
-date: 2022-09-14
-star_rating: 2
+authors: C. Thi Nguyen
 books/tags:
-  - "non-fiction"
-  - "philosophy"
-  - "DNF"
+- non-fiction
+- philosophy
+- DNF
+date: 2022-09-14
+params:
+  isbn13: '9780190052089'
+star_rating: 2
+title: 'Games: Agency as Art'
 ---
 
 Games are a unique art form. They do not just tell stories, nor are they simply

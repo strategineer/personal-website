@@ -1,10 +1,12 @@
 ---
-title: "All the Names"
-authors: "Jose Saramago"
-date: 2023-09-16
-star_rating: 4
+authors: Jose Saramago
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-09-16
+params:
+  isbn13: '9780156010597'
+star_rating: 4
+title: All the Names
 ---
 
 Another Jose Saramago banger. In All The Names, we follow the story of Senhor

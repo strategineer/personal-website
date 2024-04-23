@@ -1,14 +1,15 @@
 ---
-title: "Thud!"
-authors: "Terry Pratchett"
-date: 2023-07-12
-star_rating: 5
+authors: Terry Pratchett
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "comic"
+- fiction
+- fantasy
+- comic
+date: 2023-07-12
 params:
-  series: "Watch"
+  isbn13: '9780857525918'
+  series: Watch
+star_rating: 5
+title: Thud!
 ---
 
 Thud! by Terry Pratchett tells the story of Sam Vimes, head of the Ankh-Morpork

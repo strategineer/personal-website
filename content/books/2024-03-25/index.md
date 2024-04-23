@@ -1,13 +1,14 @@
 ---
-title: "Ancient Legends, Mystic Charms and Superstitions of Ireland"
-authors: "Lady Wylde"
-date: 2024-03-25
-star_rating: 1
+authors: Lady Wylde
 books/tags:
-  - "mythography"
-  - "DNF"
+- mythography
+- DNF
+date: 2024-03-25
 params:
-  dnf: "70%"
+  dnf: 70%
+  isbn13: '9781480289833'
+star_rating: 1
+title: Ancient Legends, Mystic Charms and Superstitions of Ireland
 ---
 
 I'm not sure who to blame for how boring most of this book is:

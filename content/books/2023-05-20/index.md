@@ -1,14 +1,15 @@
 ---
-title: "Children of Time"
-authors: "Adrian Tchaikovsky"
-date: 2023-05-20
-star_rating: 5
+authors: Adrian Tchaikovsky
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "slay"
+- fiction
+- science fiction
+- slay
+date: 2023-05-20
 params:
-  series: "Children of Time"
+  isbn13: '9781447273301'
+  series: Children of Time
+star_rating: 5
+title: Children of Time
 ---
 
 A very human story with Alien aliens, AI/human constructs and time "travel".

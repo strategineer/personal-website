@@ -1,11 +1,13 @@
 ---
-title: "The Martian"
-authors: "Andy Weir"
-date: 2023-10-14
-star_rating: 3
+authors: Andy Weir
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-10-14
+params:
+  isbn13: '9780553418026'
+star_rating: 3
+title: The Martian
 ---
 
 An astronaut is abandoned on Mars after a dust storm separates him from his

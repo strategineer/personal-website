@@ -1,10 +1,12 @@
 ---
-title: "The Miracle of Mindfulness"
-authors: "Thich Nhat Hanh"
-date: 2023-08-20
-star_rating: 4
+authors: Thich Nhat Hanh
 books/tags:
-  - "philosophy"
+- philosophy
+date: 2023-08-20
+params:
+  isbn13: '9780807012390'
+star_rating: 4
+title: The Miracle of Mindfulness
 ---
 
 A short semi-biographical discussion and guide on meditation.

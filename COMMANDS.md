@@ -10,3 +10,15 @@ Check for dead links
 ```
 muffet https://strategineer.com/
 ```
+
+Run .json barcode scan data to book post code
+
+```
+poetry run py "personal-website/main.py"
+```
+
+Format files
+
+```
+npx prettier . --write
+```

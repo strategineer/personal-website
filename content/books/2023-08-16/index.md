@@ -1,13 +1,14 @@
 ---
-title: "Shards of Earth"
-authors: "Adrian Tchaikovsky"
-date: 2023-08-16
-star_rating: 5
+authors: Adrian Tchaikovsky
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-08-16
 params:
-  series: "The Final Architecture"
+  isbn13: '9781529051902'
+  series: The Final Architecture
+star_rating: 5
+title: Shards of Earth
 ---
 
 A great space opera by the king of writing alien aliens. It's a fantastic romp

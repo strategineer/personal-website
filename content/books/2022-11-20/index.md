@@ -1,13 +1,14 @@
 ---
-title: "Truth of the Divine"
-authors: "Lindsay Ellis"
-date: 2022-11-20
-star_rating: 2
+authors: Lindsay Ellis
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2022-11-20
 params:
-  series: "Noumena"
+  isbn13: '9781250274540'
+  series: Noumena
+star_rating: 2
+title: Truth of the Divine
 ---
 
 Aliens on Earth in the early/mid 2000s and everything that follows from that.

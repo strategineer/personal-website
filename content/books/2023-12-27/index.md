@@ -1,12 +1,13 @@
 ---
-title: "The Hundred Thousand Kingdoms"
-authors: "N. K. Jemisin"
-date: 2023-12-27
-star_rating: 3
+authors: N. K. Jemisin
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-12-27
 params:
-  series: "Inheritance Trilogy"
+  isbn13: '9780316043922'
+  series: Inheritance Trilogy
+star_rating: 3
+title: The Hundred Thousand Kingdoms
 ---
 
 The precursor to N. K. Jemisin's Broken Earth trilogy, this is another fantasy

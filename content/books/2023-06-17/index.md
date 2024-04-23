@@ -1,11 +1,13 @@
 ---
-title: "Cassandra in Reverse"
-authors: "Holly Smale"
-date: 2023-06-17
-star_rating: 5
+authors: Holly Smale
 books/tags:
-  - "fiction"
-  - "slay"
+- fiction
+- slay
+date: 2023-06-17
+params:
+  isbn13: '9780778334538'
+star_rating: 5
+title: Cassandra in Reverse
 ---
 
 Cassandra in Reverse is a novel about a woman in her early 30s with a

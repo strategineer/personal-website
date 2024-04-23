@@ -1,15 +1,16 @@
 ---
-title: "The Other Wind"
 authors:
-  - "Ursula K. Le Guin"
-date: 2024-04-20
-weight: 1
+- Ursula K. Le Guin
 books/tags:
-  - "currently reading"
-  - "fiction"
-  - "fantasy"
+- currently reading
+- fiction
+- fantasy
+date: 2024-04-20
 params:
-  series: "Earthsea"
+  isbn13: '9780441011254'
+  series: Earthsea
+title: The Other Wind
+weight: 1
 ---
 
 The 6th and final novel in Le Guin's Earthsea series.

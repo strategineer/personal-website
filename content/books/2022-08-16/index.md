@@ -1,12 +1,14 @@
 ---
-title: "Heart: The City Beneath"
 authors:
-  - "Grant Howitt"
-  - "Christopher Taylor"
-date: 2022-08-16
-star_rating: 4
+- Grant Howitt
+- Christopher Taylor
 books/tags:
-  - "tabletop roleplaying"
+- tabletop roleplaying
+date: 2022-08-16
+params:
+  isbn13: '9781913032111'
+star_rating: 4
+title: 'Heart: The City Beneath'
 ---
 
 Heart: The City Beneath is a tabletop roleplaying game about delving into a

@@ -1,12 +1,13 @@
 ---
-title: "Vengeful"
-authors: "V. E. Schwab"
-date: 2023-10-22
-star_rating: 2
+authors: V. E. Schwab
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-10-22
 params:
-  series: "Villains"
+  isbn13: '9780765387523'
+  series: Villains
+star_rating: 2
+title: Vengeful
 ---
 
 There's no denying that V.E. Schwab is a great writer. She's able to construct

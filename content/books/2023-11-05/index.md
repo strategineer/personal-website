@@ -1,13 +1,14 @@
 ---
-title: "Eyes of the Void"
-authors: "Adrian Tchaikovsky"
-date: 2023-11-05
-star_rating: 5
+authors: Adrian Tchaikovsky
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-11-05
 params:
-  series: "The Final Architecture"
+  isbn13: '9781529051933'
+  series: The Final Architecture
+star_rating: 5
+title: Eyes of the Void
 ---
 
 The best "second novel in a trilogy" that I've read in a while. To no one's

@@ -1,14 +1,15 @@
 ---
-title: "Everyday Ethics: Inspired Solutions to Real-Life Dilemmas"
-authors: "Joshua Halberstam"
-date: 2023-09-18
-star_rating: 1
+authors: Joshua Halberstam
 books/tags:
-  - "philosophy"
-  - "trash"
-  - "DNF"
+- philosophy
+- trash
+- DNF
+date: 2023-09-18
 params:
-  dnf: "50%"
+  dnf: 50%
+  isbn13: '9780140165586'
+star_rating: 1
+title: 'Everyday Ethics: Inspired Solutions to Real-Life Dilemmas'
 ---
 
 Joshua Halberstam is the king of strawmanning. Every chapter involves him

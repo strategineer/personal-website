@@ -1,11 +1,13 @@
 ---
-title: "Living Beyond Borders: Growing up Mexican in America"
-authors: "Margarita Longoria"
-date: 2022-10-04
-star_rating: 2
+authors: Margarita Longoria
 books/tags:
-  - "fiction"
-  - "short story collection"
+- fiction
+- short story collection
+date: 2022-10-04
+params:
+  isbn13: '9780593204979'
+star_rating: 2
+title: 'Living Beyond Borders: Growing up Mexican in America'
 ---
 
 An anthology of short stories, comics, and poems from Mexican American authors.

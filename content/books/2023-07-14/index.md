@@ -1,11 +1,12 @@
 ---
-title: "Rogue Protocol"
-authors: "Martha Wells"
-date: 2023-07-14
-star_rating: 3
+authors: Martha Wells
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-07-14
 params:
-  series: "The Murderbot Diaries"
+  isbn13: '9781250191786'
+  series: The Murderbot Diaries
+star_rating: 3
+title: Rogue Protocol
 ---

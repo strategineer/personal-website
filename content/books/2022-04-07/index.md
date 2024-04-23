@@ -1,11 +1,13 @@
 ---
-title: "Media Literacy"
-authors: "W. James Potter"
-date: 2022-04-07
-star_rating: 5
+authors: W. James Potter
 books/tags:
-  - "non-fiction"
-  - "slay"
+- non-fiction
+- slay
+date: 2022-04-07
+params:
+  isbn13: '9781452206257'
+star_rating: 5
+title: Media Literacy
 ---
 
 Media Literacy teaches you how to navigate through the overwhelming flood of

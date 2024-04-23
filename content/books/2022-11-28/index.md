@@ -1,14 +1,15 @@
 ---
-title: "The Colour of Magic"
-authors: "Terry Pratchett"
-date: 2022-11-28
-star_rating: 5
+authors: Terry Pratchett
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "comic"
+- fiction
+- fantasy
+- comic
+date: 2022-11-28
 params:
-  series: "Rincewind"
+  isbn13: '9780062225672'
+  series: Rincewind
+star_rating: 5
+title: The Colour of Magic
 ---
 
 An incompetent wizard is tasked with protecting a visitor visiting from a

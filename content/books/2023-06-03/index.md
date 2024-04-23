@@ -1,13 +1,14 @@
 ---
-title: "Children of Ruin"
-authors: "Adrian Tchaikovsky"
-date: 2023-06-03
-star_rating: 4
+authors: Adrian Tchaikovsky
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-06-03
 params:
-  series: "Children of Time"
+  isbn13: '9781509865857'
+  series: Children of Time
+star_rating: 4
+title: Children of Ruin
 ---
 
 **"We're going on an adventure!"**

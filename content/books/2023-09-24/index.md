@@ -1,12 +1,14 @@
 ---
-title: "Zachary Ying and the Dragon Emperor"
-authors: "Xiran Jay Zhao"
-date: 2023-09-24
-star_rating: 5
+authors: Xiran Jay Zhao
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "middle-grade"
+- fiction
+- fantasy
+- middle-grade
+date: 2023-09-24
+params:
+  isbn13: '9781665900706'
+star_rating: 5
+title: Zachary Ying and the Dragon Emperor
 ---
 
 Xiran Jay Zhao strikes again. I was blown away by her YA novel Iron Window a few

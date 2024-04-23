@@ -1,11 +1,13 @@
 ---
-title: "Lilith's Brood"
-authors: "Octavia E. Butler"
-date: 2023-10-10
-star_rating: 4
+authors: Octavia E. Butler
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-10-10
+params:
+  isbn13: '9780446676106'
+star_rating: 4
+title: Lilith's Brood
 ---
 
 I was blown away by the premise of Dawn (the first novel in the trilogy) and its

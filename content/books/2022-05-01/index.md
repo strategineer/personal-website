@@ -1,10 +1,12 @@
 ---
-title: "Amusing Ourselves to Death"
-authors: "Neil Postman"
-date: 2022-05-01
-star_rating: 5
+authors: Neil Postman
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2022-05-01
+params:
+  isbn13: '9780143036531'
+star_rating: 5
+title: Amusing Ourselves to Death
 ---
 
 Amusing Ourselves to Death is a book about the corrosive effects of television

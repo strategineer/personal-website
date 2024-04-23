@@ -1,10 +1,12 @@
 ---
-title: "All's Well"
-authors: "Mona Awad"
-date: 2023-12-15
-star_rating: 4
+authors: Mona Awad
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-12-15
+params:
+  isbn13: '9781982169664'
+star_rating: 4
+title: All's Well
 ---
 
 I appreciate the depiction of the alienation Miranda feels towards others caused

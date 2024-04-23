@@ -1,13 +1,14 @@
 ---
-title: "Tehanu"
-authors: "Ursula K. Le Guin"
-date: 2024-03-27
-star_rating: 5
+authors: Ursula K. Le Guin
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2024-03-27
 params:
-  series: "Earthsea"
+  isbn13: '9780613495271'
+  series: Earthsea
+star_rating: 5
+title: Tehanu
 ---
 
 A sequel to both The Tombs of Atuan and The Farthest Shore.

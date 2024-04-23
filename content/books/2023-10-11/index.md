@@ -1,10 +1,12 @@
 ---
-title: "Cain"
-authors: "Jose Saramago"
-date: 2023-10-11
-star_rating: 4
+authors: Jose Saramago
 books/tags:
-  - "fiction"
+- fiction
+date: 2023-10-11
+params:
+  isbn13: '9780684834030'
+star_rating: 4
+title: Cain
 ---
 
 Old Testament fan fiction written by the militantly atheist Jose Saramago.

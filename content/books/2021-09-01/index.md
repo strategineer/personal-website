@@ -1,10 +1,12 @@
 ---
-title: "Understanding Power"
-authors: "Noam Chomsky"
-date: 2021-09-01
-star_rating: 5
+authors: Noam Chomsky
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2021-09-01
+params:
+  isbn13: '9781565847033'
+star_rating: 5
+title: Understanding Power
 ---
 
 Understanding Power is the book that convinced me that I needed to start reading

@@ -1,11 +1,13 @@
 ---
-title: "Parable of the Sower"
-authors: "Octavia E. Butler"
-date: 2023-09-02
-star_rating: 3
+authors: Octavia E. Butler
 books/tags:
-  - "fiction"
-  - "post-apocalyptic"
+- fiction
+- post-apocalyptic
+date: 2023-09-02
+params:
+  isbn13: '9781538732182'
+star_rating: 3
+title: Parable of the Sower
 ---
 
 A post-apocalyptic story following a messiah-like figure who wishes to both:

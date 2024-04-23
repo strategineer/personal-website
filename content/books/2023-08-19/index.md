@@ -1,10 +1,12 @@
 ---
-title: "The Essential Tao"
-authors: "Thomas Cleary"
-date: 2023-08-19
-star_rating: 4
+authors: Thomas Cleary
 books/tags:
-  - "philosophy"
+- philosophy
+date: 2023-08-19
+params:
+  isbn13: '9780062502162'
+star_rating: 4
+title: The Essential Tao
 ---
 
 I much preferred Gia-Fu Feng and Jane English's translation of the Tao Te Ching.

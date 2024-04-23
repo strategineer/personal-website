@@ -1,12 +1,14 @@
 ---
-title: "Gregor The Overlander"
-authors: "Suzanne Collins"
-date: 2023-09-21
-star_rating: 5
+authors: Suzanne Collins
 books/tags:
-  - "fiction"
-  - "fantasy"
-  - "middle-grade"
+- fiction
+- fantasy
+- middle-grade
+date: 2023-09-21
+params:
+  isbn13: '9780439678131'
+star_rating: 5
+title: Gregor The Overlander
 ---
 
 It's heartbreaking. I'm tearing up by page 4. This series is advertised as a

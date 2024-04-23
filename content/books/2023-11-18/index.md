@@ -1,10 +1,12 @@
 ---
-title: "The Ultimate Micro-RPG Book: 40 Fast, Easy, and Fun Tabletop Games"
-authors: "James D'Amato"
-date: 2023-11-18
-star_rating: 3
+authors: James D'Amato
 books/tags:
-  - "tabletop roleplaying"
+- tabletop roleplaying
+date: 2023-11-18
+params:
+  isbn13: '9781507212868'
+star_rating: 3
+title: 'The Ultimate Micro-RPG Book: 40 Fast, Easy, and Fun Tabletop Games'
 ---
 
 A collection of small one shot tabletop RPGs. Their quality varies and not all

@@ -1,11 +1,13 @@
 ---
-title: "I'm Thinking of Ending Things"
-authors: "Iain Reid"
-date: 2023-07-04
-star_rating: 1
+authors: Iain Reid
 books/tags:
-  - "fiction"
-  - "trash"
+- fiction
+- trash
+date: 2023-07-04
+params:
+  isbn13: '9781501103452'
+star_rating: 1
+title: I'm Thinking of Ending Things
 ---
 
 Uhhhhhh. Heavy sigh.

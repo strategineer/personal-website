@@ -1,13 +1,15 @@
 ---
-title: "Meditations: A New Translation"
 authors:
-  - "Marcus Aurelius"
-  - "Gregory Hays"
-date: 2022-02-15
-star_rating: 3
+- Marcus Aurelius
+- Gregory Hays
 books/tags:
-  - "non-fiction"
-  - "philosophy"
+- non-fiction
+- philosophy
+date: 2022-02-15
+params:
+  isbn13: '9780812968255'
+star_rating: 3
+title: 'Meditations: A New Translation'
 ---
 
 Marcus Aurelius Antoninus (a.d. 121–180) succeeded his adoptive father as
@@ -25,6 +27,6 @@ aged very well (which is not surprising given how far removed Marcus’s
 experience of life is from our own).
 
 Overall, the text was interesting enough for me to be motivated to make
-[this little toy](/bin/meditations) that shows you one of the “meditations”
+[this little toy](/bin/meditations) that shows you one of the "meditations"
 every time you refresh the page (tip: if you click/tap on a word it’ll bring you
 to another meditation containing that word).

@@ -1,13 +1,14 @@
 ---
-title: "The Obelisk Gate"
-authors: "N. K. Jemisin"
-date: 2023-08-24
-star_rating: 5
+authors: N. K. Jemisin
 books/tags:
-  - "fiction"
-  - "science fantasy"
+- fiction
+- science fantasy
+date: 2023-08-24
 params:
-  series: "The Broken Earth"
+  isbn13: '9780316229265'
+  series: The Broken Earth
+star_rating: 5
+title: The Obelisk Gate
 ---
 
 This novel suffers from middle book syndrome. It continues the story set up in

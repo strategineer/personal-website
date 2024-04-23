@@ -1,11 +1,13 @@
 ---
-title: "New Dark Age: Technology and the End of the Future"
-authors: "James Bridle"
-date: 2024-03-02
-star_rating: 5
+authors: James Bridle
 books/tags:
-  - "non-fiction"
-  - "slay"
+- non-fiction
+- slay
+date: 2024-03-02
+params:
+  isbn13: '9781786635471'
+star_rating: 5
+title: 'New Dark Age: Technology and the End of the Future'
 ---
 
 A bleak but compelling investigation on a variety of world ending issues we're

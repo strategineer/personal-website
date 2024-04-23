@@ -1,12 +1,14 @@
 ---
-title: "Terminal Alliance"
-authors: "Jim C. Hines"
-date: 2023-08-17
-star_rating: 1
+authors: Jim C. Hines
 books/tags:
-  - "fiction"
-  - "science fiction"
-  - "trash"
+- fiction
+- science fiction
+- trash
+date: 2023-08-17
+params:
+  isbn13: '9780756412746'
+star_rating: 1
+title: Terminal Alliance
 ---
 
 This book is a joke and not a very funny one. It fails completely in its stated

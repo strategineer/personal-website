@@ -1,10 +1,12 @@
 ---
-title: "Because Internet"
-authors: "Gretchen McCulloch"
-date: 2022-01-20
-star_rating: 4
+authors: Gretchen McCulloch
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2022-01-20
+params:
+  isbn13: '9780735210936'
+star_rating: 4
+title: Because Internet
 ---
 
 Because Internet: Understanding the New Rules of Language discusses how we

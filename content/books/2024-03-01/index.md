@@ -1,10 +1,12 @@
 ---
-title: "Death with Interruptions"
-authors: "Jose Saramago"
-date: 2024-03-01
-star_rating: 3
+authors: Jose Saramago
 books/tags:
-  - "fiction"
+- fiction
+date: 2024-03-01
+params:
+  isbn13: '9780547247885'
+star_rating: 3
+title: Death with Interruptions
 ---
 
 Everyone in a small and nameless country becomes immortal, hijinks ensue. death,

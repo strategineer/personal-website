@@ -1,13 +1,14 @@
 ---
-title: "All Systems Red"
-authors: "Martha Wells"
-date: 2023-07-06
-star_rating: 4
+authors: Martha Wells
 books/tags:
-  - "fiction"
-  - "science fiction"
+- fiction
+- science fiction
+date: 2023-07-06
 params:
-  series: "The Murderbot Diaries"
+  isbn13: '9780765397539'
+  series: The Murderbot Diaries
+star_rating: 4
+title: All Systems Red
 ---
 
 All Systems Red is about a sentient robot-human hybrid, calling themselves

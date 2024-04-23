@@ -1,13 +1,14 @@
 ---
-title:
-  "Good Thinking: Why Flawed Logic Puts Us All at Risk and How Critical Thinking
-  Can Save the World"
-authors: "David Robert Grimes"
-date: 2023-09-08
-star_rating: 5
+authors: David Robert Grimes
 books/tags:
-  - "non-fiction"
-  - "slay"
+- non-fiction
+- slay
+date: 2023-09-08
+params:
+  isbn13: '9781615197934'
+star_rating: 5
+title: 'Good Thinking: Why Flawed Logic Puts Us All at Risk and How Critical Thinking
+  Can Save the World'
 ---
 
 A compelling and instructive book on the many logical fallacies we are guilty of

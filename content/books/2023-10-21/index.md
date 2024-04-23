@@ -1,13 +1,14 @@
 ---
-title: "The Farthest Shore"
-authors: "Ursula K. Le Guin"
-date: 2023-10-21
-star_rating: 3
+authors: Ursula K. Le Guin
 books/tags:
-  - "fiction"
-  - "fantasy"
+- fiction
+- fantasy
+date: 2023-10-21
 params:
-  series: "Earthsea"
+  isbn13: '9780553204308'
+  series: Earthsea
+star_rating: 3
+title: The Farthest Shore
 ---
 
 Hasn't aged as well as the first two books in the series IMO.

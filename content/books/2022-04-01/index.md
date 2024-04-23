@@ -1,10 +1,12 @@
 ---
-title: "The Man Who Mistook His Wife for a Hat"
-authors: "Oliver Sacks"
-date: 2022-04-01
-star_rating: 3
+authors: Oliver Sacks
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2022-04-01
+params:
+  isbn13: '9780684853949'
+star_rating: 3
+title: The Man Who Mistook His Wife for a Hat
 ---
 
 The Man Who Mistook His Wife for a Hat tells the stories of individuals

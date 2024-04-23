@@ -1,10 +1,12 @@
 ---
-title: "The Mindbody Prescription"
-authors: "John E. Sarno"
-date: 2022-08-01
-star_rating: 3
+authors: John E. Sarno
 books/tags:
-  - "non-fiction"
+- non-fiction
+date: 2022-08-01
+params:
+  isbn13: '9780446675154'
+star_rating: 3
+title: The Mindbody Prescription
 ---
 
 As someone who's been suffering with chronic pain issues for years now, I'm
