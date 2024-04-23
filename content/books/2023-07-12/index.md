@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "fantasy"
     - "comic"
+params:
+  series: "Watch"
 ---
 Thud! by Terry Pratchett tells the story of Sam Vimes, head of the Ankh-Morpork City Watch, and his fellow coppers trying to solve a dwarf's murder. The upcoming anniversary of the thousands years old Battle of Koom Valley is keeping tension high between the dwarves and the trolls; making it harder for the constables of the Watch to keep the peace and solve the crime.
 

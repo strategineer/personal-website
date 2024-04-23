@@ -8,6 +8,8 @@ books/tags:
     - "fantasy"
     - "comic"
     - "slay"
+params:
+  series: "Moist Von Lipwig"
 ---
 Going Postal is my favorite Terry Pratchett novel. I'm facepalming right now for not writing my thoughts down about this book.
 

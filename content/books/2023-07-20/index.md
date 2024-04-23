@@ -7,4 +7,6 @@ books/tags:
     - "fiction"
     - "fantasy"
     - "comic"
+params:
+  series: "Witches"
 ---

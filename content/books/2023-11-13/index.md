@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "fantasy"
     - "comic"
+params:
+  series: "Watch"
 ---
 The first novel in Terry Pratchett's City/Night Watch series featuring the drunk and depressed Captain Vimes, the human who thinks he's a dwarf Carrot, the everyman Nobby and the boomer Sergeant Colon. They act like a tight knit four man improv group, bouncing off each other really well and provide a great foundation for the humor, action and hijinks in the novel.
 

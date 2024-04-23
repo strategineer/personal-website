@@ -7,6 +7,8 @@ books/tags:
     - "fiction"
     - "fantasy"
     - "comic"
+params:
+  series: "Death"
 ---
 
 A few different cooky POV characters doing their own thing, eventually meet up to save big T Time.
