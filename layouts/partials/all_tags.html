@@ -34,8 +34,14 @@
   {{ if and (lt $n $min_books_for_sorting) (ne $n 0) }}
   {{ $score = mul $score (div (div 1.0 $n) $min_books_for_sorting) }}
   {{ end }}
-  {{ if eq $t.Term "slay"}}
+  {{ if eq $t.Term "slay" }}
   {{ $score = mul $score 100 }}
+  {{ end }}
+  {{ if eq $t.Term "dnf" }}
+  {{ $score = mul $score 0.01 }}
+  {{ end }}
+  {{ if eq $t.Term "trash" }}
+  {{ $score = mul $score 0 }}
   {{ end }}
   {{ $dict_to_avg_star_rating = merge $dict_to_avg_star_rating (dict $t.Term (dict "term" $t.Term "score" $score "object" $t) ) }}
 {{ end }}
