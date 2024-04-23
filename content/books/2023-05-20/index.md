@@ -1,14 +1,14 @@
 ---
 authors: Adrian Tchaikovsky
 books/tags:
-- fiction
-- science fiction
-- slay
+  - fiction
+  - science fiction
+  - slay
 date: 2023-05-20
 params:
-  isbn13: '9781447273301'
+  isbn13: "9781447273301"
   series: Children of Time
-  year: '2016'
+  year: "2016"
 star_rating: 5
 title: Children Of Time
 ---

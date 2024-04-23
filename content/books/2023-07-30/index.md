@@ -1,14 +1,14 @@
 ---
 authors: Ursula K. Le Guin
 books/tags:
-- fiction
-- fantasy
-- slay
+  - fiction
+  - fantasy
+  - slay
 date: 2023-07-30
 params:
-  isbn13: '9780547773742'
+  isbn13: "9780547773742"
   series: Earthsea
-  year: '2012'
+  year: "2012"
 star_rating: 5
 title: A Wizard Of Earthsea
 ---

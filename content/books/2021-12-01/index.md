@@ -1,13 +1,13 @@
 ---
 authors: Robert Graves
 books/tags:
-- mythography
-- reference
-- slay
+  - mythography
+  - reference
+  - slay
 date: 2021-12-01
 params:
-  isbn13: '9780241982358'
-  year: '2018'
+  isbn13: "9780241982358"
+  year: "2018"
 star_rating: 5
 title: The Greek Myths - The Complete And Definitive Edition
 ---

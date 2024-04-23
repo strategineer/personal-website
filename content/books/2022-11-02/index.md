@@ -1,12 +1,12 @@
 ---
 authors:
-- Pelle Nilsson
-- Johan Nohr
+  - Pelle Nilsson
+  - Johan Nohr
 books/tags:
-- tabletop roleplaying
+  - tabletop roleplaying
 date: 2022-11-02
 params:
-  isbn13: '9789188805645'
+  isbn13: "9789188805645"
   year: 2020
 star_rating: 4
 title: MÖRK BORG

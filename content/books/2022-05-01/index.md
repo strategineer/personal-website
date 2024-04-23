@@ -1,11 +1,11 @@
 ---
 authors: Neil Postman
 books/tags:
-- non-fiction
+  - non-fiction
 date: 2022-05-01
 params:
-  isbn13: '9780143036531'
-  year: '2005'
+  isbn13: "9780143036531"
+  year: "2005"
 star_rating: 5
 title: Amusing Ourselves To Death - Public Discourse In The Age Of Show Business
 ---

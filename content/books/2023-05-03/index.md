@@ -1,14 +1,15 @@
 ---
 authors: Jeff VanderMeer
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-05-03
 params:
-  isbn13: '9781443428453'
-  year: '2015'
+  isbn13: "9781443428453"
+  year: "2015"
 star_rating: 3
-title: 'Area X - The Southern Reach Trilogy: Annihilation; Authority; Acceptance'
+title:
+  "Area X - The Southern Reach Trilogy: Annihilation; Authority; Acceptance"
 ---
 
 The Annihilation book was OK but the movie is better.

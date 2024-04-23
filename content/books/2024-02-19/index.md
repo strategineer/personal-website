@@ -1,14 +1,14 @@
 ---
 authors: Gene Wolfe
 books/tags:
-- fiction
-- science fantasy
-- post-apocalyptic
+  - fiction
+  - science fantasy
+  - post-apocalyptic
 date: 2024-02-19
 params:
-  isbn13: '9781250781246'
+  isbn13: "9781250781246"
   series: The Book of the New Sun
-  year: '2021'
+  year: "2021"
 star_rating: 5
 title: Sword & Citadel - The Second Half Of The Book Of The New Sun
 ---

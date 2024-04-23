@@ -1,12 +1,12 @@
 ---
 authors: Simon Blackburn
 books/tags:
-- non-fiction
-- philosophy
+  - non-fiction
+  - philosophy
 date: 2022-05-15
 params:
-  isbn13: '9780192854254'
-  year: '2001'
+  isbn13: "9780192854254"
+  year: "2001"
 star_rating: 4
 title: Think - A Compelling Introduction To Philosophy
 ---

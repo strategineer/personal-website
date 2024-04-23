@@ -1,10 +1,10 @@
 ---
 authors: Gretchen McCulloch
 books/tags:
-- non-fiction
+  - non-fiction
 date: 2022-01-20
 params:
-  isbn13: '9780735210936'
+  isbn13: "9780735210936"
 star_rating: 4
 title: Because Internet
 ---

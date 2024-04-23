@@ -1,15 +1,15 @@
 ---
 authors: Roger Zelazny
 books/tags:
-- fiction
-- science fiction
-- detective fiction
-- comic
-- slay
+  - fiction
+  - science fiction
+  - detective fiction
+  - comic
+  - slay
 date: 2023-07-29
 params:
-  isbn13: '9781515444985'
-  year: '2020'
+  isbn13: "9781515444985"
+  year: "2020"
 star_rating: 5
 title: Doorways In The Sand
 ---

@@ -1,11 +1,11 @@
 ---
 authors: Mona Awad
 books/tags:
-- fiction
+  - fiction
 date: 2023-12-15
 params:
-  isbn13: '9781982169664'
-  year: '2021'
+  isbn13: "9781982169664"
+  year: "2021"
 star_rating: 4
 title: All's Well - A Novel
 ---

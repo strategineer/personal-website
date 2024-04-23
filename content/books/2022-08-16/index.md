@@ -1,13 +1,13 @@
 ---
 authors:
-- Grant Howitt
-- Christopher Taylor
+  - Grant Howitt
+  - Christopher Taylor
 books/tags:
-- tabletop roleplaying
+  - tabletop roleplaying
 date: 2022-08-16
 params:
-  isbn13: '9781913032111'
-  year: '2020'
+  isbn13: "9781913032111"
+  year: "2020"
 star_rating: 4
 title: Heart - The City Beneath
 ---

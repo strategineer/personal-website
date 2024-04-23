@@ -1,13 +1,13 @@
 ---
 authors: Aldous Huxley
 books/tags:
-- fiction
-- science fiction
-- dystopian
+  - fiction
+  - science fiction
+  - dystopian
 date: 2023-01-08
 params:
-  isbn13: '9780307356543'
-  year: '2007'
+  isbn13: "9780307356543"
+  year: "2007"
 star_rating: 3
 title: Brave New World
 ---

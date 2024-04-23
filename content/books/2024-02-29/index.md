@@ -1,12 +1,12 @@
 ---
 authors: Brom
 books/tags:
-- fiction
-- fantasy
+  - fiction
+  - fantasy
 date: 2024-02-29
 params:
-  isbn13: '9780061671340'
-  year: '2010'
+  isbn13: "9780061671340"
+  year: "2010"
 star_rating: 3
 title: The Child Thief - A Novel
 ---

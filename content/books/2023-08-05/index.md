@@ -1,12 +1,12 @@
 ---
 authors: Agatha Christie
 books/tags:
-- fiction
-- detective fiction
+  - fiction
+  - detective fiction
 date: 2023-08-05
 params:
-  isbn13: '9780062073556'
-  year: '2011'
+  isbn13: "9780062073556"
+  year: "2011"
 star_rating: 4
 title: Death On The Nile - A Hercule Poirot Mystery
 ---

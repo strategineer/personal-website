@@ -1,12 +1,12 @@
 ---
 authors: John Green
 books/tags:
-- non-fiction
-- trash
+  - non-fiction
+  - trash
 date: 2022-02-01
 params:
-  isbn13: '9780525556534'
-  year: '2021'
+  isbn13: "9780525556534"
+  year: "2021"
 star_rating: 1
 title: The Anthropocene Reviewed - Essays On A Human-Centered Planet
 ---

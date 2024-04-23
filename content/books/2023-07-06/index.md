@@ -1,13 +1,13 @@
 ---
 authors: Martha Wells
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-07-06
 params:
-  isbn13: '9780765397539'
+  isbn13: "9780765397539"
   series: The Murderbot Diaries
-  year: '2017'
+  year: "2017"
 star_rating: 4
 title: All Systems Red - The Murderbot Diaries
 ---

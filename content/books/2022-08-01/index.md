@@ -1,11 +1,11 @@
 ---
 authors: John E. Sarno
 books/tags:
-- non-fiction
+  - non-fiction
 date: 2022-08-01
 params:
-  isbn13: '9780446675154'
-  year: '1998'
+  isbn13: "9780446675154"
+  year: "1998"
 star_rating: 3
 title: The Mindbody Prescription - Healing The Body, Healing The Pain
 ---

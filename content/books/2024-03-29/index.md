@@ -1,14 +1,14 @@
 ---
 authors: Arkady Martine
 books/tags:
-- fiction
-- science fiction
-- space opera
+  - fiction
+  - science fiction
+  - space opera
 date: 2024-03-29
 params:
-  isbn13: '9781250186454'
+  isbn13: "9781250186454"
   series: Teixcalaan
-  year: '2019'
+  year: "2019"
 star_rating: 4
 title: A Memory Called Empire
 ---

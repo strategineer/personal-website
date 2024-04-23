@@ -1,13 +1,13 @@
 ---
 authors: Ursula K. Le Guin
 books/tags:
-- fiction
-- fantasy
+  - fiction
+  - fantasy
 date: 2023-08-02
 params:
-  isbn13: '9781442459915'
+  isbn13: "9781442459915"
   series: Earthsea
-  year: '2012'
+  year: "2012"
 star_rating: 4
 title: The Tombs Of Atuan
 ---

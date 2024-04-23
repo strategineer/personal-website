@@ -1,11 +1,11 @@
 ---
 authors: Neil Gaiman
 books/tags:
-- fiction
+  - fiction
 date: 2021-12-15
 params:
-  isbn13: '9780393356182'
-  year: '2018'
+  isbn13: "9780393356182"
+  year: "2018"
 star_rating: 2
 title: Norse Mythology
 ---

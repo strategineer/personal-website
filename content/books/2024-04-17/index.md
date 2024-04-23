@@ -1,12 +1,12 @@
 ---
 authors: Ursula K. Le Guin
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2024-04-17
 params:
-  isbn13: '9780441478125'
-  year: '1987'
+  isbn13: "9780441478125"
+  year: "1987"
 star_rating: 5
 title: The Left Hand Of Darkness - 50Th Anniversary Edition
 ---

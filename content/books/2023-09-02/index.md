@@ -1,12 +1,12 @@
 ---
 authors: Octavia E. Butler
 books/tags:
-- fiction
-- post-apocalyptic
+  - fiction
+  - post-apocalyptic
 date: 2023-09-02
 params:
-  isbn13: '9781538732182'
-  year: '2019'
+  isbn13: "9781538732182"
+  year: "2019"
 star_rating: 3
 title: Parable Of The Sower
 ---

@@ -1,13 +1,13 @@
 ---
 authors: N. K. Jemisin
 books/tags:
-- fiction
-- science fantasy
+  - fiction
+  - science fantasy
 date: 2023-08-24
 params:
-  isbn13: '9780316229265'
+  isbn13: "9780316229265"
   series: The Broken Earth
-  year: '2016'
+  year: "2016"
 star_rating: 5
 title: The Obelisk Gate
 ---

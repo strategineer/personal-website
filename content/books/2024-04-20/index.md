@@ -1,15 +1,15 @@
 ---
 authors:
-- Ursula K. Le Guin
+  - Ursula K. Le Guin
 books/tags:
-- currently reading
-- fiction
-- fantasy
+  - currently reading
+  - fiction
+  - fantasy
 date: 2024-04-20
 params:
-  isbn13: '9780547722436'
+  isbn13: "9780547722436"
   series: Earthsea
-  year: '2012'
+  year: "2012"
 title: The Other Wind
 weight: 1
 ---

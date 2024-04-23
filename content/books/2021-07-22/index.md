@@ -1,15 +1,15 @@
 ---
 authors:
-- Frederik Peeters
-- Pierre Oscar Levy
+  - Frederik Peeters
+  - Pierre Oscar Levy
 books/tags:
-- fiction
-- graphic novel
-- trash
+  - fiction
+  - graphic novel
+  - trash
 date: 2021-07-22
 params:
-  isbn13: '9781906838386'
-  year: '2013'
+  isbn13: "9781906838386"
+  year: "2013"
 star_rating: 1
 title: Sandcastle
 ---

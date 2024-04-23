@@ -1,14 +1,14 @@
 ---
 authors:
-- Dan Hague
-- Douglas Hunter
+  - Dan Hague
+  - Douglas Hunter
 books/tags:
-- non-fiction
-- climbing
+  - non-fiction
+  - climbing
 date: 2022-09-15
 params:
-  isbn13: '9780811733397'
-  year: '2006'
+  isbn13: "9780811733397"
+  year: "2006"
 star_rating: 4
 title: The Self-Coached Climber - The Guide To Movement, Training, Performance
 ---

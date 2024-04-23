@@ -1,12 +1,12 @@
 ---
 authors: Holly Smale
 books/tags:
-- fiction
-- slay
+  - fiction
+  - slay
 date: 2023-06-17
 params:
-  isbn13: '9780778307877'
-  year: '2023'
+  isbn13: "9780778307877"
+  year: "2023"
 star_rating: 5
 title: Cassandra In Reverse - A Novel
 ---

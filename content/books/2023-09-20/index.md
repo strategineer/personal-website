@@ -1,12 +1,12 @@
 ---
 authors: John Scalzi
 books/tags:
-- fiction
-- science fiction
-- space opera
+  - fiction
+  - science fiction
+  - space opera
 date: 2023-09-20
 params:
-  isbn13: '9780765388971'
+  isbn13: "9780765388971"
   series: The Interdependency
   year: 2018
 star_rating: 4

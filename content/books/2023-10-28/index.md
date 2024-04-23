@@ -1,13 +1,13 @@
 ---
 authors: Rob Wilkins
 books/tags:
-- non-fiction
+  - non-fiction
 date: 2023-10-28
 params:
-  isbn13: '9780857526649'
-  year: '2022'
+  isbn13: "9780857526649"
+  year: "2022"
 star_rating: 4
-title: 'Terry Pratchett: A Life With Footnotes - The Official Biography'
+title: "Terry Pratchett: A Life With Footnotes - The Official Biography"
 ---
 
 Terry Pratchett is an all-timer. The rare case of an author who is immensely

@@ -1,13 +1,13 @@
 ---
 authors: Adrian Tchaikovsky
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-11-05
 params:
-  isbn13: '9781529051933'
+  isbn13: "9781529051933"
   series: The Final Architecture
-  year: '2022'
+  year: "2022"
 star_rating: 5
 title: Eyes Of The Void
 ---

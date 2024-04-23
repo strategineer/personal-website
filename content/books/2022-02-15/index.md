@@ -1,14 +1,14 @@
 ---
 authors:
-- Marcus Aurelius
-- Gregory Hays
+  - Marcus Aurelius
+  - Gregory Hays
 books/tags:
-- non-fiction
-- philosophy
+  - non-fiction
+  - philosophy
 date: 2022-02-15
 params:
-  isbn13: '9780812968255'
-  year: '2003'
+  isbn13: "9780812968255"
+  year: "2003"
 star_rating: 3
 title: Meditations - A New Translation
 ---

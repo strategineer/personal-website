@@ -1,13 +1,13 @@
 ---
 authors: Ursula K. Le Guin
 books/tags:
-- fiction
-- fantasy
+  - fiction
+  - fantasy
 date: 2024-04-06
 params:
-  isbn13: '9780547773704'
+  isbn13: "9780547773704"
   series: Earthsea
-  year: '2012'
+  year: "2012"
 star_rating: 4
 title: Tales From Earthsea
 ---

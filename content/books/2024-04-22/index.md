@@ -1,14 +1,14 @@
 ---
 authors:
-- Mizuki Tsujimura
-- Philip Gabriel
+  - Mizuki Tsujimura
+  - Philip Gabriel
 books/tags:
-- fiction
-- fantasy
+  - fiction
+  - fantasy
 date: 2024-04-22
 params:
-  isbn13: '9781645660408'
-  year: '2022'
+  isbn13: "9781645660408"
+  year: "2022"
 star_rating: 4
 title: Lonely Castle In The Mirror
 ---

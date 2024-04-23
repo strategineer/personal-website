@@ -1,12 +1,12 @@
 ---
 authors: Margarita Longoria
 books/tags:
-- fiction
-- short story collection
+  - fiction
+  - short story collection
 date: 2022-10-04
 params:
-  isbn13: '9780593204979'
-  year: '2021'
+  isbn13: "9780593204979"
+  year: "2021"
 star_rating: 2
 title: Living Beyond Borders - Growing Up Mexican In America
 ---

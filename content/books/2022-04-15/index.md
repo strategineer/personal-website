@@ -1,15 +1,16 @@
 ---
 authors: Julian Baggini
 books/tags:
-- non-fiction
-- philosophy
-- trash
+  - non-fiction
+  - philosophy
+  - trash
 date: 2022-04-15
 params:
-  isbn13: '9780452287440'
-  year: '2006'
+  isbn13: "9780452287440"
+  year: "2006"
 star_rating: 1
-title: The Pig That Wants To Be Eaten - 100 Experiments For The Armchair Philosopher
+title:
+  The Pig That Wants To Be Eaten - 100 Experiments For The Armchair Philosopher
 ---
 
 The Pig That Wants to Be Eaten offers one hundred philosophical

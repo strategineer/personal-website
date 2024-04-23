@@ -1,15 +1,15 @@
 ---
 authors: Arkady Martine
 books/tags:
-- fiction
-- science fiction
-- space opera
-- trash
+  - fiction
+  - science fiction
+  - space opera
+  - trash
 date: 2024-04-11
 params:
-  isbn13: '9781529001648'
+  isbn13: "9781529001648"
   series: Teixcalaan
-  year: '2022'
+  year: "2022"
 star_rating: 1
 title: A Desolation Called Peace
 ---
@@ -213,19 +213,17 @@ The problem is that every single POV character is written like this because I
 guess that's how Arkady Martine writes and her editor was not given the time and
 support they needed this time to take out the trash.
 
-Let's look at some examples:
-"
-**Mahit said, “Well, that’s unexpectedly pleasant, all considered," and didn’t
-go on any further. She didn’t want to—she couldn’t tell Three Seagrass that she
-was here to spy on the war for Darj Tarats, in order to escape Aknel Amnardbat’s
-surgeons. To do worse things for Darj Tarats, if there was an opportunity. She
-couldn’t. So she got into the shuttle instead, settling amongst the supply
-crates and strapping herself into some freefall-control webbing. There were
-similar webbings on all of the walls, the floor, the ceiling. It was an
-efficie"t, well-designed ship. It must make a hundred of these short hops in a
-month— “Quite," said Three Seagrass, all edges, interest and wariness and a sort
-of invitation deferred: We can play, Mahit, even if we don’t play just now, if
-playing's what you want**
+Let's look at some examples: " **Mahit said, “Well, that’s unexpectedly
+pleasant, all considered," and didn’t go on any further. She didn’t want to—she
+couldn’t tell Three Seagrass that she was here to spy on the war for Darj
+Tarats, in order to escape Aknel Amnardbat’s surgeons. To do worse things for
+Darj Tarats, if there was an opportunity. She couldn’t. So she got into the
+shuttle instead, settling amongst the supply crates and strapping herself into
+some freefall-control webbing. There were similar webbings on all of the walls,
+the floor, the ceiling. It was an efficie"t, well-designed ship. It must make a
+hundred of these short hops in a month— “Quite," said Three Seagrass, all edges,
+interest and wariness and a sort of invitation deferred: We can play, Mahit,
+even if we don’t play just now, if playing's what you want**
 
 Notice that Arkady Martine explicitly cuts off Mahit's stream of consciousness
 narration here.
@@ -237,18 +235,16 @@ own head. That's awesome characterization.
 The issue is that this narrative voice bleeds into every other character's POV.
 
 For example, in this excerpt, Nine Hibiscus has just been informed by a
-subordinate that the alien's planet has been found.
-"
-**“If we can get there without them seeing us," Nine Hibiscus said. The
-scatterbombs would do exactly what Eighteen Chisel was imagining. They would,
-yes, blow anyone out of their sky. And then they’d poison that sky, and the
-planets below it. The scatterbombs were deathrain. A last resort. Almost never
-used where people lived— because after them, people didn’t live there anymore.
-She’d only used a scatterbomb barrage once, and that had been against another
-ship, safe in the blackness of space. The idea of using them on the aliens was—
-She liked it too much, was what. Liked it too much, too fast. Such a simple
-solution. So much easier than the rest of the situation she’d been detailing for
-herself.**
+subordinate that the alien's planet has been found. " **“If we can get there
+without them seeing us," Nine Hibiscus said. The scatterbombs would do exactly
+what Eighteen Chisel was imagining. They would, yes, blow anyone out of their
+sky. And then they’d poison that sky, and the planets below it. The scatterbombs
+were deathrain. A last resort. Almost never used where people lived— because
+after them, people didn’t live there anymore. She’d only used a scatterbomb
+barrage once, and that had been against another ship, safe in the blackness of
+space. The idea of using them on the aliens was— She liked it too much, was
+what. Liked it too much, too fast. Such a simple solution. So much easier than
+the rest of the situation she’d been detailing for herself.**
 
 Huuuuuuuhhhh. Does this sound familiar? If you replace the names in these
 excerpts, you wouldn't be able to tell them apart.

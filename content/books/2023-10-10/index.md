@@ -1,12 +1,12 @@
 ---
 authors: Octavia E. Butler
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-10-10
 params:
-  isbn13: '9780446676106'
-  year: '2000'
+  isbn13: "9780446676106"
+  year: "2000"
 star_rating: 4
 title: Lilith's Brood
 ---

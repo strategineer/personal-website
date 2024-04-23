@@ -1,16 +1,16 @@
 ---
 authors:
-- Yevgeny Zamyatin
-- Mirra Ginsburg
+  - Yevgeny Zamyatin
+  - Mirra Ginsburg
 books/tags:
-- fiction
-- science fiction
-- dystopian
-- slavic
+  - fiction
+  - science fiction
+  - dystopian
+  - slavic
 date: 2024-04-14
 params:
-  isbn13: '9780140185850'
-  year: '1993'
+  isbn13: "9780140185850"
+  year: "1993"
 star_rating: 5
 title: We
 ---

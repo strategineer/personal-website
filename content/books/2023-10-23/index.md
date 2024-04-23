@@ -1,13 +1,13 @@
 ---
 authors: Shirley Jackson
 books/tags:
-- fiction
-- gothic
-- horror
+  - fiction
+  - gothic
+  - horror
 date: 2023-10-23
 params:
-  isbn13: '9780143039976'
-  year: '2006'
+  isbn13: "9780143039976"
+  year: "2006"
 star_rating: 5
 title: We Have Always Lived In The Castle - (Penguin Classics Deluxe Edition)
 ---

@@ -1,12 +1,12 @@
 ---
 authors: John Gray
 books/tags:
-- philosophy
-- trash
+  - philosophy
+  - trash
 date: 2023-08-27
 params:
-  isbn13: '9781250800251'
-  year: '2021'
+  isbn13: "9781250800251"
+  year: "2021"
 star_rating: 1
 title: Feline Philosophy - Cats And The Meaning Of Life
 ---

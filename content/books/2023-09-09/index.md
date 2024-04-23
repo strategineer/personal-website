@@ -1,12 +1,12 @@
 ---
 authors: Neil Gaiman
 books/tags:
-- fiction
-- trash
+  - fiction
+  - trash
 date: 2023-09-09
 params:
-  isbn13: '9782290016169'
-  year: '2011'
+  isbn13: "9782290016169"
+  year: "2011"
 star_rating: 1
 title: Neverwhere
 ---

@@ -1,15 +1,15 @@
 ---
 authors: Terry Pratchett
 books/tags:
-- fiction
-- fantasy
-- comic
-- slay
+  - fiction
+  - fantasy
+  - comic
+  - slay
 date: 2023-06-23
 params:
-  isbn13: '9780552167680'
+  isbn13: "9780552167680"
   series: Moist Von Lipwig
-  year: '2014'
+  year: "2014"
 star_rating: 5
 title: Going Postal - Discworld Novel 33
 ---

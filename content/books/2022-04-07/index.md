@@ -1,12 +1,12 @@
 ---
 authors: W. James Potter
 books/tags:
-- non-fiction
-- slay
+  - non-fiction
+  - slay
 date: 2022-04-07
 params:
-  isbn13: '9781483379326'
-  year: '2016'
+  isbn13: "9781483379326"
+  year: "2016"
 star_rating: 5
 title: Media Literacy
 ---

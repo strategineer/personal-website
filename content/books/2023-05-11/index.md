@@ -1,13 +1,13 @@
 ---
 authors: Cixin Liu
 books/tags:
-- fiction
-- science fiction
-- short story collection
+  - fiction
+  - science fiction
+  - short story collection
 date: 2023-05-11
 params:
-  isbn13: '9781250306081'
-  year: '2020'
+  isbn13: "9781250306081"
+  year: "2020"
 star_rating: 2
 title: To Hold Up The Sky
 ---

@@ -1,15 +1,16 @@
 ---
 authors: Dave Macleod
 books/tags:
-- non-fiction
-- climbing
-- trash
+  - non-fiction
+  - climbing
+  - trash
 date: 2022-09-16
 params:
-  isbn13: '9780956428103'
-  year: '2009'
+  isbn13: "9780956428103"
+  year: "2009"
 star_rating: 1
-title: 9 Out Of 10 Climbers Make The Same Mistakes - Navigation Through The Maze Of
+title:
+  9 Out Of 10 Climbers Make The Same Mistakes - Navigation Through The Maze Of
   Advice For The Self-Coached Climber
 ---
 

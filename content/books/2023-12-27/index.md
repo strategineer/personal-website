@@ -1,11 +1,11 @@
 ---
 authors: N. K. Jemisin
 books/tags:
-- fiction
+  - fiction
 date: 2023-12-27
 params:
-  isbn13: '9780316334006'
-  year: '2014'
+  isbn13: "9780316334006"
+  year: "2014"
 star_rating: 3
 title: The Inheritance Trilogy
 ---

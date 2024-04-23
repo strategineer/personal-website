@@ -1,14 +1,14 @@
 ---
 authors: Terry Pratchett
 books/tags:
-- fiction
-- fantasy
-- comic
+  - fiction
+  - fantasy
+  - comic
 date: 2023-07-12
 params:
-  isbn13: '9780552167697'
+  isbn13: "9780552167697"
   series: Watch
-  year: '2014'
+  year: "2014"
 star_rating: 5
 title: Thud!
 ---

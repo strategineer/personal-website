@@ -1,13 +1,13 @@
 ---
 authors: Ursula K. Le Guin
 books/tags:
-- fiction
-- fantasy
+  - fiction
+  - fantasy
 date: 2023-10-21
 params:
-  isbn13: '9781442459939'
+  isbn13: "9781442459939"
   series: Earthsea
-  year: '2012'
+  year: "2012"
 star_rating: 3
 title: The Farthest Shore
 ---

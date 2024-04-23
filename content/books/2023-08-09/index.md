@@ -1,13 +1,13 @@
 ---
 authors: Kameron Hurley
 books/tags:
-- fiction
-- science fiction
-- slay
+  - fiction
+  - science fiction
+  - slay
 date: 2023-08-09
 params:
-  isbn13: '9781481447966'
-  year: '2019'
+  isbn13: "9781481447966"
+  year: "2019"
 star_rating: 5
 title: The Light Brigade
 ---

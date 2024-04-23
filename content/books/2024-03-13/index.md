@@ -1,15 +1,15 @@
 ---
 authors: Stanislaw Lem
 books/tags:
-- fiction
-- science fiction
-- comic
-- horror
-- slavic
+  - fiction
+  - science fiction
+  - comic
+  - horror
+  - slavic
 date: 2024-03-13
 params:
-  isbn13: '9780156340403'
-  year: '1985'
+  isbn13: "9780156340403"
+  year: "1985"
 star_rating: 4
 title: The Futurological Congress (From The Memoirs Of Ijon Tichy)
 ---

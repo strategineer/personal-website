@@ -1,14 +1,14 @@
 ---
 authors: John Scalzi
 books/tags:
-- fiction
-- science fiction
-- space opera
+  - fiction
+  - science fiction
+  - space opera
 date: 2023-08-06
 params:
-  isbn13: '9780765388889'
+  isbn13: "9780765388889"
   series: The Interdependency
-  year: '2017'
+  year: "2017"
 star_rating: 4
 title: The Collapsing Empire
 ---

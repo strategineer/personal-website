@@ -1,14 +1,14 @@
 ---
 authors:
-- Dale Goddard
-- Udo Neumann
+  - Dale Goddard
+  - Udo Neumann
 books/tags:
-- non-fiction
-- climbing
+  - non-fiction
+  - climbing
 date: 2022-09-18
 params:
-  isbn13: '9780811722193'
-  year: '1993'
+  isbn13: "9780811722193"
+  year: "1993"
 star_rating: 4
 title: Performance Rock Climbing
 ---

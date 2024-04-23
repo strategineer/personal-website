@@ -1,12 +1,12 @@
 ---
 authors: Tamsyn Muir
 books/tags:
-- fiction
-- science fantasy
+  - fiction
+  - science fantasy
 date: 2023-10-18
 params:
-  isbn13: '9781250313188'
-  year: '2020'
+  isbn13: "9781250313188"
+  year: "2020"
 star_rating: 4
 title: Gideon The Ninth
 ---

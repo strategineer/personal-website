@@ -1,14 +1,14 @@
 ---
 authors: Joshua Halberstam
 books/tags:
-- philosophy
-- trash
-- DNF
+  - philosophy
+  - trash
+  - DNF
 date: 2023-09-18
 params:
   dnf: 50%
-  isbn13: '9780140165586'
-  year: '1994'
+  isbn13: "9780140165586"
+  year: "1994"
 star_rating: 1
 title: Everyday Ethics - Inspired Solutions To Real-Life Dilemmas
 ---

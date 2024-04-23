@@ -1,12 +1,12 @@
 ---
 authors: Becky Chambers
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-06-21
 params:
-  isbn13: '9781473647688'
-  year: '2021'
+  isbn13: "9781473647688"
+  year: "2021"
 star_rating: 4
 title: The Galaxy, And The Ground Within - Wayfarers 4
 ---

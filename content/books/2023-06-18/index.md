@@ -1,13 +1,13 @@
 ---
 authors: V. E. Schwab
 books/tags:
-- fiction
-- fantasy
+  - fiction
+  - fantasy
 date: 2023-06-18
 params:
-  isbn13: '9780765387462'
+  isbn13: "9780765387462"
   series: Shades of Magic
-  year: '2017'
+  year: "2017"
 star_rating: 4
 title: A Conjuring Of Light - A Novel
 ---

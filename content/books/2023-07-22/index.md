@@ -1,12 +1,12 @@
 ---
 authors: Becky Chambers
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-07-22
 params:
-  isbn13: '9780062936011'
-  year: '2019'
+  isbn13: "9780062936011"
+  year: "2019"
 star_rating: 2
 title: To Be Taught, If Fortunate
 ---

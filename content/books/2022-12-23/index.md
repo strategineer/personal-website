@@ -1,15 +1,15 @@
 ---
 authors:
-- Brian Merchant
-- Claire L. Evans
+  - Brian Merchant
+  - Claire L. Evans
 books/tags:
-- fiction
-- science fiction
-- short story collection
+  - fiction
+  - science fiction
+  - short story collection
 date: 2022-12-23
 params:
-  isbn13: '9780374602666'
-  year: '2022'
+  isbn13: "9780374602666"
+  year: "2022"
 star_rating: 3
 title: Terraform - Watch/Worlds/Burn
 ---

@@ -1,12 +1,12 @@
 ---
 authors: T. Kingfisher
 books/tags:
-- fiction
-- fantasy
+  - fiction
+  - fantasy
 date: 2023-11-14
 params:
-  isbn13: '9781250244048'
-  year: '2022'
+  isbn13: "9781250244048"
+  year: "2022"
 star_rating: 4
 title: Nettle & Bone
 ---

@@ -1,14 +1,14 @@
 ---
 authors: Terry Pratchett
 books/tags:
-- fiction
-- fantasy
-- comic
+  - fiction
+  - fantasy
+  - comic
 date: 2023-06-24
 params:
-  isbn13: '9780552167642'
+  isbn13: "9780552167642"
   series: Death
-  year: '2013'
+  year: "2013"
 star_rating: 4
 title: Thief Of Time - Discworld Novel 26
 ---

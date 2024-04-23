@@ -1,11 +1,11 @@
 ---
 authors: Jose Saramago
 books/tags:
-- fiction
+  - fiction
 date: 2023-09-16
 params:
-  isbn13: '9780156010597'
-  year: '2001'
+  isbn13: "9780156010597"
+  year: "2001"
 star_rating: 4
 title: All The Names
 ---

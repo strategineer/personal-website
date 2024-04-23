@@ -1,12 +1,12 @@
 ---
 authors: Andy Weir
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-10-14
 params:
-  isbn13: '9780553418026'
-  year: '2014'
+  isbn13: "9780553418026"
+  year: "2014"
 star_rating: 3
 title: The Martian - A Novel
 ---

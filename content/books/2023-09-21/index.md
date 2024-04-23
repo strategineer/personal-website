@@ -1,13 +1,13 @@
 ---
 authors: Suzanne Collins
 books/tags:
-- fiction
-- fantasy
-- middle-grade
+  - fiction
+  - fantasy
+  - middle-grade
 date: 2023-09-21
 params:
-  isbn13: '9781407172583'
-  year: '2016'
+  isbn13: "9781407172583"
+  year: "2016"
 star_rating: 5
 title: Gregor The Overlander
 ---

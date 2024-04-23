@@ -1,14 +1,14 @@
 ---
 authors: Terry Pratchett
 books/tags:
-- fiction
-- fantasy
-- comic
+  - fiction
+  - fantasy
+  - comic
 date: 2023-07-03
 params:
-  isbn13: '9780552138901'
+  isbn13: "9780552138901"
   series: Ancient Civilizations
-  year: '1993'
+  year: "1993"
 star_rating: 4
 title: Small Gods
 ---

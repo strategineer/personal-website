@@ -1,12 +1,12 @@
 ---
 authors: Catherynne M. Valente
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-06-07
 params:
-  isbn13: '9781481497497'
-  year: '2018'
+  isbn13: "9781481497497"
+  year: "2018"
 star_rating: 4
 title: Space Opera
 ---

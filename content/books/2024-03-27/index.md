@@ -1,13 +1,13 @@
 ---
 authors: Ursula K. Le Guin
 books/tags:
-- fiction
-- fantasy
+  - fiction
+  - fantasy
 date: 2024-03-27
 params:
-  isbn13: '9781442459960'
+  isbn13: "9781442459960"
   series: Earthsea
-  year: '2012'
+  year: "2012"
 star_rating: 5
 title: Tehanu
 ---

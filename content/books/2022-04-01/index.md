@@ -1,11 +1,11 @@
 ---
 authors: Oliver Sacks
 books/tags:
-- non-fiction
+  - non-fiction
 date: 2022-04-01
 params:
-  isbn13: '9781039002487'
-  year: '2021'
+  isbn13: "9781039002487"
+  year: "2021"
 star_rating: 3
 title: The Man Who Mistook His Wife For A Hat - And Other Clinical Tales
 ---

@@ -1,13 +1,13 @@
 ---
 authors: Lady Wylde
 books/tags:
-- mythography
-- DNF
+  - mythography
+  - DNF
 date: 2024-03-25
 params:
   dnf: 70%
-  isbn13: '9781480289833'
-  year: '2012'
+  isbn13: "9781480289833"
+  year: "2012"
 star_rating: 1
 title: Ancient Legends, Mystic Charms, And Superstitions Of Ireland
 ---

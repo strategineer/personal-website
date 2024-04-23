@@ -1,13 +1,13 @@
 ---
 authors: Lindsay Ellis
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2022-11-12
 params:
-  isbn13: '9781250256737'
+  isbn13: "9781250256737"
   series: Noumena
-  year: '2020'
+  year: "2020"
 star_rating: 3
 title: Axiom's End - A Novel
 ---

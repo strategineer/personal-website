@@ -1,13 +1,13 @@
 ---
 authors: Adrian Tchaikovsky
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-06-28
 params:
-  isbn13: '9780316466400'
+  isbn13: "9780316466400"
   series: Children of Time
-  year: '2023'
+  year: "2023"
 star_rating: 5
 title: Children Of Memory
 ---

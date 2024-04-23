@@ -1,15 +1,15 @@
 ---
 authors: Adrian Tchaikovsky
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2023-06-03
 params:
-  isbn13: '9781509865857'
+  isbn13: "9781509865857"
   series: Children of Time
-  year: '2020'
+  year: "2020"
 star_rating: 4
-title: 'Children Of Ruin: Children Of Time Book 2'
+title: "Children Of Ruin: Children Of Time Book 2"
 ---
 
 **"We're going on an adventure!"**

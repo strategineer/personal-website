@@ -1,11 +1,11 @@
 ---
 authors: Madeline Miller
 books/tags:
-- fiction
+  - fiction
 date: 2023-12-01
 params:
-  isbn13: '9781432869137'
-  year: '2019'
+  isbn13: "9781432869137"
+  year: "2019"
 star_rating: 5
 title: Circe
 ---
