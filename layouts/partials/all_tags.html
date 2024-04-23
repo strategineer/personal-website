@@ -64,12 +64,17 @@
     {{ range $books }}
       {{ $main_book := . }}
       {{ if not (in $all_books $main_book) }}
-        {{ $related_books := (.Site.Pages.Related $main_book | append $main_book).ByDate }}
-        {{ range $related_books }}
-          {{ $related_book := . }}
-          {{ if not (in $all_books $related_book) }}
-            {{ $all_books = $all_books | append $related_book }}
+        {{ $related_books := (.Site.Pages.Related $main_book).ByDate }}
+        {{ $related_books = $related_books | append $main_book }}
+        {{ if ne $t.Term "slay" }}
+          {{ range $related_books }}
+            {{ $related_book := . }}
+            {{ if not (in $all_books $related_book) }}
+              {{ $all_books = $all_books | append $related_book }}
+            {{ end }}
           {{ end }}
+        {{ else }}
+          {{ $all_books = $all_books | append $main_book }}
         {{ end }}
       {{ end }}
     {{ end }}
