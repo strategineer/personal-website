@@ -1,13 +1,16 @@
 ---
-authors: Thomas Cleary
+authors:
+  - Thomas Cleary
 books/tags:
   - philosophy
 date: 2023-08-19
 params:
-  isbn13: "9780062502162"
-  year: "1993"
+  isbn13: "9780785809050"
+  year: "1998"
 star_rating: 4
-title: The Essential Tao
+title:
+  The Essential Tao - An Initiation Into The Heart Of Taoism Through The
+  Authentic Tao Te Ching And The Inner Teachings Of Chuang-Tzu
 ---
 
 I much preferred Gia-Fu Feng and Jane English's translation of the Tao Te Ching.

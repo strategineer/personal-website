@@ -1,5 +1,6 @@
 ---
-authors: W. James Potter
+authors:
+  - W. James Potter
 books/tags:
   - non-fiction
   - slay

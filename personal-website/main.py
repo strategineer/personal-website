@@ -75,9 +75,8 @@ def import_scans():
     (existing_books_by_isbn, existing_by_title) = load_existing_books()
     date = IMPORT_START_DATE
     for isbn in sorted(books.keys()):
+      click.echo(isbn)
       book = books[isbn]
-      if isbn not in ['9781421519180', "9781338592320", "9781250840103", "9781250186430", "9780765388971", "9780525951650", "9780201633610", "9780192100245"]:
-        break
       metadata = {}
       try:
         fetched_metadata = meta(isbn)
@@ -89,7 +88,6 @@ def import_scans():
               "year": fetched_metadata["Year"],
           }
         }
-        continue
       except (NotValidISBNError, ISBNNotConsistentError):
         click.echo(f"Failed to fetch metadata for {isbn}, using scanned data:\n{books[isbn]}")
         if not books[isbn]["name"]:
@@ -109,12 +107,12 @@ def import_scans():
       if isbn in existing_books_by_isbn:
         filename, existing_post = existing_books_by_isbn[isbn]
         # todo we should do a merge here
-        #click.echo(f"Found existing book with ISBN {isbn} ({filename}, {existing_post.metadata['title']}), merging data")
+        click.echo(f"Found existing book with ISBN {isbn} ({filename}, {existing_post.metadata['title']}), merging data")
         post = merge_posts(existing_post, post)
       elif book["name"] in existing_by_title:
         filename, existing_post = existing_by_title[book["name"]]
         # todo we should do a merge here and replace the isbn
-        #click.echo(f"Found existing book with title {book['name']} ({filename}, {existing_post.metadata['title']}), merging data")
+        click.echo(f"Found existing book with title {book['name']} ({filename}, {existing_post.metadata['title']}), merging data")
         post = merge_posts(existing_post, post)
       else:
         post.content = "\n<!--more-->"
@@ -122,7 +120,7 @@ def import_scans():
         post.metadata["weight"] = 1
         post.metadata["date"] = date
         post.metadata["books/tags"] = ["owned-but-unread"]
-        #click.echo(f"No existing book for ISBN {isbn}, creating new post")
+        click.echo(f"No existing book for ISBN {isbn}, creating new post")
       write_post(post, filename)
       #{'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
 
