@@ -1,5 +1,6 @@
 ---
-authors: Becky Chambers
+authors:
+  - Becky Chambers
 books/tags:
   - fiction
   - science fiction

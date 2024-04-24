@@ -1,5 +1,6 @@
 ---
-authors: Stanislaw Lem
+authors:
+  - Stanislaw Lem
 books/tags:
   - fiction
   - science fiction

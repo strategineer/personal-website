@@ -1,5 +1,6 @@
 ---
-authors: David Robert Grimes
+authors:
+  - David Robert Grimes
 books/tags:
   - non-fiction
   - slay

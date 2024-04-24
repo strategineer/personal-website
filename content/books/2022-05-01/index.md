@@ -12,7 +12,7 @@ title: Amusing Ourselves To Death - Public Discourse In The Age Of Show Business
 
 Amusing Ourselves to Death is a book about the corrosive effects of television
 on our politics and public discourse. Now, with television joined by more
-sophisticated electronic media—from the Internet to cell phones to DVDs— it's
+sophisticated electronic media--from the Internet to cell phones to DVDs-- it's
 more relevant than ever.
 
 <!--more-->

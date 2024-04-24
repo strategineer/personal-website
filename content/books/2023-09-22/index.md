@@ -1,5 +1,6 @@
 ---
-authors: Kelly Barnhill
+authors:
+  - Kelly Barnhill
 books/tags:
   - fiction
 date: 2023-09-22

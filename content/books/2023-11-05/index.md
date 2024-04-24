@@ -5,7 +5,7 @@ books/tags:
   - science fiction
 date: 2023-11-05
 params:
-  isbn13: "9781529051933"
+  isbn13: "9781529051940"
   series: The Final Architecture
   year: "2022"
 star_rating: 5

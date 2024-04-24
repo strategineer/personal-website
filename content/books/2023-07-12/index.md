@@ -1,16 +1,17 @@
 ---
-authors: Terry Pratchett
+authors:
+  - Terry Pratchett
 books/tags:
   - fiction
   - fantasy
   - comic
 date: 2023-07-12
 params:
-  isbn13: "9780552167697"
+  isbn13: "9780552152679"
   series: Watch
-  year: "2014"
+  year: "2006"
 star_rating: 5
-title: Thud!
+title: Thud! - (Discworld Novel 34)
 ---
 
 Thud! by Terry Pratchett tells the story of Sam Vimes, head of the Ankh-Morpork

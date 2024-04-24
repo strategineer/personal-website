@@ -1,11 +1,12 @@
 ---
-authors: Susanna Clarke
+authors:
+  - Susanna Clarke
 books/tags:
   - fiction
   - slay
 date: 2023-05-30
 params:
-  isbn13: "9781635577808"
+  isbn13: "9781526622433"
   year: "2021"
 star_rating: 5
 title: Piranesi

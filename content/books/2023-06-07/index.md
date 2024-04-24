@@ -1,5 +1,6 @@
 ---
-authors: Catherynne M. Valente
+authors:
+  - Catherynne M. Valente
 books/tags:
   - fiction
   - science fiction

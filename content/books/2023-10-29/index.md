@@ -5,7 +5,7 @@ books/tags:
   - detective fiction
 date: 2023-10-29
 params:
-  isbn13: "9780062073501"
+  isbn13: "9780062073495"
   year: "2011"
 star_rating: 3
 title: Murder On The Orient Express - A Hercule Piorot Mystery

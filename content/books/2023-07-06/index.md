@@ -5,9 +5,9 @@ books/tags:
   - science fiction
 date: 2023-07-06
 params:
-  isbn13: "9780765397539"
   series: The Murderbot Diaries
-  year: "2017"
+  isbn13: "9781250214713"
+  year: "2019"
 star_rating: 4
 title: All Systems Red - The Murderbot Diaries
 ---

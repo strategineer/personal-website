@@ -5,7 +5,7 @@ books/tags:
   - fantasy
 date: 2023-08-02
 params:
-  isbn13: "9781442459915"
+  isbn13: "9781442459908"
   series: Earthsea
   year: "2012"
 star_rating: 4

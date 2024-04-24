@@ -1,5 +1,6 @@
 ---
-authors: Tamsyn Muir
+authors:
+  - Tamsyn Muir
 books/tags:
   - fiction
   - science fantasy

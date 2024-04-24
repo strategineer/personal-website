@@ -1,5 +1,6 @@
 ---
-authors: Mona Awad
+authors:
+  - Mona Awad
 books/tags:
   - fiction
 date: 2023-12-15

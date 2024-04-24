@@ -1,5 +1,6 @@
 ---
-authors: Patricia Lockwood
+authors:
+  - Patricia Lockwood
 books/tags:
   - non-fiction
   - memoir

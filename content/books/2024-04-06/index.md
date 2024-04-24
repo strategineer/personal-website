@@ -5,8 +5,8 @@ books/tags:
   - fantasy
 date: 2024-04-06
 params:
-  isbn13: "9780547773704"
   series: Earthsea
+  isbn13: "9780547722047"
   year: "2012"
 star_rating: 4
 title: Tales From Earthsea

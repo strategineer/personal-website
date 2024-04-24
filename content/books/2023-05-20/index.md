@@ -1,5 +1,6 @@
 ---
-authors: Adrian Tchaikovsky
+authors:
+  - Adrian Tchaikovsky
 books/tags:
   - fiction
   - science fiction

@@ -1,5 +1,6 @@
 ---
-authors: T. Kingfisher
+authors:
+  - T. Kingfisher
 books/tags:
   - fiction
   - fantasy

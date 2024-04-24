@@ -1,5 +1,6 @@
 ---
-authors: Robert Graves
+authors:
+  - Robert Graves
 books/tags:
   - mythography
   - reference

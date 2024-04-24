@@ -1,5 +1,6 @@
 ---
-authors: Ursula K. Le Guin
+authors:
+  - Ursula K. Le Guin
 books/tags:
   - non-fiction
 date: 2023-09-23

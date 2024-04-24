@@ -1,5 +1,6 @@
 ---
-authors: Gene Wolfe
+authors:
+  - Gene Wolfe
 books/tags:
   - fiction
   - science fantasy

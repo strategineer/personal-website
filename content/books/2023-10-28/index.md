@@ -1,5 +1,6 @@
 ---
-authors: Rob Wilkins
+authors:
+  - Rob Wilkins
 books/tags:
   - non-fiction
 date: 2023-10-28

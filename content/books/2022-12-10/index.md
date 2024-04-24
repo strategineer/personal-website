@@ -1,7 +1,7 @@
 ---
 authors:
-  - Neil Gaiman
   - Terry Pratchett
+  - Neil Gaiman
 books/tags:
   - fiction
   - comic

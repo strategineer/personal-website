@@ -6,8 +6,8 @@ books/tags:
   - slay
 date: 2023-07-30
 params:
-  isbn13: "9780547773742"
   series: Earthsea
+  isbn13: "9780547722023"
   year: "2012"
 star_rating: 5
 title: A Wizard Of Earthsea

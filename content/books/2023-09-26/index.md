@@ -1,5 +1,6 @@
 ---
-authors: Ray Bradbury
+authors:
+  - Ray Bradbury
 books/tags:
   - fiction
   - science fiction

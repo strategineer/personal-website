@@ -1,5 +1,6 @@
 ---
-authors: Thich Nhat Hanh
+authors:
+  - Thich Nhat Hanh
 books/tags:
   - philosophy
 date: 2023-08-20

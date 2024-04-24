@@ -9,8 +9,8 @@ books/tags:
   - slavic
 date: 2024-04-14
 params:
-  isbn13: "9780140185850"
-  year: "1993"
+  isbn13: "9780380633135"
+  year: "2001"
 star_rating: 5
 title: We
 ---

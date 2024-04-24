@@ -1,7 +1,6 @@
 ---
 authors:
   - Mizuki Tsujimura
-  - Philip Gabriel
 books/tags:
   - fiction
   - fantasy

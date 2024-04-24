@@ -6,8 +6,8 @@ books/tags:
   - post-apocalyptic
 date: 2024-02-19
 params:
-  isbn13: "9781250781246"
   series: The Book of the New Sun
+  isbn13: "9781250827036"
   year: "2021"
 star_rating: 5
 title: Sword & Citadel - The Second Half Of The Book Of The New Sun

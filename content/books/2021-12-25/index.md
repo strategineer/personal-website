@@ -1,13 +1,12 @@
 ---
 authors:
   - Homer
-  - Emily Wilson
 books/tags:
   - fiction
 date: 2021-12-25
 params:
-  isbn13: "9780393089059"
-  year: "2017"
+  isbn13: "9780393356250"
+  year: "2018"
 star_rating: 4
 title: The Odyssey
 ---

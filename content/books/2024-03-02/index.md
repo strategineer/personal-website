@@ -1,5 +1,6 @@
 ---
-authors: James Bridle
+authors:
+  - James Bridle
 books/tags:
   - non-fiction
   - slay

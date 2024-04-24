@@ -1,5 +1,6 @@
 ---
-authors: Jose Saramago
+authors:
+  - José Saramago
 books/tags:
   - fiction
 date: 2023-10-11

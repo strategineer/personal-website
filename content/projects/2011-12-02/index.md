@@ -22,7 +22,7 @@ level up. – Allows the DM to generate Quests, Loot, NPCs and Traps on the fly.
 Contains a Combat Manager to help the DM manage combat encounters – And much
 more!
 
-It’s meant to be useful at the table with friends or before you meet when
+It's meant to be useful at the table with friends or before you meet when
 creating your character or adventure.
 
 NB: I developed the app within the context of a Microsoft sponsored event (the

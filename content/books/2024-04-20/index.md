@@ -7,7 +7,7 @@ books/tags:
   - fantasy
 date: 2024-04-20
 params:
-  isbn13: "9780547722436"
+  isbn13: "9780547773728"
   series: Earthsea
   year: "2012"
 title: The Other Wind

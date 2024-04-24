@@ -5,10 +5,10 @@ books/tags:
   - memoir
 date: 2022-03-01
 params:
-  isbn13: "9780374500016"
-  year: "2006"
+  isbn13: "9780809073641"
+  year: "2008"
 star_rating: 5
-title: Night
+title: The Night Trilogy - Night, Dawn, Day
 ---
 
 Elie Wiesel's Night is a retelling of what happened to him during World War 2.
@@ -27,3 +27,7 @@ I read Night leaves me physically shook and deeply sad.
 
 It's not an easy read but now more than ever you have an obligation to read it
 to make it clear to you what happens when the fascists take over.
+
+---
+
+I haven't read the other two novels in this collection but I should.

@@ -1,5 +1,6 @@
 ---
-authors: James D'Amato
+authors:
+  - James D'Amato
 books/tags:
   - tabletop roleplaying
 date: 2023-11-18

@@ -107,10 +107,10 @@ Here's the publisher's pitch for it:
 > Blades in the Dark is a tabletop role-playing game about a crew of daring
 > scoundrels seeking their fortunes on the haunted streets of an
 > industrial-fantasy city. There are heists, chases, occult mysteries, dangerous
-> bargains, bloody skirmishes, and, above all, riches to be had — if you’re bold
+> bargains, bloody skirmishes, and, above all, riches to be had — if you're bold
 > enough to seize them. You and your fledgling crew must thrive amidst the
 > threats of rival gangs, powerful noble families, vengeful ghosts, the
-> Bluecoats of the city watch, and the siren song of your scoundrel’s own vices.
+> Bluecoats of the city watch, and the siren song of your scoundrel's own vices.
 > Will you rise to power in the criminal underworld? What are you willing to do
 > to get to the top?
 

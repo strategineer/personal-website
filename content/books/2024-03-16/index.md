@@ -1,5 +1,6 @@
 ---
-authors: Cesca Major
+authors:
+  - Cesca Major
 books/tags:
   - fiction
   - romance

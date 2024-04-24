@@ -1,5 +1,6 @@
 ---
-authors: Brian Hayes
+authors:
+  - Brian Hayes
 books/tags:
   - non-fiction
   - slay

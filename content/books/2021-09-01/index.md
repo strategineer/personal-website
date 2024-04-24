@@ -1,5 +1,7 @@
 ---
-authors: Noam Chomsky
+authors:
+  - Peter R. Mitchell
+  - John Schoeffel
 books/tags:
   - non-fiction
 date: 2021-09-01

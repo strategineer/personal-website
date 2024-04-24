@@ -1,5 +1,6 @@
 ---
-authors: Junji Ito
+authors:
+  - Junji Ito
 books/tags:
   - fiction
   - graphic novel

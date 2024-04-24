@@ -1,14 +1,15 @@
 ---
-authors: Terry Pratchett
+authors:
+  - Terry Pratchett
 books/tags:
   - fiction
   - fantasy
   - comic
 date: 2023-11-13
 params:
-  isbn13: "9780552166669"
+  isbn13: "9780552134620"
   series: Watch
-  year: "2012"
+  year: "1998"
 star_rating: 5
 title: Guards! Guards!
 ---

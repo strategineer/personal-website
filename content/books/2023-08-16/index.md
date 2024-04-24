@@ -5,9 +5,9 @@ books/tags:
   - science fiction
 date: 2023-08-16
 params:
-  isbn13: "9781529051902"
   series: The Final Architecture
-  year: "2022"
+  isbn13: "9780316705851"
+  year: "2021"
 star_rating: 5
 title: "Shards Of Earth: The Final Architecture Book 1"
 ---

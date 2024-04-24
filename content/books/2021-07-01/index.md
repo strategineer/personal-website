@@ -1,5 +1,6 @@
 ---
-authors: Kazuo Umezz
+authors:
+  - Kazuo Umezz
 books/tags:
   - fiction
   - graphic novel

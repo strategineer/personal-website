@@ -1,5 +1,6 @@
 ---
-authors: Brom
+authors:
+  - Brom
 books/tags:
   - fiction
   - fantasy

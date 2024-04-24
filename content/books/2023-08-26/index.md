@@ -1,5 +1,6 @@
 ---
-authors: Alec Nevala-Lee
+authors:
+  - Alec Nevala-Lee
 books/tags:
   - non-fiction
 date: 2023-08-26

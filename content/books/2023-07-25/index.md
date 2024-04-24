@@ -1,5 +1,6 @@
 ---
-authors: Roger Zelazny
+authors:
+  - Roger Zelazny
 books/tags:
   - fiction
   - science fiction

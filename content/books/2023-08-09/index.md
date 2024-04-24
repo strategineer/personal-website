@@ -1,5 +1,6 @@
 ---
-authors: Kameron Hurley
+authors:
+  - Kameron Hurley
 books/tags:
   - fiction
   - science fiction

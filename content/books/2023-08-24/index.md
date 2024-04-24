@@ -1,5 +1,6 @@
 ---
-authors: N. K. Jemisin
+authors:
+  - N. K. Jemisin
 books/tags:
   - fiction
   - science fantasy

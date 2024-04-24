@@ -1,15 +1,16 @@
 ---
-authors: Ursula K. Le Guin
+authors:
+  - Ursula. K Le Guin
 books/tags:
   - fiction
   - fantasy
 date: 2024-03-27
 params:
-  isbn13: "9781442459960"
+  isbn13: "9781473223592"
   series: Earthsea
-  year: "2012"
+  year: "2019"
 star_rating: 5
-title: Tehanu
+title: Tehanu - The Fourth Book Of Earthsea
 ---
 
 A sequel to both The Tombs of Atuan and The Farthest Shore.

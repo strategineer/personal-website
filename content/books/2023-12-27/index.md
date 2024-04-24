@@ -1,5 +1,6 @@
 ---
-authors: N. K. Jemisin
+authors:
+  - N. K. Jemisin
 books/tags:
   - fiction
 date: 2023-12-27

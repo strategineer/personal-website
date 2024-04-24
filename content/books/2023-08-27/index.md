@@ -5,8 +5,8 @@ books/tags:
   - trash
 date: 2023-08-27
 params:
-  isbn13: "9781250800251"
-  year: "2021"
+  isbn13: "9780374154110"
+  year: "2020"
 star_rating: 1
 title: Feline Philosophy - Cats And The Meaning Of Life
 ---

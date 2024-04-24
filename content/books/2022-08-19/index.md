@@ -1,5 +1,6 @@
 ---
-authors: Nick Riggle
+authors:
+  - Nick Riggle
 books/tags:
   - non-fiction
   - philosophy

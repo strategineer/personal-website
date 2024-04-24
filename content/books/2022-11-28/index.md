@@ -6,9 +6,9 @@ books/tags:
   - comic
 date: 2022-11-28
 params:
-  isbn13: "9780552166591"
+  isbn13: "9781804990315"
+  year: "2022"
   series: Rincewind
-  year: "2012"
 star_rating: 5
 title: The Colour Of Magic - Discworld Novel 1
 ---

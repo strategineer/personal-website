@@ -1,6 +1,6 @@
 ---
 authors:
-  - Holmes H. Welch Jr.
+  - Holmes H. Welch, Jr.
 books/tags:
   - currently reading
   - non-fiction

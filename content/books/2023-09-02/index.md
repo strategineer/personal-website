@@ -1,5 +1,6 @@
 ---
-authors: Octavia E. Butler
+authors:
+  - Octavia E. Butler
 books/tags:
   - fiction
   - post-apocalyptic

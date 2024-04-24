@@ -1,5 +1,6 @@
 ---
-authors: Holly Smale
+authors:
+  - Holly Smale
 books/tags:
   - fiction
   - slay

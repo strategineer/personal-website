@@ -1,5 +1,6 @@
 ---
-authors: Xiran Jay Zhao
+authors:
+  - Xiran Jay Zhao
 books/tags:
   - fiction
   - science fiction

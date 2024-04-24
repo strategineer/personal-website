@@ -1,5 +1,6 @@
 ---
-authors: Aldous Huxley
+authors:
+  - Aldous Huxley
 books/tags:
   - fiction
   - science fiction
