@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-06-17
-draft: true
+
 params:
   isbn13: "9781403984531"
   year: "2007"

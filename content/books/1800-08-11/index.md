@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-08-11
-draft: true
+
 params:
   isbn13: "9781935429005"
   year: "2009"

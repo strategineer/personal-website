@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-07-13
-draft: true
+
 params:
   isbn13: "9781529034554"
   year: "2020"

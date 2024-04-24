@@ -8,6 +8,13 @@
   {{ $p = "books/tags" }}
 {{ end }}
 
+
+{{ $is_owned_books := eq $p "owned_books" }}
+
+{{ if $is_owned_books }}
+  {{ $p = "books/tags" }}
+{{ end }}
+
 {{ $is_authors_page := eq $p "authors" }}
 
 {{ $page_num := 0 }}
@@ -55,6 +62,11 @@
   {{ range $d := $dict_to_avg_star_rating }}
     {{ $term := index $d "term" }}
     {{ $score := index $d "score" }}
+    {{ if ne $term "owned-but-unread" }}
+      {{ if $is_owned_books }}
+        {{ continue }}  
+      {{ end }}
+    {{ end }}
     {{ $t := index $d "object" }}
     {{ if gt $t.Count 0 }}
       {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
@@ -94,7 +106,7 @@
       {{ $k = add $k 1 }}
       {{ range $all_books }}
         {{ $book_tags := index .Params "books/tags" }}
-        {{ if not (or $is_authors_page (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (in $book_tags "trash") (in $book_tags "dnf"))))) }}
+        {{ if not (or $is_authors_page (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (or (in $book_tags "trash") (in $book_tags "dnf") (and (not $is_owned_books) (in $book_tags "owned-but-unread")) ))))) }}
           {{ continue }}
         {{ end }}
         {{ $i = add  $i 1 }}

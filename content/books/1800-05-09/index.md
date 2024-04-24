@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-05-09
-draft: true
+
 params:
   isbn13: "9780765389169"
   year: "2020"

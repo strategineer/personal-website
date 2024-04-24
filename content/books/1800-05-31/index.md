@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-05-31
-draft: true
+
 params:
   isbn13: "9781250217318"
   year: "2021"

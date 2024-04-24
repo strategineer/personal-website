@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-06-22
-draft: true
+
 params:
   isbn13: "9781421533612"
   year: "2010"

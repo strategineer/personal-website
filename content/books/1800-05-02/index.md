@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-05-02
-draft: true
+
 params:
   isbn13: "9780765324641"
   year: "2010"

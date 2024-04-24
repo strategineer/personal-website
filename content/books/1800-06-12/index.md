@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-06-12
-draft: true
+
 params:
   isbn13: "9781328948854"
   year: "2017"

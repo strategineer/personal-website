@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-02-16
-draft: true
+
 params:
   isbn13: "9780156033688"
   year: "2009"

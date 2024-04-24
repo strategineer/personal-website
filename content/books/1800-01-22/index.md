@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-01-22
-draft: true
+
 params:
   isbn13: "9780140188448"
   year: "1994"

@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-04-20
-draft: true
+
 params:
   isbn13: "9780553082524"
   year: "1992"

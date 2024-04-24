@@ -4,10 +4,11 @@ books/tags:
   - non-fiction
 date: 2021-11-15
 params:
-  isbn13: "9780609608845"
-  year: "2003"
+  isbn13: "9780451499028"
+  year: "2018"
 star_rating: 3
-title: The Joy Of Mixology
+title: The Joy Of Mixology, Revised And Updated Edition - The Consummate Guide To The
+  Bartender's Craft
 ---
 
 Everything you need to know about mixing cocktails.

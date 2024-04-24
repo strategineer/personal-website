@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-01-13
-draft: true
+
 params:
   isbn13: "9780905712826"
   year: "1988"

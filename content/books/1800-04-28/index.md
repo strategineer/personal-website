@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-04-28
-draft: true
+
 params:
   isbn13: "9780756415068"
   year: "2020"

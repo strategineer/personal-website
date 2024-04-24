@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-07-30
-draft: true
+
 params:
   isbn13: "9781633442801"
   year: "2016"

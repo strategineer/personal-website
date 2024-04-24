@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-03-17
-draft: true
+
 params:
   isbn13: "9780385265201"
   year: "1997"

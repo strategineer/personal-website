@@ -4,8 +4,10 @@ import sys
 import os
 from io import BytesIO
 from pathlib import Path
-from datetime import date, timedelta;
+from datetime import date, timedelta
+from time import sleep
 
+from PIL import Image
 from mergedeep import merge
 import click
 import requests
@@ -21,6 +23,7 @@ IMPORT_START_DATE = date(1800, 1, 1)
 #{'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
 
 def fetch_and_write_thumbnail(isbn, filename):
+  sleep(3)
   url = f"https://www.amazon.ca/s?k={isbn}&i=stripbooks"
   headers = {
       'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
@@ -29,13 +32,32 @@ def fetch_and_write_thumbnail(isbn, filename):
   html = requests.get(url, headers=headers)
   soup = BeautifulSoup(html.text, features="html.parser")
   results = soup.find_all('div', attrs={'data-component-type': 's-search-result'})
-  
+
   for r in results:
-    thumbnail_src = r.select_one('.s-image').attrs['src']
-    img_data = requests.get(thumbnail_src).content
-    with open(Path(filename).parent / 'thumbnail.jpg', 'wb') as handler:
-      handler.write(img_data)
-    return
+    title = r.select_one('.a-size-medium.a-color-base.a-text-normal')
+    if title is None:
+      continue
+    a = title.parent
+    if a is None:
+      continue
+    url = a["href"]
+    if url is not None:
+      url = "https://www.amazon.ca" + url
+      sleep(3)
+      html = requests.get(url, headers=headers)
+      soup = BeautifulSoup(html.text, features="html.parser")
+      b = soup.find(attrs={'id':'landingImage'})
+      if b is not None:
+        break
+      thumbnail_src = b.attrs['src']
+      img_data = requests.get(thumbnail_src).content
+      with open(Path(filename).parent / 'thumbnail.jpg', 'wb') as handler:
+        handler.write(img_data)
+        print(f"Updated thumbnail for {filename}")
+        sleep(3)
+      return True
+  print(f"Failed to update thumbnail for {filename}")
+  return False
 
 def merge_posts(post1, post2):
   merged_metadata = merge(post1.metadata, post2.metadata)
@@ -55,7 +77,7 @@ def write_post(post, filename):
     try:
       f.write(bytes.getvalue().decode('utf-8'))
     except UnicodeEncodeError:
-      click.echo(f"Failed to write to {filename} for {post.metadata}")
+      print(f"Failed to write to {filename} for {post.metadata}")
 
 def load_existing_books():
   isbn_to_post = {}
@@ -69,7 +91,7 @@ def load_existing_books():
           isbn_to_post[post.metadata["params"]["isbn13"]] = (filename, post)
           title_to_post[post.metadata["title"]] = (filename, post)
       except UnicodeDecodeError:
-        click.echo(f"Failed to load file {filename} with frontmatter parser due to unicode error")
+        print(f"Failed to load file {filename} with frontmatter parser due to unicode error")
         continue
   return (isbn_to_post, title_to_post)
 
@@ -79,7 +101,7 @@ def cli():
 
 @click.command()
 def import_scans():
-    click.echo('Import scanned barcodes')
+    print('Import scanned barcodes')
     filenames = glob.glob('**/bs_export_*.json')
     print(filenames)
 
@@ -93,7 +115,6 @@ def import_scans():
     (existing_books_by_isbn, existing_by_title) = load_existing_books()
     date = IMPORT_START_DATE
     for isbn in sorted(books.keys()):
-      click.echo(isbn)
       book = books[isbn]
       metadata = {}
       try:
@@ -107,7 +128,7 @@ def import_scans():
           }
         }
       except (NotValidISBNError, ISBNNotConsistentError):
-        click.echo(f"Failed to fetch metadata for {isbn}, using scanned data:\n{books[isbn]}")
+        print(f"Failed to fetch metadata for {isbn}, using scanned data:\n{books[isbn]}")
         if not books[isbn]["name"]:
           continue
         metadata = {
@@ -125,52 +146,59 @@ def import_scans():
       if isbn in existing_books_by_isbn:
         filename, existing_post = existing_books_by_isbn[isbn]
         # todo we should do a merge here
-        click.echo(f"Found existing book with ISBN {isbn} ({filename}, {existing_post.metadata['title']}), merging data")
+        print(f"Found existing book with ISBN {isbn} ({filename}, {existing_post.metadata['title']}), merging data")
         post = merge_posts(existing_post, post)
       elif book["name"] in existing_by_title:
         filename, existing_post = existing_by_title[book["name"]]
         # todo we should do a merge here and replace the isbn
-        click.echo(f"Found existing book with title {book['name']} ({filename}, {existing_post.metadata['title']}), merging data")
+        print(f"Found existing book with title {book['name']} ({filename}, {existing_post.metadata['title']}), merging data")
         post = merge_posts(existing_post, post)
       else:
         post.content = "\n<!--more-->"
-        post.metadata["draft"] = True
         post.metadata["weight"] = 1
         post.metadata["date"] = date
         post.metadata["books/tags"] = ["owned-but-unread"]
-        click.echo(f"No existing book for ISBN {isbn}, creating new post")
+        print(f"No existing book for ISBN {isbn}, creating new post")
       write_post(post, filename)
       #{'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
 
 @click.command()
 def find_isbns():
-    click.echo('Add ISBNs from existing books')
-    print(dir("isbntools.app"))
+    print('Add ISBNs from existing books')
     filenames = glob.glob('content/books/*/index.md')
     for filename in filenames:
       ls = glob.glob(filename.replace("index.md", 'thumbnail.*'))
       has_thumbnail = len(ls) > 0
+      thumbnail_big_enough = True
+      if has_thumbnail:
+        im = Image.open(ls[0])
+        width, _ = im.size
+        if width < 250:
+          thumbnail_big_enough = False
       post = None
       has_isbn13 = True
       with open(filename) as f:
         try:
           post = frontmatter.load(f)
         except UnicodeDecodeError:
-          click.echo(f"Failed to load file {filename} with frontmatter parser due to unicode error")
+          print(f"Failed to load file {filename} with frontmatter parser due to unicode error")
           continue
+        if not has_thumbnail or not thumbnail_big_enough:
+          print(f"Fetching thumbnail for:\n\t{post.metadata['params']['isbn13']}\n\t{filename}")
+          try:
+            success = fetch_and_write_thumbnail(post.metadata["params"]["isbn13"], filename)
+          except:
+            success = False
+            print(f"Failed to update thumbnail for {filename} with isbn: {post.metadata['params']['isbn13']}")
+          if not success:
+            # todo fallback to cover function and/or amazon but without the extra request?
+            pass
         if "params" not in post.metadata:
           post.metadata["params"] = {}
-        # "isbn13" not in post.metadata["params"] or 
-        if not has_thumbnail:
-          try:
-            fetch_and_write_thumbnail(post.metadata["params"]["isbn13"], filename)
-          except:
-            click.echo(f"Failed to update image for {filename} with isbn: {post.metadata['params']['isbn13']}")
-            continue     
         if "year" not in post.metadata["params"]:
           has_isbn13 = False
           author = get_primary_author_from_post(post)
-          click.echo(f"Trying to find ISBN for {post.metadata['title']} by {author}")
+          print(f"Trying to find ISBN for {post.metadata['title']} by {author}")
           try:
             fetched_metadata = None
             if "isbn13" in post.metadata["params"]:
@@ -182,8 +210,8 @@ def find_isbns():
             post.metadata["params"]["year"] = fetched_metadata["Year"]
             post.metadata["title"] = fetched_metadata["Title"]
           except:
-             click.echo(f"No isbn found for {post.metadata}")
-             click.echo(f"fetched_metadata: {fetched_metadata}")
+             print(f"No isbn found for {post.metadata}")
+             print(f"fetched_metadata: {fetched_metadata}")
           if not has_isbn13 and post is not None:
             write_post(post, filename) 
 

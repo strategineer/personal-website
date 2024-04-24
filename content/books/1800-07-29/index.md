@@ -5,7 +5,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-07-29
-draft: true
+
 params:
   isbn13: "9781631067181"
   year: "2020"

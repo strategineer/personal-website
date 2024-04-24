@@ -1,4 +1,4 @@
-{{ if ne .Data.Singular "author" }}
+{{ if and (ne .Data.Singular "author") (ne .Section "owned_books") }}
   <div
     class="container justify-content-center text-center page-title"
     data-pagefind-body

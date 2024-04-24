@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-01-19
-draft: true
+
 params:
   isbn13: "9780063269590"
   year: "2022"

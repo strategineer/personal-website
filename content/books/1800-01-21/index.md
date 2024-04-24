@@ -6,7 +6,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-01-21
-draft: true
+
 params:
   isbn13: "9780091951702"
   year: "2013"

@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-07-20
-draft: true
+
 params:
   isbn13: "9781577315933"
   year: "2008"

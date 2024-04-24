@@ -7,7 +7,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-02-24
-draft: true
+
 params:
   isbn13: "9780262033848"
   year: "2009"

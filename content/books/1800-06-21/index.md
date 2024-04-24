@@ -5,7 +5,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-06-21
-draft: true
+
 params:
   isbn13: "9781419704383"
   year: "2012"

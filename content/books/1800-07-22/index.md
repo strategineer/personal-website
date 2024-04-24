@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-07-22
-draft: true
+
 params:
   isbn13: "9781606995839"
   year: "2014"

@@ -4,7 +4,6 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-01-02
-draft: true
 params:
   isbn13: "9780374518738"
   year: "2000"

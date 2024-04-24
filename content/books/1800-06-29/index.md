@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-06-29
-draft: true
+
 params:
   isbn13: "9781465458551"
   year: "2017"

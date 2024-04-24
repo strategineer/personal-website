@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-05-01
-draft: true
+
 params:
   isbn13: "9780761536437"
   year: "2001"

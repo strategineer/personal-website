@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-05-06
-draft: true
+
 params:
   isbn13: "9780765387424"
   year: "2021"

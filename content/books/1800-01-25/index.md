@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-01-25
-draft: true
+
 params:
   isbn13: "9780143134237"
   year: "2023"

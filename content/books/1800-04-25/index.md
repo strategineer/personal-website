@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-04-25
-draft: true
+
 params:
   isbn13: "9780674024458"
   year: "2008"

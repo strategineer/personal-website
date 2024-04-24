@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-08-09
-draft: true
+
 params:
   isbn13: "9781853267956"
   year: "1998"

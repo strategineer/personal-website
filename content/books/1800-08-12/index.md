@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
 date: 1800-08-12
-draft: true
+
 params:
   isbn13: "9781946824141"
   year: "2018"
