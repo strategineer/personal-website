@@ -1,3 +1,6 @@
+import re
+import itertools
+import csv
 import json
 import glob
 import sys
@@ -213,10 +216,95 @@ def find_isbns():
              print(f"No isbn found for {post.metadata}")
              print(f"fetched_metadata: {fetched_metadata}")
           if not has_isbn13 and post is not None:
-            write_post(post, filename) 
+            write_post(post, filename)
+
+def convert_to_goodreads_review_format(content, filename):
+  # todo write tests
+  content = re.sub("#+\s*(.+)\s*\n?", "||| \g<1> |||<br/>", content)
+  content = re.sub("\[(.+)\]\((.+)\)", "<a href=\"https://strategineer.com\g<2>\">\g<1></a>", content)
+  # todo ensure that shared images used by many reviews (reaction gifs etc.) that are linked, also work 
+  image_path = Path(filename).parent.as_posix().strip("content/")
+  content = re.sub("!\[\]\((.+)\)", f"<img src=\"https://strategineer.com/{image_path}/\g<1>\" width=\"40\" height=\"100\" />", content)
+  content = content.replace("<!--more-->", "")
+  content = content.replace("\n\n", "<br/><br/>")
+  content = content.replace("\n", " ")
+  content = content.replace(r"{{< spoiler >}}", "<spoiler>")
+  content = content.replace(r"{{< /spoiler >}}", "</spoiler>")
+  # Convert every other occurrence of **.
+  content = re.sub('(\*\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<b>', content)
+  # ... convert the rest to the closing.
+  content = content.replace("**", "</b>")
+  # Convert every other occurrence of *.
+  content = re.sub('(\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<i>', content)
+  # ... convert the rest to the closing.
+  content = content.replace("*", "</i>")
+  content = re.sub("[^\-]---[^\-]", "------------", content)
+  content = content.replace(" - ", "<br/>- ")
+  while True:
+    try:
+      content.index("  ")
+    except ValueError:
+      break
+    content = content.replace("  ", " ")
+  content = content.replace("<br/> ", "<br/>")
+  while True:
+    try:
+      content.index("<br/> ")
+    except ValueError:
+      break
+    content = content.replace("<br/> ", "<br/>")
+  while True:
+    try:
+      content.index("<br/><br/><br/>")
+    except ValueError:
+      break
+    content = content.replace("<br/><br/><br/>", "<br/><br/>")
+  content = content.strip("<br/>")
+  return content
+
+@click.command()
+def goodreads_csv():
+  with open('exports/export.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow(["ISBN13", "Date Read", "Bookshelves", "Exclusive Shelf", "Read Count", "My Rating", "My Review"])
+    filenames = glob.glob('content/books/*/index.md')
+    for filename in filenames:
+      with open(filename) as f:
+        try:
+          post = frontmatter.load(f)
+        except UnicodeDecodeError:
+          print(f"Failed to load file {filename} with frontmatter parser due to unicode error")
+          continue
+      try:
+        isbn13 = post.metadata.get("params", {}).get("isbn13")
+        is_draft = post.metadata.get("draft", False)
+        if isbn13 is not None and not is_draft:
+          tags = post.metadata["books/tags"]
+          exclusive_shelf = "read"
+          if "currently-reading" in tags:
+            exclusive_shelf = "currently-reading"
+          elif "owned-but-unread" in tags:
+            exclusive_shelf = "to-read"
+          
+          if exclusive_shelf != "currently-reading":
+            tags += [exclusive_shelf]
+          writer.writerow([
+            isbn13,                                          # ISBN13
+            post.metadata["date"].strftime("%Y/%m/%d") if exclusive_shelf == "read" else "",      # Date Read
+            " ".join([t.replace(" ", "-") for t in tags]),            # Bookshelves
+            exclusive_shelf,                                 # Exclusive Shelf
+            1 if exclusive_shelf == "read" else 0,           # Read Count 
+            post.metadata.get("star_rating", 0),             # My Rating
+            convert_to_goodreads_review_format(post.content, filename) # My Review
+          ])
+      except Exception as e:
+        print(e)
+        print(f"Failed to write row for {filename}")
+        continue
 
 cli.add_command(import_scans)
 cli.add_command(find_isbns)
+cli.add_command(goodreads_csv)
 
 if __name__ == '__main__':
     cli()

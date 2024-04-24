@@ -30,11 +30,11 @@ I started listening to [the Lingthusiasm podcast](https://lingthusiasm.com/) in
 early 2021. It took me a while (until early 2022) to read the book written by
 one of the hosts (Gretchen McCulloch), but here we are.
 
-_Because Internet: Understanding the New Rules of Language_ is a book that
+*Because Internet: Understanding the New Rules of Language* is a book that
 discusses how we express ourselves on the internet, how we got here and where
 we're going from the perspective of a linguist.
 
-I am what the book refers to as a _Full Internet Person_ having gotten online in
+I am what the book refers to as a *Full Internet Person* having gotten online in
 the early 2000s, chatting with friends using MSN Messenger, then later Facebook
 and, eventually, I started writing super cringe blog posts on Tumblr (some might
 say that I never stopped).
@@ -78,7 +78,7 @@ it's more common for people to look at someone's eyes when trying to figure out
 that person's emotional state. Whereas people in the West tend to look at mouths
 instead.
 
-_This might explain why anime characters usually have gigantic eyes..._
+*This might explain why anime characters usually have gigantic eyes...*
 
 We have the Japanese to thank for many things, emoji is just one of them.[^1] In
 1999, Shigetaka Kurita was inspired by the use of symbolic representations in
@@ -98,22 +98,22 @@ Because Internet also talks about the various ways in which people have tried to
 imbue tone of voice into their internet writing (with varying degrees of
 success).
 
-> hey
->
-> you
->
-> listen
+**hey**
 
-_Short utterances without punctuation like this might have been popular with the
-zoomers on Tumblr/Twitter?_
+**you**
 
-> I'm ~very~ excited about this ~new~ sarcasm marker.
+**listen**
 
-_But no, actually, I am. I'm probably going to be using the ~ quite a bit._
+*Short utterances without punctuation like this might have been popular with the
+zoomers on Tumblr/Twitter?*
 
-> HELP ME! I'M SHOUTING
+**I'm ~very~ excited about this ~new~ sarcasm marker.**
 
-_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_
+*But no, actually, I am. I'm probably going to be using the ~ quite a bit.*
+
+**HELP ME! I'M SHOUTING**
+
+*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
 
 I don't know how to end this.
 

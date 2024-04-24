@@ -33,6 +33,6 @@ middle part more and more as I've taken some distance from the book. But, in the
 moment, actually reading it, I found the middle to be boring and meandering at
 times.
 
-> Maybe this is because the book was written by two authors?
+Maybe this is because the book was written by two authors?
 
 Despite this, Good Omens is unique and I can recommend it.

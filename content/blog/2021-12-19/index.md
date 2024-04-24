@@ -211,9 +211,9 @@ of Junji Ito's work like Uzumaki then you should check this one out too.
 Junji Ito is cool. Uzumaki is great. A lot of his other work is just OK. I think
 Remina is also just OK.
 
-#### Sandcastles by Frederik Peeters and Pierre Oscar Levy
+#### Sandcastle by Frederik Peeters and Pierre Oscar Levy
 
-I didn't like Sandcastles. I'm not exactly qualified to critique graphic novels.
+I didn't like Sandcastle. I'm not exactly qualified to critique graphic novels.
 I'm either too stupid to understand what it's trying to say or it's not trying
 to say anything at all. Either way, it didn't make me feel anything... Maybe I'm
 dead inside?

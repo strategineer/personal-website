@@ -20,7 +20,7 @@ title: Children Of Memory
 
 <!--more-->
 
-_Minor spoilers below about the basic premise of the series/novel_
+*Minor spoilers below about the basic premise of the series/novel*
 
 {{< spoiler >}}
 
@@ -33,7 +33,7 @@ As per usual, hijinks ensue.
 
 {{< /spoiler >}}
 
-_Spoilers how the story is told_
+*Spoilers how the story is told*
 
 {{< spoiler >}}
 
@@ -50,7 +50,7 @@ Memory feels more like an M. Night. Shyamalan movie this time around.
 
 {{< /spoiler >}}
 
-_More spoilers ahead_
+*More spoilers ahead*
 
 {{< spoiler >}}
 

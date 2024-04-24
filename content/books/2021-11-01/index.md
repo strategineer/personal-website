@@ -5,8 +5,8 @@ books/tags:
   - non-fiction
 date: 2021-11-01
 params:
-  isbn13: "9781439156810"
-  year: "2010"
+  isbn13: "9781982159375"
+  year: "2020"
 star_rating: 3
 title: "On Writing: 10Th Anniversary Edition - A Memoir Of The Craft"
 ---
@@ -37,17 +37,16 @@ now and here it is.
 
 He says that "Writing is telephathy."
 
-> "Look- here's a table covered with red cloth. On it is a cage the size of a
-> small fish aquarium. In the cage is a white rabbit with a pink nose and
-> pink-rimmed eyes. […] On its back, clearly marked in blue ink, is the
-> numeral 8. […] The most interesting thing here isn't even the carrot-munching
-> rabbit in the cage, but the number on its back. Not a six, not a four, not
-> nineteen-point-five. It's an eight. This is what we're looking at, and we all
-> see it. I didn't tell you. You didn't ask me. I never opened my mouth and you
-> never opened yours. We're not even in the same year together, let alone the
-> same room… except we are together. We are close. We're having a meeting of the
-> minds. […] We've engaged in an act of telepathy. No mythy-mountain shit; real
-> telepathy."
+**Look- here's a table covered with red cloth. On it is a cage the size of a**
+**small fish aquarium. In the cage is a white rabbit with a pink nose and**
+**pink-rimmed eyes. […] On its back, clearly marked in blue ink, is the numeral 8. […] The most interesting thing here isn't even the carrot-munching**
+**rabbit in the cage, but the number on its back. Not a six, not a four, not**
+**nineteen-point-five. It's an eight. This is what we're looking at, and we all**
+**see it. I didn't tell you. You didn't ask me. I never opened my mouth and you**
+**never opened yours. We're not even in the same year together, let alone the**
+**same room… except we are together. We are close. We're having a meeting of the**
+**minds. […] We've engaged in an act of telepathy. No mythy-mountain shit; real**
+**telepathy.**
 
 There's something very personal about writing and reading that makes it worth
 doing. It was nice to be reminded of that.

@@ -20,7 +20,7 @@ exposed to... or both).
 <!--more-->
 
 The story was simple (maybe too simple) but executed well. But it's definitely
-not a story for a younger demographic though --- it's got a few extremely
+not a story for a younger demographic though -- it's got a few extremely
 explicit descriptions of sex in it (I've read some erotica in my day but this
 was something else).
 

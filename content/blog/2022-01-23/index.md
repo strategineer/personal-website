@@ -8,7 +8,7 @@ tldr:
   game is rigged and the only way to win is to stop playing."
 ---
 
-[As discussed in my first entry of my "F\*\*\* X" series of posts](/blog/2022-01-14/),
+[As discussed in my first entry of my previous series of posts](/blog/2022-01-14/),
 we are motivated by a combination of intrinsic and extrinsic rewards that
 encourage us to spend our valuable time on certain activities rather than
 others.

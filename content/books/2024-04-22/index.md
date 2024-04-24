@@ -77,19 +77,19 @@ some work.
 
 **"Ugly girls like you are the pits!"**
 
-_Nobody uses the word "pits" like this anymore._
+*Nobody uses the word "pits" like this anymore.*
 
 **It was 29 March, the day before the farewell party.**
 
-_It's "March 29th" not "29 March". I don't care that we're translating from
+*It's "March 29th" not "29 March". I don't care that we're translating from
 Japanese, you wouldn't be able to tell by the grammar/syntax alone if this was a
-perfect translation._
+perfect translation.*
 
 **"It's apple tea," said Aki. "It's also weird how the plates and cups I used
 were all washed up."**
 
-_This isn't how the words "washed up" are meant to be used. Philip Gabriel
-repeats this wording 3 times in the next few sentences._
+*This isn't how the words "washed up" are meant to be used. Philip Gabriel
+repeats this wording 3 times in the next few sentences.*
 
 ---
 

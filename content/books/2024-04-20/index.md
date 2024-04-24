@@ -2,7 +2,7 @@
 authors:
   - Ursula K. Le Guin
 books/tags:
-  - currently reading
+  - currently-reading
   - fiction
   - fantasy
 date: 2024-04-20

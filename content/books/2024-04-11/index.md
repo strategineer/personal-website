@@ -14,7 +14,7 @@ star_rating: 1
 title: A Desolation Called Peace
 ---
 
-In working through my thoughts after reading this trashfire of a novel book, I
+In working through my thoughts after reading this trashfire of a novel, I
 wrote five first drafts of a review. They're incomplete but I'm posting them
 here mostly un-edited (just some typo fixes) for posterity. They're either too
 incomplete, too snarky, too snooty or too mean-spirited to post on Goodreads.
@@ -83,8 +83,6 @@ they were ants.
 
 I don't think it's relevant to ask if the alien being in front of you secretes
 milk out of its breasts.
-
-what the flying f\*\*\* are you on about?
 
 I've been poisoned by reading Adrian Tchaikovsky's depiction of aliens in his
 Children of Time series and his The Final Architecture series.
@@ -213,7 +211,7 @@ The problem is that every single POV character is written like this because I
 guess that's how Arkady Martine writes and her editor was not given the time and
 support they needed this time to take out the trash.
 
-Let's look at some examples: " **Mahit said, “Well, that's unexpectedly
+Let's look at some examples: **Mahit said, "Well, that's unexpectedly
 pleasant, all considered," and didn't go on any further. She didn't want to--she
 couldn't tell Three Seagrass that she was here to spy on the war for Darj
 Tarats, in order to escape Aknel Amnardbat's surgeons. To do worse things for
@@ -221,9 +219,9 @@ Darj Tarats, if there was an opportunity. She couldn't. So she got into the
 shuttle instead, settling amongst the supply crates and strapping herself into
 some freefall-control webbing. There were similar webbings on all of the walls,
 the floor, the ceiling. It was an efficie"t, well-designed ship. It must make a
-hundred of these short hops in a month-- “Quite," said Three Seagrass, all
+hundred of these short hops in a month-- "Quite," said Three Seagrass, all
 edges, interest and wariness and a sort of invitation deferred: We can play,
-Mahit, even if we don't play just now, if playing's what you want**
+Mahit, even if we don't play just now, if playing's what you want.**
 
 Notice that Arkady Martine explicitly cuts off Mahit's stream of consciousness
 narration here.
@@ -235,7 +233,9 @@ own head. That's awesome characterization.
 The issue is that this narrative voice bleeds into every other character's POV.
 
 For example, in this excerpt, Nine Hibiscus has just been informed by a
-subordinate that the alien's planet has been found. " **“If we can get there
+subordinate that the alien's planet has been found.
+
+**"If we can get there
 without them seeing us," Nine Hibiscus said. The scatterbombs would do exactly
 what Eighteen Chisel was imagining. They would, yes, blow anyone out of their
 sky. And then they'd poison that sky, and the planets below it. The scatterbombs

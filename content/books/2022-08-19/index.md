@@ -18,8 +18,8 @@ plea for more awesomeness in our personal, social, and public lives.
 
 <!--more-->
 
-According to Mr. Riggle, awesomeness and suckiness revolves all around _social
-openings_ which are moments when we can choose to break out of our norm-governed
+According to Mr. Riggle, awesomeness and suckiness revolves all around *social
+openings* which are moments when we can choose to break out of our norm-governed
 roles by expressing ourselves.[^1]
 
 Let's say you're buying a latte at your local coffee shop, and you're awesome,
@@ -35,19 +35,18 @@ You: Small price to become human again. Here you go.
 
 Employee: ...
 
-> "Now, you have created a little social opening, by breaking the norms and
-> going off script, and making a little joke. [...] You've given the employee an
-> opportunity to recognize your sense of play and humor and react with a
-> response of his own. You thereby give him a chance to break out of his role
-> and express his individuality in response. If he takes up your offering in the
-> right way, then the result is a kind of mutual appreciation of
-> individuality."[^2]
+**Now, you have created a little social opening, by breaking the norms and**
+**going off script, and making a little joke. [...] You've given the employee an**
+**opportunity to recognize your sense of play and humor and react with a**
+**response of his own. You thereby give him a chance to break out of his role**
+**and express his individuality in response. If he takes up your offering in the**
+**right way, then the result is a kind of mutual appreciation of individuality.[^2]**
 
 It all boils down to this:
 
-> "Sucking is a matter of failing to take up social openings; not sucking is a
-> matter of taking them up and engaging; and being awesome is a matter of
-> creating them."[^3]
+**Sucking is a matter of failing to take up social openings; not sucking is a**
+**matter of taking them up and engaging; and being awesome is a matter of**
+**creating them.[^3]**
 
 Philosophy is the study of the fundamental nature of knowledge, reality and
 existence. On Being Awesome does not seek to give you answers about the meaning

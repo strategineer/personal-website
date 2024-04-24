@@ -99,7 +99,7 @@ something that intrinsically motivates you.
 
 It's fun.
 
-And, remember kids, f\*\*\* the haters.
+And, remember kids, fuck the haters.
 
 [^1]:
     Ryan RM, Deci EL (January 2000). "Self-determination theory and the

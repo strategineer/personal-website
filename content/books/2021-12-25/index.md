@@ -28,14 +28,14 @@ number of lines as the original which is just plain fun.
 It's an interesting text and now I understand why some people decide to spend
 their entire lives thinking about it.
 
-Odysseus is a mass murderer and a villain… yet in the story he’s presented as a
-victim and a hero. It’s… complex.
+Odysseus is a mass murderer and a villain… yet in the story he's presented as a
+victim and a hero. It's… complex.
 
 I can understand why some people have spent their entire lives studying this
 story and Greek mythology in general (especially after also reading Robert
-Grave’s The Greek Myths).
+Grave's The Greek Myths).
 
-Zeus rapes a lot and there’s a lot of murder, but if you can stomach it, Greek
+Zeus rapes a lot and there's a lot of murder, but if you can stomach it, Greek
 Mythology is a wild ride.
 
 These stories keep being retold again and again in different forms and
@@ -43,11 +43,11 @@ understanding where all these tropes come from is fun.
 
 Sonic is Hermes.
 
-One Piece is a retelling of Jason’s, and the Argonauts’s, quest for the Golden
+One Piece is a retelling of Jason's, and the Argonauts's, quest for the Golden
 Fleece.
 
-Odysseus is a superhero, with powers coming from Athena’s favor, straight out of
-a comic book (or Marvel movie). Normal humans can’t murder a hundred people with
+Odysseus is a superhero, with powers coming from Athena's favor, straight out of
+a comic book (or Marvel movie). Normal humans can't murder a hundred people with
 a bow in a dining hall, make anyone believe anything and wear some rags to
 perfectly disguise their identity.
 

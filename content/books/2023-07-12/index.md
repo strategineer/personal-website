@@ -45,7 +45,7 @@ Sam Vimes is an honest man doing the best he can but sometimes that's just not
 good enough. So, for me, throughout the novel, he flip-flopped between being the
 hero I was rooting for and the antihero I loved to hate.
 
-_Minor story spoilers_
+*Minor story spoilers*
 
 {{< spoiler >}}
 

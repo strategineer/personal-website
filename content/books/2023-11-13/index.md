@@ -28,8 +28,8 @@ Discworld City/Night Watch series from the start.
 Sam Vimes suffers from a combination of alcoholism and depression leading to his
 skewed perspective of the world.
 
-**Lessee . . . he’d gone off after the funeral and got drunk. No, not drunk,
-another word, ended with ‘er’. Drunker, that was it. Because world all twisted
+**Lessee . . . he'd gone off after the funeral and got drunk. No, not drunk,
+another word, ended with ‘er'. Drunker, that was it. Because world all twisted
 up and wrong, like distorted glass, only came back into focus if you looked at
 it through bottom of bottle.**
 
@@ -37,7 +37,7 @@ Carrot is a human who was adopted by dwarven parents and so he's essentially a
 dwarf in a human body.
 
 **"Oh, give up!" he said. "Are you going to come quietly?" The mumbling went on.
-The air began to feel hot and dry. Vimes shrugged. "That’s it, then," he said,
+The air began to feel hot and dry. Vimes shrugged. "That's it, then," he said,
 and turned away. "Throw the book at him, Carrot." "Right, sir." Vimes remembered
 too late.**
 
@@ -49,7 +49,7 @@ thing, it lasted the rest of his life.**
 Nobby is the everyman, he is very down to earth.
 
 **It always amazed Vimes how Nobby got along with practically everyone. It must,
-he’d decided, have something to do with the common denominator. In the entire
+he'd decided, have something to do with the common denominator. In the entire
 world of mathematics there could be no denominator as common as Nobby.**
 
 Sergeant Colon is the boomer of the group.

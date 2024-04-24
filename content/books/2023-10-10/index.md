@@ -44,7 +44,7 @@ of the first book.
 
 The third book in the series, Imago, follows the story of a one of a kind
 mixed-species ooloi (neither man or woman, a third sex) as it discovers who it
-is and what it can do (a lot --- it can manipulate the genes of others and
+is and what it can do (a lot -- it can manipulate the genes of others and
 itself at will). Despite having an intriguing premise, it's the weakest of the
 three books. It's ending feels rushed and the lead up to it was disappointing.
 

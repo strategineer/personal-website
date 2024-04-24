@@ -37,7 +37,7 @@ slowly losing their minds (or are they?) contrasted beautifully with all of the
 above.
 
 The story was gripping (and horriffying in a way that I wasn't expecting).
-Following Kelvin's descent into madness --- grappling with the ever present
+Following Kelvin's descent into madness -- grappling with the ever present
 entity that he can't escape from kept me at the edge of my seat.
 
 The philosophical ideas the text puts forth like: "what makes a person a person
@@ -50,7 +50,7 @@ There's a few dozen pages of Kelvin reading deep lore about the planet and
 technobabble in the station's library. I would have trimmed that part down a
 little bit but it wasn't too bad.
 
-The text is a little dated in parts --- we've got at least one slur and a dated
+The text is a little dated in parts -- we've got at least one slur and a dated
 reference to autism ("autistic ocean" hehehehehehe lmaoooooooooo).
 
 Overall though, Solaris is a wild ride with a healthy helping of existential

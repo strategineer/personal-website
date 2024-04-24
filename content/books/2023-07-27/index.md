@@ -12,7 +12,7 @@ star_rating: 5
 title: The Lathe Of Heaven - A Novel
 ---
 
-G\*\*\*\*\*\*\*, M\*\*\*\*\*\*\*, P\*\*\*\*\*\*\*\*\*\*\*.
+Hello? Ursula?
 
 <!--more-->
 

@@ -70,10 +70,10 @@ what it was.**
 
 Scene 3:
 
-\*\*"Oh, yes, Mrs Robson. I went over to Paris with Miss Van Schuyler last Fall.
+**"Oh, yes, Mrs Robson. I went over to Paris with Miss Van Schuyler last Fall.
 But I've never been to Egypt before." Mrs Robson hesitated.
 
-"I do hope -------- there won't be any -------- trouble."\*\*
+"I do hope -------- there won't be any -------- trouble."**
 
 ...
 

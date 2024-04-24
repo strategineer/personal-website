@@ -56,7 +56,7 @@ for more.
 
 # The Odyssey but it's a tiny poem
 
-> Every line represents a book in the Odyssey.
+Every line represents a book in the Odyssey:
 
 Athena's invisible hand guides Telemachus, son of Odysseus,
 
