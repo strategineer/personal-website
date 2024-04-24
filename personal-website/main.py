@@ -132,7 +132,8 @@ def find_isbns():
     print(dir("isbntools.app"))
     filenames = glob.glob('content/books/*/index.md')
     for filename in filenames:
-      has_thumbnail = glob.glob(Path(filename).parent / 'thumbnail.*').len > 0
+      ls = glob.glob(filename.replace("index.md", 'thumbnail.*'))
+      has_thumbnail = len(ls) > 0
       post = None
       has_isbn13 = True
       with open(filename) as f:
@@ -144,7 +145,16 @@ def find_isbns():
         if "params" not in post.metadata:
           post.metadata["params"] = {}
         # "isbn13" not in post.metadata["params"] or 
-        if not has_thumbnail or "year" not in post.metadata["params"]:
+        if not has_thumbnail:
+          try:
+            x = cover(post.metadata["params"]["isbn13"])
+            img_data = requests.get(x["thumbnail"]).content
+            with open(Path(filename).parent / 'thumbnail.jpg', 'wb') as handler:
+              handler.write(img_data)
+          except:
+            click.echo(f"Failed to update image for {filename} with isbn: {post.metadata['params']['isbn13']}")
+            continue     
+        if "year" not in post.metadata["params"]:
           has_isbn13 = False
           author = get_primary_author_from_post(post)
           click.echo(f"Trying to find ISBN for {post.metadata['title']} by {author}")
@@ -161,17 +171,8 @@ def find_isbns():
           except:
              click.echo(f"No isbn found for {post.metadata}")
              click.echo(f"fetched_metadata: {fetched_metadata}")
-      if not has_isbn13 and post is not None:
-        write_post(post, filename)
-        try:
-          x = cover(post.metadata["params"]["isbn13"])
-          img_data = requests.get(x["thumbnail"]).content
-          if not has_thumbnail:
-            with open(Path(filename).parent / 'thumbnail.jpg', 'wb') as handler:
-                handler.write(img_data)
-        except:
-           click.echo(f"Failed to update image for {filename}")
-           continue      
+          if not has_isbn13 and post is not None:
+            write_post(post, filename) 
 
 cli.add_command(import_scans)
 cli.add_command(find_isbns)
