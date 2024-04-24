@@ -7,6 +7,7 @@ date: 1800-01-07
 draft: true
 params:
   isbn13: "9780525951650"
+  year: "2010"
 title: Fall of Giants
 weight: 1
 ---

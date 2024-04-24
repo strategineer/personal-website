@@ -10,6 +10,7 @@ date: 1800-01-03
 draft: true
 params:
   isbn13: "9780201633610"
+  year: "1994"
 title: "Design Patterns: Elements Of Reusable Object Oriented Software"
 weight: 1
 ---
