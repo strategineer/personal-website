@@ -13,11 +13,29 @@ import frontmatter
 from isbnlib import meta, cover, isbn_from_words
 from isbnlib._exceptions import NotValidISBNError
 from isbnlib.dev._exceptions import ISBNNotConsistentError
+from bs4 import BeautifulSoup
 
 IMPORT_START_DATE = date(1800, 1, 1)
 
 
 #{'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
+
+def fetch_and_write_thumbnail(isbn, filename):
+  url = f"https://www.amazon.ca/s?k={isbn}&i=stripbooks"
+  headers = {
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
+      'Accept-Language': 'en-US, en;q=0.5'
+  }
+  html = requests.get(url, headers=headers)
+  soup = BeautifulSoup(html.text, features="html.parser")
+  results = soup.find_all('div', attrs={'data-component-type': 's-search-result'})
+  
+  for r in results:
+    thumbnail_src = r.select_one('.s-image').attrs['src']
+    img_data = requests.get(thumbnail_src).content
+    with open(Path(filename).parent / 'thumbnail.jpg', 'wb') as handler:
+      handler.write(img_data)
+    return
 
 def merge_posts(post1, post2):
   merged_metadata = merge(post1.metadata, post2.metadata)
@@ -145,10 +163,7 @@ def find_isbns():
         # "isbn13" not in post.metadata["params"] or 
         if not has_thumbnail:
           try:
-            x = cover(post.metadata["params"]["isbn13"])
-            img_data = requests.get(x["thumbnail"]).content
-            with open(Path(filename).parent / 'thumbnail.jpg', 'wb') as handler:
-              handler.write(img_data)
+            fetch_and_write_thumbnail(post.metadata["params"]["isbn13"], filename)
           except:
             click.echo(f"Failed to update image for {filename} with isbn: {post.metadata['params']['isbn13']}")
             continue     
