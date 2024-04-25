@@ -14,7 +14,7 @@ star_rating: 3
 title: Terraform - Watch/Worlds/Burn
 ---
 
-A collection of science-fiction short stories that'll make you go \"huh, interesting...\" and might encourage you to think about how technology affects your life currently and how it might affect it in the not so distant future.
+A collection of science-fiction short stories that'll make you go "huh, interesting..." and might encourage you to think about how technology affects your life currently and how it might affect it in the not so distant future.
 
 <!--more-->
 

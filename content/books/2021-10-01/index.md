@@ -12,7 +12,7 @@ star_rating: 5
 title: Infrastructure - A Guide To The Industrial Landscape
 ---
 
-Infrastructure is a guide to all the major \"ecosystems\" of our modern industrial world. In exploring railroad tracks, antenna towers, highway overpasses, power lines, coal mines, nuclear power plants, grain elevators, oil refineries, steel mills, and more, Brian Hayes reveals how our familiar and often-overlooked industrial environment can be as dazzling as nature.
+Infrastructure is a guide to all the major "ecosystems" of our modern industrial world. In exploring railroad tracks, antenna towers, highway overpasses, power lines, coal mines, nuclear power plants, grain elevators, oil refineries, steel mills, and more, Brian Hayes reveals how our familiar and often-overlooked industrial environment can be as dazzling as nature.
 
 <!--more-->
 

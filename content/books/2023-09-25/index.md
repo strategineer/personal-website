@@ -79,4 +79,4 @@ Everyone's luck runs out at some point, it's not a matter of if but a matter of 
 
 Life's short, I can't afford to waste my time reading a book like this again. Ann Leckie you've been banned, my eyes shall never grace a page of text you've written ever again. I wish you all the best.
 
-Unlucky authors list: Neil Gaiman Ann Leckie Jeff VanderMeer
+Unlucky authors list: Neil Gaiman, Ann Leckie, Jeff VanderMeer
