@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fantasy
-date: "2023-10-18"
+date: 2023-10-18
 params:
   isbn13: "9781250313188"
   year: "2020"

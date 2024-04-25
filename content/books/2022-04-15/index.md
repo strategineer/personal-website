@@ -5,7 +5,7 @@ books/tags:
   - non-fiction
   - philosophy
   - trash
-date: "2022-04-15"
+date: 2022-04-15
 params:
   isbn13: "9780452287440"
   year: "2006"

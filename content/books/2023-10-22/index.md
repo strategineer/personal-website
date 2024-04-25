@@ -2,7 +2,7 @@
 authors: V. E. Schwab
 books/tags:
   - fiction
-date: "2023-10-22"
+date: 2023-10-22
 params:
   isbn13: "9780765387523"
   series: Villains

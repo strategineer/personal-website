@@ -3,7 +3,7 @@ authors:
   - Shigeru Mizuki
 books/tags:
   - graphic novel
-date: "2017-05-10"
+date: 2017-05-10
 params:
   isbn13: "9781770460416"
   year: "2011"

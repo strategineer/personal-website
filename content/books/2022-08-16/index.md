@@ -4,7 +4,7 @@ authors:
   - Christopher Taylor
 books/tags:
   - tabletop
-date: "2022-08-16"
+date: 2022-08-16
 params:
   isbn13: "9781913032111"
   year: "2020"

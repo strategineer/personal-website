@@ -3,7 +3,7 @@ authors:
   - Kenichi Sonoda
 books/tags:
   - graphic novel
-date: "2016-03-05"
+date: 2016-03-05
 params:
   isbn13: "9781593077501"
   year: "2007"

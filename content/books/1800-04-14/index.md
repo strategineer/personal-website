@@ -3,7 +3,7 @@ authors:
   - Terry Pratchett
 books/tags:
   - owned-but-unread
-date: "1800-04-14"
+date: 1800-04-14
 params:
   isbn13: "9780552148993"
   year: "2003"

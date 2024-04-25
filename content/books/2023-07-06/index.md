@@ -3,7 +3,7 @@ authors: Martha Wells
 books/tags:
   - fiction
   - science fiction
-date: "2023-07-06"
+date: 2023-07-06
 params:
   isbn13: "9781250214713"
   series: The Murderbot Diaries

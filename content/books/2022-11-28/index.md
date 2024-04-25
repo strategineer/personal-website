@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - fantasy
   - comic
-date: "2022-11-28"
+date: 2022-11-28
 params:
   isbn13: "9781804990315"
   series: Rincewind

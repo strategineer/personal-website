@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - fantasy
-date: "2023-10-21"
+date: 2023-10-21
 params:
   isbn13: "9781442459922"
   series: Earthsea

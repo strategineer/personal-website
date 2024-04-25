@@ -7,7 +7,7 @@ books/tags:
   - science fiction
   - dystopian
   - slavic
-date: "2024-04-14"
+date: 2024-04-14
 params:
   isbn13: "9780380633135"
   year: "2001"

@@ -3,7 +3,7 @@ authors: Lady Wylde
 books/tags:
   - mythography
   - DNF
-date: "2024-03-25"
+date: 2024-03-25
 params:
   dnf: 70%
   isbn13: "9781398834323"

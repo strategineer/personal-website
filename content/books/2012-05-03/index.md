@@ -4,7 +4,7 @@ authors:
 books/tags:
   - science fiction
   - comic
-date: "2012-05-03"
+date: 2012-05-03
 params:
   isbn13: "9781529034547"
   year: "2020"

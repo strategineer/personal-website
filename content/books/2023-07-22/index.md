@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: "2023-07-22"
+date: 2023-07-22
 params:
   isbn13: "9780062936011"
   year: "2019"

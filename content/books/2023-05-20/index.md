@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - science fiction
   - slay
-date: "2023-05-20"
+date: 2023-05-20
 params:
   isbn13: "9781447273301"
   series: Children of Time

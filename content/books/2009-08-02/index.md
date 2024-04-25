@@ -3,7 +3,7 @@ authors:
   - Robert Brockway
 books/tags:
   - childhood
-date: "2009-08-02"
+date: 2009-08-02
 params:
   isbn13: "9780307464347"
   year: "2010"

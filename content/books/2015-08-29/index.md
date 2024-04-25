@@ -4,7 +4,7 @@ authors:
 books/tags:
   - graphic novel
   - comic
-date: "2015-08-29"
+date: 2015-08-29
 params:
   isbn13: "9780316077385"
   year: "2009"

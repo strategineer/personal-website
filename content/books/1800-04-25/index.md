@@ -3,7 +3,7 @@ authors:
   - Walter Benjamin
 books/tags:
   - owned-but-unread
-date: "1800-04-25"
+date: 1800-04-25
 params:
   isbn13: "9780674024458"
   year: "2008"

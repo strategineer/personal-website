@@ -4,7 +4,7 @@ authors:
 books/tags:
   - art
   - dnf
-date: "2018-04-18"
+date: 2018-04-18
 params:
   isbn13: "9780857687609"
   year: "2013"

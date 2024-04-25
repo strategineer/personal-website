@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - fantasy
   - comic
-date: "2023-06-24"
+date: 2023-06-24
 params:
   isbn13: "9780552148405"
   series: Death

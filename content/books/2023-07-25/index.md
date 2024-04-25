@@ -7,7 +7,7 @@ books/tags:
   - detective fiction
   - comic
   - slay
-date: "2023-07-25"
+date: 2023-07-25
 params:
   isbn13: "9781515444985"
   year: "2020"

@@ -5,7 +5,7 @@ authors:
   - Skip Williams
 books/tags:
   - tabletop
-date: "2010-09-01"
+date: 2010-09-01
 params:
   isbn13: "9780786915507"
   year: "2000"

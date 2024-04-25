@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - historical fiction
-date: "2006-08-01"
+date: 2006-08-01
 params:
   isbn13: "9780440236689"
   year: "2001"

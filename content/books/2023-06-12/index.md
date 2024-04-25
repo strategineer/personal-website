@@ -3,7 +3,7 @@ authors: V. E. Schwab
 books/tags:
   - fiction
   - fantasy
-date: "2023-06-12"
+date: 2023-06-12
 params:
   isbn13: "9780765376466"
   series: Shades of Magic

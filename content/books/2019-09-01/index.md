@@ -3,7 +3,7 @@ authors:
   - Games Workshop
 books/tags:
   - tabletop
-date: "2019-09-01"
+date: 2019-09-01
 params:
   isbn13: "9781785818493"
   year: "2017"

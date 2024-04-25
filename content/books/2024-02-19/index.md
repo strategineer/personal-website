@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - science fantasy
   - post-apocalyptic
-date: "2024-02-19"
+date: 2024-02-19
 params:
   isbn13: "9781250827036"
   series: The Book of the New Sun

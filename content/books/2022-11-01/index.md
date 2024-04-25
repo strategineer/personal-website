@@ -2,7 +2,7 @@
 authors: Ben Nielson
 books/tags:
   - tabletop
-date: "2022-11-01"
+date: 2022-11-01
 params:
   isbn13: "9798367027891"
   year: "2022"

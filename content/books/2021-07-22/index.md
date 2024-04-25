@@ -6,7 +6,7 @@ books/tags:
   - fiction
   - graphic novel
   - trash
-date: "2021-07-22"
+date: 2021-07-22
 params:
   isbn13: "9781906838386"
   year: "2013"

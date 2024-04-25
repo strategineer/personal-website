@@ -3,7 +3,7 @@ authors:
   - Hayao Miyazaki
 books/tags:
   - graphic novel
-date: "2015-08-31"
+date: 2015-08-31
 params:
   isbn13: "9781421550640"
   year: "2012"

@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - trash
-date: "2023-09-09"
+date: 2023-09-09
 params:
   isbn13: "9780062476371"
   year: "2016"

@@ -2,7 +2,7 @@
 authors: William Dalrymple
 books/tags:
   - non-fiction
-date: "2022-03-15"
+date: 2022-03-15
 params:
   isbn13: "9781408800614"
   year: "2009"

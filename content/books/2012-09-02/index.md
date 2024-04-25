@@ -6,7 +6,7 @@ authors:
   - Clifford Stein
 books/tags:
   - reference
-date: "2012-09-02"
+date: 2012-09-02
 params:
   isbn13: "9780262033848"
   year: "2009"

@@ -4,7 +4,7 @@ authors:
 books/tags:
   - unowned
   - dnf
-date: "2023-06-01"
+date: 2023-06-01
 params:
   dnf: "0"
   isbn13: "9780756412777"

@@ -5,7 +5,7 @@ books/tags:
   - unowned
   - dnf
   - trash
-date: "2021-11-21"
+date: 2021-11-21
 params:
   isbn13: "9781250251510"
 star_rating: 0

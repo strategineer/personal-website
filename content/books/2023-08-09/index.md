@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - science fiction
   - slay
-date: "2023-08-09"
+date: 2023-08-09
 params:
   isbn13: "9781481447966"
   year: "2019"

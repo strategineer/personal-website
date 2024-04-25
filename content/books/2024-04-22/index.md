@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - fantasy
-date: "2024-04-22"
+date: 2024-04-22
 params:
   isbn13: "9781645660408"
   year: "2022"

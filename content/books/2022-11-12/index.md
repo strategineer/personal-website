@@ -3,7 +3,7 @@ authors: Lindsay Ellis
 books/tags:
   - fiction
   - science fiction
-date: "2022-11-12"
+date: 2022-11-12
 params:
   isbn13: "9781250798138"
   series: Noumena

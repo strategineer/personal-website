@@ -3,7 +3,7 @@ authors:
   - Ursula K. Le Guin
 books/tags:
   - non-fiction
-date: "2023-09-23"
+date: 2023-09-23
 params:
   isbn13: "9780358212102"
   year: "2019"

@@ -3,7 +3,7 @@ authors:
   - James Wallis
 books/tags:
   - tabletop
-date: "2016-05-01"
+date: 2016-05-01
 params:
   isbn13: "9781633442801"
   year: "2016"

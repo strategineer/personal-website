@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - fantasy
   - comic
-date: "2023-11-13"
+date: 2023-11-13
 params:
   isbn13: "9780552134620"
   series: Watch

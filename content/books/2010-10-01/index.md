@@ -3,7 +3,7 @@ authors:
   - Arthur C. Clarke
 books/tags:
   - science fiction
-date: "2010-10-01"
+date: 2010-10-01
 params:
   isbn13: "9780905712826"
   year: "1988"

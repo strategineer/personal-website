@@ -4,7 +4,7 @@ authors:
 books/tags:
   - science fiction
   - comic
-date: "2012-05-06"
+date: 2012-05-06
 params:
   isbn13: "9780517693117"
   year: "1989"

@@ -3,7 +3,7 @@ authors:
   - Roger Zelazny
 books/tags:
   - owned-but-unread
-date: "1800-03-16"
+date: 1800-03-16
 params:
   isbn13: "9780380809066"
   year: "1999"

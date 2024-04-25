@@ -4,7 +4,7 @@ books/tags:
   - philosophy
   - trash
   - DNF
-date: "2023-10-25"
+date: 2023-10-25
 params:
   isbn13: "9781982105440"
   year: "2021"

@@ -3,7 +3,7 @@ authors: Ursula K. Le Guin
 books/tags:
   - fiction
   - fantasy
-date: "2023-08-02"
+date: 2023-08-02
 params:
   isbn13: "9781442459908"
   series: Earthsea

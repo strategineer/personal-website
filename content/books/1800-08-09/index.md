@@ -3,7 +3,7 @@ authors:
   - Miguel de Cervantes Saavedra
 books/tags:
   - owned-but-unread
-date: "1800-08-09"
+date: 1800-08-09
 params:
   isbn13: "9781853267956"
   year: "1998"

@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - romance
   - slay
-date: "2024-03-16"
+date: 2024-03-16
 params:
   isbn13: "9780063239920"
   year: "2023"

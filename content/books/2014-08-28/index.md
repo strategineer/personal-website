@@ -2,7 +2,7 @@
 authors:
   - Tracy Fullerton
 books/tags: []
-date: "2014-08-28"
+date: 2014-08-28
 params:
   isbn13: "9781482217162"
   year: "2014"

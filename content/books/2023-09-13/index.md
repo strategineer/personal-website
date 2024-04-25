@@ -6,7 +6,7 @@ books/tags:
   - science fiction
   - young adult
   - slay
-date: "2023-09-13"
+date: 2023-09-13
 params:
   isbn13: "9780735269934"
   year: "2021"

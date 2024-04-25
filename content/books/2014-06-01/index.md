@@ -5,7 +5,7 @@ authors:
   - Rob Donoghue
 books/tags:
   - tabletop
-date: "2014-06-01"
+date: 2014-06-01
 params:
   isbn13: "9781613170298"
   year: "2013"

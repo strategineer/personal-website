@@ -3,7 +3,7 @@ authors:
   - Thomas Cleary
 books/tags:
   - philosophy
-date: "2023-08-19"
+date: 2023-08-19
 params:
   isbn13: "9780785809050"
   year: "1998"

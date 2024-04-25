@@ -3,7 +3,7 @@ authors:
   - Kelly Barnhill
 books/tags:
   - fiction
-date: "2023-09-22"
+date: 2023-09-22
 params:
   isbn13: "9781250850973"
   year: "2023"

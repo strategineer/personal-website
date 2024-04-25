@@ -5,7 +5,7 @@ books/tags:
   - fantasy
   - comic
   - slay
-date: "2023-06-23"
+date: 2023-06-23
 params:
   isbn13: "9780552149433"
   series: Moist Von Lipwig

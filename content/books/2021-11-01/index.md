@@ -3,7 +3,7 @@ authors:
   - Stephen King
 books/tags:
   - non-fiction
-date: "2021-11-01"
+date: 2021-11-01
 params:
   isbn13: "9781982159375"
   year: "2020"

@@ -3,7 +3,7 @@ authors:
   - Katherine Addison
 books/tags:
   - owned-but-unread
-date: "1800-05-06"
+date: 1800-05-06
 params:
   isbn13: "9780765387424"
   year: "2021"

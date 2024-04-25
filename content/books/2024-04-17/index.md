@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: "2024-04-17"
+date: 2024-04-17
 params:
   isbn13: "9780441478125"
   year: "1987"

@@ -3,7 +3,7 @@ authors: John Gray
 books/tags:
   - philosophy
   - trash
-date: "2023-08-27"
+date: 2023-08-27
 params:
   isbn13: "9780374154110"
   year: "2020"

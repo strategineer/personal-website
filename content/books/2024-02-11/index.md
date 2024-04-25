@@ -6,7 +6,7 @@ books/tags:
   - science fantasy
   - post-apocalyptic
   - slay
-date: "2024-02-11"
+date: 2024-02-11
 params:
   isbn13: "9781250781253"
   series: The Book of the New Sun

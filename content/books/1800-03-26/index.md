@@ -3,7 +3,7 @@ authors:
   - Ken Follett
 books/tags:
   - owned-but-unread
-date: "1800-03-26"
+date: 1800-03-26
 params:
   isbn13: "9780525952923"
   year: "2012"

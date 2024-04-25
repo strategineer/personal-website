@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - fantasy
   - middle-grade
-date: "2023-09-24"
+date: 2023-09-24
 params:
   isbn13: "9781665900706"
   year: "2022"

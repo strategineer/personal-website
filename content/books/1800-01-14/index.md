@@ -3,7 +3,7 @@ authors:
   - Gene Wolfe
 books/tags:
   - owned-but-unread
-date: "1800-01-14"
+date: 1800-01-14
 params:
   isbn13: "9781250840103"
   year: "2022"

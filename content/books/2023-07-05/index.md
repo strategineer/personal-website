@@ -3,7 +3,7 @@ authors: Iain Reid
 books/tags:
   - fiction
   - trash
-date: "2023-07-05"
+date: 2023-07-05
 params:
   isbn13: "9781982152611"
   year: "2020"

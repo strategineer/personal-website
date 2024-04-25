@@ -5,7 +5,7 @@ authors:
 books/tags:
   - non-fiction
   - philosophy
-date: "2022-02-15"
+date: 2022-02-15
 params:
   isbn13: "9780812968255"
   year: "2003"

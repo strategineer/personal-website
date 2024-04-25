@@ -4,7 +4,7 @@ authors:
 books/tags:
   - non-fiction
   - slay
-date: "2022-04-07"
+date: 2022-04-07
 params:
   isbn13: "9781483379326"
   year: "2016"

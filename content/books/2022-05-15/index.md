@@ -3,7 +3,7 @@ authors: Simon Blackburn
 books/tags:
   - non-fiction
   - philosophy
-date: "2022-05-15"
+date: 2022-05-15
 params:
   isbn13: "9780192100245"
   year: "2001"

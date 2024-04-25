@@ -3,7 +3,7 @@ authors:
   - Ursula K. Le Guin
 books/tags:
   - science fiction
-date: "2017-01-01"
+date: 2017-01-01
 params:
   isbn13: "9780061054884"
   year: "1994"

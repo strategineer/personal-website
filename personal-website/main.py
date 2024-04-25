@@ -222,7 +222,7 @@ def find_isbns():
 def convert_to_goodreads_review_format(content, filename):
   # todo write tests
   content = re.sub("#+\s*(.+)\s*\n?", "||| \g<1> |||<br/>", content)
-  content = re.sub("\[(.+)\]\((.+)\)", "<a href=\"https://strategineer.com\g<2>\">\g<1></a>", content)
+  content = re.sub("\[([^]]+)\]\(([^]]+)\)", "<a href=\"https://strategineer.com\g<2>\">\g<1></a>", content)
   # todo ensure that shared images used by many reviews (reaction gifs etc.) that are linked, also work 
   image_path = Path(filename).parent.as_posix().strip("content/")
   content = re.sub("!\[\]\((.+)\)", f"<img src=\"https://strategineer.com/{image_path}/\g<1>\" width=\"40\" height=\"100\" />", content)
@@ -316,8 +316,10 @@ def normalize_dates():
         print(f"Failed to load file {filename} with frontmatter parser due to unicode error")
         continue
     folder_date = Path(filename).parent.parts[-1]
-    if post.metadata["date"] != folder_date:
-      post.metadata["date"] = folder_date
+    if isinstance(post.metadata["date"], str):
+      post.metadata["date"] = date.fromisoformat(folder_date)
+      write_post(post, filename)
+    elif post.metadata["date"] != folder_date:
       if "owned-but-unread" in post.metadata["books/tags"]:
         post.metadata["books/tags"].remove("owned-but-unread")
       if "weight" in post.metadata:

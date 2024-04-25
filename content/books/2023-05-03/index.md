@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: "2023-05-03"
+date: 2023-05-03
 params:
   isbn13: "9781443428453"
   year: "2015"

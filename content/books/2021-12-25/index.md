@@ -3,7 +3,7 @@ authors:
   - Homer
 books/tags:
   - fiction
-date: "2021-12-25"
+date: 2021-12-25
 params:
   isbn13: "9780393356250"
   year: "2018"

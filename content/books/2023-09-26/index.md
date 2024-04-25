@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: "2023-09-26"
+date: 2023-09-26
 params:
   isbn13: "9780062079930"
   year: "2011"

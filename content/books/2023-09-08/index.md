@@ -4,7 +4,7 @@ authors:
 books/tags:
   - non-fiction
   - slay
-date: "2023-09-08"
+date: 2023-09-08
 params:
   isbn13: "9781615197934"
   year: "2021"

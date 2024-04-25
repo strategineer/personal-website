@@ -2,7 +2,7 @@
 authors: John E. Sarno
 books/tags:
   - non-fiction
-date: "2022-08-01"
+date: 2022-08-01
 params:
   isbn13: "9780446675154"
   year: "1998"

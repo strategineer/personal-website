@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - post-apocalyptic
-date: "2023-09-02"
+date: 2023-09-02
 params:
   isbn13: "9781538732182"
   year: "2019"

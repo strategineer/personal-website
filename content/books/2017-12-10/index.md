@@ -4,7 +4,7 @@ authors:
 books/tags:
   - graphic novel
   - dnf
-date: "2017-12-10"
+date: 2017-12-10
 params:
   isbn13: "9781897299746"
   year: "2009"

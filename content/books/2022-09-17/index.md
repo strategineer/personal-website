@@ -5,7 +5,7 @@ authors:
 books/tags:
   - non-fiction
   - climbing
-date: "2022-09-17"
+date: 2022-09-17
 params:
   isbn13: "9780811722193"
   year: "1993"

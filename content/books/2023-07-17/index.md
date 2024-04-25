@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: "2023-07-17"
+date: 2023-07-17
 params:
   isbn13: "9781250765376"
   series: The Murderbot Diaries

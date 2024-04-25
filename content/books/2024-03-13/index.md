@@ -7,7 +7,7 @@ books/tags:
   - comic
   - horror
   - slavic
-date: "2024-03-13"
+date: 2024-03-13
 params:
   isbn13: "9780156340403"
   year: "1985"

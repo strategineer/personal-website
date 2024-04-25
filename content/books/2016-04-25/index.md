@@ -4,7 +4,7 @@ authors:
   - Naoki Urasawa
 books/tags:
   - graphic novel
-date: "2016-04-25"
+date: 2016-04-25
 params:
   isbn13: "9781421519180"
   year: "2009"

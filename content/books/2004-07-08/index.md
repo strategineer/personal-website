@@ -4,7 +4,7 @@ authors:
 books/tags:
   - unowned
   - childhood
-date: "2004-07-08"
+date: 2004-07-08
 params:
   isbn13: "9780345413369"
   year: "1998"

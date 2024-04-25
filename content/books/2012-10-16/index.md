@@ -3,7 +3,7 @@ authors:
   - James Paul Gee
 books/tags:
   - non-fiction
-date: "2012-10-16"
+date: 2012-10-16
 params:
   isbn13: "9781403984531"
   year: "2007"

@@ -6,7 +6,7 @@ books/tags:
   - unowned
   - dnf
   - non-fiction
-date: "2021-12-20"
+date: 2021-12-20
 params:
   isbn13: "9780393337174"
   year: "2009"

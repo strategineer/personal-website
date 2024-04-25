@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - fantasy
   - slay
-date: "2023-07-30"
+date: 2023-07-30
 params:
   isbn13: "9780547722023"
   series: Earthsea

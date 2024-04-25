@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - post-apocalyptic
   - DNF
-date: "2023-10-26"
+date: 2023-10-26
 params:
   isbn13: "9780060892999"
   year: "2006"

@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - fantasy
   - trash
-date: "2023-09-25"
+date: 2023-09-25
 params:
   isbn13: "9780316388696"
   year: "2019"

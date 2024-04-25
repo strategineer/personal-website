@@ -3,7 +3,7 @@ authors: Adrian Tchaikovsky
 books/tags:
   - fiction
   - science fiction
-date: "2023-11-05"
+date: 2023-11-05
 params:
   isbn13: "9781529051940"
   series: The Final Architecture

@@ -3,7 +3,7 @@ authors: Margarita Longoria
 books/tags:
   - fiction
   - short story collection
-date: "2022-10-04"
+date: 2022-10-04
 params:
   isbn13: "9780593204986"
   year: "2022"

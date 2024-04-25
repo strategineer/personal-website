@@ -4,7 +4,7 @@ authors:
 books/tags:
   - owned-but-unread
   - autism
-date: "1800-06-15"
+date: 1800-06-15
 params:
   isbn13: "9781400050581"
   year: "2004"

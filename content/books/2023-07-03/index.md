@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - fantasy
   - comic
-date: "2023-07-03"
+date: 2023-07-03
 params:
   isbn13: "9780552138901"
   series: Ancient Civilizations

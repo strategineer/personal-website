@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fantasy
-date: "2023-08-24"
+date: 2023-08-24
 params:
   isbn13: "9780316229265"
   series: The Broken Earth
