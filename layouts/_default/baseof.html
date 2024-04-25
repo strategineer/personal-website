@@ -43,11 +43,10 @@
     {{ $css = $css | minify | fingerprint | resources.PostProcess }}
     {{ end }}
     <link href="{{ $css.RelPermalink }}" rel="stylesheet" />
-    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 
     <title>
     {{ block "page_title" . }}
-    {{- .Site.Title -}}{{ if .Section }}'s {{ humanize .Section -}}{{- end -}}
+    {{ .Title }} {{ default "::" .Site.Params.titleSeparator }} {{ .Site.Title }}
     {{ end }}
     </title>
   </head>
@@ -112,13 +111,11 @@
     {{ with $js_files | resources.Concat "js/bundle.js" | resources.Minify }}
     <script defer type="text/javascript" src="{{ .RelPermalink }}"> </script>
     {{ end }}
-    <script defer src="/pagefind/pagefind-ui.js"></script>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ 
-              element: "#search", 
-              showSubResults: true,
-            });
+            new PagefindUI({ element: "#search", showSubResults: true });
         });
     </script>
   </body>
