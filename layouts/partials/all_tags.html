@@ -68,7 +68,7 @@
 {{ end }}
 
 {{ $k := 0 }}
-<div class="row align-items-center">
+<div class="row align-items-center data-pagefind-ignore">
   {{ $dict_to_avg_star_rating = sort $dict_to_avg_star_rating "score" "desc" }}
   {{ range $d := $dict_to_avg_star_rating }}
     {{ $term := index $d "term" }}

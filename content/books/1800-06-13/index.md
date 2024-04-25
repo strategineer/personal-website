@@ -1,6 +1,6 @@
 ---
 authors:
-  - TERRY. PRATCHETT
+  - Terry Pratchett
 books/tags:
   - owned-but-unread
 date: 1800-06-13

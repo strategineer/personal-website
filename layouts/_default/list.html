@@ -3,8 +3,10 @@
 {{ end }}
 
 {{ define "main" }}
+  <span data-pagefind-ignore>
   {{ .Content }}
   {{ range .Pages }}
     {{ .Render "summary" }}
   {{ end }}
+  </span>
 {{ end }}

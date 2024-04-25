@@ -46,7 +46,7 @@
 
     <title>
     {{ block "page_title" . }}
-    {{ .Title }} {{ default "::" .Site.Params.titleSeparator }} {{ .Site.Title }}
+    {{ .Title }}
     {{ end }}
     </title>
   </head>
@@ -115,7 +115,7 @@
     <script src="/pagefind/pagefind-ui.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ element: "#search" });
+            new PagefindUI({ element: "#search", showEmptyFilters: false });
         });
     </script>
   </body>

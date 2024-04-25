@@ -113,6 +113,7 @@
       "d-flex",
       "d-flex-inline-list",
       "d-none",
+      "data-pagefind-ignore",
       "display-4",
       "display-6",
       "end-page",

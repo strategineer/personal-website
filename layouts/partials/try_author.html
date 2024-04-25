@@ -3,7 +3,7 @@
   {{ range $authors }}
     <li class="list-inline-item li-inline">
       {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-      <a href="{{ .Permalink }}">{{ $pretty_author }}</a>
+      <a href="{{ .Permalink }}"><span data-pagefind-filter="author">{{ $pretty_author }}</span></a>
     </li>
   {{ end }}
 {{ end }}

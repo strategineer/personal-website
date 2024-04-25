@@ -1,12 +1,21 @@
 {{ $tag_name := "/tags" | printf "%s%s" .Section }}
 {{ $tags := (.GetTerms $tag_name ) }}
+{{ $is_page := eq .Kind "page" }}
 {{ if $tags }}
   <div class="d-flex justify-content-center d-flex-inline-list text-center">
     <ul class="list-inline ul-inline">
       {{ range $tags }}
         <li class="list-inline-item li-inline">
           {{ $pretty_tag := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-          <a href="{{ .Permalink }}">{{ $pretty_tag }}</a>
+          <a href="{{ .Permalink }}">
+            {{ if $is_page }}
+              <span data-pagefind-filter="tag">
+              {{ $pretty_tag }}
+              </span>
+            {{ else }}
+              {{ $pretty_tag }}
+            {{ end }}
+          </a>
         </li>
       {{ end }}
     </ul>

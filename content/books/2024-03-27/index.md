@@ -1,6 +1,6 @@
 ---
 authors:
-  - Ursula. K Le Guin
+  - Ursula K. Le Guin
 books/tags:
   - fiction
   - fantasy
