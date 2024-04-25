@@ -1,12 +1,12 @@
 ---
 authors: Iain Reid
 books/tags:
-- fiction
-- trash
+  - fiction
+  - trash
 date: 2023-07-04
 params:
-  isbn13: '9781982152611'
-  year: '2020'
+  isbn13: "9781982152611"
+  year: "2020"
 star_rating: 1
 title: I'm Thinking Of Ending Things
 ---

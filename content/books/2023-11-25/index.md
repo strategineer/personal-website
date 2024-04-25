@@ -1,13 +1,13 @@
 ---
 authors: Lu Dongbin
 books/tags:
-- philosophy
-- trash
-- DNF
+  - philosophy
+  - trash
+  - DNF
 date: 2023-11-25
 params:
-  isbn13: '9780156799805'
-  year: '1962'
+  isbn13: "9780156799805"
+  year: "1962"
 star_rating: 1
 title: The Secret Of The Golden Flower - A Chinese Book Of Life
 ---

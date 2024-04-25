@@ -1,11 +1,11 @@
 ---
 authors:
-- Robert Jordan
+  - Robert Jordan
 books/tags:
-- unowned
+  - unowned
 date: 1800-03-05
 params:
-  isbn13: '9781250251510'
+  isbn13: "9781250251510"
 title: Wheel of Time Premium Boxed Set I
 weight: 1
 ---

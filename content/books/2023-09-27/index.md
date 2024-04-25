@@ -1,13 +1,13 @@
 ---
 authors:
-- V. E. Schwab
+  - V. E. Schwab
 books/tags:
-- fiction
+  - fiction
 date: 2023-09-27
 params:
-  isbn13: '9781783290215'
+  isbn13: "9781783290215"
   series: Villains
-  year: '2014'
+  year: "2014"
 star_rating: 3
 title: Vicious
 ---

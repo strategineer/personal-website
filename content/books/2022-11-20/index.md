@@ -1,13 +1,13 @@
 ---
 authors: Lindsay Ellis
 books/tags:
-- fiction
-- science fiction
+  - fiction
+  - science fiction
 date: 2022-11-20
 params:
-  isbn13: '9781250830227'
+  isbn13: "9781250830227"
   series: Noumena
-  year: '2022'
+  year: "2022"
 star_rating: 2
 title: Truth Of The Divine - A Novel
 ---

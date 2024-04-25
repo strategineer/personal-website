@@ -19,7 +19,7 @@ I'm [always been in 💖 with words](/blog/2022-01-14/) but, somehow, I've gone 
 
 (┛◉Д◉)┛彡┻━┻
 
-(┛ಠ\_ಠ)┛彡┻━┻
+(┛ಠ_ಠ)┛彡┻━┻
 
 ┏━┓┏━┓┏━┓ ︵ /(^.^/)
 
@@ -47,7 +47,7 @@ In Asia, kaomoji were used in similar ways.
 
 ^\_^
 
-o\_O
+o_O
 
 ¯\\\_(ツ)\_/¯
 

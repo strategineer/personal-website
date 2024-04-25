@@ -1,12 +1,12 @@
 ---
 authors:
-- Eoin Colfer
+  - Eoin Colfer
 books/tags:
-- unowned
+  - unowned
 date: 1800-02-21
 params:
-  isbn13: '9780786819140'
-  year: '2003'
+  isbn13: "9780786819140"
+  year: "2003"
 title: Artemis Fowl The Eternity Code
 weight: 1
 ---

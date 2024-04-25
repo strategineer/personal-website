@@ -1,12 +1,12 @@
 ---
 authors:
-- Kenneth Oppel
+  - Kenneth Oppel
 books/tags:
-- unowned
+  - unowned
 date: 1800-01-24
 params:
-  isbn13: '9780002005371'
-  year: '2004'
+  isbn13: "9780002005371"
+  year: "2004"
 title: Airborn
 weight: 1
 ---

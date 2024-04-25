@@ -1,13 +1,13 @@
 ---
 authors: Jean-Paul Sartre
 books/tags:
-- philosophy
-- trash
-- DNF
+  - philosophy
+  - trash
+  - DNF
 date: 2023-10-25
 params:
-  isbn13: '9781982105440'
-  year: '2021'
+  isbn13: "9781982105440"
+  year: "2021"
 star_rating: 1
 title: Being And Nothingness
 ---
