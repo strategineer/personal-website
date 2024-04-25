@@ -2,7 +2,7 @@
 authors: Lady Wylde
 books/tags:
   - mythography
-  - DNF
+  - did-not-finish
 date: 2024-03-25
 params:
   dnf: 70%
@@ -14,8 +14,10 @@ title: Ancient Legends, Mystic Charms And Superstitions Of Ireland
 
 I'm not sure who to blame for how boring most of this book is:
 
-- The British for their empire and the consequences of that on the Irish
-- The Catholics for influencing the Irish and warping their existing folkloric beliefs
+- The British for their empire and the consequences of that on the Irish.
+
+- The Catholics for influencing the Irish and warping their existing folkloric beliefs.
+
 - Lady Wylde herself for presenting these stories in a very blunt and uninteresting way.
 
 All of the above?

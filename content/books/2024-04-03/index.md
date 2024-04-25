@@ -28,7 +28,9 @@ The GAMMA mod pack for S.T.A.L.K.E.R. which I've played recently is fantastic an
 Thoughts after reading the whole thing:
 
 - Fantastic!
+
 - The book, the movie and the video game series are all doing different things but the book is where it all began -- Capturing the imagination of many people and eventually leading to the movie and the games.
+
 - It's short but manages to present a large span of time from a few different perspectives: mainly Red's, who's compelled to keep returning to the Zone over and over again despite the gigantic risk involved.
 
 I loved it, I'm very glad it caught me by surprise at the book store. I just turned around and it was right there in front of me. Like an artifact from the Zone, maybe it had a mind of its own.

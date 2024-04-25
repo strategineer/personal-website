@@ -3,7 +3,7 @@ authors:
   - Andrew Loomis
 books/tags:
   - art
-  - dnf
+  - did-not-finish
 date: 2018-04-18
 params:
   isbn13: "9780857687609"

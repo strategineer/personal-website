@@ -37,7 +37,9 @@ Their relationship is undeniably toxic in SO MANY ways, which is fine, but I fin
 What do I like about this book?
 
 - Gideon is cool (but she should be in another book).
+
 - The setting is cool (but certain details are inconsistent with the rest of what's presented and throw me off, eg. What is the economic system that is supplying the Ninth's Tomb planet with the titty mags and comic books that Gideon reads? Who's producing them and why?)
+
 - The location of the murder mystery is cool (but it's told from the perspective of a clueless character who just walks around, hangs out, then sometimes people die and eventually someone explains to her what's actually happening).
 
 I'm conflicted on this one. I think if this book had sex in it instead of just being undeniably horny at all times maybe that would push me over the edge and get me to recommend this book.

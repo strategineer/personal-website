@@ -4,7 +4,7 @@ authors:
 books/tags:
   - philosophy
   - trash
-  - DNF
+  - did-not-finish
 date: 2023-09-18
 params:
   dnf: 50%

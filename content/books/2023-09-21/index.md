@@ -29,7 +29,9 @@ Gregor doesn't speak like a child, in a lot of ways he's a grown ass man in a bo
 This is fine because:
 
 1. It makes it easier for me to step into Gregor's shoes.
+
 2. It makes him more interesting.
+
 3. Trauma forces you to grow up quicker than normal.
 
 Gregor is old at heart and he's been through some shit. He's depressed as hell because he misses his dad.

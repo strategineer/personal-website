@@ -3,7 +3,7 @@ authors: Walter M. Miller Jr.
 books/tags:
   - fiction
   - post-apocalyptic
-  - DNF
+  - did-not-finish
 date: 2023-10-26
 params:
   isbn13: "9780060892999"

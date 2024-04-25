@@ -4,7 +4,7 @@ authors:
   - Barry Nalebuff
 books/tags:
   - unowned
-  - dnf
+  - did-not-finish
   - non-fiction
 date: 2021-12-20
 params:

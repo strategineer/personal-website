@@ -27,6 +27,7 @@ KISS
 Cool but the way the aliens are dealt with is wack
 
 - nine hibiscus dunking her hands into the alien corpse
+
 - her asking if it's a mammal, bro what does it matter if it's breasts secrete milk
 
 ---
@@ -104,7 +105,9 @@ Author's note: this review is a tad satirical. Don't take me too seriously but p
 Here's a few reasons why you might give A Desolation Called Peace by Arkady Martine a 5 star review.
 
 - It won the Hugo award for best novel, just like the previous book in the series. Other people seem to like it, I guess I should like it too?
+
 - Both books in the series combined come out to about 1 thousand pages. After spending that much time with a series, it must be good because otherwise look at all this time I've wasted (Sunk Cost Fallacy)
+
 - I really loved A Memory Called Empire, I guess I like the sequel too?
 
 I respect your point of view even if you disagree with mine. But it's so confusing to me, seeing so many people give this novel a perfect score and gush about it, while completely neglecting the aspects of it that are objectively bad.
@@ -160,7 +163,9 @@ No, I opened my book at a random page and found relevant examples each time beca
 Reading through A Desolation Called Peace has driven me to the brink of insanity and so I find myself ready and able to talk shit about any part of it.
 
 - Arkady Martine's ignorance about biology and linguistics and her decision to hinge her entire novel on these topics that she clearly knows less than nothing about is infuriating.
+
 - Her fixation on the fact that these aliens are mammals (well sort of, wink wink) and how apparently that ISN'T a completely arbitrary distinction to make is wild. If these aliens secret milk out of their breasts, have vertebra and shit, it is not plot critical, please do not fixate on their mammalness.
+
 - Don't get me started on the title of the novel. Cynically, I understand the sequel of a popular book should probably use a similar naming scheme to the first novel to make it clear that it's a sequel and in doing so sell more copies. But, come on, A Desolation Called Peace, is real dumb.
 
 I feel betrayed by the Goodreads and the science fiction community at large for promoting the apparent perfection of this novel.
@@ -186,7 +191,9 @@ It's clear to me from reading this book closely, that it was rushed to the print
 Open the book on any page, put your finger anywhere to find:
 
 - Omnipresent awkward run-on sentences that are begging to be trimmed by a competent editor.
+
 - Multiple POV characters who all suffer from the same never ending stream of consciousness narrative voice that is a pain to read.
+
 - Some absolutely baffling ignorance about aliens, linguistics, the definition of the word "spy" and basic biology.
 
 I've rated the book 1 star although it's probably deserving of more (maybe a 2 or a 3), but I need to fight the good fight and do my part to pull this book back into the void where it belongs.

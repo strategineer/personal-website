@@ -3,7 +3,7 @@ authors: Emily Bronte
 books/tags:
   - fiction
   - trash
-  - DNF
+  - did-not-finish
 date: 2023-11-23
 params:
   dnf: p. 7

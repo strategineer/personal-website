@@ -3,7 +3,7 @@ authors: Lu Dongbin
 books/tags:
   - philosophy
   - trash
-  - DNF
+  - did-not-finish
 date: 2023-11-25
 params:
   isbn13: "9780156799805"
@@ -13,7 +13,9 @@ title: The Secret Of The Golden Flower - A Chinese Book Of Life
 ---
 
 1. Conserve your semen.
+
 2. Achieve immortality.
+
 3. Rejoice.
 
 <!--more-->

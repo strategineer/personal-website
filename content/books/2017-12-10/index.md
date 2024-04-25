@@ -3,7 +3,7 @@ authors:
   - Yoshihiro Tatsumi
 books/tags:
   - graphic novel
-  - dnf
+  - did-not-finish
 date: 2017-12-10
 params:
   isbn13: "9781897299746"

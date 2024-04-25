@@ -3,7 +3,7 @@ authors: Jean-Paul Sartre
 books/tags:
   - philosophy
   - trash
-  - DNF
+  - did-not-finish
 date: 2023-10-25
 params:
   isbn13: "9781982105440"

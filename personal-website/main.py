@@ -221,11 +221,13 @@ def find_isbns():
 
 def convert_to_goodreads_review_format(content, filename):
   # todo write tests
+  content = re.sub("^(-)(\s*)", "<br/>\g<1>", content)
   content = re.sub("#+\s*(.+)\s*\n?", "||| \g<1> |||<br/>", content)
-  content = re.sub("\[([^]]+)\]\(([^]]+)\)", "<a href=\"https://strategineer.com\g<2>\">\g<1></a>", content)
+  content = re.sub("\[([^]]+)\]\(([^)]+)\)", "<a href=\"https://strategineer.com\g<2>\">\g<1></a>", content)
   # todo ensure that shared images used by many reviews (reaction gifs etc.) that are linked, also work 
   image_path = Path(filename).parent.as_posix().strip("content/")
   content = re.sub("!\[\]\((.+)\)", f"<img src=\"https://strategineer.com/{image_path}/\g<1>\" width=\"40\" height=\"100\" />", content)
+  content = re.sub("^(\d+\.)(\s*)", "<br/>\g<1>\g<2>", content)
   content = content.replace("<!--more-->", "")
   content = content.replace("\n\n", "<br/><br/>")
   content = content.replace("\n", " ")
@@ -239,35 +241,40 @@ def convert_to_goodreads_review_format(content, filename):
   content = re.sub('(\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<i>', content)
   # ... convert the rest to the closing.
   content = content.replace("*", "</i>")
-  content = re.sub("[^\-]---[^\-]", "------------", content)
-  content = content.replace(" - ", "<br/>- ")
+  content = re.sub("[^-]---[^-]", "", content)
   while True:
     try:
       content.index("  ")
     except ValueError:
       break
     content = content.replace("  ", " ")
-  content = content.replace("<br/> ", "<br/>")
   while True:
     try:
       content.index("<br/> ")
     except ValueError:
       break
     content = content.replace("<br/> ", "<br/>")
+  # todo figure how where this is being added
+  content = content.replace("<br/br/>", "")
   while True:
     try:
       content.index("<br/><br/><br/>")
     except ValueError:
       break
     content = content.replace("<br/><br/><br/>", "<br/><br/>")
-  content = content.strip("<br/>")
+  # todo figure out what's generating this.
   return content.strip()
 
 @click.command()
-def goodreads_csv():
-  with open('exports/export.csv', 'w', newline='') as csvfile:
+@click.option("--sg", is_flag=True, default=False)
+@click.option('--isbn', multiple=True, default=[])
+@click.option('--date', type=click.DateTime(formats=["%Y-%m-%d"]))
+@click.option('--title')
+def goodreads_csv(sg, isbn, date, title):
+  isbn_suffix  = "_".join(isbn)
+  with open(f'exports/export{isbn_suffix}_{title}.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    writer.writerow(["ISBN13", "Date Read", "Bookshelves", "Exclusive Shelf", "Read Count", "My Rating", "My Review"])
+    writer.writerow(["ISBN13", "Date Read", "Bookshelves", "Exclusive Shelf", "Read Count", "My Rating", "My Review", "Owned Copies"])
     filenames = glob.glob('content/books/*/index.md')
     for filename in filenames:
       with open(filename) as f:
@@ -278,6 +285,13 @@ def goodreads_csv():
           continue
       try:
         isbn13 = post.metadata.get("params", {}).get("isbn13")
+        if isbn and isbn13 not in isbn:
+          continue
+        post_date = post.metadata.get("date")
+        if date is not None and post_date > date:
+          continue
+        if title is not None and post.metadata.get("title").lower() != title.lower():
+          continue
         is_draft = post.metadata.get("draft", False)
         if isbn13 is not None and not is_draft:
           tags = post.metadata["books/tags"]
@@ -288,8 +302,10 @@ def goodreads_csv():
             exclusive_shelf = "to-read"
           if "unowned" in tags:
             exclusive_shelf = "read"
+          if sg and "did-not-finish" in tags:
+            exclusive_shelf = "did-not-finish"
           
-          if exclusive_shelf != "currently-reading":
+          if exclusive_shelf not in ["did-not-finish", "currently-reading"]:
             tags += [exclusive_shelf]
           writer.writerow([
             isbn13,                                          # ISBN13
@@ -298,7 +314,8 @@ def goodreads_csv():
             exclusive_shelf,                                 # Exclusive Shelf
             1 if exclusive_shelf == "read" else 0,           # Read Count 
             post.metadata.get("star_rating", 0),             # My Rating
-            convert_to_goodreads_review_format(post.content, filename) # My Review
+            convert_to_goodreads_review_format(post.content, filename), # My Review
+            1 if "unowned" not in tags else 0 
           ])
       except Exception as e:
         print(e)
