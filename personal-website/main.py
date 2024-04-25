@@ -10,6 +10,8 @@ from pathlib import Path
 from datetime import date, timedelta
 from time import sleep
 
+from git import Repo
+from gitdb.exc import BadName
 from PIL import Image
 from mergedeep import merge
 import click
@@ -262,7 +264,8 @@ def convert_to_goodreads_review_format(content, filename):
     except ValueError:
       break
     content = content.replace("<br/><br/><br/>", "<br/><br/>")
-  # todo figure out what's generating this.
+  content = content.replace("<br/><br/><spoiler><br/><br/>", "<br/><spoiler><br/>")
+  content = content.replace("<br/><br/></spoiler><br/><br/>", "<br/></spoiler><br/>")
   return content.strip()
 
 @click.command()
@@ -270,13 +273,42 @@ def convert_to_goodreads_review_format(content, filename):
 @click.option('--isbn', multiple=True, default=[])
 @click.option('--date', type=click.DateTime(formats=["%Y-%m-%d"]))
 @click.option('--title')
-def goodreads_csv(sg, isbn, date, title):
+@click.option('--diff', is_flag=True, default=False)
+def goodreads_csv(sg, isbn, date, title, diff):
+  # todo save the git commit we're on so we can generate a diff csv of only changed files
+  if diff and (title or date or isbn):
+    raise "The diff option is mutually exclusive with all other options"
+  changed_files = []
+  repo = None
   isbn_suffix  = "_".join(isbn)
-  with open(f'exports/export{isbn_suffix}_{title}.csv', 'w', newline='') as csvfile:
+  export_filename = f'exports/export{isbn_suffix}_{title}.csv'
+  commit_filename = "goodreads_export.commit"
+  if diff:
+    with open(commit_filename, 'r') as handler:
+      old_commit = "".join(handler.readlines()).strip()
+    
+    repo = Repo(os.getcwd())
+    print(repo)
+    diffs = repo.index.diff(None)
+    try:
+      if old_commit and repo.index.diff(old_commit):
+        diffs += repo.index.diff(old_commit)
+    except BadName:
+      pass
+    # todo find files in diffs
+    changed_files = []
+    for d in diffs:
+      changed_files += re.findall("content/books/\d\d\d\d-\d\d-\d\d/index.md", str(d))
+    export_filename = f'exports/export_{str(repo.head.commit)}.csv'
+    
+  with open(export_filename, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(["ISBN13", "Date Read", "Bookshelves", "Exclusive Shelf", "Read Count", "My Rating", "My Review", "Owned Copies"])
     filenames = glob.glob('content/books/*/index.md')
     for filename in filenames:
+      if diff and Path(filename).as_posix() not in changed_files:
+        continue
+      print(f"Handling file {filename}")
       with open(filename) as f:
         try:
           post = frontmatter.load(f)
@@ -321,6 +353,10 @@ def goodreads_csv(sg, isbn, date, title):
         print(e)
         print(f"Failed to write row for {filename}")
         continue
+  print(f"Wrote csv to {export_filename}")
+  if diff:
+    with open(commit_filename, 'w') as handler:
+      handler.writelines([str(repo.head.commit)])
 
 @click.command()
 def normalize_dates():

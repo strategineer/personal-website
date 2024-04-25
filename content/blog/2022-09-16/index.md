@@ -39,6 +39,7 @@ Bouldering is **available all year round**.
 Living in Canada makes it harder for me to stay fit during its harsh cold winter months. Not being able to bike during the winter presents a challenge because:
 
 1. I can't stay fit during the winter as easily (I don't want to bike on a trainer, that's boring).
+
 2. By the time summer rolls around, I haven't been biking for months and getting back into the habit is much harder than it needs to be.
 
 Thankfully, I won't have that problem with bouldering because I can go to an indoor bouldering gym all year round.

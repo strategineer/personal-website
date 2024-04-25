@@ -30,8 +30,11 @@ If you've ever wondered why a single game can have literally hundreds of differe
 Here's a few other gripes I have with DND:
 
 1. The rules are spread out in a bunch of different rulebooks which makes it hard to play the game.
+
 2. The crunchiness of the rules makes it difficult to improvise adventures on the fly.
+
 3. The probability distribution of the legacy twenty-sided die used for important dice rolls makes it so you're just as likely to be bumbling around with your pants on your head as you are to be accomplishing incredible displays of skill.
+
 4. A fantasy setting, unless handled carefully, can be boring to roleplay in. Being tropey and having a hard line between good and evil means that there's not much opportunity for players to play in the space between.
 
 Thankfully, it doesn't have to be this way. There have (and will continue to be) many people seeking out roleplaying experiences outside of what DND can provide.
