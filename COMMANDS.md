@@ -1,3 +1,11 @@
+Generate delta .csv file to upload to goodreads based on added/changed book data
+
+```
+poetry run py -u "src/mycli/main.py" upload
+```
+
+
+
 Increase the vertical extent of an image so that highball cocktails don't appear as gigantic images
 
 ```
