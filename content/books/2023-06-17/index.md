@@ -3,6 +3,7 @@ authors:
   - Holly Smale
 books/tags:
   - fiction
+  - autism
   - slay
 date: "2023-06-17"
 params:

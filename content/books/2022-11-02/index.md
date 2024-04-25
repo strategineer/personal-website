@@ -3,7 +3,7 @@ authors:
   - Pelle Nilsson
   - Johan Nohr
 books/tags:
-  - tabletop roleplaying
+  - tabletop
 date: "2022-11-02"
 params:
   isbn13: "9789188805645"

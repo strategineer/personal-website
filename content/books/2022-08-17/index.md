@@ -1,7 +1,7 @@
 ---
 authors: Micheal Sands
 books/tags:
-  - tabletop roleplaying
+  - tabletop
 date: "2022-08-17"
 params:
   isbn13: "9781613170922"

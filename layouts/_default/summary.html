@@ -1,10 +1,10 @@
 {{ $is_books := eq .Section "books" }}
 {{ $is_owned_but_unread_book := and $is_books (in (index .Params "books/tags") "owned-but-unread") }}
-{{ $is_unowned_book := and $is_books (in (index .Params "books/tags") "unowned") }}
 
-{{ if and (and (not .Params.exclude_from_summary) (not $is_owned_but_unread_book) (not $is_unowned_book)) }}
+{{ if not .IsNode }}
+{{ if and (not .Params.exclude_from_summary) (not $is_owned_but_unread_book) }}
 {{ $more_to_read := ne (len (trim .Summary " \n\r")) (len (trim .Content " \n\r"))}}
-{{ $is_ramble_blog_post := and (eq .Section "blog")  (in (index .Params "blog/tags") "ramble") }}
+{{ $is_ramble_blog_post := and (eq .Section "blog") (in (index .Params "blog/tags") "ramble") }}
 <article class="post-summary">
   {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
   {{ $summary_classes := cond $is_less_important "less-important" "" }}
@@ -97,4 +97,5 @@
   </div>
 </article>
 <hr>
+{{ end }}
 {{ end }}

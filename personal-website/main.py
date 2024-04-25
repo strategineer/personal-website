@@ -261,7 +261,7 @@ def convert_to_goodreads_review_format(content, filename):
       break
     content = content.replace("<br/><br/><br/>", "<br/><br/>")
   content = content.strip("<br/>")
-  return content
+  return content.strip()
 
 @click.command()
 def goodreads_csv():
@@ -320,6 +320,10 @@ def normalize_dates():
       post.metadata["date"] = folder_date
       if "owned-but-unread" in post.metadata["books/tags"]:
         post.metadata["books/tags"].remove("owned-but-unread")
+      if "weight" in post.metadata:
+        del post.metadata["weight"]
+      if "star_rating" not in post.metadata:
+        post.metadata["star_rating"] = 0
       write_post(post, filename)
 
 cli.add_command(import_scans)

@@ -5,6 +5,8 @@ authors:
   - Ralph Johnson
   - John Vlissides
 date: "2012-09-01"
+books/tags:
+  - reference
 params:
   isbn13: "9780201633610"
   year: "1994"

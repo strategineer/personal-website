@@ -1,7 +1,7 @@
 ---
 authors: Ben Nielson
 books/tags:
-  - tabletop roleplaying
+  - tabletop
 date: "2022-11-01"
 params:
   isbn13: "9798367027891"
