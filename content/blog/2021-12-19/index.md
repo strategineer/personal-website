@@ -75,7 +75,7 @@ It's OK. I like a lot of Neil Gaiman's work (especially American Gods), his pass
 
 #### The Joy of Mixology, Revised and Updated Edition: The Consummate Guide to the Bartender's Craft by Gary Regan
 
-[Cocktails, Cocktails, Cocktails, Cocktails, Cocktails... Cocktails, Everybody!](https://strategineer.com/cocktails/)
+[Cocktails, Cocktails, Cocktails, Cocktails, Cocktails... Cocktails, Everybody!](/cocktails/)
 
 My buddy who's a bartender recommended this to me when I expressed interest in learning how to mix cocktails. It's got a bunch of good cocktail recipes and historical context for most of them (if you're into that kind of thing).
 

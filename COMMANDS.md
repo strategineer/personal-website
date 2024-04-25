@@ -26,3 +26,8 @@ Run tests
 ```
 poetry run pytest --pyargs mycli
 ```
+
+Compare csvs
+```
+poetry run csv-diff imported_csvs/export_2024_25_04.csv imported_csvs/export_2024_25_05.csv --key=ISBN13
+```

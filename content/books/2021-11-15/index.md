@@ -14,7 +14,7 @@ Everything you need to know about mixing cocktails.
 
 <!--more-->
 
-[Cocktails, Cocktails, Cocktails, Cocktails, Cocktails... Cocktails, Everybody!](https://strategineer.com/cocktails/)
+[Cocktails, Cocktails, Cocktails, Cocktails, Cocktails... Cocktails, Everybody!](/cocktails/)
 
 My buddy who's a bartender recommended this to me when I expressed interest in learning how to mix cocktails. It's got a bunch of good cocktail recipes and historical context for most of them (if you're into that kind of thing).
 

@@ -9,6 +9,7 @@ from io import BytesIO
 from pathlib import Path
 from datetime import date, timedelta
 from time import sleep
+from difflib import *
 
 from git import Repo
 from gitdb.exc import BadName
@@ -231,8 +232,10 @@ def convert_to_goodreads_review_format(content, filename):
   content = re.sub(r"\n(-)([^\n]+)", r"<br/>\g<1>\g<2>", content)
   # headers
   content = re.sub(r"#+\s*(.+)\s*\n?", r"||| \g<1> |||<br/>", content)
-  # links
-  content = re.sub(r"\[([^]]+)\]\(([^)]+)\)", r'<a href="https://strategineer.com\g<2>">\g<1></a>', content)
+  # local urls
+  content = re.sub(r"\[([^]]+)\]\((/[^)]+)\)", r'<a href="https://strategineer.com\g<2>">\g<1></a>', content)
+  # other urls
+  content = re.sub(r"\[([^]]+)\]\(([^)]+)\)", r'<a href="\g<2>">\g<1></a>', content)
   # todo ensure that shared images used by many reviews (reaction gifs etc.) that are linked, also work 
   # image links
   image_path = Path(filename).parent.as_posix().strip("content/")
@@ -284,14 +287,15 @@ def convert_to_goodreads_review_format(content, filename):
 @click.option('--date', type=click.DateTime(formats=["%Y-%m-%d"]))
 @click.option('--title')
 @click.option('--diff', is_flag=True, default=False)
-def goodreads_csv(sg, isbn, date, title, diff):
+@click.option('--filename')
+def goodreads_csv(sg, isbn, date, title, diff, filename):
   # todo save the git commit we're on so we can generate a diff csv of only changed files
   if diff and (title or date or isbn):
     raise "The diff option is mutually exclusive with all other options"
   changed_files = []
   repo = None
   isbn_suffix  = "_".join(isbn)
-  export_filename = f'exports/export{isbn_suffix}_{title}.csv'
+  export_filename = f'exports/export{isbn_suffix}_{title}.csv' if filename is None else filename
   commit_filename = "goodreads_export.commit"
   if diff:
     with open(commit_filename, 'r') as handler:
@@ -391,10 +395,28 @@ def normalize_dates():
         post.metadata["star_rating"] = 0
       write_post(post, filename)
 
+@click.command()
+@click.argument('old_file', type=click.File('r'))
+@click.argument('new_file', type=click.File('r'))
+@click.argument('out_file')
+def compare_csvs(old_file, new_file, out_file):
+    """Compare two csv FILENAME."""
+    old_rows = [r for r in csv.reader(old_file)]
+    new_rows = [r for r in csv.reader(new_file)]
+    i = 0
+    with open(out_file, 'w', newline='') as csvfile:
+      writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+      for a, b in zip(old_rows, new_rows):
+        if i == 0 or a != b:
+          writer.writerow(b)
+        i += 1
+
+
 cli.add_command(import_scans)
 cli.add_command(find_isbns)
 cli.add_command(goodreads_csv)
 cli.add_command(normalize_dates)
+cli.add_command(compare_csvs)
 
 if __name__ == '__main__':
     cli()

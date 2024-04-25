@@ -14,15 +14,7 @@ Because Internet: Understanding the New Rules of Language discusses how we expre
 
 <!--more-->
 
-I'm [always been in 💖 with words](/blog/2022-01-14/) but, somehow, I've gone through most of my life without studying linguistics at all.
-
-(ノಠ益ಠ)ノ彡┻━┻
-
-(┛◉Д◉)┛彡┻━┻
-
-(┛ಠ_ಠ)┛彡┻━┻
-
-┏━┓┏━┓┏━┓ ︵ /(^.^/)
+I'm [always been in love with words](/blog/2022-01-14/) but, somehow, I've gone through most of my life without studying linguistics at all.
 
 I started listening to [the Lingthusiasm podcast](https://lingthusiasm.com/) in early 2021. It took me a while (until early 2022) to read the book written by one of the hosts (Gretchen McCulloch), but here we are.
 
@@ -82,7 +74,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 I don't know how to end this.
 
-Let's metaphorically jump off this 🌉 together.
+Let's metaphorically jump off this bridge together.
 
 i like book
 

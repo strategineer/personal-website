@@ -11,6 +11,7 @@ import pytest
    (r"{{< /spoiler >}}", "</spoiler>"),
    ("\nblah\n", "blah"),
    ("[My link here](/books/2013-13-13)", "<a href=\"https://strategineer.com/books/2013-13-13\">My link here</a>"),
+   ("[Goodreads is kind of awful](https://www.goodreads.com/)", '<a href="https://www.goodreads.com/">Goodreads is kind of awful</a>'),
    ("Hi. \n\n I'm Strat", "Hi. <br/><br/>I'm Strat"),
    ("\n", ""),
    ("# My thoughts\nxyz", "||| My thoughts |||<br/>xyz"),
