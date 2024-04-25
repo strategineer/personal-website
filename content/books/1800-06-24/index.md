@@ -3,8 +3,7 @@ authors:
   - Junji Ito
 books/tags:
   - owned-but-unread
-date: 1800-06-24
-
+date: "1800-06-24"
 params:
   isbn13: "9781421561325"
   year: "2013"

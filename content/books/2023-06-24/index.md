@@ -4,10 +4,10 @@ books/tags:
   - fiction
   - fantasy
   - comic
-date: 2023-06-24
+date: "2023-06-24"
 params:
-  series: Death
   isbn13: "9780552148405"
+  series: Death
   year: "2002"
 star_rating: 4
 title: Thief Of Time - Discworld Novel 26

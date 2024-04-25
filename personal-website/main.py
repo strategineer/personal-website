@@ -305,9 +305,27 @@ def goodreads_csv():
         print(f"Failed to write row for {filename}")
         continue
 
+@click.command()
+def normalize_dates():
+  filenames = glob.glob('content/books/*/index.md')
+  for filename in filenames:
+    with open(filename) as f:
+      try:
+        post = frontmatter.load(f)
+      except UnicodeDecodeError:
+        print(f"Failed to load file {filename} with frontmatter parser due to unicode error")
+        continue
+    folder_date = Path(filename).parent.parts[-1]
+    if post.metadata["date"] != folder_date:
+      post.metadata["date"] = folder_date
+      if "owned-but-unread" in post.metadata["books/tags"]:
+        post.metadata["books/tags"].remove("owned-but-unread")
+      write_post(post, filename)
+
 cli.add_command(import_scans)
 cli.add_command(find_isbns)
 cli.add_command(goodreads_csv)
+cli.add_command(normalize_dates)
 
 if __name__ == '__main__':
     cli()

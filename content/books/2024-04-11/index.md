@@ -5,7 +5,7 @@ books/tags:
   - science fiction
   - space opera
   - trash
-date: 2024-04-11
+date: "2024-04-11"
 params:
   isbn13: "9781529001648"
   series: Teixcalaan

@@ -3,8 +3,7 @@ authors:
   - Theresa Regan
 books/tags:
   - owned-but-unread
-date: 1800-08-13
-
+date: "1800-08-13"
 params:
   isbn13: "9781946824912"
   year: "2021"

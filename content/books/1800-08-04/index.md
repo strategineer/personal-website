@@ -3,8 +3,7 @@ authors:
   - Neil Philip
 books/tags:
   - owned-but-unread
-date: 1800-08-04
-
+date: "1800-08-04"
 params:
   isbn13: "9781786787095"
   year: "2022"

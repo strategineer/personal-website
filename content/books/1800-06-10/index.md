@@ -3,8 +3,7 @@ authors:
   - Tamsyn Muir
 books/tags:
   - owned-but-unread
-date: 1800-06-10
-
+date: "1800-06-10"
 params:
   isbn13: "9781250899132"
   year: "2023"

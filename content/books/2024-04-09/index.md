@@ -4,7 +4,7 @@ authors:
 books/tags:
   - philosophy
   - slay
-date: 2024-04-09
+date: "2024-04-09"
 params:
   isbn13: "9781611807240"
   year: "2019"

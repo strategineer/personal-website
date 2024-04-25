@@ -4,7 +4,7 @@ authors:
   - Emily Wilson
 books/tags:
   - fiction
-date: 2024-01-27
+date: "2024-01-27"
 params:
   isbn13: "9781324001805"
   year: "2023"

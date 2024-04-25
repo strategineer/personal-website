@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: 2023-06-21
+date: "2023-06-21"
 params:
   isbn13: "9781473647688"
   year: "2021"

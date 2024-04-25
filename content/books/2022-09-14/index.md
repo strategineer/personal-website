@@ -4,7 +4,7 @@ books/tags:
   - non-fiction
   - philosophy
   - DNF
-date: 2022-09-14
+date: "2022-09-14"
 params:
   isbn13: "9780190052089"
   year: "2020"

@@ -5,7 +5,7 @@ authors:
 books/tags:
   - fiction
   - comic
-date: 2022-12-10
+date: "2022-12-10"
 params:
   isbn13: "9780552171892"
   year: "2015"

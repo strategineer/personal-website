@@ -4,7 +4,7 @@ authors:
   - Barry Nalebuff
 books/tags:
   - unowned
-date: 1800-02-08
+date: "1800-02-08"
 params:
   isbn13: "9780393337174"
   year: "2009"

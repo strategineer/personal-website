@@ -4,7 +4,7 @@ authors:
 books/tags:
   - philosophy
   - graphic novel
-date: 2024-04-24
+date: "2024-04-24"
 params:
   isbn13: "9780063347618"
   year: "2023"

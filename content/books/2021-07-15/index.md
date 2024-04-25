@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - graphic novel
-date: 2021-07-15
+date: "2021-07-15"
 params:
   isbn13: "9781974717477"
   year: "2020"

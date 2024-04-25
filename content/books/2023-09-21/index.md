@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - fantasy
   - middle-grade
-date: 2023-09-21
+date: "2023-09-21"
 params:
   isbn13: "9781407172583"
   year: "2016"

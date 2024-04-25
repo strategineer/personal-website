@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: 2023-10-10
+date: "2023-10-10"
 params:
   isbn13: "9780446676106"
   year: "2000"

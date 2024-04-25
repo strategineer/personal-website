@@ -3,8 +3,7 @@ authors:
   - Dan Simmons
 books/tags:
   - owned-but-unread
-date: 1800-04-20
-
+date: "1800-04-20"
 params:
   isbn13: "9780553082524"
   year: "1992"

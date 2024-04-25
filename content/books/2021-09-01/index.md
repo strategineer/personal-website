@@ -4,7 +4,7 @@ authors:
   - John Schoeffel
 books/tags:
   - non-fiction
-date: 2021-09-01
+date: "2021-09-01"
 params:
   isbn13: "9781565847033"
   year: "2002"

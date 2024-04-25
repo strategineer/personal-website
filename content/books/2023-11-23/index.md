@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - trash
   - DNF
-date: 2023-11-23
+date: "2023-11-23"
 params:
   dnf: p. 7
   isbn13: "9781840221893"

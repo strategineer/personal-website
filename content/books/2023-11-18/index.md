@@ -3,7 +3,7 @@ authors:
   - James D'Amato
 books/tags:
   - tabletop roleplaying
-date: 2023-11-18
+date: "2023-11-18"
 params:
   isbn13: "9781507212868"
   year: "2020"

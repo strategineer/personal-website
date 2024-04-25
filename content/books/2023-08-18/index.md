@@ -3,10 +3,10 @@ authors: V. E. Schwab
 books/tags:
   - fiction
   - fantasy
-date: 2023-08-18
+date: "2023-08-18"
 params:
-  series: Shades of Magic
   isbn13: "9780765376480"
+  series: Shades of Magic
   year: "2017"
 star_rating: 5
 title: A Gathering Of Shadows - A Novel

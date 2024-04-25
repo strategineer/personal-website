@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - fantasy
-date: 2024-02-29
+date: "2024-02-29"
 params:
   isbn13: "9780061671340"
   year: "2010"

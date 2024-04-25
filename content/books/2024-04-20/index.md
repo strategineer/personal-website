@@ -5,7 +5,7 @@ books/tags:
   - currently-reading
   - fiction
   - fantasy
-date: 2024-04-20
+date: "2024-04-20"
 params:
   isbn13: "9780547773728"
   series: Earthsea

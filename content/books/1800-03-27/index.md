@@ -3,8 +3,7 @@ authors:
   - Ursula K. Le Guin
 books/tags:
   - owned-but-unread
-date: 1800-03-27
-
+date: "1800-03-27"
 params:
   isbn13: "9780544611610"
   year: "2015"

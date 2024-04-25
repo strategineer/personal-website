@@ -6,7 +6,7 @@ books/tags:
   - fiction
   - science fiction
   - short story collection
-date: 2022-12-23
+date: "2022-12-23"
 params:
   isbn13: "9780374602666"
   year: "2022"

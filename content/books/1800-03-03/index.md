@@ -4,7 +4,7 @@ authors:
   - C. W. Marshall
 books/tags:
   - unowned
-date: 1800-03-03
+date: "1800-03-03"
 params:
   isbn13: "9780826428486"
   year: "2008"

@@ -4,7 +4,7 @@ books/tags:
   - non-fiction
   - climbing
   - trash
-date: 2022-09-16
+date: "2022-09-16"
 params:
   isbn13: "9780956428103"
   year: "2009"

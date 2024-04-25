@@ -3,8 +3,7 @@ authors:
   - Suzanne Collins
 books/tags:
   - owned-but-unread
-date: 1800-01-16
-
+date: "1800-01-16"
 params:
   isbn13: "9781338592320"
   year: "2019"

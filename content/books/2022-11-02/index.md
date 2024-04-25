@@ -4,7 +4,7 @@ authors:
   - Johan Nohr
 books/tags:
   - tabletop roleplaying
-date: 2022-11-02
+date: "2022-11-02"
 params:
   isbn13: "9789188805645"
   year: 2020

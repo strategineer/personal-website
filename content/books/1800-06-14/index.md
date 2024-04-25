@@ -4,8 +4,7 @@ authors:
   - Marie-Laure Del Vecchio
 books/tags:
   - owned-but-unread
-date: 1800-06-14
-
+date: "1800-06-14"
 params:
   isbn13: "9781399806855"
   year: "2023"

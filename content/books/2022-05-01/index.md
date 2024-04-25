@@ -2,7 +2,7 @@
 authors: Neil Postman
 books/tags:
   - non-fiction
-date: 2022-05-01
+date: "2022-05-01"
 params:
   isbn13: "9780143036531"
   year: "2005"

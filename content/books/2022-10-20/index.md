@@ -3,7 +3,7 @@ authors:
   - Francis Sanzaro
 books/tags:
   - non-fiction
-date: 2022-10-20
+date: "2022-10-20"
 params:
   isbn13: "9780992887650"
   year: "2021"

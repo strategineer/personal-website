@@ -1,10 +1,9 @@
 ---
 authors:
-  - "Games Workshop"
+  - Games Workshop
 books/tags:
   - owned-but-unread
-date: 1800-08-03
-
+date: "1800-08-03"
 params:
   isbn13: "9781785818493"
   year: "2017"

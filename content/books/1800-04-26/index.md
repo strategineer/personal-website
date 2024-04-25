@@ -3,8 +3,7 @@ authors:
   - Gretchen McCulloch
 books/tags:
   - owned-but-unread
-date: 1800-04-26
-
+date: "1800-04-26"
 params:
   isbn13: "9780735210936"
   year: "2019"

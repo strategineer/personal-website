@@ -5,7 +5,7 @@ authors:
 books/tags:
   - non-fiction
   - climbing
-date: 2022-09-15
+date: "2022-09-15"
 params:
   isbn13: "9780811733397"
   year: "2006"

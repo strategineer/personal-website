@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - slay
-date: 2023-05-30
+date: "2023-05-30"
 params:
   isbn13: "9781526622433"
   year: "2021"

@@ -5,10 +5,10 @@ books/tags:
   - fantasy
   - comic
   - slay
-date: 2023-06-23
+date: "2023-06-23"
 params:
-  series: Moist Von Lipwig
   isbn13: "9780552149433"
+  series: Moist Von Lipwig
   year: "2005"
 star_rating: 5
 title: Going Postal - Discworld Novel 33

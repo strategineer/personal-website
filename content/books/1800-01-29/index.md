@@ -4,7 +4,7 @@ authors:
   - Stephen J. Dubner
 books/tags:
   - unowned
-date: 1800-01-29
+date: "1800-01-29"
 params:
   isbn13: "9780061234002"
   year: "2006"

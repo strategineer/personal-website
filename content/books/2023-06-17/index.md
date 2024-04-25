@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - slay
-date: 2023-06-17
+date: "2023-06-17"
 params:
   isbn13: "9780778307877"
   year: "2023"

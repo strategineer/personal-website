@@ -6,7 +6,7 @@ authors:
 books/tags:
   - non-fiction
   - philosophy
-date: 2022-10-03
+date: "2022-10-03"
 params:
   isbn13: "9780197625798"
   year: "2022"

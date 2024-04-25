@@ -3,8 +3,7 @@ authors:
   - Hayao Miyazaki
 books/tags:
   - owned-but-unread
-date: 1800-06-23
-
+date: "1800-06-23"
 params:
   isbn13: "9781421550640"
   year: "2012"

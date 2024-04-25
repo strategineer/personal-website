@@ -116,17 +116,17 @@
         <div class="w-100"></div>
       {{ end }}
 
-      {{ $filtered_books := slice}}
+      {{ $filtered_books := slice }}
       {{ range $all_books }}
         {{ $book_tags := index .Params "books/tags" }}
         {{ if not (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (or (or (in $book_tags "trash") (in $book_tags "dnf") (and (not $is_owned_books) (in $book_tags "owned-but-unread")) )) (and (not $is_unowned_books) (in $book_tags "unowned"))))) }}
           {{ continue }}
         {{ end }}
-        {{ $filtered_books = $filtered_books | append .}}
+        {{ $filtered_books = $filtered_books | append . }}
       {{ end }}
-      
+
       {{ if eq (len $filtered_books) 0 }}
-      {{ continue }}
+        {{ continue }}
       {{ end }}
       <div class="col-lg-2 all-tags">
         <a href="{{ $t.Page.RelPermalink }}">

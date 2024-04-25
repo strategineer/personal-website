@@ -3,8 +3,7 @@ authors:
   - Kevin Crawford
 books/tags:
   - owned-but-unread
-date: 1800-01-30
-
+date: "1800-01-30"
 params:
   isbn13: "9781936673933"
   year: "2017"

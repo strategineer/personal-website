@@ -3,7 +3,7 @@ authors:
   - N. K. Jemisin
 books/tags:
   - fiction
-date: 2023-12-27
+date: "2023-12-27"
 params:
   isbn13: "9780316334006"
   year: "2014"

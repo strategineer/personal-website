@@ -4,8 +4,7 @@ authors:
   - Naoki Urasawa
 books/tags:
   - owned-but-unread
-date: 1800-01-12
-
+date: "1800-01-12"
 params:
   isbn13: "9781421519180"
   year: "2009"

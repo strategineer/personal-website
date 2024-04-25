@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - science fantasy
   - slay
-date: 2023-07-29
+date: "2023-07-29"
 params:
   isbn13: "9780316229296"
   series: The Broken Earth

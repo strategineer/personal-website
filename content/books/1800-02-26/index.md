@@ -3,8 +3,7 @@ authors:
   - Robert Brockway
 books/tags:
   - owned-but-unread
-date: 1800-02-26
-
+date: "1800-02-26"
 params:
   isbn13: "9780307464347"
   year: "2010"

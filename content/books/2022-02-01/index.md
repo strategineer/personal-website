@@ -3,7 +3,7 @@ authors: John Green
 books/tags:
   - non-fiction
   - trash
-date: 2022-02-01
+date: "2022-02-01"
 params:
   isbn13: "9780525555216"
   year: "2021"

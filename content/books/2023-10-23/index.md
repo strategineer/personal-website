@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - gothic
   - horror
-date: 2023-10-23
+date: "2023-10-23"
 params:
   isbn13: "9780143039976"
   year: "2006"

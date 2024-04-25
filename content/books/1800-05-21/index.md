@@ -3,8 +3,7 @@ authors:
   - Andrew Loomis
 books/tags:
   - owned-but-unread
-date: 1800-05-21
-
+date: "1800-05-21"
 params:
   isbn13: "9780857687609"
   year: "2013"

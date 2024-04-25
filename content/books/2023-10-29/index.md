@@ -3,7 +3,7 @@ authors: Agatha Christie
 books/tags:
   - fiction
   - detective fiction
-date: 2023-10-29
+date: "2023-10-29"
 params:
   isbn13: "9780062073495"
   year: "2011"

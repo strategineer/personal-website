@@ -4,10 +4,7 @@ authors:
   - Richard Helm
   - Ralph Johnson
   - John Vlissides
-books/tags:
-  - owned-but-unread
-date: 1800-01-03
-
+date: "2012-09-01"
 params:
   isbn13: "9780201633610"
   year: "1994"

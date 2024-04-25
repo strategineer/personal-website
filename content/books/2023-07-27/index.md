@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: 2023-07-27
+date: "2023-07-27"
 params:
   isbn13: "9781416556961"
   year: "2008"

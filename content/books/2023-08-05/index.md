@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - detective fiction
-date: 2023-08-05
+date: "2023-08-05"
 params:
   isbn13: "9780062073556"
   year: "2011"

@@ -3,8 +3,7 @@ authors:
   - Arthur C. Clarke
 books/tags:
   - owned-but-unread
-date: 1800-01-13
-
+date: "1800-01-13"
 params:
   isbn13: "9780905712826"
   year: "1988"

@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - fantasy
-date: 2023-11-14
+date: "2023-11-14"
 params:
   isbn13: "9781250244048"
   year: "2022"

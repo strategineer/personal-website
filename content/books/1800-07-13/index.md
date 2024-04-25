@@ -3,8 +3,7 @@ authors:
   - Douglas Adams
 books/tags:
   - owned-but-unread
-date: 1800-07-13
-
+date: "1800-07-13"
 params:
   isbn13: "9781529034554"
   year: "2020"

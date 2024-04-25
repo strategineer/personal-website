@@ -3,7 +3,7 @@ authors: Adrian Tchaikovsky
 books/tags:
   - fiction
   - science fiction
-date: 2023-06-28
+date: "2023-06-28"
 params:
   isbn13: "9781529087185"
   series: Children of Time

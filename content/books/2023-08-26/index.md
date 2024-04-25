@@ -3,7 +3,7 @@ authors:
   - Alec Nevala-Lee
 books/tags:
   - non-fiction
-date: 2023-08-26
+date: "2023-08-26"
 params:
   isbn13: "9780062571946"
   year: "2018"

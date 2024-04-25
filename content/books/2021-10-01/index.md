@@ -4,7 +4,7 @@ authors:
 books/tags:
   - non-fiction
   - slay
-date: 2021-10-01
+date: "2021-10-01"
 params:
   isbn13: "9780393349832"
   year: "2014"

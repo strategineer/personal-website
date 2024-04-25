@@ -6,7 +6,7 @@ books/tags:
   - science fiction
   - horror
   - slavic
-date: 2023-08-11
+date: "2023-08-11"
 params:
   isbn13: "9780156027601"
   year: "2002"

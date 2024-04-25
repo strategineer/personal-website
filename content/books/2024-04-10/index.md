@@ -5,7 +5,7 @@ books/tags:
   - currently-reading
   - fiction
   - science fantasy
-date: 2024-04-10
+date: "2024-04-10"
 params:
   isbn13: "9780316229241"
   series: The Broken Earth

@@ -4,7 +4,7 @@ books/tags:
   - fiction
   - science fiction
   - space opera
-date: 2024-03-29
+date: "2024-03-29"
 params:
   isbn13: "9781250186430"
   series: Teixcalaan

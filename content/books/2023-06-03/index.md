@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: 2023-06-03
+date: "2023-06-03"
 params:
   isbn13: "9781509865857"
   series: Children of Time

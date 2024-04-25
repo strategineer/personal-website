@@ -4,7 +4,7 @@ authors:
   - Jane English
 books/tags:
   - philosophy
-date: 2023-07-23
+date: "2023-07-23"
 params:
   isbn13: "9781401946593"
   year: "2014"

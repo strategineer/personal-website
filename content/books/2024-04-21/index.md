@@ -5,7 +5,7 @@ books/tags:
   - currently-reading
   - non-fiction
   - philosophy
-date: 2024-04-21
+date: "2024-04-21"
 params:
   isbn13: "9780807059739"
   year: "1971"

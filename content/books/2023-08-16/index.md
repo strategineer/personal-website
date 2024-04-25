@@ -3,10 +3,10 @@ authors: Adrian Tchaikovsky
 books/tags:
   - fiction
   - science fiction
-date: 2023-08-16
+date: "2023-08-16"
 params:
-  series: The Final Architecture
   isbn13: "9780316705851"
+  series: The Final Architecture
   year: "2021"
 star_rating: 5
 title: "Shards Of Earth: The Final Architecture Book 1"

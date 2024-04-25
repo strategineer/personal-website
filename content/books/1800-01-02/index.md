@@ -3,7 +3,7 @@ authors:
   - John McPhee
 books/tags:
   - owned-but-unread
-date: 1800-01-02
+date: "1800-01-02"
 params:
   isbn13: "9780374518738"
   year: "2000"

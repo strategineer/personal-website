@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - science fiction
   - space opera
-date: 2023-08-06
+date: "2023-08-06"
 params:
   isbn13: "9780765388889"
   series: The Interdependency

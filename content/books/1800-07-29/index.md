@@ -4,8 +4,7 @@ authors:
   - Wilhelm Grimm
 books/tags:
   - owned-but-unread
-date: 1800-07-29
-
+date: "1800-07-29"
 params:
   isbn13: "9781631067181"
   year: "2020"

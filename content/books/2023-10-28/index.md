@@ -3,7 +3,7 @@ authors:
   - Rob Wilkins
 books/tags:
   - non-fiction
-date: 2023-10-28
+date: "2023-10-28"
 params:
   isbn13: "9780857526649"
   year: "2022"

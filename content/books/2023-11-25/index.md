@@ -4,7 +4,7 @@ books/tags:
   - philosophy
   - trash
   - DNF
-date: 2023-11-25
+date: "2023-11-25"
 params:
   isbn13: "9780156799805"
   year: "1962"

@@ -3,7 +3,7 @@ authors:
   - Alan Davidson
 books/tags:
   - reference
-date: 2024-04-15
+date: "2024-04-15"
 params:
   isbn13: "9780192806819"
   year: "2006"

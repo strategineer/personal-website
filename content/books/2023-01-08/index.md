@@ -5,7 +5,7 @@ books/tags:
   - fiction
   - science fiction
   - dystopian
-date: 2023-01-08
+date: "2023-01-08"
 params:
   isbn13: "9780307356543"
   year: "2007"

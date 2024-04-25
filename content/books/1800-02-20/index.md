@@ -3,7 +3,7 @@ authors:
   - Eoin Colfer
 books/tags:
   - unowned
-date: 1800-02-20
+date: "1800-02-20"
 params:
   isbn13: "9780786808557"
   year: "2002"

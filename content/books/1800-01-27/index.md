@@ -5,8 +5,7 @@ authors:
   - Skip Williams
 books/tags:
   - owned-but-unread
-date: 1800-01-27
-
+date: "1800-01-27"
 params:
   isbn13: "9780786915507"
   year: "2000"

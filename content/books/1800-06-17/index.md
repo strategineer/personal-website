@@ -3,8 +3,7 @@ authors:
   - James Paul Gee
 books/tags:
   - owned-but-unread
-date: 1800-06-17
-
+date: "1800-06-17"
 params:
   isbn13: "9781403984531"
   year: "2007"
