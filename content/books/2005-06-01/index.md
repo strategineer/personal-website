@@ -8,7 +8,7 @@ params:
   isbn13: "9780007232741"
   year: "2006"
 title: The Dangerous Book For Boys
-weight: 1
+star_rating: 0
 ---
 
 <!--more-->
