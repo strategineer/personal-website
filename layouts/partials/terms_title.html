@@ -1,4 +1,4 @@
-{{ if and (ne .Data.Singular "author") (not (in (slice "books_owned" "books_unowned") .Section)) }}
+{{ if and (ne .Data.Singular "author") (not (in (slice "/books/owned/" "/books/unowned/") .RelPermalink)) }}
   <div
     class="container justify-content-center text-center page-title"
     data-pagefind-body

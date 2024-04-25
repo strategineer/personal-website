@@ -8,13 +8,13 @@
   {{ $p = "books/tags" }}
 {{ end }}
 
-{{ $is_owned_books := eq $p "books_owned" }}
+{{ $is_owned_books := eq .RelPermalink "/books/owned/" }}
 
 {{ if $is_owned_books }}
   {{ $p = "books/tags" }}
 {{ end }}
 
-{{ $is_unowned_books := eq $p "books_unowned" }}
+{{ $is_unowned_books := eq .RelPermalink "/books/unowned/" }}
 
 {{ if $is_unowned_books }}
   {{ $p = "books/tags" }}
@@ -81,14 +81,13 @@
     {{ end }}
     {{ $t := index $d "object" }}
     {{ if gt $t.Count 0 }}
-      {{ $pretty_tag := index $.Site.Data.tag_mapping $t.Term | default $t.Term }}
       {{ if eq $t.Page.Title "Fiction" }}
         {{ continue }}
       {{ end }}
-      {{ if eq $t.Page.Title "Unowned" }}
+      {{ if and $is_unowned_books (ne $t.Page.Title "Unowned") }}
         {{ continue }}
       {{ end }}
-      {{ if eq $t.Page.Title "Owned-but-Unread" }}
+      {{ if and $is_owned_books (ne $t.Page.Title "Owned-but-Unread") }}
         {{ continue }}
       {{ end }}
       {{ $i := 0 }}
@@ -116,13 +115,26 @@
         {{ $k = add $k 1 }}
         <div class="w-100"></div>
       {{ end }}
+
+      {{ $filtered_books := slice}}
+      {{ range $all_books }}
+        {{ $book_tags := index .Params "books/tags" }}
+        {{ if not (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (or (or (in $book_tags "trash") (in $book_tags "dnf") (and (not $is_owned_books) (in $book_tags "owned-but-unread")) )) (and (not $is_unowned_books) (in $book_tags "unowned"))))) }}
+          {{ continue }}
+        {{ end }}
+        {{ $filtered_books = $filtered_books | append .}}
+      {{ end }}
+      
+      {{ if eq (len $filtered_books) 0 }}
+      {{ continue }}
+      {{ end }}
       <div class="col-lg-2 all-tags">
         <a href="{{ $t.Page.RelPermalink }}">
           <span class="h3">{{ $t.Page.Title }}</span>
         </a>
       </div>
       {{ $k = add $k 1 }}
-      {{ range $all_books }}
+      {{ range $filtered_books }}
         {{ $book_tags := index .Params "books/tags" }}
         {{ if not (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "DNF") ) (or (or (or (in $book_tags "trash") (in $book_tags "dnf") (and (not $is_owned_books) (in $book_tags "owned-but-unread")) )) (and (not $is_unowned_books) (in $book_tags "unowned"))))) }}
           {{ continue }}
