@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "personal-website"
+name = "mycli"
 version = "0.1.0"
 description = ""
 authors = ["Bill Tyros <me@strategineer.com>"]
 readme = "README.md"
-packages = [{include = "personal_website"}]
+packages = [{include = "mycli"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -17,7 +17,15 @@ beautifulsoup4 = "^4.12.3"
 pillow = "^10.3.0"
 GitPython = "^3.1.43"
 
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = "src"

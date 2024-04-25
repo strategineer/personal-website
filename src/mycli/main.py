@@ -223,27 +223,34 @@ def find_isbns():
 
 def convert_to_goodreads_review_format(content, filename):
   # todo write tests
-  content = re.sub("^(-)(\s*)", "<br/>\g<1>", content)
-  content = re.sub("#+\s*(.+)\s*\n?", "||| \g<1> |||<br/>", content)
-  content = re.sub("\[([^]]+)\]\(([^)]+)\)", "<a href=\"https://strategineer.com\g<2>\">\g<1></a>", content)
+  # horizontal bar removal
+  content = re.sub(r"\n+---\n+", "<br/><br/>", content)
+  # numbered lists
+  content = re.sub(r"\n(\d+\.)([^\n]+)", r"<br/>\g<1>\g<2>", content)
+  # non-numbered lists
+  content = re.sub(r"\n(-)([^\n]+)", r"<br/>\g<1>\g<2>", content)
+  # headers
+  content = re.sub(r"#+\s*(.+)\s*\n?", r"||| \g<1> |||<br/>", content)
+  # links
+  content = re.sub(r"\[([^]]+)\]\(([^)]+)\)", r'<a href="https://strategineer.com\g<2>">\g<1></a>', content)
   # todo ensure that shared images used by many reviews (reaction gifs etc.) that are linked, also work 
+  # image links
   image_path = Path(filename).parent.as_posix().strip("content/")
-  content = re.sub("!\[\]\((.+)\)", f"<img src=\"https://strategineer.com/{image_path}/\g<1>\" width=\"40\" height=\"100\" />", content)
-  content = re.sub("^(\d+\.)(\s*)", "<br/>\g<1>\g<2>", content)
+  content = re.sub(r"!\[\]\((.+)\)", rf'<img src="https://strategineer.com/{image_path}/\g<1>" width="40" height="100" />', content)
+  # remove unneeded html
   content = content.replace("<!--more-->", "")
   content = content.replace("\n\n", "<br/><br/>")
-  content = content.replace("\n", " ")
+  content = content.replace("\n", "")
   content = content.replace(r"{{< spoiler >}}", "<spoiler>")
   content = content.replace(r"{{< /spoiler >}}", "</spoiler>")
   # Convert every other occurrence of **.
-  content = re.sub('(\*\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<b>', content)
+  content = re.sub(r'(\*\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<b>', content)
   # ... convert the rest to the closing.
   content = content.replace("**", "</b>")
   # Convert every other occurrence of *.
-  content = re.sub('(\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<i>', content)
+  content = re.sub(r'(\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<i>', content)
   # ... convert the rest to the closing.
   content = content.replace("*", "</i>")
-  content = re.sub("[^-]---[^-]", "", content)
   while True:
     try:
       content.index("  ")
@@ -266,6 +273,9 @@ def convert_to_goodreads_review_format(content, filename):
     content = content.replace("<br/><br/><br/>", "<br/><br/>")
   content = content.replace("<br/><br/><spoiler><br/><br/>", "<br/><spoiler><br/>")
   content = content.replace("<br/><br/></spoiler><br/><br/>", "<br/></spoiler><br/>")
+  # strip extra line breaks
+  content = re.sub(r"^(<br/>)+", "", content)
+  content = re.sub(r"(<br/>)+$", "", content)  
   return content.strip()
 
 @click.command()
@@ -298,7 +308,7 @@ def goodreads_csv(sg, isbn, date, title, diff):
     # todo find files in diffs
     changed_files = []
     for d in diffs:
-      changed_files += re.findall("content/books/\d\d\d\d-\d\d-\d\d/index.md", str(d))
+      changed_files += re.findall(r"content/books/\d\d\d\d-\d\d-\d\d/index.md", str(d))
     export_filename = f'exports/export_{str(repo.head.commit)}.csv'
     
   with open(export_filename, 'w', newline='') as csvfile:
