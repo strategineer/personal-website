@@ -51,7 +51,7 @@
     </title>
   </head>
   <body id="documentTop">
-    <div class="container-fluid">
+    <div class="container-fluid"> 
       {{ $is_readable := default .Params.is_readable true}}
       <div class="row no-margin justify-content-center">
         <div class="col-xl-12 main no-margin ">
@@ -115,7 +115,10 @@
     <script src="/pagefind/pagefind-ui.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ element: "#search", showEmptyFilters: false });
+            new PagefindUI({ 
+              element: "#search", 
+              showEmptyFilters: false
+            });
         });
     </script>
   </body>

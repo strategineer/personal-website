@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="books-content">
+  <article class="books-content">
     {{ partial "title" . }}
     <div class="col-auto text-center">
       {{ partial "try_author" . }}
@@ -25,5 +25,5 @@
       {{ end }}
       {{ .Content }}
     </div>
-  </div>
+  </article>
 {{ end }}

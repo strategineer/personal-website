@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="projects-content">
+  <article class="projects-content" data-pagefind-filter="author:Strat" data-pagefind-meta="author:Strat">
     {{ partial "title" . }}
     {{ partial "try_video" . }}
     {{ partial "try_images" . }}
@@ -15,5 +15,5 @@
     <div class="row justify-content-center readable">
       {{ .Content }}
     </div>
-  </div>
+  </article>
 {{ end }}

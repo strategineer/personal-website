@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="blog-content">
+  <article class="blog-content" data-pagefind-filter="author:Strat" data-pagefind-meta="author:Strat">
     {{ partial "title" . }}
     <div class="row justify-content-center">
       <div class="col-auto align-self-center text-center">
@@ -40,5 +40,5 @@
         {{ partial "contact_info" . }}
       </blockquote>
     </div>
-  </div>
+  </article>
 {{ end }}
