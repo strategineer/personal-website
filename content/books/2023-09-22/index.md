@@ -11,8 +11,7 @@ star_rating: 4
 title: The Crane Husband
 ---
 
-A short magical realism novel about a girl, her mother and her step father who's
-a human size crane, the bird that is.
+A short magical realism novel about a girl, her mother and her step father who's a human size crane, the bird that is.
 
 Hijinks ensue.
 

@@ -13,10 +13,8 @@ star_rating: 4
 title: The Consuming Fire
 ---
 
-Not my favorite John Scalzi novel but it was fun. I prefer when he doubles down
-on the absurd and comic modes.
+Not my favorite John Scalzi novel but it was fun. I prefer when he doubles down on the absurd and comic modes.
 
-This series is not that, although it does have its funny moments, but it's an
-enjoyable romp.
+This series is not that, although it does have its funny moments, but it's an enjoyable romp.
 
 <!--more-->

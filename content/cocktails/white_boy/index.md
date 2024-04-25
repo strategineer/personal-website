@@ -13,6 +13,5 @@ ingredients:
   - 1/2 oz mint syrup
 steps:
   - Squeeze the juice from the lime.
-  - Shake and strain all ingredients into an old fashioned glass with some ice
-    cubes.
+  - Shake and strain all ingredients into an old fashioned glass with some ice cubes.
 ---

@@ -1,10 +1,10 @@
-{{ if false }}
-  <nav class="footer">
-    <div class="d-flex justify-content-center col-12">
-      <div class="col-12">
-        {{ partial "article_paginator" . }}
-        {{ partial "recent_posts" . }}
-      </div>
+<nav class="footer">
+  <div class="d-flex justify-content-center col-12">
+    <div class="col-12">
+      {{ partial "article_paginator" . }}
+      {{ if false }}
+      {{ partial "recent_posts" . }}
+      {{ end }}
     </div>
-  </nav>
-{{ end }}
+  </div>
+</nav>

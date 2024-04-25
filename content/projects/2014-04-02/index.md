@@ -10,5 +10,4 @@ links:
 summary: 2D top down arcade shooter with online leaderboards.
 ---
 
-I developed Graveyard Rush DURING my last exams of my fourth semester at McGill
-University right before my second internship at CAE.
+I developed Graveyard Rush DURING my last exams of my fourth semester at McGill University right before my second internship at CAE.

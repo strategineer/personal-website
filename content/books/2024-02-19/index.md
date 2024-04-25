@@ -13,8 +13,7 @@ star_rating: 5
 title: Sword & Citadel - The Second Half Of The Book Of The New Sun
 ---
 
-A fantastic conclusion to the Book of the New Sun. Do not skip this one, it's
-cool, it's funny, it's wacky, it's begging to be read multiple times.
+A fantastic conclusion to the Book of the New Sun. Do not skip this one, it's cool, it's funny, it's wacky, it's begging to be read multiple times.
 
 If you've got the right group, this would make for a great book club book.
 

@@ -50,9 +50,10 @@ def fetch_and_write_thumbnail(isbn, filename):
       html = requests.get(url, headers=headers)
       soup = BeautifulSoup(html.text, features="html.parser")
       b = soup.find(attrs={'id':'landingImage'})
-      if b is not None:
-        break
-      thumbnail_src = b.attrs['src']
+      if b is None:
+        thumbnail_src = r.select_one('.s-image').attrs['src']
+      else:
+        thumbnail_src = b.attrs['src']
       img_data = requests.get(thumbnail_src).content
       with open(Path(filename).parent / 'thumbnail.jpg', 'wb') as handler:
         handler.write(img_data)
@@ -283,8 +284,10 @@ def goodreads_csv():
           exclusive_shelf = "read"
           if "currently-reading" in tags:
             exclusive_shelf = "currently-reading"
-          elif "owned-but-unread" in tags:
+          if "owned-but-unread" in tags:
             exclusive_shelf = "to-read"
+          if "unowned" in tags:
+            exclusive_shelf = "read"
           
           if exclusive_shelf != "currently-reading":
             tags += [exclusive_shelf]

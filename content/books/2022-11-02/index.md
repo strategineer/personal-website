@@ -12,8 +12,6 @@ star_rating: 4
 title: MÖRK BORG
 ---
 
-MÖRK BORG is a pitch-black apocalyptic fantasy RPG about lost souls and fools
-seeking redemption, forgiveness or the last remaining riches in a bleak and
-dying world.
+MÖRK BORG is a pitch-black apocalyptic fantasy RPG about lost souls and fools seeking redemption, forgiveness or the last remaining riches in a bleak and dying world.
 
 <!--more-->

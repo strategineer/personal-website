@@ -14,7 +14,6 @@ ingredients:
   - Club soda
 steps:
   - Squeeze the juice from the lime.
-  - Shake and strain all ingredients into an old fashioned glass with some ice
-    cubes.
+  - Shake and strain all ingredients into an old fashioned glass with some ice cubes.
   - Top with club soda.
 ---

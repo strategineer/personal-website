@@ -22,10 +22,6 @@ ingredients:
   - 3 tablespoons (45 ml) lime juice
   - 1/4 cup (10 g) chopped fresh cilantro
 steps:
-  - In a large saucepan, brown the onion and pepper in the butter. Add the meat
-    and brown thoroughly. Season with salt and pepper. Add the garlic and spices
-    and cook for 2 minutes while stirring.
-  - Add the remaining ingredients, except for the cilantro, and bring to a boil.
-    Simmer half-covered for 45 minutes or until the chili thickens. Add the
-    cilantro. Adjust the seasoning.
+  - In a large saucepan, brown the onion and pepper in the butter. Add the meat and brown thoroughly. Season with salt and pepper. Add the garlic and spices and cook for 2 minutes while stirring.
+  - Add the remaining ingredients, except for the cilantro, and bring to a boil. Simmer half-covered for 45 minutes or until the chili thickens. Add the cilantro. Adjust the seasoning.
 ---

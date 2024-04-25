@@ -13,7 +13,6 @@ ingredients:
   - Club soda
 steps:
   - Squeeze the juice from the lemon.
-  - Shake and strain all ingredients into an old fashioned glass with some ice
-    cubes.
+  - Shake and strain all ingredients into an old fashioned glass with some ice cubes.
   - Top up with club soda.
 ---

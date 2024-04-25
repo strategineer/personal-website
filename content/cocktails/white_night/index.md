@@ -14,6 +14,5 @@ ingredients:
   - fizzy water
 steps:
   - Squeeze the juice from the lime.
-  - Shake and strain all ingredients into a big fuck off glass with some ice
-    cubes. Top with fizzy water.
+  - Shake and strain all ingredients into a big fuck off glass with some ice cubes. Top with fizzy water.
 ---

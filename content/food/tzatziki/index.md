@@ -15,12 +15,10 @@ ingredients:
   - 1-12 cloves of garlic (diced)
   - 1 tsp of salt
 steps:
-  - Take one handful of grated cucumber at a time and squeeze it over the sink
-    to remove excess water.
+  - Take one handful of grated cucumber at a time and squeeze it over the sink to remove excess water.
   - Mix all the ingredients together in a large mixing bowl.
   - Set aside, covered, in refrigerator for 8h to let the flavors mix.
   - Serve with bread.
 ---
 
-- If you self identify as a basic person then use 1 clove of garlic, if you self
-  identify as a hairy smelly greek man then use up to 12 cloves of garlic.
+- If you self identify as a basic person then use 1 clove of garlic, if you self identify as a hairy smelly greek man then use up to 12 cloves of garlic.

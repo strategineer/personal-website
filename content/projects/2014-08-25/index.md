@@ -6,14 +6,12 @@ projects/tags:
   - Unity
 youtube_video_id: BpHJ3BNCliU
 links:
-  - "Read
-    Code,https://github.com/strategineer/experiments/tree/master/2014/08/ludum-dare-30"
+  - "Read Code,https://github.com/strategineer/experiments/tree/master/2014/08/ludum-dare-30"
   - "Play Now,https://github.com/strategineer/experiments/releases"
 summary: Puzzle game with procedurally generated levels.
 ---
 
-Black Box Bandit was developed using Unity in 48h during Ludum Dare 30 (theme:
-Connected Worlds).
+Black Box Bandit was developed using Unity in 48h during Ludum Dare 30 (theme: Connected Worlds).
 
 <blockquote class="blockquote">
 You are the Black Box Bandit. You travel through the Interwebs and destroy the black boxes of the Utech corporation's computer systems. <BR>

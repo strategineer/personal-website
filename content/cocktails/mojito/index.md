@@ -15,9 +15,7 @@ ingredients:
   - Club soda
   - 2 or 3 mint sprigs for garnish
 steps:
-  - Muddle the lime wedges, sugar, and mint leaves in a mixing glass until the
-    sugar is completely dissolved, all the juice is extracted from the limes,
-    and the mint is thoroughly integrated into the juice.
+  - Muddle the lime wedges, sugar, and mint leaves in a mixing glass until the sugar is completely dissolved, all the juice is extracted from the limes, and the mint is thoroughly integrated into the juice.
   - Add ice and the rum to the mixing glass
   - Shake and strain into a collins glass filled with crushed ice.
   - Top with club soda, and add the garnish.

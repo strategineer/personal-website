@@ -13,12 +13,9 @@ star_rating: 4
 title: A Memory Called Empire
 ---
 
-A Memory Called Empire has big "Hugo award winner" energy: an interesting
-premise, consistent and intriguing world building, a promising start and a
-propulsive ending.
+A Memory Called Empire has big "Hugo award winner" energy: an interesting premise, consistent and intriguing world building, a promising start and a propulsive ending.
 
-I loved my time with it and very excited to dig into the next book in the series
-although I suspect that it won't be as good.
+I loved my time with it and very excited to dig into the next book in the series although I suspect that it won't be as good.
 
 <!--more-->
 

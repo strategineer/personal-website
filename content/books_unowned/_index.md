@@ -1,7 +1,7 @@
 ---
 title: Strat's Bookshelf
 is_readable: true
-type: owned_books
+type: books_unowned
 cascade:
   header:
     text: "Name's Strat; I like reading hehe."

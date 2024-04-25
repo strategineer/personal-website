@@ -14,6 +14,5 @@ ingredients:
   - 1 maraschino cherry, for garnish
   - 1/2 orange wheel, for garnish
 steps:
-  - Shake and strain into a chilled sour glass or an ice-filled rocks glass. Add
-    the garnishes.
+  - Shake and strain into a chilled sour glass or an ice-filled rocks glass. Add the garnishes.
 ---

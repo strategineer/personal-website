@@ -12,7 +12,6 @@ star_rating: 2
 title: Remina
 ---
 
-Junji Ito is cool. Uzumaki is great. A lot of his other work is just OK. I think
-Remina is also just OK.
+Junji Ito is cool. Uzumaki is great. A lot of his other work is just OK. I think Remina is also just OK.
 
 <!--more-->

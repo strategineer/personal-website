@@ -4,8 +4,7 @@ date: 2020-11-14
 weight: 2
 food/tags:
   - dessert
-summary:
-  Simple yet delicious sliced banana sprinkled with cinnamon served with honey.
+summary: Simple yet delicious sliced banana sprinkled with cinnamon served with honey.
 servings: 1
 ingredients:
   - 1 banana

@@ -1,4 +1,4 @@
-{{ if and (ne .Data.Singular "author") (ne .Section "owned_books") }}
+{{ if and (ne .Data.Singular "author") (not (in (slice "books_owned" "books_unowned") .Section)) }}
   <div
     class="container justify-content-center text-center page-title"
     data-pagefind-body

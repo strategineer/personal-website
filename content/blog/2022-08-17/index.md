@@ -5,17 +5,11 @@ blog/tags:
   - reading
 ---
 
-Nick Riggle's "On Being Awesome: A Unified Theory of How Not to Suck" is a
-philosophy book that discusses awesomeness and suckiness in detail. It defines
-language to accurately describe and reason about the awesomeness and suckiness
-that you perceive in yourself and in others.
+Nick Riggle's "On Being Awesome: A Unified Theory of How Not to Suck" is a philosophy book that discusses awesomeness and suckiness in detail. It defines language to accurately describe and reason about the awesomeness and suckiness that you perceive in yourself and in others.
 
-According to Mr. Riggle, awesomeness and suckiness revolves all around _social
-openings_ which are moments when we can choose to break out of our norm-governed
-roles by expressing ourselves.[^1]
+According to Mr. Riggle, awesomeness and suckiness revolves all around _social openings_ which are moments when we can choose to break out of our norm-governed roles by expressing ourselves.[^1]
 
-Let's say you're buying a latte at your local coffee shop, and you're awesome,
-this is what that interaction might look like:
+Let's say you're buying a latte at your local coffee shop, and you're awesome, this is what that interaction might look like:
 
 Employee: Hi, what can I get for you today?
 
@@ -27,43 +21,20 @@ You: Small price to become human again. Here you go.
 
 Employee: ...
 
-> "Now, you have created a little social opening, by breaking the norms and
-> going off script, and making a little joke. [...] You've given the employee an
-> opportunity to recognize your sense of play and humor and react with a
-> response of his own. You thereby give him a chance to break out of his role
-> and express his individuality in response. If he takes up your offering in the
-> right way, then the result is a kind of mutual appreciation of
-> individuality."[^2]
+> "Now, you have created a little social opening, by breaking the norms and going off script, and making a little joke. [...] You've given the employee an opportunity to recognize your sense of play and humor and react with a response of his own. You thereby give him a chance to break out of his role and express his individuality in response. If he takes up your offering in the right way, then the result is a kind of mutual appreciation of individuality."[^2]
 
 It all boils down to this:
 
-> "Sucking is a matter of failing to take up social openings; not sucking is a
-> matter of taking them up and engaging; and being awesome is a matter of
-> creating them."[^3]
+> "Sucking is a matter of failing to take up social openings; not sucking is a matter of taking them up and engaging; and being awesome is a matter of creating them."[^3]
 
-Philosophy is the study of the fundamental nature of knowledge, reality and
-existence. On Being Awesome does not seek to give you answers about the meaning
-of life or the existence of God.
+Philosophy is the study of the fundamental nature of knowledge, reality and existence. On Being Awesome does not seek to give you answers about the meaning of life or the existence of God.
 
-It tries, and succeeds, to give you an understanding of what being awesome (or
-sucky) is. In doing so, it provides you with the means of becoming a more
-awesome version of yourself and surrounding yourself with awesome people.
+It tries, and succeeds, to give you an understanding of what being awesome (or sucky) is. In doing so, it provides you with the means of becoming a more awesome version of yourself and surrounding yourself with awesome people.
 
-The first half of the book covers what we've discussed so far, in much more
-detail, and gives plenty of compelling examples of awesomeness, suckiness and
-reasons to choose the former over the latter.
+The first half of the book covers what we've discussed so far, in much more detail, and gives plenty of compelling examples of awesomeness, suckiness and reasons to choose the former over the latter.
 
-The second half of the book covers... Well I haven't read it yet but I'm loving
-what I've read so far.
+The second half of the book covers... Well I haven't read it yet but I'm loving what I've read so far.
 
-[^1]:
-    Riggle, Nick. On Being Awesome: A Unified Theory of How Not to Suck. Penguin
-    Books, 2017, 19.
-
-[^2]:
-    Riggle, Nick. On Being Awesome: A Unified Theory of How Not to Suck. Penguin
-    Books, 2017, 21.
-
-[^3]:
-    Riggle, Nick. On Being Awesome: A Unified Theory of How Not to Suck. Penguin
-    Books, 2017, 88.
+[^1]: Riggle, Nick. On Being Awesome: A Unified Theory of How Not to Suck. Penguin Books, 2017, 19.
+[^2]: Riggle, Nick. On Being Awesome: A Unified Theory of How Not to Suck. Penguin Books, 2017, 21.
+[^3]: Riggle, Nick. On Being Awesome: A Unified Theory of How Not to Suck. Penguin Books, 2017, 88.

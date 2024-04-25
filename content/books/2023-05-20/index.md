@@ -16,7 +16,6 @@ title: Children Of Time
 
 A very human story with Alien aliens, AI/human constructs and time "travel".
 
-The first Adrian Tchaikovsky story I read and perhaps the best. Once you pick
-this book up, you won't be putting it back down until it's done.
+The first Adrian Tchaikovsky story I read and perhaps the best. Once you pick this book up, you won't be putting it back down until it's done.
 
 <!--more-->

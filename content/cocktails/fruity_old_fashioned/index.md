@@ -6,8 +6,7 @@ cocktails/tags:
   - whiskey
 weight: 3
 inspired_by: The Joy of Mixology by Gary Reagan (p. 259)
-summary:
-  An old fashioned is the preferred way of making bourbon enjoyable to drink.
+summary: An old fashioned is the preferred way of making bourbon enjoyable to drink.
 ingredients:
   - 1 sugar cube
   - 3 dashes Angostura bitters
@@ -15,6 +14,5 @@ ingredients:
   - 1/2 orange wheel
   - 3 oz bourbon
 steps:
-  - Muddle the sugar, bitters, cherry, and orange in an old-fashioned glass. Add
-    ice and the whiskey. Stir briefly.
+  - Muddle the sugar, bitters, cherry, and orange in an old-fashioned glass. Add ice and the whiskey. Stir briefly.
 ---

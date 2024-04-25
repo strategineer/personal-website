@@ -15,8 +15,6 @@ title: The Farthest Shore
 
 Hasn't aged as well as the first two books in the series IMO.
 
-It's kind of a retread of the first book with a little bit of the 80s crack
-epidemic and reganomics commentary spliced into it. It's not as evergreen as the
-other books.
+It's kind of a retread of the first book with a little bit of the 80s crack epidemic and reganomics commentary spliced into it. It's not as evergreen as the other books.
 
 <!--more-->
