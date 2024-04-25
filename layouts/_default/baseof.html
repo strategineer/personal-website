@@ -57,9 +57,11 @@
       <div class="row no-margin justify-content-center">
         <div class="col-xl-12 main no-margin ">
           {{ partial "header" . }}
+          {{ if ne .Section "cv" }}
           <div class="readable search">
             <div id="search"></div>
           </div>
+          {{ end }}
           {{ block "title" . }}
           {{ end }}
           {{ if $is_readable }}
