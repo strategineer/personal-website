@@ -86,10 +86,10 @@
         {{ continue }}
       {{ end }}
       {{ if eq $t.Page.Title "Unowned" }}
-      {{ continue }}
+        {{ continue }}
       {{ end }}
       {{ if eq $t.Page.Title "Owned-but-Unread" }}
-      {{ continue }}
+        {{ continue }}
       {{ end }}
       {{ $i := 0 }}
       {{ $books := ($t.Pages.ByDate.ByParam "star_rating").Reverse }}
