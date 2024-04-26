@@ -4,12 +4,54 @@ import re
 import itertools
 import subprocess
 from pathlib import Path
+from urllib.parse import urljoin
+import os
+import sys
 
 import frontmatter
+from PIL import Image
 
 def copy2clip(txt):
     cmd='echo '+txt.strip()+'|clip'
     return subprocess.check_call(cmd, shell=True)
+
+def calculateAspectRatioFit(srcWidth, srcHeight, maxWidth, maxHeight):
+    ratio = min(maxWidth / srcWidth, maxHeight / srcHeight)
+    return round(srcWidth*ratio), round(srcHeight*ratio)
+
+def convert_to_image_source_for_goodreads(filename, image_filepath):
+  print(Path.cwd())
+  print(Path(filename).parent)
+  print(image_filepath[0])
+  image_filepath = image_filepath[1:] if image_filepath[0] == "/" else image_filepath
+  print(Path(image_filepath))
+  image_path = Path(f"{Path.cwd()}{os.sep}{Path(filename).parent}{os.sep}{Path(image_filepath)}")
+  if not image_path.exists():
+    print(f"{image_path} DOES NOT exist")
+    image_path = Path(f"{Path.cwd()}{os.sep}assets{os.sep}{Path(image_filepath)}")
+    if image_path.exists():
+      print(f"{image_path} DOES exist though")
+      path_str = image_filepath
+    else:
+      print(f"{image_path} DOES NOT exist")
+      image_path = Path(f"{Path.cwd()}{os.sep}assets{os.sep}img{os.sep}{Path(image_filepath)}")
+      path_str = f"img/{image_filepath}"
+  else:
+    # if need prefix img/ or not
+    print(f"{image_path} DOES exist")
+    path_str = f"{Path(filename).parent.as_posix().strip('content/')}/{image_filepath}"
+  width = 80
+  height = 200
+  if image_path.exists:
+    print("Found image at {image_path}")
+    im = Image.open(image_path)
+    w, h = im.size
+    width, height = calculateAspectRatioFit(w, h, 400, 1000)
+  else:
+    raise f"No image found at {image_path}, that's a bug or this image doesn't exist."
+  src = urljoin("https://strategineer.com/", path_str)
+  # todo get appropriate width/height values here that line up with the actual image so that it keeps its aspect ratio
+  return rf'<img src="{src}" width="{width}" height="{height}" />'
 
 def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename, delta_filename):
   # todo if rows are added, they need to be added
@@ -60,8 +102,7 @@ def convert_to_goodreads_review_format(content, filename):
   content = re.sub(r"\[([^]]+)\]\(([^)]+)\)", r'<a href="\g<2>">\g<1></a>', content)
   # todo ensure that shared images used by many reviews (reaction gifs etc.) that are linked, also work 
   # image links
-  image_path = Path(filename).parent.as_posix().strip("content/")
-  content = re.sub(r"!\[\]\((.+)\)", rf'<img src="https://strategineer.com/{image_path}/\g<1>" width="40" height="100" />', content)
+  content = re.sub(r"!\[\]\(([^)]+)\)", lambda m: convert_to_image_source_for_goodreads(filename, m.group(1)), content)
   # remove unneeded html
   content = content.replace("<!--more-->", "")
   content = content.replace("\n\n", "<br/><br/>")

@@ -1,6 +1,6 @@
-FILENAME = "content/books\\2024-04-24\\index.md"
+FILENAME = "content/books\\2021-12-01\\index.md"
 
-from mycli.main import convert_to_goodreads_review_format
+from mycli import convert_to_goodreads_review_format
 
 import pytest
 
@@ -18,7 +18,6 @@ import pytest
    ("## My thoughts\nxyz", "||| My thoughts |||<br/>xyz"),
    ("### My thoughts\nxyz", "||| My thoughts |||<br/>xyz"),
    ("#### My thoughts\nxyz", "||| My thoughts |||<br/>xyz"),
-   ("![](d_aulaires_book_of_greek_myths.jpg)", '<img src="https://strategineer.com/books/2024-04-24/d_aulaires_book_of_greek_myths.jpg" width="40" height="100" />'),
    ("xyz \n1. Blah\n\n2. Blah 2", "xyz <br/>1. Blah<br/>2. Blah 2"),
    ("xyz \n1. Blah\n2. Blah 2", "xyz <br/>1. Blah<br/>2. Blah 2"),
    ("xyz \n- Blah\n\n- Blah 2", "xyz <br/>- Blah<br/>- Blah 2"),
@@ -30,7 +29,11 @@ import pytest
     ("Blah 1\n\n\n\n\n---\n\n\n\n\nBlah 2", "Blah 1<br/><br/>Blah 2"),
    ("--", "--"),
    ("",""),
-   ("                xyz        \n\n", "xyz")
+   ("                xyz        \n\n", "xyz"),
+   ("![](d_aulaires_book_of_greek_myths.jpg)", '<img src="https://strategineer.com/books/2021-12-01/d_aulaires_book_of_greek_myths.jpg" width="400" height="542" />'),
+   ("![](/img/memes/books_2.png)", '<img src="https://strategineer.com/img/memes/books_2.png" width="400" height="307" />'),
+   ("![](memes/books_2.png)", '<img src="https://strategineer.com/img/memes/books_2.png" width="400" height="307" />'),
+   ("![](/memes/books_2.png)", '<img src="https://strategineer.com/img/memes/books_2.png" width="400" height="307" />'),
 ])
 def test_eval(content, expected):
     result = convert_to_goodreads_review_format(content, FILENAME)

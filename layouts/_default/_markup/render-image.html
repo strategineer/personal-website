@@ -1,15 +1,25 @@
-{{ $image := .Page.Resources.GetMatch .Destination }}
-{{ if $image }}
-  {{ with $image.Resize "x200 webp" }}
-    <img
-      loading="lazy"
-      alt=""
-      class="img-fluid rounded mx-auto d-block"
-      width="{{ .Width }}"
-      height="{{ .Height }}"
-      src="{{ .RelPermalink }}"
-    />
-  {{ end }}
-{{ else }}
-  {{ errorf "No image found at path %q for page %q" .Destination .Page.Path }}
-{{ end }}
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- if not $u.IsAbs -}}
+  {{- with or (.PageInner.Resources.Get $u.Path) (resources.Get $u.Path) -}}
+    {{- $src = .RelPermalink -}}
+  {{ else }}
+    {{ $prefixed_path := add "img/" $u.Path}}
+    {{- with or (.PageInner.Resources.Get $prefixed_path) (resources.Get $prefixed_path) -}}
+      {{- $src = .RelPermalink -}}
+    {{ else }}
+    {{ errorf "No image found at path %q for page %q" .Destination .Page.Path }}
+    {{ end }}
+  {{- end -}}
+{{- end -}}
+{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape)) -}}
+<img
+  loading="lazy"
+  class="img-fluid rounded mx-auto d-block"
+  width="600"
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+{{- /**/ -}}
