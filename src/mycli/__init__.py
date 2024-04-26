@@ -23,12 +23,18 @@ def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename
 
       out_rows = [new_rows[0]]
 
-      old_dict = {r[0]: r for r in old_rows[:-1]}
-      new_dict = {r[0]: r for r in new_rows[:-1]}
+      old_dict = {r[0]: r for r in old_rows[1:]}
+      new_dict = {r[0]: r for r in new_rows[1:]}
 
-      for new_isbn, row in new_dict.items():
-        if new_isbn not in old_dict or old_dict[new_isbn] != row:
-          out_rows.append(row)
+      for new_isbn, new_row in new_dict.items():
+        if new_isbn not in old_dict:
+          print(f"{new_isbn} not in source of truth")
+          out_rows.append(new_row)
+        elif old_dict[new_isbn] != new_row:
+          print(f"old_dict[new_isbn] != row:\n\t{old_dict[new_isbn]} != {new_row}")
+          out_rows.append(new_row)
+      
+      print(out_rows)
 
       if len(out_rows) == 1:
         return False
@@ -102,41 +108,45 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: 
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(["ISBN13", "Date Read", "Bookshelves", "Exclusive Shelf", "Read Count", "My Rating", "My Review", "Owned Copies"])
     filenames = glob.glob('content/books/*/index.md')
+    posts = []
     for filename in filenames:
       #print(f"Handling file {filename}")
       with open(filename) as f:
         try:
           post = frontmatter.load(f)
+          isbn13 = post.metadata.get("params", {}).get("isbn13")
+          if isbn13 is not None:
+            posts.append((isbn13, filename, post))
         except UnicodeDecodeError:
           print(f"Failed to load file {filename} with frontmatter parser due to unicode error")
           continue
+    for isbn13, filename, post in sorted(posts):
       try:
-        isbn13 = post.metadata.get("params", {}).get("isbn13")
         if should_filter_fn(post):
           continue
-        is_draft = post.metadata.get("draft", False)
-        if isbn13 is not None and not is_draft:
-          tags = post.metadata["books/tags"]
+        if post.metadata.get("draft", False):
+          continue
+        tags = post.metadata["books/tags"]
+        exclusive_shelf = "read"
+        if "currently-reading" in tags:
+          exclusive_shelf = "currently-reading"
+        if "owned-but-unread" in tags:
+          exclusive_shelf = "to-read"
+        if "unowned" in tags:
           exclusive_shelf = "read"
-          if "currently-reading" in tags:
-            exclusive_shelf = "currently-reading"
-          if "owned-but-unread" in tags:
-            exclusive_shelf = "to-read"
-          if "unowned" in tags:
-            exclusive_shelf = "read"
-          
-          if exclusive_shelf not in ["did-not-finish", "currently-reading"]:
-            tags += [exclusive_shelf]
-          writer.writerow([
-            isbn13,                                                                          # ISBN13
-            post.metadata["date"].strftime("%Y/%m/%d") if exclusive_shelf == "read" else "", # Date Read
-            " ".join([t.replace(" ", "-") for t in tags]),                                   # Bookshelves
-            exclusive_shelf,                                                                 # Exclusive Shelf
-            1 if exclusive_shelf == "read" else 0,                                           # Read Count 
-            post.metadata.get("star_rating", 0),                                             # My Rating
-            convert_to_goodreads_review_format(post.content, filename),                      # My Review
-            1 if "unowned" not in tags else 0 
-          ])
+        
+        if exclusive_shelf not in ["did-not-finish", "currently-reading"]:
+          tags += [exclusive_shelf]
+        writer.writerow([
+          isbn13,                                                                          # ISBN13
+          post.metadata["date"].strftime("%Y/%m/%d") if exclusive_shelf == "read" else "", # Date Read
+          " ".join([t.replace(" ", "-") for t in tags]),                                   # Bookshelves
+          exclusive_shelf,                                                                 # Exclusive Shelf
+          1 if exclusive_shelf == "read" else 0,                                           # Read Count 
+          post.metadata.get("star_rating", 0),                                             # My Rating
+          convert_to_goodreads_review_format(post.content, filename),                      # My Review
+          1 if "unowned" not in tags else 0 
+        ])
       except Exception as e:
         print(e)
         print(f"Failed to write row for {filename}")

@@ -6,6 +6,7 @@ from pathlib import Path
 from datetime import date, timedelta
 from time import sleep
 from difflib import *
+import subprocess
 
 from PIL import Image
 from mergedeep import merge
@@ -244,7 +245,8 @@ def normalize_dates():
 
 
 @click.command()
-def upload():
+@click.option("--debug", is_flag=True)
+def upload(debug):
   old_export_filename = r'csv/source_of_truth.csv'
   export_filename = r'csv/new_source_of_truth.csv'
   delta_export_filename = r'csv/delta.csv'
@@ -253,10 +255,15 @@ def upload():
   write_new_source_of_truth_csv(export_filename)
   res = write_delta_csv_from_old_and_new_source_of_truths(old_export_filename, export_filename, delta_export_filename)
   if res:
-    print(f"Path to delta .csv file copied to clipboard ({delta_export_filename}), upload this file to goodreads then commit the file changes")
-    Path(old_export_filename).unlink()
-    Path(export_filename).rename(old_export_filename)
-    copy2clip(str(Path(delta_export_filename).absolute()))
+    if debug:
+      print("'debug' flag passed in so not renaming files for debugging purposes.")
+      sb = subprocess.run("poetry run csv-diff csv/source_of_truth.csv csv/new_source_of_truth.csv --key=ISBN13", capture_output=True, text=True)
+      print(sb.stdout)
+    else:
+      print(f"Path to delta .csv file copied to clipboard ({delta_export_filename}), upload this file to goodreads then commit the file changes")
+      Path(old_export_filename).unlink()
+      Path(export_filename).rename(old_export_filename)
+      copy2clip(str(Path(delta_export_filename).absolute()))
   else:
     print(f"No delta .csv file generated because there's no changes...")
     Path(export_filename).unlink()

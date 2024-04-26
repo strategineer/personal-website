@@ -4,6 +4,16 @@ Generate delta .csv file to upload to goodreads based on added/changed book data
 poetry run py -u "src/mycli/main.py" upload
 ```
 
+```
+poetry run py -u "src/mycli/main.py" upload --debug
+```
+
+Compare old and new source of truth csvs if passed in --debug flag to upload command
+```
+poetry run csv-diff csv/source_of_truth.csv csv/new_source_of_truth.csv --key=ISBN13
+```
+
+
 
 
 Increase the vertical extent of an image so that highball cocktails don't appear as gigantic images
@@ -33,9 +43,4 @@ npx prettier . --write
 Run tests
 ```
 poetry run pytest --pyargs mycli
-```
-
-Compare csvs
-```
-poetry run csv-diff imported_csvs/export_2024_25_04.csv imported_csvs/export_2024_25_05.csv --key=ISBN13
 ```
