@@ -16,8 +16,11 @@ star_rating: 5
 Ursula K. Le Guin's fantastic conclusion to her fantastic Earthsea series. Once again, she manages to create a fantasy world where violence doesn't solve everything. Her characters engage in the mundane activities that people do most of the time, chat, make friends, think about their loved ones, etc. She writes these mundane scenes yet makes them important and interesting because they are.
 
 
-Hanging out with a friend or a loved one is one of the greatest things a human can do and yet how often do we see this portrayed in fantasy? The Other Wind is the most "fantasy" fantasy book in the Earthsea series, featuring many tropes that you may have seen before (tropes: {{< spoiler >}}a restoration narrative think King Arthur, a mage haunted by his dark past, a king's romance with a princess from another land, a conflict occurring on the edges of the known world, etc. {{< /spoiler >}}) yet subverts or manages to make each of these tropes less tropey than they would be if written by a less proficient author.
+Hanging out with a friend or a loved one is one of the greatest things a human can do and yet how often do we see this honestly portrayed in fantasy? The Other Wind is the most "fantasy" fantasy book in the Earthsea series, featuring many tropes that you may have seen before (tropes: {{< spoiler >}}a restoration narrative think King Arthur, a mage haunted by his dark past, a king's romance with a princess from another land, a conflict occurring on the edges of the known world, etc. {{< /spoiler >}}) yet subverts or manages to make each of these tropes less tropey than they would be if written by a less proficient author.
 
+As a conclusion to the Earthsea series, it succeeds in many ways. What I love about it most is how it naturally switches between POV characters, some new and some returning from previous books.
+
+In doing so, Le Guin manages to give us a ...
 
 
 <!--more-->
