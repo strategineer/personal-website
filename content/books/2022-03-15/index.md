@@ -1,5 +1,6 @@
 ---
-authors: William Dalrymple
+authors:
+  - William Dalrymple
 books/tags:
   - non-fiction
 date: 2022-03-15

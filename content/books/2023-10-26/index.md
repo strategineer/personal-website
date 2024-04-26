@@ -1,5 +1,6 @@
 ---
-authors: Walter M. Miller Jr.
+authors:
+  - Walter M. Miller Jr.
 books/tags:
   - fiction
   - post-apocalyptic

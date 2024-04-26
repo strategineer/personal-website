@@ -1,5 +1,6 @@
 ---
-authors: Iain Reid
+authors:
+  - Iain Reid
 books/tags:
   - fiction
   - trash

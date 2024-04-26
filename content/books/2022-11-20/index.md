@@ -1,5 +1,6 @@
 ---
-authors: Lindsay Ellis
+authors:
+  - Lindsay Ellis
 books/tags:
   - fiction
   - science fiction

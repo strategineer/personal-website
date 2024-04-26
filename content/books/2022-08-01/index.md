@@ -1,5 +1,6 @@
 ---
-authors: John E. Sarno
+authors:
+  - John E. Sarno
 books/tags:
   - non-fiction
 date: 2022-08-01

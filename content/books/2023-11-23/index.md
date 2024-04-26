@@ -1,5 +1,6 @@
 ---
-authors: Emily Bronte
+authors:
+  - Emily Bronte
 books/tags:
   - fiction
   - trash

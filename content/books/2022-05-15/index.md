@@ -1,5 +1,6 @@
 ---
-authors: Simon Blackburn
+authors:
+  - Simon Blackburn
 books/tags:
   - non-fiction
   - philosophy

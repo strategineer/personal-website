@@ -1,5 +1,6 @@
 ---
-authors: Shirley Jackson
+authors:
+  - Shirley Jackson
 books/tags:
   - fiction
   - gothic

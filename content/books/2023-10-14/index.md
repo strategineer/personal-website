@@ -1,5 +1,6 @@
 ---
-authors: Andy Weir
+authors:
+  - Andy Weir
 books/tags:
   - fiction
   - science fiction

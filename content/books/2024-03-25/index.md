@@ -1,5 +1,6 @@
 ---
-authors: Lady Wylde
+authors:
+  - Lady Wylde
 books/tags:
   - mythography
   - did-not-finish

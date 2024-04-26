@@ -1,5 +1,6 @@
 ---
-authors: Elie Wiesel
+authors:
+  - Elie Wiesel
 books/tags:
   - non-fiction
   - memoir

@@ -1,5 +1,6 @@
 ---
-authors: Martha Wells
+authors:
+  - Martha Wells
 books/tags:
   - fiction
   - science fiction

@@ -1,5 +1,6 @@
 ---
-authors: John Gray
+authors:
+  - John Gray
 books/tags:
   - philosophy
   - trash

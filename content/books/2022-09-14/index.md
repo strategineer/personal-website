@@ -1,5 +1,6 @@
 ---
-authors: C. Thi Nguyen
+authors:
+  - C. Thi Nguyen
 books/tags:
   - non-fiction
   - philosophy

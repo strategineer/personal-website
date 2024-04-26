@@ -1,19 +1,48 @@
 <div class="d-flex justify-content-center d-flex-inline-list text-center">
   <ul class="list-inline ul-inline">
     {{ if .Params.isbn13 }}
-      <li class="list-inline-item li-inline">
-        <a
-          href="https://www.goodreads.com/search?utf8=%E2%9C%93&q=${{ .Params.isbn13 }}&search_type=books&search%5Bfield%5D=on
-      "
-        >
-          Goodreads
-        </a>
-      </li>
+    <li class="list-inline-item li-inline">
+      <a
+        href="https://www.indigo.ca/en-ca/search?q={{ .Params.isbn13 }}"
+      >
+      <img alt="Indigo.ca icon" src="/icons/indigo.svg" width="32" height="32" label="Search for this book on Indigo.ca"/>
+      </a>
+    </li>
+    {{ if and .Title (gt (len .Params.authors) 0) }}
+    {{ $author_words := (split (index .Params.authors 0) " ")}}
+    {{ $author := index $author_words (add (len $author_words) -1 ) }}
+    {{ $title := .Title }}
+    {{ if strings.Contains $title ":"}}
+      {{ $title = index (split $title ":") 0 }}
+    {{ end }}
+    {{ if strings.Contains $title "-"}}
+      {{ $title = index (split $title "-") 0 }}
+    {{ end }}
+    {{ $query := add (trim $title " \n\t") " " (trim $author " \n\t") }}
+    {{ $query = replace $query " " "+" }}
+    <li class="list-inline-item li-inline">
+      <a
+        href="https://libgen.is/fiction/?q={{ $query }}"
+      >
+      <img alt="LibGen icon" src="/icons/libgen.svg" width="32" height="32" label="Search for this book on Library Genesis"/>
+      </a>
+    </li>
+    {{ end }}
+    <li class="list-inline-item li-inline">
+      <a
+        href="https://www.goodreads.com/search?utf8=%E2%9C%93&q={{ .Params.isbn13 }}&search_type=books&search%5Bfield%5D=on
+    "
+      >
+      <img alt="Goodreads icon" src="/icons/goodreads.svg" width="32" height="32" label="Search for this book on Goodreads"/>
+      </a>
+    </li>
     {{ end }}
     {{ with .File }}
       <li class="list-inline-item li-inline">
         {{ $base_url := "https://github.com/strategineer/personal-website/blob/master/content/" }}
-        <a href="{{ add $base_url (path.Join .Path) }}"> Github </a>
+        <a href="{{ add $base_url (path.Join .Path) }}">
+          <img alt="Github icon" src="/icons/github.svg" width="32" height="32" label="Go to Github content file for this page"/>
+        </a>
       </li>
     {{ end }}
     {{ range $index, $name_link_pair := .Params.links }}

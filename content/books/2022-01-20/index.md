@@ -1,5 +1,6 @@
 ---
-authors: Gretchen McCulloch
+authors:
+  - Gretchen McCulloch
 books/tags:
   - non-fiction
 date: 2022-01-20

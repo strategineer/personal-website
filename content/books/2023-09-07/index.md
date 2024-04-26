@@ -1,5 +1,6 @@
 ---
-authors: Lewis Carroll
+authors:
+  - Lewis Carroll
 books/tags:
   - fiction
 date: 2023-09-07

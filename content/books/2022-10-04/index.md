@@ -1,5 +1,6 @@
 ---
-authors: Margarita Longoria
+authors:
+  - Margarita Longoria
 books/tags:
   - fiction
   - short story collection

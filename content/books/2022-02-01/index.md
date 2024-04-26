@@ -1,5 +1,6 @@
 ---
-authors: John Green
+authors:
+  - John Green
 books/tags:
   - non-fiction
   - trash

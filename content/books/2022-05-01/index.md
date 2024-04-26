@@ -1,5 +1,6 @@
 ---
-authors: Neil Postman
+authors:
+  - Neil Postman
 books/tags:
   - non-fiction
 date: 2022-05-01

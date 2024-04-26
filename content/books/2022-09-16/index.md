@@ -1,5 +1,6 @@
 ---
-authors: Dave Macleod
+authors:
+  - Dave Macleod
 books/tags:
   - non-fiction
   - climbing

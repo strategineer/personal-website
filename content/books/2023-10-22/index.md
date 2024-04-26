@@ -1,5 +1,6 @@
 ---
-authors: V. E. Schwab
+authors:
+  - V. E. Schwab
 books/tags:
   - fiction
 date: 2023-10-22

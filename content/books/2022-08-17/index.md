@@ -1,5 +1,6 @@
 ---
-authors: Micheal Sands
+authors:
+  - Micheal Sands
 books/tags:
   - tabletop
 date: 2022-08-17

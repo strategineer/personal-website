@@ -1,5 +1,6 @@
 ---
-authors: Suzanne Collins
+authors:
+  - Suzanne Collins
 books/tags:
   - fiction
   - fantasy

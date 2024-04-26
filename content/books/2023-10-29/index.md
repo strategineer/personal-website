@@ -1,5 +1,6 @@
 ---
-authors: Agatha Christie
+authors:
+  - Agatha Christie
 books/tags:
   - fiction
   - detective fiction

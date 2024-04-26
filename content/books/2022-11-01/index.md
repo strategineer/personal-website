@@ -1,5 +1,6 @@
 ---
-authors: Ben Nielson
+authors:
+  - Ben Nielson
 books/tags:
   - tabletop
 date: 2022-11-01

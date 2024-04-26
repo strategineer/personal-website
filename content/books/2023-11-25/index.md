@@ -1,5 +1,6 @@
 ---
-authors: Lu Dongbin
+authors:
+  - Lu Dongbin
 books/tags:
   - philosophy
   - trash

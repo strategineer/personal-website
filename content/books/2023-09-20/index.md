@@ -1,5 +1,6 @@
 ---
-authors: John Scalzi
+authors:
+  - John Scalzi
 books/tags:
   - fiction
   - science fiction

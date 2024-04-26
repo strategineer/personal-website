@@ -1,5 +1,6 @@
 ---
-authors: Jean-Paul Sartre
+authors:
+  - Jean-Paul Sartre
 books/tags:
   - philosophy
   - trash

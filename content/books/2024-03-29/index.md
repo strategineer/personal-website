@@ -1,5 +1,6 @@
 ---
-authors: Arkady Martine
+authors:
+  - Arkady Martine
 books/tags:
   - fiction
   - science fiction

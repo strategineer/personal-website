@@ -1,5 +1,6 @@
 ---
-authors: Terry Pratchett
+authors:
+  - Terry Pratchett
 books/tags:
   - fiction
   - fantasy
