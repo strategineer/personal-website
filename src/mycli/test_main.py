@@ -33,8 +33,8 @@ import pytest
    ("![](d_aulaires_book_of_greek_myths.jpg)", '<img src="https://strategineer.com/books/2021-12-01/d_aulaires_book_of_greek_myths.jpg" width="200" height="271" />'),
    ("![](/img/memes/books_2.png)", '<img src="https://strategineer.com/img/memes/books_2.png" width="200" height="153" />'),
    ("![](confused)", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" />'),
-   ("xyz \n\n![](confused)\n\n 123", 'xyz<br/><img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" />123'),
-   ("\n\n![](confused)\n\n 123", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" />123')
+   ("xyz \n\n![](confused)\n\n 123", 'xyz<br/><img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123'),
+   ("\n\n![](confused)\n\n 123", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123')
 ])
 def test_eval(content, expected):
     result = convert_to_goodreads_review_format(content, FILENAME)
