@@ -46,7 +46,7 @@ def convert_to_image_source_for_goodreads(filename, image_filepath):
     print("Found image at {image_path}")
     im = Image.open(image_path)
     w, h = im.size
-    width, height = calculateAspectRatioFit(w, h, 400, 1000)
+    width, height = calculateAspectRatioFit(w, h, 200, 500)
   else:
     raise f"No image found at {image_path}, that's a bug or this image doesn't exist."
   src = urljoin("https://strategineer.com/", path_str)
