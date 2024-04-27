@@ -13,6 +13,8 @@ star_rating: 1
 title: Ancient Legends, Mystic Charms And Superstitions Of Ireland
 ---
 
+![](dunno)
+
 I'm not sure who to blame for how boring most of this book is:
 
 - The British for their empire and the consequences of that on the Irish.

@@ -34,8 +34,8 @@ def convert_to_image_source_for_goodreads(filename, image_filepath):
       path_str = image_filepath
     else:
       print(f"{image_path} DOES NOT exist")
-      image_path = Path(f"{Path.cwd()}{os.sep}assets{os.sep}img{os.sep}{Path(image_filepath)}")
-      path_str = f"img/{image_filepath}"
+      image_path = Path(f"{Path.cwd()}{os.sep}assets{os.sep}img{os.sep}react{os.sep}{Path(image_filepath)}.gif")
+      path_str = f"img/react/{image_filepath}.gif"
   else:
     # if need prefix img/ or not
     print(f"{image_path} DOES exist")

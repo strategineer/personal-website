@@ -4,7 +4,7 @@
   {{- with or (.PageInner.Resources.Get $u.Path) (resources.Get $u.Path) -}}
     {{- $src = .RelPermalink -}}
   {{ else }}
-    {{ $prefixed_path := add "img/" $u.Path}}
+    {{ $prefixed_path := add "img/react/" $u.Path ".gif"}}
     {{- with or (.PageInner.Resources.Get $prefixed_path) (resources.Get $prefixed_path) -}}
       {{- $src = .RelPermalink -}}
     {{ else }}
@@ -16,7 +16,7 @@
 <img
   loading="lazy"
   class="img-fluid rounded mx-auto d-block"
-  width="600"
+  width="300"
   {{- range $k, $v := $attributes -}}
     {{- if $v -}}
       {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
