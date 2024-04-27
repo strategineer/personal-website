@@ -51,7 +51,7 @@ def convert_to_image_source_for_goodreads(filename, image_filepath):
     raise f"No image found at {image_path}, that's a bug or this image doesn't exist."
   src = urljoin("https://strategineer.com/", path_str)
   # todo get appropriate width/height values here that line up with the actual image so that it keeps its aspect ratio
-  return rf'<br/><img src="{src}" width="{width}" height="{height}" /><br/>'
+  return rf'<br/><img src="{src}" width="{width}" height="{height}" />'
 
 def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename, delta_filename):
   # todo if rows are added, they need to be added
