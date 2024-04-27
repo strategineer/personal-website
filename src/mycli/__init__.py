@@ -51,7 +51,7 @@ def convert_to_image_source_for_goodreads(filename, image_filepath):
     raise f"No image found at {image_path}, that's a bug or this image doesn't exist."
   src = urljoin("https://strategineer.com/", path_str)
   # todo get appropriate width/height values here that line up with the actual image so that it keeps its aspect ratio
-  return rf'<img src="{src}" width="{width}" height="{height}" />'
+  return rf'<br/><img src="{src}" width="{width}" height="{height}" /><br/>'
 
 def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename, delta_filename):
   # todo if rows are added, they need to be added
@@ -100,9 +100,8 @@ def convert_to_goodreads_review_format(content, filename):
   content = re.sub(r"\[([^]]+)\]\((/[^)]+)\)", r'<a href="https://strategineer.com\g<2>">\g<1></a>', content)
   # other urls
   content = re.sub(r"\[([^]]+)\]\(([^)]+)\)", r'<a href="\g<2>">\g<1></a>', content)
-  # todo ensure that shared images used by many reviews (reaction gifs etc.) that are linked, also work 
   # image links
-  content = re.sub(r"!\[\]\(([^)]+)\)", lambda m: convert_to_image_source_for_goodreads(filename, m.group(1)), content)
+  content = re.sub(r"\s*!\[\]\(([^)]+)\)\s*", lambda m: convert_to_image_source_for_goodreads(filename, m.group(1)), content)
   # remove unneeded html
   content = content.replace("<!--more-->", "")
   content = content.replace("\n\n", "<br/><br/>")
