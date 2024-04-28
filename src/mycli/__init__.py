@@ -193,6 +193,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: 
           exclusive_shelf = "currently-reading"
         if "owned-but-unread" in tags:
           exclusive_shelf = "to-read"
+          tags.remove("owned-but-unread")
         if "unowned" in tags:
           exclusive_shelf = "read"
         
