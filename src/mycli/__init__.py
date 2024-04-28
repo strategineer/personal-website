@@ -87,7 +87,7 @@ def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename
   return True
 
 def convert_filename_to_url(filename):
-  return str(Path(filename[len("content"):]).as_posix())
+  return str(Path(filename[len("content"):]).parent.as_posix()) + "/"
 
 def convert_post_to_star_rating(filename, post):
   star_rating = post.metadata.get('star_rating', 0)
