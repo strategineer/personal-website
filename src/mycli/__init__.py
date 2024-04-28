@@ -98,9 +98,11 @@ def convert_post_to_star_rating(filename, post):
   return f"[{post.metadata['title']}]({convert_filename_to_url(filename)}): {star_rating}"
 
 def convert_to_goodreads_review_format(series_posts, content, filename):
+  # remove unneeded html
+  content = re.sub(r"\s*<!--more-->\s*", "\n\n", content)
   if r"{{< series >}}" in content:
     series_str = "<br/>".join([convert_post_to_star_rating(f, p) for (f, p) in series_posts])
-    content = re.sub(r"\s*{{< series >}}\s*", f"<br/>{series_str}<br/><br/>", content)
+    content = re.sub(r"\n*\s*{{< series >}}\s*\n*", f"<br/>{series_str}<br/><br/>", content)
   # horizontal bar removal
   content = re.sub(r"\n+---\n+", "<br/><br/>", content)
   # numbered lists
@@ -115,8 +117,6 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
   content = re.sub(r"\[([^]]+)\]\(([^)]+)\)", r'<a href="\g<2>">\g<1></a>', content)
   # image links
   content = re.sub(r"\s*!\[\]\(([^)]+)\)\s*", lambda m: convert_to_image_source_for_goodreads(filename, m.group(1)), content)
-  # remove unneeded html
-  content = re.sub(r"\s*<!--more-->\s*", "<br/><br/>", content)
   content = content.replace("\n\n", "<br/><br/>")
   content = content.replace("\n", "")
   content = content.replace(r"{{< spoiler >}}", "<spoiler>")
