@@ -4,8 +4,8 @@
 
 {{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/" }}
 {{ $is_authors := hasPrefix .RelPermalink "/authors" }}
-{{ $is_books := hasPrefix .RelPermalink "/books/" }}
-{{ $is_books_tags := and (or (hasPrefix .RelPermalink "/books/tags") (eq .RelPermalink "/")) (not $is_books) }}
+{{ $is_books_tags := (hasPrefix .RelPermalink "/books/tags") }}
+{{ $is_books := and (not $is_books_tags) (or (hasPrefix .RelPermalink "/books/") (eq .RelPermalink "/"))}}
 {{ $is_tools := hasPrefix .RelPermalink "/bin/" }}
 {{ $is_blog := hasPrefix .RelPermalink "/blog/" }}
 {{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}}
@@ -29,22 +29,6 @@
             />
           </button>
         </a>
-        <a href="/books/">
-          <button
-            tabindex="-1"
-            type="button"
-            aria-label="Go to Strat's bookshelf sorted by date read"
-            class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}"
-          >
-            <img
-              alt="book icon"
-              src="/icons/book.svg"
-              width="32"
-              height="32"
-              label="Go to Strat's books he's reading"
-            />
-          </button>
-        </a>
         <a href="/authors/">
           <button
             tabindex="-1"
@@ -61,7 +45,7 @@
             />
           </button>
         </a>
-        <a href="/">
+        <a href="/books/tags">
           <button
             tabindex="-1"
             type="button"
@@ -74,6 +58,22 @@
               width="32"
               height="32"
               label="Go to Strat's author's he's read"
+            />
+          </button>
+        </a>
+        <a href="/">
+          <button
+            tabindex="-1"
+            type="button"
+            aria-label="Go to Strat's bookshelf sorted by date read"
+            class="btn btn-lg {{ cond $is_books $active_class $inactive_class }}"
+          >
+            <img
+              alt="book icon"
+              src="/icons/book.svg"
+              width="32"
+              height="32"
+              label="Go to Strat's books he's reading"
             />
           </button>
         </a>

@@ -2,8 +2,8 @@
 authors:
 - Nana Kwame Adjei-Brenyah
 books/tags:
-- owned-but-unread
-date: 1800-01-27
+- currently-reading
+date: 2024-04-28
 params:
   isbn13: '9780593469316'
   year: '2024'
