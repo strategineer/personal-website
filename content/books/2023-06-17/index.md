@@ -10,7 +10,7 @@ params:
   isbn13: "9780778307877"
   year: "2023"
 star_rating: 5
-title: Cassandra In Reverse - A Novel
+title: Cassandra In Reverse
 ---
 
 Cassandra in Reverse is a novel about a woman in her early 30s with a fascination for Greek mythology who has just been dumped by her boyfriend of 4 months and fired from her job in PR.

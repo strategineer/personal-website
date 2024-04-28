@@ -8,7 +8,7 @@ params:
   isbn13: "9780807012390"
   year: "1999"
 star_rating: 4
-title: The Miracle Of Mindfulness - An Introduction To The Practice Of Meditation
+title: The Miracle Of Mindfulness
 ---
 
 A short semi-biographical discussion and guide on meditation.

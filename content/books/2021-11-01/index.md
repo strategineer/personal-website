@@ -8,7 +8,7 @@ params:
   isbn13: "9781982159375"
   year: "2020"
 star_rating: 3
-title: "On Writing: 10Th Anniversary Edition - A Memoir Of The Craft"
+title: "On Writing"
 ---
 
 Stephen King tells you about his life and his advice on how you can become better at writing. This amounts to him basically saying "Just write a lot bro" but despite this, this was quite a fun read. And... He's not wrong.

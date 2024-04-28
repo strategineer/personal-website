@@ -10,7 +10,7 @@ params:
   series: Children of Time
   year: "2020"
 star_rating: 4
-title: "Children Of Ruin: Children Of Time Book 2"
+title: "Children Of Ruin"
 ---
 
 **"We're going on an adventure!"**

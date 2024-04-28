@@ -9,7 +9,7 @@ params:
   isbn13: "9780192100245"
   year: "2001"
 star_rating: 4
-title: Think - A Compelling Introduction To Philosophy
+title: Think
 ---
 
 Think is a book about the big questions in life: knowledge, consciousness, fate, God, truth, goodness, justice. It is for anyone who believes there are big questions out there, but does not know how to approach them. Think sets out to explain what they are and why they are important. If you're like me, and you knew barely anything about philosophy before reading this, you're in for a wild ride.

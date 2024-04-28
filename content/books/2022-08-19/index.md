@@ -10,7 +10,7 @@ params:
   isbn13: "9780143130901"
   year: "2017"
 star_rating: 5
-title: On Being Awesome - A Unified Theory Of How Not To Suck
+title: On Being Awesome
 ---
 
 A philosophical exploration of what it means to be awesome and not suck, and a plea for more awesomeness in our personal, social, and public lives.

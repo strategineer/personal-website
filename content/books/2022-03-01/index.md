@@ -9,7 +9,7 @@ params:
   isbn13: "9780809073641"
   year: "2008"
 star_rating: 5
-title: The Night Trilogy - Night, Dawn, Day
+title: The Night Trilogy
 ---
 
 Elie Wiesel's Night is a retelling of what happened to him during World War 2; in a Nazi death camp, he witnesses the death of his family, the death of his innocence and the death of his God. Night shows you evil at its peak and convinces you that this horror must never be allowed to happen again.

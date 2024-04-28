@@ -10,7 +10,7 @@ params:
   isbn13: "9780241982358"
   year: "2018"
 star_rating: 5
-title: The Greek Myths - The Complete And Definitive Edition
+title: The Greek Myths
 ---
 
 Robert Graves's The Greek Myths is more of an encyclopedia about everything related to the Greek myths rather than a pure retelling of the myths themselves. It's not meant to entertain, it's meant to inform. Although, if learning everything there is to know about Greek myths sounds entertaining to you then this is the book for you.

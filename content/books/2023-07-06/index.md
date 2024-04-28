@@ -10,7 +10,7 @@ params:
   series: The Murderbot Diaries
   year: "2019"
 star_rating: 4
-title: All Systems Red - The Murderbot Diaries
+title: All Systems Red
 ---
 
 All Systems Red is about a sentient robot-human hybrid, calling themselves Murderbot, a slave to a mega corporation, tasked with protecting the humans it's told to protect.

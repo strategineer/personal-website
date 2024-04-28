@@ -7,7 +7,7 @@ date: 1800-04-23
 params:
   isbn13: "9780593296523"
   year: "2020"
-title: The Constant Rabbit - A Novel
+title: The Constant Rabbit
 weight: 1
 ---
 

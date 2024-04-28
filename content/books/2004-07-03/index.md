@@ -9,7 +9,7 @@ params:
   isbn13: "9780786849567"
   year: "2007"
 star_rating: 0
-title: The Arctic Incident
+title: "The Artemis Fowl: The Lost Colony"
 ---
 
 <!--more-->

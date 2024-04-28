@@ -7,7 +7,7 @@ date: 1800-04-03
 params:
   isbn13: "9780552131063"
   year: "1988"
-title: Mort - (Discworld Novel 4)
+title: Mort
 weight: 1
 ---
 

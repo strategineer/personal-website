@@ -10,7 +10,7 @@ params:
   series: The Murderbot Diaries
   year: "2018"
 star_rating: 3
-title: Artificial Condition - The Murderbot Diaries
+title: Artificial Condition
 ---
 
 The Murderbot Diaries series so far have been extremely cyberpunk.

@@ -12,7 +12,7 @@ params:
   isbn13: "9780156340403"
   year: "1985"
 star_rating: 4
-title: The Futurological Congress (From The Memoirs Of Ijon Tichy)
+title: The Futurological Congress
 ---
 
 Stanislaw Lem pops off once again. I'm blown away at how he can integrate all these disparate emotions and ideas into one novel.

@@ -9,7 +9,7 @@ params:
   isbn13: "9780593204986"
   year: "2022"
 star_rating: 2
-title: Living Beyond Borders - Growing Up Mexican In America
+title: Living Beyond Borders
 ---
 
 An anthology of short stories, comics, and poems from Mexican American authors.

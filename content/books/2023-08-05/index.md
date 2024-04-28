@@ -9,7 +9,7 @@ params:
   isbn13: "9780062073556"
   year: "2011"
 star_rating: 4
-title: Death On The Nile - A Hercule Poirot Mystery
+title: Death On The Nile
 ---
 
 Agatha Christie is described as the "Queen of Mystery" and the "Queen of Crime".

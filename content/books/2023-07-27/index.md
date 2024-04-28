@@ -9,7 +9,7 @@ params:
   isbn13: "9781416556961"
   year: "2008"
 star_rating: 5
-title: The Lathe Of Heaven - A Novel
+title: The Lathe Of Heaven
 ---
 
 Hello? Ursula?

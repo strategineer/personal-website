@@ -11,7 +11,7 @@ params:
   series: Rincewind
   year: "2022"
 star_rating: 5
-title: The Colour Of Magic - Discworld Novel 1
+title: The Colour Of Magic
 ---
 
 An incompetent wizard is tasked with protecting a visitor visiting from a faraway land. A fantasy novel for people who don't like fantasy novels.

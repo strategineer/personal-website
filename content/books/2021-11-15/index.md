@@ -8,7 +8,7 @@ params:
   isbn13: "9780451499028"
   year: "2018"
 star_rating: 3
-title: The Joy Of Mixology, Revised And Updated Edition - The Consummate Guide To The Bartender's Craft
+title: The Joy Of Mixology
 ---
 
 Everything you need to know about mixing cocktails.

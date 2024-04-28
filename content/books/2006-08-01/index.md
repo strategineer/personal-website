@@ -9,7 +9,7 @@ params:
   isbn13: "9780440236689"
   year: "2001"
 star_rating: 0
-title: Empires Of Sand - A Novel
+title: Empires Of Sand
 ---
 
 <!--more-->

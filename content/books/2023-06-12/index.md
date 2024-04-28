@@ -10,7 +10,7 @@ params:
   series: Shades of Magic
   year: "2016"
 star_rating: 5
-title: A Darker Shade Of Magic - A Novel
+title: A Darker Shade Of Magic
 ---
 
 I really loved it...

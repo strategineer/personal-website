@@ -10,7 +10,7 @@ params:
   series: The Murderbot Diaries
   year: "2020"
 star_rating: 3
-title: Network Effect - A Murderbot Novel
+title: Network Effect
 ---
 
 <!--more-->

@@ -10,7 +10,7 @@ params:
   isbn13: "9780143039976"
   year: "2006"
 star_rating: 5
-title: We Have Always Lived In The Castle - (Penguin Classics Deluxe Edition)
+title: We Have Always Lived In The Castle
 ---
 
 It's short and sweet (and sour) and that's what makes this novel so special. It's got one of the most unsettling POVs I've read in a while. It starts weird and only gets weirder from there.

@@ -10,7 +10,7 @@ params:
   series: The Final Architecture
   year: "2021"
 star_rating: 5
-title: "Shards Of Earth: The Final Architecture Book 1"
+title: Shards Of Earth
 ---
 
 A great space opera by the king of writing alien aliens. It's a fantastic romp where we follow free adventures of a ragtag group of scoundrels doing their best to save the universe.

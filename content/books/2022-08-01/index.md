@@ -8,7 +8,7 @@ params:
   isbn13: "9780446675154"
   year: "1998"
 star_rating: 3
-title: The Mindbody Prescription - Healing The Body, Healing The Pain
+title: The Mindbody Prescription
 ---
 
 As someone who's been suffering with chronic pain issues for years now, I'm always on the lookout for anything I can do to help myself feel less pain. Underneath all the quackery contained in this book there seems to be a grain of truth (for me, at least). It helped helped me reduce my chronic pain symptoms considerably in just a short amount of time. If you (or someone you know) suffers from chronic pain, I would highly recommend this book.

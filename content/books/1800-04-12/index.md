@@ -7,7 +7,7 @@ date: 1800-04-12
 params:
   isbn13: "9780552146166"
   year: "2001"
-title: The Fifth Elephant - Discworld Novel 24
+title: The Fifth Elephant
 weight: 1
 ---
 

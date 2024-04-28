@@ -8,7 +8,7 @@ params:
   isbn13: "9780143036531"
   year: "2005"
 star_rating: 5
-title: Amusing Ourselves To Death - Public Discourse In The Age Of Show Business
+title: Amusing Ourselves To Death
 ---
 
 Amusing Ourselves to Death is a book about the corrosive effects of television on our politics and public discourse. Now, with television joined by more sophisticated electronic media--from the Internet to cell phones to DVDs-- it's more relevant than ever.

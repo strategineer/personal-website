@@ -10,7 +10,7 @@ params:
   series: Shades of Magic
   year: "2017"
 star_rating: 5
-title: A Gathering Of Shadows - A Novel
+title: A Gathering Of Shadows
 ---
 
 An absolute page turner if I've ever read one (I couldn't put this book down). Each time I sat down to read, it only took a few sentences to transport me completely into this world that V.E. Schwab has so carefully built.

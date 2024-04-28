@@ -7,7 +7,7 @@ date: 1800-03-06
 params:
   isbn13: "9780316306058"
   year: "2016"
-title: Infinite Jest - A Novel -- 20Th Anniversary Edition
+title: Infinite Jest
 weight: 1
 ---
 

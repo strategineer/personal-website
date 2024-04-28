@@ -10,7 +10,7 @@ params:
   series: Noumena
   year: "2022"
 star_rating: 2
-title: Truth Of The Divine - A Novel
+title: Truth Of The Divine
 ---
 
 Aliens on Earth in the early/mid 2000s and everything that follows from that. Sequel to Axiom's End, continues Cora's story and adds some new fresh characters (alien and otherwise) into the mix.

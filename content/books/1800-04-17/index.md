@@ -7,7 +7,7 @@ date: 1800-04-17
 params:
   isbn13: "9780552154901"
   year: "2008"
-title: Making Money - (Discworld Novel 36)
+title: Making Money
 weight: 1
 ---
 

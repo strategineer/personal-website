@@ -8,7 +8,7 @@ params:
   isbn13: "9780307464347"
   year: "2010"
 star_rating: 0
-title: Everything Is Going To Kill Everybody - The Terrifyingly Real Ways The World Wants You Dead
+title: Everything Is Going To Kill Everybody
 ---
 
 <!--more-->

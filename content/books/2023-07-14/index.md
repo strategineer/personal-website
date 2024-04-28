@@ -10,7 +10,7 @@ params:
   series: The Murderbot Diaries
   year: "2018"
 star_rating: 3
-title: Rogue Protocol - The Murderbot Diaries
+title: Rogue Protocol
 ---
 
 <!--more-->

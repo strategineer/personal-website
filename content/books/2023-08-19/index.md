@@ -8,7 +8,7 @@ params:
   isbn13: "9780785809050"
   year: "1998"
 star_rating: 4
-title: The Essential Tao - An Initiation Into The Heart Of Taoism Through The Authentic Tao Te Ching And The Inner Teachings Of Chuang-Tzu
+title: The Essential Tao
 ---
 
 I much preferred Gia-Fu Feng and Jane English's translation of the Tao Te Ching. I'm not an ancient Chinese scholar so I can't speak to how faithful this translation is compared to the original manuscript.

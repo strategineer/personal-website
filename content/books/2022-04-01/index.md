@@ -8,7 +8,7 @@ params:
   isbn13: "9781039002487"
   year: "2021"
 star_rating: 3
-title: The Man Who Mistook His Wife For A Hat - And Other Clinical Tales
+title: The Man Who Mistook His Wife For A Hat
 ---
 
 The Man Who Mistook His Wife for a Hat tells the stories of individuals afflicted with perceptual and intellectual disorders: patients who have lost their memories and with them the greater part of their pasts; who are no longer able to recognize people and common objects; whose limbs seem alien to them; who lack some skills yet are gifted with uncanny artistic or mathematical talents.
