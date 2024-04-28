@@ -21,9 +21,15 @@
     {{ $query := add (trim $title " \n\t") " " (trim $author " \n\t") }}
     {{ $query = replace $query " " "+" }}
     <li class="list-inline-item li-inline">
+{{ if in (index .Params "books/tags") "fiction" }}
       <a
         href="https://libgen.is/fiction/?q={{ $query }}"
       >
+{{ else }}
+<a
+        href="http://libgen.is/search.php?req={{ $query }}"
+      >
+{{ end }}
       <img alt="LibGen icon" src="/icons/libgen.svg" width="32" height="32" label="Search for this book on Library Genesis"/>
       </a>
     </li>
