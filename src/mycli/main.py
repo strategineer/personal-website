@@ -77,7 +77,7 @@ def write_post(post, filename):
     os.makedirs(dir)
   bytes = BytesIO()
   frontmatter.dump(post, bytes)
-  with open(filename, "w") as f:
+  with open(filename, "w", encoding="utf-8") as f:
     try:
       f.write(bytes.getvalue().decode('utf-8'))
     except UnicodeEncodeError:
@@ -88,7 +88,7 @@ def load_existing_books():
   title_to_post = {}
   filenames = glob.glob('content/books/*/index.md')
   for filename in filenames:
-    with open(filename) as f:
+    with open(filename, encoding="utf-8") as f:
       try:
         post = frontmatter.load(f)
         if "params" in post.metadata and "isbn13" in post.metadata["params"]:
@@ -111,7 +111,7 @@ def import_scans():
 
     books = {}
     for filename in filenames:
-      with open(filename) as f:
+      with open(filename, encoding="utf-8") as f:
           data = json.load(f)
           for b in data:
             books[b["contents"]] = b
@@ -181,7 +181,7 @@ def find_isbns():
           thumbnail_big_enough = False
       post = None
       has_isbn13 = True
-      with open(filename) as f:
+      with open(filename, encoding="utf-8") as f:
         try:
           post = frontmatter.load(f)
         except UnicodeDecodeError:
@@ -224,7 +224,7 @@ def normalize_dates():
   """ uhhh this is messy, it's meant to be a sort of validation/fixup step"""
   filenames = glob.glob('content/books/*/index.md')
   for filename in filenames:
-    with open(filename) as f:
+    with open(filename, encoding="utf-8") as f:
       try:
         post = frontmatter.load(f)
       except UnicodeDecodeError:

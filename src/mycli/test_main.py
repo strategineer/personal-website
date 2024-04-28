@@ -44,7 +44,7 @@ SERIES_POST = [
    ("xyz \n\n![](confused)\n\n 123", 'xyz<br/><img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123'),
    ("\n\n![](confused)\n\n 123", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123'),
    (r"{{< series >}}", "<a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 1</a>: ★★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 2</a>: ★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 3</a>: ★"),
-   ("abc\n\n{{< series >}}\n\nxyz", "abc<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 1</a>: ★★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 2</a>: ★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 3</a>: ★<br/>xyz")
+   ("abc\n\n\n\n\n{{< series >}}\n\n\n\nxyz", "abc<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 1</a>: ★★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 2</a>: ★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 3</a>: ★<br/>xyz")
 ])
 def test_eval(content, expected):
     result = convert_to_goodreads_review_format(SERIES_POST, content, FILENAME)

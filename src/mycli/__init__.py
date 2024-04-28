@@ -55,8 +55,8 @@ def convert_to_image_source_for_goodreads(filename, image_filepath):
 
 def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename, delta_filename):
   # todo if rows are added, they need to be added
-  with open(old_filename, 'r', newline='') as old_file:
-    with open(new_filename, 'r', newline='') as new_file:
+  with open(old_filename, 'r', newline='', encoding='utf-8') as old_file:
+    with open(new_filename, 'r', newline='', encoding='utf-8') as new_file:
       old_rows = [r for r in csv.reader(old_file)]
       new_rows = [r for r in csv.reader(new_file)]
 
@@ -80,7 +80,7 @@ def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename
 
       if len(out_rows) == 1:
         return False
-      with open(delta_filename, 'w', newline='') as delta_file:
+      with open(delta_filename, 'w', newline='', encoding='utf-8') as delta_file:
         writer = csv.writer(delta_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for r in out_rows:
           writer.writerow(r)
@@ -89,9 +89,17 @@ def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename
 def convert_filename_to_url(filename):
   return str(Path(filename[len("content"):]).as_posix())
 
+def convert_post_to_star_rating(filename, post):
+  star_rating = post.metadata.get('star_rating', 0)
+  if star_rating == 0:
+    star_rating = "currently reading..."
+  else:
+    star_rating = '★' * star_rating
+  return f"[{post.metadata['title']}]({convert_filename_to_url(filename)}): {star_rating}"
+
 def convert_to_goodreads_review_format(series_posts, content, filename):
   if r"{{< series >}}" in content:
-    series_str = "<br/>".join([f"[{p.metadata['title']}]({convert_filename_to_url(f)}): {'★' * p.metadata.get('star_rating', 0)}" for (f, p) in series_posts])
+    series_str = "<br/>".join([convert_post_to_star_rating(f, p) for (f, p) in series_posts])
     content = re.sub(r"\s*{{< series >}}\s*", f"<br/>{series_str}<br/>", content)
   # horizontal bar removal
   content = re.sub(r"\n+---\n+", "<br/><br/>", content)
@@ -148,15 +156,22 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
   content = re.sub(r"(<br/>)+$", "", content)  
   return content.strip()
 
+def does_post_series_match(a, b):
+  return ("params" in a.metadata and
+          "params" in b.metadata and
+          a.metadata.get("params", {}).get("series") is not None and
+          a.metadata.get("params", {}).get("series") == b.metadata.get("params", {}).get("series")
+  )
+
 def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: False):
-  with open(export_filename, 'w', newline='') as csvfile:
+  with open(export_filename, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(["ISBN13", "Date Read", "Bookshelves", "Exclusive Shelf", "Read Count", "My Rating", "My Review", "Owned Copies"])
     filenames = glob.glob('content/books/*/index.md')
     posts = []
     for filename in filenames:
       #print(f"Handling file {filename}")
-      with open(filename) as f:
+      with open(filename, encoding='utf-8') as f:
         try:
           post = frontmatter.load(f)
           isbn13 = post.metadata.get("params", {}).get("isbn13")
@@ -183,7 +198,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: 
         
         if exclusive_shelf not in ["did-not-finish", "currently-reading"]:
           tags += [exclusive_shelf]
-        series_posts = [(filename, p) for (_, filename, p) in posts_by_date if "series" in p.metadata and p.metadata.get("series") == post.metadata.get("series")]
+        series_posts = [(filename, p) for (_, filename, p) in posts_by_date if does_post_series_match(p, post)]
         writer.writerow([
           isbn13,                                                                          # ISBN13
           post.metadata["date"].strftime("%Y/%m/%d") if exclusive_shelf == "read" else "", # Date Read
