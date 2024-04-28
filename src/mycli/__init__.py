@@ -95,7 +95,8 @@ def convert_post_to_star_rating(filename, post):
     star_rating = "currently reading..."
   else:
     star_rating = '★' * star_rating
-  return f"[Book {post.metadata.get('params', {}).get("series_order")}: {post.metadata['title']}]({convert_filename_to_url(filename)}): {star_rating}"
+  book_number_prefix = f"Book {post.metadata.get('params', {}).get('series_order')}"
+  return f"{book_number_prefix}: [{post.metadata['title']}]({convert_filename_to_url(filename)}): {star_rating}"
 
 def convert_to_goodreads_review_format(series_posts, content, filename):
   if r"{{< series >}}" in content:
