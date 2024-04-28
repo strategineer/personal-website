@@ -8,6 +8,7 @@ date: 2023-07-06
 params:
   isbn13: "9781250214713"
   series: The Murderbot Diaries
+  series_order: 1
   year: "2019"
 star_rating: 4
 title: All Systems Red

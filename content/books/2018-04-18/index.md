@@ -9,7 +9,7 @@ params:
   isbn13: "9780857687609"
   year: "2013"
 star_rating: 0
-title: Fun With A Pencil - How Everybody Can Easily Learn To Draw
+title: Fun With A Pencil
 ---
 
 <!--more-->

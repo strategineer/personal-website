@@ -8,6 +8,7 @@ date: 2023-11-05
 params:
   isbn13: "9781529051940"
   series: The Final Architecture
+  series_order: 2
   year: "2022"
 star_rating: 5
 title: Eyes Of The Void

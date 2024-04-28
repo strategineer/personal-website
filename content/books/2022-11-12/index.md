@@ -8,6 +8,7 @@ date: 2022-11-12
 params:
   isbn13: "9781250798138"
   series: Noumena
+  series_order: 1
   year: "2021"
 star_rating: 3
 title: Axiom's End

@@ -9,6 +9,7 @@ date: 2023-11-13
 params:
   isbn13: "9780552134620"
   series: Watch
+  series_order: 1
   year: "1998"
 star_rating: 5
 title: Guards! Guards!

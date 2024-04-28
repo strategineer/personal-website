@@ -9,6 +9,7 @@ date: 2022-11-28
 params:
   isbn13: "9781804990315"
   series: Rincewind
+  series_order: 1
   year: "2022"
 star_rating: 5
 title: The Colour Of Magic

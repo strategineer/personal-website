@@ -9,6 +9,7 @@ date: 2023-09-20
 params:
   isbn13: "9780765388971"
   series: The Interdependency
+  series_order: 2
   year: 2018
 star_rating: 4
 title: The Consuming Fire

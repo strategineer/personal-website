@@ -8,6 +8,7 @@ date: 2023-08-18
 params:
   isbn13: "9780765376480"
   series: Shades of Magic
+  series_order: 2
   year: "2017"
 star_rating: 5
 title: A Gathering Of Shadows

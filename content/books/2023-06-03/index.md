@@ -8,6 +8,7 @@ date: 2023-06-03
 params:
   isbn13: "9781509865857"
   series: Children of Time
+  series_order: 2
   year: "2020"
 star_rating: 4
 title: "Children Of Ruin"

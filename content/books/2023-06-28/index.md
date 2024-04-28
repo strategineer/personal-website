@@ -8,6 +8,7 @@ date: 2023-06-28
 params:
   isbn13: "9781529087185"
   series: Children of Time
+  series_order: 3
   year: "2022"
 star_rating: 5
 title: Children Of Memory

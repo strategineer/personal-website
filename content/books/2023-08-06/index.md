@@ -9,6 +9,7 @@ date: 2023-08-06
 params:
   isbn13: "9780765388889"
   series: The Interdependency
+  series_order: 1
   year: "2017"
 star_rating: 4
 title: The Collapsing Empire

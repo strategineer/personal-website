@@ -1,7 +1,7 @@
 {{ $series := .Page.Params.series }}
 {{ if $series }}
   <hr>
-  {{ $pages := .Site.RegularPages.ByDate }}
+  {{ $pages := .Site.RegularPages.ByParam "series_order" }}
   {{ range $pages }}
     {{ if eq .Params.series $series }}
       <a href="{{ .RelPermalink }}">

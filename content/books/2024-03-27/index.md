@@ -8,6 +8,7 @@ date: 2024-03-27
 params:
   isbn13: "9781473223592"
   series: Earthsea
+  series_order: 4
   year: "2019"
 star_rating: 5
 title: Tehanu

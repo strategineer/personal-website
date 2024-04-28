@@ -8,6 +8,7 @@ date: 2024-04-06
 params:
   isbn13: "9780547722047"
   series: Earthsea
+  series_order: 5
   year: "2012"
 star_rating: 4
 title: Tales From Earthsea

@@ -70,13 +70,13 @@ def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename
 
       for new_isbn, new_row in new_dict.items():
         if new_isbn not in old_dict:
-          print(f"{new_isbn} not in source of truth")
+          #print(f"{new_isbn} not in source of truth")
           out_rows.append(new_row)
         elif old_dict[new_isbn] != new_row:
-          print(f"old_dict[new_isbn] != row:\n\t{old_dict[new_isbn]} != {new_row}")
+          #print(f"old_dict[new_isbn] != row:\n\t{old_dict[new_isbn]} != {new_row}")
           out_rows.append(new_row)
       
-      print(out_rows)
+      #print(out_rows)
 
       if len(out_rows) == 1:
         return False
@@ -199,6 +199,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: 
         if exclusive_shelf not in ["did-not-finish", "currently-reading"]:
           tags += [exclusive_shelf]
         series_posts = [(filename, p) for (_, filename, p) in posts_by_date if does_post_series_match(p, post)]
+        series_posts = sorted(series_posts, key = lambda x: x[1].metadata.get("params", {}).get("series_order", 999))
         writer.writerow([
           isbn13,                                                                          # ISBN13
           post.metadata["date"].strftime("%Y/%m/%d") if exclusive_shelf == "read" else "", # Date Read

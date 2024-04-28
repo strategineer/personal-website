@@ -9,6 +9,7 @@ date: 2023-07-03
 params:
   isbn13: "9780552138901"
   series: Ancient Civilizations
+  series_order: 1
   year: "1993"
 star_rating: 4
 title: Small Gods
