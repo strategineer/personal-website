@@ -21,6 +21,8 @@ He's thought about (and nailed) the way each character thinks and speaks based o
 
 <!--more-->
 
+{{< series >}}
+
 Another strength of Adrian Tchaikovsky's work is his ability to interweave his world building into the plot as well as the characters in such a way that it all feels meaningful.
 
 He excels at showing instead of telling. When Haever, our favorite spy/neo-noir detective, is having a stressful conversation with his boss, we're told that he has an implant that detected an increase in stress in him and automatically injected him with his heart medication.

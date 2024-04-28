@@ -18,6 +18,8 @@ The first novel in Terry Pratchett's City/Night Watch series featuring the drunk
 
 <!--more-->
 
+{{< series >}}
+
 After reading Thud! and enjoying that, I decided to start reading the entire Discworld City/Night Watch series from the start.
 
 Sam Vimes suffers from a combination of alcoholism and depression leading to his skewed perspective of the world.

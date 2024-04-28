@@ -12,3 +12,7 @@ params:
 star_rating: 3
 title: Network Effect - A Murderbot Novel
 ---
+
+<!--more-->
+
+{{< series >}}

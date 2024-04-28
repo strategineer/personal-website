@@ -17,6 +17,8 @@ This novel suffers from middle book syndrome. It continues the story set up in t
 
 <!--more-->
 
+{{< series >}}
+
 {{< spoiler >}}
 
 Unlike The Fifth Season, this novel fails to coalesce the different POVs into a cohesive whole which was one of the best aspects of the first book.

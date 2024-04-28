@@ -19,6 +19,8 @@ If you liked the previous novel in this series, Children of Time, you're likely 
 
 <!--more-->
 
+{{< series >}}
+
 Both novels take place in universes that feel very grounded in reality. The way in which the various species present evolve over time, communicate with each other, perceive the world around them and interact with it, feels satisfyingly plausible while simultaneously feeling truly alien.
 
 These books put you in the shoes of wildly different characters (humans as well as very alien aliens) to tell a story spanning wide swathes of time and space.

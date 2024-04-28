@@ -19,6 +19,8 @@ There's some great stories here but I prefer the Earthsea novels to this general
 
 <!--more-->
 
+{{< series >}}
+
 I've read through the two first stories so far and I'm beginning to wonder why Ursula is so fascinated by mages retaining their semen. It's a little wacky.
 
 Notes after reading the whole book:

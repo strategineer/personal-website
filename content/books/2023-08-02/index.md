@@ -18,3 +18,5 @@ Le Guin mostly successful attempt to write a story in the world of a Wizard of E
 Ged shows up and steals the show a little bit from Tenar which Le Guin will rectify in the subsequent novels.
 
 <!--more-->
+
+{{< series >}}

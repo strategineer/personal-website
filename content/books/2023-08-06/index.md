@@ -22,6 +22,8 @@ So I rolled with it, strapped on my suspension of disbelief pants and enjoyed th
 
 <!--more-->
 
+{{< series >}}
+
 PS: I'm looking to have a good time reading a book so I try to meet the book I'm reading halfway and appreciate what it's trying to do instead of comment on what I think the author should have done.
 
 John Scalzi is an amazing writer; every few pages I would have to stop reading and sit there, stunned, by how funny a joke was, or how well set up a scene was, etc.

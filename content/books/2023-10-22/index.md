@@ -18,6 +18,8 @@ Her Villains duology leaves me feeling empty. She knows what the big moments she
 
 <!--more-->
 
+{{< series >}}
+
 Usually her characters haphazardly waffle about, forcing her to quickly redirect the paths of characters such that the big moments can happen as she imagines them.
 
 But these big moments come out of nowhere and don't feel earned. She has a hard time writing characters that feel real.

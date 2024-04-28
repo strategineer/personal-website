@@ -21,6 +21,8 @@ title: Children Of Memory
 
 <!--more-->
 
+{{< series >}}
+
 # Minor spoilers below about the basic premise of the series/novel
 
 {{< spoiler >}}

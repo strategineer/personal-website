@@ -20,6 +20,8 @@ Thud! is a Terry Pratchett novel through and through. There's ample comedy inter
 
 <!--more-->
 
+{{< series >}}
+
 **It would be a lot simpler [...] if this was a story. A sword is pulled out of a stone or a magic ring is flung into the depths of the sea, and with general rejoicing the world turns.**
 
 **But this was real life. The world didn't turn, it just went into a spin.**

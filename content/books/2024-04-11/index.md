@@ -19,6 +19,8 @@ In working through my thoughts after reading this trashfire of a novel, I wrote 
 
 <!--more-->
 
+{{< series >}}
+
 My ideal review would be very short, just focus on my complaints (the book was probably rushed to the printing press due to the unexpected acclaim received by the previous book and suffers from poor editing/polish especially in the middle of the text because of this) without giving any examples.
 
 KISS

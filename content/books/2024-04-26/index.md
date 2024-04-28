@@ -17,6 +17,8 @@ Ursula K. Le Guin's conclusion to her fantastic Earthsea series. Once again, she
 
 <!--more-->
 
+{{< series >}}
+
 **"The world's vast and strange, Hara, but no vaster and no stranger than our minds are. Think of that sometimes."**
 
 Hanging out with a friend or a loved one is one of the greatest things a human can do and yet how often do we see this honestly portrayed in fantasy? Yet, The Other Wind is the most "fantasy" fantasy book in the Earthsea series, featuring many tropes that you may have seen before (tropes: {{< spoiler >}}a restoration narrative, a mage haunted by his dark past, a king's romance with a princess from another land, a conflict occurring on the edges of the known world, etc. {{< /spoiler >}}) yet subverts or manages to make each of these tropes more interesting and grounded in reality than they would otherwise be if written by a less competent author.

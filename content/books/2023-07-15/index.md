@@ -12,3 +12,7 @@ params:
 star_rating: 3
 title: Exit Strategy
 ---
+
+<!--more-->
+
+{{< series >}}

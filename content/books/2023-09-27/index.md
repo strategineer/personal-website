@@ -16,6 +16,8 @@ In Vicious, V. E. Schwab writes some great prose and hooks you with a lot of wri
 
 <!--more-->
 
+{{< series >}}
+
 Almost every character is straight from the Build-Your-Own-Fan-Fiction factory which would be fine but they have more in common with cardboard cutouts than living breathing characters.
 
 The premise of the story and the way the story is told is as edgy as possible. It feels as though it's dark to be dark and appeal to a certain demographic not because the story being told needs to be this grim.

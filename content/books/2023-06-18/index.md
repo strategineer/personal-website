@@ -17,6 +17,8 @@ It was an enjoyable romp but doesn't necessarily hit the highs of the previous b
 
 <!--more-->
 
+{{< series >}}
+
 {{< spoiler >}}
 
 Here's some thoughts:

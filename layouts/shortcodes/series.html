@@ -1,0 +1,19 @@
+{{ $series := .Page.Params.series }}
+{{ if $series }}
+  <hr>
+  {{ $pages := .Site.RegularPages.ByDate }}
+  {{ range $pages }}
+    {{ if eq .Params.series $series }}
+      <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+        {{ $stars := .Params.star_rating }}
+        {{ $stars_unfilled := sub 5 (int .Params.star_rating) }}
+        {{ if $stars }}
+          {{- strings.Repeat $stars "⭐" -}}
+          {{- strings.Repeat $stars_unfilled "▫️" -}}
+        {{ end }}
+      </a>
+    {{ end }}
+  {{ end }}
+  <hr>
+{{ end }}

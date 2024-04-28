@@ -17,6 +17,8 @@ Set in 2007, the novel is about a U.S. government coverup of contact with extrat
 
 <!--more-->
 
+{{< series >}}
+
 I haven't read any fiction in almost three years.
 
 I decided to read this.

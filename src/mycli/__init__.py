@@ -86,8 +86,13 @@ def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename
           writer.writerow(r)
   return True
 
+def convert_filename_to_url(filename):
+  return str(Path(filename[len("content"):]).as_posix())
 
-def convert_to_goodreads_review_format(content, filename):
+def convert_to_goodreads_review_format(series_posts, content, filename):
+  if r"{{< series >}}" in content:
+    series_str = "<br/>".join([f"[{p.metadata['title']}]({convert_filename_to_url(f)}): {'★' * p.metadata.get('star_rating', 0)}" for (f, p) in series_posts])
+    content = re.sub(r"\s*{{< series >}}\s*", f"<br/>{series_str}<br/>", content)
   # horizontal bar removal
   content = re.sub(r"\n+---\n+", "<br/><br/>", content)
   # numbered lists
@@ -160,6 +165,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: 
         except UnicodeDecodeError:
           print(f"Failed to load file {filename} with frontmatter parser due to unicode error")
           continue
+    posts_by_date = posts[:]
     for isbn13, filename, post in sorted(posts):
       try:
         if should_filter_fn(post):
@@ -177,6 +183,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: 
         
         if exclusive_shelf not in ["did-not-finish", "currently-reading"]:
           tags += [exclusive_shelf]
+        series_posts = [(filename, p) for (_, filename, p) in posts_by_date if "series" in p.metadata and p.metadata.get("series") == post.metadata.get("series")]
         writer.writerow([
           isbn13,                                                                          # ISBN13
           post.metadata["date"].strftime("%Y/%m/%d") if exclusive_shelf == "read" else "", # Date Read
@@ -184,7 +191,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: 
           exclusive_shelf,                                                                 # Exclusive Shelf
           1 if exclusive_shelf == "read" else 0,                                           # Read Count 
           post.metadata.get("star_rating", 0),                                             # My Rating
-          convert_to_goodreads_review_format(post.content, filename),                      # My Review
+          convert_to_goodreads_review_format(series_posts, post.content, filename),       # My Review
           1 if "unowned" not in tags else 0 
         ])
       except Exception as e:

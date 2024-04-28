@@ -19,6 +19,8 @@ Shadow & Claw is an omnibus containing the first half of Gene Wolfe's Book of th
 
 <!--more-->
 
+{{< series >}}
+
 **"What will you be, Severian? A torturer? You may leave the guild, you know, if you prefer."**
 
 **I told him firmly -- and as though I were slightly shocked by the suggestion -- that I had never considered it. It was a lie. I had known, as all the apprentices knew, that one was not firmly and finally a member of the guild until one consented as an adult to the connection. Furthermore, though I loved the guild I hated it too -- not because of the pain it inflicted on clients who must sometimes have been innocent, and who must often have been punished beyond anything that could be justified by their offences; but because it seemed to me inefficient and ineffectual, serving a power that was not only ineffectual but remote. I do not know how better to express my feelings about it than by saying that I hated it for starving and humiliating me and loved it because it was my home, hated and loved it because it was the exemplar of old things, because it was weak, and because it seemed indestructible.**

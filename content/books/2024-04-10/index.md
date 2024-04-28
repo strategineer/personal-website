@@ -13,3 +13,7 @@ params:
 title: The Stone Sky
 weight: 1
 ---
+
+<!--more-->
+
+{{< series >}}

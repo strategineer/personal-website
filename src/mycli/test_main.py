@@ -3,6 +3,14 @@ FILENAME = "content/books\\2021-12-01\\index.md"
 from mycli import convert_to_goodreads_review_format
 
 import pytest
+import frontmatter
+
+SERIES_POST = [
+   (FILENAME, frontmatter.Post("", None, **{ "title": "Book 1", "star_rating": 5})),
+   (FILENAME, frontmatter.Post("", None, **{ "title": "Book 2", "star_rating": 4})),
+   (FILENAME, frontmatter.Post("", None, **{ "title": "Book 3", "star_rating": 1}))
+]
+
 
 
 @pytest.mark.parametrize("content,expected", [
@@ -34,8 +42,10 @@ import pytest
    ("![](/img/memes/books_2.png)", '<img src="https://strategineer.com/img/memes/books_2.png" width="200" height="153" />'),
    ("![](confused)", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" />'),
    ("xyz \n\n![](confused)\n\n 123", 'xyz<br/><img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123'),
-   ("\n\n![](confused)\n\n 123", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123')
+   ("\n\n![](confused)\n\n 123", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123'),
+   (r"{{< series >}}", "<a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 1</a>: ★★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 2</a>: ★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 3</a>: ★"),
+   ("abc\n\n{{< series >}}\n\nxyz", "abc<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 1</a>: ★★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 2</a>: ★★★★<br/><a href=\"https://strategineer.com/books/2021-12-01/index.md\">Book 3</a>: ★<br/>xyz")
 ])
 def test_eval(content, expected):
-    result = convert_to_goodreads_review_format(content, FILENAME)
+    result = convert_to_goodreads_review_format(SERIES_POST, content, FILENAME)
     assert result == expected, '{0} != {1}'.format(result, expected)

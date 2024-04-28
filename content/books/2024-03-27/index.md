@@ -10,7 +10,7 @@ params:
   series: Earthsea
   year: "2019"
 star_rating: 5
-title: Tehanu - The Fourth Book Of Earthsea
+title: Tehanu
 ---
 
 A sequel to both The Tombs of Atuan and The Farthest Shore.
@@ -18,6 +18,8 @@ A sequel to both The Tombs of Atuan and The Farthest Shore.
 Considering how uninteresting The Farthest Shore is, I'm confident saying that you can skip that book and go straight to Tehanu.
 
 <!--more-->
+
+{{< series >}}
 
 I've been reading the series alongside Ranged Touch Shelved by Genre podcast and it's been a lot of fun!
 

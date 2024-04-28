@@ -17,6 +17,8 @@ All Systems Red is about a sentient robot-human hybrid, calling themselves Murde
 
 <!--more-->
 
+{{< series >}}
+
 All Systems Red is a novella written by Martha Wells, the first in her Murderbot Diaries series.
 
 The titular Murderbot is a sentient robot-human hybrid, a slave to a mega corporation, tasked with protecting the humans it's told to protect.

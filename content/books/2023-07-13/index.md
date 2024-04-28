@@ -17,6 +17,8 @@ The Murderbot Diaries series so far have been extremely cyberpunk.
 
 <!--more-->
 
+{{< series >}}
+
 - Murderbot hacks its own brain (or part of it) and tells us about it on page 1 of the first novella.
 
 - People with cybernetic enhancements are so commonplace that Murderbot can (with a little help) disguise itself like one of them and no one bats an eye.

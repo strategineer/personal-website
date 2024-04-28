@@ -21,4 +21,6 @@ I was so immersed in the world that I was tearing up by the end of the book whic
 
 <!--more-->
 
+{{< series >}}
+
 I can't wait to read the rest of novels in this series, here's hoping that they're just as good as this one if not better.
