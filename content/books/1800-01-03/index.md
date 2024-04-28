@@ -14,5 +14,3 @@ weight: 1
 
 
 <!--more-->
-
-{{< series >}}
