@@ -8,7 +8,7 @@ date: 2024-04-26
 params:
   isbn13: "9780547773728"
   series: Earthsea
-  series_order: 6
+  series_order: "6"
   year: "2012"
 title: The Other Wind
 star_rating: 5

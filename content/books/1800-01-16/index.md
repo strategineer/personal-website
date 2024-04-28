@@ -7,7 +7,7 @@ date: 1800-01-16
 params:
   isbn13: '9780345374745'
   series: 'The Elenium'
-  series_order: 3
+  series_order: "3"
   year: '1992'
 title: The Sapphire Rose
 weight: 1

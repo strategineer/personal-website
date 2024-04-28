@@ -8,7 +8,7 @@ date: 2023-06-18
 params:
   isbn13: "9780765387462"
   series: Shades of Magic
-  series_order: 3
+  series_order: "3"
   year: "2017"
 star_rating: 4
 title: A Conjuring Of Light

@@ -7,7 +7,7 @@ date: 2023-09-27
 params:
   isbn13: "9781783290215"
   series: Villains
-  series_order: 1
+  series_order: "1"
   year: "2014"
 star_rating: 3
 title: Vicious

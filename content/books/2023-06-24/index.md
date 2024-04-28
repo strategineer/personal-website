@@ -9,7 +9,7 @@ date: 2023-06-24
 params:
   isbn13: "9780552148405"
   series: Death
-  series_order: 1
+  series_order: "1"
   year: "2002"
 star_rating: 4
 title: Thief Of Time

@@ -8,7 +8,7 @@ date: 2024-04-27
 params:
   isbn13: "9781481465588"
   series: Earthsea
-  series_order: 7
+  series_order: "6.1"
   year: "2018"
 title: "The Books of Earthsea: The Complete Illustrated Edition"
 star_rating: 4

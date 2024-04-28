@@ -8,7 +8,7 @@ date: 2024-04-06
 params:
   isbn13: "9780547722047"
   series: Earthsea
-  series_order: 5
+  series_order: "5"
   year: "2012"
 star_rating: 4
 title: Tales From Earthsea
@@ -30,7 +30,7 @@ Notes after reading the whole book:
 
 - It's a collection of short stories set within the world of Earthsea, some are fun, others are interesting but none are essential to appreciating the series as a whole.
 
-- Tales of Earthsea is clearly Le Guin being told to write another novel in the Earthsea series but not knowing what to do exactly and so she writes some short stories instead until she figures out where the story is going.
+- Tales From Earthsea is clearly Le Guin being told to write another novel in the Earthsea series but not knowing what to do exactly and so she writes some short stories instead until she figures out where the story is going.
 
 So far, I think my recommendation for maximizing your enjoyment of the Earthsea series for people who haven't read it before would involve completely skipping the 3rd and 5th books in the series.
 

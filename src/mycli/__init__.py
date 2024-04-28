@@ -95,7 +95,7 @@ def convert_post_to_star_rating(filename, post):
     star_rating = "currently reading..."
   else:
     star_rating = '★' * star_rating
-  return f"[{post.metadata['title']}]({convert_filename_to_url(filename)}): {star_rating}"
+  return f"[Book {post.metadata.get('params', {}).get("series_order")}: {post.metadata['title']}]({convert_filename_to_url(filename)}): {star_rating}"
 
 def convert_to_goodreads_review_format(series_posts, content, filename):
   if r"{{< series >}}" in content:
@@ -200,7 +200,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn = lambda x: 
         if exclusive_shelf not in ["did-not-finish", "currently-reading"]:
           tags += [exclusive_shelf]
         series_posts = [(filename, p) for (_, filename, p) in posts_by_date if does_post_series_match(p, post)]
-        series_posts = sorted(series_posts, key = lambda x: x[1].metadata.get("params", {}).get("series_order", 999))
+        series_posts = sorted(series_posts, key = lambda x: x[1].metadata.get("params", {}).get("series_order", "999"))
         writer.writerow([
           isbn13,                                                                          # ISBN13
           post.metadata["date"].strftime("%Y/%m/%d") if exclusive_shelf == "read" else "", # Date Read

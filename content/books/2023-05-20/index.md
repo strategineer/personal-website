@@ -9,7 +9,7 @@ date: 2023-05-20
 params:
   isbn13: "9781447273301"
   series: Children of Time
-  series_order: 1
+  series_order: "1"
   year: "2016"
 star_rating: 5
 title: Children Of Time

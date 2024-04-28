@@ -7,7 +7,7 @@ date: 1800-05-04
 params:
   isbn13: "9780765378019"
   series: "Terra Ignota"
-  series_order: 1
+  series_order: "1"
   year: "2017"
 title: Too Like The Lightning
 weight: 1

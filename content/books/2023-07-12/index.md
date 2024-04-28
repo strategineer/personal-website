@@ -9,7 +9,7 @@ date: 2023-07-12
 params:
   isbn13: "9780552152679"
   series: Watch
-  series_order: 7
+  series_order: "7"
   year: "2006"
 star_rating: 5
 title: Thud!

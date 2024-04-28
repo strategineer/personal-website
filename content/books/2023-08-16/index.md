@@ -8,7 +8,7 @@ date: 2023-08-16
 params:
   isbn13: "9780316705851"
   series: The Final Architecture
-  series_order: 1
+  series_order: "1"
   year: "2021"
 star_rating: 5
 title: Shards Of Earth

@@ -8,7 +8,7 @@ date: 2023-06-12
 params:
   isbn13: "9780765376466"
   series: Shades of Magic
-  series_order: 1
+  series_order: "1"
   year: "2016"
 star_rating: 5
 title: A Darker Shade Of Magic
