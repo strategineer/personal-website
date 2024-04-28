@@ -6,7 +6,7 @@ import subprocess
 from pathlib import Path
 from urllib.parse import urljoin
 import os
-import sys
+import math
 
 import frontmatter
 from PIL import Image
@@ -96,7 +96,9 @@ def convert_post_to_star_rating(filename, post):
   else:
     star_rating = '★' * star_rating
   book_number_prefix = f"Book {post.metadata.get('params', {}).get('series_order')}"
-  return f"{book_number_prefix}: [{post.metadata['title']}]({convert_filename_to_url(filename)}): {star_rating}"
+  reading_time_in_minutes = round(len(post.content.split()) / 212.0)
+  reading_time_suffix = f" ({reading_time_in_minutes + 1}min read)" if reading_time_in_minutes > 0 else "" 
+  return f"{book_number_prefix}: [{post.metadata['title']}]({convert_filename_to_url(filename)}) {star_rating}{reading_time_suffix}"
 
 def convert_to_goodreads_review_format(series_posts, content, filename):
   if r"{{< series >}}" in content:
