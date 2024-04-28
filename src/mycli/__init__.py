@@ -100,7 +100,7 @@ def convert_post_to_star_rating(filename, post):
 def convert_to_goodreads_review_format(series_posts, content, filename):
   if r"{{< series >}}" in content:
     series_str = "<br/>".join([convert_post_to_star_rating(f, p) for (f, p) in series_posts])
-    content = re.sub(r"\s*{{< series >}}\s*", f"<br/>{series_str}<br/>", content)
+    content = re.sub(r"\s*{{< series >}}\s*", f"<br/>{series_str}<br/><br/>", content)
   # horizontal bar removal
   content = re.sub(r"\n+---\n+", "<br/><br/>", content)
   # numbered lists
