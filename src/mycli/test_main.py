@@ -6,9 +6,9 @@ import pytest
 import frontmatter
 
 SERIES_POST = [
-   (FILENAME, frontmatter.Post("", None, **{ "title": "Book 1", "star_rating": 5})),
-   (FILENAME, frontmatter.Post("", None, **{ "title": "Book 2", "star_rating": 4})),
-   (FILENAME, frontmatter.Post("", None, **{ "title": "Book 3", "star_rating": 1}))
+   (FILENAME, frontmatter.Post("a" * 212 * 17, None, **{ "title": "Book 1", "star_rating": 5, "params":{ "series_order": "1"}})),
+   (FILENAME, frontmatter.Post("a" * 212 * 10, None, **{ "title": "Book 2", "star_rating": 4, "params":{ "series_order": "1.5"}})),
+   (FILENAME, frontmatter.Post("a" * 212 * 1, None, **{ "title": "Book 3", "star_rating": 1, "params":{ "series_order": "2"}}))
 ]
 
 
@@ -43,8 +43,8 @@ SERIES_POST = [
    ("![](confused)", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" />'),
    ("xyz \n\n![](confused)\n\n 123", 'xyz<br/><br/><img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123'),
    ("\n\n![](confused)\n\n 123", '<img src="https://strategineer.com/img/react/confused.gif" width="200" height="200" /><br/>123'),
-   (r"{{< series >}}", "Book None: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 1</a> ★★★★★<br/>Book None: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 2</a> ★★★★<br/>Book None: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 3</a> ★"),
-   ("abc\n\n\n\n\n{{< series >}}\n\n\n\nxyz", "abc<br/>Book None: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 1</a> ★★★★★<br/>Book None: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 2</a> ★★★★<br/>Book None: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 3</a> ★<br/><br/>xyz")
+   (r"{{< series >}}", "Book 1: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 1</a> ★★★★★<br/>Book 1.5: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 2</a> ★★★★<br/>Book 2: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 3</a> ★"),
+   ("abc\n\n\n\n\n{{< series >}}\n\n\n\nxyz", "abc<br/>Book 1: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 1</a> ★★★★★<br/>Book 1.5: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 2</a> ★★★★<br/>Book 2: <a href=\"https://strategineer.com/books/2021-12-01/\">Book 3</a> ★<br/><br/>xyz")
 ])
 def test_eval(content, expected):
     result = convert_to_goodreads_review_format(SERIES_POST, content, FILENAME)

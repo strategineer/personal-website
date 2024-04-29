@@ -97,10 +97,19 @@ def convert_post_to_star_rating(filename, post):
     star_rating = '★' * star_rating
   book_number_prefix = f"Book {post.metadata.get('params', {}).get('series_order')}"
   reading_time_in_minutes = round(len(post.content.split()) / 212.0)
-  reading_time_suffix = f" ({reading_time_in_minutes + 1}min read)" if reading_time_in_minutes > 0 else "" 
-  return f"{book_number_prefix}: [{post.metadata['title']}]({convert_filename_to_url(filename)}) {star_rating}{reading_time_suffix}"
+  reading_time_asterixes = "*" * min(3, max(1, reading_time_in_minutes)) if reading_time_in_minutes > 0 else "" 
+  return f"{book_number_prefix}: [{post.metadata['title']}{reading_time_asterixes}]({convert_filename_to_url(filename)}) {star_rating}"
 
 def convert_to_goodreads_review_format(series_posts, content, filename):
+  # Convert every other occurrence of **.
+  content = re.sub(r'(\*\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<b>', content)
+  # ... convert the rest to the closing.
+  content = content.replace("**", "</b>")
+  # Convert every other occurrence of *.
+  content = re.sub(r'(\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<i>', content)
+  # ... convert the rest to the closing.
+  content = content.replace("*", "</i>")
+
   if r"{{< series >}}" in content:
     series_str = "<br/>".join([convert_post_to_star_rating(f, p) for (f, p) in series_posts])
     content = re.sub(r"\s*{{< series >}}\s*", f"<br/>{series_str}<br/><br/>", content)
@@ -124,14 +133,6 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
   content = content.replace("\n", "")
   content = content.replace(r"{{< spoiler >}}", "<spoiler>")
   content = content.replace(r"{{< /spoiler >}}", "</spoiler>")
-  # Convert every other occurrence of **.
-  content = re.sub(r'(\*\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<b>', content)
-  # ... convert the rest to the closing.
-  content = content.replace("**", "</b>")
-  # Convert every other occurrence of *.
-  content = re.sub(r'(\*)', lambda m, c=itertools.count(): m.group() if next(c) % 2 else '<i>', content)
-  # ... convert the rest to the closing.
-  content = content.replace("*", "</i>")
   while True:
     try:
       content.index("  ")
