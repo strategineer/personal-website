@@ -8,6 +8,8 @@ from time import sleep
 from difflib import *
 import subprocess
 import sys
+import urllib
+import re
 
 from PIL import Image
 from mergedeep import merge
@@ -321,8 +323,11 @@ BOOKS_BODY_ID = "booksBody"
 
 
 def get_wob_search_url(author, title):
-  last_name = author.split(",")[0]
-  query = f"{title} {last_name}".replace(" ", "+") 
+  author = " ".join(reversed(author.split(",")))
+  # N.K. -> N. K.
+  author = re.sub(r"([A-Z])\.([A-Z])\.", "\g<1>. \g<2>.", author)
+  query = f'"{author.strip()}" "{title.strip()}"'
+  query = urllib.parse.quote_plus(query)
   return f"https://www.wob.com/en-gb/category/all?search={query}&so=price_asc&pt=book"
 
 
@@ -332,46 +337,61 @@ def soupify_url(session, url):
 
 
 @click.command()
-def find_used_books():
-  with requests.Session() as session:
-      session.headers.update(
-          {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0",
-          }
+@click.argument("url")
+@click.option("--debug", is_flag=True)
+def find_used_books(url, debug):
+  headers = {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0",
+      }
+  goodreads_tag_url = url
+  html = requests.get(goodreads_tag_url, headers=headers)
+  soup = bs(html.text, features="html.parser")
+  booksBody = soup.find("tbody", {"id": BOOKS_BODY_ID})
+  if booksBody is None:
+      print(f"No DOM element with id={BOOKS_BODY_ID} found, exiting")
+      return
+
+  titles = booksBody.find_all("td", {"class": "field title"})
+  authors = booksBody.find_all("td", {"class": "field author"})
+  isbns = booksBody.find_all("td", {"class": "field isbn13"})
+
+  titles = [td.div.a.contents[0].strip() for td in titles]
+  authors = [td.div.a.text.strip() for td in authors]
+  isbns = [td.div.text.strip() for td in isbns]
+
+  books = list(zip(authors, titles, isbns))
+  
+  urls = [get_wob_search_url(author, title) for (author, title, _) in books]
+
+  books_and_urls = list(zip(books, urls))
+  print(books_and_urls)
+  if debug:
+    sys.exit(1)
+  for (author, title, isbn), url in books_and_urls:
+    sleep(5)
+    html = requests.get(url, headers=headers)
+    wob_soup = bs(html.text, features="html.parser")
+    try:
+      # todo this title search might not be necessary if the searches are specific enough now
+      #found_title = wob_soup.find(
+      #    "span", {"class": "title"}
+      #)
+      #if title is not None and title in found_title.text: 
+      price = wob_soup.find(
+          "div", {"class": "itemPrice"}
       )
-      goodreads_tag_url = (
-          "https://www.goodreads.com/review/list/46642168-billy-the-kid?shelf=romance"
-      )
-      soup = soupify_url(session, goodreads_tag_url)
-      booksBody = soup.find("tbody", {"id": BOOKS_BODY_ID})
-      if booksBody is None:
-          print(f"No DOM element with id={BOOKS_BODY_ID} found, exiting")
-          return
-
-      titles = booksBody.find_all("td", {"class": "field title"})
-      authors = booksBody.find_all("td", {"class": "field author"})
-      isbns = booksBody.find_all("td", {"class": "field isbn13"})
-
-      titles = [td.div.a.text.strip() for td in titles]
-      authors = [td.div.a.text.strip() for td in authors]
-      isbns = [td.div.text.strip() for td in isbns]
-
-      books = list(zip(authors, titles, isbns))
-      
-      urls = [get_wob_search_url(author, title) for (author, title, _) in books]
-
-      books_and_urls = list(zip(books, urls))
-      print(books_and_urls)
-      for url in urls:
-          wob_soup = soupify_url(session, url)
-          try:
-              price = wob_soup.find(
-                  "div", {"class": "itemPrice"}
-              )
-              if price:
-                print(f"Price found for {url}: {price.text}£")
-          except IndexError:
-              print("stock not found...")
+      if price:
+        condition = wob_soup.find(
+          "div", {"class": "itemType"}
+        )
+        #print(f"Price found for {author}'s {title}\n\t at {url}:\n\t\t{price.text.strip()} pounds ({condition.text.strip()})")
+        print(f"{price.text.strip()},({condition.text.strip()}),{url}")
+      else:
+        pass
+        #print(f"no price found for {author}'s {title}")
+    except IndexError:
+        pass
+        #print("ehhhh not found...")
 
 
 cli.add_command(import_scans)
