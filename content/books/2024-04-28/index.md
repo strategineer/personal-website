@@ -4,6 +4,8 @@ authors:
 books/tags:
   - currently-reading
   - fiction
+  - science-fiction
+  - dystopian
 date: 2024-04-28
 params:
   isbn13: "9780593469316"
