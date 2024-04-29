@@ -9,12 +9,10 @@ poetry run py -u "src/mycli/main.py" upload --debug
 ```
 
 Compare old and new source of truth csvs if passed in --debug flag to upload command
+
 ```
 poetry run csv-diff csv/source_of_truth.csv csv/new_source_of_truth.csv --key=ISBN13
 ```
-
-
-
 
 Increase the vertical extent of an image so that highball cocktails don't appear as gigantic images
 
@@ -41,6 +39,7 @@ npx prettier . --write
 ```
 
 Run tests
+
 ```
 poetry run pytest --pyargs mycli
 ```

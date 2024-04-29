@@ -1,5 +1,9 @@
 {{ define "main" }}
-  <article class="reviews-content" data-pagefind-filter="author:Strat" data-pagefind-meta="author:Strat">
+  <article
+    class="reviews-content"
+    data-pagefind-filter="author:Strat"
+    data-pagefind-meta="author:Strat"
+  >
     {{ partial "title" . }}
     {{ partial "try_links" . }}
     {{ partial "try_video" . }}
@@ -39,5 +43,5 @@
         {{ .Params.outro | markdownify }}
       </div>
     {{ end }}
-    </article>
+  </article>
 {{ end }}

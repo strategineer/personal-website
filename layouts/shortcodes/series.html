@@ -1,11 +1,12 @@
 {{ $series := .Page.Params.series }}
 {{ if $series }}
-  <hr>
+  <hr />
   {{ $pages := .Site.RegularPages.ByParam "series_order" }}
   {{ range $pages }}
     {{ if eq .Params.series $series }}
       <a href="{{ .RelPermalink }}">
-        Book {{ .Params.series_order }}: {{ .Title }}
+        Book {{ .Params.series_order }}:
+        {{ .Title }}
         {{ $stars := .Params.star_rating }}
         {{ $stars_unfilled := sub 5 (int .Params.star_rating) }}
         {{ if $stars }}
@@ -15,5 +16,5 @@
       </a>
     {{ end }}
   {{ end }}
-  <hr>
+  <hr />
 {{ end }}

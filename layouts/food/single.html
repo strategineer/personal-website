@@ -1,5 +1,9 @@
 {{ define "main" }}
-  <article class="food-content" data-pagefind-filter="author:Strat" data-pagefind-meta="author:Strat">
+  <article
+    class="food-content"
+    data-pagefind-filter="author:Strat"
+    data-pagefind-meta="author:Strat"
+  >
     {{ partial "title" . }}
     {{ partial "try_links" . }}
     {{ partial "try_tags" . }}
@@ -48,5 +52,5 @@
         {{ .Content }}
       </div>
     {{ end }}
-    </article>
+  </article>
 {{ end }}

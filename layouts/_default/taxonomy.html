@@ -6,10 +6,10 @@
   {{ if or (and (eq .Section "authors") .IsSection) (and (eq .Kind "taxonomy") (eq .Section "books")) }}
     {{ partial "all_tags.html" . }}
   {{ else }}
-  <span data-pagefind-ignore>
-    {{ range .Pages }}
-      {{ .Render "summary" }}
-    {{ end }}
-  </span>
+    <span data-pagefind-ignore>
+      {{ range .Pages }}
+        {{ .Render "summary" }}
+      {{ end }}
+    </span>
   {{ end }}
 {{ end }}

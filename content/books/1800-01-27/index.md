@@ -1,15 +1,14 @@
 ---
 authors:
-- Mathew Henderson
+  - Mathew Henderson
 books/tags:
-- owned-but-unread
+  - owned-but-unread
 date: 1800-01-27
 params:
-  isbn13: '9781487007812'
-  year: '2020'
+  isbn13: "9781487007812"
+  year: "2020"
 title: Roguelike
 weight: 1
 ---
-
 
 <!--more-->

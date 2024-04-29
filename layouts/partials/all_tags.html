@@ -5,10 +5,10 @@
 {{ $p := .Section }}
 
 {{ if and (in (slice "blog" "reviews" "cocktails" "food" "projects") $p) }}
-{{ $p = add $p "/tags" }}
+  {{ $p = add $p "/tags" }}
 {{ end }}
 
-{{ $is_books := eq $p "books"}}
+{{ $is_books := eq $p "books" }}
 
 {{ if $is_books }}
   {{ $p = "books/tags" }}
@@ -187,14 +187,14 @@
     {{ end }}
   </div>
 {{ else }}
-<div class="row align-items-center data-pagefind-ignore">
-  {{ range $t := $taxonomy }}
-  <div class="col-12 text-center">
-    <a href="{{ $t.Page.RelPermalink }}">
-      {{ humanize $t.Term }}
-    </a>
-    ({{ len $t.Pages }} pages)
+  <div class="row align-items-center data-pagefind-ignore">
+    {{ range $t := $taxonomy }}
+      <div class="col-12 text-center">
+        <a href="{{ $t.Page.RelPermalink }}">
+          {{ humanize $t.Term }}
+        </a>
+        ({{ len $t.Pages }} pages)
+      </div>
+    {{ end }}
   </div>
-  {{ end }}
-</div>
 {{ end }}

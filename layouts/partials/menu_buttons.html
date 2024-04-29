@@ -5,7 +5,7 @@
 {{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/" }}
 {{ $is_authors := hasPrefix .RelPermalink "/authors" }}
 {{ $is_books_tags := (hasPrefix .RelPermalink "/books/tags") }}
-{{ $is_books := and (not $is_books_tags) (or (hasPrefix .RelPermalink "/books/") (eq .RelPermalink "/"))}}
+{{ $is_books := and (not $is_books_tags) (or (hasPrefix .RelPermalink "/books/") (eq .RelPermalink "/")) }}
 {{ $is_tools := hasPrefix .RelPermalink "/bin/" }}
 {{ $is_blog := hasPrefix .RelPermalink "/blog/" }}
 {{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}}
