@@ -212,6 +212,7 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
     content = content.replace(SINGLE_LINE_BREAK_MARKER, "<br/>")
     content = content.replace("<br/><br/><spoiler><br/><br/>", "<br/><spoiler><br/>")
     content = content.replace("<br/><br/></spoiler><br/><br/>", "<br/></spoiler><br/>")
+    content = content.replace("</b><br/><br/><b>", "</b><br/><b>")
     # strip extra line breaks
     content = re.sub(r"^(<br/>)+", "", content)
     content = re.sub(r"(<br/>)+$", "", content)

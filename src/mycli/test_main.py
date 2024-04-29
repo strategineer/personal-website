@@ -94,6 +94,7 @@ SERIES_POST = [
             "abc\n\n\n\n\n{{< series >}}\n\n\n\nxyz",
             'abc<br/><br/>Book 1: <a href="https://strategineer.com/books/2021-12-01/">Book 1</a> ★★★★★<br/>Book 1.5: <a href="https://strategineer.com/books/2021-12-01/">Book 2</a> ★★★★<br/>Book 2: <a href="https://strategineer.com/books/2021-12-01/">Book 3</a> ★<br/><br/>xyz',
         ),
+        ("**ABC**\n\n**123**","<b>ABC</b><br/><b>123</b>")
     ],
 )
 def test_eval(content, expected):
