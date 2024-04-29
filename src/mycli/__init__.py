@@ -11,6 +11,9 @@ import math
 import frontmatter
 from PIL import Image
 
+SINGLE_LINE_BREAK_MARKER = "<BREAK1/>"
+DOUBLE_LINE_BREAK_MARKER = "<BREAK2/>"
+
 def copy2clip(txt):
     cmd='echo '+txt.strip()+'|clip'
     return subprocess.check_call(cmd, shell=True)
@@ -51,7 +54,7 @@ def convert_to_image_source_for_goodreads(filename, image_filepath):
     raise f"No image found at {image_path}, that's a bug or this image doesn't exist."
   src = urljoin("https://strategineer.com/", path_str)
   # todo get appropriate width/height values here that line up with the actual image so that it keeps its aspect ratio
-  return rf'<br/><br/><img src="{src}" width="{width}" height="{height}" /><br/>'
+  return rf'{DOUBLE_LINE_BREAK_MARKER}<img src="{src}" width="{width}" height="{height}" />{DOUBLE_LINE_BREAK_MARKER}'
 
 def write_delta_csv_from_old_and_new_source_of_truths(old_filename, new_filename, delta_filename):
   # todo if rows are added, they need to be added
@@ -111,16 +114,16 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
   content = content.replace("*", "</i>")
 
   if r"{{< series >}}" in content:
-    series_str = "<br/>".join([convert_post_to_star_rating(f, p) for (f, p) in series_posts])
-    content = re.sub(r"\s*{{< series >}}\s*", f"<br/>{series_str}<br/><br/>", content)
+    series_str = f"{SINGLE_LINE_BREAK_MARKER}".join([convert_post_to_star_rating(f, p) for (f, p) in series_posts])
+    content = re.sub(r"\s*{{< series >}}\s*", f"{DOUBLE_LINE_BREAK_MARKER}{series_str}{DOUBLE_LINE_BREAK_MARKER}", content)
   # horizontal bar removal
-  content = re.sub(r"\n+---\n+", "<br/><br/>", content)
+  content = re.sub(r"\n+---\n+", DOUBLE_LINE_BREAK_MARKER, content)
   # numbered lists
-  content = re.sub(r"\n(\d+\.)([^\n]+)", r"<br/>\g<1>\g<2>", content)
+  content = re.sub(r"\n(\d+\.)([^\n]+)", rf"{SINGLE_LINE_BREAK_MARKER}\g<1>\g<2>", content)
   # non-numbered lists
-  content = re.sub(r"\n(-)([^\n]+)", r"<br/>\g<1>\g<2>", content)
+  content = re.sub(r"\n(-)([^\n]+)", rf"{SINGLE_LINE_BREAK_MARKER}\g<1>\g<2>", content)
   # headers
-  content = re.sub(r"#+\s*(.+)\s*\n?", r"||| \g<1> |||<br/>", content)
+  content = re.sub(r"#+\s*(.+)\s*\n?", rf"||| \g<1> |||{SINGLE_LINE_BREAK_MARKER}", content)
   # local urls
   content = re.sub(r"\[([^]]+)\]\((/[^)]+)\)", r'<a href="https://strategineer.com\g<2>">\g<1></a>', content)
   # other urls
@@ -128,8 +131,8 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
   # image links
   content = re.sub(r"\s*!\[\]\(([^)]+)\)\s*", lambda m: convert_to_image_source_for_goodreads(filename, m.group(1)), content)
   # remove unneeded html
-  content = re.sub(r"\s*<!--more-->\s*", "<br/><br/>", content)
-  content = content.replace("\n\n", "<br/><br/>")
+  content = re.sub(r"\s*<!--more-->\s*", DOUBLE_LINE_BREAK_MARKER, content)
+  content = content.replace("\n\n", DOUBLE_LINE_BREAK_MARKER)
   content = content.replace("\n", "")
   content = content.replace(r"{{< spoiler >}}", "<spoiler>")
   content = content.replace(r"{{< /spoiler >}}", "</spoiler>")
@@ -141,18 +144,19 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
     content = content.replace("  ", " ")
   while True:
     try:
-      content.index("<br/> ")
+      content.index(f"{DOUBLE_LINE_BREAK_MARKER} ")
     except ValueError:
       break
-    content = content.replace("<br/> ", "<br/>")
-  # todo figure how where this is being added
-  content = content.replace("<br/br/>", "")
+    content = content.replace(f"{DOUBLE_LINE_BREAK_MARKER} ", DOUBLE_LINE_BREAK_MARKER)
   while True:
     try:
-      content.index("<br/><br/><br/>")
+      content.index(2 * DOUBLE_LINE_BREAK_MARKER)
     except ValueError:
       break
-    content = content.replace("<br/><br/><br/>", "<br/><br/>")
+    content = content.replace(2 * DOUBLE_LINE_BREAK_MARKER, DOUBLE_LINE_BREAK_MARKER)
+
+  content = content.replace(DOUBLE_LINE_BREAK_MARKER, "<br/><br/>")
+  content = content.replace(SINGLE_LINE_BREAK_MARKER, "<br/>")
   content = content.replace("<br/><br/><spoiler><br/><br/>", "<br/><spoiler><br/>")
   content = content.replace("<br/><br/></spoiler><br/><br/>", "<br/></spoiler><br/>")
   # strip extra line breaks
