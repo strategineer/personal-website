@@ -5,8 +5,11 @@
   <div class="d-flex justify-content-center d-flex-inline-list text-center">
     <ul class="list-inline ul-inline">
       {{ range $tags }}
+      {{ $pretty_tag := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+      {{ if eq $pretty_tag "Currently-Reading"}}
+      {{ continue }}
+      {{ end }}
         <li class="list-inline-item li-inline">
-          {{ $pretty_tag := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
           <a href="{{ .Permalink }}">
             {{ if $is_page }}
               <span data-pagefind-filter="tag">

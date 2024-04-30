@@ -35,7 +35,7 @@ It gets worse.
 
 What is the purpose of having characters speaking in awfully written broken English?
 
-**"A funeral. The old Lease is not have a funeral. There is a new Lease--I know it is so. I am in Vastai for days and days and the Lease is not see us. Now the Lease is see us--once--and this man who is the Lease is not the Lease before."**
+**"A funeral. The old Lease is not have a funeral. There is a new Lease—I know it is so. I am in Vastai for days and days and the Lease is not see us. Now the Lease is see us—once—and this man who is the Lease is not the Lease before."**
 
 I'm not an expert linguist so maybe it's possible for someone to learn language X then try to learn language Y and the result of that is this. Maybe?
 

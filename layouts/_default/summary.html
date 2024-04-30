@@ -8,7 +8,7 @@
 <article class="post-summary">
   {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
   {{ $summary_classes := cond $is_less_important "less-important" "" }}
-  <div class="row summary-row {{ $summary_classes }} justify-content-center align-items-center">
+  <div class="row summary-row {{ $summary_classes }} justify-content-center">
   {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
   {{ if $thumbnail }}
     <div class="col-7 col-sm-5 col-md-4">

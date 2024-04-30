@@ -30,7 +30,7 @@ Adulthood Rites, the second book in the series, follows, from the POV of a mixed
 
 It's not as memorable as the first book. It lacks the novelty and the raw-ness of the first book.
 
-The third book in the series, Imago, follows the story of a one of a kind mixed-species ooloi (neither man or woman, a third sex) as it discovers who it is and what it can do (a lot -- it can manipulate the genes of others and itself at will). Despite having an intriguing premise, it's the weakest of the three books. It's ending feels rushed and the lead up to it was disappointing.
+The third book in the series, Imago, follows the story of a one of a kind mixed-species ooloi (neither man or woman, a third sex) as it discovers who it is and what it can do (a lot — it can manipulate the genes of others and itself at will). Despite having an intriguing premise, it's the weakest of the three books. It's ending feels rushed and the lead up to it was disappointing.
 
 It feels as though the series would have been better served by spending more time reckoning with the fact that as the protagonists become less and less human in each book, what comes naturally to them (AKA using pheromones and the best sex skills this side of the universe to have sex with people who ARE NOT biologically capable of providing actual consent) is extremely phucked up and turns them into monsters (at least from the perspective of the reader).
 

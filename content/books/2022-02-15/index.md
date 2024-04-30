@@ -13,7 +13,7 @@ star_rating: 3
 title: Meditations - A New Translation
 ---
 
-Marcus Aurelius Antoninus (a.d. 121–180) succeeded his adoptive father as emperor of Rome in a.d. 161--and in his Meditations he provides insights, wisdom, and practical guidance on everything from living in the world to coping with adversity to interacting with others. It's surprising how much of his advice has aged well but given his position of supreme power and the changing times (eg. slavery is bad), some of his meditations have not aged so well.
+Marcus Aurelius Antoninus (a.d. 121–180) succeeded his adoptive father as emperor of Rome in a.d. 161—and in his Meditations he provides insights, wisdom, and practical guidance on everything from living in the world to coping with adversity to interacting with others. It's surprising how much of his advice has aged well but given his position of supreme power and the changing times (eg. slavery is bad), some of his meditations have not aged so well.
 
 <!--more-->
 

@@ -13,7 +13,7 @@ title: The Essential Tao
 
 I much preferred Gia-Fu Feng and Jane English's translation of the Tao Te Ching. I'm not an ancient Chinese scholar so I can't speak to how faithful this translation is compared to the original manuscript.
 
-But I can say that the poetry doesn't flow well and some translation choices left me scratching my head -- wondering if Thomas Cleary understands how the English language works.
+But I can say that the poetry doesn't flow well and some translation choices left me scratching my head — wondering if Thomas Cleary understands how the English language works.
 
 <!--more-->
 

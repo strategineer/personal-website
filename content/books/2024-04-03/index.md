@@ -29,7 +29,7 @@ Thoughts after reading the whole thing:
 
 - Fantastic!
 
-- The book, the movie and the video game series are all doing different things but the book is where it all began -- Capturing the imagination of many people and eventually leading to the movie and the games.
+- The book, the movie and the video game series are all doing different things but the book is where it all began — Capturing the imagination of many people and eventually leading to the movie and the games.
 
 - It's short but manages to present a large span of time from a few different perspectives: mainly Red's, who's compelled to keep returning to the Zone over and over again despite the gigantic risk involved.
 
