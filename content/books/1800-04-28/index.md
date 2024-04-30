@@ -6,6 +6,8 @@ books/tags:
 date: 1800-04-28
 params:
   isbn13: "9780756415068"
+  series: "Finder Chronicles"
+  series_order: "2"
   year: "2020"
 title: Driving The Deep
 weight: 1

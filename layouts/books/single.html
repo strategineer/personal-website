@@ -8,6 +8,19 @@
       {{ partial "try_star_rating" . }}
     </div>
     {{ partial "try_thumbnail" . }}
+    {{ if .Params.isbn13 }}
+    <div class="row justify-content-center">
+    ibsn13: {{ .Params.isbn13 }}
+    </div>
+    {{ end }}
+    {{ if .Params.series }}
+    <div class="row justify-content-center">
+    series: {{ .Params.series }}
+    {{ if .Params.series_order }}
+    - Book {{ .Params.series_order }}
+    {{ end }}
+    </div>
+    {{ end }}
     <div class="row justify-content-center">
       <div class="col-auto align-self-center">
         {{ partial "try_tags" . }}

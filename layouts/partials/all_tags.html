@@ -134,6 +134,9 @@
           {{ $filtered_books = $filtered_books | append . }}
         {{ end }}
 
+        {{ if and $filtered_books $is_owned_books }}
+        {{ $filtered_books = $filtered_books.ByParam "series" }}
+        {{ end }}
         {{ if eq (len $filtered_books) 0 }}
           {{ continue }}
         {{ end }}
