@@ -393,12 +393,40 @@ def find_used_books(url, debug):
         pass
         #print("ehhhh not found...")
 
+def get_reaction_gif_path_from_name(n):
+    return Path(f"assets/img/react/{n}.gif")
+
+@click.command()
+@click.argument("a")
+@click.argument("b")
+def rename_reaction_gif(a, b):
+    if a == b:
+        raise ValueError(f"{a} == {b}, that shouldn't be the case...")
+    if "/" in a or "/" in b or ".gif" in a or ".gif" in b:
+        raise ValueError("Please input only the name of the file without the extension")
+    path_from = get_reaction_gif_path_from_name(a)
+    if not path_from.exists():
+        raise FileNotFoundError(f"No file found at {path_from}")
+    path_to = get_reaction_gif_path_from_name(b)
+    if path_to.exists():
+        raise FileExistsError(f"File already found at {path_to}, can't rename {path_from} to it")
+    path_from.rename(path_to)
+    filenames = glob.glob("content/books/*/index.md")
+    for filename in filenames:
+        with open(filename, 'r') as file:
+            filedata = file.read()
+        before_str = f"![]({a})"
+        if before_str in filedata:
+            filedata = filedata.replace(before_str, f"![]({b})")
+            with open(filename, 'w') as file:
+                file.write(filedata)
 
 cli.add_command(import_scans)
 cli.add_command(find_isbns)
 cli.add_command(normalize_dates)
 cli.add_command(upload)
 cli.add_command(find_used_books)
+cli.add_command(rename_reaction_gif)
 
 if __name__ == "__main__":
     cli()
