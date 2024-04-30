@@ -2,16 +2,16 @@
 authors:
   - Nana Kwame Adjei-Brenyah
 books/tags:
-  - currently-reading
   - fiction
   - science-fiction
   - dystopian
-date: 2024-04-28
+  - slay
+date: 2024-04-30
 params:
   isbn13: "9780593469316"
   year: "2024"
 title: Chain-Gang All-Stars
-weight: 1
+star_rating: 5
 ---
 
 What if you combined:
@@ -76,3 +76,7 @@ I'm about 1/4 of the way through the novel. I'm excited to see where Adjei-Breny
 Adjei-Brenyah went fishing, cast his bait and I'm HOOKED.
 
 ![](joyride)
+
+Uhhhhh ya I couldn't put this down. This is a fantastic read, great in so many ways.
+
+I've got some thoughts but I'll be writing them down later. See you soon.
