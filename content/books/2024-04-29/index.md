@@ -23,11 +23,19 @@ This is one of those books. Two stories in and I'm captivated.
 
 Tower of Babylon: ⭐⭐⭐⭐
 
+{{< spoiler >}}
+
 ![](droptheball)
+
+{{< /spoiler >}}
 
 Understand: ⭐⭐⭐⭐⭐
 
+{{< spoiler >}}
+
 ![](explain)
+
+{{< /spoiler >}}
 
 Division by Zero:
 
