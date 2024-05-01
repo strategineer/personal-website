@@ -21,7 +21,7 @@ This is one of those books. Two stories in and I'm captivated.
 
 <!--more-->
 
-Tower of Babylon: ⭐⭐⭐⭐
+Tower of Babylon ⭐⭐⭐⭐
 
 {{< spoiler >}}
 
@@ -29,7 +29,7 @@ Tower of Babylon: ⭐⭐⭐⭐
 
 {{< /spoiler >}}
 
-Understand: ⭐⭐⭐⭐⭐
+Understand ⭐⭐⭐⭐⭐
 
 {{< spoiler >}}
 
@@ -37,9 +37,13 @@ Understand: ⭐⭐⭐⭐⭐
 
 {{< /spoiler >}}
 
-Division by Zero:
+Division by Zero ⭐⭐⭐⭐
 
-![](wtf)
+{{< spoiler >}}
+
+![](dunno)
+
+{{< /spoiler >}}
 
 Story of Your Life
 
