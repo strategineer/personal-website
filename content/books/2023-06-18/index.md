@@ -10,7 +10,7 @@ params:
   series: Shades of Magic
   series_order: "3"
   year: "2017"
-star_rating: 4
+star_rating: 3
 title: A Conjuring Of Light
 ---
 
