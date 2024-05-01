@@ -4,7 +4,6 @@ authors:
 books/tags:
   - non-fiction
   - philosophy
-  - slay
 date: 2022-08-19
 params:
   isbn13: "9780143130901"
