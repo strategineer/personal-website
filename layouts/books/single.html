@@ -4,10 +4,11 @@
     <div class="col-auto text-center">
       {{ partial "try_author" . }}
     </div>
+    {{ partial "try_thumbnail" . }}
     <div class="h4 col-auto text-center">
       {{ partial "try_star_rating" . }}
     </div>
-    {{ partial "try_thumbnail" . }}
+    {{ partial "try_links" . }}
     {{ if .Params.isbn13 }}
     <div class="row justify-content-center">
     ibsn13: {{ .Params.isbn13 }}
@@ -26,7 +27,6 @@
         {{ partial "try_tags" . }}
       </div>
     </div>
-    {{ partial "try_links" . }}
     {{ partial "try_video" . }}
     {{ partial "try_audio" . }}
     <div class="row justify-content-center readable">
