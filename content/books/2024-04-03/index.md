@@ -6,7 +6,6 @@ books/tags:
   - fiction
   - science fiction
   - slavic
-  - slay
 date: 2024-04-03
 params:
   isbn13: "9781613743416"
