@@ -3,7 +3,6 @@ authors:
   - James Bridle
 books/tags:
   - non-fiction
-  - slay
 date: 2024-03-02
 params:
   isbn13: "9781804290422"

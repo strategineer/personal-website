@@ -21,17 +21,29 @@ This is one of those books. Two stories in and I'm captivated.
 
 <!--more-->
 
-Tower of Babylon: ⭐⭐⭐⭐
+Tower of Babylon ⭐⭐⭐⭐
+
+{{< spoiler >}}
 
 ![](droptheball)
 
-Understand: ⭐⭐⭐⭐⭐
+{{< /spoiler >}}
+
+Understand ⭐⭐⭐⭐⭐
+
+{{< spoiler >}}
 
 ![](explain)
 
-Division by Zero:
+{{< /spoiler >}}
 
-![](wtf)
+Division by Zero ⭐⭐⭐⭐
+
+{{< spoiler >}}
+
+![](dunno)
+
+{{< /spoiler >}}
 
 Story of Your Life
 

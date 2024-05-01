@@ -3,7 +3,6 @@ authors:
   - Ursula K. Le Guin
 books/tags:
   - philosophy
-  - slay
 date: 2024-04-09
 params:
   isbn13: "9781611807240"
