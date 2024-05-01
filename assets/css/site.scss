@@ -556,6 +556,20 @@ li {
   background-color: white;
 }
 
+
+.spoiler img,
+.spoiler2 img {
+  visibility: hidden !important;
+}
+
+.spoiler:hover img {
+  visibility: inherit !important;
+}
+
+.spoiler2:hover img {
+  visibility: inherit !important;
+}
+
 .end-page {
   padding-bottom: 5em;
 }
