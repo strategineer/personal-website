@@ -128,9 +128,15 @@
         {{ $filtered_books := slice }}
         {{ range $all_books }}
           {{ $book_tags := index .Params "books/tags" }}
-          {{ if not (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "did-not-finish") ) (or (or (or (in $book_tags "trash") (in $book_tags "did-not-finish") (and (not $is_owned_books) (in $book_tags "owned-but-unread")) )) (and (not $is_unowned_books) (in $book_tags "unowned"))))) }}
-            {{ continue }}
-          {{ end }}
+          {{ if (or 
+            (and (in $book_tags "trash") (and (ne $t.Page.Title "Trash") (not $is_authors_page)))
+            (and (in $book_tags "did-not-finish") (and (ne $t.Page.Title "Did-Not-Finish") (not $is_authors_page)))
+            (and (in $book_tags "owned-but-unread") (not $is_owned_books))
+            (and (in $book_tags "unowned") (and (not $is_unowned_books) (not (gt .Params.star_rating 0))))
+          )
+        }}
+          {{ continue }}
+         {{ end }}
           {{ $filtered_books = $filtered_books | append . }}
         {{ end }}
 
@@ -148,9 +154,6 @@
         {{ $k = add $k 1 }}
         {{ range $filtered_books }}
           {{ $book_tags := index .Params "books/tags" }}
-          {{ if not (not (and (and (ne $t.Page.Title "Trash") (ne $t.Page.Title "did-not-finish") ) (or (or (or (in $book_tags "trash") (in $book_tags "did-not-finish") (and (not $is_owned_books) (in $book_tags "owned-but-unread")) )) (and (not $is_unowned_books) (in $book_tags "unowned"))))) }}
-            {{ continue }}
-          {{ end }}
           {{ $i = add  $i 1 }}
           {{ $page_num = add $page_num 1 }}
           {{ $k = add $k 1 }}
