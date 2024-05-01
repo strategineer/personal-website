@@ -10,7 +10,7 @@ date: 2012-09-02
 params:
   isbn13: "9780262033848"
   year: "2009"
-star_rating: 0
+star_rating: 5
 title: Introduction To Algorithms, Third Edition
 ---
 
