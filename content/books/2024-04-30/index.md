@@ -75,7 +75,7 @@ As we get to know the gladiators more personally, what they have to go through t
 
 Other than the initial premise, there's a lot to love in Chain-Gang All-Stars, let's talk about it.
 
-Adjei-Brenyah is an expert at perspective shifting. The story is told from the perspective of many different characters and the way the narrative voice shifts between them is masterful. Initially, it's unclear how all of these characters will fit in to the larger narrative. Slowly figuring out how they would eventually collide was quite rewarding.
+Adjei-Brenyah is an expert at perspective shifting. The story is told from the perspective of many different characters and the way the narrative voice shifts between them is masterful. Initially, it's unclear how all of these characters will fit into the larger narrative. Slowly figuring out how they would eventually collide was quite rewarding.
 
 **We still resting now. I lie down near enough to the others, fall on a bed of grass. The clothes I wear simple but clean. I used one of my murder points to have a brand I never heard of clean my clothes for me each week. Death becomes laundry. Death becomes food. Death the currency of everything if you let it. And they let it. But since it's there I use it and I have a black shirt and pants to train in and sneakers that fit me and socks and underwear that all smell like pine and soap and the sweat of the March.**
 
