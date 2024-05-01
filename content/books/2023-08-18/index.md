@@ -10,7 +10,7 @@ params:
   series: Shades of Magic
   series_order: "2"
   year: "2017"
-star_rating: 5
+star_rating: 4
 title: A Gathering Of Shadows
 ---
 
