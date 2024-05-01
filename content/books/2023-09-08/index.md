@@ -3,7 +3,6 @@ authors:
   - David Robert Grimes
 books/tags:
   - non-fiction
-  - slay
 date: 2023-09-08
 params:
   isbn13: "9781615197934"
