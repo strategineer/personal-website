@@ -4,6 +4,7 @@ authors:
   - Marie-Laure Del Vecchio
 books/tags:
   - currently-reading
+  - non-fiction
   - autism
 date: 2024-05-01
 params:
