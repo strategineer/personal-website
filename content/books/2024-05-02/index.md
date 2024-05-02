@@ -23,7 +23,7 @@ You will plastered out of your mind.
 
 Jokes aside. I like Stories Of Your Life And Others quite a bit. Like with any short story collection, some stories will be better than others. My favorites are Story of Your Life (fantastic premise and {{< spoiler >}}twist{{< /spoiler >}}), Understand ({{< spoiler >}}awesome escalation of stakes throughout the story{{< /spoiler >}}), Hell Is the Absence of God ({{< spoiler >}}at this point I was becoming irrationally frustrated with Ted Chiang's fixation with God BUT this story's portrayal of God got me good{{< /spoiler >}}) and Liking What You See: A Documentary ({{< spoiler >}}considering that this was written in 2002, I'm surprised how prophetic and relevant this story still is{{< /spoiler >}}).
 
-Here's my ratings for each short story with a .gif to represent something in the story and/or my reaction to it.
+Here's my ratings for each story with a .gif to represent something in the story and/or my reaction to it.
 
 ---
 
