@@ -2,8 +2,9 @@
 authors:
   - Jasper Fforde
 books/tags:
-  - owned-but-unread
-date: 1800-04-23
+  - currently-reading
+  - fiction
+date: 2024-04-29
 params:
   isbn13: "9780593296523"
   year: "2020"
