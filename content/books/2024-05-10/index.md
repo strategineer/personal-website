@@ -30,7 +30,7 @@ Many years later, I forgot that I had previously Consider(ed) Phlebas, so I pick
 
 Many many years later, like now, I realized that reading brings me a lot more joy than I thought it did and so now I spend more of my free time reading because I enjoy it so much. I want to read more of Iain Banks's Culture books, so here we are, re-re-Consider(ing) Phlebas a third time and it's better than ever.
 
-First things first. Who are we considering exactly? In T. S. Eliot's poem The Waste Land Phlebas is a drowned sailor who, apparently, represents the futility of death and decay.
+First things first. Who are we considering exactly? In T. S. Eliot's poem The Waste Land Phlebas is a drowned sailor who, apparently (I don't know I'm not a poet), represents the futility of death and decay.
 
 Appropriately, Consider Phlebas, the Iain Banks novel, is an anti-war anti-narrative satire of science-fiction and space opera stories. Consider Phlebas depicts the meaninglessness of war (instead of valorizing it) through the lens of an anti-hero who mostly sucks, is a conspiracy theorist and, perhaps worst of all given the premise of The Culture books, is a humanoid-focused materialist with a distrust and hatred for the AI intelligences that run a big chunk of the universe.
 
