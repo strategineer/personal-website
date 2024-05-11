@@ -33,7 +33,7 @@ Many many years later, I realized that reading brings me a lot more joy than I t
 
 Who are we considering exactly? Phlebas is a drowned sailor who, apparently, represents the futility of death and decay in T. S. Eliot's poem The Waste Land.
 
-Appropriately, Consider Phlebas is an anti-war anti-narrative satire of science-fiction and space opera stories. Consider Phlebas depicts the meaninglessness of war (instead of promoting it) through lens of an anti-hero who mostly sucks, is a conspiracy theorist and is a human-focused materialist with a distrust and hatred for the AI intelligences that run the universe.
+Appropriately, Consider Phlebas is an anti-war anti-narrative satire of science-fiction and space opera stories. Consider Phlebas depicts the meaninglessness of war (instead of promoting it) through the lens of an anti-hero who mostly sucks, is a conspiracy theorist and is a human-focused materialist with a distrust and hatred for the AI intelligences that run the universe.
 
 **He looked for the Culture ship, then told himself not to be stupid; it was probably still several trillion kilometres away. That was how divorced from the human scale modern warfare had become. You could smash and destroy from unthinkable distances, obliterate planets from beyond their own system and provoke stars into novae from light-years off... and still have no good idea why you were really fighting.**
 
