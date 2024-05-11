@@ -32,7 +32,7 @@ Many many years later, like now, I realized that reading brings me a lot more jo
 
 First things first. Who are we considering exactly? In T. S. Eliot's poem The Waste Land Phlebas is a drowned sailor who, apparently (I don't know I'm not a poet), represents the futility of death and decay.
 
-Appropriately, Consider Phlebas, the Iain Banks novel, is an anti-war anti-narrative satire of science-fiction and space opera stories. Consider Phlebas depicts the meaninglessness of war (instead of valorizing it) through the lens of an anti-hero who mostly sucks, is a conspiracy theorist and, perhaps worst of all given the premise of The Culture books, is a humanoid-focused materialist with a distrust and hatred for the AI intelligences that run a big chunk of the universe.
+Appropriately, Consider Phlebas, the Iain Banks novel, is an anti-war anti-narrative satire of science-fiction and space opera stories. Consider Phlebas depicts the meaninglessness of war (instead of valorizing it) through the lens of an anti-hero who mostly sucks, is a conspiracy theorist and, perhaps worst of all given the premise of The Culture books, is a humanoid-focused materialist with a distrust and hatred for the AI intelligences that manage a big chunk of the universe.
 
 **He looked for the Culture ship, then told himself not to be stupid; it was probably still several trillion kilometres away. That was how divorced from the human scale modern warfare had become. You could smash and destroy from unthinkable distances, obliterate planets from beyond their own system and provoke stars into novae from light-years off... and still have no good idea why you were really fighting.**
 
