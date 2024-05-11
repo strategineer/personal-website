@@ -6,6 +6,7 @@ books/tags:
   - science-fiction
   - comic
   - satire
+  - slay
 date: 2024-05-10
 params:
   isbn13: "9781857231380"
@@ -23,17 +24,15 @@ Iain Banks POV:
 
 **He had to convince them. He had to have them on his side. There was no other way he could carry out his mission, and he had come too far, done too much, killed too many people, sunk too much of his own purpose and determination into the task, to back out now. He had to track the Mind down, he had to go down into the Command System, Idirans or no Idirans, and he had to have the rest of [them] with him.**
 
-This is my third re-read of Consider Phlebas over the course of 15 years.
-
-A long time ago in a galaxy without any post-scarcity societies managed by hyper-intelligent AIs (to my knowledge), I read it once, liked it a lot but, at the time, I wasn't aware that it was part of a larger series.
+A long time ago in a galaxy without any post-scarcity societies managed by hyper-intelligent AIs (to my knowledge), I read Consider Phlebas once, liked it a lot but, at the time, I wasn't aware that it was part of a larger series I didn't seek the other books out.
 
 Many years later, I forgot that I had previously Consider(ed) Phlebas, so I picked the book up again, quickly realizing that I had already read it but I decided to continue reading it anyway because I had enjoyed it a lot the first time. Now, I was aware of the Culture series and was interested in reading more of it but I never did.
 
-Many many years later, I realized that reading brings me a lot more joy than I thought it did and so now I spend more of my free time reading because I enjoy it so much. I want to read more of Iain Banks's Culture books, so here we are, re-re-Consider(ing) Phlebas a third time and it's better than ever.
+Many many years later, like now, I realized that reading brings me a lot more joy than I thought it did and so now I spend more of my free time reading because I enjoy it so much. I want to read more of Iain Banks's Culture books, so here we are, re-re-Consider(ing) Phlebas a third time and it's better than ever.
 
-Who are we considering exactly? Phlebas is a drowned sailor who, apparently, represents the futility of death and decay in T. S. Eliot's poem The Waste Land.
+First things first first. Who are we considering exactly? Phlebas is a drowned sailor who, apparently, represents the futility of death and decay in T. S. Eliot's poem The Waste Land.
 
-Appropriately, Consider Phlebas is an anti-war anti-narrative satire of science-fiction and space opera stories. Consider Phlebas depicts the meaninglessness of war (instead of promoting it) through the lens of an anti-hero who mostly sucks, is a conspiracy theorist and is a human-focused materialist with a distrust and hatred for the AI intelligences that run the universe.
+Appropriately, Consider Phlebas, the Iain Banks novel, is an anti-war anti-narrative satire of science-fiction and space opera stories. Consider Phlebas depicts the meaninglessness of war (instead of promoting it like many novels in these genres) through the lens of an anti-hero who mostly sucks, is a conspiracy theorist and is a human-focused materialist with a distrust and hatred for the AI intelligences that run a big chunk of the universe.
 
 **He looked for the Culture ship, then told himself not to be stupid; it was probably still several trillion kilometres away. That was how divorced from the human scale modern warfare had become. You could smash and destroy from unthinkable distances, obliterate planets from beyond their own system and provoke stars into novae from light-years off... and still have no good idea why you were really fighting.**
 
