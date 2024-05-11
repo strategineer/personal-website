@@ -54,4 +54,8 @@ It's got a little bit of everything in it (even some light romance) but don't be
 
 **He could see some of the others not far away, to his left and right, pushing and striding through the cane grass and bushes with their rifles held high to one shoulder. They were all gradually getting covered in the dark green moss, which Horza supposed might be useful as camouflage (providing, of course, that it didn't turn out to be some horrible, previously undiscovered sentient killer-moss... He told himself to stop being silly).**
 
-If you're ok with reading a novel that both deconstructs a genre that you may know and love while also taking the piss, you should consider Consider Phlebas.
+If you're OK with reading a novel that both deconstructs a genre that you may know and love while also taking the piss, you should consider Consider Phlebas.
+
+This might be the last time I re-re-Consider Phlebas for a while, I'll be quite busy reading the other NINE books in the series.
+
+Auuuuasaauuuuaaauuuhhhhhhhhh
