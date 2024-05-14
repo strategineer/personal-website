@@ -23,6 +23,21 @@ named_with_inc4:{"type":"contraption","size":[121,19],"pos":[3,92],"def":"named_
 named_with_inc5:{"type":"contraption","size":[121,19],"pos":[129,92],"def":"named_with_inc","widgets":{"field":{"size":[53,15],"value":"Brains"},"val":{"size":[20,15],"pos":[59,2]},"button_plus":{"size":[15,16],"pos":[102,2]},"button_minus":{"size":[15,16],"pos":[83,2]},"min_value":{"size":[93,20],"value":"0"},"max_value":{"pos":[108,-55],"value":"4"}}}
 named_with_inc6:{"type":"contraption","size":[121,19],"pos":[255,92],"def":"named_with_inc","widgets":{"field":{"size":[53,15],"value":"Mechanics"},"val":{"size":[20,15],"pos":[59,2]},"button_plus":{"size":[15,16],"pos":[102,2]},"button_minus":{"size":[15,16],"pos":[83,2]},"min_value":{"size":[93,20],"value":"0"},"max_value":{"pos":[108,-55],"value":"4"}}}
 named_with_inc7:{"type":"contraption","size":[121,19],"pos":[381,92],"def":"named_with_inc","widgets":{"field":{"size":[53,15],"value":"Chutzpah"},"val":{"size":[20,15],"pos":[59,2]},"button_plus":{"size":[15,16],"pos":[102,2]},"button_minus":{"size":[15,16],"pos":[83,2]},"min_value":{"size":[93,20],"value":"0"},"max_value":{"pos":[108,-55],"value":"4"}}}
+dieRoller:{"type":"contraption","size":[192,23],"pos":[184,112],"def":"dieRoller","widgets":{"result":{"size":[72,19],"pos":[118,2],"value":"1+8+4+5 = 18"},"button":{"size":[112,19],"text":"3d8 + 5"},"formula":{"size":[43,20],"value":"3d8 + 5"}}}
+test_form_2d6:{"type":"button","size":[60,20],"pos":[407,162],"script":"home.0","text":"2d6"}
+button1:{"type":"button","size":[60,20],"pos":[330,162],"script":"home.1","text":"3d8 + 5"}
+
+{script:home.0}
+on click do
+ dieRoller.formula:"2d6"
+end
+{end}
+
+{script:home.1}
+on click do
+ dieRoller.formula:"3d8 + 5"
+end
+{end}
 
 {contraption:named_field}
 size:[186,19]
@@ -134,6 +149,48 @@ end
 {script:named_with_inc.2}
 on click do
   val.text:((val.text-1) | (min_value.text+0))
+end
+{end}
+
+{contraption:dieRoller}
+size:[137,23]
+resizable:1
+margin:[8,5,8,7]
+script:"dieRoller.0"
+{widgets}
+result:{"type":"field","size":[51,19],"pos":[84,2],"style":"plain"}
+button:{"type":"button","size":[79,19],"pos":[2,2],"script":"dieRoller.1","text":"2d6","style":"rect"}
+formula:{"type":"field","size":[33,20],"pos":[-8,-29],"locked":1,"show":"none","style":"plain","value":"2d6"}
+
+{script:dieRoller.0}
+on roll x do
+ r:() i:0
+ x:"" fuse " " split x
+ while i<count x
+  if x[i]="+"
+   i:i+1
+  else
+   p:"%[n]id%[die]i%[match]m%[i]n" parse i drop x
+   r:r,if p.match 1+random[p.die p.n] else p.n end
+   i:i+p.i
+  end
+ end
+ r
+end
+
+on view do button.text:formula.text end
+on set_formula x do formula.text:x view[] end
+on get_formula   do formula.text          end
+{end}
+
+{script:dieRoller.1}
+on click do
+ v:roll[me.text]
+ result.text:if 1=count v
+  v
+ else
+  v:"%s = %s" format ("+" fuse v),(sum v)
+ end
 end
 {end}
 
