@@ -40,22 +40,22 @@ named_with_inc21:{"type":"contraption","size":[120,24],"pos":[388,164],"def":"na
 named_with_inc22:{"type":"contraption","size":[120,24],"pos":[388,192],"def":"named_with_inc","widgets":{"field":{"size":[49,22],"value":"Program"},"val":{"size":[24,22],"pos":[52,1]},"button_plus":{"size":[20,22],"pos":[99,1]},"button_minus":{"size":[20,22],"pos":[77,1]},"min_value":{"size":[61,20],"value":"-5"},"max_value":{"pos":[76,-55],"value":"5"}}}
 named_with_inc23:{"type":"contraption","size":[120,24],"pos":[388,220],"def":"named_with_inc","widgets":{"field":{"size":[49,22],"value":"Demolitns"},"val":{"size":[24,22],"pos":[52,1]},"button_plus":{"size":[20,22],"pos":[99,1]},"button_minus":{"size":[20,22],"pos":[77,1]},"min_value":{"size":[61,20],"value":"-5"},"max_value":{"pos":[76,-55],"value":"5"}}}
 field1:{"type":"field","size":[88,20],"pos":[44,20]}
-field2:{"type":"field","size":[36,20],"pos":[4,20],"border":0,"align":"right","value":"Name"}
-field3:{"type":"field","size":[51,24],"pos":[135,16],"border":0,"align":"right","value":"Security Clearance"}
+field2:{"type":"field","size":[36,20],"pos":[4,20],"locked":1,"border":0,"style":"plain","value":"Name"}
+field3:{"type":"field","size":[51,24],"pos":[135,16],"locked":1,"border":0,"style":"plain","value":"Security Clearance"}
 field4:{"type":"field","size":[67,20],"pos":[189,20]}
-field5:{"type":"field","size":[33,20],"pos":[260,20],"border":0,"align":"right","value":"Home"}
+field5:{"type":"field","size":[33,20],"pos":[260,20],"locked":1,"border":0,"style":"plain","value":"Home"}
 field6:{"type":"field","size":[84,20],"pos":[296,20]}
-field7:{"type":"field","size":[41,15],"pos":[111,248],"border":0,"value":"Memory"}
-field8:{"type":"field","size":[51,15],"pos":[248,248],"border":0,"value":"Equipment"}
+field7:{"type":"field","size":[51,15],"pos":[111,248],"locked":1,"border":0,"style":"plain","value":"Memory"}
+field8:{"type":"field","size":[57,15],"pos":[248,248],"locked":1,"border":0,"style":"plain","value":"Equipment"}
 field10:{"type":"field","size":[150,70],"pos":[247,265]}
-field11:{"type":"field","size":[60,24],"pos":[260,44],"border":0,"align":"right","value":"Personality"}
+field11:{"type":"field","size":[60,24],"pos":[260,44],"locked":1,"border":0,"align":"right","value":"Personality"}
 field12:{"type":"field","size":[185,24],"pos":[323,44]}
 field9:{"type":"field","size":[134,70],"pos":[110,265]}
-named_with_inc24:{"type":"contraption","size":[103,24],"pos":[4,263],"def":"named_with_inc","widgets":{"field":{"size":[32,22],"value":"Moxie"},"val":{"size":[24,22],"pos":[35,1],"value":"8"},"button_plus":{"size":[20,22],"pos":[82,1]},"button_minus":{"size":[20,22],"pos":[60,1]},"min_value":{"size":[44,20],"value":"0"},"max_value":{"pos":[59,-55],"value":"8"}}}
-field13:{"type":"field","size":[51,24],"pos":[7,296],"border":0,"align":"right","value":"Moxie Max"}
-field14:{"type":"field","size":[30,20],"pos":[61,300],"align":"center","value":"8"}
-button1:{"type":"button","size":[96,15],"pos":[301,248],"script":"home.7","text":"-> More"}
-button8:{"type":"button","size":[90,15],"pos":[154,248],"script":"home.8","text":"-> More"}
+named_with_inc24:{"type":"contraption","size":[103,24],"pos":[4,263],"def":"named_with_inc","widgets":{"field":{"size":[32,22],"value":"Moxie"},"val":{"size":[24,22],"pos":[35,1],"value":"8"},"button_plus":{"size":[20,22],"pos":[82,1]},"button_minus":{"size":[20,22],"pos":[60,1]},"min_value":{"size":[44,20],"value":"   0"},"max_value":{"pos":[59,-55],"value":"8"}}}
+field13:{"type":"field","size":[61,24],"pos":[7,296],"locked":1,"border":0,"value":"Moxie Max"}
+field14:{"type":"field","size":[30,20],"pos":[69,298],"align":"center","value":"8"}
+button1:{"type":"button","size":[84,15],"pos":[313,248],"script":"home.7","text":"-> More"}
+button8:{"type":"button","size":[78,15],"pos":[166,248],"script":"home.8","text":"-> More"}
 
 {script:home.0}
 on change val do
@@ -166,7 +166,7 @@ margin:[9,3,73,3]
 script:"named_with_inc.0"
 attributes:{"name":["field_name","field_value","min_value","max_value"],"label":["Field Name","Field Value","Min Value","Max Value"],"type":["string","number","number","number"]}
 {widgets}
-field:{"type":"field","size":[88,16],"pos":[1,1],"script":"named_field.1","border":0,"style":"plain","align":"right","value":"Field"}
+field:{"type":"field","size":[88,16],"pos":[1,1],"locked":1,"script":"named_field.1","border":0,"style":"plain","value":"Field"}
 val:{"type":"field","size":[24,16],"pos":[91,1],"border":1,"style":"plain","align":"center","value":"0"}
 button_plus:{"type":"button","size":[20,16],"pos":[138,1],"script":"named_with_inc.1","text":"+"}
 button_minus:{"type":"button","size":[20,16],"pos":[116,1],"script":"named_with_inc.2","text":"-"}
