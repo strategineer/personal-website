@@ -15,8 +15,8 @@ named_with_inc4:{"type":"contraption","size":[128,24],"pos":[4,72],"def":"named_
 named_with_inc5:{"type":"contraption","size":[120,24],"pos":[136,72],"def":"named_with_inc","widgets":{"field":{"size":[49,22],"value":"Brains"},"val":{"size":[24,22],"pos":[52,1]},"button_plus":{"size":[20,22],"pos":[99,1]},"button_minus":{"size":[20,22],"pos":[77,1],"locked":1},"min_value":{"size":[61,20],"value":"0"},"max_value":{"pos":[76,-55],"value":"4"}}}
 named_with_inc6:{"type":"contraption","size":[124,24],"pos":[260,72],"def":"named_with_inc","widgets":{"field":{"size":[53,22],"value":"Mechanics"},"val":{"size":[24,22],"pos":[56,1]},"button_plus":{"size":[20,22],"pos":[103,1]},"button_minus":{"size":[20,22],"pos":[81,1],"locked":1},"min_value":{"size":[65,20],"value":"0"},"max_value":{"pos":[80,-55],"value":"4"}}}
 named_with_inc7:{"type":"contraption","size":[120,24],"pos":[388,72],"def":"named_with_inc","widgets":{"field":{"size":[49,22],"value":"Chutzpah"},"val":{"size":[24,22],"pos":[52,1]},"button_plus":{"size":[20,22],"pos":[99,1]},"button_minus":{"size":[20,22],"pos":[77,1],"locked":1},"min_value":{"size":[61,20],"value":"0"},"max_value":{"pos":[76,-55],"value":"4"}}}
-dieRoller:{"type":"contraption","size":[288,32],"pos":[220,100],"def":"dieRoller","widgets":{"result":{"size":[109,28],"pos":[177,2],"value":"6"},"button":{"size":[168,28],"text":"1d6"},"formula":{"size":[61,20],"value":"1d6"}}}
-dice:{"type":"field","size":[12,16],"pos":[224,104],"script":"home.0","style":"code","align":"right","value":"1"}
+dieRoller:{"type":"contraption","size":[288,32],"pos":[220,100],"def":"dieRoller","widgets":{"result":{"size":[109,28],"pos":[177,2],"value":"3+3+6+6+4 = 2"},"button":{"size":[168,28],"text":"5d6"},"formula":{"size":[61,20],"value":"5d6"}}}
+dice:{"type":"field","size":[12,16],"pos":[224,104],"script":"home.0","style":"code","align":"right","value":"5"}
 button2:{"type":"button","size":[32,32],"pos":[112,100],"script":"home.1","text":"+"}
 button3:{"type":"button","size":[32,32],"pos":[148,100],"script":"home.2","text":"2+"}
 button4:{"type":"button","size":[32,32],"pos":[40,100],"script":"home.3","text":"2-"}
@@ -244,9 +244,9 @@ resizable:1
 margin:[8,5,8,7]
 script:"dieRoller.0"
 {widgets}
-result:{"type":"field","size":[51,19],"pos":[84,2],"style":"plain"}
-button:{"type":"button","size":[79,19],"pos":[2,2],"script":"dieRoller.1","text":"2d6","style":"rect"}
-formula:{"type":"field","size":[33,20],"pos":[-8,-29],"locked":1,"show":"none","style":"plain","value":"2d6"}
+result:{"type":"field","size":[51,19],"pos":[84,2],"script":"dieRoller.1","style":"plain"}
+button:{"type":"button","size":[79,19],"pos":[2,2],"script":"dieRoller.2","text":"2d6","style":"rect"}
+formula:{"type":"field","size":[33,20],"pos":[-8,-29],"locked":1,"script":"dieRoller.1","show":"none","style":"plain","value":"2d6"}
 
 {script:dieRoller.0}
 on roll x do
@@ -270,12 +270,28 @@ on get_formula   do formula.text          end
 {end}
 
 {script:dieRoller.1}
+on change val do
+ 
+end
+{end}
+
+{script:dieRoller.2}
+on filter_failure x do
+ if (x>4) 1 else 0 end
+end
+
+on filter_failure_negative x do
+ if (x>4) 1 else -1 end
+end
+
 on click do
  v:roll[me.text]
  result.text:if 1=count v
   v
  else
-  v:"%s = %s" format ("+" fuse v),(sum v)
+  s:(if (first me.text)="-" (filter_failure_negative @ v) else (filter_failure @ v) end)
+  s:(sum s)
+  v:"%s = %s" format ("+" fuse v),(s)
  end
 end
 {end}
