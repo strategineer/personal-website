@@ -244,6 +244,8 @@ end
 
 on set_value x do
  val.text:x
+ button_minus.locked:((val.text+0)=(min_value.text+0))
+ button_plus.locked:((val.text+0)=(max_value.text+0))
 end
 
 on get_field_name do
