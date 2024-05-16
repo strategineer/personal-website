@@ -17,10 +17,10 @@ brains:{"type":"contraption","size":[120,24],"pos":[136,72],"def":"named_with_in
 mechanics:{"type":"contraption","size":[124,24],"pos":[260,72],"def":"named_with_inc","widgets":{"field":{"size":[53,22],"value":"Mechanics"},"val":{"size":[24,22],"pos":[56,1]},"button_plus":{"size":[20,22],"pos":[103,1]},"button_minus":{"size":[20,22],"pos":[81,1],"locked":1},"min_value":{"size":[65,20],"value":"0"},"max_value":{"pos":[80,-55],"value":"4"},"increment_value":{"size":[65,20]}}}
 chutzpah:{"type":"contraption","size":[120,24],"pos":[388,72],"def":"named_with_inc","widgets":{"field":{"size":[49,22],"value":"Chutzpah"},"val":{"size":[24,22],"pos":[52,1]},"button_plus":{"size":[20,22],"pos":[99,1]},"button_minus":{"size":[20,22],"pos":[77,1],"locked":1},"min_value":{"size":[61,20],"value":"0"},"max_value":{"pos":[76,-55],"value":"4"},"increment_value":{"size":[61,20]}}}
 dieRoller:{"type":"contraption","size":[288,32],"pos":[220,100],"def":"dieRoller","widgets":{"work":{"size":[76,28],"pos":[208,2],"value":"6+4+5+2"},"button":{"size":[121,28],"text":"4d6"},"formula":{"size":[46,20],"value":"4d6"},"result":{"size":[36,28],"pos":[129,2],"value":"2"},"computer":{"size":[37,28],"pos":[168,2],"value":"C!"}}}
-dice:{"type":"field","size":[42,33],"pos":[72,99],"script":"home.1","font":"menu","style":"code","align":"center","value":"4"}
+dice:{"type":"field","size":[42,16],"pos":[71,106],"script":"home.1","font":"menu","style":"code","align":"center","value":"4"}
 button2:{"type":"button","size":[32,32],"pos":[186,99],"script":"home.2","text":"+"}
 button5:{"type":"button","size":[32,32],"pos":[151,99],"script":"home.3","text":"-"}
-button7:{"type":"button","size":[32,32],"pos":[115,99],"script":"home.4","text":"/-/"}
+button7:{"type":"button","size":[32,32],"pos":[115,99],"script":"home.4","text":"-/+"}
 athletics:{"type":"contraption","size":[116,24],"pos":[4,136],"def":"named_with_inc","widgets":{"field":{"size":[45,22],"value":"Athletics"},"val":{"size":[24,22],"pos":[48,1]},"button_plus":{"size":[20,22],"pos":[95,1]},"button_minus":{"size":[20,22],"pos":[73,1]},"min_value":{"size":[57,20],"value":"-5"},"max_value":{"pos":[72,-55],"value":"5"},"increment_value":{"size":[57,20]}}}
 guns:{"type":"contraption","size":[116,24],"pos":[4,164],"def":"named_with_inc","widgets":{"field":{"size":[45,22],"value":"Guns"},"val":{"size":[24,22],"pos":[48,1]},"button_plus":{"size":[20,22],"pos":[95,1]},"button_minus":{"size":[20,22],"pos":[73,1]},"min_value":{"size":[57,20],"value":"-5"},"max_value":{"pos":[72,-55],"value":"5"},"increment_value":{"size":[57,20]}}}
 melee:{"type":"contraption","size":[116,24],"pos":[4,192],"def":"named_with_inc","widgets":{"field":{"size":[45,22],"value":"Melee"},"val":{"size":[24,22],"pos":[48,1]},"button_plus":{"size":[20,22],"pos":[95,1]},"button_minus":{"size":[20,22],"pos":[73,1]},"min_value":{"size":[57,20],"value":"-5"},"max_value":{"pos":[72,-55],"value":"5"},"increment_value":{"size":[57,20]}}}
@@ -317,8 +317,8 @@ script:"dieRoller.0"
 work:{"type":"field","size":[49,19],"pos":[137,2],"script":"dieRoller.1","border":0,"style":"plain"}
 button:{"type":"button","size":[79,19],"pos":[2,2],"script":"dieRoller.2","text":"2d6","style":"rect"}
 formula:{"type":"field","size":[33,20],"pos":[-8,-29],"locked":1,"script":"dieRoller.1","show":"none","style":"plain","value":"2d6"}
-result:{"type":"field","size":[24,19],"pos":[85,2],"script":"dieRoller.1","font":"menu","border":0,"align":"center"}
-computer:{"type":"field","size":[24,19],"pos":[111,2],"script":"dieRoller.1","font":"menu","border":0,"align":"center"}
+result:{"type":"field","size":[24,12],"pos":[84,5],"script":"dieRoller.1","font":"menu","border":0,"align":"center"}
+computer:{"type":"field","size":[24,12],"pos":[111,5],"script":"dieRoller.1","font":"menu","border":0,"align":"center"}
 
 {script:dieRoller.0}
 on roll x do
