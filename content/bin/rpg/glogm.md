@@ -240,9 +240,9 @@ On an unmodi�ed Attack roll of 1, the attack deals double
 damage (roll twice the number of dice and add any bonuses
 twice).
 
-On an unmodi�ed Attack roll of 20, the attack automatically
+On an unmodified Attack roll of 20, the attack automatically
 misses. Further penalties may apply if the situation is risky. A
-critical failure in a one-on-one �ght in a clear meadow might just
+critical failure in a one-on-one fight in a clear meadow might just
 be a miss. A critical failure in a tight corridor, with allies and
 enemies jostling together, might result in an ally being hit, a
 weapon being dropped, or the attacker falling prone.
@@ -262,7 +262,7 @@ damage but must be wielded in both hands.
 ### Hit Points
 
 The danger a character can resist before taking injury is
-quanti�ed by Hit Points (HP). They are better thought of as
+quantified by Hit Points (HP). They are better thought of as
 “Don't Get Hit” Points. There are no mechanical effects for being
 reduced to 0 HP. Any damage in excess of this (i.e. negative HP)
 is known as Lethal Damage, which always incurs a roll on the
@@ -278,7 +278,7 @@ high HP might be a champion (or two enemies).
 1. Lunch heals a character for 1d6+Level HP. Lunch takes 1
 hour, requires a safe place, and consumes 1 ration.
 2. A Good Night's Rest. Restores all HP. Requires 8 hours of
-rest, a safe place, a �re or heat source, and consumes 1 ration.
+rest, a safe place, a fire or heat source, and consumes 1 ration.
 3. Magical Healing. Some spells or potions restore HP. Others
 can heal Injuries.
 
@@ -286,10 +286,10 @@ If a character has negative HP (i.e. has taken Lethal Damage),
 the next Lunch or Good Night's Rest heals them to 0 and not
 over 0.
 
-### Weapon Pro�ciency
-All classes are pro�cient with daggers. A PC is also pro�cient
+### Weapon Proficiency
+All classes are proficient with daggers. A PC is also proficient
 with any weapons they gain from a class or background. A PC
-has -4 to Attack with a weapon until they gain pro�ciency by
+has -4 to Attack with a weapon until they gain proficiency by
 landing 8 successful hits in combat.
 
 ### Reaction & Morale Rolls
@@ -307,7 +307,7 @@ the most visible party member.
 Monsters (or hirelings) may try to run away or surrender if
 combat turns against them. Monsters have a Morale value listed
 from 2 (craven) to 12 (unbreakable). Check Morale when:
-1. The side (PCs or monsters) takes their �rst death.
+1. The side (PCs or monsters) takes their first death.
 2. When half the side has been incapacitated or killed.
 3. If some particularly frightening or spectacular effect occurs.
 Roll 2d6. If the result is over the creatures' Morale score, the
@@ -351,7 +351,7 @@ A PC has 3 rounds to clear all their Fatal Wounds or they die. They can attempt
 to remove a Fatal Wound on their turn by rolling 1 on a d6. PCs with Fatal
 Wounds are unconscious. This does not mean they are quiet or asleep (they can
 be screaming and holding a stump), but it means they cannot take conscious or
-deliberate actions. Remove oldest Fatal Wounds �rst. You may want to use
+deliberate actions. Remove oldest Fatal Wounds first. You may want to use
 different coloured d6s to represent Fatal Wounds acquired on different rounds.
 
 Up to two adjacent allies can try to remove Fatal Wounds from a dying character
@@ -364,7 +364,7 @@ Some injuries on this list aren't on the Death and Dismemberment table. They
 can be accumulated by other means, GM choice, or deliberate actions.
 
 Anathema
-: Cannot bene�t from magical healing or be the target of bene�cial
+: Cannot benefit from magical healing or be the target of beneficial
 magic.
 
 Blind
@@ -372,7 +372,7 @@ Blind
 attacks.
 Burned / Frozen: Save. If failed, roll on the table below. If passed, lose 1d6
 digits (roll randomly using a d20) and reduce all future damage of the appropriate
-type (acid, �re, ice, etc.) by 2.
+type (acid, fire, ice, etc.) by 2.
 1. Lose 2d6 digits.
 2. Lose all but 1 digit.
 3. Lose both hands.
@@ -427,7 +427,7 @@ Marked
 double damage or applies a -4 penalty to Save. If passed, the PC has a
 permanent -2 to Save against magic, but reduces all incoming magic damage by
 2. They also gain an Interesting Scar (known as a curse-mark).
-Scorched / Frostbite: Cannot wear armour. Dif�culty gripping or climbing.
+Scorched / Frostbite: Cannot wear armour. Difficulty gripping or climbing.
 
 Skullcracked
 : Save. If failed, roll on the table below. If passed, gain an
@@ -478,7 +478,7 @@ An Inventory Slot can contain:
 - 3 Books
 - 3 Rations
 
-The �rst 3 Inventory Slots are Quick-Draw Slots, and can be
+The first 3 Inventory Slots are Quick-Draw Slots, and can be
 accessed at any time. It takes 1 round to retrieve an item from
 any other Inventory Slot.
 
@@ -500,7 +500,7 @@ beyond a crawl is exhausting.
 ### Fatigue
 
 Sprinting repeatedly, outdoor travel without rest, or excessively
-tiring activities in�ict Fatigue. Each level of Fatigue takes up 1
+tiring activities inflict Fatigue. Each level of Fatigue takes up 1
 Inventory Slot. It is usually removed by resting.
 
 ### Armour
@@ -549,7 +549,7 @@ will be usable.
 ### Light Sources
 
 Outside of the listed light range, light sources illuminate
-shadows. Vague shapes, movement, and re�ective surfaces will
+shadows. Vague shapes, movement, and reflective surfaces will
 be visible in shadows, but no details can be distinguished.
 
 | Light Source |  Radius                | Duration                     |
@@ -566,7 +566,7 @@ light source immediately.
 
 ## Hirelings
 
-Hired at a �xed rate (see the price list). Dangerous work may
+Hired at a fixed rate (see the price list). Dangerous work may
 require bonuses. Generic hirelings have 10 in all stats, 5 HP, and
 no skills outside their profession.
 
@@ -653,7 +653,7 @@ Hexes are 6 hours across. Not miles, hours. If miles are needed,
 the PCs can travel 30 miles a day. Horses don't let the PCs
 travel more quickly, but they do make the journey easier.
 
-Every hex travelled on foot �lls 1 Inventory Slot with Fatigue.
+Every hex travelled on foot fills 1 Inventory Slot with Fatigue.
 Riding a horse or a cart negates the Fatigue gain unless the
 weather is terrible or the road is very rough.
 
