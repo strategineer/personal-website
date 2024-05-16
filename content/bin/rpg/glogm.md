@@ -5,8 +5,7 @@ summary: "A Magic-first Roleplaying System by yours truly"
 weight: 1
 ---
 
-This system is heavily based on [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2018/01/osr-glog-based-homebrew-v01-rat-on.html).
-
+This system is heavily based on [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [Download PDF](/rpg/glogv2.pdf) and refer to it for classes info and various tables (for now). 
 # Core Rules
 
 Spiked Goblin Punch is based on Arnold K.'s "Goblin Laws of
@@ -35,7 +34,7 @@ mundane lock, and they have all the time in the world, they'll just
 keep rolling until they succeed. Just let them open it or apply a
 time penalty. If the PCs not spotting something means they'll
 never see it, just tell them what they see. No rolls required.
-0
+
 Failed rolls have consequences. The most obvious one is time.
 Wasted time means more chances for bad things to happen to
 the PCs.
@@ -798,7 +797,7 @@ went. If you think you've found a loophole, but the results of that
 loophole don't make any sense, it will stop working immediately.
 
 Questions
-:: If you have questions, let me know. Some example questions
+: If you have questions, let me know. Some example questions
 include:
 - "Can I hit him with an arrow at this distance?"
 - "What does X taste like?"
@@ -807,3 +806,153 @@ include:
 someone?"
 
 Before we start, do you have any questions right now?
+
+# Character Generation
+
+
+1. Choose or roll for your **Race**. Your character’s Race will grant
+them a Perk, a Drawback, and one Stat they can reroll.
+2. Roll your **Stats**. 3d6 in order. You may reroll the Stat given by
+your Race and pick the higher result.
+3. Choose or roll for your **Class**. Gain the �rst template (A) and
+any other items and bonuses.
+4. Roll for any skills or items requested by your class.
+5. Gain 1d10cp. If the entire group is level 1, all PCs also gain a
+blanket (1 slot) and 3 rations (1 slot).
+
+## The Base Adventurer
+
+A newly created PC without any class templates is expected to
+be reasonably competent in most areas but not specialized in
+any one direction. The GLOG is not about classes. Classes are
+just a set of extra tools to do things. Classes are signi�cantly
+less important than What You Do Around The Table.
+
+### Ultra-Core Classes
+
+The basic, balanced, and entirely sensible classes. Suitable for
+new players, uncertain players, or small groups.
+
+- Fighter, Thief, and Wizard (Orthodox).
+
+### Core Classes
+
+The nine classes listed here have been tested in multiple
+combinations and function reasonably well.
+
+- Fighter, Barbarian, Knight.
+- Thief, Hunter, Monk.
+- Wizard, Sorcerer, Summoner.
+
+### Novelty Classes
+
+The classes listed here require unusual playstyles, GM
+adjudication, or a speci�c kind of setting.
+
+- Cannoneer
+- Exorcist
+- Inventor Necromancer
+- Goblin
+- Many Goblins
+- Paladin of the Word
+
+### Extra
+
+Extra classes cannot be taken as a first template. They are odd,
+obscure, and strange. Adapt them if someone wants to level as a
+Vampire or something.
+
+- Surly Gnome
+- Cannibal Gourmet
+
+## Templates & Multiclassing
+
+Each class has 4 Templates. Templates are gained sequentially
+(A, then B, then C, then D). To multiclass, simply pick the lowest
+template from another class. E.g. A level 4 character could pick
+Fighter A, Wizard A, Monk A, and Fighter B.
+
+Multiclassing should make sense. Multiclassing for optimization
+or mechanical reasons should be strongly discouraged by the
+GM. The game is not about the mechanics or having the biggest
+numbers. Bigger numbers will not save you.
+
+| 1d10   | Core Classes |
+| - | - |
+|  1     | Fighter      |
+|  2     | Barbarian      |
+|  3     | Knight      |
+|  4     | Thief      |
+|  5     | Hunter      |
+|  6     | Monk      |
+|  7     | Wizard      |
+|  8     | Sorcerer      |
+|  9     | Summoner      |
+|  10    | Reroll or Novelty      |
+
+| 1d6   | Novelty Classes |
+| - | - |
+|  1     | Cannoneer      |
+|  2     | Exorcist      |
+|  3     | Inventor Necromancer      |
+|  4     | Goblin      |
+|  5     | Many Goblins      |
+|  6     | Paladin of the Word      |
+
+
+| 1d12 | Wizard Schools|
+| - | - |
+| 1| Animist (Outlawed)|
+| 2| Biomancer (Outlawed)|
+| 3 | Curse-Eater (Outlawed)|
+| 4 | Drowned (Outsider)|
+| 5 | Elementalist (Chartered)|
+| 6|Elf (Outsider) or Garden (Chartered)|
+| 7  |Geometer (Chartered)|
+| 8 | Illusionist (Chartered)|
+| 9 | Necromancer (Outlaw)|
+| 10 |  Orthodox (Chartered)|
+| 11 | Spider (Outsider) |
+| 12 | White Hand (Chartered) |
+
+
+### Levelling Up
+
+PCs gain experience points (XP) by looting stuff. Wages don’t
+count. The loot must be taken to a place of safety and divided or
+assigned to the PCs to become XP. Items or equipment used by
+the characters and not sold don’t count for XP purposes. Players
+should track a PC’s XP (the total amount of treasure they have
+accumulated) along with their current cash. Purely frivolous
+spending converts 10% of the money spent into XP.
+
+Whenever a PC levels, increase their HP, Attack, and base Save
+(before their Charisma bonus is added). A PC can also test to
+improve a stat of their choice. Declare the stat and roll 3d6. If the
+result is over, the stat’s value increases by 1.
+| Level | XP | HP (20 Max) | Class Templates | Attack | Base Save |
+|-|-|-|-|-|-|
+| 1 | - | Con - 4 | 1 | 11 | 6 |
+| 2 | 200 | Con - 2 | 2 | 12 | 7 |
+| 3 | 400 | Con | 3 | 12 | 7 |
+| 4 | 700 | Con + 2 | 4 | 13 | 7 |
+| 5 | 1,000 | Con + 4 | - | 13 | 8 |
+| 6 | 1,400 | Con + 6 | - | 14 | 8 |
+| 7 | 1,800 | Con + 7 | - | 14 | 8 |
+| 8 | 2,200 | Con + 8 | - | 15 | 9 |
+| 9 | 2,600 | Con + 9 | - | 15 | 9 |
+| 10 | 3,000 | Con + 10 | - | 15 | 10 |
+| +1 | +500 | +1 | - | 15 | 10 |
+
+At Level 5, and every time a PC levels up past Level 5, they can
+retire to safety. The GM cannot torment them anymore. If they
+can afford it, they can buy some land, set up a shop, teach at a
+wizard college, or beg in the gutter. At Level 10 and beyond, a
+PC who dies can �ght death. If they succeed, they can return to
+life. All future Saves to avoid death will be at a penalty, but they
+gain a second chance.
+| Stat| Bonus| Stat| Bonus| Stat| Bonus|
+| -   | -    | -   |  -   |  -  |   -  |
+| 1,2| -3| 9,10,11| 0| 18,19,20| 3|
+|3,4,5| -2| 12,13,14| 1| 21,22,23| 4|
+| 6,7,8| -1| 15,16,17| 2| 24+| 5
