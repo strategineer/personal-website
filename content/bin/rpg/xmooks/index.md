@@ -390,7 +390,7 @@ Time tracking is critical. I use minutes and hours.
 
 ### Movement
 
-PCs can cautiously move 20 10' squares (200') in 10 minutes. Round up to the nearest 10 minutes. PCs moving cautiously spot signs of all traps. The fun part isn't noticing the trap, it's how to disarm it. No skills. Use common sense and inventory items.
+PCs can cautiously move 20 10' squares (200') in 10 minutes . Round up to the nearest 10 minutes. PCs moving cautiously spot signs of all traps. The fun part isn't noticing the trap, it's how to disarm it. No skills. Use common sense and inventory items.
 
 PCs can quickly move 60 10' squares (600') in 10 minutes. PCs moving incautiously may get a chance to roll under Wisdom to notice a trap (GM's discretion). Otherwise, they find traps via HP and hirelings.
 
@@ -503,7 +503,7 @@ Before we start, do you have any questions right now?
 
 1. Choose or roll for your **[Race](#table-of-races)**. Your character's Race will grant them a Perk, a Drawback, and one Stat they can reroll.
 2. Roll your **[Stats](#stats)**. 3d6 in order. You may reroll the Stat given by your Race and pick the higher result.
-3. In X-Mooks, all PCs are **[Wizards](#wizard-class)** at level 0! Choose a Wizard School [from Many Rats on a Stick](#choosing-a-wizard-school-option-1) OR [from the rest of the GLOG-osphere](#choosing-a-wizard-school-option-2).
+3. In X-Mooks, all PCs are **[Wizards](#wizard-class)** at level 1! Choose a Wizard School [from Many Rats on a Stick](#choosing-a-wizard-school-option-1) OR [from the rest of the GLOG-osphere](#choosing-a-wizard-school-option-2).
 4. [Gain the Wizard's Spellcasting Template A](#a-spellcasting).
 5. Choose how your character's [innate spell potential manifests](#innate-magical-potential-manifestation).
 6. Take items and bonuses dictacted by your Wizard class and chosen Wizard School.
@@ -518,7 +518,7 @@ A newly created PC without any class templates is expected to be reasonably comp
 
 Each class has 4 Templates. Templates are gained sequentially (A, then B, then C, then D). To multiclass, simply pick the lowest template from another class. E.g. A level 4 character could pick Fighter A, Wizard A, Monk A, and Fighter B.
 
-{{< glogm >}} All PCs start at level 0 with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to cast spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential. {{< /glogm >}}
+{{< xmooks >}} All PCs start at level 1 with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to cast spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential. {{< /xmooks >}}
 
 Multiclassing should make sense. Multiclassing for optimization or mechanical reasons should be strongly discouraged by the GM. The game is not about the mechanics or having the biggest numbers. Bigger numbers will not save you.
 
