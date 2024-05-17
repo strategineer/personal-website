@@ -60,6 +60,10 @@ imaging:
     disableLatLong: true
 
 markup:
+  tableOfContents:
+      endLevel: 3
+      ordered: true
+      startLevel: 1
   defaultMarkdownHandler: goldmark
   goldmark:
     extensions:
@@ -73,7 +77,7 @@ markup:
       typographer: true
     parser:
       attribute:
-        block: false
+        block: true
         title: true
       autoHeadingID: true
       autoHeadingIDType: github

@@ -580,23 +580,8 @@ li {
 
 // RPG system css
 
-td, th {
-  border-width: 1px;
-}
-
-th {
-  background: #FFF;
-}
-
-tr:nth-child(even) {background: #FFF}
-tr:nth-child(odd) {background: #CCC}
-
 table {
-  width: 100%;
+  width: 100% !important;
+  white-space: wrap !important;
   border-collapse: collapse;
-}
-
-th,
-td {
-  padding: 5px;
 }

@@ -5,6 +5,8 @@ summary: "A Magic-first Roleplaying System by yours truly"
 weight: 1
 ---
 
+{{< toc >}}
+
 This system is heavily based on [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [Download PDF](/rpg/many_rats_on_stick_v2.pdf) and refer to it for classes info and various tables (for now).
 
 # Core Rules
@@ -21,7 +23,7 @@ This PDF assumes you know what an RPG is, what dice are, and the basics of OSR g
 
 In short, there are bits missing. Read another, much more complete OSR system, then all in the missing bits.
 
-### GM Guidance
+## GM Guidance
 
 Only roll or call for a roll if both success and failure are interesting. If failure is inevitable because of the fiction, don't roll. A PC can't test Strength to flap their arms and fly to the moon. If failure is boring, don't roll. If the PCs fail to pick a simple mundane lock, and they have all the time in the world, they'll just keep rolling until they succeed. Just let them open it or apply a time penalty. If the PCs not spotting something means they'll never see it, just tell them what they see. No rolls required.
 
@@ -31,13 +33,13 @@ Roll sparingly. Because stats are randomly generated and assigned, it's possible
 
 From a player's point of view, a roll is a risk. Testing Strength to leap across a chasm is risky. Putting a ladder across a chasm and climbing across is less risky and does not require a roll. Fighting is a risk. Avoiding the fight entirely may not require a roll.
 
-### The Core Mechanic
+## The Core Mechanic
 
 Almost everything is based on rolling a d20. If you roll equal to or under a target number, you succeed. Roll over, and you fail.
 
 Throughout the text, whenever you see "Roll under...", it means "Roll equal to or under..." It's just a pain to write that out every single time.
 
-### Skills
+## Skills
 
 Skills are just a word that describes something a PC knows how to do. There are no specific rules for using them. You may call for rolls under Intelligence or another stat, but in general, just let the PC with the skill do the thing the skill describes.
 
@@ -51,8 +53,9 @@ Skills are just a word that describes something a PC knows how to do. There are 
 | 6    | -1    | 14   | 1     | 22   | 4     |
 | 7    | -1    | 15   | 2     | 23   | 4     |
 | 8    | -1    | 16   | 2     | 24   | 5     |
+{.table .table-striped .table-bordered .table-sm}
 
-### Stats
+## Stats
 
 Characters have 6 stats. Each stat has a "bonus", which is a sort of shorthand condensation of a stat. Don't add the bonus to rolls.
 
@@ -68,7 +71,7 @@ Characters have 6 stats. Each stat has a "bonus", which is a sort of shorthand c
 
 **Charisma**: Roll under Charisma to flatter, beguile, or barter. A character's Save is modified by their Charisma bonus.
 
-### Associated Numbers
+## Associated Numbers
 
 **Attack**: Starts at 11. Increases with level. Roll under Attack, opposed by the enemy's Defense, to hit.
 
@@ -80,7 +83,7 @@ Characters have 6 stats. Each stat has a "bonus", which is a sort of shorthand c
 
 **Save**: 5 + Cha. Bonus. Increases with level. If an effect, attack, or challenge doesn't fall under any of the other stats or values, roll Save. This represents a character's luck and determination to resist the cruel hand of fate.
 
-### Opposed Rolls
+## Opposed Rolls
 
 A character or NPC must roll equal to or under their stat, modified by 10-[the relevant stat of their opponent].
 
@@ -90,7 +93,7 @@ Chess. The PC has a Intelligence of 6, the goblin has an Intelligence of 4. The 
 
 Racing. The PC has a Movement of 12, the gladiator has a Movement of 14. The PC must roll under 8 to thoroughly beat the gladiator in a race.
 
-### Adjudicating Rolls
+## Adjudicating Rolls
 
 A -4 penalty is approximately the same as "reroll and take the worse of the two results." A +4 bonus is approximately the same as "reroll and take the better result."
 
@@ -98,17 +101,17 @@ Apply bonuses or penalties to rolls as needed. Go as far as you need to go, bear
 
 # Combat
 
-### Combat
+## Combat
 
 Switch to combat rounds when it looks like someone might get hurt.
 
 If someone (or a group) attacks by surprise, they get to act before any Initiatives are rolled for the round. Once all ambushers have acted, everyone rolls for Initiative.
 
-### Initiative
+## Initiative
 
 Each round of combat, a PC must roll under their Wisdom. If they succeed, they act before their enemies. If they fail, they act afterwards. They act in order of their rolls, lowest to highest. Some particularly quick enemies might impose a penalty on PCs' Wisdom, or act twice in each round.
 
-### On Their Turn
+## On Their Turn
 
 A PC or enemy can do one of the following:
 
@@ -125,7 +128,7 @@ In addition, a PC or enemy can move 20'+Movement (or 30').
 
 Talking, shouting, or dropping an item can be done freely, and possibly even in other peoples' turns. Basically, you can do one big thing a turn, plus move a bit.
 
-### Attack Rolls
+## Attack Rolls
 
 Roll under Attack, opposed by the enemy's Defense, to hit.
 
@@ -139,13 +142,13 @@ Ranged weapons get -1 to Attack for every 10' beyond their listed range.
 
 Most spells do not require an Attack roll. If a spell does require one, it will be noted in the spell's description. Touching an unwilling target always requires an Attack roll.
 
-#### Critical Successes and Failures
+## Critical Successes and Failures
 
 On an unmodified Attack roll of 1, the attack deals double damage (roll twice the number of dice and add any bonuses twice).
 
 On an unmodified Attack roll of 20, the attack automatically misses. Further penalties may apply if the situation is risky. A critical failure in a one-on-one fight in a clear meadow might just be a miss. A critical failure in a tight corridor, with allies and enemies jostling together, might result in an ally being hit, a weapon being dropped, or the attacker falling prone.
 
-### Damage
+## Damage
 
 - **Light weapons** (daggers) deal 1d6 + Strength bonus damage.
 - **Medium weapons** (swords) deal 1d8 + Strength bonus damage if wielded in one hand or 1d10 + Strength bonus damage if wielded in both hands.
@@ -154,13 +157,13 @@ On an unmodified Attack roll of 20, the attack automatically misses. Further pen
 - **Bows** and **Slings** deal 1d6 damage.
 - **Crossbows** deal 1d12 damage.
 
-### Hit Points
+## Hit Points
 
 The danger a character can resist before taking injury is quantified by Hit Points (HP). They are better thought of as "Don't Get Hit" Points. There are no mechanical effects for being reduced to 0 HP. Any damage in excess of this (i.e. negative HP) is known as Lethal Damage, which always incurs a roll on the Death and Dismemberment Table.
 
 PCs have a maximum HP of 20. Enemies have variable HP base on their Hit Dice (HD). A hit dice is a d8. Roll the number of HD listed and add the numbers together. An enemy with surprisingly low HP might be sickly or wounded. An enemy with high HP might be a champion (or two enemies).
 
-### Healing
+## Healing
 
 1. Lunch heals a character for 1d6+Level HP. Lunch takes 1 hour, requires a safe place, and consumes 1 ration.
 2. A Good Night's Rest. Restores all HP. Requires 8 hours of rest, a safe place, a fire or heat source, and consumes 1 ration.
@@ -168,11 +171,11 @@ PCs have a maximum HP of 20. Enemies have variable HP base on their Hit Dice (HD
 
 If a character has negative HP (i.e. has taken Lethal Damage), the next Lunch or Good Night's Rest heals them to 0 and not over 0.
 
-### Weapon Proficiency
+## Weapon Proficiency
 
 All classes are proficient with daggers. A PC is also proficient with any weapons they gain from a class or background. A PC has -4 to Attack with a weapon until they gain proficiency by landing 8 successful hits in combat.
 
-### Reaction & Morale Rolls
+## Reaction & Morale Rolls
 
 When encountering monsters, roll 2d6 + the Charisma bonus of the most visible party member.
 
@@ -182,6 +185,7 @@ When encountering monsters, roll 2d6 + the Charisma bonus of the most visible pa
 | 3-7        | Unfavourable     | May attack if victory likely |
 | 8-11       | Favourable       | Parley or bargaining         |
 | 12 or more | Very Favourable  | May choose to cooperate.     |
+{.table .table-striped .table-bordered .table-sm}
 
 Monsters (or hirelings) may try to run away or surrender if combat turns against them. Monsters have a Morale value listed from 2 (craven) to 12 (unbreakable). Check Morale when:
 
@@ -191,7 +195,7 @@ Monsters (or hirelings) may try to run away or surrender if combat turns against
 
 # Death & Dismemberment Table
 
-#### Death and Dismemberment Roll
+## Death and Dismemberment Roll
 
 1d12+ Lethal Damage + Number of Current Injuries
 
@@ -199,7 +203,7 @@ The effects are cumulative. If a PC with -8 HP and no current Injuries rolls a 1
 
 If they took a further 1 point of damage (-9 HP), they would roll 1d12 + 9 (Lethal Damage) + 1 (Mangled) + 1 (Disabled) for 1d12+11.
 
-##### Hit Location Table
+## Hit Location Table
 
 If required, roll 1d6 for hit location.
 
@@ -208,8 +212,9 @@ If required, roll 1d6 for hit location.
 | 1+ | Disabled X Days | Disabled X Days | Cracked Ribs X Days | Concussed X Days |
 | 11+ | 1 Fatal Wound + Mangled | 1 Fatal Wound + Mangled | 1 Fatal Wound + Crushed | 1 Fatal Wound + Skullcracked |
 | 16+ | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds |
+{.table .table-striped .table-bordered .table-sm}
 
-##### Status Effect Table
+## Status Effect Table
 
 If required, roll 1d6 for status effect.
 
@@ -218,14 +223,15 @@ If required, roll 1d6 for status effect.
 | 1+ | Scorched / Frostbite X Days | Burned X Days | Sickened X Days | Anathema X Days |
 | 11+ | 1 Fatal Wound + Burned / Frozen | 1 Fatal Wound + Fried | 1 Fatal Wound + Wracked | 1 Fatal Wound + Marked |
 | 16+ | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds |
+{.table .table-striped .table-bordered .table-sm}
 
-### Fatal Wounds
+## Fatal Wounds
 
 A PC has 3 rounds to clear all their Fatal Wounds or they die. They can attempt to remove a Fatal Wound on their turn by rolling 1 on a d6. PCs with Fatal Wounds are unconscious. This does not mean they are quiet or asleep (they can be screaming and holding a stump), but it means they cannot take conscious or deliberate actions. Remove oldest Fatal Wounds first. You may want to use different coloured d6s to represent Fatal Wounds acquired on different rounds.
 
 Up to two adjacent allies can try to remove Fatal Wounds from a dying character by spending their turn doctoring the wounded PC and then rolling under ½ Intelligence (unless they have a useful skill).
 
-### Injuries
+## Injuries
 
 Some injuries on this list aren't on the Death and Dismemberment table. They can be accumulated by other means, GM choice, or deliberate actions.
 
@@ -288,7 +294,7 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 5. Enfeebled. Take double damage from ingested poisons or rotten food.
 6. Heart Pain. Cannot run.
 
-### Interesting Scars
+## Interesting Scars
 
 The scar must be a mangled, twisted, gnarled thing, a worm of flesh buried under the skin. It provides a +2 bonus to Charisma while interacting with people who appreciate a good scar and a good story (barbarians, barber-surgeons, knights, suitors, poets, etc.)
 
@@ -357,6 +363,7 @@ Outside of the listed light range, light sources illuminate shadows. Vague shape
 | Torch        | 20' light, 20' shadows | 1 hour                 |
 | Lantern      | 30' light, 30' shadows | 3 hours / flask of oil |
 | Candle       | 5' light, 10' shadows  | 1 hour                 |
+{.table .table-striped .table-bordered .table-sm}
 
 Lighting a torch or lantern takes 1 round. PCs are assumed to be carrying basic firestarting gear. Magic or cantrips may ignite a light source immediately.
 
@@ -430,13 +437,21 @@ In Civilized Parts, villages and peasants are everywhere. In wilderness areas, r
 
 # Introduction for New Players
 
-**There are elements of chance.**: Ever played cops and robbers or any other made-up games? Did you ever meet the one kid who said "Nuh uh, you didn't hit me, I have a bulletproof vest!" In this game of make-believe, there are a few rules to help decide who hits who, and how hard, and other things like that.
+**There are elements of chance.**
 
-**Your characters are also going to have some random numbers assigned to them. Sometimes the numbers will be good, and sometimes they'll be bad, and there's not much you can do about it. In this game the numbers aren't that important. Sometimes, a character will terrible stats and survive for ages, while a character with brilliant stats dies in the first hour of game. There are elements of skill.**: In Settlers of Catan, the rules are fixed and solid and balanced. You can't go "Hey Steve, I'll take my Knights and you take your Knights and we'll go pillage that Sheep tile." That's not in the rules. And that's fine. But in a game like this, you can come up with any plans you want to. In that way the game is like a real world, and the people in it are like real people. Nobody minds too much if you go around smashing pottery and looting houses in a video game, but in this game, that sort of thing has real consequences. Similarly, you can't lure Bowser out of his castle with a delicious meal in the video game because cooking wasn't coded into the game.
+Ever played cops and robbers or any other made-up games? Did you ever meet the one kid who said "Nuh uh, you didn't hit me, I have a bulletproof vest!" In this game of make-believe, there are a few rules to help decide who hits who, and how hard, and other things like that.
+
+Your characters are also going to have some random numbers assigned to them. Sometimes the numbers will be good, and sometimes they'll be bad, and there's not much you can do about it. In this game the numbers aren't that important. Sometimes, a character will terrible stats and survive for ages, while a character with brilliant stats dies in the first hour of game.
+
+**There are elements of skill.**
+
+In Settlers of Catan, the rules are fixed and solid and balanced. You can't go "Hey Steve, I'll take my Knights and you take your Knights and we'll go pillage that Sheep tile." That's not in the rules. And that's fine. But in a game like this, you can come up with any plans you want to. In that way the game is like a real world, and the people in it are like real people. Nobody minds too much if you go around smashing pottery and looting houses in a video game, but in this game, that sort of thing has real consequences. Similarly, you can't lure Bowser out of his castle with a delicious meal in the video game because cooking wasn't coded into the game.
 
 Coming up with a good plan and executing that plan is important. Be smart. Pay attention. Think of solutions that the rules don't cover.
 
-**In Character vs Out of Character**: You don't have to do silly voices or wear costumes. You'll figure out how comfortable you are acting as your character as we go along. The main thing, right now, is to remember that your character knows things you don't know, and that you know things your character doesn't know.
+**In Character vs Out of Character**
+
+You don't have to do silly voices or wear costumes. You'll figure out how comfortable you are acting as your character as we go along. The main thing, right now, is to remember that your character knows things you don't know, and that you know things your character doesn't know.
 
 Your character knows things about the world that you, as a player, don't know. They know how to ride a horse or make poison or identify magic runes. If there's a situation where that applies, I'll just tell you what your character knows. If I'm not sure, I might make you roll for it.
 
@@ -444,15 +459,21 @@ Similarly, there are things you know that your characters don't know. The main o
 
 You, the player, might know things about other characters or the world that your character doesn't. You might know a secret about another character's past, or the best way to kill a vampire. But remember, your character can only act on knowledge they have in the game.We'll discuss this more as it comes up.
 
-**Your characters are going to die.**: Did you ever play Super Mario Bros? Mario died a lot in that game. Sometimes he died because you made a mistake. Sometimes it was chance, or luck, or you were distracted, or you didn't understand how an enemy worked. This game is like that, except in the video game, Mario comes back again and again. In this game, each time you get a new character.
+**Your characters are going to die.**
+
+Did you ever play Super Mario Bros? Mario died a lot in that game. Sometimes he died because you made a mistake. Sometimes it was chance, or luck, or you were distracted, or you didn't understand how an enemy worked. This game is like that, except in the video game, Mario comes back again and again. In this game, each time you get a new character.
 
 Having a character die doesn't mean you made a mistake or failed. It's part of the learning process. Sometimes it's just random chance.
 
 You get to make a new character, and I'll find a way to introduce them to the group. You start at Level 1 again but it's not a big deal. A Level 1 character is just as useful as a Level 4 character almost every way. You'll never be completely outclassed.
 
-**Leveling**: You level up and improve your character by looting treasure. Imagine a dragon and its hoard. Kill the dragon and you get 0 XP. Steal the treasure, by force or stealth, and it counts. You have to get it out of the dungeon and take it somewhere safe, but once it's safe - buried, spent, invested, or donated - it counts.
+**Leveling**
 
-**The Social Contract**: If you like this game and you're having fun, show up on time, or tell me in advance if you can't make it. If you don't like this game, let me know and we'll make changes. If anything about this game makes you uncomfortable, bring it up immediately. If you don't feel comfortable doing that, or it only occurs to you later, you can always email me.
+You level up and improve your character by looting treasure. Imagine a dragon and its hoard. Kill the dragon and you get 0 XP. Steal the treasure, by force or stealth, and it counts. You have to get it out of the dungeon and take it somewhere safe, but once it's safe - buried, spent, invested, or donated - it counts.
+
+**The Social Contract**
+
+If you like this game and you're having fun, show up on time, or tell me in advance if you can't make it. If you don't like this game, let me know and we'll make changes. If anything about this game makes you uncomfortable, bring it up immediately. If you don't feel comfortable doing that, or it only occurs to you later, you can always email me.
 
 Please don't bring out your phones during game unless there's something urgent. Ideally this is the most interesting thing going on. In the same vein, understand that there are 5 other people in the room, so don't deliberately waste time.
 
@@ -460,9 +481,13 @@ The setting of this game is semi-medieval. That means that terrible things happe
 
 Gender is also much more important in this game than it is in the modern world, but possibly less important than you might fear. At the very high end of society, you can get away with breaking gender norms by wealth, power, law, and ability. At the very low end, nobody cares. It's only the middle classes and the Church who obsess over propriety and station. It probably won't be an important part of most sessions.
 
-**The Rules**: Are always available for you to read. They aren't secret. If you find inconsistencies or errors, let me know, but the rules aren't the law. As the GM, what I say goes, and if need be, what I say, went. If you think you've found a loophole, but the results of that loophole don't make any sense, it will stop working immediately.
+**The Rules**
 
-**Questions**: If you have questions, let me know. Some example questions include:
+Are always available for you to read. They aren't secret. If you find inconsistencies or errors, let me know, but the rules aren't the law. As the GM, what I say goes, and if need be, what I say, went. If you think you've found a loophole, but the results of that loophole don't make any sense, it will stop working immediately.
+
+**Questions**
+
+If you have questions, let me know. Some example questions include:
 
 - "Can I hit him with an arrow at this distance?"
 - "What does X taste like?"
@@ -473,11 +498,14 @@ Before we start, do you have any questions right now?
 
 # Character Generation
 
-1. Choose or roll for your **Race**. Your character’s Race will grant them a Perk, a Drawback, and one Stat they can reroll.
-2. Roll your **Stats**. 3d6 in order. You may reroll the Stat given by your Race and pick the higher result.
-3. Choose or roll for your **Class**. Gain the first template (A) and any other items and bonuses.
-4. Roll for any skills or items requested by your class.
-5. Gain 1d10cp. If the entire group is level 1, all PCs also gain a blanket (1 slot) and 3 rations (1 slot).
+1. Choose or roll for your **[Race](#table-of-races)**. Your character's Race will grant them a Perk, a Drawback, and one Stat they can reroll.
+2. Roll your **[Stats](#stats)**. 3d6 in order. You may reroll the Stat given by your Race and pick the higher result.
+3. In GLOGM, all PCs are **[Wizards](#wizard-class)** at level 0! Choose a Wizard School [from Many Rats on a Stick](#choosing-a-wizard-school-option-1) OR [from the rest of the GLOG-osphere](#choosing-a-wizard-school-option-2).
+4. [Gain the Wizard's Spellcasting Template A](#a-spellcasting).
+4. Choose how your character's [innate spell potential manifests](#innate-spell-potential-manifested). This should be related to your chosen Wizard School.
+6. Take items and bonuses dictacted by your Wizard class and chosen Wizard School.
+7. Roll for any skills or items dictacted by your Wizard class and chosen Wizard School.
+8. Gain 1d10cp. All PCs gain a blanket (1 slot) and 3 rations (1 slot).
 
 ## The Base Adventurer
 
@@ -487,15 +515,15 @@ A newly created PC without any class templates is expected to be reasonably comp
 
 Each class has 4 Templates. Templates are gained sequentially (A, then B, then C, then D). To multiclass, simply pick the lowest template from another class. E.g. A level 4 character could pick Fighter A, Wizard A, Monk A, and Fighter B.
 
-{{< glogm >}} All PCs start with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to perform spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential. {{< /glogm >}}
+{{< glogm >}} All PCs start at level 0 with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to cast spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential. {{< /glogm >}}
 
 Multiclassing should make sense. Multiclassing for optimization or mechanical reasons should be strongly discouraged by the GM. The game is not about the mechanics or having the biggest numbers. Bigger numbers will not save you.
 
-### Levelling Up
+## Levelling Up
 
-PCs gain experience points (XP) by looting stuff. Wages don’t count. The loot must be taken to a place of safety and divided or assigned to the PCs to become XP. Items or equipment used by the characters and not sold don’t count for XP purposes. Players should track a PC’s XP (the total amount of treasure they have accumulated) along with their current cash. Purely frivolous spending converts 10% of the money spent into XP.
+PCs gain experience points (XP) by looting stuff. Wages don't count. The loot must be taken to a place of safety and divided or assigned to the PCs to become XP. Items or equipment used by the characters and not sold don't count for XP purposes. Players should track a PC's XP (the total amount of treasure they have accumulated) along with their current cash. Purely frivolous spending converts 10% of the money spent into XP.
 
-Whenever a PC levels, increase their HP, Attack, and base Save (before their Charisma bonus is added). A PC can also test to improve a stat of their choice. Declare the stat and roll 3d6. If the result is over, the stat’s value increases by 1.
+Whenever a PC levels, increase their HP, Attack, and base Save (before their Charisma bonus is added). A PC can also test to improve a stat of their choice. Declare the stat and roll 3d6. If the result is over, the stat's value increases by 1.
 
 | Level | XP    | HP (20 Max) | Class Templates | Attack | Base Save |
 | ----- | ----- | ----------- | --------------- | ------ | --------- |
@@ -503,27 +531,27 @@ Whenever a PC levels, increase their HP, Attack, and base Save (before their Cha
 | 2     | 200   | Con - 2     | 2               | 12     | 7         |
 | 3     | 400   | Con         | 3               | 12     | 7         |
 | 4     | 700   | Con + 2     | 4               | 13     | 7         |
-| 5     | 1,000 | Con + 4     | -               | 13     | 8         |
+| 5     | 1,000 | Con + 4     | 5               | 13     | 8         |
 | 6     | 1,400 | Con + 6     | -               | 14     | 8         |
 | 7     | 1,800 | Con + 7     | -               | 14     | 8         |
 | 8     | 2,200 | Con + 8     | -               | 15     | 9         |
 | 9     | 2,600 | Con + 9     | -               | 15     | 9         |
 | 10    | 3,000 | Con + 10    | -               | 15     | 10        |
 | +1    | +500  | +1          | -               | 15     | 10        |
+{.table .table-striped .table-bordered .table-sm}
 
-At Level 5, and every time a PC levels up past Level 5, they can retire to safety. The GM cannot torment them anymore. If they can afford it, they can buy some land, set up a shop, teach at a wizard college, or beg in the gutter. At Level 10 and beyond, a PC who dies can fight death. If they succeed, they can return to life. All future Saves to avoid death will be at a penalty, but they gain a second chance.
+At Level 6, and every time a PC levels up past Level 6, they can retire to safety. The GM cannot torment them anymore. If they can afford it, they can buy some land, set up a shop, teach at a wizard college, or beg in the gutter. At Level 10 and beyond, a PC who dies can fight death. If they succeed, they can return to life. All future Saves to avoid death will be at a penalty, but they gain a second chance.
 
 | Stat  | Bonus | Stat     | Bonus | Stat     | Bonus |
 | ----- | ----- | -------- | ----- | -------- | ----- |
 | 1,2   | -3    | 9,10,11  | 0     | 18,19,20 | 3     |
 | 3,4,5 | -2    | 12,13,14 | 1     | 21,22,23 | 4     |
 | 6,7,8 | -1    | 15,16,17 | 2     | 24+      | 5     |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Classes
 
-{{< glogm >}} All PCs start with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to perform spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential. {{< /glogm >}}
-
-### Wizard
+### Wizard Class
 
 #### Choosing a Wizard School: Option 1
 
@@ -543,10 +571,11 @@ Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick b
 | 10   | Orthodox       |
 | 11   | Spider         |
 | 12   | White Hand     |
+{.table .table-striped .table-bordered .table-sm}
 
 #### Choosing a Wizard School: Option 2
 
-From any of the supplements in the Misc Resources section or anything you can find online.
+From [any of the supplements in the Extra Resources section](#extra-resources) or anything you can find online.
 
 #### Wizard
 
@@ -554,21 +583,16 @@ Starting Equipment: varies by Wizard School. If in doubt ask your GM to help you
 
 Starting Skill: Ask your GM.
 
-{{< glogm >}} Everyone is born with the potential to access innate magical abilities but whether or not one learns 'from birth can be seen or felt:
+##### Innate Spell Potential Manifested
+{{< glogm >}} Everyone is born with the potential to access innate magical abilities but whether or not one learns to access one's abilities, one's innate magical potential manifests in everyone from birth either:
 
-- On your body (burning hand, translucent skin, etc.), think Fallout mutations.
-- Or as a spiritual aura that surrounds you, think JoJo.
-- Or as a familiar that follows you around, think His Dark Materials. {{< /glogm >}}
-
-**A:** Spellcasting, +1 MD, +1 Spell Slot, +2 Spells (1-6)
-
-**B:** +1 MD, +1 Spell Slot, +1 Spell (1-8), Book Casting
-
-**C:** +1 MD, +1 Spell Slot, +1 Spell (1-10), Friendly Spell
-
-**D:** +1 MD, +1 Spell Slot, Choose 4 spells.
+- As a physical mark, extra appendage, abnormality on your body (burning hand, translucent skin, etc.), think Fallout mutations.
+- As a spiritual aura that surrounds you, think JoJo.
+- As a familiar that follows you around, think His Dark Materials. {{< /glogm >}}
 
 #### A: Spellcasting
+
++1 MD, +1 Spell Slot, +1 Spell (1-6)
 
 Spells are living creatures. Spells, enchantments, ghosts, and souls are all more or less the same. A wizard's spells range in intelligence from pond scum to ferrets. A spellbook is a menagerie-prison. A well-trained brain is a mind-gun loaded with spell-bullets. Minor spells, called cantrips, infest a wizard's soul and bind to it. It takes 1hr to move any number of spells between a spell slot in your brain and a spellbook, scroll, or wand.
 
@@ -576,7 +600,7 @@ To cast a spell, select a number of Magic Dice (MD) you wish to invest, roll the
 
 Dice that roll 1-3 return to your casting pool and can be used again that day. Dice that roll 4-6 are removed from your casting pool for the day. Your spells return at sunrise to last location they were imprisoned, when the octarine light of the sun touches the world and infuses Creation with an extra boost of raw magic. Your MD return if you get a good night's sleep. If you didn't sleep well, you can Save for each MD to have them return to your pool anyway.
 
-When you gain Template A, roll 2 d6s and gain the spells listed. Template B, roll 1d8. Template C, roll 1d10. Template D, choose 4 spells from the list. If a duplicate spell is rollled, you may choose to keep it or reroll.
+When you gain Template A, roll 1 d6 and gain the spell listed. Template B, roll 1d6 and a 1d8. Template C, roll 1d10. Template D, choose 4 spells from the list. If a duplicate spell is rolled, you may choose to keep it or reroll.
 
 You can try to bodge together a spell-like effect appropriate to your school by pouring any number of MD into a target and hoping for the best. Effects are adjudicated by the GM, but are usually haphazard and dangerous. Mishaps and Dooms apply.
 
@@ -584,15 +608,24 @@ You can detect strong ambient magic if you are not distracted. To learn details 
 
 #### B: Book Casting
 
-You can cast from a scroll or a spellbook in a way that does not consume the scroll. This allows you to cast directly from your spellbook without loading the spell into your brain first. You do not gain the bonus MD that consuming a scroll generates. You must declare you are casting a spell from a book before initiatives are rolled for the turn.You automatically go last in the initiative round, and you automatically fumble the spell if you take any damage during the round. The spell vanishes from the scroll or book and returns the next morning.
++1 MD, +1 Spell Slot, +1 Spell (1-6), +1 Spell (1-8)
+
+You can cast from a scroll or a spellbook in a way that does not consume the scroll. This allows you to cast directly from your spellbook without loading the spell into your brain first. You do not gain the bonus MD that consuming a scroll generates. You must declare you are casting a spell from a book before initiatives are rolled for the turn. You automatically go last in the initiative round, and you automatically fumble the spell if you take any damage during the round. The spell vanishes from the scroll or book and returns the next morning.
 
 #### C: Friendly Spell
 
++1 MD, +1 Spell Slot, +1 Spell (1-10)
+
 Apply a random mutation to a spell you frequently cast.
+
+#### D: Spell Mastery
+
++1 MD, +1 Spell Slot, Choose 4 spells.
+
 
 ### Non-Wizard Classes
 
-If you're interested in building a multi-class Wizard with one or more Non-Wizard classes, find one in a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf))), any of the other supplements in the Misc Resources section or anything you can find online.
+If you're interested in building a multi-class Wizard with one or more Non-Wizard classes, find one in a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf))), [any of the supplements in the Extra Resources section](#extra-resources) or anything you can find online.
 
 # Equipment
 
@@ -614,6 +647,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Lard (5lbs)           | 1cp          | 1cp         |
 | Soap (1lb)            | 1cp          | 2cp         |
 | Wooden Tub            | 2sp          | 1sp         |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Armor
 
@@ -623,6 +657,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Chain Armour (Defense 14)   | 10gp         | -           |
 | Plate Armour (Defense 16)   | 100gp        | -           |
 | Shield (Defense +1)         | 5sp          | 5sp         |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Weapons
 
@@ -635,6 +670,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Bow (d6)                             | 25sp         | 25sp        |
 | Crossbow (d12)                       | 5gp          | -           |
 | Arrows/Bolts (20/slot)               | 5cp each     | 5cp each    |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Light
 
@@ -646,6 +682,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Lamp Oil (flask, 3/slot, 3hrs) | 5cp          | 5cp         |
 | Tinderbox                      | 1sp          | 5sp         |
 | Torch (3hrs) (3/slot)          | 1cp          | 1cp         |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Animals
 
@@ -660,6 +697,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Horse (war)    | 75gp         | 65gp        |
 | Donkey         | 8sp          | 5sp         |
 | Sheep          | 3sp          | 1sp         |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Tools
 
@@ -680,6 +718,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Shovel            | 3sp          | 2sp         |
 | Speciality Tools  | 2gp          | -           |
 | Spike (iron)      | 1sp          | 2sp         |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Adventuring Gear
 
@@ -691,14 +730,15 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Fishing Gear           | 1sp          | 1sp         |
 | Grappling Hook         | 3sp          | 5sp         |
 | Holy Water             | 25sp         | 25sp        |
-| Ladder (10’)           | 6sp          | 3sp         |
-| Pole (10’)             | 1sp          | 5cp         |
-| Rope (30’)             | 3sp          | 3sp         |
+| Ladder (10')           | 6sp          | 3sp         |
+| Pole (10')             | 1sp          | 5cp         |
+| Rope (30')             | 3sp          | 3sp         |
 | Tent (3-ling)          | 1gp          | 2gp         |
 | Tent (personal)        | 5sp          | 10sp        |
 | Vial, Bottle, or Flask | 2sp          | -           |
 | Waterskin              | 1sp          | 1sp         |
 | Whistle                | 5cp          | 5cp         |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Clothing
 
@@ -710,6 +750,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Leather Boots   | 3sp          | -           |
 | Furs            | 50gp         | -           |
 | Rags            | 5cp          | 3 cp        |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Clothing
 
@@ -725,6 +766,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Plates, Cups, Cutlery (6 sets) | 1gp          | -           |
 | Gold Ring                      | 1gp          | -           |
 | Scroll Case                    | 1sp          | 3 sp        |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Hirelings and Followers
 
@@ -740,6 +782,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Master Builder           | 5gp/month    | 5gp/month   |
 | Barber-Surgeon           | 6gp/month    | 8gp/month   |
 | Galley Crew (60)         | 30gp/month   | -           |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Transportation and Lodging
 
@@ -751,18 +794,57 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Wagon    | 15gp         | 8gp         |
 | Galley   | 800gp        | -           |
 | Inn      | 5sp/night    | 3sp/night   |
+{.table .table-striped .table-bordered .table-sm}
 
 ## Currency Calibration
 
 1gp = 10sp = 100cp = $1 modern American = 1 ~1300 French denier. Prices are based on historical research and guesswork.
 
-# Tables
+# Table of Races
 
-## Medieval Professions
-
-## 1d100 Camp Followers
-
-## Horse Quality and Death Tables
+| 1d50 | Race | Reroll | Bonus | Weakness | Flavor |
+| - | - | - | - | - | - |
+| 1-10 | Human | Choice | +1 to Strength for Inventory Slots. Gain a random item. | -4 to Save against being mutated or transformed. | The "hu" was a small, pink, avaricious, ugly little mole-like creature that the humans exterminated out of shame. |
+| 11-12 | Elf | CHA | Do not require a Ration to heal at Lunch. | Save when you see ugly things or shun them, | Elves are improved, polished, and upgraded humans. The High Elves keep them as servants or pets. They are better than you. They are better than everyone |
+| 13 | Gnome | INT | Become invisible if you close eyes, hold breath, don't move. | -2 to Movement. | Border-raiders, wilderness fighters, and mean bastards. Wearer of the 'bloodkap'. |
+| 14 | Spiderling | DEX | Can secrete 30' of rope per day. | Cannot see anything more than 30' away. | Outcast and shunned. Practitioners of a religion outside the Church. Weavers, money-lenders, scholars, doctors, and poor farmers. |
+| 15 | Magpieling | DEX | Always know the approximate value of mundane items. | Must Save or pick up shiny objects. | Terrible and mostly undeserved reputation for petty crime and occasional acts of violence. |
+| 16 | Eelling | INT | Can instantly strand up from prone. | Cannot see anything nearer than 1'. | Marsh-farmers, trader, and roving doctors. |
+| 17 | Antling | CON | +2 to Strength for Inventory Slots. | Save vs Fear when alone. | Live in matriarchal town-like colonies of hundreds. Deeply religious, though somewhat naïve. Secretive. |
+| 18 | Hedgehogling | WIS | +2 Defense. | Cannot wear armour on chest or limbs. | A surprising number of minor saints are hedgehoglings. |
+| 19 | Deerling | CHA | Antlers (as a light weapon, bludgeoning). | When afraid, will run instead of staying still. | Rather offended by the idea that they all live timid pastoral lives in the forest. A few families are excellent bankers. |
+| 20 | Slothling | STR | Automatically pass Saves vs Fear. | -2 to Wisdom for Initiative. Can never act in Surprise rounds. | An ancient line from untouched forests. Laughably poor warriors, according to popular tales. |
+| 21 | Mouseling | WIS | Can very convincingly play dead. | -2 to Strength for Inventory Slots. | Raised in humility and duty, mouselngs are frequently members of the First Estate. |
+| 22 | Boarling | CON | Tusks (as a light weapon, piercing). | Constant snuffling. -2 Stealth. | Strong military tradition in many families. Often among the nobility. |
+| 23 | Hawkling | INT | Can see detail at a great distance. | Must eat uncooked food. Rations spoil in 2 days. | Frequently members of the Second Estate. Raised in a culture of boldness. |
+| 24 | Houndling | CHA | Can track a creature by smell. | Save to avoid obeying direct commands for 1 round. | Jowly. Found throughout Creation, but rarely in positions of power. |
+| 25 | Beetleling | STR | +1 Defense, take ½ fall damage. | Cannot wear armour on chest or limbs. | Either solitary hermits or from tight-knit town-based families. |
+| 26 | Fishling | CON | Can hold breath for 10 minutes. | Drink twice as much water. | Urban or rural, fishlings have vast families and great ambitions. |
+| 27 | Swanling | DEX | Can shout and sing incredibly well. | Cursed. -2 to Save. | Legend says swanlings are cursed to die beautifully. |
+| 28 | Owlling | WIS | Can rotate head 180 degrees. | Cough up disgusting pellets after every meal. | Rumour that wisdom accumulates in one member of a family, sparing all the others. |
+| 29 | Slugling | STR | Cannot be pushed in combat. | Salt deals 1d4 damage / round to you. | Renowned as farmers, orchard-keepers. Hermaphroditic, which is conveniently ignored by society and the Church. |
+| 30 | Flyling | DEX | Can eat rotten food as rations. | Will not notice details unless they move. | Farmers and merchants. Half don't mind being seen as dung-eaters, half frantically try to "improve" their reputation. |
+| 31 | Rabbitling | DEX | Jump twice as high. | When afraid, will freeze instead of running. | Good solid farmers, emergency peasant leavies, and fools. |
+| 32 | Gooseling | CON | Prehensile neck, can fit head through small spaces. | When afraid, Save or attack enemy. | Notorious for elaborate weddings. Strong tradition of carefully organized community vengeance on outsiders. |
+| 33 | Ravenling | CHA | Can eat rotten food as rations. | Must Save or pick up shiny objects. | Reputation, possibly inflated, for wisdom, dark magic, and low cunning. |
+| 34 | Weaselling | STR | Can crawl through narrow spaces. | Must eat uncooked food. Rations spoil in 2 days. | Often boatmen, coastal sailors, and sappers. Frequently fussy over their fur. |
+| 35 | Frogling | CHA | Prehensile tongue (as a whip, 10', 1d4 damage). | Drink twice as much water. | Widely dispersed through society. Traditional rivalry with Toadlings. |
+| 36 | Toadling | STR | Jump twice as high. | Contagious warts. | Widely dispersed through society. Less prosperous than their traditional rivals, the Froglings. |
+| 37 | Ratling | INT | Can crawl through narrow spaces. | Save vs Fear when alone. | Acts of bravery in war have redeemed the ratling in the eyes of many. |
+| 38 | Goatling | DEX | No penalties to Movement for rough terrain. | Pervasive, unique stink. -2 to Stealth. | Popular poets, balladeers, and destroyers of community moral standards. Some become famous theologians. |
+| 39 | Foxling | WIS | Can hear as accurately as sight at 20'. | Cannot tell the direct, blunt truth. | The life of any party. Traditionally barred from the clergy, save for exceptional circumstances. |
+| 40 | Wormling | INT | Can shrink or grow by 25% in 1 round. | -2 to Strength for Inventory Slots. | Very few wormlings become scholars. Notoriously accident prone. |
+| 41 | Flealing | STR | Can drink blood as rations. | Cannot wear armour on chest or limbs. | Widely despised. Constant utterly groundless rumours of child abduction, murder, and treachery. |
+| 42 | Batling | WIS | Can roll Wis to "hear" walls and major features in the dark. | Will never notice details unless they move. | Rumoured to be theatrical and slightly eccentric. Prefer to work at night, adding to sinister tales. |
+| 43 | Mothling | WIS | Can produce 1 cubic foot of rags per day. | Save or stare at bright lights for 1 round. | Often dressed in dozens of layers of clothing. Frequently solitary and studious. |
+| 44 | Badgerling | STR | Can dig or excavate as if you have 2 shovels. | Incredibly surly. Save to suffer fools gladly. | Popular fiction describes them as solitary and violent, though they sometimes rise to leadership positions. |
+| 45 | Newtling | CHA | Cannot be tied up or entangled in rope. | Heat of the noonday sun deals 1d4 damage / round to you. | Rare, brightly coloured, and furtive. Frequently from marshy areas. Known for strong family pride. |
+| 46 | Duckling | CON | Can hold breath for 10 minutes. | Cannot whisper. | Bright and swaggering males, dun and cunning females, or so public opinion goes. |
+| 47 | Moleling | INT | Can track a creature by smell. | Cannot see anything more than 30' away. | Raised in a culture of modesty and caution. |
+| 48 | Cricketling | STR | Can jump twice as high. | Constant musical rasping. -2 Stealth. | Natural musicians, but primarily farmers in fertile plains. |
+| 49 | Sparrowling | WIS | Climb as fast as you can run. | When afraid, will run instead of staying still. | Notoriously nervous and prone to gossip, sparrowlings travel in small groups as mercenaries or pilgrims. |
+| 50 | Goblin | DEX | Can see/smell 20' in the dark. | ½ starting HP and Int. Speak in words of 2 syllables or fewer. | Universally loathed. Made of leftovers. Goblinism is contagious. |
+{.table .table-striped .table-bordered .table-sm}
 
 # Extra Resources
 
