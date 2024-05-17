@@ -10,7 +10,7 @@ X-Mooks is my homebrew OSR-compatible rule system which is HEAVILY based on:
 
 # Core Rules
 
-The X-Mooks rules are designed for old-school D&D-like games. It is broadly compatible with most published Old School Revival (OSR) products (i.e. equally incompatible with all of them). The main goal is to create a system that is:
+The X-Mooks rules are designed for old-school D&D-like games. They are broadly compatible with most published Old School Revival (OSR) products (i.e. equally incompatible with all of them). The main goal is to create a system that is:
 
 1. Intuitive for new players.
 2. Adaptable and hackable.
