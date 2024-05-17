@@ -16,9 +16,7 @@ The X-Mooks rules are designed for old-school D&D-like games. It is broadly comp
 2. Adaptable and hackable.
 3. Compact.
 
-The rule set you know what an RPG is, what dice are, and the basics of OSR games, and how to adjudicate rules on the fly. Rather than a complete system, this hack is designed to allow experience GMs to run games for experienced players.
-
-In short, there are bits missing. Read another, much more complete OSR system, then all in the missing bits.
+The rules assume you know what an RPG is, what dice are, and the basics of OSR games, and how to adjudicate rules on the fly. Rather than a complete system, this hack is designed to allow experience GMs to run games for experienced players.
 
 If you're a player, [start with the Introduction for New Players section](#introduction-for-new-players). If you want more detail on how a particular system works, refer to the [table of contents](#table-of-contents) or Control+F to search for info.
 
@@ -34,7 +32,7 @@ Only roll or call for a roll if both success and failure are interesting. If fai
 
 Failed rolls have consequences. The most obvious one is time. Wasted time means more chances for bad things to happen to the PCs.
 
-Roll sparingly. Because stats are randomly generated and assigned, it's possible two PCs in the same party will have vastly different chances of performing the same task. Minimize this by using Attack and Save (which are the same for most Pcs at the same level), automatic failures, and automatic successes.
+Roll sparingly. Because stats are randomly generated and assigned, it's possible two PCs in the same party will have vastly different chances of performing the same task. Minimize this by using Attack and Save (which are the same for most PCs at the same level), automatic failures, and automatic successes.
 
 From a player's point of view, a roll is a risk. Testing Strength to leap across a chasm is risky. Putting a ladder across a chasm and climbing across is less risky and does not require a roll. Fighting is a risk. Avoiding the fight entirely may not require a roll.
 
@@ -42,7 +40,7 @@ From a player's point of view, a roll is a risk. Testing Strength to leap across
 
 Almost everything is based on rolling a d20. If you roll equal to or under a target number, you succeed. Roll over, and you fail.
 
-Throughout the text, whenever you see "Roll under...", it means "Roll equal to or under..." It's just a pain to write that out every single time.
+Throughout the text, whenever you see "Roll under...", it means "Roll equal to or under...".
 
 ## Skills
 
@@ -80,13 +78,13 @@ Characters have 6 stats. Each stat has a "bonus", which is a sort of shorthand c
 
 **Attack**: Starts at 11. Increases with level. Roll under Attack, opposed by the enemy's Defense, to hit.
 
-**Defense**: 10 + Dex. Bonus or bonus from armour. Leather is +2, Chain is +4, Plate is +6, a shield is +1.
+**Defense**: `10 + Dex. Bonus OR bonus from armour`. Leather is +2, Chain is +4, Plate is +6, a shield is +1.
 
-**Movement**: 12 + Dex. Bonus. How fast a character can move. Penalized by armour (-0 for leather, -2 for Chain, -4 for Plate).
+**Movement**: `12 + Dex. Bonus - Armour penalty`. How fast a character can move. Penalized by armour (-0 for leather, -2 for Chain, -4 for Plate).
 
-**Stealth**: 5 + Dex. Bonus. Applied as a penalty to opponents Wisdom to see if a character is noticed. Penalized by armour (-0 for leather, -2 for Chain, -4 for Plate).
+**Stealth**: `5 + Dex. Bonus - Armour penalty`. Applied as a penalty to opponents Wisdom to see if a character is noticed. Penalized by armour (-0 for leather, -2 for Chain, -4 for Plate).
 
-**Save**: 5 + Cha. Bonus. Increases with level. If an effect, attack, or challenge doesn't fall under any of the other stats or values, roll Save. This represents a character's luck and determination to resist the cruel hand of fate.
+**Save**: `5 + Cha. Bonus`. Increases with level. If an effect, attack, or challenge doesn't fall under any of the other stats or values, roll Save. This represents a character's luck and determination to resist the cruel hand of fate.
 
 ## Opposed Rolls
 
@@ -139,7 +137,7 @@ Roll under Attack, opposed by the enemy's Defense, to hit.
 
 E.g. A 1st-level Thief with Attack 11 tries to hit a goblin with no armour. The Thief has to roll under 11.
 
-A 1st-level Thief with Attack 11 tries to hit a very nimble tiger (armour as chain). The Thief has to roll under 7 (11+ [10-14] ).
+A 1st-level Thief with Attack 11 tries to hit a very nimble tiger (armour as chain). The Thief has to roll under 7 (11+ [10-14]).
 
 Other effects (drunkenness, fog, being on fire, etc.) may impose penalties to Attack.
 
@@ -170,7 +168,7 @@ PCs have a maximum HP of 20. Enemies have variable HP base on their Hit Dice (HD
 
 ## Healing
 
-1. Lunch heals a character for 1d6+Level HP. Lunch takes 1 hour, requires a safe place, and consumes 1 ration.
+1. Lunch heals a character for `1d6 + Level HP`. Lunch takes 1 hour, requires a safe place, and consumes 1 ration.
 2. A Good Night's Rest. Restores all HP. Requires 8 hours of rest, a safe place, a fire or heat source, and consumes 1 ration.
 3. Magical Healing. Some spells or potions restore HP. Others can heal Injuries.
 
