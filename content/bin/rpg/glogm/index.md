@@ -193,7 +193,7 @@ Monsters (or hirelings) may try to run away or surrender if combat turns against
 2. When half the side has been incapacitated or killed.
 3. If some particularly frightening or spectacular effect occurs. Roll 2d6. If the result is over the creatures' Morale score, the creature attempts to retreat, surrenders, or panics. Morale can be adjusted (unless 2 or 12) by situational bonuses.
 
-# Death & Dismemberment Table
+# Injuries, Death & Dismemberment
 
 ## Death and Dismemberment Roll
 
@@ -216,8 +216,6 @@ If required, roll 1d6 for hit location.
 
 ## Status Effect Table
 
-If required, roll 1d6 for status effect.
-
 | Result | Acid, Fire / Cold, Ice | Lightning | Venom / Toxin | Magic |
 | --- | --- | --- | --- | --- |
 | 1+ | Scorched / Frostbite X Days | Burned X Days | Sickened X Days | Anathema X Days |
@@ -237,7 +235,9 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 
 **Anathema**: Cannot benefit from magical healing or be the target of beneficial magic.
 
-**Blind**: Cannot see. -8 to Attack and Defense. Automatically hit by area-of-effect attacks. Burned / Frozen: Save. If failed, roll on the table below. If passed, lose 1d6 digits (roll randomly using a d20) and reduce all future damage of the appropriate type (acid, fire, ice, etc.) by 2.
+**Blind**: Cannot see. -8 to Attack and Defense. Automatically hit by area-of-effect attacks.
+
+**Burned / Frozen**: Save. If failed, roll on the table below. If passed, lose 1d6 digits (roll randomly using a d20) and reduce all future damage of the appropriate type (acid, fire, ice, etc.) by 2.
 
 1. Lose 2d6 digits.
 2. Lose all but 1 digit.
@@ -274,7 +274,9 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 
 **Mangled**: Save. If failed, lose the limb. If passed, Save again. If failed, lose 1 digit. If passed, gain an Interesting Scar.
 
-**Marked**: Save. If failed, any magical attack against the PC automatically deals double damage or applies a -4 penalty to Save. If passed, the PC has a permanent -2 to Save against magic, but reduces all incoming magic damage by 2. They also gain an Interesting Scar (known as a curse-mark). Scorched / Frostbite: Cannot wear armour. Difficulty gripping or climbing.
+**Marked**: Save. If failed, any magical attack against the PC automatically deals double damage or applies a -4 penalty to Save. If passed, the PC has a permanent -2 to Save against magic, but reduces all incoming magic damage by 2. They also gain an Interesting Scar (known as a curse-mark). Scorched / 
+
+**Frostbite**: Cannot wear armour. Difficulty gripping or climbing.
 
 **Skullcracked**: Save. If failed, roll on the table below. If passed, gain an Interesting Scar.
 
@@ -341,7 +343,7 @@ Sprinting repeatedly, outdoor travel without rest, or excessively tiring activit
 
 - **Light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal 1d6 + Strength bonus damage in melee.
 - **Medium weapons** (swords) take up 1 Inventory Slot and deal 1d8 + Strength bonus damage if wielded in one hand or 1d10 + Strength bonus damage if wielded in both hands.
-- **Heavy weapons** (hammers) deal 1d12 + Strength bonus damage but must be wielded in both hands.
+- **Heavy weapons** (hammers) take up 2 Inventory Slots and deal 1d12 + Strength bonus damage but must be wielded in both hands.
 
 ### Ranged Weapons
 

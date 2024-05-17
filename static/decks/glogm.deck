@@ -1,0 +1,548 @@
+{deck}
+version:1
+card:0
+size:[512,342]
+script:"0"
+name:"Character sheet.deck"
+author:"Robot_Face"
+
+{script:0}
+on stat_to_mod x do
+ floor (x-10)/2 #d20 classic.
+ 
+ #floor (x/3)-3 #GLOG classic.
+ 
+ #x-1 #Makes roll-under[stat] mathematically equal to roll+[mod] target 20.
+ 
+ #x #No formula, stat is modifier (Shadow and Fae style).
+    #You may want to go into the stat prototype and adjust the slider min and max.
+  
+ #Your formula here :)
+end 
+#If you edit this, you'll need to shuffle each stat back and forth 
+#to recalculate its modifier.
+{end}
+
+{card:Home}
+image:"%%IMG2AgABVgD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAnAacA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgEBAKUBAQD/AFoBAQClAQEA/wBaAQEApQEBAP8AWgGnAP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A9gEBAP8A/wEBAAEBAQD/AP4BAQABAQEAAwEBAP8A+QEBAAMBAQD/APwBAQADAQEA/wD7AQEABQEBAP8A+gEHAAEBAQD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wDP"
+{widgets}
+CharacterName:{"type":"field","size":[100,20],"pos":[5,123],"font":"menu","style":"plain","align":"center","value":"name"}
+ClearPortrait:{"type":"button","size":[36,20],"pos":[7,100],"script":"Home.0","text":"clear"}
+Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{},"modifier":{},"roll":{}}}
+Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{},"modifier":{},"roll":{}}}
+Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Wil"},"score":{},"modifier":{},"roll":{}}}
+Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{},"modifier":{},"roll":{}}}
+label4:{"type":"field","size":[15,16],"pos":[319,22],"locked":1,"border":0,"style":"plain","align":"center","value":"A:"}
+label5:{"type":"field","size":[15,16],"pos":[319,97],"locked":1,"border":0,"style":"plain","align":"center","value":"B:"}
+label6:{"type":"field","size":[15,16],"pos":[319,171],"locked":1,"border":0,"style":"plain","align":"center","value":"C:"}
+label7:{"type":"field","size":[15,16],"pos":[319,245],"locked":1,"border":0,"style":"plain","align":"center","value":"D:"}
+Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{},"modifier":{},"roll":{}}}
+Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Elf"},"score":{},"modifier":{},"roll":{}}}
+Biography:{"type":"field","size":[166,58],"pos":[5,279],"scrollbar":1,"value":"Biography/whatever you want"}
+level:{"type":"slider","size":[43,17],"pos":[128,22],"script":"Home.7","interval":[0,20],"style":"compact"}
+label1:{"type":"field","size":[21,17],"pos":[106,22],"locked":1,"value":"LVL"}
+label2:{"type":"field","size":[17,16],"pos":[106,40],"locked":1,"value":"HP"}
+HP:{"type":"slider","size":[65,17],"pos":[106,57],"interval":[0,1],"value":1,"format":"%f/1","style":"compact"}
+MaxHP:{"type":"field","size":[17,16],"pos":[154,40],"script":"Home.8","style":"plain","value":"1"}
+customfield1:{"type":"field","size":[65,17],"pos":[106,75],"value":"Custom field"}
+customfield2:{"type":"field","size":[65,17],"pos":[106,92]}
+customfield3:{"type":"field","size":[65,17],"pos":[106,109]}
+customfield4:{"type":"field","size":[65,17],"pos":[106,126]}
+template1:{"type":"field","size":[175,73],"pos":[332,22],"show":"invert","scrollbar":1,"value":"Templates light up with level"}
+template2:{"type":"field","size":[175,73],"pos":[332,96],"show":"invert","scrollbar":1}
+template3:{"type":"field","size":[175,73],"pos":[332,170],"show":"invert","scrollbar":1}
+template4:{"type":"field","size":[175,69],"pos":[332,244],"show":"invert","scrollbar":1}
+SpellsButton:{"type":"button","size":[39,20],"pos":[468,317],"script":"Home.9","text":"Spells"}
+label3:{"type":"field","size":[29,16],"pos":[124,40],"locked":1,"value":{"text":["","Max:"],"font":["","body"],"arg":["",""]}}
+Inventory:{"type":"grid","size":[140,195],"pos":[174,38],"script":"Home.10","scrollbar":1,"headers":0,"bycell":1,"widths":[99],"format":"si","value":{"INVENTORY":["Double-click cell","","","","","","","","","","","","","","","","","","",""],"#":[-1,"","","","","","","","","","","","","","","","","","",""]},"row":0,"col":0}
+DeltaButton:{"type":"button","size":[42,20],"pos":[332,317],"script":"Home.11","text":"Deltas"}
+label8:{"type":"field","size":[138,17],"pos":[175,21],"locked":1,"font":"menu","show":"invert","align":"center","value":"INVENTORY"}
+statroller1:{"type":"contraption","size":[140,102],"pos":[174,235],"def":"statroller","widgets":{"label":{},"button1":{},"button2":{"text":"Dex+0"},"button3":{"text":"Wil+0"},"button4":{"text":"Int+0"},"button5":{"text":"Cha+0"},"button6":{"text":"Elf+0"},"roll":{"size":[93,102],"pos":[47,0],"value":"1"},"grid1":{"row":5},"d20":{}}}
+NotesButton:{"type":"button","size":[40,20],"pos":[401,317],"script":"Home.12","text":"Notes"}
+Portrait:{"type":"canvas","size":[100,100],"pos":[5,22],"image":"%%IMG2AGQAZAD/AP8A8AEBAAUBAgBcAQEABQECAAUBAQBMAQIACAEBAAUBAgAFAQEAMAEGABYBAgAIAQEABQEBAAEBAQAEAQEALwECAAUBAQAVAQIACAEBAAUBAQABAQIAAgEBADABAQAHAQIAEwEBAAEBAQAHAQEABQEBAAIBAQACAQEAMAEBAAkBAQABAQMADgEBAAEBAgAHAQEABAEBAAIBAQACAQEAMAEBAAkBAQABAQEAAQEFAAoBAQACAQEABwEBAAQBAQACAQEAAgEBADABAQAJAQEAAQECAAQBAgAIAQEAAwECAAcBAQADAQEAAgEBAAEBAQAxAQEACQEBAAIBAQAFAQEACAEBAAQBAQAHAQEAAwEBAAIBAQABAQEAMQEBAAgBAgACAQEABQEBAAgBAQADAQQABgEBAAIBAQACAQEAAQEBADEBAQAHAQIAAwEBAAEBBQAHAQUAAgEBAAcBAQABAQEAAwEBAAEBAQAxAQEABgECAAQBAwALAQEABgECAAYBAQABAQEAAwEBAAEBAQAxAQEABQEBAAYBBQAIAQIABwECAAUBAQABAQEAAwECADIBAQAFAQEABgEBAAQBAQAGAQEACgEBAAUBAQABAQEAAwECADIBAQAFAQEABgEBAAQBAgAFAQEACgEBAAUBAQABAQEAAwECADIBAQADAQIABwEBAAYBAQADAQEACwEBAAUBAQABAQEAAwECADIBAQADAQEACAECAAYBAgABAQEAEQEDAAQBAQAyAQIAAgEBAAkBAQAJAQEAEgEBAAUBAQAzAQQACQEBACIBAQBAAQEAIgEBAEABAQAiAQEA/wD/ADYBAQBjAQEAYwEBAGMBAQBjAQEAJgECADsBAQAFAQEABwEBAAQBAQANAQcAPAEBAAUBAQAHAQYAAwEEAAYBAQBCAQEABQEBAAcBAQAJAQEAAQEBAAYBAQBCAQEABQEBAAcBAQAJAQEAAgEBAAUBAQBCAQEABgEBAAYBAQAJAQEAAgEBAAUBAQBCAQEABgEBAAYBAQAJAQEAAgEBAAUBBgA+AQEABQEBAAYBAQAEAQEABAEBAAIBAgAEAQEAQwEBAAUBAQAHAQUABQEBAAIBAQAEAQEAQwEBAAUBAQAHAQEACQEBAAEBAgAEAQEAQwEBAAUBAgAGAQEACQEDAAUBAQBDAQEAAQEGAAYBAQAJAQMABQEBAAUBAgA8AQIABQEBAAcBAQAIAQEAAgECAAMBBwA9AQIABQEBAAcBAQAIAQEAAwEDAEUBAQAHAQEABgEBAAgBAQBLAQEABwEBAAYBCAACAQEASgEBAAcBAQAGAQIAUwEBAGMBAQBjAQEA/wD/ANEBAQAHAQEAWwEDAAUBAQBjAQMA/wAhAQEACwEBAFcBAQAKAQEAWAEEAAcBAQBcAQgA/wD/AP8A/wD/AP8A/wD/AP8A/wDB","scale":1}
+
+{script:Home.0}
+on click do
+ Portrait.clear[]
+end
+{end}
+
+{script:Home.1}
+on change a s do
+ statroller1.setstat[0 a s]
+end
+{end}
+
+{script:Home.2}
+on change a s do
+ statroller1.setstat[1 a s]
+end
+{end}
+
+{script:Home.3}
+on change a s do
+ statroller1.setstat[2 a s]
+end
+{end}
+
+{script:Home.4}
+on change a s do
+ statroller1.setstat[3 a s]
+end
+{end}
+
+{script:Home.5}
+on change a s do
+ statroller1.setstat[4 a s]
+end
+{end}
+
+{script:Home.6}
+on change a s do
+ statroller1.setstat[5 a s]
+end
+{end}
+
+{script:Home.7}
+on change val do
+ if val>3
+  template4.show:"solid"
+ elseif val>2
+  template4.show:"invert"
+  template3.show:"solid"
+ elseif val>1
+  template3.show:"invert"
+  template2.show:"solid"
+ elseif val>0
+  template2.show:"invert"
+  template1.show:"solid"
+ else
+  template1.show:"invert"
+ end
+end
+{end}
+
+{script:Home.8}
+on change val do
+ HP.format:"" fuse ("%f/",val)
+ HP.interval:(0,val)
+end
+{end}
+
+{script:Home.9}
+on click do
+  go["Spells" "SlideLeft"]
+end
+{end}
+
+{script:Home.10}
+on click row do
+ 
+end
+{end}
+
+{script:Home.11}
+on click do
+  go["Deltas" "SlideUp"]
+end
+{end}
+
+{script:Home.12}
+on click do
+  go["Notes" "SlideDown"]
+end
+{end}
+
+{card:Spells}
+{widgets}
+button1:{"type":"button","size":[39,20],"pos":[1,18],"script":"Spells.0","text":"Home"}
+Spell1:{"type":"contraption","size":[169,72],"pos":[1,41],"def":"Spell","widgets":{"Description":{"size":[169,52],"value":"Spell effect"},"name":{"size":[96,20],"value":"Spell name"},"customfield1":{"pos":[97,0],"value":"Field 1"},"customfield2":{"size":[36,20],"pos":[133,0],"value":"Field 2"}}}
+Spell2:{"type":"contraption","size":[169,72],"pos":[1,116],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell3:{"type":"contraption","size":[169,72],"pos":[1,191],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+SpellRoller1:{"type":"contraption","size":[280,96],"pos":[230,17],"def":"SpellRoller","widgets":{"dice":{"value":{"value":[4,4,4]}},"NumDice":{"value":3},"label1":{},"label2":{},"Roll":{},"doubles":{"value":"Triples!!!"},"Sum":{"value":"Sum:12"}}}
+Spell4:{"type":"contraption","size":[169,72],"pos":[1,266],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell5:{"type":"contraption","size":[169,72],"pos":[171,41],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell6:{"type":"contraption","size":[169,72],"pos":[171,116],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell7:{"type":"contraption","size":[169,72],"pos":[171,191],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell8:{"type":"contraption","size":[169,72],"pos":[171,266],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell10:{"type":"contraption","size":[169,72],"pos":[341,116],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell11:{"type":"contraption","size":[169,72],"pos":[341,191],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell12:{"type":"contraption","size":[169,72],"pos":[341,266],"def":"Spell","widgets":{"Description":{"size":[169,52]},"name":{"size":[96,20]},"customfield1":{"pos":[97,0]},"customfield2":{"size":[36,20],"pos":[133,0]}}}
+Spell9:{"type":"contraption","size":[132,72],"pos":[341,41],"def":"Spell","widgets":{"Description":{"size":[132,52]},"name":{"size":[75,20]},"customfield1":{"size":[27,20],"pos":[76,0]},"customfield2":{"size":[28,20],"pos":[104,0]}}}
+
+{script:Spells.0}
+on click do
+  go["Home" "SlideRight"]
+end
+{end}
+
+{card:Deltas}
+{widgets}
+button1:{"type":"button","size":[39,20],"pos":[1,18],"script":"Deltas.0","text":"Home"}
+Delta1:{"type":"contraption","size":[165,70],"pos":[1,41],"def":"Delta","widgets":{"field1":{"size":[150,70],"value":"Deltas light up with checkbox"},"checkbox":{"size":[13,10],"value":1}}}
+Delta2:{"type":"contraption","size":[165,70],"pos":[1,117],"def":"Delta","widgets":{"field1":{"size":[150,70],"value":"Condition:\nEffect"},"checkbox":{"size":[13,10]}}}
+Delta5:{"type":"contraption","size":[165,70],"pos":[174,41],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta6:{"type":"contraption","size":[165,70],"pos":[174,117],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta9:{"type":"contraption","size":[165,70],"pos":[346,41],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta10:{"type":"contraption","size":[165,70],"pos":[346,117],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta7:{"type":"contraption","size":[165,70],"pos":[174,193],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta8:{"type":"contraption","size":[165,70],"pos":[174,269],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta11:{"type":"contraption","size":[165,70],"pos":[346,193],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta12:{"type":"contraption","size":[165,70],"pos":[346,269],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta3:{"type":"contraption","size":[165,70],"pos":[1,193],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+Delta4:{"type":"contraption","size":[165,70],"pos":[1,269],"def":"Delta","widgets":{"field1":{"size":[150,70]},"checkbox":{"size":[13,10]}}}
+
+{script:Deltas.0}
+on click do
+  go["Home" "SlideDown"]
+end
+{end}
+
+{card:Notes}
+{widgets}
+HomeButton:{"type":"button","size":[39,20],"pos":[1,18],"script":"Notes.0","text":"Home"}
+field1:{"type":"field","size":[130,301],"pos":[1,40],"scrollbar":1}
+field2:{"type":"field","size":[130,301],"pos":[132,40],"scrollbar":1}
+field3:{"type":"field","size":[130,301],"pos":[263,40],"scrollbar":1}
+grid1:{"type":"grid","size":[117,301],"pos":[394,40],"headers":0,"value":{"notes":["Double-click cell","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]},"row":1}
+button1:{"type":"button","size":[45,20],"pos":[466,18],"script":"Notes.1","text":"More..."}
+
+{script:Notes.0}
+on click do
+  go["Home" "SlideUp"]
+end
+{end}
+
+{script:Notes.1}
+on click do
+  go["Notes2" "WipeDown"]
+end
+{end}
+
+{card:Notes2}
+{widgets}
+HomeButton:{"type":"button","size":[39,20],"pos":[1,18],"script":"Notes.0","text":"Home"}
+field1:{"type":"field","size":[130,301],"pos":[1,40],"scrollbar":1}
+field2:{"type":"field","size":[130,301],"pos":[132,40],"scrollbar":1}
+field3:{"type":"field","size":[130,301],"pos":[263,40],"scrollbar":1}
+grid1:{"type":"grid","size":[117,301],"pos":[394,40],"headers":0,"value":{"notes":["Double-click cell","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]},"row":1}
+button1:{"type":"button","size":[45,20],"pos":[466,18],"script":"Notes2.0","text":"Back..."}
+
+{script:Notes2.0}
+on click do
+  go["Notes" "WipeUp"]
+end
+{end}
+
+{contraption:Statistic}
+size:[165,20]
+margin:[0,0,0,0]
+description:"Editable RPG stat with name, value, modifier, and 3d6 roller."
+script:"Statistic.0"
+template:"on change a s do\n \nend"
+attributes:{"name":["abbr","score"],"label":["",""],"type":["string","number"]}
+{widgets}
+name:{"type":"field","size":[28,20],"pos":[0,0],"script":"Statistic.1","style":"plain","value":"Str"}
+score:{"type":"slider","size":[80,20],"pos":[29,0],"script":"Statistic.2","interval":[0,20],"value":10,"style":"bar"}
+modifier:{"type":"field","size":[20,20],"pos":[110,0],"locked":1,"script":"Statistic.3","style":"plain","value":"0"}
+roll:{"type":"button","size":[34,20],"pos":[131,0],"script":"Statistic.4","text":"3d6","value":0}
+
+{script:Statistic.0}
+on get_abbr do
+ name.text
+end
+
+on set_abbr x do
+ name.text:x
+ card.event["change" me.abbr me.score]
+end
+
+on get_score do
+ score.value
+end
+
+on set_score x do
+ score.value:x
+ roll.show:"solid"
+ if x>11
+  modifier.value:"" fuse ("+",deck.event["stat_to_mod" x])
+ else
+  modifier.value:deck.event["stat_to_mod" x]
+ end
+ card.event["change" me.abbr me.score]
+end
+
+on get_mod do
+ deck.event["stat_to_mod" score.value]
+end
+{end}
+
+{script:Statistic.1}
+on change val do
+ card.event["change" val get_score[]]
+end
+{end}
+
+{script:Statistic.2}
+on change val do
+ set_score[val]
+ card.event["change" get_abbr[] val]
+end
+{end}
+
+{script:Statistic.3}
+on change val do
+ 
+end
+{end}
+
+{script:Statistic.4}
+on click do
+ set_score[random[6]+random[6]+random[6]+3]
+ me.show:"none"
+ card.event["change" get_abbr[] get_score[]]
+end
+{end}
+
+{contraption:SpellRoller}
+size:[280,96]
+margin:[0,0,0,0]
+description:"Rolls a great pile of d6s, and calls out doubles and triples."
+attributes:{"name":[],"label":[],"type":[]}
+{widgets}
+dice:{"type":"grid","size":[36,95],"pos":[244,1],"headers":0,"lines":0,"value":{"value":[2,1,3,1,2,5]}}
+NumDice:{"type":"slider","size":[41,16],"pos":[23,4],"interval":[0,13],"value":6,"style":"compact"}
+label1:{"type":"field","size":[22,16],"pos":[1,4],"locked":1,"border":0,"value":"Roll"}
+label2:{"type":"field","size":[27,16],"pos":[65,4],"locked":1,"border":0,"value":"dice:"}
+Roll:{"type":"button","size":[30,16],"pos":[89,4],"script":"SpellRoller.0","text":"Roll!"}
+doubles:{"type":"field","size":[87,16],"pos":[119,1],"locked":1,"border":0,"align":"right","value":"Doubles!!"}
+Sum:{"type":"field","size":[40,16],"pos":[205,1],"locked":1,"value":"Sum:14"}
+
+{script:SpellRoller.0}
+on click do
+ #Go ahead and clear the selection
+ dice.row:-1
+ 
+ #Roll the dice into the grid
+ a:()
+ each x in range NumDice.value
+  a[x]:random[6]+1
+ end
+ dice.value:a
+ 
+ #Update the sum display
+ Sum.value:"" fuse "Sum:", sum a
+ 
+ #Count each result
+ b:()
+ each x in a
+  b[x]:1+b[x]
+ end
+ 
+ #This works but IDK if it's the ideal way to do this. Basically gets how many times the most frequent number occurs
+ c: first extract value orderby value desc from b
+ 
+ #Basically a big switch statement
+ if c<2
+  doubles.value:""
+ elseif c=2
+  doubles.value:"Doubles!!"
+ elseif c=3
+  doubles.value:"Triples!!!"
+ elseif c=4
+  doubles.value:"Quadruples????"
+ elseif c=5
+  doubles.value:"Quintuples?!?!?"
+ elseif c=6
+  doubles.value:"SEXTUPLES!?!?!?"
+ else
+  doubles.value:"I give up"
+ end
+end
+{end}
+
+{contraption:Spell}
+size:[166,72]
+resizable:1
+margin:[0,21,0,0]
+description:"Spell card with name field, description, and 2 small custom fields (range/duration?)"
+attributes:{"name":[],"label":[],"type":[]}
+{widgets}
+Description:{"type":"field","size":[166,52],"pos":[0,20],"scrollbar":1}
+name:{"type":"field","size":[94,20],"pos":[0,0],"style":"plain"}
+customfield1:{"type":"field","size":[35,20],"pos":[95,0],"style":"plain"}
+customfield2:{"type":"field","size":[35,20],"pos":[131,0],"style":"plain"}
+
+{contraption:Delta}
+size:[150,81]
+resizable:1
+margin:[16,24,0,0]
+description:"Text field with the delta symbol, just because I don't want to have to import the image over and over.\nAlso has a checkbox to toggle the text field on/off."
+image:"%%IMG2AJYAUQD/AMcBAQCUAQEAAQEBAJMBAQABAQEAAwEBAI4BAQADAQEAkQEBAAMBAQCQAQEABQEBAI8BBwABAQEA/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AUA=="
+script:"Delta.0"
+{widgets}
+field1:{"type":"field","size":[135,81],"pos":[15,0],"show":"invert","scrollbar":1}
+checkbox:{"type":"button","size":[13,13],"pos":[0,11],"script":"Delta.1","style":"check","value":0}
+
+{script:Delta.0}
+on view do
+ if checkbox.value
+  field1.show:"solid"
+ else
+  field1.show:"invert"
+ end
+end
+{end}
+
+{script:Delta.1}
+on click do
+ if me.value
+  field1.show:"solid"
+ else
+  field1.show:"invert"
+ end
+end
+{end}
+
+{contraption:statroller}
+size:[150,102]
+resizable:1
+margin:[47,17,0,74]
+description:"Has a list of stat scores from 1-20, and can roll each of them.\nUse the \"setstat\" function.\nThe first argument is which stat you're setting, top-to-bottom, zero-indexed.\nThe second is a string, ideally a short abbreviation.\nThe third is the stat score. Modifiers are automatically calculated."
+script:"statroller.0"
+attributes:{"name":[],"label":[],"type":[]}
+{widgets}
+label:{"type":"field","size":[46,16],"pos":[0,0],"locked":1,"font":"menu","show":"invert","value":"Rolls"}
+button1:{"type":"button","size":[46,12],"pos":[0,30],"script":"statroller.1","font":"body","text":"Str+0"}
+button2:{"type":"button","size":[46,12],"pos":[0,42],"script":"statroller.2","font":"body","text":"Str+0"}
+button3:{"type":"button","size":[46,12],"pos":[0,54],"script":"statroller.3","font":"body","text":"Str+0"}
+button4:{"type":"button","size":[46,12],"pos":[0,66],"script":"statroller.4","font":"body","text":"Str+0"}
+button5:{"type":"button","size":[46,12],"pos":[0,78],"script":"statroller.5","font":"body","text":"Str+0"}
+button6:{"type":"button","size":[46,12],"pos":[0,90],"script":"statroller.6","font":"body","text":"Str+0"}
+roll:{"type":"field","size":[100,102],"pos":[50,0],"scrollbar":1,"style":"plain","align":"center","value":"5\n20\n20\n20\n20\n20"}
+grid1:{"type":"grid","size":[65,106],"pos":[-110,-4],"locked":1,"show":"none","bycell":1,"format":"i","value":{"score":[10,10,10,10,10,10]},"row":0,"col":0}
+d20:{"type":"button","size":[46,12],"pos":[0,18],"script":"statroller.7","font":"body","text":"1d20"}
+
+{script:statroller.0}
+on setstat num abbr score do
+ grid1.cell:(0,num)
+ grid1.cellvalue:score
+ a:0
+ if score>9
+  a:"" fuse ("+",deck.event["stat_to_mod" score])
+ else
+  a:deck.event["stat_to_mod" score]
+ end
+ if num=0
+  button1.text:"" fuse abbr,a
+ elseif num=1
+  button2.text:"" fuse abbr,a
+ elseif num=2
+  button3.text:"" fuse abbr,a
+ elseif num=3
+  button4.text:"" fuse abbr,a
+ elseif num=4
+  button5.text:"" fuse abbr,a
+ elseif num=5
+  button6.text:"" fuse abbr,a
+ else
+  
+ end
+end
+
+on get_setstat do
+ setstat
+end
+{end}
+
+{script:statroller.1}
+on click do
+ grid1.cell:(0,0)
+ a:random[20]+1
+ b:deck.event["stat_to_mod" grid1.cellvalue]
+ c:""
+ if b<0
+  c:"" fuse (a+b), " (", a, b, ")"
+ else
+  c:"" fuse (a+b), " (", a, "+", b, ")"
+ end
+ roll.text:"\n" fuse c, roll.text
+end
+{end}
+
+{script:statroller.2}
+on click do
+ grid1.cell:(0,1)
+ a:random[20]+1
+ b:deck.event["stat_to_mod" grid1.cellvalue]
+ if b<0
+  c:"" fuse (a+b), " (", a, b, ")"
+ else
+  c:"" fuse (a+b), " (", a, "+", b, ")"
+ end
+ roll.text:"\n" fuse c, roll.text
+end
+{end}
+
+{script:statroller.3}
+on click do
+ grid1.cell:(0,2)
+ a:random[20]+1
+ b:deck.event["stat_to_mod" grid1.cellvalue]
+ if b<0
+  c:"" fuse (a+b), " (", a, b, ")"
+ else
+  c:"" fuse (a+b), " (", a, "+", b, ")"
+ end
+ roll.text:"\n" fuse c, roll.text
+end
+{end}
+
+{script:statroller.4}
+on click do
+ grid1.cell:(0,3)
+ a:random[20]+1
+ b:deck.event["stat_to_mod" grid1.cellvalue]
+ if b<0
+  c:"" fuse (a+b), " (", a, b, ")"
+ else
+  c:"" fuse (a+b), " (", a, "+", b, ")"
+ end
+ roll.text:"\n" fuse c, roll.text
+end
+{end}
+
+{script:statroller.5}
+on click do
+ grid1.cell:(0,4)
+ a:random[20]+1
+ b:deck.event["stat_to_mod" grid1.cellvalue]
+ if b<0
+  c:"" fuse (a+b), " (", a, b, ")"
+ else
+  c:"" fuse (a+b), " (", a, "+", b, ")"
+ end
+ roll.text:"\n" fuse c, roll.text
+end
+{end}
+
+{script:statroller.6}
+on click do
+ grid1.cell:(0,5)
+ a:random[20]+1
+ b:deck.event["stat_to_mod" grid1.cellvalue]
+ if b<0
+  c:"" fuse (a+b), " (", a, b, ")"
+ else
+  c:"" fuse (a+b), " (", a, "+", b, ")"
+ end
+ roll.text:"\n" fuse c, roll.text
+end
+{end}
+
+{script:statroller.7}
+on click do
+ roll.text:"\n" fuse (random[20]+1), roll.text
+end
+{end}
+
