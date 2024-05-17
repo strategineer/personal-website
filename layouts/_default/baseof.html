@@ -56,7 +56,8 @@
       <div class="row no-margin justify-content-center">
         <div class="col-xl-12 main no-margin ">
           {{ partial "header" . }}
-          {{ if ne .Section "cv" }}
+          {{ $has_search := and (ne .Section "cv") (not .Params.no_search) }}
+          {{ if $has_search }}
           <div class="readable search">
             <div id="search"></div>
           </div>
@@ -111,6 +112,7 @@
     {{ with $js_files | resources.Concat "js/bundle.js" | resources.Minify }}
     <script defer type="text/javascript" src="{{ .RelPermalink }}"> </script>
     {{ end }}
+    {{ if $has_search }}
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
     <script src="/pagefind/pagefind-ui.js"></script>
     <script>
@@ -121,6 +123,7 @@
             });
         });
     </script>
+    {{ end }}
   </body>
 </html>
 

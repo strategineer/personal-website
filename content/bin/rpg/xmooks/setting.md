@@ -1,7 +1,7 @@
 ---
-title: "GLOGM Setting"
+title: "X-Mooks Setting"
 is_readable: true
-summary: "A Magic-first Roleplaying Setting  by yours truly"
+no_search: true
 weight: 1
 ---
 

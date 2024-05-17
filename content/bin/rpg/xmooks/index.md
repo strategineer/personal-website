@@ -1,27 +1,32 @@
 ---
-title: "GLOGM"
+title: "X-Mooks Rules"
 is_readable: true
-summary: "A Magic-first Roleplaying System by yours truly"
+no_search: true
 weight: 1
 ---
 
-{{< toc >}}
-
-This system is heavily based on [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [Download PDF](/rpg/many_rats_on_stick_v2.pdf) and refer to it for classes info and various tables (for now).
+X-Mooks is my homebrew OSR-compatible rule system which is HEAVILY based on:
+- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [PDF](/rpg/many_rats_on_stick_v2.pdf). If there's something missing here, namely Wizard Schools, refer to that document to find some, if nothing speaks to you there refer to the [Extra Resources section](#extra-resources) for more options.
 
 # Core Rules
 
-Spiked Goblin Punch is based on Arnold K.'s "Goblin Laws of Gaming" homebrew, also known as the GLOG.
-
-This rules set is designed for old-school D&D-like games. It is broadly compatible with most published Old School Revival (OSR) products (i.e. equally incompatible with all of them). The main goal is to create a system that is:
+The X-Mooks rules are designed for old-school D&D-like games. It is broadly compatible with most published Old School Revival (OSR) products (i.e. equally incompatible with all of them). The main goal is to create a system that is:
 
 1. Intuitive for new players.
 2. Adaptable and hackable.
 3. Compact.
 
-This PDF assumes you know what an RPG is, what dice are, and the basics of OSR games, and how to adjudicate rules on the fly. Rather than a complete system, this hack is designed to allow experience GMs to run games for experienced players.
+The rule set you know what an RPG is, what dice are, and the basics of OSR games, and how to adjudicate rules on the fly. Rather than a complete system, this hack is designed to allow experience GMs to run games for experienced players.
 
 In short, there are bits missing. Read another, much more complete OSR system, then all in the missing bits.
+
+If you're a player, [start with the Introduction for New Players section](#introduction-for-new-players). If you want more detail on how a particular system works, refer to the [table of contents](#table-of-contents) or Control+F to search for info.
+
+If you're a GM, [start with the GM guidance section](#gm-guidance).
+
+# Table of Contents
+
+{{< toc >}}
 
 ## GM Guidance
 
@@ -479,10 +484,6 @@ If you like this game and you're having fun, show up on time, or tell me in adva
 
 Please don't bring out your phones during game unless there's something urgent. Ideally this is the most interesting thing going on. In the same vein, understand that there are 5 other people in the room, so don't deliberately waste time.
 
-The setting of this game is semi-medieval. That means that terrible things happen on a regular basis. It would feel like I was whitewashing or disneyfying the past if I said that this setting doesn't include things like misogyny, racism, sexual violence, etc. These things happen in the real world. It'd be strange to have a fictional world without them. That being said, they won't form a major part of this game.
-
-Gender is also much more important in this game than it is in the modern world, but possibly less important than you might fear. At the very high end of society, you can get away with breaking gender norms by wealth, power, law, and ability. At the very low end, nobody cares. It's only the middle classes and the Church who obsess over propriety and station. It probably won't be an important part of most sessions.
-
 **The Rules**
 
 Are always available for you to read. They aren't secret. If you find inconsistencies or errors, let me know, but the rules aren't the law. As the GM, what I say goes, and if need be, what I say, went. If you think you've found a loophole, but the results of that loophole don't make any sense, it will stop working immediately.
@@ -502,7 +503,7 @@ Before we start, do you have any questions right now?
 
 1. Choose or roll for your **[Race](#table-of-races)**. Your character's Race will grant them a Perk, a Drawback, and one Stat they can reroll.
 2. Roll your **[Stats](#stats)**. 3d6 in order. You may reroll the Stat given by your Race and pick the higher result.
-3. In GLOGM, all PCs are **[Wizards](#wizard-class)** at level 0! Choose a Wizard School [from Many Rats on a Stick](#choosing-a-wizard-school-option-1) OR [from the rest of the GLOG-osphere](#choosing-a-wizard-school-option-2).
+3. In X-Mooks, all PCs are **[Wizards](#wizard-class)** at level 0! Choose a Wizard School [from Many Rats on a Stick](#choosing-a-wizard-school-option-1) OR [from the rest of the GLOG-osphere](#choosing-a-wizard-school-option-2).
 4. [Gain the Wizard's Spellcasting Template A](#a-spellcasting).
 5. Choose how your character's [innate spell potential manifests](#innate-magical-potential-manifestation).
 6. Take items and bonuses dictacted by your Wizard class and chosen Wizard School.
@@ -517,7 +518,7 @@ A newly created PC without any class templates is expected to be reasonably comp
 
 Each class has 4 Templates. Templates are gained sequentially (A, then B, then C, then D). To multiclass, simply pick the lowest template from another class. E.g. A level 4 character could pick Fighter A, Wizard A, Monk A, and Fighter B.
 
-{{< glogm >}} All PCs start at level 0 with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to cast spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential. {{< /glogm >}}
+{{< xmooks >}} All PCs start at level 0 with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to cast spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential. {{< /xmooks >}}
 
 Multiclassing should make sense. Multiclassing for optimization or mechanical reasons should be strongly discouraged by the GM. The game is not about the mechanics or having the biggest numbers. Bigger numbers will not save you.
 
@@ -587,7 +588,7 @@ Starting Skill: Ask your GM.
 
 ##### Innate Magical Potential Manifestation
 
-{{< glogm >}} Everyone is born with the potential to access innate magical abilities but most people go their whole lives without ever accessing their abilities. However, whether or not someone learns to access their innate magical potential, their innate magical potential will visibly manifest itself in either of the following ways:
+{{< xmooks >}} Everyone is born with the potential to access innate magical abilities but most people go their whole lives without ever accessing their abilities. However, whether or not someone learns to access their innate magical potential, their innate magical potential will visibly manifest itself in either of the following ways:
 
 - As a physical mark, extra appendage, abnormality on your body (burning hand, translucent skin, etc.), think Fallout mutations.
 - As a spiritual aura that surrounds you, think JoJo.
@@ -596,7 +597,7 @@ Starting Skill: Ask your GM.
 
 This visible manifestation may hint at what a person innate magical potential is. Although, that's not always the case.
 
-{{< /glogm >}}
+{{< /xmooks >}}
 
 #### A: Spellcasting
 

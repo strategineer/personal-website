@@ -1,13 +1,15 @@
 ---
-title: "GLOGM GM Guide"
+title: "X-Mooks GM Guide"
 is_readable: true
-summary: "A Magic-first Roleplaying System by yours truly"
+no_search: true
 weight: 1
 ---
 
+Notes from The Monster Overhaul by Skerples
+
 # Random Encounters
 
-source: The Monster Overhaul by Skerples
+
 
 ## Theory
 
