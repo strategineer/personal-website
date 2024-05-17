@@ -9,13 +9,15 @@ weight: 1
 
 The default X-Mooks setting is Glogea (glow-gee-aaa). What follows are some notes on parts of it. They are far from exhaustive.
 
-I plan on combining this setting with existing OSR modules so that I can focus on what's different instead of regurgitating what's the same.
+I plan on combining this setting with existing OSR modules so that I can focus on what's different/cool instead of regurgitating what's the same/boring.
 
 # Core
 
-The core differentiating factor of Glogea is that every being, humanoid or otherwise, is born with latent magical abilities that always visibly manifest in some way on the being (whether through a physical appearance thing, a guardian spirit, a familiar or something else.
+The core differentiating factor of Glogea is that every being, humanoid or otherwise, is born with latent magical power of a particular kind (fire, time, gravity, esper, etc.) that always visibly manifest in some way on the being (whether through a physical appearance thing, a guardian spirit, a familiar or something else.
 
-Most beings will never access these magical abilities, but through study, experience and/or luck a select few beings will manage to access these abilities. 
+Most beings will never access this magical power, but through study, experience and/or luck a select few beings will manage to access their power.
+
+The more powerful a being's power is the more visually distinct its manifestation is. It may also have effects on the being's behavior, their mind and their perception of the world around them. 
 
 # Magic
 
