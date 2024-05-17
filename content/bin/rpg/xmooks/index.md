@@ -438,8 +438,6 @@ Most activities take 1 hour.
 
 PCs can safely travel for 12 hours per day (2 hexes), or push their luck with 18 hours (3 hexes), losing the benefits of resting and having lunch.
 
-In Civilized Parts, villages and peasants are everywhere. In wilderness areas, roads may not exist. All land is owned, even trackless wastes.
-
 # Introduction for New Players
 
 **There are elements of chance.**
