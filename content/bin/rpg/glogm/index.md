@@ -502,7 +502,7 @@ Before we start, do you have any questions right now?
 2. Roll your **[Stats](#stats)**. 3d6 in order. You may reroll the Stat given by your Race and pick the higher result.
 3. In GLOGM, all PCs are **[Wizards](#wizard-class)** at level 0! Choose a Wizard School [from Many Rats on a Stick](#choosing-a-wizard-school-option-1) OR [from the rest of the GLOG-osphere](#choosing-a-wizard-school-option-2).
 4. [Gain the Wizard's Spellcasting Template A](#a-spellcasting).
-4. Choose how your character's [innate spell potential manifests](#innate-spell-potential-manifested). This should be related to your chosen Wizard School.
+5. Choose how your character's [innate spell potential manifests](#innate-magical-potential-manifestation).
 6. Take items and bonuses dictacted by your Wizard class and chosen Wizard School.
 7. Roll for any skills or items dictacted by your Wizard class and chosen Wizard School.
 8. Gain 1d10cp. All PCs gain a blanket (1 slot) and 3 rations (1 slot).
@@ -583,12 +583,18 @@ Starting Equipment: varies by Wizard School. If in doubt ask your GM to help you
 
 Starting Skill: Ask your GM.
 
-##### Innate Spell Potential Manifested
-{{< glogm >}} Everyone is born with the potential to access innate magical abilities but whether or not one learns to access one's abilities, one's innate magical potential manifests in everyone from birth either:
+##### Innate Magical Potential Manifestation
+
+{{< glogm >}} Everyone is born with the potential to access innate magical abilities but most people go their whole lives without ever accessing their abilities. However, whether or not someone learns to access their innate magical potential, their innate magical potential will visibly manifest itself in either of the following ways:
 
 - As a physical mark, extra appendage, abnormality on your body (burning hand, translucent skin, etc.), think Fallout mutations.
 - As a spiritual aura that surrounds you, think JoJo.
-- As a familiar that follows you around, think His Dark Materials. {{< /glogm >}}
+- As a familiar that follows you around, think His Dark Materials.
+- As anything else that a particularly creative player can come up with.
+
+This visible manifestation may hint at what a person innate magical potential is. Although, that's not always the case.
+
+{{< /glogm >}}
 
 #### A: Spellcasting
 
@@ -621,7 +627,6 @@ Apply a random mutation to a spell you frequently cast.
 #### D: Spell Mastery
 
 +1 MD, +1 Spell Slot, Choose 4 spells.
-
 
 ### Non-Wizard Classes
 
@@ -803,7 +808,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 # Table of Races
 
 | 1d50 | Race | Reroll | Bonus | Weakness | Flavor |
-| - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- |
 | 1-10 | Human | Choice | +1 to Strength for Inventory Slots. Gain a random item. | -4 to Save against being mutated or transformed. | The "hu" was a small, pink, avaricious, ugly little mole-like creature that the humans exterminated out of shame. |
 | 11-12 | Elf | CHA | Do not require a Ration to heal at Lunch. | Save when you see ugly things or shun them, | Elves are improved, polished, and upgraded humans. The High Elves keep them as servants or pets. They are better than you. They are better than everyone |
 | 13 | Gnome | INT | Become invisible if you close eyes, hold breath, don't move. | -2 to Movement. | Border-raiders, wilderness fighters, and mean bastards. Wearer of the 'bloodkap'. |
