@@ -577,3 +577,26 @@ li {
 .search {
   padding-bottom: 0.5em;
 }
+
+// RPG system css
+
+td, th {
+  border-width: 1px;
+}
+
+th {
+  background: #FFF;
+}
+
+tr:nth-child(even) {background: #FFF}
+tr:nth-child(odd) {background: #CCC}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+}
