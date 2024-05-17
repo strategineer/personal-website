@@ -483,80 +483,15 @@ Before we start, do you have any questions right now?
 
 A newly created PC without any class templates is expected to be reasonably competent in most areas but not specialized in any one direction. The GLOG is not about classes. Classes are just a set of extra tools to do things. Classes are significantly less important than What You Do Around The Table.
 
-### Ultra-Core Classes
-
-The basic, balanced, and entirely sensible classes. Suitable for new players, uncertain players, or small groups.
-
-- Fighter, Thief, and Wizard (Orthodox).
-
-### Core Classes
-
-The nine classes listed here have been tested in multiple combinations and function reasonably well.
-
-- Fighter, Barbarian, Knight.
-- Thief, Hunter, Monk.
-- Wizard, Sorcerer, Summoner.
-
-### Novelty Classes
-
-The classes listed here require unusual playstyles, GM adjudication, or a specific kind of setting.
-
-- Cannoneer
-- Exorcist
-- Inventor Necromancer
-- Goblin
-- Many Goblins
-- Paladin of the Word
-
-### Extra
-
-Extra classes cannot be taken as a first template. They are odd, obscure, and strange. Adapt them if someone wants to level as a Vampire or something.
-
-- Surly Gnome
-- Cannibal Gourmet
-
 ## Templates & Multiclassing
 
 Each class has 4 Templates. Templates are gained sequentially (A, then B, then C, then D). To multiclass, simply pick the lowest template from another class. E.g. A level 4 character could pick Fighter A, Wizard A, Monk A, and Fighter B.
 
+{{< glogm >}}
+All PCs start with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to perform spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential.
+{{< /glogm >}}
+
 Multiclassing should make sense. Multiclassing for optimization or mechanical reasons should be strongly discouraged by the GM. The game is not about the mechanics or having the biggest numbers. Bigger numbers will not save you.
-
-| 1d10 | Core Classes      |
-| ---- | ----------------- |
-| 1    | Fighter           |
-| 2    | Barbarian         |
-| 3    | Knight            |
-| 4    | Thief             |
-| 5    | Hunter            |
-| 6    | Monk              |
-| 7    | Wizard            |
-| 8    | Sorcerer          |
-| 9    | Summoner          |
-| 10   | Reroll or Novelty |
-
-| 1d6 | Novelty Classes      |
-| --- | -------------------- |
-| 1   | Cannoneer            |
-| 2   | Exorcist             |
-| 3   | Inventor Necromancer |
-| 4   | Goblin               |
-| 5   | Many Goblins         |
-| 6   | Paladin of the Word  |
-
-| 1d12 | Wizard Schools                       |
-| ---- | ------------------------------------ |
-| 1    | Animist (Outlawed)                   |
-| 2    | Biomancer (Outlawed)                 |
-| 3    | Curse-Eater (Outlawed)               |
-| 4    | Drowned (Outsider)                   |
-| 5    | Elementalist (Chartered)             |
-| 6    | Elf (Outsider) or Garden (Chartered) |
-| 7    | Geometer (Chartered)                 |
-| 8    | Illusionist (Chartered)              |
-| 9    | Necromancer (Outlaw)                 |
-| 10   | Orthodox (Chartered)                 |
-| 11   | Spider (Outsider)                    |
-| 12   | White Hand (Chartered)               |
 
 ### Levelling Up
 
@@ -586,17 +521,49 @@ At Level 5, and every time a PC levels up past Level 5, they can retire to safet
 | 3,4,5 | -2    | 12,13,14 | 1     | 21,22,23 | 4     |
 | 6,7,8 | -1    | 15,16,17 | 2     | 24+      | 5     |
 
-# Classes
+## Classes
 
-All player characters start with one free level of the Wizard class with a Wizard School of their choice to represent their innate cability to perform spells.
+{{< glogm >}}
+All PCs start with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to perform spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential.
+{{< /glogm >}}
 
-## Wizard
+### Wizard
 
-Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf))), any of the supplements in the Misc Resources section or anything you can find online).
+#### Choosing a Wizard School: Option 1
+
+Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf)))
+
+| 1d12 | Wizard Schools                       |
+| ---- | ------------------------------------ |
+| 1    | Animist                 |
+| 2    | Biomancer               |
+| 3    | Curse-Eater              |
+| 4    | Drowned                   |
+| 5    | Elementalist              |
+| 6    | Elf  or Garden  |
+| 7    | Geometer                  |
+| 8    | Illusionist               |
+| 9    | Necromancer                  |
+| 10   | Orthodox                  |
+| 11   | Spider                     |
+| 12   | White Hand                |
+
+#### Choosing a Wizard School: Option 2
+
+From any of the supplements in the Misc Resources section or anything you can find online.
+
+#### Wizard
 
 Starting Equipment: varies by Wizard School. If in doubt ask your GM to help you come up with something.
 
-Starting Skill: ? 
+Starting Skill: Ask your GM.
+
+{{< glogm >}}
+Everyone is born with the potential to access innate magical abilities but whether or not one learns 'from birth can be seen or felt:
+- On your body (burning hand, translucent skin, etc.), think Fallout mutations.
+- Or as a spiritual aura that surrounds you, think JoJo.
+- Or as a familiar that follows you around, think His Dark Materials.
+{{< /glogm >}}
 
 **A:** Spellcasting, +1 MD, +1 Spell Slot, +2 Spells (1-6)
 
@@ -606,7 +573,7 @@ Starting Skill: ?
 
 **D:** +1 MD, +1 Spell Slot, Choose 4 spells.
 
-### A: Spellcasting
+#### A: Spellcasting
 
 Spells are living creatures. Spells, enchantments, ghosts, and
 souls are all more or less the same. A wizard's spells range in
@@ -645,11 +612,11 @@ usually haphazard and dangerous. Mishaps and Dooms apply.
 You can detect strong ambient magic if you are not distracted. To
 learn details about spells or magic items, roll under Intelligence.
 
-### B: Book Casting
+#### B: Book Casting
 
 You can cast from a scroll or a spellbook in a way that does not
 consume the scroll. This allows you to cast directly from your
-spellbook without loading the spell into your brain �rst. You do
+spellbook without loading the spell into your brain first. You do
 not gain the bonus MD that consuming a scroll generates. You
 must declare you are casting a spell from a book before
 initiatives are rolled for the turn.You automatically go last in the
@@ -657,18 +624,173 @@ initiative round, and you automatically fumble the spell if you
 take any damage during the round. The spell vanishes from the
 scroll or book and returns the next morning.
 
-### C: Friendly Spell
+#### C: Friendly Spell
 
 Apply a random mutation to a spell you frequently cast.
 
-## Non-Wizard Classes
+### Non-Wizard Classes
 
-If you're interested in building a multi-class Wizard with one or more Non-Wizard classes, find one in GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf))), any of the other supplements in the Misc Resources section or anything you can find online.
+If you're interested in building a multi-class Wizard with one or more Non-Wizard classes, find one in a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf))), any of the other supplements in the Misc Resources section or anything you can find online.
 
 # Equipment
 
+## Food and Cooking
 
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+|  Small Beer | 2cp | 1cp |
+| Bottle of Wine | 5cp | 1sp |
+| Standard Meal | 5cp | 3cp |
+| Fancy Meal | 3sp | - |
+| Ration (3/slot) | 1sp | 5cp |
+| Animal Feed (per day) | 3cp | 2cp |
+| Cheese (5bs) | 5sp | 4sp |
+| Cookpot | 1sp | 2sp |
+| Dried Fruit (bag) | 2sp | 1sp |
+| Eggs (12) | 7cp | 3cp |
+| Herbs (bag) | 3cp | 1cp |
+| Lard (5lbs) | 1cp | 1cp |
+| Soap (1lb) | 1cp | 2cp |
+| Wooden Tub | 2sp | 1sp |
 
+## Armor
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Leather Armour (Defense 12) | 25sp | 50sp |
+| Chain Armour (Defense 14) | 10gp | - |
+| Plate Armour (Defense 16) | 100gp | - |
+| Shield (Defense +1) | 5sp | 5sp |
+
+## Weapons
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Light Weapon (d6+Str. B) (3/slot) | 5sp | 5sp |
+| Medium Weapon (d8/d10+Str. B) | 2gp | 5gp |
+| Heavy Weapon (d12+Str. B) (0.5/slot) | 5gp | 15gp |
+| Sling (d6) | 3sp | 3sp |
+| Bow (d6) | 25sp | 25sp |
+| Crossbow (d12) | 5gp | - |
+| Arrows/Bolts (20/slot) | 5cp each | 5cp each |
+
+## Light
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Candle (small, 1hr) (3/slot) | 1cp | 1cp |
+| Reading Candle (3hrs) | 5cp | 5cp |
+| Lantern | 3sp | 5sp |
+| Lamp Oil (flask, 3/slot, 3hrs) | 5cp | 5cp |
+| Tinderbox | 1sp | 5sp |
+| Torch (3hrs) (3/slot) | 1cp | 1cp |
+
+## Animals
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Cattle | 1gp | 8sp |
+| Chicken | 2cp | 1cp |
+| Dog | 1gp | 5sp |
+| Hawk | 10gp | - |
+| Hog | 5sp | 3sp |
+| Horse (riding) | 10gp | 10gp |
+| Horse (war) | 75gp | 65gp |
+| Donkey | 8sp | 5sp |
+| Sheep | 3sp | 1sp |
+
+##  Tools
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Anvil | 2gp | 3go |
+| Axe | 4sp | 3sp |
+| Bellows | 4gp | 6gp |
+| Block and Tackle | 3sp | 3sp |
+| Chisel | 1sp | 2sp |
+| Drill | 5sp | 5sp |
+| Hammer | 1sp | 2sp |
+| Hoe | 3sp | 2sp |
+| Iron Plough | 15gp | 17gp |
+| Nails (bag of 10) | 3cp | 5cp |
+| Pick | 6sp | 12sp |
+| Prybar | 2sp | 2sp |
+| Shovel | 3sp | 2sp |
+| Speciality Tools | 2gp | - |
+| Spike (iron) | 1sp | 2sp |
+
+##  Adventuring Gear
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Air Bladder | 1sp | 1sp |
+| Bedroll | 2sp | 1sp |
+| Caltrops (bag of 30) | 4sp | - |
+| Fishing Gear | 1sp | 1sp |
+| Grappling Hook | 3sp | 5sp |
+| Holy Water | 25sp | 25sp |
+| Ladder (10’) | 6sp | 3sp |
+| Pole (10’) | 1sp | 5cp |
+| Rope (30’) | 3sp | 3sp |
+| Tent (3-ling) | 1gp | 2gp |
+| Tent (personal) | 5sp | 10sp |
+| Vial, Bottle, or Flask | 2sp | - |
+| Waterskin | 1sp | 1sp |
+| Whistle | 5cp | 5cp |
+
+##  Clothing
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Peasant Clothes | 1sp | 5cp |
+| Working Clothes | 5sp | 6sp |
+| Noble Clothes | 30gp | - |
+| Leather Boots | 3sp | - |
+| Furs | 50gp | - |
+| Rags | 5cp | 3 cp |
+
+##  Clothing
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Book (blank) | 3gp | - |
+| Book (magic) | 30gp | - |
+| Book (reading, poetry, etc.) | 6gp | - |
+| Holy Symbol (plain wood) | 2cp | 2cp |
+| Hourglass | 10gp | - |
+| Ink | 1cp | 5cp |
+| Mirror (silver) | 3gp | - |
+| Plates, Cups, Cutlery (6 sets) | 1gp | - |
+| Gold Ring | 1gp | - |
+| Scroll Case | 1sp | 3 sp |
+
+##  Hirelings and Followers
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Useless Peasant | 2sp/month | 1sp/month |
+| Labourer | 5sp/month | 5sp/month |
+| Scribe | 6sp/month | - |
+| Archer or Light Infantry | 1gp/month | 1gp/month |
+| Mason | 1gp/month | 1gp/month |
+| Camp Follower | 15sp/month | 15sp/month |
+| Armourer or Blacksmith | 2gp/month | 2gp/month |
+| Master Builder | 5gp/month | 5gp/month |
+| Barber-Surgeon | 6gp/month | 8gp/month |
+| Galley Crew (60) | 30gp/month | - |
+
+## Transportation and Lodging
+
+| Item | Cost (Urban) | Cost(Rural) |
+| - | - | --- |
+| Sailboat | 600gp | - |
+| Cart | 3gp | 3gp |
+| Raft | 5sp | 5sp |
+| Wagon | 15gp | 8gp |
+| Galley | 800gp | - |
+| Inn | 5sp/night | 3sp/night |
+
+## Currency Calibration
+1gp = 10sp = 100cp = $1 modern American = 1 ~1300 French denier. Prices are based on historical research and guesswork.
 
 # Tables
 
