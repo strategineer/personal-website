@@ -80,17 +80,17 @@ Characters have 6 stats. Each stat has a "bonus", which is a sort of shorthand c
 
 **Defense**: `10 + Dex. Bonus OR bonus from armour`. Leather is +2, Chain is +4, Plate is +6, a shield is +1.
 
-**Movement**: `12 + Dex. Bonus - Armour penalty`. How fast a character can move. Penalized by armour (-0 for leather, -2 for Chain, -4 for Plate).
+**Movement**: `12 + Dex. Bonus - Armour penalty`. How fast a character can move. Penalized by armour (-0 for Leather, -2 for Chain, -4 for Plate).
 
-**Stealth**: `5 + Dex. Bonus - Armour penalty`. Applied as a penalty to opponents Wisdom to see if a character is noticed. Penalized by armour (-0 for leather, -2 for Chain, -4 for Plate).
+**Stealth**: `5 + Dex. Bonus - Armour penalty`. Applied as a penalty to opponents Wisdom to see if a character is noticed. Penalized by armour (-0 for Leather, -2 for Chain, -4 for Plate).
 
 **Save**: `5 + Cha. Bonus`. Increases with level. If an effect, attack, or challenge doesn't fall under any of the other stats or values, roll Save. This represents a character's luck and determination to resist the cruel hand of fate.
 
 ## Opposed Rolls
 
-A character or NPC must roll equal to or under their stat, modified by 10-[the relevant stat of their opponent].
+A character or NPC must roll equal to or under their stat, modified by `10-[the relevant stat of their opponent]`.
 
-E.g. Shoving. The PC has 11 Strength, the orc has 14 Strength. The PC needs to roll a 7 or less to succeed (11 + [10-14] ).
+E.g. Shoving. The PC has 11 Strength, the orc has 14 Strength. The PC needs to roll a 7 or less to succeed (`11 + [10-14]`).
 
 Chess. The PC has a Intelligence of 6, the goblin has an Intelligence of 4. The PC needs to roll a 12 or less to succeed.
 
@@ -137,7 +137,7 @@ Roll under Attack, opposed by the enemy's Defense, to hit.
 
 E.g. A 1st-level Thief with Attack 11 tries to hit a goblin with no armour. The Thief has to roll under 11.
 
-A 1st-level Thief with Attack 11 tries to hit a very nimble tiger (armour as chain). The Thief has to roll under 7 (11+ [10-14]).
+A 1st-level Thief with Attack 11 tries to hit a very nimble tiger (armour as chain). The Thief has to roll under 7 (`11+ [10-14]`).
 
 Other effects (drunkenness, fog, being on fire, etc.) may impose penalties to Attack.
 
@@ -153,12 +153,12 @@ On an unmodified Attack roll of 20, the attack automatically misses. Further pen
 
 ## Damage
 
-- **Light weapons** (daggers) deal 1d6 + Strength bonus damage.
-- **Medium weapons** (swords) deal 1d8 + Strength bonus damage if wielded in one hand or 1d10 + Strength bonus damage if wielded in both hands.
-- **Heavy weapons** (hammers) deal 1d12 + Strength bonus damage but must be wielded in both hands.
-- **Thrown light weapons** deal 1d6 damage.
-- **Bows** and **Slings** deal 1d6 damage.
-- **Crossbows** deal 1d12 damage.
+- **Light weapons** (daggers) deal `1d6 + Strength bonus` damage.
+- **Medium weapons** (swords) deal `1d8 + Strength bonus` damage if wielded in one hand or `1d10 + Strength bonus` damage if wielded in both hands.
+- **Heavy weapons** (hammers) deal `1d12 + Strength bonus` damage but must be wielded in both hands.
+- **Thrown light weapons** deal `1d6` damage.
+- **Bows** and **Slings** deal `1d6` damage.
+- **Crossbows** deal `1d12` damage.
 
 ## Hit Points
 
@@ -180,7 +180,7 @@ All classes are proficient with daggers. A PC is also proficient with any weapon
 
 ## Reaction & Morale Rolls
 
-When encountering monsters, roll 2d6 + the Charisma bonus of the most visible party member.
+When encountering monsters, roll `2d6 + the Charisma bonus` of the most visible party member.
 
 | 2d6+       | Result           | Notes                        |
 | ---------- | ---------------- | ---------------------------- |
@@ -200,15 +200,15 @@ Monsters (or hirelings) may try to run away or surrender if combat turns against
 
 ## Death and Dismemberment Roll
 
-1d12+ Lethal Damage + Number of Current Injuries
+`1d12 + Lethal Damage + Number of Current Injuries`
 
-The effects are cumulative. If a PC with -8 HP and no current Injuries rolls a 10 on a d12, to the leg, X = 10+8+0 = 18. They gain 4 Fatal Wounds, the leg is Mangled, and also Disabled for 18 days.
+The effects are cumulative. If a PC with -8 HP and no current Injuries rolls a 10 on a d12, to the leg, `X = 10+8+0 = 18`. They gain 4 Fatal Wounds, the leg is Mangled, and also Disabled for 18 days.
 
-If they took a further 1 point of damage (-9 HP), they would roll 1d12 + 9 (Lethal Damage) + 1 (Mangled) + 1 (Disabled) for 1d12+11.
+If they took a further 1 point of damage (-9 HP), they would roll `1d12 + 9 (Lethal Damage) + 1 (Mangled) + 1 (Disabled)` for `1d12+11`.
 
 ## Hit Location Table
 
-If required, roll 1d6 for hit location.
+If required, roll `1d6` for hit location.
 
 | Result | 1. Arm | 2. Leg | 3-4. Torso | 5-6. Head |
 | --- | --- | --- | --- | --- |
@@ -344,18 +344,18 @@ Sprinting repeatedly, outdoor travel without rest, or excessively tiring activit
 
 ### Melee Weapons
 
-- **Light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal 1d6 + Strength bonus damage in melee.
-- **Medium weapons** (swords) take up 1 Inventory Slot and deal 1d8 + Strength bonus damage if wielded in one hand or 1d10 + Strength bonus damage if wielded in both hands.
-- **Heavy weapons** (hammers) take up 2 Inventory Slots and deal 1d12 + Strength bonus damage but must be wielded in both hands.
+- **Light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal `1d6 + Strength bonus` damage in melee.
+- **Medium weapons** (swords) take up 1 Inventory Slot and deal `1d8 + Strength bonus` damage if wielded in one hand or `1d10 + Strength bonus` damage if wielded in both hands.
+- **Heavy weapons** (hammers) take up 2 Inventory Slots and deal `1d12 + Strength bonus` damage but must be wielded in both hands.
 
 ### Ranged Weapons
 
 Ranged weapons get -1 to Attack for every 10' beyond their listed range.
 
-- **Thrown light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal 1d6 damage and have a 20' range.
-- **Slings** take up 1 inventory slot. They deal 1d6 damage and have a 20' range.
-- **Bows** take up 1 inventory slot. They deal 1d6 damage and have a 30' range.
-- **Crossbows** take up 1 inventory slot. They deal 1d12 damage and have a 30' range. A crossbow takes 1 round to reload.
+- **Thrown light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal `1d6` damage and have a 20' range.
+- **Slings** take up 1 inventory slot. They deal `1d6` damage and have a 20' range.
+- **Bows** take up 1 inventory slot. They deal `1d6` damage and have a 30' range.
+- **Crossbows** take up 1 inventory slot. They deal `1d12` damage and have a 30' range. A crossbow takes 1 round to reload.
 
 Both bows and crossbows use arrows. One Inventory Slot can contain 20 arrows. After combat, arrows can be recovered. 50% will be usable.
 
@@ -376,7 +376,7 @@ Lighting a torch or lantern takes 1 round. PCs are assumed to be carrying basic 
 
 Hired at a fixed rate (see the price list). Dangerous work may require bonuses. Generic hirelings have 10 in all stats, 5 HP, and no skills outside their profession.
 
-PCs can have up to 2+their Charisma bonus hirelings without any issues. Characters from the Second Estate can have up to 6+their Charisma bonus. Extra hirelings can be acquired, but may be disloyal, cunning, or poor quality.
+PCs can have up to `2 + their Charisma bonus` hirelings without any issues. Characters from the Second Estate can have up to 6+their Charisma bonus. Extra hirelings can be acquired, but may be disloyal, cunning, or poor quality.
 
 Above any items required for their job, a hireling can carry 3 Inventory Slots worth of items for the PC.
 
@@ -388,11 +388,11 @@ Time tracking is critical. I use minutes and hours.
 
 ### Movement
 
-PCs can cautiously move 20 10' squares (200') in 10 minutes . Round up to the nearest 10 minutes. PCs moving cautiously spot signs of all traps. The fun part isn't noticing the trap, it's how to disarm it. No skills. Use common sense and inventory items.
+PCs can cautiously move 20 10' squares (200') in 10 minutes. Round up to the nearest 10 minutes. PCs moving cautiously spot signs of all traps. The fun part isn't noticing the trap, it's how to disarm it. No skills. Use common sense and inventory items.
 
 PCs can quickly move 60 10' squares (600') in 10 minutes. PCs moving incautiously may get a chance to roll under Wisdom to notice a trap (GM's discretion). Otherwise, they find traps via HP and hirelings.
 
-If you want to modify these movement rates based on Movement, use 20'+the lowest Movement in the group for cautious movement and 3x that value for rapid movement. In practice, it rarely seems to matter.
+If you want to modify these movement rates based on Movement, use `20' + the lowest Movement in the group for cautious movement and 3x that value for rapid movement`. In practice, it rarely seems to matter.
 
 ### Searching
 
@@ -411,7 +411,7 @@ Roll 2d6 for Morale. If the result is equal to or under Morale, the creature is 
 
 ### Light
 
-Review the Light rules. Lanterns illuminate 30' clearly and provide dim outlines and shadows for a further 30'. In the dark, light sources are visible miles away.
+Lanterns illuminate 30' clearly and provide dim outlines and shadows for a further 30'. In the dark, light sources are visible miles away.
 
 ### Other Activities
 
@@ -510,15 +510,15 @@ Before we start, do you have any questions right now?
 
 ## The Base Adventurer
 
-A newly created PC without any class templates is expected to be reasonably competent in most areas but not specialized in any one direction. The GLOG is not about classes. Classes are just a set of extra tools to do things. Classes are significantly less important than What You Do Around The Table.
+A newly created PC without any class templates is expected to be reasonably competent in most areas but not specialized in any one direction. X-Mooks is not about classes. Classes are just a set of extra tools to do things. Classes are significantly less important than **What You Do Around The Table**.
 
 ## Templates & Multiclassing
 
 Each class has 4 Templates. Templates are gained sequentially (A, then B, then C, then D). To multiclass, simply pick the lowest template from another class. E.g. A level 4 character could pick Fighter A, Wizard A, Monk A, and Fighter B.
 
-{{< xmooks >}} All PCs start at level 1 with Template A of the Wizard class with a Wizard School of their choice to represent their innate capability to cast spells. Unlike NPCs, who may or may not ever learn to unlock their innate magical power potential. {{< /xmooks >}}
+{{< xmooks >}} All PCs start at level 1 with Template A of the Wizard class with a Wizard School of their choice to represent their innate magical potential manifested. Unlike NPCs, who may or may not ever learn to unlock their innate magical potential. {{< /xmooks >}}
 
-Multiclassing should make sense. Multiclassing for optimization or mechanical reasons should be strongly discouraged by the GM. The game is not about the mechanics or having the biggest numbers. Bigger numbers will not save you.
+Multiclassing should make sense. Multiclassing for optimization or mechanical reasons should be strongly discouraged. The game is not primarily about the mechanics or having the biggest numbers. Bigger numbers will not save you, creative thinking might, no promises.
 
 ## Levelling Up
 
@@ -586,7 +586,7 @@ Starting Skill: Ask your GM.
 
 ##### Innate Magical Potential Manifestation
 
-{{< xmooks >}} Everyone is born with the potential to access innate magical abilities but most people go their whole lives without ever accessing their abilities. However, whether or not someone learns to access their innate magical potential, their innate magical potential will visibly manifest itself in either of the following ways:
+{{< xmooks >}} Everyone is born with the potential to access innate magical potential but many people will go their whole lives without ever accessing this potential. However, whether or not someone learns to access their innate magical potential, this potential will visibly manifest itself in either of the following ways:
 
 - As a physical mark, extra appendage, abnormality on your body (burning hand, translucent skin, etc.), think Fallout mutations.
 - As a spiritual aura that surrounds you, think JoJo.
@@ -601,13 +601,13 @@ This visible manifestation may hint at what a person innate magical potential is
 
 +1 MD, +1 Spell Slot, +1 Spell (1-6)
 
-Spells are living creatures. Spells, enchantments, ghosts, and souls are all more or less the same. A wizard's spells range in intelligence from pond scum to ferrets. A spellbook is a menagerie-prison. A well-trained brain is a mind-gun loaded with spell-bullets. Minor spells, called cantrips, infest a wizard's soul and bind to it. It takes 1hr to move any number of spells between a spell slot in your brain and a spellbook, scroll, or wand.
+Spells are living creatures. Spells, enchantments, ghosts, and souls are all more or less the same. A wizard's spells range in intelligence from pond scum to ferrets. A spellbook is a menagerie-prison. A well-trained brain is a mind-gun loaded with spell-bullets. Minor spells, called cantrips, infest a wizard's soul and bind to it. It takes 1 hour to move any number of spells between a spell slot in your brain and a spellbook, scroll, or wand.
 
 To cast a spell, select a number of Magic Dice (MD) you wish to invest, roll them, and add the numbers together. As a Wizard, you get +1 MD per Wizard template. Most spells depend on the number of [dice] invested and the [sum] they show. Doubles generate Mishaps; triples generate Dooms. Casting a spell from a scroll provides +1 MD as the scroll burns.
 
 Dice that roll 1-3 return to your casting pool and can be used again that day. Dice that roll 4-6 are removed from your casting pool for the day. Your spells return at sunrise to last location they were imprisoned, when the octarine light of the sun touches the world and infuses Creation with an extra boost of raw magic. Your MD return if you get a good night's sleep. If you didn't sleep well, you can Save for each MD to have them return to your pool anyway.
 
-When you gain Template A, roll 1 d6 and gain the spell listed. Template B, roll 1d6 and a 1d8. Template C, roll 1d10. Template D, choose 4 spells from the list. If a duplicate spell is rolled, you may choose to keep it or reroll.
+When you gain Template A, roll 1d6 and gain the spell listed. Template B, roll a 1d6 and a 1d8. Template C, roll 1d10. Template D, choose 4 spells from the list. If a duplicate spell is rolled, you may choose to keep it or reroll.
 
 You can try to bodge together a spell-like effect appropriate to your school by pouring any number of MD into a target and hoping for the best. Effects are adjudicated by the GM, but are usually haphazard and dangerous. Mishaps and Dooms apply.
 
@@ -854,7 +854,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Extra Resources
 
-For now, most GLOG-hack esque classes can be used.
+Here's some extra reading if you're interested. If nothing you find speaks to you, work with your GM to make your own class or whatever else. 
 
 - [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [PDF](/rpg/many_rats_on_stick_v2.pdf)
 - [Wizards Post by Skerples](https://coinsandscrolls.blogspot.com/2018/06/osr-how-to-design-glog-wizards.html)
