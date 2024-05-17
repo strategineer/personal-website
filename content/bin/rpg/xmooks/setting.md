@@ -59,4 +59,4 @@ Time wept upon his corpse and, in doing so, created the world as we know it toda
 
 # Religion
 
-A variety of faiths exist
+A variety of faiths exist, here's a few of the major ones. 
