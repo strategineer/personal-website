@@ -376,7 +376,7 @@ Lighting a torch or lantern takes 1 round. PCs are assumed to be carrying basic 
 
 Hired at a fixed rate (see the price list). Dangerous work may require bonuses. Generic hirelings have 10 in all stats, 5 HP, and no skills outside their profession.
 
-PCs can have up to `2 + their Charisma bonus` hirelings without any issues. Characters from the Second Estate can have up to 6+their Charisma bonus. Extra hirelings can be acquired, but may be disloyal, cunning, or poor quality.
+PCs can have up to `2 + their Charisma bonus` hirelings without any issues. Extra hirelings can be acquired, but may be disloyal, cunning, or poor quality.
 
 Above any items required for their job, a hireling can carry 3 Inventory Slots worth of items for the PC.
 
