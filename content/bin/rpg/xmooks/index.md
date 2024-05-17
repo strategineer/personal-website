@@ -811,22 +811,22 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | 1-10 | Human | Choice | +1 to Strength for Inventory Slots. Gain a random item. | -4 to Save against being mutated or transformed. | The "hu" was a small, pink, avaricious, ugly little mole-like creature that the humans exterminated out of shame. |
 | 11-12 | Elf | CHA | Do not require a Ration to heal at Lunch. | Save when you see ugly things or shun them, | Elves are improved, polished, and upgraded humans. The High Elves keep them as servants or pets. They are better than you. They are better than everyone |
 | 13 | Gnome | INT | Become invisible if you close eyes, hold breath, don't move. | -2 to Movement. | Border-raiders, wilderness fighters, and mean bastards. Wearer of the 'bloodkap'. |
-| 14 | Spiderling | DEX | Can secrete 30' of rope per day. | Cannot see anything more than 30' away. | Outcast and shunned. Practitioners of a religion outside the Church. Weavers, money-lenders, scholars, doctors, and poor farmers. |
+| 14 | Spiderling | DEX | Can secrete 30' of rope per day. | Cannot see anything more than 30' away. | Outcast and shunned. Weavers, money-lenders, scholars, doctors, and poor farmers. |
 | 15 | Magpieling | DEX | Always know the approximate value of mundane items. | Must Save or pick up shiny objects. | Terrible and mostly undeserved reputation for petty crime and occasional acts of violence. |
 | 16 | Eelling | INT | Can instantly strand up from prone. | Cannot see anything nearer than 1'. | Marsh-farmers, trader, and roving doctors. |
 | 17 | Antling | CON | +2 to Strength for Inventory Slots. | Save vs Fear when alone. | Live in matriarchal town-like colonies of hundreds. Deeply religious, though somewhat naïve. Secretive. |
 | 18 | Hedgehogling | WIS | +2 Defense. | Cannot wear armour on chest or limbs. | A surprising number of minor saints are hedgehoglings. |
 | 19 | Deerling | CHA | Antlers (as a light weapon, bludgeoning). | When afraid, will run instead of staying still. | Rather offended by the idea that they all live timid pastoral lives in the forest. A few families are excellent bankers. |
 | 20 | Slothling | STR | Automatically pass Saves vs Fear. | -2 to Wisdom for Initiative. Can never act in Surprise rounds. | An ancient line from untouched forests. Laughably poor warriors, according to popular tales. |
-| 21 | Mouseling | WIS | Can very convincingly play dead. | -2 to Strength for Inventory Slots. | Raised in humility and duty, mouselngs are frequently members of the First Estate. |
-| 22 | Boarling | CON | Tusks (as a light weapon, piercing). | Constant snuffling. -2 Stealth. | Strong military tradition in many families. Often among the nobility. |
-| 23 | Hawkling | INT | Can see detail at a great distance. | Must eat uncooked food. Rations spoil in 2 days. | Frequently members of the Second Estate. Raised in a culture of boldness. |
+| 21 | Mouseling | WIS | Can very convincingly play dead. | -2 to Strength for Inventory Slots. | Raised in humility and duty. |
+| 22 | Boarling | CON | Tusks (as a light weapon, piercing). | Constant snuffling. -2 Stealth. | Strong military tradition in many families. |
+| 23 | Hawkling | INT | Can see detail at a great distance. | Must eat uncooked food. Rations spoil in 2 days. | Raised in a culture of boldness. |
 | 24 | Houndling | CHA | Can track a creature by smell. | Save to avoid obeying direct commands for 1 round. | Jowly. Found throughout Creation, but rarely in positions of power. |
 | 25 | Beetleling | STR | +1 Defense, take ½ fall damage. | Cannot wear armour on chest or limbs. | Either solitary hermits or from tight-knit town-based families. |
 | 26 | Fishling | CON | Can hold breath for 10 minutes. | Drink twice as much water. | Urban or rural, fishlings have vast families and great ambitions. |
 | 27 | Swanling | DEX | Can shout and sing incredibly well. | Cursed. -2 to Save. | Legend says swanlings are cursed to die beautifully. |
 | 28 | Owlling | WIS | Can rotate head 180 degrees. | Cough up disgusting pellets after every meal. | Rumour that wisdom accumulates in one member of a family, sparing all the others. |
-| 29 | Slugling | STR | Cannot be pushed in combat. | Salt deals 1d4 damage / round to you. | Renowned as farmers, orchard-keepers. Hermaphroditic, which is conveniently ignored by society and the Church. |
+| 29 | Slugling | STR | Cannot be pushed in combat. | Salt deals 1d4 damage / round to you. | Renowned as farmers, orchard-keepers. Hermaphroditic. |
 | 30 | Flyling | DEX | Can eat rotten food as rations. | Will not notice details unless they move. | Farmers and merchants. Half don't mind being seen as dung-eaters, half frantically try to "improve" their reputation. |
 | 31 | Rabbitling | DEX | Jump twice as high. | When afraid, will freeze instead of running. | Good solid farmers, emergency peasant leavies, and fools. |
 | 32 | Gooseling | CON | Prehensile neck, can fit head through small spaces. | When afraid, Save or attack enemy. | Notorious for elaborate weddings. Strong tradition of carefully organized community vengeance on outsiders. |
@@ -836,7 +836,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | 36 | Toadling | STR | Jump twice as high. | Contagious warts. | Widely dispersed through society. Less prosperous than their traditional rivals, the Froglings. |
 | 37 | Ratling | INT | Can crawl through narrow spaces. | Save vs Fear when alone. | Acts of bravery in war have redeemed the ratling in the eyes of many. |
 | 38 | Goatling | DEX | No penalties to Movement for rough terrain. | Pervasive, unique stink. -2 to Stealth. | Popular poets, balladeers, and destroyers of community moral standards. Some become famous theologians. |
-| 39 | Foxling | WIS | Can hear as accurately as sight at 20'. | Cannot tell the direct, blunt truth. | The life of any party. Traditionally barred from the clergy, save for exceptional circumstances. |
+| 39 | Foxling | WIS | Can hear as accurately as sight at 20'. | Cannot tell the direct, blunt truth. | The life of any party. |
 | 40 | Wormling | INT | Can shrink or grow by 25% in 1 round. | -2 to Strength for Inventory Slots. | Very few wormlings become scholars. Notoriously accident prone. |
 | 41 | Flealing | STR | Can drink blood as rations. | Cannot wear armour on chest or limbs. | Widely despised. Constant utterly groundless rumours of child abduction, murder, and treachery. |
 | 42 | Batling | WIS | Can roll Wis to "hear" walls and major features in the dark. | Will never notice details unless they move. | Rumoured to be theatrical and slightly eccentric. Prefer to work at night, adding to sinister tales. |
