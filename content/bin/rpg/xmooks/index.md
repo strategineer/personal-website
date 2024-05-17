@@ -403,7 +403,7 @@ If you want to modify these movement rates based on Movement, use `20' + the low
 
 ### Random Encounters
 
-Roll for a Random Encounter every 30 minutes or whenever a loud noise occurs. Usually, that's a 1 on a d6. Some people use an overloaded/hazard dice, where results of 2-6 do anything from ticking down light sources to providing clues. I don't bother. Time tracking works just as well.
+Roll for a Random Encounter every 30 minutes or whenever a loud noise occurs. Usually, that's a 1 on a d6.
 
 If the PCs are moving cautiously, they get the Omen before the encounter. If they are moving quickly or incautiously, they don't get the Omen.
 
