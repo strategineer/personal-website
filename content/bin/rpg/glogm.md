@@ -42,15 +42,15 @@ Throughout the text, whenever you see "Roll under...", it means "Roll equal to o
 Skills are just a word that describes something a PC knows how to do. There are no specific rules for using them. You may call for rolls under Intelligence or another stat, but in general, just let the PC with the skill do the thing the skill describes.
 
 | Stat | Bonus | Stat | Bonus | Stat | Bonus |
-| - | - | - | - | - | - |
-| 1 | -3 | 9 | 0 | 17 | 2 |
-| 2 | -3 | 10 | 0 | 18 | 3 |
-| 3 | -2 | 11 | 0 | 19 | 3 |
-| 4 | -2 | 12 | 1 | 20 | 3 |
-| 5 | -2 | 13 | 1 | 21 | 4 |
-| 6 | -1 | 14 | 1 | 22 | 4 |
-| 7 | -1 | 15 | 2 | 23 | 4 |
-| 8 | -1 | 16 | 2 | 24 | 5 |
+| ---- | ----- | ---- | ----- | ---- | ----- |
+| 1    | -3    | 9    | 0     | 17   | 2     |
+| 2    | -3    | 10   | 0     | 18   | 3     |
+| 3    | -2    | 11   | 0     | 19   | 3     |
+| 4    | -2    | 12   | 1     | 20   | 3     |
+| 5    | -2    | 13   | 1     | 21   | 4     |
+| 6    | -1    | 14   | 1     | 22   | 4     |
+| 7    | -1    | 15   | 2     | 23   | 4     |
+| 8    | -1    | 16   | 2     | 24   | 5     |
 
 ### Stats
 
@@ -205,10 +205,9 @@ If required, roll 1d6 for hit location.
 
 | Result | 1. Arm | 2. Leg | 3-4. Torso | 5-6. Head |
 | --- | --- | --- | --- | --- |
-| 1+ | Disabled X Days | Disabled X Days | Cracked Ribs X Days |  Concussed X Days |
+| 1+ | Disabled X Days | Disabled X Days | Cracked Ribs X Days | Concussed X Days |
 | 11+ | 1 Fatal Wound + Mangled | 1 Fatal Wound + Mangled | 1 Fatal Wound + Crushed | 1 Fatal Wound + Skullcracked |
 | 16+ | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds |
-
 
 ##### Status Effect Table
 
@@ -565,382 +564,187 @@ PCs gain experience points (XP) by looting stuff. Wages don’t count. The loot 
 
 Whenever a PC levels, increase their HP, Attack, and base Save (before their Charisma bonus is added). A PC can also test to improve a stat of their choice. Declare the stat and roll 3d6. If the result is over, the stat’s value increases by 1.
 
-| Level | XP | HP (20 Max) | Class Templates | Attack | Base Save |
-|-      |-   |-            |-                |-       |-          |
-| 1 | - | Con - 4 | 1 | 11 | 6 |
-| 2 | 200 | Con - 2 | 2 | 12 | 7 |
-| 3 | 400 | Con | 3 | 12 | 7 |
-| 4 | 700 | Con + 2 | 4 | 13 | 7 |
-| 5 | 1,000 | Con + 4 | - | 13 | 8 |
-| 6 | 1,400 | Con + 6 | - | 14 | 8 |
-| 7 | 1,800 | Con + 7 | - | 14 | 8 |
-| 8 | 2,200 | Con + 8 | - | 15 | 9 |
-| 9 | 2,600 | Con + 9 | - | 15 | 9 |
-| 10 | 3,000 | Con + 10 | - | 15 | 10 |
-| +1 | +500 | +1 | - | 15 | 10 |
+| Level | XP    | HP (20 Max) | Class Templates | Attack | Base Save |
+| ----- | ----- | ----------- | --------------- | ------ | --------- |
+| 1     | -     | Con - 4     | 1               | 11     | 6         |
+| 2     | 200   | Con - 2     | 2               | 12     | 7         |
+| 3     | 400   | Con         | 3               | 12     | 7         |
+| 4     | 700   | Con + 2     | 4               | 13     | 7         |
+| 5     | 1,000 | Con + 4     | -               | 13     | 8         |
+| 6     | 1,400 | Con + 6     | -               | 14     | 8         |
+| 7     | 1,800 | Con + 7     | -               | 14     | 8         |
+| 8     | 2,200 | Con + 8     | -               | 15     | 9         |
+| 9     | 2,600 | Con + 9     | -               | 15     | 9         |
+| 10    | 3,000 | Con + 10    | -               | 15     | 10        |
+| +1    | +500  | +1          | -               | 15     | 10        |
 
 At Level 5, and every time a PC levels up past Level 5, they can retire to safety. The GM cannot torment them anymore. If they can afford it, they can buy some land, set up a shop, teach at a wizard college, or beg in the gutter. At Level 10 and beyond, a PC who dies can fight death. If they succeed, they can return to life. All future Saves to avoid death will be at a penalty, but they gain a second chance.
 
-| Stat| Bonus| Stat| Bonus| Stat| Bonus|
-| - | - | - | - | - | - |
-| 1,2| -3| 9,10,11| 0| 18,19,20| 3|
-|3,4,5| -2| 12,13,14| 1| 21,22,23| 4|
-| 6,7,8| -1| 15,16,17| 2| 24+| 5 |
+| Stat  | Bonus | Stat     | Bonus | Stat     | Bonus |
+| ----- | ----- | -------- | ----- | -------- | ----- |
+| 1,2   | -3    | 9,10,11  | 0     | 18,19,20 | 3     |
+| 3,4,5 | -2    | 12,13,14 | 1     | 21,22,23 | 4     |
+| 6,7,8 | -1    | 15,16,17 | 2     | 24+      | 5     |
 
 # Magic
 
 ### The Magic System in a Nutshell
 
-You get one spell slot per level that can hold a single
-spell. You prepare these in the morning.
+You get one spell slot per level that can hold a single spell. You prepare these in the morning.
 
-You get one casting die per level that can be used to
-cast a spell. These are refreshed by a good night's
-sleep.
+You get one casting die per level that can be used to cast a spell. These are refreshed by a good night's sleep.
 
-You cast by investing your casting dice in a spell and
-then rolling them. The more dice, the stronger the
-spell. Each die that you invest has a 50% chance of
-being refunded back into your casting pool.
+You cast by investing your casting dice in a spell and then rolling them. The more dice, the stronger the spell. Each die that you invest has a 50% chance of being refunded back into your casting pool.
 
 ### What is a Spell?
 
-Spells are extra-dimensional creatures. Wizards use
-them like items, or ammunition.
+Spells are extra-dimensional creatures. Wizards use them like items, or ammunition.
 
-All spells are sentient. They are made up of
-sentience in the same way that we are made up of
-matter.
+All spells are sentient. They are made up of sentience in the same way that we are made up of matter.
 
-When isolated away from a wizard's brain, spells are
-also called spirits, angels, or demons. (Every demon
-is a spell, and every spell a demon. These
-distinctions are a matter of application, rather than
-substance.) Spells are just weaponized spirits.
+When isolated away from a wizard's brain, spells are also called spirits, angels, or demons. (Every demon is a spell, and every spell a demon. These distinctions are a matter of application, rather than substance.) Spells are just weaponized spirits.
 
 ### Where do Spirits Live?
 
-Spirits live all around us, in the Ethereal plane, an
-invisible dimension that overlaps with our own.
+Spirits live all around us, in the Ethereal plane, an invisible dimension that overlaps with our own.
 
-Sometimes, very rarely, a spirit will be bound in a
-book, or in a wizard's brain. This is what turns a
-spirit into a spell. (It is the act of comprehension
-that traps the spirit; to understand a spirit is to cage
-it.)
+Sometimes, very rarely, a spirit will be bound in a book, or in a wizard's brain. This is what turns a spirit into a spell. (It is the act of comprehension that traps the spirit; to understand a spirit is to cage it.)
 
-Once a spell is captured, it can be used. The wizard
-uses their own sentience (casting dice) to goad the
-spell into action. Spellcasting is not so different
-from tugging on the reins, or digging in with your
-spurs.
+Once a spell is captured, it can be used. The wizard uses their own sentience (casting dice) to goad the spell into action. Spellcasting is not so different from tugging on the reins, or digging in with your spurs.
 
-The number of spells that can fit in a wizard's brain
-(spell slots) is limited by their ability to flex their
-brains into mindscapes that better accommodate
-the spell they wish to lure into their brain-trap. It is
-not knowledge that achieves this, but rather
-visualization and self-delusion.
+The number of spells that can fit in a wizard's brain (spell slots) is limited by their ability to flex their brains into mindscapes that better accommodate the spell they wish to lure into their brain-trap. It is not knowledge that achieves this, but rather visualization and self-delusion.
 
 ### Scrolls and Spellbooks
 
+When a wizard has too many spells that can be stored in their brains, they place the excess spells in scrolls. Scrolls are the ammo boxes, wizard brains are the guns.
 
-When a wizard has too many spells that can be
-stored in their brains, they place the excess spells in
-scrolls. Scrolls are the ammo boxes, wizard brains
-are the guns.
-
-Scrolls are functional identically to spellbooks. The
-only difference is that spellbooks occupy a single
-inventory slot and can hold 10 spells, while a scroll
-can only hold one spell, and up to three of them can
-be bundled into one inventory slot. Spellbooks are
-also protected by waterproof bags and metal
-covers, while scrolls can be damaged beyond
-usability. (Whenever you take fire or acid damage,
-each scroll you are carrying has a 50% chance of
-being destroyed.)
+Scrolls are functional identically to spellbooks. The only difference is that spellbooks occupy a single inventory slot and can hold 10 spells, while a scroll can only hold one spell, and up to three of them can be bundled into one inventory slot. Spellbooks are also protected by waterproof bags and metal covers, while scrolls can be damaged beyond usability. (Whenever you take fire or acid damage, each scroll you are carrying has a 50% chance of being destroyed.)
 
 ### Identifying Magic Items
 
+If you have at least one level in a spellcasting class, you can attempt to understand magical items.
 
-If you have at least one level in a spellcasting class,
-you can attempt to understand magical items.
+One round of close examination (touching, sniffing) allows you to tell if an item is magical or not. 10 minutes of close examination allows you to make an Intelligence check to learn more about it.
 
-One round of close examination (touching, sniffing)
-allows you to tell if an item is magical or not. 10
-minutes of close examination allows you to make an
-Intelligence check to learn more about it.
+For example, if the item in question is a scroll, you successfully identify the spell contained on it. If you are using a wizarding laboratory (cost: 5,000c) you will always successfully identify the item.
 
+Potions never tell you anything beyond “I'm a potion.” Their effects must be determined experimentally: tiny sips of a potion usually give clues to their identity.
 
-For example, if the item in question is a scroll, you
-successfully identify the spell contained on it. If you
-are using a wizarding laboratory (cost: 5,000c) you
-will always successfully identify the item.
+Sometimes items have properties that can't be identified in the field. They require a wizarding library or some scrap of lore. The most powerful artifacts usually require additional work to decipher their latent abilities, and cursed items usually hide their curses, but in both of these cases you will get a sense that there is more to learn after identifying it.
 
+If you fail to identify a magical item, you cannot try again until you have had a chance to visit a library containing books on magic.
 
-Potions never tell you anything beyond “I'm a
-potion.” Their effects must be determined
-experimentally: tiny sips of a potion usually give
-clues to their identity.
-
-Sometimes items have properties that can't be
-identified in the field. They require a wizarding
-library or some scrap of lore. The most powerful artifacts usually require additional work to decipher
-their latent abilities, and cursed items usually hide
-their curses, but in both of these cases you will get a
-sense that there is more to learn after identifying it.
-
-If you fail to identify a magical item, you cannot try
-again until you have had a chance to visit a library
-containing books on magic.
-
-Sages also exist, who can identify magic items for a
-fee. Sages usually have a 60% success rate, or a 90%
-success rate if the item pertains to a specialty of
-theirs. Most sages charge 100c per item identified.
+Sages also exist, who can identify magic items for a fee. Sages usually have a 60% success rate, or a 90% success rate if the item pertains to a specialty of theirs. Most sages charge 100c per item identified.
 
 ### Moving Spells Around
 
-Spells can be moved from one scroll (or spellbook)
-to another with an hour of work, performed by
-someone who has deciphered it. Wizards are
-assumed to be carrying the minor inks required, but
-blank scrolls and spellbooks must be purchased
-separately. (And in a pinch, any method of writing
-will suffice: blood, feces, scratches, pinhole
-patterns, braided knots, and teacup arrangement
-codes can all be used to store a spell).
+Spells can be moved from one scroll (or spellbook) to another with an hour of work, performed by someone who has deciphered it. Wizards are assumed to be carrying the minor inks required, but blank scrolls and spellbooks must be purchased separately. (And in a pinch, any method of writing will suffice: blood, feces, scratches, pinhole patterns, braided knots, and teacup arrangement codes can all be used to store a spell).
 
-Remember that spells cannot be copied, merely
-moved.
+Remember that spells cannot be copied, merely moved.
 
-A wizard can move a spell into his brain via
-memorization. (This is not actual memorization; it's
-more like luring a spell into your head by disguising
-your thoughts.) One hour of study allows a wizard
-to swap around any number of spells between his
-brain and scrolls. You can leave blank spots, if you
-wish. A scroll must be understood before it can be
-memorized.
+A wizard can move a spell into his brain via memorization. (This is not actual memorization; it's more like luring a spell into your head by disguising your thoughts.) One hour of study allows a wizard to swap around any number of spells between his brain and scrolls. You can leave blank spots, if you wish. A scroll must be understood before it can be memorized.
 
-If a wizard dies while spells are still stored in his
-brain, the spells remain. They do not return to the
-now-blank scrolls.
+If a wizard dies while spells are still stored in his brain, the spells remain. They do not return to the now-blank scrolls.
 
-It is possible to learn spells from a dead wizard. It
-involves bisecting the wizard's skull and balancing it
-atop a golden needle. The memorization of spells
-causes the brain to carve grooves on the inside of
-the skull, and the skull now moves over these
-grooves like an Ouija board. With a compass, water clock, and brain almanac, these movements can be
-deciphered. This device is called a cerebreus (sarah-
-BRAY-us), and it is part of a wizarding laboratory.
-
+It is possible to learn spells from a dead wizard. It involves bisecting the wizard's skull and balancing it atop a golden needle. The memorization of spells causes the brain to carve grooves on the inside of the skull, and the skull now moves over these grooves like an Ouija board. With a compass, water clock, and brain almanac, these movements can be deciphered. This device is called a cerebreus (sarah- BRAY-us), and it is part of a wizarding laboratory.
 
 ### Spell Slots
 
-A wizard uses their spell slots to memorize their
-spells. A wizard has one spell slot for each level of
-caster that they possess, up to a maximum of four
-spell slots at level 4. If you have a spell in one of
-your spell slots, you can cast it spontaneously.
-
+A wizard uses their spell slots to memorize their spells. A wizard has one spell slot for each level of caster that they possess, up to a maximum of four spell slots at level 4. If you have a spell in one of your spell slots, you can cast it spontaneously.
 
 ### Casting Pool
 
-Each level of a spellcasting class gives you a casting
-die, up to a maximum of four casting dice at level 4.
+Each level of a spellcasting class gives you a casting die, up to a maximum of four casting dice at level 4.
 
-So a level 5 wizard would have 4 spell slots (each
-holding one spell) and 4 casting dice.
+So a level 5 wizard would have 4 spell slots (each holding one spell) and 4 casting dice.
 
 ### Casting a Spell from a Scroll
 
-It's usually a good idea to identify a scroll before you
-try to cast it.
+It's usually a good idea to identify a scroll before you try to cast it.
 
-If a scroll is unidentified, anyone can cast from it
-with a successful Int check. If they fail this Int check,
-the spell fizzles (it is wasted) and you make another
-Int check. If you fail this second Int check, you
-suffer a Mishap. The mishap is from your own
-Mishap list if you are a spellcaster, or from the
-Orthodox Wizard Mishap List if you are not a
-spellcaster.
+If a scroll is unidentified, anyone can cast from it with a successful Int check. If they fail this Int check, the spell fizzles (it is wasted) and you make another Int check. If you fail this second Int check, you suffer a Mishap. The mishap is from your own Mishap list if you are a spellcaster, or from the Orthodox Wizard Mishap List if you are not a spellcaster.
 
-If you successfully cast a spell without knowing
-what it does, the DM will ask you “what are you
-casting it on?”. She will consider the requirements
-of the spell (range, eligible targets, etc) and attempt
-to interpret your target choice as best as possible.
+If you successfully cast a spell without knowing what it does, the DM will ask you “what are you casting it on?”. She will consider the requirements of the spell (range, eligible targets, etc) and attempt to interpret your target choice as best as possible.
 
-Once a scroll has been identified, anyone who
-understands it can cast it safely. It's even possible
-for a wizard to identify a scroll, show the party's Int
-7 fighter how to cast the spell, and then watch the
-fighter cast the scroll successfully.
+Once a scroll has been identified, anyone who understands it can cast it safely. It's even possible for a wizard to identify a scroll, show the party's Int 7 fighter how to cast the spell, and then watch the fighter cast the scroll successfully.
 
-If you successfully cast a spell from a scroll, the scroll is destroyed by the casting. However, this
-destruction invests one free casting die into the
-spell. (This is how the fighter can cast a spell, even
-without having any casting dice of his own.)
+If you successfully cast a spell from a scroll, the scroll is destroyed by the casting. However, this destruction invests one free casting die into the spell. (This is how the fighter can cast a spell, even without having any casting dice of his own.)
 
-If you have additional casting dice of your own, you
-can add them on top of the free casting die the
-scroll provided. Roll the dice together, since
-Mishaps and Dooms are still possible, but make sure
-that you casting dice are a different color than the
-scroll's casting dice, since your invested dice are
-refunded if they show 1-3, while the scroll's die is
-always spent.
+If you have additional casting dice of your own, you can add them on top of the free casting die the scroll provided. Roll the dice together, since Mishaps and Dooms are still possible, but make sure that you casting dice are a different color than the scroll's casting dice, since your invested dice are refunded if they show 1-3, while the scroll's die is always spent.
 
-Example: a level 2 wizard has two casting dice, and
-then casts fireball from a scroll. As the scroll
-crumbles to ashes in her hands, she decides to
-invest both of her casting dice, in order to make the
-spell as powerful as possible. The scroll's casting die
-comes up 3, while her dice up as 3 and 6. The fireball
-does 12 damage (3 + 3 + 6) and she suffers the
-effects of a Mishap. She is refunded one of her
-invested dice, since it rolled a 3 or less, while the die
-that rolled a 6 is exhausted until tomorrow.
+Example: a level 2 wizard has two casting dice, and then casts fireball from a scroll. As the scroll crumbles to ashes in her hands, she decides to invest both of her casting dice, in order to make the spell as powerful as possible. The scroll's casting die comes up 3, while her dice up as 3 and 6. The fireball does 12 damage (3 + 3 + 6) and she suffers the effects of a Mishap. She is refunded one of her invested dice, since it rolled a 3 or less, while the die that rolled a 6 is exhausted until tomorrow.
 
 ### Casting a Spell From Memory
 
 Step 1: Pick one of the spells you have memorized.
 
-Step 2: Chose how many casting dice you want to
-invest in the spell, and remove them from your
-casting pool.
+Step 2: Chose how many casting dice you want to invest in the spell, and remove them from your casting pool.
 
-Step 3: Roll however the invested dice. The spell
-takes effect.
+Step 3: Roll however the invested dice. The spell takes effect.
 
-Step 4: Dice that show a result of 1-3 are returned to
-your casting pool
+Step 4: Dice that show a result of 1-3 are returned to your casting pool
 
-The more casting dice you roll, the more powerful
-the spell. Some spells have an effect based on the
-total number of dice you roll (listed as [dice] in spell
-descriptions) while others have an effect based on
-the sum of those dice (listed as [sum] in spell
-descriptions).
+The more casting dice you roll, the more powerful the spell. Some spells have an effect based on the total number of dice you roll (listed as [dice] in spell descriptions) while others have an effect based on the sum of those dice (listed as [sum] in spell descriptions).
 
-However, the more casting dice you roll, the greater
-the chance for mishaps and doom.
+However, the more casting dice you roll, the greater the chance for mishaps and doom.
 
-If you roll doubles on your casting dice, you have
-incurred a mishap—a small negative magical effect that spilled out of the Ether due to the spell's
-contortions. If you roll triples, you have incurred a
-Doom: a creeping threat that will eventually destroy
-you.
+If you roll doubles on your casting dice, you have incurred a mishap—a small negative magical effect that spilled out of the Ether due to the spell's contortions. If you roll triples, you have incurred a Doom: a creeping threat that will eventually destroy you.
 
 ### Mishaps
 
-When you suffer a Mishap, look up your school of
-magic and roll on the Mishap table. Most of them
-aren't too bad. A mishap takes effect immediately.
+When you suffer a Mishap, look up your school of magic and roll on the Mishap table. Most of them aren't too bad. A mishap takes effect immediately.
 
 ### Dooms
 
-Every apprentice knows that if they travel down the
-road of wizardry long enough, their doom will
-eventually claim them. It waits at the end of every
-wizard's career.
+Every apprentice knows that if they travel down the road of wizardry long enough, their doom will eventually claim them. It waits at the end of every wizard's career.
 
 Each school of magic has different Dooms.
 
-The first time you roll triples, you suffer your first
-Doom.
+The first time you roll triples, you suffer your first Doom.
 
-The second time you roll triples, you suffer your
-second Doom.
+The second time you roll triples, you suffer your second Doom.
 
-The third time you roll triples, you suffer your third
-and final Doom.
+The third time you roll triples, you suffer your third and final Doom.
 
-While your first and second Dooms tend to be
-survivable, your final Doom usually spells the end of
-your career (usually through your death).
+While your first and second Dooms tend to be survivable, your final Doom usually spells the end of your career (usually through your death).
 
 There are three ways to avoid your Doom.
-- Never use more than two casting dice at a
-    time, forever limiting your magical power.
-- Seek out a solution to your Doom. These are
-    always unique quests that your DM designs
-    for you. They are usually pretty epic.
+
+- Never use more than two casting dice at a time, forever limiting your magical power.
+- Seek out a solution to your Doom. These are always unique quests that your DM designs for you. They are usually pretty epic.
 - Become a warlock.
 
 ### Casting a Prepared Spell
 
-You have a number of casting dice equal to the
-number of levels you have in casting classes. Each
-casting die is a d6.
+You have a number of casting dice equal to the number of levels you have in casting classes. Each casting die is a d6.
 
-When you want to cast a spell, pick a prepared spell,
-choose how many casting dice you want to invest in
-it, and then roll those dice.
+When you want to cast a spell, pick a prepared spell, choose how many casting dice you want to invest in it, and then roll those dice.
 
-Every casting die that comes up 1-3 returns to your
-casting dice pool. Every die that comes up 4-6 is
-exhausted, and only returns to your casting dice
-pool after a good night's sleep. Once your casting
-dice pool is empty, you cannot cast any more spells
-that day.
+Every casting die that comes up 1-3 returns to your casting dice pool. Every die that comes up 4-6 is exhausted, and only returns to your casting dice pool after a good night's sleep. Once your casting dice pool is empty, you cannot cast any more spells that day.
 
-The higher the sum of your casting dice, the more
-effective the spell. For example, the damage that a
-fireball spell does is equal to the sum of your casting
-dice. [sum] = sum of casting dice.
+The higher the sum of your casting dice, the more effective the spell. For example, the damage that a fireball spell does is equal to the sum of your casting dice. [sum] = sum of casting dice.
 
-For other spells, it is only the sum of the dice that
-matters. For example, knock opens one portal for
-every casting die invested. [dice] = number of
-casting dice.
+For other spells, it is only the sum of the dice that matters. For example, knock opens one portal for every casting die invested. [dice] = number of casting dice.
 
-It is possible to prepare to a spell from a scroll,
-exactly as if from a spellbook. If the scroll is
-destroyed while the spell is still in your head, you
-cannot remove the scroll without losing it
-permanently (since the spell has no home to go back
-to). You'll need to scribe it onto a new scroll, in a
-process that takes an hour.
+It is possible to prepare to a spell from a scroll, exactly as if from a spellbook. If the scroll is destroyed while the spell is still in your head, you cannot remove the scroll without losing it permanently (since the spell has no home to go back to). You'll need to scribe it onto a new scroll, in a process that takes an hour.
 
 ### Magic Robes
 
-Wizards can wear armor without penalty. However,
-if they wear a magic robe, they get +1 casting dice,
-beginning in the morning when they wake up in the
-robe, and lasting until they remove it.
+Wizards can wear armor without penalty. However, if they wear a magic robe, they get +1 casting dice, beginning in the morning when they wake up in the robe, and lasting until they remove it.
 
-Anyone can wear a magic robe to get +1 casting die,
-even the Int 7 fighter. However, the fighter still
-cannot cast spells since they have no spells
-memorized (that requires spell slots).
+Anyone can wear a magic robe to get +1 casting die, even the Int 7 fighter. However, the fighter still cannot cast spells since they have no spells memorized (that requires spell slots).
 
 ### Magic Wands
 
-A wand lets you cast a spell without having it
-memorized. It is essentially another spell slot with a
-fixed spell inside it.
+A wand lets you cast a spell without having it memorized. It is essentially another spell slot with a fixed spell inside it.
 
-If the Int 7 fighter wears a magic robe AND wields a magic wand, they can cast spells because they have
-a casting die (from the robe) and a spell (from the
-wand's spell slot).
+If the Int 7 fighter wears a magic robe AND wields a magic wand, they can cast spells because they have a casting die (from the robe) and a spell (from the wand's spell slot).
 
 ### Magic Staves
 
-There are all sorts of staves, and most of them are
-some variation of the wand. Most give you the
-ability to cast a new spell, and then bonuses if you
-can actually manage to cast that spell
-independently.
+There are all sorts of staves, and most of them are some variation of the wand. Most give you the ability to cast a new spell, and then bonuses if you can actually manage to cast that spell independently.
 
-For example, the Briar Staff allows you to cast
-entangle but if you cast entangle without using the
-staff, the staff allows you to teleport to anywhere
-within 50' as long as you enter and exit a plant.
+For example, the Briar Staff allows you to cast entangle but if you cast entangle without using the staff, the staff allows you to teleport to anywhere within 50' as long as you enter and exit a plant.
 
 # Classes
 
