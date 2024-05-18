@@ -17,12 +17,12 @@ image:"%%IMG2AgABVgD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8
 script:"Home.0"
 {widgets}
 CharacterName:{"type":"field","size":[100,20],"pos":[5,123],"font":"menu","style":"plain","align":"center","value":"name"}
-Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{},"modifier":{},"roll":{}}}
-Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{},"modifier":{"value":"-3"},"roll":{}}}
+Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{"value":17},"modifier":{"value":"+2"},"roll":{}}}
+Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{"value":24},"modifier":{"value":"+5"},"roll":{}}}
 Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Con"},"score":{},"modifier":{},"roll":{}}}
 Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{"value":20},"modifier":{"value":"+3"},"roll":{}}}
-Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Wis"},"score":{"value":5},"modifier":{"value":"-2"},"roll":{}}}
-Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{},"modifier":{"value":"-3"},"roll":{}}}
+Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Wis"},"score":{"value":4},"modifier":{"value":"-2"},"roll":{}}}
+Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":24},"modifier":{"value":"+5"},"roll":{}}}
 level:{"type":"slider","size":[43,17],"pos":[128,22],"script":"Home.7","interval":[0,20],"value":1,"style":"compact"}
 label1:{"type":"field","size":[21,17],"pos":[106,22],"locked":1,"value":"LVL"}
 label2:{"type":"field","size":[17,16],"pos":[106,40],"locked":1,"value":"HP"}
@@ -41,36 +41,38 @@ label3:{"type":"field","size":[29,16],"pos":[124,40],"locked":1,"value":{"text":
 Inventory:{"type":"grid","size":[140,115],"pos":[174,38],"script":"Home.11","scrollbar":1,"headers":0,"bycell":1,"widths":[99],"format":"si","value":{"INVENTORY":["Blanket","3x Rations","","","","","","","","","","","","","","","","","",""],"#":[1,1,"","","","","","","","","","","","","","","","","",""]},"row":2,"col":1}
 DeltaButton:{"type":"button","size":[42,20],"pos":[332,317],"script":"Home.12","text":"Deltas"}
 label8:{"type":"field","size":[138,17],"pos":[175,21],"locked":1,"font":"menu","show":"invert","align":"center","value":"INVENTORY"}
-statroller1:{"type":"contraption","size":[140,156],"pos":[174,182],"def":"statroller","widgets":{"label":{},"button1":{"pos":[0,84]},"button2":{"pos":[0,96],"text":"Dex-3"},"button3":{"pos":[0,108],"text":"Con+0"},"button4":{"pos":[0,120],"text":"Int+3"},"button5":{"pos":[0,132],"text":"Wis-2"},"button6":{"pos":[0,144],"text":"Cha-3"},"roll":{"size":[93,156],"pos":[47,0],"value":"3 (4-1)\n12 (13-1)\n19 (20-1)\n18 (19-1)\n15 (16-1)\n8 (8+0)\n13 (13+0)\n15 (15+0)\n3 (3+0)\n2 (2+0)\n14 (14+0)\n3 (3+0)\n18\n18\n7\n4\n7\n1"},"grid1":{"size":[65,160],"value":{"score":[10,0,10,20,5,0]},"row":1},"d20":{"size":[46,56],"pos":[0,28]}}}
+statroller1:{"type":"contraption","size":[140,156],"pos":[174,182],"def":"statroller","widgets":{"label":{},"button1":{"pos":[0,84],"text":"Str+2"},"button2":{"pos":[0,96],"text":"Dex+5"},"button3":{"pos":[0,108],"text":"Con+0"},"button4":{"pos":[0,120],"text":"Int+3"},"button5":{"pos":[0,132],"text":"Wis-2"},"button6":{"pos":[0,144],"text":"Cha+5"},"roll":{"size":[93,156],"pos":[47,0],"value":"3 (4-1)\n12 (13-1)\n19 (20-1)\n18 (19-1)\n15 (16-1)\n8 (8+0)\n13 (13+0)\n15 (15+0)\n3 (3+0)\n2 (2+0)\n14 (14+0)\n3 (3+0)\n18\n18\n7\n4\n7\n1"},"grid1":{"size":[65,160],"value":{"score":[17,24,10,20,4,24]},"row":1},"d20":{"size":[46,56],"pos":[0,28]}}}
 NotesButton:{"type":"button","size":[40,20],"pos":[401,317],"script":"Home.13","text":"Notes"}
 Portrait:{"type":"canvas","size":[100,100],"pos":[5,22],"image":"%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wA3","scale":1}
 template5:{"type":"field","size":[175,51],"pos":[332,262],"show":"invert","scrollbar":1,"value":"?:"}
-enum1:{"type":"contraption","size":[84,25],"pos":[230,155],"script":"Home.9","def":"enum","widgets":{"s":{"size":[84,25],"interval":[0,3],"format":"None"},"o":{"size":[84,20],"value":"None\nLeather\nChain\nPlate"}}}
-field1:{"type":"field","size":[55,25],"pos":[174,155],"font":"mono","value":"Armour"}
+field1:{"type":"field","size":[55,25],"pos":[174,155],"font":"mono","value":"Armor Bonus"}
 attack:{"type":"contraption","size":[50,21],"pos":[6,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Atk"},"val":{"value":"11"}}}
-defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{"value":"10"}}}
-movement:{"type":"contraption","size":[50,21],"pos":[112,278],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{"value":"9"}}}
-stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{"value":"2"}}}
-save:{"type":"contraption","size":[50,21],"pos":[59,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{"value":"2"}}}
+defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{"value":"15"}}}
+movement:{"type":"contraption","size":[50,21],"pos":[112,278],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{"value":"17"}}}
+stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{"value":"10"}}}
+save:{"type":"contraption","size":[50,21],"pos":[59,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{"value":"10"}}}
 ClearPortrait:{"type":"button","size":[36,20],"pos":[6,101],"script":"Home.14","text":"clear"}
-button1:{"type":"button","size":[60,20],"pos":[113,316],"script":"Home.15"}
+armor_bonus:{"type":"slider","size":[83,25],"pos":[231,154],"script":"Home.15","interval":[0,6],"step":2,"style":"compact"}
 
 {script:Home.0}
 on view do
- card.update_derived_stats[]
+ update_derived_stats[]
 end
 
 on update_derived_stats do
- # attack: Starts at 11. Increases with level TODO
- attack.value:11
- # defense: 10 + Dex. Bonus OR bonus from armour
- defense.value:(10 + (Statistic2.mod | 0)) # Armour bonus TODO
- # movement: 12 + Dex. Bonus - Armour penalty
- movement.value:(12 + Statistic2.mod) # - Armour penalty TODO
- # stealth: 5 + Dex. Bonus - Armour penalty
- stealth.value:(5 + Statistic2.mod) # - Armour penalty TODO
- # save: 5 + Cha. Bonus
- save.value:(5 + Statistic6.mod) # - increases with level TODO 
+ armor_penalty:0
+ if armor_bonus.value=2
+  armor_penalty:0
+ elseif armor_bonus.value=4
+  armor_penalty:-2
+ elseif armor_bonus.value=6
+  armor_penalty:-4
+ end
+ attack.update_stat[level.text Statistic2.mod Statistic6.mod armor_bonus.value armor_penalty]
+ defense.update_stat[level.text Statistic2.mod Statistic6.mod armor_bonus.value armor_penalty]
+ movement.update_stat[level.text Statistic2.mod Statistic6.mod armor_bonus.value armor_penalty]
+ stealth.update_stat[level.text Statistic2.mod Statistic6.mod armor_bonus.value armor_penalty]
+ save.update_stat[level.text Statistic2.mod Statistic6.mod armor_bonus.value armor_penalty]
 end
 {end}
 
@@ -129,11 +131,7 @@ on change val do
  else
   template1.show:"invert"
  end
- attack.update_stat[val Statistic2.mod Statistic6.mod 0 0]
- defense.update_stat[val Statistic2.mod Statistic6.mod 0 0]
- movement.update_stat[val Statistic2.mod Statistic6.mod 0 0]
- stealth.update_stat[val Statistic2.mod Statistic6.mod 0 0]
- save.update_stat[val Statistic2.mod Statistic6.mod 0 0]
+ card.event["update_derived_stats"]
 end
 {end}
 
@@ -181,12 +179,8 @@ end
 {end}
 
 {script:Home.15}
-on click do
- attack.update_stat[]
- defense.update_stat[]
- movement.update_stat[]
- stealth.update_stat[]
- save.update_stat[]
+on change val do
+ card.event["update_derived_stats"]
 end
 {end}
 
@@ -308,7 +302,6 @@ on set_score x do
   modifier.value:m
  end
  card.event["change" me.abbr me.score]
- deck.event["update_derived_stats", "stat_change"]
 end
 
 on get_mod do
@@ -588,8 +581,8 @@ script:"enum.0"
 template:"on change val do\n \nend"
 attributes:{"name":["options"],"label":["Options"],"type":["code"]}
 {widgets}
-s:{"type":"slider","size":[100,25],"pos":[0,0],"interval":[0,100],"style":"compact"}
-o:{"type":"field","size":[100,20],"pos":[0,-30],"locked":1,"style":"plain"}
+s:{"type":"slider","size":[100,25],"pos":[0,0],"script":"Home.9","interval":[0,100],"style":"compact"}
+o:{"type":"field","size":[100,20],"pos":[0,-30],"locked":1,"script":"Home.9","style":"plain"}
 
 {script:enum.0}
 on get_options   do o.text end
@@ -610,7 +603,6 @@ end
 on change do
  view[]
  card.event["change" get_value[]]
- deck.event["update_derived_stats", "armor_change"]
 end
 
 on view do
@@ -663,17 +655,17 @@ on update_stat level dex_bonus cha_bonus armor_bonus armor_penalty do
  elseif name.text="Mov"
    print["actually updating %s" format name.text]
   # movement: 12 + Dex. Bonus - Armour penalty
-  set_value[(12 + dex_bonus - armor_penalty)]
+  set_value[(12 + dex_bonus + armor_penalty)]
  elseif name.text="Stlth"
    print["actually updating %s" format name.text]
   # stealth: 5 + Dex. Bonus - Armour penalty
-  set_value[(5 + dex_bonus - armor_penalty)]
+  set_value[(5 + dex_bonus + armor_penalty)]
  elseif name.text="Save"
    print["actually updating %s" format name.text]
   # save: 5 + Cha. Bonus
   set_value[(5 + cha_bonus)] # - increases with level TODO
  else
-  sys.panic["Unknown derived static"]
+  sys.panic["Unknown derived statistic"]
  end
 end
 
