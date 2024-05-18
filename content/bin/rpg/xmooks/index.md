@@ -240,7 +240,7 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 
 **Blind**: Cannot see. -8 to Attack and Defense. Automatically hit by area-of-effect attacks.
 
-**Burned / Frozen**: Save. If failed, roll on the table below. If passed, lose `1d6` digits (roll randomly using a d20) and reduce all future damage of the appropriate type (acid, fire, ice, etc.) by 2.
+**Burned / Frozen**: Save. If failed, roll on the table below. If passed, lose `1d6` digits (roll randomly using a `d20`) and reduce all future damage of the appropriate type (acid, fire, ice, etc.) by 2.
 
 1. Lose `2d6` digits.
 2. Lose all but 1 digit.
@@ -403,7 +403,7 @@ If you want to modify these movement rates based on Movement, use `20' + the low
 
 ### Random Encounters
 
-Roll for a Random Encounter every 30 minutes or whenever a loud noise occurs. Usually, that's a 1 on a d6.
+Roll for a Random Encounter every 30 minutes or whenever a loud noise occurs. Usually, that's a 1 on a `d6`.
 
 If the PCs are moving cautiously, they get the Omen before the encounter. If they are moving quickly or incautiously, they don't get the Omen.
 
@@ -430,13 +430,84 @@ Every hex travelled on foot fills 1 Inventory Slot with Fatigue. Riding a horse 
 
 Hexes contain an obvious feature (something the PCs will encounter) and a Hidden Feature (something the PCs might encounter if they search the hex, spend time there, or visit multiple times).
 
-Test for a random encounter every 6 hours or whenever the PCs make a lot of noise or do something that's likely to attract attention. Usually, that's a 1 on a d6.
+Test for a random encounter every 6 hours or whenever the PCs make a lot of noise or do something that's likely to attract attention. Usually, that's a 1 on a `d6`.
 
 Roll for the weather each day.
 
 Most activities take 1 hour.
 
 PCs can safely travel for 12 hours per day (2 hexes), or push their luck with 18 hours (3 hexes), losing the benefits of resting and having lunch.
+
+# Magic
+
+## Mishaps
+
+When you suffer a Mishap, look up your school of
+magic and roll on the Mishap table. A mishap takes effect immediately.
+
+## Dooms
+
+Every apprentice knows that if they travel down the
+road of wizardry long enough, their doom will
+eventually claim them. It waits at the end of every
+wizard's career.
+
+Each school of magic has different Dooms.
+
+The first time you roll triples while casting a spell, you suffer your first
+Doom.
+
+The second time you roll triples while casting a spell, you suffer your
+second Doom.
+
+The third time you roll triples while casting a spell, you suffer your third
+and final Doom.
+
+While your first and second Dooms tend to be
+survivable, your final Doom usually spells the end of
+your career (usually through your death).
+
+There are three ways to avoid your Doom.
+- Never use more than two casting dice at a time, forever limiting your magical power.
+- Seek out a solution to your Doom. These are always unique quests that your DM designs for you. They are usually pretty epic.
+- Become a warlock.
+
+## Magic Robes
+
+Wizards can wear armor without penalty. However,
+if they wear a magic robe, they get +1 casting dice,
+beginning in the morning when they wake up in the
+robe, and lasting until they remove it.
+
+Anyone can wear a magic robe to get +1 casting die,
+even the Int 7 fighter. However, the fighter still
+cannot cast spells since they have no spells
+memorized (that requires spell slots).
+
+## Magic Wands
+
+A wand lets you cast a spell without having it
+memorized. It is essentially another spell slot with a
+fixed spell inside it.
+
+If the Int 7 fighter wears a magic robe AND wields a magic wand, they can cast spells because they have
+a casting die (from the robe) and a spell (from the
+wand's spell slot).
+
+## Magic Staves
+
+
+There are all sorts of staves, and most of them are
+some variation of the wand. Most give you the
+ability to cast a new spell, and then bonuses if you
+can actually manage to cast that spell
+independently.
+
+For example, the Briar Staff allows you to cast
+entangle but if you cast entangle without using the
+staff, the staff allows you to teleport to anywhere
+within 50' as long as you enter and exit a plant.
+
 
 # Introduction for New Players
 
@@ -601,7 +672,7 @@ This visible manifestation may hint at what a person innate magical potential is
 
 Spells are living creatures. Spells, enchantments, ghosts, and souls are all more or less the same. A wizard's spells range in intelligence from pond scum to ferrets. A spellbook is a menagerie-prison. A well-trained brain is a mind-gun loaded with spell-bullets. Minor spells, called cantrips, infest a wizard's soul and bind to it. It takes 1 hour to move any number of spells between a spell slot in your brain and a spellbook, scroll, or wand.
 
-To cast a spell, select a number of Magic Dice (MD) you wish to invest, roll them, and add the numbers together. As a Wizard, you get +1 MD per Wizard template. Most spells depend on the number of [dice] invested and the [sum] they show. Doubles generate Mishaps; triples generate Dooms. Casting a spell from a scroll provides +1 MD as the scroll burns.
+To cast a spell, select a number of Magic Dice (MD) you wish to invest, roll them, and add the numbers together. As a Wizard, you get +1 MD per Wizard template. Most spells depend on the number of [dice] invested and the [sum] they show. Doubles generate Mishaps (bad); triples generate Dooms (worse). Casting a spell from a scroll provides +1 MD as the scroll burns.
 
 Dice that roll 1-3 return to your casting pool and can be used again that day. Dice that roll 4-6 are removed from your casting pool for the day. Your spells return at sunrise to last location they were imprisoned, when the octarine light of the sun touches the world and infuses Creation with an extra boost of raw magic. Your MD return if you get a good night's sleep. If you didn't sleep well, you can Save for each MD to have them return to your pool anyway.
 
