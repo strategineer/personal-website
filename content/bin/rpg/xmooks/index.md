@@ -38,7 +38,7 @@ From a player's point of view, a roll is a risk. Testing Strength to leap across
 
 ## The Core Mechanic
 
-Almost everything is based on rolling a d20. If you roll equal to or under a target number, you succeed. Roll over, and you fail.
+Almost everything is based on rolling a `d20`. If you roll equal to or under a target number, you succeed. Roll over, and you fail.
 
 Throughout the text, whenever you see "Roll under...", it means "Roll equal to or under...".
 
@@ -164,7 +164,7 @@ On an unmodified Attack roll of 20, the attack automatically misses. Further pen
 
 The danger a character can resist before taking injury is quantified by Hit Points (HP). They are better thought of as "Don't Get Hit" Points. There are no mechanical effects for being reduced to 0 HP. Any damage in excess of this (i.e. negative HP) is known as Lethal Damage, which always incurs a roll on the Death and Dismemberment Table.
 
-PCs have a maximum HP of 20. Enemies have variable HP base on their Hit Dice (HD). A hit dice is a d8. Roll the number of HD listed and add the numbers together. An enemy with surprisingly low HP might be sickly or wounded. An enemy with high HP might be a champion (or two enemies).
+PCs have a maximum HP of 20. Enemies have variable HP base on their Hit Dice (HD). A hit dice is a `d8`. Roll the number of HD listed and add the numbers together. An enemy with surprisingly low HP might be sickly or wounded. An enemy with high HP might be a champion (or two enemies).
 
 ## Healing
 
@@ -194,7 +194,7 @@ Monsters (or hirelings) may try to run away or surrender if combat turns against
 
 1. The side (PCs or monsters) takes their first death.
 2. When half the side has been incapacitated or killed.
-3. If some particularly frightening or spectacular effect occurs. Roll 2d6. If the result is over the creatures' Morale score, the creature attempts to retreat, surrenders, or panics. Morale can be adjusted (unless 2 or 12) by situational bonuses.
+3. If some particularly frightening or spectacular effect occurs. Roll `2d6`. If the result is over the creatures' Morale score, the creature attempts to retreat, surrenders, or panics. Morale can be adjusted (unless 2 or 12) by situational bonuses.
 
 # Injuries, Death & Dismemberment
 
@@ -202,9 +202,9 @@ Monsters (or hirelings) may try to run away or surrender if combat turns against
 
 `1d12 + Lethal Damage + Number of Current Injuries`
 
-The effects are cumulative. If a PC with -8 HP and no current Injuries rolls a 10 on a d12, to the leg, `X = 10+8+0 = 18`. They gain 4 Fatal Wounds, the leg is Mangled, and also Disabled for 18 days.
+The effects are cumulative. If a PC with -8 HP and no current Injuries rolls a 10 on a `d12`, to the leg, `X = 10+8+0 = 18`. They gain 4 Fatal Wounds, the leg is Mangled, and also Disabled for 18 days.
 
-If they took a further 1 point of damage (-9 HP), they would roll `1d12 + 9 (Lethal Damage) + 1 (Mangled) + 1 (Disabled)` for `1d12+11`.
+If they took a further 1 point of damage (-9 HP), they would roll `1d12 + 9 (Lethal Damage) + 1 (Mangled) + 1 (Disabled)` for `1d12 + 11`.
 
 ## Hit Location Table
 
@@ -228,7 +228,7 @@ If required, roll `1d6` for hit location.
 
 ## Fatal Wounds
 
-A PC has 3 rounds to clear all their Fatal Wounds or they die. They can attempt to remove a Fatal Wound on their turn by rolling 1 on a d6. PCs with Fatal Wounds are unconscious. This does not mean they are quiet or asleep (they can be screaming and holding a stump), but it means they cannot take conscious or deliberate actions. Remove oldest Fatal Wounds first. You may want to use different coloured d6s to represent Fatal Wounds acquired on different rounds.
+A PC has 3 rounds to clear all their Fatal Wounds or they die. They can attempt to remove a Fatal Wound on their turn by rolling 1 on a `d6`. PCs with Fatal Wounds are unconscious. This does not mean they are quiet or asleep (they can be screaming and holding a stump), but it means they cannot take conscious or deliberate actions. Remove oldest Fatal Wounds first.
 
 Up to two adjacent allies can try to remove Fatal Wounds from a dying character by spending their turn doctoring the wounded PC and then rolling under ½ Intelligence (unless they have a useful skill).
 
@@ -240,9 +240,9 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 
 **Blind**: Cannot see. -8 to Attack and Defense. Automatically hit by area-of-effect attacks.
 
-**Burned / Frozen**: Save. If failed, roll on the table below. If passed, lose 1d6 digits (roll randomly using a d20) and reduce all future damage of the appropriate type (acid, fire, ice, etc.) by 2.
+**Burned / Frozen**: Save. If failed, roll on the table below. If passed, lose `1d6` digits (roll randomly using a d20) and reduce all future damage of the appropriate type (acid, fire, ice, etc.) by 2.
 
-1. Lose 2d6 digits.
+1. Lose `2d6` digits.
 2. Lose all but 1 digit.
 3. Lose both hands.
 4. Lose both feet.
@@ -258,7 +258,7 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 3. Permanently lose 1 Constitution.
 4. Crushed Throat. Cannot speak louder than a whisper.
 5. Crushed Guts. Constitution is 4 for the purposes of holding your breath. Cannot swim or dive.
-6. Broken Spine. Paralyzed from the neck down. Save to recover after 1d6 days. If failed, Save again after 1d6 weeks. If both Saves are failed, the PC is permanently paralyzed.
+6. Broken Spine. Paralyzed from the neck down. Save to recover after `1d6` days. If failed, Save again after `1d6` weeks. If both Saves are failed, the PC is permanently paralyzed.
 
 **Concussed**: The PC's Wisdom becomes 4 for Initiative.
 
@@ -288,7 +288,7 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 3. Permanently lose 1 Charisma.
 4. Left eye lost. -1 to range attacks. If both eyes lost, Blind.
 5. Right eye lost. -1 to range attacks. If both eyes lost, Blind.
-6. Coma. Unconscious. Save to recover after 1d6 days. If failed, Save again after 1d6 weeks. If both Saves are failed, the PC is permanently unconscious.
+6. Coma. Unconscious. Save to recover after `1d6` days. If failed, Save again after `1d6` weeks. If both Saves are failed, the PC is permanently unconscious.
 
 **Wracked**: Save. If failed, roll on the table below. If passed, reduce all future poison / toxin damage from the same or similar sources by 2 and gain an Interesting Scar.
 
@@ -340,7 +340,7 @@ Sprinting repeatedly, outdoor travel without rest, or excessively tiring activit
 - **Leather** armour takes up 0 Inventory Slots and provides +2 to Defense.
 - **Chain** armour takes up 2 Inventory Slots and provides a +4 bonus to Defense. It also imposes a -2 penalty to Movement and Stealth.
 - **Plate** armour takes up 4 Inventory Slots and provides a +6 bonus to Defense. It also imposes a -4 penalty to Movement and Stealth.
-- **Shields** take up 1 Inventory Slot and provide a +1 bonus to Defense. A PC can sunder their shield to reduce incoming damage by 1d12. The shield is broken afterwards.
+- **Shields** take up 1 Inventory Slot and provide a +1 bonus to Defense. A PC can sunder their shield to reduce incoming damage by `1d12`. The shield is broken afterwards.
 
 ### Melee Weapons
 
@@ -407,7 +407,7 @@ Roll for a Random Encounter every 30 minutes or whenever a loud noise occurs. Us
 
 If the PCs are moving cautiously, they get the Omen before the encounter. If they are moving quickly or incautiously, they don't get the Omen.
 
-Roll 2d6 for Morale. If the result is equal to or under Morale, the creature is hostile. If over, positive or uncertain. Modify Morale by anything from +4 to -4 depending on circumstances.
+Roll `2d6` for Morale. If the result is equal to or under Morale, the creature is hostile. If over, positive or uncertain. Modify Morale by anything from +4 to -4 depending on circumstances.
 
 ### Light
 
@@ -498,13 +498,13 @@ Before we start, do you have any questions right now?
 # Character Generation
 
 1. Choose or roll for your **[Race](#table-of-races)**. Your character's Race will grant them a Perk, a Drawback, and one Stat they can reroll.
-2. Roll your **[Stats](#stats)**. 3d6 in order. You may reroll the Stat given by your Race and pick the higher result.
+2. Roll your **[Stats](#stats)**. `3d6` in order. You may reroll the Stat given by your Race and pick the higher result.
 3. In X-Mooks, all PCs are **[Wizards](#wizard-class)** at level 1! Choose a Wizard School [from Many Rats on a Stick](#choosing-a-wizard-school-option-1) OR [from the rest of the GLOG-osphere](#choosing-a-wizard-school-option-2).
 4. [Gain the Wizard's Spellcasting Template A](#a-spellcasting).
 5. Choose how your character's [innate spell potential manifests](#innate-magical-potential-manifestation).
 6. Take items and bonuses dictacted by your Wizard class and chosen Wizard School.
 7. Roll for any skills or items dictacted by your Wizard class and chosen Wizard School.
-8. Gain 1d10cp. All PCs gain a blanket (1 slot) and 3 rations (1 slot).
+8. Gain `1d10` cp. All PCs gain a blanket (1 slot) and 3 rations (1 slot).
 
 ## The Base Adventurer
 
@@ -522,7 +522,7 @@ Multiclassing should make sense. Multiclassing for optimization or mechanical re
 
 PCs gain experience points (XP) by looting stuff. Wages don't count. The loot must be taken to a place of safety and divided or assigned to the PCs to become XP. Items or equipment used by the characters and not sold don't count for XP purposes. Players should track a PC's XP (the total amount of treasure they have accumulated) along with their current cash. Purely frivolous spending converts 10% of the money spent into XP.
 
-Whenever a PC levels, increase their HP, Attack, and base Save (before their Charisma bonus is added). A PC can also test to improve a stat of their choice. Declare the stat and roll 3d6. If the result is over, the stat's value increases by 1.
+Whenever a PC levels, increase their HP, Attack, and base Save (before their Charisma bonus is added). A PC can also test to improve a stat of their choice. Declare the stat and roll `3d6`. If the result is over, the stat's value increases by 1.
 
 | Level | XP    | HP (20 Max) | Class Templates | Attack | Base Save |
 | ----- | ----- | ----------- | --------------- | ------ | --------- |
@@ -605,7 +605,7 @@ To cast a spell, select a number of Magic Dice (MD) you wish to invest, roll the
 
 Dice that roll 1-3 return to your casting pool and can be used again that day. Dice that roll 4-6 are removed from your casting pool for the day. Your spells return at sunrise to last location they were imprisoned, when the octarine light of the sun touches the world and infuses Creation with an extra boost of raw magic. Your MD return if you get a good night's sleep. If you didn't sleep well, you can Save for each MD to have them return to your pool anyway.
 
-When you gain Template A, roll 1d6 and gain the spell listed. Template B, roll a 1d6 and a 1d8. Template C, roll 1d10. Template D, choose 4 spells from the list. If a duplicate spell is rolled, you may choose to keep it or reroll.
+When you gain Template A, roll `1d6` and gain the spell listed. Template B, roll a `1d6` and a `1d8`. Template C, roll `1d10`. Template D, choose 4 spells from the list. If a duplicate spell is rolled, you may choose to keep it or reroll.
 
 You can try to bodge together a spell-like effect appropriate to your school by pouring any number of MD into a target and hoping for the best. Effects are adjudicated by the GM, but are usually haphazard and dangerous. Mishaps and Dooms apply.
 
@@ -667,12 +667,12 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 | Item                                 | Cost (Urban) | Cost(Rural) |
 | ------------------------------------ | ------------ | ----------- |
-| Light Weapon (d6+Str. B) (3/slot)    | 5sp          | 5sp         |
-| Medium Weapon (d8/d10+Str. B)        | 2gp          | 5gp         |
-| Heavy Weapon (d12+Str. B) (0.5/slot) | 5gp          | 15gp        |
-| Sling (d6)                           | 3sp          | 3sp         |
-| Bow (d6)                             | 25sp         | 25sp        |
-| Crossbow (d12)                       | 5gp          | -           |
+| Light Weapon (1d6 + Str. Bonus) (3/slot)    | 5sp          | 5sp         |
+| Medium Weapon (1d8/d10 + Str. Bonus)        | 2gp          | 5gp         |
+| Heavy Weapon (1d12 + Str. Bonus) (0.5/slot) | 5gp          | 15gp        |
+| Sling (1d6)                           | 3sp          | 3sp         |
+| Bow (1d6)                             | 25sp         | 25sp        |
+| Crossbow (1d12)                       | 5gp          | -           |
 | Arrows/Bolts (20/slot)               | 5cp each     | 5cp each    |
 {.table .table-striped .table-bordered .table-sm}
 
