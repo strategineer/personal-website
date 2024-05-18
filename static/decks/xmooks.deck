@@ -10,19 +10,6 @@ author:"strategineer"
 on stat_to_mod x do
  floor (x/3)-3 #GLOG classic.
 end
-
-on update_derived_stats do
- # attack: Starts at 11. Increases with level
- attack.value:11
- # defense: 10 + Dex. Bonus OR bonus from armour
- defense.value:(10 + (Statistic2.mod | 0)) # Armour bonus TODO
- # movement: 12 + Dex. Bonus - Armour penalty
- movement.value:(12 + Statistic2.mod) # - Armour penalty TODO
- # stealth: 5 + Dex. Bonus - Armour penalty
- stealth.value:(5 + Statistic2.mod) # - Armour penalty TODO
- # save: 5 + Cha. Bonus
- save.value:(5 + Statistic6.mod)
-end
 {end}
 
 {card:Home}
@@ -31,11 +18,11 @@ script:"Home.0"
 {widgets}
 CharacterName:{"type":"field","size":[100,20],"pos":[5,123],"font":"menu","style":"plain","align":"center","value":"name"}
 Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{"value":13},"modifier":{"value":"+1"},"roll":{}}}
-Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{"value":19},"modifier":{"value":"+3"},"roll":{}}}
+Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{"value":24},"modifier":{"value":"+5"},"roll":{}}}
 Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Con"},"score":{"value":20},"modifier":{"value":"+3"},"roll":{}}}
-Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{"value":7},"modifier":{"value":"-1"},"roll":{}}}
+Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{"value":11},"modifier":{},"roll":{}}}
 Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Wis"},"score":{"value":24},"modifier":{"value":"+5"},"roll":{}}}
-Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":18},"modifier":{"value":"+3"},"roll":{}}}
+Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":16},"modifier":{"value":"+2"},"roll":{}}}
 level:{"type":"slider","size":[43,17],"pos":[128,22],"script":"Home.7","interval":[0,20],"value":1,"style":"compact"}
 label1:{"type":"field","size":[21,17],"pos":[106,22],"locked":1,"value":"LVL"}
 label2:{"type":"field","size":[17,16],"pos":[106,40],"locked":1,"value":"HP"}
@@ -54,22 +41,38 @@ label3:{"type":"field","size":[29,16],"pos":[124,40],"locked":1,"value":{"text":
 Inventory:{"type":"grid","size":[140,115],"pos":[174,38],"script":"Home.11","scrollbar":1,"headers":0,"bycell":1,"widths":[99],"format":"si","value":{"INVENTORY":["Blanket","3x Rations","","","","","","","","","","","","","","","","","",""],"#":[1,1,"","","","","","","","","","","","","","","","","",""]},"row":2,"col":1}
 DeltaButton:{"type":"button","size":[42,20],"pos":[332,317],"script":"Home.12","text":"Deltas"}
 label8:{"type":"field","size":[138,17],"pos":[175,21],"locked":1,"font":"menu","show":"invert","align":"center","value":"INVENTORY"}
-statroller1:{"type":"contraption","size":[140,156],"pos":[174,182],"def":"statroller","widgets":{"label":{},"button1":{"pos":[0,84],"text":"Str+1"},"button2":{"pos":[0,96],"text":"Dex+3"},"button3":{"pos":[0,108],"text":"Con+3"},"button4":{"pos":[0,120],"text":"Int-1"},"button5":{"pos":[0,132],"text":"Wis+5"},"button6":{"pos":[0,144],"text":"Cha+3"},"roll":{"size":[93,156],"pos":[47,0],"value":"3 (4-1)\n12 (13-1)\n19 (20-1)\n18 (19-1)\n15 (16-1)\n8 (8+0)\n13 (13+0)\n15 (15+0)\n3 (3+0)\n2 (2+0)\n14 (14+0)\n3 (3+0)\n18\n18\n7\n4\n7\n1"},"grid1":{"size":[65,160],"value":{"score":[13,19,20,7,24,18]},"row":1},"d20":{"size":[46,56],"pos":[0,28]}}}
+statroller1:{"type":"contraption","size":[140,156],"pos":[174,182],"def":"statroller","widgets":{"label":{},"button1":{"pos":[0,84],"text":"Str+1"},"button2":{"pos":[0,96],"text":"Dex+5"},"button3":{"pos":[0,108],"text":"Con+3"},"button4":{"pos":[0,120],"text":"Int+0"},"button5":{"pos":[0,132],"text":"Wis+5"},"button6":{"pos":[0,144],"text":"Cha+2"},"roll":{"size":[93,156],"pos":[47,0],"value":"3 (4-1)\n12 (13-1)\n19 (20-1)\n18 (19-1)\n15 (16-1)\n8 (8+0)\n13 (13+0)\n15 (15+0)\n3 (3+0)\n2 (2+0)\n14 (14+0)\n3 (3+0)\n18\n18\n7\n4\n7\n1"},"grid1":{"size":[65,160],"value":{"score":[13,24,20,11,24,16]},"row":1},"d20":{"size":[46,56],"pos":[0,28]}}}
 NotesButton:{"type":"button","size":[40,20],"pos":[401,317],"script":"Home.13","text":"Notes"}
 Portrait:{"type":"canvas","size":[100,100],"pos":[5,22],"image":"%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wA3","scale":1}
 template5:{"type":"field","size":[175,51],"pos":[332,262],"show":"invert","scrollbar":1,"value":"?:"}
 enum1:{"type":"contraption","size":[84,25],"pos":[230,155],"script":"Home.9","def":"enum","widgets":{"s":{"size":[84,25],"interval":[0,3],"format":"None"},"o":{"size":[84,20],"value":"None\nLeather\nChain\nPlate"}}}
 field1:{"type":"field","size":[55,25],"pos":[174,155],"font":"mono","value":"Armour"}
-attack:{"type":"contraption","size":[50,21],"pos":[6,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Atk"},"val":{}}}
-defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{}}}
-movement:{"type":"contraption","size":[50,21],"pos":[112,278],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{}}}
-stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{}}}
-save:{"type":"contraption","size":[50,21],"pos":[59,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{}}}
+attack:{"type":"contraption","size":[50,21],"pos":[6,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Atk"},"val":{"value":"11"}}}
+defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{"value":"15"}}}
+movement:{"type":"contraption","size":[50,21],"pos":[112,278],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{"value":"17"}}}
+stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{"value":"10"}}}
+save:{"type":"contraption","size":[50,21],"pos":[59,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{"value":"7"}}}
 ClearPortrait:{"type":"button","size":[36,20],"pos":[6,101],"script":"Home.14","text":"clear"}
+button1:{"type":"button","size":[49,26],"pos":[114,304],"script":"Home.15","text":"Update derived stats"}
 
 {script:Home.0}
 on view do
  
+end
+
+
+on update_derived_stats do
+ print["Running update_derived_stats"]
+ # attack: Starts at 11. Increases with level TODO
+ attack.value:11
+ # defense: 10 + Dex. Bonus OR bonus from armour
+ defense.value:(10 + (Statistic2.get_mod[] | 0)) # Armour bonus TODO
+ # movement: 12 + Dex. Bonus - Armour penalty
+ movement.value:(12 + Statistic2.get_mod[]) # - Armour penalty TODO
+ # stealth: 5 + Dex. Bonus - Armour penalty
+ stealth.value:(5 + Statistic2.get_mod[]) # - Armour penalty TODO
+ # save: 5 + Cha. Bonus
+ save.value:(5 + Statistic6.get_mod[]) # - increases with level TODO
 end
 {end}
 
@@ -128,7 +131,7 @@ on change val do
  else
   template1.show:"invert"
  end
- deck.event["update_derived_stats"]
+ card.update_derived_stats[]
 end
 {end}
 
@@ -172,6 +175,21 @@ end
 {script:Home.14}
 on click do
  Portrait.clear[]
+end
+{end}
+
+{script:Home.15}
+on click do
+ # attack: Starts at 11. Increases with level TODO
+ attack.value:11
+ # defense: 10 + Dex. Bonus OR bonus from armour
+ defense.value:(10 + (Statistic2.mod | 0)) # Armour bonus TODO
+ # movement: 12 + Dex. Bonus - Armour penalty
+ movement.value:(12 + Statistic2.mod) # - Armour penalty TODO
+ # stealth: 5 + Dex. Bonus - Armour penalty
+ stealth.value:(5 + Statistic2.mod) # - Armour penalty TODO
+ # save: 5 + Cha. Bonus
+ save.value:(5 + Statistic6.mod) # - increases with level TODO
 end
 {end}
 
@@ -293,7 +311,7 @@ on set_score x do
   modifier.value:m
  end
  card.event["change" me.abbr me.score]
- deck.event["update_derived_stats"]
+ card.update_derived_stats[]
 end
 
 on get_mod do
@@ -595,6 +613,7 @@ end
 on change do
  view[]
  card.event["change" get_value[]]
+ card.update_derived_stats[]
 end
 
 on view do
