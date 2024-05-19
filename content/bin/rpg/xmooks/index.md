@@ -405,7 +405,7 @@ If you want to modify these movement rates based on Movement, use `20' + the low
 
 Roll for a Random Encounter every 30 minutes or whenever a loud noise occurs. Usually, that's a 1 on a `d6`.
 
-If the PCs are moving cautiously, they get the Omen before the encounter. If they are moving quickly or incautiously, they don't get the Omen.
+If the PCs are moving cautiously, they get the Omen (a foreshadowing of something yet to come) before the encounter. If they are moving quickly or incautiously, they don't get the Omen.
 
 Roll `2d6` for Morale. If the result is equal to or under Morale, the creature is hostile. If over, positive or uncertain. Modify Morale by anything from +4 to -4 depending on circumstances.
 
