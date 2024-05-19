@@ -20,15 +20,15 @@ label3:{"type":"field","size":[29,18],"pos":[125,125],"locked":1,"border":0,"val
 label2:{"type":"field","size":[22,18],"pos":[5,125],"locked":1,"border":0,"value":"HP:"}
 label1:{"type":"field","size":[25,17],"pos":[92,38],"locked":1,"border":0,"value":"LVL:"}
 CharacterName:{"type":"field","size":[166,15],"pos":[5,22],"font":"menu","style":"plain","align":"center","value":"Jorge"}
-Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{},"modifier":{},"roll":{}}}
-Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{"value":12},"modifier":{"value":"+1"},"roll":{}}}
-Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Con"},"score":{"value":7},"modifier":{"value":"-1"},"roll":{}}}
-Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{"value":16},"modifier":{"value":"+2"},"roll":{}}}
-Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Wis"},"score":{"value":19},"modifier":{"value":"+3"},"roll":{}}}
-Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":24},"modifier":{"value":"+5"},"roll":{}}}
+Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{"value":15},"modifier":{"value":"+2"},"roll":{}}}
+Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{"value":17},"modifier":{"value":"+2"},"roll":{}}}
+Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Con"},"score":{"value":16},"modifier":{"value":"+2"},"roll":{}}}
+Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{"value":15},"modifier":{"value":"+2"},"roll":{}}}
+Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Wis"},"score":{},"modifier":{},"roll":{}}}
+Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":19},"modifier":{"value":"+3"},"roll":{}}}
 level:{"type":"slider","size":[56,17],"pos":[115,39],"script":"Home.7","interval":[0,20],"value":1,"style":"compact"}
-HP:{"type":"slider","size":[99,18],"pos":[23,125],"interval":[0,3],"value":1,"format":"%f/3","style":"bar"}
-MaxHP:{"type":"field","size":[17,18],"pos":[155,125],"locked":1,"script":"Home.8","style":"code","value":"3"}
+HP:{"type":"slider","size":[99,18],"pos":[23,125],"interval":[0,12],"value":1,"format":"%f/12","style":"bar"}
+MaxHP:{"type":"field","size":[17,18],"pos":[155,125],"locked":1,"script":"Home.8","style":"code","value":"12"}
 customfield1:{"type":"field","size":[79,13],"pos":[92,57]}
 template1:{"type":"field","size":[175,58],"pos":[332,22],"script":"Home.9","scrollbar":1,"value":"A: Spellcasting\n+1 MD, +1 Spell Slot, +1 Spell(1-6)"}
 template2:{"type":"field","size":[175,54],"pos":[332,83],"show":"invert","scrollbar":1,"value":"?:"}
@@ -38,24 +38,24 @@ SpellsButton:{"type":"button","size":[39,20],"pos":[468,317],"script":"Home.10",
 inventory:{"type":"grid","size":[152,136],"pos":[174,38],"script":"Home.11","scrollbar":1,"headers":0,"lines":1,"bycell":1,"widths":[99],"format":"si","value":{"INVENTORY":["Blanket","3x Rations","","","","","","","","","","","","","","","","","",""],"number":[1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"row":2,"col":1}
 DeltaButton:{"type":"button","size":[42,20],"pos":[346,317],"script":"Home.12","text":"Deltas"}
 label8:{"type":"field","size":[151,16],"pos":[175,22],"locked":1,"font":"menu","show":"invert","align":"center","value":"INVENTORY"}
-statroller1:{"type":"contraption","size":[152,112],"pos":[174,226],"def":"statroller","widgets":{"label":{},"button1":{"pos":[0,40]},"button2":{"pos":[0,52]},"button3":{"pos":[0,64]},"button4":{"pos":[0,76]},"button5":{"pos":[0,88]},"button6":{"pos":[0,100]},"roll":{"size":[101,112],"pos":[51,0],"value":"6 >15 (Wis)\n19 <=16 (Cha)\n15 <=15 (Wis)\n3 >14 (Int)\n13 <=13 (Con)\n7 >12 (Dex)\n7 >11 (Str)\n18 (1d20)\n5 (1d20)\n4 (1d20)\n18 (1d20)\n19 (1d20)\n9 (1d20)\n12 (1d20)\n19 (1d20)\n7 (1d20)\n18 (1d20)\n16 (1d20)\n12 (1d20)\n8 (1d20)\n1 (1d20)\n20 (1d20)\n12 (1d20)\n17 (1d20)\n11 (1d20)\n3 (1d20)\n7 (1d20)\n9 >11 (Str)\n!!20 <=11 (Str)\n9 >11 (Str)\n6 >11 (Str)\n16 <=11 (Str)\n16 <=11 (Str)\n12 <=12 (Dex)\n15 <=15 (Wis)\n16 <=15 (Wis)\n2 >14 (Int)\n5 >14 (Int)\n!1 >13 (Con)\n18 <=12 (Dex)\n17 <=11 (Str)\n3 >11 (Str)\n10\n12 >16 X (Cha)\n16 <=15 _/ (Wis)\n6 >15 X (Wis)\n5 >14 X (Int)\n15 <=13 _/ (Con)\n20 <=12 _/ (Dex)\n16 <=11 _/ (Str)\n12 <=0 _/ ()\n5 >11 X (Str)\n2 >11 X (Int)\n8 >11 X (Int)\n18 <=0 _/ ()\n19 <=0 _/ ()\n16 <=0 _/ ()\n12 >20 X (Con)\n9 >12 X (Dex)\n10 >18 X (Str)\n13 >18 X (Str)\n5 >18 X (Str)\n19 <=0 _/ ()\n19 <=0 _/ ()\n8 >18 X (Str)\n16 >18 X (Str)\n5 >18 X (Str)\n10 >12 X (Dex)\n9 >18 X (Str)\n15 >18 X (Str)\n8 >18 X (Str)\n10 >18 X (Str)\n1 >18 X (Str)\n2\n3 (>18 X)\n4\n9 (>18 X)\n3 (>18 X)\n7 (>9 X)\n11 (<=8 _/)\n15 (<=11 _/)\n3 (>8 X)\n8 (<=8 _/)\n17 (<=12 _/)\n6 (>12 X)\n8 (>12 X)\n2 (>12 X)\n16 (<=12 _/)\n13 (<=12 _/)\n13 _/\n6 X\n7 X\n20 _/\n12 _/\n1 X\n4 X\n9 X\n2 X\n16 _/\n5 X\n12 _/\n15 _/\n10 _/\n15 _/\n12 _/\n16 _/\n20 _/\n11 _/\n20 _/\n19 _/\n13 _/\n14\n7\n3\n6\n2\n19\n10\n4\n14\n13\n15\n6\n5\n17\n13\n17\n1\n3\n15\n7\n18\n3 (4-1)\n12 (13-1)\n19 (20-1)\n18 (19-1)\n15 (16-1)\n8 (8+0)\n13 (13+0)\n15 (15+0)\n3 (3+0)\n2 (2+0)\n14 (14+0)\n3 (3+0)\n18\n18\n7\n4\n7\n1"},"grid1":{"size":[65,116],"value":{"score":[10,12,7,16,19,24]}},"d20":{"size":[46,20],"pos":[0,20]}}}
 NotesButton:{"type":"button","size":[40,20],"pos":[409,317],"script":"Home.13","text":"Notes"}
 Portrait:{"type":"canvas","size":[86,84],"pos":[5,38],"image":"%%IMG2AFYAVAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AFQ=","scale":1}
 template5:{"type":"field","size":[175,51],"pos":[332,262],"show":"invert","scrollbar":1,"value":"?:"}
 field1:{"type":"field","size":[55,25],"pos":[174,200],"font":"mono","value":"Armor Bonus"}
 attack:{"type":"contraption","size":[50,21],"pos":[6,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Atk"},"val":{"value":"11"}}}
-defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{"value":"11"}}}
-movement:{"type":"contraption","size":[50,21],"pos":[112,278],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{"value":"13"}}}
-stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{"value":"6"}}}
-save:{"type":"contraption","size":[50,21],"pos":[59,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{"value":"11"}}}
-ClearPortrait:{"type":"button","size":[36,20],"pos":[6,101],"script":"Home.14","text":"clear"}
-armor_bonus:{"type":"slider","size":[95,25],"pos":[231,199],"script":"Home.15","interval":[0,6],"step":2,"style":"compact"}
+defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{"value":"12"}}}
+movement:{"type":"contraption","size":[50,21],"pos":[112,278],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{"value":"14"}}}
+stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{"value":"7"}}}
+save:{"type":"contraption","size":[50,21],"pos":[59,305],"script":"Home.14","def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{"value":"9"}}}
+ClearPortrait:{"type":"button","size":[36,20],"pos":[6,101],"script":"Home.15","text":"clear"}
+armor_bonus:{"type":"slider","size":[95,25],"pos":[231,199],"script":"Home.16","interval":[0,6],"step":2,"style":"compact"}
 field2:{"type":"field","size":[79,13],"pos":[92,70]}
 field3:{"type":"field","size":[79,13],"pos":[92,83]}
 field4:{"type":"field","size":[79,13],"pos":[92,96]}
 field5:{"type":"field","size":[79,13],"pos":[92,109]}
 slots:{"type":"contraption","size":[50,21],"pos":[264,176],"def":"DerivedStatistic","widgets":{"name":{"value":"Slots"},"val":{"value":"2"}}}
 encumbrance:{"type":"contraption","size":[50,21],"pos":[193,176],"def":"DerivedStatistic","widgets":{"name":{"value":"Enc"},"val":{}}}
+statroller1:{"type":"contraption","size":[151,114],"pos":[175,226],"def":"statroller","widgets":{"label":{},"button1":{},"button2":{},"button3":{},"button4":{},"button5":{},"button6":{},"roll":{"value":"9 >19 (Cha)\n5 >9 (Save)\n12 <=9 (Save)\n16 <=7 (Save)\n18 <=7 (Save)\n15 <=7 (Save)\n8 <=7 (Save)\n7 >13 (Cha)\n10 <=10 (Wis)\n4 >15 (Int)\n!!20 <=16 (Con)\n6 >15 (Int)\n4 >10 (Int)\n3 >16 (Con)\n2 >17 (Dex)\n2 >15 (Str)\n13 (1d20)\n18 (1d20)\n5 (1d20)\n16 <=10 (Str)\n13 <=10 (Str)\n19 <=10 (Dex)\n!!20 <=10 (Dex)\n5 >10 (Con)\n10 <=10 (Con)\n14 <=10 (Int)\n8 >10 (Wis)\n5 >10 (Wis)\n10 <=10 (Cha)\n8 >10 (Save)\n5 >10 (Save)\n!1 >10 (Save)\n4 >10 (Save)\n15 <=10 (Cha)\n3 >10 (Wis)\n14 <=10 (Con)\n15 <=10 (Dex)\n13 <=10 (Dex)\n4 >10 (Str)\n11 <=10 (Str)\n5 >10 (Str)\n3 >10 (Str)\n7 (1d20)\n19 (1d20)\n4 (1d20)\n13 (1d20)\n!1 >10 (Str)\n2 >10 (Dex)\n!!20 <=10 (Con)\n11 <=10 (Int)\n!!20 <=10 (Wis)\n9 >10 (Cha)\n2 >10 (Save)\n12 <=10 (Save)\n!1 >10 (Save)\n7 >10 (Cha)\n18 <=10 (Wis)\n11 <=10 (Int)\n15 <=10 (Con)\n16 <=10 (Dex)\n17 <=10 (Str)\n4 (1d20)\n3 (1d20)\n7 (1d20)\n20 (1d20)\n16 (1d20)\n5\n20\n20\n20\n20\n20"},"grid1":{"value":{"score":[15,17,16,15,10,19,9,10,10]},"row":5},"d20":{},"button7":{}}}
 
 {script:Home.0}
 on view do
@@ -210,12 +210,19 @@ end
 {end}
 
 {script:Home.14}
+on change val do
+print[val]
+ statroller1.setstat[6 "Save" save.value]
+end
+{end}
+
+{script:Home.15}
 on click do
  Portrait.clear[]
 end
 {end}
 
-{script:Home.15}
+{script:Home.16}
 on change val do
  card.event["update_derived_stats"]
 end
@@ -468,7 +475,7 @@ end
 {end}
 
 {contraption:statroller}
-size:[150,102]
+size:[151,114]
 resizable:1
 margin:[47,17,0,74]
 description:"Has a list of stat scores from 1-20, and can roll each of them.\nUse the \"setstat\" function.\nThe first argument is which stat you're setting, top-to-bottom, zero-indexed.\nThe second is a string, ideally a short abbreviation.\nThe third is the stat score. Modifiers are automatically calculated."
@@ -482,9 +489,10 @@ button3:{"type":"button","size":[46,12],"pos":[0,54],"script":"statroller.3","fo
 button4:{"type":"button","size":[46,12],"pos":[0,66],"script":"statroller.4","font":"body","text":"Int"}
 button5:{"type":"button","size":[46,12],"pos":[0,78],"script":"statroller.5","font":"body","text":"Wis"}
 button6:{"type":"button","size":[46,12],"pos":[0,90],"script":"statroller.6","font":"body","text":"Cha"}
-roll:{"type":"field","size":[100,102],"pos":[50,0],"scrollbar":1,"style":"plain","align":"center","value":"5\n20\n20\n20\n20\n20"}
-grid1:{"type":"grid","size":[65,106],"pos":[-110,-4],"locked":1,"show":"none","bycell":1,"format":"i","value":{"score":[10,10,10,10,10,10]},"row":0,"col":0}
+roll:{"type":"field","size":[100,114],"pos":[50,0],"script":"Home.9","scrollbar":1,"style":"plain","align":"center","value":"5\n20\n20\n20\n20\n20"}
+grid1:{"type":"grid","size":[65,106],"pos":[-110,-4],"locked":1,"show":"none","bycell":1,"format":"i","value":{"score":[10,10,10,10,10,10,10,10,10]},"row":0,"col":0}
 d20:{"type":"button","size":[46,12],"pos":[0,18],"script":"statroller.7","font":"body","text":"1d20"}
+button7:{"type":"button","size":[46,12],"pos":[0,102],"script":"statroller.8","font":"body","text":"Save"}
 
 {script:statroller.0}
 on do_roll n do
@@ -522,6 +530,8 @@ on setstat num abbr score do
   button5.text:abbr
  elseif num=5
   button6.text:abbr
+ elseif num=6
+  button7.text:abbr
  end
 end
 
@@ -569,6 +579,12 @@ end
 {script:statroller.7}
 on click do
  do_roll[20]
+end
+{end}
+
+{script:statroller.8}
+on click do
+ do_stat_roll[6 me.text]
 end
 {end}
 
@@ -642,25 +658,33 @@ on set_abbr x do
  name.text:x
 end
 
+on update_stat_if_needed x do
+  if val.text=x
+  else
+   set_value[x]
+   card.event["change" x]
+  end
+end
+
 on update_stat level enc str inventory_slots dex_bonus cha_bonus armor_bonus armor_penalty do
  print["updating %s: %i %i %i %i %i %i %i" format (name.text, level, str, inventory_slots, dex_bonus, cha_bonus, armor_bonus, armor_penalty)]
  if name.text="Atk"
   print["actually updating %s" format name.text]
   # attack: Starts at 11. Increases with level
   level_mod:((floor (level / 2)) & 4)
-  set_value[(11 + level_mod)]
+  update_stat_if_needed[(11 + level_mod)]
  elseif name.text="Def"
    print["actually updating %s" format name.text]
   # defense: 10 + Dex. Bonus OR bonus from armour
-  set_value[(10 + (dex_bonus | armor_bonus) - enc)]
+  update_stat_if_needed[(10 + (dex_bonus | armor_bonus) - enc)]
  elseif name.text="Mov"
    print["actually updating %s" format name.text]
   # movement: 12 + Dex. Bonus - Armour penalty
-  set_value[(12 + dex_bonus + armor_penalty - enc)]
+  update_stat_if_needed[(12 + dex_bonus + armor_penalty - enc)]
  elseif name.text="Stlth"
    print["actually updating %s" format name.text]
   # stealth: 5 + Dex. Bonus - Armour penalty
-  set_value[(5 + dex_bonus + armor_penalty - enc)]
+  update_stat_if_needed[(5 + dex_bonus + armor_penalty - enc)]
  elseif name.text="Save"
    print["actually updating %s" format name.text]
   # save: 5 + Cha. Bonus. Increases with level.
@@ -677,15 +701,15 @@ on update_stat level enc str inventory_slots dex_bonus cha_bonus armor_bonus arm
   else
    base_save:10
   end
-  set_value[(base_save + cha_bonus)]
+  update_stat_if_needed[(base_save + cha_bonus)]
  elseif name.text="Slots"
   print["actually updating %s" format name.text]
-  set_value[inventory_slots]
+  update_stat_if_needed[inventory_slots]
  elseif name.text="Enc"
   print["actually updating %s" format name.text]
   v:if str<inventory_slots inventory_slots - str else 0 end
   v:if v<0 -v else v end
-  set_value[v] 
+  update_stat_if_needed[v] 
  else
   sys.panic["Unknown derived statistic"]
  end
