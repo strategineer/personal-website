@@ -103,6 +103,10 @@
     {{ $js_files = $js_files | append (resources.Get "js/site.js") }}
     {{ if .Page.Store.Get "hasMermaid" }}
       {{ $js_files = $js_files | append (resources.Get "js/mermaid.min.js") }}
+      {{ $mermaid_js := resources.Get "js/mermaid.min.js" }}
+      {{ with $mermaid_js }}
+      <script defer type="text/javascript" src="{{ .RelPermalink }}"> </script>
+      {{ end }}
       <script>
         mermaid.initialize({
           startOnLoad: true,
