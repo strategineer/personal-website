@@ -47,19 +47,32 @@ Your innate spell may influence your personality, at least that's what people be
 
 Humans, elves, dwarves, orcs, a variety of humanoid animals all co-exist in Golgea. 
 
-Sentient beings of all kinds are common in Golgea, some don't get along, some do, it depends. But everything is negotiable, there is a distinct lack of mindless "evil" creatures in Golgea.
+Sentient beings of all kinds are common in Golgea, some don't get along, some do, but this is usually a matter of context and circumstance rather than racial hatred.
+
+There is a distinct lack of mindless "evil" humanoids in Golgea. Humanoid beings that are truly evil, can't be reasoned with and will fight to the death unless given no other choice are very rare. Exceptions for this are death cultists, the mindless undead (undead necromancers, vampires and the like excluded) and primordial evil beings from a time before Time (don't ask). 
 
 # Places
 
 ## Korgath
 
-An ethno-state ruled by human fascists. Most believe that humans, of any skin color or creed, are above animal humanoids and treat them in best cases with comtempt in worst cases violently. If animal humanoids are unlucky enough to find themselves within Korgish lands, they will soon find themselves without whether they like it or not.
+An ethno-state ruled by human faschists. Most believe that humans, of any skin color or creed, are above animal humanoids and treat them in best cases with comtempt in worst cases violently.
 
-Considered to be a threat to all of its neighbours, however tends to keep to itself. Controls a large landmass with abundant natural resources that are exported to neighboring lands.
+If animal humanoids are unlucky enough to find themselves within Korgish lands, they will soon find themselves without whether they like it or not.
+
+Considered as a threat by most of its neighbours, however the Korgish state tends to keep to itself. Controls a large landmass with abundant natural resources that are exported to neighboring lands.
+
+Kargish dissidents who oppose the Kargish's states discriminatory policies exist and have been looking to overthrow the existing government but require the support of powerful allies to do so.
 
 ## The Hearth
 
-A neutral meeting ground in the center of Golgea, serves as a trading hub and is the home of the Merchant Guild.
+A neutral meeting ground in the center of Golgea, serves as a trading hub and acts as the home of Golgea's Merchant Guild.
+
+Anyone who is willing to buy, sell or work to help others do either, is allowed to stay at The Hearth, others are shunned.
+
+The Hearth, and its merchant guild, is hierarchical. One's position in society is determined by the value they bring to the Hearth through trading or helping trades occur. A rigid system of bureaucrats and accountants work diligently to keep track of everyone's contributions.
+
+It's in the interest of most to help with this process but some seek to subvert it for their own gains. The Merchant Guild harshly punishes those who are caught by its network of auditors. But the interconnectedness of merchants and their relationships with each other discourages most from snitching on each other.
+
 
 ## The Kingdom of Arathea
 
