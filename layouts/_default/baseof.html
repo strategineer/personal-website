@@ -78,11 +78,13 @@
           </div>
         </div>
         <div class="end-page"></div>
+        {{ if $has_search }}
         <div class="offcanvas show offcanvas-bottom" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasBottom" aria-label="navigation bar">
           <div class="offcanvas-body">
             {{ partial "menu_buttons" . }}
           </div>
         </div>
+        {{ end }}
         </div>
       </div>
     </div>
