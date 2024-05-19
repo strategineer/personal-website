@@ -1,0 +1,8 @@
+{{- $inner := .Inner -}}
+{{- if strings.ContainsNonSpace $inner -}}
+  {{- with $.Page -}}
+    <strong>
+      {{ $inner | .RenderString }}
+    </strong>
+  {{- end -}}
+{{- end -}}

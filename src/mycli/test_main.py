@@ -39,6 +39,7 @@ SERIES_POST = [
         ("<!--more-->", ""),
         (r"{{< spoiler >}}", "<spoiler>"),
         (r"{{< /spoiler >}}", "</spoiler>"),
+        (r"{{< quote >}} ABC {{< /quote >}}", "<b>ABC</b>"),
         ("\nblah\n", "blah"),
         (
             "[My link here](/books/2013-13-13)",

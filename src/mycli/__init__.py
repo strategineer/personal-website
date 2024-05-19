@@ -183,8 +183,13 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
     content = re.sub(r"\s*<!--more-->\s*", DOUBLE_LINE_BREAK_MARKER, content)
     content = content.replace("\n\n", DOUBLE_LINE_BREAK_MARKER)
     content = content.replace("\n", "")
+    # spoilers
     content = content.replace(r"{{< spoiler >}}", "<spoiler>")
     content = content.replace(r"{{< /spoiler >}}", "</spoiler>")
+    # quotes
+    content = content.replace(r"{{< quote >}}", "<b>")
+    content = content.replace(r"{{< /quote >}}", "</b>")
+    # whitespace
     while True:
         try:
             content.index("  ")
