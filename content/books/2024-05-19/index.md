@@ -1,17 +1,16 @@
 ---
 authors:
-  - Iain Banks
+- Adrian Tchaikovsky
 books/tags:
-  - fiction
-  - science-fiction
+- currently-reading
+- science-fiction
 date: 2024-05-19
 params:
-  isbn13: "9781857231465"
-  series: "The Culture"
-  series_order: "2"
-  year: "1989"
-title: The Player Of Games
-star_rating: 5
+  isbn13: '9781786693907'
+  year: '2018'
+title: Dogs Of War
+weight: 1
 ---
+
 
 <!--more-->
