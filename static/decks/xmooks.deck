@@ -20,17 +20,17 @@ label3:{"type":"field","size":[29,18],"pos":[125,125],"locked":1,"border":0,"val
 label2:{"type":"field","size":[22,18],"pos":[5,125],"locked":1,"border":0,"value":"HP:"}
 label1:{"type":"field","size":[25,17],"pos":[92,38],"locked":1,"border":0,"value":"LVL:"}
 CharacterName:{"type":"field","size":[166,15],"pos":[5,22],"font":"menu","style":"plain","align":"center","value":"Jorge"}
-Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{},"modifier":{"value":"-3"},"roll":{}}}
-Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{"value":17},"modifier":{"value":"+2"},"roll":{}}}
-Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Con"},"score":{"value":16},"modifier":{"value":"+2"},"roll":{}}}
-Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{"value":15},"modifier":{"value":"+2"},"roll":{}}}
+Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{},"modifier":{},"roll":{}}}
+Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{},"modifier":{},"roll":{}}}
+Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Con"},"score":{},"modifier":{},"roll":{}}}
+Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{},"modifier":{},"roll":{}}}
 Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Wis"},"score":{},"modifier":{},"roll":{}}}
-Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":19},"modifier":{"value":"+3"},"roll":{}}}
-level:{"type":"slider","size":[56,17],"pos":[115,39],"script":"Home.7","interval":[0,20],"value":1,"style":"compact"}
-HP:{"type":"slider","size":[99,18],"pos":[23,125],"interval":[0,12],"value":1,"format":"%f/12","style":"bar"}
-MaxHP:{"type":"field","size":[17,18],"pos":[155,125],"locked":1,"script":"Home.8","style":"code","align":"center","value":"12"}
+Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":11},"modifier":{},"roll":{}}}
+level:{"type":"slider","size":[56,17],"pos":[115,39],"script":"Home.7","interval":[0,20],"style":"compact"}
+HP:{"type":"slider","size":[99,18],"pos":[23,125],"interval":[0,6],"value":6,"format":"%f/6","style":"bar"}
+MaxHP:{"type":"field","size":[17,18],"pos":[155,125],"locked":1,"script":"Home.8","style":"code","align":"center","value":"6"}
 customfield1:{"type":"field","size":[79,13],"pos":[92,57]}
-template1:{"type":"field","size":[175,58],"pos":[332,22],"script":"Home.9","scrollbar":1,"value":"A: Spellcasting\n+1 MD, +1 Spell Slot, +1 Spell(1-6)"}
+template1:{"type":"field","size":[175,58],"pos":[332,22],"script":"Home.9","show":"invert","scrollbar":1,"value":"A: Spellcasting\n+1 MD, +1 Spell Slot, +1 Spell(1-6)"}
 template2:{"type":"field","size":[175,54],"pos":[332,83],"show":"invert","scrollbar":1,"value":"?:"}
 template3:{"type":"field","size":[175,59],"pos":[332,140],"show":"invert","scrollbar":1,"value":"?:"}
 template4:{"type":"field","size":[175,56],"pos":[332,203],"show":"invert","scrollbar":1,"value":"?:"}
@@ -42,11 +42,11 @@ NotesButton:{"type":"button","size":[40,20],"pos":[409,317],"script":"Home.13","
 Portrait:{"type":"canvas","size":[86,84],"pos":[5,38],"image":"%%IMG2AFYAVAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AFQ=","scale":1}
 template5:{"type":"field","size":[175,51],"pos":[332,262],"show":"invert","scrollbar":1,"value":"?:"}
 field1:{"type":"field","size":[79,14],"pos":[175,193],"locked":1,"font":"mono","style":"code","align":"center","value":"Armor Bonus"}
-attack:{"type":"contraption","size":[50,21],"pos":[6,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Atk"},"val":{"value":"11"}}}
-defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{"value":"12"}}}
-movement:{"type":"contraption","size":[50,21],"pos":[120,301],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{"value":"14"}}}
-stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{"value":"7"}}}
-save:{"type":"contraption","size":[50,21],"pos":[120,278],"script":"Home.14","def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{"value":"9"}}}
+attack:{"type":"contraption","size":[63,15],"pos":[30,285],"def":"DerivedStatistic","widgets":{"name":{"size":[41,14],"value":"Attack"},"val":{"size":[20,14],"pos":[42,0],"value":"11"}}}
+defense:{"type":"contraption","size":[63,15],"pos":[30,301],"def":"DerivedStatistic","widgets":{"name":{"size":[41,14],"value":"Defense"},"val":{"size":[20,14],"pos":[42,0],"value":"10"}}}
+movement:{"type":"contraption","size":[73,15],"pos":[81,322],"def":"DerivedStatistic","widgets":{"name":{"size":[51,14],"value":"Movement"},"val":{"size":[20,14],"pos":[52,0],"value":"12"}}}
+stealth:{"type":"contraption","size":[61,15],"pos":[19,322],"def":"DerivedStatistic","widgets":{"name":{"size":[39,14],"value":"Stealth"},"val":{"size":[20,14],"pos":[40,0],"value":"5"}}}
+save:{"type":"contraption","size":[50,15],"pos":[93,291],"script":"Home.14","def":"DerivedStatistic","widgets":{"name":{"size":[28,14],"value":"Save"},"val":{"size":[20,14],"value":"5"}}}
 ClearPortrait:{"type":"button","size":[36,20],"pos":[6,101],"script":"Home.15","text":"clear"}
 armor_bonus:{"type":"slider","size":[69,14],"pos":[257,193],"script":"Home.16","interval":[0,6],"step":2,"style":"compact"}
 field2:{"type":"field","size":[79,13],"pos":[92,70]}
@@ -55,7 +55,7 @@ field4:{"type":"field","size":[79,13],"pos":[92,96]}
 field5:{"type":"field","size":[79,13],"pos":[92,109]}
 slots:{"type":"contraption","size":[51,15],"pos":[275,176],"def":"DerivedStatistic","widgets":{"name":{"size":[29,14],"value":"Slots"},"val":{"size":[20,14],"pos":[30,0],"value":"2"}}}
 encumbrance:{"type":"contraption","size":[98,15],"pos":[175,176],"def":"DerivedStatistic","widgets":{"name":{"size":[76,14],"value":"Encumbrance"},"val":{"size":[20,14],"pos":[77,0]}}}
-statroller1:{"type":"contraption","size":[151,114],"pos":[175,226],"def":"statroller","widgets":{"label":{},"button1":{},"button2":{},"button3":{},"button4":{},"button5":{},"button6":{},"roll":{"value":"9 >19 (Cha)\n5 >9 (Save)\n12 <=9 (Save)\n16 <=7 (Save)\n18 <=7 (Save)\n15 <=7 (Save)\n8 <=7 (Save)\n7 >13 (Cha)\n10 <=10 (Wis)\n4 >15 (Int)\n!!20 <=16 (Con)\n6 >15 (Int)\n4 >10 (Int)\n3 >16 (Con)\n2 >17 (Dex)\n2 >15 (Str)\n13 (1d20)\n18 (1d20)\n5 (1d20)\n16 <=10 (Str)\n13 <=10 (Str)\n19 <=10 (Dex)\n!!20 <=10 (Dex)\n5 >10 (Con)\n10 <=10 (Con)\n14 <=10 (Int)\n8 >10 (Wis)\n5 >10 (Wis)\n10 <=10 (Cha)\n8 >10 (Save)\n5 >10 (Save)\n!1 >10 (Save)\n4 >10 (Save)\n15 <=10 (Cha)\n3 >10 (Wis)\n14 <=10 (Con)\n15 <=10 (Dex)\n13 <=10 (Dex)\n4 >10 (Str)\n11 <=10 (Str)\n5 >10 (Str)\n3 >10 (Str)\n7 (1d20)\n19 (1d20)\n4 (1d20)\n13 (1d20)\n!1 >10 (Str)\n2 >10 (Dex)\n!!20 <=10 (Con)\n11 <=10 (Int)\n!!20 <=10 (Wis)\n9 >10 (Cha)\n2 >10 (Save)\n12 <=10 (Save)\n!1 >10 (Save)\n7 >10 (Cha)\n18 <=10 (Wis)\n11 <=10 (Int)\n15 <=10 (Con)\n16 <=10 (Dex)\n17 <=10 (Str)\n4 (1d20)\n3 (1d20)\n7 (1d20)\n20 (1d20)\n16 (1d20)\n5\n20\n20\n20\n20\n20"},"grid1":{"value":{"score":[0,17,16,15,10,19,9,10,10]}},"d20":{},"button7":{}}}
+statroller1:{"type":"contraption","size":[151,114],"pos":[175,226],"def":"statroller","widgets":{"label":{},"button1":{},"button2":{},"button3":{},"button4":{},"button5":{},"button6":{},"roll":{"value":"9 >19 (Cha)\n5 >9 (Save)\n12 <=9 (Save)\n16 <=7 (Save)\n18 <=7 (Save)\n15 <=7 (Save)\n8 <=7 (Save)\n7 >13 (Cha)\n10 <=10 (Wis)\n4 >15 (Int)\n!!20 <=16 (Con)\n6 >15 (Int)\n4 >10 (Int)\n3 >16 (Con)\n2 >17 (Dex)\n2 >15 (Str)\n13 (1d20)\n18 (1d20)\n5 (1d20)\n16 <=10 (Str)\n13 <=10 (Str)\n19 <=10 (Dex)\n!!20 <=10 (Dex)\n5 >10 (Con)\n10 <=10 (Con)\n14 <=10 (Int)\n8 >10 (Wis)\n5 >10 (Wis)\n10 <=10 (Cha)\n8 >10 (Save)\n5 >10 (Save)\n!1 >10 (Save)\n4 >10 (Save)\n15 <=10 (Cha)\n3 >10 (Wis)\n14 <=10 (Con)\n15 <=10 (Dex)\n13 <=10 (Dex)\n4 >10 (Str)\n11 <=10 (Str)\n5 >10 (Str)\n3 >10 (Str)\n7 (1d20)\n19 (1d20)\n4 (1d20)\n13 (1d20)\n!1 >10 (Str)\n2 >10 (Dex)\n!!20 <=10 (Con)\n11 <=10 (Int)\n!!20 <=10 (Wis)\n9 >10 (Cha)\n2 >10 (Save)\n12 <=10 (Save)\n!1 >10 (Save)\n7 >10 (Cha)\n18 <=10 (Wis)\n11 <=10 (Int)\n15 <=10 (Con)\n16 <=10 (Dex)\n17 <=10 (Str)\n4 (1d20)\n3 (1d20)\n7 (1d20)\n20 (1d20)\n16 (1d20)\n5\n20\n20\n20\n20\n20"},"grid1":{"value":{"score":[10,10,10,10,10,11,5,10,10]},"row":5},"d20":{},"button7":{}}}
 field6:{"type":"field","size":[79,14],"pos":[175,209],"locked":1,"font":"mono","style":"code","align":"center","value":"Armor"}
 armor:{"type":"field","size":[68,14],"pos":[257,208],"locked":1,"script":"Home.9","font":"mono","style":"code","align":"center"}
 
@@ -680,20 +680,20 @@ end
 
 on update_stat level enc str inventory_slots dex_bonus cha_bonus armor_bonus armor_penalty do
  print["updating %s: %i %i %i %i %i %i %i" format (name.text, level, str, inventory_slots, dex_bonus, cha_bonus, armor_bonus, armor_penalty)]
- if name.text="Atk"
+ if name.text="Attack"
   print["actually updating %s" format name.text]
   # attack: Starts at 11. Increases with level
   level_mod:((floor (level / 2)) & 4)
   update_stat_if_needed[(11 + level_mod)]
- elseif name.text="Def"
+ elseif name.text="Defense"
    print["actually updating %s" format name.text]
   # defense: 10 + Dex. Bonus OR bonus from armour
   update_stat_if_needed[(10 + (dex_bonus | armor_bonus) - enc)]
- elseif name.text="Mov"
+ elseif name.text="Movement"
    print["actually updating %s" format name.text]
   # movement: 12 + Dex. Bonus - Armour penalty
   update_stat_if_needed[(12 + dex_bonus + armor_penalty - enc)]
- elseif name.text="Stlth"
+ elseif name.text="Stealth"
    print["actually updating %s" format name.text]
   # stealth: 5 + Dex. Bonus - Armour penalty
   update_stat_if_needed[(5 + dex_bonus + armor_penalty - enc)]
