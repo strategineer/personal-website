@@ -83,7 +83,8 @@ The Hearth pays for a standing army of mercenaries to prevent theft and trade-re
 
 ### Hooks
 
-- The Hearth's auditors are looking for scrupulous individuals to infiltrate a local merchant's operation to suss out any funny business. 
+- The Hearth's auditors are looking for scrupulous individuals to infiltrate a local merchant's operation to suss out any funny business.
+- The Prospectors's Guild is always looking for new recruits to provide with the location of nearby ruins and dungeons and some basic prospecting gear on loan in exchange for a cut off the profits.
 
 
 ## The Kingdom of Arathea
@@ -102,7 +103,7 @@ The Arathean state exerts power and control throughout the land by delegating lo
 
 ### Hooks
 
-- The extent of Aldeus's powers are unclear, any concrete evidence to support or contradict this would be valuable.
+- The extent of Aldeus's powers are unclear, any concrete evidence to support or contradict claims about his powers would be very valuable for interested parties.
 
 ## The Glade of the Elves
 
