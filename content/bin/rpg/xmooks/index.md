@@ -893,7 +893,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | 48 | Cricketling | STR | Can jump twice as high. | Constant musical rasping. -2 Stealth. | Natural musicians, but primarily farmers in fertile plains. |
 | 49 | Sparrowling | WIS | Climb as fast as you can run. | When afraid, will run instead of staying still. | Notoriously nervous and prone to gossip, sparrowlings travel in small groups as mercenaries or pilgrims. |
 | 50 | Goblin | DEX | Can see/smell 20' in the dark. | ½ starting HP and Int. Speak in words of 2 syllables or fewer. | Universally loathed. Made of leftovers. Goblinism is contagious. |
-{.table .table-striped .table-bordered .table-sm}
+{.table .table-striped .table-bordered .table-sm .table-small}
 
 # Extra Resources
 
