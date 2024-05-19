@@ -71,11 +71,15 @@ Kargish dissidents who oppose the Kargish's states discriminatory policies exist
 
 A neutral meeting ground in the center of Golgea, serves as a trading hub and acts as the home of Golgea's Merchant Guild.
 
-Anyone who is willing to buy, sell or work to help others do either, is allowed to stay at The Hearth, others are shunned.
+Anyone who is willing to buy, sell or work to help others do either, is allowed to stay at the Hearth, others are shunned.
 
 The Hearth, and its merchant guild, is hierarchical. One's position in society is determined by the value they bring to the Hearth through trading or helping trades occur. A rigid system of bureaucrats and accountants work diligently to keep track of everyone's contributions.
 
 It's in the interest of most to help with this process but some seek to subvert it for their own gains. The Merchant Guild harshly punishes those who are caught by its network of auditors. But the interconnectedness of merchants and their relationships with each other discourages most from snitching on each other.
+
+The Hearth pays all its functionaries using the funds gained through the minor transaction fee applied to each trade.
+
+The Hearth pays for a standing army of mercenaries to prevent theft and trade-related activities. 
 
 ### Hooks
 
