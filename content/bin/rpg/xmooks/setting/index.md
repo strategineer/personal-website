@@ -129,6 +129,8 @@ The people of Golgea believe in a wide variety faiths, described below are a few
 
 See [Arathea](#the-kingdom-of-arathea).
 
+Arathean missionaries travel to lands near and far to establish churches and proseletyse the greatness of Aldeus.
+
 ## The Wheeled Ones
 
 To become a Wheeled One, one must forgo ever staying in the same place for long and ownership of anything that one cannot carry on their backs. Pilgrims through and through, The Wheeled Ones believe that it is only through regular travel that one can discover the truth about themselves, the world around them and the reality that underpins everything.
