@@ -14,6 +14,6 @@ star_rating: 5
 title: "Design Patterns: Elements Of Reusable Object Oriented Software"
 ---
 
-Are you a programmer and haven't read this? Please read this. 
+Are you a programmer and haven't read this? Please read this.
 
 <!--more-->

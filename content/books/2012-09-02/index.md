@@ -14,10 +14,10 @@ star_rating: 5
 title: Introduction To Algorithms, Third Edition
 ---
 
-One of the few physical books I bought in uni. 
+One of the few physical books I bought in uni.
 
 I don't whip this out often these days because in the real world software engineering work rarely involves algorithms or math.
 
-If you can bang your head against a wall effectively without sustaining too much permanent brain damage, congratulations, you too can become a software engineer. 
+If you can bang your head against a wall effectively without sustaining too much permanent brain damage, congratulations, you too can become a software engineer.
 
 <!--more-->

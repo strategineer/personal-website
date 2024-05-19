@@ -17,7 +17,7 @@ The core differentiating factor of Glogea is that every being, humanoid or other
 
 Most beings will never access this magical power, but through study, experience and/or luck a select few beings will manage to access their power.
 
-The more powerful a being's power is the more visually distinct its manifestation is. It may also have effects on the being's behavior, their mind and their perception of the world around them. 
+The more powerful a being's power is the more visually distinct its manifestation is. It may also have effects on the being's behavior, their mind and their perception of the world around them.
 
 # Magic
 
@@ -59,4 +59,4 @@ Time wept upon his corpse and, in doing so, created the world as we know it toda
 
 # Religion
 
-A variety of faiths exist, here's a few of the major ones. 
+A variety of faiths exist, here's a few of the major ones.

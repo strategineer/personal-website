@@ -6,6 +6,7 @@ weight: 1
 ---
 
 X-Mooks is my homebrew OSR-compatible rule system which is HEAVILY based on:
+
 - [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [PDF](/rpg/many_rats_on_stick_v2.pdf). If there's something missing here, namely Wizard Schools, refer to that document to find some, if nothing speaks to you there refer to the [Extra Resources section](#extra-resources) for more options.
 
 # Core Rules
@@ -277,9 +278,9 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 
 **Mangled**: Save. If failed, lose the limb. If passed, Save again. If failed, lose 1 digit. If passed, gain an Interesting Scar.
 
-**Marked**: Save. If failed, any magical attack against the PC automatically deals double damage or applies a -4 penalty to Save. If passed, the PC has a permanent -2 to Save against magic, but reduces all incoming magic damage by 2. They also gain an Interesting Scar (known as a curse-mark). Scorched / 
+**Marked**: Save. If failed, any magical attack against the PC automatically deals double damage or applies a -4 penalty to Save. If passed, the PC has a permanent -2 to Save against magic, but reduces all incoming magic damage by 2. They also gain an Interesting Scar (known as a curse-mark).
 
-**Frostbite**: Cannot wear armour. Difficulty gripping or climbing.
+**Scorched / Frostbite**: Cannot wear armour. Difficulty gripping or climbing.
 
 **Skullcracked**: Save. If failed, roll on the table below. If passed, gain an Interesting Scar.
 
@@ -442,72 +443,45 @@ PCs can safely travel for 12 hours per day (2 hexes), or push their luck with 18
 
 ## Mishaps
 
-When you suffer a Mishap, look up your school of
-magic and roll on the Mishap table. A mishap takes effect immediately.
+When you suffer a Mishap, look up your school of magic and roll on the Mishap table. A mishap takes effect immediately.
 
 ## Dooms
 
-Every apprentice knows that if they travel down the
-road of wizardry long enough, their doom will
-eventually claim them. It waits at the end of every
-wizard's career.
+Every apprentice knows that if they travel down the road of wizardry long enough, their doom will eventually claim them. It waits at the end of every wizard's career.
 
 Each school of magic has different Dooms.
 
-The first time you roll triples while casting a spell, you suffer your first
-Doom.
+The first time you roll triples while casting a spell, you suffer your first Doom.
 
-The second time you roll triples while casting a spell, you suffer your
-second Doom.
+The second time you roll triples while casting a spell, you suffer your second Doom.
 
-The third time you roll triples while casting a spell, you suffer your third
-and final Doom.
+The third time you roll triples while casting a spell, you suffer your third and final Doom.
 
-While your first and second Dooms tend to be
-survivable, your final Doom usually spells the end of
-your career (usually through your death).
+While your first and second Dooms tend to be survivable, your final Doom usually spells the end of your career (usually through your death).
 
 There are three ways to avoid your Doom.
+
 - Never use more than two casting dice at a time, forever limiting your magical power.
 - Seek out a solution to your Doom. These are always unique quests that your DM designs for you. They are usually pretty epic.
 - Become a warlock.
 
 ## Magic Robes
 
-Wizards can wear armor without penalty. However,
-if they wear a magic robe, they get +1 casting dice,
-beginning in the morning when they wake up in the
-robe, and lasting until they remove it.
+Wizards can wear armor without penalty. However, if they wear a magic robe, they get +1 casting dice, beginning in the morning when they wake up in the robe, and lasting until they remove it.
 
-Anyone can wear a magic robe to get +1 casting die,
-even the Int 7 fighter. However, the fighter still
-cannot cast spells since they have no spells
-memorized (that requires spell slots).
+Anyone can wear a magic robe to get +1 casting die, even the Int 7 fighter. However, the fighter still cannot cast spells since they have no spells memorized (that requires spell slots).
 
 ## Magic Wands
 
-A wand lets you cast a spell without having it
-memorized. It is essentially another spell slot with a
-fixed spell inside it.
+A wand lets you cast a spell without having it memorized. It is essentially another spell slot with a fixed spell inside it.
 
-If the Int 7 fighter wears a magic robe AND wields a magic wand, they can cast spells because they have
-a casting die (from the robe) and a spell (from the
-wand's spell slot).
+If the Int 7 fighter wears a magic robe AND wields a magic wand, they can cast spells because they have a casting die (from the robe) and a spell (from the wand's spell slot).
 
 ## Magic Staves
 
+There are all sorts of staves, and most of them are some variation of the wand. Most give you the ability to cast a new spell, and then bonuses if you can actually manage to cast that spell independently.
 
-There are all sorts of staves, and most of them are
-some variation of the wand. Most give you the
-ability to cast a new spell, and then bonuses if you
-can actually manage to cast that spell
-independently.
-
-For example, the Briar Staff allows you to cast
-entangle but if you cast entangle without using the
-staff, the staff allows you to teleport to anywhere
-within 50' as long as you enter and exit a plant.
-
+For example, the Briar Staff allows you to cast entangle but if you cast entangle without using the staff, the staff allows you to teleport to anywhere within 50' as long as you enter and exit a plant.
 
 # Introduction for New Players
 
@@ -736,15 +710,15 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Weapons
 
-| Item                                 | Cost (Urban) | Cost(Rural) |
-| ------------------------------------ | ------------ | ----------- |
+| Item                                        | Cost (Urban) | Cost(Rural) |
+| ------------------------------------------- | ------------ | ----------- |
 | Light Weapon (1d6 + Str. Bonus) (3/slot)    | 5sp          | 5sp         |
 | Medium Weapon (1d8/d10 + Str. Bonus)        | 2gp          | 5gp         |
 | Heavy Weapon (1d12 + Str. Bonus) (0.5/slot) | 5gp          | 15gp        |
-| Sling (1d6)                           | 3sp          | 3sp         |
-| Bow (1d6)                             | 25sp         | 25sp        |
-| Crossbow (1d12)                       | 5gp          | -           |
-| Arrows/Bolts (20/slot)               | 5cp each     | 5cp each    |
+| Sling (1d6)                                 | 3sp          | 3sp         |
+| Bow (1d6)                                   | 25sp         | 25sp        |
+| Crossbow (1d12)                             | 5gp          | -           |
+| Arrows/Bolts (20/slot)                      | 5cp each     | 5cp each    |
 {.table .table-striped .table-bordered .table-sm}
 
 ## Light
@@ -923,7 +897,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Extra Resources
 
-Here's some extra reading if you're interested. If nothing you find speaks to you, work with your GM to make your own class or whatever else. 
+Here's some extra reading if you're interested. If nothing you find speaks to you, work with your GM to make your own class or whatever else.
 
 - [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [PDF](/rpg/many_rats_on_stick_v2.pdf)
 - [Wizards Post by Skerples](https://coinsandscrolls.blogspot.com/2018/06/osr-how-to-design-glog-wizards.html)

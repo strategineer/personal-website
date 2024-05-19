@@ -1,13 +1,13 @@
 ---
 authors:
-- Annie Kotowicz
+  - Annie Kotowicz
 books/tags:
-- non-fiction
-- autism
+  - non-fiction
+  - autism
 date: 2024-05-13
 params:
-  isbn13: '9798986482712'
-  year: '2022'
+  isbn13: "9798986482712"
+  year: "2022"
 title: What I Mean When I Say I'm Autistic - Unpuzzling A Life On The Autism Spectrum
 star_rating: 2
 ---

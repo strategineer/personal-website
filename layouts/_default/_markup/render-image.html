@@ -4,11 +4,11 @@
   {{- with or (.PageInner.Resources.Get $u.Path) (resources.Get $u.Path) -}}
     {{- $src = .RelPermalink -}}
   {{ else }}
-    {{ $prefixed_path := add "img/react/" $u.Path ".gif"}}
+    {{ $prefixed_path := add "img/react/" $u.Path ".gif" }}
     {{- with or (.PageInner.Resources.Get $prefixed_path) (resources.Get $prefixed_path) -}}
       {{- $src = .RelPermalink -}}
     {{ else }}
-    {{ errorf "No image found at path %q for page %q" .Destination .Page.Path }}
+      {{ errorf "No image found at path %q for page %q" .Destination .Page.Path }}
     {{ end }}
   {{- end -}}
 {{- end -}}
@@ -21,5 +21,6 @@
     {{- if $v -}}
       {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
     {{- end -}}
-  {{- end -}}>
+  {{- end -}}
+/>
 {{- /**/ -}}

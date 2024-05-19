@@ -10,17 +10,20 @@
     </div>
     {{ partial "try_links" . }}
     {{ if .Params.isbn13 }}
-    <div class="row justify-content-center">
-    ibsn13: {{ .Params.isbn13 }}
-    </div>
+      <div class="row justify-content-center">
+        ibsn13:
+        {{ .Params.isbn13 }}
+      </div>
     {{ end }}
     {{ if .Params.series }}
-    <div class="row justify-content-center">
-    series: {{ .Params.series }}
-    {{ if .Params.series_order }}
-    - Book {{ .Params.series_order }}
-    {{ end }}
-    </div>
+      <div class="row justify-content-center">
+        series:
+        {{ .Params.series }}
+        {{ if .Params.series_order }}
+          - Book
+          {{ .Params.series_order }}
+        {{ end }}
+      </div>
     {{ end }}
     <div class="row justify-content-center">
       <div class="col-auto align-self-center">

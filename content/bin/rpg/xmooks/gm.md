@@ -9,8 +9,6 @@ Notes from The Monster Overhaul by Skerples
 
 # Random Encounters
 
-
-
 ## Theory
 
 A game consisting entirely of randomly generated locations, plots, and monsters will feel thin and meaningless. Random generation can supplement a GM’s plans, and provide a source of surprise and wonder, but it cannot entirely replace planning.
@@ -110,24 +108,17 @@ When describing creatures, especially unusual or unnatural ones, consider avoidi
 
 ## Types of Monsters
 
-Monsters of Warning
-: Goblins, Lamia, and other night terrors say "Don’t go out at night, child, or you’ll be eaten." The Minotaur, the Ghoul, and other unnatural creatures say "Don’t break these taboos." A surprising number of monsters say "Be polite."
+Monsters of Warning : Goblins, Lamia, and other night terrors say "Don’t go out at night, child, or you’ll be eaten." The Minotaur, the Ghoul, and other unnatural creatures say "Don’t break these taboos." A surprising number of monsters say "Be polite."
 
-Monsters of Unease
-: What does this culture fear? What is it ashamed to desire? What defect in the world requires correction?
+Monsters of Unease : What does this culture fear? What is it ashamed to desire? What defect in the world requires correction?
 
-Monsters of Explanation
-: What are those strange lights in the bog? Why are trees shredded by the wind? Why do drowned corpses look like that?
+Monsters of Explanation : What are those strange lights in the bog? Why are trees shredded by the wind? Why do drowned corpses look like that?
 
-Monsters of Translation
-: Many classic monsters are victims of enthusiastic translation. An obscure word in one text becomes something entirely new in a later collection. Idioms mutate, figurative expressions become literal, and adjacent creatures blur together. In keeping with this tradition, the entries in the Primeval and Strange
-Water chapters are likely to send paleontologists howling for their pitchforks.
+Monsters of Translation : Many classic monsters are victims of enthusiastic translation. An obscure word in one text becomes something entirely new in a later collection. Idioms mutate, figurative expressions become literal, and adjacent creatures blur together. In keeping with this tradition, the entries in the Primeval and Strange Water chapters are likely to send paleontologists howling for their pitchforks.
 
-Monsters of Allegory
-: This temple is protected by a mighty guardian: the head of the wisest creature (a human), the body of the strongest creature (bull), and the wings of the swiftest creature (hawk).
+Monsters of Allegory : This temple is protected by a mighty guardian: the head of the wisest creature (a human), the body of the strongest creature (bull), and the wings of the swiftest creature (hawk).
 
-Monsters of Exaggeration
-: A creature so deadly its venom kills instantly. No, even its breath can kill. No, merely the sight of it kills. No, it is so deadly that the sight of it turns its victims to stone; a superlative form of death.
+Monsters of Exaggeration : A creature so deadly its venom kills instantly. No, even its breath can kill. No, merely the sight of it kills. No, it is so deadly that the sight of it turns its victims to stone; a superlative form of death.
 
 # People
 

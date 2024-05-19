@@ -1,8 +1,9 @@
 {{- $inner := .Inner -}}
 {{- if strings.ContainsNonSpace $inner -}}
   {{- with $.Page -}}
-  <blockquote>   
-  In the default X-Mooks Setting, {{ $inner | .RenderString }}
-  </blockquote>
+    <blockquote>
+      In the default X-Mooks Setting,
+      {{ $inner | .RenderString }}
+    </blockquote>
   {{- end -}}
 {{- end -}}

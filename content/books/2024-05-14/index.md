@@ -1,14 +1,14 @@
 ---
 authors:
-- James Wallis
-- Grant Howitt
-- Paul Dean
+  - James Wallis
+  - Grant Howitt
+  - Paul Dean
 books/tags:
-- tabletop
+  - tabletop
 date: 2024-05-14
 params:
-  isbn13: '9781908460646'
-  year: '2017'
+  isbn13: "9781908460646"
+  year: "2017"
 title: "Paranoia: Core Starter Set (MGP50000) "
 star_rating: 5
 ---

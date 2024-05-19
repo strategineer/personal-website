@@ -11,7 +11,7 @@ star_rating: 5
 title: The Extraordinary Adventures of Baron Munchausen
 ---
 
-A tabletop roleplaying system where everyone tries to one-up each other with increasingly ridiculous stories about their adventures and exploits in their roles as Georgian/Victorian era noble people. 
+A tabletop roleplaying system where everyone tries to one-up each other with increasingly ridiculous stories about their adventures and exploits in their roles as Georgian/Victorian era noble people.
 
 Makes for a great one-shot with the right group.
 

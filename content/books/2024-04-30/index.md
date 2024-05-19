@@ -50,12 +50,11 @@ But, right underneath all that is an exploration of America's prison-industrial 
 
 A lot of novels allow the reader to read the text and passively absorb any of the underlying political beliefs that the author has without questioning them too much. Chain-Gang All-Stars is NOT one of these kinds of novels. Everything is political but Chain-Gang All-Stars is aggressively so.
 
-The text forces you to think about the topics mentioned above among others, in great detail, and it can be quite depressing. But the premise combined with its execution and the inspirations the text is pulling from act as a lubricant to provide the reader with both a very hard to put down read as well as some deeply upsetting knowledge about how the US oppresses marginalized people. 
+The text forces you to think about the topics mentioned above among others, in great detail, and it can be quite depressing. But the premise combined with its execution and the inspirations the text is pulling from act as a lubricant to provide the reader with both a very hard to put down read as well as some deeply upsetting knowledge about how the US oppresses marginalized people.
 
 I was fully immersed in the world presented to me. Adjei-Brenyah's depictions of these dystopian gladiator fights are written such that it's easy to feel like a spectactor in the arena watching these fights from afar, cheering on your favorite contender and cringing when the fight gets bloody.
 
 I felt like I could hear the crowd chanting all around me.
-
 
 **Mel—**
 
