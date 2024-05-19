@@ -55,13 +55,17 @@ There is a distinct lack of mindless "evil" humanoids in Golgea. Humanoid beings
 
 ## Korgath
 
-An ethno-state ruled by human faschists. Most believe that humans, of any skin color or creed, are above animal humanoids and treat them in best cases with comtempt in worst cases violently.
+An ethno-state ruled by human fascists. Most believe that humans, of any skin color or creed, are above animal humanoids and treat them in best cases with comtempt in worst cases violently.
 
 If animal humanoids are unlucky enough to find themselves within Korgish lands, they will soon find themselves without whether they like it or not.
 
 Considered as a threat by most of its neighbours, however the Korgish state tends to keep to itself. Controls a large landmass with abundant natural resources that are exported to neighboring lands.
 
 Kargish dissidents who oppose the Kargish's states discriminatory policies exist and have been looking to overthrow the existing government but require the support of powerful allies to do so.
+
+### Hooks
+
+- Kargish dissidents are looking for support to overthrow their fascist government, a neighboring nation could supply the manpower and resources needed to do so.
 
 ## The Hearth
 
@@ -72,6 +76,10 @@ Anyone who is willing to buy, sell or work to help others do either, is allowed 
 The Hearth, and its merchant guild, is hierarchical. One's position in society is determined by the value they bring to the Hearth through trading or helping trades occur. A rigid system of bureaucrats and accountants work diligently to keep track of everyone's contributions.
 
 It's in the interest of most to help with this process but some seek to subvert it for their own gains. The Merchant Guild harshly punishes those who are caught by its network of auditors. But the interconnectedness of merchants and their relationships with each other discourages most from snitching on each other.
+
+### Hooks
+
+- The Hearth's auditors are looking for scrupulous individuals to infiltrate a local merchant's operation to suss out any funny business. 
 
 
 ## The Kingdom of Arathea
@@ -87,6 +95,10 @@ Some Aratheans doubt the state's claims about Aldeus's power, however they must 
 In other lands, there are rumors that Aldeus is the latest product of generations of experimentation and selective breeding done by the Arethean state to create more than just a leader, but a weapon to wield.
 
 The Arathean state exerts power and control throughout the land by delegating local issues to local leaders, usually wizards.
+
+### Hooks
+
+- The extent of Aldeus's powers are unclear, any concrete evidence to support or contradict this would be valuable.
 
 ## The Glade of the Elves
 
