@@ -17,17 +17,17 @@ image:"%%IMG2AgABVgD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8
 script:"Home.0"
 {widgets}
 CharacterName:{"type":"field","size":[64,19],"pos":[107,18],"font":"menu","style":"plain","align":"center","value":"name"}
-Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{"value":8},"modifier":{"value":"-1"},"roll":{"show":"none"}}}
-Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{"value":16},"modifier":{"value":"+2"},"roll":{"show":"none"}}}
-Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Con"},"score":{},"modifier":{},"roll":{"show":"none"}}}
-Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{"value":9},"modifier":{},"roll":{"show":"none"}}}
-Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Wis"},"score":{"value":9},"modifier":{},"roll":{"show":"none"}}}
-Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":9},"modifier":{},"roll":{"show":"none"}}}
+Statistic1:{"type":"contraption","size":[165,20],"pos":[5,146],"script":"Home.1","def":"Statistic","widgets":{"name":{},"score":{"value":11},"modifier":{},"roll":{"show":"none"}}}
+Statistic2:{"type":"contraption","size":[165,20],"pos":[5,168],"script":"Home.2","def":"Statistic","widgets":{"name":{"value":"Dex"},"score":{"value":9},"modifier":{},"roll":{"show":"none"}}}
+Statistic3:{"type":"contraption","size":[165,20],"pos":[5,190],"script":"Home.3","def":"Statistic","widgets":{"name":{"value":"Con"},"score":{"value":4},"modifier":{"value":"-2"},"roll":{"show":"none"}}}
+Statistic4:{"type":"contraption","size":[165,20],"pos":[5,212],"script":"Home.4","def":"Statistic","widgets":{"name":{"value":"Int"},"score":{"value":15},"modifier":{"value":"+2"},"roll":{"show":"none"}}}
+Statistic5:{"type":"contraption","size":[165,20],"pos":[5,234],"script":"Home.5","def":"Statistic","widgets":{"name":{"value":"Wis"},"score":{"value":15},"modifier":{"value":"+2"},"roll":{"show":"none"}}}
+Statistic6:{"type":"contraption","size":[165,20],"pos":[5,256],"script":"Home.6","def":"Statistic","widgets":{"name":{"value":"Cha"},"score":{"value":17},"modifier":{"value":"+2"},"roll":{"show":"none"}}}
 level:{"type":"slider","size":[43,17],"pos":[128,39],"script":"Home.7","interval":[0,20],"value":1,"style":"compact"}
 label1:{"type":"field","size":[21,17],"pos":[106,39],"locked":1,"value":"LVL"}
 label2:{"type":"field","size":[17,18],"pos":[5,124],"locked":1,"value":"HP"}
-HP:{"type":"slider","size":[99,17],"pos":[23,125],"interval":[0,6],"value":6,"format":"%f/6","style":"bar"}
-MaxHP:{"type":"field","size":[17,17],"pos":[155,125],"locked":1,"script":"Home.8","style":"code","value":"6"}
+HP:{"type":"slider","size":[99,17],"pos":[23,125],"interval":[0,1],"value":1,"format":"%f/1","style":"bar"}
+MaxHP:{"type":"field","size":[17,17],"pos":[155,125],"locked":1,"script":"Home.8","style":"code","value":"1"}
 customfield1:{"type":"field","size":[65,17],"pos":[106,57]}
 customfield2:{"type":"field","size":[65,17],"pos":[106,74]}
 customfield3:{"type":"field","size":[65,17],"pos":[106,91]}
@@ -40,16 +40,16 @@ label3:{"type":"field","size":[29,18],"pos":[125,124],"locked":1,"border":1,"val
 Inventory:{"type":"grid","size":[140,115],"pos":[174,38],"script":"Home.11","scrollbar":1,"headers":0,"bycell":1,"widths":[99],"format":"si","value":{"INVENTORY":["Blanket","3x Rations","","","","","","","","","","","","","","","","","",""],"#":[1,1,"","","","","","","","","","","","","","","","","",""]},"row":2,"col":1}
 DeltaButton:{"type":"button","size":[42,20],"pos":[332,317],"script":"Home.12","text":"Deltas"}
 label8:{"type":"field","size":[138,17],"pos":[175,21],"locked":1,"font":"menu","show":"invert","align":"center","value":"INVENTORY"}
-statroller1:{"type":"contraption","size":[140,156],"pos":[174,182],"def":"statroller","widgets":{"label":{},"button1":{"pos":[0,84],"text":"Str-1"},"button2":{"pos":[0,96],"text":"Dex+2"},"button3":{"pos":[0,108],"text":"Con+0"},"button4":{"pos":[0,120],"text":"Int0"},"button5":{"pos":[0,132],"text":"Wis0"},"button6":{"pos":[0,144],"text":"Cha0"},"roll":{"size":[93,156],"pos":[47,0],"value":"3 (4-1)\n12 (13-1)\n19 (20-1)\n18 (19-1)\n15 (16-1)\n8 (8+0)\n13 (13+0)\n15 (15+0)\n3 (3+0)\n2 (2+0)\n14 (14+0)\n3 (3+0)\n18\n18\n7\n4\n7\n1"},"grid1":{"size":[65,160],"value":{"score":[8,16,10,9,9,9]},"row":5},"d20":{"size":[46,56],"pos":[0,28]}}}
+statroller1:{"type":"contraption","size":[140,156],"pos":[174,182],"def":"statroller","widgets":{"label":{},"button1":{"pos":[0,84]},"button2":{"pos":[0,96]},"button3":{"pos":[0,108]},"button4":{"pos":[0,120]},"button5":{"pos":[0,132]},"button6":{"pos":[0,144]},"roll":{"size":[93,156],"pos":[47,0],"value":"19\n10\n4\n14\n13\n15\n6\n5\n17\n13\n17\n1\n3\n15\n7\n18\n3 (4-1)\n12 (13-1)\n19 (20-1)\n18 (19-1)\n15 (16-1)\n8 (8+0)\n13 (13+0)\n15 (15+0)\n3 (3+0)\n2 (2+0)\n14 (14+0)\n3 (3+0)\n18\n18\n7\n4\n7\n1"},"grid1":{"size":[65,160],"value":{"score":[11,9,4,15,15,17]},"row":5},"d20":{"size":[46,56],"pos":[0,28]}}}
 NotesButton:{"type":"button","size":[40,20],"pos":[401,317],"script":"Home.13","text":"Notes"}
 Portrait:{"type":"canvas","size":[100,100],"pos":[5,22],"image":"%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wA3","scale":1}
 template5:{"type":"field","size":[175,51],"pos":[332,262],"show":"invert","scrollbar":1,"value":"?:"}
 field1:{"type":"field","size":[55,25],"pos":[174,155],"font":"mono","value":"Armor Bonus"}
 attack:{"type":"contraption","size":[50,21],"pos":[6,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Atk"},"val":{"value":"11"}}}
-defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{"value":"12"}}}
-movement:{"type":"contraption","size":[50,21],"pos":[112,278],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{"value":"14"}}}
-stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{"value":"7"}}}
-save:{"type":"contraption","size":[50,21],"pos":[59,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{"value":"6"}}}
+defense:{"type":"contraption","size":[50,21],"pos":[58,279],"def":"DerivedStatistic","widgets":{"name":{"value":"Def"},"val":{"value":"10"}}}
+movement:{"type":"contraption","size":[50,21],"pos":[112,278],"def":"DerivedStatistic","widgets":{"name":{"value":"Mov"},"val":{"value":"12"}}}
+stealth:{"type":"contraption","size":[50,21],"pos":[5,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Stlth"},"val":{"value":"5"}}}
+save:{"type":"contraption","size":[50,21],"pos":[59,305],"def":"DerivedStatistic","widgets":{"name":{"value":"Save"},"val":{"value":"8"}}}
 ClearPortrait:{"type":"button","size":[36,20],"pos":[6,101],"script":"Home.14","text":"clear"}
 armor_bonus:{"type":"slider","size":[83,25],"pos":[231,154],"script":"Home.15","interval":[0,6],"step":2,"style":"compact"}
 
@@ -468,40 +468,40 @@ script:"statroller.0"
 attributes:{"name":[],"label":[],"type":[]}
 {widgets}
 label:{"type":"field","size":[46,16],"pos":[0,0],"locked":1,"font":"menu","show":"invert","value":"Rolls"}
-button1:{"type":"button","size":[46,12],"pos":[0,30],"script":"statroller.1","font":"body","text":"Str+0"}
-button2:{"type":"button","size":[46,12],"pos":[0,42],"script":"statroller.2","font":"body","text":"Str+0"}
-button3:{"type":"button","size":[46,12],"pos":[0,54],"script":"statroller.3","font":"body","text":"Str+0"}
-button4:{"type":"button","size":[46,12],"pos":[0,66],"script":"statroller.4","font":"body","text":"Str+0"}
-button5:{"type":"button","size":[46,12],"pos":[0,78],"script":"statroller.5","font":"body","text":"Str+0"}
-button6:{"type":"button","size":[46,12],"pos":[0,90],"script":"statroller.6","font":"body","text":"Str+0"}
+button1:{"type":"button","size":[46,12],"pos":[0,30],"script":"statroller.1","font":"body","text":"Str"}
+button2:{"type":"button","size":[46,12],"pos":[0,42],"script":"statroller.2","font":"body","text":"Dex"}
+button3:{"type":"button","size":[46,12],"pos":[0,54],"script":"statroller.3","font":"body","text":"Con"}
+button4:{"type":"button","size":[46,12],"pos":[0,66],"script":"statroller.4","font":"body","text":"Int"}
+button5:{"type":"button","size":[46,12],"pos":[0,78],"script":"statroller.5","font":"body","text":"Wis"}
+button6:{"type":"button","size":[46,12],"pos":[0,90],"script":"statroller.6","font":"body","text":"Cha"}
 roll:{"type":"field","size":[100,102],"pos":[50,0],"scrollbar":1,"style":"plain","align":"center","value":"5\n20\n20\n20\n20\n20"}
 grid1:{"type":"grid","size":[65,106],"pos":[-110,-4],"locked":1,"show":"none","bycell":1,"format":"i","value":{"score":[10,10,10,10,10,10]},"row":0,"col":0}
 d20:{"type":"button","size":[46,12],"pos":[0,18],"script":"statroller.7","font":"body","text":"1d20"}
 
 {script:statroller.0}
+on do_roll n do
+ grid1.cell:(0,n)
+ a:random[20]+1
+ stat:grid1.cellvalue
+ r:if stat>a "%i X" format a else "%i _/" format a end
+ roll.text:"\n" fuse r, roll.text
+end
+
 on setstat num abbr score do
  grid1.cell:(0,num)
  grid1.cellvalue:score
- a:0
- if score>9
-  a:"" fuse ("+",deck.event["stat_to_mod" score])
- else
-  a:deck.event["stat_to_mod" score]
- end
  if num=0
-  button1.text:"" fuse abbr,a
+  button1.text:abbr
  elseif num=1
-  button2.text:"" fuse abbr,a
+  button2.text:abbr
  elseif num=2
-  button3.text:"" fuse abbr,a
+  button3.text:abbr
  elseif num=3
-  button4.text:"" fuse abbr,a
+  button4.text:abbr
  elseif num=4
-  button5.text:"" fuse abbr,a
+  button5.text:abbr
  elseif num=5
-  button6.text:"" fuse abbr,a
- else
-  
+  button6.text:abbr
  end
 end
 
@@ -512,86 +512,37 @@ end
 
 {script:statroller.1}
 on click do
- grid1.cell:(0,0)
- a:random[20]+1
- b:deck.event["stat_to_mod" grid1.cellvalue]
- c:""
- if b<0
-  c:"" fuse (a+b), " (", a, b, ")"
- else
-  c:"" fuse (a+b), " (", a, "+", b, ")"
- end
- roll.text:"\n" fuse c, roll.text
+ card.event["do_roll" 0]
 end
 {end}
 
 {script:statroller.2}
 on click do
- grid1.cell:(0,1)
- a:random[20]+1
- b:deck.event["stat_to_mod" grid1.cellvalue]
- if b<0
-  c:"" fuse (a+b), " (", a, b, ")"
- else
-  c:"" fuse (a+b), " (", a, "+", b, ")"
- end
- roll.text:"\n" fuse c, roll.text
+ card.event["do_roll" 1]
 end
 {end}
 
 {script:statroller.3}
 on click do
- grid1.cell:(0,2)
- a:random[20]+1
- b:deck.event["stat_to_mod" grid1.cellvalue]
- if b<0
-  c:"" fuse (a+b), " (", a, b, ")"
- else
-  c:"" fuse (a+b), " (", a, "+", b, ")"
- end
- roll.text:"\n" fuse c, roll.text
+ card.event["do_roll" 2]
 end
 {end}
 
 {script:statroller.4}
 on click do
- grid1.cell:(0,3)
- a:random[20]+1
- b:deck.event["stat_to_mod" grid1.cellvalue]
- if b<0
-  c:"" fuse (a+b), " (", a, b, ")"
- else
-  c:"" fuse (a+b), " (", a, "+", b, ")"
- end
- roll.text:"\n" fuse c, roll.text
+ card.event["do_roll" 3]
 end
 {end}
 
 {script:statroller.5}
 on click do
- grid1.cell:(0,4)
- a:random[20]+1
- b:deck.event["stat_to_mod" grid1.cellvalue]
- if b<0
-  c:"" fuse (a+b), " (", a, b, ")"
- else
-  c:"" fuse (a+b), " (", a, "+", b, ")"
- end
- roll.text:"\n" fuse c, roll.text
+ card.event["do_roll" 4]
 end
 {end}
 
 {script:statroller.6}
 on click do
- grid1.cell:(0,5)
- a:random[20]+1
- b:deck.event["stat_to_mod" grid1.cellvalue]
- if b<0
-  c:"" fuse (a+b), " (", a, b, ")"
- else
-  c:"" fuse (a+b), " (", a, "+", b, ")"
- end
- roll.text:"\n" fuse c, roll.text
+ card.event["do_roll" 5]
 end
 {end}
 
