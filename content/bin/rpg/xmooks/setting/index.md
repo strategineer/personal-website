@@ -106,6 +106,7 @@ The Arathean state exerts power and control throughout the land by delegating lo
 ### Hooks
 
 - The extent of Aldeus's powers are unclear, any concrete evidence to support or contradict claims about his powers would be very valuable for interested parties throughout Golgea.
+- Sheltered Arathean nobles will pay great sums to people willing to guide them through ancient and dungeons.
 
 ## The Deep Forest
 
