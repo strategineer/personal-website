@@ -135,3 +135,36 @@ Wait and see. It'll work itself out, in time.
 Take it from there, maestro…
 
 {{< /quote >}}
+
+---
+
+{{< quote >}}
+Gurgeh dived back into the game, an amphibian into welcoming
+water. For a few moves he just gloried in the feeling of returning home
+to his element and the sheer joy of the contest, taking delight in a
+flexing of his strengths and powers, the readying tension of the pieces
+and places; then he curved out from that playing to the serious
+business of the building and the hunting, the making and linking and
+the destroying and cutting; the searching and destroying.
+
+The board became both Culture and Empire again. The setting was
+made by them both; a glorious, beautiful, deadly killing field,
+unsurpassably fine and sweet and predatory and carved from Nicosar's
+beliefs and his together. Image of their minds; a hologram of pure
+coherence, burning like a standing wave of fire across the board, a
+perfect map of the landscapes of thought and faith within their heads.
+
+He began the slow move that was defeat and victory together before
+he even knew it himself. Nothing so subtle, so complex, so beautiful
+had ever been seen on an Azad board. He believed that; he knew that.
+He would make it the truth.
+
+The game went on.
+
+Breaks, days, evenings, conversations, meals; they came and went in
+another dimension; a monochrome thing, a flat, grainy image. He was
+somewhere else entirely. Another dimension, another image. His skull
+was a blister with a board inside it, his outside self just another piece
+to be shuffled here and there.
+
+{{< /quote >}}
