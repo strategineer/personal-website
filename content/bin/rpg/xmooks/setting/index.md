@@ -5,6 +5,8 @@ no_search: true
 weight: 1
 ---
 
+![](/img/rpg/glogea.png)
+
 # Intro
 
 The default X-Mooks setting is Glogea (glow-gee-aaa). What follows are some notes on parts of it. They are far from exhaustive.
@@ -65,7 +67,7 @@ Kargish dissidents who oppose the Kargish's states discriminatory policies exist
 
 ### Hooks
 
-- Kargish dissidents are looking for support to overthrow their fascist government, a neighboring nation could supply the manpower and resources needed to do so.
+- Kargish dissidents are looking for support to overthrow their government, a neighboring nation could supply the manpower and resources needed to do so.
 
 ## The Hearth
 
@@ -103,16 +105,32 @@ The Arathean state exerts power and control throughout the land by delegating lo
 
 ### Hooks
 
-- The extent of Aldeus's powers are unclear, any concrete evidence to support or contradict claims about his powers would be very valuable for interested parties.
+- The extent of Aldeus's powers are unclear, any concrete evidence to support or contradict claims about his powers would be very valuable for interested parties throughout Golgea.
 
-## The Glade of the Elves
+## The Deep Forest
 
-As you can imagine, Elven lands, open to outsiders.
+The Deep Forest lies between Korgath and The Hearth blocking the land crossing between the two. Without an experienced tracker or the blessing of the Elves, passage through the forest is risky to say the least.
 
-## The Barrows
+The Deep Forest is home to a small cohort of Elves, many ravenous beasts and abandoned elven ruins.
 
-A marshland settled by an old race  with the neurtal
+The Elves who've remained in the Deep Forest are the stubbornness of the Elves of Golgea, clinging to their ancient ways despite their dwindling numbers and inability to maintain the health of the forest. They are ardent nature worshippers, worshipping the fauna and flora of the forest above all else.
 
+### Hooks
+
+- The Elves have noticed a sickness spreading throughout their forest, making travelling through the forest and riskier proposition, and have begun seeking help from their neighbours to find the source of the problem.
+- Caravans passing between Korgath and The Hearth are always looking for guards to protect their shipments through the Deep Forest, especially due to the progressive darkening of the forest.
+
+## Ashenbane
+
+A mountainous area isolated from the rest of Golgea by terrain impassable by most.
+
+Home to many deep dwarves who spend their days mining and exporting the minerals they find to their neighbours, storing their most precious loot in deep trapped vaults.
+
+The dwarves of Ashenbane are a long lived and ancient people who tire of their mortal coil and wish to leave this plane of existence. 
+
+### Hooks
+
+- The deep dwarves of Ashenbane's ritual of Ascension is almost complete, problem is they need to obtain a most precious prize. The ornate crown of the Aldeus, the King of Arathea. He won't part with it easily.
 
 
 # Creation Myth
