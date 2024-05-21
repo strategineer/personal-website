@@ -2,14 +2,16 @@
 authors:
   - Adrian Tchaikovsky
 books/tags:
-  - currently-reading
   - science-fiction
-date: 2024-05-19
+  - slay
+date: 2024-05-20
 params:
   isbn13: "9781786693907"
+  series: "Dogs of War"
+  series_order: "1"
   year: "2018"
 title: Dogs Of War
-weight: 1
+star_rating: 5
 ---
 
 <!--more-->
