@@ -48,6 +48,7 @@ Throughout the text, whenever you see "Roll under...", it means "Roll equal to o
 
 Skills are just a word that describes something a PC knows how to do. There are no specific rules for using them. You may call for rolls under Intelligence or another stat, but in general, just let the PC with the skill do the thing the skill describes.
 
+{{< rpg_table Stats >}}
 | Stat | Bonus | Stat | Bonus | Stat | Bonus |
 | ---- | ----- | ---- | ----- | ---- | ----- |
 | 1    | -3    | 9    | 0     | 17   | 2     |
@@ -59,7 +60,7 @@ Skills are just a word that describes something a PC knows how to do. There are 
 | 7    | -1    | 15   | 2     | 23   | 4     |
 | 8    | -1    | 16   | 2     | 24   | 5     |
 {.table .table-striped .table-bordered .table-sm}
-
+{{< /rpg_table >}}
 ## Stats
 
 Characters have 6 stats. Each stat has a "bonus", which is a sort of shorthand condensation of a stat. Don't add the bonus to rolls.
@@ -184,6 +185,7 @@ All classes are proficient with daggers. A PC is also proficient with any weapon
 
 When encountering monsters, roll `2d6 + the Charisma bonus` of the most visible party member.
 
+{{< rpg_table ReactionRoles >}}
 | 2d6+       | Result           | Notes                        |
 | ---------- | ---------------- | ---------------------------- |
 | 2 or less  | Immediate Attack | Offended or disgusted        |
@@ -191,6 +193,7 @@ When encountering monsters, roll `2d6 + the Charisma bonus` of the most visible 
 | 8-11       | Favourable       | Parley or bargaining         |
 | 12 or more | Very Favourable  | May choose to cooperate.     |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 Monsters (or hirelings) may try to run away or surrender if combat turns against them. Monsters have a Morale value listed from 2 (craven) to 12 (unbreakable). Check Morale when:
 
@@ -212,21 +215,25 @@ If they took a further 1 point of damage (-9 HP), they would roll `1d12 + 9 (Let
 
 If required, roll `1d6` for hit location.
 
+{{< rpg_table HitLocations >}}
 | Result | 1. Arm | 2. Leg | 3-4. Torso | 5-6. Head |
 | --- | --- | --- | --- | --- |
 | 1+ | Disabled X Days | Disabled X Days | Cracked Ribs X Days | Concussed X Days |
 | 11+ | 1 Fatal Wound + Mangled | 1 Fatal Wound + Mangled | 1 Fatal Wound + Crushed | 1 Fatal Wound + Skullcracked |
 | 16+ | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Status Effect Table
 
+{{< rpg_table StatusEffects >}}
 | Result | Acid, Fire / Cold, Ice | Lightning | Venom / Toxin | Magic |
 | --- | --- | --- | --- | --- |
 | 1+ | Scorched / Frostbite X Days | Burned X Days | Sickened X Days | Anathema X Days |
 | 11+ | 1 Fatal Wound + Burned / Frozen | 1 Fatal Wound + Fried | 1 Fatal Wound + Wracked | 1 Fatal Wound + Marked |
 | 16+ | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds | X-15 Fatal Wounds |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Fatal Wounds
 
@@ -602,6 +609,7 @@ At Level 6, and every time a PC levels up past Level 6, they can retire to safet
 
 Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf)))
 
+{{< rpg_table WizardSchools >}}
 | 1d12 | Wizard Schools |
 | ---- | -------------- |
 | 1    | Animist        |
@@ -617,6 +625,7 @@ Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick b
 | 11   | Spider         |
 | 12   | White Hand     |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 #### Choosing a Wizard School: Option 2
 
@@ -681,6 +690,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Food and Cooking
 
+{{< rpg_table Food >}}
 | Item                  | Cost (Urban) | Cost(Rural) |
 | --------------------- | ------------ | ----------- |
 | Small Beer            | 2cp          | 1cp         |
@@ -698,9 +708,11 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Soap (1lb)            | 1cp          | 2cp         |
 | Wooden Tub            | 2sp          | 1sp         |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Armor
 
+{{< rpg_table Armor >}}
 | Item                        | Cost (Urban) | Cost(Rural) |
 | --------------------------- | ------------ | ----------- |
 | Leather Armour (Defense 12) | 25sp         | 50sp        |
@@ -708,9 +720,11 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Plate Armour (Defense 16)   | 100gp        | -           |
 | Shield (Defense +1)         | 5sp          | 5sp         |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Weapons
 
+{{< rpg_table Weapons >}}
 | Item                                        | Cost (Urban) | Cost(Rural) |
 | ------------------------------------------- | ------------ | ----------- |
 | Light Weapon (1d6 + Str. Bonus) (3/slot)    | 5sp          | 5sp         |
@@ -721,9 +735,11 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Crossbow (1d12)                             | 5gp          | -           |
 | Arrows/Bolts (20/slot)                      | 5cp each     | 5cp each    |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Light
 
+{{< rpg_table Light >}}
 | Item                           | Cost (Urban) | Cost(Rural) |
 | ------------------------------ | ------------ | ----------- |
 | Candle (small, 1hr) (3/slot)   | 1cp          | 1cp         |
@@ -733,9 +749,11 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Tinderbox                      | 1sp          | 5sp         |
 | Torch (3hrs) (3/slot)          | 1cp          | 1cp         |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Animals
 
+{{< rpg_table Animals >}}
 | Item           | Cost (Urban) | Cost(Rural) |
 | -------------- | ------------ | ----------- |
 | Cattle         | 1gp          | 8sp         |
@@ -748,9 +766,11 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Donkey         | 8sp          | 5sp         |
 | Sheep          | 3sp          | 1sp         |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Tools
 
+{{< rpg_table Tools >}}
 | Item              | Cost (Urban) | Cost(Rural) |
 | ----------------- | ------------ | ----------- |
 | Anvil             | 2gp          | 3go         |
@@ -769,9 +789,11 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Speciality Tools  | 2gp          | -           |
 | Spike (iron)      | 1sp          | 2sp         |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Adventuring Gear
 
+{{< rpg_table AdventuringGear >}}
 | Item                   | Cost (Urban) | Cost(Rural) |
 | ---------------------- | ------------ | ----------- |
 | Air Bladder            | 1sp          | 1sp         |
@@ -789,9 +811,11 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Waterskin              | 1sp          | 1sp         |
 | Whistle                | 5cp          | 5cp         |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Clothing
 
+{{< rpg_table Clothing >}}
 | Item            | Cost (Urban) | Cost(Rural) |
 | --------------- | ------------ | ----------- |
 | Peasant Clothes | 1sp          | 5cp         |
@@ -801,9 +825,11 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Furs            | 50gp         | -           |
 | Rags            | 5cp          | 3 cp        |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
-## Clothing
+## BooksAndVanityItems
 
+{{< rpg_table BooksAndVanityItems >}}
 | Item                           | Cost (Urban) | Cost(Rural) |
 | ------------------------------ | ------------ | ----------- |
 | Book (blank)                   | 3gp          | -           |
@@ -817,9 +843,12 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Gold Ring                      | 1gp          | -           |
 | Scroll Case                    | 1sp          | 3 sp        |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
+
 
 ## Hirelings and Followers
 
+{{< rpg_table HirelingsAndFollowers >}}
 | Item                     | Cost (Urban) | Cost(Rural) |
 | ------------------------ | ------------ | ----------- |
 | Useless Peasant          | 2sp/month    | 1sp/month   |
@@ -833,9 +862,12 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Barber-Surgeon           | 6gp/month    | 8gp/month   |
 | Galley Crew (60)         | 30gp/month   | -           |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
+
 
 ## Transportation and Lodging
 
+{{< rpg_table TransportationAndLodging >}}
 | Item     | Cost (Urban) | Cost(Rural) |
 | -------- | ------------ | ----------- |
 | Sailboat | 600gp        | -           |
@@ -845,6 +877,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | Galley   | 800gp        | -           |
 | Inn      | 5sp/night    | 3sp/night   |
 {.table .table-striped .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Currency Calibration
 
@@ -852,7 +885,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Table of Races
 
-{{< rpg_table >}}
+{{< rpg_table Races >}}
 | 1d50 | Race | Reroll | Bonus | Weakness | Flavor |
 | --- | --- | --- | --- | --- | --- |
 | 1-10 | Human | Choice | +1 to Strength for Inventory Slots. Gain a random item. | -4 to Save against being mutated or transformed. | The "hu" was a small, pink, avaricious, ugly little mole-like creature that the humans exterminated out of shame. |
@@ -895,6 +928,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | 48 | Cricketling | STR | Can jump twice as high. | Constant musical rasping. -2 Stealth. | Natural musicians, but primarily farmers in fertile plains. |
 | 49 | Sparrowling | WIS | Climb as fast as you can run. | When afraid, will run instead of staying still. | Notoriously nervous and prone to gossip, sparrowlings travel in small groups as mercenaries or pilgrims. |
 | 50 | Goblin | DEX | Can see/smell 20' in the dark. | ½ starting HP and Int. Speak in words of 2 syllables or fewer. | Universally loathed. Made of leftovers. Goblinism is contagious. |
+{.table .table-striped .table-bordered .table-sm}
 {{< /rpg_table >}}
 
 # Extra Resources
