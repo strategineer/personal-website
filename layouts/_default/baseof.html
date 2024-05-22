@@ -51,6 +51,11 @@
     </title>
   </head>
   <body id="documentTop">
+    {{ if $.Params.is_rpg }}
+      {{ with resources.Get "js/rpg_table_randomizer.js" }}
+      <script type="text/javascript" src="{{ .RelPermalink }}"> </script>
+      {{ end }}
+    {{ end  }}
     <div class="container-fluid"> 
       {{ $is_readable := default .Params.is_readable true}}
       <div class="row no-margin justify-content-center">

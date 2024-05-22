@@ -1,0 +1,52 @@
+{{- $inner := .Inner -}}
+{{- if strings.ContainsNonSpace $inner -}}
+  {{- with $.Page -}}
+  {{ $todo := "TODO strat, use the rpg_table_randomizer.js code to implement a button that generates a random result" }}
+
+  {{ $clean_rows := slice }}
+  {{ $rows := split $inner "\n" }}
+  {{ $header := "Table" }}
+  {{ $i := 0 }}
+  {{ range $r := $rows }}
+    {{ if not (strings.HasPrefix $r "|") }}
+      {{ continue }}
+    {{ end }}
+    {{ if eq $i 0 }}
+      {{ $header = $r }}
+    {{ end }}
+    {{ $i = add $i 1 }}
+    {{ if lt $i 3 }}
+      {{ continue }}
+    {{ end }}
+    {{ if gt $i 13 }}
+    {{ continue }}
+    {{ end }}
+    {{ $clean_rows = $clean_rows | append $r }}
+  {{ end }}
+
+  <script type="text/javascript">
+    function clickMe() {
+      header = "{{ $header }}";
+      const table_config = {
+        key: 'my_table',
+        title: "{{ $header }}",
+        tables: {
+          default: [
+          {{- range $r := $clean_rows -}}
+          {"label": "{{- $r -}}"},
+          {{ end }}
+          ],
+        }
+      };
+      const tableRoller = new TableRoller();
+      const table = new RandomTable(table_config);
+      const result = tableRoller.getTableResult(table);
+      document.getElementById("table_result").innerHTML = `${header}<br>${result[0]}`;
+  }
+  </script>
+  <button onclick="clickMe()">Randomize</button>
+  <div id="table_result"></div>
+
+    {{ $inner | markdownify }}
+  {{- end -}}
+{{- end -}}

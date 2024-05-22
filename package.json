@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.0-beta1",
-    "mermaid": "^9.1.1"
+    "mermaid": "^9.1.1",
+    "rpg-table-randomizer": "^1.4.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",

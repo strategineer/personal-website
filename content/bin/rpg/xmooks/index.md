@@ -2,6 +2,7 @@
 title: "X-Mooks Rules"
 is_readable: true
 no_search: true
+is_rpg: true
 weight: 1
 ---
 
@@ -851,6 +852,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Table of Races
 
+{{< rpg_table >}}
 | 1d50 | Race | Reroll | Bonus | Weakness | Flavor |
 | --- | --- | --- | --- | --- | --- |
 | 1-10 | Human | Choice | +1 to Strength for Inventory Slots. Gain a random item. | -4 to Save against being mutated or transformed. | The "hu" was a small, pink, avaricious, ugly little mole-like creature that the humans exterminated out of shame. |
@@ -893,7 +895,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 | 48 | Cricketling | STR | Can jump twice as high. | Constant musical rasping. -2 Stealth. | Natural musicians, but primarily farmers in fertile plains. |
 | 49 | Sparrowling | WIS | Climb as fast as you can run. | When afraid, will run instead of staying still. | Notoriously nervous and prone to gossip, sparrowlings travel in small groups as mercenaries or pilgrims. |
 | 50 | Goblin | DEX | Can see/smell 20' in the dark. | ½ starting HP and Int. Speak in words of 2 syllables or fewer. | Universally loathed. Made of leftovers. Goblinism is contagious. |
-{.table .table-striped .table-bordered .table-sm .table-small}
+{{< /rpg_table >}}
 
 # Extra Resources
 
