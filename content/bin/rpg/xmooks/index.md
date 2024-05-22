@@ -48,7 +48,6 @@ Throughout the text, whenever you see "Roll under...", it means "Roll equal to o
 
 Skills are just a word that describes something a PC knows how to do. There are no specific rules for using them. You may call for rolls under Intelligence or another stat, but in general, just let the PC with the skill do the thing the skill describes.
 
-{{< rpg_table Stats >}}
 | Stat | Bonus | Stat | Bonus | Stat | Bonus |
 | ---- | ----- | ---- | ----- | ---- | ----- |
 | 1    | -3    | 9    | 0     | 17   | 2     |
@@ -60,7 +59,7 @@ Skills are just a word that describes something a PC knows how to do. There are 
 | 7    | -1    | 15   | 2     | 23   | 4     |
 | 8    | -1    | 16   | 2     | 24   | 5     |
 {.table .table-striped .table-bordered .table-sm}
-{{< /rpg_table >}}
+
 ## Stats
 
 Characters have 6 stats. Each stat has a "bonus", which is a sort of shorthand condensation of a stat. Don't add the bonus to rolls.
@@ -185,7 +184,7 @@ All classes are proficient with daggers. A PC is also proficient with any weapon
 
 When encountering monsters, roll `2d6 + the Charisma bonus` of the most visible party member.
 
-{{< rpg_table ReactionRoles >}}
+{{< rpg_table ReactionRole >}}
 | 2d6+       | Result           | Notes                        |
 | ---------- | ---------------- | ---------------------------- |
 | 2 or less  | Immediate Attack | Offended or disgusted        |
@@ -215,7 +214,7 @@ If they took a further 1 point of damage (-9 HP), they would roll `1d12 + 9 (Let
 
 If required, roll `1d6` for hit location.
 
-{{< rpg_table HitLocations >}}
+{{< rpg_table HitLocation >}}
 | Result | 1. Arm | 2. Leg | 3-4. Torso | 5-6. Head |
 | --- | --- | --- | --- | --- |
 | 1+ | Disabled X Days | Disabled X Days | Cracked Ribs X Days | Concussed X Days |
@@ -609,7 +608,7 @@ At Level 6, and every time a PC levels up past Level 6, they can retire to safet
 
 Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf)))
 
-{{< rpg_table WizardSchools >}}
+{{< rpg_table WizardSchool >}}
 | 1d12 | Wizard Schools |
 | ---- | -------------- |
 | 1    | Animist        |
@@ -688,6 +687,8 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Equipment
 
+{{< rpg_multitable Item Food Armor Weapon Light Tool AdventuringGear Clothing BookAndVanityItem >}}
+
 ## Food and Cooking
 
 {{< rpg_table Food >}}
@@ -724,7 +725,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Weapons
 
-{{< rpg_table Weapons >}}
+{{< rpg_table Weapon >}}
 | Item                                        | Cost (Urban) | Cost(Rural) |
 | ------------------------------------------- | ------------ | ----------- |
 | Light Weapon (1d6 + Str. Bonus) (3/slot)    | 5sp          | 5sp         |
@@ -753,7 +754,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Animals
 
-{{< rpg_table Animals >}}
+{{< rpg_table Animal >}}
 | Item           | Cost (Urban) | Cost(Rural) |
 | -------------- | ------------ | ----------- |
 | Cattle         | 1gp          | 8sp         |
@@ -770,7 +771,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Tools
 
-{{< rpg_table Tools >}}
+{{< rpg_table Tool >}}
 | Item              | Cost (Urban) | Cost(Rural) |
 | ----------------- | ------------ | ----------- |
 | Anvil             | 2gp          | 3go         |
@@ -829,7 +830,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## BooksAndVanityItems
 
-{{< rpg_table BooksAndVanityItems >}}
+{{< rpg_table BookAndVanityItem >}}
 | Item                           | Cost (Urban) | Cost(Rural) |
 | ------------------------------ | ------------ | ----------- |
 | Book (blank)                   | 3gp          | -           |
@@ -848,7 +849,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Hirelings and Followers
 
-{{< rpg_table HirelingsAndFollowers >}}
+{{< rpg_table HirelingAndFollower >}}
 | Item                     | Cost (Urban) | Cost(Rural) |
 | ------------------------ | ------------ | ----------- |
 | Useless Peasant          | 2sp/month    | 1sp/month   |
@@ -885,7 +886,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Table of Races
 
-{{< rpg_table Races >}}
+{{< rpg_table Race >}}
 | 1d50 | Race | Reroll | Bonus | Weakness | Flavor |
 | --- | --- | --- | --- | --- | --- |
 | 1-10 | Human | Choice | +1 to Strength for Inventory Slots. Gain a random item. | -4 to Save against being mutated or transformed. | The "hu" was a small, pink, avaricious, ugly little mole-like creature that the humans exterminated out of shame. |

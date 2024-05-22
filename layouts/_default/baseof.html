@@ -55,6 +55,9 @@
       {{ with resources.Get "js/rpg_table_randomizer.js" }}
       <script type="text/javascript" src="{{ .RelPermalink }}"> </script>
       {{ end }}
+      {{ with resources.Get "js/site_rpg.js" | resources.Minify }}
+      <script type="text/javascript" src="{{ .RelPermalink }}"> </script>
+      {{ end }}
     {{ end  }}
     <div class="container-fluid"> 
       {{ $is_readable := default .Params.is_readable true}}

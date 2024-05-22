@@ -1,7 +1,5 @@
 {{- $inner := .Inner -}}
 {{- if strings.ContainsNonSpace $inner -}}
-  {{ $todo := "TODO strat, use the rpg_table_randomizer.js code to implement a button that generates a random result" }}
-
   {{ $clean_rows := slice }}
   {{ $rows := split $inner "\n" }}
   {{ $header := "Table" }}
@@ -26,36 +24,17 @@
   {{ $table_name := printf "%s" (.Get 0) }}
 
   <script type="text/javascript">
-    function clickMe{{- $table_name | safeJS -}}() {
-      header = "{{ $header }}";
-      const table_config = {
-        key: 'my_table',
-        title: "{{ .Get 0 }}",
-        tables: {
-          default: [
-          {{- range $r := $clean_rows -}}
-          {"label": "{{- $r -}}"},
-          {{ end }}
-          ],
-        }
-      };
-      const tableRoller = new TableRoller();
-      const table = new RandomTable(table_config);
-      const result = tableRoller.getTableResult(table);
-      console.log(result)
-      const a = header.split("|").map(c => c.trim()).filter(c => c)
-      const b = result[0].result.split("|").map(c => c.trim()).filter(c => c)
-      var c = a.map(function(e, i) {
-        return [e, b[i]];
-      });
-      var d = c.map(function(e, i) {
-        return `${c[i][0]}: ${c[i][1]}`;
-      });
-      document.getElementById("table_result_{{$table_name}}").innerHTML = d.join("<br>");
+    const rows{{- $table_name | safeJS }} = [
+      {{- range $r := $clean_rows -}}
+      {"label": "{{- $r -}}"},
+      {{ end }}
+      ];
+    function randomize{{- $table_name | safeJS -}}() {
+      document.getElementById("table_result_{{$table_name}}").innerHTML = randomizeTable("{{ .Get 0 }}", "{{ $header }}", rows{{- $table_name | safeJS -}})
   }
   </script>
   <div>
-    <button onclick="clickMe{{- $table_name | safeJS -}}()">Randomize {{ $table_name -}}!</button>
+    <button onclick="randomize{{- $table_name | safeJS -}}()">Pick random {{ $table_name -}}!</button>
     <div id="table_result_{{$table_name}}"></div>
   </div>
     {{ $inner | markdownify }}
