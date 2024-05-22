@@ -21,12 +21,24 @@
     {{ $clean_rows = $clean_rows | append $r }}
   {{ end }}
 
-  {{ $table_name := printf "%s" (.Get 0) }}
+  {{ $table_name := printf "%s" .Params.name }}
 
   <script type="text/javascript">
     const rows{{- $table_name | safeJS }} = [
       {{- range $r := $clean_rows -}}
-      {"label": "{{- $r -}}"},
+        {{ if not $.Params.weighted }}
+        {"label": "{{- $r -}}"},
+        {{ else }}
+          {{ $weight_str := index (split $r "|") 1 }}
+          {{ $weight := 1}}
+          {{ if strings.Contains $weight_str "-" }}
+            {{ $left := index (split $weight_str "-") 0 }}
+            {{ $right := index (split $weight_str "-") 1 }}
+            {{ $weight = sub (int (trim $right " ")) (int (trim $left " ")) }}
+            {{ $weight = add $weight 1 }}
+          {{ end }}
+          {"label": "{{- $r -}}", "weight": {{ $weight }}},
+        {{ end }}
       {{ end }}
       ];
     function randomize{{- $table_name | safeJS -}}() {

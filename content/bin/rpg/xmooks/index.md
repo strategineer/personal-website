@@ -184,13 +184,13 @@ All classes are proficient with daggers. A PC is also proficient with any weapon
 
 When encountering monsters, roll `2d6 + the Charisma bonus` of the most visible party member.
 
-{{< rpg_table ReactionRole >}}
+{{< rpg_table name="ReactionRole" weighted=true >}}
 | 2d6+       | Result           | Notes                        |
 | ---------- | ---------------- | ---------------------------- |
-| 2 or less  | Immediate Attack | Offended or disgusted        |
+| 1-2        | Immediate Attack | Offended or disgusted        |
 | 3-7        | Unfavourable     | May attack if victory likely |
 | 8-11       | Favourable       | Parley or bargaining         |
-| 12 or more | Very Favourable  | May choose to cooperate.     |
+| 12         | Very Favourable  | May choose to cooperate.     |
 {.table .table-striped .table-bordered .table-sm}
 {{< /rpg_table >}}
 
@@ -214,7 +214,7 @@ If they took a further 1 point of damage (-9 HP), they would roll `1d12 + 9 (Let
 
 If required, roll `1d6` for hit location.
 
-{{< rpg_table HitLocation >}}
+{{< rpg_table name="HitLocation" >}}
 | Result | 1. Arm | 2. Leg | 3-4. Torso | 5-6. Head |
 | --- | --- | --- | --- | --- |
 | 1+ | Disabled X Days | Disabled X Days | Cracked Ribs X Days | Concussed X Days |
@@ -225,7 +225,7 @@ If required, roll `1d6` for hit location.
 
 ## Status Effect Table
 
-{{< rpg_table StatusEffects >}}
+{{< rpg_table name="StatusEffects" >}}
 | Result | Acid, Fire / Cold, Ice | Lightning | Venom / Toxin | Magic |
 | --- | --- | --- | --- | --- |
 | 1+ | Scorched / Frostbite X Days | Burned X Days | Sickened X Days | Anathema X Days |
@@ -608,7 +608,7 @@ At Level 6, and every time a PC levels up past Level 6, they can retire to safet
 
 Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf)))
 
-{{< rpg_table WizardSchool >}}
+{{< rpg_table name="WizardSchool" weighted=true >}}
 | 1d12 | Wizard Schools |
 | ---- | -------------- |
 | 1    | Animist        |
@@ -691,7 +691,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Food and Cooking
 
-{{< rpg_table Food >}}
+{{< rpg_table name="Food" >}}
 | Item                  | Cost (Urban) | Cost(Rural) |
 | --------------------- | ------------ | ----------- |
 | Small Beer            | 2cp          | 1cp         |
@@ -713,7 +713,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Armor
 
-{{< rpg_table Armor >}}
+{{< rpg_table name="Armor" >}}
 | Item                        | Cost (Urban) | Cost(Rural) |
 | --------------------------- | ------------ | ----------- |
 | Leather Armour (Defense 12) | 25sp         | 50sp        |
@@ -725,7 +725,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Weapons
 
-{{< rpg_table Weapon >}}
+{{< rpg_table name="Weapon" >}}
 | Item                                        | Cost (Urban) | Cost(Rural) |
 | ------------------------------------------- | ------------ | ----------- |
 | Light Weapon (1d6 + Str. Bonus) (3/slot)    | 5sp          | 5sp         |
@@ -740,7 +740,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Light
 
-{{< rpg_table Light >}}
+{{< rpg_table name="Light" >}}
 | Item                           | Cost (Urban) | Cost(Rural) |
 | ------------------------------ | ------------ | ----------- |
 | Candle (small, 1hr) (3/slot)   | 1cp          | 1cp         |
@@ -754,7 +754,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Animals
 
-{{< rpg_table Animal >}}
+{{< rpg_table name="Animal" >}}
 | Item           | Cost (Urban) | Cost(Rural) |
 | -------------- | ------------ | ----------- |
 | Cattle         | 1gp          | 8sp         |
@@ -771,7 +771,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Tools
 
-{{< rpg_table Tool >}}
+{{< rpg_table name="Tool" >}}
 | Item              | Cost (Urban) | Cost(Rural) |
 | ----------------- | ------------ | ----------- |
 | Anvil             | 2gp          | 3go         |
@@ -794,7 +794,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Adventuring Gear
 
-{{< rpg_table AdventuringGear >}}
+{{< rpg_table name="AdventuringGear" >}}
 | Item                   | Cost (Urban) | Cost(Rural) |
 | ---------------------- | ------------ | ----------- |
 | Air Bladder            | 1sp          | 1sp         |
@@ -816,7 +816,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Clothing
 
-{{< rpg_table Clothing >}}
+{{< rpg_table name="Clothing" >}}
 | Item            | Cost (Urban) | Cost(Rural) |
 | --------------- | ------------ | ----------- |
 | Peasant Clothes | 1sp          | 5cp         |
@@ -830,7 +830,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## BooksAndVanityItems
 
-{{< rpg_table BookAndVanityItem >}}
+{{< rpg_table name="BookAndVanityItem" >}}
 | Item                           | Cost (Urban) | Cost(Rural) |
 | ------------------------------ | ------------ | ----------- |
 | Book (blank)                   | 3gp          | -           |
@@ -849,7 +849,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Hirelings and Followers
 
-{{< rpg_table HirelingAndFollower >}}
+{{< rpg_table name="HirelingAndFollower" >}}
 | Item                     | Cost (Urban) | Cost(Rural) |
 | ------------------------ | ------------ | ----------- |
 | Useless Peasant          | 2sp/month    | 1sp/month   |
@@ -868,7 +868,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 ## Transportation and Lodging
 
-{{< rpg_table TransportationAndLodging >}}
+{{< rpg_table name="TransportationAndLodging" >}}
 | Item     | Cost (Urban) | Cost(Rural) |
 | -------- | ------------ | ----------- |
 | Sailboat | 600gp        | -           |
@@ -886,7 +886,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Table of Races
 
-{{< rpg_table Race >}}
+{{< rpg_table name="Race"  weighted=true >}}
 | 1d50 | Race | Reroll | Bonus | Weakness | Flavor |
 | --- | --- | --- | --- | --- | --- |
 | 1-10 | Human | Choice | +1 to Strength for Inventory Slots. Gain a random item. | -4 to Save against being mutated or transformed. | The "hu" was a small, pink, avaricious, ugly little mole-like creature that the humans exterminated out of shame. |
