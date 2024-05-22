@@ -14,4 +14,7 @@ title: Dogs Of War
 star_rating: 5
 ---
 
+Adrian Tchaikovsky strikes again. Human animal hybrids with developing consciousness. Check. Hive mind consciousnesses. Check. Empathy porn.  Check.
+
+I might enjoy Dogs of War more than Children of Time? It's more efficient and covers many of the same themes with many more interesting characters. 
 <!--more-->
