@@ -631,7 +631,7 @@ http://dungeon.totalpartykill.ca/
 | Two children with black fingers devour third|
 | Trap-making workshop. Spikes, chains, hinges, levers, acid.|
 | Grease fountain. Statues resemble party members.|
-| Total darkness; the sensation of moving through slime.Â |
+| Total darkness; the sensation of moving through slime. |
 | Eight swords, seven cursed. Sad guardian wants moon.|
 | Razorvine garden overlooking torture chamber. Beautiful attendant-amputees.|
 | Crushing outward pressure, blinding light, and Radiance Demons.|
@@ -716,50 +716,50 @@ http://dungeon.totalpartykill.ca/
 | Derro bachelor party/rumsprinnga. Trading mutations for booze.|
 | Floor is pool with acidic water weird.|
 | Wyvern babies. Hungry and lonely.|
-| Safe room. Glowing orb. Monsters will not enter.Â |
+| Safe room. Glowing orb. Monsters will not enter. |
 | Floor is dungeon&#39;s heart.  electricity pulses with beat.|
 | Kettledrum. Each beat will awaken one clay golem.|
 | Donut with doors opposite. Everything changes after passed.|
 | Amber statues of hunting animals. huge horn.|
 | Arena. All damage illusionary, restored when leaving ring.|
 | Four-poster bed. Touching sheets activates sleep spell.|
-| The first frog. Â The last swamp.|
+| The first frog. The last swamp.|
 | Time paradox continually respawns goblin until halted.|
 | Gold on the ceiling.|
 | Open graves. Crazy graffiti on doors. Magnetic tombstones.|
 | A ghoul-hating ghoul that doesn&#39;t know he&#39;s a ghoul.|
-| An exit. Â Not THE exit.|
-| Railgun for the soul. Â Karmic accelerators. Â XP ammunition.|
+| An exit. Not THE exit.|
+| Railgun for the soul. Karmic accelerators. XP ammunition.|
 | The opposite of a panda bear.|
 | Two goblins fighting over a &quot;wife&quot;.|
-| Hole in the ceiling. Â Bloodstains beneath it.|
-| The room is a centrifuge. Â Killer orbs.|
+| Hole in the ceiling. Bloodstains beneath it.|
+| The room is a centrifuge. Killer orbs.|
 | Lurker and trapper mating.|
 | Lobotomized grell, dragging itself along pathetically.|
-| War machine from another world. Â Ignores PCs.|
-| Ejected buzzsaws. Â Broken trap. Â Thief, now in giblets.|
-| 19 zombies perpetually headbutting floor. Â Mostly oblivious.|
-| Aggressive door approaches you. Â Desires to be opened.|
-| Snakes? Â No, chains.|
+| War machine from another world. Ignores PCs.|
+| Ejected buzzsaws. Broken trap. Thief, now in giblets.|
+| 19 zombies perpetually headbutting floor. Mostly oblivious.|
+| Aggressive door approaches you. Desires to be opened.|
+| Snakes? No, chains.|
 | Skeletons siphon fat, growing stronger.|
-| A storm drain. Â Music, discordant yet beautiful.|
-| A monstrous playwright. Â A wardrobe. Â An audience.|
+| A storm drain. Music, discordant yet beautiful.|
+| A monstrous playwright. A wardrobe. An audience.|
 | A convocation of the rat tribes.|
-| Empty room. Â Broken chair. Â Hungry dust.|
-| Wendigo-ified berserker. Â No feet. Â Leaves bloody footprints. Â |
+| Empty room. Broken chair. Hungry dust.|
+| Wendigo-ified berserker. No feet. Leaves bloody footprints. |
 | Outlined on the wall in ash, a family.|
 | A flumph, afflicted by a spinning sickness.|
 | A familiar--crocodile--cares for it&#39;s deceased witch.|
 | A hyena-lich.|
 | Pots and pans, as if to catch rain.|
-| Brass face. Â Smell of vinegar.|
+| Brass face. Smell of vinegar.|
 | The giant&#39;s bellybutton.|
-| A priceless painting. Â Thought stolen. Â Now worthless.|
+| A priceless painting. Thought stolen. Now worthless.|
 | Lights and voices that flee from your approach.|
 | Tired bones, aching for burial.|
-| A bard. Â His entourage. Â Foolish, numerous, and amiss.|
-| Drow assassin, dying from Â betrayal. Â Lacking a shadow.|
-| Fog leaks from PC&#39;s orifices. Â They are evaporating.|
+| A bard. His entourage. Foolish, numerous, and amiss.|
+| Drow assassin, dying from betrayal. Lacking a shadow.|
+| Fog leaks from PC&#39;s orifices. They are evaporating.|
 | Like a butterfly collection, but not of butterflies.|
 | Fungal-furnished pubroom for Underdark fun-seekers. Try the pies.|
 | Three fairies want song contest judged. Stakes: Life.|
@@ -945,13 +945,13 @@ http://dungeon.totalpartykill.ca/
 | Shards of glass spin in midair until swatted.|
 | An old man sits on a chair, waiting.|
 | Puddles on floor leak up to the ceiling.|
-| Tsochar face-hugger parasite eggs everywhere; Mother guarding...Â |
-| Huge pile of gold coins! Â They&#39;re melted together.|
-| Plain, bare room. Â Everything spoken comes out backwards.|
+| Tsochar face-hugger parasite eggs everywhere; Mother guarding...|
+| Huge pile of gold coins! They&#39;re melted together.|
+| Plain, bare room. Everything spoken comes out backwards.|
 | Eight marbles.|
 | Half-a-dozen hallucinating halflings tied to bedsteads.|
 | Operations table with coathangers instead of scalpels.|
-| Circular hole in east wall, 4 feet diameter.Â |
+| Circular hole in east wall, 4 feet diameter.|
 | Fanatical elves on goblin hunt.|
 | Scriptorium: parchment, quills, ink, desks. Nothing of value.|
 | Distillation apparatus made from glass (valuable, fragile).|
@@ -967,7 +967,7 @@ http://dungeon.totalpartykill.ca/
 | doorway of forgetfulness, you entered for some reason.|
 | worn sign; remaining letters d,o,n,t,e,t,e,r. Inside hungry policeman.|
 |  barrel of fun, 1 d100 goblins pour out.|
-| Invisible, anti-grav silver blades form werewolf prison.Â |
+| Invisible, anti-grav silver blades form werewolf prison.|
 | Magnifcent door marks the Rakshasa&#39;s area of influence|
 | Disgustingly bespattered. Ceiling shaft holds Dire Corby roost. |
 | Two wells. One&#39;s defended by driders, one isn&#39;t.|
@@ -994,7 +994,7 @@ http://dungeon.totalpartykill.ca/
 | Cooling chest filled with ice cream. Horrible flavors.|
 | Cobbler&#39;s workshop run by gnome. Shoes exceptionally nice.|
 | Two racks of champagne bottles. Mediocre quality.|
-| Swordmaster&#39;s journal Â (1000 XP to fighter while in possession).|
+| Swordmaster&#39;s journal (1000 XP to fighter while in possession).|
 | Black lotus in shadows. Releases spores when illuminated.|
 | Smokeleaf growing operation under continual light. Thoroughly trapped.|
 | Reeks of brimstone. Home to fire elemental.|
@@ -1045,14 +1045,14 @@ http://dungeon.totalpartykill.ca/
 | Secret tomb of peasant revolutionary. Fresh offerings.|
 | Corpse in crypt not Withered King, despite tombstone.|
 | 4 champions of chaos, preparing for war|
-| A female hobgoblin giving birth. Two goblins attending.Â |
-| Icicles &amp; frost form on adventurers&#39; lips, chins, cheeks.Â |
-| Dancing blade sharpens itself on grinding stone, hungrily....Â |
-| Hobnail. Pound into goblin&#39;s head to produce hobgoblin.Â |
-| Walls absorb and echo all sounds continuously forever.Â |
-| Silence kills sound 1&#39; Â from source. Ears bleed.|
+| A female hobgoblin giving birth. Two goblins attending. |
+| Icicles &amp; frost form on adventurers&#39; lips, chins, cheeks. |
+| Dancing blade sharpens itself on grinding stone, hungrily.... |
+| Hobnail. Pound into goblin&#39;s head to produce hobgoblin. |
+| Walls absorb and echo all sounds continuously forever. |
+| Silence kills sound 1&#39; from source. Ears bleed.|
 | Alchemical charts litter the room, some useful.|
-| Statue of satyr urinates quality alcohol. Â Weak stream.|
+| Statue of satyr urinates quality alcohol. Weak stream.|
 | On opening the door, completely filled with marbles.|
 | Helium fills the room, everyone sounds like chipmunks|
 | what happens if you read a scroll in chipmunk?|
