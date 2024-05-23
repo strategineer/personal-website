@@ -43,6 +43,8 @@ https://donjon.bin.sh/fantasy/dungeon/ OR https://dungen.app/dungen/
 
 ### How to build encounter tables
 
+TODO: Read this again!
+
 https://www.paperspencils.com/structuring-encounter-tables-amended-restated/
 
 Encounter Table

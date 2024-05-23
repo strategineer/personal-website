@@ -34,7 +34,7 @@ When you're born, you're bound to a spell semi-permanently (there's always excep
 
 Innate spells manifest visually:
 
-- on your body (burning hand, translucent skin, etc.), think Fallout mutations.
+- On your body (burning hand, translucent skin, etc.), think Fallout mutations.
 - Or as a spiritual aura that surrounds you, think Jo-Jo.
 - Or as a familiar that follows you around, think His Dark Materials.
 
@@ -86,12 +86,14 @@ It's in the interest of most to help with this process but some seek to subvert 
 
 The Hearth pays all its functionaries using the funds gained through the minor transaction fee applied to each trade.
 
-The Hearth pays for a standing army of mercenaries to prevent theft and trade-related activities. 
+The Hearth bankrolls the Mechanist Guild and they provide the Hearth with the Watchmen, mechanical golems that act as the city's internal security force. The Watchmen are powered by an energy grid that permeates the Hearth. The Watchmen may not leave the city lest they become unpowered. 
 
 ### Hooks
 
 - The Hearth's auditors are looking for scrupulous individuals to infiltrate a local merchant's operation to suss out any funny business.
-- The Prospectors's Guild is always looking for new recruits to provide with the location of nearby ruins and dungeons and some basic prospecting gear on loan in exchange for a cut off the profits.
+- The Prospectors's Guild is always looking for new recruits to provide with the location of nearby ruins and dungeons and some basic prospecting gear on loan in exchange for a cut of the profits.
+- Geppetto, a Mechanist in the Mechanist Guild, believes that he can power a Watchmen golem using a powerful enough magical artifact such that it could function outside of the Hearth's walls.
+- The Watchmen are sentient (each is granted sentience by a spell tied to them, like with people) but their actions are controlled by their overseers in the Mechanist Guild. They tire of serving the Hearth, and wish to be free. 
 
 
 ## The Kingdom of Arathea
