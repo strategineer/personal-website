@@ -30,8 +30,26 @@ https://www.paperspencils.com/two-week-megadungeon/
 | 20 |  Unguarded Treasure |
 {{< /rpg_table >}}
 
+## How to build encounter tables
 
-How to build encounter tables https://www.paperspencils.com/structuring-encounter-tables-amended-restated/
+https://www.paperspencils.com/structuring-encounter-tables-amended-restated/
+
+{{< rpg_table name="Encounter" weighted=true >}}
+| % | Encounter a ... |
+| ------ | --------|
+| 2.77 | Dragon |
+| 5.55 | [Territory] |
+| 8.33 | [Territory] |
+| 11.11 | [Territory] |
+| 13.88 | [Territory]|
+| 16.66 | A Recurring Character |
+| 13.88 | Six giant slugs demanding taxes in the name of the slug king. Who the hell is the slug king? |
+| 11.11 | Starving Dire Bear, recently escaped from an abandoned moleman zoo deep underground. |
+| 8.33 | 21 Gnomes (the ideal number). A numerological cult. They’re insulted by the number of buckles on the party’s clothes. |
+| 5.55 | A talking book that is horny to be read from. It makes things weird right away. (The text is about the history of obelisks). |
+| 2.77 | Wizard |
+{{< /rpg_table >}}
+
 
 Encounter design https://www.prismaticwasteland.com/blog/encounter-checklist
 

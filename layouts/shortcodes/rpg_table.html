@@ -28,12 +28,15 @@
         {"label": "{{- $r -}}"},
         {{ else }}
           {{ $weight_str := index (split $r "|") 1 }}
-          {{ $weight := 1}}
+          {{ $weight := 1 }}
           {{ if strings.Contains $weight_str "-" }}
             {{ $left := index (split $weight_str "-") 0 }}
             {{ $right := index (split $weight_str "-") 1 }}
             {{ $weight = sub (int (trim $right " ")) (int (trim $left " ")) }}
             {{ $weight = add $weight 1 }}
+          {{ end }}
+          {{ if strings.Contains $weight_str "." }}
+            {{ $weight = math.Round (mul (float (trim $weight_str " ")) 100) }} 
           {{ end }}
           {"label": "{{- $r -}}", "weight": {{ $weight }}},
         {{ end }}
