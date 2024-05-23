@@ -16,7 +16,18 @@ Here's some notes on GMing and helpful rollable tables to help with GMing.
 
 ## How to make dungeons
 
+
 https://www.paperspencils.com/two-week-megadungeon/
+
+Encounter design https://www.prismaticwasteland.com/blog/encounter-checklist
+
+https://falsemachine.blogspot.com/2021/02/sticky-goblins.html?m=1
+
+### Generate a reasonable layout
+
+https://donjon.bin.sh/fantasy/dungeon/ OR https://dungen.app/dungen/
+
+### Fill the rooms with encounters
 
 {{< rpg_table name="DungeonRoom" weighted=true >}}
 | 1d20 | Dungeon Room Result |
@@ -30,9 +41,11 @@ https://www.paperspencils.com/two-week-megadungeon/
 | 20 |  Unguarded Treasure |
 {{< /rpg_table >}}
 
-## How to build encounter tables
+### How to build encounter tables
 
 https://www.paperspencils.com/structuring-encounter-tables-amended-restated/
+
+Encounter Table
 
 {{< rpg_table name="Encounter" weighted=true >}}
 | % | Encounter a ... |
@@ -50,10 +63,86 @@ https://www.paperspencils.com/structuring-encounter-tables-amended-restated/
 | 2.77 | Wizard |
 {{< /rpg_table >}}
 
+Kobold Territory
 
-Encounter design https://www.prismaticwasteland.com/blog/encounter-checklist
+{{< rpg_table name="EncounterTerritoryKobold" >}}
+| 1d4 | Encounter a ... |
+| ---- | ----- |
+| 1 | The party spots a pit trap. They’re supposed to spot it. There are 7 kobolds waiting to ambush them as they edge around it. |
+| 2 | 17 goblins in full armor, here to raid their kobold foes, and willing to raid anyone else they meet. |
+| 3 | A kobold merchant traveling to the lands of the slug king to trade. Has a minotaur bodyguard, and doesn’t trust outsiders. |
+| 4 | 4 young Kobold bravos, all drunk, looking for an opportunity to prove their toughness. |
+{{< /rpg_table >}}
 
-https://falsemachine.blogspot.com/2021/02/sticky-goblins.html?m=1
+
+Boneboy Territory
+
+{{< rpg_table name="EncounterTerritoryBoneboy" weighted=true >}}
+| 1d4 | Encounter a ... |
+| ---- | ----- |
+| 1 | A great big rolling skull that can shoot fire out its eyes. Trying to win a marathon race. Would be furious if anyone delayed them even a moment. |
+| 2 | A giant serpent. Unseen are 3 boneboy hunters stalking the serpent, who may ambush the party if their encounter with the serpent presents a useful advantage. |
+| 3 | A whole company of boneboys (24!) out on marching maneuvers. They’re raw recruits. This is their first day. All but their commander will panic at first sight of the enemy. |
+| 4 | 2 boneboy warriors sitting in a small camp, polishing one another’s bones. They will be angry and embarrassed to be discovered. |
+{{< /rpg_table >}}
+
+Wrinkle for Intelligent Creatures
+
+{{< rpg_table name="WrinkleIntelligentCreatures" hide_table=true >}}
+| 1d30 | Wrinkle |
+| - | -- |
+| 1 | Lost |
+| 2 | Hurt |
+| 3 | Trapped |
+| 4 | Sleeping |
+| 5 | Eating |
+| 6 | Sick |
+| 7 | Tracking Prey |
+| 8 | Lying in Ambush |
+| 9 | Mating Behavior |
+| 10 | Starving |
+| 11 | Returning Home |
+| 12 | Fleeing |
+| 13 | Plotting |
+| 14 | Holding Captives |
+| 15 | Scavenging |
+| 16 | Building a Camp |
+| 17 | Demolishing |
+| 18 | Doing drugs or drinking |
+| 19 | Artistic pursuits |
+| 20 | Spying |
+| 21 | Committing a crime |
+| 22 | Searching |
+| 23 | Religious ritual |
+| 24 | Setting, putting out, or fleeing a fire |
+| 25 | Weeping |
+| 26 | Excreting2 |
+| 27 | Bathing |
+| 28 | Socializing |
+| 29 | Gloating |
+| 30 | Something that isn’t on this table. |
+{{< /rpg_table >}}
+
+Wrinkle for Animal Creatures
+
+{{< rpg_table name="WrinkleAnimalCreatures" hide_table=true >}}
+| 1d12 | Wrinkle |
+| - | -- |
+| 1 | Lost |
+| 2 | Hurt |
+| 3 | Trapped |
+| 4 | Sleeping |
+| 5 | Eating |
+| 6 | Sick |
+| 7 | Tracking Prey |
+| 8 | Lying in Ambush |
+| 9 | Mating Behavior |
+| 10 | Starving |
+| 11 | Returning Home |
+| 12 | Fleeing |
+{{< /rpg_table >}}
+
+### Links TBD
 
 Adventure design
 
@@ -62,9 +151,6 @@ http://into-the-dark-rpg.blogspot.com/2016/07/bryce-lynchs-adventure-design-tips
 Dungeon stocker
 http://dungeon.totalpartykill.ca/
 
-Dungeon generator https://dungen.app/dungen/
-
-https://donjon.bin.sh/fantasy/dungeon/
 
 NPCs
 https://www.paperspencils.com/no-prep-social-encounters/
