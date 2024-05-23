@@ -129,9 +129,9 @@ class DiceRoller {
      * @params {String} string a die roll notation
      * @returns {Number} the result of the roll
      */
-    rollDie (string = '') {
-        string = string.trim();
-        const m = string.match(/^([0-9]*)d([0-9]+)([dklh]{2}[0-9]*)*(?:([\+\-\*\/])([0-9]+))*$/);
+    rollDie (str = '') {
+        str = str.trim();
+        const m = str.match(/^([0-9]*)d([0-9]+)([dklh]{2}[0-9]*)*(?:([\+\-\*\/])([0-9]+))*$/);
         if (!m) {
             return '';
         }

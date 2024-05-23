@@ -43,7 +43,7 @@ From a player's point of view, a roll is a risk. Testing Strength to leap across
 
 ## The Core Mechanic
 
-Almost everything is based on rolling a `d20`. If you roll equal to or under a target number, you succeed. Roll over, and you fail.
+Almost everything is based on rolling a {{< rpg_roll "1d20" >}}. If you roll equal to or under a target number, you succeed. Roll over, and you fail.
 
 Throughout the text, whenever you see "Roll under...", it means "Roll equal to or under...".
 
@@ -158,22 +158,22 @@ On an unmodified Attack roll of 20, the attack automatically misses. Further pen
 
 ## Damage
 
-- **Light weapons** (daggers) deal `1d6 + Strength bonus` damage.
-- **Medium weapons** (swords) deal `1d8 + Strength bonus` damage if wielded in one hand or `1d10 + Strength bonus` damage if wielded in both hands.
-- **Heavy weapons** (hammers) deal `1d12 + Strength bonus` damage but must be wielded in both hands.
-- **Thrown light weapons** deal `1d6` damage.
-- **Bows** and **Slings** deal `1d6` damage.
-- **Crossbows** deal `1d12` damage.
+- **Light weapons** (daggers) deal {{< rpg_roll "1d6" >}} + Strength bonus damage.
+- **Medium weapons** (swords) deal {{< rpg_roll "1d8" >}} + Strength bonus damage if wielded in one hand or {{< rpg_roll "1d10" >}} + Strength bonus damage if wielded in both hands.
+- **Heavy weapons** (hammers) deal {{< rpg_roll "1d12" >}} + Strength bonus damage but must be wielded in both hands.
+- **Thrown light weapons** deal {{< rpg_roll "1d6" >}} damage.
+- **Bows** and **Slings** deal {{< rpg_roll "1d6" >}} damage.
+- **Crossbows** deal {{< rpg_roll "1d12" >}} damage.
 
 ## Hit Points
 
 The danger a character can resist before taking injury is quantified by Hit Points (HP). They are better thought of as "Don't Get Hit" Points. There are no mechanical effects for being reduced to 0 HP. Any damage in excess of this (i.e. negative HP) is known as Lethal Damage, which always incurs a roll on the Death and Dismemberment Table.
 
-PCs have a maximum HP of 20. Enemies have variable HP base on their Hit Dice (HD). A hit dice is a `d8`. Roll the number of HD listed and add the numbers together. An enemy with surprisingly low HP might be sickly or wounded. An enemy with high HP might be a champion (or two enemies).
+PCs have a maximum HP of 20. Enemies have variable HP base on their Hit Dice (HD). A hit dice is a {{< rpg_roll "1d8" >}}. Roll the number of HD listed and add the numbers together. An enemy with surprisingly low HP might be sickly or wounded. An enemy with high HP might be a champion (or two enemies).
 
 ## Healing
 
-1. Lunch heals a character for `1d6 + Level HP`. Lunch takes 1 hour, requires a safe place, and consumes 1 ration.
+1. Lunch heals a character for {{< rpg_roll "1d6" >}} + Level HP. Lunch takes 1 hour, requires a safe place, and consumes 1 ration.
 2. A Good Night's Rest. Restores all HP. Requires 8 hours of rest, a safe place, a fire or heat source, and consumes 1 ration.
 3. Magical Healing. Some spells or potions restore HP. Others can heal Injuries.
 
@@ -185,7 +185,7 @@ All classes are proficient with daggers. A PC is also proficient with any weapon
 
 ## Reaction & Morale Rolls
 
-When encountering monsters, roll `2d6 + the Charisma bonus` of the most visible party member.
+When encountering monsters, roll {{< rpg_roll "2d6" >}} + the Charisma bonus of the most visible party member.
 
 {{< rpg_table name="ReactionRole" weighted=true >}}
 | 2d6+       | Result           | Notes                        |
@@ -201,21 +201,21 @@ Monsters (or hirelings) may try to run away or surrender if combat turns against
 
 1. The side (PCs or monsters) takes their first death.
 2. When half the side has been incapacitated or killed.
-3. If some particularly frightening or spectacular effect occurs. Roll `2d6`. If the result is over the creatures' Morale score, the creature attempts to retreat, surrenders, or panics. Morale can be adjusted (unless 2 or 12) by situational bonuses.
+3. If some particularly frightening or spectacular effect occurs. Roll {{< rpg_roll "2d6" >}}. If the result is over the creatures' Morale score, the creature attempts to retreat, surrenders, or panics. Morale can be adjusted (unless 2 or 12) by situational bonuses.
 
 # Injuries, Death & Dismemberment
 
 ## Death and Dismemberment Roll
 
-`1d12 + Lethal Damage + Number of Current Injuries`
+{{< rpg_roll "1d12" >}} + Lethal Damage + Number of Current Injuries
 
-The effects are cumulative. If a PC with -8 HP and no current Injuries rolls a 10 on a `d12`, to the leg, `X = 10+8+0 = 18`. They gain 4 Fatal Wounds, the leg is Mangled, and also Disabled for 18 days.
+The effects are cumulative. If a PC with -8 HP and no current Injuries rolls a 10 on a {{< rpg_roll "1d12" >}}, to the leg, `X = 10+8+0 = 18`. They gain 4 Fatal Wounds, the leg is Mangled, and also Disabled for 18 days.
 
 If they took a further 1 point of damage (-9 HP), they would roll `1d12 + 9 (Lethal Damage) + 1 (Mangled) + 1 (Disabled)` for `1d12 + 11`.
 
 ## Hit Location Table
 
-If required, roll `1d6` for hit location.
+If required, roll {{< rpg_roll "1d6" >}} for hit location.
 
 {{< rpg_table name="HitLocation" >}}
 | Result | 1. Arm | 2. Leg | 3-4. Torso | 5-6. Head |
@@ -239,7 +239,7 @@ If required, roll `1d6` for hit location.
 
 ## Fatal Wounds
 
-A PC has 3 rounds to clear all their Fatal Wounds or they die. They can attempt to remove a Fatal Wound on their turn by rolling 1 on a `d6`. PCs with Fatal Wounds are unconscious. This does not mean they are quiet or asleep (they can be screaming and holding a stump), but it means they cannot take conscious or deliberate actions. Remove oldest Fatal Wounds first.
+A PC has 3 rounds to clear all their Fatal Wounds or they die. They can attempt to remove a Fatal Wound on their turn by rolling 1 on a {{< rpg_roll "1d6" >}}. PCs with Fatal Wounds are unconscious. This does not mean they are quiet or asleep (they can be screaming and holding a stump), but it means they cannot take conscious or deliberate actions. Remove oldest Fatal Wounds first.
 
 Up to two adjacent allies can try to remove Fatal Wounds from a dying character by spending their turn doctoring the wounded PC and then rolling under ½ Intelligence (unless they have a useful skill).
 
@@ -251,9 +251,9 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 
 **Blind**: Cannot see. -8 to Attack and Defense. Automatically hit by area-of-effect attacks.
 
-**Burned / Frozen**: Save. If failed, roll on the table below. If passed, lose `1d6` digits (roll randomly using a `d20`) and reduce all future damage of the appropriate type (acid, fire, ice, etc.) by 2.
+**Burned / Frozen**: Save. If failed, roll on the table below. If passed, lose {{< rpg_roll "1d6" >}} digits (roll randomly using a {{< rpg_roll "1d20" >}}) and reduce all future damage of the appropriate type (acid, fire, ice, etc.) by 2.
 
-1. Lose `2d6` digits.
+1. Lose {{< rpg_roll "2d6" >}} digits.
 2. Lose all but 1 digit.
 3. Lose both hands.
 4. Lose both feet.
@@ -269,7 +269,7 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 3. Permanently lose 1 Constitution.
 4. Crushed Throat. Cannot speak louder than a whisper.
 5. Crushed Guts. Constitution is 4 for the purposes of holding your breath. Cannot swim or dive.
-6. Broken Spine. Paralyzed from the neck down. Save to recover after `1d6` days. If failed, Save again after `1d6` weeks. If both Saves are failed, the PC is permanently paralyzed.
+6. Broken Spine. Paralyzed from the neck down. Save to recover after {{< rpg_roll "1d6" >}} days. If failed, Save again after {{< rpg_roll "1d6" >}} weeks. If both Saves are failed, the PC is permanently paralyzed.
 
 **Concussed**: The PC's Wisdom becomes 4 for Initiative.
 
@@ -299,7 +299,7 @@ Some injuries on this list aren't on the Death and Dismemberment table. They can
 3. Permanently lose 1 Charisma.
 4. Left eye lost. -1 to range attacks. If both eyes lost, Blind.
 5. Right eye lost. -1 to range attacks. If both eyes lost, Blind.
-6. Coma. Unconscious. Save to recover after `1d6` days. If failed, Save again after `1d6` weeks. If both Saves are failed, the PC is permanently unconscious.
+6. Coma. Unconscious. Save to recover after {{< rpg_roll "1d6" >}} days. If failed, Save again after {{< rpg_roll "1d6" >}} weeks. If both Saves are failed, the PC is permanently unconscious.
 
 **Wracked**: Save. If failed, roll on the table below. If passed, reduce all future poison / toxin damage from the same or similar sources by 2 and gain an Interesting Scar.
 
@@ -351,22 +351,22 @@ Sprinting repeatedly, outdoor travel without rest, or excessively tiring activit
 - **Leather** armour takes up 0 Inventory Slots and provides +2 to Defense.
 - **Chain** armour takes up 2 Inventory Slots and provides a +4 bonus to Defense. It also imposes a -2 penalty to Movement and Stealth.
 - **Plate** armour takes up 4 Inventory Slots and provides a +6 bonus to Defense. It also imposes a -4 penalty to Movement and Stealth.
-- **Shields** take up 1 Inventory Slot and provide a +1 bonus to Defense. A PC can sunder their shield to reduce incoming damage by `1d12`. The shield is broken afterwards.
+- **Shields** take up 1 Inventory Slot and provide a +1 bonus to Defense. A PC can sunder their shield to reduce incoming damage by {{< rpg_roll "1d12" >}}. The shield is broken afterwards.
 
 ### Melee Weapons
 
-- **Light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal `1d6 + Strength bonus` damage in melee.
-- **Medium weapons** (swords) take up 1 Inventory Slot and deal `1d8 + Strength bonus` damage if wielded in one hand or `1d10 + Strength bonus` damage if wielded in both hands.
-- **Heavy weapons** (hammers) take up 2 Inventory Slots and deal `1d12 + Strength bonus` damage but must be wielded in both hands.
+- **Light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal {{< rpg_roll "1d6" >}} + Strength bonus damage in melee.
+- **Medium weapons** (swords) take up 1 Inventory Slot and deal {{< rpg_roll "1d8" >}} + Strength bonus damage if wielded in one hand or {{< rpg_roll "1d10" >}} + Strength bonus damage if wielded in both hands.
+- **Heavy weapons** (hammers) take up 2 Inventory Slots and deal {{< rpg_roll "1d12" >}} + Strength bonus damage but must be wielded in both hands.
 
 ### Ranged Weapons
 
 Ranged weapons get -1 to Attack for every 10' beyond their listed range.
 
-- **Thrown light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal `1d6` damage and have a 20' range.
-- **Slings** take up 1 inventory slot. They deal `1d6` damage and have a 20' range.
-- **Bows** take up 1 inventory slot. They deal `1d6` damage and have a 30' range.
-- **Crossbows** take up 1 inventory slot. They deal `1d12` damage and have a 30' range. A crossbow takes 1 round to reload.
+- **Thrown light weapons** (daggers) take up 1/3rd of an Inventory Slot and deal {{< rpg_roll "1d6" >}} damage and have a 20' range.
+- **Slings** take up 1 inventory slot. They deal {{< rpg_roll "1d6" >}} damage and have a 20' range.
+- **Bows** take up 1 inventory slot. They deal {{< rpg_roll "1d6" >}} damage and have a 30' range.
+- **Crossbows** take up 1 inventory slot. They deal {{< rpg_roll "1d12" >}} damage and have a 30' range. A crossbow takes 1 round to reload.
 
 Both bows and crossbows use arrows. One Inventory Slot can contain 20 arrows. After combat, arrows can be recovered. 50% will be usable.
 
@@ -414,11 +414,11 @@ If you want to modify these movement rates based on Movement, use `20' + the low
 
 ### Random Encounters
 
-Roll for a Random Encounter every 30 minutes or whenever a loud noise occurs. Usually, that's a 1 on a `d6`.
+Roll for a Random Encounter every 30 minutes or whenever a loud noise occurs. Usually, that's a 1 on a {{< rpg_roll "1d6" >}}.
 
 If the PCs are moving cautiously, they get the Omen (a foreshadowing of something yet to come) before the encounter. If they are moving quickly or incautiously, they don't get the Omen.
 
-Roll `2d6` for Morale. If the result is equal to or under Morale, the creature is hostile. If over, positive or uncertain. Modify Morale by anything from +4 to -4 depending on circumstances.
+Roll {{< rpg_roll "2d6" >}} for Morale. If the result is equal to or under Morale, the creature is hostile. If over, positive or uncertain. Modify Morale by anything from +4 to -4 depending on circumstances.
 
 ### Light
 
@@ -441,7 +441,7 @@ Every hex travelled on foot fills 1 Inventory Slot with Fatigue. Riding a horse 
 
 Hexes contain an obvious feature (something the PCs will encounter) and a Hidden Feature (something the PCs might encounter if they search the hex, spend time there, or visit multiple times).
 
-Test for a random encounter every 6 hours or whenever the PCs make a lot of noise or do something that's likely to attract attention. Usually, that's a 1 on a `d6`.
+Test for a random encounter every 6 hours or whenever the PCs make a lot of noise or do something that's likely to attract attention. Usually, that's a 1 on a {{< rpg_roll "1d6" >}}.
 
 Roll for the weather each day.
 
@@ -553,13 +553,13 @@ Before we start, do you have any questions right now?
 # Character Generation
 
 1. Choose or roll for your **[Race](#table-of-races)**. Your character's Race will grant them a Perk, a Drawback, and one Stat they can reroll.
-2. Roll your **[Stats](#stats)**. `3d6` in order. You may reroll the Stat given by your Race and pick the higher result.
+2. Roll your **[Stats](#stats)**. {{< rpg_roll "3d6" >}} in order. You may reroll the Stat given by your Race and pick the higher result.
 3. In X-Mooks, all PCs are **[Wizards](#wizard-class)** at level 1! Choose a Wizard School [from Many Rats on a Stick](#choosing-a-wizard-school-option-1) OR [from the rest of the GLOG-osphere](#choosing-a-wizard-school-option-2).
 4. [Gain the Wizard's Spellcasting Template A](#a-spellcasting).
 5. Choose how your character's [innate spell potential manifests](#innate-magical-potential-manifestation).
 6. Take items and bonuses dictacted by your Wizard class and chosen Wizard School.
 7. Roll for any skills or items dictacted by your Wizard class and chosen Wizard School.
-8. Gain `1d10` cp. All PCs gain a blanket (1 slot) and 3 rations (1 slot).
+8. Gain {{< rpg_roll "1d10" >}} cp. All PCs gain a blanket (1 slot) and 3 rations (1 slot).
 
 ## The Base Adventurer
 
@@ -577,7 +577,7 @@ Multiclassing should make sense. Multiclassing for optimization or mechanical re
 
 PCs gain experience points (XP) by looting stuff. Wages don't count. The loot must be taken to a place of safety and divided or assigned to the PCs to become XP. Items or equipment used by the characters and not sold don't count for XP purposes. Players should track a PC's XP (the total amount of treasure they have accumulated) along with their current cash. Purely frivolous spending converts 10% of the money spent into XP.
 
-Whenever a PC levels, increase their HP, Attack, and base Save (before their Charisma bonus is added). A PC can also test to improve a stat of their choice. Declare the stat and roll `3d6`. If the result is over, the stat's value increases by 1.
+Whenever a PC levels, increase their HP, Attack, and base Save (before their Charisma bonus is added). A PC can also test to improve a stat of their choice. Declare the stat and roll {{< rpg_roll "3d6" >}}. If the result is over, the stat's value increases by 1.
 
 | Level | XP    | HP (20 Max) | Class Templates | Attack | Base Save |
 | ----- | ----- | ----------- | --------------- | ------ | --------- |
@@ -662,7 +662,7 @@ To cast a spell, select a number of Magic Dice (MD) you wish to invest, roll the
 
 Dice that roll 1-3 return to your casting pool and can be used again that day. Dice that roll 4-6 are removed from your casting pool for the day. Your spells return at sunrise to last location they were imprisoned, when the octarine light of the sun touches the world and infuses Creation with an extra boost of raw magic. Your MD return if you get a good night's sleep. If you didn't sleep well, you can Save for each MD to have them return to your pool anyway.
 
-When you gain Template A, roll `1d6` and gain the spell listed. Template B, roll a `1d6` and a `1d8`. Template C, roll `1d10`. Template D, choose 4 spells from the list. If a duplicate spell is rolled, you may choose to keep it or reroll.
+When you gain Template A, roll {{< rpg_roll "1d6" >}} and gain the spell listed. Template B, roll a {{< rpg_roll "1d6" >}} and a {{< rpg_roll "1d8" >}}. Template C, roll {{< rpg_roll "1d10" >}}. Template D, choose 4 spells from the list. If a duplicate spell is rolled, you may choose to keep it or reroll.
 
 You can try to bodge together a spell-like effect appropriate to your school by pouring any number of MD into a target and hoping for the best. Effects are adjudicated by the GM, but are usually haphazard and dangerous. Mishaps and Dooms apply.
 

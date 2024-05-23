@@ -1,11 +1,10 @@
 
-function testRolls() {
-  // just the number  
-    console.log(new DiceRoller().rollDie('2d6+3'));
-    // get a DiceResult object with the value and the die rolled
-    const result = getDiceResult('1d6');
-    console.log(result.value); // some number between 1 and 6
-    console.log(result.die); // '1d6'
+function roll(expr, button) {
+    const result = getDiceResult(expr);
+    if (button) {
+      button.innerHTML = `${expr}: ${result.value}`;
+    }
+    return result.value;
 }
 
 function randomizeTable(title, header, rows, count) {
@@ -17,7 +16,9 @@ function randomizeTable(title, header, rows, count) {
     }
   };
   const isDefaultCount = count === 1;
-  count = getDiceResult(count).value;
+  if ( (typeof count) == "string" ) {
+    count = getDiceResult(count).value;
+  }
   const tableRoller = new TableRoller();
   const table = new RandomTable(table_config);
   var s = [];
