@@ -6,9 +6,66 @@ is_rpg: true
 weight: 1
 ---
 
-Notes from The Monster Overhaul by Skerples
+Here's some notes on GMing and helpful rollable tables to help with GMing.
+
+<!--more-->
+
+# Dungeon / Encounters
+
+
+
+## How to make dungeons
+
+https://www.paperspencils.com/two-week-megadungeon/
+
+{{< rpg_table name="DungeonRoom" weighted=true >}}
+| 1d20 | Dungeon Room Result |
+| --- | ---- |
+| 1-10 | Empty |
+| 11-13 |  Creatures |
+| 14-16 |  Creatures with Treasure |
+| 17 |  Trap |
+| 18 |  Trap with Treasure |
+| 19 |  Something Weird |
+| 20 |  Unguarded Treasure |
+{{< /rpg_table >}}
+
+
+How to build encounter tables https://www.paperspencils.com/structuring-encounter-tables-amended-restated/
+
+Encounter design https://www.prismaticwasteland.com/blog/encounter-checklist
+
+https://falsemachine.blogspot.com/2021/02/sticky-goblins.html?m=1
+
+Adventure design
+
+http://into-the-dark-rpg.blogspot.com/2016/07/bryce-lynchs-adventure-design-tips.html?m=1
+
+Dungeon stocker
+http://dungeon.totalpartykill.ca/
+
+Dungeon generator https://dungen.app/dungen/
+
+https://donjon.bin.sh/fantasy/dungeon/
+
+NPCs
+https://www.paperspencils.com/no-prep-social-encounters/
+
+Links
+
+https://www.paperspencils.com/community-resources/
+
+Modules
+
+The trail of stone and sorrow, tiny sandbox
+
+https://knightowlpublishing.com/2018/07/01/13-adventures-for-your-first-dd-night/
+
+
 
 # Random Encounters
+
+Notes from The Monster Overhaul by Skerples
 
 ## Theory
 

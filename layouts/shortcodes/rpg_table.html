@@ -47,5 +47,7 @@
     <button onclick="randomize{{- $table_name | safeJS -}}()">Pick random {{ $table_name -}}!</button>
     <div id="table_result_{{$table_name}}"></div>
   </div>
+  {{ if not .Params.hide_table | default false }}
     {{ $inner | markdownify }}
+  {{ end }}
 {{- end -}}

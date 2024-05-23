@@ -2,6 +2,7 @@
 title: "X-Mooks Rules"
 is_readable: true
 no_search: true
+summary: 
 is_rpg: true
 weight: 1
 ---
@@ -9,6 +10,8 @@ weight: 1
 X-Mooks is my homebrew OSR-compatible rule system which is HEAVILY based on:
 
 - [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [PDF](/rpg/many_rats_on_stick_v2.pdf). If there's something missing here, namely Wizard Schools, refer to that document to find some, if nothing speaks to you there refer to the [Extra Resources section](#extra-resources) for more options.
+
+<!--more-->
 
 # Core Rules
 
@@ -886,7 +889,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Table of Races
 
-{{< rpg_table name="Race"  weighted=true >}}
+{{< rpg_table name="Race" weighted=true >}}
 | 1d50 | Race | Reroll | Bonus | Weakness | Flavor |
 | --- | --- | --- | --- | --- | --- |
 | 1-10 | Human | Choice | +1 to Strength for Inventory Slots. Gain a random item. | -4 to Save against being mutated or transformed. | The "hu" was a small, pink, avaricious, ugly little mole-like creature that the humans exterminated out of shame. |
