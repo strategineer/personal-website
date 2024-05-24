@@ -44,12 +44,12 @@
         {{ end }}
       {{ end }}
       ];
-    function randomize{{- $table_name | safeJS -}}() {
-      document.getElementById("table_result_{{$table_name}}").innerHTML = randomizeTable("{{ $table_name }}", "{{ $header }}", rows{{- $table_name | safeJS -}}, {{ $result_count }})
+    function pickRandomlyFromTable{{- $table_name | safeJS -}}() {
+      document.getElementById("table_result_{{$table_name}}").innerHTML = rollOnTable("{{ $table_name }}", "{{ $header }}", rows{{- $table_name | safeJS -}}, {{ $result_count }})
   }
   </script>
   <div>
-    <button onclick="randomize{{- $table_name | safeJS -}}()">Pick {{ $result_count }} random {{ $table_name -}}!</button>
+    <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Pick {{ $result_count }} random {{ $table_name -}}!</button>
     <div id="table_result_{{$table_name}}"></div>
   </div>
   {{ if not .Params.hide_table | default false }}

@@ -49,6 +49,8 @@ https://www.paperspencils.com/structuring-encounter-tables-amended-restated/
 
 Encounter Table
 
+{{< rpg_multi_table Encounters Encounter EncounterTerritoryKobold EncounterTerritoryBoneboy >}}
+
 {{< rpg_table name="Encounter" weighted=true >}}
 | % | Encounter a ... |
 | ------ | --------|
@@ -68,24 +70,24 @@ Encounter Table
 Kobold Territory
 
 {{< rpg_table name="EncounterTerritoryKobold" >}}
-| 1d4 | Encounter a ... |
-| ---- | ----- |
-| 1 | The party spots a pit trap. They’re supposed to spot it. There are 7 kobolds waiting to ambush them as they edge around it. |
-| 2 | 17 goblins in full armor, here to raid their kobold foes, and willing to raid anyone else they meet. |
-| 3 | A kobold merchant traveling to the lands of the slug king to trade. Has a minotaur bodyguard, and doesn’t trust outsiders. |
-| 4 | 4 young Kobold bravos, all drunk, looking for an opportunity to prove their toughness. |
+| Encounter a ... |
+| ----- |
+| The party spots a pit trap. They’re supposed to spot it. There are 7 kobolds waiting to ambush them as they edge around it. |
+| 17 goblins in full armor, here to raid their kobold foes, and willing to raid anyone else they meet. |
+| A kobold merchant traveling to the lands of the slug king to trade. Has a minotaur bodyguard, and doesn’t trust outsiders. |
+| 4 young Kobold bravos, all drunk, looking for an opportunity to prove their toughness. |
 {{< /rpg_table >}}
 
 
 Boneboy Territory
 
-{{< rpg_table name="EncounterTerritoryBoneboy" weighted=true >}}
-| 1d4 | Encounter a ... |
-| ---- | ----- |
-| 1 | A great big rolling skull that can shoot fire out its eyes. Trying to win a marathon race. Would be furious if anyone delayed them even a moment. |
-| 2 | A giant serpent. Unseen are 3 boneboy hunters stalking the serpent, who may ambush the party if their encounter with the serpent presents a useful advantage. |
-| 3 | A whole company of boneboys (24!) out on marching maneuvers. They’re raw recruits. This is their first day. All but their commander will panic at first sight of the enemy. |
-| 4 | 2 boneboy warriors sitting in a small camp, polishing one another’s bones. They will be angry and embarrassed to be discovered. |
+{{< rpg_table name="EncounterTerritoryBoneboy" >}}
+| Encounter a ... |
+| ----- |
+| A great big rolling skull that can shoot fire out its eyes. Trying to win a marathon race. Would be furious if anyone delayed them even a moment. |
+| A giant serpent. Unseen are 3 boneboy hunters stalking the serpent, who may ambush the party if their encounter with the serpent presents a useful advantage. |
+| A whole company of boneboys (24!) out on marching maneuvers. They’re raw recruits. This is their first day. All but their commander will panic at first sight of the enemy. |
+| 2 boneboy warriors sitting in a small camp, polishing one another’s bones. They will be angry and embarrassed to be discovered. |
 {{< /rpg_table >}}
 
 Wrinkle for Intelligent Creatures

@@ -17,3 +17,9 @@ function scrollToTopAndBlur() {
   window.scrollTo(0, 0);
   document.activeElement.blur();
 }
+
+function zip(a, b) {
+  return a.map(function(e, i) {
+    return [e, b[i]];
+  });
+}

@@ -1,0 +1,22 @@
+{{ $combined_table_name := printf "%s" (.Get 0) }}
+
+{{ $table_names := after 1 .Params }}
+<script type="text/javascript">
+  function pickRandomlyFromCombinedTable{{- $combined_table_name | safeJS -}}() {
+    combinedRows{{- $combined_table_name | safeJS }} = [].concat(
+    {{- $i := 0 -}}  
+    {{- range $t := $table_names -}}
+      {{- if ne $i 0 -}}
+      ,
+      {{- end -}}
+      rows{{- $t | safeJS -}}
+      {{- $i = add $i 1 -}}
+      {{- end -}}
+    );
+    document.getElementById("table_result_{{$combined_table_name}}").innerHTML = rollOnTable("{{ $combined_table_name }}",header{{- (index $table_names 0) | safeJS -}}, combinedRows{{- $combined_table_name | safeJS -}}, 1);
+}
+</script>
+<div>
+  <button onclick="pickRandomlyFromCombinedTable{{- $combined_table_name | safeJS -}}()">Pick random {{ $combined_table_name -}}!</button>
+  <div id="table_result_{{$combined_table_name}}"></div>
+</div>

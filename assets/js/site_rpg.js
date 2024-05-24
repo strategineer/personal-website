@@ -7,7 +7,25 @@ function roll(expr, button) {
     return result.value;
 }
 
-function randomizeTable(title, header, rows, count) {
+function rollOnManyTables(all_titles, all_headers, all_rows) {
+  tables = zip(all_headers, all_rows);
+  var i = 0;
+  var s = [];
+  while (i < tables.length) {
+    const t = tables[i]
+    var prefix = "";
+    var suffix = "";
+    if(i > 0) {
+      prefix = `<span class="spoiler">`;
+      suffix = `</span>`;
+    }
+    s.push(`${all_titles[i]}: ${prefix}${rollOnTable(all_titles[i], t[0], t[1], 1)}${suffix}`);
+    i += 1;
+  }
+  return s.join("<br>");
+}
+
+function rollOnTable(title, header, rows, count) {
   const table_config = {
     key: title,
     title: title,

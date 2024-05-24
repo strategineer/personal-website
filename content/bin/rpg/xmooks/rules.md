@@ -690,7 +690,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 # Equipment
 
-{{< rpg_multitable Item Food Armor Weapon Light Tool AdventuringGear Clothing BookAndVanityItem >}}
+{{< rpg_combined_table Item Food Armor Weapon Light Tool AdventuringGear Clothing BookAndVanityItem >}}
 
 ## Food and Cooking
 

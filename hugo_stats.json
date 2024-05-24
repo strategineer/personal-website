@@ -432,6 +432,7 @@
       "table_result_Encounter",
       "table_result_EncounterTerritoryBoneboy",
       "table_result_EncounterTerritoryKobold",
+      "table_result_Encounters",
       "table_result_Food",
       "table_result_HirelingAndFollower",
       "table_result_HitLocation",
