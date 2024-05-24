@@ -27,7 +27,7 @@ And then there's our bio-engineered human, Jimmy, who left Earth in hopes of fin
 
 There's A LOT to unpack here, and a lot of POVs. The POV gimmick of Bear Head is cool with Jimmy and Honey's sentient personality upload occupying the same headspace (literally) and the story being told from his perspective and then hers. Also, Honey's personality upload gradually "coming to life" by unraveling Honey's memories to learn who she was and who she is now is great. But, it's not as compelling or unique Rex's POV in Dogs of War.
 
-The two being in one gimmick is really cool though (it's so much better than [Arkady Martine's execution of a similar concenpt in her Teixcalaan series](/books/2024-04-11/)) but it's impossible for someone as skilled as Adrian Tchaikovsky to keep one upping himself constantly.
+The two being in one gimmick is really cool though (it's so much better than [Arkady Martine's execution of a similar concept in her Teixcalaan series](/books/2024-04-11/)) but it's impossible for someone as skilled as Adrian Tchaikovsky to keep one upping himself constantly.
 
 I enjoyed Bear Head quite a bit but not as much as Dogs of War. The chapters told from the perspective of Thompson's PA Springer are not as much of a highlight as the Jimmy and Honey chapters. Her perspective is important and usually adds to the overall narrative but we spend a bit too much time with her, repeating the same themes over and over again. Very early on you get the impression that Thompson is the devil incarnate, spending more time following his story doesn't really do anything to deepen that past the first few chapters.
 
