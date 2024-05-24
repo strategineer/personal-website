@@ -31,6 +31,8 @@ star_rating: 5
 
 {{< /quote >}}
 
+Gurgeh is the ultimate gamer, he's studied and played all the games there are and no one can best him. He's sad because he's bored. The Culture might be a post-scarcity society but even then unhappiness can creep in.
+
 ---
 
 {{< quote >}}
@@ -44,6 +46,8 @@ star_rating: 5
 {{< quote >}}
 The game went on. People came and went around him. The web held all his fortune; the little spheres, holding their secret treasures and threats, became like discrete parcels of life and death, single points of probability which could be guessed at but never known until they were challenged, opened, looked at. All reality seemed to hinge on those infinitesimal bundles of meaning.
 {{< /quote >}}
+
+There are times when the game we're playing, the fiction we're reading or any kind of abstraction of the real world, in this moment becomes more important 
 
 ---
 
