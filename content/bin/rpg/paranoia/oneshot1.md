@@ -47,7 +47,7 @@ Factions:
 
 - Factory Workers: Infrared level humanoid workers who are managerial staff.
 - Cockroach revolutionaries: bio-engineered cockroaches who are subservient to the human factory workers who both: work in the factory AND are the input product of the factory itself. Sentient giant cockroaches are turning other sentient giant cockroaches into soy sauce (or something that looks and tastes like it).
-- Robot maintenance and security workforce: They clean, they protect the factory from bad actors and their programming has been messed with by the Cockroach revolutionaries so they're behavior is erratic.
+- Robot maintenance and security workforce: They clean, they protect the factory from bad actors and their programming has been messed with by the Cockroach revolutionaries so their behavior is erratic.
 
 ![](/img/rpg/paranoia/bug_factory.png)
 
