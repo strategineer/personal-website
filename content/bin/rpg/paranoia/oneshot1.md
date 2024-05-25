@@ -56,10 +56,11 @@ Players enter through the Main lobby at 4.
 
 ### NPCs
 
+- The Secretary - Ingrid: very old, extremely tired. She acts as though everything is business as usual in the factory,  she's aware of a commotion but not of any details: "The big wigs never tell me anything!".
 - The Manager - Bob: balding, white, upper management vibes, likes to tell people what to do, shitting his pants. Locked in the factory's secret recipe vault, with cockroaches trying to get in there.
 - Che Gueroacha: beret wearing leader of the giant cockroaches, wanders through the factory.
 - Jenny - The Mysterious Stranger: grey (illegal) old troubleshooter who's come to support the cockroaches with their revolution. The Computer is blind to her due to a piece of a equipment she carries.
-- ...
+- iClean Unit 123ABC - A giant roomba with various cleaning appendages tasked with cleaning the factory under normal circumstances. Compulsively cleans from room to room, to converse with it the group will need to follow it. 
 
 ### Map
 
