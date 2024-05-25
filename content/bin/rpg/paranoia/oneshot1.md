@@ -29,6 +29,8 @@ The facility is managed by an all-seeing Computer (The Computer), think Glados b
 
 You are playing as new troubleshooters, it's your first day on the job. A troubleshooter's role is to deal with any problems that come up in the Alpha Complex. As players, you know that the Alpha Complex is falling apart and in a constant state of disrepair. The Computer is no longer capable of maintaining the facility and it doesn't understand why. The Computer has ratched up the surveillance state and blames everyone but itself for the Alpha Complex's problems.
 
+Being a troubleshooter is dangerous so each of you have 5 clones in storage who will be deployed if needed. Crimes do not transfer over to your clones, death brings absolution. 
+
 {{< /quote >}}
 
 Colonel Kernel (old haggard military man, white hair, beret, yellow clearance) enters the room, salutes the group of newly minted troubleshooters, gives the players their iLiveToServe device, gives minimal hints and leaves room for questions.
@@ -66,12 +68,14 @@ Players enter through the Main lobby at 4.
 
 ![](/img/rpg/paranoia/bug_factory.png)
 
+This map represents the walkable floor area of the factory but conveyors and walkways allow for soy sauce and raw materials throughout the factory. 
+
 
 1. Rest Area: 
-2. 2
+2. Main Processing Area: Floor is thick with brown liquid, broken down robots and dead workers. A single iClean unit remains, although heavily damaged. 
 3. Janitor's Office:
 4. Entrance - Main lobby: The Secretary Ingrid greets the troubleshooters with: "If you're here for our Alpha Complex famous guest tours of the factory, I'm sorry to inform you that we're not doing those anymore. How can I help you?"
-5. Loading Bay:
+5. Loading Bay: Raw materials are brought into the factory here and finished product is sent out. 
 6. 6
 7. Worker Locker Room:
 8. 8
