@@ -70,15 +70,15 @@ Players enter through the Main lobby at 4.
 1. Rest Area: 
 2. 2
 3. 3
-4. Entrance - Main lobby 
+4. Entrance - Main lobby: The Secretary Ingrid greets the troubleshooters with: "If you're here for our Alpha Complex famous guest tours of the factory, I'm sorry to inform you that we're not doing those anymore. How can I help you?"
 5. Loading Bay:
 6. 6
-7. 7
+7. Worker Locker Room:
 8. 8
 9. Back Entrance: Workers enter through here.
 10. Secret Recipe Factory Vault (Locked): The Manager Bob (balding) has locked himself in there and can't get out. A small group of giant cockroaches are trying to get in the door. 
-11. 11
-12. 12
+11. Gym?
+12. Shower Room?
 
 
 
