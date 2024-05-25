@@ -2,8 +2,6 @@
 title: "X-Mooks Setting"
 is_readable: true
 no_search: true
-summary: "X-Mooks Setting"
-weight: 1
 ---
 
 Here's some notes on the default setting X-Mooks, Golgea.

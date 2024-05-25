@@ -2,9 +2,7 @@
 title: "X-Mooks Rules"
 is_readable: true
 no_search: true
-summary: 
 is_rpg: true
-weight: 1
 ---
 
 X-Mooks is my homebrew OSR-compatible rule system which is HEAVILY based on:

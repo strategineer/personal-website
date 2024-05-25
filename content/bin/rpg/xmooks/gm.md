@@ -3,7 +3,6 @@ title: "X-Mooks GM Guide"
 is_readable: true
 no_search: true
 is_rpg: true
-weight: 1
 ---
 
 Here's some notes on GMing and helpful rollable tables to help with GMing.
