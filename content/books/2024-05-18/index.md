@@ -14,6 +14,10 @@ title: The Player Of Games
 star_rating: 5
 ---
 
+The ultimate gamer Gurgeh is tired of his life in a post-scarcity society because he's played every game there is and nothing and no one can put up a challenge.
+
+Another Iain Banks banger. If you're interested in getting into his Culture series, this is probably the best place to start.
+
 <!--more-->
 
 ---
