@@ -43,11 +43,25 @@ A bit of a "dungeon crawl" in the soy sauce factory and adjacent buildings in Di
 
 Players enter through the Main lobby at 4.
 
-Factions:
+### Factions
 
 - Factory Workers: Infrared level humanoid workers who are managerial staff.
 - Cockroach revolutionaries: bio-engineered cockroaches who are subservient to the human factory workers who both: work in the factory AND are the input product of the factory itself. Sentient giant cockroaches are turning other sentient giant cockroaches into soy sauce (or something that looks and tastes like it).
 - Robot maintenance and security workforce: They clean, they protect the factory from bad actors and their programming has been messed with by the Cockroach revolutionaries so their behavior is erratic.
+
+### Solutions
+
+- Kill the humans and let the cockroaches take over the factory (they can extrete soy sauce from their bodies OR they can turn the humans into vinegar). 
+- Re-Subjugate the cockroaches, killing any who refuse to work, under the human management.
+
+### NPCs
+
+- The Manager - Bob: balding, white, upper management vibes, likes to tell people what to do, shitting his pants. Locked in the factory's secret recipe vault, with cockroaches trying to get in there.
+- Che Gueroacha: beret wearing leader of the giant cockroaches, wanders through the factory.
+- Jenny - The Mysterious Stranger: grey (illegal) old troubleshooter who's come to support the cockroaches with their revolution. The Computer is blind to her due to a piece of a equipment she carries.
+- ...
+
+### Map
 
 ![](/img/rpg/paranoia/bug_factory.png)
 
@@ -61,7 +75,7 @@ Factions:
 7. 7
 8. 8
 9. Back Entrance: Workers enter through here.
-10. Factory Vault (Locked): The Manager Bob (balding) has locked himself in there and can't get out. A small group of giant cockroaches are trying to get in the door. 
+10. Secret Recipe Factory Vault (Locked): The Manager Bob (balding) has locked himself in there and can't get out. A small group of giant cockroaches are trying to get in the door. 
 11. 11
 12. 12
 
