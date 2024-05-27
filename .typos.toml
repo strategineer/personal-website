@@ -1,5 +1,5 @@
 [files]
-extend-exclude = ["**/*.js", "build", "data/steamgames.json", "data/wordle_words.json", "static/decks/*"]
+extend-exclude = ["**/*.js", "build", "data/steamgames.json", "data/wordle_words.json", "static/decks/*", "**/*.svg"]
 
 [default.extend-words]
 # Don't correct the surname "Teh"
