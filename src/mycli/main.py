@@ -206,7 +206,7 @@ def find_isbns():
         if has_thumbnail:
             im = Image.open(ls[0])
             width, _ = im.size
-            if width < 250:
+            if width < 220:
                 thumbnail_big_enough = False
         post = None
         has_isbn13 = True
