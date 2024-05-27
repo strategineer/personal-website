@@ -5,6 +5,22 @@ no_search: true
 is_rpg: true
 ---
 
+Here's the notes I prepped for my first Paranoia one-shot I GMed. I've been reading up and thinking about Old School Renaissance RPG systems and settings for a few weeks and you can see the influence of that here.
+
+The session went well but the use of mutant cockroaches as one of the factions acted as a pretty strong railroad to encourage players to side with the human workers due to the setting. That wasn't the intention. I wanted to players to really have a choice between siding with the humans factory workers, the cockroaches (and maybe even the robots).
+
+If I were to run this again, I would swap out the cockroaches and instead have two human Infrared human factions (the Laborers and the Office Workers) fighting with each other, neither of which are communists but both of which believe they have better ideas about how to increase the factory's efficiency. Or something like that.
+
+Another problem was that I didn't prep any way to reveal the map properly as the players ran through it. I just took screenshots of sections of the map as they were revealed. Mas suggested I use an image manipulation program with two layers that I could gradually reveal. That would have been way better.
+
+Or I could use a VTT (probably something simple like https://www.owlbear.rodeo/), but that requires a bit more setup. I would use tonly do that if it's really important for PCs to be physically positioned in specific places with stat-based or effect-based restrictions on movement.
+
+Another thing was that I did write down some events that happened during the course of play to bring up during the mission debriefing at the end of the session. The mission debriefing was a fun part of the session but it might been better to also write down a note any time the Computer die came up. Those moments in particular will be remembered by the players and me and tended to be pretty comical. So remembering to bring them up in during the debriefing would have been fun.
+
+Another thing. The special R&D homonym-based equipment I came up with was fun but I should have looked around for some more inspiration, maybe some tables of funny equipment I could have used online.
+
+<!--more-->
+
 # Character creation
 
 While the players are doing the following steps, the GM should generate the jobs and secret roles for the players using [this tool](/bin/paranoia/) and DM them the results (NB: the first card is public information, the other two are secret.)

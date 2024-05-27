@@ -4,7 +4,8 @@
 {{ if not .IsNode }}
 {{ if and (not .Params.exclude_from_summary) (not $is_owned_but_unread_book) }}
 {{ $more_to_read := ne (len (trim .Summary " \n\r")) (len (trim .Content " \n\r"))}}
-{{ $is_ramble_blog_post := and (eq .Section "blog") (in (index .Params "blog/tags") "ramble") }}
+{{ $is_blog := eq .Section "blog" }}
+{{ $is_ramble_blog_post := and $is_blog (in (index .Params "blog/tags") "ramble") }}
 <article class="post-summary">
   {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
   {{ $summary_classes := cond $is_less_important "less-important" "" }}
@@ -56,15 +57,17 @@
                       {{- if eq .Params.weight 1 -}}
                       Reading...
                       {{ else }}
-                      Finished on: {{ .Date.Format "Mon, Jan 2, 2006" }}
+                      Finished on: {{ .Date | time.Format ":date_full" }}
                       {{- end -}}
+                    {{ else if .Params.date }}
+                      {{- .Date | time.Format ":date_full" }}
                     {{ else }}
-                      {{- .Date.Format "Mon, Jan 2, 2006" }}
+                      {{- .Lastmod | time.Format ":date_full" }}
                     {{- end -}}
                   </div>
                   {{ if $more_to_read }}
                   {{- $reading_time := .ReadingTime -}}
-                  {{- if ne $reading_time 0 }}
+                  {{- if and (ne $reading_time 0) (or $is_blog $is_books) }}
                   <div class="col-12">
                       ({{ $reading_time }}min read)
                   </div>
