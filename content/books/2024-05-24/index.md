@@ -17,3 +17,11 @@ A recommendation by Adrian Tchaikovsky himself, let's see how it goes.
 <!--more-->
 
 Chapter 1: {{< spoiler >}} Oof but I'm intrigued. Summoning a mythological lion (God? a god?) and having it lick the protagonist in what seems to be a historical medieval fantasy story was pretty wild. Starting a book with a violent rape of a child followed by her murdering both of her assailants was wild. I don't know what I was expecting from this text before reading it but it wasn't this. {{< /spoiler >}}
+
+200 pages in {{< spoiler >}} like wtf is going on here. The mix and match between extremely grounded medieval historical fiction and the fantasy is cool. 
+
+I LOVE a good frame story. The historian losing his shit over previously historical documents being categorized as fiction is great. Some real Knights Templar / AssCreed shit, conspiracy shit. 
+
+That's cool but then Ash's story cool AF with a healthy dose rollercoaster ride actions sequences, suspense, surprises, intrigue, all wrapped in what feels like an authentic-ish medieval war story told from an interesting POV.
+
+{{< /spoiler >}}
