@@ -112,7 +112,7 @@ Gradually all the patterns and the shapes came out, revealed for a while before 
 For all the jumble, it looked momentarily peaceful and ordered in its parts. The distance made its individual, local confusions and dislocations disappear, and from a certain height, where little ever dallied, and almost everything just passed through, it looked exactly like a great, mindless, spreading organism.
 {{< /quote >}}
 
-Iain Banks ability to write fantastic prose, bring up interesting philosophical conundrums without being preachy about his own beliefs AND tell stories that hook you and never let go, all within the same text consistently amazes me.
+Iain Banks's ability to write fantastic prose, bring up interesting philosophical conundrums without being preachy about his own beliefs AND tell stories that hook you and never let go, all within the same novel consistently amazes me.
 
 ---
 
