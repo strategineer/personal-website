@@ -35,7 +35,7 @@ Another Iain Banks banger. If you're interested in getting into his Culture seri
 
 {{< /quote >}}
 
-Gurgeh has studied and played all the games that exist and none no one can provide him with a challenge. He's sad because he's bored. The Culture might be a post-scarcity society but that doesn't mean that they've completely eliminated unhappiness, they've just reduced it's likelihood.
+Gurgeh has studied and played all the games that exist and none no one can provide him with a challenge. He's sad because he's bored. The Culture might be a post-scarcity society but that doesn't mean that they've completely eliminated unhappiness, they've just reduced its likelihood.
 
 ---
 
