@@ -41,7 +41,20 @@ The mundanity makes the fantastic more believable somehow.
 
 Also, Ash is not a stereotypical protagonist. Mary Gentle consistently subverts some of the tropes you might expect to see throughout the text. Ash is not a chosen one, she's special in some ways but not in others.
 
-Initially she is portrayed as being very special and touched by God, a prophet of battle of sorts. But gradually this shifts as our understanding of the world Ash exists in is deepened. My perception of her shifted and made me think that isn't special or fated for great things,  she's just a product of her upbringing and her genes
+Initially she is portrayed as being a chosen one of some kind and touched by God, a prophet of battle of sorts. But gradually this shifts as our understanding of the world Ash exists in is deepened. My perception of her shifted and made me think that Ash isn't special or fated to achieve great things because she's touched by God, she's just a product of her upbringing and her genes.
+
+But that understanding of Ash clashes with the fantastical elements present within the book which might lead us to believe that this world has one or more beings of great power, gods of some sort, that act on the world as we know it and who's power can't be fully comprehended by the people affected by it.
+
+Or is it just a story within a story? What parts of Ash's story can we believe to be true within the context of the novel when we're told that the historian who's translating the text is telling us that he's watching his archeologist friend unearthing stone golems as described in the novel.
+
+And does it matter?
+
+Whether Ash was licked by a godlike blue lion in her childhood or not, does it matter? Whether Ash is real or not, does it matter?
+
+To be clear she's not real, but that DOESN'T matter.
+
+The entire text is a defense of fiction as a medium and as a fantastic way to express truth about the world we live in and the lives we live. 
+
 {{< /spoiler >}}
 
 
