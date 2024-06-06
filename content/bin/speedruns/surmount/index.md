@@ -137,7 +137,7 @@ Parachute
 : A - It'll save you from falling to your death. It activates automatically if you have it selected and you start falling or you can activate it manually like any other item. Switching back and forth between something like the Hook Shot and the Parachute when doing risky maneuvers seems like a good safety trick. The parachute deactivates when you touch the ground. As you can imagine, an activated parachute will make climbing upwards awkward and slow do I don't recommend it if you can avoid it. 
 
 Snacks/Food
-: B - An instant stamina boost from 0 to 300% is really good. The only reason it's not S tier is because munching on an energy bar won't save you from falling to your death.
+: A - An instant stamina boost from 0 to 300% is really good. The only reason it's not S tier is because munching on an energy bar won't save you from falling to your death. Eating also heals permanent stamina damage so I recommend always keeping one on you just in case.
 
 Teleporter
 : B - It teleports you, it can even teleport you through walls. Not as useful as you might think because the range is short and it's rare for walls to keep you away from a good route. Although I'm sure as more uses for the Teleporter are discovered it'll rise to A tier.
