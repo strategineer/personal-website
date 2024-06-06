@@ -236,6 +236,7 @@
       "combat",
       "combat-1",
       "conclusion",
+      "consumable-item-tier-list",
       "core",
       "core-rules",
       "creation-myth",
@@ -261,12 +262,7 @@
       "en",
       "encumbrance",
       "equipment",
-      "essential-juan-arm",
-      "essential-juan-arm-climb",
-      "essential-juan-hop",
-      "essential-nkops-hop",
-      "essential-one-arm-climb",
-      "essential-tutorial-skip--speedrun-mode",
+      "equipment-tier-list",
       "everything-is-immutable",
       "explorer-egg-list",
       "explorer-footer-button-another",
@@ -342,6 +338,7 @@
       "inventory--items",
       "inventory-slots",
       "it-takes-two-xbox-series-x",
+      "item-tier-list",
       "juan-arm-climb",
       "juan-hop",
       "korgath",
@@ -387,6 +384,7 @@
       "movies-i-hated",
       "movies-i-loved",
       "mudrunner",
+      "mushroom-tier-list",
       "names-have-power",
       "non-wizard-classes",
       "norse-mythology-by-neil-gaiman",
@@ -521,7 +519,10 @@
       "winning",
       "wizard",
       "wizard-class",
-      "write-the-code-thatll-make-use-of-the-meditations"
+      "write-the-code-thatll-make-use-of-the-meditations",
+      "zone-3---route-1---camera-omar-skip",
+      "zone-3---route-1---omar-skip",
+      "zone-4---route-1---rocks-on-omar-skip"
     ]
   }
 }

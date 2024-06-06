@@ -10,16 +10,11 @@ no_search: true
 
 [Speedrun.com Surmount Page](https://www.speedrun.com/Surmount)
 
-
-# Terminology
-
-TBD Let's name all the "things" in the game.
-
 # Pathing
 
 ## Tutorial skip / Speedrun mode
 
-Importance: Essential
+Saves: ~10min
 
 Difficulty: Easy
 
@@ -28,6 +23,32 @@ Secret path that skips the tutorial and decreases the number of cutscenes you ne
 {{< youtube VdGPoVlSQQw >}}
 
 I learned this from @miphos on Discord.
+
+## Zone 3 - Route 1 - Camera Omar Skip
+
+Saves: ~1min
+
+Difficulty: Easy
+
+Skips a whole cutscene with Omar.
+
+{{< youtube BttT1muoj64 1244 >}}
+
+I learned this myself.
+
+## Zone 4 - Route 1 - Rocks on Omar Skip
+
+Saves: ~2-3min
+
+Difficulty: Easy
+
+At some point (might be route dependent) you'll find Omar with a ton of rocks on him, going near him will start what feels like the longest dialogue in the game.
+
+You can avoid that by going left and making use of an item to climb over a unclimbable wall.
+
+TBD Video for this one.
+
+I learned this myself.
 
 # Tricks
 
@@ -71,3 +92,40 @@ Flings you super far if done right. It's not consistent enough to be used all th
 Resetting from this is possible if you didn't do it right. Just let go of one hand and starting swinging with the other.
 
 I learned this from @knop868 on Discord.
+
+# Item Tier List
+
+Rocket
+: S - It launches you super far, super fast. It can be used effectively anywhere on the map.
+
+Parachute
+: S - It'll save you from falling to your death. It activates automatically if you have it selected and you start falling or you can activate it manually like any other item. Switching back and forth between something like the Hook Shot and the Parachute when doing risky maneuvers seems like a good safety trick. The parachute deactivates when you touch the ground, it makes climbing upwards awkward and slow so keep that in mind.
+
+Hook Shot / Rope
+: A - The all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. 
+
+Teleporter
+: B - It teleports you, it can even teleport you through walls. Not as useful as you might think because the range is short and it's rare for walls to keep you away from a good route. Although I'm sure as more uses for the Teleporter are discovered it'll 
+
+Climbing Chalk
+: B - You can't use this in-game, you have to open the menu to use is. This isn't fast. The climbing chalk doesn't last very long. I'm also I haven't found a real use case for the 
+
+Spike
+: C - You can shoot this at a unclimbable wall and then use climb with it. Not super useful. Apparently someone threw the spike and it attached to them allowing them to climb anywhere using the spike attached to themselves or something like that. TBD
+
+Bounce Pad
+: C - Inconsistent and it doesn't do very much on its own. It might be useful for launching yourself into a solid wall and glitching your way up (TBD).
+
+If I forget any items, they're probably not very good.
+
+# Equipment Tier List
+
+TBD
+
+# Mushroom Tier List
+
+TBD
+
+# Terminology
+
+TBD Let's name all the "things" in the game.
