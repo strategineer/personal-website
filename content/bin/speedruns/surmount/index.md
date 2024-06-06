@@ -136,7 +136,7 @@ High Jump Shoes
 Long Arm Sweater
 : C - Probably not worth using. Makes climbing feel different and weird. I'd have to practice a bunch with this sweater before I would be comfortable using it in a run.
 
-Helmet
+Protective Hard Hat 
 : D - You shouldn't be getting hurt in the first place, and if you do you should have some food on you or around you to nibble on to get that stamina back. This is a waste of an item slot IMO.
 
 Let me know if I missed any equippable items!
