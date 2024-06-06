@@ -39,13 +39,13 @@ Importance: Essential
 
 Difficulty: Easy
 
+{{< youtube BttT1muoj64 623 >}}
+
 Holding on to something drains stamina. Holding on with one hand and spinning drains a lot of stamina.
 
 If you run out of stamina, you fall and that's not good in a game where you're trying to go up as fast as possible.
 
 The Juan Arm Climb involves you holding the left stick in the direction you want to go towards and lightly tapping the left or right bumpers rhythmically as your character swings themselves upwards with minimal stamina use.
-
-{{< youtube BttT1muoj64 623 >}}
 
 You can also use this to climb on vertical cliffs/walls.
 
