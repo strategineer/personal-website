@@ -1,5 +1,5 @@
 ---
-title: "Strat's Surmount Speedrun Guide"
+title: "Surmount Speedrun Guide"
 is_readable: true
 no_search: true
 ---
