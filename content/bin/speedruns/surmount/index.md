@@ -103,13 +103,13 @@ Rocket
 : S - It launches you super far, super fast. It can be used effectively anywhere on the map.
 
 Hook Shot / Rope
-: S - The all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. Interestingly you can climb on the hook itself once it's attached to something. This can come in handy if you're trying to climb on an unclimbable wall.
+: A - An all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. Interestingly you can climb on the hook itself once it's attached to something. This can come in handy if you're trying to climb on an unclimbable wall.
 
 Parachute
-: S - It'll save you from falling to your death. It activates automatically if you have it selected and you start falling or you can activate it manually like any other item. Switching back and forth between something like the Hook Shot and the Parachute when doing risky maneuvers seems like a good safety trick. The parachute deactivates when you touch the ground. As you can imagine, an activated parachute will make climbing upwards awkward and slow do I don't recommend it if you can avoid it. 
+: A - It'll save you from falling to your death. It activates automatically if you have it selected and you start falling or you can activate it manually like any other item. Switching back and forth between something like the Hook Shot and the Parachute when doing risky maneuvers seems like a good safety trick. The parachute deactivates when you touch the ground. As you can imagine, an activated parachute will make climbing upwards awkward and slow do I don't recommend it if you can avoid it. 
 
 Snacks/Food
-: A - An instant stamina boost from 0 to 300% is really good. The only reason it's not S tier is because munching on an energy bar won't save you from falling to your death.
+: B - An instant stamina boost from 0 to 300% is really good. The only reason it's not S tier is because munching on an energy bar won't save you from falling to your death.
 
 Teleporter
 : B - It teleports you, it can even teleport you through walls. Not as useful as you might think because the range is short and it's rare for walls to keep you away from a good route. Although I'm sure as more uses for the Teleporter are discovered it'll rise to A tier.
