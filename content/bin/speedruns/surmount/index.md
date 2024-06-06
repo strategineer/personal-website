@@ -166,7 +166,7 @@ Mushrooms are rare and eating them seems like kind of a crap shoot. I'm probably
 TBD Let's name all the "things" in the game.
 TBD Add pictures here
 
-Juan
+Juan / Juana
 : This is the player character.
 
 Boost Hoop
@@ -195,4 +195,35 @@ Cliff
 
 Mushroom
 : These can be found rarely throughout the game. Interacting with them applies a temporary effect on Juan (speed boost, stamina draining, etc.).
+
+Wooden Rope Bridge
+: Can be broken or not. Physics enabled or not. Hard to climb.  
+
+Frozen Water
+: These can be grabbed onto but if Juan grabs onto the bottom half of this, this half will detach from the rest of it and become a physics object. You can still grab onto this and fling yourself gently as long as you don't hold on.
+
+Icicle
+: These fall on you if you walk under them (?) or grab onto them.
+
+Physics log
+: These freely rotate on an axis when weight is placed on either end. 
+
+Button
+: Can be pressed to rotate a bridge (name?) 90 degrees or open a gate.
+
+
+Locked Gate
+: Sometimes you can get through these without pressing the button associated to it.
+
+Mechanism
+: Can 
+
+Rotating Log
+: These either constantly rotate around their axis or can be rotated by Juan if the log is attached to a mechanism.
+
+Rotating Log with Spikes
+: Like the Rotating Log but one side has damaging spikes on it.
+
+Thorns
+: Hurts Juan when he bumps into it.
 
