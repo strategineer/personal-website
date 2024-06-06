@@ -8,8 +8,6 @@ Everything I know about the Surmount Any% Speedrun all in one place.
 
 <!--more-->
 
-# Table of Contents
-
 {{< toc >}}
 
 # Links
