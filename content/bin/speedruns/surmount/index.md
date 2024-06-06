@@ -97,16 +97,19 @@ Resetting from this is possible if you didn't do it right. Just let go of one ha
 
 I learned this from @knop868 on Discord.
 
-# Item Tier List
+# Consumable Item Tier List
 
 Rocket
 : S - It launches you super far, super fast. It can be used effectively anywhere on the map.
 
+Hook Shot / Rope
+: S - The all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. Interestingly you can climb on the hook itself once it's attached to something. This can come in handy if you're trying to climb on an unclimbable wall.
+
 Parachute
 : S - It'll save you from falling to your death. It activates automatically if you have it selected and you start falling or you can activate it manually like any other item. Switching back and forth between something like the Hook Shot and the Parachute when doing risky maneuvers seems like a good safety trick. The parachute deactivates when you touch the ground, it makes climbing upwards awkward and slow so keep that in mind.
 
-Hook Shot / Rope
-: A - The all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. Interestingly you can climb on the hook itself once it's attached to something. This can come in handy if you're trying to climb on an unclimbable wall.
+Snacks/Food
+: A - An instant stamina boost from 0 to 300% is really good. The only reason it's not S tier is because munching on an energy bar won't save you from falling to your death.
 
 Teleporter
 : B - It teleports you, it can even teleport you through walls. Not as useful as you might think because the range is short and it's rare for walls to keep you away from a good route. Although I'm sure as more uses for the Teleporter are discovered it'll 
@@ -118,17 +121,35 @@ Spike
 : C - You can shoot this at a unclimbable wall and then use climb with it. Not super useful. Apparently someone threw the spike and it attached to them allowing them to climb anywhere using the spike attached to themselves or something like that. TBD
 
 Bounce Pad
-: C - Inconsistent and it doesn't do very much on its own. It might be useful for launching yourself into a solid wall and glitching your way up (TBD).
+: C - Inconsistent and it doesn't do very much on its own. It might be useful for launching yourself into a solid wall and glitching your way up (I don't know if this is possible but maybe?). This is the first item I get rid of if I need to make space in my inventory.
 
-If I forget any items, they're probably not very good.
+Let me know if I missed any consumable items!
 
-# Equipment Tier List
+# Equippable Item Tier List
 
-TBD
+Stamina Boost Wife Beater
+: S - More Stamina More Good.
 
-# Mushroom Tier List
+High Jump Shoes
+: A - Makes you jump higher. No brainer on this one.
 
-TBD
+Long Arm Sweater
+: C - Probably not worth using. Makes climbing feel different and weird. I'd have to practice a bunch with this sweater before I would be comfortable using it in a run.
+
+Helmet
+: D - You shouldn't be getting hurt in the first place, and if you do you should have some food on you or around you to nibble on to get that stamina back. This is a waste of an item slot IMO.
+
+Let me know if I missed any equippable items!
+
+# Mushrooms
+
+I have no clue how mushrooms work, I'm not sure if their effects are randomized or not.
+
+All I know is that:
+- I ate a stubby green (I think?) mushroom that made me move really fast.
+- I ate a tall purple (I think?) mushroom that made me constantly lose stamina.
+
+Mushrooms are rare and eating them seems like kind of a crap shoot. I'm probably going to do it anyway for knowledge but I don't think it's "good".
 
 # Terminology
 
