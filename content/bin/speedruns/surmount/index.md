@@ -28,7 +28,20 @@ Secret path that skips the tutorial and decreases the number of cutscenes you ne
 
 I learned this from @miphos on Discord.
 
-## Zone 3 - Route 1 - Camera Omar Skip
+
+## Zone 3 - Route 1 - Omar Skip 1
+
+Saves: ~1min
+
+Difficulty: Easy
+
+Requirements: A teleporter
+
+![](/img/surmount/3_1_omar_skip_1.jpg)
+
+I learned this from @miphos on Discord.
+
+## Zone 3 - Route 1 - Omar Skip 2
 
 Saves: ~1min
 
@@ -38,7 +51,8 @@ Skips a whole cutscene with Omar.
 
 {{< youtube BttT1muoj64 1244 >}}
 
-I learned this myself.
+I learned this on my own.
+
 
 ## Zone 4 - Route 1 - Rocks on Omar Skip
 
@@ -52,7 +66,7 @@ You can avoid that by going left and making use of an item to climb over an uncl
 
 TBD Video for this one.
 
-I learned this myself.
+I learned this on my own.
 
 # Basic Movement
 
