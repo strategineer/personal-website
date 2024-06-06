@@ -99,15 +99,15 @@ The Hearth bankrolls the Mechanist Guild and they provide the Hearth with the Wa
 
 A land of green fields, hills and forests, welcoming to all but particularly humanoid animal hybrids led by Aldeus, a lionling, with great power.
 
-In Arathea, it is said that Aldeus was born with the innate magical power granting him the ability to control celestial objects. Aldeus is said to be able to bring meteors to the ground, move stars, and slow the rotation of Golgea, among other things. No rival nation has been desperate enough to put this to the test.
+It is said that Aldeus was born with the innate magical power granting him the ability to control celestial objects. Aldeus is said to be able to bring meteors to the ground, move stars, and slow the rotation of Golgea, among other things. No rival nation has been desperate enough to put this to the test.
 
 Aldeus is worshipped like a god, some say he might even be one.
 
-Some Aratheans doubt the state's claims about Aldeus's power, however they must do so in secret, lest they be found out by the Vigilees, a group of elite soldiers with psychic powers trained to keep the Arathean's state safe from within and without.
+Some Aratheans doubt the state's claims about Aldeus's power, however they must do so in secret, lest they be found out by the Vigiles, a group of psychic soldiers-wizards trained to keep the Arathean's state safe from within and without.
 
 In other lands, there are rumors that Aldeus is the latest product of generations of experimentation and selective breeding done by the Arethean state to create more than just a leader, but a weapon to wield.
 
-The Arathean state exerts power and control throughout the land by delegating local issues to local leaders, usually wizards.
+The Arathean state exerts power and control throughout the land by granting local power to locally elected leaders, usually wizards.
 
 ### Hooks
 
@@ -116,11 +116,11 @@ The Arathean state exerts power and control throughout the land by delegating lo
 
 ## The Deep Forest
 
-The Deep Forest lies between Korgath and The Hearth blocking the land crossing between the two. Without an experienced tracker or the blessing of the Elves, passage through the forest is risky to say the least.
+The Deep Forest lies between Korgath and The Hearth blocking the land crossing between the two. Without an experienced tracker or the blessing of the Elves, passage through the forest is risky and isn't attempted by many for fear of death or worse.
 
-The Deep Forest is home to a small cohort of Elves, many ravenous beasts and abandoned elven ruins.
+The Deep Forest is home to many of the Elves of Golgea, many ravenous fauna and flora, many elven conclaves (if you know where to look) and ruins from a time before.
 
-The Elves who've remained in the Deep Forest are the stubbornness of the Elves of Golgea, clinging to their ancient ways despite their dwindling numbers and inability to maintain the health of the forest. They are ardent nature worshippers, worshipping the fauna and flora of the forest above all else.
+The Elves of Golgea are short lived but pass on their memories to their offspring before dying. The Elven lands are maintained by a Council of Elders who's memory lineage goes all the way back to the creation of Golgea, at least that's what is believed. Elves and their families are highly sought after as teachers and lore masters all throughout Golgea.
 
 ### Hooks
 
