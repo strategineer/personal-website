@@ -58,11 +58,15 @@ I learned this myself.
 
 ## Airborne Jump/Stall
 
-You can press A in the air to perform a mini-jump. This jump doesn't bring you very high but it might give you the extra height you need to reach a handhold.
+You can press A in the air to perform a mini-jump. You can only do this once until you grab onto to something or become grounded.
+
+This jump doesn't give you too much height but it might give you the extra height you need to reach a handhold.
 
 What's really interesting about this airborne jump is that it does SOMETHING to your momentum. It seems to not kill it completely but drastically reduce it.
 
 If you're not careful you can mess yourself up real bad with this, for example by trying to use this jump to go through boost hoops.
+
+On the other hand, it gives you way more control than you would have otherwise of your momentum when you're flying through the air (which is most of the time).
 
 # Tricks
 
