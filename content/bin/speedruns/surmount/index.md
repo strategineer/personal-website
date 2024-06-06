@@ -54,6 +54,16 @@ TBD Video for this one.
 
 I learned this myself.
 
+# Basic Movement
+
+## Airborne Jump/Stall
+
+You can press A in the air to perform a mini-jump. This jump doesn't bring you very high but it might give you the extra height you need to reach a handhold.
+
+What's really interesting about this airborne jump is that it does SOMETHING to your momentum. It seems to not kill it completely but drastically reduce it.
+
+If you're not careful you can mess yourself up real bad with this, for example by trying to use this jump to go through boost hoops.
+
 # Tricks
 
 ## Juan Arm Climb
@@ -154,3 +164,35 @@ Mushrooms are rare and eating them seems like kind of a crap shoot. I'm probably
 # Terminology
 
 TBD Let's name all the "things" in the game.
+TBD Add pictures here
+
+Juan
+: This is the player character.
+
+Boost Hoop
+: Go through at least 3 of these hoops to reliably boost yourself following the trajectory of the hoops. Don't jump while you're in the air going through hoops, this will kill your momentum.
+
+Projectile Launcher
+: These launch rocks or snowballs in the direction they're facing. If these projectiles hit you with enough velocity (it doesn't take much), you will take permanent stamina damage and lose control temporarily. They can be rotated manually by grabbing onto them but I don't know why you would do that. 
+
+Rotating Projectile Launcher
+: Like the **Projectile Launcher** but rotates around its axis constantly.
+
+Geiser
+: These regularly shoot streams of water which can boost you up quite high. If you reach them in between cycles, it might be faster to skip over it and climb normally if possible. 
+
+Sucky/Pushy Water Holes
+: These are paired up. One hole sucks you into it and the other pushes you away from it. If you're sucked into the sucky hole then you'll come out from the pushy hole.
+
+Black Hole
+: TBD If you approach it, bad things happen. It seems to affect the gravity in a radius around it.
+
+Climber Launcher
+: Similar to the **Projectile Launcher** but when interacted with, can be climbed into. Once inside the launcher, it can be rotated and when activated a second time it will launch Juan very far in the direction the launcher is pointed at.
+
+Cliff
+: These mess with your ability to climb. You can still reliably swing on them most of the time but if you go too hard you might fall into a pit.
+
+Mushroom
+: These can be found rarely throughout the game. Interacting with them applies a temporary effect on Juan (speed boost, stamina draining, etc.).
+
