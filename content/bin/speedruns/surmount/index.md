@@ -50,7 +50,7 @@ Difficulty: Easy
 
 At some point (might be route dependent) you'll find Omar with a ton of rocks on him, going near him will start what feels like the longest dialogue in the game.
 
-You can avoid that by going left and making use of an item to climb over a unclimbable wall.
+You can avoid that by going left and making use of an item to climb over an unclimbable wall.
 
 TBD Video for this one.
 
@@ -108,7 +108,7 @@ Parachute
 : S - It'll save you from falling to your death. It activates automatically if you have it selected and you start falling or you can activate it manually like any other item. Switching back and forth between something like the Hook Shot and the Parachute when doing risky maneuvers seems like a good safety trick. The parachute deactivates when you touch the ground, it makes climbing upwards awkward and slow so keep that in mind.
 
 Hook Shot / Rope
-: A - The all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. 
+: A - The all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. Interestingly you can climb on the hook itself once it's attached to something. This can come in handy if you're trying to climb on an unclimbable wall.
 
 Teleporter
 : B - It teleports you, it can even teleport you through walls. Not as useful as you might think because the range is short and it's rare for walls to keep you away from a good route. Although I'm sure as more uses for the Teleporter are discovered it'll 
