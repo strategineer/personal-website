@@ -147,7 +147,7 @@ I learned this from @knop868 on Discord.
 | B | ![](/img/surmount/items/teleporter.png) | Teleporter | It teleports you, it can even teleport you through walls. Not as useful as you might think because the range is short and it's rare for walls to keep you away from a good route. Although I'm sure as more uses for the Teleporter are discovered it'll rise to A tier.|
 | B | ![](/img/surmount/items/chalkBag.png) | Chalk Bag | You can't use this in-game, you have to open the menu to use it. This isn't fast. The climbing chalk doesn't last very long. I haven't found a real use case for this item. Right now it's a waste of an item slot. Using it is as fast as dropping it though so might as well use it if it's in your inventory and you want to get rid of it.|
 | C | ![](/img/surmount/items/medkit.png)| Medkit | Like **Food** but shittier. |
-| C | ![](/img/surmount/items/wallPlunger.png) | Wall Plunger (AKA Spike) | You can shoot this at a unclimbable wall and then use climb with it. Not super useful. Apparently someone threw the spike and it attached to them allowing them to climb anywhere using the spike attached to themselves or something like that. TBD|
+| C | ![](/img/surmount/items/wallPlunger.png) | Wall Plunger | You can shoot this at a unclimbable wall and then use climb with it. Not super useful. Apparently someone threw the spike and it attached to them allowing them to climb anywhere using the spike attached to themselves or something like that. TBD|
 | C | ![](/img/surmount/items/bouncepad.png) | Bounce Pad | Inconsistent and it doesn't do very much on its own. It might be useful for launching yourself into a solid wall and glitching your way up (I don't know if this is possible but maybe?). This is the first item I get rid of if I need to make space in my inventory.|
 {.table .table-striped .table-bordered .table-sm}
 
@@ -155,17 +155,12 @@ Let me know if I missed any consumable items!
 
 # Equippable Item Tier List
 
-Stamina Boost Wife Beater
-: S - More Stamina More Good.
-
-High Jump Shoes
-: A - Makes you jump higher. No brainer on this one.
-
-Long Arm Sweater
-: C - Probably not worth using. Makes climbing feel different and weird. I'd have to practice a bunch with this sweater before I would be comfortable using it in a run.
-
-Protective Hard Hat 
-: D - You shouldn't be getting hurt in the first place, and if you do you should have some food on you or around you to nibble on to get that stamina back. This is a waste of an item slot IMO.
+| Tier | | Name | Description |
+| - | - | - | - |
+| S | | Jump Boots | Makes you jump higher. No brainer on this one. |
+| A | | Puffy Jacket |More Stamina More Good.|
+| C | | Jacket | Probably not worth using. Makes climbing feel different and weird. I'd have to practice a bunch with this sweater before I would be comfortable using it in a run.|
+| D | | Protective Helmet |You shouldn't be getting hurt in the first place, and if you do you should have some food on you or around you to nibble on to get that stamina back. This is a waste of an item slot IMO.|
 
 Let me know if I missed any equippable items!
 
