@@ -88,8 +88,6 @@ On the other hand, it gives you way more control than you would have otherwise o
 
 *Other names: Popeye Special*
 
-Importance: Essential
-
 Difficulty: Easy
 
 {{< youtube BttT1muoj64 623 >}}
@@ -108,8 +106,6 @@ I learned this from @miphos on Discord.
 
 *Other names: Nkop's Hop, Vaulting, Juan Sebastián Vega Arias*
 
-Importance: Essential
-
 Difficulty: Medium
 
 {{< youtube BttT1muoj64 193 >}}
@@ -127,13 +123,9 @@ I learned this from @knop868 on Discord.
 
 ## Juan Launch
 
-Importance: ?
+Difficulty: Easy
 
-Difficulty: ?
-
-With a bit of setup, this trick allows you to fling yourself further than you would be able to do otherwise. Might be relatively situational but it seems consistent. 
-
-TBD Needs more investigation and practice.
+With a bit of setup, this trick allows you to fling yourself around 2 to 3 times as far compared to a regular jump. Might be relatively situational but it's very consistent. 
 
 1. Grab a solid surface with both hands such that your legs intersect with the ground.
 2. Hold the left stick away from the surface toward where you want to go.
