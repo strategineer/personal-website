@@ -125,6 +125,21 @@ Resetting from this is possible if you didn't do it right. Just let go of one ha
 
 I learned this from @knop868 on Discord.
 
+## Juan Launch
+
+Importance: ?
+
+Difficulty: ?
+
+With a bit of setup, this trick allows you to fling yourself further than you would be able to do otherwise. Might be relatively situational but it seems consistent. 
+
+TBD Needs more investigation and practice.
+
+1) Grab a solid surface with both hands such that your legs intersect with the ground.
+2) Press A.
+
+I learned this from @knop868 on Discord.
+
 # Consumable Item Tier List
 
 Rocket
