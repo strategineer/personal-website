@@ -157,10 +157,11 @@ Let me know if I missed any consumable items!
 
 | Tier | | Name | Description |
 | - | - | - | - |
-| S | | Jump Boots | Makes you jump higher. No brainer on this one. |
+| S | ![](/img/surmount/items/jumpBoots.png) | Jump Boots | Makes you jump higher. No brainer on this one. |
 | A | | Puffy Jacket |More Stamina More Good.|
-| C | | Jacket | Probably not worth using. Makes climbing feel different and weird. I'd have to practice a bunch with this sweater before I would be comfortable using it in a run.|
-| D | | Protective Helmet |You shouldn't be getting hurt in the first place, and if you do you should have some food on you or around you to nibble on to get that stamina back. This is a waste of an item slot IMO.|
+| C | | Jacket | Increases the length/reach of your limbs. Probably not worth using. Makes climbing feel different and weird. I'd have to practice a bunch with this sweater before I would be comfortable using it in a run.|
+| D | | Protective Helmet | Protects you from damage somehow. You shouldn't be getting hurt in the first place, and if you do you should have some food on you or around you to nibble on to get that stamina back. This is a waste of an item slot IMO.|
+{.table .table-striped .table-bordered .table-sm}
 
 Let me know if I missed any equippable items!
 
