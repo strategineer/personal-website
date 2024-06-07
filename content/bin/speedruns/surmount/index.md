@@ -130,6 +130,9 @@ I learned this from @knop868 on Discord.
 Rocket
 : S - It launches you super far, super fast. It can be used effectively anywhere on the map.
 
+Ladder
+: S - You can put it down anywhere and use it to climb anywhere. Using a ladder you can "break" hard platforming puzzles and make them easy. The ladder extends super far out. The only downside to the ladder is that it takes time to extend and sometimes when you deploy it, it just chooses not to. This is caused by windy maps but it seems to happen randomly at other times. 
+
 Hook Shot / Rope
 : A - An all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. Interestingly you can climb on the hook itself once it's attached to something. This can come in handy if you're trying to climb on an unclimbable wall.
 
