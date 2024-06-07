@@ -125,13 +125,11 @@ I learned this from @knop868 on Discord.
 
 Difficulty: Easy
 
-With a bit of setup, this trick allows you to fling yourself around 2 to 3 times as far compared to a regular jump.
+With a bit of setup, this trick allows you to fling yourself around 2 to 3 times as far compared to a regular jump. Beware, this uses about 1/4 of your stamina bar.
 
 1. Grab a solid surface with both hands such that your legs intersect with the ground.
 2. Hold the left stick away from the surface toward where you want to go.
 3. Press A.
-
-TBD I need more practice using this in a real run. But it seems like it would be really useful in certain situations.
 
 I learned this from @knop868 on Discord.
 
@@ -141,7 +139,7 @@ I learned this from @knop868 on Discord.
 | - | - | - | - |
 | S | ![](/img/surmount/items/thruster.png) |  Thruster | It launches you super far, super fast. It can be used effectively anywhere on the map. |
 | S | ![](/img/surmount/items/ladder.png) | Ladder | You can put it down anywhere and use it to climb anywhere. Using a ladder you can "break" hard platforming puzzles and make them easy. The ladder extends super far out. The only downside to the ladder is that it takes time to extend and sometimes when you deploy it, it just chooses not to. This is caused by windy maps but it seems to happen randomly at other times. |
-| A | ![](/img/surmount/items/rope.png) | Rope | An all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. Interestingly you can climb on the hook itself once it's attached to something. This can come in handy if you're trying to climb on an unclimbable wall. |
+| A | ![](/img/surmount/items/rope.png) | Rope | An all-around good tool. Perfect for saving you from unexpected falls or allowing you to catch your breath after a long climb. You can retract the rope super fast by holding down on the D-pad and extend it by holding up. Interestingly you can climb on the hook itself once it's attached to something. This can come in handy if you're trying to climb on an unclimbable wall. When you're falling and shoot the rope up it seems to maybe just keep going up disregarding gravity? TBD |
 | A | ![](/img/surmount/items/parachute.png) | Parachute | It'll save you from falling to your death. It activates automatically if you have it selected and you start falling or you can activate it manually like any other item. Switching back and forth between something like the Hook Shot and the Parachute when doing risky maneuvers seems like a good safety trick. The parachute deactivates when you touch the ground. As you can imagine, an activated parachute will make climbing upwards awkward and slow do I don't recommend it if you can avoid it.|
 | A | ![](/img/surmount/items/rations.png) | Rations | An instant stamina boost from 0 to 300% is really good. The only reason it's not S tier is because munching on an energy bar won't save you from falling to your death. Eating also heals permanent stamina damage so I recommend always keeping one on you just in case.|
 | B | ![](/img/surmount/items/teleporter.png) | Teleporter | It teleports you, it can even teleport you through walls. Not as useful as you might think because the range is short and it's rare for walls to keep you away from a good route. Although I'm sure as more uses for the Teleporter are discovered it'll rise to A tier.|
