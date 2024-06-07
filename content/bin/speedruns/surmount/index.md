@@ -145,10 +145,10 @@ I learned this from @knop868 on Discord.
 | A | ![](/img/surmount/items/parachute.png) | Parachute | It'll save you from falling to your death. It activates automatically if you have it selected and you start falling or you can activate it manually like any other item. Switching back and forth between something like the Hook Shot and the Parachute when doing risky maneuvers seems like a good safety trick. The parachute deactivates when you touch the ground. As you can imagine, an activated parachute will make climbing upwards awkward and slow do I don't recommend it if you can avoid it.|
 | A | ![](/img/surmount/items/food.png) | Food | An instant stamina boost from 0 to 300% is really good. The only reason it's not S tier is because munching on an energy bar won't save you from falling to your death. Eating also heals permanent stamina damage so I recommend always keeping one on you just in case.|
 | B | ![](/img/surmount/items/teleporter.png) | Teleporter | It teleports you, it can even teleport you through walls. Not as useful as you might think because the range is short and it's rare for walls to keep you away from a good route. Although I'm sure as more uses for the Teleporter are discovered it'll rise to A tier.|
-| B | ![](/img/surmount/items/chalkBag.png) | Chalk Bag | You can't use this in-game, you have to open the menu to use it. This isn't fast. The climbing chalk doesn't last very long. I haven't found a real use case for this item. Right now it's a waste of an item slot. Using it is as fast as dropping it though so might as well use it if it's in your inventory and you want to get rid of it.|
-| C | ![](/img/surmount/items/medkit.png)| Medkit | Like **Food** but shittier. |
+| B | ![](/img/surmount/items/medkit.png)| Medkit | Like **Food** but shittier. |
 | C | ![](/img/surmount/items/wallPlunger.png) | Wall Plunger | You can shoot this at a unclimbable wall and then use climb with it. Not super useful. Apparently someone threw the spike and it attached to them allowing them to climb anywhere using the spike attached to themselves or something like that. TBD|
-| C | ![](/img/surmount/items/bouncepad.png) | Bounce Pad | Inconsistent and it doesn't do very much on its own. It might be useful for launching yourself into a solid wall and glitching your way up (I don't know if this is possible but maybe?). This is the first item I get rid of if I need to make space in my inventory.|
+| D | ![](/img/surmount/items/chalkBag.png) | Chalk Bag | You can't use this in-game, you have to open the menu to use it. This isn't fast. The climbing chalk doesn't last very long. I haven't found a real use case for this item. Right now it's a waste of an item slot. Using it is as fast as dropping it though so might as well use it if it's in your inventory and you want to get rid of it.|
+| D | ![](/img/surmount/items/bouncepad.png) | Bounce Pad | Inconsistent and it doesn't do very much on its own. It might be useful for launching yourself into a solid wall and glitching your way up (I don't know if this is possible but maybe?). This is the first item I get rid of if I need to make space in my inventory.|
 {.table .table-striped .table-bordered .table-sm}
 
 Let me know if I missed any consumable items!
@@ -177,78 +177,40 @@ Mushrooms are rare and eating them seems like kind of a crap shoot. I'm probably
 
 # Terminology
 
-TBD Let's name all the "things" in the game.
-TBD Add pictures here
-
-Juan / Juana
-: This is the player character.
-
-Boost Hoop
-: Go through at least 3 of these hoops to reliably boost yourself following the trajectory of the hoops. Don't jump while you're in the air going through hoops, this will kill your momentum.
-
-Projectile Launcher
-: These launch rocks or snowballs in the direction they're facing. If these projectiles hit you with enough velocity (it doesn't take much), you will take permanent stamina damage and lose control temporarily. They can be rotated manually by grabbing onto them but I don't know why you would do that. 
-
-Rotating Projectile Launcher
-: Like the **Projectile Launcher** but rotates around its axis constantly.
-
-Geiser
-: These regularly shoot streams of water which can boost you up quite high. If you reach them in between cycles, it might be faster to skip over it and climb normally if possible. 
-
-Sucky/Pushy Water Holes
-: These are paired up. One hole sucks you into it and the other pushes you away from it. If you're sucked into the sucky hole then you'll come out from the pushy hole.
-
-Black Hole
-: TBD If you approach it, bad things happen. It seems to affect the gravity in a radius around it.
-
-Climber Launcher
-: Similar to the **Projectile Launcher** but when interacted with, can be climbed into. Once inside the launcher, it can be rotated and when activated a second time it will launch Juan very far in the direction the launcher is pointed at.
-
-Ledge
-: These mess with your ability to climb. You can still reliably swing on them most of the time but if you go too hard you might fall into a pit.
-
-Mushroom
-: These can be found rarely throughout the game. Interacting with them applies a temporary effect on Juan (speed boost, stamina draining, etc.).
-
-Wooden Rope Bridge
-: Can be broken or not. Physics enabled or not. Hard to climb.  
-
-Frozen Water
-: These can be grabbed onto but if Juan grabs onto the bottom half of this, this half will detach from the rest of it and become a physics object. You can still grab onto this and fling yourself gently as long as you don't hold on.
-
-Icicle
-: These fall on you if you walk under them (?) or grab onto them.
-
-Physics log
-: These freely rotate on an axis when weight is placed on either end. 
-
-Button
-: Can be pressed to rotate a bridge (name?) 90 degrees or open a gate.
-
-
-Locked Gate
-: Sometimes you can get through these without pressing the button associated to it.
-
-Mechanism
-: Can 
-
-Rotating Log
-: These either constantly rotate around their axis or can be rotated by Juan if the log is attached to a mechanism.
-
-Rotating Log with Spikes
-: Like the Rotating Log but one side has damaging spikes on it.
-
-Thorns
-: Hurts Juan when he bumps into it.
-
-Asteroid
-: These can be grabbed onto and stood on.
-
-Comet
-: Like the **Asteroid** but falls down until it hits either you or the ground.
-
-Berry Bush
-: ...
-
-Crumbling Ice Platform
-: ...
+| | Name | Description |
+|-|-|-|
+| ![](/img/surmount/things/anchor.png) | Anchor | |
+| ![](/img/surmount/things/asteroid.png) | Asteroid | These can be grabbed onto and stood on. |
+| ![](/img/surmount/things/asteroid.png) | Asteroid (Falling) | Like the **Asteroid** but falls down until it hits either you or the ground. |
+| ![](/img/surmount/things/berry_bush.png) | Berry Bush | Slows you down but can be grabbed onto. Sometimes contains berries you can eat for extra stamina.  |
+| ![](/img/surmount/things/bouncy_mushroom.png) | Bouncy Mushroom | |
+| ![](/img/surmount/things/frozen_waterfall.png) | Frozen Waterfall | These can be grabbed onto but if Juan grabs onto the bottom half of this, this half will detach from the rest of it and become a physics object. You can still grab onto this and fling yourself gently as long as you don't hold on. |
+| ![](/img/surmount/things/geyzer.png) | Geyzer | These regularly shoot streams of water which can boost you up quite high. If you reach them in between cycles, it might be faster to skip over it and climb normally if possible.  |
+| ![](/img/surmount/things/hanging_ladder.png) | Hanging Ladder | |
+| ![](/img/surmount/things/hanging_log.png) | Hanging Log | These freely rotate on an axis when weight is placed on either end.  |
+| ![](/img/surmount/things/juan.png) | Juan / Juana |  This is the player character. |
+| ![](/img/surmount/things/climber_launcher.png) | Launcher (Climber) | Similar to the **Launcher (Projectile)** but when interacted with, can be climbed into. Once inside the launcher, it can be rotated and when activated a second time it will launch Juan very far in the direction the launcher is pointed at. |
+| ![](/img/surmount/things/projectile_launcher.png) | Launcher (Projectile) | These launch rocks or snowballs in the direction they're facing. If these projectiles hit you with enough velocity (it doesn't take much), you will take permanent stamina damage and lose control temporarily. They can be rotated manually by grabbing onto them but I don't know why you would do that. |
+| ![](/img/surmount/things/projectile_launcher_rotating.png) | Launcher (Projectile, Rotating) | Like the **Launcher (Projectile)** but rotates around its axis constantly. |
+| ![](/img/surmount/things/moving_grabby_creature.png) | Moving Grabby Creature | Avoid these. |
+| ![](/img/surmount/things/popper.png) | Popper | These pop out of their holes on a global cycle, they can be grabbed onto. |
+| ![](/img/surmount/things/propeller.png) | Propeller | Usually rotates around an axis but often spawns in broken. While holding onto these and spinning you seem to gain extra momentum. |
+| ![](/img/surmount/things/rock_trap.png) | Rock/Snowball Trap | Pulling on the little branch hanging out of the cage releases the rocks/snowballs. |
+| ![](/img/surmount/things/snow_pile.png) | Snow Pile | Like the **Berry Bush**. |
+| ![](/img/surmount/things/spiderweb.png) | Spiderweb | |
+| ![](/img/surmount/things/spinning_log.png) | Spinning Log | These either constantly rotate around their axis or can be rotated by Juan if the log is attached to a mechanism. |
+| ![](/img/surmount/things/spinning_log_with_spikes.png) | Spinning Log (Spikes) | Like the Rotating Log but one side has damaging spikes on it. |
+| ![](/img/surmount/things/thorny_bush.png) | Thorny Bush | Hurts Juan when he bumps into it. |
+| ![](/img/surmount/things/wooden_wheel.png) | Wooden Wheel | |
+| | Black Hole | TBD If you approach it, bad things happen. It seems to affect the gravity in a radius around it. |
+| | Boost Hoop | Go through at least 3 of these hoops to reliably boost yourself following the trajectory of the hoops. Don't jump while you're in the air going through hoops, this will kill your momentum. |
+| | Button | Can be pressed to rotate a bridge (name?) 90 degrees or open a gate. |
+| | Crumbling Ice Platform | ... |
+| | Icicle | These fall on you if you walk under them (?) or grab onto them. |
+| | Ledge | These mess with your ability to climb. You can still reliably swing on them most of the time but if you go too hard you might fall into a pit. |
+| | Locked Gate | Sometimes you can get through these without pressing the button associated to it. |
+| | Mechanism |  |
+| | Mushroom | These can be found rarely throughout the game. Interacting with them applies a temporary effect on Juan (speed boost, stamina draining, etc.). |
+| | Sucky/Pushy Water Holes | These are paired up. One hole sucks you into it and the other pushes you away from it. If you're sucked into the sucky hole then you'll come out from the pushy hole. |
+| | Wooden Rope Bridge | Can be broken or not. Physics enabled or not. Hard to climb.   |
+{.table .table-striped .table-bordered .table-sm}
