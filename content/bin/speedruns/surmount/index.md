@@ -112,9 +112,9 @@ Difficulty: Medium
 
 Flings you super far if done right. It's not consistent enough to be used all the time but if you need the momentum/distance and you don't need to be too precise, it's worth a try.
 
-1. Jump while airborne. You can do this off of a grounded jump or while letting go of a wall.
+1. Jump while airborne. You can do this off of a grounded jump (jumping at an angle instead of straight up works best) or after letting go of a wall.
 2. Grab a background wall with both hands (pressing the bumpers at slightly different times might work better).
-3. Spin the stick around (can't explain this, you'll have to get a feel for it yourself).
+3. Hold the stick toward the direction you want to be launched in.
 4. If you've done it right, one or both of your arms will be extended/stretched in a weird way. Let go of both bumpers when your character's momentum is moving in the direction you want to go.
 
 Resetting from this is possible if you didn't do it right. Just let go of one hand and starting swinging with the other.
