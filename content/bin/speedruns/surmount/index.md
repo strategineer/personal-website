@@ -135,8 +135,9 @@ With a bit of setup, this trick allows you to fling yourself further than you wo
 
 TBD Needs more investigation and practice.
 
-1) Grab a solid surface with both hands such that your legs intersect with the ground.
-2) Press A.
+1. Grab a solid surface with both hands such that your legs intersect with the ground.
+2. Hold the left stick away from the surface toward where you want to go.
+3. Press A.
 
 I learned this from @knop868 on Discord.
 
