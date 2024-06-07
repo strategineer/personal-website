@@ -125,11 +125,13 @@ I learned this from @knop868 on Discord.
 
 Difficulty: Easy
 
-With a bit of setup, this trick allows you to fling yourself around 2 to 3 times as far compared to a regular jump. Might be relatively situational but it's very consistent. 
+With a bit of setup, this trick allows you to fling yourself around 2 to 3 times as far compared to a regular jump.
 
 1. Grab a solid surface with both hands such that your legs intersect with the ground.
 2. Hold the left stick away from the surface toward where you want to go.
 3. Press A.
+
+TBD I need more practice using this in a real run. But it seems like it would be really useful in certain situations.
 
 I learned this from @knop868 on Discord.
 
