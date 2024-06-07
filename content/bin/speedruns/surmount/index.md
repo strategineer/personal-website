@@ -155,12 +155,12 @@ Let me know if I missed any consumable items!
 
 It seems like equippable items that drop from crates are randomly chosen from a set, for example, the high jump effect will be tied to some shoes from a list. So let's evaluate the effects.
 
-| Tier | | Effect | Description |
-| - | - | - | - |
-| S | ![](/img/surmount/statuses/high_jump.png) | High Jump| Makes you jump higher. No brainer on this one. |
-| A | ![](/img/surmount/statuses/stamina_boost.png) | Stamina Boost | More Stamina More Good.|
-| C | ![](/img/surmount/statuses/magnetic_hands.png) | Magnetic Hands | Increases the length/reach of your limbs. Probably not worth using. Makes climbing feel different and weird. I'd have to practice a bunch with this sweater before I would be comfortable using it in a run.|
-| D | ![](/img/surmount/statuses/protective_helmet.png) | Protective Helmet | Protects you from damage (fall damage?) somehow. You shouldn't be getting hurt in the first place, and if you do you should have some rations on you or some berries around you to nibble on to get that stamina back. This is a waste of an item slot IMO.|
+| Tier | | Effect | Item Category | Description |
+| - | - | - | - | - |
+| S | ![](/img/surmount/statuses/high_jump.png) | High Jump | Shoes | Makes you jump higher. No brainer on this one. |
+| A | ![](/img/surmount/statuses/stamina_boost.png) | Stamina Boost | Shirts - Caps | More Stamina More Good.|
+| C | ![](/img/surmount/statuses/magnetic_hands.png) | Magnetic Hands | Long Sleeve Shirts/Sweaters | Increases the length/reach of your limbs. Probably not worth using. Makes climbing feel different and weird. I'd have to practice a bunch with this sweater before I would be comfortable using it in a run.|
+| D | ![](/img/surmount/statuses/protective_helmet.png) | Protective Helmet | Puffy Jacket - Helmet | Protects you from damage (fall damage?) somehow. You shouldn't be getting hurt in the first place, and if you do you should have some rations on you or some berries around you to nibble on to get that stamina back. This is a waste of an item slot IMO.|
 {.table .table-striped .table-bordered .table-sm}
 
 Let me know if I missed any equippable items!
