@@ -10,9 +10,9 @@ Everything I know about the Surmount Any% Speedrun all in one place.
 
 {{< toc >}}
 
-# Links
+# Recommended Settings
 
-[Speedrun.com Surmount Page](https://www.speedrun.com/Surmount)
+[The Juan Hop trick](#juan-hop) seems way more consistent on lower FPS but 30 FPS feels unplayable so I stick with 60 FPS. Depending on the situation, it might be worth it to change to 30 FPS to do a Juan Hop more reliably.
 
 # Pathing
 
