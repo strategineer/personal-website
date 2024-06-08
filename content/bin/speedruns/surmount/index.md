@@ -14,11 +14,17 @@ Everything I know about the Surmount Any% Speedrun all in one place.
 
 [The Juan Hop trick](#juan-hop) seems way more consistent on lower FPS but 30 FPS feels unplayable so I stick with 60 FPS. Depending on the situation, it might be worth it to change to 30 FPS to do a Juan Hop more reliably.
 
+## Bindings
+
+You should bind a button to Unhook the rope you're attached to. By default you can wiggle the left stick to do this but pressing a button is faster.
+
+Binding retract/extend rope to the triggers is something I'd like to experiment with.
+
 # Pathing
 
 ## Tutorial skip / Speedrun mode
 
-Saves: ~10min
+Saves: ~5-10min
 
 Difficulty: Easy
 
@@ -68,7 +74,13 @@ TBD Video for this one.
 
 I learned this on my own.
 
-# Basic Movement
+# Basics
+
+## Cutscene Skipping
+
+Cutscenes are slow so you want to avoid the ones you can avoid. Some aren't avoidable.
+
+You can skip through cutscenes by holding down Start and/or mashing A/X.
 
 ## Airborne Jump/Stall
 
@@ -175,42 +187,46 @@ All I know is that:
 
 Mushrooms are rare and eating them seems like kind of a crap shoot. I'm probably going to do it anyway for knowledge but I don't think it's "good".
 
-# Terminology
+# Things
+
+Names for most of these come directly from the game files with some exceptions.
 
 | | Name | Description |
 |-|-|-|
 | ![](/img/surmount/things/anchor.png) | Anchor | |
 | ![](/img/surmount/things/asteroid.png) | Asteroid | These can be grabbed onto and stood on. |
-| ![](/img/surmount/things/asteroid.png) | Asteroid (Falling) | Like the **Asteroid** but falls down until it hits either you or the ground. |
+| ![](/img/surmount/things/asteroid.png) | Asteroid (Falling) | Like the **Asteroid** but falls down until it hits either you or the ground. Don't get hit by this, usually run ending. |
 | ![](/img/surmount/things/berry_bush.png) | Berry Bush | Slows you down but can be grabbed onto. Sometimes contains berries you can eat for extra stamina.  |
-| ![](/img/surmount/things/bouncy_mushroom.png) | Bouncy Mushroom | |
+| ![](/img/surmount/things/bouncy_mushroom.png) | Bouncy Mushroom | These bounce you pretty far. Touching one of these while having a bit of horizontal momentum seems to multiply it so you can use a Mushroom to go pretty far horizontally. See [this timestamped video](https://www.youtube.com/watch?v=zBXy_IgalCI&t=1073s) for an example of this. |
+| ![](/img/surmount/things/boost_hoop.png) | Boost Hoop | Go through at least 3 of these hoops to reliably boost yourself following the trajectory of the hoops. Try not to jump while you're in the air going through hoops, this might kill your momentum. |
+| ![](/img/surmount/things/crumbling_ice_platform.png) | Crumbling Ice Platform | Land on these with a bit too much force and they'll crumble. |
 | ![](/img/surmount/things/frozen_waterfall.png) | Frozen Waterfall | These can be grabbed onto but if Juan grabs onto the bottom half of this, this half will detach from the rest of it and become a physics object. You can still grab onto this and fling yourself gently as long as you don't hold on. |
 | ![](/img/surmount/things/geyzer.png) | Geyzer | These regularly shoot streams of water which can boost you up quite high. If you reach them in between cycles, it might be faster to skip over it and climb normally if possible.  |
+| ![](/img/surmount/things/ground_snow.png) | Ground (Snow) | This crumbles when you land on it with enough force, be gentle and you won't break it. |
 | ![](/img/surmount/things/hanging_ladder.png) | Hanging Ladder | |
 | ![](/img/surmount/things/hanging_log.png) | Hanging Log | These freely rotate on an axis when weight is placed on either end.  |
 | ![](/img/surmount/things/juan.png) | Juan / Juana |  This is the player character. |
 | ![](/img/surmount/things/climber_launcher.png) | Launcher (Climber) | Similar to the **Launcher (Projectile)** but when interacted with, can be climbed into. Once inside the launcher, it can be rotated and when activated a second time it will launch Juan very far in the direction the launcher is pointed at. |
 | ![](/img/surmount/things/projectile_launcher.png) | Launcher (Projectile) | These launch rocks or snowballs in the direction they're facing. If these projectiles hit you with enough velocity (it doesn't take much), you will take permanent stamina damage and lose control temporarily. They can be rotated manually by grabbing onto them but I don't know why you would do that. |
 | ![](/img/surmount/things/projectile_launcher_rotating.png) | Launcher (Projectile, Rotating) | Like the **Launcher (Projectile)** but rotates around its axis constantly. |
-| ![](/img/surmount/things/moving_grabby_creature.png) | Moving Grabby Creature | Avoid these. |
+| ![](/img/surmount/things/moving_grabby_creature.png) | Moving Grabby Creature | Similar to the **Whirlwind**. Avoid these. Once you're caught in them I don't know if there's any way to escape (maybe a thruster?). |
+| ![](/img/surmount/things/mushroom.png)  | Mushroom | These can be found rarely throughout the game. Interacting with them applies a temporary effect on Juan (speed boost, stamina draining, etc.). |
 | ![](/img/surmount/things/popper.png) | Popper | These pop out of their holes on a global cycle, they can be grabbed onto. |
 | ![](/img/surmount/things/propeller.png) | Propeller | Usually rotates around an axis but often spawns in broken. While holding onto these and spinning you seem to gain extra momentum. |
 | ![](/img/surmount/things/rock_trap.png) | Rock/Snowball Trap | Pulling on the little branch hanging out of the cage releases the rocks/snowballs. |
 | ![](/img/surmount/things/snow_pile.png) | Snow Pile | Like the **Berry Bush**. |
 | ![](/img/surmount/things/spiderweb.png) | Spiderweb | |
 | ![](/img/surmount/things/spinning_log.png) | Spinning Log | These either constantly rotate around their axis or can be rotated by Juan if the log is attached to a mechanism. |
-| ![](/img/surmount/things/spinning_log_with_spikes.png) | Spinning Log (Spikes) | Like the Rotating Log but one side has damaging spikes on it. |
+| ![](/img/surmount/things/spinning_log_with_spikes.png) | Spinning Log (Spikes) | Like the **Spinning Log** but one side has damaging spikes on it. |
 | ![](/img/surmount/things/thorny_bush.png) | Thorny Bush | Hurts Juan when he bumps into it. |
+| ![](/img/surmount/things/whirlwind.png) | Whirlwind | Similar to **Moving Grabby Creature**. |
 | ![](/img/surmount/things/wooden_wheel.png) | Wooden Wheel | |
 | | Black Hole | TBD If you approach it, bad things happen. It seems to affect the gravity in a radius around it. |
-| | Boost Hoop | Go through at least 3 of these hoops to reliably boost yourself following the trajectory of the hoops. Don't jump while you're in the air going through hoops, this will kill your momentum. |
 | | Button | Can be pressed to rotate a bridge (name?) 90 degrees or open a gate. |
-| | Crumbling Ice Platform | ... |
 | | Icicle | These fall on you if you walk under them (?) or grab onto them. |
 | | Ledge | These mess with your ability to climb. You can still reliably swing on them most of the time but if you go too hard you might fall into a pit. |
 | | Locked Gate | Sometimes you can get through these without pressing the button associated to it. |
 | | Mechanism |  |
-| | Mushroom | These can be found rarely throughout the game. Interacting with them applies a temporary effect on Juan (speed boost, stamina draining, etc.). |
 | | Sucky/Pushy Water Holes | These are paired up. One hole sucks you into it and the other pushes you away from it. If you're sucked into the sucky hole then you'll come out from the pushy hole. |
 | | Wooden Rope Bridge | Can be broken or not. Physics enabled or not. Hard to climb.   |
 {.table .table-striped .table-bordered .table-sm}
