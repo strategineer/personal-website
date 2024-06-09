@@ -27,7 +27,7 @@ Binding retract/extend rope to the triggers is something I'd like to experiment 
 | Tutorial skip / Speedrun mode | {{< youtube_cell VdGPoVlSQQw >}} | Saves ~5-10min. Secret path that skips the tutorial and decreases the number of cutscenes you need to button through. I learned this from @miphos on Discord. |
 | Z3R1 - Omar Skip 1 | ![](/img/surmount/3_1_omar_skip_1.jpg) | Saves ~1min. Requires a Teleporter. I learned this from @miphos on Discord. |
 | Z3R1 - Omar Skip 2 | {{< youtube_cell BttT1muoj64 1244 >}} | Saves 1min. I learned this on my own. |
-| Z4R1 - Rocks on Omar Skip | Video TBD | Saves ~2-3min. At some point (might be route dependent) you'll find Omar with a ton of rocks on him, going near him will start what feels like the longest dialogue in the game. You can avoid that by going left and making use of an item to climb over an unclimbable wall. I learned this on my own. |
+| Z4R1 - Rocks on Omar Skip | Video TBD | Saves ~2-3min. At some point (might be route dependent) you'll find Omar with a ton of rocks on him, going near him will start what feels like the longest dialogue in the game. You can avoid that by continue to climb on the left and making use of an item or two (Thruster, Teleporter, maybe Rope) to correct your momentum and climb over an unclimbable wall. I learned this on my own. |
 
 # Basics
 
