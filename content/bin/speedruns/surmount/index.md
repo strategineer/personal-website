@@ -12,7 +12,7 @@ Everything I know about the Surmount Any% Speedrun all in one place.
 
 # Recommended Settings
 
-[The Juan Hop trick](#juan-hop) seems way more consistent on lower FPS but 30 FPS feels unplayable so I stick with 60 FPS. Depending on the situation, it might be worth it to change to 30 FPS to do a Juan Hop more reliably.
+[The Juan Hop trick](#juan-hop) seems way more consistent on lower FPS on my machine. 30FPS with V-Sync on seems like the way to go. The lower frame rate might help with letting go at the appropriate time? It's unclear to me how this trick actually works under the hood.
 
 ## Bindings
 
