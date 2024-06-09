@@ -473,6 +473,10 @@ li {
 }
 
 @include media-breakpoint-up(xs) {
+  .cell-display {
+    width: 175px;
+  }
+
   p,
   li,
   em {
@@ -489,6 +493,9 @@ li {
 }
 
 @include media-breakpoint-up(sm) {
+  .cell-display {
+    width: 225px;
+  }
 }
 
 @include media-breakpoint-up(md) {
@@ -509,6 +516,10 @@ li {
   // set the maximum with to allow for better readability.
   .readable {
     width: 860px;
+  }
+  
+  .cell-display {
+    width: 300px;
   }
 
   // Fit columns to the data.

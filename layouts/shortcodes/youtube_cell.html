@@ -1,0 +1,15 @@
+<div class="cell-display">
+      <div class="ratio ratio-16x9">
+        {{ if .Get 1 }}
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/{{ .Get 0 }}?showinfo=0&amp;start={{ .Get 1 }}"
+          allowfullscreen
+        ></iframe>
+        {{ else }}
+        <iframe
+        src="https://www.youtube-nocookie.com/embed/{{ .Get 0 }}?rel=0&amp;showinfo=0"
+        allowfullscreen
+      ></iframe>
+        {{ end }}
+      </div>
+</div>
