@@ -76,6 +76,10 @@ I learned this on my own.
 
 # Basics
 
+## Ledges
+
+No matter how much momentum you have, you'll always be able to grab onto a ledge even when you would have skidded off of a regular 2D wall.
+
 ## Cutscene Skipping
 
 Cutscenes are slow so you want to avoid the ones you can avoid. Some aren't avoidable.
