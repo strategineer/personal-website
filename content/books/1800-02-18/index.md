@@ -1,0 +1,15 @@
+---
+authors:
+- K.J. Bishop
+books/tags:
+- owned-but-unread
+date: 1800-02-18
+params:
+  isbn13: '9780553382914'
+  year: '2004'
+title: The Etched City - A Novel
+weight: 1
+---
+
+
+<!--more-->
