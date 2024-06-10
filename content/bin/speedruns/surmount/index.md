@@ -90,6 +90,8 @@ Flings you super far if done right. It's not consistent enough to be used all th
 
 Resetting from this is possible if you didn't do it right. Just let go of one hand and starting swinging with the other.
 
+This trick seems to be frame rate dependent, [see the Recommended Settings section for more context](#recommended-settings).
+
 I learned this from @knop868 on Discord.
 
 ## Juan Launch
