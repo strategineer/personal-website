@@ -21,7 +21,7 @@ That's because Ash - A Secret History is one thousand one hundred and thirteen p
 
 Ash - A Secret History is comprised of the following parts:
 
-Historically accurate depictions of war from the perspective of a mercenary captain, Ash, in the late medieval era, written by an expert in the field. Mary Gentle has a bachelor's in War Studies and her love and deep understanding of the late medieval era shows. It's gritty, it's violent, it's dark but more than anything Mary Gentle is committed to writing a story that feels real.
+Historically accurate depictions of war from the perspective of a mercenary captain, Ash, in the late medieval era, written by an expert in the field. Mary Gentle has a Master's in War Studies and her love and deep understanding of the late medieval era shows. It's gritty, it's violent, it's dark but more than anything Mary Gentle is committed to writing a story that feels real.
 
 {{< quote >}}
 The wax candle melted down to a stump.
