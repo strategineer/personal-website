@@ -28,22 +28,13 @@ The wax candle melted down to a stump.
 
 I'm prisoner here.
 
-This is no Romance of Arthur or Peredur. I'm not about to
-scale the walls, fight off armoured men with my bare hands, ride
-off into the sunshine. What happens to valueless prisoners taken
-in war is pain first, broken bodies second, and an unmarked,
-unchristian burial afterwards. I am in their city. They own it now.
+This is no Romance of Arthur or Peredur. I'm not about to scale the walls, fight off armoured men with my bare hands, ride off into the sunshine. What happens to valueless prisoners taken in war is pain first, broken bodies second, and an unmarked, unchristian burial afterwards. I am in their city. They own it now.
 {{< /quote >}}
 
 Fantastical / science-fiction story beats that appear in the first few pages and continue to unravel in interesting ways as the story goes on.
 
 {{< quote >}}
-Snow whirled faster from the invisible whiteness of the sky into
-the glade. Snow covered the green ivy, the red berries of the
-holly. Snow froze on the spindly brown arcs of briar. A great
-huffing animal breath came down from the altar of the ruined
-green chapel. Ash watched its whiteness on the air.
-Animal-breath hit her in the face, warm and wet.
+Snow whirled faster from the invisible whiteness of the sky into the glade. Snow covered the green ivy, the red berries of the holly. Snow froze on the spindly brown arcs of briar. A great huffing animal breath came down from the altar of the ruined green chapel. Ash watched its whiteness on the air. Animal-breath hit her in the face, warm and wet.
 
 A great paw trod down from the stone altar.
 {{< /quote >}}
@@ -53,20 +44,11 @@ A frame story told from the perspective of a historian in the late 90s translati
 Each chapter of her story is bookended by emails sent between the historian and his agent. As we understand more about Ash's story, revelations made by the historian and his colleagues in the modern era influence our understanding of Ash's story and vice-versa in a never ending corkscrew of revelations and implications.
 
 {{< quote >}}
-[...] one must remember that exaggeration, legend, myth, and the chronicler's
-own prejudices and patriotism, all form a normal part of the
-average mediaeval manuscript. Under the dross, there is gold.
-As you will see.
+[...] one must remember that exaggeration, legend, myth, and the chronicler's own prejudices and patriotism, all form a normal part of the average mediaeval manuscript. Under the dross, there is gold. As you will see.
 
-History is a large net, with a wide mesh, and many things slip
-through it into oblivion. With the new material I have
-uncovered, I hope to bring to light, once again, those facts
-which do not accord with our idea of the past, but which,
-nonetheless, are factual.
+History is a large net, with a wide mesh, and many things slip through it into oblivion. With the new material I have uncovered, I hope to bring to light, once again, those facts which do not accord with our idea of the past, but which, nonetheless, are factual.
 
-That this will then involve considerable reassessment of our
-views of Northern European history is inevitable, and the
-historians will just have to get used to it!
+That this will then involve considerable reassessment of our views of Northern European history is inevitable, and the historians will just have to get used to it!
 
 I look forward to hearing from you,
 
@@ -78,12 +60,7 @@ A heavy dose of inspiration from long running soap operas featuring a never endi
 {{< quote >}}
 The priest stared. "You're a woman!"
 
-Ash muttered, "That's why I keep you on the company books,
-Godfrey. Your acumen. Your intelligence. The rapidity with which
-you penetrate to the heart of the matter." She shot a look at the
-lantern and its marked hour-candle, burning steadily where it sat
-on the trestle table. "It's nearly Nones. Godfrey, go and give
-that unruly mob out there a field-mass. Do it! I need time."
+Ash muttered, "That's why I keep you on the company books, Godfrey. Your acumen. Your intelligence. The rapidity with which you penetrate to the heart of the matter." She shot a look at the lantern and its marked hour-candle, burning steadily where it sat on the trestle table. "It's nearly Nones. Godfrey, go and give that unruly mob out there a field-mass. Do it! I need time."
 {{< /quote >}}
 
 If anything you've read here has piqued your interest and you're willing to read one book for 40 hours or more, do yourself a favor and pick up a used copy of Ash - A Secret History and enjoy reading through a story unlike anything else you've read. 
