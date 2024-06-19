@@ -2,7 +2,7 @@
 authors:
   - Robert Graves
 books/tags:
-  - mythography
+  - myth
   - reference
 date: 2021-12-01
 params:

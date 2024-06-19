@@ -2,7 +2,7 @@
 authors:
   - Lady Wylde
 books/tags:
-  - mythography
+  - myth
   - did-not-finish
 date: 2024-03-25
 params:
