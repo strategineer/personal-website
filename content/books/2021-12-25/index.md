@@ -1,6 +1,7 @@
 ---
 authors:
   - Homer
+  - Emily Wilson
 books/tags:
   - fiction
   - myth
