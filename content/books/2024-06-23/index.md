@@ -13,13 +13,13 @@ title: Metamorphoses
 star_rating: 4
 ---
 
-A loosely related sequence of epic poems about transformation(s) inspired by Greek mythology written by Ovid more than two thousand years ago, translated by Stephanie McCarter in 2023.
+A loosely related sequence of epic poems about transformation(s) inspired by Greek mythology written by Ovid more than two thousand years ago, translated by Stephanie McCarter in 2022.
 
 <!--more-->
 
 Of the ancient Greek/Roman texts I've read, Ovid's Metamorphoses is the most self-referential, weird and hard to get into. But if you're willing to stick with it and read more footnotes than you've ever read before, you might enjoy yourself.
 
-The Odyssey, The Iliad and Ovid's Metamorphoses all assume that readers have a certain level of familiarity with Greek/Roman mythology but Ovid goes one step further by assuming that you're familiar with ancient Greek mythology, the Odyssey, the Iliad, the Aeneid AND have a basic understanding of Roman history. All bundled into a collection of loosely related poems with no main character or overarching plot.
+The Odyssey, The Iliad and Ovid's Metamorphoses all assume that readers have a certain level of familiarity with Greek/Roman mythology but Ovid goes one step further by assuming that you're familiar with ancient Greek mythology, the Odyssey, the Iliad, the Aeneid AND have a basic understanding of Roman history. All bundled into a collection of loosely related poems with no main character or overarching plot to speak of.
 
 If you're a big Greek mythology nerd like me and you don't mind constantly flipping over to the footnotes then you should be able to read through Ovid's Metamorphoses and get something out of it (even if you haven't read through the Odyssey and/or the Iliad). If you're not a big Greek mythology nerd like me you might get more out of reading the Odyssey first (I really liked Emily Wilson's translation of it).
 
@@ -75,7 +75,7 @@ And this beautiful poem ends with Orpheus being the biggest pussy magnet alive b
 
 ![](dunno)
 
-This poem is fantastic and the ending comes out of left field in a way that I really enjoy. Ovid subverts expectations in his poems quite a bit but I don't think that this ending was meant to be subversion, but the passage of time has turned it into one.
+This poem is fantastic and the ending comes straight out of left field in a way I really enjoy. Ovid subverts expectations in his poems quite a bit but I'm not sure if this ending was meant to be a subversion of expectations, but the passage of time has definitely turned it into one.
 
 Pygmalion and the Ivory Statue in Book 10 is the story of Pygmalion and the ivory statue of a woman he sculpts and, with the help of Venus/Aphrodite, brings to life.
 
@@ -89,7 +89,7 @@ gave women's minds, he long lived on his own
 without a wife and shared his bed with no one.
 {{< /quote >}}
 
-Pygmalion hates women and for some reason, the goddess of love, brings Pygmalion's statue of a woman to life. This myth seems to have been completely made up by Ovid which is interesting because the story of Pygmalion has been remixed and retold in popular culture more than any other story from Greco-Roman mythology. Think Pinocchio, Frankenstein, Ex Machina, I could go on.
+Pygmalion hates women and for some reason, the goddess of love, brings Pygmalion's statue of a woman to life to be his wife. This myth seems to have been completely made up by Ovid which is interesting because the story of Pygmalion has been remixed and retold in popular culture more than any other story from Greco-Roman mythology I can think of. Pinocchio, Frankenstein, Ex Machina, are all steeped in Pygmalion-ness.
 
 Ajax and Ulysses Contend for Achilles' Armor in Book 13 was great. Ovid's commitment to taking a gigantic work like the Iliad and summarizing select parts of it through a legal battle between Ajax and Odysseus is... Chef's Kiss.
 
@@ -111,7 +111,7 @@ He spoke. Into that chest that had not ever
 endured a wound he drove his deadly sword.
 {{< /quote >}}
 
-Pythagoras in Book 15 is unlike any other poem in the Metamorphoses. It involves Pythagoras going off on a monologue like no other. Talking about anything and everything in an attempt to synthesize all of Ovid's previous poems and perhaps show the reader a glimpse into the future by prophesizing about the fate of the Roman empire.
+Pythagoras in Book 15 is unlike any other poem in the Metamorphoses. It involves Pythagoras going off on a monologue like no other. Talking about anything and everything in an attempt to synthesize all of Ovid's previous poems and perhaps show the reader a glimpse into the future by prophesizing about the fate of the Roman Empire.
 
 {{< quote >}}
 The day will end and Phoebus plunge his panting
@@ -141,7 +141,7 @@ What but a name is Oedipus’ Thebes?
 And what is Pandion’s Athens but a name?
 {{< /quote >}}
 
-Epilogue in Book 15 is a fantastic way for Ovid to conclude his collection of poems. His work has immortalized him and, despite it being long gone, the influence of the Roman empire on our modern world is undeniable.
+Epilogue in Book 15 is a fantastic way for Ovid to conclude his collection of poems. His work has immortalized him and, despite it being long gone, the influence of the Roman Empire on our modern world is undeniable.
 
 {{< quote >}}
 I've made a masterpiece Jove's wrath cannot
@@ -167,8 +167,10 @@ prophecies can hold any truth, I'll live.
 
 Is there anything I didn't like about Ovid's Metamorphoses?
 
-There's about 250 different myths being recounted in this collection and almost a quarter of them involve sexual violence against women (1 or 2 of them against men). It's a LOT.
+There's about 250 different myths being recounted in this collection and almost a quarter of them involve sexual violence against women perperated by gods and men. It's a LOT. Stephanie McCarter's translation does not, like many other translations, try to use euphemisms and flowery language to cover up this violence against women. That's a really good thing but it can be a little hard to read. Rape is an inextricable part of Ovid's Metamorphoses and rightfully so, trauma caused by this sort of violence is transformative.
 
-There are some poems that are a little similar to one another in a way that isn't interesting.
+I've never been raped before but I have experienced trauma, like we all have, I've seen its power to change and transform. I found comfort in reading a text written so long ago with a singular focus on this truth about life, that we're all going through a transformation of some sort, becoming something different than what we are today.
 
-But perhaps I'll change my mind on a second reading. I wasn't able to give as much attention as I would have like to each and every poem because how many of them there are and how dense with references they can be.
+There are some poems that are a little too similar to one another in a way that wasn't interesting to me. Although, I wasn't able to give as much attention as I would have liked to each and every poem because how many of them there are and how dense with explanatory footnotes each poem is.
+
+I'm glad I read Ovid's Metamorphoses, if you're a Greek mythology nerd like me or just into poetry, you should give it a try. Reading through it has gotten me excited to read more Roman poetry. I'm thinking of taking a look at Horace's Odes!
