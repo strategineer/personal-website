@@ -2,7 +2,7 @@
 authors:
   - Ursula K. Le Guin
 books/tags:
-  - currently-reading
+  - owned-but-unread
   - science-fiction
 date: 2024-05-22
 params:

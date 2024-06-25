@@ -2,7 +2,7 @@
 authors:
   - Holmes H. Welch, Jr.
 books/tags:
-  - currently-reading
+  - owned-but-unread
   - non-fiction
   - philosophy
 date: 2024-04-21
