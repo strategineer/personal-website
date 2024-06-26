@@ -62,7 +62,7 @@ imaging:
 markup:
   tableOfContents:
     endLevel: 3
-    ordered: true
+    ordered: false
     startLevel: 1
   defaultMarkdownHandler: goldmark
   goldmark:
