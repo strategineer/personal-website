@@ -14,7 +14,7 @@ X-Mooks is my homebrew OSR-compatible rule system.
 
 It's HEAVILY based on:
 
-- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [PDF](/rpg/many_rats_on_stick_v2.pdf). If there's something missing here, namely Wizard Schools, refer to that document to find some, if nothing speaks to you there refer to the [Extra Resources section](#extra-resources) for more options.
+- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf)). If there's something missing here, namely Wizard Schools, refer to that document to find some, if nothing speaks to you there refer to the [Extra Resources section](#extra-resources) for more options.
 - [Goblin Punch's The GLOG: Wizard rules](https://goblinpunch.blogspot.com/2016/09/the-glog-wizards.html)
 
 The X-Mooks rules are designed for old-school D&D-like games. They are broadly compatible with most published Old School Revival (OSR) products (i.e. equally incompatible with all of them). The main goal is to create a system that is:

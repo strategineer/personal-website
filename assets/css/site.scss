@@ -23,11 +23,14 @@ $link_highlight: nth($colors, 1);
   a,
   a > li {
     color: $link_base;
+    text-decoration: underline !important;
+    text-decoration-color: $link_base;
 
     &:focus,
     &:hover,
     &:active {
       color: $link_highlight;
+      text-decoration-color: $link_highlight;
       background: $bg_dark;
     }
   }
@@ -234,6 +237,7 @@ p {
 
 a:focus,
 a:hover,
+a:visited,
 a:link,
 a:active {
   text-decoration: none;
