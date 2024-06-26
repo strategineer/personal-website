@@ -363,8 +363,7 @@ figure {
 }
 
 .menu-button {
-  padding: 1em;
-  margin: 0.25em;
+  pointer-events: auto;
 }
 
 .btn-toolbar {
@@ -447,6 +446,7 @@ li {
   --#{$prefix}offcanvas-padding-y: 0;
   --#{$prefix}offcanvas-bg: transparent;
   --#{$prefix}offcanvas-border-width: 0;
+  pointer-events: none;
 }
 
 @include media-breakpoint-down(xs) {
