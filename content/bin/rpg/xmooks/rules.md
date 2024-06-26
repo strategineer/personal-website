@@ -935,9 +935,9 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 Here's some extra reading if you're interested. If nothing you find speaks to you, work with your GM to make your own class or whatever else.
 
-- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html). [PDF](/rpg/many_rats_on_stick_v2.pdf)
+- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf))
 - [Wizards Post by Skerples](https://coinsandscrolls.blogspot.com/2018/06/osr-how-to-design-glog-wizards.html)
-- [GLOG Wizards by Arnold K.](https://goblinpunch.blogspot.com/2016/09/the-glog-wizards.html) [PDF](/rpg/GLOG_wizards_v1.pdf)
+- [GLOG Wizards by Arnold K.](https://goblinpunch.blogspot.com/2016/09/the-glog-wizards.html) ([PDF](/rpg/GLOG_wizards_v1.pdf))
 - [Who is the GLOGosphere? Post](https://diyanddragons.blogspot.com/2019/03/who-is-glogosphere.html)
 - [Wizard Megapost by Yami Bakura](http://www.remixesandrevelations.com/2018/06/the-wizard-megapost.html)
 - [Orthodox Wizards Spells](https://coinsandscrolls.blogspot.com/2017/03/osr-100-orthodox-spells.html)
