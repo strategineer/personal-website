@@ -64,7 +64,7 @@
       <div class="row no-margin justify-content-center">
         {{ if $.Params.is_rpg }}
           <div class="col-xl-2">
-          {{ $has_aside_toc := default false .Page.Params.has_aside_toc}}
+          {{ $has_aside_toc := default false .Page.Params.is_rpg}}
           {{ if $has_aside_toc }}
             <div class="offcanvas show offcanvas-left" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasLeft" aria-label="navigation bar">       
               <div class="offcanvas-body">

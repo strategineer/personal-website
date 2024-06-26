@@ -3,7 +3,6 @@ title: "X-Mooks Rules"
 is_readable: true
 no_search: true
 is_rpg: true
-has_aside_toc: true
 ---
 
 # Core Rules
