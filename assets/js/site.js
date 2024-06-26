@@ -31,57 +31,58 @@ function getTocElementById(id) {
   }
   return element.parentElement;
 }
+maxIntersectionElementId = null;
+maxIntersectionRatio = 0.0;
 
 window.addEventListener('DOMContentLoaded', () => {
 
 	const observer = new IntersectionObserver(entries => {
-    maxIntersectionElementId = null;
-    intersectionRatio = 0.0;
+    any_intersecting = false;
 		entries.forEach(entry => {
       id = entry.target.getAttribute('id');
       element = getTocElementById(id);
       if (element === null) {
         return;
       }
-			if (entry.intersectionRatio > intersectionRatio) {
-        intersectionRatio = entry.intersectionRatio;
+			if (entry.isIntersecting && entry.intersectionRatio > maxIntersectionRatio) {
+        console.log(`activating #${id}...`);
         maxIntersectionElementId = id;
-        console.log(`${maxIntersectionElementId}: ${intersectionRatio}`);
-			}
+        maxIntersectionRatio = entry.intersectionRatio;
+        any_intersecting = true;
+			} else {
+        console.log(`deactivating #${id}...`);
+      }
 		});
-    i = -1;
+    if (!any_intersecting) {
+      maxIntersectionElementId = null;
+      maxIntersectionRatio = 0.0;
+    }
     entries.forEach(entry => {
-      i += 1;
-			const id = entry.target.getAttribute('id');
-      console.log(`${entries.length}: ${i}: ${id}`);
+      id = entry.target.getAttribute('id');
       element = getTocElementById(id);
       if (element === null) {
         return;
       }
-			if (maxIntersectionElementId === id) {
-        if (!element.classList.contains('active')) {
-          console.log(`activating #${id}...`);
-          element.classList.add('active');
-          toc = document.querySelector(`#TableOfContents`);
-          toc.scroll({
-            top: element.getBoundingClientRect().top,
-            behavior: "smooth",
-          });
-        }
-			} else {
-        if (element.classList.contains('active')) {
-          console.log(`deactivating #${id}...`);
-				  element.classList.remove('active');
-        }
-			}
-		});
+      if (maxIntersectionElementId === id) {
+        element.classList.add('active');
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+          inline: "nearest" 
+
+        });
+      } else {
+        element.classList.remove('active');
+      }
+    });
 	},{
-    rootMargin: "0px",
+    root: document.querySelector("main"),
     threshold: 0,
   });
 
 	// Track all sections that have an `id` applied
 	document.querySelectorAll('section[id]').forEach((section) => {
+    console.log(section.id);
 		observer.observe(section);
 	});
 });
