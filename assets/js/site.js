@@ -49,8 +49,10 @@ window.addEventListener('DOMContentLoaded', () => {
         maxIntersectionElementId = id;
         maxIntersectionRatio = entry.intersectionRatio;
         any_intersecting = true;
+        element.classList.add('active');
 			} else {
         console.log(`deactivating #${id}...`);
+        element.classList.remove('active');
       }
 		});
     if (!any_intersecting) {
@@ -64,14 +66,11 @@ window.addEventListener('DOMContentLoaded', () => {
         return;
       }
       if (maxIntersectionElementId === id) {
-        element.classList.add('active');
         toc = document.querySelector(`#TableOfContents`);
         toc.scroll({
           top: element.offsetTop - toc.offsetHeight / 2.0,
           behavior: "smooth",
         });
-      } else {
-        element.classList.remove('active');
       }
     });
 	},{
@@ -81,7 +80,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	// Track all sections that have an `id` applied
 	document.querySelectorAll('section[id]').forEach((section) => {
-    console.log(section.id);
-		observer.observe(section);
+    observer.observe(section);
 	});
 });
