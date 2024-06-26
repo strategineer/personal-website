@@ -1,6 +1,8 @@
+{{ $has_book_links := false }}
 <div class="d-flex justify-content-center d-flex-inline-list text-center">
   <ul class="list-inline ul-inline">
     {{ if .Params.isbn13 }}
+      {{ $has_book_links = true }}
     <li class="list-inline-item li-inline">
       <a
         href="https://www.indigo.ca/en-ca/search?q={{ .Params.isbn13 }}"
@@ -51,12 +53,14 @@
     </li>
     {{ end }}
     {{ with .File }}
+      {{ if $has_book_links }}
       <li class="list-inline-item li-inline">
         {{ $base_url := "https://github.com/strategineer/personal-website/blob/master/content/" }}
         <a href="{{ add $base_url (path.Join .Path) }}">
           <img alt="Github icon" src="/icons/github.svg" width="32" height="32" label="Go to Github content file for this page"/>
         </a>
       </li>
+      {{ end }}
     {{ end }}
     {{ range $index, $name_link_pair := .Params.links }}
       {{ $split_pair := split $name_link_pair "," }}
