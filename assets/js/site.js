@@ -65,11 +65,10 @@ window.addEventListener('DOMContentLoaded', () => {
       }
       if (maxIntersectionElementId === id) {
         element.classList.add('active');
-        element.scrollIntoView({
+        toc = document.querySelector(`#TableOfContents`);
+        toc.scroll({
+          top: element.offsetTop - toc.offsetHeight / 2.0,
           behavior: "smooth",
-          block: "center",
-          inline: "nearest" 
-
         });
       } else {
         element.classList.remove('active');

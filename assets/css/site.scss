@@ -384,7 +384,6 @@ div > em,
 }
 
 li {
-  margin-left: 1.25rem;
   .active {
     background: antiquewhite;
   }
@@ -609,9 +608,6 @@ html {
 }
 
 #TableOfContents {
-  position: sticky;
-  top: 0em;
-  align-self: start;
   li, a {
     font-size: 0.8rem;
     transition: all 100ms ease-in-out;

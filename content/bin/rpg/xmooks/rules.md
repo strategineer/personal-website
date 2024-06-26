@@ -107,8 +107,6 @@ Apply bonuses or penalties to rolls as needed. Go as far as you need to go, bear
 
 # Combat
 
-## Combat
-
 Switch to combat rounds when it looks like someone might get hurt.
 
 If someone (or a group) attacks by surprise, they get to act before any Initiatives are rolled for the round. Once all ambushers have acted, everyone rolls for Initiative.
