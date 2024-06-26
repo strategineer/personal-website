@@ -3,6 +3,7 @@ title: "X-Mooks Rules"
 is_readable: true
 no_search: true
 is_rpg: true
+has_aside_toc: true
 ---
 
 X-Mooks is my homebrew OSR-compatible rule system.
@@ -27,10 +28,6 @@ The rules assume you know what an RPG is, what dice are, and the basics of OSR g
 If you're a player, [start with the Introduction for New Players section](#introduction-for-new-players). If you want more detail on how a particular system works, refer to the [table of contents](#table-of-contents) or Control+F to search for info.
 
 If you're a GM, [start with the GM guidance section](#gm-guidance).
-
-# Table of Contents
-
-{{< toc >}}
 
 ## GM Guidance
 
@@ -832,7 +829,7 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 {.table .table-striped .table-bordered .table-sm}
 {{< /rpg_table >}}
 
-## BooksAndVanityItems
+## Books And Vanity Items
 
 {{< rpg_table name="BookAndVanityItem" >}}
 | Item                           | Cost (Urban) | Cost(Rural) |

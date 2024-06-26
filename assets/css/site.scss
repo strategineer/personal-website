@@ -234,7 +234,6 @@ p {
 
 a:focus,
 a:hover,
-a:visited,
 a:link,
 a:active {
   text-decoration: none;
@@ -386,6 +385,9 @@ div > em,
 
 li {
   margin-left: 1.25rem;
+  .active {
+    background: antiquewhite;
+  }
 }
 
 .explorer-info-link {
@@ -599,3 +601,32 @@ table {
 .table.table-small {
   font-size: x-small;
 }
+
+// aside table of contents
+
+html {
+	scroll-behavior: smooth;
+}
+
+#TableOfContents {
+  position: sticky;
+  top: 0em;
+  align-self: start;
+  li, a {
+    font-size: 0.8rem;
+    transition: all 100ms ease-in-out;
+    pointer-events: auto;
+  }
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+
+[class^="icon_"]::after {
+  display: inline-block;
+  text-decoration: none;
+  white-space: pre-wrap;
+  margin-left: 0.25em;
+  width: 1em;
+}
+.icon_internal::after     { content: "\1FA9D";                                    /* 🪝 */ }
+.icon_external::after     { content: "\1F517";                                    /* 🔗 */ }

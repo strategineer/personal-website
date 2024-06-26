@@ -6,9 +6,12 @@
 {{ $anchor = .Anchor }}
 {{ end }}
 {{ $anchor = $anchor | safeURL }}
-<h{{ .Level }} id="{{ $anchor }}">
+</section>
+<section id="{{ $anchor }}">
+<h{{ .Level }}>
 {{ .Text | safeHTML }}
     <a href="#{{ $anchor }}">
         ¶
     </a>
 </h{{ .Level }}>
+

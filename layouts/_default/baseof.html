@@ -60,9 +60,23 @@
       {{ end }}
     {{ end  }}
     <div class="container-fluid"> 
-      {{ $is_readable := default .Params.is_readable true}}
+      {{ $is_readable := default true .Params.is_readable}}
       <div class="row no-margin justify-content-center">
-        <div class="col-xl-12 main no-margin ">
+        {{ if $.Params.is_rpg }}
+          <div class="col-xl-4">
+          {{ $has_aside_toc := default false .Page.Params.has_aside_toc}}
+          {{ if $has_aside_toc }}
+            <div class="offcanvas show offcanvas-left" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasLeft" aria-label="navigation bar">       
+              <div class="offcanvas-body">
+                {{ .Page.TableOfContents }}
+              </div>
+            {{ end }}
+            </div>
+          </div>
+          <div class="col-xl-8 main no-margin ">
+          {{ else }}
+          <div class="col-xl-12 main no-margin ">
+        {{ end }}
           {{ partial "header" . }}
           {{ $has_search := and (ne .Section "cv") (not .Params.no_search) }}
           {{ if $has_search }}
