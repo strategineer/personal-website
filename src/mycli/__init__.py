@@ -187,7 +187,7 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
     content = content.replace(r"{{< spoiler >}}", "<spoiler>")
     content = content.replace(r"{{< /spoiler >}}", "</spoiler>")
     # quotes
-    content = content.replace(r"{{< quote >}}", "<b>")
+    content = re.sub(r"{{< quote[^>]*>}}", "<b>", content)
     content = content.replace(r"{{< /quote >}}", "</b>")
     # whitespace
     while True:

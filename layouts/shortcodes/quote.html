@@ -1,8 +1,12 @@
 {{- $inner := .Inner -}}
+{{ $page_number := .Get 0 }}
 {{- if strings.ContainsNonSpace $inner -}}
   {{- with $.Page -}}
-    <strong>
-      <p>{{ $inner | .RenderString }}</p>
-    </strong>
+    <blockquote cite="p. 5">
+      <strong><p>{{ $inner | .RenderString }}</p></strong>
+      {{ if $page_number }}
+      <p class="page-number">p. {{ $page_number }}</p>
+      {{ end }}
+    </blockquote>
   {{- end -}}
 {{- end -}}

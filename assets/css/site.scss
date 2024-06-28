@@ -630,3 +630,8 @@ html {
 }
 .icon_internal::after     { content: "\1FA9D";                                    /* 🪝 */ }
 .icon_external::after     { content: "\1F517";                                    /* 🔗 */ }
+
+.page-number {
+  text-align: right;
+  padding-right: 0.5em;
+}
