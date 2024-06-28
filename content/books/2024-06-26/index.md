@@ -23,23 +23,21 @@ Lavinia tells the story of, well, Lavinia, a character in Vergil's Aeneid who is
 
 Le Guin's Lavinia is not a story told straight. At the start of the novel, Vergil, the poet, appears before Lavinia as a spirit and speaks with her at length. Lavinia quickly becomes aware of her future as told by Vergil.
 
-Lavinia also becomes aware of her own existence as a fictional character but also recognizes that Vergil didn't write much about her, leaving her with some semblance of free will within the context of the story. The same can't be said for her husband Aeneas because the main character of Vergil's poem.
+Lavinia also becomes aware of her own existence as a fictional character but also recognizes that Vergil didn't write much about her, leaving her with some semblance of free will. The same can't be said for her husband Aeneas because the main character of Vergil's poem.
 
-It's weird.
+It's meta, it's weird.
 
 But I like it.
 
-Prior to reading Lavinia, I was familiar with Homer's Odyssey and Iliad but I wasn't familiar with Vergil's Aeneid. Lavinia as a text works better the more you know about Greco-Roman mythology but Le Guin's premise combined with her choice of narrator makes this knowledge less of a requirement and more of a recommendation.
+Prior to reading Lavinia, I was familiar with Homer's Odyssey and Iliad but I wasn't familiar with Vergil's Aeneid. Lavinia as a text works better the more you know about Greco-Roman mythology but Le Guin's premise combined with her choice of narrator makes this knowledge less of a requirement and more of a nice to have.
 
-Le Guin's narrator often foreshadows events to come to make it so that even if you haven't read the Aenid you'll still know what's going to happen. Presumably, Le Guin chose to do this to have the reading of the text work whether or not the reader had much prior knowledge about the Aeneid and other relevant texts.
+Le Guin's narrator often foreshadows events to come such that whether you're familiar with the Aenid or not you'll still know what's going to happen.
 
-It works!
+It works because Lavinia is Le Guin's master class on foreshadowing. Her partially revealing a part of the story to come, often left me much more invested in the novel than I would have been otherwise. Sure, I was told that something was going to happen but the how and why was left open to speculation. Often, I felt as though the revelation of a story beat to come left me with more questions than answers.
 
-Lavinia is Le Guin's master class on foreshadowing. Her partially revealing a part of the story to come, often left me much more invested in the novel than I would have been otherwise. Sure, I was told that something was going to happen but how and why. Often, I felt as though the revelation of a story beat to come left me with more questions than answers.
+It's clear from reading the text but also from Le Guin's afterword that Lavinia was inspired from her reading of Vergil's Aeneid as a Greek tragedy. Le Guin's use of foreshadowing in Lavinia often leads to moments of heightened tension and tragic irony due to the difference between what most of the characters know (Lavinia excluded usually) and what the reader knows. I liked this!
 
-It's clear from reading the text but also from Le Guin's afterword that Lavinia was inspired from her reading of Vergil's Aeneid as a Greek tragedy. Le Guin's use of foreshadowing in Lavinia often leads to moments of heightened tension and tragic irony. There's a difference between what most of the characters know (Lavinia excluded usually) and what the reader knows and that creates interesting moments that I don't often see in the novels I read.
-
-Le Guin wrote Lavinia relatively late in her career and it shows. I feel as though in Lavinia, Le Guin is using all of the skills she's acquired through her long and prolific career and nailing it.
+Le Guin wrote Lavinia relatively late in her career and it shows. I feel as though in Lavinia, Le Guin is using all of the skills she's acquired through her long and prolific career and she's nailing it.
 
 You should read it, especially if you're a fan of Le Guin or if you're into Greco-Roman myth/literature!
 
