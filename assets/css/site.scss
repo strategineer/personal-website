@@ -475,6 +475,9 @@ li, ul {
 }
 
 @include media-breakpoint-down(xl) {
+  .offcanvas-left {
+    display: none;
+  }
 }
 
 @include media-breakpoint-up(xs) {
