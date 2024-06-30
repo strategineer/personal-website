@@ -43,7 +43,7 @@ You should read it, especially if you're a fan of Le Guin or if you're into Grec
 
 ---
 
-I've taken note of a bunch of different quotes from the book, I'm keeping them here with some of my thoughts for posterity.
+I've taken note of a bunch of quotes from the book, I'm keeping them here with some of my thoughts for posterity.
 
 
 {{< quote 5 >}}
