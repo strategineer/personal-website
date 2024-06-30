@@ -31,7 +31,7 @@ But I like it.
 
 Prior to reading Lavinia, I was familiar with Homer's Odyssey and Iliad but I wasn't familiar with Vergil's Aeneid. Lavinia as a text works better the more you know about Greco-Roman mythology but Le Guin's premise combined with her choice of narrator makes this knowledge less of a requirement and more of a nice to have.
 
-Le Guin's narrator often foreshadows events to come such that whether you're familiar with the Aenid or not you'll still know what's going to happen.
+Le Guin's narrator often foreshadows events to come such that whether you're familiar with the Aeneid or not you'll still know what's going to happen.
 
 It works because Lavinia is Le Guin's master class on foreshadowing. Her partially revealing a part of the story to come, often left me much more invested in the novel than I would have been otherwise. Sure, I was told that something was going to happen but the how and why was left open to speculation. Often, I felt as though the revelation of a story beat to come left me with more questions than answers.
 
