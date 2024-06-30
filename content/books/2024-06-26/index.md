@@ -23,7 +23,7 @@ Lavinia tells the story of, well, Lavinia, a character in Vergil's Aeneid who is
 
 Le Guin's Lavinia is not a story told straight. At the start of the novel, Vergil, the poet, appears before Lavinia as a spirit and speaks with her at length. Lavinia quickly becomes aware of her future as told by Vergil.
 
-Lavinia also becomes aware of her own existence as a fictional character but also recognizes that Vergil didn't write much about her, leaving her with some semblance of free will. The same can't be said for her husband Aeneas because the main character of Vergil's poem.
+Lavinia also becomes aware of her own existence as a fictional character but also recognizes that Vergil didn't write much about her, leaving her with some semblance of free will. The same can't be said for her husband Aeneas because he's the main character in Vergil's poem.
 
 It's meta, it's weird.
 
