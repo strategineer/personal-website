@@ -182,7 +182,7 @@ Even Ascanius had no answer for that.
 "It's a good place for a child, the woods. You don't learn much about people, but you learn silence. Patience. And that there's nothing much to fear in the wilderness—less than there is on a farm or in the city."
 {{< /quote >}}
 
-One of Le Guin's many fantasizing about the "return to nature" idea. Also, present in her Earthsea series (Ogion, Ged the farmer).
+One of Le Guin's many moments in her work where she fantasizes about a "return to nature". Also, present in her Earthsea series (Ogion, Ged the farmer).
 
 {{< quote 223 >}}
 Three years, the poet had said. Three years to the day it was. The three old women who spin and cut the thread had measured exactly, to the inch, nothing to spare. No gift of summer days.
