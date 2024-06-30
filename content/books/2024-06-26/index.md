@@ -130,7 +130,7 @@ There was a silence, then a sound of movement, a shift or scuffle, in the dark r
 
 Lavinia's mother is absolutely awful, especially to Lavinia. But this scene of spousal violence was tough to read.
 
-Sure, Lavinia's mom is a gigantic cunt. But she also lost two of her children when they were young and that loss has affected in understandable ways.
+Sure, Lavinia's mom is a gigantic cunt. But she also lost two of her children when they were young and that loss has affected her in understandable ways.
 
 I don't think she's portrayed as a particularly sympathetic character, and yet I felt bad for her time and time again.
 
