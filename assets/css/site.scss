@@ -597,9 +597,10 @@ li, ul {
   background: $bg_dark;
   color: $color_base;
 }
-
+.pagefind-ui__search-input,
 .pagefind-ui__result-tag {
-  background: $bg_dark;
+  background: $bg_dark !important;
+  color: $color_base !important;
 }
 
 // RPG system css
