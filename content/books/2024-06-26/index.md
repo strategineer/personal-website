@@ -23,7 +23,7 @@ Lavinia tells the story of, well, Lavinia, a character in Vergil's Aeneid who is
 
 Le Guin's Lavinia is not a story told straight. At the start of the novel, Vergil, the poet, appears before Lavinia as a spirit and speaks with her at length. Lavinia quickly becomes aware of her future as told by Vergil.
 
-Lavinia also becomes aware of her own existence as a fictional character but also recognizes that Vergil didn't write much about her, leaving her with some semblance of free will. The same can't be said for her husband Aeneas because the main character of Vergil's poem.
+Lavinia also becomes aware of her own existence as a fictional character but also recognizes that Vergil didn't write much about her, leaving her with some semblance of free will. The same can't be said for her husband Aeneas because he's the main character in Vergil's poem.
 
 It's meta, it's weird.
 
@@ -31,7 +31,7 @@ But I like it.
 
 Prior to reading Lavinia, I was familiar with Homer's Odyssey and Iliad but I wasn't familiar with Vergil's Aeneid. Lavinia as a text works better the more you know about Greco-Roman mythology but Le Guin's premise combined with her choice of narrator makes this knowledge less of a requirement and more of a nice to have.
 
-Le Guin's narrator often foreshadows events to come such that whether you're familiar with the Aenid or not you'll still know what's going to happen.
+Le Guin's narrator often foreshadows events to come such that whether you're familiar with the Aeneid or not you'll still know what's going to happen.
 
 It works because Lavinia is Le Guin's master class on foreshadowing. Her partially revealing a part of the story to come, often left me much more invested in the novel than I would have been otherwise. Sure, I was told that something was going to happen but the how and why was left open to speculation. Often, I felt as though the revelation of a story beat to come left me with more questions than answers.
 
@@ -43,7 +43,7 @@ You should read it, especially if you're a fan of Le Guin or if you're into Grec
 
 ---
 
-I've taken note of a bunch of different quotes from the book, I'm keeping them here with some of my thoughts for posterity.
+I've taken note of a bunch of quotes from the book, I'm keeping them here with some of my thoughts for posterity.
 
 
 {{< quote 5 >}}
@@ -130,7 +130,7 @@ There was a silence, then a sound of movement, a shift or scuffle, in the dark r
 
 Lavinia's mother is absolutely awful, especially to Lavinia. But this scene of spousal violence was tough to read.
 
-Sure, Lavinia's mom is a gigantic cunt. But she also lost two of her children when they were young and that loss has affected in understandable ways.
+Sure, Lavinia's mom is a gigantic cunt. But she also lost two of her children when they were young and that loss has affected her in understandable ways.
 
 I don't think she's portrayed as a particularly sympathetic character, and yet I felt bad for her time and time again.
 
@@ -182,7 +182,7 @@ Even Ascanius had no answer for that.
 "It's a good place for a child, the woods. You don't learn much about people, but you learn silence. Patience. And that there's nothing much to fear in the wilderness—less than there is on a farm or in the city."
 {{< /quote >}}
 
-One of Le Guin's many fantasizing about the "return to nature" idea. Also, present in her Earthsea series (Ogion, Ged the farmer).
+One of Le Guin's many moments in her work where she fantasizes about a "return to nature". Also, present in her Earthsea series (Ogion, Ged the farmer).
 
 {{< quote 223 >}}
 Three years, the poet had said. Three years to the day it was. The three old women who spin and cut the thread had measured exactly, to the inch, nothing to spare. No gift of summer days.
