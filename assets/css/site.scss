@@ -9,6 +9,14 @@ $link_print: nth($colors, 1);
 $color_base: nth($colors, 2);
 $link_highlight: nth($colors, 2);
 
+:root {
+  --pagefind-ui-background: $bg_light !important;
+  --pagefind-ui-primary: $color_base !important;
+  --pagefind-ui-text: $color_base !important;
+  --pagefind-ui-border: $bg_light !important;
+  --pagefind-ui-tag: $color_base !important;
+}
+
 @media screen {
   body {
     background: $bg_dark;
@@ -441,7 +449,7 @@ li, ul {
 .btn-outline-dark:hover {
   color: $bg_dark;
   background-color: $bg_dark;
-  border-color: white;
+  border-color: $bg_light;
 }
 
 .offcanvas {
@@ -594,18 +602,7 @@ li, ul {
 
 .search {
   padding-bottom: 0.5em;
-  background: $bg_dark;
-  color: $color_base;
-}
-
-.pagefind-ui,
-.pagefind-ui__search-clear,
-.pagefind-ui__drawer,
-.pagefind-ui__message,
-.pagefind-ui__results,
-.pagefind-ui__search-input,
-.pagefind-ui__result-tag {
-  background: $bg_dark !important;
+  background: $bg_light !important;
   color: $color_base !important;
 }
 
