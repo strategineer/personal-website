@@ -7,7 +7,7 @@
       <a
         href="https://www.indigo.ca/en-ca/search?q={{ .Params.isbn13 }}"
       >
-      <img class="icon" alt="Indigo.ca icon" src="/icons/indigo.svg" width="32" height="32" label="Search for this book on Indigo.ca"/>
+      <img class="icon icon-filter" alt="Indigo.ca icon" src="/icons/indigo.svg" width="32" height="32" label="Search for this book on Indigo.ca"/>
       </a>
     </li>
     {{ if and .Title (gt (len .Params.authors) 0) }}
