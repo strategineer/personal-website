@@ -1,5 +1,5 @@
 {{ $active_class := "btn-outline-dark" }}
-{{ $inactive_class := "btn-light" }}
+{{ $inactive_class := "btn-dark" }}
 {{ $is_food := hasPrefix .RelPermalink "/food/" }}
 
 {{ $is_cocktails := hasPrefix .RelPermalink "/cocktails/" }}
@@ -22,6 +22,7 @@
             class="menu-button btn btn-lg {{ cond $is_blog $active_class $inactive_class }}"
           >
             <img
+              class="icon icon-filter"
               alt="blog icon"
               src="/icons/journal-text.svg"
               width="32"
@@ -56,6 +57,7 @@
             class="menu-button btn btn-lg {{ cond $is_authors $active_class $inactive_class }}"
           >
             <img
+              class="icon icon-filter"
               alt="person icon"
               src="/icons/file-person.svg"
               width="32"
@@ -72,6 +74,7 @@
             class="menu-button btn btn-lg {{ cond $is_books_tags $active_class $inactive_class }}"
           >
             <img
+              class="icon icon-filter"
               alt="tag icon"
               src="/icons/bookshelf.svg"
               width="32"
@@ -88,6 +91,7 @@
             class="menu-button btn btn-lg {{ cond $is_books $active_class $inactive_class }}"
           >
             <img
+              class="icon icon-filter"
               alt="book icon"
               src="/icons/book.svg"
               width="32"

@@ -432,16 +432,16 @@ li, ul {
   margin: 0;
 }
 
-.btn-light,
+.btn-dark,
 .btn-outline-dark {
-  background-color: white;
+  background-color: $bg_dark;
 }
 
-.btn-light:hover,
+.btn-dark:hover,
 .btn-outline-dark:hover {
-  color: #fff;
-  background-color: white;
-  border-color: #000;
+  color: $bg_dark;
+  background-color: $bg_dark;
+  border-color: white;
 }
 
 .offcanvas {
@@ -596,6 +596,10 @@ li, ul {
   padding-bottom: 0.5em;
   background: $bg_dark;
   color: $color_base;
+}
+
+.pagefind-ui__result-tag {
+  background: $bg_dark;
 }
 
 // RPG system css
