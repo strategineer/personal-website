@@ -597,6 +597,12 @@ li, ul {
   background: $bg_dark;
   color: $color_base;
 }
+
+.pagefind-ui,
+.pagefind-ui__search-clear,
+.pagefind-ui__drawer,
+.pagefind-ui__message,
+.pagefind-ui__results,
 .pagefind-ui__search-input,
 .pagefind-ui__result-tag {
   background: $bg_dark !important;
