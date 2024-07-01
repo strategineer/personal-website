@@ -7,7 +7,7 @@
       <a
         href="https://www.indigo.ca/en-ca/search?q={{ .Params.isbn13 }}"
       >
-      <img class="icon" alt="Indigo.ca icon" src="/icons/indigo.svg" width="32" height="32" label="Search for this book on Indigo.ca"/>
+      <img class="icon icon-filter" alt="Indigo.ca icon" src="/icons/indigo.svg" width="32" height="32" label="Search for this book on Indigo.ca"/>
       </a>
     </li>
     {{ if and .Title (gt (len .Params.authors) 0) }}
@@ -48,7 +48,7 @@
         href="https://www.goodreads.com/search?utf8=%E2%9C%93&q={{ .Params.isbn13 }}&search_type=books&search%5Bfield%5D=on
     "
       >
-      <img class="icon" alt="Goodreads icon" src="/icons/goodreads.svg" width="32" height="32" label="Search for this book on Goodreads"/>
+      <img class="icon icon-filter" alt="Goodreads icon" src="/icons/goodreads.svg" width="32" height="32" label="Search for this book on Goodreads"/>
       </a>
     </li>
     {{ end }}
