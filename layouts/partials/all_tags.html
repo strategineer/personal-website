@@ -158,7 +158,7 @@
           {{ $page_num = add $page_num 1 }}
           {{ $k = add $k 1 }}
           <div class="col col-lg-2">
-            <a href="{{ .Permalink }}">
+            <a class="star_rating" href="{{ .Permalink }}">
               <div class="row text-center">
                 <div class="col">
                   {{ partial "try_star_rating" . }}

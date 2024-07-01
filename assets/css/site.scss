@@ -1,17 +1,17 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-$colors: #00080f #f2f2f2 #bb1b1b #ffffff;
+$colors: #00080f #f2f2f2 #00ff11 #202020;
 
-$bg_dark: nth($colors, 2);
+$bg_dark: nth($colors, 1);
 $bg_light: nth($colors, 4);
 $link_base: nth($colors, 3);
 $link_print: nth($colors, 1);
-$color_base: nth($colors, 1);
-$link_highlight: nth($colors, 1);
+$color_base: nth($colors, 2);
+$link_highlight: nth($colors, 2);
 
 @media screen {
   body {
-    background: $bg_light;
+    background: $bg_dark;
     color: $color_base;
   }
 
@@ -31,7 +31,7 @@ $link_highlight: nth($colors, 1);
     &:active {
       color: $link_highlight;
       text-decoration-color: $link_highlight;
-      background: $bg_dark;
+      background: $bg_light;
     }
   }
 }
@@ -192,15 +192,15 @@ hr + ol {
 
 .table td,
 .table th {
-  border: 1px solid $bg_dark;
+  border: 1px solid $bg_light;
   padding: 0.5em;
 }
 
 // Journals
 blockquote {
   margin-bottom: 0.5em;
-  background: $bg_dark;
-  border: 2px $bg_dark;
+  background: $bg_light;
+  border: 2px $bg_light;
   border-style: solid;
 
   p {
@@ -245,8 +245,8 @@ a:active {
 
 .project-blurb {
   margin-top: 0.5em;
-  background: $bg_light;
-  outline: 0.2em solid $bg_light;
+  background: $bg_dark;
+  outline: 0.2em solid $bg_dark;
   font-size: larger;
 }
 
@@ -315,8 +315,8 @@ a.cv-anchor {
 }
 
 .cv-main-entry {
-  border-left: 2px solid $bg_dark;
-  border-bottom: 2px solid $bg_dark;
+  border-left: 2px solid $bg_light;
+  border-bottom: 2px solid $bg_light;
   margin-bottom: 0.2em;
   margin-top: 0.1em;
 }
@@ -637,4 +637,17 @@ html {
 .page-number {
   text-align: right;
   padding-right: 0.5em;
+}
+
+.icon {
+  width: 1em;
+  font-size: xx-large;
+}
+
+.icon-filter {
+  filter: invert(48%) sepia(90%) saturate(1456%) hue-rotate(91deg) brightness(118%) contrast(126%);
+}
+
+.star_rating {
+    text-decoration: none !important;
 }

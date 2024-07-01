@@ -7,7 +7,7 @@
       <a
         href="https://www.indigo.ca/en-ca/search?q={{ .Params.isbn13 }}"
       >
-      <img alt="Indigo.ca icon" src="/icons/indigo.svg" width="32" height="32" label="Search for this book on Indigo.ca"/>
+      <img class="icon" alt="Indigo.ca icon" src="/icons/indigo.svg" width="32" height="32" label="Search for this book on Indigo.ca"/>
       </a>
     </li>
     {{ if and .Title (gt (len .Params.authors) 0) }}
@@ -23,10 +23,10 @@
     {{ $query := add (trim $title " \n\t") " " (trim $author " \n\t") }}
     {{ $query = replace $query " " "+" }}
     <li class="list-inline-item li-inline">
-      <a
+      <a class="svg-link"
         href="https://annas-archive.org/search?q={{ $query }}"
       >
-      <img alt="Anna's Archive icon" src="/icons/annasarchive.svg" width="32" height="32" label="Search for this book on Anna's Archive"/>
+      <img class="icon icon-filter" alt="Anna's Archive icon" src="/icons/annasarchive.svg" width="32" height="32" label="Search for this book on Anna's Archive"/>
       </a>
     </li>
     <li class="list-inline-item li-inline">
@@ -39,7 +39,7 @@
         href="http://libgen.is/search.php?req={{ $query }}"
       >
 {{ end }}
-      <img alt="LibGen icon" src="/icons/libgen.svg" width="32" height="32" label="Search for this book on Library Genesis"/>
+      <img class="icon icon-filter" alt="LibGen icon" src="/icons/libgen.svg" width="32" height="32" label="Search for this book on Library Genesis"/>
       </a>
     </li>
     {{ end }}
@@ -48,7 +48,7 @@
         href="https://www.goodreads.com/search?utf8=%E2%9C%93&q={{ .Params.isbn13 }}&search_type=books&search%5Bfield%5D=on
     "
       >
-      <img alt="Goodreads icon" src="/icons/goodreads.svg" width="32" height="32" label="Search for this book on Goodreads"/>
+      <img class="icon" alt="Goodreads icon" src="/icons/goodreads.svg" width="32" height="32" label="Search for this book on Goodreads"/>
       </a>
     </li>
     {{ end }}
@@ -57,7 +57,7 @@
       <li class="list-inline-item li-inline">
         {{ $base_url := "https://github.com/strategineer/personal-website/blob/master/content/" }}
         <a href="{{ add $base_url (path.Join .Path) }}">
-          <img alt="Github icon" src="/icons/github.svg" width="32" height="32" label="Go to Github content file for this page"/>
+          <img class="icon icon-filter" alt="Github icon" src="/icons/github.svg" width="32" height="32" label="Go to Github content file for this page"/>
         </a>
       </li>
       {{ end }}
