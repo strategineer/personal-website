@@ -4,8 +4,11 @@ date: 2024-07-01
 blog/tags:
   - gaming
 summary: "A list of games I played and enjoyed most in 2023."
-draft: true
 ---
+
+I'm a little late to the party, posting my 2023 GOTY list in July 2024 but... Better late than never.
+
+
 # Mosa Lina
 
 {{< steam 2477090 >}}
@@ -83,3 +86,7 @@ The game sort of just ends in a really anticlimactic way, unless you go for the 
 Trials Metroidvania game with amazing music, art, everything? Sign me up.
 
 I had such a deflating ending I felt like I either ran into some sort of bug but the journey was a joy.
+
+# The End
+
+2023 was a good year for games.
