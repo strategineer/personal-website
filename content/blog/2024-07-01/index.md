@@ -38,25 +38,29 @@ Hitman (2016) is the gift that keeps on giving.
 
 An experience like no other. It's hard to recommend an extremely weird run-based (?) Finish RPG maker game with a ton of extreme gore, violence and heinous content. 
 
-BUT I had an interesting time with the Fear and Hunger series. If you're curious, just play the second game.
+BUT I had an interesting time with the Fear and Hunger series. If you're curious, I recommend starting with the second game and if you're really into it, go back and play the first game.
 
 # Madcap Mosaic
 
 {{< steam 1964330 >}}
 
-A cool ASS roguelike.
+A cool ASS roguelike deckbuilder where you don't draw cards from your deck. At the start of every encounter, The cards are placed randomly in a grid and you walk over cards, revealing them and activating their effects.
 
-# Heavenly bodies DLC
+It's weird and unique and I like that. 
+
+# Heavenly Bodies DLC
 
 {{< steam 2391340 >}}
 
-It's just great, there's no denying that.
+Heavenly Bodies is a great physics movement/platforming game and this DLC is bigger and better Heavenly Bodies. What more can you ask for?
 
 # Baldur's Gate 3
 
 {{< steam 1086940 >}}
 
-A good ass CRPG. I wasn't as blown away by it as most, especially regarding the overarching narrative which I find to be a little uninteresting and negatively influenced all of the character interactions, but the game mechanics were solid and combat encounters were fun.
+A good ass CRPG. I wasn't as blown away by it as most were. The story makes a lot of concessions because of how interactive it is and my story wasn't told very well and wasn't too interesting even though I had a few interesting decisions I was able to make throughout. 
+
+But the CRPG mechanics are solid and the combat encounters usually felt fun and well balanced. That's REALLY hard to achieve in a CRPG and that's what I'm most impressed by in Baldur's Gate 3.
 
 # Sifu
 
