@@ -10,21 +10,25 @@ draft: true
 
 {{< steam 2477090 >}}
 
-Small indie game that packs a lot of punch, challenging and fun and very replayable.
+Indie puzzle platformer roguelite that packs a lot of punch, is challenging, fun and replayable.
 
 # Jagged Alliance 3
 
 {{< steam 1084160 >}}
 
-Does what it says on the tin. A worthy modern successor to the old JA games.
+A worthy modernized successor to the old Jagged Alliance games.
 
-Great strategic and tactical gameplay that provides fun challenges that can be solved in a variety of ways for dozens of hours
+Great strategic and tactical gameplay that provides fun challenges that can be solved in a variety of ways for dozens of hours.
+
+I played through the game twice and I can see myself coming back to it with different mercenaries.
 
 # Hitman
 
 {{< steam 1659040 >}}
 
-I played all the missions, I played a ton of the roguelike mode. Good shit.
+I played through all of the missions which I've never done before. I played a ton of the new roguelite mode.
+
+Hitman (2016) is the gift that keeps on giving. 
 
 # Fear and Hunger 1 and 2
 
@@ -32,7 +36,9 @@ I played all the missions, I played a ton of the roguelike mode. Good shit.
 
 {{< steam 2171440 >}}
 
-An experience.
+An experience like no other. It's hard to recommend an extremely weird run-based (?) Finish RPG maker game with a ton of extreme gore, violence and heinous content. 
+
+BUT I had an interesting time with the Fear and Hunger series. If you're curious, just play the second game.
 
 # Madcap Mosaic
 
