@@ -1,18 +1,16 @@
 ---
 authors:
-  - Becky Chambers
+- Sophus Helle
 books/tags:
-  - currently-reading
-  - fiction
-  - science-fiction
+- currently-reading
+- fiction
 date: 2024-07-03
 params:
-  isbn13: "9780062444134"
-  series: "The Wayfarers"
-  series_order: "1"
-  year: "2016"
-title: The Long Way To A Small, Angry Planet
+  isbn13: '9780300268096'
+  year: '2022'
+title: Gilgamesh - A New Translation Of The Ancient Epic
 weight: 1
 ---
+
 
 <!--more-->
