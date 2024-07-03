@@ -4,27 +4,34 @@ date: 2024-07-01
 blog/tags:
   - gaming
 summary: "A list of games I played and enjoyed most in 2023."
-draft: true
 ---
+
+I'm a little late to the party, posting my 2023 GOTY list in July 2024 but... Better late than never.
+
+
 # Mosa Lina
 
 {{< steam 2477090 >}}
 
-Small indie game that packs a lot of punch, challenging and fun and very replayable.
+Indie puzzle platformer roguelite that packs a lot of punch, is challenging, fun and replayable.
 
 # Jagged Alliance 3
 
 {{< steam 1084160 >}}
 
-Does what it says on the tin. A worthy modern successor to the old JA games.
+A worthy modernized successor to the old Jagged Alliance games.
 
-Great strategic and tactical gameplay that provides fun challenges that can be solved in a variety of ways for dozens of hours
+Great strategic and tactical gameplay that provides fun challenges that can be solved in a variety of ways for dozens of hours.
+
+I played through the game twice and I can see myself coming back to it with different mercenaries.
 
 # Hitman
 
 {{< steam 1659040 >}}
 
-I played all the missions, I played a ton of the roguelike mode. Good shit.
+I played through all of the missions which I've never done before. I played a ton of the new roguelite mode.
+
+Hitman (2016) is the gift that keeps on giving. 
 
 # Fear and Hunger 1 and 2
 
@@ -32,25 +39,31 @@ I played all the missions, I played a ton of the roguelike mode. Good shit.
 
 {{< steam 2171440 >}}
 
-An experience.
+An experience like no other. It's hard to recommend an extremely weird run-based (?) Finish RPG maker game with a ton of extreme gore, violence and heinous content. 
+
+BUT I had an interesting time with the Fear and Hunger series. If you're curious, I recommend starting with the second game and if you're really into it, go back and play the first game.
 
 # Madcap Mosaic
 
 {{< steam 1964330 >}}
 
-A cool ASS roguelike.
+A cool ASS roguelike deckbuilder where you don't draw cards from your deck. At the start of every encounter, The cards are placed randomly in a grid and you walk over cards, revealing them and activating their effects.
 
-# Heavenly bodies DLC
+It's weird and unique and I like that. 
+
+# Heavenly Bodies DLC
 
 {{< steam 2391340 >}}
 
-It's just great, there's no denying that.
+Heavenly Bodies is a great physics movement/platforming game and this DLC is bigger and better Heavenly Bodies. What more can you ask for?
 
 # Baldur's Gate 3
 
 {{< steam 1086940 >}}
 
-A good ass CRPG. I wasn't as blown away by it as most, especially regarding the overarching narrative which I find to be a little uninteresting and negatively influenced all of the character interactions, but the game mechanics were solid and combat encounters were fun.
+A good ass CRPG. I wasn't as blown away by it as most were. The story makes a lot of concessions because of how interactive it is and my story wasn't told very well and wasn't too interesting even though I had a few interesting decisions I was able to make throughout. 
+
+But the CRPG mechanics are solid and the combat encounters usually felt fun and well balanced. That's REALLY hard to achieve in a CRPG and that's what I'm most impressed by in Baldur's Gate 3.
 
 # Sifu
 
@@ -73,3 +86,7 @@ The game sort of just ends in a really anticlimactic way, unless you go for the 
 Trials Metroidvania game with amazing music, art, everything? Sign me up.
 
 I had such a deflating ending I felt like I either ran into some sort of bug but the journey was a joy.
+
+# The End
+
+2023 was a good year for games.
