@@ -2,8 +2,10 @@
 authors:
   - Becky Chambers
 books/tags:
-  - owned-but-unread
-date: 1800-01-15
+  - currently-reading
+  - fiction
+  - science-fiction
+date: 2024-07-03
 params:
   isbn13: "9780062444134"
   series: "The Wayfarers"
