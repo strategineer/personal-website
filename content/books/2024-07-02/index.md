@@ -32,8 +32,7 @@ Becky Chambers' space opera following the scrappy and loveable crew of the Wayfa
 
 "You've seen me naked before," Sissix said. "You've probably seen a lot of Aandrisks naked before."
 
-"Yes, but . . . Sissix, the flexibility on this guy, holy shit—" She stuck her hand toward a bowl of vegetables. Dr. Chef smacked her wrist with a spatula without even
-glancing her way.
+"Yes, but . . . Sissix, the flexibility on this guy, holy shit—" She stuck her hand toward a bowl of vegetables. Dr. Chef smacked her wrist with a spatula without even glancing her way.
 
 Sissix sighed. "What's the name of this vid?"
 
@@ -44,7 +43,7 @@ Sissix sighed. "What's the name of this vid?"
 "Hey, I'm polite," Jenks said. "I didn't even mention Prison Planet 7."
 {{< /quote >}}
 
-I picked this book up after being disappointed with [John Scalzi's The Kaiju Preservation Society](/books/9780765389121/). It's a boring novel but the way John Scalzi fumbles his handling "woke" themes / inclusion for clout's sake is pathetic.
+I picked this book up after being disappointed with [John Scalzi's The Kaiju Preservation Society](/books/9780765389121/). It's a boring novel but the way John Scalzi fumbles his handling of "woke" themes is pathetic.
 
 Having read [The Galaxy, and the Ground Within by Becky Chambers](/books/9781473647688/) last year and having enjoyed it, I knew that she was interested in and skilled at telling empathetic stories about diverse people, each of them being unique, special in their own way and, most importantly, deserving of love. She tells hopeful stories without shying away from "real" issues that don't have easy solutions which makes the happy moments feel more earned.
 
