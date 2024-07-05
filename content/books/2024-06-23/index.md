@@ -128,9 +128,9 @@ as were the heights of Cecrops and Amphion.
 
 Sparta is cheap soil, tall Mycenae fallen.
 
-What but a name is Oedipus’ Thebes?
+What but a name is Oedipus' Thebes?
 
-And what is Pandion’s Athens but a name? {{< /quote >}}
+And what is Pandion's Athens but a name? {{< /quote >}}
 
 Epilogue in Book 15 is a fantastic way for Ovid to conclude his collection of poems. His work has immortalized him and, despite it being long gone, the influence of the Roman Empire on our modern world is undeniable.
 
