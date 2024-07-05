@@ -22,26 +22,38 @@ Becky Chambers' space opera following the scrappy and loveable crew of the Wayfa
 
 {{< series >}}
 
-WOW.
+{{< quote 43 >}}
 
-Incredible.
+"Sissix!" Kizzy cried, entering the room. "I need to talk to you about this super-scandalous sexy vid I saw today."
 
-I picked this book up after being really disappointed with [John Scalzi's The Kaiju Preservation Society](/books/9780765389121/). It's a meh novel but its poor handling of "woke" themes is particularly pathetic.
+[...]
 
-Having read [The Galaxy, and the Ground Within](/books/9781473647688/) by Becky Chambers last year and having really enjoyed it, I knew that she was interested in and skilled at telling empathetic stories about diverse people, unique and deserving of love. She tells hopeful and happy stories without shying away from "real" issues which everything in a world that I can believe in.
+"It was a multispecies vid, and I now have a bucketful of questions about Aandrisk anatomy."
 
-And yes, I made a great choice. The Long Way To A Small, Angry Planet is a fantastic novel with characters that are so alive and believable that they might as well be leaping off the page.
+"You've seen me naked before," Sissix said. "You've probably seen a lot of Aandrisks naked before."
 
-As soon as each character was introduced, I was so invested in their lives and their relationships with each other.
+"Yes, but . . . Sissix, the flexibility on this guy, holy shit—" She stuck her hand toward a bowl of vegetables. Dr. Chef smacked her wrist with a spatula without even
+glancing her way.
 
-Becky Chambers excels at depicting characters, human and nonhuman alike, in a way that makes it impossible to not empathize with them. And, in doing so, she's able to create a variety of situations, from the mundane to the exciting, involving her characters and, either way, I'm at the edge of my seat.
+Sissix sighed. "What's the name of this vid?"
 
-I see aspects of myself in most of Becky Chambers's characters because they're so vibrant and fully fleshed out.
+"Prison Planet 6: The Zero-G Spot."
 
-Her characters are so good, they drive the entire novel. Sure, there's a plot but the characters are at the forefront of everything that happens. The characters are the frame through which we see the entire universe of the novel and I love it.
+"Aaand, we're done," Ashby said. "Honestly, would one day of being polite have killed you?"
+
+"Hey, I'm polite," Jenks said. "I didn't even mention Prison Planet 7."
+{{< /quote >}}
+
+I picked this book up after being really disappointed with [John Scalzi's The Kaiju Preservation Society](/books/9780765389121/). It's just a profoundly mid novel but its poor handling of "woke" themes is particularly pathetic.
+
+Having read [The Galaxy, and the Ground Within by Becky Chambers](/books/9781473647688/) last year and having really enjoyed it, I knew that she was interested in and skilled at telling empathetic stories about diverse people, each of them being unique, special in their own way and deserving of love. She tells hopeful stories without shying away from "real" issues which makes the happy moments feel more earned. This is the kind of story I was looking to read and Becky Chambers nailed it.
+
+The Long Way To A Small, Angry Planet is filled with characters that are so alive and believable. Becky Chambers excels at depicting characters, human and nonhuman alike, in a way that makes it impossible to not empathize with them. And, in doing so, she's able to put her characters in a variety of situations, from the mundane to the exciting and tense, and no matter what the stakes are, I'm at the edge of my seat.
+
+Sure, there's a galactic federation and universe-spanning political stuff happening. But none of that matters until the moment it impacts the characters's lives (it does because the societies we live in/under impact everyone's life whether you like it or not). The characters are the frame through which we see the entire universe of the novel and I love it because Becky Chambers's characters are so vibrant and easy to love.
 
 Nothing happens in a vacuum (hehe).
 
-This hyper focus on character is fantastic to read and you'd think more authors (*cough* John Scalzi *cough*) would be interested in writing this sort of character focused story if they could.  But I don't think it's that easy even though Becky Chambers makes it seem so.
+This hyper focus on character is fantastic to read because Becky Chambers is so good at. I'd think that more authors (*cough* John Scalzi *cough*) would be interested in writing this klnd of character-centric story if they could. But I don't think it's that easy even though Becky Chambers makes it look like it is.
 
 I'm dead set on reading more of Becky Chambers's work and you can expect me to do so sooner rather than later.
