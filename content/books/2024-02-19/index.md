@@ -24,4 +24,4 @@ If you've got the right group, this would make for a great book club book.
 
 {{< series >}}
 
-Check out [my thoughts on the first two novels here](/books/2024-02-11/).
+Check out [my thoughts on the first two novels here](/books/9781250781253/).

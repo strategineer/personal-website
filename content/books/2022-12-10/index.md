@@ -18,7 +18,7 @@ A cool guy devil and a flamboyantly effeminate angel living on Earth try to stop
 
 <!--more-->
 
-On the heels of reading [the Colour of Magic](/books/2022-11-28/) and enjoying it a lot I decided to read Good Omens. I've read a lot of Neil Gaiman and I've enjoyed most of his work so I decided that it was about time I read this book.
+On the heels of reading [the Colour of Magic](/books/9781804990315/) and enjoying it a lot I decided to read Good Omens. I've read a lot of Neil Gaiman and I've enjoyed most of his work so I decided that it was about time I read this book.
 
 As I started reading, I realized that I had tried to read this book probably over a decade ago and dropped it (I don't remember why).
 

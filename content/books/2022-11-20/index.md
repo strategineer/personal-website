@@ -21,7 +21,7 @@ Aliens on Earth in the early/mid 2000s and everything that follows from that. Se
 
 {{< series >}}
 
-This is a sequel to [Axiom's End](/books/2022-11-12/). Not much to say about it.
+This is a sequel to [Axiom's End](/books/9781250798138/). Not much to say about it.
 
 I probably should have written more notes about this novel while I was reading it. It's been about a month and a half now and I've forgotten a lot...
 

@@ -23,4 +23,4 @@ It's a textbook meant to be read and discussed in the classroom but I enjoyed re
 
 Compared to a few other psychology texts that I've read, the writing was concise and to the point. It mostly avoided repeating itself which I appreciated.
 
-I quite enjoyed Nick Riggle's chapter on food as art because [I'm a fan of Nick Riggle's work](/books/2022-08-19/) and I'm also passionate about food.
+I quite enjoyed Nick Riggle's chapter on food as art because [I'm a fan of Nick Riggle's work](/books/9780143130901/) and I'm also passionate about food.

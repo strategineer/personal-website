@@ -23,4 +23,4 @@ What could have been just "another one of those" is greatly elevated by the Adri
 
 {{< series >}}
 
-Check out my more extensive [thoughts on the second novel in the series here](/books/2023-11-05/).
+Check out my more extensive [thoughts on the second novel in the series here](/books/9781529051940/).

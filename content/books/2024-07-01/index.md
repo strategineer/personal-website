@@ -17,7 +17,7 @@ The Kaiju Preservation Society is John Scalzi's attempt at writing a Jurassic Pa
 
 <!--more-->
 
-Reading through it was a chore and I don't recommend it. The novel reeks of being written as quickly as Scalzi could after his previous project fell through. I like what I've read of Scalzi's The Interdependency series so far ([thoughts on book 1](/books/2023-08-06/), [thoughts on book 2](/books/2023-09-20/)) and I like his other work I've read like Redshirts and Old Man's War (although I read those a long time ago).
+Reading through it was a chore and I don't recommend it. The novel reeks of being written as quickly as Scalzi could after his previous project fell through. I like what I've read of Scalzi's The Interdependency series so far ([thoughts on book 1](/books/9780765388889/), [thoughts on book 2](/books/9780765388971/)) and I like his other work I've read like Redshirts and Old Man's War (although I read those a long time ago).
 
 The Kaiju Preservation Society is not his best work. I wasn't in a great headspace when I started reading this book and reading through it hasn't helped (although I hoped it would).
 
