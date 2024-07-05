@@ -32,12 +32,12 @@ While the players are doing the following steps, the GM should generate the jobs
 - Upload the sheet to discord and give it to another player, they'll play be playing the character you generated.
 
 # Tutorial
+
 PCs begin play:
 
 **You find yourself in a dark instructional video viewing room. You're strapped in to your seats and your eyelids are being pulled back by some sort of device with their eyelids watching a series of instructional videos telling them some of what they need to know to succeed at being troubleshooter.**
 
-{{< quote >}}
-Welcome troubleshooters to your first day troubleshootings. You find yourselves in the Alpha Complex. It's something like Portal's Aperture Science Facility but instead of an underground facility for just doing science, it's supposed to be a completely enclosed ecosystem/world.
+{{< quote >}} Welcome troubleshooters to your first day troubleshootings. You find yourselves in the Alpha Complex. It's something like Portal's Aperture Science Facility but instead of an underground facility for just doing science, it's supposed to be a completely enclosed ecosystem/world.
 
 The facility is managed by an all-seeing Computer (The Computer), think Glados but more british.
 
@@ -71,18 +71,18 @@ Players enter through the Main lobby at 4.
 
 ### Solutions
 
-- Kill the humans and let the cockroaches take over the factory (they can extrete soy sauce from their bodies OR they can turn the humans into vinegar). 
+- Kill the humans and let the cockroaches take over the factory (they can extrete soy sauce from their bodies OR they can turn the humans into vinegar).
 - Re-Subjugate the cockroaches, killing any who refuse to work, under the human management.
 
 ### NPCs
 
-- The Secretary - Ingrid: very old, extremely tired. She acts as though everything is business as usual in the factory,  she's aware of a commotion but not of any details: "The big wigs never tell me anything!".
+- The Secretary - Ingrid: very old, extremely tired. She acts as though everything is business as usual in the factory, she's aware of a commotion but not of any details: "The big wigs never tell me anything!".
 - The Worker - John: young, excited to be alive. He was assigned a later shift today and is getting ready to start his day. He's blissfully unaware of any issues in the factory.
 - The Janitor - Ahti: nordic, weird, talks with a thick accent. Says absolute nonsense and is always moping the floor.
 - The Manager - Bob: balding, white, upper management vibes, likes to tell people what to do, shitting his pants. Locked in the factory's secret recipe vault, with cockroaches trying to get in there.
 - Che Gueroacha: beret wearing leader of the giant cockroaches, wanders through the factory.
 - Jenny - The Mysterious Stranger: grey (illegal) old troubleshooter who's come to support the cockroaches with their revolution. The Computer is blind to her due to a piece of a equipment she carries.
-- iClean Unit 123ABC - A giant roomba with various cleaning appendages tasked with cleaning the factory under normal circumstances. Compulsively cleans from room to room, to converse with it the group will need to follow it. 
+- iClean Unit 123ABC - A giant roomba with various cleaning appendages tasked with cleaning the factory under normal circumstances. Compulsively cleans from room to room, to converse with it the group will need to follow it.
 
 ### Map
 
@@ -90,27 +90,26 @@ Players enter through the Main lobby at 4.
 
 This map represents the walkable floor area of the factory but conveyors and walkways allow for soy sauce and raw materials throughout the factory.
 
-1. Security Checkpoint: Goods move between the Loading Bay (5) and the Main Processing Area (2) through here. Empty. 
-2. Main Processing Area: Floor is thick with brown liquid, broken down robots and dead workers. A single iClean unit remains, although heavily damaged. As well as a trio of revolutionary cockroaches. 
+1. Security Checkpoint: Goods move between the Loading Bay (5) and the Main Processing Area (2) through here. Empty.
+2. Main Processing Area: Floor is thick with brown liquid, broken down robots and dead workers. A single iClean unit remains, although heavily damaged. As well as a trio of revolutionary cockroaches.
 3. Janitor's Office: The Janitor Ahti is here. He's sweeping the floor, he knows everything there is to know about everything but communicates it terribly.
 4. Entrance - Main lobby: The Secretary Ingrid greets the troubleshooters with: "If you're here for our Alpha Complex famous guest tours of the factory, I'm sorry to inform you that we're not doing those anymore. How can I help you?"
 5. Loading Bay: Raw materials are brought into the factory here and finished product is sent out. Some human workers are fighting off red beret-wearing Che Gueroacha and his revolutionaries.
-6. Offices: Desks, chairs and computers with dividers between them all. A mess. 
+6. Offices: Desks, chairs and computers with dividers between them all. A mess.
 7. Worker Locker Room: The Worker John is here. The locker room is clean and doesn't betray the fact that the factory is kind of fucked up right now. If the troubleshooters loot the lockers, that's theft.
 8. Break Room: Zezeticktick is here. Hot brown liquid dispensing room. Zeze is a species traitor is wearing business casual attire and trying to get some hot brown liquid inside him however the machine is empty.
 9. Janitor's Recharging Zone: Sounds can be heard coming from within this room. An iClean robot is recharging its batteries after a long "cleaning" session (blood and guts and soy sauce is all over it).
-10. Secret Recipe Factory Vault (Locked): The Manager Bob (balding) has locked himself in there and can't get out. A small group of giant cockroaches are trying to get in the door. 
-11. Entertainment Room: A glass (bulletproof) square case filled with prizes with a lever on the outside and a mechanical claw on the inside. Needs special coins (SoyCoins) to operate, human factory workers have them. 
+10. Secret Recipe Factory Vault (Locked): The Manager Bob (balding) has locked himself in there and can't get out. A small group of giant cockroaches are trying to get in the door.
+11. Entertainment Room: A glass (bulletproof) square case filled with prizes with a lever on the outside and a mechanical claw on the inside. Needs special coins (SoyCoins) to operate, human factory workers have them.
 12. Shower Room: Troubleshooters need to stay clean.
 
-
-
 ## Extra Ideas
+
 - Bug infestation in the soy sauce factory, the bugs bleed soy sauce? Actually it's a revolt by the bugs who are tired of being squeezed for their juice.
 - Which leads the troubleshooters to the nearest laundromat
-- Sentient laundry machine tries to launder people. 
+- Sentient laundry machine tries to launder people.
 - Which leads the troubleshooters on a goose chase all over the city to find previously non sentient machines becoming sentient and filled with rage
-- A particular brand of companion robot all across the alpha complex needs to be recalled,  they won't come willingly. Glojob123, fluorescent sex robots that do everything to advertise their services (NB: They kill their clients).
+- A particular brand of companion robot all across the alpha complex needs to be recalled, they won't come willingly. Glojob123, fluorescent sex robots that do everything to advertise their services (NB: They kill their clients).
 
 # Mixitup / Random Encounter Table
 
@@ -132,16 +131,17 @@ This map represents the walkable floor area of the factory but conveyors and wal
 
 # Tools
 
-Ordered from a catalog before the mission,  troubleshooters can't read,  everything is shown using hieroglyphics
+Ordered from a catalog before the mission, troubleshooters can't read, everything is shown using hieroglyphics
 
 {{< rpg_table name="Tool" >}}
 
 | Tool | Notes |
-| - | - |
+| --- | --- |
 | universal translator | (accelerates you along an axis of your choosing using your thoughts), a helmet with microphone and earpiece with a button on top. |
 | Reign/rain maker | (a cylindrical tube with a trigger and iron sights that obliterates anything it shoots including the troubleshooter that fires it) |
 | Soul/Sole crusher | a sledgehammer with a mechanical head. (turns its killed targets into ghosts) |
-| Male/mail delivery service | a little delivery man statue with a lever-esque hand. (drops dead bodies from the sky, )  |
+| Male/mail delivery service | a little delivery man statue with a lever-esque hand. (drops dead bodies from the sky, ) |
+
 {{< /rpg_table >}}
 
 # Mission debriefing

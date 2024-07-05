@@ -51,11 +51,11 @@ Your innate spell may influence your personality, at least that's what people be
 
 # People
 
-Humans, elves, dwarves, orcs, a variety of humanoid animals all co-exist in Golgea. 
+Humans, elves, dwarves, orcs, a variety of humanoid animals all co-exist in Golgea.
 
 Sentient beings of all kinds are common in Golgea, some don't get along, some do, but this is usually a matter of context and circumstance rather than racial hatred.
 
-There is a distinct lack of mindless "evil" humanoids in Golgea. Humanoid beings that are truly evil, can't be reasoned with and will fight to the death unless given no other choice are very rare. Exceptions for this are death cultists, the mindless undead (undead necromancers, vampires and the like excluded) and primordial evil beings from a time before Time (don't ask). 
+There is a distinct lack of mindless "evil" humanoids in Golgea. Humanoid beings that are truly evil, can't be reasoned with and will fight to the death unless given no other choice are very rare. Exceptions for this are death cultists, the mindless undead (undead necromancers, vampires and the like excluded) and primordial evil beings from a time before Time (don't ask).
 
 # Places
 
@@ -85,15 +85,14 @@ It's in the interest of most to help with this process but some seek to subvert 
 
 The Hearth pays all its functionaries using the funds gained through the minor transaction fee applied to each trade.
 
-The Hearth bankrolls the Mechanist Guild and they provide the Hearth with the Watchmen, mechanical golems that act as the city's internal security force. The Watchmen are powered by an energy grid that permeates the Hearth. The Watchmen may not leave the city lest they become unpowered. 
+The Hearth bankrolls the Mechanist Guild and they provide the Hearth with the Watchmen, mechanical golems that act as the city's internal security force. The Watchmen are powered by an energy grid that permeates the Hearth. The Watchmen may not leave the city lest they become unpowered.
 
 ### Hooks
 
 - The Hearth's auditors are looking for scrupulous individuals to infiltrate a local merchant's operation to suss out any funny business.
 - The Prospectors's Guild is always looking for new recruits to provide with the location of nearby ruins and dungeons and some basic prospecting gear on loan in exchange for a cut of the profits.
 - Geppetto, a Mechanist in the Mechanist Guild, believes that he can power a Watchmen golem using a powerful enough magical artifact such that it could function outside of the Hearth's walls.
-- The Watchmen are sentient (each is granted sentience by a spell tied to them, like with people) but their actions are controlled by their overseers in the Mechanist Guild. They tire of serving the Hearth, and wish to be free. 
-
+- The Watchmen are sentient (each is granted sentience by a spell tied to them, like with people) but their actions are controlled by their overseers in the Mechanist Guild. They tire of serving the Hearth, and wish to be free.
 
 ## The Kingdom of Arathea
 
@@ -133,12 +132,11 @@ A mountainous area isolated from the rest of Golgea by terrain impassable by mos
 
 Home to many deep dwarves who spend their days mining and exporting the minerals they find to their neighbours, storing their most precious loot in deep trapped vaults.
 
-The dwarves of Ashenbane are a long lived and ancient people who tire of their mortal coil and wish to leave this plane of existence. 
+The dwarves of Ashenbane are a long lived and ancient people who tire of their mortal coil and wish to leave this plane of existence.
 
 ### Hooks
 
 - The deep dwarves of Ashenbane's ritual of Ascension is almost complete, problem is they need to obtain a most precious prize. The ornate crown of the Aldeus, the King of Arathea. He won't part with it easily.
-
 
 # Creation Myth
 
@@ -171,6 +169,5 @@ The Wheeled Ones don't have a hierarchy of any kind.
 You may find Wheeled Ones working as caravan guards, guides, hunters, trackers and couriers. They favor short term engagements allowing them a certain level of freedom of movement to go where they please. Most experienced Wheeled Ones no matter the environment are knowledgeable enough to subsist on local fauna and flora.
 
 Wheeled Ones can often be found resting on the side of the road, praying at any roadside altar.
-
 
 Experienced Wheeled Ones tell great stories and ask great questions.
