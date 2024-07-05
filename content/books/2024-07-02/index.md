@@ -27,7 +27,7 @@ Incredible.
 
 I picked this book up after being really disappointed with [John Scalzi's The Kaiju Preservation Society](/books/2024-07-01/). It's a meh novel but its poor handling of "woke" themes is particularly pathetic.
 
-Having read [The Galaxy, and the Ground Within](/books/2023-06-21/) by Becky Chambers last year and having really enjoyed it, I knew that she was interested in and skilled at telling empathetic stories about diverse people, unique and deserving of love, at least understanding, anyway.
+Having read [The Galaxy, and the Ground Within](/books/2023-06-21/) by Becky Chambers last year and having really enjoyed it, I knew that she was interested in and skilled at telling empathetic stories about diverse people, unique and deserving of love. She tells hopeful and happy stories without shying away from "real" issues which everything in a world that I can believe in.
 
 And yes, I made a great choice. The Long Way To A Small, Angry Planet is a fantastic novel with characters that are so alive and believable that they might as well be leaping off the page.
 
