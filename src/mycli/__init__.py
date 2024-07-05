@@ -104,8 +104,8 @@ def write_delta_csv_from_old_and_new_source_of_truths(
     return True
 
 
-def convert_filename_to_url(filename):
-    return str(Path(filename[len("content") :]).parent.as_posix()) + "/"
+def convert_post_to_url(post):
+    return f"/books/{post.metadata['slug']}/"
 
 
 def convert_post_to_star_rating(filename, post):
@@ -121,7 +121,7 @@ def convert_post_to_star_rating(filename, post):
         if reading_time_in_minutes > 0
         else ""
     )
-    return f"{book_number_prefix}: [{post.metadata['title']}{reading_time_asterixes}]({convert_filename_to_url(filename)}) {star_rating}"
+    return f"{book_number_prefix}: [{post.metadata['title']}{reading_time_asterixes}]({convert_post_to_url(post)}) {star_rating}"
 
 
 def convert_to_goodreads_review_format(series_posts, content, filename):
