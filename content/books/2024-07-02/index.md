@@ -44,11 +44,25 @@ Sissix sighed. "What's the name of this vid?"
 "Hey, I'm polite," Jenks said. "I didn't even mention Prison Planet 7."
 {{< /quote >}}
 
-I picked this book up after being really disappointed with [John Scalzi's The Kaiju Preservation Society](/books/9780765389121/). It's just a profoundly mid novel but its poor handling of "woke" themes is particularly pathetic.
+I picked this book up after being disappointed with [John Scalzi's The Kaiju Preservation Society](/books/9780765389121/). It's a boring novel but the way John Scalzi fumbles his handling "woke" themes / inclusion for clout's sake is pathetic.
 
-Having read [The Galaxy, and the Ground Within by Becky Chambers](/books/9781473647688/) last year and having really enjoyed it, I knew that she was interested in and skilled at telling empathetic stories about diverse people, each of them being unique, special in their own way and deserving of love. Her niche seems to be "found family" sci-fi and she's great at writing this kind of story. She tells hopeful stories without shying away from "real" issues which makes the happy moments feel more earned. This is the kind of story I was looking to read and Becky Chambers nailed it.
+Having read [The Galaxy, and the Ground Within by Becky Chambers](/books/9781473647688/) last year and having enjoyed it, I knew that she was interested in and skilled at telling empathetic stories about diverse people, each of them being unique, special in their own way and, most importantly, deserving of love. She tells hopeful stories without shying away from "real" issues that don't have easy solutions which makes the happy moments feel more earned.
 
-The Long Way To A Small, Angry Planet is filled with characters that are so alive and believable. Becky Chambers excels at depicting characters, human and nonhuman alike, in a way that makes it impossible to not empathize with them. And, in doing so, she's able to put her characters in a variety of situations, from the mundane to the exciting and tense, and no matter what the stakes are, I'm at the edge of my seat.
+This is the kind of story I was looking to read and Becky Chambers nailed it. She excels at depicting characters, human and nonhuman alike, in a way that makes it impossible to not empathize with them. And, by doing so, she's able to put her characters in a variety of situations, from the mundane to the exciting and tense, and no matter what the stakes are, I consistently found myself at the edge of my seat with my heart and soul laid bare, ready to feel and interpret the emotional beats that Becky Chambers was laying down.
+
+{{< quote 108 >}}
+"Thank you," Ashby said, though the AI was still speaking. He led the crew away from the booth. Jenks remained behind.
+
+The AI continued on, unfazed by the departure of its audience. "Location indicators come in models fit for all species, and can provide alerts in a variety of sensory inputs, such as smell, taste, sound, dermal stimulation, neural stimulation—"
+
+"Is Jenks coming?" Rosemary asked.
+
+"Jenks always waits until the end of the speech," Kizzy said with a fond smile. "Just to be polite."
+
+Rosemary looked back to the jittery AI. "That's not a sentient model, is it?"
+
+"I don't think so," said Ashby. "But try telling Jenks that. He always gives AIs the benefit of the doubt."
+{{< /quote >}}
 
 Sure, there's a galactic federation and universe-spanning political stuff happening. But none of that matters until the moment it impacts the characters's lives (Nothing happens in a vacuum hehe). The characters are the frame through which we see the entire universe of the novel and I love it because Becky Chambers's characters are so vibrant and easy to love.
 
