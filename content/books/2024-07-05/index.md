@@ -4,7 +4,7 @@ authors:
 books/tags:
   - currently-reading
   - fantasy
-date: 1800-01-25
+date: 2024-07-05
 params:
   isbn13: '9780451454539'
   year: '1995'
