@@ -20,6 +20,8 @@ As the characters learned about each other and gradually opened up about themsel
 
 <!--more-->
 
+{{< series >}}
+
 I've seen complaints about the book not having a plot that propulses the characters forward. Although that's mostly true, I don't think this book needs one.
 
 This is a story about people, it focuses on them and their evolving relationships with one another, finding common ground despite their differences. That's more than enough to keep someone enraptured for however long it takes them to read the book (I know I was).

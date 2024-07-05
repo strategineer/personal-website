@@ -19,6 +19,8 @@ Becky Chambers' space opera following the scrappy and loveable crew of the Wayfa
 
 <!--more-->
 
+{{< series >}}
+
 WOW. 
 
 Incredible.

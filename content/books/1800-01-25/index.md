@@ -1,8 +1,9 @@
 ---
 authors:
-- Mary Gentle
+  - Mary Gentle
 books/tags:
-- owned-but-unread
+  - currently-reading
+  - fantasy
 date: 1800-01-25
 params:
   isbn13: '9780451454539'

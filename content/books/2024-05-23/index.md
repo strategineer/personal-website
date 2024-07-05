@@ -19,6 +19,8 @@ That's Bear Head.
 
 <!--more-->
 
+{{< series >}}
+
 A standalone-ish sequel to Dogs of War. Taking place a few decades after the events of the first book, the world has begun to turn its back on Bioforms and Distributed Intelligences leaving Honey, HumOS and our lovable lawyer Aslan (also, Bees kind of) in the middle of all of it.
 
 Walter S. Thompson (AKA SuperTrump), and his PA Springer, is using his power to put chips into people's brains to get them to comply with his will.

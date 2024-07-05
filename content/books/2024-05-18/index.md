@@ -20,7 +20,7 @@ Another Iain Banks banger. If you're interested in getting into his Culture seri
 
 <!--more-->
 
----
+{{< series >}}
 
 {{< quote >}}
 'Did you meet Yay this morning?' Chamlis asked Gurgeh. He nodded. 'She had me dressed up in a suit, toting a gun and shooting at toy missiles which "explosively dismantled" themselves.'

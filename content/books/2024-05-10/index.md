@@ -23,6 +23,8 @@ Iain Banks POV:
 
 <!--more-->
 
+{{< series >}}
+
 **He had to convince them. He had to have them on his side. There was no other way he could carry out his mission, and he had come too far, done too much, killed too many people, sunk too much of his own purpose and determination into the task, to back out now. He had to track the Mind down, he had to go down into the Command System, Idirans or no Idirans, and he had to have the rest of [them] with him.**
 
 A long time ago in a galaxy without any post-scarcity societies managed by hyper-intelligent AIs (to my knowledge), I read Consider Phlebas once, liked it a lot but, at the time, I wasn't aware that it was part of a larger series so I didn't seek the other books out.
