@@ -44,14 +44,16 @@ taxonomies:
   "author": "authors"
 
 permalinks:
-  posts: /:section/:year-:month-:day
-  "blog post": /blog/tags/:slug/
-  "review": /reviews/tags/:slug/
-  "cocktail": /cocktails/tags/:slug/
-  "recipe": /food/tags/:slug/
-  "project": /projects/tags/:slug/
-  "book": /books/tags/:slug/
-  "author": /authors/:slug/
+  page:
+    "posts": /:section/:year-:month-:day
+    "books": /books/:slug
+    "blog post": /blog/tags/:slug/
+    "review": /reviews/tags/:slug/
+    "cocktail": /cocktails/tags/:slug/
+    "recipe": /food/tags/:slug/
+    "project": /projects/tags/:slug/
+    "book": /books/tags/:slug/
+    "author": /authors/:slug/
 
 imaging:
   quality: 90
