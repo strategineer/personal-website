@@ -9,6 +9,7 @@ date: 2022-09-16
 params:
   isbn13: "9780956428103"
   year: "2009"
+slug: "9780956428103"
 star_rating: 1
 title: 9 Out Of 10 Climbers Make The Same Mistakes
 ---

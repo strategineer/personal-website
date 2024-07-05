@@ -9,6 +9,7 @@ date: 2023-10-26
 params:
   isbn13: "9780060892999"
   year: "2006"
+slug: "9780060892999"
 star_rating: 0
 title: A Canticle For Leibowitz
 ---

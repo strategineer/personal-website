@@ -8,6 +8,7 @@ date: 2023-05-30
 params:
   isbn13: "9781526622433"
   year: "2021"
+slug: "9781526622433"
 star_rating: 5
 title: Piranesi
 ---

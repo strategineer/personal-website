@@ -11,6 +11,7 @@ params:
   series: Children of Time
   series_order: "1"
   year: "2016"
+slug: "9781447273301"
 star_rating: 5
 title: Children Of Time
 ---

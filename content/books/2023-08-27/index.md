@@ -8,6 +8,7 @@ date: 2023-08-27
 params:
   isbn13: "9780374154110"
   year: "2020"
+slug: "9780374154110"
 star_rating: 1
 title: Feline Philosophy - Cats And The Meaning Of Life
 ---

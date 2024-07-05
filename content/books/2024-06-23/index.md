@@ -9,8 +9,9 @@ date: 2024-06-23
 params:
   isbn13: "9780143134237"
   year: "2023"
-title: Metamorphoses
+slug: "9780143134237"
 star_rating: 4
+title: Metamorphoses
 ---
 
 A loosely related sequence of epic poems about transformation(s) inspired by Greek mythology written by Ovid more than two thousand years ago, translated by Stephanie McCarter in 2022.
@@ -27,8 +28,7 @@ Not all of Ovid's poetry is created equal. There's a lot of interesting poems he
 
 Iphis and Ianthe in Book 9 is a poem about Iphis, a woman raised as a boy to appease her father's wish for a son, and the woman she falls in love with, Ianthe. This is a more than two thousand year old poem that can be easily interpreted as being about a woman experiencing gender disphoria leading up to her eventual transformation into a man.
 
-{{< quote >}}
-When thirteen years had passed, your father, Iphis,
+{{< quote >}} When thirteen years had passed, your father, Iphis,
 
 betrothed you to the flaxen-haired Ianthe,
 
@@ -44,13 +44,11 @@ from the same teachers. Ever since, love touched
 
 their youthful hearts, dealing them equal wounds.
 
-And yet they have unequal hopes.
-{{< /quote >}}
+And yet they have unequal hopes. {{< /quote >}}
 
 Orpheus and Eurydice in Book 10 is a poem about the bard Orpheus who ventures into the Underworld to find the love of his life, Eurydice, and bring her back to life. Orpheus using his charm and his music convinces the rulers of the Underworld, Hades and Persephone, to let him leave with Eurydice (as long as he can walk all the way back up to the surface without looking at her). His anticipation of seeing her again kills her again as he, inevitably, turns his head to look at her before he's allowed to and because of this she is pulled back down into the Underworld.
 
-{{< quote >}}
-Gods of the Underworld,
+{{< quote >}} Gods of the Underworld,
 
 to which we mortal creatures all must sink:
 
@@ -68,8 +66,7 @@ which poisoned her and stole her tender years.
 
 I wanted to be able to endure it
 
-and won't deny I tried. Love conquered me.
-{{< /quote >}}
+and won't deny I tried. Love conquered me. {{< /quote >}}
 
 And this beautiful poem ends with Orpheus being the biggest pussy magnet alive but not wanting any of it. Instead, he "invents" pederasty. The End.
 
@@ -79,22 +76,19 @@ This poem is fantastic and the ending comes straight out of left field in a way 
 
 Pygmalion and the Ivory Statue in Book 10 is the story of Pygmalion and the ivory statue of a woman he sculpts and, with the help of Venus/Aphrodite, brings to life.
 
-{{< quote >}}
-Pygmalion watched them pass their lives in crime.
+{{< quote >}} Pygmalion watched them pass their lives in crime.
 
 And, outraged by the myriad faults that nature
 
 gave women's minds, he long lived on his own
 
-without a wife and shared his bed with no one.
-{{< /quote >}}
+without a wife and shared his bed with no one. {{< /quote >}}
 
 Pygmalion hates women and for some reason, the goddess of love, brings Pygmalion's statue of a woman to life to be his wife. This myth seems to have been completely made up by Ovid which is interesting because the story of Pygmalion has been remixed and retold in popular culture more than any other story from Greco-Roman mythology I can think of. Pinocchio, Frankenstein, Ex Machina, are all steeped in Pygmalion-ness.
 
 Ajax and Ulysses Contend for Achilles' Armor in Book 13 was great. Ovid's commitment to taking a gigantic work like the Iliad and summarizing select parts of it through a legal battle between Ajax and Odysseus is... Chef's Kiss.
 
-{{< quote >}}
-Grief crushed an uncrushed man. He grabs his sword.
+{{< quote >}} Grief crushed an uncrushed man. He grabs his sword.
 
 "Is this still mine?" he asks. "Or does Ulysses
 
@@ -108,13 +102,11 @@ Let nobody but Ajax conquer Ajax."
 
 He spoke. Into that chest that had not ever
 
-endured a wound he drove his deadly sword.
-{{< /quote >}}
+endured a wound he drove his deadly sword. {{< /quote >}}
 
 Pythagoras in Book 15 is unlike any other poem in the Metamorphoses. It involves Pythagoras going off on a monologue like no other. Talking about anything and everything in an attempt to synthesize all of Ovid's previous poems and perhaps show the reader a glimpse into the future by prophesizing about the fate of the Roman Empire.
 
-{{< quote >}}
-The day will end and Phoebus plunge his panting
+{{< quote >}} The day will end and Phoebus plunge his panting
 
 horses into the deep before I list
 
@@ -138,13 +130,11 @@ Sparta is cheap soil, tall Mycenae fallen.
 
 What but a name is Oedipus’ Thebes?
 
-And what is Pandion’s Athens but a name?
-{{< /quote >}}
+And what is Pandion’s Athens but a name? {{< /quote >}}
 
 Epilogue in Book 15 is a fantastic way for Ovid to conclude his collection of poems. His work has immortalized him and, despite it being long gone, the influence of the Roman Empire on our modern world is undeniable.
 
-{{< quote >}}
-I've made a masterpiece Jove's wrath cannot
+{{< quote >}} I've made a masterpiece Jove's wrath cannot
 
 destroy, nor flame, nor steel, nor gnawing time.
 
@@ -162,8 +152,7 @@ I will be read on people's lips. My fame
 
 will last across the centuries. If poets'
 
-prophecies can hold any truth, I'll live.
-{{< /quote >}}
+prophecies can hold any truth, I'll live. {{< /quote >}}
 
 Is there anything I didn't like about Ovid's Metamorphoses?
 

@@ -8,6 +8,7 @@ date: 2024-02-29
 params:
   isbn13: "9780061671340"
   year: "2010"
+slug: "9780061671340"
 star_rating: 3
 title: The Child Thief - A Novel
 ---

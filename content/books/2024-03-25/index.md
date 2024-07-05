@@ -9,6 +9,7 @@ params:
   dnf: 70%
   isbn13: "9781398834323"
   year: "2023"
+slug: "9781398834323"
 star_rating: 1
 title: Ancient Legends, Mystic Charms And Superstitions Of Ireland
 ---

@@ -7,6 +7,7 @@ date: 1800-05-27
 params:
   isbn13: "9781250174642"
   year: "2019"
+slug: "9781250174642"
 title: Fuzzy Nation
 weight: 1
 ---

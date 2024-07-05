@@ -11,6 +11,7 @@ params:
   series: The Book of the New Sun
   series_order: "2"
   year: "2021"
+slug: "9781250827036"
 star_rating: 5
 title: Sword & Citadel - The Second Half Of The Book Of The New Sun
 ---

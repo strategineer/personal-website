@@ -9,6 +9,7 @@ date: 2022-04-15
 params:
   isbn13: "9780452287440"
   year: "2006"
+slug: "9780452287440"
 star_rating: 1
 title: The Pig That Wants To Be Eaten
 ---

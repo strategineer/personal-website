@@ -9,6 +9,7 @@ date: 2023-09-21
 params:
   isbn13: "9781407172583"
   year: "2016"
+slug: "9781407172583"
 star_rating: 5
 title: Gregor The Overlander
 ---

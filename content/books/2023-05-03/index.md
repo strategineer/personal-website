@@ -8,6 +8,7 @@ date: 2023-05-03
 params:
   isbn13: "9781443428453"
   year: "2015"
+slug: "9781443428453"
 star_rating: 3
 title: "Area X - The Southern Reach Trilogy: Annihilation; Authority; Acceptance"
 ---

@@ -10,8 +10,9 @@ date: 2024-04-30
 params:
   isbn13: "9780593469316"
   year: "2024"
-title: Chain-Gang All-Stars
+slug: "9780593469316"
 star_rating: 5
+title: Chain-Gang All-Stars
 ---
 
 What if you combined:

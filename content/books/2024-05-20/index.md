@@ -7,14 +7,15 @@ books/tags:
 date: 2024-05-20
 params:
   isbn13: "9781786693907"
-  series: "Dogs of War"
+  series: Dogs of War
   series_order: "1"
   year: "2018"
-title: Dogs Of War
+slug: "9781786693907"
 star_rating: 5
+title: Dogs Of War
 ---
 
-Adrian Tchaikovsky strikes again. Human animal hybrids with developing consciousness. Check. Hive mind consciousnesses. Check. Empathy porn.  Check.
+Adrian Tchaikovsky strikes again. Human animal hybrids with developing consciousness. Check. Hive mind consciousnesses. Check. Empathy porn. Check.
 
 I might enjoy Dogs of War more than Children of Time? It's more efficient and covers many of the same themes with many more interesting characters.
 
@@ -33,4 +34,3 @@ Rex's ability to reason, understand morality and the world around him is relativ
 Getting to see this transformation and its impact on the rest of the world from Rex's POV is fantastic. A lot of effort was put into gradually changing Rex's way of thinking throughout the book and having that change be reflected in the prose. It's really well done.
 
 Dogs of War has many characters other than Rex but he's the star of the show. If you like Adrian Tchaikovsky's work, don't miss out on this one.
-

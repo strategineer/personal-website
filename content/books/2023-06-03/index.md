@@ -10,8 +10,9 @@ params:
   series: Children of Time
   series_order: "2"
   year: "2020"
+slug: "9781509865857"
 star_rating: 4
-title: "Children Of Ruin"
+title: Children Of Ruin
 ---
 
 **"We're going on an adventure!"**

@@ -7,6 +7,7 @@ date: 2023-12-27
 params:
   isbn13: "9780316334006"
   year: "2014"
+slug: "9780316334006"
 star_rating: 3
 title: The Inheritance Trilogy
 ---

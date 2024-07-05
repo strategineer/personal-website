@@ -10,6 +10,7 @@ params:
   series: The Murderbot Diaries
   series_order: "2"
   year: "2018"
+slug: "9781250186928"
 star_rating: 3
 title: Artificial Condition
 ---

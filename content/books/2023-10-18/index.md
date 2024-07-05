@@ -7,9 +7,10 @@ books/tags:
 date: 2023-10-18
 params:
   isbn13: "9781250313188"
-  series: "The Locked Tomb"
+  series: The Locked Tomb
   series_order: "1"
   year: "2020"
+slug: "9781250313188"
 star_rating: 4
 title: Gideon The Ninth
 ---

@@ -11,6 +11,7 @@ params:
   series: Teixcalaan
   series_order: "1"
   year: "2019"
+slug: "9781250186430"
 star_rating: 4
 title: A Memory Called Empire
 ---

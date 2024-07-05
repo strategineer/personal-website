@@ -10,6 +10,7 @@ date: 2023-09-13
 params:
   isbn13: "9780735269934"
   year: "2021"
+slug: "9780735269934"
 star_rating: 5
 title: Iron Widow
 ---

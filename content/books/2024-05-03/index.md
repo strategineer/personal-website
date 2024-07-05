@@ -9,8 +9,9 @@ date: 2024-05-03
 params:
   isbn13: "9781399806855"
   year: "2023"
-title: The Autistic Experience - Silenced Voices Finally Heard
+slug: "9781399806855"
 star_rating: 5
+title: The Autistic Experience - Silenced Voices Finally Heard
 ---
 
 **"You're not alone. I hear you. I see you. You're a valid person. Autism is an intrinsic part of you and that's not something to ever be ashamed of.**

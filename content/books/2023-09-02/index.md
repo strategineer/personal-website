@@ -8,6 +8,7 @@ date: 2023-09-02
 params:
   isbn13: "9781538732182"
   year: "2019"
+slug: "9781538732182"
 star_rating: 3
 title: Parable Of The Sower
 ---

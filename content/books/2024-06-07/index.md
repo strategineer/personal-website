@@ -1,15 +1,16 @@
 ---
 authors:
-- Junji Ito
+  - Junji Ito
 books/tags:
-- graphic novel
-- horror
+  - graphic novel
+  - horror
 date: 2024-06-07
 params:
-  isbn13: '9781421590561'
-  year: '2016'
-title: 'Tomie: Complete Deluxe Edition'
+  isbn13: "9781421590561"
+  year: "2016"
+slug: "9781421590561"
 star_rating: 2
+title: "Tomie: Complete Deluxe Edition"
 ---
 
 Juniji Ito's drawing ability vastly surpasses his writing ability. Reading through Tomie has made that abundantly clear to me.

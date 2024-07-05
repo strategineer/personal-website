@@ -8,6 +8,7 @@ date: 2021-09-01
 params:
   isbn13: "9781565847033"
   year: "2002"
+slug: "9781565847033"
 star_rating: 5
 title: Understanding Power - The Indispensable Chomsky
 ---

@@ -8,6 +8,7 @@ date: 2007-12-01
 params:
   isbn13: "9780061234002"
   year: "2006"
+slug: "9780061234002"
 star_rating: 0
 title: Freakonomics
 ---

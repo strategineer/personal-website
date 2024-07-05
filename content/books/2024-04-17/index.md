@@ -8,6 +8,7 @@ date: 2024-04-17
 params:
   isbn13: "9780441478125"
   year: "1987"
+slug: "9780441478125"
 star_rating: 5
 title: The Left Hand Of Darkness
 ---

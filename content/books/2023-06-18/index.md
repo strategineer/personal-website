@@ -10,6 +10,7 @@ params:
   series: Shades of Magic
   series_order: "3"
   year: "2017"
+slug: "9780765387462"
 star_rating: 3
 title: A Conjuring Of Light
 ---

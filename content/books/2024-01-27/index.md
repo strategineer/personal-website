@@ -9,6 +9,7 @@ date: 2024-01-27
 params:
   isbn13: "9781324001805"
   year: "2023"
+slug: "9781324001805"
 star_rating: 4
 title: The Iliad
 ---

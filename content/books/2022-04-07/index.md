@@ -7,6 +7,7 @@ date: 2022-04-07
 params:
   isbn13: "9781483379326"
   year: "2016"
+slug: "9781483379326"
 star_rating: 5
 title: Media Literacy
 ---

@@ -11,6 +11,7 @@ params:
   series: The Interdependency
   series_order: "1"
   year: "2017"
+slug: "9780765388889"
 star_rating: 4
 title: The Collapsing Empire
 ---

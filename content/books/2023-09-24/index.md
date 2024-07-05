@@ -9,6 +9,7 @@ date: 2023-09-24
 params:
   isbn13: "9781665900706"
   year: "2022"
+slug: "9781665900706"
 star_rating: 5
 title: Zachary Ying And The Dragon Emperor
 ---

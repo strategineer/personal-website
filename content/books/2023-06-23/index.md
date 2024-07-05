@@ -12,6 +12,7 @@ params:
   series: Moist Von Lipwig
   series_order: "1"
   year: "2005"
+slug: "9780552149433"
 star_rating: 5
 title: Going Postal
 ---

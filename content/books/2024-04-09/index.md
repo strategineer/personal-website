@@ -7,6 +7,7 @@ date: 2024-04-09
 params:
   isbn13: "9781611807240"
   year: "2019"
+slug: "9781611807240"
 star_rating: 5
 title: "Lao Tzu: Tao Te Ching - A Book About The Way And The Power Of The Way"
 ---

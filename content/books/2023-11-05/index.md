@@ -10,6 +10,7 @@ params:
   series: The Final Architecture
   series_order: "2"
   year: "2022"
+slug: "9781529051940"
 star_rating: 5
 title: Eyes Of The Void
 ---

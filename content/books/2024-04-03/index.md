@@ -10,6 +10,7 @@ date: 2024-04-03
 params:
   isbn13: "9781613743416"
   year: "2012"
+slug: "9781613743416"
 star_rating: 5
 title: Roadside Picnic
 ---

@@ -10,6 +10,7 @@ params:
   series: Children of Time
   series_order: "3"
   year: "2022"
+slug: "9781529087185"
 star_rating: 5
 title: Children Of Memory
 ---

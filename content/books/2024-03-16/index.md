@@ -9,6 +9,7 @@ date: 2024-03-16
 params:
   isbn13: "9780063239920"
   year: "2023"
+slug: "9780063239920"
 star_rating: 5
 title: Maybe Next Time
 ---

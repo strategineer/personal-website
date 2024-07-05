@@ -8,6 +8,7 @@ date: 2022-02-01
 params:
   isbn13: "9780525555216"
   year: "2021"
+slug: "9780525555216"
 star_rating: 1
 title: The Anthropocene Reviewed
 ---

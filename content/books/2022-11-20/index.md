@@ -10,6 +10,7 @@ params:
   series: Noumena
   series_order: "2"
   year: "2022"
+slug: "9781250830227"
 star_rating: 2
 title: Truth Of The Divine
 ---

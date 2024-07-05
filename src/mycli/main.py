@@ -271,6 +271,10 @@ def normalize_dates():
                 )
                 continue
         folder_date = Path(filename).parent.parts[-1]
+        if "slug" not in post.metadata and "params" in post.metadata and "isbn13" in post.metadata["params"]:
+            post.metadata["slug"] = post.metadata["params"]["isbn13"]
+            write_post(post, filename)
+        continue
         if isinstance(post.metadata["date"], str):
             post.metadata["date"] = date.fromisoformat(folder_date)
             write_post(post, filename)

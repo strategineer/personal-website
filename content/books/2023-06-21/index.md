@@ -7,9 +7,10 @@ books/tags:
 date: 2023-06-21
 params:
   isbn13: "9781473647688"
-  series: "The Wayfarers"
+  series: The Wayfarers
   series_order: "4"
   year: "2021"
+slug: "9781473647688"
 star_rating: 4
 title: The Galaxy, And The Ground Within
 ---

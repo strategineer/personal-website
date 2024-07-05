@@ -9,6 +9,7 @@ params:
   series: Villains
   series_order: "1"
   year: "2014"
+slug: "9781783290215"
 star_rating: 3
 title: Vicious
 ---

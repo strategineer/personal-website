@@ -10,8 +10,9 @@ params:
   series: Earthsea
   series_order: "7"
   year: "2018"
-title: "The Books of Earthsea: The Complete Illustrated Edition"
+slug: "9781481465588"
 star_rating: 4
+title: "The Books of Earthsea: The Complete Illustrated Edition"
 ---
 
 These illustrations are kind of whack. All the characters look like little goblins.

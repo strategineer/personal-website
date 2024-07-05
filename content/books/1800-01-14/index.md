@@ -7,6 +7,7 @@ date: 1800-01-14
 params:
   isbn13: "9781250840103"
   year: "2022"
+slug: "9781250840103"
 title: Fifth Head of Cerberus
 weight: 1
 ---

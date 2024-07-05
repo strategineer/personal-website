@@ -7,6 +7,7 @@ date: 2023-09-16
 params:
   isbn13: "9780156010597"
   year: "2001"
+slug: "9780156010597"
 star_rating: 4
 title: All The Names
 ---

@@ -9,6 +9,7 @@ date: 2022-09-14
 params:
   isbn13: "9780190052089"
   year: "2020"
+slug: "9780190052089"
 star_rating: 2
 title: Games - Agency As Art
 ---

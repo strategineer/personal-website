@@ -9,6 +9,7 @@ params:
   series: Dune
   series_order: "6"
   year: "1985"
+slug: "9780399130274"
 title: Chapterhouse, Dune
 weight: 1
 ---

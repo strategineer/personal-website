@@ -9,6 +9,7 @@ date: 2024-04-21
 params:
   isbn13: "9780807059739"
   year: "1971"
+slug: "9780807059739"
 title: Taoism - The Parting Of The Way
 weight: 1
 ---

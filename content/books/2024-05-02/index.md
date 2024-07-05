@@ -9,8 +9,9 @@ date: 2024-05-02
 params:
   isbn13: "9781101972120"
   year: "2016"
-title: Stories of Your Life and Others
+slug: "9781101972120"
 star_rating: 4
+title: Stories of Your Life and Others
 ---
 
 Take a shot every time Chiang {{< spoiler >}} brings up God (Tower of Babylon, Division By Zero, Hell is the Absence of God), writes about characters trying to be or become God-like by breaking through some kind of barrier, mental or physical (Tower of Babylon, Understand, Story of Your Life, Seventy-Two Letters), a scientist does science/deep-thinking, maybe discovering some new technology, and tries to convince the reader that said science will completely change everything they know to be true (Understand, Division By Zero, Story of Your Life, Seventy-Two Letters, Liking What You See: A Documentary){{< /spoiler >}}.

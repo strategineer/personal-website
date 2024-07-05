@@ -8,6 +8,7 @@ date: 1800-02-08
 params:
   isbn13: "9780441783601"
   year: "1992"
+slug: "9780441783601"
 title: Starseed
 weight: 1
 ---

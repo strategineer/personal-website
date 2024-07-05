@@ -9,6 +9,7 @@ date: 2022-12-10
 params:
   isbn13: "9780552171892"
   year: "2015"
+slug: "9780552171892"
 star_rating: 3
 title: Good Omens
 ---

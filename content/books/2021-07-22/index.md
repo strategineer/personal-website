@@ -10,6 +10,7 @@ date: 2021-07-22
 params:
   isbn13: "9781906838386"
   year: "2013"
+slug: "9781906838386"
 star_rating: 1
 title: Sandcastle
 ---

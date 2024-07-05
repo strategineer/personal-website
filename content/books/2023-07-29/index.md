@@ -11,6 +11,7 @@ params:
   series: The Broken Earth
   series_order: "1"
   year: "2015"
+slug: "9780316229296"
 star_rating: 5
 title: The Fifth Season
 ---

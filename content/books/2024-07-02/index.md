@@ -8,11 +8,12 @@ books/tags:
 date: 2024-07-03
 params:
   isbn13: "9780062444134"
-  series: "The Wayfarers"
+  series: The Wayfarers
   series_order: "1"
   year: "2016"
-title: The Long Way To A Small, Angry Planet
+slug: "9780062444134"
 star_rating: 5
+title: The Long Way To A Small, Angry Planet
 ---
 
 Becky Chambers' space opera following the scrappy and loveable crew of the Wayfarer, tasked with their biggest job yet.
@@ -21,7 +22,7 @@ Becky Chambers' space opera following the scrappy and loveable crew of the Wayfa
 
 {{< series >}}
 
-WOW. 
+WOW.
 
 Incredible.
 
@@ -43,4 +44,4 @@ Nothing happens in a vacuum (hehe).
 
 This hyper focus on character is fantastic to read and you'd think more authors (*cough* John Scalzi *cough*) would be interested in writing this sort of character focused story if they could.  But I don't think it's that easy even though Becky Chambers makes it seem so.
 
-I'm dead set on reading more of Becky Chambers's work and you can expect me to do so sooner rather than later. 
+I'm dead set on reading more of Becky Chambers's work and you can expect me to do so sooner rather than later.

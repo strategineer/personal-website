@@ -9,6 +9,7 @@ date: 2022-02-15
 params:
   isbn13: "9780812968255"
   year: "2003"
+slug: "9780812968255"
 star_rating: 3
 title: Meditations - A New Translation
 ---

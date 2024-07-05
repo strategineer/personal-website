@@ -8,6 +8,7 @@ date: 2021-10-01
 params:
   isbn13: "9780393349832"
   year: "2014"
+slug: "9780393349832"
 star_rating: 5
 title: Infrastructure - A Guide To The Industrial Landscape
 ---

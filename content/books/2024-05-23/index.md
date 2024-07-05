@@ -6,11 +6,12 @@ books/tags:
 date: 2024-05-23
 params:
   isbn13: "9781800241565"
-  series: "Dogs of War"
+  series: Dogs of War
   series_order: "2"
   year: "2021"
-title: Bear Head
+slug: "9781800241565"
 star_rating: 4
+title: Bear Head
 ---
 
 What if you combined Johnny Mnemonic and Total Recall but the data in Johnny's brain is a sentient "personality upload" of a bio-engineered war bear with 12+ PhDs? Also, there's SuperTrump who's using his infinite charisma to put chips in people's brains to get them to comply with anything and everything he wants (yikes).
@@ -33,4 +34,4 @@ The two beings in one head gimmick is really cool though (it's so much better th
 
 I enjoyed Bear Head quite a bit but not as much as Dogs of War. The chapters told from the perspective of Thompson's PA Springer are not as much of a highlight as the Jimmy and Honey chapters. Her perspective is important and usually adds to the overall narrative but we spend a bit too much time with her, repeating the same themes over and over again. Very early on you get the impression that Thompson is the devil incarnate, spending more time following his story doesn't really do anything to deepen that past the first few chapters.
 
-If you enjoyed Dogs of War, you'll likely want to read Bear Head and get quite a lot out of it but don't expect it to reach that same high. 
+If you enjoyed Dogs of War, you'll likely want to read Bear Head and get quite a lot out of it but don't expect it to reach that same high.

@@ -12,6 +12,7 @@ params:
   series: The Book of the New Sun
   series_order: "1"
   year: "2021"
+slug: "9781250781253"
 star_rating: 5
 title: Shadow & Claw - The First Half Of The Book Of The New Sun
 ---

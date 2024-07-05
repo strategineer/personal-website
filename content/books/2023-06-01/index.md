@@ -9,6 +9,7 @@ params:
   dnf: "0"
   isbn13: "9780756412777"
   year: "2019"
+slug: "9780756412777"
 star_rating: 0
 title: Terminal Uprising
 ---

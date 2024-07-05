@@ -10,6 +10,7 @@ params:
   dnf: 50%
   isbn13: "9780140165586"
   year: "1994"
+slug: "9780140165586"
 star_rating: 1
 title: Everyday Ethics - Inspired Solutions To Real-Life Dilemmas
 ---

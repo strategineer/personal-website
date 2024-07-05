@@ -9,8 +9,9 @@ date: 2024-05-14
 params:
   isbn13: "9781908460646"
   year: "2017"
-title: "Paranoia: Core Starter Set (MGP50000) "
+slug: "9781908460646"
 star_rating: 5
+title: "Paranoia: Core Starter Set (MGP50000) "
 ---
 
 I've played the Paranoia RPG more than a few times, it's always a blast. If you're into chaotic, goofy, absurdist, comically dystopian settings and cooperative/competitive roleplaying systems then you'll love Paranoia.

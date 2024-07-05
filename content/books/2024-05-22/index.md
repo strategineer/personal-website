@@ -8,6 +8,7 @@ date: 2024-05-22
 params:
   isbn13: "9780765324641"
   year: "2010"
+slug: "9780765324641"
 title: The Word For World Is Forest
 weight: 1
 ---
@@ -18,10 +19,6 @@ Let's see how this goes.
 
 <!--more-->
 
-{{< quote >}}
-The Luau served a first-rate venison steak. What would they say on
-old Earth if they saw one man eating a kilogram of meat at one meal?
-Poor damn soybeansuckers!
-{{< /quote >}}
+{{< quote >}} The Luau served a first-rate venison steak. What would they say on old Earth if they saw one man eating a kilogram of meat at one meal? Poor damn soybeansuckers! {{< /quote >}}
 
 **soybeansuckers** now that's good shit.

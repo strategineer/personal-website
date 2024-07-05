@@ -8,7 +8,6 @@ summary: "A list of games I played and enjoyed most in 2023."
 
 I'm a little late to the party, posting my 2023 GOTY list in July 2024 but... Better late than never.
 
-
 # Mosa Lina
 
 {{< steam 2477090 >}}
@@ -31,7 +30,7 @@ I played through the game twice and I can see myself coming back to it with diff
 
 I played through all of the missions which I've never done before. I played a ton of the new roguelite mode.
 
-Hitman (2016) is the gift that keeps on giving. 
+Hitman (2016) is the gift that keeps on giving.
 
 # Fear and Hunger 1 and 2
 
@@ -39,7 +38,7 @@ Hitman (2016) is the gift that keeps on giving.
 
 {{< steam 2171440 >}}
 
-An experience like no other. It's hard to recommend an extremely weird run-based (?) Finish RPG maker game with a ton of extreme gore, violence and heinous content. 
+An experience like no other. It's hard to recommend an extremely weird run-based (?) Finish RPG maker game with a ton of extreme gore, violence and heinous content.
 
 BUT I had an interesting time with the Fear and Hunger series. If you're curious, I recommend starting with the second game and if you're really into it, go back and play the first game.
 
@@ -49,7 +48,7 @@ BUT I had an interesting time with the Fear and Hunger series. If you're curious
 
 A cool ASS roguelike deckbuilder where you don't draw cards from your deck. At the start of every encounter, The cards are placed randomly in a grid and you walk over cards, revealing them and activating their effects.
 
-It's weird and unique and I like that. 
+It's weird and unique and I like that.
 
 # Heavenly Bodies DLC
 
@@ -61,7 +60,7 @@ Heavenly Bodies is a great physics movement/platforming game and this DLC is big
 
 {{< steam 1086940 >}}
 
-A good ass CRPG. I wasn't as blown away by it as most were. The story makes a lot of concessions because of how interactive it is and my story wasn't told very well and wasn't too interesting even though I had a few interesting decisions I was able to make throughout. 
+A good ass CRPG. I wasn't as blown away by it as most were. The story makes a lot of concessions because of how interactive it is and my story wasn't told very well and wasn't too interesting even though I had a few interesting decisions I was able to make throughout.
 
 But the CRPG mechanics are solid and the combat encounters usually felt fun and well balanced. That's REALLY hard to achieve in a CRPG and that's what I'm most impressed by in Baldur's Gate 3.
 

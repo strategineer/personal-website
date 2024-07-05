@@ -9,6 +9,7 @@ date: 2023-10-25
 params:
   isbn13: "9781982105440"
   year: "2021"
+slug: "9781982105440"
 star_rating: 1
 title: Being And Nothingness
 ---

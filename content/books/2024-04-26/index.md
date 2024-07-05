@@ -10,8 +10,9 @@ params:
   series: Earthsea
   series_order: "6"
   year: "2012"
-title: The Other Wind
+slug: "9780547773728"
 star_rating: 5
+title: The Other Wind
 ---
 
 Ursula K. Le Guin's conclusion to her fantastic Earthsea series. Once again, she manages to create a fantasy world where violence doesn't solve everything. Her characters engage in the mundane activities that real people do most of the time: chat, make friends, think about their loved ones, cuddle with their pets, etc. The way she writes these mundane scenes makes them feel just as important and interesting as they really are.

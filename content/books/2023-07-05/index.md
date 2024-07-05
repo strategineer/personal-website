@@ -8,6 +8,7 @@ date: 2023-07-05
 params:
   isbn13: "9781982152611"
   year: "2020"
+slug: "9781982152611"
 star_rating: 1
 title: I'm Thinking Of Ending Things
 ---

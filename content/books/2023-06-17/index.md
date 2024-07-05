@@ -9,6 +9,7 @@ date: 2023-06-17
 params:
   isbn13: "9780778307877"
   year: "2023"
+slug: "9780778307877"
 star_rating: 5
 title: Cassandra In Reverse
 ---

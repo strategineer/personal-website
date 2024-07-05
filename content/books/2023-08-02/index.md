@@ -10,6 +10,7 @@ params:
   series: Earthsea
   series_order: "2"
   year: "2012"
+slug: "9781442459908"
 star_rating: 4
 title: The Tombs Of Atuan
 ---

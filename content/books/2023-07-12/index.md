@@ -11,6 +11,7 @@ params:
   series: Watch
   series_order: "7"
   year: "2006"
+slug: "9780552152679"
 star_rating: 5
 title: Thud!
 ---

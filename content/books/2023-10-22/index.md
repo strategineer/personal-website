@@ -9,6 +9,7 @@ params:
   series: Villains
   series_order: "2"
   year: 2018
+slug: "9780765387523"
 star_rating: 2
 title: Vengeful
 ---

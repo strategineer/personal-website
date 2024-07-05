@@ -11,6 +11,7 @@ params:
   series: The Interdependency
   series_order: "2"
   year: 2018
+slug: "9780765388971"
 star_rating: 4
 title: The Consuming Fire
 ---

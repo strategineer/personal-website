@@ -11,6 +11,7 @@ date: 2024-03-13
 params:
   isbn13: "9780156340403"
   year: "1985"
+slug: "9780156340403"
 star_rating: 4
 title: The Futurological Congress
 ---

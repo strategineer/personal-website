@@ -7,6 +7,7 @@ date: 2023-10-20
 params:
   isbn13: "9780156007757"
   year: "1999"
+slug: "9780156007757"
 star_rating: 5
 title: Blindness
 ---

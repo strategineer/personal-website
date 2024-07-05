@@ -8,8 +8,9 @@ date: 2024-05-13
 params:
   isbn13: "9798986482712"
   year: "2022"
-title: What I Mean When I Say I'm Autistic - Unpuzzling A Life On The Autism Spectrum
+slug: "9798986482712"
 star_rating: 2
+title: What I Mean When I Say I'm Autistic - Unpuzzling A Life On The Autism Spectrum
 ---
 
 What I Mean When I Say I'm Autistic is more of a personal diary made public rather than a memoir or a primer on Autism and suffers for it. I'm not sure it's something in-between either, I don't really know what it is. It's OK, I guess?

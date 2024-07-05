@@ -8,8 +8,9 @@ date: 2021-07-01
 params:
   isbn13: "9781974709373"
   year: "2019"
+slug: "9781974709373"
 star_rating: 3
-title: "The Drifting Classroom"
+title: The Drifting Classroom
 ---
 
 The Drifting Classroom is a Japanese horror manga series published from 1972 to 1974 that follows a school (and its students) that is mysteriously transported through time to a post-apocalyptic future.

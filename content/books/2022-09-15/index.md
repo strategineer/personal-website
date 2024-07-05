@@ -9,6 +9,7 @@ date: 2022-09-15
 params:
   isbn13: "9780811733397"
   year: "2006"
+slug: "9780811733397"
 star_rating: 4
 title: The Self-Coached Climber - The Guide To Movement, Training, Performance
 ---

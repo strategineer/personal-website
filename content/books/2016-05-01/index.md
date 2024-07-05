@@ -7,6 +7,7 @@ date: 2016-05-01
 params:
   isbn13: "9781633442801"
   year: "2016"
+slug: "9781633442801"
 star_rating: 5
 title: The Extraordinary Adventures of Baron Munchausen
 ---

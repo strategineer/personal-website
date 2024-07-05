@@ -11,6 +11,7 @@ date: 2023-07-25
 params:
   isbn13: "9781515444985"
   year: "2020"
+slug: "9781515444985"
 star_rating: 5
 title: Doorways In The Sand
 ---

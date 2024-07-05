@@ -9,6 +9,7 @@ date: 2022-09-17
 params:
   isbn13: "9780811722193"
   year: "1993"
+slug: "9780811722193"
 star_rating: 4
 title: Performance Rock Climbing
 ---

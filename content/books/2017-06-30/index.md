@@ -7,6 +7,7 @@ date: 2017-06-30
 params:
   isbn13: "9780990582908"
   year: "2014"
+slug: "9780990582908"
 star_rating: 5
 title: Game Programming Patterns
 ---

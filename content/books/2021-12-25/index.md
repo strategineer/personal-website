@@ -9,6 +9,7 @@ date: 2021-12-25
 params:
   isbn13: "9780393356250"
   year: "2018"
+slug: "9780393356250"
 star_rating: 4
 title: The Odyssey
 ---

@@ -7,6 +7,7 @@ date: 2022-08-17
 params:
   isbn13: "9781613170922"
   year: "2015"
+slug: "9781613170922"
 star_rating: 3
 title: Monster Of The Week
 ---

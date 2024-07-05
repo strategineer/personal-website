@@ -8,6 +8,7 @@ date: 2022-03-01
 params:
   isbn13: "9780809073641"
   year: "2008"
+slug: "9780809073641"
 star_rating: 5
 title: The Night Trilogy
 ---

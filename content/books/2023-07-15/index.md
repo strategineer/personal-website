@@ -10,6 +10,7 @@ params:
   series: The Murderbot Diaries
   series_order: "4"
   year: "2018"
+slug: "9781250191854"
 star_rating: 3
 title: Exit Strategy
 ---

@@ -10,11 +10,12 @@ books/tags:
 date: 2024-05-10
 params:
   isbn13: "9781857231380"
-  series: "The Culture"
+  series: The Culture
   series_order: "1"
   year: "1987"
-title: Consider Phlebas
+slug: "9781857231380"
 star_rating: 5
+title: Consider Phlebas
 ---
 
 Iain Banks POV:

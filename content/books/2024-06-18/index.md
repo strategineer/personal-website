@@ -7,8 +7,9 @@ date: 2024-06-18
 params:
   isbn13: "9780356502588"
   year: "2014"
-title: The First Fifteen Lives Of Harry August
+slug: "9780356502588"
 star_rating: 5
+title: The First Fifteen Lives Of Harry August
 ---
 
 A man dies and is reborn over and over again retaining the memories of his past lives. He's not alone. Hijinks ensue.

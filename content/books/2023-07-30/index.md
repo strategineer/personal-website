@@ -11,6 +11,7 @@ params:
   series: Earthsea
   series_order: "1"
   year: "2012"
+slug: "9780547722023"
 star_rating: 5
 title: A Wizard Of Earthsea
 ---

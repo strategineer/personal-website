@@ -10,6 +10,7 @@ params:
   series: Shades of Magic
   series_order: "1"
   year: "2016"
+slug: "9780765376466"
 star_rating: 4
 title: A Darker Shade Of Magic
 ---

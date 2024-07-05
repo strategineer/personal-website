@@ -7,6 +7,7 @@ date: 2023-09-19
 params:
   isbn13: "9780735277182"
   year: "2019"
+slug: "9780735277182"
 star_rating: 3
 title: Empire Of Wild
 ---

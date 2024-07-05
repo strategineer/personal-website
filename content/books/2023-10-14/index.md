@@ -8,6 +8,7 @@ date: 2023-10-14
 params:
   isbn13: "9780593357132"
   year: "2021"
+slug: "9780593357132"
 star_rating: 3
 title: The Martian - A Novel
 ---

@@ -7,6 +7,7 @@ date: 2022-03-15
 params:
   isbn13: "9781408800614"
   year: "2009"
+slug: "9781408800614"
 star_rating: 4
 title: Nine Lives - In Search Of The Sacred In Modern India
 ---

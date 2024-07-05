@@ -9,7 +9,8 @@ params:
   series: The Final Architecture
   series_order: "3"
   year: "2023"
-title: "Lords Of Uncreation"
+slug: "9781529051995"
+title: Lords Of Uncreation
 weight: 1
 ---
 

@@ -10,6 +10,7 @@ params:
   series: Earthsea
   series_order: "5"
   year: "2012"
+slug: "9780547722047"
 star_rating: 4
 title: Tales From Earthsea
 ---

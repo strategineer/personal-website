@@ -10,6 +10,7 @@ params:
   series: Earthsea
   series_order: "4"
   year: "2019"
+slug: "9781473223592"
 star_rating: 5
 title: Tehanu
 ---

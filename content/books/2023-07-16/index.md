@@ -10,6 +10,7 @@ params:
   series: The Murderbot Diaries
   series_order: "5"
   year: "2020"
+slug: "9781250229861"
 star_rating: 3
 title: Network Effect
 ---
