@@ -4,6 +4,7 @@ authors:
 books/tags:
   - fiction
   - science-fiction
+  - slay
 date: 2024-07-03
 params:
   isbn13: "9780062444134"
