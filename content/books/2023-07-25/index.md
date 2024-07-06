@@ -16,7 +16,9 @@ star_rating: 5
 title: Doorways In The Sand
 ---
 
-**In fair puzzles there should always be a way out. But I saw no doorways in the sand, and try as I might I could not make the puzzle fall fair.**
+{{< quote >}}
+In fair puzzles there should always be a way out. But I saw no doorways in the sand, and try as I might I could not make the puzzle fall fair.
+{{< /quote >}}
 
 Doorways in the Sand tells the story of Fred Cassidy the "Eternal Student", a man who's spent 13 years of his life as an undergrad.
 
@@ -24,7 +26,9 @@ He does everything he can to avoid getting a degree so he can continue benefitin
 
 Fred's idyllic existence is disrupted by the theft of a priceless alien artifact, the star-stone. He's a person of interest for reasons outside of his control and so he is pursued by humans and aliens alike who think he can help them find the stone (can he?).
 
-**"You are a living example of the absurdity of things."**
+{{< quote >}}
+"You are a living example of the absurdity of things."
+{{< /quote >}}
 
 Hijinks ensue.
 
@@ -36,7 +40,9 @@ The text has aged remarkably well. If you told me that it was written yesterday 
 
 The text is funny and had me smirking and laughing my way through it.
 
-**Turning, I saw Rick Liddy, an English major with an answer for everything except what to do with his degree come June.**
+{{< quote >}}
+Turning, I saw Rick Liddy, an English major with an answer for everything except what to do with his degree come June.
+{{< /quote >}}
 
 Also, Fred reminded me a lot of Moist von Lipwig from Terry Pratchett's novel Going Postal which might explain why I loved Doorways in the Sand so much.
 

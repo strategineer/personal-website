@@ -57,15 +57,21 @@ I loved the book. Reading a book like this when I was a kid would have been real
 
 The translation is mostly good but there's a few sentences that could have used some work.
 
-**"Ugly girls like you are the pits!"**
+{{< quote >}}
+"Ugly girls like you are the pits!"
+{{< /quote >}}
 
 Nobody uses the word "pits" like this anymore.
 
-**It was 29 March, the day before the farewell party.**
+{{< quote >}}
+It was 29 March, the day before the farewell party.
+{{< /quote >}}
 
 It's "March 29th" not "29 March". I don't care that we're translating from Japanese, you wouldn't be able to tell by the grammar/syntax alone if this was a perfect translation.
 
-**"It's apple tea," said Aki. "It's also weird how the plates and cups I used were all washed up."**
+{{< quote >}}
+"It's apple tea," said Aki. "It's also weird how the plates and cups I used were all washed up."
+{{< /quote >}}
 
 This isn't how the words "washed up" are meant to be used. Philip Gabriel repeats this wording 3 times in the next few sentences.
 

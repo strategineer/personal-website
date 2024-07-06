@@ -13,7 +13,9 @@ star_rating: 5
 title: The Left Hand Of Darkness
 ---
 
-**The king was pregnant.**
+{{< quote >}}
+The king was pregnant.
+{{< /quote >}}
 
 An anthropologist-like character lands on a planet with people who exhibit sexually differentiated physical characteristics, male or female depending on the circumstances, for a few days every month.
 

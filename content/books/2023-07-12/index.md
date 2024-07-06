@@ -24,9 +24,11 @@ Thud! is a Terry Pratchett novel through and through. There's ample comedy inter
 
 {{< series >}}
 
-**It would be a lot simpler [...] if this was a story. A sword is pulled out of a stone or a magic ring is flung into the depths of the sea, and with general rejoicing the world turns.**
+{{< quote >}}
+It would be a lot simpler [...] if this was a story. A sword is pulled out of a stone or a magic ring is flung into the depths of the sea, and with general rejoicing the world turns.
 
-**But this was real life. The world didn't turn, it just went into a spin.**
+But this was real life. The world didn't turn, it just went into a spin.
+{{< /quote >}}
 
 Thud! is about prejudice. The main plot as well as every sub plot has something to say about prejudice, how it can cloud our judgement and prevent us from doing the right thing and treating everyone with the respect they deserve.
 

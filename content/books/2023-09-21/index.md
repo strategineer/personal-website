@@ -22,11 +22,15 @@ As the oldest kid (11 years old) in his family, Gregor is tasked with taking car
 
 His grandmother lives with them and has Dementia (although Gregor doesn't know that's what it is).
 
-**For the last year his grandma had been slipping in and out of reality. One minute she was clear as a bell and the next she was calling him Simon. Who was Simon? He had no idea.**
+{{< quote >}}
+For the last year his grandma had been slipping in and out of reality. One minute she was clear as a bell and the next she was calling him Simon. Who was Simon? He had no idea.
+{{< /quote >}}
 
 Gregor doesn't speak like a child, in a lot of ways he's a grown ass man in a boy's body. Children don't speak like this:
 
-**"Great, Day One and I'm looking forward to a trip to the laundry room," Gregor thought. "By September, I'll probably be ecstatic when we get the phone bill."**
+{{< quote >}}
+"Great, Day One and I'm looking forward to a trip to the laundry room," Gregor thought. "By September, I'll probably be ecstatic when we get the phone bill."
+{{< /quote >}}
 
 This is fine because:
 
@@ -38,7 +42,9 @@ This is fine because:
 
 Gregor is old at heart and he's been through some shit. He's depressed as hell because he misses his dad.
 
-**Gregor tried to remember the last time he'd felt as happy as Boots did with her ball. He had had some decent times over the past couple of years. [...] But if he was honest with himself, Gregor knew it had been years since he'd felt real happiness.**
+{{< quote >}}
+Gregor tried to remember the last time he'd felt as happy as Boots did with her ball. He had had some decent times over the past couple of years. [...] But if he was honest with himself, Gregor knew it had been years since he'd felt real happiness.
+{{< /quote >}}
 
 THIS IS A BOOK FOR CHILDREN, PLEASE SEND HELP!
 

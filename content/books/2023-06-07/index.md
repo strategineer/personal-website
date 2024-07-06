@@ -13,7 +13,9 @@ star_rating: 4
 title: Space Opera
 ---
 
-**Which of us are people and which of us are meat?**
+{{< quote >}}
+Which of us are people and which of us are meat?
+{{< /quote >}}
 
 <!--more-->
 

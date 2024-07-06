@@ -27,11 +27,15 @@ The Murderbot Diaries series so far have been extremely cyberpunk.
 
 - From the very start, the story is focused on big corporations having a lot of control and the consequences of that on the workers and slaves (like Murderbot) in the system.
 
-**It was a relief to have my clients headed back to safety. But it felt odd to be back on my own again, working for no one except myself.**
+{{< quote >}}
+It was a relief to have my clients headed back to safety. But it felt odd to be back on my own again, working for no one except myself.
+{{< /quote >}}
 
 - The two main characters in this novella are a human robot hybrid and a sentient transport ship who spend a lot of time "Netflix and Chilling" with each other in cyberspace.
 
-**I pinged the transport again and gave it the same offer I had given the first transport: hundreds of hours of media, serials, books, music, including some new shows I had just picked up on the way through the transit mall, in exchange for a ride.**
+{{< quote >}}
+I pinged the transport again and gave it the same offer I had given the first transport: hundreds of hours of media, serials, books, music, including some new shows I had just picked up on the way through the transit mall, in exchange for a ride.
+{{< /quote >}}
 
 - Murderbot spends most of its time in this novella either "Netflix and Chilling" with ART or hacking cyberspace security systems to prevent its incompetent clients from being murdered.
 

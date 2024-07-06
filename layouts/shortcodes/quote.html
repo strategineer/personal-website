@@ -3,7 +3,7 @@
 {{- if strings.ContainsNonSpace $inner -}}
   {{- with $.Page -}}
     <blockquote cite="p. 5">
-      <strong><p>{{ $inner | .RenderString }}</p></strong>
+      <p>{{ $inner | .RenderString }}</p>
       {{ if $page_number }}
         <p class="page-number">p. {{ $page_number }}</p>
       {{ end }}

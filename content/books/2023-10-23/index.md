@@ -20,7 +20,9 @@ It's a great Halloween read. It's got an Adams Family aesthetic (weird family in
 
 <!--more-->
 
-**It was strange to be inside myself, walking steadily and rigidly past the fence, putting my feet down strongly but without haste that they might have noticed, to be inside and know that they were looking at me; I was hiding very far inside but I could hear them and see them still from one corner of my eye. I wished they were all lying there dead on the ground.**
+{{< quote >}}
+It was strange to be inside myself, walking steadily and rigidly past the fence, putting my feet down strongly but without haste that they might have noticed, to be inside and know that they were looking at me; I was hiding very far inside but I could hear them and see them still from one corner of my eye. I wished they were all lying there dead on the ground.
+{{< /quote >}}
 
 The story focuses on the three remaining members of the Blackwood family: Merricat, her sister Constance and their Uncle Julian in the aftermath of a poisoning that killed off the other Blackwoods prior to the events of the novel.
 

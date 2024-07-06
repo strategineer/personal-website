@@ -15,7 +15,9 @@ star_rating: 4
 title: Children Of Ruin
 ---
 
-**"We're going on an adventure!"**
+{{< quote >}}
+"We're going on an adventure!"
+{{< /quote >}}
 
 If you liked the previous novel in this series, Children of Time, you're likely to enjoy this one just as much if not more (I definitely did). If you haven't read it, I suggest you start with that one (also great) and then read this sequel. Otherwise, you'll be missing out.
 

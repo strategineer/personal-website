@@ -127,7 +127,9 @@ All the signs of a rushed release are there if you look closely.
 
 Read the following excerpt out loud to see what I mean:
 
-**The water she'd drunk made her able to talk [author's note: this sentence is atrocious]. Even sing one of the absurd pitched-consonant words that they'd picked up from the aliens in demonstration for the yaotlek, though Mahit was so much better at making those noises that Three Seagrass had begun to plan a scheme in which she taught her how to have some halfway-decent breath and pitch control, pass on the lessons she'd had as a crèche-kid in how to project from the diaphragm when orating.**
+{{< quote >}}
+The water she'd drunk made her able to talk [author's note: this sentence is atrocious]. Even sing one of the absurd pitched-consonant words that they'd picked up from the aliens in demonstration for the yaotlek, though Mahit was so much better at making those noises that Three Seagrass had begun to plan a scheme in which she taught her how to have some halfway-decent breath and pitch control, pass on the lessons she'd had as a crèche-kid in how to project from the diaphragm when orating.
+{{< /quote >}}
 
 Reading this novel closely, you can and will find many sentences just like this peppered all throughout the text and reading them will drive you insane.
 
@@ -143,7 +145,11 @@ If one character was written like this, it's all good. This narration style woul
 
 The problem is that every single POV character is written like this because I guess that's how Arkady Martine writes and her editor was not given the time and support they needed this time to take out the trash.
 
-Let's look at some examples: **Mahit said, "Well, that's unexpectedly pleasant, all considered," and didn't go on any further. She didn't want to—she couldn't tell Three Seagrass that she was here to spy on the war for Darj Tarats, in order to escape Aknel Amnardbat's surgeons. To do worse things for Darj Tarats, if there was an opportunity. She couldn't. So she got into the shuttle instead, settling amongst the supply crates and strapping herself into some freefall-control webbing. There were similar webbings on all of the walls, the floor, the ceiling. It was an efficie"t, well-designed ship. It must make a hundred of these short hops in a month— "Quite," said Three Seagrass, all edges, interest and wariness and a sort of invitation deferred: We can play, Mahit, even if we don't play just now, if playing's what you want.**
+Let's look at some examples:
+
+{{< quote >}}
+Mahit said, "Well, that's unexpectedly pleasant, all considered," and didn't go on any further. She didn't want to—she couldn't tell Three Seagrass that she was here to spy on the war for Darj Tarats, in order to escape Aknel Amnardbat's surgeons. To do worse things for Darj Tarats, if there was an opportunity. She couldn't. So she got into the shuttle instead, settling amongst the supply crates and strapping herself into some freefall-control webbing. There were similar webbings on all of the walls, the floor, the ceiling. It was an efficie"t, well-designed ship. It must make a hundred of these short hops in a month— "Quite," said Three Seagrass, all edges, interest and wariness and a sort of invitation deferred: We can play, Mahit, even if we don't play just now, if playing's what you want.
+{{< /quote >}}
 
 Notice that Arkady Martine explicitly cuts off Mahit's stream of consciousness narration here.
 
@@ -153,7 +159,9 @@ The issue is that this narrative voice bleeds into every other character's POV.
 
 For example, in this excerpt, Nine Hibiscus has just been informed by a subordinate that the alien's planet has been found.
 
-**"If we can get there without them seeing us," Nine Hibiscus said. The scatterbombs would do exactly what Eighteen Chisel was imagining. They would, yes, blow anyone out of their sky. And then they'd poison that sky, and the planets below it. The scatterbombs were deathrain. A last resort. Almost never used where people lived— because after them, people didn't live there anymore. She'd only used a scatterbomb barrage once, and that had been against another ship, safe in the blackness of space. The idea of using them on the aliens was— She liked it too much, was what. Liked it too much, too fast. Such a simple solution. So much easier than the rest of the situation she'd been detailing for herself.**
+{{< quote >}}
+"If we can get there without them seeing us," Nine Hibiscus said. The scatterbombs would do exactly what Eighteen Chisel was imagining. They would, yes, blow anyone out of their sky. And then they'd poison that sky, and the planets below it. The scatterbombs were deathrain. A last resort. Almost never used where people lived— because after them, people didn't live there anymore. She'd only used a scatterbomb barrage once, and that had been against another ship, safe in the blackness of space. The idea of using them on the aliens was— She liked it too much, was what. Liked it too much, too fast. Such a simple solution. So much easier than the rest of the situation she'd been detailing for herself.
+{{< /quote >}}
 
 Huuuuuuuhhhh. Does this sound familiar? If you replace the names in these excerpts, you wouldn't be able to tell them apart.
 
@@ -187,7 +195,9 @@ NB: p. 404, O face due to great diplomacy by Mahit
 
 I've written more than three thousand words between five different first drafts trying to explain exactly why reading A Desolation Called Peace made me so angry. Instead of fumbling with my words, I'll let Ursula K. Le Guin speak for me (quote taken from her essay The Stalin in the Soul).
 
-**Reading is not a passive reaction, but an action, involving the mind, the emotions, and the will. To accept trashy books because they are "best-sellers" is the same thing as accepting adulterated food, ill-made machines, corrupt government, and military and corporative tyranny, and praising them, and calling them the American Way of Life or the American Dream. It is a betrayal of reality. Every betrayal, every lie accepted, leads to the next betrayal and the next lie.**
+{{< quote >}}
+Reading is not a passive reaction, but an action, involving the mind, the emotions, and the will. To accept trashy books because they are "best-sellers" is the same thing as accepting adulterated food, ill-made machines, corrupt government, and military and corporative tyranny, and praising them, and calling them the American Way of Life or the American Dream. It is a betrayal of reality. Every betrayal, every lie accepted, leads to the next betrayal and the next lie.
+{{< /quote >}}
 
 Suffice to say that I feel **betrayed**.
 

@@ -13,10 +13,11 @@ slug: "9781399806855"
 star_rating: 5
 title: The Autistic Experience - Silenced Voices Finally Heard
 ---
+{{< quote >}}
+"You're not alone. I hear you. I see you. You're a valid person. Autism is an intrinsic part of you and that's not something to ever be ashamed of.
 
-**"You're not alone. I hear you. I see you. You're a valid person. Autism is an intrinsic part of you and that's not something to ever be ashamed of.**
-
-**Lola, 27, England**
+Lola, 27, England
+{{< /quote >}}
 
 Thanks Lola, it means a lot.
 

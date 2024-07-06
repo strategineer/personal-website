@@ -26,21 +26,29 @@ After reading Thud! and enjoying that, I decided to start reading the entire Dis
 
 Sam Vimes suffers from a combination of alcoholism and depression leading to his skewed perspective of the world.
 
-**Lessee . . . he'd gone off after the funeral and got drunk. No, not drunk, another word, ended with ‘er'. Drunker, that was it. Because world all twisted up and wrong, like distorted glass, only came back into focus if you looked at it through bottom of bottle.**
+{{< quote >}}
+Lessee . . . he'd gone off after the funeral and got drunk. No, not drunk, another word, ended with ‘er'. Drunker, that was it. Because world all twisted up and wrong, like distorted glass, only came back into focus if you looked at it through bottom of bottle.
+{{< /quote >}}
 
 Carrot is a human who was adopted by dwarven parents and so he's essentially a dwarf in a human body.
 
-**"Oh, give up!" he said. "Are you going to come quietly?" The mumbling went on. The air began to feel hot and dry. Vimes shrugged. "That's it, then," he said, and turned away. "Throw the book at him, Carrot." "Right, sir." Vimes remembered too late.**
+{{< quote >}}
+"Oh, give up!" he said. "Are you going to come quietly?" The mumbling went on. The air began to feel hot and dry. Vimes shrugged. "That's it, then," he said, and turned away. "Throw the book at him, Carrot." "Right, sir." Vimes remembered too late.
 
-**Dwarfs have trouble with metaphors. They also have a very good aim. The Laws and Ordinances of Ankh and Morpork caught the [...] on the forehead. He blinked, staggered, and stepped backwards. It was the longest step he ever took. For one thing, it lasted the rest of his life.**
+Dwarfs have trouble with metaphors. They also have a very good aim. The Laws and Ordinances of Ankh and Morpork caught the [...] on the forehead. He blinked, staggered, and stepped backwards. It was the longest step he ever took. For one thing, it lasted the rest of his life.
+{{< /quote >}}
 
 Nobby is the everyman, he is very down to earth.
 
-**It always amazed Vimes how Nobby got along with practically everyone. It must, he'd decided, have something to do with the common denominator. In the entire world of mathematics there could be no denominator as common as Nobby.**
+{{< quote >}}
+It always amazed Vimes how Nobby got along with practically everyone. It must, he'd decided, have something to do with the common denominator. In the entire world of mathematics there could be no denominator as common as Nobby.
+{{< /quote >}}
 
 Sergeant Colon is the boomer of the group.
 
-**Sergeant Colon owed thirty years of happy marriage to the fact that Mrs Colon worked all day and Sergeant Colon worked all night. They communicated by means of notes. He got her tea ready before he left at night, she left his breakfast nice and hot in the oven in the mornings. They had three grown-up children, all born, Vimes had assumed, as a result of extremely persuasive handwriting.**
+{{< quote >}}
+Sergeant Colon owed thirty years of happy marriage to the fact that Mrs Colon worked all day and Sergeant Colon worked all night. They communicated by means of notes. He got her tea ready before he left at night, she left his breakfast nice and hot in the oven in the mornings. They had three grown-up children, all born, Vimes had assumed, as a result of extremely persuasive handwriting.
+{{< /quote >}}
 
 These are the men who've been tasked with keeping the city safe. Conveniently, Ankh-Morpork quickly finds itself under attack by a powerful force and Captain Vimes and his constables (with a LOT of help from the larger than life noblewoman Lady Sybil Ramkin and her stable of swamp dragons) are the only people standing in the way of the total destruction of the city.
 

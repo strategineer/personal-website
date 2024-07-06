@@ -16,7 +16,9 @@ star_rating: 5
 title: The Fifth Season
 ---
 
-**The shake that passes will echo. The wave that recedes will come back. The mountain that rumbles will roar.**
+{{< quote >}}
+The shake that passes will echo. The wave that recedes will come back. The mountain that rumbles will roar.
+{{< /quote >}}
 
 The Fifth Season is a story about suffering and trying to find moments of pleasure and peace in a broken world.
 

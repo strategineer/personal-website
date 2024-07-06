@@ -187,8 +187,8 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
     content = content.replace(r"{{< spoiler >}}", "<spoiler>")
     content = content.replace(r"{{< /spoiler >}}", "</spoiler>")
     # quotes
-    content = re.sub(r"{{< quote[^>]*>}}", "<b>", content)
-    content = content.replace(r"{{< /quote >}}", "</b>")
+    content = re.sub(r"{{< quote[^>]*>}}", "<blockquote>", content)
+    content = content.replace(r"{{< /quote >}}", "</blockquote>")
     # whitespace
     while True:
         try:
@@ -220,6 +220,9 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
     content = content.replace("<br/><br/><b><br/><br/>", "<br/><b><br/>")
     content = content.replace("<br/><br/></b><br/><br/>", "<br/></b><br/>")
     content = content.replace("</b><br/><br/><b>", "</b><br/><b>")
+    content = content.replace("<br/><br/><blockquote><br/><br/>", "<br/><blockquote><br/>")
+    content = content.replace("<br/><br/></blockquote><br/><br/>", "<br/></blockquote><br/>")
+    content = content.replace("</blockquote><br/><br/><blockquote>", "</blockquote><br/><blockquote>")
     # strip extra line breaks
     content = re.sub(r"^(<br/>)+", "", content)
     content = re.sub(r"(<br/>)+$", "", content)

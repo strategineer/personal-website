@@ -24,13 +24,15 @@ Cassandra begins to use her power to change her past, present and future and, in
 
 That's the gist of it. It's a really well told story (with properly thought out time travel mechanics) that will keep you hooked and waiting with expectation to see what happens next.
 
-**Everything is too far away and too close at the same time, too loud and also too quiet; a yellow door, an orange can, a blue sliver of sky, a dropped navy glove, the red ring around a street sign; a kaleidoscope turning.**
+{{< quote >}}
+Everything is too far away and too close at the same time, too loud and also too quiet; a yellow door, an orange can, a blue sliver of sky, a dropped navy glove, the red ring around a street sign; a kaleidoscope turning.
 
-**A pigeon flaps violently and I put my hands over my face.**
+A pigeon flaps violently and I put my hands over my face.
 
-**It's coming.**
+It's coming.
 
-**It's coming and without my banana muffin there is nothing I can do to stop it.**
+It's coming and without my banana muffin there is nothing I can do to stop it.
+{{< /quote >}}
 
 Like a cathartic Greek myth, Cassandra in Reverse has high highs and low lows (and everything in between) that'll make you smile and cry (or at least tear up a little if you're an emotionally stunted man child like me hehehe).
 

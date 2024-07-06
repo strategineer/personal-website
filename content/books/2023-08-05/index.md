@@ -41,13 +41,15 @@ Hello world famous private investigator specializing in murder investigations, l
 
 Scene 2:
 
-**"So we've got to go somewhere.**
+{{< quote >}}
+"So we've got to go somewhere.
 
-**[...] "I suppose we might as well go on to Egypt. It doesn't make any difference."**
+[...] "I suppose we might as well go on to Egypt. It doesn't make any difference."
 
-**"It's certainly not a matter of life or death," agreed Mrs Otterbourne.**
+"It's certainly not a matter of life or death," agreed Mrs Otterbourne.
 
-**But there she was quite wrong - for a matter of life and death was exactly what it was.**
+But there she was quite wrong - for a matter of life and death was exactly what it was.
+{{< /quote >}}
 
 ...
 
@@ -57,9 +59,11 @@ Scene 2:
 
 Scene 3:
 
-**"Oh, yes, Mrs Robson. I went over to Paris with Miss Van Schuyler last Fall. But I've never been to Egypt before." Mrs Robson hesitated.**
+{{< quote >}}
+"Oh, yes, Mrs Robson. I went over to Paris with Miss Van Schuyler last Fall. But I've never been to Egypt before." Mrs Robson hesitated.
 
-**"I do hope — there won't be any — trouble."**
+"I do hope — there won't be any — trouble."
+{{< /quote >}}
 
 ...
 

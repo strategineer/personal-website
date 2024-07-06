@@ -15,11 +15,13 @@ star_rating: 5
 title: Children Of Memory
 ---
 
-**"They think."**
+{{< quote >}}
+"They think."
 
-**"Not thinking like us, though."**
+"Not thinking like us, though."
 
-**"Well that's to be expected."**
+"Well that's to be expected."
+{{< /quote >}}
 
 <!--more-->
 
@@ -55,6 +57,8 @@ Overall, I enjoyed reading through Children of Memory. I applaud it for being a 
 
 If you're a fan of the series or you're interested in unpacking some of the philosophical questions raised by the book, I can recommend it.
 
-**"You don't think what they have here, their culture, their traditions, is worth preserving?" Miranda asks, because to her it absolutely is. It's different, and difference is the only resource the universe is short of. So much of it is just empty sameness. Life is rare, and needs to be studied and admired and encouraged to be itself."**
+{{< quote >}}
+"You don't think what they have here, their culture, their traditions, is worth preserving?" Miranda asks, because to her it absolutely is. It's different, and difference is the only resource the universe is short of. So much of it is just empty sameness. Life is rare, and needs to be studied and admired and encouraged to be itself."
+{{< /quote >}}
 
 {{< /spoiler >}}

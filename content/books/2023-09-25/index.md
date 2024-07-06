@@ -24,7 +24,9 @@ I have an important question for y'all.
 
 Is this how people speak?
 
-**"He must have had help, yes. Stalker surely helped him, it was worth her while to do it. Do you think it would be less worth the Raven's, to offer such opportunity to my father? Even with the god so distant, between Instruments, it's a small thing to provide a sharp edge, a weapon in reach, anything. And do you imagine that, offered that help, my father would have failed to take it? He was loyal to the Raven. He was the Lease, and he knew his duty."**
+{{< quote >}}
+"He must have had help, yes. Stalker surely helped him, it was worth her while to do it. Do you think it would be less worth the Raven's, to offer such opportunity to my father? Even with the god so distant, between Instruments, it's a small thing to provide a sharp edge, a weapon in reach, anything. And do you imagine that, offered that help, my father would have failed to take it? He was loyal to the Raven. He was the Lease, and he knew his duty."
+{{< /quote >}}
 
 No.
 
@@ -36,7 +38,9 @@ It gets worse.
 
 What is the purpose of having characters speaking in awfully written broken English?
 
-**"A funeral. The old Lease is not have a funeral. There is a new Lease—I know it is so. I am in Vastai for days and days and the Lease is not see us. Now the Lease is see us—once—and this man who is the Lease is not the Lease before."**
+{{< quote >}}
+"A funeral. The old Lease is not have a funeral. There is a new Lease—I know it is so. I am in Vastai for days and days and the Lease is not see us. Now the Lease is see us—once—and this man who is the Lease is not the Lease before."
+{{< /quote >}}
 
 I'm not an expert linguist so maybe it's possible for someone to learn language X then try to learn language Y and the result of that is this. Maybe?
 
