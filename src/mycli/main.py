@@ -148,6 +148,7 @@ def import_scans():
             metadata = {
                 "title": fetched_metadata["Title"],
                 "authors": fetched_metadata["Authors"],
+                "slug": fetched_metadata["ISBN-13"],
                 "params": {
                     "isbn13": fetched_metadata["ISBN-13"],
                     "year": fetched_metadata["Year"],
@@ -196,7 +197,7 @@ def import_scans():
 
 
 @click.command()
-def find_isbns():
+def fetch_thumbnails():
     print("Add ISBNs from existing books")
     filenames = glob.glob("content/books/*/index.md")
     for filename in filenames:
@@ -209,7 +210,6 @@ def find_isbns():
             if width < 220:
                 thumbnail_big_enough = False
         post = None
-        has_isbn13 = True
         with open(filename, encoding="utf-8") as f:
             try:
                 post = frontmatter.load(f)
@@ -219,21 +219,40 @@ def find_isbns():
                 )
                 continue
             if not has_thumbnail or not thumbnail_big_enough:
+                isbn13 = post.metadata['params']['isbn13']
+                if isbn13 in ["9781250251510", "9780441003051"]:
+                    continue
                 print(
-                    f"Fetching thumbnail for:\n\t{post.metadata['params']['isbn13']}\n\t{filename}"
+                    f"Fetching thumbnail for:\n\t{isbn13}\n\t{filename}"
                 )
                 try:
                     success = fetch_and_write_thumbnail(
-                        post.metadata["params"]["isbn13"], filename
+                        isbn13, filename
                     )
                 except:
                     success = False
                     print(
-                        f"Failed to update thumbnail for {filename} with isbn: {post.metadata['params']['isbn13']}"
+                        f"Failed to update thumbnail for {filename} with isbn: {isbn13}"
                     )
                 if not success:
                     # todo fallback to cover function and/or amazon but without the extra request?
                     pass
+
+@click.command()
+def find_isbns():
+    print("Add ISBNs from existing books")
+    filenames = glob.glob("content/books/*/index.md")
+    for filename in filenames:
+        post = None
+        has_isbn13 = True
+        with open(filename, encoding="utf-8") as f:
+            try:
+                post = frontmatter.load(f)
+            except UnicodeDecodeError:
+                print(
+                    f"Failed to load file {filename} with frontmatter parser due to unicode error"
+                )
+                continue
             if "params" not in post.metadata:
                 post.metadata["params"] = {}
             if "year" not in post.metadata["params"]:
@@ -426,6 +445,7 @@ def rename_reaction_gif(a, b):
                 file.write(filedata)
 
 cli.add_command(import_scans)
+cli.add_command(fetch_thumbnails)
 cli.add_command(find_isbns)
 cli.add_command(normalize_dates)
 cli.add_command(upload)
