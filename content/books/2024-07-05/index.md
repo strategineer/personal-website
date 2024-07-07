@@ -31,6 +31,18 @@ Prior to finding these weapons, the Agaku were stereotypical generic fantasy orc
 
 Hijinks ensue.
 
+**Minor Spoilers Ahead**
+
+It turns out that despite having access to advanced weapons aren't enough to turn the battle. The forces of Light win the great battle. In the following months, they chase down and exterminate the remaining forces of Dark,  including the orc marines.
+
+This leads to a siege where the orc marines holding down the fort of InDeen (?) against a siege by the forces of Light. 
+
+Let's talk about the forces of Light. Epic fantasy has always had a problematic relationship with presenting good/bad in black and white terms with little room in between. My understanding is that this simplicity appeals to the human desire to constantly simplify the eternally complex real world in order to live within it.
+
+That's fine. But by presenting good/bad like this, it's easy to fall into the trap (intentionally or not) of depicting certain beings as inherently evil. 
+
+Dehumanizing the human.
+
 Mary Gentle portrays the forces of Light and Dark....
 
 
