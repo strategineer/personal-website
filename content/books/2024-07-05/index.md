@@ -19,7 +19,7 @@ weight: 1
 When we fire our M16s!"
 {{< /quote >}}
 
-Mary Gentle's Grunts in a nutshell. Grunts is a satire of the schlocky high fantasy Tolkien rippoffs of the 70s and 80s. It also pokes fun at the aesthetic of the American military as portrayed in film and literature.
+Mary Gentle's Grunts in a nutshell. Grunts is a satire of the schlocky high fantasy Tolkien ripoffs of the 70s and 80s. It also pokes fun at the aesthetic of the American military as portrayed in film and literature.
 
 The story begins with a group of orcs, the Agaku, being tasked with stealing powerful yet non-magical weapons from a dragon's hoard. At the request of the nameless necromancer, Ashnak leads his orcs to the hoard in preparation for the Last Battle between the forces of Light and Dark.
 
