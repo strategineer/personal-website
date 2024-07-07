@@ -17,7 +17,7 @@ weight: 1
 "You can't beat no orc marines
 
 When we fire our M16s!"
-{{< quote >}}
+{{< /quote >}}
 
 Mary Gentle's Grunts in a nutshell. Grunts is a satire of the schlocky high fantasy Tolkien rippoffs of the 70s and 80s. It also pokes fun at the aesthetic of the American military as portrayed in film and literature.
 
