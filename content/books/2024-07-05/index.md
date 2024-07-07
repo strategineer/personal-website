@@ -19,23 +19,28 @@ weight: 1
 When we fire our M16s!"
 {{< /quote >}}
 
-Mary Gentle's Grunts in a nutshell. Grunts is a satire of the schlocky high fantasy Tolkien ripoffs of the 70s and 80s. It also pokes fun at the aesthetic of the American military as portrayed in film and literature.
+Mary Gentle's Grunts in a nutshell. Grunts is a satire of the schlocky high fantasy Tolkien ripoffs of the 70s and 80s. It pokes fun at the aesthetic of the American military as portrayed in film and literature. It combines Grand Guignol (think slapstick but extra gory and violent) dark comedy with an underlying commentary on what Mary Gentle thinks of bad fantasy.  
 
-The story begins with a group of orcs, the Agaku, being tasked with stealing powerful yet non-magical weapons from a dragon's hoard. At the request of the nameless necromancer, Ashnak leads his orcs to the hoard in preparation for the Last Battle between the forces of Light and Dark.
+The story begins with a group of orcs, the Agaku led by Ashnak, being tasked with stealing powerful yet non-magical weapons from a dragon's hoard by the nameless necromancer. The pretense for this quest is that these weapons will be useful for the Final Battle between the forces of Light and Dark that's about to happen.
 
 These weapons turn out to be an impressive array of modern military equipment: assault rifles, machine guns, rocket launchers, tanks, helicopters, surface to air missile launchers...
 
 You name it, they've got it.
 
-Prior to finding these weapons, the Agaku were stereotypical generic fantasy orcs: a little stupid, violent, strong. After finding the military equipment they turn into Vietnam War-era hurrah-ing, tabbaco chewing, cigar smoking American soldiers (but what if they were orcs fighting against the forces of "Good").
+Prior to finding these weapons, the Agaku are presented stereotypical generic fantasy orcs: a little stupid, violent, strong. After finding the military equipment they turn into Vietnam War-era huuuuuurrah-ing, tabbaco chewing, cigar smoking American soldiers (but what if they were orcs fighting against the forces of "Good").
 
 Hijinks ensue.
 
 **Minor Spoilers Ahead**
 
-It turns out that despite having access to advanced weapons aren't enough to turn the battle. The forces of Light win the great battle. In the following months, they chase down and exterminate the remaining forces of Dark,  including the orc marines.
+It turns out that the modern-ish military equipment the orcs have access to isn't enough to turn the tide of the Final Battle. The forces of Light win but many forces of Dark, including Ashnak and his orc marines, manage to flee. The orc marines return to their fort in Nin-Edin.
 
-This leads to a siege where the orc marines holding down the fort of InDeen (?) against a siege by the forces of Light. 
+In the following weeks, the forces of Light chase down and ethnically cleanse (we'll get into it) the remaining forces of Dark. This leads to a siege (take a shot every time Mary Gentle depicts a siege in her work) where Ashnak and his orc marines have dug into their fort at Nin-Edin and are preparing to fend off the forces of Light.
+
+Note that all this happens in the first third of the novel, subverting the trope of the not so final Final Battle.
+
+...
+
 
 Let's talk about the forces of Light. Epic fantasy has always had a problematic relationship with presenting good/bad in black and white terms with little room in between. My understanding is that this simplicity appeals to the human desire to constantly simplify the eternally complex real world in order to live within it.
 
