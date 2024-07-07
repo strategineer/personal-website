@@ -13,7 +13,30 @@ title: Grunts
 weight: 1
 ---
 
-Mary Gentle's fantasy satire with grit. Think Terry Pratchett but more mature and with a lot more gore and violence.
+{{< quote 151 >}}
+"You can't beat no orc marines
+
+When we fire our M16s!"
+{{< quote >}}
+
+Mary Gentle's Grunts in a nutshell. Grunts is a satire of the schlocky high fantasy Tolkien rippoffs of the 70s and 80s. It also pokes fun at the aesthetic of the American military as portrayed in film and literature.
+
+The story begins with a group of orcs, the Agaku, led by Ashnak being tasked with stealing powerful yet non-magical weapons from a powerful dragon's hoard by the nameless necromancer in preparation for the Last Battle between the forces of Light and Dark.
+
+These weapons turn out to be an impressive array of modern military equipment asault rifles, machine guns, rocket launchers, tanks, helicopters, surface to air missile launchers...
+
+You name it, they've got access to it.
+
+Prior to finding these weapons, the Agaku were stereotypical generic fantasy orcs: a little stupid, violent, strong. After finding the military equipment they turn into Korean War-era hurrah, tabbaco chewing, cigar smoking American soldiers (but what if they were orcs fighting against the forces of "Good").
+
+Hijinks ensue.
+
+Mary Gentle portrays the forces of Light and Dark....
+
+
+ posits that the weapons we have access to change us (power corrupts), she posits that power is power and war is war,
+
+... fantasy satire with grit. Think Terry Pratchett but more mature and with a lot more gore and violence.
 
 <!--more-->
 
