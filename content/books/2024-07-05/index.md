@@ -27,7 +27,7 @@ These weapons turn out to be an impressive array of modern military equipment: a
 
 You name it, they've got it.
 
-Prior to finding these weapons, the Agaku were stereotypical generic fantasy orcs: a little stupid, violent, strong. After finding the military equipment they turn into Korean War-era hurrah, tabbaco chewing, cigar smoking American soldiers (but what if they were orcs fighting against the forces of "Good").
+Prior to finding these weapons, the Agaku were stereotypical generic fantasy orcs: a little stupid, violent, strong. After finding the military equipment they turn into Vietnam War-era hurrah-ing, tabbaco chewing, cigar smoking American soldiers (but what if they were orcs fighting against the forces of "Good").
 
 Hijinks ensue.
 
