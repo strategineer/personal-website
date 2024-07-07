@@ -38,6 +38,10 @@ Mary Gentle portrays the forces of Light and Dark....
 
 ... fantasy satire with grit. Think Terry Pratchett but more mature and with a lot more gore and violence.
 
+....
+
+themes to explore: ethnic cleansing,  rnd orc with gold eyes (1/8th elven)
+
 <!--more-->
 
 Kicking off the book with the "nameless necromancer" completely wasted on wine, sending off one of his orc captains on a quest of some sort was a great way to start.
