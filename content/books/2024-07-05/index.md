@@ -19,21 +19,21 @@ weight: 1
 When we fire our M16s!"
 {{< /quote >}}
 
-Mary Gentle's Grunts in a nutshell. Grunts is a satire of the schlocky high fantasy Tolkien ripoffs of the 70s and 80s. It pokes fun at the aesthetic of the American military as portrayed in film and literature. It combines Grand Guignol (think slapstick but extra gory and violent) dark comedy with an underlying commentary on what Mary Gentle thinks of bad fantasy.  
+Mary Gentle's Grunts in a nutshell. Grunts is a satire of the schlocky high fantasy Tolkien ripoffs of the 70s and 80s. It pokes fun at the aesthetic of the American military as portrayed in film and literature. It combines Grand Guignol (think slapstick but extra gory and violent) dark comedy with satire on bad fantasy. 
 
-The story begins with a group of orcs, the Agaku led by Ashnak, being tasked with stealing powerful yet non-magical weapons from a dragon's hoard by the nameless necromancer. The pretense for this quest is that these weapons will be useful for the Final Battle between the forces of Light and Dark that's about to happen.
+The story begins with a group of orcs, the Agaku led by the orc Ashnak, tasked with stealing powerful yet non-magical weapons from a dragon's hoard by the nameless necromancer. The pretense for this quest is that these weapons will be useful for the Final Battle between the forces of Light and Dark that's about to happen.
 
-These weapons turn out to be an impressive array of modern military equipment: assault rifles, machine guns, rocket launchers, tanks, helicopters, surface to air missile launchers...
+These weapons turn out to be an impressive assortment of modern military equipment: assault rifles, machine guns, rocket launchers, tanks, helicopters, surface to air missile launchers...
 
 You name it, they've got it.
 
-Prior to finding these weapons, the Agaku are presented stereotypical generic fantasy orcs: a little stupid, violent, strong. After finding the military equipment they turn into Vietnam War-era huuuuuurrah-ing, tabbaco chewing, cigar smoking American soldiers (but what if they were orcs fighting against the forces of "Good").
+The Agaku are your stereotypical generic fantasy orcs: a little stupid, violent, strong. The dragon's hoard of modern military weaponry was cursed with a geas which changes the mindset of the orcs into the stereotypical Vietnam War United States Marine Corps soldier mindset: huuuuuurrah-ing, tabbaco chewing, cigar smoking, a belief that might makes right, etc.
 
 Hijinks ensue.
 
 **Minor Spoilers Ahead**
 
-It turns out that the modern-ish military equipment the orcs have access to isn't enough to turn the tide of the Final Battle. The forces of Light win but many forces of Dark, including Ashnak and his orc marines, manage to flee. The orc marines return to their fort in Nin-Edin.
+It turns out that the modern military equipment the orc marines have access to isn't enough to turn the tide of the Final Battle. The forces of Light win but many of the forces of Dark, including Ashnak and his orc marines, manage to escape. The orc marines return to their fort in Nin-Edin.
 
 In the following weeks, the forces of Light chase down and ethnically cleanse (we'll get into it) the remaining forces of Dark. This leads to a siege (take a shot every time Mary Gentle depicts a siege in her work) where Ashnak and his orc marines have dug into their fort at Nin-Edin and are preparing to fend off the forces of Light.
 
