@@ -54,11 +54,7 @@
                   {{- end -}}
                   <div class="col-12">
                     {{ if $is_books -}}
-                      {{- if eq .Params.weight 1 -}}
-                      Reading...
-                      {{ else }}
-                      Finished on: {{ .Date | time.Format ":date_full" }}
-                      {{- end -}}
+                      {{ partial "try_reading_state" . }}
                     {{ else if .Params.date }}
                       {{- .Date | time.Format ":date_full" }}
                     {{ else }}

@@ -9,6 +9,14 @@
       {{ partial "try_star_rating" . }}
     </div>
     {{ partial "try_links" . }}
+    <div class="row justify-content-center">
+      <div class="col-auto align-self-center">
+        {{ partial "try_tags" . }}
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {{ partial "try_reading_state" . }}
+    </div>
     {{ if .Params.isbn13 }}
       <div class="row justify-content-center">
         ibsn13:
@@ -25,11 +33,6 @@
         {{ end }}
       </div>
     {{ end }}
-    <div class="row justify-content-center">
-      <div class="col-auto align-self-center">
-        {{ partial "try_tags" . }}
-      </div>
-    </div>
     {{ partial "try_video" . }}
     {{ partial "try_audio" . }}
     <div class="row justify-content-center readable">
