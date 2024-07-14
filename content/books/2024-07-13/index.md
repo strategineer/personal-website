@@ -2,15 +2,14 @@
 authors:
   - Mary Gentle
 books/tags:
-  - currently-reading
-  - fantasy
-date: 2024-07-05
+  - science fantasy
+date: 2024-07-13
 params:
   isbn13: "9780451454539"
   year: "1995"
 slug: "9780451454539"
 title: Grunts
-weight: 1
+star_rating: 3
 ---
 
 {{< quote 151 >}}

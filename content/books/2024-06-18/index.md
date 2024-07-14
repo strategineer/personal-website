@@ -2,7 +2,7 @@
 authors:
   - Claire North
 books/tags:
-  - science-fiction
+  - science fiction
 date: 2024-06-18
 params:
   isbn13: "9780356502588"

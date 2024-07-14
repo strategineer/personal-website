@@ -3,7 +3,7 @@ authors:
   - Ted Chiang
 books/tags:
   - fiction
-  - science-fiction
+  - science fiction
   - short story collection
 date: 2024-05-02
 params:

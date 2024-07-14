@@ -3,7 +3,7 @@ authors:
   - John Scalzi
 books/tags:
   - fiction
-  - science-fiction
+  - science fiction
 date: 2024-07-01
 params:
   isbn13: "9780765389121"

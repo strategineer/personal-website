@@ -3,7 +3,7 @@ authors:
   - Iain Banks
 books/tags:
   - fiction
-  - science-fiction
+  - science fiction
 date: 2024-05-18
 params:
   isbn13: "9781857231465"

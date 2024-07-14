@@ -3,7 +3,7 @@ authors:
   - Becky Chambers
 books/tags:
   - fiction
-  - science-fiction
+  - science fiction
   - slay
 date: 2024-07-03
 params:

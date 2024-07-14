@@ -3,7 +3,7 @@ authors:
   - Ursula K. Le Guin
 books/tags:
   - owned-but-unread
-  - science-fiction
+  - science fiction
 date: 2024-05-22
 params:
   isbn13: "9780765324641"
@@ -13,7 +13,7 @@ title: The Word For World Is Forest
 weight: 1
 ---
 
-Seems like Ursula K. Le Guin is subverting the old school military science-fiction trope of humans going around killing "aliens" with the humans doing the killing framed as the good guys who we're supposed to be rooting for. Maybe colonialism is bad?
+Seems like Ursula K. Le Guin is subverting the old school military science fiction trope of humans going around killing "aliens" with the humans doing the killing framed as the good guys who we're supposed to be rooting for. Maybe colonialism is bad?
 
 Let's see how this goes.
 

@@ -2,7 +2,7 @@
 authors:
   - Adrian Tchaikovsky
 books/tags:
-  - science-fiction
+  - science fiction
 date: 2024-05-23
 params:
   isbn13: "9781800241565"

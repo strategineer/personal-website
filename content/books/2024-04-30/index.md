@@ -3,7 +3,7 @@ authors:
   - Nana Kwame Adjei-Brenyah
 books/tags:
   - fiction
-  - science-fiction
+  - science fiction
   - dystopian
   - slay
 date: 2024-04-30

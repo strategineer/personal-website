@@ -33,7 +33,7 @@ I'm prisoner here.
 
 This is no Romance of Arthur or Peredur. I'm not about to scale the walls, fight off armoured men with my bare hands, ride off into the sunshine. What happens to valueless prisoners taken in war is pain first, broken bodies second, and an unmarked, unchristian burial afterwards. I am in their city. They own it now. {{< /quote >}}
 
-Fantastical / science-fiction story beats that appear in the first few pages and continue to unravel in interesting ways as the story goes on.
+Fantastical / science fiction story beats that appear in the first few pages and continue to unravel in interesting ways as the story goes on.
 
 {{< quote >}} Snow whirled faster from the invisible whiteness of the sky into the glade. Snow covered the green ivy, the red berries of the holly. Snow froze on the spindly brown arcs of briar. A great huffing animal breath came down from the altar of the ruined green chapel. Ash watched its whiteness on the air. Animal-breath hit her in the face, warm and wet.
 
