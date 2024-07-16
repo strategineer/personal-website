@@ -4,6 +4,8 @@ authors:
 books/tags:
   - currently-reading
   - fiction
+  - graphic novel
+  - horror
 date: 2024-07-15
 params:
   isbn13: '9781593070205'
