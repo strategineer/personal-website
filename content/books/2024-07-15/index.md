@@ -5,6 +5,7 @@ books/tags:
   - currently-reading
   - fiction
   - graphic novel
+  - fantasy
   - horror
 date: 2024-07-15
 params:
