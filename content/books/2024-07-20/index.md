@@ -46,7 +46,7 @@ I'm not too surprised why this is rarely done today. It must be hard to do well 
 
 Are there any problems with Frank Herbert's Dune? Absolutely. The one issue that stands out to me is the introduction of Feyd-Rautha in the last quarter of the book. Unlike every other character in the novel who is introduced early on and built upon throughout the text, Feyd-Rautha shows up out of nowhere and we're expected to care about his bullshit.
 
-I wonder if this discrepancy comes from Dune's initial publication as a two-part serial? I don't know but it doesn't work for me. Feyd-Rautha should have been introduced way earlier which would have given the reader more time to build up to the final confrontation at the end of the novel.
+I wonder if this discrepancy comes from Dune's initial publication as a two-part serial? I don't know but it doesn't work for me. Feyd-Rautha should have been introduced way earlier which would have given the reader more time to build the character up in their minds before the final confrontation with him at the end of the novel.
 
 I'm in love with Dune and I'm committed to reading through its sequel Dune Messiah next. If I enjoy that, I'll likely be taking a look at Children of Dune sooner than later.
 
