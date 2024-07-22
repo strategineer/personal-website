@@ -2,8 +2,10 @@
 authors:
   - Frank Herbert
 books/tags:
-  - owned-but-unread
-date: 1800-01-25
+  - currently-reading
+  - fiction
+  - science fiction
+date: 2024-07-21
 params:
   isbn13: "9780593098233"
   series: Dune
