@@ -56,4 +56,4 @@ PS: Special mention to Brian Herbert, Frank Herbert's son. Reading through Brian
 As if whispering in his own ear, Frank Herbert constantly reminded himself that he was mortal. If he had been a politician, he would have undoubtedly been an honorable one, perhaps even one of our greatest U.S. presidents.
 {{< /quote >}}
 
-Also, Brian Herbert is clearly someone who does not understand what made his father's work resonate so widely and the fact that the "Dune" torch was passed down to him is truly sad. What a clown.
+Also, Brian Herbert is clearly someone who does not understand what made his father's work resonate so widely and the fact that the "Dune" torch was passed down to him is truly sad. What a clown hehe.
