@@ -35,11 +35,11 @@ The novel is by no means perfect and one could argue that Denis Villeneuve's mov
 Another part of the novel that I enjoy quite a bit which isn't present in the movies is Frank Herbert's mastery of the shifting POV. Multiple POV characters is not anything new to me, almost every single novel I read has multiple POV characters. Dune is different because it has an omniscient narrator that dives deep into the psyche of each of the characters it's focusing on, showing the reader their inner thoughts and concerns while also smoothly flowing from one character to the next within the same chapter, even the same paragraph.
 
 {{< quote 297 >}}
-One thought remained to him. [POV Character #1] saw it in formless light on rays of black: The day the flesh shapes and the flesh the day shapes. The thought struck him with a sense of fullness he knew he could never explain.
+One thought remained to him. [POV Character 1] saw it in formless light on rays of black: The day the flesh shapes and the flesh the day shapes. The thought struck him with a sense of fullness he knew he could never explain.
 
 Silence.
 
-[POV Character #2] stood with his back against his private door, his own bolt hole behind the table. He had slammed it on a room full of dead men. His senses took in guards swarming around him. Did I breathe it? he asked himself.
+[POV Character 2] stood with his back against his private door, his own bolt hole behind the table. He had slammed it on a room full of dead men. His senses took in guards swarming around him. Did I breathe it? he asked himself.
 {{< /quote >}}
 
 I'm not too surprised why this is rarely done today. It must be hard to do well and even when done well it's much harder for the reader to follow. It seems as though a lot of readers today, perhaps this has always been true, skim through the texts they read. You can't skim through a text like Dune and expect to understand what's going on at all times because of the constantly switching focus of the omniscient narrator.
