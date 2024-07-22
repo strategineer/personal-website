@@ -34,7 +34,7 @@ The novel is by no means perfect and one could argue that Denis Villeneuve's mov
 
 Another part of the novel that I enjoy quite a bit is Frank Herbert's mastery of the shifting POV. Multiple POV characters is not anything new to me, almost every single novel I read has multiple POV characters. Dune is different because it has an omniscient narrator who dives deep into the psyche of each of the characters it's focusing on, showing the reader their inner thoughts and concerns while also smoothly flowing from one character to the next within the same chapter, even the same paragraph.
 
-{{< quote >}}
+{{< quote 297 >}}
 One thought remained to him. [POV Character #1] saw it in formless light on rays of black: The day the flesh shapes and the flesh the day shapes. The thought struck him with a sense of fullness he knew he could never explain.
 
 Silence.
@@ -52,7 +52,7 @@ I'm in love with Dune and I'm committed to reading through its sequel Dune Messi
 
 PS: Special mention to Brian Herbert, Frank Herbert's son. Reading through Brian's afterword to Dune and his foreword to the sequel Dune Messiah brought me a lot of joy because of how childish, clownish and delusional Brian Herbert seems to be.
 
-{{< quote >}}
+{{< quote "xi" >}}
 As if whispering in his own ear, Frank Herbert constantly reminded himself that he was mortal. If he had been a politician, he would have undoubtedly been an honorable one, perhaps even one of our greatest U.S. presidents.
 {{< /quote >}}
 
