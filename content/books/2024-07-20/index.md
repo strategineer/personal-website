@@ -30,7 +30,7 @@ Maybe if Jodorowsky had been able to achieve his vision of a 15 hour long movie 
 
 What makes Frank Herbert's Dune novel so special for me? Well, it's a few things. The concerns present in the text (environmental, technological, late capitalism-related, ideological) have only become more relevant in the decades since the novel was written.
 
-The novel is by no means perfect and one could argue that Denis Villeneuve's movie is a better and more cohesive "product" compared to the novel. But Denis Villeneuve's movie suffers from being a big budget movie that has to condense and drop many of the more interesting parts of the novel and whitewash or completely remove the more subsersive ideas present in the text.
+The novel is by no means perfect and one could argue that Denis Villeneuve's movie is a better and more cohesive "product" compared to the novel. But Denis Villeneuve's movie suffers from being a big budget movie that has to condense and drop many of the more interesting parts of the novel and whitewash or completely remove the more subversive ideas present in the text.
 
 Another part of the novel that I enjoy quite a bit is Frank Herbert's mastery of the shifting POV. Multiple POV characters is not anything new to me, almost every single novel I read has multiple POV characters. Dune is different because it has an omniscient narrator who dives deep into the psyche of each of the characters it's focusing on, showing the reader their inner thoughts and concerns while also smoothly flowing from one character to the next within the same chapter, even the same paragraph.
 
