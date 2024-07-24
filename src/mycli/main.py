@@ -219,8 +219,8 @@ def fetch_thumbnails():
                 )
                 continue
             if not has_thumbnail or not thumbnail_big_enough:
-                isbn13 = post.metadata['params']['isbn13']
-                if isbn13 in ["9781250251510", "9780441003051"]:
+                isbn13 = post.metadata['params'].get('isbn13')
+                if isbn13 is None or isbn13 in ["9781250251510", "9780441003051"]:
                     continue
                 print(
                     f"Fetching thumbnail for:\n\t{isbn13}\n\t{filename}"
