@@ -37,7 +37,7 @@ She read hate mingled with profound suspicion in his tone.
 "Muad'dib rules everywhere," he said.
 {{< /quote >}}
 
-Having been disappointed that some readers read Dune and thought otherwise, Frank Herbert went all the way in the sequel to really hit you on the head with Paul's awfulness.
+Being disappointed that some readers read Dune and thought otherwise, Frank Herbert went all the way in the sequel to really hit you on the head with Paul's awfulness.
 
 {{< quote 138 >}}
 "Ghengis ... Khan? Was he of the Sardaukar, m'Lord?"
@@ -53,11 +53,11 @@ Frank Herbert is skeptical of the great man theory and his Dune series tackles t
 
 If you were expecting another Hero's Journey from Dune Messiah (even a mocking portrayal or parody of one) after reading Dune's, expect to be disappointed because Dune Messiah is not that.
 
-Dune Messiah luxuriates in the awfulness of Paul and is expecting you to root for the dissidents that are trying to bring his reign to an end. It's subversive as hell! I'm not saying that all people in power should be torn down forcefully from their golden thrones but some definitely should and to see this portrayed in fiction, especially in a novel written so many decades ago, is truly mind blowing.
+Dune Messiah luxuriates in the awfulness of Paul and is expecting you to root for the dissidents that are trying to bring his reign to an end. I don't think that all people in power should be torn down forcefully from their golden thrones but some definitely should and to see this portrayed in fiction, especially in a novel written so many decades ago, is mind blowing.
 
-Other writers would have walked back some of the more subversive themes in Dune after it became such a massive hit to increase its marketability to the masses instead of double downing on these ideas like he did. And the novel is much more interesting because of it.
+Other writers would have walked back some of the more subversive themes in Dune after it became such a massive hit to sell more copies instead of double downing on these ideas like he did. And the novel is much more interesting because of it.
 
-Frank Herbert is also skeptical of groups (or perhaps he just likes to write about awful people of all kinds). The Bene Gesserit are an all women organisation that most of the female characters we know about belong to. The Bene Gesserit represent a kind of "soft" (womenly?) power to control people through relationships, lineages, genes. They are truly awful. It's not just that they are partially responsible for Paul's rise to power but at every turn they will surprise you with how low they can go in their game of morality Limbo.
+Frank Herbert is also skeptical of groups (or perhaps he just likes to write about awful people of all kinds). The Bene Gesserit are an all-women organisation that most of the women we know about belong to. The Bene Gesserit represent a kind of soft power to control people through relationships, lineages, genes. They are awful. It's not just that they are partially responsible for Paul's rise to power but at every turn they will surprise you with how low they are willing to go in their game of morality Limbo.
 
 {{< quote "104-105" >}}
 The Reverend Mother sighed. On the surface, it was the sigh of a prisoner bemoaning her fate, but inwardly she felt the response as a comment on Irulan. It was futile to hope the Atreides Emperor’s precious gene pattern could be preserved through this instrument. No matter her beauty, this Princess was flawed. Under that veneer of sexual attraction lived a whining shrew more interested in words than in actions. Irulan was still a Bene Gesserit, though, and the Sisterhood reserved certain techniques to use on some of its weaker vessels as insurance that vital instructions would be carried out.
@@ -65,10 +65,10 @@ The Reverend Mother sighed. On the surface, it was the sigh of a prisoner bemoan
 Beneath small talk about a softer pallet, better food, the Reverend Mother brought up her arsenal of persuasion and gave her orders: the brother-sister crossbreeding must be explored. (Irulan almost broke at receiving this command.)
 {{< /quote >}}
 
-Frank Herbert is not a luddite but he is concerned with technology's ability to amplify the worst parts of our own humanity. This is clearly a concern of his in Dune with the references to the Butlerian Jihad and his thoughts on nuclear weapons. Dune Messiah expands on this theme through the Tleilaxu, who are a people with comparatively advanced technology without any of the pesky morality getting in the way of their technological "progress".   
+Frank Herbert is not a luddite but he is concerned with technology's ability to amplify the worst parts of our own humanity. This is clearly a concern of his in Dune with the references to the Butlerian Jihad and his thoughts on nuclear weapons. Dune Messiah expands on this theme through the Tleilaxu, who are a people with comparatively advanced technology without any pesky morality getting in the way of their technological "progress".   
 
 {{< quote "91-92" >}}
 This was a Tleilaxu thing. The Tleilaxu displayed a disturbing lack of inhibitions in what they created. Unbridled curiosity might guide their actions. They boasted they could make anything from the proper human raw material—devils or saints. They sold killer-mentats. They’d produced a killer medic, overcoming the Suk inhibitions against the taking of human life to do it. Their wares included willing menials, pliant sex toys for any whim, soldiers, generals, philosophers, even an occasional moralist.
 {{< /quote >}}
 
-Like any good work of sci-fi, Dune Messiah, and the series as a whole so far, is like an onion. Under every layer you'll find more ideas to think about and discuss than you might expect. But you also might find that most of the concerns Frank Herbert had in the 60s when he wrote these books have only gotten more concerning in the intervening time and, thus, you might find yourself peeling this onion and finding more reasons to cry than you might have expected.
+Like any good work of sci-fi, Dune Messiah, and the series as a whole so far, is like an onion. Under every layer you'll find more ideas to think about and discuss than you might expect. But if you're anything like me, you might find that most of the concerns Frank Herbert had in the 60s when he wrote these books have only gotten more concerning in the intervening decades and, thus, you might find yourself peeling back this onion that is the Dune series and finding more reasons to cry than you might have expected.
