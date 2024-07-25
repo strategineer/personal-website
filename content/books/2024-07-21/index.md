@@ -53,7 +53,7 @@ Frank Herbert is skeptical of the great man theory and his Dune series tackles t
 
 If you were expecting another Hero's Journey from Dune Messiah (even a mocking portrayal or parody of one) after reading Dune's, expect to be disappointed because Dune Messiah is not that.
 
-Dune Messiah luxuriates in the awfulness of Paul and is expecting you to root for the dissidents that are trying to bring his reign to an end. I don't think that all people in power should be torn down forcefully from their golden thrones but some definitely should and to see this portrayed in fiction, especially in a novel written so many decades ago, is mind blowing.
+Dune Messiah luxuriates in the awfulness of Paul and is expecting you to root for the dissidents that are trying to bring his reign to an end despite them being just as awful as Paul but much less powerful. I don't think that all people in power should be torn down forcefully from their golden thrones but some definitely should and to see this portrayed in fiction, especially in a novel written so many decades ago, is mind blowing.
 
 Other writers would have walked back some of the more subversive themes in Dune after it became such a massive hit to sell more copies instead of double downing on these ideas like he did. And the novel is much more interesting because of it.
 
