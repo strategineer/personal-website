@@ -264,7 +264,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn=lambda x: Fa
                 try:
                     post = frontmatter.load(f)
                     isbn13 = post.metadata.get("params", {}).get("isbn13")
-                    if isbn13 is not None:
+                    if isbn13 is not None and isbn13 not in ["9798218255299"]:
                         posts.append((isbn13, filename, post))
                 except UnicodeDecodeError:
                     print(
