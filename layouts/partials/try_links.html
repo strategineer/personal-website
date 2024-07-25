@@ -52,8 +52,9 @@
       </a>
     </li>
     {{ end }}
+    {{ $slug := .Slug }}
     {{ with .File }}
-      {{ if $has_book_links }}
+      {{ if or $has_book_links (eq $slug "mothership_1e")  }}
       <li class="list-inline-item li-inline">
         {{ $base_url := "https://github.com/strategineer/personal-website/blob/master/content/" }}
         <a href="{{ add $base_url (path.Join .Path) }}">
