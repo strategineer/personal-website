@@ -4,7 +4,7 @@ authors:
 books/tags:
   - fiction
   - science fiction
-date: 2024-07-21
+date: 2024-07-25
 params:
   isbn13: "9780593098233"
   series: Dune
