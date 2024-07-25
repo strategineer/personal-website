@@ -1,27 +1,23 @@
 ---
 authors:
-- Claymore
+- Tuesday Knight Games
 books/tags:
 - tabletop
 date: 2024-07-23
 params:
-  isbn13: '9798218255299'
-  year: '2023'
-slug: '9798218255299'
-title: 'FIST: Ultra Edition'
+  year: '2020'
+slug: 'mothership_1e'
+title: 'Mothership 1E'
 star_rating: 5
 ---
 
-Metal Gear / A-Team inspired tabletop RPG. Seems like this would be great for one-shots (or potentially longer campaigns) with people with any level of experience in roleplaying because the rules are so simple yet exciting.
+A sci-fi horror tabletop RPG with some of the most evocative RPG modules I've ever read. I can't wait to play this!
 
 <!--more-->
 
-Reading through these rules reminded me of two campaigns I participated in.
+Special mention goes to:
 
-One campaign set in the Mage: The Ascension setting (sort of, it's complicated, but in our case a setting in which all conspiracies are real and your beliefs alter reality such that they become true, the stronger your beliefs and the more widespread they are the more true and omnipresent they become) where we played a crew of believers of different kinds (a self-help guru, a ghost detective and a The Matrix fanboy) and we unraveled a mystery revolving around a rogue AI (Roko's basilisk) that was trying to take over the world (we nuked it from orbit and travelled the galaxy spreading the power of positive thinking throughout... I think? It's been a while).
+- The Gradient Descent module, a not-so-mega mega dungeon, featuring an advanced android manufacturing factory, colloquially known as the Deep, taken over by an all-seeing AI, the Monarch, that was designed to help run the factory but eventually took it over completely. The player characters either start out as Divers who delve into the facility repeatedly to find Artifacts or find themselves with amnesia deep within the facility seeking to escape. Either way, the PCs will have to reckon with the Bends, a psychological ailment afflicking all of those who brave the Deep, a sickness that causes you to question whether or not you're actually a human with some semblance of free will or an android under the control of the Mornarch. 
+- The Dead Planet module featuring a cursed planet that strands any ships that find themselves in its vicinity (think the Bermuda Triangle) and curses the inhabitants of these ships to death or a life's worth of toil building a gate to a realm of horror and death.  
 
-Another campaign was inspired by Jojo's Bizarre Adventure where the player characters were all Stand users as well as Cold War-era A-team-esque special forces operatives tasked with infiltrating an evil villain's volcano base and taking it off the map (we nuked it from orbit, are you sensing a pattern here?).
-
-In these two campaigns we used a homebrewed version of the Savage World rules, but the FIST rules seem perfectly designed to play these sorts of cooky slightly superpowered characters in modern-ish settings undercovering global conspiracies and fighting the good (probably not so good if we're being honest, but we're not) fight through violence, subterfuge, theft, cheating and misdirection.
-
-Reading the FIST rules has gotten me so excited to hop back into this kind of setting, I think I'll be working on a one-shot that I can run ASAP.
+The official modules are packaged as zines with gritty diegetic aesthetics that really sell the fantasy of the setting described within them. Of course, to really bring these modules to life, you as the Referee will have to do the hard work. But the amazing presentation of them really helped me imagine what playing these modules could be like and, in doing so, got me really excited to start running them ASAP. 
