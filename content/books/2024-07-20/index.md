@@ -24,6 +24,8 @@ It's Dune. It's aged surprisingly well. It has a lot to say about the world of t
 
 <!--more-->
 
+{{< series >}}
+
 Having watched both David Lynch's Dune and Denis Villeneuve's Dune Part One, I feel like although both are interesting and good in their own way (yes, even the David Lynch movie), Dune is a story best told as a novel, by adapting Dune into a movie you lose a lot of what makes Dune interesting.
 
 Maybe if Jodorowsky had been able to achieve his vision of a 15 hour long movie adaptation of Dune, I'd feel differently... but here we are.
