@@ -1,6 +1,6 @@
 ---
 authors:
-- Claymore
+- Tuesday Knight Games
 books/tags:
 - tabletop
 date: 2024-07-24
