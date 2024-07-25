@@ -3,8 +3,10 @@ authors:
   - Marina Dyachenko
   - Sergey Dyachenko
 books/tags:
-  - owned-but-unread
-date: 1800-02-01
+  - currently-reading
+  - fiction
+  - fantasy
+date: 2024-07-24
 params:
   isbn13: "9780062694591"
   year: "2018"
