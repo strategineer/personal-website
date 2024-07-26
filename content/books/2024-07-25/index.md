@@ -21,3 +21,17 @@ Grounded yet fantastical story about a young woman, Sasha, who is stalked by a w
 Sasha ends up going there without knowing what it is and is thrust into a world of dark academia with widespread and fantastical implications. 
 
 <!--more-->
+
+This novel is great, I highly recommend it if you're into weird AF stories.
+
+**Minor story spoilers**
+
+It's impossible to read through a novel like this without comparing every part of it to Harry Potter, so let's do that.
+
+Harry Potter is an orphan. Sasha has a mother.
+
+Harry Potter has a thunderbolt scar on his forehead, marking him as the Chosen One. Sasha is a regular young woman who woke up at 4am, ran around a park and pissed in the bushes for a few weeks as requested by a mysterious man. She's not special, although through hard work perhaps she becomes special.
+
+Harry Potter and his fellow students spend most of their time on fun field trips, messing around in the dorms or sneaking around after curfew. Sasha and her fellow students spend most of their time studying, attending class (some classes at least) and sometimes celebrating with alcohol and sex.
+
+Harry Potter passively exists while the world happens around him. Sasha's perseverance in her studies transform her into someone she was not at the start. And reading about this transformation is thrilling and spooky.  
