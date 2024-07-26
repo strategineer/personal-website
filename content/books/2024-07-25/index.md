@@ -34,4 +34,4 @@ Harry Potter has a thunderbolt scar on his forehead, marking him as the Chosen O
 
 Harry Potter and his fellow students spend most of their time on fun field trips, messing around in the dorms or sneaking around after curfew. Sasha and her fellow students spend most of their time studying, attending class (some classes at least) and sometimes celebrating with alcohol and sex.
 
-Harry Potter passively exists while the world happens around him. Sasha's perseverance in her studies transform her into someone she was not at the start. And reading about this transformation is thrilling and spooky.  
+Harry Potter passively exists while the world happens around him. Sasha's perseverance in her studies transform her into someone she, or you as the reader, could have dreamed of her becoming. And reading about her transformation from her perspective through its various stages is thrilling and spooky.  
