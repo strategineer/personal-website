@@ -45,9 +45,13 @@ Marina and Sergey Dyachenko seem to love flaunting the fact that most of the exp
 “You would not be able to understand it. It’s too early.”
 {{< /quote >}}
 
+...
+
 {{< quote 181 >}}
 “Too early, my girl. It’s too soon for you to know. Right now you are still a slave of a framework, a plaster mold with a hint of imagination. With memory, with a personality . . 
 {{< /quote >}}
+
+...
 
 {{< quote 246 >}}
 “That thing that was there . . . What is it?”
