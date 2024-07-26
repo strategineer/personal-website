@@ -60,20 +60,3 @@ Marina and Sergey Dyachenko seem to love flaunting the fact that most of the exp
 This book has some interesting ideas, I just wish they were laid out in a different way and paid off eventually.
 
 The idea of an exclusive college teaching students secret knowledge about the world is a really compelling premise and I can see why this premise is so popular. But the terrible wrapping up of the mysteries and the incomprehensible ending has thrown me for such a loop that I feel myself actively resisting thinking about this book as anything else other than a missed opportunity that isn't worth thinking too much about.
-
----
-
-# Comparing this novel to Harry Potter
-
-
-It's impossible to read through a novel like this without comparing every part of it to Harry Potter, so let's do that.
-
-Harry Potter is an orphan. Sasha has a mother.
-
-Harry Potter has a thunderbolt scar on his forehead, marking him as the Chosen One. Sasha is a regular young woman who woke up at 4am, ran around a park and pissed in the bushes for a few weeks as requested by a mysterious man. She's not special, although through hard work perhaps she becomes special.
-
-Harry Potter and his fellow students spend most of their time on fun field trips, messing around in the dorms or sneaking around after curfew. Sasha and her fellow students spend most of their time studying, attending class (some classes at least) and sometimes celebrating with alcohol and sex.
-
-Harry Potter passively exists while the world happens around him. Sasha's perseverance in her studies transform her into someone she, or you as the reader, could have dreamed of her becoming. And reading about her transformation from her perspective through its various stages is thrilling and spooky.
-
-Harry Potter's politics are horrendous: Harry and his friends dreaming of careers as wizard cops who put criminals in hell prison where Dementors make them go crazy, the slaves love being slaves and can't imagine not being used and abused by others. Sasha's politics are nothing like that. What's being done to her is awful, her professors are awful and the novel presents them as such.
