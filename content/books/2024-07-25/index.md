@@ -34,4 +34,6 @@ Harry Potter has a thunderbolt scar on his forehead, marking him as the Chosen O
 
 Harry Potter and his fellow students spend most of their time on fun field trips, messing around in the dorms or sneaking around after curfew. Sasha and her fellow students spend most of their time studying, attending class (some classes at least) and sometimes celebrating with alcohol and sex.
 
-Harry Potter passively exists while the world happens around him. Sasha's perseverance in her studies transform her into someone she, or you as the reader, could have dreamed of her becoming. And reading about her transformation from her perspective through its various stages is thrilling and spooky.  
+Harry Potter passively exists while the world happens around him. Sasha's perseverance in her studies transform her into someone she, or you as the reader, could have dreamed of her becoming. And reading about her transformation from her perspective through its various stages is thrilling and spooky.
+
+Harry Potter's politics are horrendous: Harry and his friends dreaming of careers as wizard cops who put criminals in hell prison where Dementors make them go crazy, the slaves love being slaves and can't imagine not being used and abused by others. Sasha's politics are nothing like that. What's being done to her is awful, her professors are awful and the novel presents them as such. TBD
