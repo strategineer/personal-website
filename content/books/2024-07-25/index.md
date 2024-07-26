@@ -25,7 +25,7 @@ A grounded yet fantastical story about a young woman, Sasha, who is selected to 
 
 **Minor spoilers to follow**
 
-I blasted my way through this novel, I would be lying if I didn't mention that it pulled me in with compelling mysteries and fantastic mind bending depictions of a character who's consciousness is expanding at a rate she can't control.
+I blasted my way through this novel, I would be lying if I didn't mention that it pulled me in with compelling mysteries and fantastic mind bending depictions of a character who's mind is bending in ways it shouldn't.
 
 {{< quote 289 >}}
 She detonated herself like a grenade, ran all over in a stream, and enveloped the entire auditorium in a thin fog. A split second, and the fog thickened and charged at [...], storming into his nostrils, pouring into his throat, catching the foreign breath.
