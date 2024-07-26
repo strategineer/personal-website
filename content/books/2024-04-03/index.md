@@ -2,6 +2,7 @@
 authors:
   - Arkady Strugatsky
   - Boris Strugatsky
+  - Olena Bormashenko
 books/tags:
   - fiction
   - science fiction
