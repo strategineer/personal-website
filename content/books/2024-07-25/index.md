@@ -15,7 +15,7 @@ title: Vita Nostra
 star_rating: 3
 ---
 
-Grounded yet fantastical story about a young woman, Sasha, who is stalked by a weird man who tells her to do weird things. She does what he tells her to do and he gives her to study at the Institute of Special Technologies.
+Grounded yet fantastical story about a young woman, Sasha, who is stalked by a weird man who tells her to do weird things. She does what he tells her to do and he gives her an invitation to study at the Institute of Special Technologies.
 
 Sasha ends up going there without knowing what it is and is thrust into a world of dark academia with widespread and fantastical implications. 
 
