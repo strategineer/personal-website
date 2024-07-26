@@ -4,7 +4,6 @@ authors:
   - Sergey Dyachenko
   - Julia Meitov Hersey
 books/tags:
-  - currently-reading
   - fiction
   - fantasy
 date: 2024-07-25
@@ -13,7 +12,7 @@ params:
   year: "2018"
 slug: "9780062694591"
 title: Vita Nostra
-weight: 1
+star_rating: 3
 ---
 
 Grounded yet fantastical story about a young woman, Sasha, who is stalked by a weird man who tells her to do weird things. She does what he tells her to do and he gives her to study at the Institute of Special Technologies.
@@ -21,8 +20,6 @@ Grounded yet fantastical story about a young woman, Sasha, who is stalked by a w
 Sasha ends up going there without knowing what it is and is thrust into a world of dark academia with widespread and fantastical implications. 
 
 <!--more-->
-
-This novel is great, I highly recommend it if you're into weird AF stories.
 
 **Minor story spoilers**
 
@@ -36,4 +33,13 @@ Harry Potter and his fellow students spend most of their time on fun field trips
 
 Harry Potter passively exists while the world happens around him. Sasha's perseverance in her studies transform her into someone she, or you as the reader, could have dreamed of her becoming. And reading about her transformation from her perspective through its various stages is thrilling and spooky.
 
-Harry Potter's politics are horrendous: Harry and his friends dreaming of careers as wizard cops who put criminals in hell prison where Dementors make them go crazy, the slaves love being slaves and can't imagine not being used and abused by others. Sasha's politics are nothing like that. What's being done to her is awful, her professors are awful and the novel presents them as such. TBD
+Harry Potter's politics are horrendous: Harry and his friends dreaming of careers as wizard cops who put criminals in hell prison where Dementors make them go crazy, the slaves love being slaves and can't imagine not being used and abused by others. Sasha's politics are nothing like that. What's being done to her is awful, her professors are awful and the novel presents them as such.
+
+...
+
+
+I blasted my way through this novel, it does some stuff VERY well but its mysteries didn't finish off in a satisfying way for me and the constant repeating of "Sasha, you're not ready for the truth" started to become grating midway through the book.
+
+The descriptions of the mind altering puzzles that Sasha finds herself in and her shifting and expanding perception are fantastic.
+
+Something must have been lost in translation here because the ending seems as though it wants to explicitly tell the reader what's going on but it's not comprehensible.
