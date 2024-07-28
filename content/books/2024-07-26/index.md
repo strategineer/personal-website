@@ -16,7 +16,7 @@ title: Use Of Weapons
 weight: 1
 ---
 
-Use of Weapons, it's about Iain Banks's utopian Culture, and how it deals with autocrats and a freelance mercenary named Zakelwe who doesn't like how the Culture deals with autocrats, so he takes matters into his own hands.
+Use of Weapons, it's about Iain Banks's utopian Culture, and how it deals with autocrats and a freelance mercenary named Zakelwe who doesn't like how the Culture deals with autocrats, so he takes matters into his own hands. Funny and philosophical, this is peak Iain Banks. 
 
 <!--more-->
 
