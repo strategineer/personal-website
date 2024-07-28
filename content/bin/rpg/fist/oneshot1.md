@@ -8,7 +8,7 @@ is_rpg: true
 Notes for running the FIST Hazard Function funnel mission (ref: https://itch.io/queue/c/2461905/compatible-with-fist?game_id=1684797)
 
 
-# 1. Ask players to generate characters
+# 1. Character generation
 
 Use Character generator here https://fistref.com/random-merc
 
@@ -16,17 +16,23 @@ Each player should quickly create three FIST characters with one trait, 1D6 MAX 
 
 The only available role is SURVIVOR: Describe why you want to live. If you live until the end of the mission, take another trait and gain a role, change your MAX HP to 6, then take a standard issue item, +1D6 MAX HP, or +1D6 WAR DICE.
 
-# 2. Read the following text
+# 2. Read intro text
 
 > [MIC FEEDBACK] Good morning, patriots. You may be feeling a little woozy right now— that’s to be expected. For the last twenty- four hours, you have been anesthetized and placed in sensory deprivation tanks—that explains the pruny fingers!—while being intravenously administered lysergic acid diethylamide. There’s no need to panic— really, you’ll feel better if you don’t. Rest assured, your fellow bums, dope dealers, and degenerates have already forgotten about you, but your country—or the country you’re squatting in, as the case may be—will never forget the Crucible Program. Look alive, soldiers. [AUDIO ENDS]
 
-# 3. Open the map in GIMP, share your screen and use the erase tool to gradually reveal the map
+# 3. Map reveal
+
+Open the map in GIMP, share your screen and use the erase tool to gradually reveal the map as players walk through the rooms.
 
 [Gimp project](map.xcf)
 
-# 4. Tables
+# 4. Describe room, let players play, repeat...
 
-{{< rpg_multi_table FullRoom Room BasicEnemies WildAnimals Hazards >}}
+When players enter a room Dr. Stillman can make some comment to them.
+
+# 5. Tables
+
+{{< rpg_multi_table FullRoom Room Hazards BasicEnemies WildAnimals >}}
 
 {{< rpg_table name="Room" weighted=true hide_table=true >}}
 | 2d6+ | Room | Notes |
@@ -44,6 +50,8 @@ The only available role is SURVIVOR: Describe why you want to live. If you live 
 | 2.78  |  JUNGLE (high cover) | Realistically impenetrable plastic foliage. |
 {{< /rpg_table >}}
 
+## Encounters 
+{{< rpg_roll "1d6" >}}
 
 | 1d6+ + Rooms Cleared | Encounters | 
 | --- | --- |
@@ -64,7 +72,8 @@ The only available role is SURVIVOR: Describe why you want to live. If you live 
 | 15.|  Roll 3 × ENCOUNTERS 1D6+0 |
 | 16+|  Stronger robot duplicate of a player (+6 MAX HP) |
 
-
+## Items
+{{< rpg_roll "1d6" >}}
 
 | 1d6+ + Rooms Cleared | Items  | 
 | --- | --- |
@@ -85,7 +94,8 @@ The only available role is SURVIVOR: Describe why you want to live. If you live 
 | 15. |  Silencer (attach to any gun) |
 | 16+ |  Trait item (if needed) or reroll ITEMS 1D6+8 |
 
-{{< rpg_table name="BasicEnemies" hide_table=true >}}
+## Enemies
+{{< rpg_table name="BasicEnemies" >}}
 | 1d6 | Enemy |
 | --- | --- |
 | 1 | CONTROL SUBJECT (3 HP, worst of 2D6 DAMAGE). An unaltered civilian. |
@@ -97,7 +107,7 @@ The only available role is SURVIVOR: Describe why you want to live. If you live 
 {{< /rpg_table >}}
 
 
-{{< rpg_table name="WildAnimals" hide_table=true >}}
+{{< rpg_table name="WildAnimals" >}}
 | 1d6 | Wild Animal |
 | --- | --- |
 | 1 | ALLIGATOR (8 HP, 1D6+2 DAMAGE, 1 ARMOR, roll +FRC to escape jaws) |
@@ -109,6 +119,7 @@ The only available role is SURVIVOR: Describe why you want to live. If you live 
 {{< /rpg_table >}}
 
 
+## Hazards
 {{< rpg_table name="Hazards" weighted=true hide_table=true >}}
 | 2d6+ | Hazards | 
 | --- | --- |
