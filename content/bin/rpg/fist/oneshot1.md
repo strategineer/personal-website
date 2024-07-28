@@ -12,13 +12,50 @@ Notes for running the FIST Hazard Function funnel mission (ref: https://itch.io/
 
 Use Character generator here https://fistref.com/random-merc
 
-Each player should quickly create three FIST characters with one trait, 1D6 MAX HP, no items, no extra MAX HP, and no WAR DICE. Rolling to randomly generate characters is encouraged. Your codenames are referee- assigned alphanumerical designations, e.g. “Foxtrot-9” or “Bravo-7”.
+Each player should randomly generate three FIST characters with one trait, 1D6 MAX HP, no items, no extra MAX HP, and no WAR DICE.
+
+Your codenames are referee-assigned alphanumerical designations, e.g. “Foxtrot-9” or “Bravo-7”.
+
+{{< rpg_table name="NatoCode" hide_table=true >}}
+| codename |
+| --- |
+| Alfa |
+| Bravo |
+| Charlie |
+| Delta |
+| Echo |
+| Foxtrot |
+| Golf |
+| Hotel |
+| India |
+| Juliett |
+| Kilo |
+| Lima |
+| Mike |
+| November |
+| Oscar |
+| Papa |
+| Quebec |
+| Romeo |
+| Sierra |
+| Tango |
+| Uniform |
+| Victor |
+| Whiskey |
+| X-ray |
+| Yankee |
+| Zulu |
+{{< /rpg_table >}}
+
+-
+
+{{< rpg_roll "1d9" >}}
 
 The only available role is SURVIVOR: Describe why you want to live. If you live until the end of the mission, take another trait and gain a role, change your MAX HP to 6, then take a standard issue item, +1D6 MAX HP, or +1D6 WAR DICE.
 
 # 2. Read intro text
 
-> [MIC FEEDBACK] Good morning, patriots. You may be feeling a little woozy right now— that’s to be expected. For the last twenty- four hours, you have been anesthetized and placed in sensory deprivation tanks—that explains the pruny fingers!—while being intravenously administered lysergic acid diethylamide. There’s no need to panic— really, you’ll feel better if you don’t. Rest assured, your fellow bums, dope dealers, and degenerates have already forgotten about you, but your country—or the country you’re squatting in, as the case may be—will never forget the Crucible Program. Look alive, soldiers. [AUDIO ENDS]
+> [MIC FEEDBACK] Good morning, patriots. You may be feeling a little woozy right now— that’s to be expected. For the last twenty-four hours, you have been anesthetized and placed in sensory deprivation tanks—that explains the pruny fingers!—while being intravenously administered lysergic acid diethylamide (LSD). There’s no need to panic— really, you’ll feel better if you don’t. Rest assured, your fellow bums, dope dealers, and degenerates have already forgotten about you, but your country—or the country you’re squatting in, as the case may be—will never forget the Crucible Program. Look alive, soldiers. [AUDIO ENDS]
 
 # 3. Map reveal
 
