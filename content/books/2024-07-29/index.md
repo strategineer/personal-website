@@ -1,18 +1,17 @@
 ---
 authors:
-- Iain Banks
+- Larry McCaffery
 books/tags:
-  - currently-reading
-  - fiction
-  - science fiction
+- currently-reading
+- anthology
+- science-fiction
 date: 2024-07-29
 params:
-  isbn13: '9781857230307'
-  series: The Culture
-  series_order: "4"
-  year: '1993'
-slug: '9781857230307'
-title: The State Of The Art
+  isbn13: '9780252016929'
+  year: '1990'
+slug: '9780252016929'
+title: Across The Wounded Galaxies - Interviews With Contemporary American Science
+  Fiction Writers
 weight: 1
 ---
 
