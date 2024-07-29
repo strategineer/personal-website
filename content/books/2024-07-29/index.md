@@ -2,8 +2,10 @@
 authors:
 - Iain Banks
 books/tags:
-- owned-but-unread
-date: 1800-02-19
+  - currently-reading
+  - fiction
+  - science fiction
+date: 2024-07-29
 params:
   isbn13: '9781857230307'
   series: The Culture
