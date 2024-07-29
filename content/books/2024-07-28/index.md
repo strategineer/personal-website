@@ -12,7 +12,7 @@ params:
   year: "1992"
 slug: "9781857231359"
 title: Use Of Weapons
-star_rating: 4
+star_rating: 3
 ---
 
 Use of Weapons, it's about Iain Banks's utopian Culture, and how it deals with autocrats and a freelance mercenary named Zakalwe who doesn't like how the Culture deals with autocrats, so he takes matters into his own hands.
