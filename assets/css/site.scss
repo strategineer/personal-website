@@ -53,6 +53,11 @@ $link_highlight: nth($colors, 2);
 }
 
 @media print {
+  
+  .icon-filter {
+    filter: none;
+  }
+
   header,
   footer,
   aside,
