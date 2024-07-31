@@ -42,7 +42,7 @@ NPCs:
 2. Village: Homes for the help, the trafficked and the partiers. Pirates are keeping everyone inside awaiting to be sacrificed in the ritual. 
 3. Forest Dock: Armand, Arms dealer, docked, ready to trade or give weapons/armor on loan.
 4. Forest: Pirate drowned god ritual being prepped here. Pirates are leading island inhabitants from the Village [2] to the ritual totem at [4]. 
-5. Port: Pirates's boat docked with a light guard complement. HIND combat helicopter parked nearby, Helo pilot wandering around the port waiting for instructions from Fishhook. 
+5. Port: Pirates's boat docked with a light guard complement. HIND combat helicopter parked nearby, Hello pilot wandering around the port waiting for instructions from Fishhook. 
 6. Mansion: 1x CYCLOPS gadget. Red alert engaged, Jepstein's with a handful of his guards are on lockdown, waiting for help to arrive.
 7. Lagoon: Contains a secret entrance to the Mansion [6] and the Yacht [1]. 
 8. Lighthouse: Prime sniping position. Kenton and Jordan Cane holed up here waiting for the right moment to secure the island and extract, respectively.
@@ -53,7 +53,7 @@ NPCs:
 - FIST operatives can insert themselves onto the island by already being planted on the island when the Cult attack happens, parachuting in, stealth submarining...
 - Security Room with island-wide CCTV coverage might be useful.
 - Lighthouse has Kenton and Jordan and would provide good sniper recon position.
-- HIND helo landed on the docs, need to find the keys.
+- HIND helo landed near the Port, helo pilot with keys must be nearby.
 
 **Espionage**
 
