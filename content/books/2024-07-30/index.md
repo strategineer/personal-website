@@ -6,7 +6,7 @@ authors:
 - Christopher Gunning
 books/tags:
 - tabletop
-date: 2024-07-31
+date: 2024-07-30
 params:
   isbn13: '9781940410210'
   series: Delta Green
