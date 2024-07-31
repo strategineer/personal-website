@@ -10,6 +10,8 @@ books/tags:
 date: 2024-07-30
 params:
   isbn13: '9781940410289'
+  series: Delta Green
+  series_order: 2
   year: '2018'
 slug: '9781940410289'
 title: Delta Green - Handler's Guide
@@ -18,3 +20,5 @@ star_rating: 5
 
 
 <!--more-->
+
+{{< series >}}
