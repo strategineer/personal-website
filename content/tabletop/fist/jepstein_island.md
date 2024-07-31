@@ -29,10 +29,11 @@ Consequence:
 NPCs:
 - Effrey Jepstein "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier
 - Jordan Cane "If looks can kill I'd be a holocaust", retired FBI agent turned playboy/actor
-- Johnny "Ohhhhh no", constantly in the process of almost peeing/shitting his pants.
-- Armand "My friends, welcome!", freelance arms dealer serving any and all PMCs with weapons/armor delivered to the anywhere anytime.
-- Fishhook "Drown and be saved", BOOTY leader. Is a human-shark hybrid with two hooks for hands and a oversized tricorn hat.
+- Johnny "Ohhhhh no", security guard, always almost peeing/shitting his pants, has super IBS.
+- Armand "My friends, welcome!", freelance arms dealer serving any and all PMCs with weapons/armor delivered anywhere anytime.
+- Fishhook "Drown and be saved", BOOTY leader, a human-shark hybrid with two hooks for hands and a oversized tricorn hat.
 - Kenton "I'm not going to jail for this", Jepstein's head of security.
+- Prince Andrew "I don't sweat so that can't be true", Prince of the British Empire, parties hard and is NOT a family man no matter what he says.
 
 
 ![](/img/tabletop/fist/island.jpg)
@@ -41,7 +42,7 @@ NPCs:
 2. Village: Homes for the help, the trafficked and the partiers. Pirates are keeping everyone inside awaiting to be sacrificed in the ritual. 
 3. Forest Dock: Armand, Arms dealer, docked, ready to trade or give weapons/armor on loan.
 4. Forest: Pirate drowned god ritual being prepped here. Pirates are leading island inhabitants from the Village [2] to the ritual totem at [4]. 
-5. Port: Pirates's boat docked with a light guard complement. HIND combat helicopter parked nearby. 
+5. Port: Pirates's boat docked with a light guard complement. HIND combat helicopter parked nearby, Helo pilot wandering around the port waiting for instructions from Fishhook. 
 6. Mansion: 1x CYCLOPS gadget. Red alert engaged, Jepstein's with a handful of his guards are on lockdown, waiting for help to arrive.
 7. Lagoon: Contains a secret entrance to the Mansion [6] and the Yacht [1]. 
 8. Lighthouse: Prime sniping position. Kenton and Jordan Cane holed up here waiting for the right moment to secure the island and extract, respectively.
@@ -50,6 +51,9 @@ NPCs:
 **Tactics**
 
 - FIST operatives can insert themselves onto the island by already being planted on the island when the Cult attack happens, parachuting in, stealth submarining...
+- Security Room with island-wide CCTV coverage might be useful.
+- Lighthouse has Kenton and Jordan and would provide good sniper recon position.
+- HIND helo landed on the docs, need to find the keys.
 
 **Espionage**
 
