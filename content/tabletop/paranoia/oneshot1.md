@@ -86,7 +86,7 @@ Players enter through the Main lobby at 4.
 
 ### Map
 
-![](/img/rpg/paranoia/bug_factory.png)
+![](/img/tabletop/paranoia/bug_factory.png)
 
 This map represents the walkable floor area of the factory but conveyors and walkways allow for soy sauce and raw materials throughout the factory.
 

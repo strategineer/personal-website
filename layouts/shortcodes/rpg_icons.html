@@ -1,4 +1,4 @@
-{{ $rpg_icons := resources.Match "img/rpg/icons/*/*.png" }}
+{{ $rpg_icons := resources.Match "img/tabletop/icons/*/*.png" }}
 <div class="row">
 {{ range $i, $v := $rpg_icons }}
 {{ $filename := replace (path.Base .Title) ".png" "" }}

@@ -9,7 +9,7 @@ Here's some notes on the default setting X-Mooks, Golgea.
 
 <!--more-->
 
-![](/img/rpg/glogea.png)
+![](/img/tabletop/glogea.png)
 
 # Intro
 

@@ -13,7 +13,7 @@ X-Mooks is my homebrew OSR-compatible rule system.
 
 It's HEAVILY based on:
 
-- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf)). If there's something missing here, namely Wizard Schools, refer to that document to find some, if nothing speaks to you there refer to the [Extra Resources section](#extra-resources) for more options.
+- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/tabletop/many_rats_on_stick_v2.pdf)). If there's something missing here, namely Wizard Schools, refer to that document to find some, if nothing speaks to you there refer to the [Extra Resources section](#extra-resources) for more options.
 - [Goblin Punch's The GLOG: Wizard rules](https://goblinpunch.blogspot.com/2016/09/the-glog-wizards.html)
 
 The X-Mooks rules are designed for old-school D&D-like games. They are broadly compatible with most published Old School Revival (OSR) products (i.e. equally incompatible with all of them). The main goal is to create a system that is:
@@ -604,7 +604,7 @@ At Level 6, and every time a PC levels up past Level 6, they can retire to safet
 
 #### Choosing a Wizard School: Option 1
 
-Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf)))
+Select a school from a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/tabletop/many_rats_on_stick_v2.pdf)))
 
 {{< rpg_table name="WizardSchool" weighted=true >}}
 | 1d12 | Wizard Schools |
@@ -681,7 +681,7 @@ Apply a random mutation to a spell you frequently cast.
 
 ### Non-Wizard Classes
 
-If you're interested in building a multi-class Wizard with one or more Non-Wizard classes, find one in a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf))), [any of the supplements in the Extra Resources section](#extra-resources) or anything you can find online.
+If you're interested in building a multi-class Wizard with one or more Non-Wizard classes, find one in a GM-approved GLOG supplement ([like Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/tabletop/many_rats_on_stick_v2.pdf))), [any of the supplements in the Extra Resources section](#extra-resources) or anything you can find online.
 
 # Equipment
 
@@ -934,9 +934,9 @@ If you're interested in building a multi-class Wizard with one or more Non-Wizar
 
 Here's some extra reading if you're interested. If nothing you find speaks to you, work with your GM to make your own class or whatever else.
 
-- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/rpg/many_rats_on_stick_v2.pdf))
+- [Many Rats on a Stick by Skerples](https://coinsandscrolls.blogspot.com/2019/10/osr-glog-based-homebrew-v2-many-rats-on.html) ([PDF](/tabletop/many_rats_on_stick_v2.pdf))
 - [Wizards Post by Skerples](https://coinsandscrolls.blogspot.com/2018/06/osr-how-to-design-glog-wizards.html)
-- [GLOG Wizards by Arnold K.](https://goblinpunch.blogspot.com/2016/09/the-glog-wizards.html) ([PDF](/rpg/GLOG_wizards_v1.pdf))
+- [GLOG Wizards by Arnold K.](https://goblinpunch.blogspot.com/2016/09/the-glog-wizards.html) ([PDF](/tabletop/GLOG_wizards_v1.pdf))
 - [Who is the GLOGosphere? Post](https://diyanddragons.blogspot.com/2019/03/who-is-glogosphere.html)
 - [Wizard Megapost by Yami Bakura](http://www.remixesandrevelations.com/2018/06/the-wizard-megapost.html)
 - [Orthodox Wizards Spells](https://coinsandscrolls.blogspot.com/2017/03/osr-100-orthodox-spells.html)

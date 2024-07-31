@@ -27,15 +27,15 @@ Consequence:
 - If Prince Andrew is killed, the succession of the crown of the British Empire will be in flux leading to a splintering of the empire and warring factions.
 
 NPCs:
-- Effrey Jepstein "Money and sex trafficking is my game", financier
+- Effrey Jepstein "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier
 - Jordan Cane "If looks can kill I'd be a holocaust", retired FBI agent turned playboy/actor
-- Johnny "Ohhhhh no"
-- Armand "My friends, welcome", arms dealer
-- Fishhook "Drown and be saved", BOOTY leader
-- Kenton "I'm not going to jail for this", Jepstein's head of security
+- Johnny "Ohhhhh no", constantly in the process of almost peeing/shitting his pants.
+- Armand "My friends, welcome!", freelance arms dealer serving any and all PMCs with weapons/armor delivered to the anywhere anytime.
+- Fishhook "Drown and be saved", BOOTY leader. Is a human-shark hybrid with two hooks for hands and a oversized tricorn hat.
+- Kenton "I'm not going to jail for this", Jepstein's head of security.
 
 
-![](/img/rpg/fist/island.jpg)
+![](/img/tabletop/fist/island.jpg)
 
 1. Yacht: 1x CYCLOPS gadget. Fire Island-esque partiers partying, oblivious to the rest of the island being taken over by pirates. Prince Andrew of the British Empire sticks out like a sore thumb, partying with the rest.
 2. Village: Homes for the help, the trafficked and the partiers. Pirates are keeping everyone inside awaiting to be sacrificed in the ritual. 
@@ -53,7 +53,7 @@ NPCs:
 
 **Espionage**
 
-- Armand ("My friends."), Arms Dealer, can provide FIST operatives with in-mission weapons/armor (p. 83) for the promise of a favor.  
+- Armand, Arms Dealer, can provide FIST operatives with in-mission weapons/armor (p. 83) for the promise of a favor.  
 - The British Empire's royal family would reward the retrieval of Prince Andrew ("I don't sweat") and the destruction of any incriminating evidence of his presence on the island.
 - Jordan Cane can be convinced to help agents out in exchange for extraction.
 - Jepstein's head of security can be collaborated with. He's expecting to collaborate with ANVIL operatives but is willing to work with FIST if their objectives align with his (rescuing Jepstein).
