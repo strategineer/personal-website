@@ -35,6 +35,11 @@ NPCs:
 - Kenton "I'm not going to jail for this", Jepstein's head of security.
 - Prince Andrew "I don't sweat so that can't be true", Prince of the British Empire, parties hard and is NOT a family man no matter what he says.
 
+| Enemies | Stats |
+| --- | --- |
+| MEDIUM, e.g. soldiers, cops, security guards | 3 HP, 1 ARMOR, 1D6 DAMAGE |
+| HARD, e.g. combat androids, elite soldiers | 6 HP, 1 ARMOR, 1D6+1 DAMAGE |
+
 
 ![](/img/tabletop/fist/island.jpg)
 
@@ -53,7 +58,7 @@ NPCs:
 - FIST operatives can insert themselves onto the island by already being planted on the island when the Cult attack happens, parachuting in, stealth submarining...
 - Security Room with island-wide CCTV coverage might be useful.
 - Lighthouse has Kenton and Jordan and would provide good sniper recon position.
-- HIND helo landed near the Port, helo pilot with keys must be nearby.
+- HIND hello landed near the Port, hello pilot with keys must be nearby.
 
 **Espionage**
 
