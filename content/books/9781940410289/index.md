@@ -18,6 +18,8 @@ star_rating: 5
 title: Delta Green - Handler's Guide
 ---
 
+Lovecraft X The X-Files tabletop roleplaying game.
+
 <!--more-->
 
 {{< series >}}
