@@ -290,6 +290,17 @@ def normalize_dates():
                 )
                 continue
         folder_date = Path(filename).parent.parts[-1]
+        if folder_date == str(post.metadata["date"]):
+            # TODO strat, use slug folders if I can
+            print(folder_date)
+            print(post.metadata["date"])
+            new_filename = Path.joinpath(Path(filename).parent.parent, post.metadata["slug"], "index.md")
+            print(new_filename)
+            write_post(post, new_filename)
+            Path(filename).unlink()
+            for f in glob.glob(f"{Path(filename).parent}/**"):
+                Path(f).rename(f.replace(folder_date, post.metadata["slug"]))
+        continue
         if "slug" not in post.metadata and "params" in post.metadata and "isbn13" in post.metadata["params"]:
             post.metadata["slug"] = post.metadata["params"]["isbn13"]
             write_post(post, filename)
