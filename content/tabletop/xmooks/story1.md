@@ -2,7 +2,7 @@
 title: "Golgea Story 1"
 is_readable: true
 no_search: true
-is_rpg: true
+is_tabletop: true
 draft: true
 ---
 

@@ -2,7 +2,7 @@
 title: "FIST - Ideas"
 is_readable: true
 no_search: true
-is_rpg: true
+is_tabletop: true
 ---
 
 # Mission Generation

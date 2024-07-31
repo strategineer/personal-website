@@ -2,7 +2,7 @@
 title: "FIST - Effrey Jepstein's Island Retreat"
 is_readable: true
 no_search: true
-is_rpg: true
+is_tabletop: true
 ---
 
 BOOTY have taken over the private island of pedo-cum-movie-producer Effrey Jepstein and is looking to sacrifice the people on the island to their (old) god in an attempt to appease it submerge the island back into the sea where it belongs.

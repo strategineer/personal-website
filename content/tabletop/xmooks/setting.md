@@ -2,7 +2,7 @@
 title: "X-Mooks Setting"
 is_readable: true
 no_search: true
-is_rpg: true
+is_tabletop: true
 ---
 
 Here's some notes on the default setting X-Mooks, Golgea.

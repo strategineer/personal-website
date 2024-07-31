@@ -51,7 +51,7 @@
     </title>
   </head>
   <body id="documentTop">
-    {{ if $.Params.is_rpg }}
+    {{ if $.Params.is_tabletop }}
       {{ with resources.Get "js/rpg_table_randomizer.js" }}
       <script type="text/javascript" src="{{ .RelPermalink }}"> </script>
       {{ end }}
@@ -62,9 +62,9 @@
     <div class="container-fluid"> 
       {{ $is_readable := default true .Params.is_readable}}
       <div class="row no-margin justify-content-center">
-        {{ if $.Params.is_rpg }}
+        {{ if $.Params.is_tabletop }}
           <div class="col-xl-2">
-          {{ $has_aside_toc := default false .Page.Params.is_rpg}}
+          {{ $has_aside_toc := default false .Page.Params.is_tabletop}}
           {{ if $has_aside_toc }}
             <div class="offcanvas show offcanvas-left" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasLeft" aria-label="navigation bar">       
               <div class="offcanvas-body">

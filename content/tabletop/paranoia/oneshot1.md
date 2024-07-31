@@ -2,7 +2,7 @@
 title: "Paranoia - One-Shot 1"
 is_readable: true
 no_search: true
-is_rpg: true
+is_tabletop: true
 ---
 
 Here's the notes I prepped for my first Paranoia one-shot I GMed. I've been reading up and thinking about Old School Renaissance RPG systems and settings for a few weeks and you can see the influence of that here.

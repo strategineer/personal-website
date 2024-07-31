@@ -2,7 +2,7 @@
 title: "FIST - One-Shot 1"
 is_readable: true
 no_search: true
-is_rpg: true
+is_tabletop: true
 ---
 
 Notes for running the FIST Hazard Function funnel mission (ref: https://itch.io/queue/c/2461905/compatible-with-fist?game_id=1684797)
