@@ -48,10 +48,8 @@
       document.getElementById("table_result_{{$table_name}}").innerHTML = rollOnTable("{{ $table_name }}", "{{ $header }}", rows{{- $table_name | safeJS -}}, {{ $result_count }})
   }
   </script>
-  <div>
-    <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Pick {{ $result_count }} random {{ $table_name -}}!</button>
-    <div id="table_result_{{$table_name}}"></div>
-  </div>
+  <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Pick {{ $result_count }} random {{ $table_name -}}!</button>
+  <span id="table_result_{{$table_name}}"></span>
   {{ if not .Params.hide_table | default false }}
     {{ $inner | markdownify }}
   {{ end }}

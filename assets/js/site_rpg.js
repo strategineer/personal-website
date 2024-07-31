@@ -1,4 +1,4 @@
-
+maen
 function roll(expr, button) {
     const result = getDiceResult(expr);
     if (button) {
@@ -15,14 +15,14 @@ function rollOnManyTables(all_titles, all_headers, all_rows) {
     const t = tables[i]
     var prefix = "";
     var suffix = "";
-    if(i > 0) {
-      prefix = `<span class="spoiler">`;
-      suffix = `</span>`;
-    }
+    //if(i > 0) {
+    //  prefix = `<span class="spoiler">`;
+    //  suffix = `</span>`;
+    //}
     s.push(`${all_titles[i]}: ${prefix}${rollOnTable(all_titles[i], t[0], t[1], 1)}${suffix}`);
     i += 1;
   }
-  return s.join("<br>");
+  return s.join(" / ");
 }
 
 function rollOnTable(title, header, rows, count) {
@@ -51,14 +51,14 @@ function rollOnTable(title, header, rows, count) {
       }
       return `${e}: ${resultColumns[i]}`;
     });
-    s.push(resultRows.join("<br>"));
+    s.push(resultRows.join(" / "));
     i += 1;
   }
   if (!isDefaultCount) {
     const numberedResults = s.map(function(e, i) {
       return `${i}: ${s[i]}`;
     });
-    return `${count} ${title}:<br>${numberedResults.join("<br>")}`;
+    return `${count} ${title}: / ${numberedResults.join(" / ")}`;
   }
-  return s.join("<br>");
+  return s.join(" / ");
 }
