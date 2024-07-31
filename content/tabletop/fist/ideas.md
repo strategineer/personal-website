@@ -5,6 +5,10 @@ no_search: true
 is_tabletop: true
 ---
 
+Ideas for GMing FIST.
+
+<!--more-->
+
 # Mission Generation
 
 {{< rpg_multi_table Mission MissionPrompt Reward TheDossierSays IsTryingTo WhichWill But >}}

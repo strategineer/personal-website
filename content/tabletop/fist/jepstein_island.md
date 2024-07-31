@@ -5,7 +5,9 @@ no_search: true
 is_tabletop: true
 ---
 
-BOOTY have taken over the private island of pedo-cum-movie-producer Effrey Jepstein and is looking to sacrifice the people on the island to their (old) god in an attempt to appease it submerge the island back into the sea where it belongs.
+BOOTY have taken over the private island of financier-cum-pedo Effrey Jepstein and is looking to sacrifice the people on the island to appease their (old) god, Hnarqu.
+
+<!--more-->
 
 ANVIL operatives, Moneybag Jones and Misses Beast (Mansion, exterior), have been paid by Weinstein to extract him from the Island.  
 
@@ -20,7 +22,7 @@ Reward:
 - All recovered CYCLOPS gadgets.
 
 Consequence:
-- If the BOOTY ritual is disrupted, BOOTY's old god becomes more restless and shifts more of its focus to our time.
+- If the BOOTY ritual is disrupted, BOOTY's old god becomes more restless and shifts more of its focus to our time. Otherwise, the island will be submerged into the sea.
 - If Jepstein is killed, Big Hollywood will go after those responsible.
 - If Prince Andrew is killed, the succession of the crown of the British Empire will be in flux leading to a splintering of the empire and warring factions.
 

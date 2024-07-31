@@ -7,6 +7,8 @@ is_tabletop: true
 
 Notes for running the FIST Hazard Function funnel mission (ref: https://itch.io/queue/c/2461905/compatible-with-fist?game_id=1684797)
 
+<!--more-->
+
 
 # 1. Character generation
 
