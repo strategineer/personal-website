@@ -17,4 +17,4 @@ The Fifth Head of Cerberus is three novellas Frankenstein-ed together, it lacks 
 
 <!--more-->
 
-Unless you're a fan of Wolfe's work, I don't think these novellas are worth reading. Even if you are a fan of his work, some parts of these novellas will be torture to read.
+Unless you're a super fan of Wolfe's work, I don't think these novellas are worth reading. Even if you are a fan of his work, some parts of these novellas will be torture to read. Definitely not my cup of tea.
