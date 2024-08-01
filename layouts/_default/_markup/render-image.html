@@ -13,10 +13,14 @@
   {{- end -}}
 {{- end -}}
 {{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape)) -}}
+{{ $width := 300 }}
+{{ if strings.Contains $u.Path "tabletop" }}
+  {{ $width = 550 }}
+{{ end }}
 <img
   loading="lazy"
   class="img-fluid rounded mx-auto d-block"
-  width="300"
+  width="{{ $width }}"
   {{- range $k, $v := $attributes -}}
     {{- if $v -}}
       {{- printf " %s=%q" $k $v | safeHTMLAttr -}}

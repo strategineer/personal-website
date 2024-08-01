@@ -16,7 +16,7 @@ Objective:
 - [OPTIONAL] Recover Jepstein's collection of CYCLOPS gadgets.
 - [OPTIONAL] Extract Jordan Cane (Lighthouse), the retired FBI agent turned actor.
 - [OPTIONAL] Sabotage ANVIL operatives's attempt to extract Effrey Jepstein.
-- [OPTIONAL] Extract Prince Andrew (Yacht) and destroy any incriminating physical evidence (video footage).
+- [OPTIONAL] Extract Prince Andrew (Yacht) by force and destroy any incriminating physical evidence (video footage).
 
 Reward:
 - All recovered CYCLOPS gadgets.
@@ -27,13 +27,13 @@ Consequence:
 - If Prince Andrew is killed, the succession of the crown of the British Empire will be in flux leading to a splintering of the empire and warring factions.
 
 NPCs:
-- Effrey Jepstein "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier
-- Jordan Cane "If looks can kill I'd be a holocaust", retired FBI agent turned playboy/actor
-- Johnny "Ohhhhh no", security guard, always almost peeing/shitting his pants, has super IBS.
-- Armand "My friends, welcome!", freelance arms dealer serving any and all PMCs with weapons/armor delivered anywhere anytime.
-- Fishhook "Drown and be saved", BOOTY leader, a human-shark hybrid with two hooks for hands and a oversized tricorn hat.
-- Kenton "I'm not going to jail for this", Jepstein's head of security.
-- Prince Andrew "I don't sweat so that can't be true", Prince of the British Empire, parties hard and is NOT a family man no matter what he says.
+- Effrey Jepstein "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier, wants to leave the island alive.
+- Jordan Cane "If looks can kill I'd be a holocaust", retired FBI agent turned playboy/actor, wants to leave the island alive and look good doing it.
+- Johnny "Ohhhhh no", security guard, always almost peeing/shitting his pants, has super IBS, wants to not shit his pants... again.
+- Armand "My friends, welcome!", freelance arms dealer serving any and all PMCs with weapons/armor delivered anywhere anytime, wants to sell his arms one the island to anyone interested.
+- Fishhook "Drown and be saved", BOOTY leader, a human-shark hybrid with two hooks for hands and a oversized tricorn hat, wants to complete the ritual.
+- Kenton "I'm not going to jail for this", Jepstein's head of security, wants to extract Jepstein from the island.
+- Prince Andrew "I don't sweat so that can't be true", Prince of the British Empire, parties hard and is NOT a family man no matter what he says, wants to continue partying no matter what.
 
 | Enemies | Stats |
 | --- | --- |
