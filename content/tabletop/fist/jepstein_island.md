@@ -5,11 +5,15 @@ no_search: true
 is_tabletop: true
 ---
 
-BOOTY have taken over the private island of financier-cum-pedo Effrey Jepstein and is looking to sacrifice the people on the island to appease their (old) god, Hnarqu.
+BOOTY, pirates and cultists, have taken over the private island of financier-cum-pedo Effrey Jepstein and is looking to sacrifice the people on the island to appease their (old) god.
 
 <!--more-->
 
-ANVIL operatives, Moneybag Jones and Misses Beast (Mansion, exterior), have been paid by Weinstein to extract him from the Island.  
+Transmission by Jordan Cane: 
+> (southern accent, drawl) "Hi FIST? This is Jordan Cane, I'm sure you've heard of me from one of my many movies and my music [sounds of gunshots, explosions and Darude Sandstorm can be heard in the background]. I'm in a bit of the situation here [shu shu (cocks shotgun)] at Effrey Jepstein's island retreat and I'd pay you well to get over here and stop all this nonsense [pow pow (gunfire)] and get me out of here. Bye bye now."
+
+Otakon Mission Briefing:
+> (straight talker) "Soooooo, you're heading over to Effrey Jepstein's private island to disrupt the BOOTY ritual, those pesky fishmen cultists pirates are at it again, trying to appease the elder god they worship, we can't let that happen. We've got a high roller paying our bill this time, uhhh, so don't mess it up. Jepstein's got an impressive collection of high tech CYCLOPS gadgets on that island of his, if you can find them, take them, they don't belong to him... (whisper) Well they don't belong to us either but (speak louder) that's OK... And, if you can find Jordan Cane and extract him from the island that would be great, I just love his music... (singing offtune) I remembeeeerr everyyyything (cough). Any questions before you head out?"
 
 Objective: 
 - Disrupt the BOOTY ritual.
@@ -43,15 +47,16 @@ NPCs:
 
 ![](/img/tabletop/fist/island.jpg)
 
-1. Yacht: 1x CYCLOPS gadget. Fire Island-esque partiers partying, oblivious to the rest of the island being taken over by pirates. Prince Andrew of the British Empire sticks out like a sore thumb, partying with the rest.
-2. Village: Homes for the help, the trafficked and the partiers. Pirates are keeping everyone inside awaiting to be sacrificed in the ritual. 
+1. Yacht: Secret access to Tunnels [10]. 1x CYCLOPS gadget. Fire Island-esque partiers partying, oblivious to the rest of the island being taken over by pirates. Prince Andrew of the British Empire sticks out like a sore thumb, partying with the rest.
+2. Village: Homes for the help, the trafficked and the partiers. Pirates are keeping everyone inside awaiting to be converted in to crab/fish people by the ritual. 
 3. Forest Dock: Armand, Arms dealer, docked, ready to trade or give weapons/armor on loan.
-4. Forest: Pirate drowned god ritual being prepped here. Pirates are leading island inhabitants from the Village [2] to the ritual totem at [4]. 
+4. Forest: Pirate drowned god ritual happening here. Pirates are leading island inhabitants from the Village [2] to the ritual totem at [4] and turning them into violent crab/fish people. 
 5. Port: Pirates's boat docked with a light guard complement. HIND combat helicopter parked nearby, Hello pilot wandering around the port waiting for instructions from Fishhook. 
-6. Mansion: 1x CYCLOPS gadget. Red alert engaged, Jepstein's with a handful of his guards are on lockdown, waiting for help to arrive.
-7. Lagoon: Contains a secret entrance to the Mansion [6] and the Yacht [1]. 
+6. Mansion: Secret access to Tunnels [10]. 1x CYCLOPS gadget. Red alert engaged, Jepstein's with a handful of his guards are on lockdown, waiting for help to arrive. Moneybag Jones and Anvilman (Mansion, exterior) are banging on the front door trying to get Jepstein to come out.
+7. Lagoon: Secret access to Tunnels [10]. 
 8. Lighthouse: Prime sniping position. Kenton and Jordan Cane holed up here waiting for the right moment to secure the island and extract, respectively.
-9. Security Room: Dead guards litter the floor, sliced and stabbed by a katana. Johnny, intern guard, tumbles out of an empty locker when FIST operatives arrive. Contains CCTV with cameras all across the island.  
+9. Security Room: Dead guards litter the floor, sliced and stabbed by a katana. Johnny, intern guard, tumbles out of an empty locker when FIST operatives arrive. Contains CCTV with cameras all across the island.
+10. Tunnels: Connects Lagoon [7] and Mansion [6] and the Yacht [1] through secret access doors. Roll on Monster or Robot tables (p. 104-105) for enemy encounters any time the tunnels are used for quick travel.
 
 **Tactics**
 

@@ -932,3 +932,8 @@ ACTION
 - Tonald Drump assassination
 - Dead Rising-esque mall with zombies exfiltration + saving people along the way.
 - Resident Evil 4 exfiltration of President's Daughter
+- Nuclear Submarine Infiltration (Melon Usk's iBoat)
+  - has a submersible, objective is to put a guy in the submersible and send him out to die
+- British Royalty Masquerade Party
+- Brandoff's Beginner Referee Toolkit v0.7.5.pdf
+  - ABANDON: Rich people trying to blast off to a Mars colony go berserk

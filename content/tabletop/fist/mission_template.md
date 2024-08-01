@@ -1,5 +1,5 @@
 ---
-title: "FIST - Effrey Jepstein's Island Retreat"
+title: "FIST - Mission Template"
 is_readable: true
 no_search: true
 is_tabletop: true
