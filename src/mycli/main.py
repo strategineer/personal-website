@@ -126,20 +126,21 @@ def cli():
 
 
 @click.command()
-def import_scans():
-    print("Import scanned barcodes")
+@click.argument('isbn', nargs=-1, type=str)
+def import_books(isbn):
+    """Import book ISBNs"""
     filenames = glob.glob("**/bs_export_*.json")
-    print(filenames)
-
     books = {}
-    for filename in filenames:
-        with open(filename, encoding="utf-8") as f:
-            data = json.load(f)
-            for b in data:
-                books[b["contents"]] = b
-
+    if not isbn:
+        for filename in filenames:
+            with open(filename, encoding="utf-8") as f:
+                data = json.load(f)
+                for b in data:
+                    books[b["contents"]] = b
+    else:
+        isbn = [i.replace("-", "") for i in isbn]
+        books = {i: {"contents": i} for i in isbn}
     (existing_books_by_isbn, existing_by_title) = load_existing_books()
-    date = IMPORT_START_DATE
     for isbn in sorted(books.keys()):
         book = books[isbn]
         metadata = {}
@@ -168,28 +169,25 @@ def import_scans():
             }
         post = frontmatter.Post("", handler=None, **metadata)
         while True:
-            date += timedelta(days=1)
-            filename = f"content/books/{ date }/index.md"
+            filename = f"content/books/{ post.metadata['slug'] }/index.md"
             if not Path(filename).exists():
                 break
         if isbn in existing_books_by_isbn:
             filename, existing_post = existing_books_by_isbn[isbn]
-            # todo we should do a merge here
             print(
                 f"Found existing book with ISBN {isbn} ({filename}, {existing_post.metadata['title']}), merging data"
             )
             post = merge_posts(existing_post, post)
-        elif book["name"] in existing_by_title:
+        elif "name" in book and book["name"] in existing_by_title:
             filename, existing_post = existing_by_title[book["name"]]
-            # todo we should do a merge here and replace the isbn
             print(
                 f"Found existing book with title {book['name']} ({filename}, {existing_post.metadata['title']}), merging data"
             )
             post = merge_posts(existing_post, post)
         else:
             post.content = "\n<!--more-->"
-            post.metadata["weight"] = 1
-            post.metadata["date"] = date
+            post.metadata["star_rating"] = None
+            post.metadata["date"] = date.today()
             post.metadata["books/tags"] = ["owned-but-unread"]
             print(f"No existing book for ISBN {isbn}, creating new post")
         write_post(post, filename)
@@ -220,7 +218,7 @@ def fetch_thumbnails():
                 continue
             if not has_thumbnail or not thumbnail_big_enough:
                 isbn13 = post.metadata['params'].get('isbn13')
-                if isbn13 is None or isbn13 in ["9781250251510", "9780441003051"]:
+                if isbn13 is None or isbn13 in ["9781250251510", "9780441003051", "9780252016929"]:
                     continue
                 print(
                     f"Fetching thumbnail for:\n\t{isbn13}\n\t{filename}"
@@ -454,7 +452,7 @@ def rename_reaction_gif(a, b):
             with open(filename, 'w') as file:
                 file.write(filedata)
 
-cli.add_command(import_scans)
+cli.add_command(import_books)
 cli.add_command(fetch_thumbnails)
 cli.add_command(find_isbns)
 cli.add_command(normalize_dates)
