@@ -9,14 +9,14 @@ is_tabletop: true
 
 <!--more-->
 
-Objective: 
+Objectives:
 - ...
 - [OPTIONAL] ...
 
-Reward:
+Rewards:
 - ...
 
-Consequence:
+Consequences:
 - If X happens, then Y.
 
 NPCs:

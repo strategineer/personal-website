@@ -15,17 +15,17 @@ Transmission by Jordan Cane:
 Otakon Mission Briefing:
 > (straight talker) "Soooooo, you're heading over to Effrey Jepstein's private island to disrupt the BOOTY ritual, those pesky fishmen cultists pirates are at it again, trying to appease the elder god they worship, we can't let that happen. We've got a high roller paying our bill this time, uhhh, so don't mess it up. Jepstein's got an impressive collection of high tech CYCLOPS gadgets on that island of his, if you can find them, take them, they don't belong to him... (whisper) Well they don't belong to us either but (speak louder) that's OK... And, if you can find Jordan Cane and extract him from the island that would be great, I just love his music... (singing offtune) I remembeeeerr everyyyything (cough). Any questions before you head out?"
 
-Objective: 
+Objectives:
 - Disrupt the BOOTY ritual.
 - [OPTIONAL] Recover Jepstein's collection of CYCLOPS gadgets.
 - [OPTIONAL] Extract Jordan Cane (Lighthouse), the retired FBI agent turned actor.
 - [OPTIONAL] Sabotage ANVIL operatives's attempt to extract Effrey Jepstein.
 - [OPTIONAL] Extract Prince Andrew (Yacht) by force and destroy any incriminating physical evidence (video footage).
 
-Reward:
+Rewards:
 - All recovered CYCLOPS gadgets.
 
-Consequence:
+Consequences:
 - If the BOOTY ritual is disrupted, BOOTY's old god becomes more restless and shifts more of its focus to our time. Otherwise, the island will be submerged into the sea.
 - If Jepstein is killed, Big Hollywood will go after those responsible.
 - If Prince Andrew is killed, the succession of the crown of the British Empire will be in flux leading to a splintering of the empire and warring factions.
