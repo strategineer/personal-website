@@ -94,15 +94,15 @@ conscious)
 {{< rpg_table name="Encounter" weighted=true >}}
 | % | Encounter |
 | ------ | --------|
-| 2.77 | HIND |
-| 5.55 | Captain Herman with 2 sailors |
-| 8.33 | [Only on sublevel 2] crowned Prof. Ivan Gotrovitch  |
+| 2.77 | HIND Helo |
+| 5.55 | Captain Herman with 1d3 Octobots and 1d3 sailors |
+| 8.33 | [Sublevel 2 Only] crowned Prof. Ivan Gotrovitch  |
 | 11.11 | 1d3 Octobots + 1d3 sailors. |
 | 13.88 | 1d6 sailors. |
-| 16.66 | A Recurring Character. Jordan Cane? Armand? Prince Andrew? Johny? |
+| 16.66 | A Recurring Character. Jordan Cane? Armand? Prince Andrew? Johnny? |
 | 13.88 | 1d6 sailors. |
-| 11.11 | 1d6 sailors. |
-| 8.33 | 1d3 Octobots + 1d3 sailors. |
+| 11.11 | 1d3 Octobots + 1d3 sailors. |
+| 8.33 | Captain Herman with 1d3 Octobots and 1d3 sailors. |
 | 5.55 | The Yellowjackets. |
 | 2.77 | CRO operatives |
 {{< /rpg_table >}}
