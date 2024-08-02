@@ -5,7 +5,12 @@ no_search: true
 is_tabletop: true
 ---
 
-TODO strat: write motivations for NPCs, improve encounter table...
+TODO
+
+- write motivations for NPCs
+- improve encounter table
+- remove notes from images so i can gradually reveal them. 
+- add BOOTY to encounter table / or somewhere fixed.  they want caesar too
 
 Heavily based on https://fayveline.itch.io/the-red-folder
 
