@@ -9,7 +9,6 @@ TODO
 
 - write motivations for NPCs
 - improve encounter table
-- remove notes from images so i can gradually reveal them. 
 - add BOOTY to encounter table / or somewhere fixed.  they want caesar too
 
 Heavily based on https://fayveline.itch.io/the-red-folder
@@ -44,11 +43,13 @@ Consequences:
 
 NPCs:
 - **CAPTAIN HERMAN** (6HP)
+  - wants to keep his crew safe.
   - Heavy revolver (1D6+1 DAMAGE)
   - Bridge’s hatch control key
   - CAPTAIN: If the ship gets too damaged or starts to sink Herman will gain 1D6 temporary HP, and solely focus on rescuing his crew. Herman knows his crew and cannot be fooled by disguises.
 
 - **PROF. IVAN GOTROVITCH** (3HP)
+  - wants to survive to continue his research another day.
   - Psycho-armor prototype (3 ARMOR, as long as he is
 conscious)
   - Crown of Control
@@ -56,6 +57,7 @@ conscious)
   - **ORDER**: Whoever is wearing the Crown of Control can force whoever is wearing the Crown of Subjugation (currently Caesar) to obey an order. Gotrovitch will use this to save himself if he feels threatened.
 
 - **CAESAR** (24HP)
+  - wants to escape from his prison and return to the sea.
   - Juvenile shell (3 ARMOR)
   - Crab-like claws (1D6+2 DAMAGE)
   - 8 legs
@@ -73,10 +75,15 @@ conscious)
 
   - **PINCH (BOSS MOVE)**: When damaged in melee, Caesar grabs the attacker. If they fail a +FORCEFUL roll, they are stuck in the claw until CAESAR dies or takes 3 damage in one attack.
   - **FREEDOM (BOSS MOVE)**: If the crown of subjugation is damaged or removed, Caesar’s suppressed telekinetic capabilities will come out at once, cutting the ship in half. If the players did not harm him (or stopped harming him after the first VISION OF PAIN), he will help them escape. Otherwise, he returns to the sea.
-- (GUARDS) SAILORS (3HP)
+- **(GUARDS) SAILORS** (3HP)
   - M16 rifle in bad condition (3 DAMAGE)
   - BOREDOM: Sailors will leave their post to investigate any commotion.
-- (SQUAD) THE YELLOWJACKETS (3HP)
+- **(GUARDS) OCTOBOTS** (3HP)
+  - Chrome tentacles (1 ARMOR).
+  - Electric shocks - stuns for 1 turn (1D3 DAMAGE).
+  - HUGGER: Attempt to surround and disable targets with eletric shocks.
+- **(SQUAD) THE YELLOWJACKETS** (3HP)
+  - want to recover both crowns and exfiltrate with all their members alive and well.
   - Bulletproof vest (1 ARMOR)
   - MP5 submachine-gun (1D6 DAMAGE)
   - Good disposable silencer (3 uses)
@@ -90,12 +97,12 @@ conscious)
 | 2.77 | HIND |
 | 5.55 | Captain Herman with 2 sailors |
 | 8.33 | [Only on sublevel 2] crowned Prof. Ivan Gotrovitch  |
-| 11.11 | 1d6 sailors. |
+| 11.11 | 1d3 Octobots + 1d3 sailors. |
 | 13.88 | 1d6 sailors. |
 | 16.66 | A Recurring Character. Jordan Cane? Armand? Prince Andrew? Johny? |
 | 13.88 | 1d6 sailors. |
 | 11.11 | 1d6 sailors. |
-| 8.33 | 1d3 Security Robots. |
+| 8.33 | 1d3 Octobots + 1d3 sailors. |
 | 5.55 | The Yellowjackets. |
 | 2.77 | CRO operatives |
 {{< /rpg_table >}}
@@ -103,31 +110,31 @@ conscious)
 ![](/img/tabletop/fist/ship_deck.png)
 
 1. Bridge: 1 sailor who can sound the alarm if alerted. 
-2. Storage: 1d6 sailors patrolling, heavy rain masking sound. Contains guns, ammunition and explosives.
+2. Deck: 1d6 sailors patrolling, heavy rain masking sound. Shipping containers contain guns, ammunition and explosives. Roll on Crate Content table 1d6 times if opened.
 3. Submarine Dock: A small stealth-submarine belonging to the Yellowjackets is docked under the front of the ship.
 
 ![](/img/tabletop/fist/ship_sublevel1.png)
 
-1. Galley: 1x Encounter Roll.
-2. Cold Storage: The corpse of an Italian man is hidden in the back.
-3. Storage: 1x Encounter Roll. Contains food, ammo, torches, etc.
-4. Mess Hall: 1x Encounter Roll.
-5. Captain's Quarters: Captain Herman if not encountered yet with two sailors if alerted, otherwise empty.
-6. Restrooom: Johnny (pissing).
-7. Living Quarters: 1x Encounter Roll. A small TV constantly playing I Love Lucy, even when the power is off.
-8. Crew's Quarters: 1x Encounter Roll. 
+1. Crew's Quarters: 1x Encounter Roll.
+2. Living Quarters: 1x Encounter Roll. A small TV constantly playing I Love Lucy, even when the power is off.
+3. Restrooom: Johnny (pissing).
+4. Captain's Quarters: Captain Herman if not encountered yet with two sailors if alerted, otherwise empty.
+5. Galley: 1x Encounter Roll.
+6. Cold Storage: The corpse of an Italian man is hidden in the back.
+7. Storage: 1x Encounter Roll. Contains food, ammo, torches, etc.
+8. Mess Hall: 1x Encounter Roll.
 9. Radar Room: 1x Encounter Roll. The radars are disturbed by Caesar's magnetic powers.
 
 
 ![](/img/tabletop/fist/ship_sublevel2.png)
 
-1. Engine Room: 1x Encounter Roll. Engine must be turned off to open the hatch.
-2. Lab: Sample of Caesar's chitin, and his brain waves are being studied. The other button for the Underwater Hatch is here (needs professor's key).
-3. Archive: Professor Ivan Gotrovitch if not encountered yet with two sailors if alerted, otherwise 1x Encounter Roll. Contains records of experiments on Caesar, and details on his capture.
+1. Brig: Recurring character (Jordan Cane?) if not encountered yet.
+2. Med bay: The doctor is sick and can't leave the bed.
+3. Security: 1x Encounter Roll. Contains security monitors, an alarm system and one of the buttons to the Underwater Hatch (needs captain's key).
 4. Prof's Quarters: Professor Ivan Gotrovitch if not encountered yet with two sailors if alerted, otherwise empty.
-5. Security: 1x Encounter Roll. Contains security monitors, an alarm system and one of the buttons to the Underwater Hatch (needs captain's key).
-6. Med bay: The doctor is sick and can't leave the bed.
-7. Brig: Recurring character (Jordan Cane?) if not encountered yet.
+5. Lab: Sample of Caesar's chitin, and his brain waves are being studied. The other button for the Underwater Hatch is here (needs professor's key).
+6. Archive: Professor Ivan Gotrovitch if not encountered yet with two sailors if alerted, otherwise 1x Encounter Roll. Contains records of experiments on Caesar, and details on his capture.
+7. Engine Room: 1x Encounter Roll. Engine must be turned off to open the hatch.
 8. Caesar's Containment Unit: Caesar.
 9. Underwater Hatch: See note below.
 
