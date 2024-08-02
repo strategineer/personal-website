@@ -4,13 +4,6 @@ is_readable: true
 no_search: true
 is_tabletop: true
 ---
-
-TODO
-
-- write motivations for NPCs
-- improve encounter table
-- add BOOTY to encounter table / or somewhere fixed.  they want caesar too
-
 Heavily based on https://fayveline.itch.io/the-red-folder
 
 FIST has been tasked with freeing or destroying a kaiju named Caesar. It is currently in a U.S. Navy ship – the USS Sherlock. FIST must infiltrate the ship, and deal with the kaiju in any way they can.
@@ -95,7 +88,7 @@ conscious)
 | % | Encounter |
 | ------ | --------|
 | 2.77 | HIND Helo |
-| 5.55 | Captain Herman with 1d3 Octobots and 1d3 sailors |
+| 5.55 | BOOTY captain ("Fishhook") and 1d6 pirates |
 | 8.33 | [Sublevel 2 Only] crowned Prof. Ivan Gotrovitch  |
 | 11.11 | 1d3 Octobots + 1d3 sailors. |
 | 13.88 | 1d6 sailors. |
