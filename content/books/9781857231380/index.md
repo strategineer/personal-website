@@ -44,7 +44,7 @@ Appropriately, Consider Phlebas, the Iain Banks novel, is an anti-war anti-narra
 He looked for the Culture ship, then told himself not to be stupid; it was probably still several trillion kilometres away. That was how divorced from the human scale modern warfare had become. You could smash and destroy from unthinkable distances, obliterate planets from beyond their own system and provoke stars into novae from light-years off... and still have no good idea why you were really fighting.
 {{< /quote >}}
 
-It's not usually preachy and yet contains a lot of philosophical ideas that you can spend a lot of time unpacking if you're into that. I rarely re-read books, there's not enough time in the day for that, but there are some books like Consider Phlebas or [Gene Wolfe's Book of the New Sun](/books/2024-02-11) that are so dense that they're begging to be.
+It's not usually preachy and yet contains a lot of philosophical ideas that you can spend a lot of time unpacking if you're into that. I rarely re-read books, there's not enough time in the day for that, but there are some books like Consider Phlebas or [Gene Wolfe's Book of the New Sun](/books/9781250781253) that are so dense that they're begging to be.
 
 {{< quote >}}
 'Don't you have a religion?' Dorolow asked Horza.

@@ -24,4 +24,4 @@ I loved my time with it and very excited to dig into the next book in the series
 
 {{< series >}}
 
-[I can confirm the second book was not as good. In fact, I think it's a trashfire.](/books/2024-04-11)
+[I can confirm the second book was not as good. In fact, I think it's a trashfire.](/books/9781529001648)

@@ -18,7 +18,7 @@ A bunch of mistakes climbers (apparently) make and how to avoid them. Not as con
 
 <!--more-->
 
-Less concrete and more philosophical than the [Self Coached Climber](/books/2022-09-15). It hides its interesting insights in a lot of fluff and repeated information.
+Less concrete and more philosophical than the [Self Coached Climber](/books/9780811733397). It hides its interesting insights in a lot of fluff and repeated information.
 
 It starts off with a +20 page diatribe on people being scared of making mistakes which wasn't very useful to me as someone who already loves making mistakes.
 
