@@ -93,8 +93,27 @@ Atrocious low effort slides from people who clearly weren't taken their jobs ser
 The entire premise of this panel precluded the existence of an equivalent to the Feet King present in the previous one. At that point, why even show up if the true degenerates are not being given an opportunity to show off their degeneracy to everyone else.
 
 **Panel: Orange Presents: Studio Panel**
+
+An animation
+
 **Screening: Samurai Pizza Cats**
-**Screening: Kurayukaba & Kuramerukagari (13+)** 
-**Panel: Kurayukaba & Kuramerukagari discussion panel with director Shigeyoshi Tsukahara**
+
+I watched an episode and a half of this before leaving to grab a bite to eat. It seems like a parody of anime, a parody of Saturday morning cartoons, a parody of Super Sentai. The English Dub of this series is it's own thing because at the time in 1991, info on the original Japanese series was low to non-existent so the dubbers came up with a lot of their own material.  
+
+There's a time and a place for something like this. It got a few chuckles out of me which is impressive considering how old it is.
+
+**Screening: Kurayukaba & Kuramerukagari (13+)** AND **Panel: Kurayukaba & Kuramerukagari discussion panel with director Shigeyoshi Tsukahara**
+
+Oooooooh I was hoping for something good and I was pleasantly surprised. This double feature of Kuramerukagari (last year's Fantasia audience award winner) and Kurayukaba, the previous movie made by the same team, was a delight.
+
+Nothing has convinced me more that people who watch anime have severe brain damage than reading through reviews of these two movies on Letterboxd and IMDB. The level of media literacy in the anime enjoyer sphere is distressingly low. I wonder if that's partially due to the audience skewing younger or something like that. But man, it's depressing.
+
+Both of these movies are fun, interesting and beautiful with a lot of cool ideas in them (perhaps a few too many to fit into their 60min runtimes). I would love to see the director Shigeyoshi Tsukahara get the opportunity to take the team he's built and get the funding to make a 90min movie because I think that it would be fantastic.
+
+He's a counter-culture *auteur*, who learned to animate on his own and over the course of two decades has finally been given an opportunity to build a team and make something out of it. I would love to continue to see him able to do this.
+
+...
+
+So.
 
 Will I be going back next year? Probably, although it depends on how sick I get and for how long...
