@@ -32,8 +32,6 @@ Consequences:
 - If Cames Jameron survives, he will become an operative himself to learn how things really happen on the field of battle.
 - ...
 
-[NPCs](/tabletop/fist/npcs):
-
 {{< rpg_table name="NPC" >}}
 | [NPCs](/tabletop/fist/npcs) | Notes |
 | --- | --- |
