@@ -32,7 +32,11 @@
       {{ end }}
     </div>
   {{ end }}
+  {{ if $thumbnail }}
     <div class="col-md-8 align-self-center">
+  {{ else }}
+    <div class="col-md-12 align-self-center">
+  {{ end }}
       <div class="summary-title h2">
         <a href='{{ .Permalink }}'>
           {{ .Render "title_text" }}

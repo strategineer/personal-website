@@ -3,7 +3,7 @@ title: "Otakuthon 2024 AAR"
 date: 2024-08-03
 blog/tags:
   - life
-draft: true
+draft: false
 ---
 
 I went to Otakuthon, which is Montreal's Japanofile convention, for the first time in 5 years, I'm going to talk about the panels, events and screenings I went to and what I got out of them.
