@@ -1,8 +1,7 @@
-{{ $has_book_links := false }}
+{{ $has_blog_tags := index .Params "blog/tags" }}
 <div class="d-flex justify-content-center d-flex-inline-list text-center">
   <ul class="list-inline ul-inline">
     {{ if .Params.isbn13 }}
-      {{ $has_book_links = true }}
     <li class="list-inline-item li-inline">
       <a
         href="https://www.indigo.ca/en-ca/search?q={{ .Params.isbn13 }}"
@@ -54,7 +53,7 @@
     {{ end }}
     {{ $slug := .Slug }}
     {{ with .File }}
-      {{ if or $has_book_links (eq $slug "mothership_1e")  }}
+      {{ if not $has_blog_tags }}
       <li class="list-inline-item li-inline">
         {{ $base_url := "https://github.com/strategineer/personal-website/blob/master/content/" }}
         <a href="{{ add $base_url (path.Join .Path) }}">
