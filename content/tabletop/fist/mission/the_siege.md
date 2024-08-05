@@ -74,7 +74,7 @@ When ANVIL operatives attack, they will enter the police station through the Lob
 
 FIST operatives will have just enough time to get into position but not enough time to get all the crew together and secured before the ANVIL forces arrive. In the surprise attack, a few ANVIL forces will have managed to make it through into the police station to take hostages and get into position.
 
-They must keep the camera(s) rolling at all times.
+Thankfully, FIST operatives are wearing high tech spy cameras with limited filming capacity that they can choose to turn on/off depending on how cool they think the "scene" that's about to happen is going to be.
 
 The following map describes the state of the police station at the time of the attack. When in doubt, rooms contain whatever was left over after this police station fell out of use.
 
