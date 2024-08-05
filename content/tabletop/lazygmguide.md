@@ -2812,7 +2812,7 @@ Whenever the characters enter a new town or start a new session there, adding so
 19. Wrangling of rampaging beasts
 20. Festival of kites
 
-### 1d20 Notable Weather Condtions
+### 1d20 Notable Weather Conditions
 
 1. Fog
 2. Heavy mist
