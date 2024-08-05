@@ -20,13 +20,17 @@ Objectives:
 - Direct and act in this movie (make it good! this is free advertisement for FIST).
 - Protect the film crew.
 - [OPTIONAL] Detain and recover anyone trying to disrupt the filming of the movie.
+- ...
 
 Rewards:
 - 1x First Edition The Siege branded Weapon of choice per operative
 - 1 Adoring Fan if the movie does well.
 
 Consequences:
-- If X happens, then Y.
+- If X happens, then Y...
+- If ANVIL operatives fail to disrupt the shoot, then they self-fund a copycat movie themselves that FIST operatives can disrupt in revenge.
+- If Cames Jameron survives, he will become an operative himself to learn how things really happen on the field of battle.
+- ...
 
 [NPCs](/tabletop/fist/npcs):
 - Cames Jameron, assistant director, is an asshole, frustrated with being assistant director on this shoot, always knows best, wants to make film the best movie possible.
