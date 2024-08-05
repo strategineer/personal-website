@@ -34,7 +34,7 @@ Consequences:
 - If Prof. Gotrovitch lives, he has a grudge against the FIST operatives for ruining his years worth of research and so will begin his vendetta against FIST by providing other organizations with his research to compete with FIST.
 - If Caesar escapes while being friendly with FIST or if FIST extracts with both crowns, FIST operatives can call in a tactical Caesar drop in subsequent missions. 
 
-NPCs:
+[NPCs](/tabletop/fist/npcs):
 - **CAPTAIN HERMAN** (6HP)
   - wants to keep his crew safe.
   - Heavy revolver (1D6+1 DAMAGE)

@@ -30,7 +30,7 @@ Consequences:
 - If Jepstein is killed, Big Hollywood will go after those responsible.
 - If Prince Andrew is killed, the succession of the crown of the British Empire will be in flux leading to a splintering of the empire and warring factions.
 
-NPCs:
+[NPCs](/tabletop/fist/npcs):
 - Effrey Jepstein "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier, wants to leave the island alive.
 - Jordan Cane "If looks can kill I'd be a holocaust", retired FBI agent turned playboy/actor, wants to leave the island alive and look good doing it.
 - Johnny "Ohhhhh no", security guard, always almost peeing/shitting his pants, has super IBS, wants to not shit his pants... again.

@@ -19,8 +19,11 @@ Rewards:
 Consequences:
 - If X happens, then Y.
 
-NPCs:
+[NPCs](/tabletop/fist/npcs):
 - Effrey Jepstein "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier
+- ...
+
+Secrets & Clues:
 - ...
 
 {{< rpg_table name="Encounter" weighted=true >}}
