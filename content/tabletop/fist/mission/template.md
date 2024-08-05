@@ -19,12 +19,18 @@ Rewards:
 Consequences:
 - If X happens, then Y.
 
-[NPCs](/tabletop/fist/npcs):
-- Effrey Jepstein "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier
-- ...
+{{< rpg_table name="NPC" >}}
+| [NPCs](/tabletop/fist/npcs) | Notes |
+| --- | --- |
+| Effrey Jepstein | "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier |
+| ...   | ... |
+{{< /rpg_table >}}
 
-Secrets & Clues:
-- ...
+{{< rpg_table name="SecretsAndClues" >}}
+| Secrets & Clues |
+| --- |
+| ... |
+{{< /rpg_table >}}
 
 {{< rpg_table name="Encounter" weighted=true >}}
 | % | Encounter |
@@ -44,8 +50,12 @@ Secrets & Clues:
 
 ![](/img/tabletop/fist/island.jpg)
 
-1. [Room/Zone Name]: Describe look/feel, items, NPCs, enemies, etc.
-2. ...
+{{< rpg_table name="Room" >}}
+| Room | Notes |
+| --- | --- |
+| 1. [Room/Zone Name] | Describe look/feel, items, NPCs, enemies, etc. |
+| 2. Blah | ... |
+{{< /rpg_table >}}
 
 **Tactics**
 

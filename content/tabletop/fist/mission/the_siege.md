@@ -33,16 +33,23 @@ Consequences:
 - ...
 
 [NPCs](/tabletop/fist/npcs):
-- Cames Jameron, assistant director, is an asshole, frustrated with being assistant director on this shoot, always knows best, wants to make film the best movie possible.
-- Jordan Cane, retired CIA agent turned actor, down to earth man from the South, wants to have fun and look cool doing it.
-- C-List Actor, star of the Siege series, fan of method acting, wants to become the character they're playing.
-- P. Body, financier and fan of cinema, has a checklist of things that need to be in the movie and wants them to be filmed.
-- Stephen McKinley Henderson, tired of playing token black roles, wants to be taken seriously as an actor.
-- Armand, arms dealer, wants to provide arms for the movie (free publicity for his services).
 
-Secrets & Clues:
-- ANVIL forces have been paid by Cames Jameron to spice up the movie and ratchet up the realism. Any wacky stuff will be fixed in post.
-- ...
+{{< rpg_table name="NPC" >}}
+| [NPCs](/tabletop/fist/npcs) | Notes |
+| --- | --- |
+| Cames Jameron | assistant director, is an asshole, frustrated with being assistant director on this shoot, always knows best, wants to make film the best movie possible. |
+| Jordan Cane | retired CIA agent turned actor, down to earth man from the South, wants to have fun and look cool doing it. |
+| C-List Actor | star of the Siege series, fan of method acting, wants to become the character they're playing. |
+| P. Body | financier and fan of cinema, has a checklist of things that need to be in the movie and wants them to be filmed. |
+| Stephen McKinley Henderson | tired of playing token black roles, wants to be taken seriously as an actor. |
+| Armand | arms dealer, wants to provide arms for the movie (free publicity for his services). |
+{{< /rpg_table >}}
+
+{{< rpg_table name="SecretsAndClues" >}}
+| Secrets & Clues |
+| --- |
+| ANVIL forces have been paid by Cames Jameron to spice up the movie and ratchet up the realism. Any wacky stuff will be fixed in post. |
+{{< /rpg_table >}}
 
 {{< rpg_table name="Encounter" weighted=true >}}
 | % | Encounter |
@@ -70,9 +77,20 @@ Secrets & Clues:
 | ... |
 {{< /rpg_table >}}
 
-When ANVIL operatives attack, they will enter the police station through the Lobby [1], through the Back Entrance [26], through the Side Entrance [28] and through the skylights above the Office [5].
+When ANVIL operatives attack, they will enter the police station through the Lobby [1], through the Back Entrance [26], through the Side Entrance [28] and through the skylights above the Office [5]. Roll to determine order.
 
-FIST operatives will have just enough time to get into position but not enough time to get all the crew together and secured before the ANVIL forces arrive. In the surprise attack, a few ANVIL forces will have managed to make it through into the police station to take hostages and get into position.
+{{< rpg_table name="SiegeEnemyBreachPoint" >}}
+| Siege Enemy Breach Points |
+| ---   |
+| Lobby [1] |
+| Back Entrance [26] |
+| Side Entrance [28] |
+| Office - Skylights [5]|
+{{< /rpg_table >}}
+
+FIST operatives will have just enough time to get into position in the police stationn but not enough time to get all the film crew together and secured before the ANVIL forces arrive. In the surprise attack, a few ANVIL forces will have managed to make it through into the police station to take hostages and get into position.
+
+Roll for rooms where crew are located: {{< rpg_roll "1d28" >}}
 
 Thankfully, FIST operatives are wearing high tech spy cameras with limited filming capacity that they can choose to turn on/off depending on how cool they think the "scene" that's about to happen is going to be.
 
