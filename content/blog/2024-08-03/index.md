@@ -3,36 +3,37 @@ title: "Otakuthon 2024 AAR"
 date: 2024-08-03
 blog/tags:
   - life
-draft: true
 ---
 
 I went to Otakuthon, which is Montreal's Japanofile convention, for the first time in 5 years, I'm going to talk about the panels, events and screenings I went to and what I got out of them.
 
 <!--more-->
 
-Seeing people's crazy cosplays, hanging out with friends and eating food in Chinatown is fun and adds to the experience for me BUT panels, shows and screenings are what I'm going to Otakuthon for.  
+Seeing people's crazy cosplays, hanging out with friends and eating food in Chinatown is fun and adds to the experience for me BUT panels, shows and screenings are the reason I go to Otakuthon.  
 
-Here's the list of Otakuthon panels, shows and screenings I went to (I've retained the capitalization of the titles as present in the schedule) in no particular order and what I got out of the experience.
+Here's the list of Otakuthon panels, shows and screenings I went to (I've retained the capitalization of the titles as present in the schedule) in no particular order and what I got out of them.
 
 **Panel: What is Truth? Science, Freedom, and Fullmetal Alchemist**
 
-This panel was a disaster. I'd say most panels run by random people of the street with no credentials can be really hit or miss. This was a big miss.
+This panel was a disaster. I'd say most panels run by random people with no credentials can be hit or miss. This was a big miss.
 
 Although the panelists had a lot of Charisma, that wasn't enough to make up for the fact that their understanding of how much time they should spend on each slide was comically out of whack.
+
+Getting through 10 out of 40 slides in a 60min feels more like a gag in a sketch comedy skit, not a thing that actually happens in real life.
 
 **Panel: History of Gundam Model Kits**
 
 This panelist knew his shit, he's steeped in the culture of Gundam Model Kits and was well enough informed on the subject to talk about its history at length.
 
-The specifics of the history of Gundam Model Kits was interesting but not very useful to me. It did however kickstart some thinking about this whole hobby.
+The specifics of the history of Gundam Model Kits was interesting but not very useful to me. It did however kickstart some thinking about the hobby.
 
-Gundam Model Kits are essentially Ikea furniture but for anime figurines. In both cases, you gather all the pieces and follow the detailed step-by-step guide to end up with the final product, either a posable mecha miniature or a bookshelf.
+Gundam Model Kits are essentially the equivalent of Ikea furniture but for anime figurines. In both cases, you gather all the pieces and follow the detailed step-by-step guide to end up with the final product, either a posable mecha miniature or a bookshelf.
 
-Where these two activities differ is the number of pieces, a Gundam Model Kit can have hundreds (thousands?) of pieces.
+Where these two activities differ is the number of pieces and size of said pieces, a Gundam Model Kit can have hundreds (thousands?) of pieces and they're quite small.
 
-The hobby is also closely related to LEGO.
+The hobby is also closely related to LEGO of course.
 
-Making something with your own two hands, or at least giving yourself the impression of that, increases your enjoyment of the final product increasing the chances you're going to buy another one and display for your friends to see.
+Making something with their hands, even if this amounts to clicking parts of a puzzle together, seems to make people happy and attach some of that joy to the object they've built. And so they buy more.
 
 I don't think it's something I would be much interested in getting into seriously but it might be fun to try once. 
 
@@ -111,6 +112,7 @@ Nothing has convinced me more that people who watch anime have severe brain dama
 Both of these movies are fun, interesting and beautiful with a lot of cool ideas in them (perhaps a few too many to fit into their 60min runtimes). I would love to see the director Shigeyoshi Tsukahara get the opportunity to take the team he's built and get the funding to make a 90min movie because I think that it would be fantastic.
 
 He's a counter-culture *auteur*, who learned to animate on his own and over the course of two decades has finally been given an opportunity to build a team and make something out of it. I would love to continue to see him able to do this.
+
 
 ...
 
