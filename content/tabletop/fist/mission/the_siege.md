@@ -49,42 +49,6 @@ Consequences:
 | ANVIL forces have been paid by Cames Jameron to spice up the movie and ratchet up the realism. Any wacky stuff will be fixed in post. |
 {{< /rpg_table >}}
 
-![](/img/tabletop/fist/police_station_legend.jpg)
-
-1. Lobby: ANVIL entry point.
-2. Reception:
-3. Bathroom:
-4. Storage:
-5. Office: ANVIL entry point (through skylights).
-6. Evidence Drop Off:
-7. Lab:
-8. Evidence Lockup:
-9. Records:
-10. Archives:
-11. Briefing Room:
-12. Break Room:
-13. Sergeant's Office:
-14. Lieutenant's Office:
-15. Station Chief's Office:
-16. Locker Rooms:
-17. Armoury:
-18. Meeting Room:
-19. Observation Room:
-20. Interrogation Room:
-21. Solitary Confinement:
-22. Common Lockup:
-23. Booking:
-24. Sallyport: Contains a Tank.
-25. Police Vehicle Parking:
-26. Back Entrance: ANVIL entry point.
-27. Public Parking:
-28. Side Entrance: ANVIL entry point.
-
-![](/img/tabletop/fist/police_station.jpg)
-
-
-![](/img/tabletop/fist/police_station_roof.jpg)
-
 Enemies:
 - ANVIL foot soldier (3HP): Glock 1D3 damage, greedy bastards, trigger-happy 
 - Ballbot (3HP): rolls around on floor, has knife, flexible legs extend out of ball to support it, gangs up on the weakest enemy
@@ -133,3 +97,39 @@ Roll for rooms where crew are located: {{< rpg_roll "1d28" >}}
 Thankfully, FIST operatives are wearing high tech spy cameras with limited filming capacity that they can choose to turn on/off depending on how cool they think the "scene" that's about to happen is going to be.
 
 The following map describes the state of the police station at the time of the attack. When in doubt, rooms contain whatever was left over after this police station fell out of use.
+
+![](/img/tabletop/fist/police_station_legend.jpg)
+
+1. Lobby: ANVIL entry point.
+2. Reception:
+3. Bathroom:
+4. Storage:
+5. Office: ANVIL entry point (through skylights).
+6. Evidence Drop Off:
+7. Lab:
+8. Evidence Lockup:
+9. Records:
+10. Archives:
+11. Briefing Room:
+12. Break Room:
+13. Sergeant's Office:
+14. Lieutenant's Office:
+15. Station Chief's Office:
+16. Locker Rooms:
+17. Armoury:
+18. Meeting Room:
+19. Observation Room:
+20. Interrogation Room:
+21. Solitary Confinement:
+22. Common Lockup:
+23. Booking:
+24. Sallyport: Contains a Tank.
+25. Police Vehicle Parking:
+26. Back Entrance: ANVIL entry point.
+27. Public Parking:
+28. Side Entrance: ANVIL entry point.
+
+![](/img/tabletop/fist/police_station.jpg)
+
+
+![](/img/tabletop/fist/police_station_roof.jpg)
