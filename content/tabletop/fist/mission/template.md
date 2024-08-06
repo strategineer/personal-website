@@ -19,6 +19,12 @@ Rewards:
 Consequences:
 - If X happens, then Y.
 
+{{< rpg_table name="SecretsAndClues" >}}
+| Secrets & Clues |
+| --- |
+| ... |
+{{< /rpg_table >}}
+
 {{< rpg_table name="NPC" >}}
 | [NPCs](/tabletop/fist/npcs) | Notes |
 | --- | --- |
@@ -26,11 +32,6 @@ Consequences:
 | ...   | ... |
 {{< /rpg_table >}}
 
-{{< rpg_table name="SecretsAndClues" >}}
-| Secrets & Clues |
-| --- |
-| ... |
-{{< /rpg_table >}}
 
 {{< rpg_table name="Encounter" weighted=true >}}
 | % | Encounter |

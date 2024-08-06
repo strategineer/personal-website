@@ -20,25 +20,22 @@ Objectives:
 - Direct and act in this movie (make it good! this is free advertisement for FIST).
 - Protect the film crew.
 - [OPTIONAL] Detain and recover anyone trying to disrupt the filming of the movie.
-- ...
 
 Rewards:
 - 1x First Edition The Siege branded Weapon of choice per operative
 - 1 Adoring Fan if the movie does well.
 
 Consequences:
-- If X happens, then Y...
 - If ANVIL operatives fail to disrupt the shoot, then they self-fund a copycat movie themselves that FIST operatives can disrupt in revenge.
 - If Cames Jameron survives, he will become an operative himself to learn how things really happen on the field of battle.
-- ...
 
 {{< rpg_table name="NPC" >}}
 | [NPCs](/tabletop/fist/npcs) | Notes |
 | --- | --- |
 | Cames Jameron | assistant director, is an asshole, frustrated with being assistant director on this shoot, always knows best, wants to make film the best movie possible. |
 | Jordan Cane | retired CIA agent turned actor, down to earth man from the South, wants to have fun and look cool doing it. |
-| C-List Actor | star of the Siege series, fan of method acting, wants to become the character they're playing. |
-| P. Body | financier and fan of cinema, has a checklist of things that need to be in the movie and wants them to be filmed. |
+| Richelle Modríguez | C-list actor, star of the Siege series, fan of method acting, wants to become the character they're playing, The Siegerer. |
+| Mr. Penguin | very round and short business man, financier and fan of cinema, has a checklist of things that need to be in the movie and wants them to be filmed. |
 | Stephen McKinley Henderson | tired of playing token black roles, wants to be taken seriously as an actor. |
 | Armand | arms dealer, wants to provide arms for the movie (free publicity for his services). |
 {{< /rpg_table >}}
@@ -62,7 +59,7 @@ Enemies:
 | 11.11 | 1d6 crazed Anvilman mascots wielding hammers  |
 | 13.88 | Charging Bull + 1d6 ANVIL foot soldiers (shotguns and snipers) |
 | 16.66 | A Recurring Character. Jordan Cane? Armand? Prince Andrew? Johnny? |
-| 13.88 | Misses Beast + 1d6 ANVIL foot soldiers (simps, will do anything for Misses Beast) |
+| 13.88 | Misses Beast + 1d6 ANVIL foot soldiers (simps turned into soldiers, sweaty, ugly, lumpy, will do anything for Misses Beast) |
 | 11.11 | Moneybag Jones + 1d6 ANVIL foot soldiers (smoke and flashbangs) |
 | 8.33 | The Yellowjackets |
 | 5.55 | The Old Reliables  |
