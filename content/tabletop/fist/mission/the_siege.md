@@ -60,10 +60,10 @@ Enemies:
 | 5.55 | Mercenary Squad (roll on table) |
 | 8.33 | 1d6 Ballbots |
 | 11.11 | 1d6 crazed Anvilman mascots wielding hammers  |
-| 13.88 | Charging Bull + 1d6 ANVIL foot soldiers + roll squad trait |
+| 13.88 | Charging Bull + 1d6 ANVIL foot soldiers (shotguns and snipers) |
 | 16.66 | A Recurring Character. Jordan Cane? Armand? Prince Andrew? Johnny? |
-| 13.88 | Misses Beast + 1d6 ANVIL foot soldiers + roll squad trait |
-| 11.11 | Moneybag Jones + 1d6 ANVIL foot soldiers + roll squad trait |
+| 13.88 | Misses Beast + 1d6 ANVIL foot soldiers (simps, will do anything for Misses Beast) |
+| 11.11 | Moneybag Jones + 1d6 ANVIL foot soldiers (smoke and flashbangs) |
 | 8.33 | The Yellowjackets |
 | 5.55 | The Old Reliables  |
 | 2.77 | CRO operatives |
