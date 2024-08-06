@@ -49,51 +49,6 @@ Consequences:
 | ANVIL forces have been paid by Cames Jameron to spice up the movie and ratchet up the realism. Any wacky stuff will be fixed in post. |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Encounter" weighted=true >}}
-| % | Encounter |
-| ------ | --------|
-| 2.77 | HIND Helo |
-| 5.55 |  |
-| 8.33 |   |
-| 11.11 |  |
-| 13.88 | |
-| 16.66 | A Recurring Character. Jordan Cane? Armand? Prince Andrew? Johnny? |
-| 13.88 |  |
-| 11.11 |  |
-| 8.33 |  |
-| 5.55 |  |
-| 2.77 | CRO operatives |
-{{< /rpg_table >}}
-
-{{< rpg_table name="Scene" >}}
-| Scene |
-| ---   |
-| Breach and clear a room |
-| Talk about a "last stand" while the room is shaking |
-| Glimpse a UFO lifting up a cow and blasting away |
-| Escape from the Police Station in a tank |
-| ... |
-{{< /rpg_table >}}
-
-When ANVIL operatives attack, they will enter the police station through the Lobby [1], through the Back Entrance [26], through the Side Entrance [28] and through the skylights above the Office [5]. Roll to determine order.
-
-{{< rpg_table name="SiegeEnemyBreachPoint" >}}
-| Siege Enemy Breach Points |
-| ---   |
-| Lobby [1] |
-| Back Entrance [26] |
-| Side Entrance [28] |
-| Office - Skylights [5]|
-{{< /rpg_table >}}
-
-FIST operatives will have just enough time to get into position in the police stationn but not enough time to get all the film crew together and secured before the ANVIL forces arrive. In the surprise attack, a few ANVIL forces will have managed to make it through into the police station to take hostages and get into position.
-
-Roll for rooms where crew are located: {{< rpg_roll "1d28" >}}
-
-Thankfully, FIST operatives are wearing high tech spy cameras with limited filming capacity that they can choose to turn on/off depending on how cool they think the "scene" that's about to happen is going to be.
-
-The following map describes the state of the police station at the time of the attack. When in doubt, rooms contain whatever was left over after this police station fell out of use.
-
 ![](/img/tabletop/fist/police_station_legend.jpg)
 
 1. Lobby: ANVIL entry point.
@@ -130,15 +85,51 @@ The following map describes the state of the police station at the time of the a
 
 ![](/img/tabletop/fist/police_station_roof.jpg)
 
+Enemies:
+- ANVIL foot soldier (3HP): Glock 1D3 damage, greedy bastards, trigger-happy 
+- Ballbot (3HP): rolls around on floor, has knife, flexible legs extend out of ball to support it, gangs up on the weakest enemy
 
-**Tactics**
+{{< rpg_table name="Encounter" weighted=true >}}
+| % | Encounter |
+| ------ | --------|
+| 2.77 | HIND Helo |
+| 5.55 | Mercenary Squad (roll on table) |
+| 8.33 | 1d6 Ballbots |
+| 11.11 | 1d6 crazed Anvilman mascots wielding hammers  |
+| 13.88 | Charging Bull + 1d6 ANVIL foot soldiers + roll squad trait |
+| 16.66 | A Recurring Character. Jordan Cane? Armand? Prince Andrew? Johnny? |
+| 13.88 | Misses Beast + 1d6 ANVIL foot soldiers + roll squad trait |
+| 11.11 | Moneybag Jones + 1d6 ANVIL foot soldiers + roll squad trait |
+| 8.33 | The Yellowjackets |
+| 5.55 | The Old Reliables  |
+| 2.77 | CRO operatives |
+{{< /rpg_table >}}
 
-- How to approach the mission? In-media res? Recon from the outskirts? Paradrop?
+{{< rpg_table name="Scene" >}}
+| Scene |
+| ---   |
+| Breach and clear a room |
+| Talk about a "last stand" while the room is shaking |
+| Glimpse a UFO lifting up a cow and blasting away |
+| Escape from the Police Station in a tank |
+| ... |
+{{< /rpg_table >}}
 
-**Espionage**
+When ANVIL operatives attack, they will enter the police station through the Lobby [1], through the Back Entrance [26], through the Side Entrance [28] and through the skylights above the Office [5]. Roll to determine order.
 
-- Describe each relevant NPC with clear motivations, assets and liabilities that PCs can interact with and infosec challenges to overcome. 
+{{< rpg_table name="SiegeEnemyBreachPoint" >}}
+| Siege Enemy Breach Points |
+| ---   |
+| Lobby [1] |
+| Back Entrance [26] |
+| Side Entrance [28] |
+| Office - Skylights [5]|
+{{< /rpg_table >}}
 
-**Action**
+FIST operatives will have just enough time to get into position in the police station but not enough time to get all the film crew together and secured before the ANVIL forces arrive. In the surprise attack, a few ANVIL forces will have managed to make it through into the police station to take hostages and get into position.
 
-- Describe catalyzing elements for actions: enemy patrols, boss encounters, special modifiers that change combat in an interesting way (a network of neural implants that lock down the entire facility if a soldier is harmed)
+Roll for rooms where crew are located: {{< rpg_roll "1d28" >}}
+
+Thankfully, FIST operatives are wearing high tech spy cameras with limited filming capacity that they can choose to turn on/off depending on how cool they think the "scene" that's about to happen is going to be.
+
+The following map describes the state of the police station at the time of the attack. When in doubt, rooms contain whatever was left over after this police station fell out of use.
