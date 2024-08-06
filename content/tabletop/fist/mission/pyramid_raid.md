@@ -34,7 +34,8 @@ Consequences:
 | --- | --- |
 | Head IRIS Researcher | Brainiac?, trapped in the tomb and can't escape with FIST's help, wants to escape and share his findings with IRIS |
 | Kenton | head of IRIS security, trapped with the Head Researcher, wants to protect the researcher and escape from the tomb. |
-| IRIS Researcher (infected)| blind, sunken pits where there eyes should be, infected with a memetic brain disease caused by Amushpet IV's influence that gives them the insatiable need to talk about the greatness of the god Set, wants to escape from the tomb at all costs to spread the word of Set |
+| IRIS Researcher (infected)| blind, sunken pits where there eyes should be, infected with a memetic brain disease caused by Amushpet IV's influence that gives them the insatiable need to talk about the greatness of the god Set, wants to escape from the tomb at all costs to spread the word of Set. |
+| IRIS Guard (infected)| SMG (1d6 DMG), blind, sunken pits where there eyes should be, infected with a memetic brain disease caused by Amushpet IV's influence that gives them the insatiable need to talk about the greatness of the god Set, wants to protect the tomb and any worshippers of Set. |
 | Archies, IRIS Archeology Bots (3HP) | floating rotating trapezoidal bot, short range laser weapons (1d3) used for digging and defense, british voice, corrupted by the influence of the tomb, want  |
 | Amushpet IV (undead) (6HP) | worshipper of Set, woken from his slumber by IRIS, can control minds robotic and humanoid in his close proximity, wants to eliminate all intruders and venture forth into the world to create a new empire. |
 | Ram16 (undead) (6HP) | Amushpet's captain of the royal guard, wants to protect Amushpet IV and help him achieve his goals |
