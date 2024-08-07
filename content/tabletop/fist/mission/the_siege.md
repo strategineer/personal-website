@@ -7,13 +7,15 @@ is_tabletop: true
 
 Maps created by Tom Cartos https://www.tomcartos.com/police-station
 
-An avant-garde movie production company is looking to shoot the most realistic action movie of all time and FIST operatives are being tasked with the job.
-
 <!--more-->
 
-They've found a decrepit small town police station to use as the stage and they want FIST operatives to direct, act and fight in a sequence of scenes finishing the movie off with the climatic siege of the police station by some evil force (zombies).
+{{< quote >}}
+An avant-garde movie production company is looking to shoot the most realistic action movie of all time and we're being asked to send our most interesting operatives, that's you, interpret that how you will, to help them.
 
-After a few scenes have been shot, during a break where the crew is conveniently separated from each other all throughout the police station (bathroom break, food break, prepping for the next scene), ANVIL forces ambush the crew, seemingly, to disrupt the filming of the movie.
+You'll be brought to an abandoned small town police station in Northern Carolina where the production company has requested that take on the task of directing, acting and fighting in the few climatic scenes that take place there (most of the movie's non-action scenes have already been shot).
+
+We haven't gotten a script, because there isn't one, most of the movie's been improv-ed so far and I expect that to be the case for your scenes as well. Once you arrive at the set, you'll meet with the director, Cames Jameron, and start shooting some scenes right away. Don't be late! 
+{{< /quote >}}
 
 
 Objectives:
@@ -43,6 +45,7 @@ Consequences:
 {{< rpg_table name="SecretsAndClues" >}}
 | Secrets & Clues |
 | --- |
+| After a few scenes have been shot, during a break where the crew is conveniently separated from each other all throughout the police station (bathroom break, food break, prepping for the next scene), ANVIL forces ambush the crew, seemingly, to disrupt the filming of the movie. |
 | ANVIL forces have been paid by Cames Jameron to spice up the movie and ratchet up the realism. Any wacky stuff will be fixed in post. |
 {{< /rpg_table >}}
 

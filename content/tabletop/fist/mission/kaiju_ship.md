@@ -6,19 +6,21 @@ is_tabletop: true
 ---
 Heavily based on https://fayveline.itch.io/the-red-folder
 
+{{< quote >}}
+We've got a client who's requested that we send some agents, that's you guys, to board a US Navy ship to recover or destroy the dangerous biological weapon that's on board.
+
+This biological weapon's name is Caesar. Large, green, scaley, shoots lasers out of its eyes (that kind of thing). Caesar was discovered in the vicinity of Pompeii by a Prof. Ivan Gotrovitch, a Soviet national. He sold both his discovery and his knowledge about Caesar and the rest of his kind to the American Navy.
+
+The USS Sherlock, with Caesar on board, is currently in the middle of the Atlantic Ocean, en route to the U.S. West Coast. You're tasked with getting on board the ship and recovering or destroying Caesar before they reach their destination.
+
+Caesar is a once in a lifetime find and so expect to come into contact with forces other than the US Navy sailors on the ship.
+{{< /quote >}}
+
 FIST has been tasked with freeing or destroying a kaiju named Caesar. It is currently in a U.S. Navy ship – the USS Sherlock. FIST must infiltrate the ship, and deal with the kaiju in any way they can.
 
 At the same time, the Yellowjackets squad has been tasked by CYCLOPS to recover the crowns used by prof. Gotrovitch to manipulate the creature!
 
 <!--more-->
-
-LOCATION: USS. Sherlock, Atlantic Ocean.
-
-SITUATION: Caesar is a dangerous biological weapon. It was discovered in the vicinity of Pompeii by Prof. Gotrovitch along with CYCLOPS. Gotrovitch betrayed them and sold his discovery to the American Navy, along with the professor’s services.
-
-They are currently on route towards the U.S. West coast aboard the USS. Sherlock. CYCLOPS has sent an enemy squad to recover the kaiju.
-
-INFILTRATION/EXFILTRATION: The client has given FIST a Zodiac rubber boat with a magnetic lock. You can board the ship wherever you like, and the ship will stay there until you exfiltrate.
 
 Objectives:
 - Prevent the navy – or any other faction – from acquiring Caesar.
@@ -33,6 +35,12 @@ Rewards:
 Consequences:
 - If Prof. Gotrovitch lives, he has a grudge against the FIST operatives for ruining his years worth of research and so will begin his vendetta against FIST by providing other organizations with his research to compete with FIST.
 - If Caesar escapes while being friendly with FIST or if FIST extracts with both crowns, FIST operatives can call in a tactical Caesar drop in subsequent missions. 
+
+{{< rpg_table name="SecretsAndClues" >}}
+| Secrets & Clues |
+| --- |
+| ... |
+{{< /rpg_table >}}
 
 [NPCs](/tabletop/fist/npcs):
 - **CAPTAIN HERMAN** (6HP)
