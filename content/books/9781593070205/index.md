@@ -2,23 +2,28 @@
 authors:
 - Kentaro Miura
 books/tags:
-- currently-reading
 - fiction
 - graphic novel
 - fantasy
 - horror
-date: 2024-07-15
+date: 2024-08-10
 params:
   isbn13: '9781593070205'
   year: '2003'
 slug: '9781593070205'
 title: Berserk
-weight: 1
+star_rating: 4
 ---
 
-Gritty medieval fantasy manga with fantastic art and a story with weight.
+Berserk is a gritty medieval fantasy manga by Kentaro Miura, who may have been one of the greatest artists ever. His art will absolutely floor you time and time again.
+
+The story of Berserk has its ups and downs, but overall I was left disappointed by it. The story feels like a vehicle that constantly thrusts Guts and his crew into contact with the Eldritch and Demonic horrors that Miura excels at drawing. That's great but it's usually not much more than that.
+
+A lot of mysteries and ideas are dropped for effect or as cliffhangers and then completely forgotten as the series goes on. This is the curse of long-running serialized manga and it's something you'll have to deal with if you want to read Berserk.
 
 <!--more-->
+
+Random thoughts below:
 
 Oddly enough, a lot of the mercenary captain stuff reminded me of Mary Gentle's Ash: A Secret History.  
 
