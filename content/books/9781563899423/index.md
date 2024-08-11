@@ -5,6 +5,7 @@ books/tags:
 - currently-reading
 - fiction
 - graphic novel
+- fantasy
 date: 2024-08-10
 params:
   isbn13: '9781563899423'
