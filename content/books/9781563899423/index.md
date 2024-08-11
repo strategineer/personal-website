@@ -22,4 +22,4 @@ This comic book was first published in 2002 by a Pro-Israel author. Fables is ex
 
 1 volume into it so far and I'm curious to see what happens next. It's nice to read through a comic book that, so far, is much more compressed than the Berserk manga I just finished. We're not luxuriating in chapter after chapter of every single movement a guy makes as he's slicing through a horde of demons. Instead, in Fables, and American comics more broadly, we zoom in on interesting scenes and skip over the details.
 
-There's a place for both compressed and decompressed art depicting moments in time like comic books and manga. But after reading through 41 volumes of hyper compressed manga, I need a break!
+There's a place for both compressed and decompressed art depicting moments in time like comic books and manga. But after reading through 41 volumes of hyper decompressed manga, I need a break!
