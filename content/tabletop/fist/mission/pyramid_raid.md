@@ -56,16 +56,16 @@ Consequences:
 {{< rpg_table name="Encounter" weighted=true >}}
 | % | Encounter |
 | ------ | --------|
-| 2.77 | HIND Helo |
+| 2.77 | High Priest of Amushpet with 1d4 tomb guards |
 | 5.55 |  |
 | 8.33 |  |
 | 11.11 |  |
-| 13.88 |  |
+| 13.88 | Tomb priest with 1d4 infected |
 | 16.66 | A Recurring Character. Jordan Cane? Armand? Prince Andrew? Johnny? |
-| 13.88 |  |
+| 13.88 | 1d3 tomb guards |
 | 11.11 | |
-| 8.33 |  |
-| 5.55 |  |
+| 8.33 | yellojackets |
+| 5.55 | mercenary |
 | 2.77 | CRO operatives |
 {{< /rpg_table >}}
 
