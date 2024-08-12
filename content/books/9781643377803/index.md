@@ -26,6 +26,6 @@ Might be the coolest thing I've read in my entire life. I'm not being hyperbolic
 
 Jodorowsky's Dune which is a documentary about Joderowsky's famous attempt at making a filmic adaptation of Frank Herbert's Dune. After watching that I knew that Jodorowsky was definitely someone to keep an eye on.
 
-It seems as though The Incal is where a lot of his creative energy went after his Dune adaption failed to materialize.
+It seems as though The Incal is where a lot of his creative energy went after his Dune adaptation failed to materialize.
 
-I think the world is better for it. 
+I think the world is better for it. THIS COMIC IS SO GOOD.
