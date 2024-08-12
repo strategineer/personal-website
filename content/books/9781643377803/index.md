@@ -4,6 +4,9 @@ authors:
 - Moebius
 books/tags:
 - currently-reading
+- fiction
+- graphic novel
+- science fiction
 date: 2024-08-12
 params:
   isbn13: '9781643377803'
