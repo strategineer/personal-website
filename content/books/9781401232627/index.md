@@ -2,7 +2,7 @@
 authors:
 - Kurt Busiek
 books/tags:
-- currently-reading
+- owned-but-unread
 - graphic novel
 - fiction
 date: 2024-08-12

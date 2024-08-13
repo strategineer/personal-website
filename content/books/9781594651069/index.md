@@ -2,7 +2,7 @@
 authors:
 - Alejandro Jodorowsky
 books/tags:
-- currently-reading
+- owned-but-unread
 - graphic novel
 - fiction
 - science fiction

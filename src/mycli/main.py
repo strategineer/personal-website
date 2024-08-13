@@ -189,7 +189,7 @@ def import_books(isbn):
             post.metadata["star_rating"] = None
             post.metadata["weight"] = 1
             post.metadata["date"] = date.today()
-            post.metadata["books/tags"] = ["currently-reading"]
+            post.metadata["books/tags"] = ["owned-but-unread"]
             print(f"No existing book for ISBN {isbn}, creating new post")
         write_post(post, filename)
         # {'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
