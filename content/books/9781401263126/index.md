@@ -3,6 +3,7 @@ authors:
 - Grant Morrison
 books/tags:
 - currently-reading
+- fiction
 - graphic novel
 date: 2024-08-12
 params:
