@@ -3,6 +3,8 @@ authors:
 - Kurt Busiek
 books/tags:
 - currently-reading
+- graphic novel
+- fiction
 date: 2024-08-12
 params:
   isbn13: '9781401232627'
