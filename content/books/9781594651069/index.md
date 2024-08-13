@@ -3,6 +3,9 @@ authors:
 - Alejandro Jodorowsky
 books/tags:
 - currently-reading
+- graphic novel
+- fiction
+- science fiction
 date: 2024-08-12
 params:
   isbn13: '9781594651069'
