@@ -17,13 +17,13 @@ weight: 1
 
 Grant Morrison's run of Doom Patrol focuses on the misfits, the weird and the broken and how they are fit to fight evils that other more conventional and sane heroes aren't equipped to deal with.
 
+<!--more-->
+
 Robotman has a fully mechanical body with his very human brain controlling new body. He can't feel anything. What makes a human a human if not for their ability to sense the world around them?
 
 Crazy Jane is a woman with 64 different personalities, so far at least, each possessing a different power. She's unpredictable but it seems like her powers will come in handy time and time again. Who exactly is Crazy Jane? Who are they and what makes they, her?
 
 Rebis is formed from the fusion of a man and a woman with the mind and bodies of both becoming one. Their memories are the memories of the two who became one but altered and corrupted in the process. When we change how does that effect us and does that effect others around us?
-
-<!--more-->
 
 I've only read through 100 pages of this so far, covering the formation of the main team leading up to their handling of a problem involving a memetic fictional city (think Carcosa in the King in Yellow) that is taking over the real.
 
