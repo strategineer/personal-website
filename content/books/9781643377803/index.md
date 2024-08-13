@@ -33,6 +33,6 @@ I'm convinced that with the Incal Jodorowsky and Moebius's shared goal was to bl
 
 The journey of John Difool is fast. There's no time wasting, because there's no time to waste. John Difool is being pushed and pulled around by the titular Incal, a powerful object who's purpose is gradually revealed throughout the text, into contact with characters that are as big, metaphorically, as you can imagine and into situations that are at the minimum extremely exciting. All this while the universe John Difool exists in is imploding in on itself as galactic empires fight, the underclass riot in an attempt to overthrow the aristocrats, the technopope and his techno-techno followers build a gigantic black egg that is more than a little ominous, I could go on.
 
-It's fucking insanity. How can someone read the Incal and not spend their entire life telling everyone they know to read it.
+It's fucking insanity. How can someone read the Incal and not spend their entire life telling everyone they know, maybe everyone full stop, to read it.
 
 It's like a real the King in Yellow kind of situation, or at least it should be.
