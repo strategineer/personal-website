@@ -51,6 +51,6 @@ Reading these pages, I could hear the sound of vuvuzelas blasting and see Rebis 
 
 It's not edgy exactly. I'm not sure what it is exactly. It feels a little tropey, maybe comic booky?
 
-But these kinds of moments are spread throughout the first 4 issues of the run. They're not hitting as hard or as smoothly as the Incal is for me.
+Moments like this, big theoretically awesome panels, are spread throughout the Incal as well but the ones in Doom Patrol aren't hitting as hard or as smoothly as the ones in the Incal for some reason.
 
 TBD
