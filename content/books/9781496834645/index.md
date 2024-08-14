@@ -9,7 +9,7 @@ params:
   isbn13: '9781496834645'
   year: '2021'
 slug: '9781496834645'
-star_rating: 3
+star_rating: 4
 title: The Comics World - Comic Books, Graphic Novels, And Their Publics
 ---
 
