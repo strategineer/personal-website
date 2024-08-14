@@ -14,7 +14,7 @@ title: Critical Directions In Comics Studies
 weight: 1
 ---
 
-Collection of academic articles in comics studies. Great comic strip introduction with comic panels from each author to kick everything off.
+Collection of academic articles in comics studies. Starts with a great comic strip introducing the collection itself followed by comic panels drawn by the authors of the articles themselves. Very cool!
 
 <!--more-->
 
