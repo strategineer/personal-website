@@ -3,7 +3,7 @@ authors:
 - Alejandro Jodorowsky
 - Moebius
 books/tags:
-- graphic novel
+- comics
 - fiction
 date: 2024-08-14
 params:

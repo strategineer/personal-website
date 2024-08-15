@@ -4,7 +4,7 @@ authors:
 books/tags:
 - currently-reading
 - fiction
-- graphic novel
+- comics
 - fantasy
 date: 2024-08-10
 params:

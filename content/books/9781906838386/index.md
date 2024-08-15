@@ -4,7 +4,7 @@ authors:
 - Pierre Oscar Levy
 books/tags:
 - fiction
-- graphic novel
+- comics
 - trash
 date: 2021-07-22
 params:

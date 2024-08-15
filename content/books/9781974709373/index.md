@@ -3,7 +3,7 @@ authors:
 - Kazuo Umezz
 books/tags:
 - fiction
-- graphic novel
+- comics
 date: 2021-07-01
 params:
   isbn13: '9781974709373'

@@ -4,7 +4,7 @@ authors:
 books/tags:
 - fiction
 - fantasy
-- comic
+- comedy
 date: 2023-06-24
 params:
   isbn13: '9780552148405'

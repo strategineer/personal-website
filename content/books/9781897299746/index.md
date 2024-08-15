@@ -2,7 +2,7 @@
 authors:
 - Yoshihiro Tatsumi
 books/tags:
-- graphic novel
+- comics
 - did-not-finish
 date: 2017-12-10
 params:

@@ -3,7 +3,7 @@ authors:
 - Takashi Nagasaki
 - Naoki Urasawa
 books/tags:
-- graphic novel
+- comics
 date: 2016-04-25
 params:
   isbn13: '9781421519180'

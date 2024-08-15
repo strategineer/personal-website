@@ -3,7 +3,7 @@ authors:
 - Junji Ito
 books/tags:
 - fiction
-- graphic novel
+- comics
 date: 2021-07-15
 params:
   isbn13: '9781974717477'

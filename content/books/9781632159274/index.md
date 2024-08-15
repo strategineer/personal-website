@@ -3,7 +3,7 @@ authors:
 - Matt Fraction
 books/tags:
 - currently-reading
-- graphic novel
+- comics
 - fiction
 - science fiction
 date: 2024-08-14

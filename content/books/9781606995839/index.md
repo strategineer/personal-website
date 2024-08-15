@@ -2,7 +2,7 @@
 authors:
 - Inio Asano
 books/tags:
-- graphic novel
+- comics
 date: 2016-03-04
 params:
   isbn13: '9781606995839'

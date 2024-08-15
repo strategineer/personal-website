@@ -2,7 +2,7 @@
 authors:
 - Katsuhiro Ōtomo
 books/tags:
-- graphic novel
+- comics
 date: 2016-02-15
 params:
   isbn13: '9781935429005'

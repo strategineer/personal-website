@@ -4,7 +4,7 @@ authors:
 books/tags:
 - fiction
 - fantasy
-- comic
+- comedy
 date: 2022-11-28
 params:
   isbn13: '9781804990315'

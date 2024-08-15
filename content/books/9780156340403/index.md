@@ -4,7 +4,7 @@ authors:
 books/tags:
 - fiction
 - science fiction
-- comic
+- comedy
 - horror
 - slavic
 date: 2024-03-13

@@ -2,7 +2,7 @@
 authors:
 - Mohiro Kitoh
 books/tags:
-- graphic novel
+- comics
 date: 2016-04-24
 params:
   isbn13: '9781421533612'

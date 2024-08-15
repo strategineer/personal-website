@@ -2,7 +2,7 @@
 authors:
 - Kenichi Sonoda
 books/tags:
-- graphic novel
+- comics
 date: 2016-03-05
 params:
   isbn13: '9781593077501'

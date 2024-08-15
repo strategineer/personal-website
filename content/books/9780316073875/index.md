@@ -2,8 +2,8 @@
 authors:
 - Kiyohiko Azuma
 books/tags:
-- graphic novel
-- comic
+- comics
+- comedy
 date: 2021-12-19
 params:
   isbn13: '9780316073875'

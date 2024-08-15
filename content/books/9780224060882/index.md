@@ -2,7 +2,7 @@
 authors:
 - Daniel Clowes
 books/tags:
-- graphic novel
+- comics
 - fiction
 date: 2024-08-14
 params:

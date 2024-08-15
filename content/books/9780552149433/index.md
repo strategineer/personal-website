@@ -4,7 +4,7 @@ authors:
 books/tags:
 - fiction
 - fantasy
-- comic
+- comedy
 - slay
 date: 2023-06-23
 params:

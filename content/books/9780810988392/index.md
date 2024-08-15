@@ -2,7 +2,7 @@
 authors:
 - Michael Goodwin
 books/tags:
-- graphic novel
+- comics
 date: 2018-05-09
 params:
   isbn13: '9780810988392'

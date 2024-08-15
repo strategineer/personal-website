@@ -2,7 +2,7 @@
 authors:
 - Mark Millar
 books/tags:
-- graphic novel
+- comics
 date: 2018-06-09
 params:
   isbn13: '9781401247119'

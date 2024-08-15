@@ -3,7 +3,7 @@ authors:
 - Alejandro Jodorowsky
 books/tags:
 - owned-but-unread
-- graphic novel
+- comics
 - fiction
 - science fiction
 date: 2024-08-12

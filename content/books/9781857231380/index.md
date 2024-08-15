@@ -4,7 +4,7 @@ authors:
 books/tags:
 - fiction
 - science fiction
-- comic
+- comedy
 - satire
 - slay
 date: 2024-05-10

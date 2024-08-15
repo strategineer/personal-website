@@ -4,7 +4,7 @@ authors:
 - Moebius
 books/tags:
 - fiction
-- graphic novel
+- comics
 - science fiction
 - slay
 date: 2024-08-14

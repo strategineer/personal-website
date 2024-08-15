@@ -5,7 +5,7 @@ books/tags:
 - fiction
 - science fiction
 - detective fiction
-- comic
+- comedy
 - slay
 date: 2023-07-25
 params:

@@ -3,7 +3,7 @@ authors:
 - Kurt Busiek
 books/tags:
 - owned-but-unread
-- graphic novel
+- comics
 - fiction
 date: 2024-08-12
 params:

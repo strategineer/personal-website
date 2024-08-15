@@ -2,7 +2,7 @@
 authors:
 - Junji Ito
 books/tags:
-- graphic novel
+- comics
 date: 2015-08-30
 params:
   isbn13: '9781421561325'

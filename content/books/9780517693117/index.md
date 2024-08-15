@@ -3,7 +3,7 @@ authors:
 - Douglas Adams
 books/tags:
 - science fiction
-- comic
+- comedy
 date: 2012-05-06
 params:
   isbn13: '9780517693117'

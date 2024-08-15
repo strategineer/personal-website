@@ -2,7 +2,7 @@
 authors:
 - Mark Millar
 books/tags:
-- graphic novel
+- comics
 date: 2018-10-25
 params:
   isbn13: '9781534309166'

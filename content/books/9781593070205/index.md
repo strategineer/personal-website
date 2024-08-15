@@ -3,7 +3,7 @@ authors:
 - Kentaro Miura
 books/tags:
 - fiction
-- graphic novel
+- comics
 - fantasy
 - horror
 date: 2024-08-10
