@@ -5,6 +5,7 @@ books/tags:
 - currently-reading
 - comics
 - science fiction
+- myth
 date: 2024-08-14
 params:
   isbn13: '9781632159274'
