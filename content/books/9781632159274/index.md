@@ -22,6 +22,10 @@ Sounds crazy. I'm into it.
 
 <!--more-->
 
+The writing is odd. The choice to retain poetic-sounding language with rhymes is a bold one because speech bubbles and their placement prevents the reader from being able to read the lines in the precise manner required to fully appreciate the alliteration and the rhymes of the poetry.
+
+The art is fantastic, it's psychedelic, wavy and colourful. It provides a solid lens through which to really see this sci-fi universe for what it is: one that is malleable, in flux and always being altered by the whims of the Olympian Gods.
+
 {{< spoiler >}}
 ![](p10.jpg)
 {{< /spoiler >}}
