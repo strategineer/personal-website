@@ -29,3 +29,5 @@ The art is fantastic, it's psychedelic, wavy and colourful. It provides a solid 
 {{< spoiler >}}
 ![](p10.jpg)
 {{< /spoiler >}}
+
+The choice to interweave the Epic of Gilgamesh into the story as well is kind of wild. Especially framing the story as read by He, the gimp (Paris?) of Odysseus.
