@@ -2,7 +2,6 @@
 authors:
 - Ann Leckie
 books/tags:
-- fiction
 - fantasy
 - trash
 date: 2023-09-25

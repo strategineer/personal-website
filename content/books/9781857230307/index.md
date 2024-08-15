@@ -3,7 +3,6 @@ authors:
 - Iain Banks
 books/tags:
 - owned-but-unread
-- fiction
 - science fiction
 date: 2024-07-21
 params:

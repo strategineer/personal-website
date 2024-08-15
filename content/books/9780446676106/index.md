@@ -2,7 +2,6 @@
 authors:
 - Octavia E. Butler
 books/tags:
-- fiction
 - science fiction
 date: 2023-10-10
 params:

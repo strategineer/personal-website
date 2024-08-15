@@ -2,7 +2,6 @@
 authors:
 - Jim C. Hines
 books/tags:
-- fiction
 - science fiction
 - trash
 date: 2023-08-17

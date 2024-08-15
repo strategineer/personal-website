@@ -2,7 +2,6 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- fiction
 - fantasy
 - slay
 date: 2023-07-30

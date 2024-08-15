@@ -2,7 +2,6 @@
 authors:
 - N. K. Jemisin
 books/tags:
-- fiction
 - science fantasy
 date: 2023-08-24
 params:

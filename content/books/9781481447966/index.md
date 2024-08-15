@@ -2,7 +2,6 @@
 authors:
 - Kameron Hurley
 books/tags:
-- fiction
 - science fiction
 date: 2023-08-09
 params:

@@ -4,7 +4,6 @@ authors:
 - Moebius
 books/tags:
 - comics
-- fiction
 date: 2024-08-14
 params:
   isbn13: '9781594650420'

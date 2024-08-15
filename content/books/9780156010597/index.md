@@ -2,7 +2,6 @@
 authors:
 - José Saramago
 books/tags:
-- fiction
 date: 2023-09-16
 params:
   isbn13: '9780156010597'

@@ -2,7 +2,6 @@
 authors:
 - V. E. Schwab
 books/tags:
-- fiction
 - fantasy
 date: 2023-06-18
 params:

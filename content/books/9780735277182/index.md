@@ -2,7 +2,6 @@
 authors:
 - Cherie Dimaline
 books/tags:
-- fiction
 date: 2023-09-19
 params:
   isbn13: '9780735277182'

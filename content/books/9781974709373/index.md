@@ -2,7 +2,6 @@
 authors:
 - Kazuo Umezz
 books/tags:
-- fiction
 - comics
 date: 2021-07-01
 params:

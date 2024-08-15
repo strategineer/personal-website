@@ -2,7 +2,6 @@
 authors:
 - Iain Banks
 books/tags:
-- fiction
 - science fiction
 - comedy
 - satire

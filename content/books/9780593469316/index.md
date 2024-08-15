@@ -2,7 +2,6 @@
 authors:
 - Nana Kwame Adjei-Brenyah
 books/tags:
-- fiction
 - science fiction
 - dystopian
 - slay

@@ -4,7 +4,6 @@ authors:
 books/tags:
 - currently-reading
 - comics
-- fiction
 date: 2024-08-15
 params:
   isbn13: '9781974707096'

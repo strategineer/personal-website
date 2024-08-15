@@ -2,7 +2,6 @@
 authors:
 - Xiran Jay Zhao
 books/tags:
-- fiction
 - science fiction
 - young adult
 - slay

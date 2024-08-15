@@ -3,7 +3,6 @@ authors:
 - Bill Willingham
 books/tags:
 - currently-reading
-- fiction
 - comics
 - fantasy
 date: 2024-08-10

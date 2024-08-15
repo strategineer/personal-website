@@ -4,7 +4,6 @@ authors:
 books/tags:
 - owned-but-unread
 - comics
-- fiction
 - science fiction
 date: 2024-08-12
 params:

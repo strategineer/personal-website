@@ -2,7 +2,6 @@
 authors:
 - Aldous Huxley
 books/tags:
-- fiction
 - science fiction
 - dystopian
 date: 2023-01-08

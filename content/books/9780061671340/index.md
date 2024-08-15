@@ -2,7 +2,6 @@
 authors:
 - Brom
 books/tags:
-- fiction
 - fantasy
 date: 2024-02-29
 params:

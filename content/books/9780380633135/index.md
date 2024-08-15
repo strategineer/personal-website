@@ -3,7 +3,6 @@ authors:
 - Yevgeny Zamyatin
 - Mirra Ginsburg
 books/tags:
-- fiction
 - science fiction
 - dystopian
 - slavic

@@ -2,7 +2,6 @@
 authors:
 - Tamsyn Muir
 books/tags:
-- fiction
 - science fantasy
 date: 2023-10-18
 params:

@@ -4,7 +4,6 @@ authors:
 - Sergey Dyachenko
 - Julia Meitov Hersey
 books/tags:
-- fiction
 - fantasy
 date: 2024-07-25
 params:

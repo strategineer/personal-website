@@ -2,7 +2,6 @@
 authors:
 - Andy Weir
 books/tags:
-- fiction
 - science fiction
 date: 2023-10-14
 params:

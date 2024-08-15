@@ -3,7 +3,6 @@ authors:
 - N. K. Jemisin
 books/tags:
 - owned-but-unread
-- fiction
 - science fantasy
 date: 2024-04-10
 params:

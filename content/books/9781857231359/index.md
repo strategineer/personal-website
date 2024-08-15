@@ -2,7 +2,6 @@
 authors:
 - Iain Banks
 books/tags:
-- fiction
 - science fiction
 date: 2024-07-28
 params:

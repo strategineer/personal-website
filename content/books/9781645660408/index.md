@@ -2,7 +2,6 @@
 authors:
 - Mizuki Tsujimura
 books/tags:
-- fiction
 - fantasy
 date: 2024-04-22
 params:

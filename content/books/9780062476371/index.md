@@ -2,7 +2,6 @@
 authors:
 - Neil Gaiman
 books/tags:
-- fiction
 - trash
 date: 2023-09-09
 params:

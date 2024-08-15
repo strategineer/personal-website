@@ -2,7 +2,6 @@
 authors:
 - Gene Wolfe
 books/tags:
-- fiction
 - science fantasy
 - post-apocalyptic
 - slay

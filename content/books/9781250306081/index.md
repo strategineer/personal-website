@@ -2,7 +2,6 @@
 authors:
 - Cixin Liu
 books/tags:
-- fiction
 - science fiction
 - short story collection
 date: 2023-05-11

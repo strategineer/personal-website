@@ -2,7 +2,6 @@
 authors:
 - Mary Gentle
 books/tags:
-- fiction
 - science fantasy
 date: 2024-07-13
 params:

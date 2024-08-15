@@ -2,7 +2,6 @@
 authors:
 - José Saramago
 books/tags:
-- fiction
 date: 2024-03-01
 params:
   isbn13: '9780547247885'

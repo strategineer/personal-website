@@ -3,7 +3,6 @@ authors:
 - Brian Merchant
 - Claire L. Evans
 books/tags:
-- fiction
 - science fiction
 - short story collection
 date: 2022-12-23

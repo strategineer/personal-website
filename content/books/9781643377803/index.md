@@ -3,7 +3,6 @@ authors:
 - Alejandro Jodorowsky
 - Moebius
 books/tags:
-- fiction
 - comics
 - science fiction
 - slay

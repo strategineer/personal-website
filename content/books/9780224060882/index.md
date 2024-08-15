@@ -3,7 +3,6 @@ authors:
 - Daniel Clowes
 books/tags:
 - comics
-- fiction
 date: 2024-08-14
 params:
   isbn13: '9780224060882'

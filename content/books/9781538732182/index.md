@@ -2,7 +2,6 @@
 authors:
 - Octavia E. Butler
 books/tags:
-- fiction
 - post-apocalyptic
 date: 2023-09-02
 params:

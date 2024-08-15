@@ -2,7 +2,6 @@
 authors:
 - Walter M. Miller Jr.
 books/tags:
-- fiction
 - post-apocalyptic
 - did-not-finish
 date: 2023-10-26

@@ -2,7 +2,6 @@
 authors:
 - Jeff VanderMeer
 books/tags:
-- fiction
 - science fiction
 date: 2023-05-03
 params:

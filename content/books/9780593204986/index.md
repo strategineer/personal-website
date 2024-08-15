@@ -2,7 +2,6 @@
 authors:
 - Margarita Longoria
 books/tags:
-- fiction
 - short story collection
 date: 2022-10-04
 params:

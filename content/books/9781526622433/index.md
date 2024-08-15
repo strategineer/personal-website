@@ -2,7 +2,6 @@
 authors:
 - Susanna Clarke
 books/tags:
-- fiction
 - slay
 date: 2023-05-30
 params:

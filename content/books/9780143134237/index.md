@@ -3,7 +3,6 @@ authors:
 - Ovid
 - Stephanie McCarter
 books/tags:
-- fiction
 - myth
 date: 2024-06-23
 params:

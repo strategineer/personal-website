@@ -2,7 +2,6 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- fiction
 - fantasy
 date: 2024-04-26
 params:

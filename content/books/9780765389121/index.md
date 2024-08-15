@@ -2,7 +2,6 @@
 authors:
 - John Scalzi
 books/tags:
-- fiction
 - science fiction
 date: 2024-07-01
 params:

@@ -2,7 +2,6 @@
 authors:
 - Mary Gentle
 books/tags:
-- fiction
 - historical fiction
 - fantasy
 - slay

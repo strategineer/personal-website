@@ -2,7 +2,6 @@
 authors:
 - Roger Zelazny
 books/tags:
-- fiction
 - science fiction
 - detective fiction
 - comedy

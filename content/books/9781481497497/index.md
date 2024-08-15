@@ -2,7 +2,6 @@
 authors:
 - Catherynne M. Valente
 books/tags:
-- fiction
 - science fiction
 date: 2023-06-07
 params:

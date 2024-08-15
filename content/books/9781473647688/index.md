@@ -2,7 +2,6 @@
 authors:
 - Becky Chambers
 books/tags:
-- fiction
 - science fiction
 date: 2023-06-21
 params:

@@ -2,7 +2,6 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- fiction
 - science fiction
 date: 2023-07-27
 params:

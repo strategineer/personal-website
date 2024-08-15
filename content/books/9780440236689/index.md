@@ -2,7 +2,6 @@
 authors:
 - David Ball
 books/tags:
-- fiction
 - historical fiction
 date: 2006-08-01
 params:

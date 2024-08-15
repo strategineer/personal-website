@@ -2,7 +2,6 @@
 authors:
 - Junji Ito
 books/tags:
-- fiction
 - comics
 date: 2021-07-15
 params:

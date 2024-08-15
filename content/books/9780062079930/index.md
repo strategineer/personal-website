@@ -2,7 +2,6 @@
 authors:
 - Ray Bradbury
 books/tags:
-- fiction
 - science fiction
 date: 2023-09-26
 params:

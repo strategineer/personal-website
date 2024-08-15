@@ -2,7 +2,6 @@
 authors:
 - Emily Bronte
 books/tags:
-- fiction
 - trash
 - did-not-finish
 date: 2023-11-23

@@ -2,7 +2,6 @@
 authors:
 - T. Kingfisher
 books/tags:
-- fiction
 - fantasy
 date: 2023-11-14
 params:

@@ -2,7 +2,6 @@
 authors:
 - John Scalzi
 books/tags:
-- fiction
 - science fiction
 - space opera
 date: 2023-09-20

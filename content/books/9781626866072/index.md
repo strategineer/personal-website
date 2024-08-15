@@ -2,7 +2,6 @@
 authors:
 - Lewis Carroll
 books/tags:
-- fiction
 date: 2023-09-07
 params:
   isbn13: '9781626866072'

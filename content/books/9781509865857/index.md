@@ -2,7 +2,6 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
-- fiction
 - science fiction
 date: 2023-06-03
 params:

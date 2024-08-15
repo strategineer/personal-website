@@ -2,7 +2,6 @@
 authors:
 - Terry Pratchett
 books/tags:
-- fiction
 - fantasy
 - comedy
 date: 2023-07-12

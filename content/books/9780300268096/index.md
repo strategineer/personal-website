@@ -2,7 +2,6 @@
 authors:
 - Sophus Helle
 books/tags:
-- fiction
 - myth
 date: 2024-07-11
 params:

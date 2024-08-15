@@ -2,7 +2,6 @@
 authors:
 - Stanislaw Lem
 books/tags:
-- fiction
 - science fiction
 - comedy
 - horror

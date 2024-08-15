@@ -2,7 +2,6 @@
 authors:
 - Gene Wolfe
 books/tags:
-- fiction
 - science fantasy
 - post-apocalyptic
 date: 2024-02-19

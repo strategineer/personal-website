@@ -2,7 +2,6 @@
 authors:
 - Gene Wolfe
 books/tags:
-- fiction
 - science fiction
 date: 2024-08-01
 params:

@@ -2,7 +2,6 @@
 authors:
 - Iain Reid
 books/tags:
-- fiction
 - trash
 date: 2023-07-05
 params:

@@ -4,7 +4,6 @@ authors:
 books/tags:
 - currently-reading
 - comics
-- fiction
 - science fiction
 date: 2024-08-14
 params:

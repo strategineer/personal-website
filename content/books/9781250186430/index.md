@@ -2,7 +2,6 @@
 authors:
 - Arkady Martine
 books/tags:
-- fiction
 - science fiction
 - space opera
 date: 2024-03-29

@@ -2,7 +2,6 @@
 authors:
 - Kentaro Miura
 books/tags:
-- fiction
 - comics
 - fantasy
 - horror
