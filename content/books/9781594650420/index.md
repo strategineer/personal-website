@@ -26,3 +26,7 @@ In those years, between about 1977-1978, Moebius lived in a house about thirty m
 Seems like Jodorowsky and Moebius's first attempt at their style of comic they'd try again with [Angel Claws](/books/9781594650123) years later. The left page has some text and a recurring less detailed drawing combined with a more detailed drawing on the right page of each fold. One of Moebius's earliest works, the Horny Goof also makes use of this. It seems like a style that he will keep coming back to. The degree of connection, thematically or otherwise, between the left and right page drawings varies between these attempts.
 
 I like The Eyes of the Cat way more because Moebius's art in this is so detailed and evocative. After reading this I understand what people seem to like about Moebius black/white drawings.
+
+{{< spoiler >}}
+![](p10.jpg)
+{{< /spoiler >}}

@@ -16,5 +16,12 @@ title: ODY-C
 weight: 1
 ---
 
+Gender-swapped psychedelic sci-fi comic book version of Homer's Odyssey?
+
+Sounds crazy. I'm into it.
 
 <!--more-->
+
+{{< spoiler >}}
+![](p10.jpg)
+{{< /spoiler >}}
