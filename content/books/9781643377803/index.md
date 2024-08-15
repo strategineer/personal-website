@@ -7,7 +7,7 @@ books/tags:
 - graphic novel
 - science fiction
 - slay
-date: 2024-08-12
+date: 2024-08-14
 params:
   isbn13: '9781643377803'
   year: '2020'
