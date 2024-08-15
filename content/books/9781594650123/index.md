@@ -5,7 +5,7 @@ authors:
 books/tags:
 - graphic novel
 - fiction
-date: 2024-08-13
+date: 2024-08-14
 params:
   isbn13: '9781594650123'
   year: '2013'
