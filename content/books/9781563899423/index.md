@@ -5,6 +5,7 @@ books/tags:
 - currently-reading
 - comics
 - fantasy
+- myth
 date: 2024-08-10
 params:
   isbn13: '9781563899423'
