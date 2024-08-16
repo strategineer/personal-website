@@ -9,7 +9,7 @@ params:
   isbn13: '9781594650420'
   year: '2013'
 slug: '9781594650420'
-star_rating: 5
+star_rating: 4
 title: The Eyes Of The Cat
 --- 
 
