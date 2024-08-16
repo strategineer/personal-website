@@ -8,7 +8,7 @@ params:
   isbn13: '9780224060882'
   year: '2000'
 slug: '9780224060882'
-star_rating: 3
+star_rating: 2
 title: Ghost World
 ---
 
