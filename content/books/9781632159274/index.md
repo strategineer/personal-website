@@ -1,6 +1,7 @@
 ---
 authors:
 - Matt Fraction
+- Christian Ward
 books/tags:
 - currently-reading
 - comics
