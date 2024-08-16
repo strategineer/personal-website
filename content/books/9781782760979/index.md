@@ -1,17 +1,20 @@
 ---
 authors:
 - Alejandro Jodorowsky
+- Dongzi Liu
 books/tags:
-- owned-but-unread
-date: 2024-08-13
+- comics
+date: 2024-08-15
 params:
   isbn13: '9781782760979'
   year: '2014'
 slug: '9781782760979'
-star_rating: null
+star_rating: 1
 title: Royal Blood
-weight: 1
 ---
 
+Gorgeous art by Dongzi Liu can't save the horrendous writing by Jodorowsky. The extremely taboo and fucked up premise for this is one thing, but I'll read a story about anything. It's just so bad.
+
+I cannot begin to imagine what sort of circumstances would have led to the production of this comic. That's what I'd like to know.s
 
 <!--more-->
