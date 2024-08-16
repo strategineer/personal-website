@@ -15,6 +15,6 @@ title: Royal Blood
 
 Gorgeous art by Dongzi Liu can't save the horrendous writing by Jodorowsky. The extremely taboo and fucked up premise for this is one thing, but I'll read a story about anything. It's just so bad.
 
-I cannot begin to imagine what sort of circumstances would have led to the production of this comic. That's what I'd like to know.s
+I cannot begin to imagine what sort of circumstances would have led to the production of this comic. That's the story I want to read about. 
 
 <!--more-->
