@@ -1,8 +1,9 @@
 ---
 authors:
 - Kurt Busiek
+- Brent Anderson
 books/tags:
-- owned-but-unread
+- currently-reading
 - comics
 date: 2024-08-12
 params:
