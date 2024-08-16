@@ -13,6 +13,12 @@ star_rating: 3
 title: Angel Claws
 ---
 
+Jodorowsky and Moebius being horny on main and getting into some Freudian hijinks.
+
+I've seen Moebius black and white art appreciated by some, and I can see why after reading Angel Claws.
+
+<!--more-->
+
 {{< quote >}}
 
 GHAN ODN AR DBIR
@@ -26,9 +32,3 @@ SSEH EHRSTA
 SUGAM SATAH!
 
 {{< /quote >}}
-
-Jodorowsky and Moebius being horny on main and getting into some Freudian hijinks.
-
-I've seen Moebius black and white art appreciated by some, and I can see why after reading Angel Claws.
-
-<!--more-->

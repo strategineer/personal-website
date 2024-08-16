@@ -13,10 +13,10 @@
           <a href="{{ .Permalink }}">
             {{ if $is_page }}
               <span data-pagefind-filter="tag">
-                {{ $pretty_tag }}
+                <p class="tag">{{ $pretty_tag }}</p>
               </span>
             {{ else }}
-              {{ $pretty_tag }}
+              <p class="tag">{{ $pretty_tag }}</p>
             {{ end }}
           </a>
         </li>

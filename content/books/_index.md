@@ -1,6 +1,6 @@
 ---
 title: Strat's Bookshelf
-is_readable: true
+is_readable: false
 url: "/"
 aliases:
   - /books/index.html

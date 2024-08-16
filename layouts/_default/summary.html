@@ -6,7 +6,7 @@
 {{ $more_to_read := ne (len (trim .Summary " \n\r")) (len (trim .Content " \n\r"))}}
 {{ $is_blog := eq .Section "blog" }}
 {{ $is_ramble_blog_post := and $is_blog (in (index .Params "blog/tags") "ramble") }}
-<article class="post-summary">
+<div class="col-lg-6 col-12 post-summary">
   {{ $is_less_important := in (index .Params "blog/tags") "ramble" }}
   {{ $summary_classes := cond $is_less_important "less-important" "" }}
   <div class="row summary-row {{ $summary_classes }} justify-content-center">
@@ -50,13 +50,13 @@
                 <div class="row">
                   {{ if $authors }}
                     {{ range $authors }}
-                    <div class="col-12">
+                    <div class="author col-12">
                       {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
                       <a href="{{ .RelPermalink }}"> {{ $pretty_author }}</a>
                     </div>
                     {{- end -}}
                   {{- end -}}
-                  <div class="col-12">
+                  <div class="page-date col-12">
                     {{ if $is_books -}}
                       {{ partial "try_reading_state" . }}
                     {{ else if .Params.date }}
@@ -68,7 +68,7 @@
                   {{ if $more_to_read }}
                   {{- $reading_time := .ReadingTime -}}
                   {{- if and (ne $reading_time 0) (or $is_blog $is_books) }}
-                  <div class="col-12">
+                  <div class="reading-time col-12">
                       ({{ $reading_time }}min read)
                   </div>
                   {{- end -}}
@@ -85,16 +85,19 @@
       </div>
       {{ partial "try_links" . }}
       {{ if not $is_ramble_blog_post }}
+      <span class="summary-text">
       {{ .Summary }}
+      </span>
       <div class="col read-more">
         <a aria-labelledby="more" class="float-right" href='{{ .Permalink }}'>
           {{ if $more_to_read }}
-          <span style="white-space: nowrap;"><h4 id="more">More →</h4></span>
+          <span style="white-space: nowrap;"><div class="more">More →</div></span>
           {{ end }} 
         </a>
       </div>
       {{ end }}
   </div>
-</article>
+</div>
+</div>
 {{ end }}
 {{ end }}

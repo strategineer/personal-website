@@ -10,7 +10,7 @@ params:
   year: '2002'
 slug: '9781565847033'
 star_rating: 5
-title: Understanding Power - The Indispensable Chomsky
+title: Understanding Power
 ---
 
 Understanding Power is the book that convinced me that I needed to start reading again. It's just a bunch of transcripts taken from Noam Chomsky Q/A sessions, but man, I'm glad that I was convinced to sit down and read through it.

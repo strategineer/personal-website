@@ -12,7 +12,7 @@ params:
   year: '2009'
 slug: '9780262033848'
 star_rating: 5
-title: Introduction To Algorithms, Third Edition
+title: Introduction To Algorithms
 ---
 
 One of the few physical books I bought in uni.

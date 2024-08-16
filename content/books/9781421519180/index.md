@@ -10,7 +10,7 @@ params:
   year: '2009'
 slug: '9781421519180'
 star_rating: 0
-title: 'Pluto: Urasawa x Tezuka, Vol. 1 (Volume 1)'
+title: 'Pluto: Urasawa x Tezuka'
 ---
 
 <!--more-->

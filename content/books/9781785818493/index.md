@@ -9,7 +9,7 @@ params:
   year: '2017'
 slug: '9781785818493'
 star_rating: 0
-title: Warhammer 40,000 - In The Grim Darkness Of The Far Future There Is Only War
+title: Warhammer 40,000
 ---
 
 <!--more-->

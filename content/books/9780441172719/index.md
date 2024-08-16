@@ -15,13 +15,13 @@ star_rating: 5
 title: Dune
 ---
 
-{{< quote 119 >}}
-"We mustn't run short of filmbase," the Duke said. "Else, how could we flood village and city with our information? The people must learn how well I govern them. How would they know if we didn't tell them?"
-{{< /quote >}}
-
 It's Dune. It's aged surprisingly well. It has a lot to say about the world of today on the verge of collapse due to the destruction of our climate, poorly thought through technology, rampant late capitalism and the ever enticing venus flytrap of ideology.
 
 <!--more-->
+
+{{< quote 119 >}}
+"We mustn't run short of filmbase," the Duke said. "Else, how could we flood village and city with our information? The people must learn how well I govern them. How would they know if we didn't tell them?"
+{{< /quote >}}
 
 {{< series >}}
 

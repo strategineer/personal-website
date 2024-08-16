@@ -10,7 +10,7 @@ params:
   year: '2008'
 slug: '9780826428486'
 star_rating: 0
-title: Cylons In America - Critical Studies In Battlestar Galactica
+title: Cylons In America
 ---
 
 <!--more-->

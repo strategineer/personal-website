@@ -4,13 +4,14 @@
 
 {{ define "main" }}
   <span data-pagefind-ignore>
+  <div class="row">
     {{ .Content }}
     {{ range .Pages }}
       {{ $r := trim (.Render "summary") " \n\r" }}
       {{ if $r }}
         {{ .Render "summary" }}
-        <hr />
       {{ end }}
     {{ end }}
   </span>
+</div>
 {{ end }}

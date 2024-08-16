@@ -9,7 +9,7 @@ params:
   year: '2012'
 slug: '9781421550640'
 star_rating: 0
-title: Nausicaä of the Valley of the Wind Box Set
+title: Nausicaä of the Valley of the Wind
 ---
 
 <!--more-->

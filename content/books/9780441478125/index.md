@@ -16,10 +16,10 @@ title: The Left Hand Of Darkness
 The king was pregnant.
 {{< /quote >}}
 
-An anthropologist-like character lands on a planet with people who exhibit sexually differentiated physical characteristics, male or female depending on the circumstances, for a few days every month.
+An anthropologist-like character lands on a planet with people who exhibit sexually differentiated physical characteristics, male or female depending on the circumstances, for a few days every month. Hijinks ensues.
+
+<!--more-->
 
 Genly Ai's task is to convince them to join the coalition of planets he comes from.
 
 Le Guin uses this framework to explore the various ways in which this physical ambisexuality affects their society and, in doing so, explores how sex and gender affect our own.
-
-<!--more-->

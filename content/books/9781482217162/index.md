@@ -8,8 +8,7 @@ params:
   year: '2014'
 slug: '9781482217162'
 star_rating: 0
-title: Game Design Workshop - A Playcentric Approach To Creating Innovative Games,
-  Third Edition
+title: Game Design Workshop
 ---
 
 <!--more-->

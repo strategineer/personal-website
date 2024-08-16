@@ -9,7 +9,7 @@ params:
   year: '2010'
 slug: '9781421533612'
 star_rating: 0
-title: 'Bokurano: Ours, Vol. 1'
+title: 'Bokurano: Ours'
 ---
 
 <!--more-->

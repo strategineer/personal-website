@@ -14,13 +14,13 @@ star_rating: 3
 title: Vita Nostra
 ---
 
-{{< quote 70 >}}
-“Attention, students,” continued Portnov just as softly. “You are at the beginning of a journey, during which all of your strength will be required. Physical and mental. What we will be studying is not for everyone. Not everyone can handle what this does to a person. You have been carefully selected, and you all have what it takes to make that journey successfully. Our science does not tolerate weakness and takes cruel revenge on laziness, on cowardice, and on the most infinitesimal attempt to avoid learning the entire curriculum. Is that understood?”
-{{< /quote >}}
-
 A grounded yet fantastical story about a young woman, Sasha, who is selected to attend the Institute of Special Technologies. Sasha attends this mysterious college and is thrust into a world of dark academia with widespread and fantastical implications. 
 
 <!--more-->
+
+{{< quote 70 >}}
+“Attention, students,” continued Portnov just as softly. “You are at the beginning of a journey, during which all of your strength will be required. Physical and mental. What we will be studying is not for everyone. Not everyone can handle what this does to a person. You have been carefully selected, and you all have what it takes to make that journey successfully. Our science does not tolerate weakness and takes cruel revenge on laziness, on cowardice, and on the most infinitesimal attempt to avoid learning the entire curriculum. Is that understood?”
+{{< /quote >}}
 
 **Minor spoilers to follow**
 

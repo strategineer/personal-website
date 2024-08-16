@@ -14,13 +14,13 @@ star_rating: 4
 title: Dune Messiah
 ---
 
-{{< quote 142 >}}
-"Some of my friends have forgotten they once were Fremen," Paul said, speaking to Korba, but designing his words for Stilgar. "You will mark down the ones Chani identifies as Sardaukar and you will have them killed. Do it yourself. I want it done quietly and without undue disturbance. We must keep in mind that there’s more to religion and government than approving treaties and sermons.
-{{< /quote >}}
-
 An inversion of its predecessor Dune, Dune Messiah tells the story of Paul Atreides 12 years later, now sitting on the Imperial throne, post-universe spanning jihad, being responsible for the brutal killings of billions of people... Our "hero".
 
 <!--more-->
+
+{{< quote 142 >}}
+"Some of my friends have forgotten they once were Fremen," Paul said, speaking to Korba, but designing his words for Stilgar. "You will mark down the ones Chani identifies as Sardaukar and you will have them killed. Do it yourself. I want it done quietly and without undue disturbance. We must keep in mind that there’s more to religion and government than approving treaties and sermons.
+{{< /quote >}}
 
 {{< series >}}
 

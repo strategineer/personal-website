@@ -9,8 +9,7 @@ params:
   year: '2007'
 slug: '9781403984531'
 star_rating: 0
-title: What Video Games Have To Teach Us About Learning And Literacy. Second Edition
-  - Revised And Updated Edition
+title: What Video Games Have To Teach Us About Learning And Literacy.
 ---
 
 <!--more-->

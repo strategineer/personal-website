@@ -11,7 +11,7 @@ params:
   year: '2006'
 slug: '9780811733397'
 star_rating: 4
-title: The Self-Coached Climber - The Guide To Movement, Training, Performance
+title: The Self-Coached Climber
 ---
 
 A climber's guide to movement, training and performance.
