@@ -383,10 +383,13 @@ figure {
   font-size: 1.3rem;
 }
 
+.author > a {
+  white-space: nowrap;
+}
 .author > a,
 .reading-time,
 .page-date {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
 }
 
 .tag {

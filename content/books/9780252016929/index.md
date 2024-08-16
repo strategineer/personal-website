@@ -10,8 +10,7 @@ params:
   year: '1990'
 slug: '9780252016929'
 star_rating: 5
-title: Across The Wounded Galaxies - Interviews With Contemporary American Science
-  Fiction Writers
+title: Across The Wounded Galaxies
 ---
 
 Interviews with a bunch of science fiction writers. It's great if you're interested in getting to know your favorite author's perspective or if you're interested in getting recommendations from them.

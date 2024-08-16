@@ -42,21 +42,22 @@
           {{ .Render "title_text" }}
         </a>
       </div>
+      <div class="row authors">
+        {{ $authors := (.GetTerms "authors" ) }}
+        {{ if $authors }}
+        {{ range $authors }}
+        <div class="author col">
+          {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+          <a href="{{ .RelPermalink }}"> {{ $pretty_author }}</a>
+        </div>
+        {{- end -}}
+        {{- end -}}
+      </div>
       <div class="row post-meta">
         <div class="col-mx-auto align-self-center">
             <div class="row">
-            {{ $authors := (.GetTerms "authors" ) }}
-              <div class="col">
-                <div class="row">
-                  {{ if $authors }}
-                    {{ range $authors }}
-                    <div class="author col-12">
-                      {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-                      <a href="{{ .RelPermalink }}"> {{ $pretty_author }}</a>
-                    </div>
-                    {{- end -}}
-                  {{- end -}}
-                  <div class="page-date col-12">
+              <div class="col-6">
+                  <div class="page-date col">
                     {{ if $is_books -}}
                       {{ partial "try_reading_state" . }}
                     {{ else if .Params.date }}
@@ -68,12 +69,11 @@
                   {{ if $more_to_read }}
                   {{- $reading_time := .ReadingTime -}}
                   {{- if and (ne $reading_time 0) (or $is_blog $is_books) }}
-                  <div class="reading-time col-12">
+                  <div class="reading-time col">
                       ({{ $reading_time }}min read)
                   </div>
                   {{- end -}}
                   {{ end }}
-                </div>
               </div>
               {{- if not $is_ramble_blog_post -}}
               <div class="col align-self-end">
