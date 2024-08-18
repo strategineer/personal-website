@@ -9,7 +9,6 @@ params:
   year: '1998'
 slug: '9780552145985'
 title: Jingo
-weight: 1
 ---
 
 <!--more-->

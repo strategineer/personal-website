@@ -11,7 +11,6 @@ params:
   year: '2013'
 slug: '9780091951702'
 title: The Science Of Discworld
-weight: 1
 ---
 
 <!--more-->

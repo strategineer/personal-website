@@ -9,7 +9,6 @@ params:
   year: '1988'
 slug: '9780552131063'
 title: Mort
-weight: 1
 ---
 
 <!--more-->

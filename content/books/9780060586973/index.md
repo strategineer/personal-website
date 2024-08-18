@@ -9,7 +9,6 @@ params:
   year: '2004'
 slug: '9780060586973'
 title: Great Short Works Of Leo Tolstoy
-weight: 1
 ---
 
 <!--more-->

@@ -9,7 +9,6 @@ params:
   year: '2002'
 slug: '9780575072879'
 title: Orthe - Chronicles Of Carrick V
-weight: 1
 ---
 
 <!--more-->

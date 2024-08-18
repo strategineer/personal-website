@@ -12,7 +12,6 @@ params:
 slug: '9781401232627'
 star_rating: null
 title: Astro City
-weight: 1
 ---
 
 Superhero anthology with great art.

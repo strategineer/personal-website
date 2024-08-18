@@ -9,7 +9,6 @@ params:
   year: '2004'
 slug: '9780393057928'
 title: Breaking The Tongue
-weight: 1
 ---
 
 <!--more-->

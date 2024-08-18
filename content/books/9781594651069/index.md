@@ -12,7 +12,6 @@ params:
 slug: '9781594651069'
 star_rating: null
 title: The Metabarons
-weight: 1
 ---
 
 

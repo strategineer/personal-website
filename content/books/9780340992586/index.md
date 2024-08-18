@@ -9,7 +9,6 @@ params:
   year: '2010'
 slug: '9780340992586'
 title: Under The Dome
-weight: 1
 ---
 
 <!--more-->

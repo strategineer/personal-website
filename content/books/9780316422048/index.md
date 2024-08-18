@@ -9,7 +9,6 @@ params:
   year: '2020'
 slug: '9780316422048'
 title: The Once And Future Witches
-weight: 1
 ---
 
 <!--more-->

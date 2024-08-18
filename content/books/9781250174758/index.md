@@ -9,7 +9,6 @@ params:
   year: '2019'
 slug: '9781250174758'
 title: The Android's Dream
-weight: 1
 ---
 
 <!--more-->

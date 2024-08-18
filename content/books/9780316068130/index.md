@@ -9,7 +9,6 @@ params:
   year: '2011'
 slug: '9780316068130'
 title: The Black Prism
-weight: 1
 ---
 
 <!--more-->

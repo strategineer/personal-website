@@ -9,7 +9,6 @@ params:
   year: '1972'
 slug: '9780061316869'
 title: On Certainty
-weight: 1
 ---
 
 <!--more-->

@@ -10,7 +10,6 @@ params:
   year: '2002'
 slug: '9780743435802'
 title: March To The Sea
-weight: 1
 ---
 
 <!--more-->

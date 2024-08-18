@@ -10,7 +10,6 @@ params:
 slug: '9780674024458'
 title: The Work Of Art In The Age Of Its Technological Reproducibility, And Other
   Writings On Media
-weight: 1
 ---
 
 <!--more-->

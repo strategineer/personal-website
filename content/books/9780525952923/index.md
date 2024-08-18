@@ -11,7 +11,6 @@ params:
   year: '2012'
 slug: '9780525952923'
 title: Winter Of The World
-weight: 1
 ---
 
 <!--more-->

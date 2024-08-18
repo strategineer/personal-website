@@ -82,10 +82,10 @@
     {{ range $d := $dict_to_avg_star_rating }}
       {{ $term := index $d "term" }}
       {{ $score := index $d "score" }}
-      {{ if and (ne $term "owned-but-unread") $is_owned_books }}
+      {{ if and (eq $term "owned-but-unread") (not $is_owned_books) }}
         {{ continue }}
       {{ end }}
-      {{ if and (ne $term "unowned") $is_unowned_books }}
+      {{ if and (eq $term "unowned") (not $is_unowned_books) }}
         {{ continue }}
       {{ end }}
       {{ $t := index $d "object" }}
@@ -146,11 +146,15 @@
         {{ if eq (len $filtered_books) 0 }}
           {{ continue }}
         {{ end }}
-        <div class="col-lg-2 all-tags">
+        {{ if gt (len $filtered_books) 6 }}
+        <div class="w-100"></div>
+        {{ end }}
+        <div class="col-lg-12 all-tags">
           <a href="{{ $t.Page.RelPermalink }}">
-            <span class="h3">{{ $t.Page.Title }}</span>
+            <span class="h4">{{ $t.Page.Title }}</span>
           </a>
         </div>
+        <hr />
         {{ $k = add $k 1 }}
         {{ range $filtered_books }}
           {{ $book_tags := index .Params "books/tags" }}

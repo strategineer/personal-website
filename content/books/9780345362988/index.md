@@ -11,7 +11,6 @@ params:
   year: '1991'
 slug: '9780345362988'
 title: The Druid Of Shannara
-weight: 1
 ---
 
 <!--more-->

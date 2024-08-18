@@ -12,7 +12,6 @@ params:
   year: '1993'
 slug: '9781857230307'
 title: The State Of The Art
-weight: 1
 ---
 
 <!--more-->

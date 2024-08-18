@@ -10,7 +10,6 @@ params:
   year: '1985'
 slug: '9780399130274'
 title: Chapterhouse, Dune
-weight: 1
 ---
 
 <!--more-->

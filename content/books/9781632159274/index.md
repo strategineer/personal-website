@@ -14,7 +14,6 @@ params:
 slug: '9781632159274'
 star_rating: null
 title: ODY-C
-weight: 1
 ---
 
 Gender-swapped psychedelic sci-fi comic book version of Homer's Odyssey?

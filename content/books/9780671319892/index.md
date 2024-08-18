@@ -10,7 +10,6 @@ params:
   year: '2001'
 slug: '9780671319892'
 title: Starmind
-weight: 1
 ---
 
 <!--more-->

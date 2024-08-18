@@ -9,7 +9,6 @@ params:
   year: '1987'
 slug: '9780441627400'
 title: The Once And Future King
-weight: 1
 ---
 
 <!--more-->

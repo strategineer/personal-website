@@ -9,7 +9,6 @@ params:
   year: '2017'
 slug: '9781465458551'
 title: The Philosophy Book - Big Ideas Simply Explained
-weight: 1
 ---
 
 <!--more-->

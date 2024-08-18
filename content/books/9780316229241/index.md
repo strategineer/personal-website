@@ -12,7 +12,6 @@ params:
   year: '2017'
 slug: '9780316229241'
 title: The Stone Sky
-weight: 1
 ---
 
 <!--more-->

@@ -9,7 +9,6 @@ params:
   year: '2003'
 slug: '9780060012359'
 title: The Amazing Maurice And His Educated Rodents
-weight: 1
 ---
 
 <!--more-->

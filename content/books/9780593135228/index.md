@@ -9,7 +9,6 @@ params:
   year: '2022'
 slug: '9780593135228'
 title: Project Hail Mary
-weight: 1
 ---
 
 <!--more-->

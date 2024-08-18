@@ -9,7 +9,6 @@ params:
   year: '2001'
 slug: '9780771075186'
 title: Joshua Then And Now
-weight: 1
 ---
 
 <!--more-->

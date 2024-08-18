@@ -9,7 +9,6 @@ params:
   year: '1997'
 slug: '9780552145428'
 title: Hogfather
-weight: 1
 ---
 
 <!--more-->

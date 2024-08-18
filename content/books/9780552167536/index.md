@@ -9,7 +9,6 @@ params:
   year: '2013'
 slug: '9780552167536'
 title: Men At Arms
-weight: 1
 ---
 
 <!--more-->

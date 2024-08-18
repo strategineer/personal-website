@@ -9,7 +9,6 @@ params:
   year: '2019'
 slug: '9781250174642'
 title: Fuzzy Nation
-weight: 1
 ---
 
 <!--more-->

@@ -11,7 +11,6 @@ params:
   year: '1992'
 slug: '9780345374745'
 title: The Sapphire Rose
-weight: 1
 ---
 
 <!--more-->

@@ -11,7 +11,6 @@ params:
   year: '1971'
 slug: '9780807059739'
 title: Taoism - The Parting Of The Way
-weight: 1
 ---
 
 This is the book on Daoism that Ursula K. Le Guin recommends in [her rendition of the Tao Te Ching](/books/9781611807240) for anyone who reads the Tao Te Ching and wants to learn more about Daoism.

@@ -10,7 +10,6 @@ params:
 slug: '9780871352781'
 star_rating: null
 title: 'Moebius: Upon A Star'
-weight: 1
 ---
 
 

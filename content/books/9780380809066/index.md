@@ -9,7 +9,6 @@ params:
   year: '1999'
 slug: '9780380809066'
 title: The Great Book Of Amber
-weight: 1
 ---
 
 <!--more-->

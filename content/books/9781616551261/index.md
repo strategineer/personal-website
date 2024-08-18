@@ -10,7 +10,6 @@ params:
 slug: '9781616551261'
 star_rating: null
 title: Fagin The Jew
-weight: 1
 ---
 
 

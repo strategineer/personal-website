@@ -9,7 +9,6 @@ params:
   year: '2003'
 slug: '9780575075191'
 title: White Crow
-weight: 1
 ---
 
 <!--more-->

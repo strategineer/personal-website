@@ -9,7 +9,6 @@ params:
   year: '1998'
 slug: '9780552134644'
 title: Reaper Man
-weight: 1
 ---
 
 <!--more-->

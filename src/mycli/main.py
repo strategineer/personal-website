@@ -187,7 +187,6 @@ def import_books(isbn):
         else:
             post.content = "\n<!--more-->"
             post.metadata["star_rating"] = None
-            post.metadata["weight"] = 1
             post.metadata["date"] = date.today()
             post.metadata["books/tags"] = ["owned-but-unread"]
             print(f"No existing book for ISBN {isbn}, creating new post")

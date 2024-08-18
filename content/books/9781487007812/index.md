@@ -9,7 +9,6 @@ params:
   year: '2020'
 slug: '9781487007812'
 title: Roguelike
-weight: 1
 ---
 
 <!--more-->

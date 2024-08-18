@@ -9,7 +9,6 @@ params:
   year: '1998'
 slug: '9780441005215'
 title: Manjinn Moon
-weight: 1
 ---
 
 <!--more-->

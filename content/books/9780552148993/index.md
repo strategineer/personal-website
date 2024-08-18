@@ -9,7 +9,6 @@ params:
   year: '2003'
 slug: '9780552148993'
 title: Night Watch
-weight: 1
 ---
 
 <!--more-->

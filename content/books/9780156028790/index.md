@@ -9,7 +9,6 @@ params:
   year: '2003'
 slug: '9780156028790'
 title: The Cave
-weight: 1
 ---
 
 <!--more-->

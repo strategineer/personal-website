@@ -10,7 +10,6 @@ params:
   year: '2006'
 slug: '9781416520849'
 title: We Few
-weight: 1
 ---
 
 <!--more-->

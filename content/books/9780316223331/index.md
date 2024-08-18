@@ -9,7 +9,6 @@ params:
   year: '2013'
 slug: '9780316223331'
 title: Mythology
-weight: 1
 ---
 
 <!--more-->

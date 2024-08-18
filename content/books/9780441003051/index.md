@@ -10,7 +10,6 @@ params:
   year: '1996'
 slug: '9780441003051'
 title: Starmind
-weight: 1
 ---
 
 <!--more-->

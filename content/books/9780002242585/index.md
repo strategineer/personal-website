@@ -9,7 +9,6 @@ params:
   year: '1999'
 slug: '9780002242585'
 title: Pilgrim
-weight: 1
 ---
 
 <!--more-->

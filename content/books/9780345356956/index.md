@@ -11,7 +11,6 @@ params:
   year: '1990'
 slug: '9780345356956'
 title: The Scions Of Shannara
-weight: 1
 ---
 
 <!--more-->

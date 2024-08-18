@@ -10,7 +10,6 @@ params:
   year: '2003'
 slug: '9780743471480'
 title: Crown Of Slaves
-weight: 1
 ---
 
 <!--more-->

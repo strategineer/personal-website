@@ -11,7 +11,6 @@ params:
   year: '2008'
 slug: '9780152062422'
 title: Voices
-weight: 1
 ---
 
 <!--more-->

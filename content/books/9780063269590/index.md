@@ -9,7 +9,6 @@ params:
   year: '2022'
 slug: '9780063269590'
 title: The Wind's Twelve Quarters - Stories
-weight: 1
 ---
 
 <!--more-->

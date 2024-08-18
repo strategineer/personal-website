@@ -9,7 +9,6 @@ params:
   year: '1989'
 slug: '9780771099748'
 title: St. Urbain's Horseman
-weight: 1
 ---
 
 <!--more-->

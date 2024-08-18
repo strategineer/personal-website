@@ -9,7 +9,6 @@ params:
   year: '2003'
 slug: '9780743471671'
 title: War Of Honor
-weight: 1
 ---
 
 <!--more-->

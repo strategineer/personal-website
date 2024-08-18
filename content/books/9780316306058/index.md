@@ -9,7 +9,6 @@ params:
   year: '2016'
 slug: '9780316306058'
 title: Infinite Jest
-weight: 1
 ---
 
 <!--more-->

@@ -9,7 +9,6 @@ params:
   year: '2024'
 slug: '9781801108447'
 title: City Of Last Chances
-weight: 1
 ---
 
 <!--more-->

@@ -9,7 +9,6 @@ params:
   year: '2022'
 slug: '9781786787095'
 title: The Watkins Book Of English Folktales
-weight: 1
 ---
 
 <!--more-->

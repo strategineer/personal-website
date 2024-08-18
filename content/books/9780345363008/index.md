@@ -11,7 +11,6 @@ params:
   year: '1993'
 slug: '9780345363008'
 title: The Talismans Of Shannara
-weight: 1
 ---
 
 <!--more-->

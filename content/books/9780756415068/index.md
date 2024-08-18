@@ -11,7 +11,6 @@ params:
   year: '2020'
 slug: '9780756415068'
 title: Driving The Deep
-weight: 1
 ---
 
 <!--more-->

@@ -11,7 +11,6 @@ params:
   year: '2023'
 slug: '9781529051995'
 title: Lords Of Uncreation
-weight: 1
 ---
 
 <!--more-->

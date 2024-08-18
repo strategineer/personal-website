@@ -11,7 +11,6 @@ params:
   year: '1997'
 slug: '9781857234572'
 title: Excession
-weight: 1
 ---
 
 <!--more-->

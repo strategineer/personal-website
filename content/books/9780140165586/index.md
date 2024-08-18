@@ -7,7 +7,7 @@ books/tags:
 - did-not-finish
 date: 2023-09-18
 params:
-  dnf: 50%
+  progress: 50%
   isbn13: '9780140165586'
   year: '1994'
 slug: '9780140165586'

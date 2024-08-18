@@ -11,7 +11,6 @@ params:
   year: '2005'
 slug: '9781842554982'
 title: Gifts
-weight: 1
 ---
 
 <!--more-->

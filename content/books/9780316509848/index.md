@@ -9,7 +9,6 @@ params:
   year: '2020'
 slug: '9780316509848'
 title: The City We Became
-weight: 1
 ---
 
 <!--more-->

@@ -11,7 +11,6 @@ params:
   year: '1992'
 slug: '9780345362995'
 title: The Elf Queen Of Shannara
-weight: 1
 ---
 
 <!--more-->

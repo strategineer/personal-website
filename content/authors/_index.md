@@ -1,6 +1,6 @@
 ---
 title: Strat's Bookshelf
-is_readable: true
+is_readable: false
 cascade:
   header:
     text: "Name's Strat; I like reading hehe."

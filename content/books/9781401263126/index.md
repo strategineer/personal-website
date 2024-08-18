@@ -11,7 +11,6 @@ params:
 slug: '9781401263126'
 star_rating: null
 title: Doom Patrol
-weight: 1
 ---
 
 Grant Morrison's run of Doom Patrol focuses on the misfits, the weird and the broken and how they are fit to fight evils that other more conventional and sane heroes aren't equipped to deal with.

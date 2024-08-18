@@ -1,5 +1,7 @@
-{{- if eq .Params.weight 1 -}}
-Reading...
+{{- if (in (index .Params "books/tags") "currently-reading") -}}
+Reading: {{ .Date | time.Format ":date_medium" }}
+{{- else if (index .Params "progress") -}}
+Read up until {{index .Params "progress"}}
 {{ else }}
 Finished on: {{ .Date | time.Format ":date_medium" }}
 {{- end -}}

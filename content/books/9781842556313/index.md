@@ -11,7 +11,6 @@ params:
   year: '2008'
 slug: '9781842556313'
 title: Powers
-weight: 1
 ---
 
 <!--more-->

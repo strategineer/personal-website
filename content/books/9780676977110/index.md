@@ -9,7 +9,6 @@ params:
   year: '2006'
 slug: '9780676977110'
 title: Never Let Me Go
-weight: 1
 ---
 
 <!--more-->

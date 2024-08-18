@@ -10,7 +10,6 @@ params:
   year: '2010'
 slug: '9780765324641'
 title: The Word For World Is Forest
-weight: 1
 ---
 
 Seems like Ursula K. Le Guin is subverting the old school military science fiction trope of humans going around killing "aliens" with the humans doing the killing framed as the good guys who we're supposed to be rooting for. Maybe colonialism is bad?

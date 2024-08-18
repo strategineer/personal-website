@@ -7,9 +7,11 @@
     {{ partial "all_tags.html" . }}
   {{ else }}
     <span data-pagefind-ignore>
+      <div class="row">
       {{ range .Pages }}
         {{ .Render "summary" }}
       {{ end }}
+      </div>
     </span>
   {{ end }}
 {{ end }}

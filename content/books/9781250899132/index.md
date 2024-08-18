@@ -11,7 +11,6 @@ params:
   year: '2023'
 slug: '9781250899132'
 title: Nona The Ninth
-weight: 1
 ---
 
 <!--more-->

@@ -9,7 +9,6 @@ params:
   year: '2000'
 slug: '9780374518738'
 title: Annals Of The Former World
-weight: 1
 ---
 
 <!--more-->

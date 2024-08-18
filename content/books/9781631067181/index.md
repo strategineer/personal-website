@@ -10,7 +10,6 @@ params:
   year: '2020'
 slug: '9781631067181'
 title: The Complete Grimm's Fairy Tales
-weight: 1
 ---
 
 <!--more-->

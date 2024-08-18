@@ -11,7 +11,6 @@ params:
   year: '2018'
 slug: '9780765378385'
 title: The Calculating Stars
-weight: 1
 ---
 
 <!--more-->

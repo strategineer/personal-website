@@ -9,7 +9,6 @@ params:
   year: '2017'
 slug: '9781455563920'
 title: Pachinko
-weight: 1
 ---
 
 <!--more-->

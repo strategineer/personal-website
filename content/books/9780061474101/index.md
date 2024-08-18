@@ -9,7 +9,6 @@ params:
   year: '2009'
 slug: '9780061474101'
 title: Anathem
-weight: 1
 ---
 
 <!--more-->

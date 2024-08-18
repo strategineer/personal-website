@@ -9,7 +9,6 @@ params:
   year: '2001'
 slug: '9780552146166'
 title: The Fifth Elephant
-weight: 1
 ---
 
 <!--more-->

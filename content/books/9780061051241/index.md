@@ -9,7 +9,6 @@ params:
   year: '2001'
 slug: '9780061051241'
 title: Deepsix
-weight: 1
 ---
 
 <!--more-->

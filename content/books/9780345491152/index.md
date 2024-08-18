@@ -9,7 +9,6 @@ params:
   year: '2009'
 slug: '9780345491152'
 title: Dragonheart - Anne McCaffrey's Dragonriders Of Pern
-weight: 1
 ---
 
 <!--more-->

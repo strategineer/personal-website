@@ -9,7 +9,6 @@ params:
   year: '2004'
 slug: '9780553382914'
 title: The Etched City
-weight: 1
 ---
 
 <!--more-->

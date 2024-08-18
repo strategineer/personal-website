@@ -9,7 +9,6 @@ params:
   year: '2008'
 slug: '9780552154901'
 title: Making Money
-weight: 1
 ---
 
 <!--more-->

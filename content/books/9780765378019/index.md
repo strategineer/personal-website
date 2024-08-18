@@ -11,7 +11,6 @@ params:
   year: '2017'
 slug: '9780765378019'
 title: Too Like The Lightning
-weight: 1
 ---
 
 <!--more-->

@@ -9,7 +9,6 @@ params:
   year: '2021'
 slug: '9781250217318'
 title: The House In The Cerulean Sea
-weight: 1
 ---
 
 <!--more-->

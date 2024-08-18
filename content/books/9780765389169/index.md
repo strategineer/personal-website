@@ -11,7 +11,6 @@ params:
   year: '2020'
 slug: '9780765389169'
 title: The Last Emperox
-weight: 1
 ---
 
 <!--more-->

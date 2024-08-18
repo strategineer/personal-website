@@ -9,7 +9,6 @@ params:
   year: '1994'
 slug: '9780140188448'
 title: Testament Of Youth - An Autobiographical Study Of The Years 1900-1925
-weight: 1
 ---
 
 <!--more-->

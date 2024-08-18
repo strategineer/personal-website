@@ -60,7 +60,7 @@
       {{ end }}
     {{ end  }}
     <div class="container-fluid"> 
-      {{ $is_readable := default true .Params.is_readable}}
+      {{ $is_readable := default false .Params.is_readable}}
       <div class="row no-margin justify-content-center">
         {{ if $.Params.is_tabletop }}
           <div class="col-xl-2">

@@ -11,7 +11,6 @@ params:
   year: '2010'
 slug: '9780525951650'
 title: Fall of Giants
-weight: 1
 ---
 
 <!--more-->

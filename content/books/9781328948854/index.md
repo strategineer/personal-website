@@ -9,7 +9,6 @@ params:
   year: '2017'
 slug: '9781328948854'
 title: The Princess Bride
-weight: 1
 ---
 
 <!--more-->

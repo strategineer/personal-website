@@ -1,6 +1,6 @@
 ---
 title: Strat's Blog
-is_readable: true
+is_readable: false
 cascade:
   header:
     text: "Name's Strat; sometimes I write blog posts."

@@ -11,7 +11,6 @@ params:
   year: '2021'
 slug: '9781250313218'
 title: Harrow The Ninth
-weight: 1
 ---
 
 <!--more-->

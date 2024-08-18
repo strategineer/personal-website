@@ -9,7 +9,6 @@ params:
   year: '1998'
 slug: '9781853267956'
 title: Don Quixote
-weight: 1
 ---
 
 <!--more-->

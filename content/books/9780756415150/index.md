@@ -11,7 +11,6 @@ params:
   year: '2021'
 slug: '9780756415150'
 title: The Scavenger Door
-weight: 1
 ---
 
 <!--more-->

@@ -10,7 +10,6 @@ params:
   year: '2002'
 slug: '9780441009114'
 title: Local Custom
-weight: 1
 ---
 
 <!--more-->

@@ -9,7 +9,6 @@ params:
   year: '1995'
 slug: '9780552140294'
 title: Soul Music
-weight: 1
 ---
 
 <!--more-->

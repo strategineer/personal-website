@@ -10,7 +10,6 @@ params:
 slug: '9781594650505'
 star_rating: null
 title: The Technopriests
-weight: 1
 ---
 
 

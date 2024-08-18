@@ -9,7 +9,6 @@ params:
   year: '2021'
 slug: '9780765387424'
 title: The Witness For The Dead
-weight: 1
 ---
 
 <!--more-->

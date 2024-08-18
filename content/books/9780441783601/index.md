@@ -10,7 +10,6 @@ params:
   year: '1992'
 slug: '9780441783601'
 title: Starseed
-weight: 1
 ---
 
 <!--more-->

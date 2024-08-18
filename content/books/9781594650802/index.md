@@ -10,7 +10,6 @@ params:
 slug: '9781594650802'
 star_rating: null
 title: The White Lama
-weight: 1
 ---
 
 

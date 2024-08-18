@@ -9,7 +9,6 @@ params:
   year: '2020'
 slug: '9780593135051'
 title: The Space Between Worlds
-weight: 1
 ---
 
 <!--more-->

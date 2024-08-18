@@ -9,7 +9,6 @@ params:
   year: '1997'
 slug: '9780552142373'
 title: Feet Of Clay
-weight: 1
 ---
 
 <!--more-->

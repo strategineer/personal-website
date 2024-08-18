@@ -11,7 +11,6 @@ params:
   year: '2017'
 slug: '9780399178610'
 title: Hyperion
-weight: 1
 ---
 
 <!--more-->

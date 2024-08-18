@@ -6,7 +6,7 @@ books/tags:
 - did-not-finish
 date: 2023-11-23
 params:
-  dnf: p. 7
+  progress: p. 7
   isbn13: '9781840221893'
   year: '2022'
 slug: '9781840221893'

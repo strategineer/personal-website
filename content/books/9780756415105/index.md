@@ -11,7 +11,6 @@ params:
   year: '2019'
 slug: '9780756415105'
 title: Finder
-weight: 1
 ---
 
 <!--more-->

@@ -11,7 +11,6 @@ params:
   year: '1989'
 slug: '9780345356918'
 title: The Diamond Throne
-weight: 1
 ---
 
 <!--more-->

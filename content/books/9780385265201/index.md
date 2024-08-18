@@ -10,7 +10,6 @@ params:
 slug: '9780385265201'
 title: 'The Cartoon History Of The Universe - Volumes 1-7: From The Big Bang To Alexander
   The Great'
-weight: 1
 ---
 
 <!--more-->

@@ -9,7 +9,6 @@ params:
   year: '1997'
 slug: '9780676970654'
 title: Midnight's Children
-weight: 1
 ---
 
 <!--more-->

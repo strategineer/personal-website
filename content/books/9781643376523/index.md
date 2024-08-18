@@ -11,7 +11,6 @@ params:
 slug: '9781643376523'
 star_rating: null
 title: Madwoman Of The Sacred Heart
-weight: 1
 ---
 
 

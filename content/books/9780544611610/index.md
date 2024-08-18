@@ -9,7 +9,6 @@ params:
   year: '2015'
 slug: '9780544611610'
 title: Steering The Craft - A Twenty-First Century Guide To Sailing The Sea Of Story
-weight: 1
 ---
 
 <!--more-->

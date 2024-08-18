@@ -10,7 +10,6 @@ params:
   year: '2012'
 slug: '9781419704383'
 title: Trolls
-weight: 1
 ---
 
 <!--more-->
