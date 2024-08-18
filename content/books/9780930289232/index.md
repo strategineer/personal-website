@@ -4,6 +4,7 @@ authors:
 - Dave Gibbons
 books/tags:
 - comics
+- superhero
 date: 2009-04-07
 params:
   isbn13: '9780930289232'

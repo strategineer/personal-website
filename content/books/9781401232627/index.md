@@ -5,6 +5,8 @@ authors:
 books/tags:
 - currently-reading
 - comics
+- superhero
+- anthology
 date: 2024-08-16
 params:
   isbn13: '9781401232627'
