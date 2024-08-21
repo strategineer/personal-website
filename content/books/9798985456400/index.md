@@ -12,6 +12,6 @@ star_rating: 4
 title: Shadowdark RPG
 ---
 
-OSR RPG system that cleaned up the Ennie awards in 2024. I might consider using these rules if I ever run an OSR campaign. Time / light management rules specifically seem well thought through and easier to deal track than other rulesets.
+OSR RPG system that cleaned up the Ennie awards in 2024. I might consider using these rules if I ever run an OSR campaign. Time / light management rules specifically seem well thought through and easier to track than other rulesets.
 
 <!--more-->
