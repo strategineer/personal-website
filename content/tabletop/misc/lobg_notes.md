@@ -24,6 +24,10 @@ Npc, the collector,  tall gangly slender man with custom fit suit
 
 # Notes
 
-The group should gives themselves a name and this is what they'll be known as in the dungeon. 
+## Session 0
 
-...
+- The group should gives themselves a name and this is what they'll be known as in the dungeon. 
+
+## Session 1
+
+- ...
