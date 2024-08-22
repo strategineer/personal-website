@@ -35,6 +35,10 @@ maxIntersectionElementId = null;
 maxIntersectionRatio = 0.0;
 
 window.addEventListener('DOMContentLoaded', () => {
+  toc = document.querySelector(`#TableOfContents`);
+  if (toc === null) {
+    return;
+  }
 
 	const observer = new IntersectionObserver(entries => {
     any_intersecting = false;
@@ -66,11 +70,12 @@ window.addEventListener('DOMContentLoaded', () => {
         return;
       }
       if (maxIntersectionElementId === id) {
-        toc = document.querySelector(`#TableOfContents`);
-        toc.scroll({
-          top: element.offsetTop - toc.offsetHeight / 2.0,
-          behavior: "smooth",
-        });
+        if (toc !== nullptr) {
+          toc.scroll({
+            top: element.offsetTop - toc.offsetHeight / 2.0,
+            behavior: "smooth",
+          });
+        }
       }
     });
 	},{

@@ -2,6 +2,7 @@
 title: Labyrinth of the Blue Gorgon - One Pager
 has_header: true
 is_readable: true
+ignore_from_search: true
 summary: "One page pre-session zero guide for Labyrinth of the Blue Gorgon"
 ---
 

@@ -51,6 +51,9 @@
     </title>
   </head>
   <body id="documentTop">
+    {{ if default false .Params.ignore_from_search }}
+    <span data-pagefind-ignore>
+    {{ end }}
     {{ if $.Params.is_tabletop }}
       {{ with resources.Get "js/rpg_table_randomizer.js" }}
       <script type="text/javascript" src="{{ .RelPermalink }}"> </script>
@@ -152,6 +155,9 @@
         });
     </script>
     {{ end }}
+  {{ if default false .Params.ignore_from_search }}
+  </span>
+  {{ end }}
   </body>
 </html>
 
