@@ -22,6 +22,12 @@ For example "Please, no more zombies" is not a valid wish. You need to formulate
 
 Wishes also allow asking changes that players can do or that were harming your fun in the game in a positive manner. "Christy, could you try to not yell your battle cry into my ear next time you do your battle cry?" At times it can be used to suggest things about things that affect the game but are not in the game entirely. "I'd like if you'd drop a note if you are late in the future" is a valid wish in this regard.
 
+# TLDR - what is the LoBG? to be revealed by early NPCs (like Lady Crucem Capilli)
+
+- an Escheresque and irrational labyrinth, created by the Blue Goron, Psathyrella, to store the many strange and useful items (Lady Crucem Capilli is interested in these) she's collected throughout her aons of life and as an escape from her many terminally angry enemies.
+- The Elephant King -> Rise of the Reptile Empire -> The brutal Triarchy rises with power of the Three Perfect Sisters -> Fall of the Reptile Empire -> Ashen Chanterelle breaks her way into the Maze but is imprisoned in a painting formed from her own portal -> stairs leading to the LoBG on Eliator treated as a kind of afterlife -> (a few hours ago) Lady Crucem Capilli enters the halls -> PCs enter the halls.
+- A remnant of a long-gone civilization, the Triarchy, ruled three perfect sisters, Chronia, Charity, Zamia Torn, betrayed by a few obsessives in their empire leading to the world falling into bloody chaos, slightly worse than the bloody order provided by their government.
+
 # Secrets & Clues
 
 1. The mage who hires the crew initially to steal the painting is actually Lady Crucem Capilli. She's put a geas on the party compelling them to venture forth into the LoBG to help her achieve her goal of buying and preserving artifacts of many different kinds and to have people investigate the Maze, retrieve these for her, and bring back information.
