@@ -44,8 +44,19 @@ Wishes also allow asking changes that players can do or that were harming your f
 
 # NPCs
 
+## Lady Crucem Capilli
 
-Npc, the collector,  tall gangly slender man with custom fit suit
+Intro... "Ahh I see, a new group of adventurers has entered the Labyrinth of the Blue Goron! (lifts her arms up and spins around, fluttering her diminutive wings as she does) A place of wonder and teetering on a knife's edge. Will you be the ones to disrupt the balance of this place or keep it intact for the pleasure and pain of the inhabitants of this plane and for future visitors such as yourself?"
+
+Who are you? "You call me Lady Crucem Capilli. I am a Dragon by birth, a Demon by trade and a lover, critique and collector of art, artifacts and curios of all kinds."
+
+
+Why are you in the Labyrinth? "A mix of pleasure and business... On that note, if you find any artifacts or curios in the Labyrinth please return them to me and I'll reward you handsomely for them."
+
+
+## the collector
+
+tall gangly slender man with custom fit suit
  All he wants is something to remember this encounter by, he'll take it by force if needed. 
 
 
