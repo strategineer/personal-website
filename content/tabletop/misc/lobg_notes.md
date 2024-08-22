@@ -22,9 +22,13 @@ For example "Please, no more zombies" is not a valid wish. You need to formulate
 
 Wishes also allow asking changes that players can do or that were harming your fun in the game in a positive manner. "Christy, could you try to not yell your battle cry into my ear next time you do your battle cry?" At times it can be used to suggest things about things that affect the game but are not in the game entirely. "I'd like if you'd drop a note if you are late in the future" is a valid wish in this regard.
 
+# Renamed characters
+
+- The Blue Medusa, Psathyrella -> The Blue Gorgon, Illyria
+
 # TLDR - what is the LoBG? to be revealed by early NPCs (like Lady Crucem Capilli)
 
-- an Escheresque and irrational labyrinth, created by the Blue Goron, Psathyrella, to store the many strange and useful items (Lady Crucem Capilli is interested in these) she's collected throughout her aons of life and as an escape from her many terminally angry enemies.
+- an Escheresque and irrational labyrinth, created by the Blue Goron, Illyria, to store the many strange and useful items (Lady Crucem Capilli is interested in these) she's collected throughout her aons of life and as an escape from her many terminally angry enemies.
 - The Elephant King -> Rise of the Reptile Empire -> The brutal Triarchy rises with power of the Three Perfect Sisters -> Fall of the Reptile Empire -> Ashen Chanterelle breaks her way into the Maze but is imprisoned in a painting formed from her own portal -> stairs leading to the LoBG on Eliator treated as a kind of afterlife -> (a few hours ago) Lady Crucem Capilli enters the halls -> PCs enter the halls.
 - A remnant of a long-gone civilization, the Triarchy, ruled three perfect sisters, Chronia, Charity, Zamia Torn, betrayed by a few obsessives in their empire leading to the world falling into bloody chaos, slightly worse than the bloody order provided by their government.
 
@@ -40,6 +44,7 @@ Wishes also allow asking changes that players can do or that were harming your f
 
 # NPCs
 
+
 Npc, the collector,  tall gangly slender man with custom fit suit
  All he wants is something to remember this encounter by, he'll take it by force if needed. 
 
@@ -52,4 +57,4 @@ Npc, the collector,  tall gangly slender man with custom fit suit
 
 ## Session 1
 
-- ...
+- Lady Crucem Capilli should [info dump the basics of the LoBG](#tldr---what-is-the-lobg-to-be-revealed-by-early-npcs-like-lady-crucem-capilli) to the players and answer any questions they have. Also, she should ask them to retrieve artifacts for her.
