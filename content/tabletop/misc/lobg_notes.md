@@ -6,8 +6,6 @@ ignore_from_search: true
 summary: "LoBG - Notes"
 ---
 
-El Myster the mage tasked the party with stealing the art leading to the maze. The pay was good so they took the job. The party is compelled by a geas to explore the world of the painting and can't leave the city. But they can  or talk about the painting.  Anyone brought into the maze can't either with anyone who hasn't been. 
-
 # Secrets & Clues
 
 1. The mage who hires the crew initially to steal the painting is actually Lady Crucem Capilli. She's put a geas on the party compelling them to venture forth into the LoBG to help her achieve her goal of buying and preserving artifacts of many different kinds and to have people investigate the Maze, retrieve these for her, and bring back information.
