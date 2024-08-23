@@ -6,6 +6,11 @@ ignore_from_search: true
 summary: "LoBG - Notes"
 ---
 
+# TODO
+
+- fetch appropriate stat block from rulebook for all the npcs in the encounter tables
+- create 5min intro to the shadowdark system for session 0, using cheatsheet
+
 # House Rules
 
 - When creating PCs, each one must be linked another character in some way (siblings? childhood friends? colleagues?). Ideally, each should be able to describe one memorable moment that occurred between them.
