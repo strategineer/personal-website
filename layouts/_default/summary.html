@@ -84,10 +84,13 @@
         </div>
       </div>
       {{ partial "try_links" . }}
-      {{ if not $is_ramble_blog_post }}
+      {{ $has_summary := or .Params.summary (strings.Contains .RawContent "<!--more-->") }}
+      {{ if and (not $is_ramble_blog_post) }}
+      {{ if $has_summary }}
       <span class="summary-text">
       {{ .Summary }}
       </span>
+      {{ end }}
       <div class="col read-more">
         <a aria-labelledby="more" class="float-right" href='{{ .Permalink }}'>
           {{ if $more_to_read }}
