@@ -9,6 +9,7 @@ summary: "LoBG - Notes"
 # TODO
 
 - fetch appropriate stat block from rulebook for all the npcs in the encounter tables
+- create 5min intro to the shadowdark system for session 0, using cheatsheet
 
 # House Rules
 
