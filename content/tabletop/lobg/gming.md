@@ -1,20 +1,22 @@
 ---
-title: GMing Notes
+title: GMing Aid
 has_header: true
 is_readable: true
 ignore_from_search: true
+is_tabletop: true
+no_aside_toc: true
 weight: 1
 ---
 
 # Bangs
 
-1. Ashen Chanterelle encounters PCs: she tries to escape from her chains through any means and escape through the painting, locking the PCs in the LoBG.
-2. Lady Crucem Capilli encounters PCs: she provides context on the LoBG and sends the PCs off to acquire art, artifacts or curios for her in exchange for handsome rewards.  
-3. PCs damage/steal art: the Curator (big hand thing) becomes aware of them and begins to hound them.
-4. Bondye Reparatè encounter PCs: they guide the PCs to Lady Nine-Bones (Halls 17) and she guides them subsequently to Elatior, a safehaven where the party can rest and recover between expeditions into the LoBG.
-5. Chameleon Women encounter/discover PCs: they begin to gain strength, increasing HD with each subsequent encounter, and begin to inform the other denizens of the LoBG about the PCs actions if this would turn the NPCs against the PCs.
-6. Okus encounter PCs: ...
-7. (1 month after PCs enter the LoBG): Ashen Chanterelle will re-enter with a small force of mercenaries and the intention of persuading Chronia, Zamia and Charity to enter the world once more. The Medusa will oppose this.
+1. [Ashen Chanterelle](#ashen-chanterelle) encounters PCs: she tries to escape from her chains through any means and escape through the painting, locking the PCs in the LoBG.
+2. [Lady Crucem Capilli](#lady-crucem-capilli) encounters PCs: she provides context on the LoBG and sends the PCs off to acquire art, artifacts or curios for her in exchange for handsome rewards.  
+3. PCs damage/steal art: [the Curator](#curator-the) (big hand thing) becomes aware of them and begins to hound them.
+4. [Bondye Reparatè](#bondye-reparatè) encounter PCs: they guide the PCs to [Lady Nine-Bones](#lady-nine-bones) (Halls 17) and she guides them subsequently to Elatior, a safehaven where the party can rest and recover between expeditions into the LoBG.
+5. [Chameleon Women](#chameleon-women) encounter/discover PCs: they begin to gain strength, increasing HD with each subsequent encounter, and begin to inform the other denizens of the LoBG about the PCs actions if this would turn the NPCs against the PCs.
+6. The ["Oku"](#oku-the) encounter PCs: ...
+7. (1 month after PCs enter the LoBG): [Ashen Chanterelle](#ashen-chanterelle) will re-enter with a small force of mercenaries and the intention of persuading Chronia, Zamia and Charity to enter the world once more. The Medusa will oppose this.
 
 # Dungeon Key
 
@@ -35,26 +37,90 @@ Arcane sconces
 ## Halls 2
 
 [Lady Crucem Capilli](#lady-crucem-capilli)
-: A Dragon from the deeps of the earth, currently in human form. Lady Capilli is on a mission from Hell. Speaks like a wildlife documentarian, vaguely british, eternally curious and fluctuating pitch.
 
 
-## Weddings 173
+## Wedding 173
 
 100% safe room, random encounters will never occur here.
 
 [Tyko Wort](#tyko-wort)
 : Ghost, cannot communicate in any way. If he finds you lost, he will try to lead you to safety.
 
+# Tables
 
-# Session Notes / Dungeon Key Changes
+## Table - Random Encounters in The Maze
 
-## Session 0
+Roll a d100 every 10 in-game minutes, any time the PCs make a lot of noise, and when indicated in a room description.
 
-- The group should gives themselves a name and this is what they'll be known as in the dungeon. 
+{{< rpg_table name="Encounter" weighted=true >}}
+| D100 | Encounter |
+| -    | -         |
+| 1 | d6 [Chameleon Women](#chameleon-women) |
+| 2 | [RatLeopard](#ratleopard) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) |
+| 3 | [Negamancer](#negamancer-and-thrall-mammals) & d4+1 Thrall Mammals |
+| 4 | [Lion in Lapis Lazuli](#lion-in-lapis-lazuli) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) |
+| 5 | 2d4 [Cannibal Critics](#cannibal-critics) |
+| 6 | [Decadent Waste](#decadent-waste) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) |
+| 7 | [Pellory-Of-The-Walls](#pellory-of-the-walls) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) |
+| 8 | [Lost Lizardman / Reptile Woman Mummy](#lost-lizardman--reptile-woman-mummy) |
+| 9 | 2d8 ["Oku"](#oku-the) |
+| 10 | 2d6+2 [Orchidmen](#orchidmen) |
+| 11 | d4 [Aurum Specters](#aurum-specters) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) |
+| 12 | [Tyko Wort](#tyko-wort) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) |
+| 13 | 2d4+1 [Bondye Reparatè](#bondye-reparatè) |
+| 14 | [Torgos Zooth, Overdose, & Mister Grasp](#torgos-zooth) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) |
+| 15-20 | [The Curator](#curator-the) (only if The Gallery has been robbed/damaged, otherwise treat as 2d8 ["Oku"](#oku-the)) |
+| 21-30 | Halls: 1, Gardens: 3, Gallery: 5, Archive: 1, Wedding: 6, Almery: 6, Cells: 2 |
+| 31-40 | Halls: 6, Gardens: 7, Gallery: 6, Archive: 10, Wedding: 11, Almery: 14, Cells: 14 |
+| 41-50 | Halls: 14, Gardens: 9, Gallery: 9, Archive: 100, Wedding: 12, Almery: 5, Cells: 7 |
+| 51-53 | Hungry—either due to time distortions or just because you are. Eat & drink in the next 10 minutes or take d2 HP damage. |
+| 54-69 | A torch, if the party has any, goes out. |
+| 70-73 | A lantern, if the party has one, goes out. |
+| 74 | A wave of unspeakable melancholy. |
+| 75-100 | No encounter. |
+{.table .table-bordered .table-sm}
+{{< /rpg_table >}}
 
-## Session 1
+## Table - I Search The Body
 
-- [Lady Crucem Capilli](#lady-crucem-capilli) should [info dump the basics of the LoBG](#tldr---what-is-the-lobg-to-be-revealed-by-early-npcs-like-lady-crucem-capilli) to the players and answer any questions they have. Also, she should ask them to retrieve artifacts for her.
+For randomly encountered intelligent creatures. Roll once for every 3 HD of corpses.
+
+Results below (80-00) only appear once. After that, cross them out and write in your own, or if you don't have time, give Gp=#rolled.
+
+{{< rpg_table name="ISearchTheBody" weighted=true >}}
+| D100 | You find… |
+| -    | -         |
+| 1-50 | Currency worth amount of GP shown on dice. |
+| 51-56 | Small gems/trinkets worth d10 × creature level GP. |
+| 57-59 | Key—GM roll d100: if it's 37 (for example), tell the player "It's key #37". It has a 37% chance of opening the next normally locked door in the Maze that it's used on. Once it gets used, that's the only door it works on. Don't tell the players that's how it works. |
+| 60-64 | Day's rations. |
+| 65-70 | Day's worth of fresh water. |
+| 71-72 | Vial of holy or unholy water (as 50/50 or as appropriate to creature). |
+| 73-78 | Partial and crappy dungeon map. To simulate it, any player is allowed to look at the GM's map for a number of seconds equal to their PC's intelligence divided by 2. |
+| 79 | Lamp oil, flint & tinder, 3 torches. |
+| 80 | Tiny petrified goblin child (gremlin) curled up to look like a small stone. If the Medusa dies, it re-animates, screams "Escape!", and runs away. If followed, it will lead PCs to the nearest safe exit. |
+| 81 | Rolled up painting of an Alien Sun (20"x10"), emits slight light. If given to [Charity Torn](#charity-torn) or the [Glyph Witch](#aelfadred-the-glyph-witch), they will respond positively. Really ugly though, so worth only 150GP. |
+| 82 | A fat gold coin marked with an eye on one side and a mouth on the other. On close examination this morphs into a little cyclopic gold homunculus of the same mass. A spy and servant for Torcul Wort (Wedding 191). Anything it sees, he sees; he can speak through its mouth. |
+| 83 | An ancient, sealed letter or scroll with the nickname or childhood name of the PC that found it in a language they know. If examined it reads: "Dear [PC familiar name], I assume you are reading this after your encounter with [roll next Random Encounter and describe basics to PCs, i.e. ‘just after your encounter with Torgos Zooth']… if so you are only a little behind schedule. Obviously, her mask cracks mirrors, but I'm sure you've worked that out already. Try to keep up. Will see you at the end. –Levalliant G." Use the Encounter described in the letter as the next one; in fact, you may wish to trigger it as soon as the letter has been read. |
+| 84 | A mummified human hand curled into a fist which has been stitched to the body of a snake, eye in the palm. (In fact this is Mr. Grasp from Almery pretending to be dead to spy on the PCs.) |
+| 85 | A bag of salt and a note saying, in the common tongue: "It doesn't like this, use it to stop it getting back into the walls. Look out! It can come from ANYWHERE." |
+| 86 | A dully-glowing Infrared Moth in a tiny cage. If released, it circles round the eyes of the greatest murderer in the room. |
+| 87 | The body of a dead (stepped on) Pixie clutching in its hands a teeny-tiny letter. If examined via magic or a lens, the writer | of this passive-aggressive message to "Ysanne" sounds very upset that Ysanne has fallen out of contact and asks about her sister and when they are coming home "though it's certainly no skin off my nose if you two do what you like. I have managed being alone quite well since your father passed away. Oh, I neglected to mention before, your father is dead. Yours, Mother." |
+| 88 | Monocle with a bulging ceramic eye to weak comedic effect. This is, however, a vertical-pupilled Lizard eye. The wearer can read Ancient Saurian. The sight of this glass will anger and outrage any intelligent lizard-being, except Draco Scabra (Archive 160) who will find it HILARIOUS. |
+| 89 | A note saying "possibly under the water-wheels but it's dangerous". |
+| 90 | Magic user scroll: Deepwell (Level 3: turns a 3' diameter puddle of water into the surface of a deep vertical sea. Lasts 10 minutes.) |
+| 91 | Magic user scroll: Steal Face (Level 4: Take and convincingly wear someone's face until it rots off or they get it back. | Range: Touch.) |
+| 92 | Scroll: Rust Object (3'x3'; patch becomes useless. Anyone can read it. Range: Touch.) |
+| 93 | Bag of flour. |
+| 94 | 10 x creature HD worth of trinkets. Infected with a virulent mold that'll spoil food in the pack in which it's stored in 1 hour. |
+| 95 | Vial of lubricant: covers 6'x6' area. |
+| 96 | Head of a morningstar. Light enough to throw. Coated in a substance which makes it smell like fresh meat; stupid carnivorous monsters may try to swallow it. |
+| 97 | A form of waxy cosmetic made from crushed carmine beetles which can be applied to the lips. Using it and then kissing any object will cause a mouth to form wherever the kiss was. The new mouth will be sentient and can answer any questions that the object in question would | be expected to know (if a living being is kissed, only the body part kissed will be able to speak) for d4 rounds before disappearing. The magic only works once, but the cosmetic itself is a sort of flattering muted rose and would look pretty good on you with maybe a slightly lighter foundation color. |
+| 98 | Healing potion: d8 HP but pictographic label says it requires a finger from a dead humanoid to become active. |
+| 99 | A Goblin Key that'll lock any door. |
+| 100 | Pair of beads. Crushing bead A will instantly bring crusher to the location of bead B. |
+{.table .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 # NPCs
 
@@ -116,7 +182,7 @@ Does Not Want
 Advisor to, and attempted controller of the "Oku". Opponent of Xanthoceras. A witch cursed so that her thoughts are always visible. Therefore she has learned to think in code.
 
 Wants
-: To find a way to release her curse, which she believes one of the Medusa’s petrified captives can do.
+: To find a way to release her curse, which she believes one of the Medusa's petrified captives can do.
 
 Does Not Want
 : Anyone interrupting or interfering with her, in any way.
@@ -135,7 +201,7 @@ Does Not Want
 ## Anole Zooth
 › Archive 166
 
-Young son of Torgos Zooth, the Medusa’s moon-headed majordomo. In his presence, any illogical statement produces stabbing pains behind the eyes. Kidnapped and imprisoned by See-Me-No-More with his brother Anolis.
+Young son of Torgos Zooth, the Medusa's moon-headed majordomo. In his presence, any illogical statement produces stabbing pains behind the eyes. Kidnapped and imprisoned by See-Me-No-More with his brother Anolis.
 
 Wants
 : To go home to his father with his brother. To dick Seymore around.
@@ -146,7 +212,7 @@ Does Not Want
 ## Anolis Zooth
 › Archive 166
 
-Young son of Torgos Zooth, the Medusa’s moon-headed majordomo. In his presence, any illogical statement produces stabbing pains behind the eyes. Kidnapped and imprisoned by See-Me-No-More with his brother Anole.
+Young son of Torgos Zooth, the Medusa's moon-headed majordomo. In his presence, any illogical statement produces stabbing pains behind the eyes. Kidnapped and imprisoned by See-Me-No-More with his brother Anole.
 
 Wants
 : To go home to his father with his brother. To dick Seymore around.
@@ -193,10 +259,17 @@ Evil, abusive, deceptive and smart. She will devise any necessary lie. Her CHA i
 
 "Help me! Please, I don't deserve to be in here..."
 
-"I'm innocent, I'm a slave, my master the Blue Gorgon Illyria cursed me to guard her maze for the rest of eternity... I've been here for longer than I can remember."
+"I'm innocent, I'm a slave, my master the Blue Gorgon Psathyrella cursed me to guard her maze for the rest of eternity... I've been here for longer than I can remember."
 
 The door
 : "I can open the door if you let me free..."
+
+## Aurum Specters
+
+| AC | HD | ATK |
+| -  |   -   | -  |
+||||
+{.table .table-bordered .table-sm}
 
 ## Banzoumana
 › Cells 276
@@ -264,6 +337,13 @@ Wants
 Does Not Want
 : To take any risks.
 
+## Bondye Reparatè
+
+| AC | HD | ATK |
+| -  |   -   | -  |
+||||
+{.table .table-bordered .table-sm}
+
 ## Cackling Pranz
 › Almery 222
 
@@ -296,6 +376,50 @@ Wants
 
 Does Not Want
 : Order.
+
+## Cannibal Critics
+
+Looks
+: A variety of races and genders. Finely (if bloodily) clothed and somewhat sinewy (only the strongest individuals/cunningest have survived, the rest were eaten).
+: Many were wanderers and adventurers seeking gold or the release of petrified prisoners, or descendants of Triarchy members or fools who broke into the LoBG from Elatior, lost and driven mad by the strangeness of the Maze.
+
+Behavior
+: Sounds likes a smoker / zombie, gurgly.
+: Can no longer communicate in normal language but only howl bestial war cries of generic criticism.
+
+Wants
+: eat others
+: study the strange works of art in the Gallery
+: prevent non-critics from interacting with works of art in the Gallery
+: follow [Blamphin](#nigellus-blamphin) and [Bon Clerk](#octavian-bon-clerk), two erudite consumers of human flesh who form as much government as the Cannibals are able to muster..
+
+{{< rpg_table name="CannibalCriticsHowls" >}}
+| Howls of the Cannibal Critics |
+| - |
+| 1. What Does This Mean! |
+| 2. Where’s the Wine! |
+| 3. What Does This Say to You! |
+| 4. How Is This Dialoguing! |
+| 5. What’s It Trying to Say! |
+| 6. What’s the Message! |
+| 7. Is It Ironic! |
+| 8. Is It Kitsch! |
+| 9. Is It Art! |
+| 10. Who’s the Audience! |
+| 11. How Does It Signify! |
+| 12. Don’t You Find It Problematic! |
+{.table .table-bordered .table-sm}
+{{< /rpg_table >}}
+
+| AC | HD | ATK |
+|-|-|-|
+| 10  |   2   | d6 weapons  |
+{.table .table-bordered .table-sm}
+
+- Successfully answering a question of the Cannibal Critics will cause them to pause for a round and grunt amongst themselves before they scream another random question.
+- They prefer to attack separated members of the group, subdue them, and carry them off to The Critical Faculty in Gallery 80 where they will be slowly boiled alive and asked detailed questions about aesthetics.
+- They use broken glassware, serving forks, and long knives stolen from the Dead Wedding reception Wedding 177, or nets of human hair weighted with bone hooks.
+- They have a stealth capacity of 3 in 6 (or 50%) but tend to believe they are hidden.
 
 ## Canus Grey
 › Almery 247
@@ -369,10 +493,44 @@ Does Not Want
 Petrified prisoner of the Medusa. A salamander woman, a dancer, last of her race. Not so much a prisoner as a longterm associate kept around by mutual consent.
 
 Wants
-: For someone to kill Da Mozon. To reach a stable environment of fire.
+: For someone to kill Da Mozon.
+: To reach a stable environment of fire.
 
 Does Not Want
 : Da Mozon to escape.
+
+## Chameleon Women
+
+Behavior
+: sound like deeper Skeletor? extended exclamations, slightly nasaly. Evil caricature...
+
+Wants
+: reclaim the Maze and its Archive for living Saurids.
+
+- AKA "librarians" or "those fucking Chameleon Women"
+- scouting parties and adventurers from the Neonate Empires
+- **An organized and learning foe—any group you meet is in communication with others, is aware of your presence, and is part of an organized campaign to (among other things) eliminate you.**
+- As highly evolved as their culture, with sinuous bodies (similar to Cyanoxantha Halls 7 and the Gognata clan in Halls 10 and Cells 282) and a fiercely dismissive attitude toward the achievements of warm-blooded creatures.
+- Suspicious of the Medusa (for being a part-mammal abomination) but willing to negotiate.
+- Disturbed by the Saurid Mummies (for being their uncanny-valley undead ancestors) but willing to negotiate.
+- May be pawns of Levalliant Green (Cells 291) and worship Mdaga Gognata (Cells 282) as a god.
+
+### The Protocols of Antipathy
+
+- A set of rituals designed to ward an area for the Saurids.
+- Will attempt to organize resistance in the dungeon to the PCs using promises, threats, and gossip.
+- Will attempt to bring as many creatures as possible into their feud with the PCs—if the PCs ever did anything that anyone in the dungeon might not approve of, the Saurids will let them know.
+
+| AC | HD | ATK |
+| - | -| - |
+| 15 | 1+1 for each distinct encounter with / defeat by PCs  |  d4 bite/d6+2 machete, other weapon +2, d4 throwing knives, barbed nets (ignores armor; 6 DMG to escape)  |
+{.table .table-bordered .table-sm}
+
+- **Won't make the same mistakes twice.**
+  - if a platoon does not return to the knot, or returns with tales of armed and talented mammals bent on plundering their patrimony, ever more esteemed warriors will be sent, and [the Protocols of Antipathy](#the-protocols-of-antipathy) will be initiated.
+- **when rolled as a Random Encounter, they will not engage if they see the party**, but rather attempt to quietly track the party until their next encounter with something else, then attack when the party is in a weakened or delicate situation.
+- They have **infravision**, their adaptable skins allow them to **maintain stealth on a 1–5 on a d6, and they climb walls as normal terrain**.
+- Each party will have one sorceress who can cast any basic wizard or cleric spell (Lvls 1–5) at a hit point cost equal to 2 × the level of the spell. So Magic Missile (a 1st Lvl spell) would cost the sorceress 2 hit points.
 
 ## Charial, H.B.
 › Archive 155 & 156
@@ -407,7 +565,7 @@ Wants
 ## Chew-Lips, The
 › Gardens 61
 
-Horrible tulip monsters that guard Xanthoceras, though they hate and fear him. They wait for Pellory-Of-The-Walls to return and free them. They are: Toothwort, Sneezewort, Nipplewort, Glasswort, and Bugloss. Want: To protect Xanthoceras, but also for someone to kill Xanthoceras.
+Horrible tulip monsters that guard Xanthoceras, though they hate and fear him. They wait for [Pellory-Of-The-Walls](#pellory-of-the-walls) to return and free them. They are: Toothwort, Sneezewort, Nipplewort, Glasswort, and Bugloss. Want: To protect Xanthoceras, but also for someone to kill Xanthoceras.
 
 ## Chiromantis
 › Archive 132
@@ -469,11 +627,19 @@ Does Not Want
 
 A living marble sculpture of the severed hands of Dendrosathol, father of the Medusa. Sculpted by the now-petrified Ziklag Dawndelyon. Communicates through sign language.
 
+A massive golem-sculpture of a pair of marble hands (Gallery 101), will begin seeking out the party if they see it and then rob or damage the Gallery.
+
 Wants
-: To protect the artworks. To suppress the Cannibal Critics.
+: To protect the artworks. To suppress the [Cannibal Critics](#cannibal-critics).
 
 Does Not Want
 : Any art to be damaged or stolen.
+
+If [Ziklag Dawndelyon](#ziklag-dawndelyon) (Cells 299) dies, he will attempt to inhabit this sculpture, and it will become a slave to his will.
+
+| AC | HD | ATK | Speed |
+| -  | -  |  -  | - |
+| 18 | 8| d6 prod × 6 fingers, or 3d10 grab crushing damage 1 × per round | 2 x human |
 
 ## Da Monzon
 › Cells 302
@@ -489,13 +655,22 @@ Does Not Want
 ## Dark Chanting
 › Almery 230
 
-Medusa employee. A cryptosaur, a sort of Jurassic Sphinx. Chanting is the last of her kind. She is in charge of feeding Quatri-Glotta. (In fact she more supervises the Bondye Reparatè who do most of the actual work.)
+Medusa employee. A cryptosaur, a sort of Jurassic Sphinx. Chanting is the last of her kind. She is in charge of feeding Quatri-Glotta. (In fact she more supervises the [Bondye Reparatè](#bondye-reparatè) who do most of the actual work.)
 
 Wants
 : To ask riddles and eat those who cannot answer. To protect the Medusa.
 
 Does Not Want
 : Anyone to access Quatri-Glotta.
+
+## Decadent Waste
+
+
+
+| AC | HD | ATK |
+| -  |   -   | -  |
+||||
+{.table .table-bordered .table-sm}
 
 ## Dendro
 › Almery 262
@@ -585,7 +760,7 @@ Does Not Want
 ## Fracture-Of-The-Bone
 › Halls 27
 
-"Pet" of Chronia Torn, sister of the petrified ‘Chase-Them-Wounded’.
+"Pet" of Chronia Torn, sister of the petrified ‘Chase-Them-Wounded'.
 
 Wants
 : To keep Chronia lonely and depressed.
@@ -629,7 +804,7 @@ Does Not Want
 ## Gekko Polyphemus
 › Archive 143
 
-Lizardman Mummy. Full of children’s books. Takes frantic notes from the Silence Engine in Archive 143. Takes these to Salamandra Puntata.
+Lizardman Mummy. Full of children's books. Takes frantic notes from the Silence Engine in Archive 143. Takes these to Salamandra Puntata.
 
 Wants
 : For the engine to possibly slow down a little.
@@ -673,7 +848,7 @@ Does Not Want
 ## Halo Nilotic
 › Almery 263
 
-Devil on a mission from hell. Brother to the petrified Pylos Nilotic. Sent to free Dendrosathol from his box. Failed. Tricked by the Medusa into assassinating Dendro Blackpoll in return for his brother’s release. Deeply indecisive.
+Devil on a mission from hell. Brother to the petrified Pylos Nilotic. Sent to free Dendrosathol from his box. Failed. Tricked by the Medusa into assassinating Dendro Blackpoll in return for his brother's release. Deeply indecisive.
 
 Wants
 : To free his brother. To free Dendrosathol.
@@ -730,6 +905,11 @@ Does Not Want
 
 Ex-thieves driven mad by magical masks, and now believe themselves to be birds. They are: Yarrow, Tutsan, Agrimony, Dark Mullein, Great Mullein, Black Medick, Kidney Vetch, Vetchling, Devil-Bit Scabious, Thrift, Common Dodder, Sainfoin, Hellborine, Valerian, Meliot and Dog Mercury.
 
+| AC | HD | ATK |
+| -  |   -   | -  |
+||||
+{.table .table-bordered .table-sm}
+
 ## Kinixys Ziteki
 › Gallery 122
 
@@ -767,6 +947,12 @@ Does Not Want
 › Halls 2
 
 A Dragon from the deeps of the earth, currently in human form. Lady Capilli is on a mission from Hell.
+
+Looks
+: ram horns on head, long thin blue tail, diminutive wings on back.
+
+Behavior
+: Speaks like a wildlife documentarian, vaguely british, eternally curious and fluctuating pitch.
 
 Wants
 : To buy and preserve artifacts of many different kinds. To have people investigate the Maze, retrieve these for her, and bring back information. To Free Dendrosathol, Father of the Medusa.
@@ -850,11 +1036,33 @@ Does Not Want
 
 Intelligent and beautiful tiger sculpture.
 
+**It thinks it’s a lion. Best not upset it.**
+
 Wants
 : You opinion on it. Your ruthlessly honest opinion.
 
 Does Not Want
 : To deal with the consequences of receiving it.
+
+This intelligent and valuable tiger* composed of beautifully sculpted rare blue stone does not eat flesh, but can be dangerous none the less. It is extremely socially insecure; encounters with it often lead to violence.
+
+The claws of the tiger grate on the floor of the Maze like brittle glass.
+
+On contact, it will ask the PCs what they think of it. If they are not critical, it will circle them asking ever deeper and more complex questions. It will keenly follow any implied negative opinion. Should they admit to one, of any kind, it will—baffled, enraged, and genuinely surprised—assault them with prejudice.
+
+| AC | HD | ATK |
+| 16  |   5   | d4/d4/d10  |
+||||
+{.table .table-bordered .table-sm}
+
+Worth: 5000gp “alive”, 500gp for recovered pieces.
+
+## Lost Lizardman / Reptile Woman Mummy
+
+| AC | HD | ATK |
+| -  |   -   | -  |
+||||
+{.table .table-bordered .table-sm}
 
 ## Low Slavering Fool, The
 › Archive 163
@@ -901,7 +1109,7 @@ Wants
 : Peace and calm.
 
 Does Not Want
-: Violence and chaos. (She’s out of luck.)
+: Violence and chaos. (She's out of luck.)
 
 ## Michmas
 › Cells 292
@@ -969,10 +1177,37 @@ Wants
 Does Not Want
 : Fire. Anyone to see that all of his spells now have a food-based effect.
 
+## Negamancer and Thrall Mammals
+
+The high-crested Negamancers of the Neonate Empire practice the philosophies of anticausality. These chameleonoid antisorcerers come forth from the ruins of Nyctopolis to contest any human claim to the Maze. They are typically accompanied by an escort of Thrall Mammals, controlled with a pearl- white globe—if they are defeated, the Negamancer will retreat.
+
+**Negamancer**
+| AC | HD | ATK |
+|-|-|-|
+| 15  |   4   | d6 cursed knife + save or take 2 × damage next time you’re hit, or by spell |
+{.table .table-bordered .table-sm}
+
+Negamantic spells (line of sight, no save, at will):
+
+- Undo effect last round of combat on himself
+- Undo effect last round of combat on another
+- Change one failed die roll into a critical fumble
+- Transfer damage from one discrete attack from self to target
+
+Thrall Mammals are mixed groups of moronic humans (some recruited from the ranks of the Cannibal Critics) and mandrils or other apes whose will to resist has been shattered by the Negamancer.
+
+**Thrall Mammals**
+| AC | HD | ATK |
+|-|-|-|
+| 10  |   2   | d6 bite |
+{.table .table-bordered .table-sm}
+
+The control globes do not function in the hands of anyone unskilled in Negamancy, but the pearly globes are the size of a human brain and worth 200gp.
+
 ## Nigellus Blamphin
 › Gallery 80
 
-Grey Crowned leader of the Cannibal Critics. Aesthetic opponent of Octavian Bon Clerk.
+Grey Crowned leader of the [Cannibal Critics](#cannibal-critics). Aesthetic opponent of Octavian Bon Clerk.
 
 Wants
 : To talk about art. To eat human flesh.
@@ -1010,7 +1245,7 @@ Wants
 Does Not Want
 : To swallow any more monsters.
 
-## O’Cephalus
+## O'Cephalus
 › Almery 233
 
 Time-frozen bounty-hunter. Magical type. One of the team that captured Fulvious.
@@ -1024,10 +1259,10 @@ Does Not Want
 ## Octavian Bon Clerk
 › Gallery 80
 
-Grey Crowned leader of the Cannibal Critics. Aesthetic opponent of Nigellus Blamphin.
+Grey Crowned leader of the [Cannibal Critics](#cannibal-critics). Aesthetic opponent of Nigellus Blamphin.
 
 Wants
-: To talk about art. To bring his view as close as possible to that of Blamphin’s. To contextualize Blamphin’s view. To eat human flesh.
+: To talk about art. To bring his view as close as possible to that of Blamphin's. To contextualize Blamphin's view. To eat human flesh.
 
 Does Not Want
 : To encounter the Curator.
@@ -1038,7 +1273,7 @@ Does Not Want
 Medusa employee. A friendly but drug-addicted Penangallan, a vampire consisting only of head and intestines held together by golden pins.
 
 Wants
-: Conversation. Drugs. Someone to get high with. Possibly to drink the PCs’ blood.
+: Conversation. Drugs. Someone to get high with. Possibly to drink the PCs' blood.
 
 Does Not Want
 : To give away the location of the nearby secret door (though she probably will if high). To allow access to Quatri-Glotta the Prophetic Maniphant.
@@ -1052,7 +1287,7 @@ Wants
 : Dead flesh to eat.
 
 Does Not Want
-: The opposite of above. He’s a pretty simple guy, really.
+: The opposite of above. He's a pretty simple guy, really.
 
 ## Osorkon III
 › Cells 289
@@ -1065,16 +1300,28 @@ Wants
 Does Not Want
 : To get anything useful done. To be left here.
 
-## Pellory-Of-The-Walls
-› Gardens 72
+## Orchidmen
 
-& 73 An opponent and former slave of Xanthoceras. Now an active, predatory, intelligent magical plant that hunts in the walls of the Maze.
+| AC | HD | ATK |
+| -  |   -   | -  |
+||||
+{.table .table-bordered .table-sm}
+
+## Pellory-Of-The-Walls
+› Gardens 72 & 73
+
+An opponent and former slave of Xanthoceras. Now an active, predatory, intelligent magical plant that hunts in the walls of the Maze.
 
 Wants
 : To feed weak and vulnerable people to her root so that she can grow.
 
 Does Not Want
 : Anyone strong and dangerous finding her root.
+
+| AC | HD | ATK |
+| -  |   -   | -  |
+||||
+{.table .table-bordered .table-sm}
 
 ## Phalarope Carborac
 › Almery 218
@@ -1123,7 +1370,7 @@ Wants
 Petrified prisoner of the Medusa. A wooden scrap golem with the personality of doddering old man and a Reincarnation spell carved into his back which would kill him if read. Bit of an asshole.
 
 Wants
-: Doesn’t really want or not want anything. Praxagoras is pretty much cool with whatever you’re into.
+: Doesn't really want or not want anything. Praxagoras is pretty much cool with whatever you're into.
 
 ## Prince Cylodon Kempi
 › Archive 163
@@ -1142,7 +1389,12 @@ Does Not Want
 The Medusa. The owner and primary creator of the Maze. Owns almost everything inside. Immortal, has been everywhere, done everything. Estranged would be lover of Chronia Torn.
 
 Wants
-: • To successfully sleep with Chronia. • Wouldn’t mind having the Liches removed from her dungeon. (Draco Scabra is ok.) • To know (but refuses to ask) why Chronia stopped writing to her. • Something new to read. • Some way to neutralize or remove the powers of the Torn sisters. (See above.) • Anything vibrantly new and interesting in Art.
+: To successfully sleep with Chronia.
+: Wouldn't mind having the Liches removed from her dungeon. (Draco Scabra is ok.)
+: To know (but refuses to ask) why Chronia stopped writing to her.
+: Something new to read.
+: Some way to neutralize or remove the powers of the Torn sisters. (See above.)
+: Anything vibrantly new and interesting in Art.
 
 Does Not Want
 : Anyone messing with her stuff. Her dad getting out of that box.
@@ -1168,6 +1420,25 @@ Wants
 
 Does Not Want
 : To accept responsibility for anything. To be around people who are "downers".
+
+## RatLeopard
+
+Looks
+: A kind of biological golem or spliced predator.
+: A leopard and Giant Molerat have been Frankensteined together.
+
+Behavior
+: Hunts living creatures in the Maze by tunneling beneath the earth—aided by acidic steam from its pores—and waiting beneath the stone flags of the floor or wall, then leaping from below.
+: It escapes the same way, diving back into its tunnel which it fills behind it.
+
+| AC | HD | ATK |
+| 14  |   5   | 1d4+1d10  |
+||||
+{.table .table-bordered .table-sm}
+
+Ambush from below (from taxidermied bifurcated mouth and acidic steam); if successful, will hang on and do same damage each round. It will not stay in combat if hurt and will retreat to its tunnel or to dark rooms.
+
+Any weapon successfully hurting it has a 1 in 20 chance of being corroded beyond use by the steam. It sleeps in a tank of formaldehyde in Gallery 114.
 
 ## Restharrow
 › Gardens 37
@@ -1244,7 +1515,7 @@ Wants
 : To kill people and compost their bodies in his garden.
 
 Does Not Want
-: Any more people to find out the secret of his power. (Shout ‘see-more!’ and he becomes visible again.) Interruptions. To give up his useful prisoners.
+: Any more people to find out the secret of his power. (Shout ‘see-more!' and he becomes visible again.) Interruptions. To give up his useful prisoners.
 
 ## Sheklesh
 › Cells 274
@@ -1304,7 +1575,7 @@ Does Not Want
 ## Strikes-The-Ree
 › Cells 279
 
-Petrified prisoner of the Medusa. A creepy and abusive satyr with a magical talent for music. Former lover of Eshrigel, one of the Medusa’s sisters.
+Petrified prisoner of the Medusa. A creepy and abusive satyr with a magical talent for music. Former lover of Eshrigel, one of the Medusa's sisters.
 
 Wants
 : To use his musical powers on people and then get creepy with them.
@@ -1337,7 +1608,7 @@ Does Not Want
 ## Tel Akko
 › Cells 269
 
-Petrified prisoner of the Medusa. The Goat Pope. Schemed with the Medusa to cut off her father’s hands and trap him in a box. Was betrayed and petrified by her. He will be pleased to meet her killers. Tel Sippor will follow him without question.
+Petrified prisoner of the Medusa. The Goat Pope. Schemed with the Medusa to cut off her father's hands and trap him in a box. Was betrayed and petrified by her. He will be pleased to meet her killers. Tel Sippor will follow him without question.
 
 Wants
 : To find Tel Zeror (in Cells 298) and learn the location of the apocalypse.
@@ -1381,7 +1652,7 @@ Does Not Want
 ## Torcul Wort
 › Wedding 191
 
-A kind of intelligent artificial son, built by Sophronia Wort long ago from pure gold and imbued with the power to perceive all forms of fraud and crime a person has perpetrated. Eventually he went mad and activated the Golden Engine, destroying the Dead Wedding and producing the Aurum Specters, whom he now rules. Now swollen into a vast monster of gold with incredible powers relating to that substance.
+A kind of intelligent artificial son, built by Sophronia Wort long ago from pure gold and imbued with the power to perceive all forms of fraud and crime a person has perpetrated. Eventually he went mad and activated the Golden Engine, destroying the Dead Wedding and producing the [Aurum Specters](#aurum-specters), whom he now rules. Now swollen into a vast monster of gold with incredible powers relating to that substance.
 
 Wants
 : To punish cheats and liars of all kinds.
@@ -1400,7 +1671,12 @@ Wants
 Does Not Want
 : To betray the Medusa. His sons to be harmed.
 
-## Tyko’s Wight
+| AC | HD | ATK |
+| -  |   -   | -  |
+||||
+{.table .table-bordered .table-sm}
+
+## Tyko's Wight
 › Wedding 176
 
 The soulless and evil living corpse of Tyko Wort, horribly aged but underdeveloped. Has some kind of weird relationship with the Clockwork Needlebirds in Archive 146; they write to each other on the flayed skins of human beings.
@@ -1414,7 +1690,7 @@ Does Not Want
 ## Tyko Wort
 › Wedding 173
 
-The spirit of the dead son of Sophronia Wort, the Lying Lich. Sort-of-brother to Torcul Wort, his artificially created sibling who has now developed into an awful monster. Tyko wanders the halls hiding from the Aurum Specters. Unable to speak.
+The spirit of the dead son of Sophronia Wort, the Lying Lich. Sort-of-brother to Torcul Wort, his artificially created sibling who has now developed into an awful monster. Tyko wanders the halls hiding from the [Aurum Specters](#aurum-specters). Unable to speak.
 
 Wants
 : To help his mother. To lead you to safety.
@@ -1425,10 +1701,10 @@ Does Not Want
 ## Uriel Todkill
 › Wedding 193
 
-A naked, two-mouthed, Shark-Man baritone. Former entertainer for the Medusa, she has lost interest in him for some time, leaving him to sing alone and eat passersby. Uriel’s songs can produce magical effects.
+A naked, two-mouthed, Shark-Man baritone. Former entertainer for the Medusa, she has lost interest in him for some time, leaving him to sing alone and eat passersby. Uriel's songs can produce magical effects.
 
 Wants
-: To eat you. Some inner ear bones to complete the fine features of a statue of Ysanne (Wedding 194) he’s making. To sing and hear wonderful music.
+: To eat you. Some inner ear bones to complete the fine features of a statue of Ysanne (Wedding 194) he's making. To sing and hear wonderful music.
 
 Does Not Want
 : To eat Ysanne Smallbone. To be thought of as inconsiderate.
@@ -1439,7 +1715,7 @@ Does Not Want
 & 156 A likable living shadow bled from the black void inside Sheltopussik.
 
 Wants
-: To continue its game, or maybe bleed the PCs’ life force, either would be good.
+: To continue its game, or maybe bleed the PCs' life force, either would be good.
 
 Does Not Want
 : Anyone to heal or harm Sheltopussik or stop the shadows from bleeding out. Anyone around who is a "bad sport".
@@ -1466,7 +1742,7 @@ Does Not Want
 ## Wærloga
 › Gallery 81
 
-Animated statue of a Vampire. Telepathic, but can’t move. Very well informed about crowned heads.
+Animated statue of a Vampire. Telepathic, but can't move. Very well informed about crowned heads.
 
 Wants
 : Blood spread all over him. Someone to turn the lights off.
@@ -1477,7 +1753,7 @@ Does Not Want
 ## Wercel Smallbone
 › Cells 280
 
-Skewered stone fairy. Pet medical project of Torgos Zooth. Cursed Aelfadred the Glyph Witch; still thinks this hilarious. Related to Ysanne (they don’t get along).
+Skewered stone fairy. Pet medical project of Torgos Zooth. Cursed Aelfadred the Glyph Witch; still thinks this hilarious. Related to Ysanne (they don't get along).
 
 Wants
 : To be saved.
@@ -1491,7 +1767,7 @@ Does Not Want
 Obsessive lover of Zamia Torn, opponent of Aelfadred. Source of the overflowing vines in The Gardens.
 
 Wants
-: To reunite Zamia’s frozen soul with her body and compel her to marry him.
+: To reunite Zamia's frozen soul with her body and compel her to marry him.
 
 Does Not Want
 : To be petrified by the Medusa. Anything to stand between him and Zamia.
@@ -1521,13 +1797,13 @@ Does Not Want
 ## Zacchaeus Wybrow
 › Wedding 174
 
-Mechanical Peacock, maître’d for the Dead Wedding. Terrible snob.
+Mechanical Peacock, maître'd for the Dead Wedding. Terrible snob.
 
 Wants
 : Only the best people to attend.
 
 Does Not Want
-: Anyone who ‘reeks of the street’.
+: Anyone who ‘reeks of the street'.
 
 ## Zamia Torn
 › Gardens 50
@@ -1554,7 +1830,7 @@ Wants
 Petrified prisoner of the Medusa. A genius sculptor who can reshape anything as if it were stone. If he dies, his soul will inhabit the body of the Curator.
 
 Wants
-: To alter the PCs’ shapes to make them better.
+: To alter the PCs' shapes to make them better.
 
 Does Not Want
 : Anyone to stop him from doing this.
@@ -1565,10 +1841,10 @@ Does Not Want
 Time-frozen bounty-hunter. Stealthy type. One of the team that captured Fulvious.
 
 Wants
-: O’Cephalus safe and unfrozen in time.
+: O'Cephalus safe and unfrozen in time.
 
 Does Not Want
-: O’Cephalus dead, harmed, or lost.
+: O'Cephalus dead, harmed, or lost.
 
 ## Zygmunt Wombwell
 › Almery 209

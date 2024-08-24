@@ -1,4 +1,3 @@
-maen
 function roll(expr, button) {
     const result = getDiceResult(expr);
     if (button) {

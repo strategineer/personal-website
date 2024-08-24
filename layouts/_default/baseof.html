@@ -64,16 +64,14 @@
     {{ end  }}
     <div class="container-fluid"> 
       {{ $is_readable := default false .Params.is_readable}}
+      {{ $has_aside_toc := and $.Params.is_tabletop (default false .Page.Params.is_tabletop) (not (default false .Page.Params.no_aside_toc))}}
       <div class="row no-margin justify-content-center">
-        {{ if $.Params.is_tabletop }}
+        {{ if $has_aside_toc }}
           <div class="col-xl-2">
-          {{ $has_aside_toc := default false .Page.Params.is_tabletop}}
-          {{ if $has_aside_toc }}
             <div class="offcanvas show offcanvas-left" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasLeft" aria-label="navigation bar">       
               <div class="offcanvas-body">
                 {{ .Page.TableOfContents }}
               </div>
-            {{ end }}
             </div>
           </div>
           <div class="col-xl-10 main no-margin ">

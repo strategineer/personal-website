@@ -3,7 +3,7 @@ title: Intro
 has_header: true
 is_readable: true
 ignore_from_search: true
-weight: 2
+weight: 3
 ---
 
 # TLDR - what is the LoBG? to be revealed by early NPCs (like Lady Crucem Capilli)
