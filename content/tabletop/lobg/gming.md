@@ -20,26 +20,29 @@ weight: 1
 
 ## Halls 1
 
-North Door: pull on chains, pick lock, or smash it in to open. Ashen doesn't want this.
+North Door
+: pull on chains, pick lock, or smash it in to open. Ashen doesn't want this.
 
-South wall painting: if examined carefully, they see, a small pale boy who was not there before, Tyko Wort. If touched, Tyko transport them instantly to the room with red pillars (Wedding 173).
+South wall painting
+: if examined carefully, they see, a small pale boy who was not there before, Tyko Wort. If touched, Tyko transport them instantly to the room with red pillars (Wedding 173).
 
-Arcane sconces can be removed from the walls and taken with PCs. They provide light as torches and go out at the same time. They can be "recharged" by being placed back on the walls in this room.
+Arcane sconces
+:  can be removed from the walls and taken with PCs. They provide light as torches and go out at the same time. They can be "recharged" by being placed back on the walls in this room.
 
 [Ashen Chanterelle](#ashen-chanterelle)
-: Priestess of the Triarchy imprisoned in the painting "False Chanterelle". Chained to the ceiling
+: Priestess of the Triarchy imprisoned in the painting "False Chanterelle". Chained to the ceiling.
 
 ## Halls 2
 
 [Lady Crucem Capilli](#lady-crucem-capilli)
-: A Dragon from the deeps of the earth, currently in human form. Lady Capilli is on a mission from Hell.
+: A Dragon from the deeps of the earth, currently in human form. Lady Capilli is on a mission from Hell. Speaks like a wildlife documentarian, vaguely british, eternally curious and fluctuating pitch.
 
 
 ## Weddings 173
 
 100% safe room, random encounters will never occur here.
 
-Tyko Wort
+[Tyko Wort](#tyko-wort)
 : Ghost, cannot communicate in any way. If he finds you lost, he will try to lead you to safety.
 
 
@@ -190,9 +193,10 @@ Evil, abusive, deceptive and smart. She will devise any necessary lie. Her CHA i
 
 "Help me! Please, I don't deserve to be in here..."
 
-"I'm innocent, I'm a slave, my master the Blue Gorgon Illyria cursed me to guard her maze for the rest of eternity..."
+"I'm innocent, I'm a slave, my master the Blue Gorgon Illyria cursed me to guard her maze for the rest of eternity... I've been here for longer than I can remember."
 
-"I can open the door if you let me free..."
+The door
+: "I can open the door if you let me free..."
 
 ## Banzoumana
 › Cells 276
@@ -260,7 +264,7 @@ Wants
 Does Not Want
 : To take any risks.
 
-## 237 Cackling Pranz
+## Cackling Pranz
 › Almery 222
 
 Disembodied but dangerous spirit of an adventurer who came to steal the secrets of the Medusa. One of a party of five. They were betrayed and their spirits were trapped here until each kills at least one thief whose spirit will replace theirs while they go free.
@@ -368,8 +372,12 @@ Wants
 : For someone to kill Da Mozon. To reach a stable environment of fire.
 
 Does Not Want
-: Da Mozon to escape. 238 Charial, H.B.
-› Archive 155 & 156 A likable living shadow bled from the black void inside Sheltopussik.
+: Da Mozon to escape.
+
+## Charial, H.B.
+› Archive 155 & 156
+
+A likable living shadow bled from the black void inside Sheltopussik.
 
 Wants
 : To continue its game, or maybe bleed the PCs life force, either would be good.
@@ -770,13 +778,20 @@ Does Not Want
 
 [info dump the basics of the LoBG](#tldr---what-is-the-lobg-to-be-revealed-by-early-npcs-like-lady-crucem-capilli)
 
-Intro... "Ahh I see, you might be just the kind of people I've been looking for! Welcome to the Labyrinth of the Blue Goron (lifts her arms up and spins around, fluttering her diminutive wings as she does) A place of wonder and beauty unlike anywhere else.
+Intro
+: "Ahhhhhhh you might be just the kind of people I've been looking for! Welcome to the Labyrinth of the Blue Gorgon (lifts her arms up and spins around, fluttering her diminutive wings as she does) A place of wonder and beauty unlike anywhere else.
 
-Who are you? "You call me Lady Crucem Capilli. I am a Dragon by birth, a Demon by trade and a lover, critic and collector of art, artifacts and curios of all kinds."
+Who are you?
+: "Ahhhhhh My name is Lady Crucem Capilli. I am a Dragon by birth, a Demon by trade and a lover, critic and collector of art, artifacts and curios of all kinds."
 
-She will first offer to buy anything you bring back from the Maze. After the first transaction, roll d6 for each column on the table below to discover what she wants next. If the party asks for information about the Maze to make their task easier, she’ll reply that their unknowing path through the Maze has its own aesthetic purity which she wouldn’t want to spoil.
 
-Why are you in the Labyrinth? "A mix of pleasure and business... On that note, if you find any artifacts or curios in the Labyrinth please return them to me and I'll reward you handsomely for them."
+Why are you in the Labyrinth?
+: "Ahhhhhh A mix of pleasure and business... On that note, if you find any artifacts or curios in the Labyrinth, please return them to me and I'll reward you handsomely for them."
+
+Can you help us in anyway to make our artifact retrieval task easier?
+: "Ahhhhhh the unknowning path through the Labyrinth has its own aesthetic purity, I wouldn't want to spoil that for you. Good luck on your journey!"
+
+She will first offer to buy anything you bring back from the Maze. After the first transaction, roll d6 for each column on the table below to discover what she wants next.
 
 ## Lady Nine-Bones
 › Halls 17
@@ -790,7 +805,7 @@ Does Not Want
 : To offend any spirits, for any to leave the Maze.
 
 ## Lady Torc
-› wedding 179
+› Wedding 179
 
 About to complete her wedding to Marquis Aeolis by kissing him on the lips. In fact a terrible disaster has taken place and she and her husband have been locked in time while everyone around them has been dead for an uncounted age.
 
@@ -845,7 +860,7 @@ Does Not Want
 › Archive 163
 
 See "Prince Cylodon Kempi" Marquis Aeolis
-› wedding 179
+› Wedding 179
 
 So far as he knows he is about to complete his wedding to Lady Torc by kissing her on the lips. In fact a terrible disaster has taken place and he and his wife have been locked in time while everyone around them has been dead for an uncounted age.
 
@@ -1110,7 +1125,7 @@ Petrified prisoner of the Medusa. A wooden scrap golem with the personality of d
 Wants
 : Doesn’t really want or not want anything. Praxagoras is pretty much cool with whatever you’re into.
 
-## 245 Prince Cylodon Kempi
+## Prince Cylodon Kempi
 › Archive 163
 
 Came into the Maze to free his brother Osorkon III. Has been captured and enchanted by See-Me-No-More to think he is a toad, and that he must take orders from the Goshgolly Toad.
@@ -1254,7 +1269,7 @@ Does Not Want
 : To be consumed by the darkness within it.
 
 ## Sophronia Wort, the Lying Lich
-› wedding 183
+› Wedding 183
 
 Former Chancellor of the Triarchy and direct inferior to Zygmunt Wombwell. Conspired with Xanthoceras and Draco Scabra ages ago to bring the Three Sisters to the Maze. Created Torcul Wort and the Empty Knight to ensure her control. Betrayed by her created son Torcul Wort. Now hiding in a cell from monsters she built and a situation she created, quite quite mad and a compulsive liar.
 
@@ -1364,7 +1379,7 @@ Does Not Want
 : To stop advising.
 
 ## Torcul Wort
-› wedding 191
+› Wedding 191
 
 A kind of intelligent artificial son, built by Sophronia Wort long ago from pure gold and imbued with the power to perceive all forms of fraud and crime a person has perpetrated. Eventually he went mad and activated the Golden Engine, destroying the Dead Wedding and producing the Aurum Specters, whom he now rules. Now swollen into a vast monster of gold with incredible powers relating to that substance.
 
@@ -1386,7 +1401,7 @@ Does Not Want
 : To betray the Medusa. His sons to be harmed.
 
 ## Tyko’s Wight
-› wedding 176
+› Wedding 176
 
 The soulless and evil living corpse of Tyko Wort, horribly aged but underdeveloped. Has some kind of weird relationship with the Clockwork Needlebirds in Archive 146; they write to each other on the flayed skins of human beings.
 
@@ -1396,8 +1411,8 @@ Wants
 Does Not Want
 : The spirit of Tyko Wort anywhere nearby.
 
-## 248 Tyko Wort
-› wedding 173
+## Tyko Wort
+› Wedding 173
 
 The spirit of the dead son of Sophronia Wort, the Lying Lich. Sort-of-brother to Torcul Wort, his artificially created sibling who has now developed into an awful monster. Tyko wanders the halls hiding from the Aurum Specters. Unable to speak.
 
@@ -1408,7 +1423,7 @@ Does Not Want
 : For anyone to be hurt.
 
 ## Uriel Todkill
-› wedding 193
+› Wedding 193
 
 A naked, two-mouthed, Shark-Man baritone. Former entertainer for the Medusa, she has lost interest in him for some time, leaving him to sing alone and eat passersby. Uriel’s songs can produce magical effects.
 
