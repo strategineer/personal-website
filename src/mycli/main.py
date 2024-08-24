@@ -18,7 +18,7 @@ import requests
 import frontmatter
 from isbnlib import meta, isbn_from_words
 from isbnlib._exceptions import NotValidISBNError
-from isbnlib.dev._exceptions import ISBNNotConsistentError
+from isbnlib.dev._exceptions import ISBNNotConsistentError, ISBNLibHTTPError
 from bs4 import BeautifulSoup as bs
 
 from __init__ import (
@@ -127,7 +127,8 @@ def cli():
 
 @click.command()
 @click.argument('isbn', nargs=-1, type=str)
-def import_books(isbn):
+@click.option('--tag', type=str)
+def import_books(isbn, tag):
     """Import book ISBNs"""
     filenames = glob.glob("**/bs_export_*.json")
     books = {}
@@ -144,29 +145,27 @@ def import_books(isbn):
     for isbn in sorted(books.keys()):
         book = books[isbn]
         metadata = {}
-        try:
-            fetched_metadata = meta(isbn)
-            metadata = {
-                "title": fetched_metadata["Title"],
-                "authors": fetched_metadata["Authors"],
-                "slug": fetched_metadata["ISBN-13"],
-                "params": {
-                    "isbn13": fetched_metadata["ISBN-13"],
-                    "year": fetched_metadata["Year"],
-                },
-            }
-        except (NotValidISBNError, ISBNNotConsistentError):
-            print(
-                f"Failed to fetch metadata for {isbn}, using scanned data:\n{books[isbn]}"
-            )
-            if not books[isbn]["name"]:
+        fetched_metadata = {}
+        for service in ["goob","openl","wiki"]:
+            try:
+                fetched_metadata = meta(isbn, service=service)
+            except (NotValidISBNError, ISBNNotConsistentError):
                 continue
-            metadata = {
-                "title": books[isbn]["name"],
-                "params": {
-                    "isbn13": isbn,
-                },
-            }
+            except (urllib.error.HTTPError, ISBNLibHTTPError):
+                continue
+        if not fetched_metadata:
+            print(f"Failed to fetch metadata for isbn: {isbn}")
+            continue
+
+        metadata = {
+            "title": fetched_metadata["Title"],
+            "authors": fetched_metadata["Authors"],
+            "slug": fetched_metadata["ISBN-13"],
+            "params": {
+                "isbn13": fetched_metadata["ISBN-13"],
+                "year": fetched_metadata["Year"],
+            },
+        }
         post = frontmatter.Post("", handler=None, **metadata)
         while True:
             filename = f"content/books/{ post.metadata['slug'] }/index.md"
@@ -188,7 +187,7 @@ def import_books(isbn):
             post.content = "\n<!--more-->"
             post.metadata["star_rating"] = None
             post.metadata["date"] = date.today()
-            post.metadata["books/tags"] = ["owned-but-unread"]
+            post.metadata["books/tags"] = [tag] if tag else []
             print(f"No existing book for ISBN {isbn}, creating new post")
         write_post(post, filename)
         # {'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
