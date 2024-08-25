@@ -665,12 +665,23 @@ Does Not Want
 
 ## Decadent Waste
 
+Looks
+: an animated sculpture of a hummingbird made of paper-thin ruby, diamond, emerald, and sapphire
+: It is both beautiful and valuable.
 
+Behavior
+: can fly with the swiftness and accuracy of the real thing.
+: lures intelligent creatures into nearby dangerous environments and situations, watching them die, then licking at their exposed bones, eating bone marrow.
+: if this fails, it may locate dangerous Maze predators (roll a Random Encounter every other round that it searches) then lead them to vulnerable prey, or simply lure together opposed groups in the hopes that someone dies.
+
+Its lair is in Gallery 118.
 
 | AC | HD | ATK |
 | -  |   -   | -  |
-||||
+| 19 | 1 ||
 {.table .table-bordered .table-sm}
+
+Worth: 3000gp “alive”; jeweled parts 500gp if destroyed.
 
 ## Dendro
 › Almery 262
@@ -905,10 +916,285 @@ Does Not Want
 
 Ex-thieves driven mad by magical masks, and now believe themselves to be birds. They are: Yarrow, Tutsan, Agrimony, Dark Mullein, Great Mullein, Black Medick, Kidney Vetch, Vetchling, Devil-Bit Scabious, Thrift, Common Dodder, Sainfoin, Hellborine, Valerian, Meliot and Dog Mercury.
 
+The “Oku” are human beings, the last remnants of a
+gang of notorious thieves lead into the Maze by their
+leader Rinaldini Dodo to escape the forces of law and
+order. After Rinaldini died they unwisely bargained
+with Aelfadred the Glyph Witch for the means
+to survive in their strange new environment.
+Aelfadred gave them the long-beaked Oku bird
+masks they now wear, which gave them some of the
+other-natural power of that legendary crow-headed
+race. Unfortunately, the masks also drive the wearer
+slowly mad. The “Oku” now truly believe themselves
+to be those mythic creatures; even when not wearing
+the masks, they are simply “in disguise” as ordinary
+humans and will often give themselves away (50% of
+the time) with birdlike behavior.
+Akerstrom, their most competent and sane remain-
+ing leader, was sent by Aelfadred to kill the Medusa.
+He has not been seen since, and the remaining “Oku”
+are riven by factionalism and choice paralysis, easy
+for Aelfadred to manipulate.
+To generate an encounter, roll 2d8 and count down
+the active “Oku” one by one. All of these “Oku” are
+present and the one counted last is the leader; the
+mission on the leader’s line is the mission the “Oku”
+are currently on.
+When an “Oku” dies or become incapacitated for any
+reason, draw a line through their name and do not
+count them again. If they are still alive, they will be
+found recovering in Gardens 53.
+If more “Oku” are rolled than are left, start back at the
+beginning again, assume new “Oku” rolled have the
+same spells and missions in the same order.
+The results of particular interactions with PCs are
+more powerful than the results of this table. If PCs
+make a genuine enemy, or friend, that particular
+“Oku” will act accordingly no matter what the table
+says.
+
+If a group of “Oku” faces a complex or subtle choice
+about how to proceed, roll a d6. On a 4+, they act
+sanely. On an 1, 2, or 3, the group breaks down into
+arguing factions and either does nothing or each
+proceeds a different way.
+
 | AC | HD | ATK |
 | -  |   -   | -  |
-||||
+| 12 |  3 | d6 (various swords, bucklers, knives, and bow) |
 {.table .table-bordered .table-sm}
+
+Skills of 4th Lvl thieves
+: **Backstab**: If you hit a creature who is unaware of your attack, you deal level/2 extra weapon dice of damage.
+
+Each has a single spell (see previous page) which they can cast as a Lvl 1 Magic User. Like a Magic User, they must rest 8 hours to recover their spell before they can cast it again.
+
+### Missions:
+
+#### Fleeing someone they have robbed and in need of help.
+
+#### Planning a heist of nearby treasure, could do with extra hands.
+
+#### On a mission to steal back Akerstrom in Cells 296.
+
+#### Stalking the PCs till they fight something then robbing whoever looks weakest.
+
+#### Trying to rob the PCs.
+
+### Table
+
+{{< rpg_table name="Oku" weighted=true >}}
+| 2d8 | # | Dead? | Names | Spell | Mission |
+| - |- |-|-|-| - |
+| 0.0  | 1 | - | Yarrow              | [Unseen Servant](#unseen-servant) | [Mission - Fleeing Robbery](#fleeing-someone-they-have-robbed-and-in-need-of-help)                  |
+| 1.56 | 2 | - | Tutsan              | [Spider Climb](#spider-climb) | [Mission - Fleeing Robbery](#fleeing-someone-they-have-robbed-and-in-need-of-help)                  |
+| 3.13 | 3 | - | Agrimony            | [Magic Missile](#magic-missile) | [Mission - Fleeing Robbery](#fleeing-someone-they-have-robbed-and-in-need-of-help)                  |
+| 4.69 | 4 | - | Dark Mullein        | [Hold Portal](#hold-portal) | [Mission - Planning Heist](#planning-a-heist-of-nearby-treasure-could-do-with-extra-hands)          |
+| 6.25 | 5 | - | Great Mullein       | [Knock](#knock) | [Mission - Planning Heist](#planning-a-heist-of-nearby-treasure-could-do-with-extra-hands)          |
+| 7.81 | 6 | - | Black Medick        | [Darkness](#darkness) | [Mission - Planning Heist](#planning-a-heist-of-nearby-treasure-could-do-with-extra-hands)          |
+| 9.38 | 7 | - | Kidney Vetch        | [Shrink](#shrink) | [Mission - Steal Akerstrom](#on-a-mission-to-steal-back-akerstrom-in-cells-296)                     |
+| 10.94| 8 | - | Vetchling           | [Sleep](#sleep) | [Mission - Steal Akerstrom](#on-a-mission-to-steal-back-akerstrom-in-cells-296)                     |
+| 12.50| 9 | - | Devil-Bit Scabious  | [ESP](#esp) | [Mission - Steal Akerstrom](#on-a-mission-to-steal-back-akerstrom-in-cells-296)                     |
+| 10.94| 10 | - | Thrift              | [Web](#web) | [Mission - Stalking](#stalking-the-pcs-till-they-fight-something-then-robbing-whoever-looks-weakest)|
+| 9.38 | 11 | - | Common Dodder       | [Mirror Image](#mirror-image) | [Mission - Stalking](#stalking-the-pcs-till-they-fight-something-then-robbing-whoever-looks-weakest)|
+| 7.81 | 12 | - | Sainfoin            | [Locate Object](#locate-object) | [Mission - Stalking](#stalking-the-pcs-till-they-fight-something-then-robbing-whoever-looks-weakest)|
+| 6.25 | 13 | - | Hell Borine         | [Invisibility](#invisibility) | [Mission - Rob the PCs](#trying-to-rob-the-pcs)                                                     |
+| 4.69 | 14 | - | Valerian            | [Forget](#forget) | [Mission - Rob the PCs](#trying-to-rob-the-pcs)                                                     |
+| 3.13 | 15 | - | Meliot              | [Audible Glamer](#audible-glamer) | [Mission - Rob the PCs](#trying-to-rob-the-pcs)                                                     |
+| 1.56 | 16 | - | Dog Mercury         | [Change Self](#change-self) | [Mission - Rob the PCs](#trying-to-rob-the-pcs)                                                     |
+{.table .table-bordered .table-sm}
+{{< /rpg_table >}}
+
+### Oku Spells
+
+#### Unseen Servant
+
+Duration
+: 1 Hour
+
+Range
+: Far
+
+This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.
+
+Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.
+
+If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.
+
+#### Spider Climb
+
+Duration
+: 1 Hour
+
+Range
+: Close
+
+Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed.
+
+#### Magic Missile
+
+Duration
+: Instant
+
+Range
+: Far
+
+You have advantage on your check to cast this spell.
+
+A glowing bolt of force streaks from your open hand, dealing 1d4 damage to one target.
+
+#### Hold Portal
+
+Duration
+: 10 rounds
+
+Range
+: Near
+
+You magically hold a portal closed for the duration. A creature must make a successful STR check vs. your spellcasting check to open the portal. The knock spell ends this spell.
+
+#### Knock
+
+Duration
+: Instant
+
+Range
+: Near
+
+A door, window, gate, chest, or portal you can see within range instantly opens, defeating all mundane locks and barriers.
+
+This spell creates a loud knock audible to all within earshot.
+
+#### Darkness
+
+Duration
+: 10 Minutes
+
+Range
+: Far
+
+Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.
+
+If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.
+
+If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.
+
+#### Shrink
+
+Duration
+: 1 Minute
+
+Range
+: Near
+
+You cause a creature or an object you can see within range to grow smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.
+
+If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.
+
+Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category--from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).
+
+#### Sleep
+
+Duration
+: Instant
+
+Range
+: Near
+
+You weave a lulling spell that fills a near-sized cube extending from you. Living creatures in the area of effect fall into a deep sleep if they are LV 2 or less. 
+
+Vigorous shaking or being injured wakes them.
+
+#### ESP
+
+Duration
+: 1 Round
+
+Range
+: Close
+
+Detects the surface thoughts of any thinking creature in range. The caster can probe one creature per turn, getting simple thoughts, and probes can continue from round to round to see if the thoughts change. The ESP is stopped by 2 or more feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead foil. 
+
+#### Web
+
+Duration
+: 5 rounds
+
+Range
+: Far
+
+You create a near-sized cube of sticky, dense spider web within the spell’s range. A creature stuck in the web can’t move and must succeed on a Strength check vs. your spellcasting check to free itself.
+
+#### Mirror Image
+
+Duration
+: 5 rounds
+
+Range
+: Self
+
+You create a number of illusory duplicates of yourself equal to half your level rounded down (minimum 1). The duplicates surround you and mimic you.
+
+Each time a creature attacks you, the attack misses and causes one of the duplicates to evaporate. If all of the illusions have disappeared, the spell ends.
+
+#### Locate Object
+
+Duration
+: 10 Minutes
+
+Range
+: Self
+
+Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.
+
+The spell can locate a specific object known to you, as long as you have seen it up close--within 30 feet--at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
+
+This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.
+
+#### Invisibility
+
+Duration
+: 10 rounds
+
+Range
+: Close
+
+A creature you touch becomes invisible for the spell’s duration.
+
+The spell ends if the target attacks or casts a spell.
+
+#### Forget
+
+Duration
+: Permanent
+
+Range
+: Close
+
+The targets forget the last 1 minute. This does not undo any spell or effect, but it may remove the memory of the casting from the target's mind. The caster chooses how many targets to affect -- if they affect only 2, the creatures take a -1 penalty on the save, if they affect only 1, the creatures take a -2 penalty on the save. The spell can be undone with a heal, restoration, or wish cast specifically to dispel this effect. 
+
+#### Audible Glamer
+
+Duration
+: 2 Rounds
+
+Range
+: Close
+
+The spell causes a sound to arise from a space within range, audible to any within the normal hearing range of the sound. This sound can be anything the caster desires, from talking, singing, shouting, walking, marching, and running to a hoard of running rats to a roaring lion or a roaring dragon. The sound can be made to recede, approach, or remain fixed in place. Anyone hearing the sound who does not believe it can make a saving throw to hear no sound, or perhaps just a faint noise. The volume of sound is based on the level of the caster -- the caster can produce a volume equal to four people per caster level (a hoard of rats is equal to 8 people, a roaring lion is equal to 16, and a roaring dragon is equal to 24 -- the DM may base other sounds on this estimate). 
+
+#### Change Self
+
+Duration
+: 2d6 Rounds + 2
+
+Range
+: Self
+
+You coat yourself in an illusion that makes you appear up to 1 foot taller or shorter, thin, fat, or of moderate weight, appearing as any creature that shares your body shape (generally, humanoid).
+
+This spell is a very able disguise in most circumstances, and it can augment a more physical disguise quite well, hiding flaws and structures effectively. The short duration means it is most useful for a quick bluff, and is unlikely to hold up to long-term scrutiny, or anything more than a visual appraisal. 
 
 ## Kinixys Ziteki
 › Gallery 122
@@ -1051,18 +1337,29 @@ The claws of the tiger grate on the floor of the Maze like brittle glass.
 On contact, it will ask the PCs what they think of it. If they are not critical, it will circle them asking ever deeper and more complex questions. It will keenly follow any implied negative opinion. Should they admit to one, of any kind, it will—baffled, enraged, and genuinely surprised—assault them with prejudice.
 
 | AC | HD | ATK |
+|-|-|-|
 | 16  |   5   | d4/d4/d10  |
-||||
 {.table .table-bordered .table-sm}
 
 Worth: 5000gp “alive”, 500gp for recovered pieces.
 
 ## Lost Lizardman / Reptile Woman Mummy
 
-| AC | HD | ATK |
-| -  |   -   | -  |
-||||
+There are several Reptile Mummies who could well have wandered away from their Archives (top left of the map) and gotten lost. Away from the music of the Seeping Chimes that fills that space and calms them, they may be frightened, irritable, and angry.
+
+Roll a d6 to see which Mummy you encounter:
+
+{{< rpg_table name="Mummy" >}}
+| Location | Mummy |
+| - | - |
+| Archive 129 | 1. Naja Natrix – A pompous and aggressive manser- pent mummy stuffed with cookbooks.               |
+| Archive 132 | 2. Chiromantis – A little mummy stuffed with prologues to speeches.                                 |
+| Archive 134 | 3. Scripta Elegans – A sinuous, elegant, and intelligent mummy stuffed with strategic maxims.       |
+| Archive 144 | 4. Salamandra Puntata – A serious mummy stuffed with history books.                                 |
+| Archive 168 | 5. Crotalus Horridus – A mummy stuffed with misspelt index cards.                                   |
+| Archive 169 | 6. Linneax Gruel – An excellent librarian mummy stuffed with reviews who talks like an interviewer. |
 {.table .table-bordered .table-sm}
+{{< /rpg_table >}}
 
 ## Low Slavering Fool, The
 › Archive 163
@@ -1179,7 +1476,7 @@ Does Not Want
 
 ## Negamancer and Thrall Mammals
 
-The high-crested Negamancers of the Neonate Empire practice the philosophies of anticausality. These chameleonoid antisorcerers come forth from the ruins of Nyctopolis to contest any human claim to the Maze. They are typically accompanied by an escort of Thrall Mammals, controlled with a pearl- white globe—if they are defeated, the Negamancer will retreat.
+The high-crested Negamancers of the Neonate Empire practice the philosophies of anticausality. These chameleonoid antisorcerers come forth from the ruins of Nyctopolis to contest any human claim to the Maze. They are typically accompanied by an escort of Thrall Mammals, controlled with a pearl-white globe—if they are defeated, the Negamancer will retreat.
 
 **Negamancer**
 | AC | HD | ATK |
@@ -1318,10 +1615,34 @@ Wants
 Does Not Want
 : Anyone strong and dangerous finding her root.
 
+Looks
+: a hideous, mutated being evolved from a toxic mix of bad romance and magic plants.
+
+Behavior
+: haunts the walls of the Maze, growing within them, emerging when she pleases to prey upon those she finds.
+: always hostile.
+: can go anywhere inside the Maze, growing and crawling inside the walls. 
+: can move on walls and the ceiling as if they were the floor and disappear back into them as a standard action.
+: can speak with plants and they will report to her what they have experienced.
+: **highly vulnerable to salt**.
+
 | AC | HD | ATK |
 | -  |   -   | -  |
-||||
+| 15 | 7 | d6/d6 |
 {.table .table-bordered .table-sm}
+
+Throwing salt on one of her active spell effects ends it. Throwing salt on Pellory does d6 damage and prevents her from escaping back into the walls for one turn.
+
+Special / Active Spells (count as 2 attacks):
+
+Retch Juice
+: Pellory can release vile juice whenever she suffers a direct hit. Vomit and retch for three rounds, half normal STR for one hour. Must be washed off with alcohol or will attract carnivores. (Save to avoid.)
+
+Mnemoclast Moss
+: a caster within 60 feet must save or lose all memory of last 24 hours. Pellory then vomits up a tiny blue moss homunculi of the victim which will cast stolen spells in her defense. (Once per day.)
+
+Strangleweed
+: those within 6' of Pellory are wrapped in rapidly-growing weeds. The weed has STR 4d4 each turn and will hold them in place.
 
 ## Phalarope Carborac
 › Almery 218
