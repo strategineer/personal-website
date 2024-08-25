@@ -266,10 +266,27 @@ The door
 
 ## Aurum Specters
 
+Agonized ghosts of gold that swirl like sheets of foil with the distant black-line shadows of their former skeleton sometimes visible in the billowing shifts of their form.
+
+These are the souls of people from the Dead Wedding (bottom right of the map), blasted out of their bodies by the explosive activation of a machine created to transform human souls to spendable gold.
+
+Looks
+: eyes glow with a terrible radioactive light.
+
+Behavior
+: incredibly angry, desperate, and vengeful.
+: hate all fleshy life and will do as much harm as they can to anyone they find.
+: loathe Torcul Wort, their creator (Wedding 191), yet must obey his commands as all gold must.
+
 | AC | HD | ATK |
 | -  |   -   | -  |
-||||
+| 10 | 3 | d6 |
 {.table .table-bordered .table-sm}
+
+- First attempts to possess the target (save every other round to expel) then force the body to commit most violent possible crimes.
+- Otherwise, they will attack; their touch destroys gold. The target loses d4 × 100gp for every hit and takes d6 damage as the ghost slices, constricts, and burns them with radiation. This counts against any accumulated XP the PC would’ve received for gold acquired for the session in which the attack occurs, even if the XP was acquired in some other valuable currency.
+
+Immunities as per undead; immune to normal weapons—though they are vulnerable to weapons that are magnetic or corrode metal.
 
 ## Banzoumana
 › Cells 276
@@ -339,10 +356,49 @@ Does Not Want
 
 ## Bondye Reparatè
 
+The Bondye Reparatè repair heaven.
+
+The job of servicing heaven earns serious status on the island of Elatior. Competition is hard and those performing it are effectively regarded as knights on the island. They are heavily trained and spiritually purified both before and after their journey.
+
+The Priestesses of Elatior know that the most powerful Loa of Other World are all women, and the masks and costumes are to make sure that none of them show any interest in a man from Elatior. They live in terror of the idea of the Medusa or one of the Three Sisters falling in love with a mortal and pursuing them to earth. This is a reasonably sensible fear.
+
+Looks
+: group of strong, athletic youths dressed in robes. 
+: wear stylized masks that are all individual but always portray the features of plain, almost ugly, women.
+
+Behavior
+: fix the Maze.
+: keep lanterns fueled.
+: deal with repairs.
+: keep many of the occupants fed and supplied.
+: do everything they can to keep the whole place stable.
+
+- group composed of 2d4 of the bravest young men (Lvl 2) lead by one of the most cunning old men (INT 18).
+- possess a wide range of basic repair tools, materials, some luxury consumables like rum and cigarettes. They also have carefully concealed machetes.
+- If not directly threatened, will begin every encounter with an offering of either primitive cigarettes, fine rum, or food.
+- they are all trained craftsman and will be happy to repair any clothing or tools.
+- they will replace clearly missing or broken tools like-for-like. (If you break or lose your rope, they will bring you new rope, because you are meant to have it; they will not bring you any more than that.)
+- They will also offer water and food if it seems needed.
+
+Bondye Reparatè will never do any of the following:
+
+- Offer violence first. “Great One, you are beyond my comprehension.”
+- Intervene in a conflict between dungeon inhabit- ants. “Who can judge the Gods?”
+- Give directions. “I will learn if you teach.”
+- Give any information on any dungeon inhabit- ant. “If the eagle knows not the crow, shall the frog remind him?”
+- Offer healing of any kind. “If a dog fears the night shall it drag the sun back into the sky?”
+- Tell you anything about Elatior or even admit it exists. “I am from nowhere, I return to nowhere.”
+- Take off the masks. “This is my face.”
+- Give their names. “I am a slave, I am beneath your notice. My name is shame.”
+
+If persistently questioned, they may direct PCs towards [Lady Nine-Bones](#lady-nine-bones) (Halls 17). Once PCs have made contact with Lady Nine-Bones, the results of that meeting affect all the Bondye Reparatè. They do what she does, they follow her lead, obey her instructions, and will avenge her death.
+
 | AC | HD | ATK |
 | -  |   -   | -  |
-||||
+| 10 | 2 | d6 machete |
 {.table .table-bordered .table-sm}
+
+Leader has 18 INT.
 
 ## Cackling Pranz
 › Almery 222
@@ -914,51 +970,18 @@ Does Not Want
 ## "Oku", The
 › Gardens 53
 
-Ex-thieves driven mad by magical masks, and now believe themselves to be birds. They are: Yarrow, Tutsan, Agrimony, Dark Mullein, Great Mullein, Black Medick, Kidney Vetch, Vetchling, Devil-Bit Scabious, Thrift, Common Dodder, Sainfoin, Hellborine, Valerian, Meliot and Dog Mercury.
+Ex-thieves led by Rinaldini Dodo driven mad by magical masks given to them by Aelfadred, and now believe themselves to be birds.
 
-The “Oku” are human beings, the last remnants of a
-gang of notorious thieves lead into the Maze by their
-leader Rinaldini Dodo to escape the forces of law and
-order. After Rinaldini died they unwisely bargained
-with Aelfadred the Glyph Witch for the means
-to survive in their strange new environment.
-Aelfadred gave them the long-beaked Oku bird
-masks they now wear, which gave them some of the
-other-natural power of that legendary crow-headed
-race. Unfortunately, the masks also drive the wearer
-slowly mad. The “Oku” now truly believe themselves
-to be those mythic creatures; even when not wearing
-the masks, they are simply “in disguise” as ordinary
-humans and will often give themselves away (50% of
-the time) with birdlike behavior.
-Akerstrom, their most competent and sane remain-
-ing leader, was sent by Aelfadred to kill the Medusa.
-He has not been seen since, and the remaining “Oku”
-are riven by factionalism and choice paralysis, easy
-for Aelfadred to manipulate.
-To generate an encounter, roll 2d8 and count down
-the active “Oku” one by one. All of these “Oku” are
-present and the one counted last is the leader; the
-mission on the leader’s line is the mission the “Oku”
-are currently on.
-When an “Oku” dies or become incapacitated for any
-reason, draw a line through their name and do not
-count them again. If they are still alive, they will be
-found recovering in Gardens 53.
-If more “Oku” are rolled than are left, start back at the
-beginning again, assume new “Oku” rolled have the
-same spells and missions in the same order.
-The results of particular interactions with PCs are
-more powerful than the results of this table. If PCs
-make a genuine enemy, or friend, that particular
-“Oku” will act accordingly no matter what the table
-says.
+Looks
+: are human beings
+: wear Oku bird masks
 
-If a group of “Oku” faces a complex or subtle choice
-about how to proceed, roll a d6. On a 4+, they act
-sanely. On an 1, 2, or 3, the group breaks down into
-arguing factions and either does nothing or each
-proceeds a different way.
+Behavior
+: bird masks give them power but make them go slowly mad
+: believe they are mythic birds even when not wearing masks.
+: 50% they will give themselves away with birdlike behavior, when not wearing a mask.
+: having lost their leader Akerstrom (being sent to kill the Medusa), the remaining "Oku" are riven by factionalism and choice paralysis, easy for Aelfadred to manipulate. 
+: when a group of "Oku" faces a complex/subtle choice, roll a d6. On 4+, they act sanely. Otherwise, the group breaks down into arguing factions and either does nothing or each proceeding a different way.
 
 | AC | HD | ATK |
 | -  |   -   | -  |
@@ -970,39 +993,35 @@ Skills of 4th Lvl thieves
 
 Each has a single spell (see previous page) which they can cast as a Lvl 1 Magic User. Like a Magic User, they must rest 8 hours to recover their spell before they can cast it again.
 
-### Missions:
+### Encounter
 
-#### Fleeing someone they have robbed and in need of help.
+To generate an encounter, roll 2d8 and count down the active “Oku” one by one. All of these “Oku” are present and the one counted last is the leader; the mission on the leader’s line is the mission the “Oku” are currently on.
 
-#### Planning a heist of nearby treasure, could do with extra hands.
+When an “Oku” dies or become incapacitated for any reason, draw a line through their name and do not count them again. If they are still alive, they will be found recovering in Gardens 53.
 
-#### On a mission to steal back Akerstrom in Cells 296.
+If more “Oku” are rolled than are left, start back at the beginning again, assume new “Oku” rolled have the same spells and missions in the same order.
 
-#### Stalking the PCs till they fight something then robbing whoever looks weakest.
-
-#### Trying to rob the PCs.
-
-### Table
+The results of particular interactions with PCs are more powerful than the results of this table. If PCs make a genuine enemy, or friend, that particular “Oku” will act accordingly no matter what the table says.
 
 {{< rpg_table name="Oku" weighted=true >}}
 | 2d8 | # | Dead? | Names | Spell | Mission |
 | - |- |-|-|-| - |
-| 0.0  | 1 | - | Yarrow              | [Unseen Servant](#unseen-servant) | [Mission - Fleeing Robbery](#fleeing-someone-they-have-robbed-and-in-need-of-help)                  |
-| 1.56 | 2 | - | Tutsan              | [Spider Climb](#spider-climb) | [Mission - Fleeing Robbery](#fleeing-someone-they-have-robbed-and-in-need-of-help)                  |
-| 3.13 | 3 | - | Agrimony            | [Magic Missile](#magic-missile) | [Mission - Fleeing Robbery](#fleeing-someone-they-have-robbed-and-in-need-of-help)                  |
-| 4.69 | 4 | - | Dark Mullein        | [Hold Portal](#hold-portal) | [Mission - Planning Heist](#planning-a-heist-of-nearby-treasure-could-do-with-extra-hands)          |
-| 6.25 | 5 | - | Great Mullein       | [Knock](#knock) | [Mission - Planning Heist](#planning-a-heist-of-nearby-treasure-could-do-with-extra-hands)          |
-| 7.81 | 6 | - | Black Medick        | [Darkness](#darkness) | [Mission - Planning Heist](#planning-a-heist-of-nearby-treasure-could-do-with-extra-hands)          |
-| 9.38 | 7 | - | Kidney Vetch        | [Shrink](#shrink) | [Mission - Steal Akerstrom](#on-a-mission-to-steal-back-akerstrom-in-cells-296)                     |
-| 10.94| 8 | - | Vetchling           | [Sleep](#sleep) | [Mission - Steal Akerstrom](#on-a-mission-to-steal-back-akerstrom-in-cells-296)                     |
-| 12.50| 9 | - | Devil-Bit Scabious  | [ESP](#esp) | [Mission - Steal Akerstrom](#on-a-mission-to-steal-back-akerstrom-in-cells-296)                     |
-| 10.94| 10 | - | Thrift              | [Web](#web) | [Mission - Stalking](#stalking-the-pcs-till-they-fight-something-then-robbing-whoever-looks-weakest)|
-| 9.38 | 11 | - | Common Dodder       | [Mirror Image](#mirror-image) | [Mission - Stalking](#stalking-the-pcs-till-they-fight-something-then-robbing-whoever-looks-weakest)|
-| 7.81 | 12 | - | Sainfoin            | [Locate Object](#locate-object) | [Mission - Stalking](#stalking-the-pcs-till-they-fight-something-then-robbing-whoever-looks-weakest)|
-| 6.25 | 13 | - | Hell Borine         | [Invisibility](#invisibility) | [Mission - Rob the PCs](#trying-to-rob-the-pcs)                                                     |
-| 4.69 | 14 | - | Valerian            | [Forget](#forget) | [Mission - Rob the PCs](#trying-to-rob-the-pcs)                                                     |
-| 3.13 | 15 | - | Meliot              | [Audible Glamer](#audible-glamer) | [Mission - Rob the PCs](#trying-to-rob-the-pcs)                                                     |
-| 1.56 | 16 | - | Dog Mercury         | [Change Self](#change-self) | [Mission - Rob the PCs](#trying-to-rob-the-pcs)                                                     |
+| 0.0  | 1 | - | Yarrow              | [Unseen Servant](#unseen-servant) | Fleeing someone they have robbed and in need of help.                  |
+| 1.56 | 2 | - | Tutsan              | [Spider Climb](#spider-climb) | Fleeing someone they have robbed and in need of help.                  |
+| 3.13 | 3 | - | Agrimony            | [Magic Missile](#magic-missile) | Fleeing someone they have robbed and in need of help.                  |
+| 4.69 | 4 | - | Dark Mullein        | [Hold Portal](#hold-portal) | Planning a heist of nearby treasure, could do with extra hands.          |
+| 6.25 | 5 | - | Great Mullein       | [Knock](#knock) | Planning a heist of nearby treasure, could do with extra hands.          |
+| 7.81 | 6 | - | Black Medick        | [Darkness](#darkness) | Planning a heist of nearby treasure, could do with extra hands.          |
+| 9.38 | 7 | - | Kidney Vetch        | [Shrink](#shrink) | On a mission to steal back Akerstrom in Cells 296.                     |
+| 10.94| 8 | - | Vetchling           | [Sleep](#sleep) | On a mission to steal back Akerstrom in Cells 296.                     |
+| 12.50| 9 | - | Devil-Bit Scabious  | [ESP](#esp) | On a mission to steal back Akerstrom in Cells 296.                     |
+| 10.94| 10 | - | Thrift              | [Web](#web) | Stalking the PCs till they fight something then robbing whoever looks weakest.|
+| 9.38 | 11 | - | Common Dodder       | [Mirror Image](#mirror-image) | Stalking the PCs till they fight something then robbing whoever looks weakest.|
+| 7.81 | 12 | - | Sainfoin            | [Locate Object](#locate-object) | Stalking the PCs till they fight something then robbing whoever looks weakest.|
+| 6.25 | 13 | - | Hell Borine         | [Invisibility](#invisibility) | Trying to rob the PCs.                                                     |
+| 4.69 | 14 | - | Valerian            | [Forget](#forget) | Trying to rob the PCs.                                                     |
+| 3.13 | 15 | - | Meliot              | [Audible Glamer](#audible-glamer) | Trying to rob the PCs.                                                     |
+| 1.56 | 16 | - | Dog Mercury         | [Change Self](#change-self) | Trying to rob the PCs.                                                     |
 {.table .table-bordered .table-sm}
 {{< /rpg_table >}}
 
@@ -1599,10 +1618,25 @@ Does Not Want
 
 ## Orchidmen
 
-| AC | HD | ATK |
-| -  |   -   | -  |
-||||
+Looks
+: man-shaped plants with heads of carnivorous orchids
+: pop and hiss with hydraulic pressure from joint-sap transfers as they move. 
+: perceived as very beautiful because of the pheromones in their pits cause palpable desire in human beings.
+
+Behavior
+: sometimes wander out of Gardens 50 to stagger about like drunks, sloshing caustic acid laced with brain-compelling pheromones.
+: grapple their targets en masse, targets find themselves surrounded by looming flowers smelling of home, lost loves, favorite drugs or food (they want to plunge their heads into the acid pits)
+: slowly digest their victims over a most of a day, dissolving the body into the orchid-pit that gapes its radius to absorb them.
+: when feeding, send out tendrils to others nearby to share the nutrients of a kill, meaning a whole crowd of them can sometimes be found gathered motionless around a Prime Digester.
+
+| AC | HD | ATK | Speed |
+| -  |   -   | -  |-|
+|13|2|d4 grapple/d4 grapple with STR 12| ¾ unencumbered human|
 {.table .table-bordered .table-sm}
+
+Any grappled target must save or willingly melt their own face off in the Orchidman’s pit. d10 damage per round, save each round.
+
+Any Orchidman violently destroyed then ruptures, spreading acid in a 3' radius. Save or d6 damage. This acid is addictive and seductive; anyone sprayed must save or spend a round rubbing the acid into their flesh, doing a further d4 damage.
 
 ## Pellory-Of-The-Walls
 › Gardens 72 & 73
@@ -1981,21 +2015,86 @@ Wants
 Does Not Want
 : To leave his room. The Golden Engine to be damaged. The kiss to be completed.
 
-## Torgos Zooth
+## Torgos Zooth, Overdose, Mr. Grasp
 › Almery 256
 
 A moon-headed Selenian, or Sub-Lunary man. Torgos loyally serves the Medusa as Archivist, guard, and interrogator. However, his sons (Anole and Anolis) have been kidnapped and he would give much to get them back. He plays the cello, wears the secret-revealing IagoScope, and is guarded by Mr. Grasp and Overdose, two dangerous monsters.
 
 Wants
-: To serve and protect the Medusa. His sons back.
+: To serve and protect the Medusa.
+: His sons back.
 
 Does Not Want
-: To betray the Medusa. His sons to be harmed.
+: To betray the Medusa.
+: His sons to be harmed.
 
+Looks
+: head is a moon that fills the room with pale white
+light.
+: The moon of his head is always the same shape
+as the moon in the sky.
+ 
+
+Behavior
+: intelligent, perceptive, civilized, and—though rarely cruel—is a very ruthless man.
+: and the strange power of its
+light differs according to the stage the moon is in.
+: If found abroad, he will almost certainly be seeking his kidnapped sons, Anole and Anolis (Archive 166), and will be willing to either employ or terrorize interlopers if he thinks it will help him find them.
+: No one can stand in the light of his head when it is full and tell a lie. : No one can stand in his light when crescent and tell the truth.
+: Under a full moon he will ask simple questions. 
+: In a partial moon he poses negative statements: “I’m sure you’ve never…”, “It couldn’t be true that…”, “You can’t seriously…”
+
+If encountered outside his study in Almery 256, he will have with him his pet, the Armored Chem-Stoat “Overdose”, and “Mister Grasp”, a hideous creation formed from a severed hand, a dead man’s eye, and the body of a snake. Both will obey and serve him intelligently and without question.
+
+**Torgos Zooth**
+| AC | HD | ATK | Speed |
+| -  |   -   | -  | - |
+| 14 | 5 | d4 silver dagger / d10 slice with his own head | 3/4 unencumbered human |
+{.table .table-bordered .table-sm}
+
+His glance roots a target’s feet to the ground (no save). An uncomfortable squint teleports d4 people to random locations (save). Each is an action and cannot be done at the same time.
+
+Detaching one’s own head is horribly impolite. But when crescent and in extremis, he can remove his and fling it like a boomerang. It returns to his hand on a miss. He can slash it like a saber, too.
+
+**Overdose**
 | AC | HD | ATK |
 | -  |   -   | -  |
-||||
+| 20 | 12 | d4, attacks d10 times per round |
 {.table .table-bordered .table-sm}
+
+**Mr. Grasp**
+| AC | HD | ATK | Speed |
+| -  |   -   | -  | - |
+| 19 | 10 | d20 strangulation | 2 x human |
+{.table .table-bordered .table-sm}
+
+Stealth 5 in 6.
+
+The eye set into the withered palm acts as both a scrying device and a weapon. Torgos Zooth can see through this eye at will.
+
+If anyone else should meet the gaze of Mr. Grasp:
+
+{{< rpg_table name="TorgosZoothGaze" >}}
+| Gaze |
+| - |
+| 1. Target becomes a kleptomaniac. |
+| 2. Target PC does exactly the opposite of whatever player wants him/her to do. |
+| 3. Target needs a strong drink before taking any |
+| action. |
+| 4. Target attacks nearest friendly PC. |
+| 5. Target believes self to be nearest friendly PC. |
+| 6. Target is paralyzed with indecision. |
+| 7. Target is confused. |
+| 8. Target believes self to be dead. |
+| 9. Target believes self to be nearest foe. |
+| 10. Target becomes obsessed with nearby irrelevant object. |
+| 11. Target falls in love with the Moon. |
+| 12. Target drops weapon and begins to cry for help in any and all languages target knows. |
+{.table .table-bordered .table-sm}
+{{< /rpg_table >}}
+
+If slain, Mr. Grasp becomes a glove. The glove will fit no one except Torgos Zooth.
+
 
 ## Tyko's Wight
 › Wedding 176
@@ -2014,7 +2113,8 @@ Does Not Want
 The spirit of the dead son of Sophronia Wort, the Lying Lich. Sort-of-brother to Torcul Wort, his artificially created sibling who has now developed into an awful monster. Tyko wanders the halls hiding from the [Aurum Specters](#aurum-specters). Unable to speak.
 
 Wants
-: To help his mother. To lead you to safety.
+: To free/help his Mother, Sophronia Wort in Wedding 183.
+: To lead the PCs to safety (Rooms Wedding 173, Gallery 98, and Gardens 41 are relatively safe places to rest).
 
 Does Not Want
 : For anyone to be hurt.
