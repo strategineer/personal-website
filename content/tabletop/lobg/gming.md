@@ -1238,7 +1238,7 @@ Wants : To demonstrate his superiority and that of his ancient culture.
 
 Does Not Want : Fire. Anyone to see that all of his spells now have a food-based effect.
 
-## Negamancer and Thrall Mammals
+## Negamancer
 
 The high-crested Negamancers of the Neonate Empire practice the philosophies of anticausality. These chameleonoid antisorcerers come forth from the ruins of Nyctopolis to contest any human claim to the Maze. They are typically accompanied by an escort of Thrall Mammals, controlled with a pearl-white globe—if they are defeated, the Negamancer will retreat.
 
@@ -1252,6 +1252,8 @@ Negamantic spells (line of sight, no save, at will):
 - Transfer damage from one discrete attack from self to target
 
 Thrall Mammals are mixed groups of moronic humans (some recruited from the ranks of the Cannibal Critics) and mandrils or other apes whose will to resist has been shattered by the Negamancer.
+
+### Thrall Mammals
 
 **Thrall Mammals** | AC | HD | ATK | |-|-|-| | 10 | 2 | d6 bite | {.table .table-bordered .table-sm}
 
@@ -1691,10 +1693,6 @@ Does Not Want : To leave his room. The Golden Engine to be damaged. The kiss to 
 
 ## Torgos Zooth
 
-### Overdose
-
-### Mr. Grasp
-
 › Almery 256
 
 A moon-headed Selenian, or Sub-Lunary man. Torgos loyally serves the Medusa as Archivist, guard, and interrogator. However, his sons (Anole and Anolis) have been kidnapped and he would give much to get them back. He plays the cello, wears the secret-revealing IagoScope, and is guarded by Mr. Grasp and Overdose, two dangerous monsters.
@@ -1715,9 +1713,23 @@ His glance roots a target’s feet to the ground (no save). An uncomfortable squ
 
 Detaching one’s own head is horribly impolite. But when crescent and in extremis, he can remove his and fling it like a boomerang. It returns to his hand on a miss. He can slash it like a saber, too.
 
-**Overdose** | AC | HD | ATK | | - | - | - | | 20 | 12 | d4, attacks d10 times per round | {.table .table-bordered .table-sm}
+### Overdose
 
-**Mr. Grasp** | AC | HD | ATK | Speed | | - | - | - | - | | 19 | 10 | d20 strangulation | 2 x human | {.table .table-bordered .table-sm}
+**Overdose**
+
+| AC  | HD  | ATK                             |
+| --- | --- | ------------------------------- |
+| 20  | 12  | d4, attacks d10 times per round |
+{.table .table-bordered .table-sm}
+
+### Mr. Grasp
+
+**Mr. Grasp**
+
+| AC  | HD  | ATK               | Speed     |
+| --- | --- | ----------------- | --------- |
+| 19  | 10  | d20 strangulation | 2 x human |
+{.table .table-bordered .table-sm}
 
 Stealth 5 in 6.
 
