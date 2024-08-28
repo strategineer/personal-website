@@ -14,8 +14,8 @@ weight: 1
 2. [Lady Crucem Capilli](#lady-crucem-capilli) encounters PCs: she provides context on the LoBG and sends the PCs off to acquire art, artifacts or curios for her in exchange for handsome rewards.
 3. PCs damage/steal art: [The Curator](#the-curator) (big hand thing) becomes aware of them and begins to hound them.
 4. [Bondye Reparatè](#bondye-reparatè) encounter PCs: they guide the PCs to [Lady Nine-Bones](#lady-nine-bones) (Halls 17) and she guides them subsequently to Elatior, a safehaven where the party can rest and recover between expeditions into the LoBG.
-5. [Chameleon Women](#chameleon-women) encounter/discover PCs: they begin to gain strength, increasing HD with each subsequent encounter, and begin to inform the other denizens of the LoBG about the PCs actions if this would turn the NPCs against the PCs.
-6. The ["Oku"](#oku-the) encounter PCs: ...
+5. [Chameleon Women](#chameleon-woman) encounter/discover PCs: they begin to gain strength, increasing HD with each subsequent encounter, and begin to inform the other denizens of the LoBG about the PCs actions if this would turn the NPCs against the PCs.
+6. The ["Oku"](#oku) encounter PCs: ...
 7. (1 month after PCs enter the LoBG): [Ashen Chanterelle](#ashen-chanterelle) will re-enter with a small force of mercenaries and the intention of persuading Chronia, Zamia and Charity to enter the world once more. The Medusa will oppose this.
 
 # Dungeon Key
@@ -46,7 +46,7 @@ Arcane sconces : can be removed from the walls and taken with PCs. They provide 
 
 Roll a d100 every 10 in-game minutes, any time the PCs make a lot of noise, and when indicated in a room description.
 
-{{< rpg_table name="Encounter" weighted=true >}} | D100 | Encounter | | - | - | | 1 | d6 [Chameleon Women](#chameleon-women) | | 2 | [RatLeopard](#ratleopard) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) | | 3 | [Negamancer](#negamancer-and-thrall-mammals) & d4+1 Thrall Mammals | | 4 | [Lion in Lapis Lazuli](#lion-in-lapis-lazuli) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) | | 5 | 2d4 [Cannibal Critics](#cannibal-critics) | | 6 | [Decadent Waste](#decadent-waste) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) | | 7 | [Pellory-Of-The-Walls](#pellory-of-the-walls) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) | | 8 | [Lost Lizardman / Reptile Woman Mummy](#lost-lizardman--reptile-woman-mummy) | | 9 | 2d8 ["Oku"](#oku-the) | | 10 | 2d6+2 [Orchidmen](#orchidmen) | | 11 | d4 [Aurum Specters](#aurum-specters) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) | | 12 | [Tyko Wort](#tyko-wort) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) | | 13 | 2d4+1 [Bondye Reparatè](#bondye-reparatè) | | 14 | [Torgos Zooth, Overdose, & Mister Grasp](#torgos-zooth) (or d4+1 [Chameleon Women](#chameleon-women) if destroyed) | | 15-20 | [The Curator](#the-curator) (only if The Gallery has been robbed/damaged, otherwise treat as 2d8 ["Oku"](#oku-the)) | | 21-30 | Halls: 1, Gardens: 3, Gallery: 5, Archive: 1, Wedding: 6, Almery: 6, Cells: 2 | | 31-40 | Halls: 6, Gardens: 7, Gallery: 6, Archive: 10, Wedding: 11, Almery: 14, Cells: 14 | | 41-50 | Halls: 14, Gardens: 9, Gallery: 9, Archive: 100, Wedding: 12, Almery: 5, Cells: 7 | | 51-53 | Hungry—either due to time distortions or just because you are. Eat & drink in the next 10 minutes or take d2 HP damage. | | 54-69 | A torch, if the party has any, goes out. | | 70-73 | A lantern, if the party has one, goes out. | | 74 | A wave of unspeakable melancholy. | | 75-100 | No encounter. | {.table .table-bordered .table-sm} {{< /rpg_table >}}
+{{< rpg_table name="Encounter" weighted=true >}} | D100 | Encounter | | - | - | | 1 | d6 [Chameleon Women](#chameleon-woman) | | 2 | [RatLeopard](#ratleopard) (or d4+1 [Chameleon Women](#chameleon-woman) if destroyed) | | 3 | [Negamancer](#negamancer-and-thrall-mammals) & d4+1 Thrall Mammals | | 4 | [Lion in Lapis Lazuli](#lion-in-lapis-lazuli) (or d4+1 [Chameleon Women](#chameleon-woman) if destroyed) | | 5 | 2d4 [Cannibal Critics](#cannibal-critic) | | 6 | [Decadent Waste](#decadent-waste) (or d4+1 [Chameleon Women](#chameleon-woman) if destroyed) | | 7 | [Pellory-Of-The-Walls](#pellory-of-the-walls) (or d4+1 [Chameleon Women](#chameleon-woman) if destroyed) | | 8 | [Lost Lizardman / Reptile Woman Mummy](#lost-lizardman--reptile-woman-mummy) | | 9 | 2d8 ["Oku"](#oku) | | 10 | 2d6+2 [Orchidmen](#orchidmen) | | 11 | d4 [Aurum Specters](#aurum-specter) (or d4+1 [Chameleon Women](#chameleon-woman) if destroyed) | | 12 | [Tyko Wort](#tyko-wort) (or d4+1 [Chameleon Women](#chameleon-woman) if destroyed) | | 13 | 2d4+1 [Bondye Reparatè](#bondye-reparatè) | | 14 | [Torgos Zooth, Overdose, & Mister Grasp](#torgos-zooth) (or d4+1 [Chameleon Women](#chameleon-woman) if destroyed) | | 15-20 | [The Curator](#the-curator) (only if The Gallery has been robbed/damaged, otherwise treat as 2d8 ["Oku"](#oku)) | | 21-30 | Halls: 1, Gardens: 3, Gallery: 5, Archive: 1, Wedding: 6, Almery: 6, Cells: 2 | | 31-40 | Halls: 6, Gardens: 7, Gallery: 6, Archive: 10, Wedding: 11, Almery: 14, Cells: 14 | | 41-50 | Halls: 14, Gardens: 9, Gallery: 9, Archive: 100, Wedding: 12, Almery: 5, Cells: 7 | | 51-53 | Hungry—either due to time distortions or just because you are. Eat & drink in the next 10 minutes or take d2 HP damage. | | 54-69 | A torch, if the party has any, goes out. | | 70-73 | A lantern, if the party has one, goes out. | | 74 | A wave of unspeakable melancholy. | | 75-100 | No encounter. | {.table .table-bordered .table-sm} {{< /rpg_table >}}
 
 ## Table - I Search The Body
 
@@ -186,7 +186,7 @@ Evil, abusive, deceptive and smart. She will devise any necessary lie. Her CHA i
 
 The door : "I can open the door if you let me free..."
 
-## Aurum Specters
+## Aurum Specter
 
 Agonized ghosts of gold that swirl like sheets of foil with the distant black-line shadows of their former skeleton sometimes visible in the billowing shifts of their form.
 
@@ -337,7 +337,7 @@ Wants : To free Aglinak from his fountain-prison then wreck shit.
 
 Does Not Want : Order.
 
-## Cannibal Critics
+## Cannibal Critic
 
 Looks : A variety of races and genders. Finely (if bloodily) clothed and somewhat sinewy (only the strongest individuals/cunningest have survived, the rest were eaten). : Many were wanderers and adventurers seeking gold or the release of petrified prisoners, or descendants of Triarchy members or fools who broke into the LoBG from Elatior, lost and driven mad by the strangeness of the Maze.
 
@@ -428,7 +428,7 @@ Wants : For someone to kill Da Mozon. : To reach a stable environment of fire.
 
 Does Not Want : Da Mozon to escape.
 
-## Chameleon Women
+## Chameleon Woman
 
 Behavior : sound like deeper Skeletor? extended exclamations, slightly nasaly. Evil caricature...
 
@@ -552,7 +552,7 @@ A living marble sculpture of the severed hands of Dendrosathol, father of the Me
 
 A massive golem-sculpture of a pair of marble hands (Gallery 101), will begin seeking out the party if they see it and then rob or damage the Gallery.
 
-Wants : To protect the artworks. To suppress the [Cannibal Critics](#cannibal-critics).
+Wants : To protect the artworks. To suppress the [Cannibal Critics](#cannibal-critic).
 
 Does Not Want : Any art to be damaged or stolen.
 
@@ -806,7 +806,7 @@ Wants : To kill the Medusa, or, if she is dead, to get out of the Maze.
 
 Does Not Want : Anyone to get in his way.
 
-## "Oku", The
+## "Oku"
 
 › Gardens 53
 
@@ -1261,7 +1261,7 @@ The control globes do not function in the hands of anyone unskilled in Negamancy
 
 › Gallery 80
 
-Grey Crowned leader of the [Cannibal Critics](#cannibal-critics). Aesthetic opponent of Octavian Bon Clerk.
+Grey Crowned leader of the [Cannibal Critics](#cannibal-critic). Aesthetic opponent of Octavian Bon Clerk.
 
 Wants : To talk about art. To eat human flesh.
 
@@ -1309,7 +1309,7 @@ Does Not Want : Any of his people to come to harm.
 
 › Gallery 80
 
-Grey Crowned leader of the [Cannibal Critics](#cannibal-critics). Aesthetic opponent of Nigellus Blamphin.
+Grey Crowned leader of the [Cannibal Critics](#cannibal-critic). Aesthetic opponent of Nigellus Blamphin.
 
 Wants : To talk about art. To bring his view as close as possible to that of Blamphin's. To contextualize Blamphin's view. To eat human flesh.
 
@@ -1683,13 +1683,17 @@ Does Not Want : To stop advising.
 
 › Wedding 191
 
-A kind of intelligent artificial son, built by Sophronia Wort long ago from pure gold and imbued with the power to perceive all forms of fraud and crime a person has perpetrated. Eventually he went mad and activated the Golden Engine, destroying the Dead Wedding and producing the [Aurum Specters](#aurum-specters), whom he now rules. Now swollen into a vast monster of gold with incredible powers relating to that substance.
+A kind of intelligent artificial son, built by Sophronia Wort long ago from pure gold and imbued with the power to perceive all forms of fraud and crime a person has perpetrated. Eventually he went mad and activated the Golden Engine, destroying the Dead Wedding and producing the [Aurum Specters](#aurum-specter), whom he now rules. Now swollen into a vast monster of gold with incredible powers relating to that substance.
 
 Wants : To punish cheats and liars of all kinds.
 
 Does Not Want : To leave his room. The Golden Engine to be damaged. The kiss to be completed.
 
-## Torgos Zooth, Overdose, Mr. Grasp
+## Torgos Zooth
+
+### Overdose
+
+### Mr. Grasp
 
 › Almery 256
 
@@ -1739,7 +1743,7 @@ Does Not Want : The spirit of Tyko Wort anywhere nearby.
 
 › Wedding 173
 
-The spirit of the dead son of Sophronia Wort, the Lying Lich. Sort-of-brother to Torcul Wort, his artificially created sibling who has now developed into an awful monster. Tyko wanders the halls hiding from the [Aurum Specters](#aurum-specters). Unable to speak.
+The spirit of the dead son of Sophronia Wort, the Lying Lich. Sort-of-brother to Torcul Wort, his artificially created sibling who has now developed into an awful monster. Tyko wanders the halls hiding from the [Aurum Specters](#aurum-specter). Unable to speak.
 
 Wants : To free/help his Mother, Sophronia Wort in Wedding 183. : To lead the PCs to safety (Rooms Wedding 173, Gallery 98, and Gardens 41 are relatively safe places to rest).
 
