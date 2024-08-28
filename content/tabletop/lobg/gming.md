@@ -1618,7 +1618,7 @@ Wants
 Does Not Want
 : To get anything useful done. To be left here.
 
-## Orchidmen
+## Orchidman
 
 Looks
 : man-shaped plants with heads of carnivorous orchids
