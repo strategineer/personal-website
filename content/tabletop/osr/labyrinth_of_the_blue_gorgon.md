@@ -24,7 +24,7 @@ Marlon entered the first room to the west with a 10ft pole in hand testing for t
 
 Marlon's attempt to pull Freeya up using his 10ft pole failed, just as critically as Freeya's attempt to not fall in the pit in the first place, leading to Freeya remaining in the pit, now with Marlon's pole for company.
 
-At this point, a dwarf bursted through the western door of the room running for his life, half-clothed, bruised and bleeding. A rushing of footsteps was heard coming from behind him.
+At this point, a dwarf burst through the western door of the room running for his life, half-clothed, bruised and bleeding. A rushing of footsteps was heard coming from behind him.
 
 # One Pager
 
