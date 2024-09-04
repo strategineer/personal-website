@@ -7,7 +7,7 @@ date: 2024-07-23
 params:
   year: '2020'
 slug: mothership_1e
-star_rating: 5
+star_rating: 4
 title: Mothership 1E
 ---
 
