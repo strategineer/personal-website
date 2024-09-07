@@ -2,8 +2,9 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
-- owned-but-unread
-date: 1800-01-29
+- currently-reading
+- science fiction
+date: 2024-09-07
 params:
   isbn13: '9781529051995'
   series: The Final Architecture
