@@ -402,6 +402,10 @@ figure {
 
 .summary-text > p,
 .summary-text > blockquote > p,
+.summary-text>blockquote>ul>li>p,
+.summary-text>blockquote>ul>li,
+.summary-text>blockquote>ol>li>p,
+.summary-text>blockquote>ol>li,
 .summary-text > ul > li > p,
 .summary-text > ul > li,
 .summary-text > ol > li > p,

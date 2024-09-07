@@ -1,15 +1,19 @@
 {{- $inner := .Inner -}}
 {{ $page_number := .Get 0 }}
+{{ if and $page_number (not (strings.Contains $page_number " "))}}
+{{ $page_number = $page_number | printf "%s%s" "p. " }}
+{{ end }}
+
 {{- if strings.ContainsNonSpace $inner -}}
   {{- with $.Page -}}
     {{ if $page_number }}
-    <blockquote cite="p. {{ $page_number }}">
+    <blockquote cite="{{ $page_number }}">
   {{ else }}
     <blockquote>
     {{ end }}
       <p>{{ $inner | .RenderString }}</p>
       {{ if $page_number }}
-        <p class="page-number">p. {{ $page_number }}</p>
+        <p class="page-number">{{ $page_number }}</p>
       {{ end }}
     </blockquote>
   {{- end -}}
