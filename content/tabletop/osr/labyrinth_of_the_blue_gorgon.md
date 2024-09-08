@@ -30,29 +30,30 @@ At this point, a dwarf burst through the western door of the room running for hi
 
 The naked dwarf was followed by six hooded and robed humanoid figures who were revealed to be  reptilian Chameleon Women (protectors of the labyrinth?).
 
-They attacked the Crew. Forced to defend themselves, they did so. Falling into pits, getting out of pits and maneuvering themselves to throw Chameleon Women into pits.
+They attacked the Crew. Forced to defend themselves, they did so. The Crew fell into pits, climbed out of pits and maneuvered themselves using the room's moving light to throw Chameleon Women into pits.
 
-Before fleeing, the last Chameleon Woman spoke of the Mother Librarian (their leader?) and the need to prepare for war against their new mammalian foe.
+As they fled, the Chameleon Women spoke of the Mother Librarian (their leader?) and the need to prepare for war against their new mammalian foe.
 
-Lady Crucem Capilli showed her appreciation for the Crew's efforts by vigorously slow clapping and pointing them back to the Ashen Chanterelle's lair to rest their weary bones.
+Lady Crucem Capilli showed her appreciation for the Crew's efforts by vigorously slow clapping and telling them to they can rest in the Ashen Chanterelle's lair to the south. 
 
-The Ashen Chanterelle was nowhere to be found. The southern end of the room contained an empty painting, the Crew had missed their first time in this room.
+The Crew noticed that the Ashen Chanterelle had
+disappeared. The southern end of the room contained an empty painting (the counterpart to the painting the Crew came in through?).
 
-Before settling down to rest, everyone except Lanmino feasted on Chameleon Woman flesh. Yum yum. Blotbug and Marlon suffered from indigestion, upset stomach and an unsettling feeling that they can't seem to shake. The rest of the Crew were spared from the negative effects of their impromptu feast.
+Before settling down to rest, everyone except Lanmino feasted on Chameleon Woman flesh. Yum yum. Blotbug and Marlon suffered from indigestion, upset stomachs and an unsettling feeling (for now). The rest of the Crew were spared from the unpleasant effects of their impromptu feast.
 
-The Crew headed back west toward the region of the labyrinth known as the Garden. They discovered dark rooms filled with dry but thriving plant life kept alive through some unknown magical means.
+The Crew headed back west toward the region of the labyrinth known as the Garden. They discovered rooms filled with dry but thriving plant life kept alive in the dark through some unknown magical means.
 
-After scrounging through the garden supply shed Brod was tortured in by the Chameleon Women,  Marlon, with Brod's help, built a "Super Rake", a garden rake combined with a 10ft pole.
+After scrounging through the garden supply shed Brod was tortured in by the Chameleon Women,  Marlon, with Brod's help, built a "Super Rake", the head of a garden rake fitted into a 10ft pole.
 
-Marlon used his "Super Rake" to prod, from a safe distance, some moving vines in the shape of a woman's face. The Crew later found out that these vines are a simulacra in the shape of Zamia Torn, one of the Three Perfect Sisters residing in the labyrinth.
+Marlon used his "Super Rake" to prod, from a safe distance, some moving vines that were in the shape of a woman's face. The Crew later found out that these vines are mimicking the form of Zamia Torn, one of the Three Perfect Sisters residing in the labyrinth.
 
-After Freeya's more intimate encounter with one of these vines, the Crew ventured south. There they encountered Germander, a friendly but wacky 15ft long gray-pink worm who enjoys reading a good book and talking about anything.
+After Freeya's more intimate encounter with one of these vines, the Crew ventured south. There they encountered Germander, a friendly but wacky 15ft long gray-pink worm who enjoys reading a good book and talking about all that he's learned.
 
-After discussing "the door that shouldn't be opened", the Saurian Empire and the Three Perfect Sisters with Germander, the Crew ventured east to explore more of the Garden, leaving Germander to read his book.
+After discussing "the door that shouldn't be opened", the Saurian Empire and the Three Perfect Sisters with Germander, the Crew ventured east to explore more of the Garden, leaving Germander to read his books.
 
-They arrived in a room with a stone circle and raised platform in the middle of it with doors leading to the south and east.
+They arrived in a room with a stone circle and raised platform in the middle of it surrounded by dense shrubs on all sides with wooden doors leading to the south and east.
 
-They could hear nothing from the southern door. As they approached the eastern door, it began rattling violently and the Crew began to hear loud grunting, snorting and meat squelching noises coming from behind it.
+As they approached the eastern door, it began rattling violently and the Crew began to hear loud grunting, snorting and meat squelching noises coming from behind it.
 
 
 # One Pager
