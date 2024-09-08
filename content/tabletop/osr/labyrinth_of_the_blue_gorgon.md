@@ -34,9 +34,9 @@ They attacked the Crew. Forced to defend themselves, they did so. The Crew fell 
 
 As they fled, the Chameleon Women spoke of the Mother Librarian (their leader?) and the need to prepare for war against their new mammalian foe.
 
-Lady Crucem Capilli showed her appreciation for the Crew's efforts by vigorously slow clapping and telling them to they can rest in the Ashen Chanterelle's lair to the south. 
+Lady Crucem Capilli showed her appreciation for the Crew's efforts by vigorously slow clapping and telling them to rest in the Ashen Chanterelle's lair to the south. 
 
-The Crew noticed that the Ashen Chanterelle had
+When they arrived, the Crew noticed that the Ashen Chanterelle had
 disappeared. The southern end of the room contained an empty painting (the counterpart to the painting the Crew came in through?).
 
 Before settling down to rest, everyone except Lanmino feasted on Chameleon Woman flesh. Yum yum. Blotbug and Marlon suffered from indigestion, upset stomachs and an unsettling feeling (for now). The rest of the Crew were spared from the unpleasant effects of their impromptu feast.
