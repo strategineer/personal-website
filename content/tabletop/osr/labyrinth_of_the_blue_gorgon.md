@@ -26,6 +26,31 @@ Marlon's attempt to pull Freeya up using his 10ft pole failed, just as criticall
 
 At this point, a dwarf burst through the western door of the room running for his life, half-clothed, bruised and bleeding. A rushing of footsteps was heard coming from behind him.
 
+## Session 2
+
+The naked dwarf was followed by six hooded and robed humanoid figures who were revealed to be  reptilian Chameleon Women (protectors of the labyrinth?).
+
+They attacked the Crew. Forced to defend themselves, they did so. Falling into pits, getting out of pits and maneuvering themselves to throw Chameleon Women into pits.
+
+Before fleeing, the last Chameleon Woman spoke of the Mother Librarian (their leader?) and the need to prepare for war against their new mammalian foe.
+
+Lady Crucem Capilli showed her appreciation for the Crew's efforts by vigorously slow clapping and pointing them back to the Ashen Chanterelle's lair to rest their weary bones.
+
+The Ashen Chanterelle was nowhere to be found. The southern end of the room contained an empty painting, the Crew had missed their first time in this room.
+
+Before settling down to rest, everyone except Lanmino feasted on Chameleon Woman flesh. Yum yum. Blotbug and Marlon suffered from indigestion, upset stomach and an unsettling feeling that they can't seem to shake. The rest of the Crew were spared from the negative effects of their impromptu feast.
+
+The Crew headed back west toward the region of the labyrinth known as the Garden. They discovered dark rooms filled with dry but thriving plant life kept alive through some unknown magical means.
+
+After scrounging through the garden supply shed Brod was tortured in by the Chameleon Women,  Marlon, with Brod's help, built a "Super Rake", a garden rake combined with a 10ft pole.
+
+Marlon used his "Super Rake" to prod, from a safe distance, some moving vines in the shape of a woman's face. The Crew later found out that these vines are a simulacra in the shape of Zamia Torn, one of the Three Perfect Sisters residing in the labyrinth.
+
+After Freeya's more intimate encounter with one of these vines, the Crew ventured south. There they encountered Germander, a friendly but wacky 15ft long gray-pink worm who enjoys reading a good book and talking about anything.
+
+Oink oink bitch...
+
+
 # One Pager
 
 **The campaign’s premise and flavor**
