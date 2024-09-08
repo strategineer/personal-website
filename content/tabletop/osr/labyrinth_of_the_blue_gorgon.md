@@ -48,7 +48,11 @@ Marlon used his "Super Rake" to prod, from a safe distance, some moving vines in
 
 After Freeya's more intimate encounter with one of these vines, the Crew ventured south. There they encountered Germander, a friendly but wacky 15ft long gray-pink worm who enjoys reading a good book and talking about anything.
 
-Oink oink bitch...
+After discussing "the door that shouldn't be opened", the Saurian Empire and the Three Perfect Sisters with Germander, the Crew ventured east to explore more of the Garden, leaving Germander to read his book.
+
+They arrived in a room with a stone circle and raised platform in the middle of it with doors leading to the south and east.
+
+They could hear nothing from the southern door. As they approached the eastern door, it began rattling violently and the Crew began to hear loud grunting, snorting and meat squelching noises coming from behind it.
 
 
 # One Pager
