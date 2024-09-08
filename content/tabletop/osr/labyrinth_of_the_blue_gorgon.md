@@ -43,7 +43,7 @@ Before settling down to rest, everyone except Lanmino feasted on Chameleon Woman
 
 The Crew headed back west toward the region of the labyrinth known as the Gardens. They discovered rooms filled with dry but thriving plant life kept alive in the dark through some unknown magical means.
 
-After scrounging through the garden supply shed Brod was tortured in by the Chameleon Women,  Marlon, with Brod's help, built a "Super Rake", the head of a garden rake fitted onto a 10ft pole.
+After scrounging through the garden supply shed where Brod was tortured by the Chameleon Women,  Marlon, with Brod's help, built a "Super Rake", the head of a garden rake fitted onto a 10ft pole.
 
 Marlon used his "Super Rake" to prod, from a safe distance, some moving vines that were in the shape of a woman's face. The Crew later found out that these vines were mimicking the form of Zamia Torn, one of the Three Perfect Sisters residing in the labyrinth.
 
