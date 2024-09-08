@@ -26,7 +26,7 @@ Marlon's attempt to pull Freeya up using his 10ft pole failed, just as criticall
 
 At this point, a dwarf burst through the western door of the room running for his life, half-clothed, bruised and bleeding. A rushing of footsteps was heard coming from behind him.
 
-## Session 2
+## Session 1
 
 The naked dwarf was followed by six hooded and robed humanoid figures who were revealed to be  reptilian Chameleon Women (protectors of the labyrinth?).
 
