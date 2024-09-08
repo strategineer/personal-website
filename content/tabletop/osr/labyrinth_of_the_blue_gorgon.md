@@ -43,11 +43,11 @@ Before settling down to rest, everyone except Lanmino feasted on Chameleon Woman
 
 The Crew headed back west toward the region of the labyrinth known as the Gardens. They discovered rooms filled with dry but thriving plant life kept alive in the dark through some unknown magical means.
 
-After scrounging through a garden supply shed Brod was tortured in by the Chameleon Women,  Marlon, with Brod's help, built a "Super Rake", the head of a garden rake fitted into a 10ft pole.
+After scrounging through a garden supply shed Brod was tortured in by the Chameleon Women,  Marlon, with Brod's help, built a "Super Rake", the head of a garden rake fitted onto a 10ft pole.
 
-Marlon used his "Super Rake" to prod, from a safe distance, some moving vines that were in the shape of a woman's face. The Crew later found out that these vines are mimicking the form of Zamia Torn, one of the Three Perfect Sisters residing in the labyrinth.
+Marlon used his "Super Rake" to prod, from a safe distance, some moving vines that were in the shape of a woman's face. The Crew later found out that these vines were mimicking the form of Zamia Torn, one of the Three Perfect Sisters residing in the labyrinth.
 
-After Freeya's more intimate encounter with one of these vines, the Crew ventured south. There they encountered Germander, a friendly but wacky 15ft long gray-pink worm who enjoys reading a good book and talking about all that he's learned.
+After Freeya's more intimate encounter with one of these vine things, the Crew ventured south. There they encountered Germander, a friendly but wacky 15ft long gray-pink worm who enjoys reading a good book and talking about everything that he's learned.
 
 After discussing "the door that shouldn't be opened", the Saurian Empire and the Three Perfect Sisters with Germander, the Crew ventured east to explore more of the Garden, leaving Germander to read his books.
 
