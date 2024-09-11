@@ -167,10 +167,7 @@ def import_books(isbn, tag):
             },
         }
         post = frontmatter.Post("", handler=None, **metadata)
-        while True:
-            filename = f"content/books/{ post.metadata['slug'] }/index.md"
-            if not Path(filename).exists():
-                break
+        filename = f"content/books/{ post.metadata['slug'] }/index.md"
         if isbn in existing_books_by_isbn:
             filename, existing_post = existing_books_by_isbn[isbn]
             print(
