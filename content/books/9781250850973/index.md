@@ -2,6 +2,7 @@
 authors:
 - Kelly Barnhill
 books/tags:
+- magical realism
 date: 2023-09-22
 params:
   isbn13: '9781250850973'

@@ -2,6 +2,7 @@
 authors:
 - Cherie Dimaline
 books/tags:
+- magical realism
 date: 2023-09-19
 params:
   isbn13: '9780735277182'

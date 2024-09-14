@@ -2,6 +2,7 @@
 authors:
 - V. E. Schwab
 books/tags:
+- fantasy
 date: 2023-09-27
 params:
   isbn13: '9781783290215'

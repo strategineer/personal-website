@@ -2,6 +2,7 @@
 authors:
 - Mona Awad
 books/tags:
+- magical realism
 date: 2023-12-15
 params:
   isbn13: '9781982169664'

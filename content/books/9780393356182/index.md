@@ -2,6 +2,7 @@
 authors:
 - Neil Gaiman
 books/tags:
+- myth
 date: 2021-12-15
 params:
   isbn13: '9780393356182'

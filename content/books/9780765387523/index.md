@@ -2,6 +2,7 @@
 authors:
 - V. E. Schwab
 books/tags:
+- fantasy
 date: 2023-10-22
 params:
   isbn13: '9780765387523'
