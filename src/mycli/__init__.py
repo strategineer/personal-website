@@ -55,7 +55,7 @@ def convert_to_image_source_for_goodreads(filename, image_filepath):
     width = 80
     height = 200
     if image_path.exists:
-        print("Found image at {image_path}")
+        print(f"Found image at {image_path}")
         im = Image.open(image_path)
         w, h = im.size
         width, height = calculateAspectRatioFit(w, h, 200, 500)
@@ -279,6 +279,9 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn=lambda x: Fa
                 if post.metadata.get("draft", False):
                     continue
                 tags = post.metadata["books/tags"]
+                if tags is None:
+                    tags = []
+                
                 exclusive_shelf = "read"
                 if "currently-reading" in tags:
                     exclusive_shelf = "currently-reading"
@@ -322,4 +325,5 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn=lambda x: Fa
             except Exception as e:
                 print(e)
                 print(f"Failed to write row for {filename}")
+                raise e
                 continue
