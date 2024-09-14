@@ -2,8 +2,10 @@
 authors:
 - K.J. Bishop
 books/tags:
-- owned-but-unread
-date: 1800-02-18
+- currently-reading
+- fantasy
+- slay
+date: 2024-09-14
 params:
   isbn13: '9780553382914'
   year: '2004'
