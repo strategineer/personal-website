@@ -8,7 +8,7 @@ params:
   year: '2021'
 slug: '9781982169664'
 star_rating: 4
-title: All's Well - A Novel
+title: All's Well
 ---
 
 I appreciate the depiction of the alienation Miranda feels towards others caused by her chronic pain which is invisible to everyone else but very real to her.
