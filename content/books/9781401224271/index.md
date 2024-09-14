@@ -8,10 +8,10 @@ books/tags:
 date: 2024-08-10
 params:
   dnf: vol. 5
-  isbn13: '9781563899423'
+  isbn13: '9781401224271'
   progress: vol. 5
   year: '2002'
-slug: '9781563899423'
+slug: '9781401224271'
 title: Fables
 ---
 
