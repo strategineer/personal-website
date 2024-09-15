@@ -55,6 +55,14 @@ They arrived in a room with a stone circle and raised platform in the middle of 
 
 As they approached the eastern door, it began rattling violently and the Crew began to hear loud grunting, snorting and meat squelching noises coming from behind it.
 
+## Session 2
+
+- letter from lg, cult of the shattered moon watch out
+- dragged chest all over, back to the crew's lair
+- walked all the way back, with fire and magic missiles and stabs the growing and shrinking pig was killed.  dragged all the way back to the lair and eaten by everyone except Lanmino.
+- herbicided some face vines revealing an entrance leading deeper into the gardens. 
+- regular deep pulsating bassy sounds coming from the south (Germander warning about this room?
+- met with Carnifex, the chaos demon, Marlon's greeting left him curious and Freeya, critically, convinced Carnifex of the group's usefulness as agents of chaos. he gave them a bag of some kind and received strong herbicide which he poured down some pipes.
 
 # One Pager
 
