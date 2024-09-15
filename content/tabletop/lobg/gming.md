@@ -1824,6 +1824,9 @@ Does Not Want
 
 A son of Chronia Torn, born ancient, lived badly, and cursed with three swords that pierce him and keep him alive.
 
+Behaviour
+: sounds throaty, coughs constantly and that causes his noble gas guards to materialize
+
 Wants
 : Someone to take out the swords and let him die.
 
@@ -2226,8 +2229,21 @@ Does Not Want
 
 Mechanical Peacock, maître'd for the Dead Wedding. Terrible snob.
 
+Reaction Roll for his judgement of each PCs look, if they look good then he'll not bother them about the invitation.
+
+"Please... present... your... invitation... for... the... wedding."
+
+"Without... an... invitation..., I... will... have... to... ask... you.. to... leave...."
+
+"Alerting... the... fashion... police... Wahhhh... Wahhhh... Wahhhh..."
+
+"My... eyes... must... be... malfunctioning... because... all... I... see... is... ugly..."
+
+Behavior
+: Sounds robotic, atonal, stilted / pauses between each syllable/word, like microsoft sam.
+
 Wants
-: Only the best people to attend.
+: Only the best people and most well dressed to attend.
 
 Does Not Want
 : Anyone who ‘reeks of the street'.
