@@ -10,11 +10,11 @@ weight: 1
 
 # Bangs
 
-1. [Ashen Chanterelle](#ashen-chanterelle) encounters PCs: she tries to escape from her chains through any means and escape through the painting, locking the PCs in the LoBG.
-2. [Lady Crucem Capilli](#lady-crucem-capilli) encounters PCs: she provides context on the LoBG and sends the PCs off to acquire art, artifacts or curios for her in exchange for handsome rewards.  
+1. ~~[Ashen Chanterelle](#ashen-chanterelle) encounters PCs: she tries to escape from her chains through any means and escape through the painting, locking the PCs in the LoBG.~~
+2. ~~[Lady Crucem Capilli](#lady-crucem-capilli) encounters PCs: she provides context on the LoBG and sends the PCs off to acquire art, artifacts or curios for her in exchange for handsome rewards.~~  
 3. PCs damage/steal art: [The Curator](#the-curator) (big hand thing) becomes aware of them and begins to hound them.
 4. [Bondye Reparatè](#bondye-reparatè) encounter PCs: they guide the PCs to [Lady Nine-Bones](#lady-nine-bones) (Halls 17) and she guides them subsequently to Elatior, a safehaven where the party can rest and recover between expeditions into the LoBG.
-5. [Chameleon Women](#chameleon-woman) encounter/discover PCs: they begin to gain strength, increasing HD with each subsequent encounter, and begin to inform the other denizens of the LoBG about the PCs actions if this would turn the NPCs against the PCs.
+5. ~~[Chameleon Women](#chameleon-woman) encounter/discover PCs: they begin to gain strength, increasing HD with each subsequent encounter, and begin to inform the other denizens of the LoBG about the PCs actions if this would turn the NPCs against the PCs.~~
 6. The ["Oku"](#oku) encounter PCs: ...
 7. (1 month after PCs enter the LoBG): [Ashen Chanterelle](#ashen-chanterelle) will re-enter with a small force of mercenaries and the intention of persuading Chronia, Zamia and Charity to enter the world once more. The Medusa will oppose this.
 

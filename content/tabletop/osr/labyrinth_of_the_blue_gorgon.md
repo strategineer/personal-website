@@ -39,7 +39,7 @@ Lady Crucem Capilli showed her appreciation for the Crew's efforts by vigorously
 When they arrived, the Crew noticed that the Ashen Chanterelle had
 disappeared. The southern end of the room contained an empty painting (the counterpart to the painting the Crew came in through?).
 
-Before settling down to rest, everyone except Lanmino feasted on Chameleon Woman flesh. Yum yum. Blotbug and Marlon suffered from indigestion, upset stomachs and an unsettling feeling (for now). The rest of the Crew were spared from the unpleasant effects of their impromptu feast.
+Before settling down to rest, everyone except Lanmino feasted on Chameleon Woman flesh. Yum yum. Blotbug and Brod suffered from indigestion, upset stomachs and an unsettling feeling (for now). The rest of the Crew were spared from the unpleasant effects of their impromptu feast.
 
 The Crew headed back west toward the region of the labyrinth known as the Gardens. They discovered rooms filled with dry but thriving plant life kept alive in the dark through some unknown magical means.
 
