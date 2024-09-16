@@ -57,12 +57,25 @@ As they approached the eastern door, it began rattling violently and the Crew be
 
 ## Session 2
 
-- letter from lg, cult of the shattered moon watch out
-- dragged chest all over, back to the crew's lair
-- walked all the way back, with fire and magic missiles and stabs the growing and shrinking pig was killed.  dragged all the way back to the lair and eaten by everyone except Lanmino. Freeya, critically ingested the pig (tbd)
-- herbicided some face vines revealing an entrance leading deeper into the gardens. 
-- regular deep pulsating bassy sounds coming from the south (Germander warning about this room?
-- met with Carnifex, the chaos demon, Marlon's greeting left him curious and Freeya, critically, convinced Carnifex of the group's usefulness as agents of chaos. he gave them a bag of some kind and received strong herbicide which he poured down some pipes.
+The Crew avoided the snorting noises coming from the eastern door and chose to go south instead. There they found letter from L.G. and a chest with a scroll of Feather Fall and a Cloak of Avoidance fit for Marlon. The letter contained a warning for Blotbug to beware against the Cult of the Shattered Moon trying to find him and sacrifice him (again). Interestingly, Blotbug doesn't know anyone going by "L.G." and due to the preparation he went through prior to his narrowly escaped ritual sacrifice, he doesn't remember why the Cult of the Shattered Moon was sacrificing him in particular but he has no reason to doubt L.G. warning that they're still coming for him. 
+
+The Crew chose to carry the chest all the way back to the Labyrinth's entrance (and their temporary home away from home). With Brod dragging it across the floor of the moving light trap room to avoid falling into pits. Doing so caused a chorus of clangs and scraping unlike anything the Labyrinth has heard in the aeons of its existence. Yet, no one and no thing came to investigate...
+
+The Crew returned to the door with all this grunting and snorting and opened it from a distance by attaching a rope to the door handle and pulling. A comically small pot-bellied pig charged through the opening of the door and as it approached the Crew, it gradually grew in size until it was 10 feet tall and proportionally wide.
+
+A few tramplings and gorings later, the Crew dispersed away from the pig forcing it back into its regular size and allowing Freeya to finish it off with a magic missile. Brod carried the pig, Obelix style, back to the Crew's lair and the Crew feasted on its cooked flesh and converted the remains into rations.
+
+Freeya, critically, reacted to consuming the pig's flesh and seems to have gained more from it than just sustenance.
+
+The Crew returned the Gardens, once again, found some strong herbicide and returned to the room with face (and now body)-forming vines. Brod poured a bit of herbicide onto the vines and they reacted poorly to it, screeching and retracting away from this room. This revealed a concealed door leading west, deeper into the Gardens.
+
+The Crew entered the adjacent room, hearing regular deep pulsating bassy sounds and vibrations coming from the south and constant maniacal laughter coming from the west. The Crew chose to the west first and were greeted by Carnfex, a demon of chaos, banging on pipes with his steampunky wrench and, in doing so, preventing the Gardens from compeletely overflowing with Zoimantic plant life.
+
+Marlon greeted Carnifex, leaving the demon curious about the Crew and giving Freeya the opportunity to, critically, convince Carnifex of the Crew's usefulness as chaos causing agents themselves. Brod requested some equipment for causing chaos and Carnifex provided him with a bag to be opened when chaos is desired. Blotbug asked Carnifex about any particular chaos-prone opportunities in the Labyrinth. Carnifex told them that killing the Blue Gorgon would cause the most chaos possible but that he might have more opportunities for the Crew later once they've proven their chaos-causing worth [retcon].
+
+The Crew moved west through Carnifex's pipes room and found themselves in a well-lit gothic cathedral-esque place of worship with a robed man-like plant hybrid with a pope hat obsessed with performing ceremonies rushing them. Brod and Blotbug arms were grabbed by the "priest" and thus he began a ritual of some kind. The Crew could hear screams to the north: "Killllll hiiiiimmmmm".
+
+Brod was able to retract his arm from the "priest"'s grip and smash him with his shield. And, the sound of rushing footsteps could be heard coming from the west. Something bursts through the door. 
 
 # One Pager
 
