@@ -28,7 +28,7 @@ Whoever greenlit the god awful poetry that is interspersed throughout this novel
 
 This novel has a few nuggets of gold throughout but there's a LOT of problematic and bad writing here. I can't recommend sifting through all this shit to get to the good stuff.
 
-This is an older book (pushing 20+ years at the time of writing this) and parts of it definitely do not hold up.
+This is an older book (pushing 20+ years old at the time of writing this) and parts of it definitely do not hold up.
 
 The biggest offender is probably the conclusion of the book, which speaks for itself. 
 
