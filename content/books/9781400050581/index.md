@@ -22,7 +22,9 @@ This story is about an autistic woman who remembers and describes being born, sh
 
 <!--more-->
 
-It's a little too precious and twee for my taste. For fuck's sake, she touches a gorilla and instantly discovers the meaning of true love. Fucking hell.
+It's a little too precious and twee for my taste. For fuck's sake, she touches a gorilla and instantly discovers the meaning of true love.
+
+Fucking hell.
 
 Whoever greenlit the god awful poetry that is interspersed throughout this novel should be shot.
 
