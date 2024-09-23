@@ -16,3 +16,5 @@ title: The Etched City
 Reading through K.J. Bishop's The Etched City was *sublime*. Novels like this don't get written often and reading them leaves me a changed man. The poetry, the philosophy, the mythic and dream-like nature of the writing have left me completely stunned and in awe of its beauty and depth. 
 
 <!--more-->
+
+Another recommendation by [Adrian Tchaikovsky](/authors/adrian-tchaikovsky/).

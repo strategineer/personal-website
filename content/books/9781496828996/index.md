@@ -2,14 +2,14 @@
 authors:
 - Thomas Giddens
 books/tags:
-- currently-reading
 - academic
+- comics
 date: 2024-08-13
 params:
   isbn13: '9781496828996'
   year: '2020'
 slug: '9781496828996'
-star_rating: null
+star_rating: 3
 title: Critical Directions In Comics Studies
 ---
 

@@ -3,7 +3,6 @@ authors:
 - Kobold Press
 books/tags:
 - tabletop
-- currently-reading
 date: 2024-08-23
 params:
   isbn13: '9781936781744'
