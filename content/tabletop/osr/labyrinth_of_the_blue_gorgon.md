@@ -77,6 +77,15 @@ The Crew moved west through Carnifex's pipes room and found themselves in a well
 
 Brod was able to retract his arm from the "priest"'s grip and smash him with his shield. And, the sound of rushing footsteps could be heard coming from the west. Something bursts through the door. 
 
+## Session 3
+
+- 4 hulking ghouls burst through the door followed by a "Spear and orb-wielding mummy without a spear but maybe it was a spear this whole time" (AKA the Negamancer).
+- Lanmino fled the fight as it began, later revealed that he was "taken" by Levalliant G.
+- the vine pope gave up trying to marry 2 PCs together and tried and succeeded in combining 2 ghouls while the PCs were busy dealing with the other 2 ghouls and the Negamancer.
+- Many crossbow bolts shot, gremlin-spewing bags opened, lassos thrown and successful arson attempts later the Negamancer fled while his ghouls perished at the hands of the PCs (with some help from the Gremlins).
+- The Crew returned to their lair to recover their health and ressucitate Blotbug who almost died in his efforts to subdue the Negamancer.
+- While the rest of the crew rested, Marlon began training his ability to perform ranged backstabs on enemies flanked by his allies. 
+
 # One Pager
 
 **The campaign’s premise and flavor**

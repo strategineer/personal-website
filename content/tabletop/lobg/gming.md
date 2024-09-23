@@ -21,8 +21,8 @@ Marlon tried to learn flanking/dnd backstab using range weapons: tried once
 1. ~~[Ashen Chanterelle](#ashen-chanterelle) encounters PCs: she tries to escape from her chains through any means and escape through the painting, locking the PCs in the LoBG.~~
 2. ~~[Lady Crucem Capilli](#lady-crucem-capilli) encounters PCs: she provides context on the LoBG and sends the PCs off to acquire art, artifacts or curios for her in exchange for handsome rewards.~~  
 5. ~~[Chameleon Women](#chameleon-woman) encounter/discover PCs: they begin to gain strength, increasing HD with each subsequent encounter, and begin to inform the other denizens of the LoBG about the PCs actions if this would turn the NPCs against the PCs.~~
-3. Lanmino disappears... [see following]
-4. Marlon finds a letter in his Cloak of Avoidance from L.G. "Marlon, my dear friend and ally, enjoy this cloak I found just for you. Use it well! PS. I have dire need of your "friend" Lanmino and I will be taking him for now. Yours truly, L.G."
+3. ~~Lanmino disappears... [see following]~~
+4. M~~arlon finds a letter in his Cloak of Avoidance from L.G. "Marlon, my dear friend and ally, enjoy this cloak I found just for you. Use it well! PS. I have dire need of your "friend" Lanmino and I will be taking him for now. Yours truly, L.G."~~
 5. PCs enter Vinebeasts + Heart room. A theaticral spotlight shines on a PC, everyone else is frozen in place while the "scene" plays out. The PC will respond to the accusations of the vinebeasts and when they have no responses left or when it feels right, the spotlight will shift to another PC.
 3. PCs damage/steal art: [The Curator](#the-curator) (big hand thing) becomes aware of them and begins to hound them. Blotbug and Brod must resist commenting on art otherwise they become more (cannibal) critical of them.
 4. [Bondye Reparatè](#bondye-reparatè) encounter PCs: they guide the PCs to [Lady Nine-Bones](#lady-nine-bones) (Halls 17) and she guides them subsequently to Elatior, a safehaven where the party can rest and recover between expeditions into the LoBG.
