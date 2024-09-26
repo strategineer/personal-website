@@ -9,7 +9,7 @@ params:
   year: '2004'
 slug: '9781400050581'
 star_rating: 2
-title: Songs Of The Gorilla Nation - My Journey Through Autism
+title: Songs Of The Gorilla Nation
 ---
 
 {{< quote "216" >}}

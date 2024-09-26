@@ -28,7 +28,7 @@
             "list": [
               "Developed dynamic pricing system in Python to price inventory based on supply/demand.",
               "Developed 3rd party distribution system in Ruby to sync inventory on Airbnb, Booking.com, Expedia, etc.",
-              "Maintained gigantic legacy Ruby on Rails codebase."
+              "Upgraded +300k LOC legacy Ruby on Rails codebase to Ruby 3.0 and the Rails 7.1."
             ]
           },
           {
