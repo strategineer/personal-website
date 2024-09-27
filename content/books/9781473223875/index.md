@@ -2,7 +2,6 @@
 authors:
 - Emma Newman
 books/tags:
-- currently-reading
 - science fiction
 date: 2024-09-23
 params:
@@ -11,7 +10,7 @@ params:
   series_order: '2'
   year: '2018'
 slug: '9781473223875'
-star_rating: null
+star_rating: 4
 title: After Atlas
 ---
 
