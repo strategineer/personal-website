@@ -10,11 +10,9 @@ params:
   series_order: '1'
   year: '2018'
 slug: '9781473223851'
-star_rating: 3
+star_rating: 2
 title: Planetfall
 ---
-
-2.5 stars rounded up because
 
 Constant "mystery cucking" for 95% of the novel, a super rushed ending and paper-thin antagonists heavily detract from the interesting POV and the "promised land" religious/scientific colonial premise and setting, which is sadly a little underdeveloped.
 
