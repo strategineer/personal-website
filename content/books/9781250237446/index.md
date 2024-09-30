@@ -4,6 +4,7 @@ authors:
 books/tags:
 - currently-reading
 - fantasy
+- slay
 date: 2024-09-28
 params:
   isbn13: '9781250237446'
