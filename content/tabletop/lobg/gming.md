@@ -29,6 +29,9 @@ Marlon tried to learn flanking/dnd backstab using range weapons: tried once
 6. The ["Oku"](#oku) encounter PCs: ...
 7. (1 month after PCs enter the LoBG): [Ashen Chanterelle](#ashen-chanterelle) will re-enter with a small group of members from the Cult of the Shattered Moon with the intention of persuading Chronia, Zamia and Charity to enter the world once more. The Medusa will oppose this. The Cult's goal in entering the Labyrinth is to find Blotbug and sacrifice him.
 8. The group meet with L.G., the supervillain who knows everything that will happen and is using the group to defeat his frenemy the Blue Gorgon.
+9. If the PCs exit from the Labyrinth through the painting, they come out in the same place where they came in from but thousands of years later (time passes slowly in the Labyrinth compared to the other world) in a Dying Earth-style combined with weird fantasy / gonzo genre-mish-mashing (refer to Dark Sun and Anomalous Subsurface Environment for context). This world is sparsely populated by small settlements of rural/Western-style people and ruled by remnants of the Cult of the Moon (which shattered but was pieced back together through advanced technology which has since been lost) found in towers and broken down astrology labs throughout the land.
+
+
 
 # Dungeon Key
 
