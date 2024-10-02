@@ -14,7 +14,9 @@ star_rating: 3
 title: After Atlas
 ---
 
-Here's hoping this novel fully realizes the potential of Emma Newman's science fiction *oeuvre*.
+I didn't know this was a detective mystery novel (not my favorite). At least you can see this in the first few pages unlike in Emma Newman's previous novel in her Planetfall series, which isn't a mystery detective novel but wants to be one. 
+
+Compared to its predecessor, After Atlas is way more polished and mostly focuses on developing the interesting parts of the universe but surprisingly retains a super rushed ending that doesn't exactly come out of nowhere but it feels like it. 
 
 <!--more-->
 
