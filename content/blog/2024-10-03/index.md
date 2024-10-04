@@ -8,25 +8,33 @@ draft: true
 
 Able of the High Heart is the POV character in Gene Wolfe's fantasy isekai tryptich The Wizard Knight. I loved the first novel of the set, the Knight, mainly because Able of the High Heart is such an interesting character.
 
-In the following post, I'll describe the premise of the Wizard Knight, then I'll describe a formative encounter that Able has with the knight named Sir Ravd of Redhall and finally I'll discuss how this encounter shaped Able into the knight he is now (or wants to be) and how Able being this way is entertaining to read about.
+In the following post, I'll describe the premise of the Wizard Knight, then I'll describe a formative encounter that Able has with the knight named Sir Ravd of Redhall early on in his journey and finally I'll discuss how this encounter shaped Able into the knight he is now (or wants to be) and why Able being this way is entertaining to read about.
 
 # Premise of the Wizard Knight
 
-In the Wizard Knight, an American boy is Alice in Wonderland-ed into a fantasy world based on Arthurian myth, Norse and Christian theology. Soon after, he's physically transformed into an adult man who's jacked out of his mind but retains the young and impressionable mind of the young boy he really is on the inside. The story is framed as a letter written by this boy to his brother in America to explain everything that's happened to him after he was transported to this other world.
+In the Wizard Knight, an American boy is Alice in Wonderland-ed into a seven-tiered fantasy world (with each tier having dominion over the tier below it) based on Arthurian myth, Norse and Christian theology. Soon after, he's physically transformed into an adult man who's jacked out of his mind but retains the young and impressionable mind of the young boy he really is on the inside. The story is framed as a letter written by this boy to his brother in America explaining everything that's happened to him after he was transported to this other world.
 
 **Spoilers below for Gene Wolfe's novel The Knight, if the premise seems interesting you should read it!**
 
 # Able of the High Heart's Encounter with Sir Ravd of Redhall
 
-Able of the High Heart, which isn't a birth name but a name given to him by the Fate-like character he meets at the start of his journey, is this American boy. He's an interesting protagonist and let's talk about why.
+Able of the High Heart, which isn't a birth name but a name given to him by the Fate-like character he meets at the start of his journey, is this displaced American boy.
 
-Everything about Able of the High Heart's behaviour and thoughts stems from the discrepancy between his young mind and his adult body. And the fact that he's partially amnesiac and somewhat of an empty vessel for characters like Sir Ravd of Redhall to pour particular ideas about the world into.
+Everything about Able of the High Heart's behaviour and thoughts stems from the discrepancy between his young mind and his adult body. The fact that he's partially amnesiac turns him into somewhat of an empty vessel for others characters to pour their very particular ideas about the world into.
 
-Able is forever changed due to his brief encounter with a knight named Sir Ravd of Redhall, early on in his journey (even before Able is physically transformed into an adult man). Although it's not framed that way at the time, throughout the rest of the text it becomes clear that Able meeting with Sir Ravd had a far reaching and lasting impact on Able.
+One such character is Sir Ravd of Redhall, a knight that Able briefly encounters relatively early on in his journey in this other world. During this brief encounter with Sir Ravd, Able learns many things that deeply influence his beliefs and understanding of the world he's been transported to. However, it's only in retrospect that we as readers find out the scale of the impact this encounter had on Able's understanding of the hierarchal world he's found himself in and his place in it.
 
-During his brief encounter with Sir Ravd, Able learns many things that deeply influence his beliefs and understanding of the world he's been transported to.
+{{< quote "227" >}}
+That was when one of the other knights called, “You’re no knight, boy!”
 
-Able learns that being a knight isn't about money, a big horse or an accolade. Being a knight is about honor, above all us.
+I looked at him for a minute. Then I said, “I am a knight, but you aren’t.” It sort of shut him up.
+{{< /quote >}}
+
+Able absorbs a lot from his brief encounter with Sir Ravd, let's go over the most important bits of it.
+
+Able learns from Sir Ravd that being a knight isn't about money, a big horse or the accolade (the ceremony whereby a knight is knight-ed).
+
+Being a knight is about honor, above all else.
 
 {{< quote "48" >}}
 “[...] It is honor, Able. A knight is a man who lives honorably and dies honorably, because he cares more for his honor than for his life. If his honor requires him to fight, he fights. He doesn’t count his foes or measure their strength, because those things don’t matter. They don’t affect his decision.”
@@ -36,7 +44,13 @@ The trees and the wind were so still then that I felt like the whole world was l
 “In the same way, he acts honorably toward others, even when they do not act honorably toward him. His word is good, no matter to whom he gives it.”
 {{< /quote >}}
 
-Able learns that knights speak properly, specifically knights use "may" instead of "can" when appropriate.
+**The trees and the wind were so still then that I felt like the whole world was listening to him.**
+
+It's lines like this that clue us in to how Able is perceiving Sir Ravd as a man he'd like to become, who's word are worth listening. Even though, we as readers can see that Sir Ravd kind of questionable in his behavior. He talks about honor but then he subjugates the people in this small town and enforces the will of his ruler...
+
+[this is a bit of a sidenote...]
+
+Able also learns from Sir Ravd that knights speak properly, specifically knights use "may" instead of "can" when appropriate.
 
 {{< quote "47" >}}
 I tried to clean myself off a little and told Ravd, “You can have your scield back if you want it.”
@@ -46,7 +60,7 @@ I tried to clean myself off a little and told Ravd, “You can have your scield 
 I nodded. I had not figured him out, and I was not sure I ever would.
 {{< /quote >}}
 
-Able learns that knights have followers, but not necessarily how to treat them well...
+Able learns from Sir Ravd that knights have followers, but he doesn't necessarily learn how to treat them well...
 
 {{< quote "48" >}}
 “Then he is not a knight, though he is someone I would like very much to count among my followers.”
@@ -56,7 +70,7 @@ I asked if he had many, because he had come into that forest alone, except for S
 “More than I wish, but not many who are as brave as this man you know.”
 {{< /quote >}}
 
-Able learns about chivalry, and how to exert control on women and become an active part of the patriarchy.
+Able learns from Sir Ravd about chivalry, but also how to exert control over women and become an active part of the patriarchy.
 
 {{< quote >}}
 I went in, and the woman sat down on a little milking stool in front of Ravd.
@@ -70,13 +84,13 @@ Able learns a lot from Sir Ravd over just a few days of being travelling with hi
 
 # Able of the High Heart echoing Sir Ravd throughout the Knight
 
-Let's go over some examples of how Sir Ravd's teachings echo in Able of the High Heart's behavior and thoughts throughout the rest of the Knight.
+Let's go over some examples of how Sir Ravd's teachings echo in Able of the High Heart's behaviour and thoughts throughout the rest of the Knight.
 
 ... [examples here]
 
 # Able of the High Heart - The Hero We Love
 
-Now, it should be clear that Able's brief encounter with Sir Ravd impacted Able's worldview, his behavior, his perception and understanding of the hierarchichal world around him and the quests he sets for himself throughout the Knight.
+Now, it should be clear that Able's brief encounter with Sir Ravd impacted Able's worldview, his behaviour, his perception and understanding of the hierarchical world around him and the quests he sets for himself throughout the Knight.
 
 This is interesting for a few reasons:
 - sir ravd's encounter is not initially framed as being as important as it really is, it's only through reading the rest of the text that eventually you come to the realization that Able is emulating Sir Ravd in every way.

@@ -68,11 +68,16 @@
                   </div>
                   {{ if $more_to_read }}
                   {{- $reading_time := .ReadingTime -}}
-                  {{- $word_count := div .WordCount 100 -}}
-                  {{- $word_count = mul $word_count 100 -}}
+                  {{- $word_count_modulo := 250 -}}
+                  {{- $word_count := div .WordCount $word_count_modulo -}}
+                  {{- $word_count = mul $word_count $word_count_modulo -}}
                   {{- if and (ne $reading_time 0) (or $is_blog $is_books) }}
                   <div class="reading-time col">
-                      ({{ $reading_time }}min read, {{ $word_count }} words)
+                      ({{ $reading_time }}min read
+                      {{- if gt $word_count 500 -}}
+                      , {{ $word_count }} words
+                      {{- end -}}
+                      )
                   </div>
                   {{- end -}}
                   {{ end }}
