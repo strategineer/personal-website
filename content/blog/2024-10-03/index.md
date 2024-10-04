@@ -1,18 +1,22 @@
 ---
-title: "Reasons why I love Able of the High Heart and you should too."
+title: "That moment when you get isekai-ed into a fantasy world then you meet a knight and have that experience echo throughout the rest of your life"
 date: 2024-09-17
 blog/tags:
   - reading
 draft: true
 ---
 
-Able of the High Heart is the POV character in Gene Wolfe's fantasy isekai novel The Wizard King. I think he's a great character and I'd like to explain why.
+Able of the High Heart is the POV character in Gene Wolfe's fantasy isekai tryptich The Wizard Knight. I loved the first novel of the set, the Knight, mainly because Able of the High Heart is such an interesting character.
 
-Let's start with the premise of the Wizard Knight for context and then I'll start talking about Able of the High Heart.
+In the following post, I'll describe the premise of the Wizard Knight, then I'll describe a formative encounter that Able has with the knight named Sir Ravd of Redhall and finally I'll discuss how this encounter shaped Able into the knight he is now (or wants to be) and how Able being this way is entertaining to read about.
+
+# Premise of the Wizard Knight
 
 In the Wizard Knight, an American boy is Alice in Wonderland-ed into a fantasy world based on Arthurian myth, Norse and Christian theology. Soon after, he's physically transformed into an adult man who's jacked out of his mind but retains the young and impressionable mind of the young boy he really is on the inside. The story is framed as a letter written by this boy to his brother in America to explain everything that's happened to him after he was transported to this other world.
 
 **Spoilers below for Gene Wolfe's novel The Knight, if the premise seems interesting you should read it!**
+
+# Able of the High Heart's Encounter with Sir Ravd of Redhall
 
 Able of the High Heart, which isn't a birth name but a name given to him by the Fate-like character he meets at the start of his journey, is this American boy. He's an interesting protagonist and let's talk about why.
 
@@ -62,13 +66,36 @@ He, seated on a short bench with a back, said, “Able, this is Brega. Because s
 
 PS: These few chapters with Sir Ravd of Redhall can be construed as a sort of veiled promise between Wolfe and the reader, telling the reader that Able is going to become like Sir Ravd or at least try to. The novel is called the Knight after all.
 
-Able learns a lot from Sir Ravd over just a few days of being travelling with him. Throughout the rest of the text, we'll some explicit evidence, and some less so, of Able's integration of Sir Ravd's teachings into his life and everything he does moving on.
+Able learns a lot from Sir Ravd over just a few days of being travelling with him. Throughout the rest of the text, we'll read some explicit evidence, and some less so, of Able's integration of Sir Ravd's teachings into his life and everything he does moving forward from there.
 
-The thing we need to keep in mind about Sir Ravd of Redhall is that he dies soon after Able of the High Heart meets him. And thus, we're left to wonder whether the teachings of Sir Ravd, like not measuring the strength of enemy forces before engaging them in combat, might have led him to an early grave.
+# Able of the High Heart echoing Sir Ravd throughout the Knight
 
-Thus, his being Able of the High Heart's role model of knighthood might not be such a good thing for Able. And, that makes him interesting.
+Let's go over some examples of how Sir Ravd's teachings echo in Able of the High Heart's behavior and thoughts throughout the rest of the Knight.
 
-Sir Ravd's poor teachings and Able's main character energy come into conflict time and time again, and generate the tension and excitement found in the book.
+... [examples here]
+
+# Able of the High Heart - The Hero We Love
+
+Now, it should be clear that Able's brief encounter with Sir Ravd impacted Able's worldview, his behavior, his perception and understanding of the hierarchichal world around him and the quests he sets for himself throughout the Knight.
+
+This is interesting for a few reasons:
+- sir ravd's encounter is not initially framed as being as important as it really is, it's only through reading the rest of the text that eventually you come to the realization that Able is emulating Sir Ravd in every way.
+- Because of Sir Ravd just being some guy, really, and Able's very brief and skewed encounter with him this leads Able to becoming a single-minded (maybe even simple-minded) caricature of a hero, of a main character, of a knight who wants to be "good" but he's missing the forest for the trees     
+- it makes for funnys conflicts and shit, clashes with main character energy
+
+
+
+The thing we need to keep in mind about Sir Ravd of Redhall is that he dies soon after Able of the High Heart meets him. Leaving the reader to wonder whether the teachings of Sir Ravd, like not measuring the strength of enemy forces before engaging them in combat, might have led Sir Ravd to an early grave and might do the same for Able of the High Heart.
+
+Thus, his being Able of the High Heart's role model of knighthood might not be such a good thing for Able. And, that's part of what makes him interesting.
+
+Sir Ravd's questionable teachings about knighthood, honor and the patriarchy come into conflict with Able's main character energy (and plot armor) time and time again, and generate a lot of the tension, the humor and the excitement in the Wizard Knight.
+
+...
+
+# Conclusion
+
+# misc
 
 
 - determined
@@ -82,7 +109,7 @@ In the immortal words of Sir Able of the High Heart:
 "I am a hero"
 
 "I am a knight"
-
+ 
 
 
 

@@ -1,4 +1,6 @@
 {{- $reading_time := .ReadingTime -}}
+{{- $word_count := div .WordCount 100 -}}
+{{- $word_count = mul $word_count 100 -}}
 {{- if ne $reading_time 0 -}}
-  {{ $reading_time }}min read
+  ({{ $reading_time }}min read, {{ $word_count }} words)
 {{- end -}}
