@@ -24,10 +24,8 @@ Everything about Able of the High Heart's behaviour and thoughts stems from the 
 
 One such character is Sir Ravd of Redhall, a knight that Able briefly encounters relatively early on in his journey in this other world. During this brief encounter with Sir Ravd, Able learns many things that deeply influence his beliefs and understanding of the world he's been transported to. However, it's only in retrospect that we as readers find out the scale of the impact this encounter had on Able's understanding of the hierarchal world he's found himself in and his place in it.
 
-{{< quote "227" >}}
-That was when one of the other knights called, “You’re no knight, boy!”
-
-I looked at him for a minute. Then I said, “I am a knight, but you aren’t.” It sort of shut him up.
+{{< quote "108" >}}
+“I’m a knight,” I said; I always said that, because I knew I could never get people to believe me unless I believed it myself. “I’m Sir Able of the High Heart.”
 {{< /quote >}}
 
 Able absorbs a lot from his brief encounter with Sir Ravd, let's go over the most important bits of it.
@@ -87,6 +85,13 @@ Able learns a lot from Sir Ravd over just a few days of being travelling with hi
 Let's go over some examples of how Sir Ravd's teachings echo in Able of the High Heart's behaviour and thoughts throughout the rest of the Knight.
 
 ... [examples here]
+
+possible quotes to look at zone
+
+131
+132
+147 strongest knight in the world
+176 malleability of Able's identity and an explanation for why he's constantly trying to understand who he is and trying to define it, a search for authenticity (existential psychotherapy)
 
 # Able of the High Heart - The Hero We Love
 
