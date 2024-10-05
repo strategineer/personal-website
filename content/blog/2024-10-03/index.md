@@ -27,7 +27,7 @@ Everything about Able of the High Heart's behaviour and thoughts stems from the 
 “Who are you?” I said. All of a sudden it seemed to me I did not even know who I was. Was I really just a kid from America? A knight? Bold Berthold’s brother?
 {{< /quote >}}
 
-One such character that have a significant influence on Able is Sir Ravd of Redhall, a knight that Able briefly encounters early on in his journey in this other world. During this encounter with Sir Ravd, Able learns many things that deeply influence his beliefs and his understanding of the hierarchichal world he's been transported to and where he fits into it. As we'll see, it's only really in retrospect that we as readers find out the scale and impact of Able's encounter with Sir Ravd.
+One such character that have a significant influence on Able is Sir Ravd of Redhall, a knight that Able briefly encounters early on in his journey in this other world. During this encounter with Sir Ravd, Able learns many things that deeply influence his beliefs and his understanding of the hierarchical world he's been transported to and where he fits into it. As we'll see, it's only really in retrospect that we as readers find out the scale and impact of Able's encounter with Sir Ravd.
 
 {{< quote "108" >}}
 “I’m a knight,” I said; I always said that, because I knew I could never get people to believe me unless I believed it myself. “I’m Sir Able of the High Heart.”
