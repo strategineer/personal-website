@@ -84,7 +84,16 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 - the vine pope gave up trying to marry 2 PCs together and tried and succeeded in combining 2 ghouls together into a unholy Junji Ito Spiral Beast while the PCs were busy dealing with the other 2 ghouls and the Negamancer.
 - Many crossbow bolts shot, gremlin-spewing bags opened, lassos thrown and successful arson attempts later the Negamancer fled while his ghouls re-perished at the hands of the PCs (with some help from the Gremlins).
 - The Crew returned to their lair to recover their health and ressucitate Blotbug who almost died in his efforts to subdue the Negamancer but was stabilized in the nick of time by Freeya.
-- While the rest of the crew rested, Marlon began training his ability to perform ranged backstabs on enemies flanked by his allies. 
+- While the rest of the crew rested, Marlon began training his ability to perform ranged backstabs on enemies flanked by his allies.
+
+## Session 4
+
+- Freeya continued growing really big while he slept, forcing everyone else out of the lair, eventually waking up and shrinking back down to regular size.
+- The Crew ventured back to the cathedral-like holy place and found the ceremonial dagger that previously attached to the Negamancer's staff. Freeya's Detect Magic spell showed him that it was magical. Marlon grabbed it and tried stabbing it into the wooden altar to no special effect. Feeling, magically, repulsed by it, he handed it off to Blotbug. The dagger reacted to Blotbug's touch and spewing dark wisps of smoke from its serrated edge. 
+- The Crew continued exploring west, finding another room with giant vines leading to elsewhere in the labyrinth and finding a room with a gigantic yellow rose in it. Freeya using his botanical skills perceived the danger of the rose and countered it by producing temporarily creating skunk scent glands on himself and using them to fill a flask of counter-smell. Allowing for Marlon and Freeya to poke around the flower and eventually through a direct application of fire, burst open the rose's sack filled with the treasure of people who fell for this trap (Goblin Key, Head of a Morningstar smelling of fresh meat and some gold).
+- The Crew, feeling distraught at not having yet been able to give any books to Germander, returned to speak with him and ask for his help. He told them to start by venturing north of the light/pit room and eventually they'd find themselves in the labyrinth's library, tended to by mummy-like reptilian custodians, usually friendly than their non-mummy cousins (chameleon women, etc).
+- The Crew explored the area Germander pointed them to, meeting with the oldest man alive, Sanguifluus with three swords pierced through his body. He asked the Crew to help him by removing these swords from his body because they're causing him intense pain. But his constant coughing produced 3 gaseous beings who want the swords to remain where they are. A fight ensues.
+- Through some miracle, Marlon dissipated 1 of the gaseous beings completely using a surprise attack with his crossbow. Freeya twirled and twirled spewing flames at their enemies. Brod manages to pull one sword out of Sanguifluus's body but breathed in poisonous gas and was electrocuted a few times as a reward for his efforts. Blotbug tried and eventually succeeded in hitting one of these gaseous forms with his newly acquired dagger, leading to the dark smoke transferring from the blade to the gaseous form he hit with the dagger.   
 
 # One Pager
 
