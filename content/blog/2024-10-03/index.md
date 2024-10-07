@@ -189,11 +189,11 @@ Ravd had not been among the phantom knights who had fought beside me, but it see
 
 Here, Able is referencing the metaphorical "phantom" of Sir Ravd who's been "following" Able this entire time, in the sense that Able's actions and thoughts about this other world have heavily influenced by Sir Ravd.
 
-Then he explicitely calls back to Sir Ravd's correcting of Able's use of the word "can" instead of "may" and due to Able telling this to Toug, the young boy who's younger than Able but treated as a sort of "double" of him, is on the path to becoming a knight, from context we can see that Able has taken on the role that Sir Ravd had for him with respect to Toug.
+Then he explicitly calls back to Sir Ravd's correcting of Able's use of the word "can" instead of "may" and due to Able telling this to Toug, the young boy who's younger than Able but treated as a sort of "double" of him, is on the path to becoming a knight, from context we can see that Able has taken on the role that Sir Ravd had for him with respect to Toug.
 
 ...
 
-right at the end of the book, here Able explicitely is ascending not only into the next higher level of reality but also ascending from the child he once was into the man he now is, not needing any leaders (like Sir Ravd) to act as a guiding light for his actions. Now he's committed to doing what he wants to do and how he wants to do it. This book also has a lot to say about free will in this universe, but that's something for another day.
+right at the end of the book, here Able explicitly is ascending not only into the next higher level of reality but also ascending from the child he once was into the man he now is, not needing any leaders (like Sir Ravd) to act as a guiding light for his actions. Now he's committed to doing what he wants to do and how he wants to do it. This book also has a lot to say about free will in this universe, but that's something for another day.
 
 {{< quote "430" >}}
 She laughed and held me tighter, and her laughter was that strange and thrilling sky-sound men hear sometimes and puzzle their heads over afterward. “That is enough for us, and you are a man after my heart. Will you defend us from the Giants of Winter and Old Night? Will you, if we lead you in battle?”
