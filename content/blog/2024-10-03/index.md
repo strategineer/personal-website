@@ -147,19 +147,66 @@ I said I would rather we were friends.
 
 PS: This non-sequetur is interesting to me because I think we're meant to assume that Able is either his own father or that his identity has been overtaken or heavily influenced by another, perhaps the Valfather? The text implies that Able was called to this other world by someone, that someone seems likely to be the Valfather, another father figure for Able. ...
 
+Here Able is talking with Sir Garvaon, and Able corrects Garvaon use of the word "can" instead of the more appropriate "may", at least according to what Able learned from Sir Ravd. This is one example of this but Able does this throughout the rest of the text over and over again.
+
+{{< quote "332" >}}
+Garvaon stared, then laughed. “You’re quite a fellow.” The point of his dagger carried a sizable chunk of summer sausage to his mouth, and he chewed in a way that showed he was thinking about something. “Can we talk man-to-man?”
+
+“May,” I said. “Sure. Of course.”
+{{< /quote >}}
 
 
+# Able of the High Heart's Transformation from a follower of Sir Ravd to his own leader and inluencer
 
+Throughout the text, Able gains experience and knowledge of his own and seeks to not only be a follower of Sir Ravd but become his own leader in his own right. The following quotes justify this. 
 
+{{< quote "370" >}}
+{{< /quote >}}
 
+AND 
+{{< quote "377-379" >}}
+{{< /quote >}}
+
+{{< quote "386" >}}
+“Lord, this is foolish. You—”
+
+I raised my hand, and finding the rag still in it began to clean my hauberk again. “What’s foolish is spending your whole life being scared of death.”
+
+“You believe that because some knight told you.”
+
+“Sir Ravd, you mean. No, he didn’t tell me that. Only that a knight was to do what his honor demanded, and never count his foes. But you’re right just the same, a knight told me. That knight was me. People who fear death—Lord Beel does, I guess—live no longer than those who don’t, and live scared. I’d rather be the kind of knight I am—a knight who has nothing—than live like he does, with power and money that can never be enough.”
+{{< /quote >}}
 
 The following quote makes Able's perception of his encounter with Sir Ravd and its influence on him up until this point much more explicit. 
 
-{{< quote "427" >}}
+{{< quote "427-428" >}}
 Ravd had not been among the phantom knights who had fought beside me, but it seemed to me that Ravd’s phantom stood behind me as I said, “I will.”
+
+[...] So can I, Sir Able? Can I go with you?”
+
+“May I,” I said, and felt Ravd’s hand upon my shoulder, though not even I could see him.
 {{< /quote >}}
 
 Here, Able is referencing the metaphorical "phantom" of Sir Ravd who's been "following" Able this entire time, in the sense that Able's actions and thoughts about this other world have heavily influenced by Sir Ravd.
+
+Then he explicitely calls back to Sir Ravd's correcting of Able's use of the word "can" instead of "may" and due to Able telling this to Toug, the young boy who's younger than Able but treated as a sort of "double" of him, is on the path to becoming a knight, from context we can see that Able has taken on the role that Sir Ravd had for him with respect to Toug.
+
+...
+
+right at the end of the book, here Able explicitely is ascending not only into the next higher level of reality but also ascending from the child he once was into the man he now is, not needing any leaders (like Sir Ravd) to act as a guiding light for his actions. Now he's committed to doing what he wants to do and how he wants to do it. This book also has a lot to say about free will in this universe, but that's something for another day.
+
+{{< quote "430" >}}
+She laughed and held me tighter, and her laughter was that strange and thrilling sky-sound men hear sometimes and puzzle their heads over afterward. “That is enough for us, and you are a man after my heart. Will you defend us from the Giants of Winter and Old Night? Will you, if we lead you in battle?”
+
+“I will defend you against anything,” I told her, “and you don’t have to lead me. Nobody does. I’ll lead myself, and fight on, when any leader you may give me falls.”
+{{< /quote >}}
+
+
+
+
+
+
+
 
 # Able of the High Heart - The Hero We Love
 
