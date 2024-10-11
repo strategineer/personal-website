@@ -2,15 +2,14 @@
 authors:
 - Gene Wolfe
 books/tags:
-- currently-reading
 - fantasy
 - slay
-date: 2024-09-28
+date: 2024-10-11
 params:
   isbn13: '9781250237446'
   year: '2020'
 slug: '9781250237446'
-star_rating: null
+star_rating: 5
 title: The Wizard Knight
 ---
 
