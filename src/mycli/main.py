@@ -18,7 +18,7 @@ import requests
 import frontmatter
 from isbnlib import meta, isbn_from_words
 from isbnlib._exceptions import NotValidISBNError
-from isbnlib.dev._exceptions import ISBNNotConsistentError, ISBNLibHTTPError
+from isbnlib.dev._exceptions import ISBNNotConsistentError, ISBNLibHTTPError, ISBNLibURLError
 from bs4 import BeautifulSoup as bs
 
 from __init__ import (
@@ -151,7 +151,7 @@ def import_books(isbn, tag):
                 fetched_metadata = meta(isbn, service=service)
             except (NotValidISBNError, ISBNNotConsistentError):
                 continue
-            except (urllib.error.HTTPError, ISBNLibHTTPError):
+            except (urllib.error.HTTPError, ISBNLibHTTPError, ISBNLibURLError):
                 continue
         if not fetched_metadata:
             print(f"Failed to fetch metadata for isbn: {isbn}")
