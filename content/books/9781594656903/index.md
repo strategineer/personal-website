@@ -4,7 +4,7 @@ authors:
 - Alejandro Jodorowsky
 - Christophe Quillien
 books/tags:
-- currently-reading
+- did-not-finish
 - comics
 date: 2024-09-11
 params:

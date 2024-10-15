@@ -2,7 +2,7 @@
 authors:
 - Grant Morrison
 books/tags:
-- currently-reading
+- did-not-finish
 - comics
 - superhero
 date: 2024-08-12

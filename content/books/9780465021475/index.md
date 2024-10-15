@@ -3,7 +3,7 @@ authors:
 - Irvin D. Yalom
 books/tags:
 - currently-reading
-date: 2024-08-23
+date: 2024-10-14
 params:
   isbn13: '9780465021475'
   year: '1980'

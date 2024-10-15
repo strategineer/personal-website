@@ -3,7 +3,7 @@ authors:
 - Matt Fraction
 - Christian Ward
 books/tags:
-- currently-reading
+- did-not-finish
 - comics
 - science fiction
 - myth

@@ -2,7 +2,7 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
-- currently-reading
+- did-not-finish
 - science fiction
 date: 2024-09-16
 params:

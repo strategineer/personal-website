@@ -3,7 +3,7 @@ authors:
 - Kurt Busiek
 - Brent Anderson
 books/tags:
-- currently-reading
+- did-not-finish
 - comics
 - superhero
 - anthology
