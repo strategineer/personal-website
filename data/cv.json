@@ -8,13 +8,13 @@
   },
   "en": {
     "name": "Bill Tyros",
-    "location": "Montreal, QC",
+    "location": "Montreal, Canada",
     "main_section": [
       {
         "list": [
           {
             "list": [
-              "Software engineer with over 13 years of experience in the video game industry, the VFX world, the financial sector and the hospitality industry."
+              "Software engineer with 13+ years of experience in the video game, VFX, financial and hospitality industries."
             ]
           }
         ]
@@ -60,7 +60,7 @@
         "list": [
           {
             "list": [
-              "Languages: Python, C#, Ruby, Go, Typescript, Javascript, C++",
+              "Languages: Python, Ruby, C#, Go, Typescript, Javascript, C++",
               "CI: Github Actions, Jenkins, Buddy, CircleCI"
             ]
           }
@@ -71,7 +71,7 @@
         "list": [
           {
             "list": [
-              "<a href=\"https://github.com/strategineer/kaleidoslug\">Caves of Qud game mods coded in C# through reverse engineering / patching.</a>",
+              "<a href=\"https://github.com/strategineer/kaleidoslug\">Caves of Qud game mods coded in C# through reverse engineering and code injection.</a>",
               "<a href=\"https://github.com/strategineer/orangutan\">Tampermonkey scripts to link bookoutlet.ca with goodsreads.com to improve the browsing experience.</a>"
             ]
           }

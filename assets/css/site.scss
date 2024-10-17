@@ -53,7 +53,38 @@ $link_highlight: nth($colors, 2);
 }
 
 @media print {
-  
+
+  .cv-bullet-item {
+    font-size: 1rem !important;
+  }
+
+  .cv-main-entry-bullets {
+    font-size: 1rem !important;
+  }
+
+
+  .cv-main-entry-title {
+    font-size: 1.2rem !important;
+  }
+
+  .cv-main-title {
+    font-size: 1.4rem !important;
+  }
+
+  .end-page {
+    padding-bottom: 0em !important;
+  }
+
+  .cv-main-entry {
+    border-left: 0px solid $bg_light !important;
+    border-bottom: 0px solid $bg_light !important;
+    margin-bottom: 0em !important;
+    margin-top: 0em !important;
+  }
+
+  .cv-main-section {
+    margin-top: 0em !important;
+  }
   .icon-filter {
     filter: none;
   }
@@ -312,11 +343,6 @@ a.cv-anchor {
   margin-bottom: 0;
 }
 
-.cv-bullet-item {
-  margin-left: 0rem;
-  font-size: 0.95rem;
-}
-
 .cv-main-entry-title {
   margin-bottom: 0;
 }
@@ -333,6 +359,11 @@ a.cv-anchor {
   border-bottom: 2px solid $bg_light;
   margin-bottom: 0.2em;
   margin-top: 0.1em;
+}
+
+.cv-bullet-item {
+  margin-left: 0rem;
+  font-size: 0.95rem;
 }
 
 .cv-main-entry-bullets {
@@ -402,10 +433,10 @@ figure {
 
 .summary-text > p,
 .summary-text > blockquote > p,
-.summary-text>blockquote>ul>li>p,
-.summary-text>blockquote>ul>li,
-.summary-text>blockquote>ol>li>p,
-.summary-text>blockquote>ol>li,
+.summary-text > blockquote > ul > li > p,
+.summary-text > blockquote > ul > li,
+.summary-text > blockquote > ol > li > p,
+.summary-text > blockquote > ol > li,
 .summary-text > ul > li > p,
 .summary-text > ul > li,
 .summary-text > ol > li > p,
@@ -614,7 +645,7 @@ ul {
   background-color: $bg_dark;
   border-style: solid;
   border-color: $color_base;
-  border-width: 1px;  
+  border-width: 1px;
 }
 
 .spoiler:hover,

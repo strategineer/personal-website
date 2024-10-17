@@ -1,4 +1,4 @@
 ---
-title: Bill Christian Tyros's CV
+title: Bill Tyros's CV
 is_cv: true
 ---
