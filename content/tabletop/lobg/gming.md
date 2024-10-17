@@ -24,6 +24,7 @@ Marlon tried to learn flanking/dnd backstab using range weapons: tried once
 3. ~~Lanmino disappears... [see following]~~
 4. M~~arlon finds a letter in his Cloak of Avoidance from L.G. "Marlon, my dear friend and ally, enjoy this cloak I found just for you. Use it well! PS. I have dire need of your "friend" Lanmino and I will be taking him for now. Yours truly, L.G."~~
 5. PCs enter Vinebeasts + Heart room. A theaticral spotlight shines on a PC, everyone else is frozen in place while the "scene" plays out. The PC will respond to the accusations of the vinebeasts and when they have no responses left or when it feels right, the spotlight will shift to another PC.
+3. PCs find a book, probably [generated with the following table](#table---random-books) (See following bullet point, books are art).
 3. PCs damage/steal art: [The Curator](#the-curator) (big hand thing) becomes aware of them and begins to hound them. Blotbug and Brod must resist commenting on art otherwise they become more (cannibal) critical of them.
 4. [Bondye Reparatè](#bondye-reparatè) encounter PCs: they guide the PCs to [Lady Nine-Bones](#lady-nine-bones) (Halls 17) and she guides them subsequently to Elatior, a safehaven where the party can rest and recover between expeditions into the LoBG.
 6. The ["Oku"](#oku) encounter PCs: ...
@@ -123,6 +124,65 @@ Results below (80-00) only appear once. After that, cross them out and write in 
 | 99 | A Goblin Key that'll lock any door. |
 | 100 | Pair of beads. Crushing bead A will instantly bring crusher to the location of bead B. |
 {.table .table-bordered .table-sm}
+{{< /rpg_table >}}
+
+# Table - Random Books
+
+
+{{< rpg_table name="BookTitles" >}}
+| 1d100| Book Title |
+| -- | --- |
+| 1-2 | Gold, Lead and the Shapers of Reality: A Treatise on Alchemy|
+| 3-4 | The Properties of Inverse Spell Formulary and its Effect on Transmutive Magic|
+| 5-6 | The Tale of the Fifth Sister, an epic and allegorical high adventure story of redemption|
+| 7-8 | Bellnoch’s Guide to the Wilds of the Fey|
+| 9-10 | Fire, Oil and Steel: The Ways of the Forge and Smith|
+| 11-12 | Ally’s Journey to the Magic Castle, a children’s tale of adventure|
+| 13-14 | Under the Storied Moon, a love story between a bard and werewolf|
+| 15-16 | Mimm’s Extraplanar Codex: A Guide to Things That Live Beyond Our Reality|
+| 17-18 | Untraceable Poisons and Their Alternative Uses|
+| 19-20 | The Songs of the Warbling Dragon, a book of absolutely terrible sonnets|
+| 21-22 | Under the Mountain: A Comprehensive History of the Dwarves|
+| 23-24 | Why Are Goblins Green?, a cautionary children’s tale|
+| 25-26 | Codexi Spiritus: The Ghost Hunter’s Lexicon|
+| 27-28 | Fireballs Unlimited: Make a Big Bang and Become|
+| the Ta| lk of the Town|
+| 29-30 | The 10,000 Essential Prophecies of Rupert the Tiny|
+| 31-32 | Social Uses of Necromancy: Why Find Friends When You Can Make Them?|
+| 33-34 | Ungrid Ironhand’s Complete Guide to Arms and Armor|
+| 35-36 | The Telemetry and Physical Constraints of Intraplanar Instantaneous Transmission|
+| 37-38 | Why Warlocks? A Deep Dive Into Those Who Bind Their Souls|
+| 39-40 | Blips, Clicks and Hums: Nero Slipworthy’s Beginner’s Guide to Clockwork Construction|
+| 41-42 | Not Today, a satirical book written as a guide for the lazy bard|
+| 43-44 | No Bones About It: The Bones Know; Understanding the Future Through Osteomancy|
+| 45-46 | Are You There, Xorlack? It’s Me, You: Empathic Connections With Extraplanar Beings|
+| 47-48 | Bang, Zap and Schwing: An Explosive Guide to Evocation|
+| 49-50 | The Owlbear and the Satyr, a feel good story of a garrulous fey and his favorite pet|
+| 51-52 | Knives in the Knight, a gripping tale of betrayal, redemption and stabbing through heavy armor|
+| 53-54 | Is the Astral Sea for Me?: A Travel Guide for the Suicidally Adventurous|
+| 55-56 | The Things You Never Wanted to Know: A History of the World’s Worst Moments|
+| 57-58 | Secret Places of the Ancient Arcanists|
+| 59-60 | Secrets of Secret Cults: A Revealing Look At What They Don’t Want You To Know|
+| 61-62 | The Cart After the Horse: A Guide to Advancements in Autonomous Wagons|
+| 63-64 | Gaffs & Gags: How to Use Cantrips in Practical Jokes|
+| 65-66 | Angelicus Totalis: A Personal Journal of Journeys Through the Heavens|
+| 67-68 | Gitrug and Clarg: Brothers to the End, a harrowing biography of an orc and his adopted goblin| | brothe| r|
+| 69-70 | Never Do What I Did: Billingsly Nertfarthing’s Guide to Teleportation Mishaps|
+| 71-72 | Fire and Ice: A Comparative Treatise on Evocative Spell Construction|
+| 73-74 | Demigods and Avatars: How to Rise to the Top in Three Easy Steps, which seems like a pyramid| | scheme| |
+| 75-76 | A Dark Guide to Forbidden Love Potions|
+| 77-78 | The End of All Things: An Examination Into How the Wish Spell is Going to Destroy the Universe|
+| 79-80 | That’s a Big Nope: Murkat Gobstoppas Guide to Poisonous Insects|
+| 81-82 | Of Gods and Celestial Beings: Are They Really There or Just a Myth?|
+| 83-84 | All You Will Ever Need To Learn About Taverns, Ales and Alcohols, a seminal work by J. Majors|
+| 85-86 | Controlling the Outcome Through Enchantment and Illusion: A Guide to Clouding the Mind|
+| 87-88 | Librum Arcanum Geographica, an atlas of ley lines and magically significant locations|
+| 89-90 | Boogeymen and Other Mythical Terrors: From Baba Yaga to the Jabberwock of the Talion Plains|
+| 91-92 | An Alliance of Fools, a fictional work of political intrigue that seems to closely mirror the| | presen| t|
+| 93-94 | Rain of the Heavens: The Day the Angels Fell|
+| 95-96 | Marl’s Penultimate Cookbook: From Cabbage Soup to Duck a l’Orange, Tavern Floor to King’s Table|
+| 97-98 | Prolific Cloners or Immortal Beings: The Truth About Elves Revealed|
+| 99-100|  The Book: Inside Are All the Answers, a 400-page tome whose pages are completely empty|
 {{< /rpg_table >}}
 
 # NPCs
