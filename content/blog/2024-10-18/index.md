@@ -16,7 +16,7 @@ At the start of the Knight, but this is made clear(er) only in retrospect, Able 
 
 On some level, the Knight is a journey of self-actualization for Able. He's discovering who he is by doing what kids do. They do what the adults around them do and believe what they believe. In Able's case, early on in the Knight, he has a very brief encounter with a knight, Sir Ravd of Redhall.
 
-Initially, this meeting isn't framed as being anything particularily notable for Able. Sir Ravd is a knight and the novel is called the Knight, so as a reader you might expect him to be important (you'd be right) but it's not presented as such. But by the end of novel it's made much more clear that Able's behaviour and beliefs throughout the text can be traced back to his brief meeting with Sir Ravd.
+Initially, this meeting isn't framed as being anything particularly notable for Able. Sir Ravd is a knight and the novel is called the Knight, so as a reader you might expect him to be important (you'd be right) but it's not presented as such. But by the end of novel it's made much more clear that Able's behaviour and beliefs throughout the text can be traced back to his brief meeting with Sir Ravd.
 
 If you'd like to see evidence for this link between Able and Sir Ravd, here's [a really rough draft of essay on exactly this](https://strategineer.com/blog/2024-10-17/).
 
