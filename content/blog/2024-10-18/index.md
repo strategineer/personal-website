@@ -1,6 +1,6 @@
 ---
 title: "That moment when you get isekai-ed into a hierarcichal fantasy world and hijinks ensue"
-date: 2024-09-17
+date: 2024-10-18
 blog/tags:
   - reading
 ---
