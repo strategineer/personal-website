@@ -21,7 +21,7 @@ TLDR: As knights, Sir Ravd and Sir Able are in their right to commit acts of vio
 
 Trying to figure out why Able was acting the way he was acting throughout the story was a big part of the joy of reading the text for me but I can see how this experience could be frustrating. I was so enthralled by Wolfe's words that I felt willing to "go with it" and believe that Wolfe had written Able in an internally consistent way (after reading through both novels, I think Wolfe did).
 
-This is only one piece of the puzzle that is Sir Able of the High Heart. Sir Ravd represents the foundation of who Able is, or wants to become, initially. But throughout the Wizard Knight, this relationship gets further complicated. Able makes mistakes, recognizes them and changes his behaviour and beliefs accordingly and, in doing so, eventually discovers his authentic self and his role within this fantastical universe he's found himself in, both seperate from but influenced by Able's encounter with Sir Ravd.
+This is only one piece of the puzzle that is Sir Able of the High Heart. Sir Ravd represents the foundation of who Able is, or wants to become, initially. But throughout the Wizard Knight, this relationship gets further complicated. Able makes mistakes, recognizes them and changes his behaviour and beliefs accordingly and, in doing so, eventually discovers his authentic self and his role within this fantastical universe he's found himself in, both separate from but influenced by Able's encounter with Sir Ravd.
 
 I really enjoyed watching Able start as someone who's "faking it till he makes it" ("I am a knight") to eventually becoming the person he was always meant to be and that much more.
 
