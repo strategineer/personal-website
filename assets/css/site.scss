@@ -244,9 +244,10 @@ hr + ol {
 // Journals
 blockquote {
   margin-bottom: 0.5em;
-  background: $bg_light;
+  background-color: $bg_light;
   border: 2px $bg_light;
   border-style: solid;
+  border-color: $bg_dark;
 
   p {
     margin-left: 0.1em;
@@ -640,17 +641,35 @@ ul {
 .spoiler,
 .spoiler2,
 .spoiler a,
-.spoiler2 a {
+.spoiler2 a,
+.spoiler > blockquote,
+.spoiler2 > blockquote,
+.spoiler > blockquote > p,
+.spoiler2 > blockquote > p {
   color: $bg_dark;
   background-color: $bg_dark;
+}
+
+.spoiler,
+.spoiler2 {
   border-style: solid;
   border-color: $color_base;
   border-width: 1px;
 }
 
+
 .spoiler:hover,
-.spoiler:hover a {
+.spoiler:hover a,
+.spoiler:hover > blockquote,
+.spoiler:hover > blockquote > p  {
   color: $color_base;
+}
+
+.spoiler:hover > blockquote,
+.spoiler:hover > blockquote > p,
+.spoiler2:hover > blockquote,
+.spoiler2:hover > blockquote > p {
+  background-color: $bg_light;
 }
 
 .spoiler2:hover,
