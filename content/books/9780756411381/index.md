@@ -14,5 +14,7 @@ star_rating: null
 title: The Last Herald-Mage Trilogy
 ---
 
+Sad/mad gay wizards doing sad/mad gay wizard things. Very grim... There are a bunch of Herald Mages running around at the start of this series which begs the question: "What's going to happen to all of the Herald Mages?"
+
 
 <!--more-->

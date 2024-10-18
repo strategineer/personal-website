@@ -147,11 +147,14 @@ def import_books(isbn, tag):
         metadata = {}
         fetched_metadata = {}
         for service in ["goob","openl","wiki"]:
+            print(service)
             try:
                 fetched_metadata = meta(isbn, service=service)
-            except (NotValidISBNError, ISBNNotConsistentError):
+            except (NotValidISBNError, ISBNNotConsistentError) as e:
+                print(e)
                 continue
-            except (urllib.error.HTTPError, ISBNLibHTTPError, ISBNLibURLError):
+            except (urllib.error.HTTPError, ISBNLibHTTPError, ISBNLibURLError) as e:
+                print(e)
                 continue
         if not fetched_metadata:
             print(f"Failed to fetch metadata for isbn: {isbn}")
