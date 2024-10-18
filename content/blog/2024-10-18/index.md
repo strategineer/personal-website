@@ -49,7 +49,7 @@ This isn't a problem that is unique to Able, this same inversion of worshipper a
 
 I can't explain exactly why Able goes about rectifying this relationship between Setr and the fire Aelfs in such a violent way (but this is definitely something I'll be thinking about on my 2nd read).
 
-But I can say that it both lines up with Able's actions as a restorer of the natural/hierarchical order of this universe as well as his understanding of knighthood being hierachical in the sense that knights should receive orders from above (their Duke) and both dominate and protect the people/beings below them (peasants or, in this case, Fire Aelfs). 
+But I can say that it both lines up with Able's actions as a restorer of the natural/hierarchical order of this universe as well as his understanding of knighthood being hierarchical in the sense that knights should receive orders from above (their Duke) and both dominate and protect the people/beings below them (peasants or, in this case, Fire Aelfs). 
 
 
 ...
