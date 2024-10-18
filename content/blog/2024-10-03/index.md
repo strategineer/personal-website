@@ -1,10 +1,13 @@
 ---
-title: "That moment when you get isekai-ed into a fantasy world then you meet a knight and have that experience echo throughout the rest of your life"
+title: "That moment when you get isekai-ed into a hierarcichal fantasy world and hijinks ensue"
 date: 2024-09-17
 blog/tags:
   - reading
-draft: true
 ---
+
+> This is a really rough draft, read the following at your own peril.
+
+> This essay contains spoilers for Gene Wolfe's The Knight.
 
 Able of the High Heart is the POV character in Gene Wolfe's fantasy isekai tryptich The Wizard Knight. I loved the first novel of the set, the Knight, mainly because Able of the High Heart is such an interesting character.
 
