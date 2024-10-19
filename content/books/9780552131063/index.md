@@ -2,8 +2,10 @@
 authors:
 - Terry Pratchett
 books/tags:
-- owned-but-unread
-date: 1800-04-03
+- currently-reading
+- fantasy
+- comic
+date: 2024-10-18
 params:
   isbn13: '9780552131063'
   year: '1988'
