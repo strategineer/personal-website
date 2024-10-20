@@ -15,6 +15,7 @@ Negamancer escaped! he'll be back
 # Learning rolls
 
 Marlon tried to learn flanking/dnd backstab using range weapons: tried once
+Freeya tried to learn how to heal people using Marlon's Staff of Healing: tried once
 
 # Bangs
 

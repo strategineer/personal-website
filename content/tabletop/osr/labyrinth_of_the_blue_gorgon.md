@@ -93,7 +93,21 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 - The Crew continued exploring west, finding another room with giant vines leading to elsewhere in the labyrinth and finding a room with a gigantic yellow rose in it. Freeya using his botanical skills perceived the danger of the rose and countered it by producing temporarily creating skunk scent glands on himself and using them to fill a flask of counter-smell. Allowing for Marlon and Freeya to poke around the flower and eventually through a direct application of fire, burst open the rose's sack filled with the treasure of people who fell for this trap (Goblin Key, Head of a Morningstar smelling of fresh meat and some gold).
 - The Crew, feeling distraught at not having yet been able to give any books to Germander, returned to speak with him and ask for his help. He told them to start by venturing north of the light/pit room and eventually they'd find themselves in the labyrinth's library, tended to by mummy-like reptilian custodians, usually friendly than their non-mummy cousins (chameleon women, etc).
 - The Crew explored the area Germander pointed them to, meeting with the oldest man alive, Sanguifluus with three swords pierced through his body. He asked the Crew to help him by removing these swords from his body because they're causing him intense pain. But his constant coughing produced 3 gaseous beings who want the swords to remain where they are. A fight ensues.
-- Through some miracle, Marlon dissipated 1 of the gaseous beings completely using a surprise attack with his crossbow. Freeya twirled and twirled spewing flames at their enemies. Brod manages to pull one sword out of Sanguifluus's body but breathed in poisonous gas and was electrocuted a few times as a reward for his efforts. Blotbug tried and eventually succeeded in hitting one of these gaseous forms with his newly acquired dagger, leading to the dark smoke transferring from the blade to the gaseous form he hit with the dagger.   
+- Through some miracle, Marlon dissipated 1 of the gaseous beings completely using a surprise attack with his crossbow. Freeya twirled and twirled spewing flames at their enemies. Brod manages to pull one sword out of Sanguifluus's body but breathed in poisonous gas and was electrocuted a few times as a reward for his efforts. Blotbug tried and eventually succeeded in hitting one of these gaseous forms with his newly acquired dagger, leading to the dark smoke transferring from the blade to the gaseous form he hit with the dagger.
+
+## Session 5
+
+[WIP]
+
+- crew survived the encounter with the gaeous Guards by removing all the swords from sanguiflus. Freeya helped with camel spit, brod used strength and blotbug pulled one too, marlon healed brod with 1 hp
+
+- rope bridge,  Rat used for scouting then rope tied between everyone with blotbug keeping the scroll of feather fall ready just in case as well a freeya prepping to fixed object a spike in case
+
+- chess piece and gorgon child room (blotbug communed with chess pieces while freeya fixed pbject a caltrop to get the Gordon child to commit the chess pieces it has undigested in its cost stomach) and blotbug let his inner art appreciatior/critic come out during his experience with the chess pieces
+
+- black line room,  marlon and brod scarred by their deepest fears (destitution,  and drowning respectively), freeya and blotbug avoided theirs (art critics,  and wolves respectively)
+
+- crew ambushed by the chameleon women while they're split up
 
 # One Pager
 
