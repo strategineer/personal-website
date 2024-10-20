@@ -2,14 +2,14 @@
 authors:
 - Terry Pratchett
 books/tags:
-- currently-reading
 - fantasy
 - comic
-date: 2024-10-18
+date: 2024-10-20
 params:
   isbn13: '9780552131063'
   year: '1988'
 slug: '9780552131063'
+star_rating: 4
 title: Mort
 ---
 
