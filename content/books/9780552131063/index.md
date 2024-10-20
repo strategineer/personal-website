@@ -4,7 +4,7 @@ authors:
 books/tags:
 - fantasy
 - comic
-date: 2024-10-18
+date: 2024-10-20
 params:
   isbn13: '9780552131063'
   year: '1988'
