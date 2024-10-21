@@ -17,6 +17,8 @@ Another Terry Pratchett banger. Mort takes awhile to get going but once it does 
 
 <!--more-->
 
+![](magic_is_stored_in_the_balls.jpg)
+
 {{< quote "97" >}}
 "He doesn't like wizards and witches much," Mort volunteered.
 
