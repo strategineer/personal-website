@@ -51,7 +51,7 @@ This could be just a coincidence. The reason that I don't think it is one, is be
 
 At some point, Pratchett comments on the fact that wizards are celibate in Discworld, or something to that effect.
 
-If you've read Le Guin's Earthsea series, you'll know about the way she depicts certain wizards as being volantarily celibate because they believe that having intimite relations will drain their magical powers.
+If you've read Le Guin's Earthsea series, you'll know about the way she depicts certain wizards as being voluntarily celibate because they believe that having intimate relations will drain their magical powers.
 
 Something to think about.
 
