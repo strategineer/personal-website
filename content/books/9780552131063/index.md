@@ -51,8 +51,8 @@ This could be just a coincidence. The reason that I don't think it is one, is be
 
 At some point, Pratchett comments on the fact that wizards are celibate in Discworld, or something to that effect.
 
-If you've read Le Guin's Earthsea series, you'll know about the way she depicts certain wizards as being voluntarily celibate because they believe that having intimate relations will drain their magical powers.
+If you've read Le Guin's Earthsea series, you'll know about the way she depicts certain wizards as being voluntarily celibate because they believe that having intimate relations with women will drain their magical powers.
 
-Something to think about.
+Neither Le Guin's Earthsea series nor Terry Pratchett's Discworld (although I'm not complete on that one), touches on gay wizards, if you're interested in that, please check out [Mercedeys Lackey's The Last Herald-Mage Trilogy](/books/9780756411381).
 
-On a sidenote, there's nothing said about gay wizards in Le Guin's Earthsea series nor Terry Pratchett's Discworld (although I'm not complete on that one), if you're interested in that, please check out [Mercedeys Lackey's The Last Herald-Mage Trilogy](/books/9780756411381).
+PS: Remember kids, magic is stored in the balls.
