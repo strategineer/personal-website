@@ -9,7 +9,7 @@ params:
   year: '2010'
 slug: '9780061671340'
 star_rating: 3
-title: The Child Thief - A Novel
+title: The Child Thief
 ---
 
 An edgy retelling of Peter Pan by Brom, the illustrator who's work you've definitely seen before (Doom II, Diablo II).

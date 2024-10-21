@@ -8,7 +8,7 @@ params:
   isbn13: '9780062978578'
   year: '2020'
 slug: '9780062978578'
-title: Hench - A Novel
+title: Hench
 ---
 
 <!--more-->

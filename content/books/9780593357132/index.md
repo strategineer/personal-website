@@ -9,7 +9,7 @@ params:
   year: '2021'
 slug: '9780593357132'
 star_rating: 3
-title: The Martian - A Novel
+title: The Martian
 ---
 
 An astronaut is abandoned on Mars after a dust storm separates him from his crew. Through journal entries, he tells the story of how he tries to survive.
