@@ -55,6 +55,6 @@ At some point, Pratchett comments on the fact that wizards are celibate in Discw
 
 If you've read Le Guin's Earthsea series, you'll know about the way she depicts certain wizards as being voluntarily celibate because they believe that having intimate relations with women will drain their magical powers.
 
-Neither Le Guin's Earthsea series nor Terry Pratchett's Discworld (although I'm not complete on that one), touches on gay wizards, if you're interested in that, please check out [Mercedeys Lackey's The Last Herald-Mage Trilogy](/books/9780756411381).
+Neither Le Guin's Earthsea series nor Terry Pratchett's Discworld (although I'm not complete on that one), touches on gay wizards, if you're interested in that, please check out [Mercedes Lackey's The Last Herald-Mage Trilogy](/books/9780756411381).
 
 PS: Remember kids, magic is stored in the balls.
