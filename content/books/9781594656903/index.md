@@ -15,5 +15,4 @@ star_rating: null
 title: Deconstructing The Incal
 ---
 
-
 <!--more-->

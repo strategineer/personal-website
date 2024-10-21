@@ -2,8 +2,8 @@
 authors:
 - Alejandro Jodorowsky
 books/tags:
-- comics
 - anthology
+- comics
 date: 2024-08-16
 params:
   isbn13: '9781594651380'

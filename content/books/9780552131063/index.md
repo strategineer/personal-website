@@ -2,8 +2,8 @@
 authors:
 - Terry Pratchett
 books/tags:
+- comedy
 - fantasy
-- comic
 date: 2024-10-20
 params:
   isbn13: '9780552131063'

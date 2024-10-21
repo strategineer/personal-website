@@ -2,9 +2,9 @@
 authors:
 - Stanislaw Lem
 books/tags:
-- science fiction
 - comedy
 - horror
+- science fiction
 - slavic
 date: 2024-03-13
 params:

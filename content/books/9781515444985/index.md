@@ -2,10 +2,10 @@
 authors:
 - Roger Zelazny
 books/tags:
-- science fiction
-- detective fiction
-- comedy
 - slay
+- comedy
+- detective fiction
+- science fiction
 date: 2023-07-25
 params:
   isbn13: '9781515444985'

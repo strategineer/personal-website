@@ -2,12 +2,12 @@
 authors:
 - Lady Wylde
 books/tags:
-- myth
 - did-not-finish
+- myth
 date: 2024-03-25
 params:
-  progress: 70%
   isbn13: '9781398834323'
+  progress: 70%
   year: '2023'
 slug: '9781398834323'
 star_rating: 1

@@ -2,8 +2,8 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
-- science fiction
 - slay
+- science fiction
 date: 2024-05-20
 params:
   isbn13: '9781786693907'

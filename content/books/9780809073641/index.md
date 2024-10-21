@@ -2,8 +2,8 @@
 authors:
 - Elie Wiesel
 books/tags:
-- non-fiction
 - memoir
+- non-fiction
 date: 2022-03-01
 params:
   isbn13: '9780809073641'

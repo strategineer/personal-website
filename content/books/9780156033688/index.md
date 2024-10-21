@@ -2,8 +2,8 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- historical fiction
 - slay
+- historical fiction
 date: 2024-06-26
 params:
   isbn13: '9780156033688'

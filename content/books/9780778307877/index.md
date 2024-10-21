@@ -2,8 +2,8 @@
 authors:
 - Holly Smale
 books/tags:
-- autism
 - slay
+- autism
 date: 2023-06-17
 params:
   isbn13: '9780778307877'

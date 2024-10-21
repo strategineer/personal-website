@@ -2,8 +2,8 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- fantasy
 - slay
+- fantasy
 date: 2023-07-30
 params:
   isbn13: '9780547722023'

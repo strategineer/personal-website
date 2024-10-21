@@ -2,8 +2,8 @@
 authors:
 - Cesca Major
 books/tags:
-- romance
 - slay
+- romance
 date: 2024-03-16
 params:
   isbn13: '9780063239920'

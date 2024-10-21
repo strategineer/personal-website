@@ -3,8 +3,8 @@ authors:
 - Joe James
 - Marie-Laure Del Vecchio
 books/tags:
-- non-fiction
 - autism
+- non-fiction
 date: 2024-05-03
 params:
   isbn13: '9781399806855'

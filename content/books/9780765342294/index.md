@@ -2,8 +2,8 @@
 authors:
 - Orson Scott Card
 books/tags:
-- science fiction
 - childhood
+- science fiction
 date: 2005-08-04
 params:
   isbn13: '9780765342294'

@@ -1,17 +1,16 @@
 ---
 authors:
-  - Becky Chambers
+- Becky Chambers
 books/tags:
-  - fiction
-  - science fiction
-  - slay
+- slay
+- science fiction
 date: 2024-07-03
 params:
-  isbn13: "9780062444134"
+  isbn13: '9780062444134'
   series: The Wayfarers
   series_order: '1'
-  year: "2016"
-slug: "9780062444134"
+  year: '2016'
+slug: '9780062444134'
 star_rating: 5
 title: The Long Way To A Small, Angry Planet
 ---

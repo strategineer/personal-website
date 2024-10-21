@@ -32,4 +32,4 @@ This trilogy isn't my favorite of Adrian Tchaikovsky's work, that award goes to 
 
 But The Final Architecture is definitely his best science fiction trilogy because unlike Children of Time which was turned into a series after the fact, The Final Architecture was clearly created as a trilogy from the first place.
 
-If you're into space operas, this one is great and it's got everything that Adrian Tchaikovsky is known for. An anti-social, brainy, mostly passive protagonist in a world filled with very alien aliens, many of whom are important POV characters each with a unique narrative voice.  
+If you're into space operas, this one is great and it's got everything that Adrian Tchaikovsky is known for. An anti-social, brainy, mostly passive protagonist in a world filled with very alien aliens, many of whom are important POV characters each with a unique narrative voice.

@@ -1,5 +1,5 @@
 {{ $tag_name := "/tags" | printf "%s%s" .Section }}
-{{ $tags := sort (.GetTerms $tag_name ) ".LinkTitle" "asc" }}
+{{ $tags := (.GetTerms $tag_name ) }}
 {{ $is_page := eq .Kind "page" }}
 {{ if $tags }}
   <div class="d-flex justify-content-center d-flex-inline-list text-center">

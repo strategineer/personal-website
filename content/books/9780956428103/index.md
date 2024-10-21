@@ -2,9 +2,9 @@
 authors:
 - Dave Macleod
 books/tags:
-- non-fiction
-- climbing
 - trash
+- climbing
+- non-fiction
 date: 2022-09-16
 params:
   isbn13: '9780956428103'

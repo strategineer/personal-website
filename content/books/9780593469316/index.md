@@ -2,9 +2,9 @@
 authors:
 - Nana Kwame Adjei-Brenyah
 books/tags:
-- science fiction
-- dystopian
 - slay
+- dystopian
+- science fiction
 date: 2024-04-30
 params:
   isbn13: '9780593469316'

@@ -3,8 +3,8 @@ authors:
 - Dale Goddard
 - Udo Neumann
 books/tags:
-- non-fiction
 - climbing
+- non-fiction
 date: 2022-09-17
 params:
   isbn13: '9780811722193'

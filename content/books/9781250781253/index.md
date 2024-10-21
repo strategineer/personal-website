@@ -2,9 +2,9 @@
 authors:
 - Gene Wolfe
 books/tags:
-- science fantasy
-- post-apocalyptic
 - slay
+- post-apocalyptic
+- science fantasy
 date: 2024-02-11
 params:
   isbn13: '9781250781253'

@@ -2,8 +2,8 @@
 authors:
 - Aldous Huxley
 books/tags:
-- science fiction
 - dystopian
+- science fiction
 date: 2023-01-08
 params:
   isbn13: '9780307356543'

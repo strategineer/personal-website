@@ -273,8 +273,17 @@ def find_isbns():
                     write_post(post, filename)
 
 
+def sorting_fn(a):
+    pre_sort = ["currently-reading", "did-not-finish", "slay", "trash"]
+    if a in pre_sort:
+        return f"_{pre_sort.index(a)}"
+    post_sort = ["unowned", "owned-but-unread"]
+    if a in post_sort:
+        return f"zzz{post_sort.index(a)}"
+    return a
+
 @click.command()
-def normalize_dates():
+def sort_tags():
     """uhhh this is messy, it's meant to be a sort of validation/fixup step"""
     filenames = glob.glob("content/books/*/index.md")
     for filename in filenames:
@@ -286,31 +295,10 @@ def normalize_dates():
                     f"Failed to load file {filename} with frontmatter parser due to unicode error"
                 )
                 continue
-        folder_date = Path(filename).parent.parts[-1]
-        if folder_date == str(post.metadata["date"]):
-            # TODO strat, use slug folders if I can
-            print(folder_date)
-            print(post.metadata["date"])
-            new_filename = Path.joinpath(Path(filename).parent.parent, post.metadata["slug"], "index.md")
-            print(new_filename)
-            write_post(post, new_filename)
-            Path(filename).unlink()
-            for f in glob.glob(f"{Path(filename).parent}/**"):
-                Path(f).rename(f.replace(folder_date, post.metadata["slug"]))
-        continue
-        if "slug" not in post.metadata and "params" in post.metadata and "isbn13" in post.metadata["params"]:
-            post.metadata["slug"] = post.metadata["params"]["isbn13"]
-            write_post(post, filename)
-        if isinstance(post.metadata["date"], str):
-            post.metadata["date"] = date.fromisoformat(folder_date)
-            write_post(post, filename)
-        elif post.metadata["date"] != folder_date:
-            if "owned-but-unread" in post.metadata["books/tags"]:
-                post.metadata["books/tags"].remove("owned-but-unread")
-            if "weight" in post.metadata:
-                del post.metadata["weight"]
-            if "star_rating" not in post.metadata:
-                post.metadata["star_rating"] = 0
+        if post.metadata["books/tags"]:
+            sorted_tags = sorted(post.metadata["books/tags"], key=sorting_fn)
+            if sorted_tags != post.metadata["books/tags"]:
+                post.metadata["books/tags"] = sorted_tags
             write_post(post, filename)
 
 
@@ -454,7 +442,7 @@ def rename_reaction_gif(a, b):
 cli.add_command(import_books)
 cli.add_command(fetch_thumbnails)
 cli.add_command(find_isbns)
-cli.add_command(normalize_dates)
+cli.add_command(sort_tags)
 cli.add_command(upload)
 cli.add_command(find_used_books)
 cli.add_command(rename_reaction_gif)

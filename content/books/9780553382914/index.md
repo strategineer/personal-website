@@ -2,8 +2,8 @@
 authors:
 - K.J. Bishop
 books/tags:
-- fantasy
 - slay
+- fantasy
 date: 2024-09-16
 params:
   isbn13: '9780553382914'

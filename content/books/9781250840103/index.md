@@ -8,8 +8,8 @@ params:
   isbn13: '9781250840103'
   year: '2022'
 slug: '9781250840103'
-title: Fifth Head of Cerberus
 star_rating: 2
+title: Fifth Head of Cerberus
 ---
 
 The Fifth Head of Cerberus is three novellas Frankenstein-ed together, it lacks the cohesiveness that Wolfe's Book of the New Sun has. It feels like a prototype of what Gene Wolfe would go on to write.

@@ -2,8 +2,8 @@
 authors:
 - Terry Pratchett
 books/tags:
-- fantasy
 - comedy
+- fantasy
 date: 2023-06-24
 params:
   isbn13: '9780552148405'

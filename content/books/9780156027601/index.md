@@ -2,8 +2,8 @@
 authors:
 - Stanislaw Lem
 books/tags:
-- science fiction
 - horror
+- science fiction
 - slavic
 date: 2023-08-11
 params:

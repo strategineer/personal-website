@@ -3,8 +3,8 @@ authors:
 - Frederik Peeters
 - Pierre Oscar Levy
 books/tags:
-- comics
 - trash
+- comics
 date: 2021-07-22
 params:
   isbn13: '9781906838386'

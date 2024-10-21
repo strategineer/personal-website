@@ -2,8 +2,8 @@
 authors:
 - Kiyohiko Azuma
 books/tags:
-- comics
 - comedy
+- comics
 date: 2015-08-29
 params:
   isbn13: '9780316077385'

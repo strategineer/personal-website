@@ -3,8 +3,8 @@ authors:
 - Yevgeny Zamyatin
 - Mirra Ginsburg
 books/tags:
-- science fiction
 - dystopian
+- science fiction
 - slavic
 date: 2024-04-14
 params:

@@ -3,9 +3,9 @@ authors:
 - Stephen King
 books/tags:
 - slay
-- thriller
-- mystery
 - horror
+- mystery
+- thriller
 date: 2024-09-07
 params:
   isbn13: '9780340992586'

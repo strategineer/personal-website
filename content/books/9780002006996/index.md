@@ -2,8 +2,8 @@
 authors:
 - Kenneth Oppel
 books/tags:
-- unowned
 - childhood
+- unowned
 date: 2005-08-03
 params:
   isbn13: '9780002006996'

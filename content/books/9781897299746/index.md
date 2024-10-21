@@ -2,8 +2,8 @@
 authors:
 - Yoshihiro Tatsumi
 books/tags:
-- comics
 - did-not-finish
+- comics
 date: 2017-12-10
 params:
   isbn13: '9781897299746'

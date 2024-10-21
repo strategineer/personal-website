@@ -10,8 +10,8 @@ params:
   isbn13: '9781593070205'
   year: '2003'
 slug: '9781593070205'
-title: Berserk
 star_rating: 4
+title: Berserk
 ---
 
 Berserk is a gritty medieval fantasy manga by Kentaro Miura, who may have been one of the greatest artists ever. His art will absolutely floor you time and time again.
@@ -52,4 +52,4 @@ Comparing Casca's fragility to Guts, Guts gets hurt constantly but he always get
 
 It seems like an anti-chosen one story which suffers from similar problems to a chosen one story. Fate and prophecy (and determinism?) play a role in fueling this idea that the suffering of Guts is inevitable and nothing can be done about it. "The Current of Causality" is a constant refrain spoken by the Skeleton King that perhaps is meant to communicate both the truth of our inability to change our fate and the futility of fighting against it.
 
-The use of Skeleton Knight Ex Machina a bunch of times gets a little old. Considering the forces Guts is fighting against, it makes sense that he would need a powerful ally in that fight if we want to see him survive. But the Skeleton Knight's motives are unclear and his actions feel unearned at times. 
+The use of Skeleton Knight Ex Machina a bunch of times gets a little old. Considering the forces Guts is fighting against, it makes sense that he would need a powerful ally in that fight if we want to see him survive. But the Skeleton Knight's motives are unclear and his actions feel unearned at times.

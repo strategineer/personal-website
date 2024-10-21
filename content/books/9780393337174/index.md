@@ -3,9 +3,9 @@ authors:
 - Avinash K. Dixit
 - Barry Nalebuff
 books/tags:
-- unowned
 - did-not-finish
 - non-fiction
+- unowned
 date: 2021-12-20
 params:
   isbn13: '9780393337174'

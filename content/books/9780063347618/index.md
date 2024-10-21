@@ -2,8 +2,8 @@
 authors:
 - James Norbury
 books/tags:
-- philosophy
 - comics
+- philosophy
 date: 2024-04-24
 params:
   isbn13: '9780063347618'

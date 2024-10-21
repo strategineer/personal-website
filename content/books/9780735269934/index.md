@@ -2,9 +2,9 @@
 authors:
 - Xiran Jay Zhao
 books/tags:
+- slay
 - science fiction
 - young adult
-- slay
 date: 2023-09-13
 params:
   isbn13: '9780735269934'

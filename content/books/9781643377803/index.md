@@ -3,9 +3,9 @@ authors:
 - Alejandro Jodorowsky
 - Moebius
 books/tags:
+- slay
 - comics
 - science fiction
-- slay
 date: 2024-08-14
 params:
   isbn13: '9781643377803'

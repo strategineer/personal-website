@@ -2,8 +2,8 @@
 authors:
 - N. K. Jemisin
 books/tags:
-- science fantasy
 - slay
+- science fantasy
 date: 2023-07-29
 params:
   isbn13: '9780316229296'

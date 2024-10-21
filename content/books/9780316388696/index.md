@@ -2,8 +2,8 @@
 authors:
 - Ann Leckie
 books/tags:
-- fantasy
 - trash
+- fantasy
 date: 2023-09-25
 params:
   isbn13: '9780316388696'

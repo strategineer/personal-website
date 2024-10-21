@@ -2,8 +2,8 @@
 authors:
 - Gene Wolfe
 books/tags:
-- science fantasy
 - post-apocalyptic
+- science fantasy
 date: 2024-02-19
 params:
   isbn13: '9781250827036'

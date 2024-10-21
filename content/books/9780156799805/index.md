@@ -2,9 +2,9 @@
 authors:
 - Lu Dongbin
 books/tags:
-- philosophy
-- trash
 - did-not-finish
+- trash
+- philosophy
 date: 2023-11-25
 params:
   isbn13: '9780156799805'

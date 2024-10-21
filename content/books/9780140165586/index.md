@@ -2,13 +2,13 @@
 authors:
 - Joshua Halberstam
 books/tags:
-- philosophy
-- trash
 - did-not-finish
+- trash
+- philosophy
 date: 2023-09-18
 params:
-  progress: 50%
   isbn13: '9780140165586'
+  progress: 50%
   year: '1994'
 slug: '9780140165586'
 star_rating: 1

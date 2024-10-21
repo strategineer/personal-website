@@ -9,7 +9,7 @@ params:
   year: '2015'
 slug: '9781443428453'
 star_rating: 3
-title: 'Area X'
+title: Area X
 ---
 
 The Annihilation book was OK but the movie is better.

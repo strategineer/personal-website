@@ -2,8 +2,8 @@
 authors:
 - Annie Kotowicz
 books/tags:
-- non-fiction
 - autism
+- non-fiction
 date: 2024-05-13
 params:
   isbn13: '9798986482712'

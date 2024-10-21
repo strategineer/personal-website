@@ -11,7 +11,7 @@ params:
 slug: '9781594650420'
 star_rating: 4
 title: The Eyes Of The Cat
---- 
+---
 
 {{< quote >}}
 Whenever he [Moebius] finished a page, he would call me on the telephone. Driven by an irresistible curiosity, I would immediately get in my car to go see him. Every time I saw a new page, I swear on the life of my cat Kazan that I experienced a spiritual pleasure exceeding that of an orgasm. There before my eyes, I had the undeniable proof that comic book art was great art, just as respectable as the paintings hanging on the walls of museums.

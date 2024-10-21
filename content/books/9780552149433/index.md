@@ -2,9 +2,9 @@
 authors:
 - Terry Pratchett
 books/tags:
-- fantasy
-- comedy
 - slay
+- comedy
+- fantasy
 date: 2023-06-23
 params:
   isbn13: '9780552149433'

@@ -2,9 +2,9 @@
 authors:
 - C. Thi Nguyen
 books/tags:
+- did-not-finish
 - non-fiction
 - philosophy
-- did-not-finish
 date: 2022-09-14
 params:
   isbn13: '9780190052089'

@@ -2,9 +2,9 @@
 authors:
 - Patricia Lockwood
 books/tags:
-- non-fiction
-- memoir
 - slay
+- memoir
+- non-fiction
 date: 2023-07-07
 params:
   isbn13: '9780399573262'

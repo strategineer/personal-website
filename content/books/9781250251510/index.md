@@ -2,9 +2,9 @@
 authors:
 - Robert Jordan
 books/tags:
-- unowned
 - did-not-finish
 - trash
+- unowned
 date: 2021-11-21
 params:
   isbn13: '9781250251510'

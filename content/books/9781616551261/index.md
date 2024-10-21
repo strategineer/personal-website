@@ -12,5 +12,4 @@ star_rating: null
 title: Fagin The Jew
 ---
 
-
 <!--more-->

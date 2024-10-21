@@ -2,9 +2,9 @@
 authors:
 - Holmes H. Welch, Jr.
 books/tags:
-- owned-but-unread
 - non-fiction
 - philosophy
+- owned-but-unread
 date: 2024-04-21
 params:
   isbn13: '9780807059739'

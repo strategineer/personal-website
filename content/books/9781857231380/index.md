@@ -2,10 +2,10 @@
 authors:
 - Iain Banks
 books/tags:
-- science fiction
+- slay
 - comedy
 - satire
-- slay
+- science fiction
 date: 2024-05-10
 params:
   isbn13: '9781857231380'

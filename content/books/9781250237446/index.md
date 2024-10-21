@@ -2,8 +2,8 @@
 authors:
 - Gene Wolfe
 books/tags:
-- fantasy
 - slay
+- fantasy
 date: 2024-10-11
 params:
   isbn13: '9781250237446'
@@ -29,4 +29,4 @@ Able really wants to become a knight, and he's got both the body and the determi
 
 He's got BIG main character energy and he seems fated for success but his path to it isn't as smooth as it could be due to his unique set of weaknesses. 
 
-Perhaps, this is one of Wolfe's funniest books due to this discrepancy between your expectations about the story and the curveballs Wolfe's is constantly throwing at the reader. 
+Perhaps, this is one of Wolfe's funniest books due to this discrepancy between your expectations about the story and the curveballs Wolfe's is constantly throwing at the reader.

@@ -5,8 +5,8 @@ authors:
 books/tags:
 - did-not-finish
 - comics
-- science fiction
 - myth
+- science fiction
 date: 2024-08-14
 params:
   isbn13: '9781632159274'

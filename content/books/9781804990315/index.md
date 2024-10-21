@@ -2,8 +2,8 @@
 authors:
 - Terry Pratchett
 books/tags:
-- fantasy
 - comedy
+- fantasy
 date: 2022-11-28
 params:
   isbn13: '9781804990315'

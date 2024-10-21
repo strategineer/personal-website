@@ -2,8 +2,8 @@
 authors:
 - Osamu Tezuka
 books/tags:
-- unowned
 - comics
+- unowned
 date: 2017-05-26
 params:
   isbn13: '9781934287729'

@@ -2,8 +2,8 @@
 authors:
 - Jim C. Hines
 books/tags:
-- science fiction
 - trash
+- science fiction
 date: 2023-08-17
 params:
   isbn13: '9780756412746'

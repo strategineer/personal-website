@@ -3,8 +3,8 @@ authors:
 - Dan Hague
 - Douglas Hunter
 books/tags:
-- non-fiction
 - climbing
+- non-fiction
 date: 2022-09-15
 params:
   isbn13: '9780811733397'

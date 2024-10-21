@@ -2,9 +2,9 @@
 authors:
 - Mary Gentle
 books/tags:
-- historical fiction
-- fantasy
 - slay
+- fantasy
+- historical fiction
 date: 2024-06-16
 params:
   isbn13: '9780575069015'

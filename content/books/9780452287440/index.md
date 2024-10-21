@@ -2,9 +2,9 @@
 authors:
 - Julian Baggini
 books/tags:
+- trash
 - non-fiction
 - philosophy
-- trash
 date: 2022-04-15
 params:
   isbn13: '9780452287440'

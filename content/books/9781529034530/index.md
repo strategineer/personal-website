@@ -2,8 +2,8 @@
 authors:
 - Douglas Adams
 books/tags:
-- science fiction
 - comedy
+- science fiction
 date: 2012-05-02
 params:
   isbn13: '9781529034530'

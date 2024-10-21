@@ -10,8 +10,8 @@ params:
   series_order: 3
   year: '2021'
 slug: '9781940410548'
-title: Delta Green - Impossible Landscapes
 star_rating: 5
+title: Delta Green - Impossible Landscapes
 ---
 
 A Delta Green campaign module based on the King in Yellow, where investigators start with an investigation into a missing persons case tied to the King in Yellow and get sucked into that world.

@@ -2,8 +2,8 @@
 authors:
 - Frank Herbert
 books/tags:
-- science fiction
 - slay
+- science fiction
 date: 2024-07-20
 params:
   isbn13: '9780441172719'
