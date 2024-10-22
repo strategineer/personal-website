@@ -5,7 +5,7 @@ books/tags:
 - currently-reading
 - fantasy
 - science fiction
-date: 2024-10-21
+date: 2024-10-22
 params:
   isbn13: '9781598537536'
   year: '2023'
