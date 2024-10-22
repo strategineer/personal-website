@@ -2,8 +2,10 @@
 authors:
 - Joanna Russ
 books/tags:
-- owned-but-unread
-date: 2024-10-13
+- currently-reading
+- fantasy
+- science fiction
+date: 2024-10-21
 params:
   isbn13: '9781598537536'
   year: '2023'
