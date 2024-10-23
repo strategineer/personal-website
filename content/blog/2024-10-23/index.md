@@ -21,7 +21,7 @@ In no particular order, here's a list of lessons I learned throughout my recent 
 ## use the right tool
 
 - Foundry VTT
-- shitty voices is funner than not, give them a unique gimmick or trick and pratice (if you can't do it, then describe the voice and speak normally)
+- shitty voices is funner than not, give them a unique gimmick or trick and practice (if you can't do it, then describe the voice and speak normally)
 - write a one-page for the campaign you'd like to run so everyone is on the same page (ref: D&D 5E - Michael E. Shea - Sly Flourish's The Lazy DM's Companion)
 - Stars and Wishes
 - So You Want to Be A Gamemaster by Justine Alexander (especially Bangs)
