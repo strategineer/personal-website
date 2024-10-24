@@ -18,13 +18,57 @@ I've learned A LOT and I'd like to share what I've learned thus far in hopes tha
 
 In no particular order, here's a list of lessons I learned throughout my recent experience of gming.
 
-## use the right tool
+## Use Foundry VTT for hassle free snappy online roleplaying
 
-- Foundry VTT
-- shitty voices is funner than not, give them a unique gimmick or trick and practice (if you can't do it, then describe the voice and speak normally)
-- write a one-page for the campaign you'd like to run so everyone is on the same page (ref: D&D 5E - Michael E. Shea - Sly Flourish's The Lazy DM's Companion)
-- Stars and Wishes
-- So You Want to Be A Gamemaster by Justine Alexander (especially Bangs)
+The Foundry virtual tabletop is cheap and it, will, after a few hours of setup allow you to play your favorite tabletop roleplaying game online with little to no hassle.
+
+Playing with it vs. without it is like night and day. Completely different and I know that I'm going to have a really hard time convince myself or my players to have sessions online without using Foundry VTT.
+
+## Bring your characters to life with voices
+
+At the minimum, give each NPC that speaks a particular vocal/verbal (or gestural if you're playing in person) gimmick that players can associate with the character so they can remember the character more easily when they show up again.
+
+Worst case, if get some performance anxiety and I'm unable to call forth a particular voice then instead of fumbling through it I describe the voice to the players then speak normally.
+
+## Write a one-pager for the one-shot or campaign you're planning to run
+
+When GMing a one-shot or a campaign, it's important for you to make sure that you and all of your players are on the same page with respect to what kind of one-shot or campaign you're planning to run.
+
+Your players need to know what kind of characters
+
+
+This document will be handy for gathering players as well.
+
+Refer to page 10 of Sly Flourish's The Lazy DM's Companion by Michael E. Shea for more details on this.
+
+## Enforce basic relationships during character creation
+
+No matter what system you're using, ensure that each PC has at least one relationship with another PC in the party as well as one relationship to someone in the world.
+
+This helps tie the PCs together and ground them in the setting of the game. As the GM, you can use these relationships as the foundation for further integrting these characters in the world.
+
+For example, Blotbug the goblin witch has a relationship to the Cult of the Shattered Moon who tried to ritually sacrifice him to their Dark God. He barely escaped with his life.
+
+Is the Cult of the Shattered Moon still after him? If so, why? Why did they try to sacrifice him in particular? How has this event affected him? etc.
+
+## Use the Stars and Wishes system to encourage a per-session constructive feedback loop that helps you GM better sessions for your players
+
+The Stars and Wishes system ([described in more detail here](https://www.gauntlet-rpg.com/blog/stars-and-wishes)) essentially forces players at the end of a session to provide positive and constructive feedback to other the GM and other players about the session. This creates a feedback loop that is extremely helpful as a GM because it ensures that your players are given ample opportunity to say what's working for them and what isn't so that you can change subsequent sessions accordingly and be confident that you're all having as much fun as possible.
+
+A **Star** is simply a positive comment on one part of session, this can be another player's roleplaying, a voiced NPC, this can be a fun combat encounter, etc.
+
+A **Wish** is simply something that the player wants for the next session, this can be something meta like wanting the group to have a leader to speed up the process of deciding where the party goes next or a story beat that they want their character to nail or if the party wants to put a spotlight on a particular character.
+
+This system is simple but it's crazy how effective it is in both making me confident that as a group we're optimizing for fun and every session is building on the previous one in a way that everybody likes.
+
+## Read So You Want to Be A Gamemaster by Justine Alexander (especially Bangs)
+
+This is a great book with a bunch of cool stuff in it but the best thing are bangs. ...
+
+
+##
+
+
 - use a good adventure/module/dungeon and build on it instead of doing everything from scratch
   - gives me the space to focus on building story/NPCs/encounters specifically for PCs instead of having to build everything
 - write summaries for each session
