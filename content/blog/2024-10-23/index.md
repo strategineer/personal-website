@@ -61,19 +61,55 @@ A **Wish** is simply something that the player wants for the next session, this 
 
 This system is simple but it's crazy how effective it is in both making me confident that as a group we're optimizing for fun and every session is building on the previous one in a way that everybody likes.
 
-## Read So You Want to Be A Gamemaster by Justine Alexander (especially Bangs)
+## Bangs
 
 This is a great book with a bunch of cool stuff in it but the best thing are bangs. ...
 
+A **bang** is a scene/moment that you've come up with and you know that you want to have your PCs have. This could be something like meeting a new NPC
 
-##
+Because the tabletop roleplaying experience tends to be rather improvisiontal and reactive based on what your players decide to do, you have to still be able to prep these **bangs** and insert them ad-hoc at the right time.
 
+Refer to *So You Want to Be A Gamemaster* by Justine Alexander for more info on Bangs (just reading this text levelled up my GMing ability ten-fold, at least it feels like it)
 
-- use a good adventure/module/dungeon and build on it instead of doing everything from scratch
-  - gives me the space to focus on building story/NPCs/encounters specifically for PCs instead of having to build everything
-- write summaries for each session
-  - even if you don't plan on using them for anything (like verbally summarizing the previous session, at the start of a session), it's useful because you can pick out interesting moments / events and then give yourself an opportunity to build on that in your prep / writing of subsequent bangs
-- make PC decisions matter
-  - it doesn't have to be big, but even the smallest recognition of a choice that a player made previously, adds to the roleplaying experience in a big way
+## Find a good adventure/module/dungeon and run WITH it
+
+Using good source material as a foundation for my campaign has allowed me to spend all of my creative energy on character-focused story moments instead of forcing myself to build everything from scratch every week.
+
+On a bad week, when I'm low on ideas I can always fallback on running the module (in my case, the megadungeon) as-is. The extensive pre-campaign prep I did in searching for the perfect module for my group and the extensive pre-session zero prep I did has paid off tremendously because I know that I can always fallback on a solid foundation that will provide a better than average experience for my players even without extensive pre-session prep.
+
+NB: Knowing the module inside and out helps with improving cool things on the fly as well.
+
+## Write session summaries (even if you don't plan on sharing them)
+
+The process of writing post-session summaries has helped me recognize and me remember all the notable, cool, interesting moments and decisions players make during a session. This process makes it much easier for me to come up with ideas and [bangs](#bangs) to insert into subsequent sessions.
+
+In the campaign I'm playing now, at the start of each session I verbally summarize the previous session's summary and that seems to be both appreciated by at least some of my players as well as helps with getting players back into the appropriate roleplaying headspace by setting the scene and letting them take the wheel after that.
+
+In previous campaigns, I'd try to write down important moments during each session but in practice I found that running the session and being a notetaker was too much for my small brain to handle. For whatever reason, after the session is over I've found it much easier to write down a summary...
+
+## Make PC decisions matter
+
+If players choose to react a certain way to an NPC or an encounter, remember this ([maybe write session summaries to help you remember](#write-session-summaries-even-if-you-dont-plan-on-sharing-them)) and, if appropriate, find a way to acknowledge this decision they made by providing an in-universe reaction to it.
+
+How do other NPCs in the world react to the PCs now that they've done X? The PCs have gone out of their way to poke the beast?
+
+This will make the world come alive in way that it wouldn't have otherwise. You don't need to simulate the whole world all at once, that would be insane, but if you can take note of the actions of PCs and how those actions will change the world in ways that the PCs can see (eventually) this will make the world much more interesting to play in than it would be otherwise because your players know that their actions matter and will have an impact on the world.
+
+## Yes! And? But...
+
+Yes, and-ing is a popular technique from the world of improv that a lot of people know about. Essentially, your response to an idea presented by a player should ideally be "Yes!" followed by the "And?" which is the world's reaction to the player choice that builds on their idea instead of shutting it down.
+
+It's all about taking the ideas that your players present you with during a session and building on them constructively. This helps include everybody 
+
+These ideas can extend beyond the limit of their character's decisions with the game. The more I can include players in the collaborative storytelling process the more invested they'll become in the story, because they've contributed to it.
+
+In the context of tabletop roleplaying games, sometimes a player wants to do something completely out of whack with the world you're trying to build. This should happen rarely and more and more rarely over time as you and your players better understand the rules of the world you're in.
+
+But if it does happen, feel free saying "No" but make to explain why and do everything you can to avoid saying "No". Because it will discourage your players from coming up with ideas that interest them moving forward
+
+# Conclusion
+
+More lessons to come. 
+
 - let players tell you what they want (Yes! and? But... [optional])
   - if they're interacting with a room, NPC in a particular way (for example, interacting with a trap as though it was a puzzle with a reward at the end), then acknowledge this within the game world and tweak it on the fly to support the PCs desired interaction if appropriate, otherwise let the players know that this way of interacting with the object isn't desirable and move them onto the next room/event  
