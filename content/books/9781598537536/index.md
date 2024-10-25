@@ -35,6 +35,12 @@ Interesting so far. Maybe this story has aged better?
 
 Somewhat Wolfe-ian. I'm intrigued...
 
-Freud would have a field day with Russ's constant references to dump truck asses. This might be the horniest book I've read recently, which is surprising considering how old it is.
+Freud would have a field day with Russ's constant references to dump truck asses. It's interesting to see Russ explicitly say that one of her subsequent novels is her "coming out" novel when this one is so explicitly gay for women physically and mentally and in every way.
 
-The hornyness of it explains part of why it would have had a harder time finding a publisher. Russ would have had a much easier time getting published today. 
+Overall, this might be the horniest book I've read, where the intent of the sex scenes and sex- adjacent scenes seems to be to titilate and is possibly writing-as-therapy for Russ as she's coming to terms with her own sexuality.
+
+The hornyness of it explains part of why it would have had a harder time finding a publisher but the other part is likely to be the literary patriarchy.
+
+Russ would have had a much easier time getting published today and having her work be widely read. 
+
+I wouldn't be surprised if the Female Man is her one hit and the rest of her work falling to achieve that high... After finishing this novel,  I'm going to take a Russ break but I might come back to her work eventually. 
