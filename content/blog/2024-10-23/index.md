@@ -57,23 +57,27 @@ Refer to page 10 of Sly Flourish's The Lazy DM's Companion by Michael E. Shea fo
 
 Some tabletop roleplaying systems enforce this kind of relationship building as a core part of the character creation process but not all of them do. Even if I'm using a system that doesn't explicitly call for this (like the Shadowdark RPG rules for example), in the future I'll likely do it anyway because it's so useful.
 
-Each player character starting off with a pre-existing relationship with at least one other player character as well as one NPC provides a solid foundation for roleplay from the get go. The pre-existing relationship with another player character can inform the roleplay between these two characters and pre-existing relationship with an NPC can both inform the goals this character might have as well as provide an important NPC that as a GM you can use as a piece of the puzzle.
+Each player character starting off with a pre-existing relationship with at least one other PC as well as one NPC can provide a solid foundation for the player to roleplay their character right from the start and for the GM to build on before anything even happens during the first session of a campaign (the relationship a PC has with an NPC can lead to a recurring NPC character for example).
 
-These relationships tie the PCs together and grounds them in the reality of the game world. As the GM, you can use these relationships as the foundation for further integrating these characters in the world.
+These relationships tie the PCs together initially and grounds them in the game world. As the GM, you can use these relationships as the foundation for further integrating these characters in the world.
 
-For example, Blotbug the goblin witch has a relationship to the Cult of the Shattered Moon who tried to ritually sacrifice him to their Dark God. He barely escaped with his life.
+For example, Blotbug the goblin witch can start play with a relationship to the Cult of the Shattered Moon who's members tried to ritually sacrifice him to their Dark God. He barely escaped with his life and went into hiding, eventually joining the party.
 
-Is the Cult of the Shattered Moon still after him? If so, why? Why did they try to sacrifice him in particular? How has this event affected him? etc.
+Is the Cult of the Shattered Moon still after him? If so, why? Why did they try to sacrifice him in particular? How has this near death experience affected him and his outlook on life? etc.
 
 ## Use the Stars and Wishes system to encourage a per-session constructive feedback loop that helps you GM better sessions for your players
 
-The Stars and Wishes system ([described in more detail here](https://www.gauntlet-rpg.com/blog/stars-and-wishes)) essentially forces players at the end of a session to provide positive and constructive feedback to other the GM and other players about the session.
+The Stars and Wishes system ([described in more detail here](https://www.gauntlet-rpg.com/blog/stars-and-wishes)) has players provide positive and constructive feedback to each other and the GM at the end of each session.
 
-Prior to starting my most recent campaign, I committed myself to trying this system as a way of making providing regular feedback an integral part of the roleplaying experience. I want to create an environment in which providing this feedback is the norm and not the exception to the rule, so that I could feel more confident that I'm providing the best roleplaying experience for my players that I can.
+A **Star** is a positive comment on one part of session, this can be another player's roleplaying, a voiced NPC, this can be a fun combat encounter, etc.
 
-Considering how much effort goes into the GMing process, I think that forcing players to spend a few minutes each session is a very minor ask especially considering the potential benefit of this feedback including much higher player engagement and choice in the subsequent sessions. 
+A **Wish** is something that the player wants to change or improve or conjure up into existence for the next session, this can be something meta like wanting the group to have a leader to speed up the process of deciding where the party goes next or a story beat that they want their character to have or a spotlight on a particular PC that the party wants to highlight.
 
-Without a system like this in-place, players have to go out of their way to provide feedback and thus they'll actively discouraged from doing so. The Stars and Wishes system serves as a way of making the act of providing regular feedback the social norm and discouraging players from not doing so.
+I've been using this system in my most recent campaign and it's been working as expected. It's created an environment where players providing feedback about sessions is the norm and not the exception to the rule. And so, receiving this feedback I can both resolve issues and make improvements after each session instead of letting minor annoyances and problems fester until they become untenable and make players not want to play anymore.
+
+The Stars and Wishes system has made me much more confident that I'm providing the best roleplaying experience for my players that I can.
+
+Considering how much effort goes into the GMing process, having players spend a few minutes at the end of each session is a small ask with big benefits for my own sanity and their own enjoyment of the game increasing player engagement and fun. 
 
 I'm giving ample opportunity to players to speak up about their thoughts and feelings about the sessions so that if I'm making GMing choices that rub them the wrong way then the ball is in their court to tell me about it. Or, if the players have ideas about how they as players can do a better job playing the game then we have time for discussing these ideas and puttting them in-place.
 
@@ -81,19 +85,13 @@ For example, if one player is noticing that the group is having a hard time deci
 
 This creates a feedback loop that is really helpful for me as a GM because it ensures that your players are given ample opportunity to say what's working for them and what isn't so that you can change subsequent sessions accordingly and be confident that you're all having as much fun as possible.
 
-A **Star** is simply a positive comment on one part of session, this can be another player's roleplaying, a voiced NPC, this can be a fun combat encounter, etc.
-
-A **Wish** is simply something that the player wants for the next session, this can be something meta like wanting the group to have a leader to speed up the process of deciding where the party goes next or a story beat that they want their character to nail or if the party wants to put a spotlight on a particular character.
-
 This system is simple but it's crazy how effective it is in both making me confident that as a group we're optimizing for fun and every session is building on the previous one in a way that everybody likes.
 
 ## Bangs
 
-This is a great book with a bunch of cool stuff in it but the best thing are bangs. ...
+A **bang** is a scene/moment that you've come up with and you know that you want to have your PCs encounter this scene/NPC/moment. This could be something like meeting a new NPC, or having a boss fight or finding a treasure.
 
-A **bang** is a scene/moment that you've come up with and you know that you want to have your PCs have. This could be something like meeting a new NPC
-
-Because the tabletop roleplaying experience tends to be rather improvisiontal and reactive based on what your players decide to do, you have to still be able to prep these **bangs** and insert them ad-hoc at the right time.
+Because the tabletop roleplaying experience tends to be rather improvisational based on what my players decide to do, I have to roll with the punches. Bangs allow for me to prep particular scenes, put them into a list which I review before every session and finally I can insert insert them when appropriate into my game for their full effect.
 
 Refer to *So You Want to Be A Gamemaster* by Justine Alexander for more info on Bangs (just reading this text levelled up my GMing ability ten-fold, at least it feels like it)
 
