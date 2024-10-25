@@ -32,7 +32,7 @@ I've always been curious about voice acting but I've never put in the time and e
 
 But even so, with my most recent campaign I made a commitment to myself, to give each NPC a unique vocal quirk/sound even if I'm not an expert at it (yet). My players seem to get a kick out of me doing this despite my relative inexperience.
 
-When roleplaying online, the only way for players to know if the GM is speaking to them or embodying a character is by their voice. And so, wehn playing online it becomes that much more useful for a GM to voice their NPCs.
+When roleplaying online, the only way for players to know if the GM is speaking to them or embodying a character is by their voice. And so, when playing online it becomes that much more useful for a GM to voice their NPCs.
 
 It's hard but I'm getting better at it every session and thus far even me flailing about is adding to the roleplaying experience for everyone involved, myself included.
 
@@ -55,7 +55,7 @@ Refer to page 10 of Sly Flourish's The Lazy DM's Companion by Michael E. Shea fo
 
 ## Force players to think about relationships between their characters and the world during character creation
 
-Some tabletop roleplaying systems enforce this kind of relationship building as a core part of the character creation process but not all of them do. Even if I'm using a system that doesn't explicitely call for this (like the Shadowdark RPG rules for example), in the future I'll likely do it anyway because it's so useful.
+Some tabletop roleplaying systems enforce this kind of relationship building as a core part of the character creation process but not all of them do. Even if I'm using a system that doesn't explicitly call for this (like the Shadowdark RPG rules for example), in the future I'll likely do it anyway because it's so useful.
 
 Each player character starting off with a pre-existing relationship with at least one other player character as well as one NPC provides a solid foundation for roleplay from the get go. The pre-existing relationship with another player character can inform the roleplay between these two characters and pre-existing relationship with an NPC can both inform the goals this character might have as well as provide an important NPC that as a GM you can use as a piece of the puzzle.
 
