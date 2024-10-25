@@ -34,3 +34,7 @@ The Female Man: _____
 Interesting so far. Maybe this story has aged better?
 
 Somewhat Wolfe-ian. I'm intrigued...
+
+Freud would have a field day with Russ's constant references to dump truck asses. This might be the horniest book I've read recently, which is surprising considering how old it is.
+
+The hornyness of it explains part of why it would have had a harder time finding a publisher. Russ would have had a much easier time getting published today. 
