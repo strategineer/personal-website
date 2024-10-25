@@ -41,6 +41,8 @@ Overall, this might be the horniest book I've read, where the intent of the sex 
 
 The hornyness of it explains part of why it would have had a harder time finding a publisher.
 
-Russ would have had a much easier time getting published today and having her work be widely read. 
+Russ would have had a much easier time getting published today and having her work be more widely read. 
 
-I wouldn't be surprised if the Female Man is her one hit and the rest of her work falling to achieve that high... After finishing this novel,  I'm going to take a Russ break but I might come back to her work eventually. 
+I wouldn't be surprised if the Female Man is her one hit and the rest of her work is where she falled to achieve the popular and critical success of the Female Man...
+
+After finishing this novel,  I'm going to take a Russ break but I might come back to her work eventually. 
