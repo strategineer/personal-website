@@ -35,13 +35,13 @@ Interesting so far. Maybe this story has aged better?
 
 Somewhat Wolfe-ian. I'm intrigued...
 
-Freud would have a field day with Russ's constant references to dump truck asses. It's interesting to see Russ explicitly say that one of her subsequent novels is her "coming out" novel when this one is so explicitly gay for women physically and mentally in every way that I find it hard to believe that someone could read this and not at least take an educated guess that maybe Russ is a lesbian.
+Freud would have a field day with Russ's constant references to dump truck asses. It's interesting to see Russ explicitly say that one of her subsequent novels is her "coming out" novel when this one is so explicitly gay for women physically and mentally in every way that I find it hard to believe that someone could read this and not at least make an educated guess that Russ is a lesbian.
 
-Overall, this might be the horniest book I've read, where the intent of the sex scenes and sex- adjacent scenes seems to be to titilate and is possibly writing-as-therapy for Russ as she's coming to terms with her own sexuality.
+Overall, this might be the horniest book I've read, where the intent of the sex scenes and sex- adjacent scenes seems to be to titilate and is possibly writing-as-therapy for Russ as she's coming to terms with her own sexuality at the time.
 
 The hornyness of it explains part of why it would have had a harder time finding a publisher.
 
-Russ would have had a much easier time getting published today and having her work be more widely read. 
+Russ would have had a much easier time getting published today and having her work be more widely read.
 
 I wouldn't be surprised if the Female Man is her one hit and the rest of her work is where she falled to achieve the popular and critical success of the Female Man...
 
