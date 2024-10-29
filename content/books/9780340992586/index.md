@@ -4,7 +4,6 @@ authors:
 books/tags:
 - slay
 - horror
-- thriller
 - science fiction
 date: 2024-09-07
 params:
