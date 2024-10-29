@@ -2,6 +2,7 @@
 authors:
 - Bill Willingham
 books/tags:
+- did-not-finish
 - comics
 - fantasy
 - myth
