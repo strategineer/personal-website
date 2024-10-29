@@ -4,7 +4,7 @@ authors:
 books/tags:
 - fantasy
 - science fiction
-date: 2024-10-22
+date: 2024-10-29
 params:
   isbn13: '9781598537536'
   year: '2023'
