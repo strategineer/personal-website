@@ -6,6 +6,7 @@ books/tags:
 - horror
 - mystery
 - thriller
+- science fiction
 date: 2024-09-07
 params:
   isbn13: '9780340992586'
