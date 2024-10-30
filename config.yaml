@@ -91,6 +91,7 @@ markup:
 security:
   exec:
     allow:
+      - "git"
       - "^dart-sass-embedded$"
       - "^go$"
       - "^npx$"
