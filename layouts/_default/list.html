@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
-  <span data-pagefind-ignore>
+<span data-pagefind-ignore>
   <div class="row">
     {{ .Content }}
     {{ range .Pages }}
@@ -12,6 +12,6 @@
         {{ .Render "summary" }}
       {{ end }}
     {{ end }}
-  </span>
-</div>
+  </div>
+</span>
 {{ end }}

@@ -13,14 +13,15 @@ star_rating: 4
 title: Novels & stories
 ---
 
-The Female Man is a more interesting and consistent story about sex and gender than Le Guin's Left Hand of Darkness. Russ is a poet and it shows. In The Female Man, she hits the reader with evocative, vulgar and shocking words and images that hold up four decades later (mostly). 
+The Female Man is a more interesting and consistent story about sex and gender than Le Guin's Left Hand of Darkness. Russ is a poet and it shows. Russ hits the reader with evocative words and images that still hold up today (mostly). The Complete Alyx Stories haven't, but they were influential to writers that came later, like Mary Gentle (as seen in the foreword to her White Crow collection)... So I'm glad Russ wrote them.
 
-But, the text would probably collapse in on itself against a basic trans reading of it... In comparison, Russ's Complete Alyx stories are mostly uninteresting and have not aged well. But it seems as though they were at the time and had an influence on writers that came later like Mary Gentle (who's work I love).
+<!--more-->
+
+
+Although, the Female Man text would probably collapse when faced with a basic trans reading of it...
 
 I've yet to read the rest of the stories in this book but I will do so, eventually and report back.
 
-
-<!--more-->
 
 The Female Man: ⭐⭐⭐⭐_
 

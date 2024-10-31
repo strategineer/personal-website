@@ -1,10 +1,10 @@
 ---
-title: Strat's Bookshelf
+title: Strat's Thoughts
 is_readable: false
+layout: homepage
 cascade:
   header:
-    text: "Name's Strat; I like reading hehe."
-  post_name: "book"
+    text: "Name's Strat; I like reading and writing hehe."
   resources:
     thumbnail: "thumbnail.*"
     images_jpg: "*.jpg"

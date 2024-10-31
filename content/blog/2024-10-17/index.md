@@ -1,5 +1,5 @@
 ---
-title: "That moment when you get isekai-ed into a hierarcichal fantasy world and hijinks ensue"
+title: "Why Able in Gene Wolfe's The Wizard Knight is the way he is"
 date: 2024-10-17
 blog/tags:
   - reading
