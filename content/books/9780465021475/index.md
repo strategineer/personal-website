@@ -12,7 +12,7 @@ star_rating: 4
 title: Existential Psychotherapy
 ---
 
-Existential Psychotherapy by Irvin D. Yalom decribes Yaloms's psychotherapeutic framework based around acknowledging and dealing the anxiety caused by existential issues which are: death anxiety, freedom (or lack of it), loneliness (towards others and towards one's self) and the meaninglessness of existence.
+Existential Psychotherapy by Irvin D. Yalom describes Yaloms's psychotherapeutic framework based around acknowledging and dealing the anxiety caused by existential issues which are: death anxiety, freedom (or lack of it), loneliness (towards others and towards one's self) and the meaninglessness of existence.
 
 <!--more-->
 
