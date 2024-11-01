@@ -12,11 +12,11 @@ star_rating: 4
 title: Existential Psychotherapy
 ---
 
-Existential Psychotherapy by Irvin D. Yalom describes Yaloms's psychotherapeutic framework based around acknowledging and dealing the anxiety caused by existential issues which are: death anxiety, freedom (or lack of it), loneliness (towards others and towards one's self) and the meaninglessness of existence.
+Existential Psychotherapy by Irvin D. Yalom describes Yalom's psychotherapeutic framework based around acknowledging and dealing with the anxiety caused by the following existential issues: death anxiety, freedom (or lack of it), loneliness (towards others and towards one's self) and the meaninglessness of existence.
 
 <!--more-->
 
-All major religions provide their believers with explanations for all these issues to some extent. For example, with respect to death anxiety, most Christians believe in Heaven, so if a Christian lives a good life then when they die they'll wake up in Heaven and they'll remain their for the rest of eternity. At the risk of sounding dismissive, these beliefs help those who believe swallow the bitter pill that is the human experience.
+All major religions provide their believers with explanations for all these questions and concerns. For example, with respect to death anxiety, most Christians believe in Heaven, so if a Christian lives a good life then when they die they'll wake up in Heaven and they'll remain there for the rest of eternity. These beliefs help those who believe swallow the bitter pill that is the human experience.
 
 Sadly, the rest of us are cursed with the knowledge that when we die, our body will cease to function and we will cease to exist and, given enough time, we and everything we've ever done will be forgotten. We, unfortunately, understand that the universe was not built for a purpose, it exists for no particular reason and, perhaps, all our lives we've been pawns, being moved around in a game of Chess played by no one in particular.
 
