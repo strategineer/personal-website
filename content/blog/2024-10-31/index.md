@@ -6,7 +6,7 @@ blog/tags:
 draft: true
 ---
 
-Mort by Terry Pratchett was an interesting follow up to Yalom's Existential Psychotherapy. As is common in Pratchett's work, Mort is filled to the brim with philosophycal, psychological and political ideas that are implied,  briefly mentioned or simply used as gags.
+Mort by Terry Pratchett was an interesting follow up to Yalom's Existential Psychotherapy. As is common in Pratchett's work, Mort is filled to the brim with philosophically, psychological and political ideas that are implied,  briefly mentioned or simply used as gags.
 
 Mort is no exception to this. 
 
