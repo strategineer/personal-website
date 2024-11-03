@@ -69,7 +69,7 @@ Freeya, critically, reacted to consuming the pig's flesh and seems to have gaine
 
 The Crew returned the Gardens, once again, found some strong herbicide and returned to the room with face (and now body)-forming vines. Brod poured a bit of herbicide onto the vines and they reacted poorly to it, screeching and retracting away from this room. This revealed a concealed door leading west, deeper into the Gardens.
 
-The Crew entered the adjacent room, hearing regular deep pulsating bassy sounds and vibrations coming from the south and constant maniacal laughter coming from the west. The Crew chose to the west first and were greeted by Carnfex, a demon of chaos, banging on pipes with his steampunky wrench and, in doing so, preventing the Gardens from completely overflowing with Zoimantic plant life.
+The Crew entered the adjacent room, hearing regular deep pulsating bassy sounds and vibrations coming from the south and constant maniacal laughter coming from the west. The Crew chose to the west first and were greeted by Carnifex, a demon of chaos, banging on pipes with his steampunky wrench and, in doing so, preventing the Gardens from completely overflowing with Zoimantic plant life.
 
 Marlon greeted Carnifex, leaving the demon curious about the Crew and giving Freeya the opportunity to, critically, convince Carnifex of the Crew's usefulness as chaos causing agents themselves. Brod requested some equipment for causing chaos and Carnifex provided him with a bag to be opened when chaos is desired. Blotbug asked Carnifex about any particular chaos-prone opportunities in the Labyrinth. Carnifex told them that killing the Blue Gorgon would cause the most chaos possible but that he might have more opportunities for the Crew later once they've proven their chaos-causing worth [retcon].
 
@@ -98,14 +98,18 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 ## Session 5
 
 - The Crew survived the encounter with the gaeous Guards by pulling out the swords from Sanguiflus. Freeya helped with camel spit, Brod used his strength and Blotbug his luck, Marlon healed Brod with 1 hp
-
 - The Crew crossed the rope bridges room using Rat to scout it then by tying themselves together with rope with Blotbug keeping the scroll of Feather Fall ready to cast just in case and Freeya prepping to cast Fixed Object a spike to stop the Crew from falling to their deaths.
-
 - Blotbug communed with the psychic chess pieces to understand their plight. Freeya cast Fixed Object on a caltrop to give the Gorgonite child indigestion and thus expel the chess pieces it had previously tried to eat. Blotbug developed the art appreciatior/critic inside himself by being moved and commenting on the visions given to him by the psychic chess pieces.
-
 - The Crew ventured through the black line room, Marlon and Brod were scarred by their deepest fears (destitution, and drowning respectively). Freeya and Blotbug managed to mostly avoid theirs (art critics, and wolves respectively).
-
 - The Crew were ambushed by the chameleon women while they're split up.
+
+## Session 6
+
+- The chameleon women ambush failed spectacularly with the demon they tried to summon Beelzebub turning against them. But before being stung to death by hordes of insects, they managed to take down the dwarven mountain of healthy constitution, Brod, only to have him get back up again. Levalliant G. left a letter in the Yu-gi-oh style forearm disk dueler handing it off to Freeya despite Blotbug hobbiest demonology expertise ("Just trust me bro").
+- The Crew were greeted by a group of robed mask wearing custodians caring for the dungeon and carting off an adventuring party (Brod old one). Meeting these people and talking to them unlocked some Brod Lore for Brod, clearing up some of his amnesia. TLDR Brod Lore, these are his people but he chose to go against their ways (worshipping the dungeon's inhabitants as gods and caring for the dungeon in small but significant ways) and became an outcast.
+- The Crew were shown a stairway back to the "real world", they rested there (with Brod learning how to stand his ground and fight accurately like the pit fighter he's always dreamed of being) and were told to not venture away from the entrance to the Labyrinth of the Blue Gorgon.
+- While Marlon dreamed and pontificated on various ways of conning the dungeon's friendly caretakers they just met, the Crew chose to re-entere the dungeon. They discovered a magical painting of a white sea and a black sun that reacted to being touched by simmering and "stealing" time from Marlon, making his nails grow before his eyes. Freeya used this painting to turn grape juice into finely aged wine (to present as a gift to a denizen of the labyrinth).
+- The Crew ventured forth, navigating past the white sea, black sun painting room and entering into a gigantic ornate room with 50' vaulted ceilings built like an amphitheater such that the gentle voice of the woman at the center of it carried throughout the room to the Crew. "Visitors, oh what a unique pleasure... Have you any news from the rest of the dungeon?" 
 
 # One Pager
 
