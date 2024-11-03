@@ -97,17 +97,15 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 
 ## Session 5
 
-[WIP]
+- The Crew survived the encounter with the gaeous Guards by pulling out the swords from Sanguiflus. Freeya helped with camel spit, Brod used his strength and Blotbug his luck, Marlon healed Brod with 1 hp
 
-- crew survived the encounter with the gaeous Guards by removing all the swords from sanguiflus. Freeya helped with camel spit, brod used strength and blotbug pulled one too, marlon healed brod with 1 hp
+- The Crew crossed the rope bridges room using Rat to scout it then by tying themselves together with rope with Blotbug keeping the scroll of Feather Fall ready to cast just in case and Freeya prepping to cast Fixed Object a spike to stop the Crew from falling to their deaths.
 
-- rope bridge,  Rat used for scouting then rope tied between everyone with blotbug keeping the scroll of feather fall ready just in case as well a freeya prepping to fixed object a spike in case
+- Blotbug communed with the psychic chess pieces to understand their plight. Freeya cast Fixed Object on a caltrop to give the Gorgonite child indigestion and thus expel the chess pieces it had previously tried to eat. Blotbug developed the art appreciatior/critic inside himself by being moved and commenting on the visions given to him by the psychic chess pieces.
 
-- chess piece and gorgon child room (blotbug communed with chess pieces while freeya fixed pbject a caltrop to get the Gordon child to commit the chess pieces it has undigested in its cost stomach) and blotbug let his inner art appreciatior/critic come out during his experience with the chess pieces
+- The Crew ventured through the black line room, Marlon and Brod were scarred by their deepest fears (destitution, and drowning respectively). Freeya and Blotbug managed to mostly avoid theirs (art critics, and wolves respectively).
 
-- black line room,  marlon and brod scarred by their deepest fears (destitution,  and drowning respectively), freeya and blotbug avoided theirs (art critics,  and wolves respectively)
-
-- crew ambushed by the chameleon women while they're split up
+- The Crew were ambushed by the chameleon women while they're split up.
 
 # One Pager
 
