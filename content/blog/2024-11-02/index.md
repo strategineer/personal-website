@@ -6,6 +6,13 @@ blog/tags:
 draft: true
 ---
 
+# why play doom in 2024
+
+- healthy map maker community means you'll have new maps to play forever
+- rewind
+- auto-generated minimap showing locked doors if you get lost
+- gameplay holds up and you can play it at 5000 FPS
+
 # Machete - ⭐⭐⭐⭐⭐
 
 cacoaward 2023
@@ -56,6 +63,25 @@ last map might be a little too big
 
 great start, great music, tight combat, awesome color palette
 
-## Atonement - _ _ _ _ _
+## Atonement - ⭐⭐⭐⭐ _
 
 https://www.doomworld.com/idgames/levels/doom2/megawads/atone
+
+a mega mad made by one person of 5 years, and it feels like it for better or worse.
+
+music is a little "coffebreak" a little elevator music, lacks the propulsive or mystical quality that I'm usually looking for.
+
+The first few maps are serviceable and interesting but lack a certain jenesaisquoi. These were created first in the author's DOOM mapping journey, so this makes sense. They've been touched up after the fact so they're not horrible but they're just OK.
+
+Music gets better after the first 1/3 (map12 track pretty great).
+
+13: mall center, now we're "gaming", solid mapping
+14: the music gets kicking here
+15: back to low fi beat to kill demons to, not my favorite
+16: music kicks in exactly at the halfway point
+
+## Zone 400 - _ _ _ _ _
+
+400 line defs each megawad by one mapper
+
+mostly consistent map length feels good
