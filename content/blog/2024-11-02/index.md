@@ -63,7 +63,8 @@ draft: true
 - economy of design, reusing the same spaces over and over again. A little bit of difficulty in differentiating the levels. There's an intentional use of different textures-sets throughout but it's not enough to really make these maps feel really different.
 - gradual expansion of arenas and combination of them as more monster closets are revealed.
 - ... I like this more than I would have expected.
-- a lot of random TPs used to move enemies around the arenas... interesting but hard to parse. Makes the maps feel a little random
+- a lot of random TPs used to move enemies around the arenas... interesting but hard to parse. Makes the maps feel a little random. It feels like a bandaid to solve the problem of wanting to have these maps be tiny but re-use the existing spaces a bunch... it doesn't fully work.
 - map11: great example of this idea of opening an arena gradually
 - timed buttons keep the pace up but sometimes slow you down when you miss the timing.
-- singular/low rocket ammo drops, forces tactical rocket use more than usual 
+- singular/low rocket ammo drops, forces tactical rocket use more than usual
+- maps seperated into mostly thematic episodes with different map design ethos/pillars in each it feels like... it's good 
