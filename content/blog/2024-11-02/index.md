@@ -67,4 +67,4 @@ draft: true
 - map11: great example of this idea of opening an arena gradually
 - timed buttons keep the pace up but sometimes slow you down when you miss the timing.
 - singular/low rocket ammo drops, forces tactical rocket use more than usual
-- maps seperated into mostly thematic episodes with different map design ethos/pillars in each it feels like... it's good 
+- maps separated into mostly thematic episodes with different map design ethos/pillars in each it feels like... it's good 
