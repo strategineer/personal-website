@@ -14,10 +14,12 @@ Negamancer escaped! he'll be back
 
 # Learning rolls
 
-Marlon tried to learn flanking/dnd backstab using range weapons: tried twice
-Freeya tried to learn how to heal people using Marlon's Staff of Healing: tried once
-Freeya tried to learn to become one with the heart of the cards and understand how to call forth the "right" demon for the situation ("Demonic job posting") which means that the demon wouldn't be hostile by default: tried once
-Brod tried to learn staying his ground, 0 movement then get advantage subsequent melee attacks: he succeeded on the first try and learned a new skill, his previous skill set
+- Marlon tried to learn flanking/dnd backstab using range weapons: tried three times
+- Freeya tried to learn how to heal people using Marlon's Staff of Healing: tried once
+- Freeya tried to learn to become one with the heart of the cards and understand how to call forth the "right" demon for the situation ("Demonic job posting") which means that the demon wouldn't be hostile by default ("Non-hostile Summoning"): tried twice and succeeded
+- Brod tried to learn staying his ground, 0 movement then get advantage subsequent melee attacks: he succeeded on the first try and learned a new skill, his previous skill set
+  - Brod trying to learn a taunting skill "Taunt", aggro-ing by insulting them and they're compelled to fight him, charisma opposed DC check (Brod can use strength): tried once
+- Blotbug wants improve your spell Puppet and make it apply to more creatures, up to Blotbug level + 1: tried once
 
 # Bangs
 
@@ -26,12 +28,26 @@ Brod tried to learn staying his ground, 0 movement then get advantage subsequent
 5. ~~[Chameleon Women](#chameleon-woman) encounter/discover PCs: they begin to gain strength, increasing HD with each subsequent encounter, and begin to inform the other denizens of the LoBG about the PCs actions if this would turn the NPCs against the PCs.~~
 3. ~~Lanmino disappears... [see following]~~
 4. ~~Marlon finds a letter in his Cloak of Avoidance from L.G. "Marlon, my dear friend and ally, enjoy this cloak I found just for you. Use it well! PS. I have dire need of your "friend" Lanmino and I will be taking him for now. Yours truly, L.G."~~
-3. Freeya finds an occult tarot deck used by the Chameleon women to summon demons and begins using it himself. Anyone can pull a card from the deck once per day and summon a demon but a charisma/spellcasting check must be done to compel the demon to help them instead of hindering the summonner.  
-4. PCs encounter [Bondye Reparatè](#bondye-reparatè) cleaning up and removing the corpses of Brod's previous adventuring party (Brod comes from the same place they come from), they scould Brod (pointing to his dead companions) for defiling this sacred place: they will guide the PCs to [Lady Nine-Bones](#lady-nine-bones) (Halls 17) and/or straight to Elatior, a safehaven where the party can rest and recover between expeditions into the LoBG. Brod can figure out who he used to be and choose to investigate there if desired.
-  - (in falsetto): "Greetings travellers, we come bearing gifts!"
-  - (speaker removes his mask, is a dwarf who looks like Brod, and pulls Brod aside, no more falsetto): "You've defouled this sacred place with your presence. Look upon the bodies of your companions, their deaths are on your hands. We will treat you as we treat these others (points to the Crew) but know that you are but an impostor everywhere you go, you are no longer one of us. Begone! (Puts on his mask, falsetto back on) "If you desire a place to rest and recuperate, we can you show the way."
-5. Room 24: Ambush Scarab is found dead with the contents of its stomach spilled onto the floor. 5% chance of the a spell scroll and 100% chance of a book.
+3. ~~Freeya finds an occult tarot deck used by the Chameleon women to summon demons and begins using it himself. Anyone can pull a card from the deck once per day and summon a demon but a charisma/spellcasting check must be done to compel the demon to help them instead of hindering the summonner.~~
+4. ~~PCs encounter [Bondye Reparatè](#bondye-reparatè) cleaning up and removing the corpses of Brod's previous adventuring party (Brod comes from the same place they come from), they scould Brod (pointing to his dead companions) for defiling this sacred place: they will guide the PCs to [Lady Nine-Bones](#lady-nine-bones) (Halls 17) and/or straight to Elatior, a safehaven where the party can rest and recover between expeditions into the LoBG. Brod can figure out who he used to be and choose to investigate there if desired.~~
+  - ~~(in falsetto): "Greetings travellers, we come bearing gifts!"~~
+  - ~~(speaker removes his mask, is a dwarf who looks like Brod, and pulls Brod aside, no more falsetto): "You've defouled this sacred place with your presence. Look upon the bodies of your companions, their deaths are on your hands. We will treat you as we treat these others (points to the Crew) but know that you are but an impostor everywhere you go, you are no longer one of us. Begone! (Puts on his mask, falsetto back on) "If you desire a place to rest and recuperate, we can you show the way."~~
 6. PCs encounter Chronia Torn: she is sad, she wants to hear tales of their adventures and news about the Gorgon.
+  - "Yes, it's a pleasure to meet you all, I haven't seen any new faces here for such a long time."
+  - Q: "Who are you? / Why are you here?"
+    - "Me? I'm Chronia Torn of course. I've been here, well, forever, I've become a part of the scenery. I'm immortal after all, I shall remain here long after you've all turned to dust."
+    - "My sisters [Zamia Torn, infinite charisma ultimate babe, and Charity Torn, can't be harmed] and I ruled an empire once but that was a long time ago, wasn't it Thing? [she looks over at her, Thing, and it responds in horrendous gurgling rock cracking noises], [chronia responds] Yes, absolutely."
+  - Q: "What do you want?"
+    - "Many things. I'd love to age normally, immortality is not all it's cracked up to be, I'd love to be able to touch others without them crumbling into dust, I'd love to live a real life, then eventually I'd love to die. But I doubt you'd be able to help with any of that."
+    - "Mere mortals such as yourself haven't the means of providing me with the sweet release of death I so desire, however, you may return here with tales of your travels in the labyrinth. That would please me very much... Also, ..."
+    - "There are some other things that you might be able to help me with. I'd love to hear some light music, sadly golden instruments can't make the sounds that I would like to hear and wooden instruments rot in my hands. Also, I'd love to wear some fresh silk if you could find some for me. I've also heard tales of an imperishable cloth that the Lizardmen and Reptile Women once knew how to make, if you could find me some I'd grant you one of my Tears of Time as a reward."
+  - Q: "Do you know where to find any books?"
+    - "Why, yes, of course. I'm an avid reader, there's not much else to do here. My library is just outside my chambers, feel free to visit it anytime and read anything you'd like but know that you won't be able to take any books from the library. The library was built for me after all."
+    - Q: "Who built the library for you?"
+      - "Well, the Blue Gorgon, Psathyrella, built me it. But that was a long time ago."
+  - Q: "Don't you want to leave this place?"
+    - "Life is the real prison I'm trapped in, a prison that I shan't ever be able to escape. I live in luxury here, separated from those who I could otherwise harm, unintentionally of course. I have no desire to leave this place."
+5. Room 24: Ambush Scarab is found dead with the contents of its stomach spilled onto the floor. 5% chance of the a spell scroll and 100% chance of a book.
 5. PCs enter Vinebeasts + Heart room. A theaticral spotlight shines on a PC, everyone else is frozen in place while the "scene" plays out. The PC will respond to the accusations of the vinebeasts and when they have no responses left or when it feels right, the spotlight will shift to another PC.
 3. PCs find a book, probably [generated with the following table](#table---random-books) (See following bullet point, books are art).
 3. PCs damage/steal art: [The Curator](#the-curator) (big hand thing) becomes aware of them and begins to hound them. Blotbug and Brod must resist commenting on art otherwise they become more (cannibal) critical of them.
