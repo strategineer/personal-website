@@ -3,7 +3,7 @@ authors:
 - Moustachio
 wads/tags:
 - megawad
-date: 2024-11-10
+date: 2024-11-07
 star_rating: 4
 title: Atonement
 links:

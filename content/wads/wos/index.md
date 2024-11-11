@@ -3,8 +3,9 @@ authors:
 - Paul Corfiatis
 - Kristian Aro
 wads/tags:
+- currently-playing
 - megawad
-date: 2024-11-10
+date: 2024-11-11
 star_rating: null
 title: Whispers Of Satan
 links:

@@ -53,6 +53,17 @@
         {{- end -}}
         {{- end -}}
       </div>
+      <div class="row authors">
+        {{ $mappers := (.GetTerms "mappers" ) }}
+        {{ if $mappers }}
+        {{ range $mappers }}
+        <div class="author col">
+          {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+          <a href="{{ .RelPermalink }}"> {{ $pretty_author }}</a>
+        </div>
+        {{- end -}}
+        {{- end -}}
+      </div>
       <div class="row post-meta">
         <div class="col-mx-auto align-self-center">
             <div class="row">

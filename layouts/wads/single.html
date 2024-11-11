@@ -14,6 +14,9 @@
       {{ partial "try_tags" . }}
     </div>
   </div>
+  <div class="row justify-content-center">
+    {{ partial "try_playing_state" . }}
+  </div>
   {{ if .Params.series }}
   <div class="row justify-content-center">
     series:

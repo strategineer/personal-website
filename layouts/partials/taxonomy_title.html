@@ -2,7 +2,7 @@
 {{- $mid := "tagged with" -}}
 {{- $title := add "'" .Title "'" -}}
 {{- if and (eq $name "Authors") (ne .Title "Authors") -}}
-  {{- $name = "Books" -}}
+  {{- $name = "Work" -}}
   {{- $mid = "by" -}}
   {{- $title = .Title -}}
 {{- end -}}

@@ -28,7 +28,3 @@ If you want to join in on the fun, do this:
 - rewind
 - auto-generated minimap showing locked doors if you get lost
 - gameplay holds up and you can play it at 5000 FPS
-
-## Running Late 2 (A2Rob)
-
-- once again, this map01 track is crazy. Music makes the wad sing for me. 

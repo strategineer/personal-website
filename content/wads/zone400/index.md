@@ -3,14 +3,12 @@ authors:
 - Paul Corfiatis
 wads/tags:
 - megawad
-date: 2024-11-10
+date: 2024-11-07
 star_rating: 4
 title: Zone 400
 links:
   - "idgames,https://www.doomworld.com/idgames/levels/doom2/megawads/zone400"
 ---
-## Zone 400 (pcorf) - ⭐⭐⭐⭐ _
-
 {{< quote >}}
 
 After 12,000 linedefs of action, you have won this battle and have destroyed the source of this demonic civilization. Condemnation is no more and the mystery of this pandemic has finally been solved. As you hop onto the derelict imperial space station Ondor (sic) for the long journey back home you destroy the rest of these beasts with ease blasting them to oblivion.

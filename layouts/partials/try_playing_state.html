@@ -1,0 +1,7 @@
+{{- if (in (index .Params "wads/tags") "currently-playing") -}}
+Playing: {{ .Date | time.Format ":date_medium" }}
+{{- else if (index .Params "progress") -}}
+Played up until {{index .Params "progress"}}
+{{ else }}
+Finished on: {{ .Date | time.Format ":date_medium" }}
+{{- end -}}
