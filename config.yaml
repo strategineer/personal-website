@@ -41,6 +41,7 @@ taxonomies:
   "recipe": "food/tags"
   "project": "projects/tags"
   "book": "books/tags"
+  "wad": "wads/tags"
   "author": "authors"
 
 permalinks:
@@ -53,6 +54,7 @@ permalinks:
     "recipe": /food/tags/:slug/
     "project": /projects/tags/:slug/
     "book": /books/tags/:slug/
+    "wad": /wads/tags/:slug/
     "author": /authors/:slug/
 
 imaging:

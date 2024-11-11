@@ -1,4 +1,4 @@
-{{ $active_class := "btn-outline-dark" }}
+{{ $active_class := "btn-secondary" }}
 {{ $inactive_class := "btn-dark" }}
 {{ $is_food := hasPrefix .RelPermalink "/food/" }}
 
@@ -9,6 +9,7 @@
 {{ $is_tabletop := hasPrefix .RelPermalink "/tabletop/" }}
 {{ $is_tools := hasPrefix .RelPermalink "/bin/" }}
 {{ $is_blog := hasPrefix .RelPermalink "/blog/" }}
+{{ $is_wads := hasPrefix .RelPermalink "/wads/" }}
 {{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}}
 {{ if (not .Params.explorer) }}
   <div class="menu-buttons row justify-content-center">
@@ -98,6 +99,13 @@
               height="32"
               label="Go to Strat's books he's reading"
             />
+          </button>
+        </a>
+        <a href="/wads">
+          <button tabindex="-1" type="button" aria-label="Go to Strat's Doom Wad Review Zone sorted by date finished"
+            class="menu-button btn btn-lg {{ cond $is_wads $active_class $inactive_class }}">
+            <img class="icon icon-filter" alt="doom icon" src="/icons/doom.svg" width="32" height="32"
+              label="Go to Strat's Doom Wad Review Zone " />
           </button>
         </a>
         <!-- 

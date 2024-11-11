@@ -1,0 +1,39 @@
+{{ define "main" }}
+<article class="wads-content">
+  {{ partial "title" . }}
+  <div class="col-auto text-center">
+    {{ partial "try_author" . }}
+  </div>
+  {{ partial "try_thumbnail_wide" . }}
+  <div class="star_rating h4 col-auto text-center">
+    {{ partial "try_star_rating" . }}
+  </div>
+  {{ partial "try_links" . }}
+  <div class="row justify-content-center">
+    <div class="col-auto align-self-center">
+      {{ partial "try_tags" . }}
+    </div>
+  </div>
+  {{ if .Params.series }}
+  <div class="row justify-content-center">
+    series:
+    {{ .Params.series }}
+    {{ if .Params.series_order }}
+    - Book
+    {{ .Params.series_order }}
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ partial "try_video" . }}
+  {{ partial "try_audio" . }}
+  <div class="row justify-content-center readable">
+    {{ if .Params.summary }}
+    <p>
+      {{ .Params.summary }}
+    </p>
+    <hr />
+    {{ end }}
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
