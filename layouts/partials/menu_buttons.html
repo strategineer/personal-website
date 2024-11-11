@@ -9,7 +9,8 @@
 {{ $is_tabletop := hasPrefix .RelPermalink "/tabletop/" }}
 {{ $is_tools := hasPrefix .RelPermalink "/bin/" }}
 {{ $is_blog := hasPrefix .RelPermalink "/blog/" }}
-{{ $is_wads := hasPrefix .RelPermalink "/wads/" }}
+{{ $is_mappers := hasPrefix .RelPermalink "/mappers" }}
+{{ $is_wads := or $is_mappers (hasPrefix .RelPermalink "/wads/") }}
 {{/* HACK: This is a hack to remove the menu buttons from the meditations explorer tool in particular because it hides the buttons on mobile */}}
 {{ if (not .Params.explorer) }}
   <div class="menu-buttons row justify-content-center">
