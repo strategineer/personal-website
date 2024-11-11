@@ -4,7 +4,7 @@ mappers:
 wads/tags:
 - megawad
 date: 2024-11-07
-star_rating: 4
+star_rating: 3
 title: Atonement
 links:
   - "idgames,https://www.doomworld.com/idgames/levels/doom2/megawads/atone"
