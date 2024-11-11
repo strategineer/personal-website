@@ -29,7 +29,7 @@ If you want to join in on the fun, do this:
 - auto-generated minimap showing locked doors if you get lost
 - gameplay holds up and you can play it at 5000 FPS
 
-# Machete - ⭐⭐⭐⭐⭐
+# Machete (A2Rob) - ⭐⭐⭐⭐⭐
 
 {{< quote >}}
 
@@ -61,12 +61,12 @@ Those scum ridden sacks of shit didn't even have the empathy to honorably discha
 - map11: falling platforms section
 - last map might be a little too big
 
-## Fallen Leaves - ⭐⭐⭐⭐⭐
+## Fallen Leaves (Bri) - ⭐⭐⭐⭐⭐
 
 - great start, great music, tight combat, awesome color palette
 - short and sweet, high polish
 
-## Atonement - ⭐⭐⭐⭐ _
+## Atonement (Moustachio) - ⭐⭐⭐⭐ _
 
 {{< quote >}}
 
@@ -85,7 +85,7 @@ Save Earth or die trying.
 - 15: back to low fi beat to kill demons to, not my favorite
 - 16: music kicks in exactly at the halfway point
 
-## Zone 400 - ⭐⭐⭐⭐ _
+## Zone 400 (pcorf) - ⭐⭐⭐⭐ _
 
 {{< quote >}}
 
@@ -93,8 +93,8 @@ After 12,000 linedefs of action, you have won this battle and have destroyed the
 {{< /quote >}}
 
 
-- 400 line defs each megawad by one mapper
-- mostly consistent map length feels good\
+- 400 line defs each megawad by one mapper (pcorf)
+- mostly consistent map length feels good
 - economy of design, reusing the same spaces over and over again. A little bit of difficulty in differentiating the levels. There's an intentional use of different textures-sets throughout but it's not enough to really make these maps feel really different.
 - gradual expansion of arenas and combination of them as more monster closets are revealed.
 - ... I like this more than I would have expected.
@@ -104,3 +104,28 @@ After 12,000 linedefs of action, you have won this battle and have destroyed the
 - singular/low rocket ammo drops, forces tactical rocket use more than usual
 - maps separated into mostly thematic episodes with different map design ethos/pillars in each it feels like... it's good 
 - 2020 pandemic-inspired story line
+
+## Whispers of Satan (pcorf and Aro)
+
+- collab between pcorf and Aro
+- fantastic original midi soundtrack, with both pcorf and Aro being talented musicians
+- map9: the school, a no russian-esque map, an explicit reference to columbine? That massacre directly led to Doom coming up in the news and being villified and being accused of "causing" it. Now here's a Doom map that's explicitely about going into a "school" and blasting through hordes of "demons". The music hits here, it's melancholic and it feels like it represents the loss of innocence. 
+- very tight ammo setup (tightest I've played recently, every bullet is essential, waste is lethal)
+
+## Brigandine (viggles) - ⭐⭐⭐⭐⭐
+
+- 1 super hot fire map
+- insane music (doesn't loop properly though)
+- cool visuals + combat encounters
+- colour palette
+- solid AF
+
+Wads like this are convincing me that if you've got great music and shift the colour pallette slightly combined with good level/combat encounter design, you're golden.
+
+## Running Late 2 (A2Rob)
+
+- once again, this map01 track is crazy. Music makes the wad sing for me. 
+
+## Nostalgic Entropy: Neo Retro (Ashtral Fiend) -
+
+- jaw dropping visuals, custom textures, etc.
