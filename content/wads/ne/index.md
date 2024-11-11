@@ -1,5 +1,5 @@
 ---
-authors:
+mappers:
 - Ashtral Fiend
 wads/tags: []
 date: 2024-11-11

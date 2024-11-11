@@ -1,5 +1,5 @@
 ---
-authors:
+mappers:
 - Paul Corfiatis
 wads/tags:
 - megawad

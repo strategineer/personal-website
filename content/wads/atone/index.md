@@ -1,5 +1,5 @@
 ---
-authors:
+mappers:
 - Moustachio
 wads/tags:
 - megawad

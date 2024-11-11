@@ -1,8 +1,13 @@
 {{- $name := humanize (pluralize .Data.Singular) -}}
 {{- $mid := "tagged with" -}}
 {{- $title := add "'" .Title "'" -}}
+{{- if and (eq $name "Mappers") (ne .Title "Tags") -}}
+{{- $name = "Maps" -}}
+{{- $mid = "by" -}}
+{{- $title = .Title -}}
+{{- end -}}
 {{- if and (eq $name "Authors") (ne .Title "Authors") -}}
-  {{- $name = "Work" -}}
+  {{- $name = "Books" -}}
   {{- $mid = "by" -}}
   {{- $title = .Title -}}
 {{- end -}}

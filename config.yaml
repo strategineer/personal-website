@@ -43,6 +43,7 @@ taxonomies:
   "book": "books/tags"
   "wad": "wads/tags"
   "author": "authors"
+  "mapper": "mappers"
 
 permalinks:
   page:
@@ -56,6 +57,7 @@ permalinks:
     "book": /books/tags/:slug/
     "wad": /wads/tags/:slug/
     "author": /authors/:slug/
+    "mapper": /mappers/:slug/
 
 imaging:
   quality: 90

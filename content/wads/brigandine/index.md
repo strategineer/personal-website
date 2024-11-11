@@ -1,5 +1,5 @@
 ---
-authors:
+mappers:
 - Viggles
 wads/tags: []
 date: 2024-11-11

@@ -1,5 +1,5 @@
 ---
-authors:
+mappers:
 - ViolentBeetle
 wads/tags: []
 date: 2024-11-04

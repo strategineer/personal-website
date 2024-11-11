@@ -1,5 +1,5 @@
 ---
-authors:
+mappers:
 - A2Rob
 wads/tags:
 - currently-playing
