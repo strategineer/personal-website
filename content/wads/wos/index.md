@@ -5,7 +5,7 @@ mappers:
 wads/tags:
 - currently-playing
 - megawad
-date: 2024-11-11
+date: 2024-11-12
 star_rating: null
 title: Whispers Of Satan
 links:

@@ -1,5 +1,5 @@
 ---
-title: Strat's Doom Wad Review Zone
+title: Strat's Wad Thoughts
 is_readable: false
 cascade:
   header:
