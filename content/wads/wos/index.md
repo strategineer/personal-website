@@ -3,9 +3,8 @@ mappers:
 - Paul Corfiatis
 - Kristian Aro
 wads/tags:
-- currently-playing
 - megawad
-date: 2024-11-12
+date: 2024-11-14
 star_rating: 4
 title: Whispers Of Satan
 links:
