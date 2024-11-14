@@ -28,3 +28,52 @@ If you want to join in on the fun, do this:
 - rewind
 - auto-generated minimap showing locked doors if you get lost
 - gameplay holds up and you can play it at 5000 FPS
+
+# doom mapping retrospective
+
+speed001
+
+- simple, short, shit, looks bad
+- as simple as you can get, at least you can finish it
+
+speed002
+
+- looks way better than speed001, there's a much better sense of place.
+- Mixed monster spawns leads to immediate infighting which ruins the combat feel
+- not enough health packs and weapons not given quickly enough or at all
+- no ssg yikes
+- not enough ammo for full clear and no berserk pack
+
+castle_of_doom
+
+- I always want to have an ssg right away, playing without it is pain.
+  - How do mappers make it feel less shit playing without the SSG? No tanky enemies until you get it?
+- first community project, speedmap
+- yellow skull, nothing changes when I pick it up but monsters should have been revealed while backtracking to the middle. Make things less boring
+- super slowly descending "secret" platforms are so painful. 10 secrets per map was a requirement of the CP but these secrets are really shit
+- better but not great
+- we'll be revisiting this spoke design in ourobouros
+
+tomb_of_doom
+
+- funnest map, last section sucks
+
+jungle_fever
+
+-
+
+ourobouros
+
+-
+
+anox
+
+-
+
+auto
+
+-
+
+thereturn
+
+-
