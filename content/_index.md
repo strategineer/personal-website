@@ -4,7 +4,7 @@ is_readable: false
 layout: homepage
 cascade:
   header:
-    text: "Name's Strat; I like reading and writing hehe."
+    text: "Name's Strat; I like reading, writing and playing Doom hehe."
   resources:
     thumbnail: "thumbnail.*"
     images_jpg: "*.jpg"
