@@ -78,13 +78,15 @@
           {{ else }}
           <div class="col-xl-12 main no-margin ">
         {{ end }}
+          <div class="row">
           {{ partial "header" . }}
           {{ $has_search := and (ne .Section "cv") (not .Params.no_search) }}
           {{ if $has_search }}
-          <div class="readable search">
+          <div class="col search">
             <div id="search"></div>
           </div>
           {{ end }}
+          </div>
           {{ block "title" . }}
           {{ end }}
           {{ if $is_readable }}

@@ -1,7 +1,6 @@
 {{ if .Params.header.text }}
-  <nav class="footer-index">
+  <nav class="col footer-index">
     <div class="d-flex justify-content-center">
-      <div class="col-xl-9 col-12">
         <div class="container author-blurb">
           <div class="row justify-content-center">
             <div class="col-auto">
@@ -12,19 +11,15 @@
                 src="/favicon.ico"
               />
             </div>
-            <div class="col-md-6 col-auto align-self-center">
+            <div class="col-auto align-self-center">
               <div class="row">
                 <div class="col-auto text-center">
                   {{ .Params.header.text }}
-                  {{ if .Params.header.follow_me }}
-                    {{ partial "contact_info" . }}
-                  {{ end }}
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
   </nav>
 {{ end }}

@@ -3,7 +3,7 @@ title: Strat's Blog
 is_readable: false
 cascade:
   header:
-    text: "Name's Strat; sometimes I write blog posts."
+    text: "Name's Strat; I like writing hehe."
   post_name: "blog post"
   resources:
     thumbnail: "thumbnail.*"

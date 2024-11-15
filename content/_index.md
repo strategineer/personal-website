@@ -1,7 +1,6 @@
 ---
 title: Strat's Thoughts
 is_readable: false
-no_search: true
 layout: homepage
 cascade:
   header:
