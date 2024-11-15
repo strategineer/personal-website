@@ -1,5 +1,5 @@
 ---
-title: Strat's Thoughts
+title: Strat's Rage Room
 is_readable: false
 layout: homepage
 cascade:
