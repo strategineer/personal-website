@@ -31,12 +31,12 @@ If you want to join in on the fun, do this:
 
 # doom mapping retrospective
 
-speed001
+## speed001
 
 - simple, short, shit, looks bad
 - as simple as you can get, at least you can finish it
 
-speed002
+## speed002
 
 - looks way better than speed001, there's a much better sense of place.
 - Mixed monster spawns leads to immediate infighting which ruins the combat feel
@@ -44,7 +44,7 @@ speed002
 - no ssg yikes
 - not enough ammo for full clear and no berserk pack
 
-castle_of_doom
+## castle_of_doom
 
 - I always want to have an ssg right away, playing without it is pain.
   - How do mappers make it feel less shit playing without the SSG? No tanky enemies until you get it?
@@ -54,26 +54,59 @@ castle_of_doom
 - better but not great
 - we'll be revisiting this spoke design in ourobouros
 
-tomb_of_doom
+## tomb_of_doom
 
-- funnest map, last section sucks
+- funnest map, last section sucks isn't great
+- some rooms are a little gimmick
+- overall this map was playtested with DSDA keyframe warping, so this won't be as a fun for people who don't play that way
+  - when playtesting my maps I shouldn't be doing that...
+- a little too simple to navigate through but really clear routing
+- pathing is a little tight at times, every room could have benefited from being at least 25% bigger.
+- cool map theming (gameplay + textures)
 
-jungle_fever
+## jungle_fever
 
--
+- sick initial visual set piece, I should get back into this one and rethink the rest of the map that might not be up to snuff
+- great first doomcute first room (office entrance with secretary)
+- I have a weird fixation for putting weapons on gigantic pedestals, yes it makes them more visible for the player but it looks a little weird. I can continue to do this but a little subtlety will go a long way.
+- archvile without anything to hide behind...
+- not enough ammo
+- big gigantic fuck off room is salvageable, needs more ammo spread around, I need more monsters to teleport in as I hit buttons, what the buttons do should be made more clear.
+- incomplete
 
-ourobouros
+## ourobouros
 
--
+- cool-ish initial set piece
+- using ammo "breadcrumbs" to hint at the reward that the player will get by going through each section
+- more teleporting enemies after clicking the buttons
+- I have a ton of shotgun ammo but no rocket ammo, rocket is fun, more rocket more good
+  - you can kill yourself by mistake with the shotgun / SSG making them more boring?
+- I can really feel the speedmapping in this one, each room could have used more room to breathe and more detail and everything
 
-anox
+## anox
 
--
+- starting out in the vents... Muah, chef's kiss.
+- first use of pink lava
+- visually a real levellup compared to all the other maps
+- red key platform room having openings everywhere is great because if the player leaves any demons alive, they'll continue shoot at him from that room
+- way better ammo/weapon setups
+- good monster types / combos / placement
+- outside room feels unfinished, there should be enemies waiting to party as soon as the player exits from one of the two red doors (does having two doors here make sense? just one would allow me to build a more unique "personalized" encounter)
+- BUT really cool cacodemons showing up from the water and revenants behind you, homogenous monster groups means less infighting which is good!
+- Although, once again every room in this map could have been 25% bigger at least and it would have felt better. More obstacles within each room could be used to cut up the space a bit but still allow for more freeform movement
+- slaughter-lite room, works way better than the big room in jungle_fever
+- end "scene" is unfinished and feels deflating
 
-auto
+## auto
 
--
+- pink liquid shows up again!
+- cool ritual sacrifice scene of fellow doomguy, callback to tomb_of_doom...
+- very wip sadly
+- caged imps show up again (tomb_of_doom, ourobouros)
+- combined concepts from this unfinished map with jungle_fever would be Chef's kiss 
 
-thereturn
+## thereturn
 
--
+- latest map, most wip map so far. No items, just some basic layout
+- the Rosy256 palette has potential... makes the pink liquid textures really pop.
+- cool looking pink liquid factory/hydro dam... (callback to jungle_fever...)

@@ -20,4 +20,6 @@ links:
 - map02
   - first button you hit, you see exactly what it activates in LOS
   - cool rain effect
+- map03
+  - leaves falling effect, cool...
 - making the pistol fire faster is a classic great way of fixing the pistol feeling awful to use
