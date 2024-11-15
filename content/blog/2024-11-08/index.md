@@ -92,7 +92,7 @@ If you want to join in on the fun, do this:
 - way better ammo/weapon setups
 - good monster types / combos / placement
 - outside room feels unfinished, there should be enemies waiting to party as soon as the player exits from one of the two red doors (does having two doors here make sense? just one would allow me to build a more unique "personalized" encounter)
-- BUT really cool cacodemons showing up from the water and revenants behind you, homogenous monster groups means less infighting which is good!
+- BUT really cool cacodemons showing up from the water and revenants behind you, homogeneous monster groups means less infighting which is good!
 - Although, once again every room in this map could have been 25% bigger at least and it would have felt better. More obstacles within each room could be used to cut up the space a bit but still allow for more freeform movement
 - slaughter-lite room, works way better than the big room in jungle_fever
 - end "scene" is unfinished and feels deflating
