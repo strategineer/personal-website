@@ -151,10 +151,11 @@ Looking through these maps I've made, figuring out what works and what doesn't f
 I tried to come up with a process with the following traits:
 - A goal-oriented mapping process that allows me to focus on smaller intermediate goals that I can achieve within a reasonable time frame.
 - A process that will ensure that I can produce a playable map at any point throughout the process to allow for iterative development and testing. I don't want to be stuck with a pretty but unplayable map.
-- Stopping points throughout the process that allow me to step away from a map and be able to say "I'm done" no matter what the state of the map is. They'll always be in a completable state and if the process works like I think it should then they should never feel unfinished.
-- [...] dealing with the infinite canvas problem, .. When making Doom maps, your canvas is infinite: you can make as many rooms as you want and make them as detailed as you want. There's nothing stopping you from working on the same map for the rest of your life... But it's hard for me to stay motivated when there's no goal or end in sight.
+- Stopping points throughout the process that allow me to step away from a map and be able to say "I'm done" no matter what the current state of the map is. Map will always be in a finisheable state and if the process works like I think it should then they should never feel unfinished when played.
+- A process with time and spatial constraints to help clamp down on the infinite canvas that is a Doom map. Without setting any kind of limit or vision of what I'm hoping to create, I'm faced with an infinite blank canvas and no matter how much work I do on a map theoretically I could always spend more time on it, tweaking encounters, rebuilding areas that don't work 100% and adding more detail to the environment, forever...
 
 
+Here's the process:
 
 - Before sitting down at the computer to start mapping, I should come up with the following things:
   - Draw a layout for the entire map by hand on paper or whiteboard.
@@ -178,3 +179,7 @@ I tried to come up with a process with the following traits:
     - Set expectations for the sorts of feedback you're willing/hoping to get.
       - Describing parts of the map that you're particularly curious about might help. 
     - Worst case: you share your map with the world and nothing happens. If the stars align, someone will take the time to play through your map and give you feedback.
+
+That's about it for now.
+
+I'll post here again once I've got a new map to show. I hope that this process helps me get there.
