@@ -110,3 +110,30 @@ If you want to join in on the fun, do this:
 - latest map, most wip map so far. No items, just some basic layout
 - the Rosy256 palette has potential... makes the pink liquid textures really pop.
 - cool looking pink liquid factory/hydro dam... (callback to jungle_fever...)
+
+# My ideal doom mapping process
+
+Looking through these maps I've made, especially failing to get any progress with my most recent map, I've come up with a work-in-progress process for making maps that I'm going to try and follow until I come up with something better.
+
+- Before sitting down at the computer to start mapping, I should come up with the following things:
+  - Draw a layout for the entire map by hand on paper or whiteboard.
+  - The map's theme/premise and a .wad with all the textures I'll be using I'll be using.
+  - Copy over an existing project directory with doommake scripts ready to go
+- Set a time limit for the entire mapping process once I've sat down and opened up Ultimate Doom Builder, by the end of the timer I'll need to have a fully playable and fun map to play, if a little basic, so the following steps keep that in mind:
+- Add a spawn point and create an exit switch to ensure that the map is always completeable.
+- Create the basic layout of the map in UDB using hand drawn layout from earlier as a guideline (no switches, no doors, no detailing)
+- Working mostly on one section of the map at a time:
+  - Nail down the scale of the map and make the movement of the player through it fun, leaving space for monsters and other Things to be placed in the next step
+  - Instrument the map with linedef actions as needed to block/open up progression, open monster closets and teleport monsters in
+  - Add all the Things to the map: monsters, weapons, ammo, healthkits, keys/skulls
+  - Make it fun!
+- When the timer run out, you're done (for now). Move the exit you've built previously into an appropriate location that's reachable by a player spawning from the spawn point of the map. You've got a map!
+- If what you've built of the map so far is fun to play and has potential, then you can go to the next step, otherwise you're done, take some screenshots of the map and record yourself playing through it, while commenting on what works and what doesn't work.
+  - [OPTIONAL] You can repeat this process from the first step, but this time look at the map as it is, and figure out what you'd like to add/change in it to make it better than it is now. If you weren't able to finish up rooms that you drew in your initial layout, you can build those out 
+  - [OPTIONAL] You can continue working on a map forever, so deciding to call a ap
+  - [OPTIONAL] If your map is ready to share (up to your discretion), share your map wherever you can!
+    - Share some enticing screenshots (if you can't come up with any, that might be a problem to solve with your next map).
+    - Describe the premise of the map and make it interesting if you can, but don't oversell it, be honest.
+    - Set expectations for the sorts of feedback you're willing/hoping to get.
+      - Describing parts of the map that you're particularily curious about might help. 
+    - Worst case: you share your map with the world and nothing happens. If the stars align, someone will take the time to play through your map and give you feedback.
