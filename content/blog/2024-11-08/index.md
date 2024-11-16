@@ -1,5 +1,5 @@
 ---
-title: "Doom in 2024"
+title: "Dooming in 2024"
 date: 2024-11-08
 blog/tags:
   - gaming
@@ -83,7 +83,7 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 ![](img/jungle_fever.png)
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
-- No exit... Mostly unfinished.
+- No exit... Unfinished.
 - Great initial visual set piece. Starting your map off with something like this is worth it to hook the player into actually playing the map, even if the rest of the map isn't as detailed or visually interesting.
 - Great first use doomcute.
 
@@ -120,34 +120,45 @@ I've also getting back into making maps. As a way of getting back into it, I've 
   - Although, maybe the intent here was to set up a sort of "calm before the storm" situation. If so, it works somewhat...
   - I'm also not sure why I decided to have two doors here, it doesn't seem like it adds much.
 - BUT the set piece with cacodemons coming out of the water with revenants appearing behind you when you pick up the BFG is really great. Homogeneous monster groups means less infighting which is good (avoiding the problem we saw in some previous maps, especially speed002.wad)!
-- [...]
-- Although, once again every room in this map could have been 25% bigger at least and it would have felt better. More obstacles within each room could be used to cut up the space a bit but still allow for more freeform movement
-- slaughter-lite room, works way better than the big room in jungle_fever
-- end "scene" is unfinished and feels deflating
+- Every room in this map could have been 25% bigger at least and it would have felt better moving around them (again...). More obstacles within each room could be used to cut up the space a bit but still allow for more freeform movement.
+- Slaughter-lite room at the very end works better than the big room in jungle_fever but isn't 100%.
+- The ending switch is deflating. Initially I wanted a more interesting end to the level but I couldn't figure it out and I gave up.
 
 ## auto.wad ([wad](/wads/auto.wad))
 
 ![](img/auto.png)
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
-- pink liquid shows up again!
-- cool ritual sacrifice scene of fellow doomguy, callback to tomb_of_doom...
-- very wip sadly
-- caged imps show up again (tomb_of_doom, ourobouros)
-- combined concepts from this unfinished map with jungle_fever would be Chef's kiss 
+- No exit... Unfinished.
+- Pink nukage shows up again!
+- Cool ritual sacrifice scene with fellow doomguy (like in tomb_of_doom.wad).
+- Caged imps show up again (tomb_of_doom.wad, ouroboros.wad).
+- Salvaging elements from this map and jungle_fever.wad would be interesting.
 
 ## thereturn.wad ([wad](/wads/thereturn.wad))
 
 ![](img/thereturn.png)
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
-- latest map, most wip map so far. No items, just some basic layout
-- the Rosy256 palette has potential... makes the pink liquid textures really pop.
-- cool looking pink liquid factory/hydro dam... (callback to jungle_fever...)
+- The map I'm having a hard time figuring out right now. No items, just a basic layout and some detailing.
+- The Rosy256 palette has potential... makes the pink nukage textures  pop.
+- Cool looking pink nukage factory/hydro dam. (like in jungle_fever.wad...).
 
 # My ideal doom mapping process
 
-Looking through these maps I've made, what works for me and what doesn't, I've come up with the following work-in-progress process for making maps that I'm going to try and follow until I come up with something better.
+Looking through these maps I've made, figuring out what works and what doesn't for, I've come up with the following work-in-progress process for making maps that I'm going follow until I come up with something better.
+
+The goals are the following:
+- A goal-oriented mapping process that allows me to focus on smaller intermediate goals that will build up to a cool and complete map.
+- A process that produces a playable map all throughout the process to allow for iterative development and testing. I don't want to be stuck with a pretty but unplayable map.
+- ... 
+
+
+When making Doom maps, your canvas is infinite: you can make as many rooms as you want and make them as detailed as you want. There's nothing stopping you from working on the same map for the rest of your life.
+
+But it's hard for me to stay motivated when there's no goal or end in sight.
+
+
 
 - Before sitting down at the computer to start mapping, I should come up with the following things:
   - Draw a layout for the entire map by hand on paper or whiteboard.
