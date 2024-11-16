@@ -146,17 +146,13 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 
 # My ideal doom mapping process
 
-Looking through these maps I've made, figuring out what works and what doesn't for, I've come up with the following work-in-progress process for making maps that I'm going follow until I come up with something better.
+Looking through these maps I've made, figuring out what works and what doesn't for me, I've tried to come up with a process for making maps that solves the various roadblocks I've seen myself run into in the past and am currently running into with my latest map.
 
-The goals are the following:
-- A goal-oriented mapping process that allows me to focus on smaller intermediate goals that will build up to a cool and complete map.
-- A process that produces a playable map all throughout the process to allow for iterative development and testing. I don't want to be stuck with a pretty but unplayable map.
-- ... 
-
-
-When making Doom maps, your canvas is infinite: you can make as many rooms as you want and make them as detailed as you want. There's nothing stopping you from working on the same map for the rest of your life.
-
-But it's hard for me to stay motivated when there's no goal or end in sight.
+I tried to come up with a process with the following traits:
+- A goal-oriented mapping process that allows me to focus on smaller intermediate goals that I can achieve within a reasonable time frame.
+- A process that will ensure that I can produce a playable map at any point throughout the process to allow for iterative development and testing. I don't want to be stuck with a pretty but unplayable map.
+- Stopping points throughout the process that allow me to step away from a map and be able to say "I'm done" no matter what the state of the map is. They'll always be in a completable state and if the process works like I think it should then they should never feel unfinished.
+- [...] dealing with the infinite canvas problem, .. When making Doom maps, your canvas is infinite: you can make as many rooms as you want and make them as detailed as you want. There's nothing stopping you from working on the same map for the rest of your life... But it's hard for me to stay motivated when there's no goal or end in sight.
 
 
 
