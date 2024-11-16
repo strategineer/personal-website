@@ -135,5 +135,5 @@ Looking through these maps I've made, especially failing to get any progress wit
     - Share some enticing screenshots (if you can't come up with any, that might be a problem to solve with your next map).
     - Describe the premise of the map and make it interesting if you can, but don't oversell it, be honest.
     - Set expectations for the sorts of feedback you're willing/hoping to get.
-      - Describing parts of the map that you're particularily curious about might help. 
+      - Describing parts of the map that you're particularly curious about might help. 
     - Worst case: you share your map with the world and nothing happens. If the stars align, someone will take the time to play through your map and give you feedback.
