@@ -88,9 +88,9 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 ![](img/jungle_fever_doomcute.png)
 
 - I have a weird fixation for putting weapons on gigantic pedestals, yes it makes them more visible for the player but it can look weird and feel weird to pick them up due to the elevation change. I should be a bit more subtle when doing this, instead of using elevation changes I can instead surround weapons with ammo to draw the player's eye to the weapon and/or use lighting to make the sector with the weapon stand out.
-- An encounter with Arch-vile without anything to hide behind is not great.
-- The gigantic room is cool, needs more ammo spread around, I need more monsters to teleport in as I hit buttons, what the buttons do should be made more clear.
-- I think this map is salvegeable but I'd need to play find some reference points for big open maps and open them up in UDB and figure out how they work.
+- An encounter with an Arch-vile without anything for the player to hide behind is not great.
+- The gigantic room is cool but incomplete, needs more ammo, I need more monsters to teleport in as I hit buttons, what the buttons do should be made more clear.
+- I think this map is salvegeable but I'd need to find some reference points for big open maps and open them up in UDB and figure out how they work. (EDIT: [Eviternity 2](/wads/eviternity2) MAP07 might be a good canditate for this)
 
 ## [ouroboros.wad](/wads/ouroboros.wad)
 
