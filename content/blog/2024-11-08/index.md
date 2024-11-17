@@ -34,7 +34,7 @@ If you want to join in on the fun, do this (DM me on discord if you need help wi
 
 I've also getting back into making maps. As a way of getting back into it, I've played 
 
-## speed001.wad ([wad](/wads/speed001.wad))
+## [speed001.wad](/wads/speed001.wad)
 
 ![](img/speed001.png)
 
@@ -43,7 +43,7 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 - I remember spending at least an hour or two trying to figure out how to make doors work... Leaving me an hour to figure everything else out.
 - At least you can finish it!
 
-## speed002.wad ([wad](/wads/speed002.wad))
+## [speed002.wad](/wads/speed002.wad)
 
 ![](img/speed002.png)
 
@@ -54,7 +54,7 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 - No SSG yikes... If a map has pinkies and revenants in it, the player should already have the SSG or a visible path to acquiring one (same goes for the rocket).
 - Not enough ammo for full clear and no berserk pack means that punching all these monsters down is much less feasible or fun.
 
-## castle_of_doom.wad ([wad](/wads/castle_of_doom.wad))
+## [castle_of_doom.wad](/wads/castle_of_doom.wad)
 
 ![](img/castle_of_doom.png)
 
@@ -66,19 +66,19 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 - Overally this is a better designed map than the previous two but not as visually interesting as the speed002.wad.
 - I'll be revisiting this kind of "spoke" map design in ouroboros.
 
-## tomb_of_doom.wad ([wad](/wads/tomb_of_doom.wad))
+## [tomb_of_doom.wad](/wads/tomb_of_doom.wad)
 
 ![](img/tomb_of_doom.png)
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
-- tomb_of_doom.wad is the funnest map so far
+- Funnest map to play so far.
 - Some rooms are a little gimmicky and are only playable because I know what the gimmick is because I built them.
 - I playtested this map with DSDA-Doom keyframe rewinding which means that it's probably way harder than I intended for it to be. I should probably limit myself to never using the rewind feature when playtesting my own maps.
 - It's a little too simple to navigate through but at least the routing is very clear and foreshadowed (showing off locked doors before the player has the key, even showing off keys ahead of time).
 - Pathing is a little tight at times, every room could have benefited from being at least 25% bigger.
 - Mostly cohesive map theming (gameplay + textures). Leveraging the Egyptian tomb aesthetic and combining with traps, ritual sacrifice altars and a pyramid in the last room.
 
-## jungle_fever.wad ([wad](/wads/jungle_fever.wad))
+## [jungle_fever.wad](/wads/jungle_fever.wad)
 
 ![](img/jungle_fever.png)
 
@@ -94,7 +94,7 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 - The gigantic room is cool, needs more ammo spread around, I need more monsters to teleport in as I hit buttons, what the buttons do should be made more clear.
 - I think this map is salvegeable but I'd need to play find some reference points for big open maps and open them up in UDB and figure out how they work.
 
-## ouroboros.wad ([wad](/wads/ouroboros.wad))
+## [ouroboros.wad](/wads/ouroboros.wad)
 
 ![](img/ouroboros.png)
 
@@ -103,9 +103,9 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 - Using ammo "breadcrumbs" to hint at the reward that the player will find by going through each section is cool.
 - More teleporting monsters or from closets after activating the buttons would have been good to make the backtracking less rote (same problem as in castle_of_doom.wad).
 - There's way too much shotgun ammo on the map but not enough rocket ammo. Shotgun/SSG play can be a bit rote and samey whereas the rocket is more risky (because you can blow yourself up if you're not careful) and fun because of it.
-- I can really feel the limitation of the strict time limit of speedmapping in this one, each room could have been just a little bit bigger and it would have been way better (similar problem found in tomb_of_doom.wad and castle_of_doom.wad). Also, just a little more detailing would have gone a long way.
+- I can really feel the limitation of the strict time limit of speedmapping in this one, each room could have been just a little bit bigger and it would have been way better (similar problem found in [tomb_of_doom.wad](#tomb_of_doom.wad) and [castle_of_doom.wad](#castle_of_doom.wad)). Also, just a little more detailing would have gone a long way.
 
-## anox.wad ([wad](/wads/anox.wad))
+## [anox.wad](/wads/anox.wad)
 
 ![](img/anox.png)
 
@@ -124,7 +124,7 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 - Slaughter-lite room at the very end works better than the big room in jungle_fever but isn't 100%.
 - The ending switch is deflating. Initially I wanted a more interesting end to the level but I couldn't figure it out and I gave up.
 
-## auto.wad ([wad](/wads/auto.wad))
+## [auto.wad](/wads/auto.wad)
 
 ![](img/auto.png)
 
@@ -132,30 +132,30 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 - No exit... Unfinished.
 - Pink nukage shows up again!
 - Cool ritual sacrifice scene with fellow doomguy (like in tomb_of_doom.wad).
-- Caged imps show up again (tomb_of_doom.wad, ouroboros.wad).
-- Salvaging elements from this map and jungle_fever.wad would be interesting.
+- Caged imps show up again ([tomb_of_doom.wad](#tomb_of_doom.wad), [ouroboros.wad](#ouroboros.wad)).
+- Salvaging elements from this map and [jungle_fever.wad](#jungle_fever.wad) would be interesting.
 
-## thereturn.wad ([wad](/wads/thereturn.wad))
+## [thereturn.wad](/wads/thereturn.wad)
 
 ![](img/thereturn.png)
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
 - The map I'm having a hard time figuring out right now. No items, just a basic layout and some detailing.
 - The Rosy256 palette has potential... makes the pink nukage textures  pop.
-- Cool looking pink nukage factory/hydro dam. (like in jungle_fever.wad...).
+- Cool looking pink nukage factory/hydro dam. (like in [jungle_fever.wad](#jungle_fever.wad)...).
 
-# My ideal doom mapping process
+# What have I learned?
 
-Looking through these maps I've made, figuring out what works and what doesn't for me, I've tried to come up with a process for making maps that solves the various roadblocks I've seen myself run into in the past and am currently running into with my latest map.
+Looking through all these maps I've made (with most of them being incomplete) and thinking about my current struggles getting anywhere [thereturn.wad](#thereturn.wad), I've tried to come up with a process for making maps that solves the roadblocks I've seen myself run into in the past.
 
 I tried to come up with a process with the following traits:
-- A goal-oriented mapping process that allows me to focus on smaller intermediate goals that I can achieve within a reasonable time frame.
-- A process that will ensure that I can produce a playable map at any point throughout the process to allow for iterative development and testing. I don't want to be stuck with a pretty but unplayable map.
-- Stopping points throughout the process that allow me to step away from a map and be able to say "I'm done" no matter what the current state of the map is. Map will always be in a finisheable state and if the process works like I think it should then they should never feel unfinished when played.
-- A process with time and spatial constraints to help clamp down on the infinite canvas that is a Doom map. Without setting any kind of limit or vision of what I'm hoping to create, I'm faced with an infinite blank canvas and no matter how much work I do on a map theoretically I could always spend more time on it, tweaking encounters, rebuilding areas that don't work 100% and adding more detail to the environment, forever...
+- A goal-oriented mapping process that allows me to focus on smaller intermediate goals that I can achieve within a reasonable timeframe.
+- A process that ensures that I can produce a playable map at any point throughout the process to allow for iterative development and testing. I don't want to be stuck with a pretty but unplayable map at the end of a mapping session.
+- A process with natural stopping points throughout which will allow me to step away from a map and allow me to say "I'm done", no matter what the current state of the map is. At the minimum, my maps should always be in a state where they can be played from start to end without any problems. If the process works like I think it should then these maps will never be left in a state where they can't be completed.
+- A process with time and spatial constraints to clamp down on the infinite canvas that is a Doom map and prevent this from leading to analysis paralysis. Without mapping constraints, the infinite blank canvas in UDB is a strong demoralizing force. No matter how much work I do on a map. I could always spend more time on it, tweaking encounters, rebuilding areas that don't completely work and adding more detail to the environment, forever... And I'll never get anything done that way.
 
 
-Here's the process:
+# The "Process"
 
 - Before sitting down at the computer to start mapping, I should come up with the following things:
   - Draw a layout for the entire map by hand on paper or whiteboard.
