@@ -126,7 +126,7 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 
 - As they continued to explore the Gallery, Blotbug and Brod and Freeya were deeply (negatively) affected by the work of Milo de Fretwell (specifically "You Fucking Whore" and "The Screaming Face of My Wife")finding themselves weeping and wailing for a few minutes (Marlon was fine).
 - Freeya dug through a moist sentient-ish wickerman puppet and found a moist book in there.
-- [Spell failures galore, no spells were succesfully cast this session. No Detect Magic, No Cauldron, No Floating Disk, life's hard].
+- [Spell failures galore, no spells were successfully cast this session. No Detect Magic, No Cauldron, No Floating Disk, life's hard].
 - Brod addressed the Cannibal Critics asking for information about Milo de Fretwell (he's not in the Gallery and the Cannibals haven't eaten him) and about the Library (North of the Gallery).
 - Marlon spent some time building a super Rake 2.0 (easier to climb) after it broke in half when he tried to climb it last (Thanks Freeya).
 - As the Crew returned from their rest, they witnessed 9 Corvid mask wearing humanoids called the "Oku" and the "Curator", a giant-sized hand made of marble. The leader of Oku addressed the "Curator": "Youuuuuuuuuuuuuuuu have foiled our plans for the last time, vile Curator." Hearing these words, the hands began to move.
