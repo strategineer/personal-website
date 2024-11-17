@@ -144,7 +144,7 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 
 # What have I learned?
 
-Looking through all these maps I've made (with most of them being incomplete) and thinking about my current struggles getting anywhere [thereturn.wad](#thereturn.wad), I've tried to come up with a process for making maps that solves the roadblocks I've seen myself run into in the past.
+Looking through all these maps I've made (with most of them being incomplete) and thinking about my current struggles getting anywhere with [thereturn.wad](#thereturn.wad), I've tried to come up with a process for making maps that solves the roadblocks I've seen myself run into in the past.
 
 I tried to come up with a process with the following traits:
 - A goal-oriented mapping process that allows me to focus on smaller intermediate goals that I can achieve within a reasonable timeframe.
