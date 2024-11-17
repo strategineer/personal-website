@@ -129,7 +129,7 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
 - No exit. Unfinished.
 - Pink nukage shows up again!
-- Cool ritual sacrifice scene with fellow doomguy (like in tomb_of_doom.wad).
+- Cool ritual sacrifice scene with fellow doomguy (like in [tomb_of_doom.wad](#tomb_of_doom.wad)).
 - Caged imps show up again ([tomb_of_doom.wad](#tomb_of_doom.wad), [ouroboros.wad](#ouroboros.wad)).
 - Salvaging elements from this map and [jungle_fever.wad](#jungle_fever.wad) would be interesting.
 
