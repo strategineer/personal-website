@@ -7,15 +7,18 @@
 {{ $num_finished_books := 3 }}
 <div class="row justify-content-center text-center page-title">
   <div class="col h1">
-    What Doom wads I'm playing now (<a href="/wads/">more</a>)
+    What I've written recently (<a href="/blog/">more</a>)
   </div>
 </div>
 <span data-pagefind-ignore>
   <div class="row">
+    {{ $i = 0 }}
     {{ range .Site.RegularPages }}
-    {{ if eq .Section "wads" }}
-    {{- if (in (index .Params "wads/tags") "currently-playing") -}}
+    {{ if eq .Section "blog" }}
     {{ .Render "summary" }}
+    {{ $i = add $i 1}}
+    {{ if gt $i $num_posts }}
+    {{ break }}
     {{ end }}
     {{ end }}
     {{ end }}
@@ -64,23 +67,19 @@
 
 <div class="row justify-content-center text-center page-title">
   <div class="col h1">
-    What I've written recently (<a href="/blog/">more</a>)
+    What Doom wads I'm playing now (<a href="/wads/">more</a>)
   </div>
 </div>
 <span data-pagefind-ignore>
   <div class="row">
-    {{ $i = 0 }}
     {{ range .Site.RegularPages }}
-    {{ if eq .Section "blog" }}
+    {{ if eq .Section "wads" }}
+    {{- if (in (index .Params "wads/tags") "currently-playing") -}}
     {{ .Render "summary" }}
-    {{ $i = add $i 1}}
-    {{ if gt $i $num_posts }}
-    {{ break }}
     {{ end }}
     {{ end }}
     {{ end }}
   </div>
 </span>
-
 
 {{ end }}
