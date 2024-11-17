@@ -71,10 +71,10 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
 - Funnest map to play so far.
 - Some rooms are a little gimmicky and are only playable because I know what the gimmick is because I built them.
-- I playtested this map with DSDA-Doom keyframe rewinding which means that it's probably way harder than I intended for it to be. I should probably limit myself to never using the rewind feature when playtesting my own maps.
-- It's a little too simple to navigate through but at least the routing is very clear and foreshadowed (showing off locked doors before the player has the key, even showing off keys ahead of time).
+- I playtested this map with DSDA-Doom keyframe rewinding which means that it's probably way harder than I intended for it to be. I should probably not use DSDA-Doom's rewind feature when playtesting my own maps to playtest for the experience most players will have.
+- It's a little too simple to navigate through but at least the routing is clear and foreshadowed (showing off locked doors before the player has the key, showing the player keys before they can get to them).
 - Pathing is a little tight at times, every room could have benefited from being at least 25% bigger.
-- Mostly cohesive map theming (gameplay + textures). Leveraging the Egyptian tomb aesthetic and combining with traps, ritual sacrifice altars and a pyramid in the last room.
+- Mostly cohesive map theming (gameplay + textures). Leveraging the Egyptian tomb aesthetic and combining it with traps, ritual sacrifice altars and a pyramid in the last room was a success.
 
 ## [jungle_fever.wad](/wads/jungle_fever.wad)
 
