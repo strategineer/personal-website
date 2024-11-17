@@ -1,14 +1,9 @@
 ---
 title: "Dooming in 2024"
-date: 2024-11-08
+date: 2024-11-16
 blog/tags:
   - gaming
-draft: true
-resources:
-  thumbnail: "thumbnail.*"
-  images_jpg: "*.jpg"
-  images_png: "*.png"
-  wads: "wads/*.wad"
+  - doom
 ---
 
 Have you been playing Doom II recently?
@@ -26,7 +21,7 @@ Removing all of my nostalgia for Doom embedded in the deepsest recesses of my pr
 If you want to join in on the fun, do this (DM me on discord if you need help with any of this @strategineer):
 - [Download the doom II wad from archive.org](https://archive.org/download/doom_wad_files/Doom%202/).
 - [Download some maps, a good place to start is the annual Cacoawards](https://www.doomworld.com/cacowards/) or check out [some of the wads I've played recently and enjoyed](/wads/).
-- [Download DSDA-Doom, a modern source port of Doom with great accessiblity features and compatibility](https://github.com/kraflab/dsda-doom).
+- [Download DSDA-Doom, a modern source port of Doom with great accessibility features and compatibility](https://github.com/kraflab/dsda-doom).
 - [Run everything exactly the way you like through Doomrunner](https://github.com/Youda008/DoomRunner) ().
 - Play Doom and enjoy!
 
@@ -158,6 +153,8 @@ I tried to come up with a process with the following traits:
 
 
 # The "Process"
+
+**TLDR**: Do all the prep you can before opening Ultimate Doom Builder. Set a time limit for your session. Set expectations low and constraints high. Always produce a map at the end of each session that can be played to completion. Don't hyperfixate on detailing, if the map is fun then you can make it pretty but not before. That's it, basically.
 
 - Before sitting down at the computer to start mapping, I should come up with the following things:
   - Draw a layout for the entire map by hand on paper or whiteboard.

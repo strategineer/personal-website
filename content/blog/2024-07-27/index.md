@@ -38,4 +38,12 @@ Best melding of gameplay, visuals, sound design, music, story, etc. I played thi
 
 # Betrayal at Club Low
 
-Goofy tabletop-esque heist game, essentially. Does what it says on the tin, and is very funny. 
+Goofy tabletop-esque heist game, essentially. Does what it says on the tin, and is very funny.
+
+# Factorio Space Age
+
+...
+
+# Doom Eternal
+
+... They've taken the core of Doom and made a AAA game out of it. What did you expect? It's good and feels like old Doom while being something else entirely at the same time. It's fun as hell.
