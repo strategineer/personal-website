@@ -45,7 +45,7 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 ![](img/speed002.png)
 
 - Tested in GZDoom.
-- Looks way better than speed001.wad, there's a much better sense of place.
+- Looks way better than [speed001.wad](#speed001.wad) there's a much better sense of place.
 - Mixed monster groups leads to immediate infighting, which gives a little bit of a "Doomguy isn't the main character" feel, which wasn't the intent here, and ruins combat balance.
 - Not enough health packs and weapons are not given quickly enough or at all.
 - No SSG, yikes. If a map has pinkies and revenants in it, the player should already have the SSG or a visible path to acquiring one (same goes for the rocket).
@@ -57,10 +57,11 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
 - My first (and only) entry into a community project, I'd like to do more of this soon.
-- Just like in speed002.wad fighting against mid-tier monsters without the SSG is a pain.
+- Just like in [speed002.wad](#speed002.wad) fighting against mid-tier monsters without the SSG is a pain.
 - Nothing happens when I pick up the yellow skull, which makes for backtracking through this room not as interesting as it could be otherwise.
 - 10 secrets per map was a requirement of the CP but I kind of ran out of time and just slapped secrets anywhere I could. The super slowly descending "secret" platforms are so painful. 
-- Overally this is a better designed map than the previous two but not as visually interesting as the speed002.wad.
+- Overall this is a better designed map than the previous two but not as visually interesting as the 
+[speed002.wad](#speed002.wad).
 - I'll be revisiting this kind of "spoke" map design in ouroboros.
 
 ## [tomb_of_doom.wad](/wads/tomb_of_doom.wad)
