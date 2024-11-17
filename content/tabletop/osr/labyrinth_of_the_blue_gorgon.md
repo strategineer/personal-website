@@ -120,7 +120,16 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 - Powering through the trauma, the Crew continued through the gallery, seeing some bloody milk in a gigantic vat. Also, they came upon a group of ghoulish looking humanoids wearing rags and bearing bone knives, two of whom, Blemphin and Bon Clerk, seemed to be their leaders (they were wearing crowns) and they were enthralled by the debate on the finer points of art and specifically what they each believed their lost brethren Alex Whiteclay Mulqueen would think.
 - Marlon acting as the master con artist he is managed to both unify these two factions bringing them together, right in the center. It all started with his description of one of Freeya's unsigned/anonymous illustrations as a new kind of art "mid art" as opposed to "low art" and "high art" and bing bang boom the Crew had an "in" with these folks.
 - Marlon requested a trade of information, trading this "mid art" for some answers to some questions. The Crew learned that these people have a very literal interpretation of death of the author and are cannibals who eat most of those who venture into the Gallery and most of the artists who's work is on display there.
-- The Crew continue exploring the Gallery in search of the library of the Ancient Saurids. Maybe one day they'll find a book? 
+- The Crew continue exploring the Gallery in search of the library of the Ancient Saurids. Maybe one day they'll find a book?
+
+## Session 8
+
+- As they continued to explore the Gallery, Blotbug and Brod and Freeya were deeply (negatively) affected by the work of Milo de Fretwell (specifically "You Fucking Whore" and "The Screaming Face of My Wife")finding themselves weeping and wailing for a few minutes (Marlon was fine).
+- Freeya dug through a moist sentient-ish wickerman puppet and found a moist book in there.
+- [Spell failures galore, no spells were succesfully cast this session. No Detect Magic, No Cauldron, No Floating Disk, life's hard].
+- Brod addressed the Cannibal Critics asking for information about Milo de Fretwell (he's not in the Gallery and the Cannibals haven't eaten him) and about the Library (North of the Gallery).
+- Marlon spent some time building a super Rake 2.0 (easier to climb) after it broke in half when he tried to climb it last (Thanks Freeya).
+- As the Crew returned from their rest, they witnessed 9 Corvid mask wearing humanoids called the "Oku" and the "Curator", a giant-sized hand made of marble. The leader of Oku addressed the "Curator": "Youuuuuuuuuuuuuuuu have foiled our plans for the last time, vile Curator." Hearing these words, the hands began to move.
 
 # One Pager
 
