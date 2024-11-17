@@ -12,7 +12,7 @@
 </div>
 <span data-pagefind-ignore>
   <div class="row">
-    {{ $i = 0 }}
+    {{ $i := 0 }}
     {{ range .Site.RegularPages }}
     {{ if eq .Section "blog" }}
     {{ .Render "summary" }}
@@ -50,7 +50,7 @@
 </div>
 <span data-pagefind-ignore>
   <div class="row">
-    {{ $i := 0 }}
+    {{ $i = 0 }}
     {{ range .Site.RegularPages }}
     {{ if eq .Section "books" }}
     {{- if not ((in (index .Params "books/tags") "currently-reading")) -}}
