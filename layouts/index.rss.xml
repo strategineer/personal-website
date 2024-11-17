@@ -3,7 +3,7 @@
 {{- end -}}
 {{- $pages := slice -}}
 {{- if $.IsHome -}}
-{{- $pages = (where $pctx.RegularPages "Section" "books") -}}
+{{- $pages = (where $pctx.RegularPages "Section" "blog post") -}}
 {{- else if $.IsSection -}}
 {{- $pages = $pctx.RegularPages -}}
 {{- else -}}
