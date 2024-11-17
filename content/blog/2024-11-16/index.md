@@ -99,7 +99,7 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
 - Cool-ish initial set piece.
 - Using ammo "breadcrumbs" to hint at the reward that the player will find by going through each section is cool.
-- More teleporting monsters or from closets after activating the buttons would have been good to make the backtracking less rote (same problem as in castle_of_doom.wad).
+- More teleporting monsters or from closets after activating the buttons would have been good to make the backtracking less rote (same problem as in [castle_of_doom.wad](#castle_of_doom.wad)).
 - There's way too much shotgun ammo on the map but not enough rocket ammo. Shotgun/SSG play can be a bit rote and samey whereas the rocket is more risky (because you can blow yourself up if you're not careful) and fun because of it.
 - I can really feel the limitation of the strict time limit of speedmapping in this one, each room could have been just a little bit bigger and it would have been way better (similar problem found in [tomb_of_doom.wad](#tomb_of_doom.wad) and [castle_of_doom.wad](#castle_of_doom.wad)). Also, just a little more detailing would have gone a long way.
 
