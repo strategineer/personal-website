@@ -27,9 +27,9 @@ If you want to join in on the fun, do this (DM me on discord if you need help wi
 
 # Doom Mapping Retrospective
 
-I've also been getting back into making Doom maps. In hopes of figuring out how to do that better, I've played through each of the maps that I made last year and I've tried to learn from the mistakes I made and come up with a mapping process that'll help me make more better maps with less pain and torture involved.
+I've also been getting back into making Doom maps. In hopes of figuring out how to do that better, I've played through each of the maps that I made last year and I've tried to learn from the mistakes I made and come up with a mapping process that'll help me make better maps with less pain and torture involved.
 
-For posterity, here's all the wads I've made thus far in my Doom mapping journey with my notes written below. If you're interested in skipping straight to what I learned and my new mapping process, [here you go](#what-have-i-learned)
+For posterity, here's all the wads I've made thus far in my Doom mapping journey with my notes on each of them written below. If you're interested in skipping straight to what I learned and my new mapping process, [here you go](#what-have-i-learned).
 
 ## [speed001.wad](/wads/speed001.wad)
 
@@ -37,7 +37,7 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 
 - Tested in GZDoom.
 - As short and simple as you can get.
-- I remember spending at least an hour or two trying to figure out how to make doors work. Leaving me an hour to figure everything else out.
+- I remember spending at least an hour or two trying to figure out how to make doors work. Leaving me an hour to map everything else.
 - At least you can finish it!
 
 ## [speed002.wad](/wads/speed002.wad)
@@ -46,7 +46,7 @@ For posterity, here's all the wads I've made thus far in my Doom mapping journey
 
 - Tested in GZDoom.
 - Looks way better than speed001.wad, there's a much better sense of place.
-- Mixed monster groups leads to immediate infighting, which gives a little bit of a "Doomguy isn't the main character" might, which wasn't the intent here, and ruins combat balance.
+- Mixed monster groups leads to immediate infighting, which gives a little bit of a "Doomguy isn't the main character" feel, which wasn't the intent here, and ruins combat balance.
 - Not enough health packs and weapons are not given quickly enough or at all.
 - No SSG, yikes. If a map has pinkies and revenants in it, the player should already have the SSG or a visible path to acquiring one (same goes for the rocket).
 - Not enough ammo for full clear and no berserk pack means that punching all these monsters down is much less feasible or fun.
