@@ -19,20 +19,22 @@ Why have I been playing a ~31 year old game in 2024 you might be asking yourself
 
 Well, it's simple really. It's fun. In the many decades since the release of Doom in 1993, a community of mappers has developed and have been hard at work using the framework of Doom games released in the mid 90s to create more, and better, Doom maps than you'd be able to get through in a lifetime.
 
-Doom holds a special place in my heart being the first video game I ever played (interestingly, I think I only ever played the shareware version of Doom and that might explain why the set piece at the end of the demo where two Hell Knights appear from two doorways beside each other is seared into my memory)
+Doom holds a special place in my heart being the first video game I ever played (the shareware version of Doom specifically)
 
-So yes, I'm biased but removing as much nostalgia from the equation as I can, I feel comfortable saying that the core Doom II gameplay loop holds up in 2024 especially when combined modern source ports which provide great accessibility features like keyframe rewind allowing you to go back in time whenever you die or even get dunked on by a cheap trap and auto-generated maps which clearly show where all the locked doors are so you'll have a harder time getting lost.
+Removing all of my nostalgia for Doom embedded in the deepsest recesses of my primate brain, I feel comfortable saying that the core Doom II gameplay loop holds up in 2024 especially when playing modern maps (even the older stuff has its charm) on modern source ports with great accessibility features (DSDA-Doom's keyframe rewinding feature takes the cake).
 
 If you want to join in on the fun, do this (DM me on discord if you need help with any of this @strategineer):
 - [Download the doom II wad from archive.org](https://archive.org/download/doom_wad_files/Doom%202/).
-- [Download some maps, a good place to start is the annual Cacoawards](https://www.doomworld.com/cacowards/) or check out [some of the wads I've played recently](/wads/).
-- [Download dsda-doom, a modern source port of Doom](https://github.com/kraflab/dsda-doom).
-- [Combine everything in Doomrunner](https://github.com/Youda008/DoomRunner).
-- Play Doom.
+- [Download some maps, a good place to start is the annual Cacoawards](https://www.doomworld.com/cacowards/) or check out [some of the wads I've played recently and enjoyed](/wads/).
+- [Download DSDA-Doom, a modern source port of Doom with great accessiblity features and compatibility](https://github.com/kraflab/dsda-doom).
+- [Run everything exactly the way you like through Doomrunner](https://github.com/Youda008/DoomRunner) ().
+- Play Doom and enjoy!
 
 # Doom Mapping Retrospective
 
-I've also getting back into making maps. As a way of getting back into it, I've played 
+I've also been getting back into making Doom maps. In hopes of figuring out how to do that better, I've played through each of the maps that I made last year and I've tried to learn from the mistakes I made and come up with a mapping process that'll help me make more better maps with less pain and torture involved.
+
+For posterity, here's all the wads I've made thus far in my Doom mapping journey with my notes written below. If you're interested in skipping straight to what I learned and my new mapping process, [here you go](#what-have-i-learned)
 
 ## [speed001.wad](/wads/speed001.wad)
 
@@ -40,7 +42,7 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 
 - Tested in GZDoom.
 - As short and simple as you can get.
-- I remember spending at least an hour or two trying to figure out how to make doors work... Leaving me an hour to figure everything else out.
+- I remember spending at least an hour or two trying to figure out how to make doors work. Leaving me an hour to figure everything else out.
 - At least you can finish it!
 
 ## [speed002.wad](/wads/speed002.wad)
@@ -51,7 +53,7 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 - Looks way better than speed001.wad, there's a much better sense of place.
 - Mixed monster groups leads to immediate infighting, which gives a little bit of a "Doomguy isn't the main character" might, which wasn't the intent here, and ruins combat balance.
 - Not enough health packs and weapons are not given quickly enough or at all.
-- No SSG yikes... If a map has pinkies and revenants in it, the player should already have the SSG or a visible path to acquiring one (same goes for the rocket).
+- No SSG, yikes. If a map has pinkies and revenants in it, the player should already have the SSG or a visible path to acquiring one (same goes for the rocket).
 - Not enough ammo for full clear and no berserk pack means that punching all these monsters down is much less feasible or fun.
 
 ## [castle_of_doom.wad](/wads/castle_of_doom.wad)
@@ -83,14 +85,14 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 ![](img/jungle_fever.png)
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
-- No exit... Unfinished.
+- No exit. Unfinished.
 - Great initial visual set piece. Starting your map off with something like this is worth it to hook the player into actually playing the map, even if the rest of the map isn't as detailed or visually interesting.
 - Great first use doomcute.
 
 ![](img/jungle_fever_doomcute.png)
 
 - I have a weird fixation for putting weapons on gigantic pedestals, yes it makes them more visible for the player but it can look weird and feel weird to pick them up due to the elevation change. I should be a bit more subtle when doing this, instead of using elevation changes I can instead surround weapons with ammo to draw the player's eye to the weapon and/or use lighting to make the sector with the weapon stand out.
-- An encounter with Arch-vile without anything to hide behind is not great...
+- An encounter with Arch-vile without anything to hide behind is not great.
 - The gigantic room is cool, needs more ammo spread around, I need more monsters to teleport in as I hit buttons, what the buttons do should be made more clear.
 - I think this map is salvegeable but I'd need to play find some reference points for big open maps and open them up in UDB and figure out how they work.
 
@@ -110,17 +112,17 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 ![](img/anox.png)
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
-- Starting out in the vents... Muah, chef's kiss. Makes me feel like Snake Plissken.
+- Starting out in the vents. Muah, chef's kiss. Makes me feel like Snake Plissken.
 - First appearance of pink nukage in my maps (which seems to be a recurring theme for me).
 - This wasn't a speedmap and it shows. I'm really proud of the detailing work I did here. Just a little bit of detailing goes a long way.
 - The red key platform room having windows looking through the rest of the complex is great visually and for foreshadowing purposes and also for allowing any monsters that the player leaves behind to still be a threat without resorting to teleporters.
 - Once again, all of these rooms could have benefited from being at least 25% bigger but the lack of doors makes for smooth movement between rooms. As a default doors should only be used if necessary and the majority of enemies should be set to ambush, teleported in or revealed from a monster closet. 
 - Way better placement of weapons, ammo, monsters, etc. in this map compared to the previous ones.
 - The Outside room feels unfinished (because it is), there could have been enemies waiting ambush the player as soon as the player exits from one of the two red doors.
-  - Although, maybe the intent here was to set up a sort of "calm before the storm" situation. If so, it works somewhat...
+  - Although, maybe the intent here was to set up a sort of "calm before the storm" situation. If so, it works somewhat.
   - I'm also not sure why I decided to have two doors here, it doesn't seem like it adds much.
 - BUT the set piece with cacodemons coming out of the water with revenants appearing behind you when you pick up the BFG is really great. Homogeneous monster groups means less infighting which is good (avoiding the problem we saw in some previous maps, especially speed002.wad)!
-- Every room in this map could have been 25% bigger at least and it would have felt better moving around them (again...). More obstacles within each room could be used to cut up the space a bit but still allow for more freeform movement.
+- Every room in this map could have been 25% bigger at least and it would have felt better moving around them (again). More obstacles within each room could be used to cut up the space a bit but still allow for more freeform movement.
 - Slaughter-lite room at the very end works better than the big room in jungle_fever but isn't 100%.
 - The ending switch is deflating. Initially I wanted a more interesting end to the level but I couldn't figure it out and I gave up.
 
@@ -129,7 +131,7 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 ![](img/auto.png)
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
-- No exit... Unfinished.
+- No exit. Unfinished.
 - Pink nukage shows up again!
 - Cool ritual sacrifice scene with fellow doomguy (like in tomb_of_doom.wad).
 - Caged imps show up again ([tomb_of_doom.wad](#tomb_of_doom.wad), [ouroboros.wad](#ouroboros.wad)).
@@ -141,8 +143,8 @@ I've also getting back into making maps. As a way of getting back into it, I've 
 
 - Tested in DSDA-Doom v0.28.2 (uses COMPLVL lump).
 - The map I'm having a hard time figuring out right now. No items, just a basic layout and some detailing.
-- The Rosy256 palette has potential... makes the pink nukage textures  pop.
-- Cool looking pink nukage factory/hydro dam. (like in [jungle_fever.wad](#jungle_fever.wad)...).
+- The Rosy256 palette has potential, it makes the pink nukage textures pop.
+- Cool looking pink nukage factory/hydro dam. (like in [jungle_fever.wad](#jungle_fever.wad)).
 
 # What have I learned?
 
