@@ -12,9 +12,9 @@ Probably not, but I have.
 
 Why have I been playing a ~31 year old game in 2024 you might be asking yourself?
 
-Well, it's simple really. It's fun. In the many decades since the release of Doom in 1993, a community of mappers has developed and have been hard at work using the framework of Doom games released in the mid 90s to create more, and better, Doom maps than you'd be able to get through in a lifetime.
+Well, it's simple really. It's fun. In the many decades since the release of Doom in 1993, a community of mappers has developed and has been hard at work using the framework of Doom games released in the mid 90s to create more, and better, Doom maps than you'd be able to get through in a lifetime.
 
-Doom holds a special place in my heart being the first video game I ever played (the shareware version of Doom specifically)
+Doom holds a special place in my heart being the first video game I ever played (the shareware version of Doom specifically).
 
 Removing all of my nostalgia for Doom embedded in the deepsest recesses of my primate brain, I feel comfortable saying that the core Doom II gameplay loop holds up in 2024 especially when playing modern maps (even the older stuff has its charm) on modern source ports with great accessibility features (DSDA-Doom's keyframe rewinding feature takes the cake).
 
@@ -29,7 +29,7 @@ If you want to join in on the fun, do this (DM me on discord if you need help wi
 
 I've also been getting back into making Doom maps. In hopes of figuring out how to do that better, I've played through each of the maps that I made last year and I've tried to learn from the mistakes I made and come up with a mapping process that'll help me make better maps with less pain and torture involved.
 
-For posterity, here's all the wads I've made thus far in my Doom mapping journey with my notes on each of them written below. If you're interested in skipping straight to what I learned and my new mapping process, [here you go](#what-have-i-learned).
+For posterity, here's all the wads I've made on my Doom mapping journey thus far with my notes on each of them written below. If you're interested in skipping straight to what I learned and my new mapping process, [here you go](#what-have-i-learned).
 
 ## [speed001.wad](/wads/speed001.wad)
 
