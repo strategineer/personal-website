@@ -39,3 +39,6 @@ links:
   - grey arachnos are deadly but their shots can be avoided with movement so they encourage you to keep moving
   - giving an extra rocket launcher as well, just in case...
   - a lot of sector manipulation to create arenas where fights happen then eventually the arena opens back up again. Check how this is done in UDB...
+- map09: nice
+- map11: constantly expanding arena with new monsters
+- map12: another map with an expanding arena, a bunch of imps teleporting in, seems like the imp is the go to spammable enemy
