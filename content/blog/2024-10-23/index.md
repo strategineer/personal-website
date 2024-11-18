@@ -100,11 +100,9 @@ So that's what I do.
 
 # Make PC decisions matter
 
-If players choose to react a certain way to an NPC or interact with the world in particular way, remember this ([maybe write session summaries to help you remember](#write-session-summaries-even-if-you-dont-plan-on-sharing-them)) and, if appropriate, find a way to acknowledge this decision by providing an in-universe reaction to it.
+If players choose to react a certain way to an NPC or interact with the world in particular way, remember this ([maybe write session summaries to help you remember](#write-session-summaries-even-if-you-dont-plan-on-sharing-them)) and, if appropriate, find a way to acknowledge this decision by providing an in-universe reaction to it, either in the moment or in a subsequent session after putting some more thought into it.
 
-How do other NPCs in the world react to the PCs now that they've done X?
-
-Did a PC give a convincing off-the-cuff argument to encourage a crazed chaos demon to help them the party out? Let the demon, who everyone at the table knows was meant to be a tough boss fight, become friends with the party. Let it happen and have fun with it.
+Did a PC give a convincing off-the-cuff argument to encourage a crazed chaos demon to help them the party out? Let the demon, who everyone at the table knows was meant to be a tough boss fight, become friends with the party. Let it happen and try to build on this new relationship.
 
 Constantly ask questions about how the world reacts to the PCs actions, hopefully your players are thinking about how their PCs are reacting to the world and roleplaying accordingly.
 
@@ -112,21 +110,23 @@ There you go. That's 99% of roleplaying solved.
 
 # Yes! And? But...
 
-Yes, and-ing is a technique from the world of improvt. Essentially, your response to any idea, within reason, presented by a player should ideally be "Yes!" followed by the "And?" which is your constructive building on top of the idea presented by the player.
+Yes, and-ing is a technique from the world of improv. Essentially, your response to any idea, within reason, presented by a player should ideally be "Yes!" followed by the "And?" which is your constructive building on top of the idea presented by the player.
 
-These ideas can even extend beyond the scope of the character a player is roleplaying as. For example, letting everyone pitch in with ideas for what happens on a critical spellcasting failure is just plain fun. As the GM, you have final say but I've found that the more I can include my players in the collaborative storytelling process the more invested they become in the story and the more fun they have.
+These ideas can extend beyond the scope of the character a player is roleplaying as. For example, letting everyone pitch in with ideas for what happens on a critical spellcasting failure is fun. As the GM, you have final say but I've found that the more I can include my players in the collaborative storytelling process the more invested they become in the story and the more fun they have.
 
-There's a balance to strike here, and every group will desire a different level of agency and control over the story that's told at the table. Find your group's comfort zone and stick with it.
+There's a balance to strike here, and every group will expect a different level of agency and control over the story that's told at the table. Find your group's comfort zone and stick with it.
 
 # Secret Death Timers
 
-Most of the tabletop games that I've played have some sort of rule about PCs being in a "downed but not dead" state when they take enough damage. If their allies can get to downed PC in time, they'll be OK. Otherwise, they're dead. Keeping the number of rounds a downed PC has left before they die a secret can ratchet up the tension for all the players at the table and make for much more tense and memorable close calls.
+Most of the tabletop games that I've played have a rule about PCs being in a "downed but not dead" state when they take enough damage. If their allies can get to the downed PC in time, they'll be OK. Otherwise, they're dead.
+
+Keeping the number of rounds a downed PC has left before they die a secret can ratchet up the tension for everyone at the table and make for more tense and memorable close calls.
 
 For example, in the [Shadowdark RPG](/books/9798985456400/) rules, when a player is downed, a D4 is rolled publicly and the PC's constitution modifier is added to the roll. This number is the number of rounds of combat that the PC has until they die.
 
 Instead of doing this, roll the die privately and track the number of rounds yourself. And watch as your players scramble to try and come up with a way to save their fellow player's character from dying.
 
-I stole this rule from the [Mothership RPG](/books/mothership_1e/) rules and I'm likely to house rule it when playing with other high lethality roleplaying systems like Shadowdark because it's amazing.
+I stole this rule from the [Mothership RPG](/books/mothership_1e/) rules and I'm likely to house rule it when using other high lethality roleplaying systems.
 
 # Conclusion
 
