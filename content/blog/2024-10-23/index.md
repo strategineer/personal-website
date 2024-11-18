@@ -64,7 +64,7 @@ Considering how much effort goes into the GMing process, having players spend a 
 
 # Bangs
 
-A **bang** is a scene/moment/NPC that you've come up with and you know that you want to have your PCs encounter... Eventually. This is a simple but useful tool because the tabletop roleplaying experience by design makes it hard to predict exactly what's going to happen due to the unpredicatble nature of the dice and your players.
+A **bang** is a scene/moment/NPC that you've come up with and you know that you want to have your PCs encounter... Eventually. This is a simple but useful tool because the tabletop roleplaying experience by design makes it hard to predict exactly what's going to happen due to the unpredictable nature of the dice and your players.
 
 Bangs allow me to prep particular scenes, whether they're combat encounters or first encounters with NPCs, putting them into a list that I can review before every session so that if the opportunity to bring a bang to life presents itself then I'll be ready to do so.
 
@@ -74,7 +74,7 @@ Refer to [So You Want to Be A Gamemaster by Justin Alexander](/books/97816456789
 
 Using good source material as a foundation for my campaign has allowed me to spend all of my creative energy on adapting to what my players do and focus my efforts on expanding on the parts of the setting and story that they're enjoying the most instead of forcing myself to build everything from scratch every week, leaving myself with less time to do the important creative work that my players will appreciate most.
 
-On a bad week, when I'm low on ideas I can always fallback on just running the module as-is. The alternative would be improvising some real hot garbage sessions and nobody at the table will be havin fun when this happens (I can tell you that from experience).
+On a bad week, when I'm low on ideas I can always fallback on just running the module as-is. The alternative would be improvising some real hot garbage sessions and nobody at the table will be having fun when this happens (I can tell you that from experience).
 
 # Write session summaries (even if you don't plan on sharing them)
 
@@ -110,7 +110,7 @@ There's a balance to strike here, and every group will desire a different level 
 
 Most of the tabletop games that I've played have some sort of rule about PCs being in a "downed but not dead" state when they take enough damage. If their allies can get to downed PC in time, they'll be OK. Otherwise, they're dead. Keeping the number of rounds a downed PC has left before they die a secret can ratchet up the tension for all the players at the table and make for much more tense and memorable close calls.
 
-For example, in the [Shadowdark RPG](/books/9798985456400/) rules, when a player is downed, a D4 is rolled publically and the PC's constitution modifier is added to the roll. This number is the number of rounds of combat that the PC has until they die.
+For example, in the [Shadowdark RPG](/books/9798985456400/) rules, when a player is downed, a D4 is rolled publicly and the PC's constitution modifier is added to the roll. This number is the number of rounds of combat that the PC has until they die.
 
 Instead of doing this, roll the die privately and track the number of rounds yourself. And watch as your players scramble to try and come up with a way to save their fellow player's character from dying.
 
