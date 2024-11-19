@@ -42,3 +42,4 @@ links:
 - map09: nice
 - map11: constantly expanding arena with new monsters
 - map12: another map with an expanding arena, a bunch of imps teleporting in, seems like the imp is the go to spammable enemy
+- map14: wild puzzles
