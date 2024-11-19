@@ -6,11 +6,13 @@ blog/tags:
 draft: true
 ---
 
-A few weeks ago, I began running an old school rennaissance (mega)dungeon crawling tabletop roleplaying campaign using the Shadowdark RPG ruleset. It's proven to be the most successful of my attempts at Gamemastering by far.
+A few months ago, I began running an old school rennaissance (mega)dungeon crawling tabletop roleplaying campaign using the Shadowdark RPG rules. It's proven to be the most successful of my attempts at Gamemastering by far.
 
 I've learned a lot about GMing since my first attempt at it sometime in the mid-00s. Read on some more context on my roleplaying history, otherwise [you can go straight to the lessons I learned](#lessons-i-learned).
 
-I've loved the platonic ideal of tabletop roleplaying for decades but up until the past few years I participated in it sporadically. This changed in early 2019 when I found myself unemployed with ample free time to explore hobbies and passions that I had neglected for a long time, including tabletop roleplaying.
+I've been in love with the platonic ideal of tabletop roleplaying for a long time. But my early experiences were a far cry from what I imagined it could be.
+
+So up until the past few years I participated in it only sporadically. This changed in early 2019 when I found myself unemployed with ample free time to explore passions that I had neglected for a long time, including tabletop roleplaying.
 
 Since then I've been participating in tabletop roleplaying sessions regularly and I've had the opportunity to run a few months-long campaigns with a few groups of players in-person and online. In that time, I've learned a lot and I'd like to share what I've learned in hopes that you can avoid a lot of the pain and suffering that me and my players experienced along the way.
 
@@ -18,27 +20,27 @@ Since then I've been participating in tabletop roleplaying sessions regularly an
 
 The [Foundry Virtual Tabletop](https://foundryvtt.com) is cheap and is slowly becoming the only way I'm willing to roleplay online.
 
-Foundry is customizable to a fault, you can play just about anything with it but it'll require a few hours of setting up before it's ready for play. In my case, that was time well spent because I've found that running sessions with Foundry is the most effective way of roleplaying online. It just works.
+Foundry is customizable to a fault, you can play just about anything with it but it'll require a few hours of setting up. In my case, that was time well spent because running sessions with Foundry is the most effective way of roleplaying online for me and my group. It just works.
 
-If the game you're playing is well supported then everything that's hard about roleplaying online without a good VTT (syncing up character sheets, non-theater of the mind play, etc.) is solved by Foundry so your players can focus all their attention on roleplaying your characters and you can focus on running the best game you can run.
+If the game you're playing is well supported then everything that's hard about roleplaying online without a good VTT (syncing up character sheets, running non-theater of the mind play, etc.) is solved by Foundry so your players can focus all their attention on roleplaying their characters and you can focus on running the best game you can run.
 
 # Bring your characters to life with vocal quirks and accents
 
 I've always been curious about voice acting but I've never put in the time and effort needed to be good at it. Now that I've put in some the required time and effort, I'm still NOT good at it BUT I'm confident enough in my poor voice acting skills to use them...
 
-With my most recent campaign I made a commitment to try to give each NPC I embody a unique vocal quirk. My players seem to get a kick out of me doing this despite my relative inexperience which is great. Even slightly changing my voice allows for my online players to easily differentiate between me speaking as the GM and me speaking as an NPC which makes it much easier for me to go back and forth between the two.
+With my most recent campaign I made a commitment to try to give each NPC I embody a unique vocal quirk. My players seem to get a kick out of me doing this despite my inexperience which is great. Even slightly changing my voice allows for my online players to easily differentiate between me speaking as the GM and me speaking as an NPC which makes it much easier for me to go back and forth between the two.
 
 Even if you're not consistent (I'm not) and your voices are kind of shit (mine are) do it anyway, that's the only way to learn. If you've got players with good voice acting skills at the table with you like I do, feel free to ask them to help you out with vocal work that's out of your range (for now) and learn from them.
 
-What does Beelzebub sound like? I don't know but one of my players really does.
+What does Beelzebub sound like? I don't know but thankfully one of my players really does.
 
 # Write a one-pager for the one-shot or campaign you're planning to run
 
 Before the first session of my current campaign, I wrote a [one-page document](/tabletop/osr/labyrinth_of_the_blue_gorgon/#one-pager) describing everything I thought my players needed to know about the campaign that I wanted run. It included information like: the campaign's premise and flavor, the unique parts of the campaign that would differentiate it from other campaigns that we've played, the details that would help players creating their characters and potential content warnings.
 
-Writing this document helped me understand exactly what kind of campaign I wanted to run and forced me to express this in a concise way to my players. This document was also an effective recruiting and hype tool because I was able to use it to both recruit players and get players that were already interested excited about the specifics of the campaign I wanted to run.
+Writing this document helped me understand exactly what kind of campaign I wanted to run and forced me to express this in a concise way to my players. This document was also an effective recruiting tool because I was able to use it to both recruit players and get players that were already interested excited about the specifics of the campaign I wanted to run.
 
-The characters my players created for this campaign were top notch and were universally a great fit for the setting of the campaign, I take partial credit for this because I gave my players all the context they needed to create the great characters they created for the setting and campaign I was planning to build.
+The characters my players created for this campaign were top notch and were a great fit for the setting of the campaign, I take partial credit for this because I gave my players all the context they needed to create the great characters they created for the setting and campaign I was planning to build.
 
 Refer to page 10 of [Sly Flourish's The Lazy DM's Companion by Michael E. Shea](/books/9798848677645/) for more details on this.
 
@@ -46,13 +48,15 @@ Refer to page 10 of [Sly Flourish's The Lazy DM's Companion by Michael E. Shea](
 
 Some tabletop roleplaying systems enforce this kind of initial relationship building as a core part of the character creation process but not all of them do. Even if I'm using a tabletop system that doesn't explicitly call for this (like Shadowdark RPG), I'll likely house rule some version of it into the game anyway because I've found it to be so useful.
 
-Each player character starting off with a pre-existing relationship with at least one other PC as well as one NPC can provide a solid foundation for the player to roleplay their character right from the start and to give something for the GM to build on before anything even happens during the first session of a campaign. For example, the relationship a PC has with an NPC defined during the character creation process can lead to a recurring NPC, perhaps this NPC will provide the group with their first "quest".
+Each player character starting off with a pre-existing relationship with at least one other PC as well as one NPC can provide a solid foundation for the player to roleplay their character right from the start and to give something for the GM to build on before anything even happens during the first session of a campaign. For example, the relationship a PC has with an NPC defined during the character creation process can lead to a recurring NPC, maybe this NPC will provide the group with their first "quest"?
 
 These relationships tie the PCs together initially and grounds them all within the setting. As the GM, you can use these initial relationships as the foundation for further integrating the PCs in the world. When you need to come up with a character on the fly, maybe it's an NPC that's on one of your PCs sheets?
 
 For example, Blotbug the goblin witch can start play with a relationship with the leader of the Cult of the Shattered Moon. This person tried to ritually sacrifice Blotbug to the Dark God that the Cult worships. Blotbug barely escaped with his life and went into hiding, eventually joining the party.
 
 Is the Cult of the Shattered Moon still after him? If so, why? Why did they try to sacrifice him in particular? How has this near-death experience affected him and his outlook on life? etc.
+
+All these questions can be turned into bangs!
 
 # Use the Stars and Wishes system to encourage a per-session constructive feedback loop that helps you GM better sessions for your players
 
@@ -96,11 +100,9 @@ So that's what I do.
 
 # Make PC decisions matter
 
-If players choose to react a certain way to an NPC or interact with the world in particular way, remember this ([maybe write session summaries to help you remember](#write-session-summaries-even-if-you-dont-plan-on-sharing-them)) and, if appropriate, find a way to acknowledge this decision by providing an in-universe reaction to it.
+If players choose to react a certain way to an NPC or interact with the world in particular way, remember this ([maybe write session summaries to help you remember](#write-session-summaries-even-if-you-dont-plan-on-sharing-them)) and, if appropriate, find a way to acknowledge this decision by providing an in-universe reaction to it, either in the moment or in a subsequent session after putting some more thought into it.
 
-How do other NPCs in the world react to the PCs now that they've done X?
-
-Did a PC give a convincing off-the-cuff argument to encourage a crazed chaos demon to help them the party out? Let the demon, who everyone at the table knows was meant to be a tough boss fight, become friends with the party. Let it happen and have fun with it.
+Did a PC give a convincing off-the-cuff argument to encourage a crazed chaos demon to help them the party out? Let the demon, who everyone at the table knows was meant to be a tough boss fight, become friends with the party. Let it happen and try to build on this new relationship.
 
 Constantly ask questions about how the world reacts to the PCs actions, hopefully your players are thinking about how their PCs are reacting to the world and roleplaying accordingly.
 
@@ -108,21 +110,23 @@ There you go. That's 99% of roleplaying solved.
 
 # Yes! And? But...
 
-Yes, and-ing is a technique from the world of improvt. Essentially, your response to any idea, within reason, presented by a player should ideally be "Yes!" followed by the "And?" which is your constructive building on top of the idea presented by the player.
+Yes, and-ing is a technique from the world of improv. Essentially, your response to any idea, within reason, presented by a player should ideally be "Yes!" followed by the "And?" which is your constructive building on top of the idea presented by the player.
 
-These ideas can even extend beyond the scope of the character a player is roleplaying as. For example, letting everyone pitch in with ideas for what happens on a critical spellcasting failure is just plain fun. As the GM, you have final say but I've found that the more I can include my players in the collaborative storytelling process the more invested they become in the story and the more fun they have.
+These ideas can extend beyond the scope of the character a player is roleplaying as. For example, letting everyone pitch in with ideas for what happens on a critical spellcasting failure is fun. As the GM, you have final say but I've found that the more I can include my players in the collaborative storytelling process the more invested they become in the story and the more fun they have.
 
-There's a balance to strike here, and every group will desire a different level of agency and control over the story that's told at the table. Find your group's comfort zone and stick with it.
+There's a balance to strike here, and every group will expect a different level of agency and control over the story that's told at the table. Find your group's comfort zone and stick with it.
 
 # Secret Death Timers
 
-Most of the tabletop games that I've played have some sort of rule about PCs being in a "downed but not dead" state when they take enough damage. If their allies can get to downed PC in time, they'll be OK. Otherwise, they're dead. Keeping the number of rounds a downed PC has left before they die a secret can ratchet up the tension for all the players at the table and make for much more tense and memorable close calls.
+Most of the tabletop games that I've played have a rule about PCs being in a "downed but not dead" state when they take enough damage. If their allies can get to the downed PC in time, they'll be OK. Otherwise, they're dead.
+
+Keeping the number of rounds a downed PC has left before they die a secret can ratchet up the tension for everyone at the table and make for more tense and memorable close calls.
 
 For example, in the [Shadowdark RPG](/books/9798985456400/) rules, when a player is downed, a D4 is rolled publicly and the PC's constitution modifier is added to the roll. This number is the number of rounds of combat that the PC has until they die.
 
 Instead of doing this, roll the die privately and track the number of rounds yourself. And watch as your players scramble to try and come up with a way to save their fellow player's character from dying.
 
-I stole this rule from the [Mothership RPG](/books/mothership_1e/) rules and I'm likely to house rule it when playing with other high lethality roleplaying systems like Shadowdark because it's amazing.
+I stole this rule from the [Mothership RPG](/books/mothership_1e/) rules and I'm likely to house rule it when using other high lethality roleplaying systems.
 
 # Conclusion
 
