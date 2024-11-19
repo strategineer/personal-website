@@ -1,9 +1,8 @@
 ---
-title: "Recent Tabletop RPG GMing Lessons Learned"
-date: 2024-10-23
+title: "Tabletop RPG GMing Lessons Learned (1)"
+date: 2024-11-18
 blog/tags:
   - tabletop
-draft: true
 ---
 
 A few months ago, I began running an old school rennaissance (mega)dungeon crawling tabletop roleplaying campaign using the Shadowdark RPG rules. It's been the most successful of my attempts at Gamemastering by far.
