@@ -2,7 +2,7 @@
 title: "Tabletop Roleplaying: Getting your players to care"
 date: 2022-08-22T09:15:35-04:00
 blog/tags:
-  - gaming
+  - tabletop
 ---
 
 > If you're new to roleplaying or just curious, [take a look at my tabletop roleplaying 101 post](/blog/2022-08-14/) before reading this one.

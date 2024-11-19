@@ -2,7 +2,7 @@
 title: "Tabletop Roleplaying 101"
 date: 2022-08-14T09:15:35-04:00
 blog/tags:
-  - gaming
+  - tabletop
 ---
 
 So...
