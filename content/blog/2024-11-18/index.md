@@ -31,7 +31,7 @@ Even if your voices are not consistent (mine aren't) and if your voices are kind
 
 What does Beelzebub sound like? I don't know but thankfully one of my players really does.
 
-# Write a one-pager for the one-shot or campaign you are planning to run
+# Write a one-pager for your campaign (or one-shot)
 
 Before the first session of my current campaign, I wrote a [one-page document](/tabletop/osr/labyrinth_of_the_blue_gorgon/#one-pager) describing everything I thought my players needed to know about the campaign that I wanted run.
 
