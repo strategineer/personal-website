@@ -3,7 +3,7 @@ mappers:
 - Dragonfly
 wads/tags:
 - megawad
-date: 2024-11-22
+date: 2024-11-21
 star_rating: 4
 title: Eviternity II
 links:
