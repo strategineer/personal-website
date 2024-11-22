@@ -2,10 +2,9 @@
 mappers:
 - Dragonfly
 wads/tags:
-- currently-playing
 - megawad
-date: 2024-11-14
-star_rating: null
+date: 2024-11-22
+star_rating: 4
 title: Eviternity II
 links:
   - "homepage,https://eviternity.dfdoom.com/"
@@ -67,3 +66,13 @@ links:
   - OOHHHHHHH OK I get it now, beating puzzley sub-maps to make the main big fight easier wasn't foreshadowed much and so I bulldozed my way into an actually absurd fight. Probably beatable but not fun playing the map that way. But this is a really cool premise
   - but that's a really cool concept now that I know WTF is going on here
   - haunting...
+- cringe compilation
+
+closing thoughts:
+- pretty good
+- great textures
+- some great tracks
+- some great levels
+- the intermission texts are awful and detract from the experience
+- I don't know if there's a reason for it to be a sequel, some callbacks to the Eviternity 1 is cool and all the new enemies are interesting (although I'd argue some are more annoying than fun to fight)
+- still, it's probably an easy wad to recommend for people because the appeal is pretty universal, the production value on this whole thing is undeniably high.
