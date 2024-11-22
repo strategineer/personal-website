@@ -8,8 +8,8 @@ books/tags:
 date: 2024-11-19
 params:
   year: '2016'
-slug: the_annotated_sorcerer
-star_rating: 4
+slug: apocalypse_world_2e
+star_rating: null
 title: Apocalypse World (2nd Edition)
 ---
 
