@@ -11,4 +11,4 @@ links:
   - "idgames,https://www.doomworld.com/idgames/levels/doom2/Ports/p-r/rush"
 ---
 
-Set of 12 (?) levels that acts as a Primer on the genre of Doom maps filled with enemies called slaughter maps.
+Set of 12 (?) levels that acts as a Primer on the genre of Doom maps filled with enemies called slaughter maps, AKA Baby's First Slaughter
