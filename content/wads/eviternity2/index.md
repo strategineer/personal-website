@@ -43,3 +43,27 @@ links:
 - map11: constantly expanding arena with new monsters
 - map12: another map with an expanding arena, a bunch of imps teleporting in, seems like the imp is the go to spammable enemy
 - map14: wild puzzles
+- map16: callback to eviternity map01?
+- map17: cool shifting stage and teleporting probably
+- map20: another map ending on a locked in arena fight
+- map21: skidding on ice? ya... not sure I like this gimmick
+- map22: a "gauntlet" style map where you run through all of it, triggering a bunch of enemies and picking up weapons along the way
+- map23: another "gauntlet"
+  - where are the keys?
+- map24: another gauntlet, is this very skillsaw-inspired?
+  - wild arena fight after you get all the keys, tight room
+  - oh ok, we're doing 3 big arena fight for each of the skull keys
+  - coolest map combat-wise
+  - god-tier doomcute battleship at the end
+- map25: epic boss fight
+  - fantastic track
+- map26: like map01, more of an atmospheric level, something like ALT
+  - spooky AF track
+  - map acts like a transition from one setting to another, emphasing the transition
+  - shivers inducing
+  - BIG reveal
+  - OK this map is not what I'm into, I need to play more slaughter maps and understand what make them tick for something like this to hit for me.
+  - The laggyness despite playing on the best perfomance source port (DSDA-Doom) is rough
+  - OOHHHHHHH OK I get it now, beating puzzley sub-maps to make the main big fight easier wasn't foreshadowed much and so I bulldozed my way into an actually absurd fight. Probably beatable but not fun playing the map that way. But this is a really cool premise
+  - but that's a really cool concept now that I know WTF is going on here
+  - haunting...
