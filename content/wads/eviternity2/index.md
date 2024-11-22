@@ -63,7 +63,7 @@ links:
   - shivers inducing
   - BIG reveal
   - OK this map is not what I'm into, I need to play more slaughter maps and understand what make them tick for something like this to hit for me.
-  - The laggyness despite playing on the best perfomance source port (DSDA-Doom) is rough
+  - The laggyness despite playing on the best performance source port (DSDA-Doom) is rough
   - OOHHHHHHH OK I get it now, beating puzzley sub-maps to make the main big fight easier wasn't foreshadowed much and so I bulldozed my way into an actually absurd fight. Probably beatable but not fun playing the map that way. But this is a really cool premise
   - but that's a really cool concept now that I know WTF is going on here
   - haunting...
