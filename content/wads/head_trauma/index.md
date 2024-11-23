@@ -4,7 +4,7 @@ mappers:
 wads/tags: []
 date: 2024-11-22
 level_count: 5
-star_rating: 5
+star_rating: 4
 title: Head Trauma
 links:
   - "idgames,https://www.doomworld.com/idgames/levels/doom2/Ports/g-i/ht"
