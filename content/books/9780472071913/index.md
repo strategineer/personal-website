@@ -2,13 +2,13 @@
 authors:
 - Dan Pinchbeck
 books/tags:
-- currently-reading
-date: 2024-11-21
+- academic
+date: 2024-11-22
 params:
   isbn13: '9780472071913'
   year: '2013'
 slug: '9780472071913'
-star_rating: null
+star_rating: 5
 title: 'Doom: Scarydarkfast'
 ---
 
