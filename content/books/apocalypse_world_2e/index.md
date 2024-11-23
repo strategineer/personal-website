@@ -3,13 +3,12 @@ authors:
 - D. Vincent Baker
 - Meguey Baker
 books/tags:
-- currently-reading
 - tabletop
-date: 2024-11-19
+date: 2024-11-22
 params:
   year: '2016'
 slug: apocalypse_world_2e
-star_rating: null
+star_rating: 4
 title: Apocalypse World (2nd Edition)
 ---
 
