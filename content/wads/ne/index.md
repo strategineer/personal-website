@@ -1,7 +1,8 @@
 ---
 mappers:
-- Ashtral Fiend
+- AshtralFiend
 wads/tags: []
+level_count: 1
 date: 2024-11-11
 star_rating: 5
 title: "Nostalgic Entropy: Neo Retro"
