@@ -2,13 +2,12 @@
 authors:
 -  Ron Edwards
 books/tags:
-- currently-reading
 - tabletop
-date: 2024-11-20
+date: 2024-11-22
 params:
   year: '2011'
 slug: the_annotated_sorcerer
-star_rating: null
+star_rating: 5
 title: The Annotated Sorcerer
 ---
 
