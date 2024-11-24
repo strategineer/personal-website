@@ -21,3 +21,4 @@ links:
 - flr07: tight wave-based arena fight, feels pretty good
 - a lot of doomcute
 - flr15: using single skull next to doors to show that following this path will give you the appropriate skull/key, something to do myself
+- flr22: AshtralFiend feels like a main character in this community project, his maps stand out. This one is kind of wild, finally walking around the tower and being able to fall all the way down.
