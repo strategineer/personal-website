@@ -3,12 +3,11 @@ mappers:
 - rafael2100
 - AshtralFiend
 wads/tags:
-- currently-playing
 - megawad
 - community project
 level_count: 40
 date: 2024-11-23
-star_rating: null
+star_rating: 3
 title: "The Tower of Babel"
 links:
   - "doomworld,https://www.doomworld.com/vb/thread/148920"
@@ -22,3 +21,5 @@ links:
 - a lot of doomcute
 - flr15: using single skull next to doors to show that following this path will give you the appropriate skull/key, something to do myself
 - flr22: AshtralFiend feels like a main character in this community project, his maps stand out. This one is kind of wild, finally walking around the tower and being able to fall all the way down.
+- some of these later maps are atrocious
+- flr35: wild set piece
