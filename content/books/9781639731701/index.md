@@ -12,6 +12,6 @@ star_rating: null
 title: Extinction of Irena Rey
 ---
 
-Eight translators travel to Poland to translate Irena Rey's next novel. Shit hits the fan.
+Eight translators travel to Poland to translate Irena Rey's next novel. Hijinks ensue.
 
 <!--more-->
