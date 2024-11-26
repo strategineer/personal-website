@@ -50,7 +50,7 @@ Eventually, I found myself faced with the following:
 
 [insert screenshot of this here]
 
-An Arch-Vile ressurecting the corpses of his fallen demonic brethren right beneath a portion of the ceiling moving up and down dealing damage to anything beneath it, commonly called a Crusher.
+An Arch-Vile resurrecting the corpses of his fallen demonic brethren right beneath a portion of the ceiling moving up and down dealing damage to anything beneath it, commonly called a Crusher.
 
 [...]
 
