@@ -6,7 +6,7 @@ wads/tags:
 - megawad
 - community project
 level_count: 40
-date: 2024-11-23
+date: 2024-11-24
 star_rating: 3
 title: "The Tower of Babel"
 links:
