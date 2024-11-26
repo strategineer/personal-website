@@ -1,11 +1,10 @@
 ---
 mappers:
 - Nicolas Monti
-wads/tags:
-- currently-playing
+wads/tags: []
 level_count: 9
 date: 2024-11-25
-star_rating: null
+star_rating: 4
 title: "cyberpunx"
 links:
   - "idgames, https://www.doomworld.com/idgames/levels/doom2/Ports/a-c/cyberpnx"
@@ -22,5 +21,8 @@ random thoughts: Doom custom maps 30 years in, it's inherently meta, it's its ow
 - 4: wtf is this music track? so jarring between the levels, big shifts tonally
 
 - all the pickups have been changed as well
-- hard map set I've played recently
+- hardest and meanest wad I've played recently
 - constantly gives you a weapon that isn't appropriate for the encounter you're about to have which is the opposite of what you're used to
+
+- 9: absolutely deranged music track choice, monti is a wild mapper
+- evil dehacked monster changes, weak enemies move 10% faster and it seems like the big boys have 10x the health, toxic
