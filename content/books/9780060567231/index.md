@@ -2,7 +2,7 @@
 authors:
 - Roger Zelazny
 books/tags:
-- currently-reading
+- did-not-finish 
 - science fiction
 - myth
 date: 2024-11-04
@@ -11,7 +11,7 @@ params:
   year: '2004'
 slug: '9780060567231'
 star_rating: null
-title: Lord of light
+title: Lord of Light
 ---
 
 
