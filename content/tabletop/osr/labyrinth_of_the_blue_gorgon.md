@@ -131,6 +131,16 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 - Marlon spent some time building a super Rake 2.0 (easier to climb) after it broke in half when he tried to climb it last (Thanks Freeya).
 - As the Crew returned from their rest, they witnessed 9 Corvid mask wearing humanoids called the "Oku" and the "Curator", a giant-sized hand made of marble. The leader of Oku addressed the "Curator": "Youuuuuuuuuuuuuuuu have foiled our plans for the last time, vile Curator." Hearing these words, the hands began to move.
 
+## Session 9
+
+- The Crew watched as the "Oku" fought for their right to steal art from the Gallery by taking on the Gallery's protector, the Curator, a gigantic hand statue made of marble.
+- Initially, the Crew tried to sneak around the fight. Seeing the "Oku" put up a good fight, Freeya tipped the balance of power in their favor by using his Non-Hostile Demonic Summoning ability to summon Valefar ("Die Cop!"), a dog-like familiar demon who's really into thievery.
+- With Valefar's help, the "Oku" shattered the Curator into pieces, while suffering a few losses (reduced with Freeya's help). The "Oku" leader Devil-Bit Scabious expressed his thanks for helping his Crew kill the Curator, granting them a bird call whistle to use whenever the Crew we're interested in helping out with a heist or killing God, etc.
+- Underneath the remains of the Curator, the Crew found magical map of the Gallery allowing them to navigate more easily within it.
+- Brod, leading the group, initially chose to use the map to navigate to Milo de Fretwell, quickly changing his mind and choosing to find the Gallery's exit to the Library. The Crew followed the map quickly finding a man trapped in a house made of wire (An art piece by Milo De Fretwell and Xanthoceras).
+- Through Freeya's constantly surprising charismatic abilities, the Crew discovered that this man was in fact Milo de Fretwell despite him claiming otherwise. Milo also claimed if anyone were to kill him they would as a result be emprisoned in his stead. Using a Detect Magic spell, Freeya confirmed that the house was magical, that it could be dispelled and that the magic served to imprison an individual and keep them from escaping through any means.
+- Freeya, addressing Milo, said: "Can you give us a single reason why we should keep you alive?"
+
 # One Pager
 
 **The campaign’s premise and flavor**
