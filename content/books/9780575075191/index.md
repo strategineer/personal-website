@@ -2,7 +2,7 @@
 authors:
 - Mary Gentle
 books/tags:
-- currently-reading
+- did-not-finish
 - science fiction
 - fantasy
 date: 2024-10-29
