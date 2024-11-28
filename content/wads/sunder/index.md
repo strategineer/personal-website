@@ -18,3 +18,4 @@ links:
 - 4: a lot of crushers and movement puzzles which is rare in Doom maps
   - crusher sounds are pretty annoying
 - many sequences of buttons in an arena to lock the player in them and force them to fight and clear out all the demons, then go around hitting all the buttons that raise other buttons until you hit the last button that opens the path forward or wtv
+- 9: a lot of verticality and tight spaces, I'm lowering the difficulty to HMP after this.
