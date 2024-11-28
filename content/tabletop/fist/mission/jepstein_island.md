@@ -10,7 +10,7 @@ Our client for this job has tipped us off that BOOTY, you know those pirates and
 
 Our client wants to us to send some agents, that's you, over to the island while the attack is happening using it as cover to, huh, let's just say, "acquire" some of the high tech gadgets that Jepstein has collected over the years and, conveniently for us, placed all over his island.
 
-Jepstein's private island parties can get quite hectic, you never know who might be attending. You should expect the BOOTY pirates to up quite a fight and if you run into any members of Jepstein's Security force, you might be able to convince them that you're there to help (and get their help in return), just don't try to steal, cough, sorry "acquire" any gadgets while they're looking.
+Jepstein's private island parties can get quite hectic, you never know who might be attending. You should expect the BOOTY pirates to put up quite a fight and if you run into any members of Jepstein's Security force, you might be able to convince them that you're there to help (and get their help in return), just don't try to steal, cough, sorry "acquire" any gadgets while they're looking.
 {{< /quote >}}
 
 <!--more-->
@@ -37,7 +37,7 @@ Consequences:
 {{< /rpg_table >}}
 
 [NPCs](/tabletop/fist/npcs):
-- Effrey Jepstein "Effrey Jepstein is my name, Money and sex trafficking is my game.", financier, wants to leave the island alive.
+- Effrey Jepstein "Effrey Jepstein is my name, money and sex trafficking is my game.", financier, wants to leave the island alive.
 - Jordan Cane "If looks can kill I'd be a holocaust", retired FBI agent turned playboy/actor, wants to leave the island alive and look good doing it.
 
 {{< quote >}}
