@@ -52,7 +52,7 @@ And, I think that Croft really is doing something different with the mystery in 
 
 This novel is begging to be thought about during and after reading it and I love that about it.
 
-It's not perfect though, I would have preferred a few less paragraphs where Croft uses her characters to speak directly to the reader about her thoughts on the process of translation.
+It's not perfect though, I would have preferred fewer paragraphs where Croft uses her characters to speak directly to the reader about her thoughts on translation.
 
 These felt a little redundant and sometimes out of place especially because I seem to have a similar understanding about the art of translation as Croft does.
 
