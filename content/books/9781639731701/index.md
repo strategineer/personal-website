@@ -58,7 +58,7 @@ These felt a little redundant and sometimes out of place especially because my b
 
 A great translation must by necessity transform the text it's based on to be great and this requires the translator to be just as much of a writer as the original author, if not more.
 
-One cannot ignore translators like Margaret Jull Costa especially known for her work translating most of [José Saramago's work into English](/authors/josé-saramago/), a Herculean task I wouldn't wish upon my greatest enemy, and still make reductive claims about a translator's work being lesser than a writer's work because, well, translators are writers.
+One cannot know about translators like Margaret Jull Costa especially known for her work translating most of [José Saramago's work into English](/authors/josé-saramago/), a Herculean task I wouldn't wish upon my greatest enemy, and continue to make reductive claims about a translator's work being lesser than a writer's work because, well, translators are writers.
 
 What elevates The Extinction of Irena Rey to a 5/5 for me and allows me to fully enjoy it for what it is despite the minor quibbles I have with it --- is how big of a swing it's taking, how absolutely weird it is and how Croft manages to stick the landing anyway. I'll be keeping an eye Jennifer Croft's work moving forward --- she's at least convinced me that I should be paying attention to her.
 
