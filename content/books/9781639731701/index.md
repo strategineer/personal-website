@@ -54,11 +54,11 @@ This novel is begging to be thought about during and after reading it and I love
 
 It's not perfect though, I would have preferred fewer paragraphs where Croft uses her characters to speak directly to the reader about her thoughts on translation.
 
-These felt a little redundant and sometimes out of place especially because my beliefs about the art of translation seem to be mostly aligned with Croft's.
+These felt a little redundant and sometimes out of place especially because my beliefs about the art of translation seem to be aligned with Croft's as presented within the text through the character of Alexis Archer.
 
 A great translation must by necessity transform the text it's based on to be great and this requires the translator to be just as much of a writer as the original author, if not more.
 
-One cannot ignore translators like Margaret Jull Costa especially known for her work translating most of [José Saramago's work into English](/authors/josé-saramago/) a Herculean task I wouldn't wish upon my greatest enemy, and still make reductive claims about a translator's work being lesser than a writer's work because, well, translators are writers.
+One cannot ignore translators like Margaret Jull Costa especially known for her work translating most of [José Saramago's work into English](/authors/josé-saramago/), a Herculean task I wouldn't wish upon my greatest enemy, and still make reductive claims about a translator's work being lesser than a writer's work because, well, translators are writers.
 
 What elevates The Extinction of Irena Rey to a 5/5 for me and allows me to fully enjoy it for what it is despite the minor quibbles I have with it --- is how big of a swing it's taking, how absolutely weird it is and how Croft manages to stick the landing anyway. I'll be keeping an eye Jennifer Croft's work moving forward --- she's at least convinced me that I should be paying attention to her.
 
