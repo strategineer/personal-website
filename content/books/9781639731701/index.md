@@ -54,7 +54,7 @@ This novel is begging to be thought about during and after reading it and I love
 
 It's not perfect though, I would have preferred fewer paragraphs where Croft uses her characters to speak directly to the reader about her thoughts on translation.
 
-These felt a little redundant and sometimes out of place especially because I seem to have a similar understanding about the art of translation as Croft does.
+These felt a little redundant and sometimes out of place especially because my beliefs about the art of translation seem to be mostly aligned with Croft's.
 
 A great translation must by necessity transform the text it's based on to be great and this requires the translator to be just as much of a writer as the original author, if not more.
 
