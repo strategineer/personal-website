@@ -29,4 +29,4 @@ Jennifer Croft plays with this framing in interesting ways and that's what makes
 
 The Extinction of Irena Rey is a mystery novel and I'd argue that it's the first one I've really liked without any caveats. The mystery that begins to reveal itself as you read through the text is not constantly thrown at your face, there's a level of subtlety with the way the mystery elements of the novel are dealt with that I appreciated.
 
-Sometimes a reveal will be explicitely foreshadowed which influenced my reading of the story that followed but then hundreds of pages later the reveal occurs but differently than I expected and in a way that reframed my understanding of the text. There's a lot of that here which I enjoyed and didn't feel gratuitous.
+Sometimes a reveal will be explicitly foreshadowed which influenced my reading of the story that followed but then hundreds of pages later the reveal occurs but differently than I expected and in a way that reframed my understanding of the text. There's a lot of that here which I enjoyed and didn't feel gratuitous.
