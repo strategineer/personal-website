@@ -5,7 +5,7 @@ authors:
 books/tags:
 - currently-reading
 - historical fiction
-date: 2024-11-28
+date: 2024-11-29
 params:
   isbn13: '9780593544792'
   year: '2024'
