@@ -37,7 +37,7 @@ The mystery is the story and the story is the mystery and everything surrounding
 
 {{< spoiler >}}
 
-Around midway through the novel, after the initial setup and reveal of the core mystery, Freddie starts an uncharacteristic Detective Poirot-esque monologue where he lists out all the information and clues that the translators have gathered so far and he mentions possible further avenues for their investigation to take.
+Around midway through the novel, after the initial setup and reveal of the core mystery, one of the translators, Freddie starts an uncharacteristic Detective Poirot-esque monologue where he lists out all the information and clues that the translators have gathered so far and he mentions possible further avenues for their investigation to take.
 
 Considering the tone of the speech and Freddie being the one giving it, I interpret this as a shot being taken by Jennifer Croft at that style of mystery novel and signaling to the reader that she's trying to do something different.
 
