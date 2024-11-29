@@ -15,12 +15,6 @@ Eight translators travel to Poland to translate the famous Irena Rey's next nove
 
 <!--more-->
 
-**spoilers for The Exctinction of Irena Rey below**
-
-Huh.
-
-This is a weird one. I liked it a lot despite it being a little artsy-fartsy, a little navel-gazy too.
-
 The Extinction of Irena Rey is a novel about translation, transmission, authorship, author worship, media literacy, Mycelium, *Ophiocordyceps unilateralis*, Poland, climate change, weebs and everything but the kitchen sink. I'm amazed by how much spaghetti Jennifer Croft is throwing at the wall in this novel and how much of it sticks. Even when it doesn't work, when the prose is a little too purple, I find it compelling anyway because that kind of writing still works just in a different because of the way the story is framed.
 
 The Extinction of Irena Rey by Jennifer Croft is a frame story ([I can't get enough of them](/books/9780575069015/)) in which a woman named Alexis Archer has translated a text (peppering it throughout with extensive footnotes) written by one of her fellow translators. This text, also named The Extinction of Irena Rey, is an account of the events that transpired between Alexis Archer, and the author of this Extinction of Irena Rey (not the novel you're reading written by Jennifer Croft) and six other translators, most of whom have known each other for over a decade, who've travelled to Poland to, presumably, translate Irena Rey's latest work. Of course, hijinks ensue.
