@@ -2,6 +2,7 @@
 authors:
 - Holly Gramazio
 books/tags:
+- slay
 - science fiction
 date: 2024-11-30
 params:
