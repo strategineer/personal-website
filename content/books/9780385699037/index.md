@@ -20,13 +20,16 @@ She confirms that somehow he's her husband... And there's more husbands where he
 
 <!--more-->
 
-First time novel by Holly Gramazio, the script writer for Dicey Dungeons apparently, who seems to be embedded in the game space.
+First time novel by Holly Gramazio, the script writer for Dicey Dungeons apparently, who seems to be steeped in the game space and it shows
 
 **Spoilers for the Husbands below:**
 
-The world of The Husbands feels systematically built and Lauren, the main character suffering from the struggle that is the Husband Gacha, reacts to her husband exchanging magic attic as if she were a player in a video game.
+The world of The Husbands feels systematically built like a game would be and Lauren, the main character drunk literally and with her newfound Husband Gacha powers, reacts to her husband exchanging magic attic as if she was a player in a video game.
 
-Poking at the seams, figuring out how to leverage the system to her advantage and eventually choosing to not play the game anymore because it isn't the way she wants to live her life.
+She begins by exploring how this attic works and she gradually figures out how to leverage it to her advantage
+
+
+and eventually choosing to not play the game anymore because it isn't the way she wants to live her life.
 
 Her decisions become meaningless to her because with every new husband comes a reset of her entire life and her relationships making her the only person she knows who remembers her through the resets. Each of these new lives being lived out by someone who isn't her.
 
