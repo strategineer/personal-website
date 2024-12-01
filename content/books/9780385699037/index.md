@@ -3,8 +3,9 @@ authors:
 - Holly Gramazio
 books/tags:
 - slay
-- science fiction
 - comic
+- science fiction
+- tournament of books 2025
 date: 2024-11-30
 params:
   isbn13: '9780385699037'
@@ -16,36 +17,48 @@ title: The Husbands
 
 The Husbands might be the funniest novel I've read. An unmarried woman comes back home after a night out, only to find a strange man in her home.
 
-She confirms that somehow he's her husband... And there's more husbands where he came from (the attic). Hijinks ensue.
+He claims to be her husband and she confirms this...
+
+And there's more husbands where he came from (the attic). Hijinks ensue.
 
 <!--more-->
 
-The debut novel of Holly Gramazio, the script writer for Dicey Dungeons apparently, an author who seems to be steeped in the game space and it shows.
+The debut novel of Holly Gramazio, the script writer for the video game Dicey Dungeons, an author who seems to be steeped in the game space and it shows.
 
 **Spoilers for the Husbands below:**
 
-The world of The Husbands feels systematically built like a game would be and Lauren, the main character drunk both literally and on her newfound Husband Gacha powers, reacts to her husband exchanging magic attic as if she were a player in a video game.
+{{< spoiler >}}
 
-Once she's gotten settled into this new magical reality of hers, she begins to poke and prod at the attic to find out how it interacts with the husbands it "makes" for her and how it changes the rest of her life outside of her home and husband. Gradually, she figures out how to leverage the attic's power to her advantage, using to help her find the "perfect" husband and perhaps the best version of herself.
+The world of The Husbands feels systematically built like a game would be and our main character, Lauren, drunk both literally and on her newfound Husband Gacha powers, reacts to her husband exchanging magic attic as if she were a player in a video game.
 
-Each husband comes bundled with a multiverse version of reality in which Lauren met with and married said husband. This has a butterfly-like effect on the rest of her life, within reasonable parameters this changes her career, her relationships, etc.
+Once she's gotten settled into this new magical reality of hers, she begins to poke and prod at the attic to find out how it interacts with the husbands it "makes" for her and how it changes the rest of her life outside of her home and husband. Gradually, she figures out how to leverage the attic's power to her advantage, using it to help her find her ideal husband and her ideal self.
 
-Eventually, she begins to tire of this meaningless rat race-like game she's been playing for far too long, primarily because she's the only person in her life who remembers what she's actually been through (with one exception). Through her repeated "reset"-ing of reality using the attic and her series of attic-able husbands, everyone else in Lauren's life has become a sort of NPC at the beck and call of her repeated attic-ings. 
+Importantly, each husband comes bundled with a multiverse version of reality in which Lauren met and married said husband. Whenever a new husband comes out of the attic Lauren finds herself in a changed world where her job, her relationships and her body are different than the ones she had before.
 
-At the very end, Lauren chooses to end it all by burning the attic to the ground --- forcing herself to live out the rest of her days with the last husband the attic produced for her in that particular seeded version of reality.
+This attic provides Lauren with the means to play out various "what ifs" with these husbands and the other lives attached to each of them.
 
-Watching Lauren's journey of self-discovery through her creation and destruction of these slightly different versions of reality and the relationships this other version of herself built is entertaining, but most of all, it's extremely funny.
+Eventually, she gets tired of this meaningless rat race-like game she's been playing for far too long, swiping her way through hundreds of husbands.
 
-Off the top of my head I can't think of a funnier book that I've read than The Husbands. I was genuinely laughing and smiling my way throughout most of it.
+The meaninglessness Lauren feels is caused by her being the only person in her life who remembers with any kind of permanence what she's been through (and with whom) and with each reset even her capacity to retain the memories of her past lives degrades.
 
-Lauren is a very likeable character and thank God because she's by far the most fleshed out character in the novel, being the only POV character for vast majority of the text. 
+Lauren comes to the realization that her self is constructed and given meaning in large part by the relationships she fosters in her life and by resetting these with every attic-ing she's killing a part of herself and not really living the way she should.
 
-The Husbands isn't perfect but its strengths more than make up for it failings.
+So, Lauren chooses to end this farce and live a real life by burning the attic to the ground --- forcing herself to live out the rest of her days with the last husband the attic produces for her in whatever reasonable version of reality he comes with.
 
-One of which is that the ending feels a little rushed, it's way too tidy and predictable for my tastes. In the afterword, Gramazio reveals that her first draft had three endings. I interpret this to mean that The Husbands was some sort of limited Choose Your Own Adventure initially which might explain why the leadup to the ending felt a little undercooked.
+In other words, she puts the controller away and chooses to live her life instead of continuously escaping into others.
 
-The Husbands feels like a much more lighthearted riff on time loop stories like [the First Fifteen Lives of Harry August by Claire North](/books/9780356502588/). Perhaps something more like [Cassandra in Reverse by Holly Smale](/books/9780778307877/) (Hollys rise up!) with more of a focus on relationships.
+The themes of this novel are simple, innoffensive and effectively delivered: escapism is bad, live in the moment, seize the day, etc. We've all heard these imperative statements about how to live a good life a million times, they're understandable but are hard to always live by in practice.
 
-Even though Lauren is not experiencing a time loop per-say (and this is discussed by Lauren herself in the fiction which rocks), her repeated attic-ings produce a similar effect on her experience of the world with the important difference being that she, and we the readers, skip over these new lives she is jumping into, forcing her to figure out who she was in these worlds before she took her place in them.
+But not every novel has to be the philosophical masterpiece of the century, in the Husbands, Gramazio has gotten her comedy down to a science and that's just as impressive to me, perhaps even more so because of how hard writing a funny book seems to be.
 
-What can I tell you? British writers fall into two categories: they can be really funny or they can be bigoted sex pests with heinous polital beliefs. Holly Gramazio is really funny and thank God for that.
+I cannot stress how funny the Husbands is... Watching Gramazio use Lauren as a very likeable mouthpiece to unleash peak British-y, sarcastic and dry humor page after page while having the majority of the jokes land is an experience unlike any other I've had reading a novel in recent memory. 
+
+But, the Husbands isn't perfect but its strengths more than make up for it failings.
+
+One of which is the ending which feels a little rushed. It's way too tidy and predictable for my tastes. In the afterword, Gramazio reveals that her first draft had three endings. I interpret this to mean that The Husbands was some sort of limited Choose Your Own Adventure novel initially which might explain why the leadup to the ending felt a little undercooked.
+
+The Husbands feels like a much more lighthearted riff on time loop stories like [the First Fifteen Lives of Harry August by Claire North](/books/9780356502588/). Tonally, it's more in line with something like [Cassandra in Reverse by Holly Smale](/books/9780778307877/) (Hollys rise up!). If you liked any of these books, you'll probably get a kick out of the other two!
+
+{{< /spoiler >}}
+
+What can I tell you? British writers fall into two categories: the funny ones and the bigoted sex pests with heinous polital beliefs. Holly Gramazio is really funny and thank God for that. I can't wait to see what she writes next.

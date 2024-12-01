@@ -1,7 +1,8 @@
 ---
 authors:
 - Jennifer Croft
-books/tags: []
+books/tags:
+- tournament of books 2025
 date: 2024-11-28
 params:
   isbn13: '9781639731701'
