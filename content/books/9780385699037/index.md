@@ -16,7 +16,7 @@ title: The Husbands
 
 Might be the funniest novel I've ever read. An unmarried woman comes back home after a night out, only to find a strange man in her home.
 
-Apparently, he's her husband... And there's more husbands where he came from (the attic). Hijinks ensue.
+She confirms that somehow he's her husband... And there's more husbands where he came from (the attic). Hijinks ensue.
 
 <!--more-->
 
