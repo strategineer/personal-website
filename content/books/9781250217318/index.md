@@ -3,7 +3,7 @@ authors:
 - TJ Klune
 books/tags:
 - currently-reading
-date: 2024-11-30
+date: 2024-12-01
 params:
   isbn13: '9781250217318'
   year: '2021'
