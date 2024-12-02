@@ -8,7 +8,7 @@ params:
   isbn13: '9781639731701'
   year: '2024'
 slug: '9781639731701'
-star_rating: 5
+star_rating: 4
 title: The Extinction of Irena Rey
 ---
 

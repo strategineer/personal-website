@@ -2,7 +2,6 @@
 authors:
 - Holly Gramazio
 books/tags:
-- slay
 - comic
 - science fiction
 - tournament of books 2025
