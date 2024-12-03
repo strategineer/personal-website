@@ -12,4 +12,6 @@ star_rating: 5
 title: The House In The Cerulean Sea
 ---
 
+Professor Xavier fanfic set in a 1984-esque dystopia by way of Lemony Snicket's A Series of Unfortunate Events.
+
 <!--more-->
