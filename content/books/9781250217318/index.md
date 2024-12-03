@@ -2,7 +2,6 @@
 authors:
 - TJ Klune
 books/tags:
-- currently-reading
 - slay
 date: 2024-12-01
 params:
