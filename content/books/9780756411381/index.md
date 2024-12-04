@@ -5,7 +5,7 @@ books/tags:
 - currently-reading
 - fantasy
 - romance
-date: 2024-10-27
+date: 2024-12-04
 params:
   isbn13: '9780756411381'
   year: '2016'
