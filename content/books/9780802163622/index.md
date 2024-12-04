@@ -3,6 +3,7 @@ authors:
 - Samantha Harvey
 books/tags:
 - science fiction
+- tournament of books 2025
 date: 2024-12-03
 params:
   isbn13: '9780802163622'
