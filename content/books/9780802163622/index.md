@@ -2,7 +2,6 @@
 authors:
 - Samantha Harvey
 books/tags:
-- currently-reading
 - science fiction
 date: 2024-11-30
 params:
