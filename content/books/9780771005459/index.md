@@ -1,7 +1,8 @@
 ---
 authors:
 - Anne Michaels
-books/tags: []
+books/tags:
+- tournament of books 2025
 date: 2024-12-04
 params:
   isbn13: '9780771005459'
