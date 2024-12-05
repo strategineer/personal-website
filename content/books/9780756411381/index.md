@@ -22,6 +22,10 @@ Sad/mad gay wizards doing sad/mad gay wizard things. Very grim... There are a bu
 
 I'm sad to inform my earlier self that nothing interesting happens to those Herald-Mages (they get killed by a rando mage). The way that no one acknowledges that there are only 3 Herald-Mages left when the fourth dies is wild. And then when Savil and Vanyel are the only two Herald-Mages left and Savil asks for Vanyel's help protecting herself and he brushes her off, it's so stupid.
 
-This isn't the sort of book I would have chosen to read of my own volition and reading through it hasn't convinced me to read more Lackey moving forward.
+This isn't the sort of book I would have chosen to read of my own volition and reading through it hasn't convinced me to read more Lackey.
 
-It's not all bad but so little of this works for me and the depiction of Vanyel is so offensive at times that I just can't with this trilogy. 
+It's not all bad but so little of these books works for me and the depiction of Vanyel is so offensive at times that I just can't with this trilogy.
+
+Although, it's a testament to the skills of the hosts of the [Shelved By Genre podcast](http://rangedtouch.com/category/shelved-by-genre/) that they can take a trilogy like this and produce hours upon hours of interesting discussion despite how uneven and "of its time" it is.
+
+Seeing them excel at this makes me want to be more media literate.
