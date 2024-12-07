@@ -5,7 +5,7 @@ books/tags:
 - romance
 - thriller
 - science fiction
-date: 2024-12-05
+date: 2024-12-06
 params:
   isbn13: '9781668092651'
   year: '2024'
