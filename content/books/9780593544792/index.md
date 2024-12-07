@@ -3,9 +3,8 @@ authors:
 - Álvaro Enrigue
 - Natasha Wimmer
 books/tags:
-- owned-but-unread
-- historical fiction
-date: 2024-11-29
+- currently-reading
+date: 2024-12-06
 params:
   isbn13: '9780593544792'
   year: '2024'
