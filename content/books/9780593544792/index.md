@@ -4,7 +4,7 @@ authors:
 - Natasha Wimmer
 books/tags:
 - currently-reading
-date: 2024-12-06
+date: 2024-12-07
 params:
   isbn13: '9780593544792'
   year: '2024'
