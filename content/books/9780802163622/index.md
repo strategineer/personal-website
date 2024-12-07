@@ -9,7 +9,7 @@ params:
   isbn13: '9780802163622'
   year: '2024'
 slug: '9780802163622'
-star_rating: 5
+star_rating: 4
 title: Orbital
 ---
 
