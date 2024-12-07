@@ -312,7 +312,7 @@ def write_new_source_of_truth_csv(export_filename, should_filter_fn=lambda x: Fa
                             if exclusive_shelf == "read"
                             else ""
                         ),  # Date Read
-                        " ".join([t.replace(" ", "-") for t in tags]),  # Bookshelves
+                        " ".join([t.replace(" ", "-") for t in sorted(tags)]),  # Bookshelves
                         exclusive_shelf,  # Exclusive Shelf
                         1 if exclusive_shelf == "read" else 0,  # Read Count
                         post.metadata.get("star_rating", 0),  # My Rating
