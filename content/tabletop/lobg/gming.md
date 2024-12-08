@@ -47,11 +47,20 @@ Negamancer escaped! he'll be back
       - "Well, the Blue Gorgon, Psathyrella, built me it. But that was a long time ago."
   - Q: "Don't you want to leave this place?"
     - "Life is the real prison I'm trapped in, a prison that I shan't ever be able to escape. I live in luxury here, separated from those who I could otherwise harm, unintentionally of course. I have no desire to leave this place."
-5. Room 24: Ambush Scarab is found dead with the contents of its stomach spilled onto the floor. 5% chance of the a spell scroll and 100% chance of a book.
+~~3. PCs find a book, probably [generated with the following table](#table---random-books) (See following bullet point, books are art).~~
+~~3. PCs damage/steal art: [The Curator](#the-curator) (big hand thing) becomes aware of them and begins to hound them. Blotbug and Brod must resist commenting on art otherwise they become more (cannibal) critical of them.~~
+6. ~~The ["Oku"](#oku) encounter PCs: the "Oku" come to kill the Curator and the PCs help them smash it to bits.~~
+6. Caged Milo de Fretwell encounters the PCs:
+  - Freeya asks him: "Give us one reason why we should keep you alive?"
+    - "You carry yourself like an artist, am I correct? [he gestures at Freeya's dangling art supplies and splotches of paint all over his clothes]"
+    - "I can teach you to imbue your art with power. Your feelings about my work are a testament to my prowess as an artist."
+  - How to free him?
+    - Dispel (Find a scroll in the Library/Archive?)
+    - Kill Xanthoceras
+5. PCs encounter the Reptile King in 122:
+  - Guards entrance to the Reptile Archive (from wrong direction, probably). Non-aggressive unless provoked. There will never be any Random Encounters here.
+  - "Who dares enter my kingdom? Yesssssssss. Yesssssssss."
 5. PCs enter Vinebeasts + Heart room. A theaticral spotlight shines on a PC, everyone else is frozen in place while the "scene" plays out. The PC will respond to the accusations of the vinebeasts and when they have no responses left or when it feels right, the spotlight will shift to another PC.
-3. PCs find a book, probably [generated with the following table](#table---random-books) (See following bullet point, books are art).
-3. PCs damage/steal art: [The Curator](#the-curator) (big hand thing) becomes aware of them and begins to hound them. Blotbug and Brod must resist commenting on art otherwise they become more (cannibal) critical of them.
-6. The ["Oku"](#oku) encounter PCs: ...
 7. (1 month after PCs enter the LoBG): [Ashen Chanterelle](#ashen-chanterelle) will re-enter with a small group of members from the Cult of the Shattered Moon with the intention of persuading Chronia, Zamia and Charity to enter the world once more. The Medusa will oppose this. The Cult's goal in entering the Labyrinth is to find Blotbug and sacrifice him.
 8. The group meet with L.G., the supervillain who knows everything that will happen and is using the group to defeat his frenemy the Blue Gorgon.
 9. If the PCs exit from the Labyrinth through the painting, they come out in the same place where they came in from but thousands of years later (time passes slowly in the Labyrinth compared to the other world) in a Dying Earth-style combined with weird fantasy / gonzo genre-mish-mashing (refer to Dark Sun and Anomalous Subsurface Environment for context). This world is sparsely populated by small settlements of rural/Western-style people and ruled by remnants of the Cult of the Moon (which shattered but was pieced back together through advanced technology which has since been lost) found in towers and broken down astrology labs throughout the land.
