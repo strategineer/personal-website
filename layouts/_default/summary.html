@@ -12,7 +12,7 @@
   <div class="row summary-row {{ $summary_classes }} justify-content-center">
   {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
   {{ if $thumbnail }}
-    <div class="col-7 col-sm-5 col-md-4">
+    <div class="summary-thumbnail-and-rating col-7 col-sm-5 col-md-4">
       {{ $lazy_loading := "eager" }}
       {{ if .NextInSection }}
         {{ $lazy_loading = "lazy" }}

@@ -3,7 +3,7 @@ authors:
 - Álvaro Enrigue
 - Natasha Wimmer
 books/tags:
-- currently-reading
+- owned-but-unread
 date: 2024-12-07
 params:
   isbn13: '9780593544792'
