@@ -13,7 +13,7 @@ star_rating: 4
 title: Orbital
 ---
 
-Poetic stream of conciousness-y novel following six astronauts on a space station orbiting the Earth over one day of low earth orbits while they contemplate their lives, the world and the many people they've left behind.
+Poetic stream of consciousness-y novel following six astronauts on a space station orbiting the Earth over one day of low earth orbits while they contemplate their lives, the world and the many people they've left behind.
 
 
 <!--more-->

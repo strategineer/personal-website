@@ -14,7 +14,7 @@ star_rating: 5
 title: The Ministry of Time
 ---
 
-A woman working for the Ministry of Time is tasked with helping assimilate a sailor pulled through time, who more than a hundred years prior was on a doomed Artic expedition and would have died otherwise. Hijinks ensue.
+A woman working for the Ministry of Time is tasked with helping assimilate a sailor pulled through time, who more than a hundred years prior was on a doomed Arctic expedition and would have died otherwise. Hijinks ensue.
 
 
 <!--more-->

@@ -13,7 +13,7 @@ These novels appear on the [2025 Tournament of Books Long List](https://www.tour
 
 {{< book "The Extinction of Irena Rey" >}}
 
-The Extinction of Irena Rey piqued my interest due to its metafictional elements (a story translated by a translator told from the point of view of another translator, two characters directly involved in the story being told). It nails this premise and plays with it throughtout the novel in fun ways.
+The Extinction of Irena Rey piqued my interest due to its metafictional elements (a story translated by a translator told from the point of view of another translator, two characters directly involved in the story being told). It nails this premise and plays with it throughout the novel in fun ways.
 
 In the Extinction of Irena Rey, Jennifer Croft slams a lot of big ideas onto the page for the reader to explore and think about. This seems to be common practice in more "artsy" novels but I was pleasantly surprised by both how interested I was in most of the themes found within and how cohesively woven together they seemed to be.
 
@@ -45,7 +45,7 @@ Samantha Harvey, at least in Orbital the only work of hers I've read so far, is 
 
 In Orbital, Samantha Harvey doesn't appear to be as militantly atheist as Jose Saramago does in his work but the portrayal Shaun of makes me think that she probably is an atheist of some kind.
 
-I find it hard to believe (see what I did there?) that Shaun, as the only openly religious (Christian to be precise) astronaut on the crew, would go to space, watch as a tornado rampages on the planet, killing uncountable numbers of people and, all of a sudden, start to subconsiously and consciously question his faith throughout all of the chapters dedicated to his POV.
+I find it hard to believe (see what I did there?) that Shaun, as the only openly religious (Christian to be precise) astronaut on the crew, would go to space, watch as a tornado rampages on the planet, killing uncountable numbers of people and, all of a sudden, start to subconsciously and consciously question his faith throughout all of the chapters dedicated to his POV.
 
 That's his one character beat and I found it a little both hard to believe and a missed opportunity to portray a character who believes in a higher power in spite of their experience going space and gaining this new perspective on the planet and life as we know it.
 
