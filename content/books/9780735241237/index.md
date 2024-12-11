@@ -2,14 +2,14 @@
 authors:
 - Mona Awad
 books/tags:
-- currently-reading
+- magical realism
 - tournament-of-books-2024
-date: 2024-12-09
+date: 2024-12-10
 params:
   isbn13: '9780735241237'
   year: '2023'
 slug: '9780735241237'
-star_rating: null
+star_rating: 5
 title: Rouge
 ---
 
