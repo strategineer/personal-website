@@ -43,7 +43,7 @@ Samantha Harvey's Orbital reminds me a lot of [Jose Saramago's work](/authors/jo
 
 Where Samantha Harvey's writing in Orbital differs from Saramago's in his work is in its content. Saramago is usually interested in making small changes to the way our world works and working out how those changes ripple out and affect people's lives while doing political/religious commentary throughout.
 
-On the other hand, in Orbital, Samantha Harvey seems more interested in describing the world mostly as-it is (perhaps shifting the timeline forward a bit) and protraying multiple POVs to express the wide range of the human experience. Perhaps the world's got enough problems right now that there's no need to create new ones to then dissect on the page?
+On the other hand, in Orbital, Samantha Harvey seems more interested in describing the world mostly as-it is (perhaps shifting the timeline forward a bit) and portraying multiple POVs to express the wide range of the human experience. Perhaps the world's got enough problems right now that there's no need to create new ones to then dissect on the page?
 
 The unprecedented natural disaster, a big AF typhoon caused by climate change, in Orbital feels more like something that's already happening to us today that we're actively suffering from rather than a maneuver Saramago would make like "everybody on the planet is becoming blind" as some kind of metaphor for political ideology / faith gone wrong (see {{< book_url "Blindness" >}}).
 
@@ -73,7 +73,7 @@ Secondly, the structure of novel allows Anne Michaels to "zoom in" on specific s
 
 This makes Held similar to {{< book_url "Gilgamesh" >}} in that they're both inherently fragmentary. Of course, Held is fragmentary due to Anne Michaels choosing it to be and the Epic of Gilgamesh is because many parts of the story have been lost to time.
 
-In both cases, a lot of room is left on the page leaving the reader's mind open to imagine the connective tissue that would bring all these disparate glimpses into the past together into a cohesive whole. This feels resonant with Held's theme of ancestoral legacies rippling through time which I think is really cool!
+In both cases, a lot of room is left on the page leaving the reader's mind open to imagine the connective tissue that would bring all these disparate glimpses into the past together into a cohesive whole. This feels resonant with Held's theme of ancestral legacies rippling through time which I think is really cool!
 
 {{< book "The Ministry of Time" >}}
 
