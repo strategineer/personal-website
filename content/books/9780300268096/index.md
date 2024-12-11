@@ -9,7 +9,7 @@ params:
   year: '2022'
 slug: '9780300268096'
 star_rating: 4
-title: Gilgamesh - A New Translation Of The Ancient Epic
+title: Gilgamesh
 ---
 
 An ancient Sumarian/Babylonian bromance for the ages. Its fragmentary nature forces readers to imagine what stories these missing pieces might tell.

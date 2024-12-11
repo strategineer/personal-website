@@ -14,13 +14,15 @@ star_rating: 5
 title: The Husbands
 ---
 
-The Husbands might be the funniest novel I've read. An unmarried woman comes back home after a night out, only to find a strange man in her home.
+An unmarried woman comes back home after a night out, only to find a strange man in her home.
 
 He claims to be her husband and she confirms this...
 
 And there's more husbands where he came from (the attic). Hijinks ensue.
 
 <!--more-->
+
+The Husbands might be the funniest novel I've read...
 
 The debut novel of Holly Gramazio, the script writer for the video game Dicey Dungeons, an author who seems to be steeped in the game space and it shows.
 
