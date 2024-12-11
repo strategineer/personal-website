@@ -1,0 +1,16 @@
+{{ $book_title := lower (.Get 0) }}
+{{ $found := false }}
+
+{{ range .Site.RegularPages }}
+  {{ if eq .Section "books" }}
+    {{- if eq $book_title (lower .Title) -}}
+    <a href="{{.RelPermalink}}">{{ .Title }} ({{ index .Params.authors 0 }})</a>
+      {{ $found = true }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $found }}
+{{ errorf "No book found with %q for linking" $book_title }}
+{{ end }}

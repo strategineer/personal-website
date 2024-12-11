@@ -1,0 +1,99 @@
+{{ $title := lower (.Get 0) }}
+{{ $found := false }}
+
+{{ range .Site.RegularPages }}
+  {{ if eq .Section "books" }}
+    {{- if eq $title (lower .Title) -}}
+      {{ $is_books := eq .Section "books" }}
+      {{ $is_owned_but_unread_book := and $is_books (in (index .Params "books/tags") "owned-but-unread") }}
+      
+      {{ if not .IsNode }}
+      {{ if and (not .Params.exclude_from_summary) (not $is_owned_but_unread_book) }}
+      {{ $more_to_read := ne (len (trim .Summary " \n\r")) (len (trim .Content " \n\r"))}}
+      {{ $is_blog := eq .Section "blog" }}
+      {{ $is_ramble_blog_post := and $is_blog (in (index .Params "blog/tags") "ramble") }}
+      <div class="col-12 post-summary">
+        <div class="row summary-row justify-content-center">
+          {{ $thumbnail := .Resources.GetMatch "thumbnail.*" }}
+          {{ if $thumbnail }}
+          <div class="summary-thumbnail-and-rating col-7 col-sm-5 col-md-4">
+            {{ partial "img" (dict
+            "widths" (slice 200 300)
+            "src" "thumbnail.*"
+            "ctx" .
+            "class" "img-fluid rounded mx-auto d-block"
+            "alt" "Thumbnail"
+            "loading" "eager"
+            ) }}
+            {{ if and .Params.star_rating }}
+            <div class="star_rating text-center">
+              {{ partial "try_star_rating" . }}
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+          {{ if $thumbnail }}
+          <div class="col-md-8 align-self-center">
+            {{ else }}
+            <div class="col-md-12 align-self-center">
+              {{ end }}
+              <div class="summary-title h2">
+                <a href='{{ .Permalink }}'>
+                  {{ .Render "title_text" }}
+                </a>
+              </div>
+              <div class="row authors">
+                {{ $authors := (.GetTerms "authors" ) }}
+                {{ if $authors }}
+                {{ range $authors }}
+                <div class="author col">
+                  {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+                  <a href="{{ .RelPermalink }}"> {{ $pretty_author }}</a>
+                </div>
+                {{- end -}}
+                {{- end -}}
+              </div>
+              <div class="row authors">
+                {{ $mappers := (.GetTerms "mappers" ) }}
+                {{ if $mappers }}
+                {{ range $mappers }}
+                <div class="author col">
+                  {{ $pretty_author := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
+                  <a href="{{ .RelPermalink }}"> {{ $pretty_author }}</a>
+                </div>
+                {{- end -}}
+                {{- end -}}
+              </div>
+              <div class="row post-meta">
+                <div class="col-mx-auto align-self-center">
+                </div>
+              </div>
+              {{ $has_summary := or .Params.summary (strings.Contains .RawContent "<!--more-->") }}
+              {{ if $has_summary }}
+              <span class="summary-text">
+                {{ .Summary }}
+              </span>
+              <div class="col read-more">
+                <a aria-labelledby="more" class="float-right" href='{{ .Permalink }}'>
+                  {{ if $more_to_read }}
+                  <span style="white-space: nowrap;">
+                    <div class="more">More →</div>
+                  </span>
+                  {{ end }}
+                </a>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      {{ $found = true}}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $found }}
+{{ errorf "No book found with %q" $title }}
+{{ end }}
