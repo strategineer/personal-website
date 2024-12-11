@@ -19,7 +19,7 @@ Mona Awad absolutely Mona Awad-ing.
 
 A more successful take on Mona Awad's "protagonist tortured by her struggles and temptations trying to survive and not be lead astray by the devil" than her attempt at doing this in {{< book_url "All's Well" >}}.
 
-I was more invested in Miranda's struggles with chronic pain in All's Well than Mirabelle's struggles with her appearance in Rouge because of my own lived experience. But I think Mirabelle's struggles are more topical in the world of today --- where we're obssessed with desires and expectations sold to us by the people in power to grease the wheels of capitalism at the cost of our own health and well-being.
+I was more invested in Miranda's struggles with chronic pain in All's Well than Mirabelle's struggles with her appearance in Rouge because of my own lived experience. But I think Mirabelle's struggles are more topical in the world of today --- where we're obsessed with desires and expectations sold to us by the people in power to grease the wheels of capitalism at the cost of our own health and well-being.
 
 I'm interested in Mona Awad's work because of the infusion of her work with what can only be parts of her own lived experience because of how vivid her depictions are. Also, her writer's voice is really unique.
 
