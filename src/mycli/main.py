@@ -10,6 +10,7 @@ import subprocess
 import sys
 import urllib
 import re
+from collections import Counter
 
 from PIL import Image
 from mergedeep import merge
@@ -301,6 +302,36 @@ def sort_tags():
                 post.metadata["books/tags"] = sorted_tags
             write_post(post, filename)
 
+def count_words_fast(c, text):      
+    text = text.lower()  
+    skips = [".", ", ", ":", ";", "'", '"']  
+    for ch in skips:  
+        text = text.replace(ch, "")  
+    c.update(text.split(" "))  
+
+@click.command()
+@click.option("--debug", is_flag=True)
+def stats(debug):
+    filenames = glob.glob("content/books/*/index.md")
+    c = Counter()
+    posts = []
+    for filename in filenames:
+        with open(filename, encoding="utf-8") as f:
+            try:
+                post = frontmatter.load(f)
+                isbn13 = post.metadata.get("params", {}).get("isbn13")
+                # these have unicode in them and can't be counted properly
+                if isbn13 not in ["9780735210936", "9781101972120", "9781598537536"]:
+                    count_words_fast(c, post.content)
+                    posts.append((isbn13, filename, post))
+            except UnicodeDecodeError:
+                print(
+                    f"Failed to load file {filename} with frontmatter parser due to unicode error"
+                )
+                continue
+    print(f"number of book posts: {len(posts)}")
+    print(str(c.most_common(200)))
+    return
 
 @click.command()
 @click.option("--debug", is_flag=True)
@@ -446,6 +477,7 @@ cli.add_command(sort_tags)
 cli.add_command(upload)
 cli.add_command(find_used_books)
 cli.add_command(rename_reaction_gif)
+cli.add_command(stats)
 
 if __name__ == "__main__":
     cli()

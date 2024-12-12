@@ -9,15 +9,15 @@ draft: true
 
 I had a week off work last week. I prepared myself for the hours upon hours of time spent cuddling with the dog I was dog sitting by getting a bunch of novels to read.
 
-These novels appear on the [2025 Tournament of Books Long List](https://www.tournamentofbooks.com/the-year-in-fiction-2024) and most were recommended by [Abigail Nussbaum](https://wrongquestions.blogspot.com/), a critic who's work I discovered recently and I've been enjoying.
+These novels appear on the [2025 Tournament of Books Long List](https://www.tournamentofbooks.com/the-year-in-fiction-2024) and most were recommended by [Abigail Nussbaum](https://wrongquestions.blogspot.com/), a critic who's great work I discovered recently.
 
-Here's some thoughts about them.
+Here's some thoughts about the novels I read last week.
 
 {{< book "The Extinction of Irena Rey" >}}
 
 The metafictional swing of The Extinction of Irena Rey piqued my interest and my expectations were more than met. Turns out that a story translated by a translator told from the POV of another translator with both characters directly involved in the story being told is exactly the kind of premise I'm really into.
 
-In the Extinction of Irena Rey, Jennifer Croft slams a lot of big ideas onto the page for the reader to explore and think about. This seems to be common practice in the more "artsy" novels I've read but I was pleasantly surprised by both how interested I was in most of the themes in the text and how cohesively woven together they seemed to be.
+In the Extinction of Irena Rey, Jennifer Croft puts a lot of big ideas onto the page for the reader to think about. This seems to be common practice in the more "artsy" novels I've read. But I was pleasantly surprised by both how interested I was in most of the themes found within the novel and how cohesively woven together they seemed to be.
 
 NB: I wrote a [spoiler-free review](/books/9781639731701/) for this one if you're interested in reading more of my thoughts about it.
 
@@ -25,7 +25,7 @@ NB: I wrote a [spoiler-free review](/books/9781639731701/) for this one if you'r
 
 Next I chose to read Holly Gramazio's The Husbands because I was looking for something a little lighter to read and the premise seemed like it had a lot of comedic potential.
 
-I'm pleased to report that Holly Gramazio's the Husbands is the funniest novel I've ever read.
+So ya, Holly Gramazio's the Husbands might be the funniest novel I've read.
 
 I was actually laughing out loud through it instead of what I usually do with "funny" books which is, at best, smile and smirk.
 
@@ -39,19 +39,19 @@ NB: I wrote a [spoilery review](/books/9780385699037/) for this one if you're in
 
 I picked up Orbital because it's a small novel that I could knock out in a day and it came highly recommended.
 
-Samantha Harvey's Orbital reminds me a lot of [Jose Saramago's work](/authors/josé-saramago/) in form because Samantha Harvey doesn't use any punctuation marks for dialog making the prose feel stream of consciousness-y. This choice combined with good writing makes me feel that much more closer to the POV character's thoughts than I would be otherwise.
+Samantha Harvey's Orbital reminds me a lot of [Jose Saramago's work](/authors/josé-saramago/) in form because Samantha Harvey doesn't use any punctuation marks for dialog making the prose feel stream of consciousness-y. This makes me feel closer to the POV character's thoughts than I would feel otherwise.
 
-Where Samantha Harvey's writing in Orbital differs from Saramago's in his work is in its content. Saramago is usually interested in making small changes to the way our world works and working out how those changes ripple out and affect people's lives while doing political/religious commentary throughout.
+Where Samantha Harvey's writing in Orbital differs from Saramago's is in its content. Saramago is tends to make small changes to the way our world works and then works out how those changes ripple out through people's lives on the page for our reading pleasure.s
 
-On the other hand, in Orbital, Samantha Harvey seems more interested in describing the world mostly as-it is (perhaps shifting the timeline forward a bit) and portraying multiple POVs to express the wide range of the human experience. Perhaps the world's got enough problems right now that there's no need to create new ones to then dissect on the page?
+On the other hand, in Orbital, Samantha Harvey seems more interested in describing the world as-it is (perhaps shifting the timeline forward a bit) and portraying multiple POVs to express the wide range of the human experience.
 
-The unprecedented natural disaster, a big AF typhoon caused by climate change, in Orbital feels more like something that's already happening to us today that we're actively suffering from rather than a maneuver Saramago would make like "everybody on the planet is becoming blind" as some kind of metaphor for political ideology / faith gone wrong (see {{< book_url "Blindness" >}}).
+The hurricane caused by climate change in Orbital feels more like something that's already happening to us today that we're actively suffering from rather than a maneuver Saramago would make like "everybody on the planet is becoming blind" as some kind of metaphor for political ideology / faith gone wrong (see {{< book_url "Blindness" >}}).
 
-In Orbital, Samantha Harvey doesn't appear to be as militantly atheist as Jose Saramago does in his work but the portrayal of Shaun makes me think that she is unlikely to be a believer.
+In Orbital, Samantha Harvey doesn't appear to be as militantly atheist as Jose Saramago does but the portrayal of Shaun makes me think that she problaby doesn't believe.
 
-I find it hard to believe (see what I did there?) that Shaun, as the only openly religious (Christian to be precise) astronaut on the crew, would go to space, watch as a typhoon rampages on the planet, killing uncountable numbers of people and, all of a sudden, start to subconsciously and consciously question his faith throughout all of the chapters dedicated to his POV.
+I find it hard to believe (see what I did there?) that Shaun, as the only openly religious (Christian to be precise) astronaut on the crew, would go to space, watch as a hurricane rampages on the planet, killing uncountable numbers of people and start to subconsciously and consciously question his faith throughout all of the chapters dedicated to his POV.
 
-That's his one character beat and I found it both hard to believe and a missed opportunity to portray a character who believes in a higher power in spite of their experience going space and gaining this new perspective on the planet and life as we know it.
+That's his main character beat. I found it both hard to believe and a missed opportunity to portray a character who believes in a higher power despite going to space.
 
 One could argue that this new perspective Shaun has on the world could have a profound impact on his belief in God. But given that Orbital presents us with the POVs of six astronauts, I find it a shame that the only openly religious one's only character arc is one of his faith being shaken to the core by the act of going to space.
 
@@ -92,3 +92,9 @@ I can't say that Bradley's portrayal of this sexy AF sailor plucked straight fro
 It's good, it's entertaining and I feel comfortable boosting the signal of the Ministry of Time in my own little way because of how well it portrays a lived experience of mine that I've never been able to put into words. Seeing parts of that lived experience expressed in this work that's doing so many other impressive warms my heart.
 
 Although, I wonder what Bradley's next novel will look like considering that she's obviously self-inserted parts of herself (in a very fan fiction-y way) into the text, as the narrator. What will her next protagonist look like?
+
+# Conclusion
+
+What's next? More tournament of books books that's what. I was able to get a bunch of interesting looking ones for cheap through [Book Outlet](https://bookoutlet.ca/) and I'm excited to start digging through them.
+
+The bar of quality of the books appearing on the Long List has been set surprisingly high. Here's hoping that I won't be too dissapointed by any of them. 

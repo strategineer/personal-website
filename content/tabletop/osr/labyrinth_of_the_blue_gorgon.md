@@ -141,6 +141,21 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 - Through Freeya's constantly surprising charismatic abilities, the Crew discovered that this man was in fact Milo de Fretwell despite him claiming otherwise. Milo also claimed if anyone were to kill him they would as a result be imprisoned in his stead. Using a Detect Magic spell, Freeya confirmed that the house was magical, that it could be dispelled and that the magic served to imprison an individual and keep them from escaping through any means.
 - Freeya, addressing Milo, said: "Can you give us a single reason why we should keep you alive?"
 
+## Session 10
+
+- The Crew tried to kill Milo by revealing his location to the Cannibal Critics, some ferals broke open his cage and entered his prison only to become imprisoned themselves, allowing Milo to escape.
+- The Crew shimmied excruciatingly slowly across his prison in pursuit of Milo but they weren't quick enough to catch him.
+- They arrived at the entrance to the saurid empire's archive, a labyrinth within a labyrinth. With Freeya using his 4D chess skills to allow the crew to avoid getting lost.
+- They met the reptile king, a friendly Elden Ring boss, proudly reminiscing about his past by inspecting his severed body parts. Freeya used his psychic pig powers to find out the story of a leg (it kicked lightning back into the sky) and, in doing so, impressed the Reptile King enough with this forgotten knowledge granting the Crew passage through to the Archives.
+- The Crew met with Naja Natrix (cookbook mummy) and he led them through his office.
+- The Crew patiently waited to speak with Emys Orbicularis (math mummy) who was completely observed by his studies. While the Crew waited, they were ambushed by a group of Chameleon Women. The Crew almost died but managed to fight them off with the help of Naberius and Emys, woken up by Naberius, who wiped the floor with the Chameleon Women.
+- Emys let the Crew pass through to the rest of the Archives despite not having written permission to do so due to their good will. 
+- The Crew were beckoned over by Scripta Elegans (? mummy) puzzled by a Gate. Freeya tried to use his psychic pig powers to gain insight on the situation they found themselves in only to find himself passing out from the strain.
+- Marlon brought him back from the brink of death.
+- Will the Crew be able to leave Archives unscathed with many (non-moist) books for Germander?
+- [level up opportunity, hand off all books except one + mask to level up, the book that you can be used to heal someone's psychic damage during a rest ]
+
+
 # One Pager
 
 **The campaign’s premise and flavor**
