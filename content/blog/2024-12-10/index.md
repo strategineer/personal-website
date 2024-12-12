@@ -97,4 +97,4 @@ Although, I wonder what Bradley's next novel will look like considering that she
 
 What's next? More tournament of books books that's what. I was able to get a bunch of interesting looking ones for cheap through [Book Outlet](https://bookoutlet.ca/) and I'm excited to start digging through them.
 
-The bar of quality of the books appearing on the Long List has been set surprisingly high. Here's hoping that I won't be too dissapointed by any of them. 
+The bar of quality of the books appearing on the Long List has been set surprisingly high. Here's hoping that I won't be too disappointed by any of them. 
