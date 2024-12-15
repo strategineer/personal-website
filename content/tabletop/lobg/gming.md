@@ -14,12 +14,20 @@ Negamancer escaped! he'll be back
 
 # Learning rolls
 
-- Marlon tried to learn flanking/dnd backstab using range weapons: tried three times
-- Freeya tried to learn how to heal people using Marlon's Staff of Healing: tried once
-- Freeya tried to learn to become one with the heart of the cards and understand how to call forth the "right" demon for the situation ("Demonic job posting") which means that the demon wouldn't be hostile by default ("Non-Hostile Summoning"): tried twice and succeeded
+## Done
+
 - Brod tried to learn staying his ground, 0 movement then get advantage subsequent melee attacks: he succeeded on the first try and learned a new skill, his previous skill set
-- Brod trying to learn a taunting skill "Taunt", aggro-ing by insulting them and they're compelled to fight him, charisma opposed DC check (Brod can use strength): tried twice
 - Blotbug wants improve your spell Puppet and make it apply to more creatures, up to Blotbug level + 1: tried once and with Freeya helped and Blotbug succeeded on the second
+- Freeya tried to learn to become one with the heart of the cards and understand how to call forth the "right" demon for the situation ("Demonic job posting") which means that the demon wouldn't be hostile by default ("Non-Hostile Summoning"): tried twice and succeeded
+
+
+## TODO
+
+- Marlon tried to learn flanking/dnd backstab using range weapons: tried five times
+- Freeya tried to learn how to heal people using Marlon's Staff of Healing: tried twice
+- Brod trying to learn a taunting skill "Taunt", aggro-ing by insulting them and they're compelled to fight him, charisma opposed DC check (Brod can use strength): tried twice
+
+
 
 # Bangs
 
