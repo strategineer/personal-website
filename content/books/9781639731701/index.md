@@ -70,3 +70,9 @@ Now all I've got to do now is figure out how I'm going to deal with all this spa
 Slurp Slurp.
 
 Slurp Slurp.
+
+---
+
+The metafictional swing of The Extinction of Irena Rey piqued my interest and my expectations were more than met. Turns out that a story translated by a translator told from the POV of another translator with both characters directly involved in the story being told is exactly the kind of premise I'm really into.
+
+In the Extinction of Irena Rey, Jennifer Croft puts a lot of big ideas onto the page for the reader to think about. This seems to be common practice in the more "artsy" novels I've read. But I was pleasantly surprised by both how interested I was in most of the themes found within the novel and how cohesively woven together they seemed to be.

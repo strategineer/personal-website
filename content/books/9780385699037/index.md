@@ -63,3 +63,13 @@ The Husbands feels like a much more lighthearted riff on time loop stories like 
 {{< /spoiler >}}
 
 What can I tell you? British writers fall into two categories: the funny ones and the bigoted sex pests with heinous polital beliefs. Holly Gramazio is really funny and thank God for that. I can't wait to see what she writes next.
+
+---
+
+So ya, Holly Gramazio's the Husbands might be the funniest novel I've read.
+
+I was actually laughing out loud through it instead of what I usually do with "funny" books which is, at best, smile and smirk.
+
+The protagonist and our POV character in the Husbands, Lauren, is very likeable because she's so funny whether we're reading through her dialogue with the husbands she finds herself with or we're reading through her internal monologue-ing throughout the novel.
+
+Lauren's a gamer at heart and a really funny one at that --- truly a woman after my own heart. 
