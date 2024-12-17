@@ -155,6 +155,19 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 - Will the Crew be able to leave Archives unscathed with many (non-moist) books for Germander?
 - [level up opportunity, hand off all books except one + mask to level up, the book that you can be used to heal someone's psychic damage during a rest ]
 
+## Session 11
+
+- The Crew chose to hand in their books and Milo's mask to the mummy librarians, letting them add these items to the Archives, to level up. Blotbug rolled 1HP again...
+- The Crew performed their second precarious bridge crossing in the labyrinth with Brod leading the charge.
+- Brod tamed a "pet rock", like the one Chronia Torn has, by "letting it" suck his blood.
+- The Crew ventured forth propelled by the screams of the dead into a big black rose. The scent of the rose thrust the crew into heated arguments, compelling them to bring up any and all previous minor squabbles and pet peeves as if they were world ending. Freeya avoided the scent of the rose by holding his breath allowing him to uncork his previously bottled up skunk anal gland scent to wake the rest of the crew up from their stupor.
+- This curfuffle was a great start to the Crew's encounter with a big Elden Ring-esque Necromancer Skeleton Guy howling in laughter. Freeya successfully used his psychic pig powers to gain insight on Draco the Laughing Lich's backstory and desires (he likes to laugh and thinks his unlife is meaningless).
+- Freeya and Marlon standup comedied their way through their encounter with Draco the Laughing Lich who rewarded them with a Golden Shit Swirl and an Amulet of Slapstickification (presumably a bodycam-like device that Draco can see through) and with safe passage through his lair.
+- The Crew searched through a laboratory finding a journal with detailed information on the various kinds of magical plant life present within the labyrinth as well as plans for releasing a "Were-Titan" imprisoned in the labyrinth.
+- The Crew ventured forth into a kitchen with a pot of boiling blood stew. They noticed some immobile humanoid shadows lurking in an adjacent room but chose to ignore them. 
+- Brod pulled the Crew back from stepping on any pit traps in another adjacent room.
+- The Crew were greeted by one of the humanoid shadows gliding towards them (on closer inspection it seemed to be in the shape of a fully kitted out retiree): "Cheerio old chaps! We're playing Bocce ball, would you care to join us?"
+
 
 # One Pager
 
