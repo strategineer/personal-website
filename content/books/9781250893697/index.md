@@ -17,8 +17,6 @@ Around 400 BCE, in Syracuse, Dumb and Dumber want to put on a play by Euripides.
 
 They've got no actors, no costumes, no sets, no money and little to no intelligence. But, as they say, where there is a quarry filled with starving Athenian refugees, there's a way.
 
-Hijinks ensue.
-
 
 <!--more-->
 
