@@ -2,14 +2,14 @@
 authors:
 - Ferdia Lennon
 books/tags:
-- currently-reading
 - historical fiction
-date: 2024-12-20
+- slay
+date: 2024-12-21
 params:
   isbn13: '9781250893697'
   year: '2024'
 slug: '9781250893697'
-star_rating: null
+star_rating: 5
 title: Glorious Exploits
 ---
 
