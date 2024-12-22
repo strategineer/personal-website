@@ -3,6 +3,7 @@ authors:
 - Catherine Lacey
 books/tags:
 - currently-reading
+- slay
 date: 2024-12-22
 params:
   isbn13: '9780374606176'
