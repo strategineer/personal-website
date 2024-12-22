@@ -2,8 +2,8 @@
 authors:
 - Catherine Lacey
 books/tags:
-- owned-but-unread
-date: 2024-12-15
+- currently-reading
+date: 2024-12-22
 params:
   isbn13: '9780374606176'
   year: '2023'
