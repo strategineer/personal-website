@@ -1,7 +1,7 @@
 ---
 authors:
 - TJ Klune
-books/tags:
+books/tags: []
 date: 2024-12-02
 params:
   isbn13: '9781250217318'
