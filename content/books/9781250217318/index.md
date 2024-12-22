@@ -2,7 +2,6 @@
 authors:
 - TJ Klune
 books/tags:
-- slay
 date: 2024-12-02
 params:
   isbn13: '9781250217318'
