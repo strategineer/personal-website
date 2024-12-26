@@ -2,14 +2,13 @@
 authors:
 - Catherine Lacey
 books/tags:
-- currently-reading
-- slay
-date: 2024-12-22
+- alternate history
+date: 2024-12-25
 params:
   isbn13: '9780374606176'
   year: '2023'
 slug: '9780374606176'
-star_rating: null
+star_rating: 5
 title: Biography of X
 ---
 
