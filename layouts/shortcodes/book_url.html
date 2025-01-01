@@ -3,7 +3,7 @@
 {{- range .Site.RegularPages -}}
   {{- if eq .Section "books" -}}
     {{- if eq $book_title (lower .Title) -}}
-    <a href="{{.RelPermalink}}">{{- .Title -}} ({{- index .Params.authors 0 -}})</a>
+    <a href="{{.RelPermalink}}">{{- .Title }} ({{ index .Params.authors 0 -}})</a>
       {{- $found = true -}}
       {{- break -}}
     {{- end -}}

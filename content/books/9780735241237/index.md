@@ -13,9 +13,11 @@ star_rating: 5
 title: Rouge
 ---
 
-Mona Awad absolutely Mona Awad-ing.
+A beauty-obsessed woman named Mirabelle travels to California to deal with the consequences of her mother's death. Mirabelle falls down the rabbit hole along the way. Hijinks ensue.
 
 <!--more-->
+
+Mona Awad absolutely Mona Awad-ing.
 
 A more successful take on Mona Awad's "protagonist tortured by her struggles and temptations trying to survive and not be led astray by the devil" than her attempt at doing this in {{< book_url "All's Well" >}}.
 

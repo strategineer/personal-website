@@ -1,6 +1,6 @@
 ---
 authors:
-- TJ Klune
+- T. J. Klune
 books/tags: []
 date: 2024-12-02
 params:
