@@ -6,7 +6,7 @@ blog/tags:
 draft: true
 ---
 
-Here's an randomized list of the best books I've read this year.
+Here's a list of the best books I've read this year, in randomized order.
 
 {{< book "Lavinia" >}}
 {{< book "Ash - A Secret History" >}}
