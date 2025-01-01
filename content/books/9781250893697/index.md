@@ -4,6 +4,7 @@ authors:
 books/tags:
 - historical fiction
 - slay
+- tournament-of-books-2025
 date: 2024-12-21
 params:
   isbn13: '9781250893697'

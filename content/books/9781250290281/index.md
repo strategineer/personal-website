@@ -4,7 +4,8 @@ authors:
 books/tags:
 - currently-reading
 - science fiction
-date: 2024-12-29
+- tournament-of-books-2025
+date: 2024-12-31
 params:
   isbn13: '9781250290281'
   year: '2024'

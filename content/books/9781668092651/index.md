@@ -5,6 +5,7 @@ books/tags:
 - romance
 - thriller
 - science fiction
+- tournament-of-books-2025
 date: 2024-12-06
 params:
   isbn13: '9781668092651'
