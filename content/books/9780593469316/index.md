@@ -16,6 +16,14 @@ title: Chain-Gang All-Stars
 
 What if you combined:
 
+The Running Man-esque gladiatorial combat as entertainment with some Battle Royale with some pro wrestling theatrical vibes sprinkled on top with some Naked and Afraid and light it all up?
+
+You get Chain-Gang All-Stars, that's what you get.
+
+<!--more-->
+
+What if you combined:
+
 The Running Man-esque gladiatorial combat as entertainment
 
 ![](bodycheck)
@@ -37,8 +45,6 @@ and light it all up?
 ![](firebomb)
 
 You get Chain-Gang All-Stars, that's what you get.
-
-<!--more-->
 
 But, right underneath all that is an exploration of America's prison-industrial complex and, more generally, its systematic oppression of marginalized people:
 

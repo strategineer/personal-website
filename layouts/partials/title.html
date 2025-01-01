@@ -1,9 +1,9 @@
 {{- if and (ne .RelPermalink "/books/") (ne .RelPermalink "/blog/") -}}
   <div class="row justify-content-center text-center page-title">
     <div class="col h1">
-      {{ if not (eq .Section "reviews") }}
+      {{- if not (eq .Section "reviews") -}}
         {{- .Title -}}
-      {{ else }}
+      {{- else -}}
         {{ $review_tags := index .Params "reviews/tags" }}
         {{- .Title }} Review
         {{ if in $review_tags "thumbs_up" }}
@@ -11,7 +11,7 @@
         {{ else if in $review_tags "thumbs_down" }}
           {{- emojify ":thumbsdown:" -}}
         {{ end }}
-      {{ end }}
+      {{- end -}}
     </div>
   </div>
-{{ end }}
+{{- end -}}

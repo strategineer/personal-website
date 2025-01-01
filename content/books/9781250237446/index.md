@@ -15,9 +15,9 @@ title: The Wizard Knight
 
 Gene Wolfe's take on an Alice in Wonderland "rabbit hole" story which follows an American teen who finds himself in a layered fantasy world based on Arthurian legend, British folklore, Greek mythology, Norse mythology, and more... All at the same time...
 
-This is something only Gene Wolfe could/would write.
-
 <!--more-->
+
+This is something only Gene Wolfe could/would write.
 
 There's a lot to like here and as is common in Wolfe's work, every chapter is filled with more interesting ideas than most novels have. Making for a perfect book club / buddy read book.
 
