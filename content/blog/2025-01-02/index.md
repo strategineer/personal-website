@@ -111,7 +111,7 @@ Stephen King's still got it.
 
 There's a dome that appears on top of an American town that stops anything from passing through it.
 
-This creates a pressure cooker of sorts in the town that King uses to write the most entertaining roller coaster ride of a book I've read all year.
+This creates a pressure cooker of sorts in the town that King leverages to construct the most entertaining roller coaster ride of a book I've read all year.
 
 ## Honorable mentions:
 
@@ -121,15 +121,15 @@ This creates a pressure cooker of sorts in the town that King uses to write the 
 
 Service Model feels likes a spiritual successor to {{< book_url "Dogs of War" >}} which is my favorite Adrian Tchaikovsky novel but Service Model is quickly becoming my new favorite of his.
 
-I'm about 3/4 of the way through it --- it doesn't feel right putting it on my 2024 novels of the year list. Maybe next year?
+I'm almost all the way through it but not quite --- it doesn't feel right putting it on my 2024 novels of the year list if I haven't finished it yet. Maybe next year?
 
 ## Conclusion
 
 2024 was a great year for me reading-wise.
 
-I read 94 books which is surprisingly high. 94 is more than the 77 books I read in 2023 and much more than the 29 books I read in 2022.
+I read 94 books in 2024 which is more than the 77 books I read in 2023 and much more than the 29 books I read in 2022.
 
-I wrote ~35417 words about the books I've read in 2024 (compared to ~16543 words in 2023 and only ~5492 words in 2022).
+I wrote ~35k words about the books I've read in 2024 (compared to ~16k words in 2023 and only ~5k words in 2022).
 
 NB: these numbers are inflated because they include words in quotes pulled from the text --- it is what is.
 
@@ -140,14 +140,16 @@ Of the novels that I finished, I rated:
 - 11 books with a 3 star rating.
 - 9 books with a 2 star rating.
 - 2 books with a 1 star rating.
-  - {{< book_url "A Desolation Called Peace" >}} is a horrible follow up to {{< book_url "A Memory Called Empire" >}} --- the sequel was clearly rushed out the door to seize on the hype surrounding the first book and it makes me mad.
+  - {{< book_url "A Desolation Called Peace" >}} is a horrible follow up to {{< book_url "A Memory Called Empire" >}} --- the sequel was clearly rushed out the door to seize on the hype surrounding the first book and it makes me mad because I can see how interesting this novel could have been with a lot more time in the oven.
   - {{< book_url "Royal Blood" >}} is so heinous --- Jodorowsky takes big swings, I love him for it, but he swinged right off his rocking chair on this one.
 
 I rarely finish books that I hate which skews the numbers but I definitely give too many books 5 star ratings.
 
 My average rating is 4.1 which seems excessive.
 
-I read 6 books with a friend (the *buddy read*) in 2024. I get so much more out of that kind of reading experience that I'd love to be able to do that more and I'd like to become a better buddy reader in 2025 --- taking better notes and being better about discussing the reading as we go through it.
+I read 6 books with a friend (the *buddy read*) in 2024. I get so much out of this kind of reading experience that I'd love to be able to do it more.
+
+In 2025, I'd like to become a better buddy reader --- by taking better notes, being a better listener and bringing up more interesting topics to discuss.
 
 That's about it nerdy number-wise.
 
