@@ -302,6 +302,30 @@ def sort_tags():
                 post.metadata["books/tags"] = sorted_tags
             write_post(post, filename)
 
+@click.command()
+@click.option("--debug", is_flag=True)
+def ufo50_renamer(debug):
+    #filenames = glob.glob("exports/ufo50/*")
+    i = 1
+    while True:
+        if i > 50:
+            break
+        i_str = i
+        if i < 10:
+            i_str = f"0{i}"
+        print(f"![]({i_str}.jpg)")
+        i += 1
+    #for f in reversed(filenames):
+    #    print(Path(f))
+    #    i_str = i
+    #    if i < 10:
+    #        i_str = f"0{i}"
+    ##    print(f"exports/ufo50/{i_str}.jpg")
+    #    Path(f).rename(f"exports/ufo50/{i_str}.jpg")
+    #    i += 1
+        #print(f"{f}: {n}, {(n + 49) % 50}")
+    return
+
 def count_words_fast(c, text):      
     text = text.lower()  
     skips = [".", ", ", ":", ";", "'", '"']  
@@ -498,6 +522,7 @@ cli.add_command(upload)
 cli.add_command(find_used_books)
 cli.add_command(rename_reaction_gif)
 cli.add_command(stats)
+cli.add_command(ufo50_renamer)
 
 if __name__ == "__main__":
     cli()
