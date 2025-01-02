@@ -149,7 +149,7 @@ My average rating is 4.1 which seems excessive.
 
 I read 6 books with a friend (the *buddy read*) in 2024. I get so much out of this kind of reading experience that I'd love to be able to do it more.
 
-In 2025, I'd like to become a better buddy reader --- by taking better notes, being a better listener and bringing up more interesting topics to discuss.
+In 2025, I'd like to become a better buddy reader --- by taking better notes, being a better listener and bringing up more interesting topics to discuss. I'd also like to find more people to do buddy reads with.
 
 That's about it nerdy number-wise.
 
