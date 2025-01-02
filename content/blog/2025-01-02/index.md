@@ -63,15 +63,11 @@ Adrian Tchaikovsky's favorite novel he's written (at least as of 2023). He's wri
 
 I love when Tchaikovsky writes stories from limited POVs --- specifically, in this case, beings going through an expansion of their own sentience and sapience.
 
-Dogs of War does this and does it well.
-
-NB: The very Trump-like villain might make recommending this book a bit of a tougher nowadays. This might also explain why Dogs of War, despite being so good, is less well known than Tchaikovsky's other work considering it was released in 2016.
-
-Oof.
+Dogs of War does exactly this and does it really well.
 
 {{< book "The Player Of Games" >}}
 
-2024 was the year that **I finally read some Iain Banks Culture novels**.
+2024 was the year that **I finally read some of Iain Banks's Culture novels**.
 
 It only took me 15 years of wanting to but never getting around to it.
 
@@ -85,7 +81,7 @@ Of the Culture novels I've read, the Player of Games is the easiest to recommend
 
 Alejandro Jodorowsky's story combined with Mœbius's art in the Incal is magnificent.
 
-The breakneck pace of the story combined with the scope, scale and wildness of both the art and the story made for an epic and memorable reading experience that I'm unlikely to forget anytime soon.
+The breakneck pace of the story combined with the scope, scale and wildness of both the art and the story made for an epic reading experience that I'm unlikely to forget anytime soon.
 
 {{< book "Glorious Exploits" >}}
 
@@ -117,17 +113,17 @@ There's a dome that appears on top of an American town that stops anything from 
 
 This creates a pressure cooker of sorts in the town that King uses to write the most entertaining roller coaster ride of a book I've read all year.
 
-Honorable mentions:
+## Honorable mentions:
 
 {{< book "Service Model" >}}
 
 2024 was the year **I read a bunch of Adrian Tchaikovsky novels (Part 2)**.
 
-Service Model feels likes a spiritual successor to {{< book_url "Dogs of War" >}} which used to be my favorite Adrian Tchaikovsky novel but Service Model is quickly becoming my new favorite of his.
+Service Model feels likes a spiritual successor to {{< book_url "Dogs of War" >}} which is my favorite Adrian Tchaikovsky novel but Service Model is quickly becoming my new favorite of his.
 
 I'm about 3/4 of the way through it --- it doesn't feel right putting it on my 2024 novels of the year list. Maybe next year?
 
-# Conclusion
+## Conclusion
 
 2024 was a great year for me reading-wise.
 
