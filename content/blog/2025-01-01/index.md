@@ -27,7 +27,7 @@ A tier list of the UFO 50 games I played in 2024 (from most fun to least fun).
 | A | ![](38.jpg) | Rakshasa | A Ghosts 'n Goblins-like hardcore platformer. Probably the hardest game in UFO 50 so despite spending quite a long time without I haven't gotten very far. |
 | B | ![](06.jpg) | Mortol | A puzzle platformer with hidden depth (like a lot of other UFO 50 games) |
 | B | ![](29.jpg) | Vainger | A bite-sized metroidvania that I had a lot of fun with despite not liking metroidvanias much. |
-| B | ![](22.jpg) | Porgy | A push-your-luck underwater stealth metroidvania with big bosses you need to avoid until you can fight them with upgrades. Suprisingly good! |
+| B | ![](22.jpg) | Porgy | A push-your-luck underwater stealth metroidvania with big bosses you need to avoid until you can fight them with upgrades. Surprisingly good! |
 | B | ![](20.jpg) | Warptank | A fun little puzzler. |
 | B | ![](16.jpg) | Camouflage | A little puzzler but not as good as Warptank. |
 | B | ![](37.jpg) | Valbrace | A dungeon crawler with Punch-out!!-like combat. I wish I liked this more than I do. |
@@ -49,7 +49,7 @@ A tier list of the UFO 50 games I played in 2024 (from most fun to least fun).
 | D | ![](11.jpg) | Kick Club | A sports-themed Bubble Bobble-like. Not my jam. |
 | D | ![](05.jpg) | Magic Garden | A Worm and Pacman-like... I don't get it. |
 | D | ![](03.jpg) | Ninpek | Nahhhhhh. |
-| D | ![](04.jpg) | Paint Chase | A 1v1 racing Splatoon-like. Seems very solveable and not interesting in 2P. |
+| D | ![](04.jpg) | Paint Chase | A 1v1 racing Splatoon-like. Seems very solvable and not interesting in 2P. |
 | D | ![](44.jpg) | Pilot Quest | An idle game with top-down Zelda-like combat. I don't know. |
 | E | ![](49.jpg) | Campanella 3 | Ummmmm. Uhhhhhh weird. |
 | E | ![](18.jpg) | Golfaria | Torture (derogatory). I thought I liked golf games but I don't know anymore. |
@@ -65,6 +65,6 @@ A tier list of the UFO 50 games I played in 2024 (from most fun to least fun).
 
 And there you have it.
 
-UFO 50 is a game that's been on my radar for 8-9 years. To see it finally come out in 2024 and be as good as it is feels great. I can see myself coming back to UFO 50 for the forseeable future if only to continue playing some of these multiplayer games that are SO GOOD.
+UFO 50 is a game that's been on my radar for 8-9 years. To see it finally come out in 2024 and be as good as it is feels great. I can see myself coming back to UFO 50 for the foreseeable future if only to continue playing some of these multiplayer games that are SO GOOD.
 
 I also plan to continue following along in 2025 with the [Eggplant - A Year of UFO 50 series](https://eggplant.show/), pushing through their constant jumpscare SFX, music and community voice messages, as they continue to do deep dives on all the UFO 50 games in chronological order.
