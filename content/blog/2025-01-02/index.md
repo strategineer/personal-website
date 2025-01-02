@@ -91,7 +91,7 @@ The breakneck pace of the story combined with the scope, scale and wildness of b
 
 2024 was the year **I discovered the [Tournament of Books](https://www.tournamentofbooks.com/)**, specifically the [Long List](https://www.tournamentofbooks.com/the-year-in-fiction-2024).
 
-Glorious Exploits was one of many books that appeared on the Long List that suprised the hell out of me.
+Glorious Exploits was one of many books that appeared on the Long List that surprised the hell out of me.
 
 It reads like a historical (~400 BCE) mockumentary following two out of work Sicilian potters trying to put on a play by Euripides without any of the skills or material required to do it properly.
 
