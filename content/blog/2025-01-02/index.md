@@ -71,7 +71,7 @@ Oof.
 
 {{< book "The Player Of Games" >}}
 
-2024 was the year that **I finally read some Iain M. Banks Culture novels**.
+2024 was the year that **I finally read some Iain Banks Culture novels**.
 
 It only took me 15 years of wanting to but never getting around to it.
 
