@@ -15,7 +15,7 @@ A list of novels, in randomized order, that I read and enjoyed in 2024.
 
 Lavinia is Ursula K. Le Guin's take on the ancient mythological modern retelling back in 2008 way before this genre became cool.
 
-Lavinia, the titular character of the novel, is a throwaway character from Virgil's Aeneid --- giving Le Guin ample room to expand on Lavinia's life within the larger story we already know about and to venture into a meta-fictional mode as well.
+Lavinia, the titular character of the novel, is a throwaway character from Virgil's Aeneid --- giving Le Guin ample room to expand on Lavinia's life and to venture into a meta-fictional mode as well (think {{< spoiler >}} Final Fantasy VII Remake {{< /spoiler >}}).
 
 {{< book "Ash - A Secret History" >}}
 
@@ -37,7 +37,7 @@ The Etched City is peak weird fantasy that reads like poetry. It's rich with flo
 
 2024 was the year **I discovered Gene Wolfe's work**.
 
-His POV characters provide a great lens through which to view the world from. Wolfe uses these POVs to make his stories dense with hidden meanings and allusions that are really enjoyable to find.
+His skewed perspective POV characters provide a great lens through which to view his worlds from. Wolfe uses these POVs to make his stories dense with hidden meanings and allusions that are really enjoyable to find.
 
 Wolfe's novels aren't puzzles --- his work can't be solved but you can think about them endlessly and I really like that.
 
