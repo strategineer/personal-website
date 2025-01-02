@@ -315,22 +315,42 @@ def stats(debug):
     filenames = glob.glob("content/books/*/index.md")
     c = Counter()
     posts = []
+    posts_by_year = {}
     for filename in filenames:
         with open(filename, encoding="utf-8") as f:
             try:
                 post = frontmatter.load(f)
+                year = post.metadata.get("date").year
+                if year not in posts_by_year:
+                    posts_by_year[year] = []
+                tags = post.metadata.get("books/tags", [])
+                if tags is not None and ("owned-but-unread" in tags or "did-not-finish" in tags):
+                    continue
+                posts_by_year[year].append(post)
                 isbn13 = post.metadata.get("params", {}).get("isbn13")
                 # these have unicode in them and can't be counted properly
-                if isbn13 not in ["9780735210936", "9781101972120", "9781598537536"]:
-                    count_words_fast(c, post.content)
-                    posts.append((isbn13, filename, post))
+                #if isbn13 not in ["9780735210936", "9781101972120", "9781598537536"]:
+                #    count_words_fast(c, post.content)
+                #    posts.append((isbn13, filename, post))
             except UnicodeDecodeError:
                 print(
                     f"Failed to load file {filename} with frontmatter parser due to unicode error"
                 )
                 continue
-    print(f"number of book posts: {len(posts)}")
-    print(str(c.most_common(200)))
+    for year in posts_by_year:
+        if year != 2024:
+            continue
+        print(f"number of book posts in {year}: {len(posts_by_year[year])}")
+        ratings_counter = Counter()
+        posts_by_word_count = []
+        for post in sorted(posts_by_year[year], key=lambda x : x.metadata.get("date")):
+            posts_by_word_count.append((len(post.content.split()),post.metadata.get('title')))
+            ratings_counter.update([post.metadata.get("star_rating", 0)])
+            #print(f"{post.metadata.get('title')}: {len(post.content.split())}")
+        for x, y in sorted(posts_by_word_count):
+            print(f"{y}: {x}")
+        print(ratings_counter)
+    #print(str(c.most_common(200)))
     return
 
 @click.command()

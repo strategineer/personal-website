@@ -12,7 +12,7 @@ star_rating: 3
 title: Grunts
 ---
 
-{{< quote 151 >}}
+{{< quote "151" >}}
 "You can't beat no orc marines
 
 When we fire our M16s!"
@@ -64,7 +64,7 @@ Kicking off the book with the "nameless necromancer" completely wasted on wine, 
 
 I think this is going to be a goldmine for fantasy roleplaying ideas...
 
-{{< quote 25 >}} "Ned and Will Brandiman," Ned introduced. "Notorious 'alflings. Sir and madam, you are looking at two of the greatest professionals it will ever be your good fortune to meet. As to what we do, we find lost property."
+{{< quote "25" >}} "Ned and Will Brandiman," Ned introduced. "Notorious 'alflings. Sir and madam, you are looking at two of the greatest professionals it will ever be your good fortune to meet. As to what we do, we find lost property."
 
 Shazgurim snorted. "And is it usually lost before you two 'find' it?"
 

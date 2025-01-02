@@ -13,8 +13,8 @@ title: Death With Interruptions
 
 Everyone in a small and nameless country becomes immortal, hijinks ensue. death, with a small "d", shows up, does some stuff then falls in love with a bass player.
 
+<!--more-->
+
 The End.
 
 The weakest of Jose Saramago's work by far.
-
-<!--more-->

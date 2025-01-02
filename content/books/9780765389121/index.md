@@ -26,7 +26,7 @@ Their identities as minorities are thrust out there for clout (I guess?) and the
 
 In the afterword, John Scalzi states:
 
-{{< quote 262 >}} KPS is not, and I say this with absolutely no slight intended, a brooding symphony of a novel. It's a pop song. It's meant to be light and catchy, with three minutes of hooks and choruses for you to sing along with, and then you're done and you go on with your day, hopefully with a smile on your face. {{< /quote >}}
+{{< quote "262" >}} KPS is not, and I say this with absolutely no slight intended, a brooding symphony of a novel. It's a pop song. It's meant to be light and catchy, with three minutes of hooks and choruses for you to sing along with, and then you're done and you go on with your day, hopefully with a smile on your face. {{< /quote >}}
 
 I'm not smiling.
 

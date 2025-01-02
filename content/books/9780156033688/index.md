@@ -45,13 +45,13 @@ You should read it, especially if you're a fan of Le Guin or if you're into Grec
 
 I've taken note of a bunch of quotes from the book, I'm keeping them here with some of my thoughts for posterity.
 
-{{< quote 5 >}} How is it that you understand me, who lived twenty- five or thirty centuries ago? Do you know Latin?
+{{< quote "5" >}} How is it that you understand me, who lived twenty- five or thirty centuries ago? Do you know Latin?
 
 But then I think no, it has nothing to do with being dead, it's not death that allows us to understand one another, but poetry. {{< /quote >}}
 
 Le Guin big upping the use of poetry, and presumably literature as a whole, as an effective means of travelling through time to try and understand the people who came before us.
 
-{{< quote 59 >}} I sat in silence. I wanted to cry, but had no tears. "I will be gone soon," the poet said. "I will join the crowd, return to darkness."
+{{< quote "59" >}} I sat in silence. I wanted to cry, but had no tears. "I will be gone soon," the poet said. "I will join the crowd, return to darkness."
 
 "Not yet—"
 
@@ -61,7 +61,7 @@ Le Guin big upping the use of poetry, and presumably literature as a whole, as a
 
 Famously, Vergil never finished writing the Aenied. Potentially leaving more space for artists who came after him, including Le Guin, to take the text, remix it and finish it in a way appropriate for their own time and place.
 
-{{< quote 90 >}} I had hated him while he told that tale of slaughter, but I was losing him, now, already, moment by moment, and I loved him, yearning to him. "Wait—Only tell me—your poem, my poem, did you finish it?"
+{{< quote "90" >}} I had hated him while he told that tale of slaughter, but I was losing him, now, already, moment by moment, and I loved him, yearning to him. "Wait—Only tell me—your poem, my poem, did you finish it?"
 
 He seemed to nod, but I could hardly see him, a tall shadow in shadows.
 
@@ -73,7 +73,7 @@ I cried out his name, went forward, reaching out my arms to hold him, to keep hi
 
 The fact that Vergil plays such a big role in Le Guin's retelling of the Aenid constantly amazes me.
 
-{{< quote 119 >}} It has not been difficult for me to believe in my fictionality, because it is, after all, so slight. But for him it would be very difficult. Even if he is at the moment inactive, domesticated, a contented man sitting in the sunlight talking with his wife, the poet's passionate, commanding, anxious, dangerous hero would find it hard to accept contingence, the nullity of his will and conscience. Piety, faithfulness, obedience to what must be rightly done, the fas, is the desire of his heart. To know that he has obeyed a poet, rather than his conscience, might be anguish to him —even if he saw, as I see, that the poet obeyed his conscience and followed the fas. Why should I trouble him with that, when his concerns are so great and his time so short? {{< /quote >}}
+{{< quote "119" >}} It has not been difficult for me to believe in my fictionality, because it is, after all, so slight. But for him it would be very difficult. Even if he is at the moment inactive, domesticated, a contented man sitting in the sunlight talking with his wife, the poet's passionate, commanding, anxious, dangerous hero would find it hard to accept contingence, the nullity of his will and conscience. Piety, faithfulness, obedience to what must be rightly done, the fas, is the desire of his heart. To know that he has obeyed a poet, rather than his conscience, might be anguish to him —even if he saw, as I see, that the poet obeyed his conscience and followed the fas. Why should I trouble him with that, when his concerns are so great and his time so short? {{< /quote >}}
 
 Lavinia is reflecting on her own existence as a fictional character in someone else's story. Yet, because Vergil did not have much to say about Lavinia, she's more able to believe that she's fictional.
 
@@ -81,7 +81,7 @@ Unlike her husband Aeneas. Of course, this conceit is Le Guin explaining away wh
 
 Either way, very meta stuff.
 
-{{< quote 123 >}} It was a big crowd, and more coming in across the fields all the time. The men all carried weapons, whether they were farm tools or hunter's bows or swords and bronze-tipped lances. As they grouped together they made a dark, endless noise. I looked down from the roof at the top of the laurel in the courtyard where the bees had swarmed. But these men were not the foreigners the bees had foretold. They were Latins, Laurentians, Italians. My people. My enemies. {{< /quote >}}
+{{< quote "123" >}} It was a big crowd, and more coming in across the fields all the time. The men all carried weapons, whether they were farm tools or hunter's bows or swords and bronze-tipped lances. As they grouped together they made a dark, endless noise. I looked down from the roof at the top of the laurel in the courtyard where the bees had swarmed. But these men were not the foreigners the bees had foretold. They were Latins, Laurentians, Italians. My people. My enemies. {{< /quote >}}
 
 This paragraph is a testament to Le Guin's ability to imbue her work with so much meaning yet she does so, so succinctly.
 
@@ -89,18 +89,18 @@ This paragraph is a testament to Le Guin's ability to imbue her work with so muc
 
 Huhhhhh it's so good.
 
-{{< quote 131 >}} I looked for the woman warrior my poet had said would ride with the Volscians, but I did not see her. But then, he said he had invented her. But had he not invented all of us? I tried to take comfort in that, to pretend that it was all a pretense, all the shouted orders and clashed weapons and sharpened swords, the nervous horses and swaggering men. The horrible list of carnage my poet had told me on the last night, that was what they were making ready for. But why, what was it for? For a pet deer? For a girl? What good would that be?
+{{< quote "131" >}} I looked for the woman warrior my poet had said would ride with the Volscians, but I did not see her. But then, he said he had invented her. But had he not invented all of us? I tried to take comfort in that, to pretend that it was all a pretense, all the shouted orders and clashed weapons and sharpened swords, the nervous horses and swaggering men. The horrible list of carnage my poet had told me on the last night, that was what they were making ready for. But why, what was it for? For a pet deer? For a girl? What good would that be?
 
 Without war there are no heroes. {{< /quote >}}
 
 1. Fiction is as real as any story we tell ourselves about the past or our memories of it. The stories we tell ourselves are a reflection of who we are, and the stories we tell each other change who we are. Whether they're fictional or not.
 2. **Without war there are no heroes.** Le Guin seems to be pointing out an assumption made by the poetic/literary tradition she's been inspired by. To be heroic in a Homeric poem is to be a veteran of war and it seems like that sort of idea has withstood the test of time for better or worse. Something something toxic masculinity.
 
-{{< quote 135 >}} My mind went round and round on these thoughts and my heart was torn and miserable, wanting to rejoice with the people around me but unable to. I felt myself a traitor, as if I had done the great wrong, had caused it simply by being who and what I was. My mother had taught me that self-pitying guilt, and I had known it most of my life. Though I fought against it, knowing it childish and mistaken, under this stress and pressure it was all too easy to be childish, to be mistaken, to drop back into it. {{< /quote >}}
+{{< quote "135" >}} My mind went round and round on these thoughts and my heart was torn and miserable, wanting to rejoice with the people around me but unable to. I felt myself a traitor, as if I had done the great wrong, had caused it simply by being who and what I was. My mother had taught me that self-pitying guilt, and I had known it most of my life. Though I fought against it, knowing it childish and mistaken, under this stress and pressure it was all too easy to be childish, to be mistaken, to drop back into it. {{< /quote >}}
 
 Absolutely fucking brutal. Le Guin, you're tearing me apart.
 
-{{< quote 139 >}} "What am I to do?"
+{{< quote "139" >}} "What am I to do?"
 
 I did feel shame, hearing that.
 
@@ -120,7 +120,7 @@ I don't think she's portrayed as a particularly sympathetic character, and yet I
 
 The Fates!
 
-{{< quote 152 >}} The women around us bowed their heads or knelt down, and the people crowded into the streets and up on the walls and roofs fell silent listening.
+{{< quote "152" >}} The women around us bowed their heads or knelt down, and the people crowded into the streets and up on the walls and roofs fell silent listening.
 
 I felt flow into me from them a loving trustfulness, a flood of feeling that humbled my mind and yet gave me a sense of great and reliable support. I was their daughter, their pledge to the future, a powerless girl yet one who could speak for them to the great powers, a mere token for political barter yet also a sign of what was of true value to us all. I stood among my people in silence when the ritual was done, all of us quiet as the birds that stand in hundreds at evening on the sea beach, seeming to worship together.
 
@@ -154,23 +154,23 @@ Even Ascanius had no answer for that. {{< /quote >}}
 
 **"Obedience to the will of the powers of earth and sky?" I said at last, making my statement a question, as women so often do.** It sucks that this is the way things are now.
 
-{{< quote 221 >}} "It's a good place for a child, the woods. You don't learn much about people, but you learn silence. Patience. And that there's nothing much to fear in the wilderness—less than there is on a farm or in the city." {{< /quote >}}
+{{< quote "221" >}} "It's a good place for a child, the woods. You don't learn much about people, but you learn silence. Patience. And that there's nothing much to fear in the wilderness—less than there is on a farm or in the city." {{< /quote >}}
 
 One of Le Guin's many moments in her work where she fantasizes about a "return to nature". Also, present in her Earthsea series (Ogion, Ged the farmer).
 
-{{< quote 223 >}} Three years, the poet had said. Three years to the day it was. The three old women who spin and cut the thread had measured exactly, to the inch, nothing to spare. No gift of summer days. {{< /quote >}}
+{{< quote "223" >}} Three years, the poet had said. Three years to the day it was. The three old women who spin and cut the thread had measured exactly, to the inch, nothing to spare. No gift of summer days. {{< /quote >}}
 
 The Fates! Again.
 
-{{< quote 229 >}} I have not told this all in order as it happened. It is still hard to speak of. A month after Aeneas' death I lost the fetus that might have been my daughter. Only my women knew that I had been pregnant and that the pregnancy miscarried. Only my women and Aeneas knew. I went with Maruna in the dark before dawn and we buried the tiny scrap of life that had not lived, deep under the great stones of Aeneas' grave. {{< /quote >}}
+{{< quote "229" >}} I have not told this all in order as it happened. It is still hard to speak of. A month after Aeneas' death I lost the fetus that might have been my daughter. Only my women knew that I had been pregnant and that the pregnancy miscarried. Only my women and Aeneas knew. I went with Maruna in the dark before dawn and we buried the tiny scrap of life that had not lived, deep under the great stones of Aeneas' grave. {{< /quote >}}
 
 Like her mother, Lavinia loses a child she was hoping to see grow up. There's shared trauma there. As Lavinia lives her life, she gradually comes to understand her mother's behavior and trauma better over time.
 
-{{< quote 240 >}} I did indeed understand something of how my mother's mind worked in her frenzy: the ceaseless whirl of ideas, plans, schemes, the terrible irritation with anything that turned thought from its obsession and with anyone who did not understand it, and the curious sense of waiting in ambush. I remembered two pale gold eyes that shone of their own light. I was the she-wolf in the cave, standing stiff-legged, silent, in darkness, ready. {{< /quote >}}
+{{< quote "240" >}} I did indeed understand something of how my mother's mind worked in her frenzy: the ceaseless whirl of ideas, plans, schemes, the terrible irritation with anything that turned thought from its obsession and with anyone who did not understand it, and the curious sense of waiting in ambush. I remembered two pale gold eyes that shone of their own light. I was the she-wolf in the cave, standing stiff-legged, silent, in darkness, ready. {{< /quote >}}
 
 There you go.
 
-{{< quote 257 >}} But as I said it I knew that it was not true. Aeneas had not been there with me as a man in the flesh, nor had Anchises spoken. It was the poet who spoke. It was all the words of the poet, the words of the maker, the foreteller, the truth teller: nothing more, nothing less. But was I myself any more, or less, than that?
+{{< quote "257" >}} But as I said it I knew that it was not true. Aeneas had not been there with me as a man in the flesh, nor had Anchises spoken. It was the poet who spoke. It was all the words of the poet, the words of the maker, the foreteller, the truth teller: nothing more, nothing less. But was I myself any more, or less, than that?
 
 And this was nothing I could say to any living soul, or ever did, till now. {{< /quote >}}
 
@@ -178,19 +178,19 @@ Lavinia grappling again with her fictionality and what it means for her.
 
 Meta meta meta.
 
-{{< quote 259 >}} But after a time I began to like my solitude. I lost the wish for any visitor or voice to break the silence of the trees, threaded always with the singing of insects and birds and the sound of wind in leaves. I gardened, and spun, and wove on the big loom set up in the second room, and was content with silence, until my son came back at evening to eat with me and talk a little, quietly, before sleep. {{< /quote >}}
+{{< quote "259" >}} But after a time I began to like my solitude. I lost the wish for any visitor or voice to break the silence of the trees, threaded always with the singing of insects and birds and the sound of wind in leaves. I gardened, and spun, and wove on the big loom set up in the second room, and was content with silence, until my son came back at evening to eat with me and talk a little, quietly, before sleep. {{< /quote >}}
 
 "RETURN TO NATURE. RETURN TO NATURE. RETURN TO NATURE."
 
 _Le Guin slowly rocked back and forth, hugging her knees to her chest as she repeated those faithful words._
 
-{{< quote 263 >}} I was fated, it seems, to live among people who suffered beyond measure from grief, who were driven mad by it. Though I suffered grief, I was doomed to sanity. This was no doing of the poet's. I know that he gave me nothing but modest blushes, and no character at all. I know that he said I raved and tore my golden tresses at my mother's death. He simply was not paying attention: I was silent then, tearless, and only intent on making her poor soiled body decent. And my hair has always been dark. In truth he gave me nothing but a name, and I have filled it with myself. Yet without him would I even have a name? I have never blamed him. Even a poet cannot get everything right.
+{{< quote "263" >}} I was fated, it seems, to live among people who suffered beyond measure from grief, who were driven mad by it. Though I suffered grief, I was doomed to sanity. This was no doing of the poet's. I know that he gave me nothing but modest blushes, and no character at all. I know that he said I raved and tore my golden tresses at my mother's death. He simply was not paying attention: I was silent then, tearless, and only intent on making her poor soiled body decent. And my hair has always been dark. In truth he gave me nothing but a name, and I have filled it with myself. Yet without him would I even have a name? I have never blamed him. Even a poet cannot get everything right.
 
 It is strange, though, that he gave me no voice. I never spoke to him till we met that night by the altar under the oaks. Where is my voice from, I wonder? the voice that cries on the wind in the heights of Albunea, the voice that speaks with no tongue a language not its own? {{< /quote >}}
 
 The Fates! Again again.
 
-{{< quote 272 >}} I fly among the trees on soft wings that make no sound. Sometimes I call out, but not in a human voice. My cry is soft and quavering: i, i, I cry: Go on, go.
+{{< quote "272" >}} I fly among the trees on soft wings that make no sound. Sometimes I call out, but not in a human voice. My cry is soft and quavering: i, i, I cry: Go on, go.
 
 Only sometimes my soul wakes as a woman again, and then when I listen I can hear silence, and in the silence his voice. {{< /quote >}}
 

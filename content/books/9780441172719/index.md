@@ -19,7 +19,7 @@ It's Dune. It's aged surprisingly well. It has a lot to say about the world of t
 
 <!--more-->
 
-{{< quote 119 >}}
+{{< quote "119" >}}
 "We mustn't run short of filmbase," the Duke said. "Else, how could we flood village and city with our information? The people must learn how well I govern them. How would they know if we didn't tell them?"
 {{< /quote >}}
 
@@ -35,7 +35,7 @@ The novel is by no means perfect and one could argue that Denis Villeneuve's mov
 
 Another part of the novel that I enjoy quite a bit which isn't present in the movies is Frank Herbert's mastery of the shifting POV. Multiple POV characters is not anything new to me, almost every single novel I read has multiple POV characters. Dune is different because it has an omniscient narrator that dives deep into the psyche of each of the characters it's focusing on, showing the reader their inner thoughts and concerns while also smoothly flowing from one character to the next within the same chapter, even the same paragraph.
 
-{{< quote 297 >}}
+{{< quote "297" >}}
 One thought remained to him. [POV Character 1] saw it in formless light on rays of black: The day the flesh shapes and the flesh the day shapes. The thought struck him with a sense of fullness he knew he could never explain.
 
 Silence.

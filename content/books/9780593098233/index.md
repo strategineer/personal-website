@@ -18,7 +18,7 @@ An inversion of its predecessor Dune, Dune Messiah tells the story of Paul Atrei
 
 <!--more-->
 
-{{< quote 142 >}}
+{{< quote "142" >}}
 "Some of my friends have forgotten they once were Fremen," Paul said, speaking to Korba, but designing his words for Stilgar. "You will mark down the ones Chani identifies as Sardaukar and you will have them killed. Do it yourself. I want it done quietly and without undue disturbance. We must keep in mind that there’s more to religion and government than approving treaties and sermons.
 {{< /quote >}}
 
@@ -28,7 +28,7 @@ Paul was never a good, as in doing the right thing, kind of character. In Dune, 
 
 In Dune Messiah, 12 years later he's fulfilled the destiny set out for him by the Bene Gesserit, and it's made much more explicit that despite being a Chosen One (albeit a manufactured one), he's not someone we should look up to or seek to emulate.
 
-{{< quote 102 >}}
+{{< quote "102" >}}
 "I am not on Arrakis," she said. "I'm a passenger on a Guild heighliner in free space."
 
 "There is no such thing as free space, Madame."
@@ -40,7 +40,7 @@ She read hate mingled with profound suspicion in his tone.
 
 Being disappointed that some readers read Dune and thought otherwise, Frank Herbert went all the way in the sequel to really hit you on the head with Paul's awfulness.
 
-{{< quote 138 >}}
+{{< quote "138" >}}
 "Ghengis ... Khan? Was he of the Sardaukar, m'Lord?"
 
 "Oh, long before that. He killed ... perhaps four million."

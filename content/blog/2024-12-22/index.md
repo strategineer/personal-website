@@ -7,6 +7,8 @@ blog/tags:
 
 A list of games, in randomized order, released in 2024 that I played and enjoyed.
 
+<!--more-->
+
 # 1000xRESIST
 
 ![](1000xresist.jpg)

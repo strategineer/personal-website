@@ -18,7 +18,7 @@ A grounded yet fantastical story about a young woman, Sasha, who is selected to 
 
 <!--more-->
 
-{{< quote 70 >}}
+{{< quote "70" >}}
 “Attention, students,” continued Portnov just as softly. “You are at the beginning of a journey, during which all of your strength will be required. Physical and mental. What we will be studying is not for everyone. Not everyone can handle what this does to a person. You have been carefully selected, and you all have what it takes to make that journey successfully. Our science does not tolerate weakness and takes cruel revenge on laziness, on cowardice, and on the most infinitesimal attempt to avoid learning the entire curriculum. Is that understood?”
 {{< /quote >}}
 
@@ -26,7 +26,7 @@ A grounded yet fantastical story about a young woman, Sasha, who is selected to 
 
 I blasted my way through this novel, I would be lying if I didn't mention that it pulled me in with compelling mysteries and fantastic mind bending depictions of a character who's mind is bending in ways it shouldn't.
 
-{{< quote 289 >}}
+{{< quote "289" >}}
 She detonated herself like a grenade, ran all over in a stream, and enveloped the entire auditorium in a thin fog. A split second, and the fog thickened and charged at [...], storming into his nostrils, pouring into his throat, catching the foreign breath.
 
 A scent of cologne flashed. It became dark.
@@ -38,7 +38,7 @@ Unfortunately this novel loves setting up mysteries but doesn't know how to unra
 
 Marina and Sergey Dyachenko seem to love flaunting the fact that most of the explanations behind these mysteries are being withheld from Sasha (and the reader) for seemingly no reason, other than to act as a carrot on the stick for the reader to follow, over and over again. Here are just a few examples:
 
-{{< quote 153 >}}
+{{< quote "153" >}}
 “Because you never explained to us what we are being taught, let alone why!”
 
 “You would not be able to understand it. It’s too early.”
@@ -46,13 +46,13 @@ Marina and Sergey Dyachenko seem to love flaunting the fact that most of the exp
 
 ...
 
-{{< quote 181 >}}
+{{< quote "181" >}}
 “Too early, my girl. It’s too soon for you to know. Right now you are still a slave of a framework, a plaster mold with a hint of imagination. With memory, with a personality . . 
 {{< /quote >}}
 
 ...
 
-{{< quote 246 >}}
+{{< quote "246" >}}
 “That thing that was there . . . What is it?”
 
 [...]

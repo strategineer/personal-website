@@ -70,9 +70,6 @@
               </div>
               {{ $has_summary := or .Params.summary (strings.Contains .RawContent "<!--more-->") }}
               {{ if $has_summary }}
-              <span class="summary-text">
-                {{ .Summary }}
-              </span>
               <div class="col read-more">
                 <a aria-labelledby="more" class="float-right" href='{{ .Permalink }}'>
                   {{ if $more_to_read }}

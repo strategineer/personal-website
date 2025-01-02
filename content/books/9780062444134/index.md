@@ -21,7 +21,7 @@ Becky Chambers' space opera following the scrappy and loveable crew of the Wayfa
 
 {{< series >}}
 
-{{< quote 43 >}}
+{{< quote "43" >}}
 
 "Sissix!" Kizzy cried, entering the room. "I need to talk to you about this super-scandalous sexy vid I saw today."
 
@@ -48,7 +48,7 @@ Having read [The Galaxy, and the Ground Within by Becky Chambers](/books/9781473
 
 This is the kind of story I was looking to read and Becky Chambers nailed it. She excels at depicting characters, human and nonhuman alike, in a way that makes it impossible to not empathize with them. And, by doing so, she's able to put her characters in a variety of situations, from the mundane to the exciting and tense, and no matter what the stakes are, I consistently found myself at the edge of my seat with my heart and soul laid bare, ready to feel and interpret the emotional beats that Becky Chambers was laying down.
 
-{{< quote 108 >}}
+{{< quote "108" >}}
 "Thank you," Ashby said, though the AI was still speaking. He led the crew away from the booth. Jenks remained behind.
 
 The AI continued on, unfazed by the departure of its audience. "Location indicators come in models fit for all species, and can provide alerts in a variety of sensory inputs, such as smell, taste, sound, dermal stimulation, neural stimulation—"
