@@ -1,6 +1,6 @@
 ---
-title: "UOTY List 2024"
-date: 2025-01-01
+title: "UfoOTY List 2024"
+date: 2025-01-03
 blog/tags:
   - gaming
 ---
