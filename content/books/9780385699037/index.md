@@ -2,7 +2,7 @@
 authors:
 - Holly Gramazio
 books/tags:
-- comic
+- comedy
 - science fiction
 - tournament of books 2025
 date: 2024-11-30
