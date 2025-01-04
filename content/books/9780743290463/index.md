@@ -2,9 +2,9 @@
 authors:
 - His Holiness Tenzin Gyatso the XIV Dalai Lama
 books/tags:
+- currently-reading
 - philosophy
-- owned-but-unread
-date: 2024-09-23
+date: 2025-01-04
 params:
   isbn13: '9780743290463'
   year: '2007'
