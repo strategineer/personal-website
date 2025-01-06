@@ -2,8 +2,8 @@
 authors:
 - James Hynes
 books/tags:
-- owned-but-unread
-date: 2024-12-15
+- currently-reading
+date: 2025-01-06
 params:
   isbn13: '9781419771248'
   year: '2023'
