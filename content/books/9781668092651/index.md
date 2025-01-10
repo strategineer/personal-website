@@ -26,7 +26,7 @@ I "get" it. It's an ambitious novel that succeeds at combining multiple genres t
 
 Kaliane Bradley's The Ministry of Time is something like three parts romance, one part thriller, one part history fiction and one part science fiction. At its heart, it's a romance. There's the constant longing and desire expressed by the protagonist and the "will they won't they" throughline that is used to prop up all the other genre tropes Bradley is masterfully juggling.
 
-What surprised me most about The Ministry of Time was the tone. It's vulgar, it's funny, it's sarcastic... in a way that feels natural to me that I don't often see in the novels I read.
+What surprised me most about The Ministry of Time was the tone. It's vulgar, it's funny, it's sarcastic... In a way that feels natural to me that I don't often see in the novels I read.
 
 Kaliane Bradley, and the narrator in The Ministry of Time, is a "passing" mixed race person raised by an immigrant mother displaced from her country and her people. This is relevant to my experience of reading through the novel because it comes up a lot in the text and because this is also my lived experience.
 
