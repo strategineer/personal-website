@@ -29,7 +29,7 @@ On the other hand, in Orbital, Samantha Harvey seems more interested in describi
 
 The hurricane caused by climate change in Orbital feels more like something that's already happening to us today that we're actively suffering from rather than a maneuver Saramago would make like "everybody on the planet is becoming blind" as some kind of metaphor for political ideology / faith gone wrong (see {{< book_url "Blindness" >}}).
 
-In Orbital, Samantha Harvey doesn't appear to be as militantly atheist as Jose Saramago does but the portrayal of Shaun makes me think that she problaby doesn't believe.
+In Orbital, Samantha Harvey doesn't appear to be as militantly atheist as Jose Saramago does but the portrayal of Shaun makes me think that she probably doesn't believe.
 
 I find it hard to believe (see what I did there?) that Shaun, as the only openly religious (Christian to be precise) astronaut on the crew, would go to space, watch as a hurricane rampages on the planet, killing uncountable numbers of people and start to subconsciously and consciously question his faith throughout all of the chapters dedicated to his POV.
 

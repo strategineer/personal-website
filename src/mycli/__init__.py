@@ -157,6 +157,14 @@ def convert_to_goodreads_review_format(series_posts, content, filename):
     content = re.sub(
         r"\n(\d+\.)([^\n]+)", rf"{SINGLE_LINE_BREAK_MARKER}\g<1>\g<2>", content
     )
+    # book_url short codes
+    content = re.sub(
+        r"{{<\s+book_url\s+\"([^\"]+)\"\s+>}}", rf"\g<1>", content
+    )
+    # book short codes
+    content = re.sub(
+        r"{{<\s+book\s+\"([^\"]+)\"\s+>}}", rf"\g<1>", content
+    )
     # non-numbered lists
     content = re.sub(
         r"\n(-)([^\n]+)", rf"{SINGLE_LINE_BREAK_MARKER}\g<1>\g<2>", content
