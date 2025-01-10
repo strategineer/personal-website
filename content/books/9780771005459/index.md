@@ -26,6 +26,6 @@ Firstly, Anne Michaels is a great poet and her writing in Held makes that clear.
 
 Secondly, the fragmentary structure of the novel allows Anne Michaels to "zoom in" on specific scenes displaced through time and space leaving room for the reader to imagine how the characters have come to be where they are now, how they got there and where they're going.
 
-Encouraging the reader to connect all these disparate glimpses into the past into a cohesive whole makes for a particularily rewarding reading experience.
+Encouraging the reader to connect all these disparate glimpses into the past into a cohesive whole makes for a particularly rewarding reading experience.
 
 This also feels resonant with Held's theme of ancestral legacies rippling through time which I think is really cool!
