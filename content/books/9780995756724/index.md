@@ -12,8 +12,6 @@ star_rating: 4
 title: Troika!
 ---
 
-Wacky absurdist one-shot roleplaying system.
+A wacky absurdist one-shot roleplaying system that would be impossible to improvise but running a premade one-shot might be a lot of fun.
 
 <!--more-->
-
-It's the kind of system that seems like it would be impossible to improvise but running a premade module would be a lot of fun.
