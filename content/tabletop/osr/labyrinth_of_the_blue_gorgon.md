@@ -168,6 +168,21 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 - Brod pulled the Crew back from stepping on any pit traps in another adjacent room.
 - The Crew were greeted by one of the humanoid shadows gliding towards them (on closer inspection it seemed to be in the shape of a fully kitted out retiree): "Cheerio old chaps! We're playing Bocce ball, would you care to join us?"
 
+## Session 12
+
+- Blotbug got 2nd place playing Bocce ball with the shadows.
+- The Crew found a room full of banned non-fiction books and Freeya decided to not take any for Germander.
+- Marlon searched through a pitch black room (warnings outside the room asked to not have any light inside) which turned out to be a crypt of some kind.
+- Marlon guide the Crew through the crypt and found a room with two weaving machines, one weaving a tapistry and the other unweaving it. The Crew could see a pictograph on the tapistry of Lizard Men and Reptile women with glowing eyes.
+- The Crew found a room filled with scrolls, everyone except Blotbug searched through the scrolls to see if any would be of interest to Germander.
+- While most of the Crew were occupied, (dark) Lanmino entered the room carrying the painting the Crew had stashed in a dark pit several sessions ago. The Ashen Chanterelle exited from the painting followed by the wizened leader of the Cult of the Shattered Moon and several of his henchpeople.
+- Blotbug bogged up the area underneath the cultists, the Ashen Chanterelle and Lanmino. Freeya did the same with a web. Brod used his Lion's Roar shield to demoralize their enemies. Marlon tried to trip the Ashen Chanterelle with his trusty Super Rake 3.0.
+- The cultist leader, known to Blotbug, continued the ritual he had began several moons ago (even prior to Blotbug and the Crew entering the labyrinth) by dancing the Moon Dance. Blotbug critically failed to resist the effects of the ritual and danced his way into the middle of the cultists. 
+- The Ashen Chanterelle greeted the Crew: "long time no see" and try to compel the Crew to let the ritual continue.  
+- Freeya critically succeeded in summoning Yuval the dromadary demon who's really into friendship. Yuval read the room and cast a powerful compelling spell on everyone in the room encouraging them to collaborate.
+- The Crew failed to resist Yuval's spell, leading to the cultists successfully sacrificing Blotbug and everyone in the room becoming fast friends.
+- TBD
+
 
 # One Pager
 
