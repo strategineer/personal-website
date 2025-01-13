@@ -12,7 +12,7 @@ star_rating: 5
 title: 'Savage Worlds: Rifts© - Game Masters Handbook'
 ---
 
-The Savage Worlds roleplaying system smashed together with the Rifts Megaverse setting (a post-post-apocalypse kicked off by the cataclismic return of magic on Earth and the opening of inter-dimensional portals all over it) seems like a match made in multi-planar heaven.
+The Savage Worlds roleplaying system smashed together with the Rifts Megaverse setting (a post-post-apocalypse kicked off by the cataclysmic return of magic on Earth and the opening of inter-dimensional portals all over it) seems like a match made in multi-planar heaven.
 
 <!--more-->
 
