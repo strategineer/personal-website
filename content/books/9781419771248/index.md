@@ -3,6 +3,7 @@ authors:
 - James Hynes
 books/tags:
 - historical fiction
+- tournament-of-books-2025
 date: 2025-01-12
 params:
   isbn13: '9781419771248'
