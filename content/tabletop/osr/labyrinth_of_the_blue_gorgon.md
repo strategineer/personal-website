@@ -185,10 +185,10 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 
 Options for next session:
 
-1. The Crew part ways with the Ashen Chanterelle and the cultists of the Shattered Moon on friendly terms.
+1. The Crew part ways with the Ashen Chanterelle and the cultists of the Shattered Moon on friendly terms --- the Crew continues to explore the Labyrinth "normally".
 2. The Crew and the cultists of the Shattered Moon help the Ashen Chanterelle achieve her goal of convincing the Three Perfect Sisters to leave the Labyrinth and rebuild their Empire together. 
-3. The Crew jump into the painting that Lanmino brought to them and leave the Labyrinth --- never to return (go on other adventures).
-4. The Crew jump into the painting that Lanmino brought to them and leave the Labyrinth --- never to return (end the campaign).
+3. The Crew jump into the painting and leave the Labyrinth --- never to return (continue adventuring outside of the labyrinth).
+4. The Crew jump into the painting and leave the Labyrinth --- never to return (end the campaign).
 
 
 # One Pager
