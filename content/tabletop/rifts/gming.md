@@ -64,7 +64,7 @@ QUESTION?
 
 We'll be using the Savage Worlds ruleset for this campaign, with any character classes/edges/skills/etc. from the Savage Rifts expansion/sourcebooks books being fair-game.
 
-I want to support absolutely any kind of wacky character in this campaign. This ranges from a human living in the post-post-apocalypse trying their best to survive, a previously hive mind-ed alien who finds themselves seperated from the hive after falling into a portal to Earth, a spirit bonded to a suit of armor, ...   
+I want to support absolutely any kind of wacky character in this campaign. This ranges from a human living in the post-post-apocalypse trying their best to survive, a previously hive mind-ed alien who finds themselves separated from the hive after falling into a portal to Earth, a spirit bonded to a suit of armor, ...   
 
 **What potentially troubling themes might this campaign include?**
 
