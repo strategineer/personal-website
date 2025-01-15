@@ -10,7 +10,7 @@ weight: 1
 
 # Gming things to remember
 
-- NPCs should communicate during combat whether to taunt, comprimise or surrender
+- NPCs should communicate during combat whether to taunt, compromise or surrender
   - PCs should usually be able to communicate with most NPCs they encounter at a distance.
   - eg: Coalition captains should talk over short range comms. Demons should shout. Mages should mindspeak.
   - On a main NPC's turn they should always say something.
