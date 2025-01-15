@@ -8,6 +8,12 @@ no_aside_toc: true
 weight: 1
 ---
 
+# Foundry Tips
+
+- Use Google Earth Pro images for battle maps!
+  - Save Google Earth images at the highest possible resolution 8192x4518 then change the grid size to a value between 20-30 so that 100m on the image is equal to 50in on the VTT (I'm not sure why the right value changes here....)
+  - do keyword search for abandoned factory, building, etc. to get dilapidated/ruined buildings appropriate for the rifts setting
+
 # Gming things to remember
 
 - NPCs should communicate during combat whether to taunt, compromise or surrender
