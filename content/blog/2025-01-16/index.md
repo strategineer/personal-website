@@ -10,10 +10,10 @@ A list of tips & tricks I've figured out over the course of several months of us
 
 <!--more-->
 
-- Sattelite Imagery for non-DND battlemaps
+- Satellite Imagery for non-DND battlemaps
   - If engagements happen hundreds of grid squares away with guns of all sorts, tiny DND-esque battlemaps won't do whatever theming is
   - If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then using Google Earth Pro, exporting images at a common zoom level (I've found 100m to be perfect) allows for quickly generating at scale battlemaps with realistic terrain and the tactical options they provide
-  - Sat Maps give also give a disctinctive Tier 1 operator vibe if that's what you're looking for  
+  - Sat Maps give also give a distinctive Tier 1 operator vibe if that's what you're looking for  
 - Modules
   - Quick Insert - Search Widget
   - Token Action HUD Core
