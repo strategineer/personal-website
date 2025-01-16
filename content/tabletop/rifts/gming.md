@@ -31,6 +31,13 @@ weight: 1
 
 **The campaign’s premise and flavor**
 
+In December of 2098, The Great Cataclysm ended the Golden Age of Mankind on Earth and brought forth torrents of magical energies, previously held at bay by unseen barriers, tearing open titanic rifts in space and time all over the planet. Out of those rifts came creatures long extinct, alien and supernatural beings of all kinds. The meager remnants of humanity cowered in shadows as the world as they knew it shattered around them.
+
+
+Glitter Boys, wandering warriors clad in nearly indestructible suits of laser reflective power armor and armedl, 
+
+Over hundreds of years, a changed humanity clawed its way back into the light... 
+
 HOOK
 
 PREMISE
