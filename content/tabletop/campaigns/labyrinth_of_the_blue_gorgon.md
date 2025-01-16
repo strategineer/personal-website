@@ -3,7 +3,6 @@ title: Labyrinth of the Blue Gorgon - Campaign Notes
 has_header: true
 is_readable: true
 ignore_from_search: true
-summary: "Labyrinth of the Blue Gorgon - Campaign Notes"
 ---
 
 # Session Recaps

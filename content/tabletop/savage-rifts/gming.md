@@ -10,7 +10,9 @@ weight: 1
 
 {{< toc >}}
 
-[Tomorrow Never Dies One Pager](/tabletop/one-pagers/tomorrow_never_dies)
+[Tomorrow Never Dies Campaign Notes](/tabletop/campaigns/tomorrow-never-dies)
+
+[Double Trouble Intro Mission](/tabletop/savage-rifts/missions/double-trouble)
 
 # Foundry Tips
 
@@ -33,32 +35,32 @@ weight: 1
   - If PCs really like a particular NPC, be open to turning them into a recurring ally, maybe a Diana-esque handler or an NPC that joins their party. Have the NPC in-character offer this as an option they'd be into.
 - Be flexible --- try to "yes, and" everything, if you can't say yes adjucate a compromise, write it down for future reference then continue play.
 
-# Map
+# Maps
+
+## Overworld Map
 
 ![](/img/tabletop/rifts/castle_refuge_map.jpg)
 
 - Throw a few different ideas / factions into the mix --- allowing players to choose which part of the bigger picture to unravel first (is everything connected?)
 - [See arcs below](#arc---ideas)... We can set them up here.
 
-# Castle Refuge Map
+## Town to supplement mappings
+
+| Town                  | Supplement                            |
+| ----                  | ----------                            |
+| Castle Refuge         |                                       |
+| Garnet Town           | The Garnet Town Gambit |
+| Wickliffe / Whykin    | Savage Foes of North America |
+| Fort El Dorado / Onyx Logging Camp     | Savage Foes of North America |
+| Longrun               |  Savage Foes of North America |
+
+## Castle Refuge Map
 
 ![](/img/tabletop/rifts/castle_refuge_battlemap.jpg)
 
 # Bangs
 
-
-- Play begins in media-res --- a first mission gone wrong, a trial by fire.
-- PCs come under fire in an abandoned during a routine exploratory mission from a Coalition special ops unit and a troop of Federation of Magic mages
-  - Each PC starts in a position appropriate for them as the self-destruction procedures start crumbling the foundations of the facility they're in:
-    - A smart PC is in front of a console contemplating what to do with the doppleganger tech they've just stumbled upon.
-    - A leader PC is overseeing the surrounding area --- watching the Coalition special ops unit and the troop of Federation of Magic mages quickly approaching the PCs location.
-    - A brawny PC is fighting the mute doppleganger of another PC.
-    - The last PC is trying to convince the brawny PC that they're the real one and not a doppleganger. But everything that they can do, the doppleganger can too --- making this a spicey meatball indeed. 
-
-#
-- We've got one living but quickly dying doppleganger of a PC (the result of a dangerous cloning technology that the PCs found on a routine exploratory mission they were sent on) of the PCs with the rest dead. We've got killer robots going on a rampage. We've got demons chasing after non-demons (telepathic? they can express their non-evil-ness). All sides are fighting all other sides and the PCs are stuck in the middle of it all.
-- The PCs are hunkered down in a bunker of some kind fending off attackers on all sides. Objective: Survive / Escape
-  - Repair a vehicle and roll out? Fend off the attack? Hide and hope for the best? Ally with one side against the others?
+...
 
 # Castle Refuge Intro
 
@@ -76,8 +78,9 @@ Geography matters: Don't forget that the town of Refuge is growing around the Ca
 
 EDIT: I want to add - In general, the Legionnaires do not the Tomorrow Legion make. Officers, NCOs, and Soldiers of the TL have the fourfold missions of Command and Control, Area Security, Mission Support, and Mission Sustainment. Without these pieces, the real heroes of the Legion (SETs, the players) could not do their job. That said, the heavy lifting and in-roads to success are accomplished by small teams of highly capable and specialized individuals. Some are less than savory, but dammit if they don't get results. Most SETs will get briefed by Top Chief Elle of Owls (or her Warrant Officer intermediaries). They'll see rank and file along the way, and will rub shoulders with them on bigger missions (because Logistics will be handled by them) or if they are close to the castle (training or conducting security ops) - but the teams are out on their own for the most part.
 
-# Arc - Ideas
+# Ideas
 
+## Arcs
 These arcs ideas should ideally mesh into one another gracefully rather than fully start and fully stop
 
 - Evil Robots trying to colonize Earth arc (Terminator/Arnold voices, beep boops)
@@ -95,3 +98,22 @@ These arcs ideas should ideally mesh into one another gracefully rather than ful
   - PCs stranded on Mad Max-like world and must acquire means of returning back to Castle Refuge.
   - PCs might work for a warlord, rising through the ranks until they can find a way back home.
   - Racing! Vehicle-based transport missions
+- El Dorado'nt
+  - multi-step arc to infiltrate and assassinate local Coalition leadership at Fort El Dorado, reducing CS presence near Castle Refuge
+
+## Missions
+
+- A whole town has been replaced by interdimensional interlopers or goblins (citizens are being held under the town and being kept to help the "actors" sell the bit)
+- A nuclear reactor is leaking into a nearby river causing mutations and deaths all around it.
+- Star Trek-like Q figure plays a game with the 9ers
+- 9ers investigate a town who's inhabitants have all dissappeared without a trace.
+- 9ers investigate a town suffering from weekly attacks by monsters.
+
+# Tables
+
+TODO
+
+- Table for random encounters during travel on overworld map based on area (mountains, CS-controlled, etc.)
+- Table for random NPC names + species
+- Table for random encounters with NPCs in Castle Refuge (who do you encounter in the halls?)
+- Table for where does the rift you just entered lead to

@@ -1,10 +1,11 @@
 ---
-title: FIST - One Pager
+title: FIST - Campaign Notes
 has_header: true
 is_readable: true
 ignore_from_search: true
-summary: "FIST - One Pager"
 ---
+
+# One Pager
 
 **The campaign’s premise and flavor**
 

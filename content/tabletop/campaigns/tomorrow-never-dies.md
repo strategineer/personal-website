@@ -1,9 +1,11 @@
 ---
-title: Tomorrow Legion Never Dies One Pager
+title: Tomorrow Legion Never Dies - Campaign Notes
 has_header: true
 is_readable: true
 ignore_from_search: true
 ---
+
+# One Pager
 
 **The campaign’s premise and flavor**
 
@@ -33,8 +35,9 @@ Will you join them?
 **What are the main things about this campaign that the characters would know going in?**
 
 - The [basic premise of the Savage Rifts setting](https://peginc.com/product/rifts-welcome-to-the-post-apocalypse-pdf/) --- basically a post-post-apocalypse kicked off by the cataclysmic return of magic on Earth and the opening of inter-dimensional portals all over it --- creating a pressure cooker environment with cyborgs, demons, aliens from outer and inner space, fascists, anything you can think of rubbing up against one another.
-- Each character was referred to the Tomorrow Legion by someone --- each character knows who referred them to the Legion and they know why.
-- Each character could eke out a living elsewhere if they wanted to but they've chosen to sign up with the Tomorrow Legion --- each character knows why.
+- Each PC was referred to the Tomorrow Legion by someone --- each PC knows who referred them to the Legion and they know why.
+- Each PC could eke out a living elsewhere if they wanted to but they've chosen to sign up with the Tomorrow Legion --- each PC knows why.
+- The PCs, who may or may not have pre-existing relationships with one another, have been training together in preparation for their first mission as part of the Special Operations Fireteam Gamma 9 --- a promotion from their previous 
 
 **What characters work best in the campaign?**
 
@@ -55,4 +58,4 @@ Everything mentioned below is up for discussion/removal if anyone isn't comforta
 
 **What group patrons might the players select as a group? Who might serve as their primary quest giver?**
 
-First Chief Elle of Owls, Head of Morale and Discipline for the Tomorrow Legion will be the one to send the Spec. Ops. Div. Gamma 9er on their first mission and she'll be the one they report to. But they'll be expected to help out around the Tomorrow Legion's base of operations Castle Refuge in any way they can.
+First Chief Elle of Owls, Head of Morale and Discipline for the Tomorrow Legion will be the one to send the Spec. Ops. Fireteam Gamma 9er on their first mission and she'll be the one they report to. But they'll be expected to help out around the Tomorrow Legion's base of operations Castle Refuge in any way they can.
