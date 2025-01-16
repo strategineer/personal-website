@@ -8,6 +8,8 @@ no_aside_toc: true
 weight: 1
 ---
 
+{{< toc >}}
+
 [Tomorrow Never Dies One Pager](/tabletop/one-pagers/tomorrow_never_dies)
 
 # Foundry Tips
@@ -60,32 +62,19 @@ weight: 1
 
 # Castle Refuge Intro
 
- Hello! I've run a few games centered around Castle Refuge now - here's what I tend to focus on: (TL,DR - Think Rebel Alliance (Star Wars) at Yavin IV, led and run by the MCU Avengers (with all their big personalities), in a world that is part Port Protection and part The Walking Dead, with Nazis to your North and South, and Sauron to your East.)
+Thoughts on roleplaying in and around Castle Refuge from great reddit post
 
-Castle Refuge is new: Yes, there are power players and experienced NPCs involved to guide the way and shepherd the forces, but every time the players come back to base, something has changed. Someone's office has moved, someone has a new setup, the East Wing has been repaired, no leaky roof!, the War Room is on-line, comms for the North East sector went down due to a ley line storm, and a SET has been dispatched to effect a repair, the E Company, 2nd Battalion Legionnaires has a new commander, they're always out on a formation run. etc. There is the overwhelming feeling of hey, we're really doing something good here, but it is tempered with Dammit! We don't have enough [teams, resources, equipment, territory, power, etc.] to do that now :( - So, optimism vs. scarcity.
+> Hello! I've run a few games centered around Castle Refuge now - here's what I tend to focus on: (TL,DR - Think Rebel Alliance (Star Wars) at Yavin IV, led and run by the MCU Avengers (with all their big personalities), in a world that is part Port Protection and part The Walking Dead, with Nazis to your North and South, and Sauron to your East.)
 
-The Tomorrow Legion is a bustle of varied activity: The TL's primary mission these days is to take in all of these refugees from the MN territories, get them settled, give them hope, and put them to work rebuilding. As such, many hopeful types are attracted to the cause as word gets out. These hopeful types come from all walks of life - hi-tech mercs, mystical beings, powerful psis and magic users. The Legion is pioneering multi-disciplinary tactics. Teams are in and out. NPCs that your team came across last session may be out on a long-range mission now. A SET had a successful rescue mission, and now a group of about 100 refugees are lined up to receive basic necessities and medical care. The 1st Battalion Legionnaires commandeered the Vehicle Bay today to conduct a mission brief to secure the western flank from encroaching Brodkil. - So, an ever changing landscape of different faces and vehicles, all moving towards or recovering from a specific activity.
+> Castle Refuge is new: Yes, there are power players and experienced NPCs involved to guide the way and shepherd the forces, but every time the players come back to base, something has changed. Someone's office has moved, someone has a new setup, the East Wing has been repaired, no leaky roof!, the War Room is on-line, comms for the North East sector went down due to a ley line storm, and a SET has been dispatched to effect a repair, the E Company, 2nd Battalion Legionnaires has a new commander, they're always out on a formation run. etc. There is the overwhelming feeling of hey, we're really doing something good here, but it is tempered with Dammit! We don't have enough [teams, resources, equipment, territory, power, etc.] to do that now :( - So, optimism vs. scarcity.
 
-The Legion is textbook rag-tag group of heroes: Some started out full of piss and vinegar to change the world dammit! Some joined after a disreputable life to make some good. Still others are hanging around for a time, biding time for the next gig. People come with their own hopes, dreams, and problems. With the Legion being such a small organization, it is going to be dominated by big personalities. Some will be likable, some a bit too much, some not enough. But all who've signed on likely believe they're doing the right thing. What happens when disagreements occur? - So, take a random slice of The Tomorrow Legion Player's Guide, and those are the weirdo heroes who're hanging around the castle.
+> The Tomorrow Legion is a bustle of varied activity: The TL's primary mission these days is to take in all of these refugees from the MN territories, get them settled, give them hope, and put them to work rebuilding. As such, many hopeful types are attracted to the cause as word gets out. These hopeful types come from all walks of life - hi-tech mercs, mystical beings, powerful psis and magic users. The Legion is pioneering multi-disciplinary tactics. Teams are in and out. NPCs that your team came across last session may be out on a long-range mission now. A SET had a successful rescue mission, and now a group of about 100 refugees are lined up to receive basic necessities and medical care. The 1st Battalion Legionnaires commandeered the Vehicle Bay today to conduct a mission brief to secure the western flank from encroaching Brodkil. - So, an ever changing landscape of different faces and vehicles, all moving towards or recovering from a specific activity.
+
+> The Legion is textbook rag-tag group of heroes: Some started out full of piss and vinegar to change the world dammit! Some joined after a disreputable life to make some good. Still others are hanging around for a time, biding time for the next gig. People come with their own hopes, dreams, and problems. With the Legion being such a small organization, it is going to be dominated by big personalities. Some will be likable, some a bit too much, some not enough. But all who've signed on likely believe they're doing the right thing. What happens when disagreements occur? - So, take a random slice of The Tomorrow Legion Player's Guide, and those are the weirdo heroes who're hanging around the castle.
 
 Geography matters: Don't forget that the town of Refuge is growing around the Castle. Then branch out further - new roads (physical and relational) are being built with the surrounding communities! These communities have their own perks, problems, and people. Balance this growth with The threats of CS Missouri and CS El Dorado to the north and south respectively (Both New Chillicothe and Fort El Dorado are about 250 mi away). The True Federation is a comfortable 500ish mi to the East, but they are just as scary.
 
 EDIT: I want to add - In general, the Legionnaires do not the Tomorrow Legion make. Officers, NCOs, and Soldiers of the TL have the fourfold missions of Command and Control, Area Security, Mission Support, and Mission Sustainment. Without these pieces, the real heroes of the Legion (SETs, the players) could not do their job. That said, the heavy lifting and in-roads to success are accomplished by small teams of highly capable and specialized individuals. Some are less than savory, but dammit if they don't get results. Most SETs will get briefed by Top Chief Elle of Owls (or her Warrant Officer intermediaries). They'll see rank and file along the way, and will rub shoulders with them on bigger missions (because Logistics will be handled by them) or if they are close to the castle (training or conducting security ops) - but the teams are out on their own for the most part.
-
-# Setting changes
-
-## Coalition
-
-Turn Coalition into a white Christian fundementalist group
-
-SAMAS -> SAMARITAN suits with a crucifixion vibe
-
-White cruxifixes instead of skull heads on armor
-
-Regional American accents skew southern
-
-Taking over regions leads to the subjugation of the local populace forcing them to convert
-
 
 # Arc - Ideas
 
