@@ -106,7 +106,7 @@ These arcs ideas should ideally mesh into one another gracefully rather than ful
 - A whole town has been replaced by interdimensional interlopers or goblins (citizens are being held under the town and being kept to help the "actors" sell the bit)
 - A nuclear reactor is leaking into a nearby river causing mutations and deaths all around it.
 - Star Trek-like Q figure plays a game with the 9ers
-- 9ers investigate a town who's inhabitants have all dissappeared without a trace.
+- 9ers investigate a town who's inhabitants have all disappeared without a trace.
 - 9ers investigate a town suffering from weekly attacks by monsters.
 
 # Tables
