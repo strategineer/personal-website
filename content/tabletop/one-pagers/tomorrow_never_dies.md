@@ -21,13 +21,13 @@ The four horsemen of the apocalypse, a devouring swarm of demons, a terrible eat
 
 Uniting under a common banner, many such as yourself flock to a group known as the Tomorrow Legion. The Legion's headquarters are the budding city-state of Castle Refuge --- a community that accepts anyone willing to resist evil and tyranny in all its forms.
 
-The Tomorrow Legion sends its soldiers on expeditions into the wasteland to defend the weak --- then invites them to join an alliance of trade and mutual protection. Already, the Legionnaires are creating a bold new legacy of prosperity in this savage world of Rifts® Earth.
+The Tomorrow Legion sends its soldiers on expeditions into the wasteland to defend the weak --- then invites them to join an alliance of trade and mutual protection. Already, the Legionnaires are creating a bold new legacy of prosperity in this post-post apocalypse on Rifts Earth.
 
 Will you join them?
 
 **What separates this campaign from others?**
 
-- A more open-ended sandboxy Tier 1 operator roleplaying experience in a "worlds colliding with everything turned up to 11" setting.
+- A more open-ended sandboxy Tier 1 operator / Cowboy roleplaying experience in a "worlds colliding with everything turned up to 11" setting.
 - The Savage Worlds rules combined with the Savage Rifts supplements will provide a lot of freedom during character creation, character advancement and in n' out of combat.
 - Foundry VTT supports both the Savage Worlds core rules and the Savage Rifts supplements allowing for a relatively hassle-free experience for both players and GM --- allowing for more freeform play due to the ease of dragging and dropping fully statted up enemies onto the battlefield as needed.
 - Combat encounters in this campaign will be something I focus on and I hope that they'll be both crunchy and fun more often than not. Balancing them is going to be a challenge in a system with this much going on but the challenge is one that I'm up for. Players should expect to sometimes come out of combat with dead or damaged characters whether due to bad tactics, bad rolls or bad GMing (I apologize in advance). Although players can usually choose to let their characters go out in a blaze of glory or survive to fight another day.

@@ -1,5 +1,5 @@
 ---
-title: GMing Aid
+title: Savage Rifts GMing Aid
 has_header: true
 is_readable: true
 ignore_from_search: true
@@ -7,6 +7,8 @@ is_tabletop: true
 no_aside_toc: true
 weight: 1
 ---
+
+[Tomorrow Never Dies One Pager](/tabletop/one-pagers/tomorrow_never_dies)
 
 # Foundry Tips
 
