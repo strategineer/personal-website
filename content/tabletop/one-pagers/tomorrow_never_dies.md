@@ -3,8 +3,6 @@ title: Tomorrow Legion Never Dies One Pager
 has_header: true
 is_readable: true
 ignore_from_search: true
-is_tabletop: true
-no_aside_toc: true
 ---
 
 **The campaign’s premise and flavor**
