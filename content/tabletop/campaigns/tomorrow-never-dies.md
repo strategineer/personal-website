@@ -3,6 +3,7 @@ title: Tomorrow Legion Never Dies - Campaign Notes
 has_header: true
 is_readable: true
 ignore_from_search: true
+no_search: true
 ---
 
 # One Pager
