@@ -18,7 +18,7 @@ This book is a trainwreck and I enjoyed watching it crash --- even though I woul
 
 The book begins with the author stating that, initially, this guide was meant for his eyes only. I think it should have stayed that way. This book is similar to something like the F.A.T.A.L. RPG in that it's an artifact produced by an older cishet white male tabletop roleplaying community which seems to have a very particular idea of what tabletop roleplaying is and should be --- by writing extensively about their thoughts on the subject, they reveal the extent of their morally bankrupt ideology for everyone to see.
 
-This book is extremely quotable but here's one from the section titled "Pretty Woman":
+Here's a quote from the section titled "Pretty Woman" --- keep in mind, this is just the tip of the iceberg:
 
 {{< quote "60" >}}
 Indeed, sexy women make the world go round. Without going overboard, pepper your campaign with exquisite curves, creamy thighs, and delicate ruby-red mouths. Seduce the players with her physical attractiveness. Compare her to a famous celebrity like Megan Fox or Kristen Bell. Better yet, come prepared with a picture of some unknown woman from the internet or evocative piece of RPG art.
