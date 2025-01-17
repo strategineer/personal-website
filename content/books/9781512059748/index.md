@@ -16,7 +16,7 @@ This book is a trainwreck and I enjoyed watching it crash --- even though I woul
 
 <!--more-->
 
-The author's begins the text by stating that this text was meant for his eyes only initially. I think it should have stayed that way. This book is similar to something like the F.A.T.A.L. RPG rulebook in that it's an artifact produced by an older generation of white male tabletop roleplaying players who have a very particular idea of what tabletop roleplaying is and should be --- by writing extensively about their thoughts on the subject, they reveal the extent of their ignorance for everyone to see.
+The book begins with the author stating that, initially, this guide was meant for his eyes only. I think it should have stayed that way. This book is similar to something like the F.A.T.A.L. RPG in that it's an artifact produced by an older white male tabletop roleplaying community which seems to have a very particular idea of what tabletop roleplaying is and should be --- by writing extensively about their thoughts on the subject, they reveal the extent of their morally bankrupt ideology for everyone to see.
 
 This book is extremely quotable but here's one from the section titled "Pretty Woman":
 
