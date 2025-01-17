@@ -12,7 +12,7 @@ star_rating: 2
 title: How to Game Master Like a Fucking Boss
 ---
 
-This book is a trainwreck and I enjoyed watching it crash --- even though I would've been better off stepping away from it and averting my eyes. But I couldn't help myself. This book is an unordered list of tips and tricks about Game Mastering --- it's packed with references you probably won't understand, misoginist art and thoughts and sentences that might send you straight into an existential crisis in which you spiral into despair asking yourself why someone would ever put these words on a page.
+This book is a trainwreck and I enjoyed watching it crash --- even though I would've been better off stepping away from it and averting my eyes. But I couldn't help myself. This book is an unordered list of tips and tricks about Game Mastering --- it's packed with references you probably won't understand, misogynist art and thoughts and sentences that might send you straight into an existential crisis in which you spiral into despair asking yourself why someone would ever put these words on a page.
 
 The author's begins the text by stating that this text was meant for his eyes only initially. I think it should have stayed that way. This book is similar to something like the F.A.T.A.L. RPG rulebook in that it's an artifact produced by an older generation of white male tabletop roleplaying players who're talking about roleplaying, in many ways a microcosm of the real world, and in doing so reveal the extent of their ignorance for everyone to see.
 
