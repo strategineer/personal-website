@@ -1,10 +1,10 @@
 ---
-title: Strat's Rage Room
+title: Strat's Safe Space
 is_readable: false
 layout: homepage
 cascade:
   header:
-    text: "Name's Strat; I like reading, writing and playing Doom hehe."
+    text: "Name's Strat; I'm a rooster illusion."
   resources:
     thumbnail: "thumbnail.*"
     images_jpg: "*.jpg"
