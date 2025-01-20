@@ -190,6 +190,19 @@ Options for next session:
 3. The Crew jump into the painting and leave the Labyrinth --- never to return (continue adventuring outside of the labyrinth).
 4. The Crew jump into the painting and leave the Labyrinth --- never to return (end the campaign).
 
+# post-mortem
+
+- no more mega dungeons, more character-centric story
+- argus: aspirations
+  - 3 aspirations per character
+  - 1 per team
+  - TBD
+- more better voices!
+- unpredicability was good!
+- send off blotbug was fun!
+
+
+germander fun -> keep fun NPCs around
 
 # One Pager
 

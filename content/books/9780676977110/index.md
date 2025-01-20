@@ -2,8 +2,8 @@
 authors:
 - Kazuo Ishiguro
 books/tags:
-- owned-but-unread
-date: 1800-01-28
+- currently-reading
+date: 2025-01-19
 params:
   isbn13: '9780676977110'
   year: '2006'

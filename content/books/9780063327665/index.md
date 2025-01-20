@@ -13,5 +13,6 @@ star_rating: 5
 title: Poor Deer
 ---
 
+Devestating. Frame narrative. Well-delivered magical realism. Sign me up.
 
 <!--more-->
