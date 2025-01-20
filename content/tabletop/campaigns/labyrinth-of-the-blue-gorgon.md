@@ -6,6 +6,8 @@ ignore_from_search: true
 no_search: true
 ---
 
+{{< toc >}}
+
 # Session Recaps
 
 ## Session 0
