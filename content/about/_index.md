@@ -17,7 +17,7 @@ I use this website to share my thoughts on a few of my passions including video 
 
 A little about me: I grew up and have lived in Laval (a small city near Montreal, Quebec, Canada) ever since I appeared on the scene in the early 90s. I'm fluent in English, French and I can understand a little Spanish.
 
-I've been a voracious gamer and reader for most of my life. Early on these passions were a means of escaping the harsh realities of a difficult childhood --- in the past few years, I began engaging in these passions with a more critical media literacy focused lens. As a result, I've been able to have much more meaningful media-related experiences.
+I've been a voracious gamer and reader for most of my life. Early on these passions were a means of escaping the harsh realities of a difficult childhood --- in the past few years, I began engaging in these passions with a more critical media literacy focused lens. As a result, I've been able to have many more meaningful media-related experiences.
 
 I love chatting about media and playing tabletop roleplaying games. If you'd like to contact me, you can:
 - Email me at me@strategineer.com
