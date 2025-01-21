@@ -23,5 +23,5 @@ I love chatting about media and playing tabletop roleplaying games. If you'd lik
 - Email me at me@strategineer.com
 - Send me a DM on Discord @strategineer
 - Find me on the dying whale that is [Goodreads](https://www.goodreads.com/billy_da_kid)
-- Send me a message on Bluesky strategineer@strategineer.com although I've yet to begin using it and I've never really understood Twitter
+- Send me a message on Bluesky strategineer\@strategineer.com although I've yet to begin using it and I've never really understood Twitter
 - Find [my profile](https://www.linkedin.com/in/billtyros) on the home for grindset mindset Sigma males and crypto bros only: Linkedin.
