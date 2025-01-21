@@ -18,11 +18,11 @@ Roll for 1 pitch or if you're feeling wild, roll 2 of them and mix them together
 {{< rpg_table name="idea" >}}
 | d100 | Elevator Pitch |
 | --- | --- |
-| 1 | naughty kids are on the rise --- you're Santa Claus's manliest (in a toxic way) elves sent to deal with this threat once and for all |
+| 1 | naughty kids are on the rise --- you're Santa Clause's manliest (in a toxic way) elves sent to deal with this threat once and for all |
 | 2 | the IGKBA (Intergalactic Kaiju Battle Association) is looking to expand their business to Earth --- you're up and coming kaiju wranglers, keep the crowds entertained otherwise you'll be sent down to die on the planet |
 | 3 | a group execution is a weekly event in the small western town of Minnisauter, a corrupt sherriff and their secretary fetches peoples tickets --- you're the people being executed |
-| 4 | all the PCs died --- they come back as mischievious ghosts pulling pranks on the locals |
-| 5 | the circus is back in town but every perfomers got a problem that needs solving --- you're the interns |
+| 4 | all the PCs died --- they come back as mischievous ghosts pulling pranks on the locals |
+| 5 | the circus is back in town but every performers got a problem that needs solving --- you're the interns |
 | 6 | an anime tournament (arc) is about to start --- you're the understaffed, underpayed, underappreciated tournament organisers |
 | 7 | escape from the laboratory --- you're the escaped experiments and the Corporation has spent too much money on you to let you escape |
 | 8 | there's a big party being planned to celebrate somebody's birthday --- you've been asked to throw the party, the problem is that you're all banned from all the grocery stores nearby and there's a bounty on your heads |
