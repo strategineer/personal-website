@@ -119,7 +119,7 @@ Brod was able to retract his arm from the "priest"'s grip and smash him with his
 - The Crew visited Chronia Torn's library in hopes of being able to copy a book to bring back to Germander. Freeya did so while the rest of the crew were big chillin' and Blotbug read through "Bob's Journey to the Magic Castle". They met the sub-luminary busy business man Torgos Zooth, underling of the Blue Gorgon. The Crew tried to get an appointment with Blue Gorgon but Torgos Zooth simply wasn't having any of it. But, he mentioned that if the Crew can find his sons, the Blue Gorgon hid them somewhere in the labyrinth, then he'd be willing to arrange a meeting.  
 - Freeya with the help of the demon Naberius learned "Non-Hostile Summoning" using his demon summoning deck and thus making it less of a risky proposition. 
 - The Crew ventured into the Gallery in search of books for Germander. They gazed upon fine works such as "Serious Ape" (an ape in a cage), "Skull Gate" (an arch built from hundreds of living undead goat skulls) and "Discord" (a golden apple on a pedestal). Messing about with that last one cursed each member of the Crew some good ole' fashioned psychic damage.
-- Powering through the trauma, the Crew continued through the gallery, seeing some bloody milk in a gigantic vat. Also, they came upon a group of ghoulish looking humanoids wearing rags and bearing bone knives, two of whom, Blemphin and Bon Clerk, seemed to be their leaders (they were wearing crowns) and they were enthralled by the debate on the finer points of art and specifically what they each believed their lost brethren Alex Whiteclay Mulqueen would think.
+- Powering through the trauma, the Crew continued through the gallery, seeing some bloody milk in a gigantic vat. Also, they came upon a group of ghoulish looking humanoids wearing rags and bearing bone knives, two of whom, Blamphin and Bon Clerk, seemed to be their leaders (they were wearing crowns) and they were enthralled by the debate on the finer points of art and specifically what they each believed their lost brethren Alex Whiteclay Mulqueen would think.
 - Marlon acting as the master con artist he is managed to both unify these two factions bringing them together, right in the center. It all started with his description of one of Freeya's unsigned/anonymous illustrations as a new kind of art "mid art" as opposed to "low art" and "high art" and bing bang boom the Crew had an "in" with these folks.
 - Marlon requested a trade of information, trading this "mid art" for some answers to some questions. The Crew learned that these people have a very literal interpretation of death of the author and are cannibals who eat most of those who venture into the Gallery and most of the artists who's work is on display there.
 - The Crew continue exploring the Gallery in search of the library of the Ancient Saurids. Maybe one day they'll find a book?
@@ -192,6 +192,27 @@ Options for next session:
 3. The Crew jump into the painting and leave the Labyrinth --- never to return (continue adventuring outside of the labyrinth).
 4. The Crew jump into the painting and leave the Labyrinth --- never to return (end the campaign).
 
+## Session 13
+
+Players chose option 2...
+
+- The Crew contributed to the Ashen Chanterelle's plan to get the 3 Perfect Sisters out of the Labyrinth by gathering their allies and bringing them over to have a final confrontation with the Blue Gorgon.
+- All the NPCs that the PCs encountered over the course of their journey through the Labyrinth of the Blue Gorgon showed up in one way or another (most of whom were convinced to fight the Blue Gorgon).
+  - Fit Germander's, finally able to get through the doorway previously locking him inside his reading nook, spirit of an adventurer was kindled by knowing the PCs and joined the party.
+  - The PCs blew the bird whistle given to them by the "Oku", they joined the party convinced by wanting to on the biggest heist of their lives.
+  - The Reptile King was interested in creating new memories and destroying the labyrinth he's been stuck in forever.
+  - The Cannibal Critic leaders, Blamphin and Bon Clerk, were convinced by Marlon and Freeya to kill the greatest artist around --- the Blue Gorgon.
+  - The Bondye Reparate understood that the prophecy (that was never mentioned before this hehe) of the labyrinth's destruction was coming to pass. So, they followed Brod and agreed to save those in the dungeon that would be in need of saving before its eventual collapse.
+  - Lady Crucem Capilli decided that she could no longer delay the inevitable. She chose to follow the party who were also on their way to kill the Blue Gorgon and destroy the labyrinth.
+  - Torgos Zooth, the luminary man, with the power surging within him from Blotbug's willing(ish) sacrifice was more open to going against the Blue Gorgon's wishes and thus followed the party to find his sons and confront his master. 
+  - Levalliant G., who turned out to be the person who sent the PCs into this labyrinth in the first place, was found petrified in a cell near the entrance to the Blue Gorgon's lair. Freeya was compelled to cast the Stone to Flesh spell scroll that was hanging on Levalliant G.'s neck to save him. Levalliant G, having calculated and predicted every single thing that happened and was going to happen, followed the party.
+  - Chaos-loving Carnifex pledged eternal allegiance to Freeya, now known far and wide in hell as Dominus Invictus III, due to his powerful demonic summoning abilities.
+- Basically, the PCs entered the Blue Gorgon's lair with an 100-strong party --- reading the writing on the wall, the Blue Gorgon wasn't interested in a fight.\
+  - Although, Milo de Fretwell rushed the Blue Gorgon when the party was talking to her --- he was stabbed in the head by the Blue Gorgon's hookah pipe/dagger and was killed instantly.
+  - The Chameleon Women also could read the writing on the wall and were trying to convince the Blue Gorgon to fight but she saw no reason to.
+- The Ashen Chanterelle agreed to let the Blue Gorgon and the Chameleon Women live. The Ashen Chanterelle granted both the Blue Gorgon and the Chameleon Women a place in the Empire.
+- The Ashen Chanterelle promised to award the PCs with cushy positions of power within the council of the Empire of the Three Perfect Sisters.
+
 # post-mortem
 
 - no more mega dungeons, more character-centric story
@@ -202,7 +223,9 @@ Options for next session:
 - more better voices!
 - unpredicability was good!
 - send off blotbug was fun!
-
+- ending on a high and tying loose ends is really good even if it's was a bit rushed
+- having each party member closely tied to a particular NPC / story line by the end was cool although a more even spread throughout the campaign would have been nice
+  - Marlon had the Cannibal Critics, Freeya had Carnifex / summoned demons, Brod had the Bondye Reparate and Blotbug had cultists of the Shattered Moon and the Torgos Zooth.
 
 germander fun -> keep fun NPCs around
 
