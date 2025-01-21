@@ -226,6 +226,7 @@ Players chose option 2...
 - ending on a high and tying loose ends is really good even if it's was a bit rushed
 - having each party member closely tied to a particular NPC / story line by the end was cool although a more even spread throughout the campaign would have been nice
   - Marlon had the Cannibal Critics, Freeya had Carnifex / summoned demons, Brod had the Bondye Reparate and Blotbug had cultists of the Shattered Moon and the Torgos Zooth.
+- I kind of forgot about Brod's rocky vampire pet Bruenhilde... woops. It was on the VTT but I didn't mention him.
 
 germander fun -> keep fun NPCs around
 
