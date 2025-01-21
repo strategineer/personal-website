@@ -201,7 +201,7 @@ Players chose option 2...
   - Fit Germander's, finally able to get through the doorway previously locking him inside his reading nook, spirit of an adventurer was kindled by knowing the PCs and joined the party.
   - The PCs blew the bird whistle given to them by the "Oku", they joined the party convinced by wanting to on the biggest heist of their lives.
   - The Reptile King was interested in creating new memories and destroying the labyrinth he's been stuck in forever.
-  - The Cannibal Critic leaders, Blamphin and Bon Clerk, were convinced by Marlon and Freeya to kill the greatest artist around --- the Blue Gorgon.
+  - Marlon was able to convince the Cannibal Critic leaders, Blamphin and Bon Clerk, to lead their feral cannibal critics to kill and eat the greatest artist around --- the Blue Gorgon.
   - The Bondye Reparate understood that the prophecy (that was never mentioned before this hehe) of the labyrinth's destruction was coming to pass. So, they followed Brod and agreed to save those in the dungeon that would be in need of saving before its eventual collapse.
   - Lady Crucem Capilli decided that she could no longer delay the inevitable. She chose to follow the party who were also on their way to kill the Blue Gorgon and destroy the labyrinth.
   - Torgos Zooth, the luminary man, with the power surging within him from Blotbug's willing(ish) sacrifice was more open to going against the Blue Gorgon's wishes and thus followed the party to find his sons and confront his master. 
