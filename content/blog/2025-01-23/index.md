@@ -22,7 +22,7 @@ The rulebook is a masterpiece of design, being one of the best laid out rulebook
 
 For example, how do you as the GM emphasise the danger and give the players a sense of urgency as they explore a dungeon? Most OSRs games assume that you as the GM already know how you like to do this and ask you to figure it.
 
-Shadowdark goes out of its way to give GMs, who've never run an OSR like this before, clear instructions on how to do exactly this and in a very elegant way. Specifically, in Shadowdark, 10 minutes of real-time represents 10 minutes in the game (unless of course you've explicitely chosen to fast-forward through something). Every 10 minutes, you roll for a random encounter.
+Shadowdark goes out of its way to give GMs, who've never run an OSR like this before, clear instructions on how to do exactly this and in a very elegant way. Specifically, in Shadowdark, 10 minutes of real-time represents 10 minutes in the game (unless of course you've explicitly chosen to fast-forward through something). Every 10 minutes, you roll for a random encounter.
 
 This means make it easy and clear to everyone at the table that spending 10 minutes in real-time discussing what to do next or searching under every tile in room for traps  has a risk of a random encounter attached to it. Thus, players are encouraged by the system to just do something instead which is likely to be more fun and keeps the game from the becoming an analysis paralysis slog.
 
