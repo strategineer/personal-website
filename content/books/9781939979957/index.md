@@ -13,7 +13,7 @@ star_rating: 5
 title: Your Best Game Ever
 ---
 
-The primer on tabletop roleplaying that we needed --- great for both new and experienced players and GMs and everyone in between.
+**The** primer on tabletop roleplaying we needed --- great for both new and experienced players and GMs and everyone in between.
 
 
 <!--more-->
