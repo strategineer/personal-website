@@ -32,13 +32,15 @@ An experienced GM can solve these potential problems without being told how to, 
 
 Some of the extra classes found in the Shadowdark official zines feel either out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes.
 
-If I were to play another Shadowdark RPG campaign I would think harder about which of the extra classes to allow in the campaign and I wouldn't allow a player new to tabletop roleplaying to play the Chanter class because it is a little too weird.
+If I were to play another Shadowdark RPG campaign I would think harder about which of the extra classes to allow in the campaign. I wouldn't allow a player new to tabletop roleplaying to play the Chanter class because it is a little too weird.
+
+The darkness rules ([as explained in more detail below](#is-the-shadowdark-rpg-a-good-fit-for-running-the-maze-of-the-blue-medusa-megadungeon)) were hard for me to implement in practice, especially considering the module that I was running. Thankfully, the rules still work really well even if you completely ignore everything related to darkness in them.
 
 # What's cool about the Maze of the Blue Medusa megadungeon?
 
-I read dozens of modules and megadungeons before landing on the Maze of the Blue Medusa. I was looking for something really special and cool so that I could give myself the hand I needed to run the best campaign I've ever run.
+I read dozens of modules and megadungeons before landing on the Maze of the Blue Medusa. I was looking for something really special so that I could give myself the extra help I needed to run the best campaign I've ever run.
 
-The Maze of the Blue Medusa megadungeon is really cool, it's really out there and it's also very me.
+The Maze of the Blue Medusa megadungeon is cool, it's out there and it's also very me.
 
 The Maze of the Blue Medusa megadungeon was made in collaboration between Zak Sabbath and Patrick Stuart. Sabbath would draw some rooms in this abstract and weird style. Then, Stuart would write room descriptions for the rooms that Sabbath drew. Sabbath would draw more rooms and then Stuart would write more room descriptions until the megadungeon was complete.
 
@@ -58,23 +60,21 @@ Despite providing this classic dungeon crawling experience, the Maze of the Blue
 
 Some rooms are kind of boring and slow down the pace of the PCs exploration of the dungeon. If you can tell in advance which rooms are going to be like this then you can replace them or empty them out and have the party skip past them.
 
-Another potential problem is that the drawings are quite abstract and for visual players who want to see what NPCs look like you'll have to put in extra work to describe them in interesting ways and or find less abstract images of things that look like them. You might have a hard time doing that though because a lot of these characters are pretty unique looking and losing that uniqueness would make the experience less interesting.
+Another problem that we ran into is that the drawings are quite abstract and for visual players who want to see what NPCs look like you'll have to put in extra work to describe them in interesting ways and/or find less abstract images that aren't too far off the looks of the NPCs as described.
+
+You'll have a hard time hard time doing that because a lot of these characters are unique looking to say the least and I think that losing that uniqueness would make the Maze of the Blue Medusa much less interesting.
 
 # Is the Shadowdark RPG a good fit for running the Maze of the Blue Medusa megadungeon?
 
-The Shadowdark RPG hinges on the constant struggle to light the path forward and avoid darkness. In theory, this is a cool idea. In practice, I wasn't able to make this interesting.
+The Shadowdark RPG seems to hinge on the constant struggle to light the path forward and avoid darkness --- at least it's marketted that way. In theory, this is a cool idea. In practice, I wasn't able to make this as interesting as I was hoping to due in no small part that large sections of the Maze of the Blue Medusa are described as being well-lit and wouldn't make sense otherwise.
 
-I think the designers also seem to have a problem making this part of their RPG interesting with their main recommendation being having enemies that threaten to and/or splash water onto the PCs.
+Thankfully, the Shadowdark RPG system holds up even if you ignore all the darkness parts of the rules.
 
-Thankfully, the Shadowdark RPG system holds up even if you essentially remove the darkness parts of it.
+# What did I learn GMing this campaign?
 
-Maze of the Blue Medusa is a weird and artsy megadungeon --- some parts of it clash with the Shadowdark RPG rules as written. Mainly, it features many sections that are fully lit and must be fully lit to make any sense. Turning off the lights throughout the whole dungeon wouldn't make much sense.
+## Running megadungeons is hard but rewarding if done well.
 
-If I were to run the Maze of the Blue Medusa megadungeon again, I would think about using a different OSR system but I would keep some of the Shadowdark RPG rules that are cool (like the real-time == game-time thing)
-
-# What did I learn?
-
-**Running megadungeons is hard but rewarding if done well.** I enjoy running and playing in roleplaying games where players have a lot of agency and I think that to a certain extent megadungeons run counter to that way of playing.
+I enjoy running and playing in roleplaying games where players have a lot of agency and I think that to a certain extent megadungeons run counter to that way of playing.
 
 I could make running a megadungeon work but doing it right is harder than I thought it would be and correcting mistakes you've made is difficult because the PCs are by design stuck in this one place for multiple sessions.
 
@@ -87,10 +87,92 @@ If I were to run a megadungeon again, here's what I would do:
 - I would have at least one NPC with a similar overall power level to the PCs exploring the dungeon too. This would be fun and make the dungeon a bit more dynamic. The PCs can collaborate with them or have a confrontation with them. Essentially, I think a gristled experienced and wise dungeoneer would be a fun recurring NPC.
 - I would set an in-universe timer of some kind, communicate that to the players and PCs in some way and then after X sessions end with a bang. For example, the dungeon of Titancomeon-man is prophesised to collapse in 30 days time, at that time the dungeon begins to collapse in on itself and the PCs might want to get some of the NPCs out of there, who do they pick? This would provide a sense of urgency to the PCs's exploration of the dungeon and a clear stopping point. Even if the PCs haven't been able to comb through every single room they'll have to leave the dungeon for good.
 
-**Voicing NPCs is fun and adds a lot to the roleplaying experience.** I've been roleplaying regularly since 2019 and in that time I've gotten way better at it (progress has been slow but has accelerated in the last year or so). One of the ways in which I've gotten better is that I've become confident enough to voice my characters. The Maze of the Blue Medusa features a ton of wild characters and trying, sometimes failing, to give them unique voices was a great learning experience and fun. A more experienced GM would get a kick out of voicing all of the NPCs and doing a better job that I did.
+## Given each NPC a unique voice is hard but well worth the effort.
 
-**Session summaries are easy to write and really useful.** Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions and reactions into subsequent sessions. This helped a ton and I don't see myself running a game again without writing session summaries. They can only help and will help even more as I become a better more well-rounded GM.
+I've been roleplaying regularly since 2019 and in that time I've gotten so much better at it. Despite roleplaying being a hobby I've been interested in for a decade and a half, the skills that I needed to have to enjoy it fully didn't come naturally for me.
 
-**If players really like certain NPCs, always be ready to give them more opportunities to interact with them.** If players really like a particular NPC, I should give them opportunities to interact with that NPC more rather than less (this is another thing that megadungeons make harder). The literal bookworm Germander was a pretty big success with my players --- in no small part due to the unhinged voice I used for him. Sadly, he was stuck in his room being too big to fit through the doorway. This combined with the megadungeon being so big meant that the PCs weren't able to interact with him as much I or them would have liked to. In the last session of the campaign, I slimmed Germander down in order for him to exit from his reading nook/prison and follow the party but it was a little too late. Another way I solved this problem was with Draco the Laughing Lich. He's a powerful lich who thinks life is meaningless and only cares about finding reasons to laugh. The party was able to make him laugh a bunch and so he gave them an Amulet of Slapstickification which doubled as a sort of bodycam/radio that he could use to communicate with the party without leaving his room. I thought that this was a fun way of allowing the party to interact with a powerful NPC more often without the NPC becoming a follower of some kind. I should have also changed the random encounter table to include a "recurring NPC" entry to give me an extra kick in the ass to have a NPC show up again. Someone like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer and artifact gatherer lady) would have been a great fit for this considering her inherent mobility (I liked the voice I had for her as well!). 
+Putting in the time and effort to get better at every part of it has paid dividends in my roleplaying and outside of it.
+
+I was so happy when I whipped out a voice for a "grumpy old man performing a shitty standup comedy routine" at a party I was attending and I got a really positive reaction for it. And I wouldn't have had the confidence or the skills to do that without forcing myself to do funny voices every week when GMing this campaign.
+
+The Maze of the Blue Medusa features a ton of wild characters and trying, sometimes failing, to give all of them unique voices was a great learning experience for me and a ton of fun my players and I.
+
+## Session summaries are easy to write and really useful.
+
+Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions and reactions into subsequent sessions.
+
+This helped a ton and I don't see myself running a game again without writing session summaries. They can only help and will help even more as I become a better, more well-rounded GM.
+
+## If players really like certain NPCs, always be ready to give them more opportunities to interact with them.
+
+If players really like a particular NPC, I should give them opportunities to interact with that NPC more rather than less (this is another thing that megadungeons make harder). The literal bookworm Germander was a pretty big success with my players --- in no small part due to the unhinged voice I used for him.
+
+Sadly, he was stuck in his room being too big to fit through the doorway. This combined with the megadungeon being so big meant that the PCs weren't able to interact with him as much I or them would have liked to. In the last session of the campaign, I slimmed Germander down in order for him to exit from his reading nook/prison and follow the party but it was a little too late.
+
+Another way I solved this problem was with Draco the Laughing Lich. He's a powerful lich who thinks life is meaningless and only cares about finding reasons to laugh. The party was able to make him laugh a bunch and so he gave them an Amulet of Slapstickification which doubled as a sort of bodycam/radio that he could use to communicate with the party without leaving his room. I thought that this was a fun way of allowing the party to interact with a powerful NPC more often without the NPC becoming a follower of some kind.
+
+I should have also changed the random encounter table to include a "recurring NPC" entry to give me an extra kick in the ass to have a NPC show up again. Someone like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer and artifact gatherer lady) would have been a great fit for this considering her inherent mobility (I liked the voice I had for her as well!). 
+
+# Foundry VTT
+
+Foundry VTT is **the** way to do tabletop roleplaying online no matter the complexity of the system. If someone's been generous enough to implement a roleplaying game system I'd like to run on Foundry VTT, then I will absolutely always play it that way moving forward. It's **that** good.
+
+After years of suffering through Roll20 (a truly god awful VTT) and building my own shitty VTT-adjacent tools on Discord or Google Sheets, I'm never going back. That's how good Foundry VTT is.
+
+The only downside is that it requires a bit of setup and it's got a bit of a learning curve. I'd like to help out with that.
+
+## Foundry VTT - Modules
+
+No matter what system you're using, the following modules are must-haves.
+
+### Quick Insert - Search Widget
+
+Hitting control + space bar and getting access to everything in your game (characters, items, NPCs, everything!) and being able to drag and drop wherever you need it as a GM when you're running the game and as a player when you're buying equipment, etc. 
+
+### Dice Tray
+
+Dice Tray makes it as easy as possible for you and your players to roll dice with a sleek UI with good UX instead of typing the roll out. 
+
+### Token Action HUD Core
+
+Foundry without Token Action HUD Core is great but a shell of what it can be. If the system you're playing with supports Token Action HUD Core you have to use it!
+
+It puts a bar of actions at the top of your screen when you select a PC or NPC token and gives you quick access to all of the relevant stat rolls, ability checks, etc. tied to that character. This speeds up combat tremendously because the process of figuring how many dice to roll and what kind of action player wants to take has been boiled down to picking an option from a menu and clicking it. I imagine that this is a must-have for running crunchier games. 
+
+### Tokenizer
 
 ...
+
+### Image Hover
+
+Simple but great, hovering over a token shows the underlying full art associated to it which helps with setting the scenes.
+
+### Item Piles
+
+Being able to drop items onto the map seems like it should be a core feature (but it isn't) --- The Item Piles module implements exactly this.
+
+### Drag Ruler (until it's fully implemented in the Foundry core)
+
+...
+
+### Token Tooltip Alt
+
+...
+
+## Foundry VTT - Settings
+
+- token ownership settings and fog of war settings
+
+## Foundry VTT - Miscellaneous Tips
+
+- Satellite Imagery for non-DND battlemaps
+  - If engagements happen hundreds of grid squares away with guns of all sorts, tiny DND-esque battlemaps won't do whatever theming is
+  - If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then using Google Earth Pro, exporting images at a common zoom level (I've found 100m to be perfect) allows for quickly generating at scale battlemaps with realistic terrain and the tactical options they provide
+  - Sat Maps give also give a distinctive Tier 1 operator vibe if that's what you're looking for
+
+
+# Conclusion
+
+The campaign was really fun and I learned a lot GMing it. I'd be a very lucky man if every tabletop roleplaying experience I have moving forward is fun and allows me to learn a bunch.
+
+Here's to many more years of roleplaying in my future!
