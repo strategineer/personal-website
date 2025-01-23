@@ -68,34 +68,94 @@ Despite providing this classic dungeon crawling experience, the Maze of the Blue
 
 ## What's less cool about the Maze of the Blue Medusa megadungeon?
 
-Some rooms are kind of boring and slow down the pace of the PCs exploration of the dungeon. If you can tell in advance which rooms are going to be like this then you can replace them or empty them out and have the party skip past them.
+The Maze of the Blue Medusa is a big megadungeon and not all parts of it are equal in quality. Even though the bar is pretty high overall there's a few rooms that just fall short.
+ 
+An example of one is room 48 - Nui-Nga-Ma:
+
+{{< spoiler >}}
+A shell, 8' long, white, and patterned in green-white whorls the color of new leaves holding a layer of fresh unseasonal snow. Living in the shell is a large snail. Its limbs wave uncertainly like fingers seen through whiskey, somewhat transparent and indistinct.
+
+Nui-Nga-Ma is not a true snail but a kind of golem created by Aelfadred The Glyph Witch (Gardens 58). She can hear anything the snail hears through a shell she keeps in her room. Likewise, Nui-Nga-Ma can hear anything that happens near the other shell.
+
+Niu-Nga-Ma
+AC 16, HD 4, ATK d8/d8
+{{< /spoiler >}}
+
+The way for a GM and their players to make this "encounter" interesting is beyond me. There's definitely a few rooms in the Maze of the Blue Medusa that asked me to fill in the gaps more than I was prepared for.
+
+I imagine that a well-prepared and/or experienced GM would be able to read a room description and decide to replace it with something else on the fly making this a relatively minor problem.
 
 Another problem that we ran into is that the drawings are quite abstract and for visual players who want to see what NPCs look like you'll have to put in extra work to describe them in interesting ways and/or find less abstract images that aren't too far off the looks of the NPCs as described.
 
 You'll have a hard time hard time doing that because a lot of these characters are unique looking to say the least and I think that losing that uniqueness would make the Maze of the Blue Medusa much less interesting.
 
+The Maze of the Blue Medusa could have done a better job of helping you run it with tips and ideas of how the various factions could be interacting with one another in interesting ways. The book could have been much more explicit about this in more places instead of leaving it up to the GM to make all of these connections on their own.
+
+For example,
+
+{{< spoiler >}}
+Bringing the "Oku" (magical bird cosplayers essentially) who are natural rogues and thieves can come into conflict with the Cannibal Critics, mostly feral zombies who consume artists and hang out in the art gallery.
+
+The book doesn't say this anywhere but I think it'd be better if it did.
+{{< /spoiler >}}
+
 # Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa megadungeon?
 
-The Shadowdark RPG seems to hinge on the constant struggle to light the path forward and avoid darkness --- at least it's marketted that way. In theory, this is a cool idea. In practice, I wasn't able to make this as interesting as I was hoping to due in no small part that large sections of the Maze of the Blue Medusa are described as being well-lit and wouldn't make sense otherwise.
+The Shadowdark RPG seems to hinge on the constant struggle to light the path forward and avoid darkness --- at least it's marketed that way. In theory, this is a cool idea. In practice, I wasn't able to accentuate the survival horror elements in the system due to my inexperience with Shadowdark and the large sections of the Maze of the Blue Medusa are well-lit and wouldn't work if they weren't.
 
-Thankfully, the Shadowdark RPG system holds up even if you ignore all the darkness parts of the rules.
+Thankfully, the Shadowdark RPG system holds up even if you ignore all the darkness-related parts of the rules.
+
+I'd do it again but if you're looking to run the Maze of the Blue Medusa megadungeon I can't recommend using the Shadowdark RPG system without caveat unless you really want to.
 
 # What did I learn GMing this campaign?
 
 ## Running megadungeons is hard but rewarding if done well.
 
-I enjoy running and playing in roleplaying games where players have a lot of agency and I think that to a certain extent megadungeons run counter to that way of playing.
+I enjoy running and playing in roleplaying games where players have a lot of agency and megadungeons by design take up a lot of space at the table reducing player agency to some extent.
 
-I could make running a megadungeon work but doing it right is harder than I thought it would be and correcting mistakes you've made is difficult because the PCs are by design stuck in this one place for multiple sessions.
+If you make a mistake in terms of the way you've described a set of rooms then too bad because you won't be able to reset by having the PCs go into another dungeon next week. It's a megadungeon they'll be exploring it for dozens of sessions at minimum.
 
-If I were to run a megadungeon again, here's what I would do:
+Actions taken against NPC factions in one area of the dungeon should be taken into account by at least some of the other factions in the dungeon. Megadungeons have a lot of factions in them making giving it and the NPCs in it verisimilitude more difficult because of the increased scale and scope of the dungeon.
 
-- I would provide the players with a dated/incomplete map of the dungeon early on in their journey (perhaps one of their quests would be to fill out the map?). This would give them destinations to work their way to. Without some sort of direction, exploring a megadungeon can feel a little aimless and, at worst, boring. No matter how interesting the encounters are, opening doors over and over again gets boring after a while unless the PCs have something they're trying to get to, a problem to solve.
-- In a session 0, I would make sure that the PCs have a clear goal when going into the dungeon (rescuing an NPC? mapping out the dungeon? finding a particular artifact?). Being forcefully trapped in a dungeon without a goal isn't great unless you decide that escaping from the dungeon is the clear goal that the PCs have. Although, I don't think that would make much sense in most megadungeons because if you're not exploring it and becoming invested in the space and NPCs that live there, what's the point?
-- Generally, I wouldn't trap PCs in the dungeon for longer than a session. If they want to leave, they should be able to. PCs risking life and limb because they *want* to is more interesting to me than doing the same because they're *forced* to. 
-- I would provide more entrances, exits and "fast travel" points throughout the dungeon for PCs to discover. This would allow them to more quickly find their way around the dungeon which over time becomes harder to explore because the unexplored parts of it become further apart from each other. Fast-forwarding through already explored parts of the dungeon is another option here but you have to be careful to not train your players to feel completely safe travelling through these parts of the dungeon (safe is boring). The explored parts of the dungeon won't be as interesting to travel through again even if you repopulate them with NPCs. Factions within the dungeon can also make use of these entrance/exits allowing for a more dynamic dungeon and explaining away how certain recurring NPCs might find themselves meeting with the PCs over and over again despite the size of the dungeon.
-- I would have at least one NPC with a similar overall power level to the PCs exploring the dungeon too. This would be fun and make the dungeon a bit more dynamic. The PCs can collaborate with them or have a confrontation with them. Essentially, I think a gristled experienced and wise dungeoneer would be a fun recurring NPC.
-- I would set an in-universe timer of some kind, communicate that to the players and PCs in some way and then after X sessions end with a bang. For example, the dungeon of Titancomeon-man is prophesised to collapse in 30 days time, at that time the dungeon begins to collapse in on itself and the PCs might want to get some of the NPCs out of there, who do they pick? This would provide a sense of urgency to the PCs's exploration of the dungeon and a clear stopping point. Even if the PCs haven't been able to comb through every single room they'll have to leave the dungeon for good.
+All this to say, running a megadungeon is hard --- if I were to do it again, here's what I would do.
+
+### Give PCs a dated/incomplete map of the dungeon early on in their journey to give them an initial thrust towards something in the dungeon that interests them
+
+This would give them destinations to work their way to. Without some sort of direction, exploring a megadungeon can feel a little aimless and, at worst, boring. No matter how interesting the encounters are, opening doors over and over again gets monotonous after a while unless the PCs have something they're trying to get to or a specific problem to solve.
+
+### Establish with players a clear goal for the PCs to strive towards in the megadungeon
+
+Whether it's rescuing an NPC, mapping out the dungeon, finding a particular artifact, etc. giving a clear goal for PCs to strive towards will get them moving in a direction instead of aimlessly wandering around a megadungeon hoping to stumble on treasure of some kind.
+
+Trapping PCs in a megadungeon without an established goal (which is what I did in this campaign) wasn't as interesting as I thought it would be and I wouldn't do that again.
+
+Even if you decide that the PCs goal is to find a way out of the dungeon unless the dungeon is specifically built around that goal I don't think it would work very well. If your playersr aren't exploring the megadungeon and becoming invested in this vast space and the NPCs that inhabit it, what's the point of running a megadungeon?
+
+### Don't trap PCs in the dungeon for longer than a session.
+
+If PCs want to leave a dungeon they're trapped in (and they probably would unless you've established a reason for them to continue exploring it), they should be able to.
+
+PCs risking life and limb because they *want* to is more interesting than doing the same because they're *forced* to.
+
+### Populate the megadungeon with more entrances, exits and ways for characters to travel through previously explored regions more quickly. 
+
+I would give PCs more opportunities to find portals for entering/exiting parts of the dungeon, providing them with magical items to facilitate moving between certain places more quickly and maybe even having a quest line centered around setting up an in-dungeon taxi service of some kind. 
+
+Megadungeons are BIG and navigating through previously explored parts of the dungeon over and over again can get tedious even if you re-populate them with roaming encounters of some kind.
+
+My solutions above are a better alternative to fast-forwarding through travel of explored parts of the dungeon because that might set the expectation for players that the dungeon is more static and safe than it should be (safe is boring). Factions within the dungeon can also make use of these entrance/exits allowing for a more dynamic dungeon and explaining away how certain recurring NPCs might find themselves meeting with the PCs over and over again despite the size of the dungeon.
+
+### Populate the dungeon with other adventuring parties.
+
+I would have at least one NPC with a similar overall power level to the PCs exploring the dungeon too.
+
+This would be fun and make the dungeon a bit more dynamic. The PCs can collaborate with them or have a confrontation with them. Essentially, I think a gristled experienced and wise dungeoneer would be a fun recurring NPC.
+
+### Set an in-universe timer after which exploring the dungeon any longer will become untenable.
+
+I would set an in-universe timer of some kind, communicate that to the players and PCs in some way and then after X sessions end with a bang. For example, the dungeon of Titancomeon-man is prophesised to collapse in 30 days time, at that time the dungeon begins to collapse in on itself and the PCs might want to get some of the NPCs out of there, who do they pick?
+
+This would provide a sense of urgency to the PCs's exploration of the dungeon and a clear stopping point. Even if the PCs haven't been able to comb through every single room they'll have to leave the dungeon for good.
 
 ## Given each NPC a unique voice is hard but well worth the effort.
 
@@ -127,11 +187,19 @@ I should have also changed the random encounter table to include a "recurring NP
 
 Foundry VTT is **the** way to do tabletop roleplaying online no matter the complexity of the system. If someone's been generous enough to implement a roleplaying game system I'd like to run on Foundry VTT, then I will absolutely always play it that way moving forward. It's **that** good.
 
-After years of suffering through Roll20 (a truly god awful VTT) and building my own shitty VTT-adjacent tools on Discord or Google Sheets, I'm never going back. That's how good Foundry VTT is.
+After years of suffering through Roll20 (a truly god-awful VTT) and building my own shitty VTT-adjacent tools on Discord or Google Sheets, I'm never going back. That's how good Foundry VTT is.
 
 The only downside is that it requires a bit of setup and it's got a bit of a learning curve. I'd like to help out with that.
 
-## Foundry VTT - Modules
+## Foundry VTT - Systems
+
+Unfortunately, the Maze of the Blue Medusa doesn't have any built-in Foundry VTT support so I spent a few hours setting up the dungeon and the tokens/sheets for all the NPCs that I was expecting the players to encounter.
+
+But, if you're system is really well-supported by the companies that publish them then you might be able to purchase and run systems and supplements fully integrated into Foundry VTT.
+
+In particular, Pathfinder and Savage Worlds are really well supported in Foundry VTT. If you're playing other systems, you should expect to do a little more legwork to get everything working as expected.
+
+## Foundry VTT - Utility Modules
 
 No matter what system you're using, the following modules are must-haves.
 
