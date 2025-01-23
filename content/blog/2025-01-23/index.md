@@ -1,5 +1,5 @@
 ---
-title: "Post Mortem of our campaign using the Maze of the Blue Medusa megadungeon, the Shadowdark system and Foundry VTT"
+title: "Maze of the Blue Medusa roleplaying campaign: How'd it go?"
 date: 2025-01-23
 blog/tags:
   - tabletop
