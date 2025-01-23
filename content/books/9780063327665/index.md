@@ -17,3 +17,8 @@ title: Poor Deer
 Devastating. Frame narrative. Well-delivered magical realism. Sign me up.
 
 <!--more-->
+
+spoilers-ish for the basic premise:
+{{< spoiler >}}
+Childhood trauma and how our memories of the past deteriorate over time and change especially when we want to forget these traumatic moments.
+{{< /spoiler >}}
