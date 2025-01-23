@@ -12,7 +12,11 @@ For my own benefit and hopefully yours, I've written down as much as I can about
 
 <!--more-->
 
-# What's cool about the Shadowdark RPG rules?
+{{< toc >}}
+
+# Shadowdark RPG
+
+## What's cool about the Shadowdark RPG system?
 
 I've read a bunch of different old school rennaissance (OSR) roleplaying core rulebooks and out of all of those I chose Shadowdark for this campaign.
 
@@ -28,7 +32,7 @@ This means make it easy and clear to everyone at the table that spending 10 minu
 
 An experienced GM can solve these potential problems without being told how to, but Shadowdark RPG tells you how to do it instead of assuming that you already know how to which most of these books do making Shadowdark stand out among its peers.
 
-# What's NOT cool about the Shadowdark RPG rules?
+## What's less cool about the Shadowdark RPG system?
 
 Some of the extra classes found in the Shadowdark official zines feel either out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes.
 
@@ -36,7 +40,9 @@ If I were to play another Shadowdark RPG campaign I would think harder about whi
 
 The darkness rules ([as explained in more detail below](#is-the-shadowdark-rpg-a-good-fit-for-running-the-maze-of-the-blue-medusa-megadungeon)) were hard for me to implement in practice, especially considering the module that I was running. Thankfully, the rules still work really well even if you completely ignore everything related to darkness in them.
 
-# What's cool about the Maze of the Blue Medusa megadungeon?
+# Maze of the Blue Medusa
+
+## What's cool about the Maze of the Blue Medusa megadungeon?
 
 I read dozens of modules and megadungeons before landing on the Maze of the Blue Medusa. I was looking for something really special so that I could give myself the extra help I needed to run the best campaign I've ever run.
 
@@ -56,7 +62,7 @@ A defining feature of our campaign was the building and maintenance of a "Super 
 
 Despite providing this classic dungeon crawling experience, the Maze of the Blue Medusa is also quite off-beat and weird with surreal and absurdist elements spread throughout it. If that sounds compelling to you then I can recommend it, as long as your players are open-minded enough to play in an off-kilter fantasy environment.
 
-# What's NOT cool about the Maze of the Blue Medusa megadungeon?
+## What's less cool about the Maze of the Blue Medusa megadungeon?
 
 Some rooms are kind of boring and slow down the pace of the PCs exploration of the dungeon. If you can tell in advance which rooms are going to be like this then you can replace them or empty them out and have the party skip past them.
 
@@ -64,7 +70,7 @@ Another problem that we ran into is that the drawings are quite abstract and for
 
 You'll have a hard time hard time doing that because a lot of these characters are unique looking to say the least and I think that losing that uniqueness would make the Maze of the Blue Medusa much less interesting.
 
-# Is the Shadowdark RPG a good fit for running the Maze of the Blue Medusa megadungeon?
+# Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa megadungeon?
 
 The Shadowdark RPG seems to hinge on the constant struggle to light the path forward and avoid darkness --- at least it's marketted that way. In theory, this is a cool idea. In practice, I wasn't able to make this as interesting as I was hoping to due in no small part that large sections of the Maze of the Blue Medusa are described as being well-lit and wouldn't make sense otherwise.
 

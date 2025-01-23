@@ -36,6 +36,8 @@ maxIntersectionRatio = 0.0;
 
 window.addEventListener('DOMContentLoaded', () => {
   toc = document.querySelector(`#TableOfContents`);
+  // TODO(strategineer): this doesn't work well so let's disable it
+  toc = null
   if (toc === null) {
     return;
   }
