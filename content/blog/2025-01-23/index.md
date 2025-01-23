@@ -26,7 +26,7 @@ The rulebook is a masterpiece of design, being one of the best laid out rulebook
 
 The Shadowdark RPG rules help you to answer questions you might have about how to actually run the game -- they don't assume that you've got decades of roleplaying experience to fall back on.
 
-For example, how do you as the GM emphasise the danger and give the players a sense of urgency as they explore a dungeon in an OSR game? A lot of OSR systems assume that you as the GM already know how you like to do this and implicitely ask you to figure it out on your own.
+For example, how do you as the GM emphasise the danger and give the players a sense of urgency as they explore a dungeon in an OSR game? A lot of OSR systems assume that you as the GM already know how you like to do this and implicitly ask you to figure it out on your own.
 
 Shadowdark goes out of its way to give GMs, who've never run an OSR game like this before, clear instructions on how to do exactly this and in a very elegant way.
 
