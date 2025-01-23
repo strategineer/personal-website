@@ -1,8 +1,7 @@
 ---
-title: Tomorrow Legion Never Dies - Campaign Notes
+title: Tomorrow Legion Never Dies - Campaign Journal
 has_header: true
 is_readable: true
-ignore_from_search: true
 no_search: true
 ---
 
