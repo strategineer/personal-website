@@ -24,7 +24,7 @@ I didn't know anything about the Ministry of Time before picking it up and readi
 
 I "get" it. It's an ambitious novel that succeeds at combining multiple genres that usually don't mix in a way that *really* works.
 
-Kaliane Bradley's The Ministry of Time is something like three parts romance, one part thriller, one part history fiction and one part science fiction. At its heart, it's a romance. There's the constant longing and desire expressed by the protagonist and the "will they won't they" throughline that is used to prop up all the other genre tropes Bradley is masterfully juggling.
+Kaliane Bradley's The Ministry of Time is something like three parts romance, one part thriller, one part historical fiction and one part science fiction. At its heart, it's a romance. There's the constant longing and desire expressed by the protagonist and the "will they won't they" throughline that is used to prop up all the other genre tropes Bradley is masterfully juggling.
 
 What surprised me most about The Ministry of Time was the tone. It's vulgar, it's funny, it's sarcastic... In a way that feels natural to me that I don't often see in the novels I read.
 
