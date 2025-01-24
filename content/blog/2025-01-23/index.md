@@ -6,11 +6,13 @@ blog/tags:
 draft: true
 ---
 
-From September 15th 2024 until December 19th 2025, I ran an old school rennaissance tabletop roleplaying campaign I called the "Labyrinth of the Blue Gorgon". I ran the Maze of the Blue Medusa megadungeon module (see what I did there?), using the Shadowdark RPG rules through Foundry virtual tabletop.
-
-For my own benefit and hopefully yours, I've written down as much as I can about how the campaign went and how I would've done it differently knowing what I know now.
+For my own benefit and hopefully yours, I've written down as much as I can about how my most recent tabletop roleplaying campaign went and how I would've done GMed it differently knowing what I know now.
 
 <!--more-->
+
+From September 15th 2024 until December 19th 2025, I ran an old school renaissance tabletop roleplaying campaign I called the "Labyrinth of the Blue Gorgon".
+
+I ran the Maze of the Blue Medusa megadungeon module (see what I did there?), using the Shadowdark RPG rules through the Foundry virtual tabletop.
 
 {{< toc >}}
 
@@ -18,53 +20,51 @@ For my own benefit and hopefully yours, I've written down as much as I can about
 
 ## What's cool about the Shadowdark RPG system?
 
-I've read a bunch of different old school rennaissance (OSR) roleplaying core rulebooks and out of all of those I chose Shadowdark for this campaign.
-
-There's a lot to like about Shadowdark but it's defining feature for me is that it's **elegant**.
+I've read a bunch of different old school renaissance (OSR) roleplaying core rulebooks and out of all of those I chose Shadowdark for this campaign. There's a lot to like about Shadowdark but it's defining feature for me is that it's surprisingly **elegant** (given that it received the [Ennie Award for Best Game](https://ennie-awards.com/portfolio-item/2024-nominees-and-winners/) this shouldn't come as much of a surprise).
 
 The rulebook is a masterpiece of design, being one of the best laid out rulebooks I've ever read. The rules are simple and clear.
 
-The Shadowdark RPG rules help you to answer questions you might have about how to actually run the game -- they don't assume that you've got decades of roleplaying experience to fall back on.
+The Shadowdark RPG rules help you answer questions you might have about how to actually run the game -- the Shadowdark RPG rules don't assume that you've got decades of roleplaying experience to fall back on.
 
-For example, how do you as the GM emphasise the danger and give the players a sense of urgency as they explore a dungeon in an OSR game? A lot of OSR systems assume that you as the GM already know how you like to do this and implicitly ask you to figure it out on your own.
+For example, how do you as the GM emphasise the danger of exploring a dark dank dungeon and give the players a sense of urgency as they explore it in an OSR game? A lot of OSR systems assume that you as the GM already know how you like to do this and implicitly ask you to figure it out on your own.
 
-Shadowdark goes out of its way to give GMs, who've never run an OSR game like this before, clear instructions on how to do exactly this and in a very elegant way.
+The Shadowdark RPG rules go out of their way to give GMs, who've never run an OSR game like this before, clear instructions on how to do exactly this and in a very elegant way.
 
-Specifically, in Shadowdark, 10 minutes of real-time represents 10 minutes in the game (unless of course you've explicitly chosen to fast-forward through something). Every 10 minutes, you roll for a random encounter.
+Shadowdark's masterstroke is that 10 minutes of real-time represents 10 minutes in game-time (unless of course you've explicitly chosen to fast-forward through something). And, every so often depending on how dangerous the environment the PCs are exploring in, you'll roll for a random encounter. On a 1, the PCs encounter something or someone.
 
-This makes it easy and clear to everyone at the table that spending 10 minutes in real-time discussing what to do next or searching under every tile in room for traps has the risk of a random encounter attached to it. Thus, players are encouraged by the system to just do something which tends to be more fun and keeps the game from becoming an analysis paralysis slog.
+This makes it clear fer everyone at the table that spending real-time discussing what to do next or game-time searching under every tile in room for traps has the risk of a random encounter attached to it. Thus, players are encouraged by the system to just do something which tends to be more fun than the alternative and keeps the game from becoming an analysis paralysis slog.
 
-An experienced GM can solve these problems without being told how to, but Shadowdark RPG tells you how to do it instead of assuming that you already know how to which makes Shadowdark RPG stand out among its OSR peers.
+An experienced GM can solve these kinds of problems without being told how to, but Shadowdark RPG tells you how to do it instead of assuming that you already know how which makes Shadowdark RPG stand out among its OSR peers.
+
+I can't stress how amazingly concise and useful the rulebook is... Check it out!
 
 ## What's less cool about the Shadowdark RPG system?
 
-Some of the extra classes found in the Shadowdark official zines feel out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes.
+Some of the classes found in the Shadowdark official zines feel out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes.
 
-If I were to play another Shadowdark campaign I would think much harder about which of the extra classes to allow. I definitely wouldn't allow a player new to tabletop roleplaying play the Chanter class because it is a little too weird and probably contributed to making their first roleplaying experience less fun than it could have been otherwise.
+If I were to play another Shadowdark campaign I would think much harder about which of the extra classes to allow. I definitely wouldn't allow a player new to tabletop roleplaying play the Chanter class like I did because it probably contributed to making the player's first roleplaying experience much less fun than it could have been otherwise.
 
-The darkness rules ([as explained in more detail below](#is-the-shadowdark-rpg-a-good-fit-for-running-the-maze-of-the-blue-medusa-megadungeon)) were hard for me to implement in practice, especially considering the megadungeon that I was running. Thankfully, the rules still work really well even if you completely ignore everything related to darkness in them.
+The darkness rules ([as explained in more detail below](#is-the-shadowdark-rpg-a-good-fit-for-running-the-maze-of-the-blue-medusa-megadungeon)) were hard for me to implement in practice, especially considering the megadungeon that I was running. Thankfully, the Shadowdark rules work just fine even if you completely ignore all the darkness parts of it.
 
 # Maze of the Blue Medusa
 
 ## What's cool about the Maze of the Blue Medusa megadungeon?
 
-I read dozens of modules and megadungeons before landing on the Maze of the Blue Medusa. I was looking for something really special so that I could give myself the extra help I needed to run the best campaign I've ever run.
+I read dozens of modules and megadungeons in preparation for running this campaign. I was looking for something really special so that I could give myself the extra help I needed to run the best campaign I've ever run.
 
-The Maze of the Blue Medusa megadungeon is cool, it's out there and it's also very me.
+The Maze of the Blue Medusa megadungeon fit that bill perfectly --- it's is cool, it's out there and it's also very me.
 
-The Maze of the Blue Medusa megadungeon was made in collaboration between Zak Sabbath and Patrick Stuart. Sabbath would draw some rooms in an abstract and weird style. Then, Stuart would write room descriptions for the rooms that Sabbath drew. Sabbath would draw more rooms and then Stuart would write more room descriptions until the megadungeon was complete.
+The Maze of the Blue Medusa megadungeon was made in collaboration between Zak Sabbath and Patrick Stuart. Sabbath would draw some rooms in an abstract and weird style. Then, Stuart would write room descriptions for the rooms that Sabbath had drawn. Sabbath would draw more rooms and then Stuart would write more room descriptions until the megadungeon was complete several years later.
 
-You'd think that this process would have led to a more funhouse-style megadungeon where every room felt completely unrelated to the others and contained a wacky encounter unlike anything else in the dungeon. Surpisingly, I found that the Maze of the Blue Medusa was less of a funhouse than I initially thought it was going to be.
-
-The megadungeon is partitioned into several sections with common visual, literary and gameplay themes spread throughout them in a way that ties them together. Several factions and the NPCs within each section serve as a means of tying the disparate parts of the dungeon together and making it feel more cohesive and alive for the players.
+Surprisingly, despite being built out this way, the Maze of the Blue Medusa isn't as funhousey as you might expect. The megadungeon is partitioned into several sections with common visual, literary and gameplay themes spread throughout them. Several factions and the NPCs within them serve as a means of tying these disparate parts of the dungeon together making it more cohesive as a whole and helping you as the GM to make it come alive for your players.
 
 There's hundreds of NPCs in this megadungeon and any one of them could become a character that your players never forget for the rest of their lives because of how out there and unique most of them are.
 
-Generally, the rooms provide interesting challenges and enigmas for PCs to overcome which is great for players interested in that classic old school dungeon crawling experienced focused more on creative thinking and less on juggling hundreds of skills/traits/spells found in thousands of different sourcebooks.
+Generally, the rooms provide interesting challenges and enigmas for PCs to overcome which is great for players interested in that classic old school dungeon crawling experience focused more on creative thinking and less on juggling hundreds of skills/traits/spells found in thousands of different sourcebooks (*cough cough Wizards of the Coast cough cough*).
 
-A defining feature of our campaign was the building and maintenance of a "Super Rake". It consisted of a ten-foot pole combined with the head of a rake which would be whipped out by the rogue Marlon whenever they thought that it would come in handy (which was often). That's the kind of dungeon crawling you'll find here and if that's what you're looking for, you'll get it in spades. 
+A defining feature of our campaign was the building and maintenance of a "Super Rake". It consisted of a ten-foot pole combined with the head of a rake which would be whipped out by the rogue Marlon whenever they thought that it would come in handy (which was often). That's the kind of dungeon crawling you can expect to find in the Maze of the Blue Medusa and if that's what you're looking for, you'll get it in spades. 
 
-Despite providing this classic dungeon crawling experience, the Maze of the Blue Medusa is also quite off-beat and weird with surreal and absurdist elements spread all throughout it. If that sounds compelling to you then I can recommend it, as long as your players are open-minded enough to play in an off-kilter fantasy environment that is probably not what they're used to.
+Despite providing this classic dungeon crawling experience, the Maze of the Blue Medusa is also quite off-beat and weird with surreal and absurdist elements spread all throughout it. If that sounds compelling to you in any way then I can recommend it, as long as your players are open-minded enough to play in an off-kilter fantasy environment that is probably not what they're used to.
 
 ## What's less cool about the Maze of the Blue Medusa megadungeon?
 
@@ -77,7 +77,8 @@ A shell, 8' long, white, and patterned in green-white whorls the color of new le
 
 Nui-Nga-Ma is not a true snail but a kind of golem created by Aelfadred The Glyph Witch (Gardens 58). She can hear anything the snail hears through a shell she keeps in her room. Likewise, Nui-Nga-Ma can hear anything that happens near the other shell.
 
-Niu-Nga-Ma
+**Niu-Nga-Ma**
+
 AC 16, HD 4, ATK d8/d8
 {{< /spoiler >}}
 
@@ -263,7 +264,7 @@ Once you have your image, all you have to do in Foundry is:
 
 1. Create a new scene
 2. Import the satellite image
-3. Fuss around with the grid size number until the grid size makes it so that the 100m marker on the image lines up with your system's scale (whip out the ruler in Foundry and test it out!). I've found that a grid size between 20-30 seems to do the trick for Savage Worlds but you'll figure it out.
+3. Fuss around with the grid size number until the grid size makes it so that the 100m marker on the image lines up with your system's scale (whip out the ruler in Foundry and test it out!). I've found that a grid size between 20-30 seems to do the trick for Savage Worlds.
 
 # Conclusion
 

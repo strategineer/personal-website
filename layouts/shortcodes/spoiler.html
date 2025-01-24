@@ -1,8 +1,14 @@
 {{- $inner := .Inner -}}
 {{- if strings.ContainsNonSpace $inner -}}
   {{- with $.Page -}}
-    <span class="spoiler">
-      {{ $inner | .RenderString }}
-    </span>
+  {{- if strings.Contains $inner "\n" -}}
+  <div class="spoiler" aria-label="Spoiler">
+    {{- $inner | .RenderString -}}
+  </div>
+  {{- else -}}
+  <span class="spoiler" aria-label="Spoiler">
+    {{- $inner | .RenderString -}}
+  </span>
+  {{- end -}}
   {{- end -}}
 {{- end -}}
