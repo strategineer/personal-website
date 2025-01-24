@@ -24,9 +24,9 @@ Now, I'll go over the lessons learned about each of these parts individually and
 
 I've read a bunch of different [OSR](#glossary) roleplaying rulebooks and out of all of those I chose Shadowdark for this campaign.
 
-There's a lot to like about Shadowdark but its defining feature is that it's surprisingly **elegant** (given that it received the [Ennie Award for Best Game](https://ennie-awards.com/portfolio-item/2024-nominees-and-winners/) this shouldn't come as much of a surprise).
+There's a lot to like about Shadowdark but its defining feature is that it's surprisingly **elegant** (considering that it won the [Ennie Award for Best Game in 2024](https://ennie-awards.com/portfolio-item/2024-nominees-and-winners/) this shouldn't come as too much of a surprise).
 
-The rulebook is a masterpiece of design --- it's one of the best laid out rulebooks I've l read. The rules are concise, exceedingly clear and comprehensive enough to allow new and experienced GMs to run Shadowdark games well.
+The rulebook is a masterpiece of design --- it's one of the best laid out rulebooks I've read. The rules are concise, clear and comprehensive enough to allow new and experienced GMs to run Shadowdark games well after reading it.
 
 ### A great OSR system for less experienced GMs
 
@@ -36,7 +36,7 @@ For example, how do you as the GM emphasise the danger and urgency of exploring 
 
 The Shadowdark RPG rules go out of their way to give GMs, who've never run an OSR game like this before, guidance on how to do exactly this.
 
-Shadowdark's masterstroke is that 10 minutes of real-time represents 10 minutes in game-time (unless of course you've explicitly chosen to fast-forward through something).
+Shadowdark's masterstroke is that 10 minutes of real-time represents 10 minutes of game-time (unless of course you've explicitly chosen to fast-forward through something).
 
 And, every so often depending on how dangerous the area the PCs are in, you'll roll a d6 to check for a random encounter. On a 1, the PCs encounter something or someone.
 
@@ -44,7 +44,7 @@ This makes it clear for everyone at the table that spending real-time discussing
 
 So, players are encouraged by the system to just **do** something which tends to be more fun and keeps the game from becoming a slog.
 
-While experienced GMs can solve these problems intuitively, Shadowdark RPG provides explicit guidance, which is incredibly helpful for newcomers. This ethos makes Shadowdark RPG stand out among its OSR peers.
+While experienced GMs can solve these problems intuitively, Shadowdark RPG provides explicit guidance, which is incredibly helpful for new GMs. This ethos makes Shadowdark RPG stand out among its OSR peers.
 
 I can't stress how amazingly concise and useful the rulebook is. But it's not a perfect fit for every OSR campaign you're going to run.
 
@@ -52,19 +52,19 @@ I can't stress how amazingly concise and useful the rulebook is. But it's not a 
 
 ### Supplemental classes are inconsistent
 
-Some of the classes found in the Shadowdark official zines feel out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes described in the core rulebook.
+Some of the classes found in the Shadowdark official zines feel out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes we know and love described in the core rulebook.
 
-Although it didn't cause any serious problems in our campaign, it was an interesting challenge to balance combat encounters involving both our dwarven Pit Fighter Brod with 30HP with a bunch of abilities that made him harder to kill as well as Blotbug, our single digit HP goblin Witch.
+Although it didn't cause any serious problems in our campaign, it was an interesting challenge balancing combat encounters involving both our dwarven Pit Fighter Brod with 30 HP with a bunch of abilities that made him really hard to kill as well as Blotbug, our 4 HP goblin Witch.
 
-I would think carefully about allowing players to play any of these extra classes in future Shadowdark campaigns, especially if you're looking to double down the old school dungeon crawling experience.
+I would think carefully about allowing players to play any of these extra classes, especially if you're looking to double down the old school dungeon crawling experience.
 
 ### Darkness rules are hard to use
 
-The darkness rules in Shadowdark RPG didn't work as smoothly in practice as I expected them to. But I found that the game works fine even if you completely ignore them.
-
-The only thing not elegant about the Shadowdark RPG rules is its handling of darkness and how little it helps you run a fun game where light is a resource that has to be managed.
+The only thing that isn't elegant about Shadowdark RPG is its handling of darkness and how little it helps you run a fun game where light is a resource that has to be managed.
 
 Unless you can figure out how to fill your dungeons with water splashing enemies (like the book recommends) without making the dungeons feel more like waterparks, you might run into the same problems I did.
+
+Thankfully, I found that the game works fine even if you mostly ignore the darkness rules.
 
 Having discussed the Shadowdark RPG system, now let's dive into the heart of my campaign --- the megadungeon itself.
 
@@ -72,13 +72,15 @@ Having discussed the Shadowdark RPG system, now let's dive into the heart of my 
 
 ## What's cool about the Maze of the Blue Medusa?
 
-I read dozens of modules in preparation for running this campaign. I was looking for a special module to give myself the solid foundation I wanted to help me run my best campaign yet.
+I read dozens of modules in preparation for running this campaign. I was looking for something special to give myself the solid foundation I felt like I needed to help me run my best campaign yet.
 
 The Maze of the Blue Medusa megadungeon fit that bill perfectly --- it's cool, it's out there and it's also very me.
 
 ### Great abstract, surreal art combined with evocative descriptions
 
-The Maze of the Blue Medusa is a product of a collaboration between Zak Sabbath and Patrick Stuart where Sabbath drew abstract, surreal room art to set the tone and would pass his art on to Stuart who would then write descriptions to breathe life into each area. This back-and-forth continued for several years producing the one-of-a-kind Maze of the Blue Medusa.
+The Maze of the Blue Medusa is a product of a collaboration between Zak Sabbath and Patrick Stuart where Sabbath drew abstract, surreal room art to set the tone and would pass his art on to Stuart who would then write descriptions to breathe life into each area.
+
+This back-and-forth continued for several years producing the one-of-a-kind Maze of the Blue Medusa.
 
 Despite this process, the megadungeon isn't as funhousey as you might expect. The megadungeon is partitioned into several sections with common visual, literary and gameplay themes spread throughout which helps connect the rooms together into a cohesive whole.
 
