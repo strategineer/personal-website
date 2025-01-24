@@ -264,23 +264,35 @@ The Maze of the Blue Medusa features a ton of wild characters and trying, someti
 
 Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions and reactions into subsequent sessions.
 
-This helped a ton and I don't see myself running a game again without writing session summaries. They can only help and will help even more as I become a better, more well-rounded GM.
+This helped a ton and I don't see myself running a game again without writing session summaries.
 
 ## Give players opportunities to interact with their favorite NPCs
 
-If players really like a particular NPC, I should give them opportunities to interact with that NPC more rather than less (this is another thing that megadungeons make harder). The literal bookworm Germander was a pretty big success with my players --- in no small part due to the unhinged voice I used for him.
+If players really like a particular NPC, I should give them more opportunities to interact with that NPC.
 
-Sadly, he was stuck in his room being too big to fit through the doorway. This combined with the megadungeon being so big meant that the PCs weren't able to interact with him as much I or them would have liked to. In the last session of the campaign, I slimmed Germander down in order for him to exit from his reading nook/prison and follow the party but it was a little too late.
+The literal giant book-worm Germander was a big success with my players --- in no small part due to the unhinged voice I used for him.
 
-Another way I solved this problem was with Draco the Laughing Lich. He's a powerful lich who thinks life is meaningless and only cares about finding reasons to laugh. The party was able to make him laugh a bunch and so he gave them an Amulet of Slapstickification which doubled as a sort of bodycam/radio that he could use to communicate with the party without leaving his room. I thought that this was a fun way of allowing the party to interact with a powerful NPC more often without the NPC becoming a follower of some kind.
+Sadly, I kept him locked up in his room forcing my players to navigate back and forth through the megadungeon to talk to him.
 
-I should have also changed the random encounter table to include a "recurring NPC" entry to give me an extra kick in the ass to have a NPC show up again. Someone like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer and artifact gatherer lady) would have been a great fit for this considering her inherent mobility (I liked the voice I had for her as well!).
+This meant that the PCs weren't able to interact with him as much I or my players would have liked them to. In the last session of the campaign, I slimmed Germander down in order for him to exit from his prison and follow the party but it was a little too late.
+
+Another way I solved this problem later on in the campaign was with Draco the Laughing Lich. He's a powerful lich who thinks life is meaningless and only cares about finding reasons to laugh.
+
+The party was able to make him laugh a bunch and so he gave them an Amulet of Slapstickification which doubled as a sort of bodycam that Draco could use to watch and comment on the party's actions as they made their way through the dungeon.
+
+I should have also changed the random encounter table to include a "recurring NPC" entry to give myself an extra kick in the ass to have certain NPCs show up on a recurring basis.
+
+An NPC like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer and artifact gatherer lady) would have been a great fit for this considering her inherent mobility.
+
+I liked the voice I had for her, she could have been a fun recurring character and it's a shame I didn't bring her into play more often. 
 
 # Foundry VTT
 
 Foundry [VTT](#glossary) is **the** way to do tabletop roleplaying online no matter the complexity of the system. If someone's been generous enough to implement a roleplaying game system I'd like to run on Foundry VTT, then I will absolutely always play it that way moving forward. It's **that** good.
 
 After years of suffering through Roll20 (a truly god-awful VTT) and building my own shitty VTT-adjacent tools on Discord or Google Sheets, I'm never going back. That's how good Foundry VTT is.
+
+Another reason why I chose the Shadowdark RPG system was because of its great support for play through Foundry VTT.
 
 The only downside is that Foundry VTT requires a bit of setup and has a learning curve. However, the following tools can help ease the process.
 
