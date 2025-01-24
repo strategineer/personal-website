@@ -170,7 +170,7 @@ While I'd consider running a Shadowdark RPG campaign again, I wouldn't recommend
 
 ## What did I learn GMing a megadungeon?
 
-### Megadungeons are not particularily well suited for player-centric play 
+### Megadungeons are not particularly well suited for player-centric play 
 
 Megadungeons being so big and unexplored initially means that players are limited in their choices to do anything other than continue to open unopened doors in the dungeon.
 
