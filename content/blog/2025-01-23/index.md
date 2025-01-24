@@ -257,11 +257,13 @@ If you'd like the players to share vision on the VTT, then each player should ha
 
 ### Satellite Imagery for non-DND battlemaps
 
-If engagements happen hundreds of grid squares away with guns of all sorts, tiny DND-esque battlemaps won't do whatever theming is
+If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then using Google Earth Pro, exporting images at the highest resolution possible with a zoom level of 100m allows for quickly generating at-scale battlemaps with realistic terrain and the tactical options they provide.
 
-If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then using Google Earth Pro, exporting images at a common zoom level (I've found 100m to be perfect) allows for quickly generating at scale battlemaps with realistic terrain and the tactical options they provide
+Once you have your image, all you have to do in Foundry is:
 
-Sat Maps give also give a distinctive Tier 1 operator vibe if that's what you're looking for.
+1. Create a new scene
+2. Import the satellite image
+3. Fuss around with the grid size number until the grid size makes it so that the 100m marker on the image lines up with your system's scale (whip out the ruler in Foundry and test it out!). I've found that a grid size between 20-30 seems to do the trick for Savage Worlds but you'll figure it out.
 
 # Conclusion
 
