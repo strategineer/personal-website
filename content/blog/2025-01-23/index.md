@@ -1,5 +1,5 @@
 ---
-title: "My Maze of the Blue Medusa roleplaying campaign: How'd it go?"
+title: "My Maze of the Blue Medusa campaign: How'd it go?"
 date: 2025-01-24
 blog/tags:
   - tabletop
@@ -300,13 +300,13 @@ The only downside is that Foundry VTT requires a bit of setup and has a learning
 
 No matter how well supported your system of choice is in Foundry VTT, the following modules will probably be useful for you:
 
-### Quick Insert - Search Widget
+### Quick Insert gives you instant access to everything in your game
 
 Hitting control and the space bar to get instant drag-and-drop access to everything in your game including things like characters, tokens, items, NPCs, skills, etc. is a godsend.
 
 This module facilitates character creation, inventory management and GMing overall to such an extent that I would never use Foundry without it.
 
-### Dice Tray
+### Dice Tray gives you easily rollable dice when you need them
 
 Dice Tray provides an accessible and easy to use UI for you and your players to roll dice.
 
@@ -314,7 +314,7 @@ In most cases, using the modules below, especially [Token Action HUD](#token-act
 
 But when you do need to, perhaps because of a ruling you've made, using Dice Tray will be easier for most people instead of typing out dice notation formulas in the chat.
 
-### Token Action HUD
+### Token Action HUD shows you all the actions/ checks/rolls your characters can do at a glance
 
 Foundry without Token Action HUD is great but a shell of what it can be. If the system you're playing with supports the Token Action HUD family of modules, you'll absolutely want to use it.
 
@@ -328,7 +328,7 @@ For dice rolls with preset difficulties (like a spellcasting check in Shadowdark
 
 I wouldn't play without Token Action HUD ever again.
 
-### Tokenizer
+### Tokenizer makes it easy to import images and create tokens from them
 
 Tokenizer is a module that allows you to easily import images into Foundry and convert them into tokens.
 
@@ -336,7 +336,7 @@ Being able to do this entirely within Foundry is great. It reduces the time it t
 
 It speeds up this process so much that if you're GMing a game and you need to create a token on the fly, Tokenizer will allow you to do that. 
 
-### Image Hover
+### Image Hover puts token art front and center when you want it to be
 
 The Image Hover module allows for hovering over a token to show the underlying art asset associated to it.
 
@@ -344,11 +344,11 @@ This helps with setting the scene and giving players zoomed-in images of the NPC
 
 Don't play without it.
 
-### Item Piles
+### Item Piles makes it easier to share loot between party members
 
 Being able to drop items onto the map seems like it should be a core feature but it isn't --- The Item Piles module implements exactly this.
 
-### Drag Ruler
+### Drag Ruler visually shows you how far a token can move in a turn
 
 Drag Ruler visually shows you how far a token can move on the battlemap (green for walking, yellow for running or the equivalent in whatever system you're using).
 
