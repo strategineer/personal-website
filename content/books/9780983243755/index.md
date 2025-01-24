@@ -14,7 +14,7 @@ star_rating: 5
 title: Maze of the Blue Medusa 
 ---
 
-An abstract, surreal, mythical, weird sadhouse megadungeon --- a perfect fit for old school rennaissance tabletop roleplaying games, as long as you're open for things to get a little bizzare.
+An abstract, surreal, mythical, weird sadhouse megadungeon --- a perfect fit for old school rennaissance tabletop roleplaying games, as long as you're open for things to get a little bizarre.
 
 
 <!--more-->
