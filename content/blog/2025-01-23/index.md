@@ -1,18 +1,18 @@
 ---
-title: "Maze of the Blue Medusa roleplaying campaign: How'd it go?"
-date: 2025-01-23
+title: "My Maze of the Blue Medusa roleplaying campaign: How'd it go?"
+date: 2025-01-24
 blog/tags:
   - tabletop
 draft: true
 ---
 
-Running a tabletop RPG campaign is always a learning experience. In this post, I'll share insights from my recent campaign, 'Labyrinth of the Blue Gorgon', and lessons I learned as a GM --- some things I'd do differently next time!
+Running a tabletop RPG campaign is always a learning experience. In this post, I'll share insights from my recent campaign, 'Labyrinth of the Blue Gorgon', and lessons I learned as a GM.
 
 <!--more-->
 
-I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through the Foundry virtual tabletop over the course of 4 months between September 2024 and January 2025.
+I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through the Foundry virtual tabletop tool over the course of 4 months between September 2024 and January 2025.
 
-Now, I'll go over the lessons learned about each of these parts separately and then cover the insights gained from combining them all together for the campaign.
+Now, I'll go over the lessons learned about each of these parts individually and then cover the insights gained from combining them all together for the campaign.
 
 {{< toc >}}
 
@@ -26,7 +26,7 @@ I've read a bunch of different [OSR](#glossary) roleplaying rulebooks and out of
 
 There's a lot to like about Shadowdark but its defining feature is that it's surprisingly **elegant** (given that it received the [Ennie Award for Best Game](https://ennie-awards.com/portfolio-item/2024-nominees-and-winners/) this shouldn't come as much of a surprise).
 
-The rulebook is a masterpiece of design --- it's one of the best laid out rulebooks I've ever read. The rules are concise, exceedingly clear and comprehensive enough to allow new and experienced GMs to run Shadowdark games well.
+The rulebook is a masterpiece of design --- it's one of the best laid out rulebooks I've l read. The rules are concise, exceedingly clear and comprehensive enough to allow new and experienced GMs to run Shadowdark games well.
 
 ### A great OSR system for less experienced GMs
 
@@ -40,13 +40,13 @@ Shadowdark's masterstroke is that 10 minutes of real-time represents 10 minutes 
 
 And, every so often depending on how dangerous the area the PCs are in, you'll roll a d6 to check for a random encounter. On a 1, the PCs encounter something or someone.
 
-This makes it clear for everyone at the table that spending real-time discussing what to do next or spending game-time searching under every tile in a room for traps has the risk of a random encounter associated with it.
+This makes it clear for everyone at the table that spending real-time discussing what to do next or spending game-time searching under every tile in a room for traps brings the risk of a random encounter with it.
 
 So, players are encouraged by the system to just **do** something which tends to be more fun and keeps the game from becoming a slog.
 
 While experienced GMs can solve these problems intuitively, Shadowdark RPG provides explicit guidance, which is incredibly helpful for newcomers. This ethos makes Shadowdark RPG stand out among its OSR peers.
 
-I can't stress how amazingly concise and useful the rulebook is. But it's not a perfect fit for every OSR campaign you're going to run, including the one I ran.
+I can't stress how amazingly concise and useful the rulebook is. But it's not a perfect fit for every OSR campaign you're going to run.
 
 ## What's less cool about Shadowdark RPG?
 
@@ -54,13 +54,17 @@ I can't stress how amazingly concise and useful the rulebook is. But it's not a 
 
 Some of the classes found in the Shadowdark official zines feel out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes described in the core rulebook.
 
-I would think carefully about allowing players to play any of these extra classes in future Shadowdark campaigns.
+Although it didn't cause any serious problems in our campaign, it was an interesting challenge to balance combat encounters involving both our dwarven Pit Fighter Brod with 30HP with a bunch of abilities that made him harder to kill as well as Blotbug, our single digit HP goblin Witch.
+
+I would think carefully about allowing players to play any of these extra classes in future Shadowdark campaigns, especially if you're looking to double down the old school dungeon crawling experience.
 
 ### Darkness rules are hard to use
 
 The darkness rules in Shadowdark RPG didn't work as smoothly in practice as I expected them to. But I found that the game works fine even if you completely ignore them.
 
 The only thing not elegant about the Shadowdark RPG rules is its handling of darkness and how little it helps you run a fun game where light is a resource that has to be managed.
+
+Unless you can figure out how to fill your dungeons with water splashing enemies (like the book recommends) without making the dungeons feel more like waterparks, you might run into the same problems I did.
 
 Having discussed the Shadowdark RPG system, now let's dive into the heart of my campaign --- the megadungeon itself.
 
