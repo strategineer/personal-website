@@ -242,7 +242,9 @@ This would provide a sense of urgency to the PCs's exploration of the dungeon an
 
 ### The biggest problem with megadungeons is that they're megadungeons
 
-Megadungeons create more problems than opportunities for good player-centric roleplaying. My curisoty about them has been more satiated and I don't see myself running a megadungeon again anytime soon.
+Megadungeons create more problems than opportunities for good player-centric roleplaying. My curiosity about them has been more than satiated.
+
+I don't see myself running a megadungeon again anytime soon but I can see myself trying to run one again when I have more GMing experience under my belt.
 
 ## Give NPCs memorable voices (it's worth the effort!)
 
