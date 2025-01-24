@@ -193,61 +193,75 @@ The only downside is that it requires a bit of setup and it's got a bit of a lea
 
 ## Foundry VTT - Systems
 
-Unfortunately, the Maze of the Blue Medusa doesn't have any built-in Foundry VTT support so I spent a few hours setting up the dungeon and the tokens/sheets for all the NPCs that I was expecting the players to encounter.
+Unfortunately, the Maze of the Blue Medusa doesn't have any built-in Foundry VTT support so I spent a few hours setting up the dungeon map and the tokens for all the NPCs that I was expecting the players to encounter.
 
-But, if you're system is really well-supported by the companies that publish them then you might be able to purchase and run systems and supplements fully integrated into Foundry VTT.
+But, if your system is really well-supported on Foundry, usually by the companies that publish the systems themselves, then you might be able to purchase and run some modules for your system that are also fully integrated into Foundry VTT.
 
-In particular, Pathfinder and Savage Worlds are really well supported in Foundry VTT. If you're playing other systems, you should expect to do a little more legwork to get everything working as expected.
+In particular, Pathfinder and Savage Worlds have really great Foundry VTT support meaning that you can pay a small fee to be able to drag and drop any fully statted up monster you can think of at the drop of a hat. The less crunchy your game is the less important the Foundry support you'll need.
 
 ## Foundry VTT - Utility Modules
 
-No matter what system you're using, the following modules are must-haves.
+No matter what system you're using, the following modules will probably be useful for you.
 
 ### Quick Insert - Search Widget
 
-Hitting control + space bar and getting access to everything in your game (characters, items, NPCs, everything!) and being able to drag and drop wherever you need it as a GM when you're running the game and as a player when you're buying equipment, etc. 
+Hitting control and the space bar to get instant drag-and-drop access to everything in your game including characters, items, NPCs, skills and being is a godsend.
+
+This module facilitates character creation, inventory management and GMing generally.
 
 ### Dice Tray
 
-Dice Tray makes it as easy as possible for you and your players to roll dice with a sleek UI with good UX instead of typing the roll out. 
+Dice Tray provides an accessible and easy to use UI for you and your players to roll dice.
+
+In most cases, using the modules below, especially [Token Action HUD Core](#token-action-hud-core), you'll rarely need to roll dice outside of the context of the pre-implemented dice rolls coming directly from your character sheet.
+
+But when you do need to, perhaps because of a ruling you've made, using Dice Tray will be easier for most people instead of using the Foundry dice notation formulas in the chat.
 
 ### Token Action HUD Core
 
-Foundry without Token Action HUD Core is great but a shell of what it can be. If the system you're playing with supports Token Action HUD Core you have to use it!
+Foundry without Token Action HUD Core is great but a shell of what it can be. If the system you're playing with supports the Token Action HUD family of modules, you'll absolutely want to use it.
 
-It puts a bar of actions at the top of your screen when you select a PC or NPC token and gives you quick access to all of the relevant stat rolls, ability checks, etc. tied to that character. This speeds up combat tremendously because the process of figuring how many dice to roll and what kind of action player wants to take has been boiled down to picking an option from a menu and clicking it. I imagine that this is a must-have for running crunchier games. 
+It puts a World of Warcraft-esque bar of actions at the top of your screen when you select a PC or NPC token. With Token Action HUD, you can make a stat roll, an ability/skill check (with all of the appropriate modifiers) for a particular character with just one click.
+
+The crunchier your game is the more essential this module becomes. Showing all of the different actions available to a PC at a glance drastically reduces the mental load required to roleplay them effectively.
+
+For dice rolls with preset difficulties (like a spellcasting check in Shadowdark RPG), when clicked the dice roll will show everyone at the table if it failed or succeeded, critically or not (nobody has to crunch the numbers and verify the character sheet, etc.). 
 
 ### Tokenizer
 
-...
+Tokenizer is a flexible module that allows you to take images and quickly convert them into tokens as fast as possible.
+
+If you're GMing a game and need to come up with some tokens quickly, Tokenizer is a must.
 
 ### Image Hover
 
-Simple but great, hovering over a token shows the underlying full art associated to it which helps with setting the scenes.
+Simple but great, hovering over a token shows the underlying art associated to it which helps with setting the scene and giving visual players imagery to latch onto when your descriptions of NPCs aren't enough.
 
 ### Item Piles
 
 Being able to drop items onto the map seems like it should be a core feature (but it isn't) --- The Item Piles module implements exactly this.
 
-### Drag Ruler (until it's fully implemented in the Foundry core)
+### Drag Ruler
 
-...
+Drag Ruler visually shows you how far a token can move on the battlemap (green for walking, yellow for running or the equivalent in whatever system you're using).
 
-### Token Tooltip Alt
-
-...
-
-## Foundry VTT - Settings
-
-- token ownership settings and fog of war settings
+In Foundry version 13, this will be a core feature of the VTT so this module will no longer be needed. But until that version releases, use this module!
 
 ## Foundry VTT - Miscellaneous Tips
 
-- Satellite Imagery for non-DND battlemaps
-  - If engagements happen hundreds of grid squares away with guns of all sorts, tiny DND-esque battlemaps won't do whatever theming is
-  - If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then using Google Earth Pro, exporting images at a common zoom level (I've found 100m to be perfect) allows for quickly generating at scale battlemaps with realistic terrain and the tactical options they provide
-  - Sat Maps give also give a distinctive Tier 1 operator vibe if that's what you're looking for
+### Setting character permissions
 
+Each player should have the "owner" permission on their player character so that they can move their token around and change their character sheet stats as they desire.
+
+If you'd like the players to share vision on the VTT, then each player should have the "limited" permission on everyone else's player character.
+
+### Satellite Imagery for non-DND battlemaps
+
+If engagements happen hundreds of grid squares away with guns of all sorts, tiny DND-esque battlemaps won't do whatever theming is
+
+If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then using Google Earth Pro, exporting images at a common zoom level (I've found 100m to be perfect) allows for quickly generating at scale battlemaps with realistic terrain and the tactical options they provide
+
+Sat Maps give also give a distinctive Tier 1 operator vibe if that's what you're looking for.
 
 # Conclusion
 
