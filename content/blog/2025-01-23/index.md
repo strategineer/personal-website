@@ -345,7 +345,7 @@ VTT
 : short for virtual tabletop --- these applications are used for simulating the experience of tabletop roleplaying around an actual table for players online.
 
 GM
-: short for game master --- the person responsible for facilitating the collaborative storytelling process by playing all of the non-player characters and decribing the world for the players.
+: short for game master --- the person responsible for facilitating the collaborative storytelling process by playing all of the non-player characters and describing the world for the players.
 
 PC
 : short for player character.
