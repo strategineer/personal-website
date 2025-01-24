@@ -18,9 +18,9 @@ Now, I'll go over the lessons learned about each of these parts separately and t
 
 # Shadowdark RPG
 
-## What's cool about the Shadowdark RPG system?
+## What's cool about Shadowdark RPG?
 
-### Elegant and Concise Rules
+### Concise, efficient rules
 
 I've read a bunch of different [OSR](#glossary) roleplaying rulebooks and out of all of those I chose Shadowdark for this campaign.
 
@@ -28,7 +28,7 @@ There's a lot to like about Shadowdark but its defining feature is that it's sur
 
 The rulebook is a masterpiece of design --- it's one of the best laid out rulebooks I've ever read and the rules are concise yet exceedingly clear.
 
-### A Great OSR system for less experienced GMs
+### A great OSR system for less experienced GMs
 
 The Shadowdark RPG rulebook is incredibly helpful for GMs. It doesn't assume years of experience and provides clear instructions on how to run the game.
 
@@ -48,15 +48,15 @@ While experienced GMs can solve these problems intuitively, Shadowdark RPG provi
 
 I can't stress how amazingly concise and useful the rulebook is. But it's not a perfect fit for every OSR campaign you're going to run, including the one I ran.
 
-## What's less cool about the Shadowdark RPG system?
+## What's less cool about Shadowdark RPG?
 
-### Supplemental classes aren't great
+### Supplemental classes are inconsistent
 
 Some of the classes found in the Shadowdark official zines feel out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes described in the core rulebook.
 
 I would think carefully about allowing players to play any of these extra classes in future Shadowdark campaigns.
 
-### Darkness rules are hard to implement
+### Darkness rules are hard to use
 
 Also, the darkness rules in Shadowdark RPG didn't work as smoothly in practice as I expected them to. But I found that the game works fine even if you completely ignore them.
 
@@ -64,25 +64,25 @@ Having discussed the Shadowdark RPG system, now let's dive into the heart of my 
 
 # Maze of the Blue Medusa
 
-## What's cool about the Maze of the Blue Medusa megadungeon?
+## What's cool about the Maze of the Blue Medusa?
 
 I read dozens of modules and megadungeons in preparation for running this campaign. I was looking for something special to give myself a solid foundation I needed to help me run my best campaign yet.
 
 The Maze of the Blue Medusa megadungeon fit that bill perfectly --- it's cool, it's out there and it's also very me.
 
-### Great Art combined with great writing
+### Great abstract, surreal art combined with evocative room and NPC descriptions
 
 The Maze of the Blue Medusa is a product of a collaboration between Zak Sabbath and Patrick Stuart where Sabbath drew abstract, surreal room art to set the tone and would pass his art on to Stuart who would then write descriptions to breathe life into each area. This back-and-forth continued for several years producing the one-of-a-kind Maze of the Blue Medusa.
 
 The Maze of the Blue Medusa isn't as funhousey as you might expect. The megadungeon is partitioned into several sections with common visual, literary and gameplay themes spread throughout.
 
-### Awesome factions and unique NPCs that players will be dying to learn more about (or eat)
+### Weird, unique NPCs
 
 Several factions and the NPCs within them tie these disparate parts of the dungeon together helping you as the GM to make the dungeon come alive for your players.
 
 There are hundreds of NPCs in the Maze of the Blue Medusa and any one of them could become a character that your players never forget for the rest of their lives because of how out there and unique most of them are.
 
-### Interesting old school dungeon crawling challenges rewarding creative thinking
+### Interesting old school dungeon crawling combat and puzzles
 
 Generally, the rooms provide interesting challenges to overcome which is great for players interested in that classic old school dungeon crawling experience.
 
@@ -100,9 +100,9 @@ As long as your players are open-minded enough to play in an off-kilter fantasy 
 
 Now, let's discuss what makes the Maze of the Blue Medusa less than perfect.
 
-## What's less cool about the Maze of the Blue Medusa megadungeon?
+## What's less cool about the Maze of the Blue Medusa?
 
-### Some boring rooms
+### Some exceptionally boring rooms
 
 The Maze of the Blue Medusa is a big megadungeon and not all parts of it were created equally. Even though the quality of rooms is pretty high overall, there's a few that fall short.
  
@@ -142,15 +142,19 @@ Bringing the "Oku" (magical bird cosplayers essentially) who are natural rogues 
 The book doesn't say this anywhere but I think it'd be better if it did.
 {{< /spoiler >}}
 
-So, the Maze of the Blue Medusa is great. The Shadowdark RPG system is great. Let's discuss the pros and cons of running the Maze of the Blue Medusa megadungeon using the Shadowdark RPG system.
+So, the Maze of the Blue Medusa is great. The Shadowdark RPG system is great. Let's discuss the challenges of running the Maze of the Blue Medusa using the Shadowdark RPG rules.
 
-# Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa megadungeon?
+# Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa?
 
-The Shadowdark RPG seems to hinge on the constant struggle to light the path forward and avoid darkness --- at least it's marketed that way. In theory, this is a cool idea.
+Short answer, no.
 
-In practice, I wasn't able to accentuate the survival horror elements in the system due to my inexperience with Shadowdark and the large sections of the Maze of the Blue Medusa are well-lit and wouldn't work if they weren't.
+The Shadowdark RPG seems to hinge on the PCs struggle to light the path forward and avoid darkness at all costs. In theory, this is a cool idea.
 
-Thankfully, the Shadowdark RPG system holds up even if you ignore all the darkness-related parts of the rules.
+In practice, I wasn't able to accentuate Shadowdark's many survival horror elements because of my inexperience with the Shadowdark system and its relative incompatibility with Maze of the Blue Medusa.
+
+Large sections of the megadungeon are designed to be well-lit and wouldn't work if they weren't.
+
+Thankfully, the Shadowdark RPG system holds up even if you ignore all the darkness parts of the rules.
 
 While I'd consider running a Shadowdark RPG campaign again, I wouldn't recommend it for running the Maze of the Blue Medusa megadungeon without some caveats.
 
@@ -158,15 +162,19 @@ While I'd consider running a Shadowdark RPG campaign again, I wouldn't recommend
 
 ## What did I learn GMing a megadungeon?
 
-### Megadungeons aren't well suited for player-centric play 
+### They're not well suited for player-centric play 
 
 I enjoy running and playing in roleplaying games where players have a lot of agency and megadungeons by design take up a lot of space at the table reducing player agency to some extent.
 
-### Fixing your GMing mistakes is harder because players are going to be spending so much more time exploring the megadungeon 
+The megadungeon being so big and unexplored initially means that players are limited in their choices to do anything other than continue to open unopened doors in the dungeon.
+
+Eventually, they'll meet factions and NPCs that they might want to interact with but whatever they choose to do with these NPCs, it'll involve opening more doors ad nauseam.
+
+### Fixing mistakes is hard
 
 If you make a mistake in terms of the way you've described a set of rooms then too bad because you won't be able to reset by having the PCs go into another dungeon next week. It's a megadungeon they'll be exploring it for dozens of sessions at minimum.
 
-### Simulating factions and NPCs is harder because there's way more of them in a megadungeoen
+### Simulating NPCs is hard
 
 Actions taken against NPC factions in one area of the dungeon should be taken into account by at least some of the other factions in the dungeon.
 
@@ -174,7 +182,7 @@ Megadungeons have a lot of factions in them making giving it and the NPCs in it 
 
 All this to say, running a megadungeon is hard --- if I were to do it again, here's what I would do.
 
-### Provide clear direction for players early on.
+### Provide clear direction for players early on
 
 Give PCs a dated/incomplete map of the dungeon early on in their journey to give them an initial thrust towards something in the dungeon that interests them.
 
@@ -182,7 +190,7 @@ This would give them destinations to work their way to. Without some sort of dir
 
 No matter how interesting the encounters are, opening doors over and over again gets monotonous after a while unless the PCs have something they're trying to get to or a specific problem to solve.
 
-### Establish a clear goal for the PCs to strive towards in the megadungeon
+### Establish a clear goal for the PCs
 
 Whether it's rescuing an NPC, mapping out the dungeon, finding a particular artifact, etc. giving a clear goal for PCs to strive towards will get them moving in a direction instead of aimlessly wandering around a megadungeon hoping to stumble on treasure of some kind.
 
@@ -192,13 +200,13 @@ Even if you decide that the PCs goal is to find a way out of the dungeon unless 
 
 If your players aren't exploring the megadungeon and becoming invested in this vast space and the NPCs that inhabit it, what's the point of running a megadungeon?
 
-### Never trap players without a purpose.
+### Never trap players without a purpose
 
 If PCs want to leave a dungeon they're trapped in (and they probably would unless you've established a reason for them to continue exploring it), they should be able to.
 
 PCs risking life and limb because they *want* to is more interesting than doing the same because they're *forced* to.
 
-### Give players opportunities to accelerate their travel through previously explored parts of the dungeon
+### Give opportunities for players to accelerate their exploration of the dungeon
 
 Populate the megadungeon with more entrances, exits and ways for characters to travel through previously explored regions more quickly. 
 
@@ -210,13 +218,13 @@ My solutions above are a better alternative to fast-forwarding through travel of
 
 Factions within the dungeon can also make use of these entrance/exits allowing for a more dynamic dungeon and explaining away how certain recurring NPCs might find themselves meeting with the PCs over and over again despite the size of the dungeon.
 
-### Populate the dungeon with other adventuring parties.
+### Populate the dungeon with other adventuring parties
 
 I would have at least one NPC with a similar overall power level to the PCs exploring the dungeon too.
 
 This would be fun and make the dungeon a bit more dynamic. The PCs can collaborate with them or have a confrontation with them. Essentially, I think a gristled experienced and wise dungeon explorer would be a fun recurring NPC.
 
-### Set an in-universe timer after which exploring the dungeon any longer will become untenable.
+### Blow the megadungeon up at a predetermined time
 
 I would set an in-universe timer of some kind, communicate that to the players and PCs in some way and then after X sessions end with a bang.
 
@@ -224,7 +232,11 @@ For example, the dungeon of Titancomeon-man is prophesised to collapse in 30 day
 
 This would provide a sense of urgency to the PCs's exploration of the dungeon and a clear stopping point. Even if the PCs haven't been able to comb through every single room they'll have to leave the dungeon for good.
 
-## Give NPCs memorable voices (it's worth the effort!).
+### The biggest problem with megadungeons is that they're megadungeons
+
+Megadungeons create more problems than opportunities for good player-centric roleplaying. My curisoty about them has been more satiated and I don't see myself running a megadungeon again anytime soon.
+
+## Give NPCs memorable voices (it's worth the effort!)
 
 I've been roleplaying regularly since 2019 and in that time I've gotten so much better at it.
 
@@ -238,13 +250,13 @@ I wouldn't have had the confidence or the skills to do that without forcing myse
 
 The Maze of the Blue Medusa features a ton of wild characters and trying, sometimes failing, to give all of them unique voices was a great learning experience and a ton of fun my players and I.
 
-## Write session summaries to help you make the game world more reactive to players's actions 
+## Write session summaries to help you remember key NPCs and player actions to bring up again later
 
 Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions and reactions into subsequent sessions.
 
 This helped a ton and I don't see myself running a game again without writing session summaries. They can only help and will help even more as I become a better, more well-rounded GM.
 
-## Give players more opportunities to interact with their favorite NPCs.
+## Give players opportunities to interact with their favorite NPCs
 
 If players really like a particular NPC, I should give them opportunities to interact with that NPC more rather than less (this is another thing that megadungeons make harder). The literal bookworm Germander was a pretty big success with my players --- in no small part due to the unhinged voice I used for him.
 
@@ -253,8 +265,6 @@ Sadly, he was stuck in his room being too big to fit through the doorway. This c
 Another way I solved this problem was with Draco the Laughing Lich. He's a powerful lich who thinks life is meaningless and only cares about finding reasons to laugh. The party was able to make him laugh a bunch and so he gave them an Amulet of Slapstickification which doubled as a sort of bodycam/radio that he could use to communicate with the party without leaving his room. I thought that this was a fun way of allowing the party to interact with a powerful NPC more often without the NPC becoming a follower of some kind.
 
 I should have also changed the random encounter table to include a "recurring NPC" entry to give me an extra kick in the ass to have a NPC show up again. Someone like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer and artifact gatherer lady) would have been a great fit for this considering her inherent mobility (I liked the voice I had for her as well!).
-
-
 
 # Foundry VTT
 
@@ -266,45 +276,55 @@ The only downside is that Foundry VTT requires a bit of setup and has a learning
 
 ## Essential Modules
 
-No matter how well supported your chosen system is in Foundry VTT, the following modules will probably be useful for you:
+No matter how well supported your system of choice is in Foundry VTT, the following modules will probably be useful for you:
 
 ### Quick Insert - Search Widget
 
-Hitting control and the space bar to get instant drag-and-drop access to everything in your game including characters, items, NPCs, skills and being is a godsend.
+Hitting control and the space bar to get instant drag-and-drop access to everything in your game including things like characters, tokens, items, NPCs, skills, etc. is a godsend.
 
-This module facilitates character creation, inventory management and GMing generally.
+This module facilitates character creation, inventory management and GMing overall to such an extent that I would never use Foundry without it.
 
 ### Dice Tray
 
 Dice Tray provides an accessible and easy to use UI for you and your players to roll dice.
 
-In most cases, using the modules below, especially [Token Action HUD Core](#token-action-hud-core), you'll rarely need to roll dice outside of the context of the pre-implemented dice rolls coming directly from your character sheet.
+In most cases, using the modules below, especially [Token Action HUD](#token-action-hud), you'll rarely need to roll dice outside of the context of the pre-implemented dice rolls coming directly from your character sheet.
 
-But when you do need to, perhaps because of a ruling you've made, using Dice Tray will be easier for most people instead of using the Foundry dice notation formulas in the chat.
+But when you do need to, perhaps because of a ruling you've made, using Dice Tray will be easier for most people instead of typing out dice notation formulas in the chat.
 
-### Token Action HUD Core
+### Token Action HUD
 
-Foundry without Token Action HUD Core is great but a shell of what it can be. If the system you're playing with supports the Token Action HUD family of modules, you'll absolutely want to use it.
+Foundry without Token Action HUD is great but a shell of what it can be. If the system you're playing with supports the Token Action HUD family of modules, you'll absolutely want to use it.
 
-It puts a World of Warcraft-esque bar of actions at the top of your screen when you select a PC or NPC token. With Token Action HUD, you can make a stat roll, an ability/skill check (with all of the appropriate modifiers) for a particular character with just one click.
+It puts a World of Warcraft-esque action bar at the top of your screen whenever you select a PC or NPC token.
+
+With Token Action HUD, you can make a stat roll, an ability/skill check (with all of the appropriate modifiers) for a particular character with just one click.
 
 The crunchier your game is the more essential this module becomes. Showing all of the different actions available to a PC at a glance drastically reduces the mental load required to roleplay them effectively.
 
-For dice rolls with preset difficulties (like a spellcasting check in Shadowdark RPG), when clicked the dice roll will show everyone at the table if it failed or succeeded, critically or not (nobody has to crunch the numbers and verify the character sheet, etc.). 
+For dice rolls with preset difficulties (like a spellcasting check in Shadowdark RPG), the dice roll will show everyone at the table if it failed or succeeded, critically or not, meaning that nobody has to crunch the numbers and verify the character sheet.
+
+I wouldn't play without Token Action HUD ever again.
 
 ### Tokenizer
 
-Tokenizer is a flexible module that allows you to take images and quickly convert them into tokens as fast as possible.
+Tokenizer is a module that allows you to easily import images into Foundry and convert them into tokens.
 
-If you're GMing a game and need to come up with some tokens quickly, Tokenizer is a must.
+Being able to do this entirely within Foundry is great. It reduces the time it takes to create these tokens and have them ready for use in your games ASAP.
+
+It speeds up this process so much that if you're GMing a game and you need to create a token on the fly, Tokenizer will allow you to do that. 
 
 ### Image Hover
 
-Simple but great, hovering over a token shows the underlying art associated to it which helps with setting the scene and giving visual players imagery to latch onto when your descriptions of NPCs aren't enough.
+The Image Hover module allows for hovering over a token to show the underlying art asset associated to it.
+
+This helps with setting the scene and giving players zoomed-in images of the NPCs they're interacting with, enemies they're fighting, etc.
+
+Don't play without it.
 
 ### Item Piles
 
-Being able to drop items onto the map seems like it should be a core feature (but it isn't) --- The Item Piles module implements exactly this.
+Being able to drop items onto the map seems like it should be a core feature but it isn't --- The Item Piles module implements exactly this.
 
 ### Drag Ruler
 
@@ -316,15 +336,17 @@ In Foundry version 13, this will be a core feature of the VTT so this module wil
 
 ### Set player permissions correctly
 
-Each player should have the "owner" permission on their player character so that they can move their token around and change their character sheet stats as they desire.
+Each player should have the "owner" permission on their player character so that they can move their token around and modify their character sheet as needed during play.
 
 If you'd like the players to share vision on the VTT, then each player should have the "limited" permission on everyone else's player character.
 
 ### Use satellite imagery for battlemaps for modern and post-apocalyptic settings
 
-If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then using Google Earth Pro, exporting images at the highest resolution possible with a zoom level of 100m allows for quickly generating at-scale battlemaps with realistic terrain and the tactical options they provide.
+If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then you can use Google Earth Pro to generate at-scale battlemaps with realistic terrain and the tactical options it'll provide.
 
 ![](abandoned_factory_3.jpg)
+
+I recommend exporting images at the highest resolution possible with a zoom level of 100m.
 
 Once you have your image, all you have to do in Foundry is:
 
