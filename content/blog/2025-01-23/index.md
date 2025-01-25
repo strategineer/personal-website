@@ -320,7 +320,7 @@ If I were to go back in time and do this different, I would have prompted everyo
 
 For example, deciding that Brod was a long-lost adoptive relative of our artist/wizard Freeya would have acted as lubricant for fun roleplay for everyone at the table and would have set the stage for intrigue and interesting narrative beats for the campaign later down the line.
 
-The takeaway for me here is that everyone at the table is discovering who their characters really are at the table through play. A complete blank slate like an amnesiac character is that much harder to roleplay effectively becaus of this.
+The takeaway for me here is that everyone at the table is discovering who their characters really are at the table through play. A complete blank slate like an amnesiac character is that much harder to roleplay effectively because of this.
 
 If a player is deadset on playing an amnesiac character, I would make that sure by their second session, the character's gotten their memory back, everyone at the table knows exactly who they were and thus everyone should be ready to figure out who this character is going to become through play.
 
@@ -368,7 +368,7 @@ This ability acted as a sort of social lubricant to enable him to connect with N
 
 So, in this case, me trying and failing to run a campaign with a focus on survival horror and inventory management with scarce resources led to creative roleplaying opportunities that really added a lot of spice and fun to the campaign that wouldn't have been there otherwise.
 
-## I ran a megadungeon
+## Running a megadungeon
 
 I read carefully through hundreds of room descriptions and I was able to bring them and NPCs in them to life at the table week after week. I've spent a lot of time in this post discussing how running megadungeons well is hard but I did it anyway.
 
@@ -378,7 +378,7 @@ I did the thing.
 
 It wasn't perfect but tabletop roleplaying never is. The uncertainty, the chaos and the challenge are part of the fun and without them there wouldn't be a reason for me to roleplay in the first place.
 
-## Giving NPC unhinged wacky out there voices
+## Giving NPCs unhinged voices
 
 Before running this campaign, I'd never really tried to voice NPCs much differently from the way I speak normally. I'd put my tongue in my cheek or fix parts of my face into a shape to change my voice a bit but this was never something I focused on much.
 
@@ -406,7 +406,7 @@ Spending some time with family one day after one of our roleplaying sessions, I 
 
 After one particular session, players had requested that I give them more loot and spread the love around so that every player character got something relevant for them, eventually.
 
-So, I put two and two together, confirming with Freeya's player that the item I had in mind for their character, a demonic summoning deck, would be interesting for him.
+So, I put two and two together, confirming with Freeya's player that the item I had in mind for their character, a demonic summoning deck, would be interesting.
 
 They said yes. So, I crafted a combat encounter where an enemy Chameleon Woman mage failed to effectively use this demon summoning deck, dying in the process, leaving it to be picked up by Freeya.
 
