@@ -393,35 +393,37 @@ I didn't know where players were going to want to go next, so I prepped voices a
 
 ## tarot - demonic summonning deck
 
-Spending some time with family one day after one of our roleplaying sessions, I stumbled on a deck of Tarot cards (McHenry's Occult Tarot) that was demon-themed --- each card has a demon on it with a summary of their general vibe and their "powers".
+Spending some time with family one day after one of our roleplaying sessions, I stumbled on a deck of Tarot cards (Travis McHenry's Occult Tarot specifically) that was demon-themed --- each card had a demon on it with a summary of the demon's vibe and their "powers".
 
-After one particular session, players had requested that I give them more loot and spread the love around so that every player character got something relevant for them.
+After one particular session, players had requested that I give them more loot and spread the love around so that every player character got something relevant for them, eventually.
 
-So, I put two and two together, confirming with Freeya's player that the item I had in mind (a demonic summoning deck) would be appropriate for him. He said yes and then I crafted a combat encounter where an enemy Chameleon Woman mage failed to effectively use it, dying in the process, leaving it to be picked up and used by Freeya (the fact that it was given to Freeya instead of Blotbug, the witch/demonologist, was explained away by an NPC butttttt it was a little weird).
+So, I put two and two together, confirming with Freeya's player that the item I had in mind for their character, a demonic summoning deck, would be interesting for him.
 
-Over the course of the campaign, Freeya used the deck over and over again and learned to use it more effectively reducing the likelihood of a failed summoning from occurring.
+They said yes. So, I crafted a combat encounter where an enemy Chameleon Woman mage failed to effectively use this demon summoning deck, dying in the process, leaving it to be picked up by Freeya.
 
-And, it turned out to be one of the funnest parts of the campaign. Figuring out on the fly how particular demons would fight, influence the battles in various ways, how they would sound and what they would say was a ton of fun for me and my players.
+Over the course of the campaign, Freeya made use of the deck over and over again and, eventually, learned how to use it more effectively reducing the likelihood of a failed summoning from occurring.
 
-For example, Freeya using the demonic tarot deck contributed to Blotbug's death by sacrificial ritual late in the campaign. Cult of the Shattered Moon cultists ambushed the party, began "moon dancing" and trying to sacrifice Blotbug (which they'd been trying to do since before the start of the campaign).
+And, it turned out to be one of the funnest parts of the campaign. Figuring out on the fly how particular demons would fight, how they influence battles in other ways, how they would sound and what they would say was a ton of fun for me and my players. And, it had a big impact on some encounters and acted as a big levellup for the player characters who would have found themselves powerless to contend against the stronger threats in the labyrinth.
 
-In response, Freeya whipped out his deck as he was prone to do and summoned Yuval, a dromadary demon really into making people become friends. One thing led to another and Yuval compelled both the PCs and cultists to become friends and collaborate with each other on the ritual sacrifice of Blotbug to the Moon.
+For example, Freeya using the demonic tarot deck contributed to Blotbug's death by sacrificial ritual late in the campaign. Cult of the Shattered Moon cultists ambushed the party, began "moon dancing" and trying to sacrifice Blotbug (which they'd been trying to do since well before the start of the campaign).
 
-This didn't come completely out of the blue, Blotbug's player requested that his character be killed off a few minutes before this particular session started, so I scrambled to set up an encounter in which that was going to be likely to happen but not impossible to prevent.
+In response, Freeya whipped out his deck and summoned Yuval, a dromadary demon really into making people become friends. One thing led to another and Yuval compelled both the PCs and cultists to become friends and collaborate with each other on the ritual sacrifice of Blotbug.
+
+This series of events didn't come completely out of the blue. Blotbug's player requested that his character be killed off a few minutes before this particular session started, so I scrambled to set up an encounter in which that was going to be likely to happen but not impossible to prevent.
 
 I got lucky that the PCs rolled extremely poorly in this encounter which made it much easier for me to kill off Blotbug as requested. I'm not quite sure what I would have done if the PCs had rolled really well here... I guess we'll never know.
 
-Prior to this encounter, the demonic summoning deck had always produced good results although I had made it clear that it was a dangerous tool to use --- I was playing into expectations and tropes related to demonic summoning in other forms of media.
+Prior to this encounter, the demonic summoning deck had always produced good results although I had tried to make it clear that no matter how much time Freeya spent trying to master the deck and make it "safe" to use, it was always going to be dangerous --- here, I was playing into expectations and tropes related to demonic summoning in other forms of media.
 
-And, so like when djinnis grant wishes sometimes those wishes, the same can be said for demonic summonings. And, so when the demonic summoning went wrong and produced a less than ideal result for Freeya and especially Blotbug, I hope that that lined up with player expectations and their desires for their characters.
+And, so like when djinnis grant wishes sometimes those wishes are interpreted poorly, the same can be said for demonic summonings in my campaign. And, so when the demonic summoning went wrong and produced a less than ideal result for Freeya and especially Blotbug, my hope is that it landed, felt within reason of something that could and perhaps should have happened, and was fun to roleplay. From talking to my players, I think that mostly worked which was a happy accident for me considering the little time I had to prep for this big session.
 
-None of this would have happened if I didn't see this weird Tarot deck in real life and put it in the campaign.
+None of this would have happened if I didn't find this weird Tarot deck in real life and put it in the campaign.
 
-In a sense, the demon summoning Tarot deck was a such cool item and had such a big impact on encounters in the last half of the campaign that I found myself failing to come up with ideas on what I could give other player characters that would be just as cool and interesting.
+Although, the demon summoning Tarot deck was a such great item which had such a big impact on encounters in the last half of the campaign that I found myself failing to come up with ideas on what I could give other player characters that would be just as cool and impactful.
 
-If I were to play another OSR campaign I would try and come up with an ultimate item for each player character ahead of time so that when I needed a cool item to give to specific player characters, I would have the items ready to go.
+If I were to play another OSR campaign I would try to come up with an ultimate item for each player character ahead of time so that when I needed a cool item to give to specific player characters, I would have the items ready to go.
 
-Those were my big swings and how they went, another big swing of mine was deciding to use Foundry VTT for the first time. It went really well and I don't see myself doing much roleplaying online without it in the future --- it's just that good.
+Those were my big swings and how they went, another big swing of mine was deciding to use the Foundry virtual tabletop tool as a GM for the first time. It went really well and I don't see myself doing much roleplaying online without it in the future --- it's just that good.
 
 # Foundry VTT
 
