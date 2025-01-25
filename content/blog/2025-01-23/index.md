@@ -18,21 +18,21 @@ Now, I'll quickly summarize campaign for context, then I'll go over the lessons 
 
 # Campaign Summary
 
-A wizard contracted a ragtag group of petty criminals, con artists and thieves (the PCs) to steal a painting. The PCs were tasked with hanging the painting on a wall opposite a window, and waiting for the moon to come out.
+A wizard contracted a ragtag group of petty criminals, con artists and thieves (the PCs) to steal a painting. The PCs were tasked with hanging the painting on a wall opposite a window, and waiting for the moon to come out. This was a weird contract but the pay was a lot... Suspiciously so.
 
-As moonlight hit the painting, the group was pulled into it and they found themselves within the Labyrinth of the Blue Gorgon. They were trapped and were compelled to explore the dungeon.
+As moonlight hit the painting, the group was pulled into it and they found themselves trapped within the Labyrinth of the Blue Gorgon.
 
-Over the course of several days trapped in the dungeon, they solved puzzles, met allies and fought with reptilian fascists.
+Over the course of several days, they explored the dungeon: solving puzzles, meeting friends and foes and everything in between.
 
 Eventually, the group was given an opportunity to end the tyranny of the Blue Gorgon leading to a final encounter with the Blue Gorgon herself. The group gathered their many allies and brought them to the door of the Blue Gorgon's lair.
 
-They found the Blue Gorgon, having read the writing on the wall, working through her fate and being open to stepping down from the position of power she once held within the labyrinth.
+They found the Blue Gorgon, having read the writing on the wall, working through her fate.
 
-The group found themselves collaborating with the Ashen Chanterelle, the first character they'd met once they'd entered the dungeon initially, who planned to rescue the Three Perfect Sisters from the labyrinth and build the empire they once led which had long since been forgotten and buried by the world outside of the labyrinth.
+The group found themselves collaborating with the Ashen Chanterelle who planned to rescue the Three Perfect Sisters from the labyrinth and build the Empire they once led which had long since been forgotten and buried by the world outside of the labyrinth.
 
 The campaign ended as the ragtag group of scoundrels found themselves being promised positions of power within the administration of the soon-to-be rebuilt Empire led by the Chanterelle.
 
-[...]
+The end.
 
 # Shadowdark RPG
 
@@ -322,11 +322,13 @@ The takeaway for me here is that everyone at the table is discovering who their 
 
 If a player is deadset on playing an amnesiac character, I would make that sure by their second session, the character's gotten their memory back, everyone at the table knows exactly who they were and thus everyone should be ready to figure out who this character is going to become through play.
 
-## Create random spell tables to help run enemy spellcasters in combats
+## Create random spell tables to help run enemy spellcasters in combat
 
-Figuring out which spells an enemy spellcaster might have access to and would use in combat on the fly was challengin --- having tables that I could roll on to figure this out would have made my life much easier instead of trying to both run combat quickly without it becoming a slog AND figuring out which spells enemy spellcasters were going to cast... 
+Figuring out which spells an enemy spellcaster might have access to and would use in combat on the fly was challenging --- having tables that I could roll on to figure this out quickly would have made my life much easier.
 
-[...]
+Trying to run combat evocatively, fairly and quickly without losing player interest while trying to figure out which spells enemy spellcasters were going to cast proved to be much more challenging than I was expecting.
+
+In emergencies, I'd much rather roll on a random list of spells and pick a spell that might not be the perfect fit for a spellcaster to cast instead of slowing down combat to a crawl while I work my way through all the possible spells that they would choose to cast in this moment.
 
 # What were the biggest swings I'm most proud of in the campaign?
 
