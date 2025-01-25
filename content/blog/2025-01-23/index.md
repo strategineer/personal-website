@@ -54,7 +54,7 @@ Some of the classes found in the Shadowdark official zines feel out of place, to
 
 Although it didn't cause any serious problems in our campaign, it was an interesting challenge balancing combat encounters involving both our dwarven Pit Fighter Brod with 30 HP with a bunch of abilities that made him really hard to kill as well as Blotbug, our 4 HP goblin Witch.
 
-I would suggest you think carefully about allowing players to play any of these extra classes in your campaign.
+I would suggest thinking carefully about allowing players to pick any of these extra classes in your campaign, especially for players new to roleplaying who'd be better served by playing a simple class.
 
 ### Darkness rules are hard to use
 
@@ -94,17 +94,17 @@ Generally, the Maze of the Blue Medusa contains rooms that provide interesting c
 
 A defining feature of our campaign was the building and maintenance of a "Super Rake". After the party discovered a shed filled gardening tools, Marlon, the party's rogue, attached the head of a rake to his 10ft pole.
 
-Marlon whipped it out whenever he could (which was often). For example, he used it, from a safe distance, to poke at moving vines that were constantly reshaping themselves into the shape of a woman's face.
+Marlon whipped it out whenever he could (which was often). For example, he used it to poke at moving vines from a safe distance, avoiding being assaulted by them.
 
 ### Everything is weird
 
 Despite providing ample classic dungeon crawling puzzles and combat encounters, the Maze of the Blue Medusa refuses to play any of it straight --- every room, every NPC and every puzzle will be a little surreal, a little absurdist, a little mythical, a little weird and that's what got me interested in the Maze of the Blue Medusa in the first place.
 
-For example, you can expect players to encounter psychic pigs, laughing liches, book-worms, robotic peacock butlers, cannibal critics (they eat artists), I could go on.
+It didn't dissapoint. You can expect players to encounter psychic pigs, laughing liches, book-worms, robotic peacock butlers, cannibal critics (they eat artists), I could go on.
 
-As long as your players are open-minded enough to play in an off-kilter fantasy environment then the Maze of the Blue Medusa will provide that in spades.
+As long as your players are open-minded enough to play in an off-beat fantasy setting then the Maze of the Blue Medusa will provide that in spades.
 
-It executes this weird vibe so well that even though the megadungeon isn't perfect --- what it does do well is so unique and cool that it more than makes up for its minor failings.
+It executes this weird vibe so well that even though the megadungeon isn't perfect --- what it does do well is so unique that it more than makes up for its minor failings.
 
 Let's discuss what makes the Maze of the Blue Medusa less than perfect.
 
@@ -112,7 +112,7 @@ Let's discuss what makes the Maze of the Blue Medusa less than perfect.
 
 ### Some exceptionally boring rooms
 
-The Maze of the Blue Medusa is a big megadungeon and not all parts of it are created equally. Even though the quality of rooms is pretty high overall, there's a few that fall short.
+The Maze of the Blue Medusa is a big megadungeon and not all parts of it are created equally. Even though the quality of rooms is high overall, there's a few that fall short.
  
 An example of one is room 48 - Nui-Nga-Ma:
 
@@ -128,28 +128,28 @@ AC 16, HD 4, ATK d8/d8
 
 The way a GM could make this "encounter" interesting is beyond me.
 
-There's a few rooms in the Maze of the Blue Medusa that asked me to fill in the gaps way more than I was prepared for and as a result left me scratching my head in confusion (which is never a good position for a GM to find themselves in at the table).
+There's a few rooms in the Maze of the Blue Medusa that asked me to fill in the gaps way more than I was prepared for --- these rooms left me scratching my head in confusion (which is never a good position for a GM to find themselves in at the table).
 
-I imagine that a more well-prepared and/or experienced GM would be able to read a room description like this and decide to replace it with something else on the fly. That wasn't the case for me most of the time.
+I imagine that a more well-prepared and experienced GM would be able to read a questionable room description and decide to replace it with something else on the fly. That wasn't the case for me most of the time.
 
 ### Some players won't vibe with the abstract surreal art
 
-The drawings are quite abstract and don't do a good job of conveying what NPCs in particular actually look like. This proved to be a problem for the more visually-focused players in the group.
+The drawings are quite abstract and don't do a good job of conveying what NPCs actually look like. This proved to be a problem for the more visually-inclined players in the group.
 
-This put some extra pressure on me as the GM to describe NPCs in evocative ways and to find less abstract token images to represent these NPCs.
+This put some extra pressure on me as the GM to describe NPCs in more evocative ways and to find less abstract images to use as token art to represent these NPCs.
 
-This was challenging because of the large number of NPCs in the dungeon and because of their unique looks.
+This was challenging because of the large number of NPCs in the dungeon and because of their unique looks that were impossible to find exact matches for.
 
-### Interactions between factions are left for the GM to figure out
+### Interactions between factions are mostly left for the GM to figure out
 
-The Maze of the Blue Medusa book could have done a better job of helping you run it by providing more examples of how the factions could possibly interact with one another in interesting ways.
+The Maze of the Blue Medusa book could have done a better job of helping you run it by providing more examples of how the factions could interact with one another in interesting ways.
 
 The book could have been much more explicit about this in more places instead of leaving it mostly up to the GM to make all of these connections on their own.
 
 For example,
 
 {{< spoiler >}}
-Bringing the "Oku" (magical bird cosplayers essentially) who are natural rogues and thieves into conflict with the Cannibal Critics who are mostly feral zombies who consume artists and hang out in the art gallery would be a great idea.
+Bringing the "Oku" (magical bird cosplayers essentially) who are natural thieves and scavengers of knickknacks into conflict with the Cannibal Critics who are mostly feral zombies who consume artists and hang out in the art gallery would be a great idea.
 
 The book doesn't mention interactions like this much in the book and I think it'd be better if it did.
 {{< /spoiler >}}
@@ -160,33 +160,29 @@ So, the Maze of the Blue Medusa is great. The Shadowdark RPG system is great. Le
 
 Short answer, no.
 
-The Shadowdark RPG seems to hinge on the PCs struggle to light the path forward and avoid darkness at all costs.
+The Shadowdark RPG seems to want you to focus on the player characters's struggle to light the path forward and avoid darkness at all costs.
 
-I wasn't able to accentuate Shadowdark's many survival horror elements because of my inexperience with the Shadowdark system and its relative incompatibility with Maze of the Blue Medusa.
+Large sections of the Maze of the Blue Medusa are designed to be well-lit and wouldn't work at all if they weren't --- which made it hard to implement Shadowdark's light as a resource mechanics in the campaign. Thankfully, the Shadowdark RPG system holds up even if you mostly ignore the darkness parts of the rules.
 
-Large sections of the megadungeon are designed to be well-lit and wouldn't work at all if they weren't. Thankfully, the Shadowdark RPG system holds up even if you ignore all the darkness parts of the rules.
-
-While I'd consider running a Shadowdark RPG campaign again, I wouldn't recommend it for running the Maze of the Blue Medusa megadungeon without some caveats.
+While I'd consider running a Shadowdark RPG campaign again (maybe using [Patrick Stuart's Veins of the Earth sourcebook](https://www.goodreads.com/book/show/35080398-veins-of-the-earth)?), I wouldn't recommend it for running the Maze of the Blue Medusa without caveats.
 
 # What did I learn GMing this campaign?
 
 ## What did I learn GMing a megadungeon?
 
-### Megadungeons are not particularly well suited for player-centric play 
+### Use an NPC checklist to ensure that NPCs are reacting appropriately to the PCs's actions
 
-Megadungeons being so big and unexplored initially means that players are limited in their choices to do anything other than continue to open unopened doors in the dungeon.
+If I were to run a campaign with this many different NPCs in it again, I would write a list of all of the factions/NPCs that the PCs have met (and important ones that they haven't met), their current relationship to the PCs and their goals.
 
-Eventually, they'll meet factions and NPCs that they might want to interact with but whatever they choose to do with these NPCs, it'll involve opening more doors ad nauseam.
+I would walk through it after every session to ensure that factions and NPCs in the world react properly to the PCs actions. This would make the world come alive for players and add more weight to their actions within the game.
 
-Leaving the dungeon, doing some stuff and going into another dungeon is the stereotypical way a fantasy roleplaying game work. I'd argue that there's a reason for that --- it's much easier to run smaller dungeons, letting players leave them when they want to (usually when they're done) and then return to explore new dungeons instead of the same one over and over again.
+Walking through the checklist would provide a great opportunity to come up with ideas on how these reactions might come into play for players such that they're made aware that their actions in previous sessions have had consequences.
 
-### Simulating NPCs is hard
+For example, if the player piss off a faction, that faction might decide to put a bounty on the party's heads. In this case, I'd write a [bang](/blog/2024-11-18/#bangs) where a gang of bounty hunters run into the party and I'd prep a stat block for their leader.
 
-Actions taken with or against NPC factions in one area of the dungeon should be acknowledged and reacted to by at least some of the other factions in the dungeon.
+In a subsequent session, I'd throw some bounty hunters at the party.
 
-Megadungeons have a lot of factions in them making it that much harder to come up with the reactivity that players expect from these factions because of the number of them.
-
-All this to say, running a megadungeon is hard --- if I were to do it again, here's what I would do.
+Ideally, over time, I'd be able to build a list of these faction/NPC reaction bangs. Then, I'd be able to bring these bangs into play in subsequent sessions to create more complex narrative throughlines with the party juggling more than one faction/NPC relationship at a time.
 
 ### Provide clear direction for players early on
 
