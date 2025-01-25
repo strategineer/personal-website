@@ -294,6 +294,16 @@ An NPC like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer a
 
 I liked the voice I had for her, she could have been a fun recurring character and it's a shame I didn't bring her into play more often.
 
+## Don't have amnesiac player characters, especially characters who's history is completely unknown to everyone at the table
+
+During session 0 of the campaign, one player created their character then had to leave early and they were then
+
+Everyone at the table is discovering who their characters are at the table through play --- a complete blank slate is impossible to roleplay effectively.
+
+If a player is deadset on playing a character like this, make that sure by their second session, their memory is back and they know exactly who they were and 100% ready to figure out who they're to become through play.
+
+[...]
+
 # What were the biggest swings I'm most proud of in the campaign?
 
 ## survival horror roleplaying
@@ -315,6 +325,10 @@ I read carefully through hundreds of room descriptions and was able to bring the
 Running megadungeons well is hard but I did it.
 
 I didn't know where players were going to want to go next, so I prepped voices and encounters that they never came back to. but still it was fun
+
+## Germander's voice
+
+[...]
 
 # Foundry VTT
 
