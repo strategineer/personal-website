@@ -403,7 +403,7 @@ Over the course of the campaign, Freeya used the deck over and over again and le
 
 And, it turned out to be one of the funnest parts of the campaign. Figuring out on the fly how particular demons would fight, influence the battles in various ways, how they would sound and what they would say was a ton of fun for me and my players.
 
-For example, Freeya using the demonic tarot deck contributed to Blotbug's death by sacrifical ritual late in the campaign. Cult of the Shattered Moon cultists ambushed the party, began "moon dancing" and trying to sacrifice Blotbug (which they'd been trying to do since before the start of the campaign).
+For example, Freeya using the demonic tarot deck contributed to Blotbug's death by sacrificial ritual late in the campaign. Cult of the Shattered Moon cultists ambushed the party, began "moon dancing" and trying to sacrifice Blotbug (which they'd been trying to do since before the start of the campaign).
 
 In response, Freeya whipped out his deck as he was prone to do and summoned Yuval, a dromadary demon really into making people become friends. One thing led to another and Yuval compelled both the PCs and cultists to become friends and collaborate with each other on the ritual sacrifice of Blotbug to the Moon.
 
