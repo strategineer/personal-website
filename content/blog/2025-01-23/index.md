@@ -216,7 +216,7 @@ If PCs want to leave a dungeon they're trapped in (and they probably would unles
 
 PCs risking life and limb because they *want* to is more interesting than doing the same because they're *forced* to.
 
-### Give opportunities for players to accelerate their exploration of the dungeon
+### Give opportunities for players to accelerate their exploration
 
 Populate the megadungeon with more entrances, exits and ways for characters to travel through previously explored regions more quickly. 
 
@@ -262,7 +262,7 @@ I wouldn't have had the confidence or the skills to do that without forcing myse
 
 The Maze of the Blue Medusa features a ton of wild characters and trying, sometimes failing, to give all of them unique voices was a great learning experience and a ton of fun my players and I.
 
-## Write session summaries to help you remember key NPCs and player actions to bring up again later
+## Write session summaries to help you remember NPCs and player actions to bring up later
 
 Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions and reactions into subsequent sessions.
 
@@ -316,7 +316,7 @@ In most cases, using the modules below, especially [Token Action HUD](#token-act
 
 But when you do need to, perhaps because of a ruling you've made, using Dice Tray will be easier for most people instead of typing out dice notation formulas in the chat.
 
-### Token Action HUD shows you all the actions/ checks/rolls your characters can do at a glance
+### Token Action HUD shows you all the actions your characters can do
 
 Foundry without Token Action HUD is great but a shell of what it can be. If the system you're playing with supports the Token Action HUD family of modules, you'll absolutely want to use it.
 
