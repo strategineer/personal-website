@@ -22,11 +22,11 @@ Now, I'll go over the lessons learned about each of these parts individually and
 
 ### Concise, efficient rules
 
-I've read a bunch of different [OSR](#glossary) roleplaying rulebooks and out of all of those I chose Shadowdark for this campaign.
+I've read a bunch of different [OSR](#glossary) roleplaying rulebooks but I decided to use the Shadowdark system for this campaign.
 
 There's a lot to like about Shadowdark but its defining feature is that it's surprisingly **elegant** (considering that it won the [Ennie Award for Best Game in 2024](https://ennie-awards.com/portfolio-item/2024-nominees-and-winners/) this shouldn't come as too much of a surprise).
 
-The rulebook is a masterpiece of design --- it's one of the best laid out rulebooks I've read. The rules are concise, clear and comprehensive enough to allow new and experienced GMs to run Shadowdark games well after reading it.
+The rulebook is a masterpiece of design --- it's one of the best laid out rulebooks I've read. The rules are concise, clear and comprehensive enough to allow new and experienced GMs to run fun Shadowdark games right from the start.
 
 ### A great OSR system for less experienced GMs
 
@@ -36,13 +36,11 @@ For example, how do you as the GM emphasise the danger and urgency of exploring 
 
 The Shadowdark RPG rules go out of their way to give GMs, who've never run an OSR game like this before, guidance on how to do exactly this.
 
-Shadowdark's masterstroke is that 10 minutes of real-time represents 10 minutes of game-time (unless of course you've explicitly chosen to fast-forward through something).
-
-And, every so often depending on how dangerous the area the PCs are in, you'll roll a d6 to check for a random encounter. On a 1, the PCs encounter something or someone.
+Shadowdark's masterstroke is that 10 minutes of real-time represents 10 minutes of game-time. And, depending on how dangerous the area the PCs are in, every so often you'll roll a d6 to check for a random encounter. On a 1, the PCs encounter something or someone.
 
 This makes it clear for everyone at the table that spending real-time discussing what to do next or spending game-time searching under every tile in a room for traps brings the risk of a random encounter with it.
 
-So, players are encouraged by the system to just **do** something which tends to be more fun and keeps the game from becoming a slog.
+The system encourages players to just **do** something which tends to be more fun and keeps the game from becoming a slog.
 
 While experienced GMs can solve these problems intuitively, Shadowdark RPG provides explicit guidance, which is incredibly helpful for new GMs. This ethos makes Shadowdark RPG stand out among its OSR peers.
 
@@ -52,21 +50,21 @@ I can't stress how amazingly concise and useful the rulebook is. But it's not a 
 
 ### Supplemental classes are inconsistent
 
-Some of the classes found in the Shadowdark official zines feel out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes we know and love described in the core rulebook.
+Some of the classes found in the Shadowdark official zines feel out of place, too strong or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes described in the core rulebook.
 
 Although it didn't cause any serious problems in our campaign, it was an interesting challenge balancing combat encounters involving both our dwarven Pit Fighter Brod with 30 HP with a bunch of abilities that made him really hard to kill as well as Blotbug, our 4 HP goblin Witch.
 
-I would think carefully about allowing players to play any of these extra classes, especially if you're looking to double down the old school dungeon crawling experience.
+I would suggest you think carefully about allowing players to play any of these extra classes in your campaign.
 
 ### Darkness rules are hard to use
 
-The only thing that isn't elegant about Shadowdark RPG is its handling of darkness and how little it helps you run a fun game where light is a resource that has to be managed.
+The only thing that isn't elegant about Shadowdark is its handling of darkness and how little it helps you run a fun game where light is a resource that has to be managed.
 
 Unless you can figure out how to fill your dungeons with water splashing enemies (like the book recommends) without making the dungeons feel more like waterparks, you might run into the same problems I did.
 
 Thankfully, I found that the game works fine even if you mostly ignore the darkness rules.
 
-Having discussed the Shadowdark RPG system, now let's dive into the heart of my campaign --- the megadungeon itself.
+Having discussed Shadowdark, now let's dive into the heart of my campaign --- the megadungeon itself.
 
 # Maze of the Blue Medusa
 
@@ -78,17 +76,15 @@ The Maze of the Blue Medusa megadungeon fit that bill perfectly --- it's cool, i
 
 ### Great abstract, surreal art combined with evocative descriptions
 
-The Maze of the Blue Medusa is a product of a collaboration between Zak Sabbath and Patrick Stuart where Sabbath drew abstract, surreal room art to set the tone and would pass his art on to Stuart who would then write descriptions to breathe life into each area.
+The Maze of the Blue Medusa is a product of a collaboration between Zak Sabbath and Patrick Stuart where Sabbath drew abstract, surreal room art and would send his art to Stuart who would then write room descriptions based on the art. This back-and-forth continued for several years producing the one-of-a-kind Maze of the Blue Medusa.
 
-This back-and-forth continued for several years producing the one-of-a-kind Maze of the Blue Medusa.
-
-Despite this process, the megadungeon isn't as funhousey as you might expect. The megadungeon is partitioned into several sections with common visual, literary and gameplay themes spread throughout which helps connect the rooms together into a cohesive whole.
+Despite this process, the megadungeon isn't as funhousey as you might expect. The megadungeon is partitioned into sections with common visual, literary and gameplay themes which helps connect the rooms together into a cohesive whole.
 
 ### Weird, unique NPCs
 
-Several interesting factions and NPCs inhabit the dungeon. The GM can leverage these to further connect the disparate sections of the maze with each other and, in doing so, make the dungeon come alive for your players.
+Interesting factions and NPCs inhabit the dungeon. You can leverage these to further connect the disparate sections of the maze with each other and, in doing so, make the dungeon come alive for your players.
 
-There are hundreds of NPCs in the Maze of the Blue Medusa and I can imagine that any one of them could become a character that your players never forget for the rest of their lives.
+There are hundreds of NPCs in the Maze of the Blue Medusa and I can imagine any one of them becoming a character that your players never forget for the rest of their lives.
 
 It's hard to understate how out there and unique most of the NPCs are.
 
