@@ -336,52 +336,39 @@ I found myself being, more than I ever have before, comfortable with taking big 
 
 Here's a few of the bigger swings I made in this campaign and how they went:
 
-## Running a High Lethality Survival Horror roleplaying experience
+## Running a high lethality survival horror-like campaign
 
 I set out with this campaign to make my players fear for their characters's lives --- I wanted to make combat encounters tense and make players feel as though every combat decision they made mattered without faking numbers or going "easy" on them.
 
-I think I mostly succeeded in providing a high tension high lethality campaign even though no player characters died in regular combat encounters (Blotbug was sacrificed to the Moon by the Cult of the Shattered Moon but that's a story for another day).
+I think I mostly succeeded in providing a high tension high lethality campaign even though no player characters died in regular combat encounters.
 
-Almost every combat encounter the PCs participated in had one or more player characters drop to 0 HP, usually our 4 HP goblin Witch Blotbug, who were put in a "downed but not out" state and found themselves a turn or two away from dying every single time.
+Almost every combat encounter the PCs participated in had one or more player characters drop to 0 HP, usually our 4 HP goblin Witch Blotbug, who were put in a "downed but not out" state and found themselves a round or two away from dying more often than not.
 
 To make these moments more thrilling than they would be otherwise, I "borrowed" the best rule from {{< book_url "Mothership 1E">}} and integrated it into the Shadowdark rules.
 
-Whenever a player character would drop to 0 HP or below, I would roll a d4, adding to it the character's Constitution modifier. This produced a number called a death timer which represented the number of combat rounds at which point this character would die permanently unless they were stabilized by an ally. I decided to make these death timers secret like it's done in Mothership, instead of public as the Shadowdark rules ask for.
+Whenever a player character would drop to 0 HP or below, I would roll a d4, adding the character's Constitution modifier to it. This produced a death timer which represented the number of combat rounds the character had left before they died permanently unless they were stabilized by an ally. I decided to make these death timers secret like it's done in Mothership, instead of public as the Shadowdark rules ask for.
 
-This made combat encounters universally tense. Like I said, almost every combat encounter had a player character get downed and because the party didn't have a cleric, they had limited ways of stabilising player characters without risk.
+This made combat encounters universally tense. Like I said, almost every combat encounter had a player character getting downed and because the party didn't have a cleric, they had limited ways of stabilizing their allies without risk.
 
-I NEVER fudged the numbers on these secret death timers --- there was quite a few times that Blotbug was one round away from dying but each time he was picked back up again by one of his buddies, usually Freeya or Marlon with his heirloom staff of healing, and was able to continue adventuring with the group until his mostly consentual (it's complicated) sacrifice to the moon occurred in the last part of the campaign.
+I NEVER fudged the numbers on these secret death timers --- there was quite a few times that Blotbug or another PC was one round away from dying but each time they were picked back up again by one of their buddies, usually Freeya or Marlon with his staff of healing, and were able to continue adventuring with the group.
 
-I wonder if if a character dying early on in the campaign would have been ideal in that it would have trained players to fear the possibility of their characters dying even more because it happened once already... But I wouldn't force a character death to put ourselves in that situation artificially.
+That said, the survival horror / inventory management part of the campaign that I hoping to deliver on was harder to make interesting that I thought it would be. So, I wasn't able to deliver on that premise as much as I was hoping for.
 
-That said, the survival horror / inventory management part of the campaign that I hoping to deliver turned out to be much harder to make interesting that I thought it would. So, I wasn't able to deliver on that premise as  much as I was hoping for.
+After the first few sessions, I reduced the emphasis on gathering torches and tracking food rations for resting because I don't think that it was adding much to the campaign.
 
-Sometime in the first few sessions, I reduced the emphasis on gathering torches and tracking food rations for resting because I don't think that it was adding much to the campaign.
+Although, this implied scarcity of resources early on in the campaign did encourage player chararacters to engage in cannibalism and the eating of various other sapient-adjacent beings that they wouldn't have done otherwise. This led to some interesting serendipitous moments.
 
-Although, this implied scarcity of resources did lead the players to cannibalism and the eating of various other sapient-adjacent beings that might have not been eaten otherwise.
+For example, the eating of a size-changing psychic pig led to Freeya, who had critically succeeded at the "digestion" roll I asked players to do whenever they ate something weird, gaining the ability to commune with the psychic pig within himself to gain information from NPCs.
 
-For example, the eating of a size-changing psychic pig led to Freeya, who had critically succeeded at the "digestion" roll I asked players to do whenever they ate something weird, having an ability to commune with the psychic pig within himself to gain information from NPCs. This ability acted as a sort of social lubricant to enable him to connect with NPCs more easily and, also, it gave me an opportunity to reveal backstory and context clues about NPCs which would have been much more difficult to deliver through other means.
+This ability acted as a sort of social lubricant to enable him to connect with NPCs more easily and it provided me with opportunities to reveal context to players about the labyrinth and NPCs that was proving to be harder than I expected to deliver through other means.
 
-So, in this case, me trying and failing to do make a survival horrory campaign with scarce resources led to creative roleplaying and dice rolls that really added to the campaign in the longrun. But perhaps not in the exact way that I had intended it to.
-
-Serendipity, yayyyy!
-
-
-## Super villain / free will isn't real
-
-botched the landing, I think it's hard to have a mystery being in session 0 then have me drop hints about it but not reveal the punch until the very end.
-
-still was a cool idea
-
-explaining that the party were compelled by their lack of free will to explore the dungeon was a funny to me at least
-
-[...]
+So, in this case, me trying and failing to run a campaign with a focus on survival horror and inventory management with scarce resources led to creative roleplaying opportunities that really added a lot of spice and fun to the campaign that wouldn't have been there otherwise.
 
 ## I ran a megadungeon
 
-I read carefully through hundreds of room descriptions and I was able to bring them to life at the table week after week. I've spent a lot of time in this post discussing how running megadungeons well is hard but I did it anyway.
+I read carefully through hundreds of room descriptions and I was able to bring them and NPCs in them to life at the table week after week. I've spent a lot of time in this post discussing how running megadungeons well is hard but I did it anyway.
 
-I'm mentioned the specifics about the challenges of doing so and what I'd do differently above but I wanted to pat myself on the back for running a megadungeon despite all of these challenges --- some of which I was well aware of before starting the campaign.
+I've mentioned the specifics challenges I encountered and what I'd do differently above but I wanted to pat myself on the back for running a megadungeon despite all of these challenges --- some of which I was well aware of before starting the campaign.
 
 I did the thing.
 
