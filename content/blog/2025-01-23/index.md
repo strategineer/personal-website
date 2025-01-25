@@ -296,7 +296,16 @@ I liked the voice I had for her, she could have been a fun recurring character a
 
 ## Don't have amnesiac player characters, especially characters who's history is completely unknown to everyone at the table
 
-During session 0 of the campaign, one player created their character then had to leave early and they were then
+During the campaign, one character, the Dwarf Brod, was added to the party after the party had entered the dungeon. He was found running away from fascist Chameleon Women (as you do), he was saved by the party and joined the crew after the ensuing fight.
+
+He was amnesiac and nobody at the table including the player running him or myself had a clear idea of what his past was. Having no prior relationship with any of the existing party members AND having no known past (we thought that we'd fill that part in later) made it much harder for the player to roleplay them effectively and for me to understand where this character fit into the bigger picture.
+
+It wasn't that big of a deal but it's also something that I would never do again.
+
+A solution for this would have been to come up with a pre-existing relationship between Brod and somebody else in the party as soon as they joined party. Deciding that Brod was a long-lost adoptive relative of our mage Freeya would have been cool, fun to roleplay for everyone at the table and set the stage for intrigue and interesting narrative beats for the campaign.
+
+[...]
+
 
 Everyone at the table is discovering who their characters are at the table through play --- a complete blank slate is impossible to roleplay effectively.
 
