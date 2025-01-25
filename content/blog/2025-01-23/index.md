@@ -176,7 +176,7 @@ The book doesn't mention interactions like this much in the book and I think it'
 
 So, the Maze of the Blue Medusa is great. The Shadowdark RPG system is great. Let's discuss the challenges of running the Maze of the Blue Medusa using the Shadowdark RPG rules.
 
-# Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa?
+# Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa? No.
 
 Short answer, no.
 
@@ -222,7 +222,7 @@ Even if you decide that the PCs goal is to find a way out of the dungeon unless 
 
 If your players aren't exploring the megadungeon and becoming invested in this vast space and the NPCs that inhabit it, what's the point of running a megadungeon?
 
-### End each session, by confirming with your players where they're going next
+### End each session by confirming where the PCs are going next
 
 Prepping for all the possible paths the players might take through the megadungeon felt like torture because I wasted so much time prepping NPCs and encounters that players never experienced.
 
@@ -306,21 +306,21 @@ An NPC like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer a
 
 I liked the voice I had for her, she could have been a fun recurring character and it's a shame I didn't bring her into play more often.
 
-## Don't have amnesiac player characters, especially characters who's past is unknown to everyone at the table
+## Don't have amnesiac player characters
 
-During the campaign, one character, the dwarf Brod, was running away from fascist Chameleon Women (as you do), he fought them off with the help of the party and joined the crew after the fight.
+During the campaign, one character, the dwarf Brod, was running away from fascist Chameleon Women, he fought them off with the help of the party and joined the crew after the fight.
 
-Brod couldn't remember anything about his past other than his recent escape following him being tortured by these Chameleon Women. Nobody at the table, myself included, had a clear idea of where Brod came from.
+Brod couldn't remember anything about his past other than his recent escape from these Chameleon Women who were torturing him. Nobody at the table, myself included, had a clear idea of where Brod came from.
 
-Having no prior relationship with any of the existing party members AND having no known past (we eventually filled that part in later, but it was a little late) made it harder for the player to be comfortable roleplaying Brod and for me to understand where Brod fit into the bigger picture of the campaign and within the adventuring party.
+Having no prior relationship with any of the existing party members AND having no known past (we eventually filled that in later, but it was a little late) made it harder for the player to be comfortable roleplaying Brod and for me to understand where Brod fit into the bigger picture of the campaign and within the adventuring party.
 
-It wasn't that big of a deal but it's also something that I would never do again.
+It wasn't that big of a deal but it's also something that I would never do quite like this again.
 
 If I were to go back in time and do this different, I would have prompted everyone at the table to help us come up with a pre-existing relationship between Brod and somebody else in the party as soon as he entered the campaign.
 
-For example, deciding that Brod was a long-lost adoptive relative of our artist/wizard Freeya would have been acted as lubricant for fun roleplay for everyone at the table and this would have set the stage for intrigue and interesting narrative beats for the campaign later down the line.
+For example, deciding that Brod was a long-lost adoptive relative of our artist/wizard Freeya would have acted as lubricant for fun roleplay for everyone at the table and would have set the stage for intrigue and interesting narrative beats for the campaign later down the line.
 
-The takeaway for me here is that everyone at the table is discovering who their characters really are at the table through play --- a complete blank slate like an amnesiac character is that much harder to roleplay effectively.
+The takeaway for me here is that everyone at the table is discovering who their characters really are at the table through play. A complete blank slate like an amnesiac character is that much harder to roleplay effectively becaus of this.
 
 If a player is deadset on playing an amnesiac character, I would make that sure by their second session, the character's gotten their memory back, everyone at the table knows exactly who they were and thus everyone should be ready to figure out who this character is going to become through play.
 
