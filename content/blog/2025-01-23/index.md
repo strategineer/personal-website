@@ -356,7 +356,7 @@ That said, the survival horror / inventory management part of the campaign that 
 
 After the first few sessions, I reduced the emphasis on gathering torches and tracking food rations for resting because I don't think that it was adding much to the campaign.
 
-Although, this implied scarcity of resources early on in the campaign did encourage player chararacters to engage in cannibalism and the eating of various other sapient-adjacent beings that they wouldn't have done otherwise. This led to some interesting serendipitous moments.
+Although, this implied scarcity of resources early on in the campaign did encourage player characters to engage in cannibalism and the eating of various other sapient-adjacent beings that they wouldn't have done otherwise. This led to some interesting serendipitous moments.
 
 For example, the eating of a size-changing psychic pig led to Freeya, who had critically succeeded at the "digestion" roll I asked players to do whenever they ate something weird, gaining the ability to commune with the psychic pig within himself to gain information from NPCs.
 
