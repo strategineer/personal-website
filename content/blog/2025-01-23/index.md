@@ -12,13 +12,25 @@ Running a tabletop RPG campaign is always a learning experience. In this post, I
 
 I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through the Foundry virtual tabletop tool over the course of 4 months between September 2024 and January 2025.
 
-Now, I'll go over the lessons learned about each of these parts individually and then cover the insights gained from combining them all together for the campaign.
+Now, I'll quickly summarize campaign for context, then I'll go over the lessons learned about each of the parts of the campaign individually and, finally, I'll cover the insights gained from combining them all together for the campaign.
 
 {{< toc >}}
 
 # Campaign Summary
 
-(one paragraph summarizing the whole campaign structure)
+A wizard contracted a ragtag group of petty criminals, con artists and thieves (the PCs) to steal a painting. The PCs were tasked with hanging the painting on a wall opposite a window, and waiting for the moon to come out.
+
+As moonlight hit the painting, the group was pulled into it and they found themselves within the Labyrinth of the Blue Gorgon. They were trapped and were compelled to explore the dungeon.
+
+Over the course of several days trapped in the dungeon, they solved puzzles, met allies and fought with reptilian fascists.
+
+Eventually, the group was given an opportunity to end the tyranny of the Blue Gorgon leading to a final encounter with the Blue Gorgon herself. The group gathered their many allies and brought them to the door of the Blue Gorgon's lair.
+
+They found the Blue Gorgon, having read the writing on the wall, working through her fate and being open to stepping down from the position of power she once held within the labyrinth.
+
+The group found themselves collaborating with the Ashen Chanterelle, the first character they'd met once they'd entered the dungeon initially, who planned to rescue the Three Perfect Sisters from the labyrinth and build the empire they once led which had long since been forgotten and buried by the world outside of the labyrinth.
+
+The campaign ended as the ragtag group of scoundrels found themselves being promised positions of power within the administration of the soon-to-be rebuilt Empire led by the Chanterelle.
 
 [...]
 
@@ -190,14 +202,6 @@ In a subsequent session, I'd throw some bounty hunters at the party.
 
 Ideally, over time, I'd be able to build a list of these faction/NPC reaction bangs. Then, I'd be able to bring these bangs into play in subsequent sessions to create more complex narrative throughlines with the party juggling more than one faction/NPC relationship at a time.
 
-### End each session, confirming with your players where they're going next
-
-prepping for all the possible paths they might take is torture and led to a lot of wasted prep time that I could have spent prepping things that players were going to engage with
-
-this wasted prep time is inevitable no matter what you do, but getting a clear confirmation of where players are going to go will help with this.
-
-[...]
-
 ### Provide clear direction for players early on
 
 Give PCs a dated/incomplete map of the dungeon early on in their journey to give them an initial thrust towards something in the dungeon that interests them.
@@ -215,6 +219,12 @@ Trapping PCs in a megadungeon without an established goal (which is what I did i
 Even if you decide that the PCs goal is to find a way out of the dungeon unless the dungeon is specifically built around that goal I don't think it would work very well.
 
 If your players aren't exploring the megadungeon and becoming invested in this vast space and the NPCs that inhabit it, what's the point of running a megadungeon?
+
+### End each session, by confirming with your players where they're going next
+
+Prepping for all the possible paths the players might take through the megadungeon felt like torture because I wasted so much time prepping NPCs and encounters that players never experienced.
+
+Running a megadungeon, some of your prep time will be wasted no matter what you do to try and avoid this, but getting a confirmation of where players are going to go next at the end of each session would have helped reduce this wasted prep time.
 
 ### Never trap players without a purpose
 
@@ -294,30 +304,68 @@ An NPC like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer a
 
 I liked the voice I had for her, she could have been a fun recurring character and it's a shame I didn't bring her into play more often.
 
-## Don't have amnesiac player characters, especially characters who's history is completely unknown to everyone at the table
+## Don't have amnesiac player characters, especially characters who's past is unknown to everyone at the table
 
-During the campaign, one character, the Dwarf Brod, was added to the party after the party had entered the dungeon. He was found running away from fascist Chameleon Women (as you do), he was saved by the party and joined the crew after the ensuing fight.
+During the campaign, one character, the dwarf Brod, was running away from fascist Chameleon Women (as you do), he fought them off with the help of the party and joined the crew after the fight.
 
-He was amnesiac and nobody at the table including the player running him or myself had a clear idea of what his past was. Having no prior relationship with any of the existing party members AND having no known past (we thought that we'd fill that part in later) made it much harder for the player to roleplay them effectively and for me to understand where this character fit into the bigger picture.
+Brod couldn't remember anything about his past other than his recent escape following him being tortured by these Chameleon Women. Nobody at the table, myself included, had a clear idea of where Brod came from.
+
+Having no prior relationship with any of the existing party members AND having no known past (we eventually filled that part in later, but it was a little late) made it harder for the player to be comfortable roleplaying Brod and for me to understand where Brod fit into the bigger picture of the campaign and within the adventuring party.
 
 It wasn't that big of a deal but it's also something that I would never do again.
 
-A solution for this would have been to come up with a pre-existing relationship between Brod and somebody else in the party as soon as they joined party. Deciding that Brod was a long-lost adoptive relative of our mage Freeya would have been cool, fun to roleplay for everyone at the table and set the stage for intrigue and interesting narrative beats for the campaign.
+If I were to go back in time and do this different, I would have prompted everyone at the table to help us come up with a pre-existing relationship between Brod and somebody else in the party as soon as he entered the campaign.
 
-[...]
+For example, deciding that Brod was a long-lost adoptive relative of our artist/wizard Freeya would have been acted as lubricant for fun roleplay for everyone at the table and this would have set the stage for intrigue and interesting narrative beats for the campaign later down the line.
 
+The takeaway for me here is that everyone at the table is discovering who their characters really are at the table through play --- a complete blank slate like an amnesiac character is that much harder to roleplay effectively.
 
-Everyone at the table is discovering who their characters are at the table through play --- a complete blank slate is impossible to roleplay effectively.
+If a player is deadset on playing an amnesiac character, I would make that sure by their second session, the character's gotten their memory back, everyone at the table knows exactly who they were and thus everyone should be ready to figure out who this character is going to become through play.
 
-If a player is deadset on playing a character like this, make that sure by their second session, their memory is back and they know exactly who they were and 100% ready to figure out who they're to become through play.
+## Create random spell tables to help run enemy spellcasters in combats
+
+Figuring out which spells an enemy spellcaster might have access to and would use in combat on the fly was challengin --- having tables that I could roll on to figure this out would have made my life much easier instead of trying to both run combat quickly without it becoming a slog AND figuring out which spells enemy spellcasters were going to cast... 
 
 [...]
 
 # What were the biggest swings I'm most proud of in the campaign?
 
-## survival horror roleplaying
+In running my Labyrinth of the Blue Gorgon campaign, one of my goals was to try a bunch of stuff I'd never done before, to learn from the experience of failing to do all of it perfectly so I could bring that experience back to the table in my future roleplaying endeavours.
 
-a bit of a miss, survival horror turned into a focus on high lethality
+I found myself being, more than I ever have before, comfortable with taking big swings as a GM, knowing fully well that I was increasing the risk of missing. I decided to take that increased risk instead of playing it safe and learning much less from the experience.
+
+Here's a few of the bigger swings I made in this campaign and how they went:
+
+## Running a High Lethality Survival Horror roleplaying experience
+
+I set out with this campaign to make my players fear for their characters's lives --- I wanted to make combat encounters tense and make players feel as though every combat decision they made mattered without faking numbers or going "easy" on them.
+
+I think I mostly succeeded in providing a high tension high lethality campaign even though no player characters died in regular combat encounters (Blotbug was sacrificed to the Moon by the Cult of the Shattered Moon but that's a story for another day).
+
+Almost every combat encounter the PCs participated in had one or more player characters drop to 0 HP, usually our 4 HP goblin Witch Blotbug, who were put in a "downed but not out" state and found themselves a turn or two away from dying every single time.
+
+To make these moments more thrilling than they would be otherwise, I "borrowed" the best rule from {{< book_url "Mothership 1E">}} and integrated it into the Shadowdark rules.
+
+Whenever a player character would drop to 0 HP or below, I would roll a d4, adding to it the character's Constitution modifier. This produced a number called a death timer which represented the number of combat rounds at which point this character would die permanently unless they were stabilized by an ally. I decided to make these death timers secret like it's done in Mothership, instead of public as the Shadowdark rules ask for.
+
+This made combat encounters universally tense. Like I said, almost every combat encounter had a player character get downed and because the party didn't have a cleric, they had limited ways of stabilising player characters without risk.
+
+I NEVER fudged the numbers on these secret death timers --- there was quite a few times that Blotbug was one round away from dying but each time he was picked back up again by one of his buddies, usually Freeya or Marlon with his heirloom staff of healing, and was able to continue adventuring with the group until his mostly consentual (it's complicated) sacrifice to the moon occurred in the last part of the campaign.
+
+I wonder if if a character dying early on in the campaign would have been ideal in that it would have trained players to fear the possibility of their characters dying even more because it happened once already... But I wouldn't force a character death to put ourselves in that situation artificially.
+
+That said, the survival horror / inventory management part of the campaign that I hoping to deliver turned out to be much harder to make interesting that I thought it would. So, I wasn't able to deliver on that premise as  much as I was hoping for.
+
+Sometime in the first few sessions, I reduced the emphasis on gathering torches and tracking food rations for resting because I don't think that it was adding much to the campaign.
+
+Although, this implied scarcity of resources did lead the players to cannibalism and the eating of various other sapient-adjacent beings that might have not been eaten otherwise.
+
+For example, the eating of a size-changing psychic pig led to Freeya, who had critically succeeded at the "digestion" roll I asked players to do whenever they ate something weird, having an ability to commune with the psychic pig within himself to gain information from NPCs. This ability acted as a sort of social lubricant to enable him to connect with NPCs more easily and, also, it gave me an opportunity to reveal backstory and context clues about NPCs which would have been much more difficult to deliver through other means.
+
+So, in this case, me trying and failing to do make a survival horrory campaign with scarce resources led to creative roleplaying and dice rolls that really added to the campaign in the longrun. But perhaps not in the exact way that I had intended it to.
+
+Serendipity, yayyyy!
+
 
 ## Super villain / free will isn't real
 
@@ -327,6 +375,8 @@ still was a cool idea
 
 explaining that the party were compelled by their lack of free will to explore the dungeon was a funny to me at least
 
+[...]
+
 ## I ran a megadungeon
 
 I read carefully through hundreds of room descriptions and was able to bring them to life at the table week after week.
@@ -335,7 +385,9 @@ Running megadungeons well is hard but I did it.
 
 I didn't know where players were going to want to go next, so I prepped voices and encounters that they never came back to. but still it was fun
 
-## Germander's voice
+[...]
+
+## Germander's voice --- voicing characters generally
 
 [...]
 
