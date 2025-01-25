@@ -379,19 +379,37 @@ explaining that the party were compelled by their lack of free will to explore t
 
 ## I ran a megadungeon
 
-I read carefully through hundreds of room descriptions and was able to bring them to life at the table week after week.
+I read carefully through hundreds of room descriptions and I was able to bring them to life at the table week after week. I've spent a lot of time in this post discussing how running megadungeons well is hard but I did it anyway.
 
-Running megadungeons well is hard but I did it.
+I'm mentioned the specifics about the challenges of doing so and what I'd do differently above but I wanted to pat myself on the back for running a megadungeon despite all of these challenges --- some of which I was well aware of before starting the campaign.
 
-I didn't know where players were going to want to go next, so I prepped voices and encounters that they never came back to. but still it was fun
+I did the thing.
 
-[...]
+It wasn't perfect but tabletop roleplaying never is. The uncertainty, the chaos and the challenge are part of the fun and without them there wouldn't be a reason for me to roleplay in the first place.
 
-## Germander's voice --- voicing characters generally
+## Giving NPC unhinged wacky out there voices
 
-[...]
+Before running this campaign, I'd never really tried to voice NPCs much differently from the way I speak normally. I'd put my tongue in my cheek or fix parts of my face into a shape to change my voice a bit but this was never something I focused on much.
 
-## tarot - demonic summonning deck
+With this campaign, I set out to go big with my voices and spend a lot of time trying to both speak in a voice unlike my own and come up with things that the NPC would say at the same time.
+
+Maybe this kind of thing comes naturally for some people, but it didn't for me. I had to put in a bunch of work for this. Thankfully, it paid off.
+
+An example of this was my voice for Germander. Here's his description for context:
+
+> Germander is a 15' long gray-pink worm with the most fucked up voice you can summon and features just this side of the uncanny valley, but is among the more agreeable creatures you’ll meet in the Maze.
+
+When the party encountered Germander for the first time, I described his appearance and I unleashed the most unhinged voice I could come up with and it got a really positive reaction from my players.
+
+Before the campaign started, I had told everyone that I would try and have unique voices for all the NPCs they would meet but, in that moment, I followed through and surprised them with my willingness to be ridiculous and fail repeatedly to be consistent with these voices I came up with.
+
+I was OK with that and I was really pleased to be given the opportunity to grow in this safe space that I was given --- not all roleplaying groups are like this.
+
+Germander's voice and his vibe were interesting enough for players that they spent most of the campaign with him acting as their main patron --- giving them more opportunities to interact with him, the PCs went on a quest to find more books for Germander to read.
+
+**speaks in cowboy voice**: What can I say, partner? I must have done something right because it felt so good. I'd do it again in a heartbeat --- don't you forget it.
+
+## Giving a demonic summoning tarot deck to a PC
 
 Spending some time with family one day after one of our roleplaying sessions, I stumbled on a deck of Tarot cards (Travis McHenry's Occult Tarot specifically) that was demon-themed --- each card had a demon on it with a summary of the demon's vibe and their "powers".
 
