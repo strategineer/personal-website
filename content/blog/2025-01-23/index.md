@@ -16,6 +16,12 @@ Now, I'll go over the lessons learned about each of these parts individually and
 
 {{< toc >}}
 
+# Campaign Summary
+
+(one paragraph summarizing the whole campaign structure)
+
+[...]
+
 # Shadowdark RPG
 
 ## What's cool about Shadowdark RPG?
@@ -184,6 +190,14 @@ In a subsequent session, I'd throw some bounty hunters at the party.
 
 Ideally, over time, I'd be able to build a list of these faction/NPC reaction bangs. Then, I'd be able to bring these bangs into play in subsequent sessions to create more complex narrative throughlines with the party juggling more than one faction/NPC relationship at a time.
 
+### End each session, confirming with your players where they're going next
+
+prepping for all the possible paths they might take is torture and led to a lot of wasted prep time that I could have spent prepping things that players were going to engage with
+
+this wasted prep time is inevitable no matter what you do, but getting a clear confirmation of where players are going to go will help with this.
+
+[...]
+
 ### Provide clear direction for players early on
 
 Give PCs a dated/incomplete map of the dungeon early on in their journey to give them an initial thrust towards something in the dungeon that interests them.
@@ -278,7 +292,29 @@ I should have also changed the random encounter table to include a "recurring NP
 
 An NPC like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer and artifact gatherer lady) would have been a great fit for this considering her inherent mobility.
 
-I liked the voice I had for her, she could have been a fun recurring character and it's a shame I didn't bring her into play more often. 
+I liked the voice I had for her, she could have been a fun recurring character and it's a shame I didn't bring her into play more often.
+
+# What were the biggest swings I'm most proud of in the campaign?
+
+## survival horror roleplaying
+
+a bit of a miss, survival horror turned into a focus on high lethality
+
+## Super villain / free will isn't real
+
+botched the landing, I think it's hard to have a mystery being in session 0 then have me drop hints about it but not reveal the punch until the very end.
+
+still was a cool idea
+
+explaining that the party were compelled by their lack of free will to explore the dungeon was a funny to me at least
+
+## I ran a megadungeon
+
+I read carefully through hundreds of room descriptions and was able to bring them to life at the table week after week.
+
+Running megadungeons well is hard but I did it.
+
+I didn't know where players were going to want to go next, so I prepped voices and encounters that they never came back to. but still it was fun
 
 # Foundry VTT
 
