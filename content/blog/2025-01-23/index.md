@@ -100,7 +100,7 @@ Marlon whipped it out whenever he could (which was often). For example, he used 
 
 Despite providing ample classic dungeon crawling puzzles and combat encounters, the Maze of the Blue Medusa refuses to play any of it straight --- every room, every NPC and every puzzle will be a little surreal, a little absurdist, a little mythical, a little weird and that's what got me interested in the Maze of the Blue Medusa in the first place.
 
-It didn't dissapoint. You can expect players to encounter psychic pigs, laughing liches, book-worms, robotic peacock butlers, cannibal critics (they eat artists), I could go on.
+It didn't disappoint. You can expect players to encounter psychic pigs, laughing liches, book-worms, robotic peacock butlers, cannibal critics (they eat artists), I could go on.
 
 As long as your players are open-minded enough to play in an off-beat fantasy setting then the Maze of the Blue Medusa will provide that in spades.
 
