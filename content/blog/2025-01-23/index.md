@@ -1,5 +1,5 @@
 ---
-title: "My Maze of the Blue Medusa campaign: How'd it go?"
+title: "Surviving the Maze: Reflections on Running the Maze of the Blue Medusa with Shadowdark through Foundry VTT"
 date: 2025-01-24
 blog/tags:
   - tabletop
