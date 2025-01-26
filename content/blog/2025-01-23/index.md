@@ -71,11 +71,13 @@ I can't stress enough how amazingly concise and useful the rulebook is. Still, i
 
 ### Supplemental classes are inconsistent
 
-Some of the classes found in the Shadowdark official zines feel out of place, too strong, or too weird compared to the classic Fighter/Rogue/Wizard/Cleric classes described in the core rulebook.
+Some of the classes found in the Shadowdark official zines feel out of place, too strong, or too weird compared to the classic Fighter/Rogue/Wizard/Priest classes described in the core rulebook.
 
 Although it didn't cause any serious problems in our campaign, it was an interesting challenge balancing combat encounters involving Brod, the tanky dwarven Pit Fighter with 30 HP, and Blotbug, the squishy goblin Witch with 5 HP.
 
 I would suggest thinking carefully about allowing players to pick any of these extra classes in your campaign--especially for players new to roleplaying, who'd be better served by playing a more iconic and simpler class.
+
+For example, I regretted letting a player who'd never done any roleplaying before pick the Seer class. It's a cool class but there's already enough for a player to think about when roleplaying their first time and I'd rather they spend that energy on anything other than weird class mechanics, designed for players who already know how to roleplay.
 
 ### Darkness rules are hard to use
 
@@ -171,7 +173,7 @@ Interactions between factions like this aren't mentioned often in the book, and 
 
 ---
 
-So, the Maze of the Blue Medusa is great. The Shadowdark RPG system is great. Let's discuss the challenges of running the Maze of the Blue Medusa using the Shadowdark RPG rules.
+Despite these hiccups, the Maze of the Blue Medusa is still extraordinary. Next, let’s see how Shadowdark stacked up against this high-weirdness environment and vice versa.
 
 # Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa?
 
@@ -219,7 +221,7 @@ No matter how interesting the encounters are, opening doors repeatedly becomes m
 
 ### Establish a reason for PCs to continue exploring the dungeon
 
-> Takeaway: "Establish a reason, ideally something more interesting than a quest for loot, for PCs to continue exploring the dungeon instead of just wanting out the front door and never coming back."
+> Takeaway: "Players stay more engaged when they have a clear objective—no one wants to open random doors indefinitely."
 
 Whether it's rescuing an NPC, mapping out the dungeon, or finding a particular artifact, giving a clear goal for PCs to strive toward will get them moving in a direction instead of aimlessly wandering around hoping to stumble on treasure.
 
@@ -531,3 +533,9 @@ Once you have your image, all you have to do in Foundry is:
 # Conclusion
 
 I can't wait to dive into my next campaign, armed with all the lessons learned from running this one. Until next time, happy gaming!
+
+# Resources
+
+- [Maze of the Blue Medusa](https://twodollarradio.com/products/maze-of-the-blue-medusa)
+- [Shadowdark RPG](https://www.thearcanelibrary.com/pages/shadowdark)
+- [Mothership RPG](https://www.tuesdayknightgames.com/pages/mothership-rpg)
