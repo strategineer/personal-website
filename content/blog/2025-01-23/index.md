@@ -12,23 +12,23 @@ Running a tabletop RPG campaign is always a learning experience. In this post, I
 
 I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through the Foundry virtual tabletop tool between September 2024 and January 2025.
 
-To start, I'll summarize the campaign, then I'll go over the lessons learned about each of the parts of the campaign individually and, finally, I'll cover insights gained from the campaign as a whole.
+To start, I'll summarize the campaign, then I'll go over the lessons learned about each of the parts of the campaign individually, and finally, I'll cover insights gained from the campaign as a whole.
 
-This is a really long post so I've tried to make it as skimmable as possible. Here's a table of contents with concise section headers for you to skim at your leisure:
+This is a really long post, so I've tried to make it as skimmable as possible. Here's a table of contents with concise section headers for you to skim at your leisure:
 
 {{< toc >}}
 
 # Campaign Summary
 
-A wizard contracted a ragtag group of petty criminals, con artists and thieves (the PCs) to steal a painting. The PCs were pulled into it --- finding themselves trapped within the Labyrinth of the Blue Gorgon.
+A wizard contracted a ragtag group of petty criminals, con artists and thieves (the PCs) to steal a painting. The PCs were pulled into it, finding themselves trapped within the Labyrinth of the Blue Gorgon.
 
 The PCs explored the dungeon: solving puzzles, meeting friends and foes and everything in between.
 
-Eventually, the PCs were given an opportunity to end the tyranny of the Blue Gorgon leading to a final encounter with the Blue Gorgon herself. The PCs gathered their many allies and brought them to the door of the Blue Gorgon's lair.
+Eventually, the PCs were given an opportunity to end the tyranny of the Blue Gorgon, leading to a final encounter with the Blue Gorgon herself. The PCs gathered their many allies and brought them to the door of the Blue Gorgon's lair.
 
 They found the Blue Gorgon, having read the writing on the wall, working through her fate and telling her Chameleon Women devotees to stand down.
 
-The group found themselves collaborating with the Ashen Chanterelle who planned to rescue the Three Perfect Sisters from the labyrinth and rebuild the fallen Empire they once ruled, long since forgotten and buried by the world outside of the labyrinth.
+The group found themselves collaborating with the Ashen Chanterelle, who planned to rescue the Three Perfect Sisters from the labyrinth and rebuild the fallen Empire they once ruled, long since forgotten and buried by the world outside of the labyrinth.
 
 The campaign ended as the ragtag group of scoundrels found themselves being promised positions of power within the administration of the soon-to-be rebuilt Empire led by the Chanterelle.
 
@@ -40,25 +40,25 @@ The end.
 
 ### Concise, efficient rules
 
-There's a lot to like about Shadowdark but its defining feature is that it's surprisingly **elegant** (considering that it won the [Ennie Award for Best Game in 2024](https://ennie-awards.com/portfolio-item/2024-nominees-and-winners/) this shouldn't come as too much of a surprise).
+There's a lot to like about Shadowdark but its defining feature is that it's surprisingly **elegant** (considering that it won the [Ennie Award for Best Game in 2024](https://ennie-awards.com/portfolio-item/2024-nominees-and-winners/), this shouldn't come as too much of a surprise).
 
-The rulebook is a masterpiece of design --- it's one of the best laid out rulebooks I've read. The rules are concise, clear and comprehensive enough to allow new and experienced GMs to run fun Shadowdark games right ASAP.
+The rulebook is a masterpiece of design, it's one of the best laid out rulebooks I've read. The rules are concise, clear and comprehensive enough to allow new and experienced GMs to run fun Shadowdark games right ASAP.
 
 ### A great OSR system for less experienced GMs
 
 The Shadowdark RPG rulebook is incredibly helpful for GMs. It doesn't assume years of experience and provides clear instructions on how to run the game.
 
-For example, how do you as the GM emphasise the danger and urgency of exploring a dark dank dungeon? A lot of OSR systems assume that you as the GM already know how to do this.
+For example, how do you as the GM emphasise the danger and urgency of exploring a dark dank dungeon? Many OSR systems assume you, as the GM, already know how to do this.
 
 The Shadowdark RPG rules go out of their way to give GMs, who've never run an OSR game like this before, guidance on how to do exactly this.
 
 Shadowdark's masterstroke is that 10 minutes of real-time represents 10 minutes of game-time. And, depending on how dangerous the area the PCs are in, every so often you'll roll a d6 to check for a random encounter. On a 1, the PCs encounter something or someone.
 
-This makes it clear for everyone at the table that spending real-time discussing what to do next or spending game-time searching under every tile in a room for traps brings the risk of a random encounter with it.
+This makes it clear that spending real-time discussing next steps or game-time searching under every tile in a room for traps increases the risk of a random encounter.
 
 The system encourages players to just **do** something which tends to be more fun and helps keep the game from becoming a slog.
 
-While experienced GMs can solve these problems intuitively, Shadowdark RPG provides explicit guidance, which is incredibly helpful for new GMs. This ethos makes Shadowdark RPG stand out among its many OSR peers.
+While experienced GMs can solve these problems intuitively, Shadowdark RPG provides explicit guidance; which is incredibly helpful for new GMs. This ethos makes Shadowdark RPG stand out among its many OSR peers.
 
 I can't stress how amazingly concise and useful the rulebook is. Still, it won't be a perfect fit for every OSR campaign you're going to run.
 
@@ -92,15 +92,15 @@ The Maze of the Blue Medusa megadungeon fit that bill perfectly --- it's cool, i
 
 ### Great abstract, surreal art combined with evocative descriptions
 
-The Maze of the Blue Medusa is a product of a collaboration between Zak Sabbath and Patrick Stuart. Sabbath drew abstract, surreal room art and would send his art to Stuart who would then write room descriptions based on the art. This back-and-forth continued for several years producing the one-of-a-kind Maze of the Blue Medusa.
+The Maze of the Blue Medusa is a product of a collaboration between Zak Sabbath and Patrick Stuart. Sabbath drew abstract, surreal room art and would send his art to Stuart who would then write room descriptions based on the art. This back-and-forth continued for several years, producing the one-of-a-kind Maze of the Blue Medusa.
 
-Despite this process, the megadungeon isn't as funhousey as you might expect. The megadungeon is partitioned into sections with common visual, literary and gameplay themes which helps connect the rooms together into a cohesive whole.
+Despite this process, the megadungeon doesn't feel as much like a funhouse as you might expect. The megadungeon is partitioned into sections with common visual, literary and gameplay themes which helps connect the rooms together into a cohesive whole.
 
 ### Weird, unique NPCs
 
 Interesting factions and NPCs inhabit the dungeon. You can leverage these to further connect the disparate sections of the maze with each other and, in doing so, make the dungeon come alive for your players.
 
-There are hundreds of NPCs in the Maze of the Blue Medusa and I can imagine any one of them becoming a character that your players never forget for the rest of their lives.
+There are hundreds of NPCs in the Maze of the Blue Medusa, and I can imagine any one of them becoming a character that your players never forget for the rest of their lives.
 
 It's hard to understate how out there and unique most of these NPCs are.
 
@@ -110,7 +110,7 @@ Despite providing ample classic dungeon crawling puzzles and combat encounters, 
 
 It didn't disappoint. You can expect players to encounter psychic pigs, laughing liches, book-worms, robotic peacock butlers, cannibal critics (they eat artists), I could go on.
 
-As long as your players are open-minded enough to play in this off-beat fantasy setting then the Maze of the Blue Medusa would be a great choice to include in your next OSR campaign.
+As long as your players are open-minded enough to play in this off-beat fantasy setting, then the Maze of the Blue Medusa would be a great choice to include in your next OSR campaign.
 
 It executes this weird vibe so well that even though the megadungeon isn't perfect --- what it does do well is so unique which more than makes up for its minor failings.
 
@@ -120,7 +120,7 @@ Let's discuss what makes the Maze of the Blue Medusa less than perfect.
 
 ### Some exceptionally boring rooms
 
-The Maze of the Blue Medusa is a big megadungeon and not all parts of it were created equally. Overally, the quality of rooms is high, there's a few that fall short.
+The Maze of the Blue Medusa is a big megadungeon and not all parts of it were created equally well. Overally, the quality of rooms is high, there's a few that fall short.
  
 An example of one is room 48 - Nui-Nga-Ma:
 
@@ -184,7 +184,7 @@ If I were to run a campaign with this many different NPCs in it again, I would w
 
 I would review it after every session to ensure that I was prepared to make factions and NPCs in the world react appropriately to the actions of the player characters and, more generally, the events taking place in the game world. This would make the world come alive for players and add more weight to their actions within the game.
 
-Walking through the checklist would also provide a great opportunity to come up with ideas on how I might bring these reactions into focus for players such that they're made aware that their actions in previous sessions have had consequences and that the world is responding to them.
+Walking through the checklist would also provide a great opportunity to come up with ideas on how I might bring these reactions into focus for players, such that they're made aware that their actions in previous sessions have had consequences and that the world is responding to them.
 
 For example, if the PCs piss off a faction, that faction might decide to put a bounty on the party. In this case, I'd write a [bang](/blog/2024-11-18/#bangs) where a gang of bounty hunters run into the party and I'd also prep a stat blocks for their leader and her mooks.
 
@@ -198,13 +198,13 @@ Without some sort of direction, exploring a megadungeon can feel a little aimles
 
 One way of solving this problem would be to give the PCs an incomplete map of the dungeon early on in their journey to give them an initial thrust towards something in the dungeon that interests them.
 
-No matter how interesting the encounters are, opening doors over and over again gets monotonous after a while unless the PCs have something they're trying to get to or a specific problem to solve.
+No matter how interesting the encounters are, opening doors repeatedly becomes monotonous after a while unless the PCs have something they're trying to get to or a specific problem to solve.
 
 ### Establish a goal and reason for the PCs to explore the dungeon
 
-Whether it's rescuing an NPC, mapping out the dungeon, finding a particular artifact, etc. giving a clear goal for PCs to strive towards will get them moving in a direction instead of aimlessly wandering around the dungeon hoping to stumble on treasure.
+Whether it's rescuing an NPC, mapping out the dungeon, or finding a particular artifact, giving a clear goal for PCs to strive towards will get them moving in a direction instead of aimlessly wandering around the dungeon hoping to stumble on treasure.
 
-Sending PCs into a megadungeon without establishing a goal for them other than escaping from the dungeon (which is what I did in this campaign initially) wasn't as interesting as I thought it would be and I wouldn't do that again.
+Sending PCs into a megadungeon without establishing a goal for them other than escaping from the dungeon (which is what I did in this campaign initially) wasn't as interesting as I had anticipated, and I wouldn't do it again.
 
 If PCs want to leave a dungeon they're trapped in (and they probably would unless you've established a reason for them to continue exploring it), they should be able to.
 
@@ -214,13 +214,13 @@ PCs risking life and limb because they **want** to is much more interesting than
 
 Prepping for all the possible paths the players might take through the megadungeon felt like torture because I wasted so much time prepping NPCs and encounters that players never experienced.
 
-Some of your prep time will be wasted no matter what you do to avoid this, especially when running a megadungeon, but getting a confirmation from players about where they're going to go next at the end of each session would have helped reduce this wasted prep time by quite a bit.
+Some of your prep time will be wasted no matter what you do to avoid this, especially when running a megadungeon, but confirming with players where they plan to go next at the end of each session would have helped reduce wasted prep time significantly.
 
 ### Give means for players to accelerate their dungeon exploration
 
 I would give PCs more opportunities to find portals for entering and exiting the dungeon in various places, provide them with transportation-related magical items and/or allow them to help set up an in-dungeon taxi service of some kind.
 
-Megadungeons are BIG and navigating through previously explored parts of the dungeon over and over again can get tedious even if you re-populate these parts of the map with NPCs.
+Megadungeons are vast and navigating through previously explored parts of the dungeon over and over again can get tedious even if you repopulate these parts of the dungeon with NPCs.
 
 Factions within the dungeon can also make use of these additional entrances and exits which would make them more mobile and able to encounter PCs on a more regular basis throughout the dungeon.
 
@@ -252,7 +252,7 @@ The Maze of the Blue Medusa features a ton of wild characters and trying, someti
 
 Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions and reactions into subsequent sessions.
 
-This helped a ton and I don't see myself running a game again without writing session summaries ever again.
+This helped a ton and I don't see myself running a game again without writing session summaries.
 
 ## Give players more opportunities to interact with their favorite NPCs
 
@@ -278,7 +278,7 @@ During the campaign, one character, the dwarf Brod, was running away from fascis
 
 Brod couldn't remember anything about his past other than his recent escape from the Chameleon Women who were torturing him. Nobody at the table, myself included, had a clear idea of where Brod came from.
 
-Having no prior relationship with any of the existing party members AND having no known past (we eventually filled that in later, but it was a little late) made it harder to roleplay Brod and for me to understand where Brod fit into the bigger picture of the campaign and within the party.
+Having no prior relationship with any of the existing party members or known past (we eventually filled that in later, but it was a little late) made it harder to roleplay Brod and for me to understand where Brod fit into the bigger picture of the campaign and within the party.
 
 It wasn't that big of a deal but it's also something that I would never do quite like this again.
 
@@ -294,7 +294,7 @@ If a player is deadset on playing an amnesiac character, I would make that sure 
 
 Figuring out which spells an enemy spellcaster might have access to and would use in combat on the fly was challenging --- having tables that I could roll on to figure this out quickly would have made my life much easier.
 
-Trying to run combat evocatively, fairly and quickly without losing player interest while trying to figure out which spells enemy spellcasters were going to cast proved to be much more challenging than I was expecting.
+Trying to run combat evocatively, fairly, and quickly without losing player interest proved challenging, especially when figuring out which spells enemy spellcasters would cast.
 
 In emergencies, I would much rather roll on a random list of spells and pick a spell that might not be the perfect fit for a spellcaster to cast instead of slowing down combat to a crawl while I work my way through all the spells that the spellcaster might decide to cast in this moment.
 
@@ -312,7 +312,7 @@ I set out with this campaign to make my players fear for their characters's live
 
 I think I mostly succeeded in running a high tension high lethality campaign even though no player characters died in regular combat encounters.
 
-Almost every combat encounter the PCs found themselves in had one or more of the PCs drop to 0 HP, usually our 4 HP goblin witch Blotbug, who were put in a "downed but not out" state and found themselves a round or two away from dying more often than not.
+Almost every combat encounter the PCs found themselves in had one or more of them drop to 0 HP, be put in a "downed but not out" state and found themselves a round or two away from dying more often than not.
 
 To make these moments more thrilling than they would be otherwise, I "borrowed" the best rule from {{< book_url "Mothership 1E">}} and integrated it into the Shadowdark rules.
 
@@ -360,13 +360,13 @@ Before the campaign started, I had told everyone that I would try and give uniqu
 
 Germander's voice and his vibe were interesting enough for players that they spent most of the campaign with him acting as their main patron --- giving them more opportunities to interact with him, the PCs went on a quest to find more books for Germander to read.
 
-**speaks in cowboy voice**: What can I say, partner? I must have done something right because it felt so good. I'd do it again in a heartbeat --- don't you forget it.
+**speaks in cowboy voice**: What can I say, partner? I must've done something right because it sure felt good. I'd do it again in a heartbeat --- don't you forget it.
 
 ## Creating a crazy powerful but fun magical item for a PC to cause chaos with
 
 Spending some time with family one day after one of our roleplaying sessions, I stumbled on a deck of Tarot cards (Travis McHenry's Occult Tarot specifically) that was demon-themed --- each card had a demon on it with a summary of the demon's vibe and their "powers".
 
-After one particular session, players had requested that I give them more loot and spread the love around so that every player character got something relevant for them.
+After one particular session, the players requested more loot, with something relevant for each character.
 
 So, I put two and two together, confirming with Freeya's player that the item I had in mind for their character, a demon summoning deck, would be interesting.
 
@@ -392,7 +392,7 @@ And, so when the demon summoning went wrong and led to a bad outcome for Blotbug
 
 None of this would have happened if I didn't find this weird Tarot deck in real life, realize how cool it would be for a character in my campaign to use and put it in the campaign.
 
-Although, the demon summoning Tarot deck was a such great item which had such a big impact on encounters in the last half of the campaign that I found myself failing to come up with ideas on what I could give other player characters that would be just as cool and impactful.
+Although, the demon summoning Tarot deck had such a big impact on encounters that I found myself failing to come up with ideas on what I could give other player characters that would be just as cool and impactful.
 
 If I were to play another OSR campaign I would try to come up with an ultimate item for each player character ahead of time so that when I needed a cool item to give to specific player characters, I would have the items ready to go.
 
@@ -414,11 +414,11 @@ No matter how well supported your system of choice is in Foundry VTT, the follow
 
 ### Quick Insert gives you instant access to everything in your game
 
-Hitting control and space bar to get instant drag-and-drop access to everything in your game including things like characters, tokens, items, NPCs, skills, etc. is a godsend.
+Hitting  Ctrl + Spacebar to get instant drag-and-drop access to everything in your game including things like characters, tokens, items, NPCs, skills, etc. is a godsend.
 
 This module facilitates character creation, inventory management and GMing generally to such an extent that I would never use Foundry without it.
 
-### Dice Tray gives you easily rollable dice when you need them
+### Dice Tray provides an an accessible and easy-to-use UI to roll dice
 
 Dice Tray provides an accessible and easy to use UI for you and your players to roll dice.
 
@@ -434,7 +434,7 @@ It puts a World of Warcraft-esque action bar at the top of your screen whenever 
 
 With Token Action HUD, you can make a stat roll, an ability/skill check (with all of the appropriate modifiers) for a particular character with just one click.
 
-The crunchier your game is the more essential this module becomes. Showing all of the different actions available to a character at a glance drastically reduces the mental load required to roleplay them effectively.
+The crunchier your game is, the more essential this module becomes. Showing all of the different actions available to a character at a glance drastically reduces the mental load required to roleplay them effectively.
 
 For dice rolls with preset difficulties (like a spellcasting check in Shadowdark RPG), the dice roll will show everyone at the table if it failed or succeeded, critically or not, meaning that nobody has to crunch the numbers and verify the character sheet to confirm that a given roll was successful or not.
 
@@ -454,13 +454,13 @@ This helps with setting the scene and giving players big images of the NPCs they
 
 ### Item Piles makes it easier to share loot between party members
 
-Being able to drop items onto the map seems like it should be a core feature but it isn't --- the Item Piles module implements exactly this.
+Being able to drop items onto the map seems like it should be a core feature, but it isn't. The Item Piles module implements exactly this.
 
 ### Drag Ruler visually shows you how far a token can move in a turn
 
 Drag Ruler visually shows you how far a token can move on the battlemap (green for walking, yellow for running or the equivalent in whatever system you're using).
 
-In Foundry version 13, this will be a core feature of the VTT so this module will no longer be needed. But until that version releases, use this module!
+In Foundry version 13, this will be a core feature of the VTT, so this module will no longer be needed. But until that version releases, use this module!
 
 ## Tips and Tricks
 
@@ -472,7 +472,7 @@ If you'd like the players to share vision on the VTT, then each player should ha
 
 ### Use satellite imagery for battlemaps
 
-If you're playing a modern or something modern-like if you squint (like Palladium's Rifts) then you can use Google Earth Pro to generate at-scale battlemaps with realistic terrain and the tactical options it'll provide.
+If you're playing a modern game (or something modern-like, if you squint, like Palladium's *Rifts*) then you can use Google Earth Pro to generate at-scale battlemaps with realistic terrain and the tactical options they'll provide.
 
 ![](abandoned_factory_3.jpg)
 
@@ -483,25 +483,8 @@ Once you have your image, all you have to do in Foundry is:
 1. Create a new scene.
 2. Import the satellite image.
 3. Fuss around with the grid size number until the grid size makes it so that the 100m marker on the image lines up with your system's scale (whip out the ruler in Foundry and test it out!).
-  - A grid size between 20-30 seems to do the trick for Savage Worlds.
+  - A grid size between 20-30 seems to do the trick for *Savage Worlds*.
 
 # Conclusion
 
 I can't wait to dive into my next campaign, armed with all the lessons learned from running this one. Until next time, happy gaming!
-
-# Glossary
-
-OSR
-: short for Old School Renaissance --- OSR games are a subset of tabletop RPG systems that focus on a return to older, more classic RPG rules and experiences.
-
-VTT
-: short for virtual tabletop --- these applications are used for simulating the experience of tabletop roleplaying around an actual table for players online.
-
-GM
-: short for game master --- the person responsible for facilitating the collaborative storytelling process by playing all of the non-player characters and describing the world for the players.
-
-PC
-: short for player character.
-
-NPC
-: short for non-player character.
