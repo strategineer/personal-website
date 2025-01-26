@@ -200,7 +200,7 @@ One way of solving this problem would be to give the PCs an incomplete map of th
 
 No matter how interesting the encounters are, opening doors over and over again gets monotonous after a while unless the PCs have something they're trying to get to or a specific problem to solve.
 
-### Establish a clear goal for the PCs within the dungeon
+### Establish a goal and reason for the PCs to explore the dungeon
 
 Whether it's rescuing an NPC, mapping out the dungeon, finding a particular artifact, etc. giving a clear goal for PCs to strive towards will get them moving in a direction instead of aimlessly wandering around the dungeon hoping to stumble on treasure.
 
@@ -216,95 +216,77 @@ Prepping for all the possible paths the players might take through the megadunge
 
 Some of your prep time will be wasted no matter what you do to avoid this, especially when running a megadungeon, but getting a confirmation from players about where they're going to go next at the end of each session would have helped reduce this wasted prep time by quite a bit.
 
-### Give opportunities for players to accelerate their exploration
+### Give means for players to accelerate their dungeon exploration
 
-[...] WIP EDITING PASS MARKER
+I would give PCs more opportunities to find portals for entering and exiting the dungeon in various places, provide them with transportation-related magical items and/or allow them to help set up an in-dungeon taxi service of some kind.
 
-Populate the megadungeon with more entrances, exits and ways for characters to travel through previously explored regions more quickly. 
+Megadungeons are BIG and navigating through previously explored parts of the dungeon over and over again can get tedious even if you re-populate these parts of the map with NPCs.
 
-I would give PCs more opportunities to find portals for entering/exiting parts of the dungeon, providing them with magical items to facilitate moving between certain places more quickly and maybe even having a quest line centered around setting up an in-dungeon taxi service of some kind. 
-
-Megadungeons are BIG and navigating through previously explored parts of the dungeon over and over again can get tedious even if you re-populate them with roaming encounters of some kind.
-
-My solutions above are a better alternative to fast-forwarding through travel of explored parts of the dungeon because that might set the expectation for players that the dungeon is more static and safe than it should be (safe is boring).
-
-Factions within the dungeon can also make use of these entrance/exits allowing for a more dynamic dungeon and explaining away how certain recurring NPCs might find themselves meeting with the PCs over and over again despite the size of the dungeon.
-
-### Populate the dungeon with other adventuring parties
-
-I would have at least one NPC with a similar overall power level to the PCs exploring the dungeon too.
-
-This would be fun and make the dungeon a bit more dynamic. The PCs can collaborate with them or have a confrontation with them. Essentially, I think a gristled experienced and wise dungeon explorer would be a fun recurring NPC.
+Factions within the dungeon can also make use of these additional entrances and exits which would make them more mobile and able to encounter PCs on a more regular basis throughout the dungeon.
 
 ### Blow the megadungeon up at a predetermined time
 
 I would set an in-universe timer of some kind, communicate that to the players and PCs in some way and then after X sessions end with a bang.
 
-For example, the dungeon of Titancomeon-man is prophesised to collapse in 30 days time, at that time the dungeon begins to collapse in on itself and the PCs might want to get some of the NPCs out of there, who do they pick?
+For example, the PCs might learn from a soothsayer that the megadungeon they're exploring will collapse in 30 days time.
 
-This would provide a sense of urgency to the PCs's exploration of the dungeon and a clear stopping point. Even if the PCs haven't been able to comb through every single room they'll have to leave the dungeon for good.
+This would provide a sense of urgency to the party's exploration and a clear end to it. Even if the PCs haven't been able to comb through every single room they'll have to leave the dungeon for good.
 
-### The biggest problem with megadungeons is that they're megadungeons
-
-Megadungeons create more problems than opportunities for good player-centric roleplaying. My curiosity about them has been more than satiated.
-
-I don't see myself running a megadungeon again anytime soon but I can see myself trying to run one again when I have more GMing experience under my belt.
+I think that would be a more interesting experience than having the players comb through every single room in the megadungeon at a snail's pace, one by one --- potentially ending the campaign with a whimper instead of a bang.
 
 ## Give NPCs memorable voices
 
-I've been roleplaying regularly since 2019 and in that time I've gotten so much better at it.
+I've been roleplaying regularly since 2019 and in that time I've gotten much better at it.
 
-Despite roleplaying being a hobby I've been interested in for a decade and a half, the skills that I needed to have to enjoy it fully were challenging to acquire.
+Despite roleplaying being a hobby I've been interested in for a decade and a half, the skills that I needed to enjoy it fully were challenging to acquire.
 
 Putting in the time and effort to get better at every part of it has paid dividends in my roleplaying and outside of it.
 
-I was so happy when I whipped out a voice for a "grumpy old man performing a shitty standup comedy routine" at a party I was attending and I got a really positive reaction for it.
+I was so happy when I whipped out a voice for a "grumpy old man performing a shitty standup comedy routine" at a party I was attending recently and I got a really positive reaction for it.
 
 I wouldn't have had the confidence or the skills to do that without forcing myself to do funny voices every week when GMing this campaign.
 
-The Maze of the Blue Medusa features a ton of wild characters and trying, sometimes failing, to give all of them unique voices was a great learning experience and a ton of fun my players and I.
+The Maze of the Blue Medusa features a ton of wild characters and trying, sometimes failing, to give all of them unique voices was a great learning experience and a ton of fun for my players and I.
 
 ## Write session summaries to help you remember NPCs and player actions to bring up later
 
 Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions and reactions into subsequent sessions.
 
-This helped a ton and I don't see myself running a game again without writing session summaries.
+This helped a ton and I don't see myself running a game again without writing session summaries ever again.
 
-## Give players opportunities to interact with their favorite NPCs
+## Give players more opportunities to interact with their favorite NPCs
 
-If players really like a particular NPC, I should give them more opportunities to interact with that NPC.
+If players really like a particular NPC, I should be open to creating opportunities for them to interact with that NPC more.
 
 The literal giant book-worm Germander was a big success with my players --- in no small part due to the unhinged voice I used for him.
 
 Sadly, I kept him locked up in his room forcing my players to navigate back and forth through the megadungeon to talk to him.
 
-This meant that the PCs weren't able to interact with him as much I or my players would have liked them to. In the last session of the campaign, I slimmed Germander down in order for him to exit from his prison and follow the party but it was a little too late.
+This meant that the PCs weren't able to interact with him as much I or my players would have liked to. In the last session of the campaign, I slimmed Germander down in order for him to be able to exit his prison and follow the party on their last adventure but it was a little too late.
 
-Another way I solved this problem later on in the campaign was with Draco the Laughing Lich. He's a powerful lich who thinks life is meaningless and only cares about finding reasons to laugh.
+Another way I solved this problem later on in the campaign was with Draco the Laughing Lich. The party was able to make him laugh a bunch and so he gave them an Amulet of Slapstickification which doubled as a kind of bodycam that Draco could use to watch and comment on the party's actions as they made their way through the dungeon.
 
-The party was able to make him laugh a bunch and so he gave them an Amulet of Slapstickification which doubled as a sort of bodycam that Draco could use to watch and comment on the party's actions as they made their way through the dungeon.
+I should have also changed the random encounter table to include a "recurring NPC" entry to give myself an extra kick in the ass to have certain NPCs show up on a more regular basis.
 
-I should have also changed the random encounter table to include a "recurring NPC" entry to give myself an extra kick in the ass to have certain NPCs show up on a recurring basis.
+An NPC like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer lady) would have been a great fit for this considering her inherent mobility.
 
-An NPC like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer and artifact gatherer lady) would have been a great fit for this considering her inherent mobility.
-
-I liked the voice I had for her, she could have been a fun recurring character and it's a shame I didn't bring her into play more often.
+I liked the voice I came up with for her --- she could have been a fun recurring character and it's a shame I didn't bring her into play more often.
 
 ## Don't have amnesiac player characters
 
 During the campaign, one character, the dwarf Brod, was running away from fascist Chameleon Women, he fought them off with the help of the party and joined the crew after the fight.
 
-Brod couldn't remember anything about his past other than his recent escape from these Chameleon Women who were torturing him. Nobody at the table, myself included, had a clear idea of where Brod came from.
+Brod couldn't remember anything about his past other than his recent escape from the Chameleon Women who were torturing him. Nobody at the table, myself included, had a clear idea of where Brod came from.
 
-Having no prior relationship with any of the existing party members AND having no known past (we eventually filled that in later, but it was a little late) made it harder for the player to be comfortable roleplaying Brod and for me to understand where Brod fit into the bigger picture of the campaign and within the adventuring party.
+Having no prior relationship with any of the existing party members AND having no known past (we eventually filled that in later, but it was a little late) made it harder to roleplay Brod and for me to understand where Brod fit into the bigger picture of the campaign and within the party.
 
 It wasn't that big of a deal but it's also something that I would never do quite like this again.
 
-If I were to go back in time and do this different, I would have prompted everyone at the table to help us come up with a pre-existing relationship between Brod and somebody else in the party as soon as he entered the campaign.
+If I were to this differently today, I would have prompted everyone at the table to help us come up with a pre-existing relationship between Brod and somebody else in the party as soon as he entered the campaign.
 
-For example, deciding that Brod was a long-lost adoptive relative of our artist/wizard Freeya would have acted as lubricant for fun roleplay for everyone at the table and would have set the stage for intrigue and interesting narrative beats for the campaign later down the line.
+For example, perhaps Brod could have been the long-lost adoptive relative of our artist/wizard Freeya. This would have acted as lubricant for fun roleplay for everyone at the table and would have set the stage for intrigue and fun narrative beats for the campaign later down the line.
 
-The takeaway for me here is that everyone at the table is discovering who their characters really are at the table through play. A complete blank slate like an amnesiac character is that much harder to roleplay effectively because of this.
+The takeaway for me here is that everyone is discovering who their characters really are at the table through play. A complete blank slate like an amnesiac character is that much harder to roleplay effectively because of this.
 
 If a player is deadset on playing an amnesiac character, I would make that sure by their second session, the character's gotten their memory back, everyone at the table knows exactly who they were and thus everyone should be ready to figure out who this character is going to become through play.
 
@@ -314,17 +296,19 @@ Figuring out which spells an enemy spellcaster might have access to and would us
 
 Trying to run combat evocatively, fairly and quickly without losing player interest while trying to figure out which spells enemy spellcasters were going to cast proved to be much more challenging than I was expecting.
 
-In emergencies, I'd much rather roll on a random list of spells and pick a spell that might not be the perfect fit for a spellcaster to cast instead of slowing down combat to a crawl while I work my way through all the possible spells that they would choose to cast in this moment.
+In emergencies, I would much rather roll on a random list of spells and pick a spell that might not be the perfect fit for a spellcaster to cast instead of slowing down combat to a crawl while I work my way through all the spells that the spellcaster might decide to cast in this moment.
 
 # What were the biggest swings I'm most proud of in the campaign?
 
-In running my Labyrinth of the Blue Gorgon campaign, one of my goals was to try a bunch of stuff I'd never done before, to learn from the experience of failing to do all of it perfectly so I could bring that experience back to the table in my future roleplaying endeavours.
+In running my Labyrinth of the Blue Gorgon campaign, one of my goals was to try a bunch of stuff I'd never done before, to learn from the experience of failing to do all of it perfectly so I could bring that experience back to the table in my future roleplaying.
 
-I found myself being, more than I ever have before, comfortable with taking big swings as a GM, knowing fully well that I was increasing the risk of missing. I decided to take that increased risk instead of playing it safe and learning much less from the experience.
+I found myself being, more than I ever have before, comfortable with taking big swings as a GM, knowing fully well that I was increasing the risk of missing. I decided to take that increased risk instead of playing it safe and learning much less from the experience as a result.
 
-Here's a few of the bigger swings I made in this campaign and how they went:
+Here's a few of the bigger swings I took in this campaign and how they went:
 
 ## Running a high lethality survival horror-like campaign
+
+[...] WIP EDITING PASS MARKER
 
 I set out with this campaign to make my players fear for their characters's lives --- I wanted to make combat encounters tense and make players feel as though every combat decision they made mattered without faking numbers or going "easy" on them.
 
