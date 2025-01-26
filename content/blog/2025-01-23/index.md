@@ -308,39 +308,35 @@ Here's a few of the bigger swings I took in this campaign and how they went:
 
 ## Running a high lethality survival horror-like campaign
 
-[...] WIP EDITING PASS MARKER
+I set out with this campaign to make my players fear for their characters's lives --- I wanted to make combat encounters tense and every combat decision made by players to feel like it mattered.
 
-I set out with this campaign to make my players fear for their characters's lives --- I wanted to make combat encounters tense and make players feel as though every combat decision they made mattered without faking numbers or going "easy" on them.
+I think I mostly succeeded in running a high tension high lethality campaign even though no player characters died in regular combat encounters.
 
-I think I mostly succeeded in providing a high tension high lethality campaign even though no player characters died in regular combat encounters.
-
-Almost every combat encounter the PCs participated in had one or more player characters drop to 0 HP, usually our 4 HP goblin Witch Blotbug, who were put in a "downed but not out" state and found themselves a round or two away from dying more often than not.
+Almost every combat encounter the PCs found themselves in had one or more of the PCs drop to 0 HP, usually our 4 HP goblin witch Blotbug, who were put in a "downed but not out" state and found themselves a round or two away from dying more often than not.
 
 To make these moments more thrilling than they would be otherwise, I "borrowed" the best rule from {{< book_url "Mothership 1E">}} and integrated it into the Shadowdark rules.
 
-Whenever a player character would drop to 0 HP or below, I would roll a d4, adding the character's Constitution modifier to it. This produced a death timer which represented the number of combat rounds the character had left before they died permanently unless they were stabilized by an ally. I decided to make these death timers secret like it's done in Mothership, instead of public as the Shadowdark rules ask for.
+Whenever a player character would drop to 0 HP or below, I would roll a d4, adding the character's Constitution modifier to it. This produced a death timer which represented the number of rounds the character had left before they died permanently unless they were stabilized by an ally. I decided to make these death timers secret information like it's done in Mothership.
 
-This made combat encounters universally tense. Like I said, almost every combat encounter had a player character getting downed and because the party didn't have a cleric, they had limited ways of stabilizing their allies without risk.
+This made combat encounters universally tense. Almost every combat encounter had a PC getting downed and because the party didn't have a cleric, they had limited ways of stabilizing their allies without risk.
 
-I NEVER fudged the numbers on these secret death timers --- there was quite a few times that Blotbug or another PC was one round away from dying but each time they were picked back up again by one of their buddies, usually Freeya or Marlon with his staff of healing, and were able to continue adventuring with the group.
+I **never** fudged the numbers with these death timers --- there was quite a few times that a PC, usually Blotbug, was one round away from dying but each time they were picked back up again just in time.
 
-That said, the survival horror / inventory management part of the campaign that I hoping to deliver on was harder to make interesting that I thought it would be. So, I wasn't able to deliver on that premise as much as I was hoping for.
+That said, the survival horror / inventory management part of the campaign that I hoping to deliver on was harder to make interesting that I thought it would be.
 
-After the first few sessions, I reduced the emphasis on gathering torches and tracking food rations for resting because I don't think that it was adding much to the campaign.
+After the first few sessions, I reduced the emphasis on gathering torches and tracking food rations for resting because it wasn't adding much to the campaign.
 
-Although, this implied scarcity of resources early on in the campaign did encourage player characters to engage in cannibalism and the eating of various other sapient-adjacent beings that they wouldn't have done otherwise. This led to some interesting serendipitous moments.
+Although, this mostly implied scarcity of resources early on in the campaign did encourage players to engage in cannibalism and the eating of various other sapient-adjacent beings that they wouldn't have done otherwise. And, this led to some interesting serendipitous and unexpected opportunities for fun roleplaying.
 
-For example, the eating of a size-changing psychic pig led to Freeya, who had critically succeeded at the "digestion" roll I asked players to do whenever they ate something weird, gaining the ability to commune with the psychic pig within himself to gain information from NPCs.
+For example, the eating of a size-changing psychic pig led to Freeya gaining the ability to commune with the psychic pig within himself to gain information from NPCs.
 
-This ability acted as a sort of social lubricant to enable him to connect with NPCs more easily and it provided me with opportunities to reveal context to players about the labyrinth and NPCs that was proving to be harder than I expected to deliver through other means.
+This ability acted as a sort of social lubricant to enable him to connect with NPCs more easily and it provided me with ample opportunities to reveal fun context to the PCs about the labyrinth and the NPCs inhabiting it.
 
-So, in this case, me trying and failing to run a campaign with a focus on survival horror and inventory management with scarce resources led to creative roleplaying opportunities that really added a lot of spice and fun to the campaign that wouldn't have been there otherwise.
+So, in this case, me trying and failing to run a campaign with a focus on survival horror and inventory management with scarce resources led to creative roleplaying opportunities for players and I that added a lot of spice to the campaign that wouldn't have been there otherwise.
 
 ## Running a megadungeon
 
-I read carefully through hundreds of room descriptions and I was able to bring them and NPCs in them to life at the table week after week. I've spent a lot of time in this post discussing how running megadungeons well is hard but I did it anyway.
-
-I've mentioned the specifics challenges I encountered and what I'd do differently above but I wanted to pat myself on the back for running a megadungeon despite all of these challenges --- some of which I was well aware of before starting the campaign.
+I read carefully through hundreds of room descriptions and I was able to bring them and the NPCs in them to life at the table week after week. I've spent a lot of time in this post discussing how running megadungeons well is hard but I managed to do it it anyway.
 
 I did the thing.
 
@@ -348,11 +344,11 @@ It wasn't perfect but tabletop roleplaying never is. The uncertainty, the chaos 
 
 ## Giving NPCs unhinged voices
 
-Before running this campaign, I'd never really tried to voice NPCs much differently from the way I speak normally. I'd put my tongue in my cheek or fix parts of my face into a shape to change my voice a bit but this was never something I focused on much.
+Before running this campaign, I'd never really tried to voice NPCs much differently from the way I speak normally. I'd put my tongue in my cheek or scrunch up my face to change my voice a bit but this wasn't something I focused on much.
 
-With this campaign, I set out to go big with my voices and spend a lot of time trying to both speak in a voice unlike my own and come up with things that the NPC would say at the same time.
+With this campaign, I set out to go big with my voices and spend a lot of time trying to both speak in a voice unlike my own and come up with believable things that the NPC would say at the same time.
 
-Maybe this kind of thing comes naturally for some people, but it didn't for me. I had to put in a bunch of work for this. Thankfully, it paid off.
+Maybe this kind of thing comes naturally for some people, but it didn't for me. I had to put in a bunch of work to get better at this skill. Thankfully, it paid off.
 
 An example of this was my voice for Germander. Here's his description for context:
 
@@ -360,41 +356,41 @@ An example of this was my voice for Germander. Here's his description for contex
 
 When the party encountered Germander for the first time, I described his appearance and I unleashed the most unhinged voice I could come up with and it got a really positive reaction from my players.
 
-Before the campaign started, I had told everyone that I would try and have unique voices for all the NPCs they would meet but, in that moment, I followed through and surprised them with my willingness to be ridiculous and fail repeatedly to be consistent with these voices I came up with.
-
-I was OK with that and I was really pleased to be given the opportunity to grow in this safe space that I was given --- not all roleplaying groups are like this.
+Before the campaign started, I had told everyone that I would try and give unique voices to all the NPCs they would meet but, in that moment, I followed through and surprised them with my willingness to be ridiculous and fail repeatedly to be consistent with all these voices I came up with.
 
 Germander's voice and his vibe were interesting enough for players that they spent most of the campaign with him acting as their main patron --- giving them more opportunities to interact with him, the PCs went on a quest to find more books for Germander to read.
 
 **speaks in cowboy voice**: What can I say, partner? I must have done something right because it felt so good. I'd do it again in a heartbeat --- don't you forget it.
 
-## Giving a powerful but fun item to a PC
+## Creating a crazy powerful but fun magical item for a PC to cause chaos with
 
 Spending some time with family one day after one of our roleplaying sessions, I stumbled on a deck of Tarot cards (Travis McHenry's Occult Tarot specifically) that was demon-themed --- each card had a demon on it with a summary of the demon's vibe and their "powers".
 
-After one particular session, players had requested that I give them more loot and spread the love around so that every player character got something relevant for them, eventually.
+After one particular session, players had requested that I give them more loot and spread the love around so that every player character got something relevant for them.
 
-So, I put two and two together, confirming with Freeya's player that the item I had in mind for their character, a demonic summoning deck, would be interesting.
+So, I put two and two together, confirming with Freeya's player that the item I had in mind for their character, a demon summoning deck, would be interesting.
 
-They said yes. So, I crafted a combat encounter where an enemy Chameleon Woman mage failed to effectively use this demon summoning deck, dying in the process, leaving it to be picked up by Freeya.
+They said yes. So, I crafted a combat encounter where an enemy Chameleon Woman mage failed to effectively use this demon summoning deck, dying in the process, leaving it to be picked up by Freeya after all the other fascists were dealt with.
 
-Over the course of the campaign, Freeya made use of the deck over and over again and, eventually, learned how to use it more effectively reducing the likelihood of a failed summoning from occurring.
+Over the course of the campaign, Freeya made use of the deck over and over again and, eventually, learned how to use it more effectively reducing the chance of an uncooperative demon being summoned.
 
-And, it turned out to be one of the funnest parts of the campaign. Figuring out on the fly how particular demons would fight, how they influence battles in other ways, how they would sound and what they would say was a ton of fun for me and my players. And, it had a big impact on some encounters and acted as a big levellup for the player characters who would have found themselves powerless to contend against the stronger threats in the labyrinth.
+And, it turned out to be one of the funnest parts of the campaign for me to run. Figuring out on the fly how a particular demon would fight, how they influence battles in other ways, how they would sound and what they would say was a ton of fun for me and my players.
+
+It had a big impact on the encounters it was used in and acted as a big levelling tool for the player characters to lean on --- without it, they would have found themselves almost powerless to contend with the stronger threats in the labyrinth.
 
 For example, Freeya using the demonic tarot deck contributed to Blotbug's death by sacrificial ritual late in the campaign. Cult of the Shattered Moon cultists ambushed the party, began "moon dancing" and trying to sacrifice Blotbug (which they'd been trying to do since well before the start of the campaign).
 
 In response, Freeya whipped out his deck and summoned Yuval, a dromadary demon really into making people become friends. One thing led to another and Yuval compelled both the PCs and cultists to become friends and collaborate with each other on the ritual sacrifice of Blotbug.
 
-This series of events didn't come completely out of the blue. Blotbug's player requested that his character be killed off a few minutes before this particular session started, so I scrambled to set up an encounter in which that was going to be likely to happen but not impossible to prevent.
+This series of events didn't come completely out of the blue. Blotbug's player requested that Blotbug be killed off a few minutes before this particular session started, so I scrambled to set up an encounter in which that was going to be likely to happen but not impossible to prevent.
 
-I got lucky that the PCs rolled extremely poorly in this encounter which made it much easier for me to kill off Blotbug as requested. I'm not quite sure what I would have done if the PCs had rolled really well here... I guess we'll never know.
+I got lucky that the PCs rolled extremely poorly in this encounter making it much easier for me to kill off Blotbug as I was asked to do. I'm not quite sure what I would have done if the PCs had rolled really well here... I guess we'll never know.
 
-Prior to this encounter, the demonic summoning deck had always produced good results although I had tried to make it clear that no matter how much time Freeya spent trying to master the deck and make it "safe" to use, it was always going to be dangerous --- here, I was playing into expectations and tropes related to demonic summoning in other forms of media.
+Prior to this encounter, the demon summoning deck had always produced good results although I had tried to make it clear that no matter how much time Freeya spent trying to master the deck, using it was always going to be risky --- here, I was playing into expectations and tropes related to demon summoning in other forms of media.
 
-And, so like when djinnis grant wishes sometimes those wishes are interpreted poorly, the same can be said for demonic summonings in my campaign. And, so when the demonic summoning went wrong and produced a less than ideal result for Freeya and especially Blotbug, my hope is that it landed, felt within reason of something that could and perhaps should have happened, and was fun to roleplay. From talking to my players, I think that mostly worked which was a happy accident for me considering the little time I had to prep for this big session.
+And, so when the demon summoning went wrong and led to a bad outcome for Blotbug, my hope is that it landed, felt within reason of something that could have happened, and was fun to roleplay. I think that it mostly worked which was a happy accident for me considering how short the time I had to make these last minute changes to the session.
 
-None of this would have happened if I didn't find this weird Tarot deck in real life and put it in the campaign.
+None of this would have happened if I didn't find this weird Tarot deck in real life, realize how cool it would be for a character in my campaign to use and put it in the campaign.
 
 Although, the demon summoning Tarot deck was a such great item which had such a big impact on encounters in the last half of the campaign that I found myself failing to come up with ideas on what I could give other player characters that would be just as cool and impactful.
 
