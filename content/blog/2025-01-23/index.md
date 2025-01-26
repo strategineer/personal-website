@@ -400,13 +400,13 @@ Those were my big swings and how they went, another big swing of mine was decidi
 
 # Foundry VTT
 
-Foundry [VTT](#glossary) is **the** way to do tabletop roleplaying online no matter the complexity of the system. If someone's been generous enough to implement a roleplaying game system I'd like to run on Foundry VTT, then I will absolutely always play it that way moving forward. It's **that** good.
+Foundry VTT is **the** way to do tabletop roleplaying online. If someone's been generous enough to implement a roleplaying game system I'd like to run on Foundry VTT, then I will absolutely always play it that way moving forward. It's **that** good.
 
-After years of suffering through Roll20 (a truly god-awful VTT) and building my own shitty VTT-adjacent tools on Discord or Google Sheets, I'm never going back. That's how good Foundry VTT is.
+After years of suffering through Roll20 (a truly god-awful VTT) and building many of my own shitty VTT-adjacent tools on Discord or with Google Sheets, I'm never going back. That's how good Foundry VTT is.
 
-Another reason why I chose the Shadowdark RPG system was because of its great support for play through Foundry VTT.
+Luckily for me, Shadowdark has great support for play through Foundry VTT.
 
-The only downside is that Foundry VTT requires a bit of setup and has a learning curve. However, the following tools can help ease the process.
+The only downside is that Foundry VTT requires a bit of setup and has a bit of a learning curve no matter what roleplaying system you decide to use with it.
 
 ## Essential Modules
 
@@ -414,51 +414,47 @@ No matter how well supported your system of choice is in Foundry VTT, the follow
 
 ### Quick Insert gives you instant access to everything in your game
 
-Hitting control and the space bar to get instant drag-and-drop access to everything in your game including things like characters, tokens, items, NPCs, skills, etc. is a godsend.
+Hitting control and space bar to get instant drag-and-drop access to everything in your game including things like characters, tokens, items, NPCs, skills, etc. is a godsend.
 
-This module facilitates character creation, inventory management and GMing overall to such an extent that I would never use Foundry without it.
+This module facilitates character creation, inventory management and GMing generally to such an extent that I would never use Foundry without it.
 
 ### Dice Tray gives you easily rollable dice when you need them
 
 Dice Tray provides an accessible and easy to use UI for you and your players to roll dice.
 
-In most cases, using the modules below, especially [Token Action HUD](#token-action-hud), you'll rarely need to roll dice outside of the context of the pre-implemented dice rolls coming directly from your character sheet.
+In most cases, using the modules below, especially [Token Action HUD](#token-action-hud), you'll rarely need to roll dice outside of the context of the pre-implemented dice rolls directly from your character sheet.
 
-But when you do need to, perhaps because of a ruling you've made, using Dice Tray will be easier for most people instead of typing out dice notation formulas in the chat.
+But when you do need to, perhaps because of a ruling you've made, using Dice Tray will be easier for most people than typing out dice notation formulas in the chat.
 
 ### Token Action HUD shows you all the actions your characters can do
 
 Foundry without Token Action HUD is great but a shell of what it can be. If the system you're playing with supports the Token Action HUD family of modules, you'll absolutely want to use it.
 
-It puts a World of Warcraft-esque action bar at the top of your screen whenever you select a PC or NPC token.
+It puts a World of Warcraft-esque action bar at the top of your screen whenever you select a character token.
 
 With Token Action HUD, you can make a stat roll, an ability/skill check (with all of the appropriate modifiers) for a particular character with just one click.
 
-The crunchier your game is the more essential this module becomes. Showing all of the different actions available to a PC at a glance drastically reduces the mental load required to roleplay them effectively.
+The crunchier your game is the more essential this module becomes. Showing all of the different actions available to a character at a glance drastically reduces the mental load required to roleplay them effectively.
 
-For dice rolls with preset difficulties (like a spellcasting check in Shadowdark RPG), the dice roll will show everyone at the table if it failed or succeeded, critically or not, meaning that nobody has to crunch the numbers and verify the character sheet.
-
-I wouldn't play without Token Action HUD ever again.
+For dice rolls with preset difficulties (like a spellcasting check in Shadowdark RPG), the dice roll will show everyone at the table if it failed or succeeded, critically or not, meaning that nobody has to crunch the numbers and verify the character sheet to confirm that a given roll was succesful or not.
 
 ### Tokenizer makes it easy to import images and create tokens from them
 
 Tokenizer is a module that allows you to easily import images into Foundry and convert them into tokens.
 
-Being able to do this entirely within Foundry is great. It reduces the time it takes to create these tokens and have them ready for use in your games ASAP.
+Being able to do this entirely within Foundry is great. It reduces the time it takes to create tokens and have them ready for use in your games ASAP.
 
-It speeds up this process so much that if you're GMing a game and you need to create a token on the fly, Tokenizer will allow you to do that. 
+Tokenizer makes this process so fast that you'll be able to create tokens on the fly if you need to. 
 
 ### Image Hover puts token art front and center when you want it to be
 
 The Image Hover module allows for hovering over a token to show the underlying art asset associated to it.
 
-This helps with setting the scene and giving players zoomed-in images of the NPCs they're interacting with, enemies they're fighting, etc.
-
-Don't play without it.
+This helps with setting the scene and giving players big images of the NPCs they're interacting with, enemies they're fighting, etc.
 
 ### Item Piles makes it easier to share loot between party members
 
-Being able to drop items onto the map seems like it should be a core feature but it isn't --- The Item Piles module implements exactly this.
+Being able to drop items onto the map seems like it should be a core feature but it isn't --- the Item Piles module implements exactly this.
 
 ### Drag Ruler visually shows you how far a token can move in a turn
 
@@ -484,9 +480,10 @@ I recommend exporting images at the highest resolution possible with a zoom leve
 
 Once you have your image, all you have to do in Foundry is:
 
-1. Create a new scene
-2. Import the satellite image
-3. Fuss around with the grid size number until the grid size makes it so that the 100m marker on the image lines up with your system's scale (whip out the ruler in Foundry and test it out!). I've found that a grid size between 20-30 seems to do the trick for Savage Worlds.
+1. Create a new scene.
+2. Import the satellite image.
+3. Fuss around with the grid size number until the grid size makes it so that the 100m marker on the image lines up with your system's scale (whip out the ruler in Foundry and test it out!).
+  - A grid size between 20-30 seems to do the trick for Savage Worlds.
 
 # Conclusion
 
