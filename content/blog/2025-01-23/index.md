@@ -10,7 +10,7 @@ Running a tabletop RPG campaign is always a learning experience. In this post, I
 
 <!--more-->
 
-I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through the Foundry virtual tabletop tool between September 2024 and January 2025.
+I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through the Foundry Virtual Tabletop between September 2024 and January 2025.
 
 To start, I'll summarize the campaign, then I'll go over the lessons learned about each of the parts of the campaign individually, and finally, I'll cover insights gained from the campaign as a whole.
 
