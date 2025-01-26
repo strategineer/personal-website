@@ -289,7 +289,7 @@ This helped a ton, and I don't see myself running a game again without writing s
 
 ## Give players more opportunities to interact with their favorite NPCs
 
-> Takeaway: "Be open to changing the world in small but signficant ways to give players more opportunities to interact with their favorite NPCs."
+> Takeaway: "Be open to changing the world in small but significant ways to give players more opportunities to interact with their favorite NPCs."
 
 If players really like a particular NPC, I should be open to creating opportunities for them to interact with that NPC more.
 
