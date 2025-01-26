@@ -436,7 +436,7 @@ With Token Action HUD, you can make a stat roll, an ability/skill check (with al
 
 The crunchier your game is the more essential this module becomes. Showing all of the different actions available to a character at a glance drastically reduces the mental load required to roleplay them effectively.
 
-For dice rolls with preset difficulties (like a spellcasting check in Shadowdark RPG), the dice roll will show everyone at the table if it failed or succeeded, critically or not, meaning that nobody has to crunch the numbers and verify the character sheet to confirm that a given roll was succesful or not.
+For dice rolls with preset difficulties (like a spellcasting check in Shadowdark RPG), the dice roll will show everyone at the table if it failed or succeeded, critically or not, meaning that nobody has to crunch the numbers and verify the character sheet to confirm that a given roll was successful or not.
 
 ### Tokenizer makes it easy to import images and create tokens from them
 
