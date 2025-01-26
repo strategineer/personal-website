@@ -14,7 +14,7 @@ I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules thr
 
 To start, I'll summarize the campaign, then I'll go over the lessons learned about each of the parts of the campaign individually and, finally, I'll cover insights gained from the campaign as a whole.
 
-This is a really long post so I've tried to make it as skimmable as possible. Here's a table of contents with concise section headers for you to skim through at your leisure if you're short on time or me from the future trying to remember everything I learned running this campaign:
+This is a really long post so I've tried to make it as skimmable as possible. Here's a table of contents with concise section headers for you to skim at your leisure:
 
 {{< toc >}}
 
