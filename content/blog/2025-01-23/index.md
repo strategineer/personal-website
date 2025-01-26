@@ -1,5 +1,5 @@
 ---
-title: "Surviving the Maze: Reflections on Running the Maze of the Blue Medusa with Shadowdark through Foundry VTT"
+title: "Delving into Surreal Depths: Lessons from Running Maze of the Blue Medusa in Shadowdark on Foundry VTT"
 date: 2025-01-24
 blog/tags:
   - tabletop
