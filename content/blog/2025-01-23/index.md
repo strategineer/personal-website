@@ -12,17 +12,15 @@ Running a tabletop RPG campaign is always a learning experience. In this post, I
 
 I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through the Foundry virtual tabletop tool over the course of 4 months between September 2024 and January 2025.
 
-Now, I'll quickly summarize campaign for context, then I'll go over the lessons learned about each of the parts of the campaign individually and, finally, I'll cover the insights gained from combining them all together for the campaign.
+I'll quickly summarize the campaign for context, then I'll go over the lessons learned about each of the parts of the campaign individually and, finally, I'll cover insights gained from the campaign as a whole.
 
-This is a long post so I've tried to make it as skimmable as possible. Here's a table of contents with concise section headers for you to skim through at your leisure if you're short on time:
+This is a long post so I've tried to make it as skimmable as possible. Here's a table of contents with concise section headers for you to skim through at your leisure if you're short on time or me from the future trying to remember everything I learned running this campaign:
 
 {{< toc >}}
 
 # Campaign Summary
 
-A wizard contracted a ragtag group of petty criminals, con artists and thieves (the PCs) to steal a painting. The PCs were tasked with hanging the painting on a wall opposite a window, and waiting for the moon to come out. This was a weird contract but the pay was a lot... Suspiciously so.
-
-As moonlight hit the painting, the group was pulled into it and they found themselves trapped within the Labyrinth of the Blue Gorgon.
+A wizard contracted a ragtag group of petty criminals, con artists and thieves (the PCs) to steal a painting. The PCs were pulled into it and they found themselves trapped within the Labyrinth of the Blue Gorgon.
 
 Over the course of several days, they explored the dungeon: solving puzzles, meeting friends and foes and everything in between.
 
