@@ -9,7 +9,13 @@ Running a tabletop RPG campaign is always a learning experience. In this post, I
 
 <!--more-->
 
+![](final_encounter.png)
+
 I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through Foundry Virtual Tabletop between September 2024 and January 2025.
+
+I've spent most of [my short GMing career](/blog/2024-11-18/) trying to run fantasy campaigns that weren't tropey and filled with questionable politics. This is the second OSR-style campaign I've run, but this was my first time tackling a proper megadungeon, and a weird one at that.
+
+By the end of this post, you'll have a clear idea of how Shadowdark fared, how Maze of the Blue Medusa plays, and actionable tips for running games through Foundry VTT online.
 
 To start, I'll summarize the campaign, then I'll go over the lessons learned about each part of the campaign individually, and finally, I'll cover insights gained from the campaign as a whole.
 
@@ -79,7 +85,9 @@ Unless you can figure out how to fill your dungeons with water-splashing enemies
 
 Thankfully, I found that the game works fine even if you mostly ignore these rules.
 
-Having discussed Shadowdark, now let's dive into the heart of my campaign--the megadungeon itself.
+---
+
+In summary, Shadowdark is a really well-designed OSR dungeon crawling roleplaying system, but it's not perfect. With that in mind, let's delve into the centerpiece of this campaign: the Maze of the Blue Medusa.
 
 # Maze of the Blue Medusa
 
@@ -161,6 +169,8 @@ Bringing the "Oku" (magical bird cosplayers, essentially), who are natural thiev
 Interactions between factions like this aren't mentioned often in the book, and I think it'd be better if they appeared more often.
 {{< /spoiler >}}
 
+---
+
 So, the Maze of the Blue Medusa is great. The Shadowdark RPG system is great. Let's discuss the challenges of running the Maze of the Blue Medusa using the Shadowdark RPG rules.
 
 # Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa?
@@ -171,13 +181,19 @@ The Shadowdark RPG seems to want you to focus on the player characters' struggle
 
 Large sections of the Maze of the Blue Medusa are designed to be well-lit and wouldn't work at all if they weren't--which made it hard to implement Shadowdark's "light as a resource" mechanics in the campaign. Thankfully, the Shadowdark RPG system holds up even if you mostly ignore the darkness parts of the rules.
 
-While I'd consider running a Shadowdark RPG campaign again (maybe using [Patrick Stuart's Veins of the Earth sourcebook](https://www.goodreads.com/book/show/35080398-veins-of-the-earth)?), I wouldn't recommend it for running the Maze of the Blue Medusa without the caveats above.
+While I'd consider running a Shadowdark RPG campaign again, I wouldn't recommend it for running the Maze of the Blue Medusa without the caveats above.
+
+---
+
+Now that we've covered how the Shadowdark RPG supports, or doesn't, running the Maze of the Blue Medusa megadungeon--I'll now share the many lessons I learned from running this campaign.
 
 # What did I learn GMing this campaign?
 
 ## What did I learn GMing a megadungeon?
 
 ### Use an NPC checklist to ensure that NPCs are reacting appropriately to the PCs' actions
+
+> Takeaway: "Always maintain a simple list of NPCs, their motivations, and how they’ve reacted to the party to keep the world feeling alive."
 
 If I were to run a campaign with this many different NPCs again, I would write a list of all the factions/NPCs that the PCs have met (and important ones that they haven't met), their current relationship with respect to the PCs, and their goals.
 
@@ -193,13 +209,17 @@ Ideally, over time, I'd be able to build a list of these "world reacting to the 
 
 ### Provide clear direction for players early on
 
+> Takeaway: "Always provide a clear direction for players to follow to prevent them from wandering around the dungeon aimlessly and getting bored."
+
 Without some sort of direction, exploring a megadungeon can feel a little aimless and, at worst, boring for the players.
 
 One way to solve this problem is to give the PCs an incomplete map of the dungeon early on in their journey, to provide an initial thrust toward something in the dungeon that interests them.
 
 No matter how interesting the encounters are, opening doors repeatedly becomes monotonous after a while unless the PCs have something they're trying to get to or a specific problem to solve.
 
-### Establish a goal and reason for the PCs to explore the dungeon
+### Establish a reason for PCs to continue exploring the dungeon
+
+> Takeaway: "Establish a reason, ideally something more interesting than a quest for loot, for PCs to continue exploring the dungeon instead of just wanting out the front door and never coming back."
 
 Whether it's rescuing an NPC, mapping out the dungeon, or finding a particular artifact, giving a clear goal for PCs to strive toward will get them moving in a direction instead of aimlessly wandering around hoping to stumble on treasure.
 
@@ -211,11 +231,19 @@ PCs risking life and limb because they **want** to is much more interesting than
 
 ### End each session by confirming where the PCs are going next
 
+> Takeaway: "End each session knowing where the PCs are going next to avoid prepping encounters and NPCs that the PCs will never see."
+
 Prepping for all possible paths the players might take through the megadungeon felt like torture because I wasted so much time prepping NPCs and encounters that the players never experienced.
 
 Some of your prep time will be wasted no matter what you do--especially when running a megadungeon--but confirming with players where they plan to go next at the end of each session would have helped reduce wasted prep significantly.
 
-### Give means for players to accelerate their dungeon exploration
+For example, our first session ended at a fork in the dungeon leading to two paths. I didn't confirm with players which direction they wanted to go in before the session ended. So, I prepped for both choices when instead I could have spent twice as much prep time on the path they ended up taking.
+
+You might be wondering if that prep work really was wasted, presumably the party would have double back and taken that path. Twelve sessions later, they never did and so that prep was truly wasted.
+
+### Give players opportunities to accelerate their dungeon exploration
+
+> Takeaway: "Give players opportunities to speed up travel through previously explored parts of the dungeon to avoid these trips becoming tedious."
 
 I would give PCs more opportunities to find portals for entering and exiting the dungeon in various places, provide them with transportation-related magical items, and/or allow them to help set up an in-dungeon taxi service of some kind.
 
@@ -225,7 +253,9 @@ Factions within the dungeon can also make use of these additional entrances and 
 
 ### Blow the megadungeon up at a predetermined time
 
-I would set an in-universe timer of some kind, communicate that to the players and PCs in some way, and then after X sessions, end with a bang.
+> Takeaway: "Set a time limit, real or implied, on the party's exploration of the dungeon to ramp up the tension and encourage them to make risk/reward choices every step of the way."
+
+I would set an in-universe time limit on the party's exploration of the dungeon, communicate that to the players and PCs in some way, and then after X sessions, end with a bang.
 
 For example, the PCs might learn from a soothsayer that the megadungeon they're exploring will collapse in 30 days.
 
@@ -234,6 +264,8 @@ This would provide a sense of urgency to the party's exploration and a clear end
 I think that would be more interesting than having the players comb through every single room at a snail's pace--potentially ending the campaign with a whimper instead of a bang.
 
 ## Give NPCs memorable voices
+
+> Takeaway: "Give unique voices to all of your NPCs to bring them to life and make them unforgettable."
 
 I've been roleplaying regularly since 2019, and in that time, I've gotten much better at it.
 
@@ -249,11 +281,15 @@ The Maze of the Blue Medusa features a ton of wild characters, and trying--somet
 
 ## Write session summaries to help you remember NPCs and player actions to bring up later
 
+> Takeaway: "Write session summaries to help you run better subsequent sessions by remembering everything that's happened before and taking it all into account."
+
 Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions, and reactions into subsequent sessions.
 
 This helped a ton, and I don't see myself running a game again without writing session summaries.
 
 ## Give players more opportunities to interact with their favorite NPCs
+
+> Takeaway: "Be open to changing the world in small but signficant ways to give players more opportunities to interact with their favorite NPCs."
 
 If players really like a particular NPC, I should be open to creating opportunities for them to interact with that NPC more.
 
@@ -271,7 +307,9 @@ An NPC like Lady Crucem Capilli (a dragon/demon English empire-esque colonizer l
 
 I liked the voice I came up with for her--she could have been a fun recurring character, and it's a shame I didn't bring her into play more often.
 
-## Don't have amnesiac player characters
+## Don't allow amnesiac player characters
+
+> Takeaway: "Don't allow amnesiac player characters because they're really hard to roleplay as and around."
 
 During the campaign, one character, the dwarf Brod, was running away from fascist Chameleon Women. He fought them off with the help of the party and joined the crew after the fight.
 
@@ -289,13 +327,19 @@ The takeaway for me here is that everyone is discovering who their characters re
 
 If a player is dead set on playing an amnesiac character, I would ensure that by their second session, the character has regained their memory and that everyone at the table knows exactly who they were, so we're all ready to figure out who the character will become through play.
 
-## Create random spell tables to help run enemy spellcasters in combat
+## Create random spell tables to help run combat with enemy spellcasters
+
+> Takeaway: "Create random spell tables to help run combat with enemy spellcasters efficiently to avoid your players falling asleep while you rifle through dozens of possible spells the spellcasters could cast."
 
 Figuring out which spells an enemy spellcaster might have access to, and would use in combat on the fly, was challenging--having tables that I could roll on to figure this out quickly would have made my life much easier.
 
 Trying to run combat evocatively, fairly, and quickly without losing player interest proved challenging, especially when deciding which spells enemy spellcasters would cast.
 
 In emergencies, I would much rather roll on a random list of spells and pick a suboptimal one than slow combat to a crawl while I sift through every option the spellcaster might have.
+
+---
+
+As you can see, I learned a lot running this campaign. Now, I'll share the biggest swings I took in GMing this campaign the way I did and how they affected the campaign. 
 
 # What were the biggest swings I'm most proud of in the campaign?
 
@@ -394,6 +438,8 @@ None of this would have happened if I hadn't found this weird Tarot deck in real
 Although, the demon-summoning Tarot deck had such a big impact on encounters that I found myself failing to come up with ideas for what I could give other PCs that would be equally cool and impactful.
 
 If I were to play another OSR campaign, I would try to come up with an ultimate item for each player character ahead of time so that when I need a cool item to give a specific character, I have something ready to go.
+
+---
 
 Another big swing of mine was deciding to use Foundry Virtual Tabletop as a GM for the first time. It went really well, and I don't see myself doing much roleplaying online without it in the future--it's just that good.
 
