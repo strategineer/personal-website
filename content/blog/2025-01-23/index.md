@@ -400,7 +400,7 @@ Germander's voice and his vibe were interesting enough for players that they spe
 
 **speaks in cowboy voice**: What can I say, partner? I must have done something right because it felt so good. I'd do it again in a heartbeat --- don't you forget it.
 
-## Giving a demonic summoning tarot deck to a PC
+## Giving a powerful but fun item to a PC
 
 Spending some time with family one day after one of our roleplaying sessions, I stumbled on a deck of Tarot cards (Travis McHenry's Occult Tarot specifically) that was demon-themed --- each card had a demon on it with a summary of the demon's vibe and their "powers".
 
