@@ -287,7 +287,13 @@ The Maze of the Blue Medusa features a ton of wild characters, and trying--somet
 
 Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions, and reactions into subsequent sessions.
 
-This helped a ton, and I don't see myself running a game again without writing session summaries.
+The [session summaries that I wrote for this campaign](/tabletop/campaigns/labyrinth-of-the-blue-gorgon/#session-recaps) came in handy when we decided to wrap the campaign up.
+
+I wanted to finish the party's journey through the megadungeon with a bang and not whimper. So, the party would meet all of the NPCs they had met previously--giving the party a chance to win these NPCs over to the party's cause against the Blue Gorgon. Once the team had been assembled, they would walk over to the lair of the Blue Gorgon for a final confrontation with hern.
+
+To prep for this, I needed write down all of NPCs the party might choose to visit and remind myself of how they talked, what their voices sounded like and what they would say in response to the party's final quest.
+
+I was lucky that I had written sessions summaries for the entire campaign because they helped tremendously here. I could leverage them to clarify hazy details I had about the party's encounters with various NPCs and ensure that I didn't forget to prep for the party meeting with any NPCs.
 
 ## Give players more opportunities to interact with their favorite NPCs
 
