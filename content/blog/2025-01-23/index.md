@@ -173,7 +173,7 @@ Interactions between factions like this aren't mentioned often in the book, and 
 
 ---
 
-Despite these hiccups, the Maze of the Blue Medusa is still extraordinary. Next, let's see how Shadowdark stacked up against this high-weirdness environment and vice versa.
+Despite these hiccups, the Maze of the Blue Medusa is still extraordinary. Next, let’s see how Shadowdark stacked up against this high-weirdness environment and vice versa.
 
 # Is Shadowdark RPG a good fit for running the Maze of the Blue Medusa?
 
@@ -195,7 +195,7 @@ Now that we've covered how the Shadowdark RPG supports, or doesn't, running the 
 
 ### Use an NPC checklist to ensure that NPCs are reacting appropriately to the PCs' actions
 
-> Takeaway: "Always maintain a simple list of NPCs, their motivations, and how they've reacted to the party to keep the world feeling alive."
+> Takeaway: "Always maintain a simple list of NPCs, their motivations, and how they’ve reacted to the party to keep the world feeling alive."
 
 If I were to run a campaign with this many different NPCs again, I would write a list of all the factions/NPCs that the PCs have met (and important ones that they haven't met), their current relationship with respect to the PCs, and their goals.
 
@@ -283,11 +283,17 @@ The Maze of the Blue Medusa features a ton of wild characters, and trying--somet
 
 ## Write session summaries to help you remember NPCs and player actions to bring up later
 
-> Takeaway: "Write session summaries to help you run better subsequent sessions by recalling everything that's happened before and weaving it all back into the story."
+> Takeaway: "Write session summaries to help you run better subsequent sessions by remembering everything that's happened before and taking it all into account."
 
-One of the best decisions I made for this campaign was jotting down [session summaries](/tabletop/campaigns/labyrinth-of-the-blue-gorgon/#session-recaps) after every game. By noting big moments, NPC interactions, and player choices, I had a handy reference for later on--particularly when we decided to wrap the campaign up with a grand finale. I wanted the final act to feature a parade of the NPCs the party had encountered throughout their journey, all banding together (or not) against the Blue Gorgon.
+Taking note of the big moments in each session gave me more opportunities than I would have had otherwise to weave previous events, player actions, and reactions into subsequent sessions.
 
-Because I'd kept track of each NPC--how they talked, what their voices sounded like, and how they might react to the party's final quest--I was able to prep in detail for every possible reunion. Without those notes, I'd have struggled to remember who was who, risking a lackluster showdown full of half-forgotten characters. Instead, the recaps let me pull off a climactic confrontation where all the story threads converged, giving the players a real sense that their actions and relationships mattered right to the very end.
+The [session summaries that I wrote for this campaign](/tabletop/campaigns/labyrinth-of-the-blue-gorgon/#session-recaps) came in handy when we decided to wrap the campaign up.
+
+I wanted to finish the party's journey through the megadungeon with a bang and not whimper. So, the party would meet all of the NPCs they had met previously--giving the party a chance to win these NPCs over to the party's cause against the Blue Gorgon. Once the team had been assembled, they would walk over to the lair of the Blue Gorgon for a final confrontation with hern.
+
+To prep for this, I needed write down all of NPCs the party might choose to visit and remind myself of how they talked, what their voices sounded like and what they would say in response to the party's final quest.
+
+I was lucky that I had written sessions summaries for the entire campaign because they helped tremendously here. I could leverage them to clarify hazy details I had about the party's encounters with various NPCs and ensure that I didn't forget to prep for the party meeting with any NPCs.
 
 ## Give players more opportunities to interact with their favorite NPCs
 
@@ -397,7 +403,7 @@ Maybe this kind of thing comes naturally to some people, but it didn't for me. I
 
 An example was my voice for Germander. Here's his description for context:
 
-> Germander is a 15' long gray-pink worm with the most fucked up voice you can summon and features just this side of the uncanny valley, but is among the more agreeable creatures you'll meet in the Maze.
+> Germander is a 15' long gray-pink worm with the most fucked up voice you can summon and features just this side of the uncanny valley, but is among the more agreeable creatures you’ll meet in the Maze.
 
 When the party encountered Germander for the first time, I described his appearance and unleashed the most unhinged voice I could come up with. It got a really positive reaction from my players.
 
