@@ -5,13 +5,13 @@ blog/tags:
   - tabletop
 draft: true
 ---
-Running a tabletop RPG campaign is always a learning experience. In this post, I'll share insights from my recent campaign, the Labyrinth of the Blue Gorgon, and the lessons I learned as a GM.
+Running a tabletop RPG campaign is always a learning experience. In this post, I'll share insights from my recent campaign, the **Labyrinth of the Blue Gorgon**, and the lessons I learned as a GM.
 
 <!--more-->
 
 ![](final_encounter.png)
 
-I ran the Maze of the Blue Medusa megadungeon using the Shadowdark RPG rules through Foundry Virtual Tabletop between September 2024 and January 2025.
+I ran the **Maze of the Blue Medusa** megadungeon using the **Shadowdark RPG** rules through **Foundry Virtual Tabletop** between September 2024 and January 2025.
 
 I've spent most of [my short GMing career](/blog/2024-11-18/) trying to run fantasy campaigns that weren't tropey and filled with questionable politics. This is the second OSR-style campaign I've run, but this was my first time tackling a proper megadungeon, and a weird one at that.
 
