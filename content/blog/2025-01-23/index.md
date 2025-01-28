@@ -1,9 +1,8 @@
 ---
-title: "Delving into Surreal Depths: Lessons from Running Maze of the Blue Medusa in Shadowdark on Foundry VTT"
+title: "Delving into Surreal Depths: Lessons from Running Maze of the Blue Medusa with Shadowdark on Foundry VTT"
 date: 2025-01-24
 blog/tags:
   - tabletop
-draft: true
 ---
 Running a tabletop RPG campaign is always a learning experience. In this post, I'll share insights from my recent campaign, the **Labyrinth of the Blue Gorgon**, and the lessons I learned as a GM.
 
