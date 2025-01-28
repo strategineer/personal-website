@@ -2,7 +2,7 @@
 authors:
 - Kazuo Ishiguro
 books/tags: []
-date: 2025-01-28
+date: 2025-01-27
 params:
   isbn13: '9780676977110'
   year: '2006'
