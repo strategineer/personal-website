@@ -3,7 +3,7 @@ authors:
 - Paul Murray
 books/tags:
 - currently-reading
-- tournament-of-books-2025
+- tournament-of-books-2024
 date: 2025-01-28
 params:
   isbn13: '9780374600303'
