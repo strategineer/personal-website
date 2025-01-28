@@ -2,8 +2,8 @@
 authors:
 - Paul Murray
 books/tags:
-- owned-but-unread
-date: 2024-12-15
+- currently-reading
+date: 2025-01-28
 params:
   isbn13: '9780374600303'
   year: '2024'
