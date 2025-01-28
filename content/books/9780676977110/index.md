@@ -1,13 +1,13 @@
 ---
 authors:
 - Kazuo Ishiguro
-books/tags:
-- currently-reading
-date: 2025-01-19
+books/tags: []
+date: 2025-01-28
 params:
   isbn13: '9780676977110'
   year: '2006'
 slug: '9780676977110'
+star_rating: 3
 title: Never Let Me Go
 ---
 
