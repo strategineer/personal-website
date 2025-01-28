@@ -3,7 +3,6 @@ authors:
 - Shane Lacy Hensley
 books/tags:
 - tabletop
-- slay
 date: 2025-01-16
 params:
   isbn13: '9781950082001'
