@@ -26,16 +26,17 @@
             "hint": "2022-Present",
             "title": "Senior Software Engineer @ Sonder",
             "list": [
-              "Developed dynamic pricing system in Python to price inventory based on supply/demand.",
-              "Developed 3rd party distribution system in Ruby to sync inventory on Airbnb, Booking.com, Expedia, etc.",
-              "Upgraded +300k LOC legacy Ruby on Rails codebase to Ruby 3.0 and the Rails 7.1."
+              "Maintained dynamic pricing system in Python to price inventory based on supply/demand.",
+              "Maintained 3rd party distribution system in Ruby to sync inventory on Airbnb, Booking.com, Expedia.",
+              "Upgraded +300k LOC legacy Ruby on Rails codebase to Ruby 3.0 and the Rails 7.1.",
+              "Developed availability health metrics leading to 10 million USD profit year over year through Airbnb"
             ]
           },
           {
             "hint": "2019-2022",
             "title": "Software Engineer @ Morgan Stanley",
             "list": [
-              "Developed system in Python to aggregate data from in-house and vendor sources, analyze and present it to devs (badges to encourage best practices) and to management (metrics/charts to guide decision-making).",
+              "Developed system in Python to aggregate data and generate metrics from in-house and vendor sources",
               "Developed self-service web apps in Typescript/Angular2 (querying agile/devops metrics, JIRA admin)."
             ]
           },
