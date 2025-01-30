@@ -14,44 +14,43 @@
         "list": [
           {
             "list": [
-              "Software engineer with 13+ years of experience in the video game, VFX, financial and hospitality industries."
+              "Software Engineer with 9+ years of experience spanning the video game, financial, and hospitality industries."
             ]
           }
         ]
       },
       {
-        "title": "Work Experience",
         "list": [
           {
             "hint": "2022-Present",
             "title": "Senior Software Engineer @ Sonder",
             "list": [
-              "Maintained dynamic pricing system in Python to price inventory based on supply/demand.",
-              "Maintained 3rd party distribution system in Ruby to sync inventory on Airbnb, Booking.com, Expedia.",
-              "Upgraded +300k LOC legacy Ruby on Rails codebase to Ruby 3.0 and the Rails 7.1.",
-              "Developed availability health metrics leading to 10 million USD profit year over year through Airbnb."
+              "Enhanced and maintained a dynamic pricing system in Python, optimizing rates based on real-time supply/demand.",
+              "Maintained a third-party distribution system in Ruby to synchronize listings on Airbnb, Booking.com, and Expedia.",
+              "Refactored a 300k+ LOC legacy Ruby on Rails codebase, upgrading to Ruby 3 and Rails 7.1 for improved performance and maintainability.",
+              "Developed availability health metrics that contributed to a $10M year-over-year profit increase through Airbnb."
             ]
           },
           {
             "hint": "2019-2022",
             "title": "Software Engineer @ Morgan Stanley",
             "list": [
-              "Developed system in Python to aggregate data and generate metrics from in-house and vendor sources",
-              "Developed self-service web apps in Typescript/Angular2 (querying agile/devops metrics, JIRA admin)."
+              "Designed and implemented a Python-based system to aggregate data from internal and vendor sources and generate metrics.",
+              "Built self-service web applications in TypeScript/Angular (for agile/devops metrics and JIRA administration), streamlining workflows and reducing manual overhead."
             ]
           },
           {
             "hint": "2017-2019",
             "title": "Programmer @ Framestore VR",
             "list": [
-              "Built an art asset pipeline for UE4, writing plugins in C++ and Python code to glue everything together."
+              "Engineered an art asset pipeline for Unreal Engine 4, creating C++ and Python plugins to automate workflows and improve production efficiency."
             ]
           },
           {
             "hint": "2016-2017",
             "title": "Programmer @ Borealys Games",
             "list": [
-              "Developed UI and various gameplay systems in Unity (C#) on Mages of Mystralia."
+              "Developed core gameplay systems and UI in Unity (C#) for 'Mages of Mystralia,' ensuring a polished player experience and robust game architecture."
             ]
           }
         ]
@@ -61,19 +60,8 @@
         "list": [
           {
             "list": [
-              "Languages: Python, Ruby, C#, Go, Typescript, Javascript, C++",
-              "CI: Github Actions, Jenkins, Buddy, CircleCI"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Recent Personal Projects",
-        "list": [
-          {
-            "list": [
-              "<a href=\"https://github.com/strategineer/kaleidoslug\">Caves of Qud game mods coded in C# through reverse engineering and code injection.</a>",
-              "<a href=\"https://github.com/strategineer/orangutan\">Tampermonkey scripts to link bookoutlet.ca with goodsreads.com to improve the browsing experience.</a>"
+              "Languages: Python, Ruby, C#, Go, TypeScript, JavaScript, C++",
+              "CI/CD: GitHub Actions, Jenkins, CircleCI, Buddy"
             ]
           }
         ]
@@ -83,7 +71,7 @@
         "list": [
           {
             "hint": "2016",
-            "title": "Interactive Real Time Systems Development @ University of Sherbrooke"
+            "title": "Interactive Real-Time Systems Development @ University of Sherbrooke"
           },
           {
             "hint": "2015",
