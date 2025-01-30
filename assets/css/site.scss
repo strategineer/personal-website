@@ -53,6 +53,9 @@ $link_highlight: nth($colors, 2);
 }
 
 @media print {
+  .cv-name {
+    font-weight: bold;
+  }
 
   .cv-bullet-item {
     font-size: 1rem !important;
@@ -70,6 +73,7 @@ $link_highlight: nth($colors, 2);
 
   .cv-main-title {
     font-size: 1.4rem !important;
+    font-weight: bold; 
   }
 
   .end-page {
