@@ -3,8 +3,8 @@ authors:
 - Brian Merchant
 - Claire L. Evans
 books/tags:
+- anthology
 - science fiction
-- short story collection
 date: 2022-12-23
 params:
   isbn13: '9780374602666'

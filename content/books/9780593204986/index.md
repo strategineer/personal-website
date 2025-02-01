@@ -2,7 +2,7 @@
 authors:
 - Margarita Longoria
 books/tags:
-- short story collection
+- anthology
 date: 2022-10-04
 params:
   isbn13: '9780593204986'
