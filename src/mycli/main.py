@@ -298,6 +298,8 @@ def sort_tags():
                 continue
         if post.metadata["books/tags"]:
             sorted_tags = sorted(post.metadata["books/tags"], key=sorting_fn)
+            if "slay" in sorted_tags:
+                sorted_tags.remove("slay")
             if sorted_tags != post.metadata["books/tags"]:
                 post.metadata["books/tags"] = sorted_tags
             write_post(post, filename)
