@@ -2,8 +2,8 @@
 authors:
 - Shirley Jackson
 books/tags:
-- horror
 - slay
+- horror
 date: 2023-10-23
 params:
   isbn13: '9780143039976'

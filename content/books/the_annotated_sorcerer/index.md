@@ -1,6 +1,6 @@
 ---
 authors:
--  Ron Edwards
+- Ron Edwards
 books/tags:
 - tabletop
 date: 2024-11-22

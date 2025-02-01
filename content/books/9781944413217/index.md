@@ -6,7 +6,7 @@ books/tags:
 date: 2025-01-12
 params:
   isbn13: '9781944413217'
-  series: 'Savage Rifts'
+  series: Savage Rifts
   series_order: '1'
   year: '2017'
 slug: '9781944413217'

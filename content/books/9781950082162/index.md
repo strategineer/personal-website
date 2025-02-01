@@ -6,7 +6,7 @@ books/tags:
 date: 2025-01-16
 params:
   isbn13: '9781950082162'
-  series: 'Savage Rifts'
+  series: Savage Rifts
   series_order: '3'
   year: '2017'
 slug: '9781950082162'

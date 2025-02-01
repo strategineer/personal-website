@@ -13,5 +13,4 @@ star_rating: null
 title: The Bee Sting
 ---
 
-
 <!--more-->
