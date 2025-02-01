@@ -2,7 +2,6 @@
 authors:
 - Roger Zelazny
 books/tags:
-- slay
 - comedy
 - detective fiction
 - science fiction

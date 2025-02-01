@@ -2,7 +2,6 @@
 authors:
 - Brian Hayes
 books/tags:
-- slay
 - non-fiction
 date: 2021-10-01
 params:

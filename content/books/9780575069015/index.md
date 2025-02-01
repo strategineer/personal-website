@@ -2,7 +2,6 @@
 authors:
 - Mary Gentle
 books/tags:
-- slay
 - fantasy
 - historical fiction
 date: 2024-06-16

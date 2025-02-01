@@ -4,7 +4,6 @@ authors:
 - Boris Strugatsky
 - Olena Bormashenko
 books/tags:
-- slay
 - science fiction
 - slavic
 date: 2024-04-03

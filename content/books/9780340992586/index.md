@@ -2,7 +2,6 @@
 authors:
 - Stephen King
 books/tags:
-- slay
 - horror
 - science fiction
 date: 2024-09-07

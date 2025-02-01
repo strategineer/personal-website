@@ -2,7 +2,6 @@
 authors:
 - Iain Banks
 books/tags:
-- slay
 - science fiction
 date: 2024-05-18
 params:

@@ -2,7 +2,6 @@
 authors:
 - Shirley Jackson
 books/tags:
-- slay
 - horror
 date: 2023-10-23
 params:

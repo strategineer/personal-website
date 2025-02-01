@@ -2,7 +2,6 @@
 authors:
 - N. K. Jemisin
 books/tags:
-- slay
 - science fantasy
 date: 2023-07-29
 params:

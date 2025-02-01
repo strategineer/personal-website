@@ -2,7 +2,6 @@
 authors:
 - Terry Pratchett
 books/tags:
-- slay
 - comedy
 - fantasy
 date: 2023-06-23

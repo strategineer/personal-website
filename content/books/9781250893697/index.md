@@ -2,7 +2,6 @@
 authors:
 - Ferdia Lennon
 books/tags:
-- slay
 - historical fiction
 - tournament-of-books-2025
 date: 2024-12-21

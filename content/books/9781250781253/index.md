@@ -2,7 +2,6 @@
 authors:
 - Gene Wolfe
 books/tags:
-- slay
 - post-apocalyptic
 - science fantasy
 date: 2024-02-11

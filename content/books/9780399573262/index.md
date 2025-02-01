@@ -2,7 +2,6 @@
 authors:
 - Patricia Lockwood
 books/tags:
-- slay
 - memoir
 - non-fiction
 date: 2023-07-07

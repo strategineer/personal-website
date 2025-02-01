@@ -3,7 +3,6 @@ authors:
 - Peter R. Mitchell
 - John Schoeffel
 books/tags:
-- slay
 - non-fiction
 date: 2021-09-01
 params:

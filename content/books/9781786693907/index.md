@@ -2,7 +2,6 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
-- slay
 - science fiction
 date: 2024-05-20
 params:

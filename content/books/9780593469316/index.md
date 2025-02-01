@@ -2,7 +2,6 @@
 authors:
 - Nana Kwame Adjei-Brenyah
 books/tags:
-- slay
 - dystopian
 - science fiction
 date: 2024-04-30

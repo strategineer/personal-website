@@ -2,7 +2,6 @@
 authors:
 - Nick Riggle
 books/tags:
-- slay
 - non-fiction
 - philosophy
 date: 2022-08-19

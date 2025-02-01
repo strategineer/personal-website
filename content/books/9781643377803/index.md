@@ -3,7 +3,6 @@ authors:
 - Alejandro Jodorowsky
 - Moebius
 books/tags:
-- slay
 - comics
 - science fiction
 date: 2024-08-14

@@ -2,7 +2,6 @@
 authors:
 - Elie Wiesel
 books/tags:
-- slay
 - memoir
 - non-fiction
 date: 2022-03-01

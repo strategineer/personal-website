@@ -2,7 +2,6 @@
 authors:
 - Kiyohiko Azuma
 books/tags:
-- slay
 - comedy
 - comics
 date: 2015-08-29

@@ -2,7 +2,6 @@
 authors:
 - Frank Herbert
 books/tags:
-- slay
 - science fiction
 date: 2024-07-20
 params:

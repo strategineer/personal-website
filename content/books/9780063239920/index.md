@@ -2,7 +2,6 @@
 authors:
 - Cesca Major
 books/tags:
-- slay
 - romance
 date: 2024-03-16
 params:

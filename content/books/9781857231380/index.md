@@ -2,7 +2,6 @@
 authors:
 - Iain Banks
 books/tags:
-- slay
 - comedy
 - satire
 - science fiction

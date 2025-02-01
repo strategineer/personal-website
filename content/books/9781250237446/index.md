@@ -2,7 +2,6 @@
 authors:
 - Gene Wolfe
 books/tags:
-- slay
 - fantasy
 date: 2024-10-11
 params:

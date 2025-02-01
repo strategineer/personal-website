@@ -2,7 +2,6 @@
 authors:
 - Becky Chambers
 books/tags:
-- slay
 - science fiction
 date: 2024-07-03
 params:

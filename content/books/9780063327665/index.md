@@ -2,7 +2,6 @@
 authors:
 - Claire Oshetsky
 books/tags:
-- slay
 - magical realism
 - tournament-of-books-2025
 date: 2025-01-18

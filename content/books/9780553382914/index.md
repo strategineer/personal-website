@@ -2,7 +2,6 @@
 authors:
 - K.J. Bishop
 books/tags:
-- slay
 - fantasy
 date: 2024-09-16
 params:

@@ -2,7 +2,6 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
-- slay
 - comedy
 - science fiction
 - tournament-of-books-2025

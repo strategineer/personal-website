@@ -2,7 +2,6 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- slay
 - historical fiction
 date: 2024-06-26
 params:

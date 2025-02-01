@@ -2,7 +2,6 @@
 authors:
 - Xiran Jay Zhao
 books/tags:
-- slay
 - science fiction
 - young adult
 date: 2023-09-13
