@@ -11,7 +11,7 @@ params:
   isbn13: '9780380633135'
   year: '2001'
 slug: '9780380633135'
-star_rating: 5
+star_rating: 4
 title: We
 ---
 

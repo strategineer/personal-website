@@ -9,7 +9,7 @@ params:
   isbn13: '9781419771248'
   year: '2023'
 slug: '9781419771248'
-star_rating: 5
+star_rating: 4
 title: Sparrow
 ---
 

@@ -8,7 +8,7 @@ params:
   isbn13: '9780735210936'
   year: '2019'
 slug: '9780735210936'
-star_rating: 4
+star_rating: 3
 title: Because Internet
 ---
 

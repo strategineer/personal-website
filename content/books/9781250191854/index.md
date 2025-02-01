@@ -10,7 +10,7 @@ params:
   series_order: '4'
   year: '2018'
 slug: '9781250191854'
-star_rating: 3
+star_rating: 2
 title: Exit Strategy
 ---
 

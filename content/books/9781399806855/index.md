@@ -10,7 +10,7 @@ params:
   isbn13: '9781399806855'
   year: '2023'
 slug: '9781399806855'
-star_rating: 5
+star_rating: 4
 title: The Autistic Experience - Silenced Voices Finally Heard
 ---
 

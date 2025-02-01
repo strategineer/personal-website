@@ -9,7 +9,7 @@ params:
   isbn13: '9781250621993'
   year: '2023'
 slug: '9781250621993'
-star_rating: 4
+star_rating: 3
 title: Slewfoot - A Tale of Bewitchery
 ---
 

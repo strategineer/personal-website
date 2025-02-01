@@ -8,7 +8,7 @@ params:
   isbn13: '9781250840103'
   year: '2022'
 slug: '9781250840103'
-star_rating: 2
+star_rating: 1
 title: Fifth Head of Cerberus
 ---
 

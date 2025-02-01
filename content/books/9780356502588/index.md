@@ -8,7 +8,7 @@ params:
   isbn13: '9780356502588'
   year: '2014'
 slug: '9780356502588'
-star_rating: 5
+star_rating: 4
 title: The First Fifteen Lives Of Harry August
 ---
 

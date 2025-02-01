@@ -10,7 +10,7 @@ params:
   series_order: '4'
   year: '2021'
 slug: '9781473647688'
-star_rating: 4
+star_rating: 3
 title: The Galaxy, And The Ground Within
 ---
 

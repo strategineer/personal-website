@@ -9,7 +9,7 @@ params:
   isbn13: '9781250306081'
   year: '2020'
 slug: '9781250306081'
-star_rating: 2
+star_rating: 1
 title: To Hold Up The Sky
 ---
 

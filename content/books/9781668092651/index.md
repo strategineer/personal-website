@@ -3,15 +3,15 @@ authors:
 - Kaliane Bradley
 books/tags:
 - romance
-- thriller
 - science fiction
+- thriller
 - tournament-of-books-2025
 date: 2024-12-06
 params:
   isbn13: '9781668092651'
   year: '2024'
 slug: '9781668092651'
-star_rating: 5
+star_rating: 4
 title: The Ministry of Time
 ---
 

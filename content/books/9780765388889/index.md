@@ -11,7 +11,7 @@ params:
   series_order: '1'
   year: '2017'
 slug: '9780765388889'
-star_rating: 4
+star_rating: 3
 title: The Collapsing Empire
 ---
 

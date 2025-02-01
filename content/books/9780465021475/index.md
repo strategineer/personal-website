@@ -8,7 +8,7 @@ params:
   isbn13: '9780465021475'
   year: '1980'
 slug: '9780465021475'
-star_rating: 4
+star_rating: 3
 title: Existential Psychotherapy
 ---
 

@@ -11,7 +11,7 @@ params:
   series_order: '1'
   year: '1993'
 slug: '9780552138901'
-star_rating: 4
+star_rating: 3
 title: Small Gods
 ---
 

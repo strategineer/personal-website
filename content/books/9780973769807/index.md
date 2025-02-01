@@ -8,7 +8,7 @@ params:
   isbn13: '9780973769807'
   year: '2005'
 slug: '9780973769807'
-star_rating: 2
+star_rating: 1
 title: On the Meaning of Life
 ---
 

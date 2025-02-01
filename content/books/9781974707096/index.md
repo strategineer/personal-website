@@ -9,7 +9,7 @@ params:
   isbn13: '9781974707096'
   year: '2019'
 slug: '9781974707096'
-star_rating: 4
+star_rating: 3
 title: No Longer Human
 ---
 

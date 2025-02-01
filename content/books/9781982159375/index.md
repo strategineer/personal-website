@@ -8,7 +8,7 @@ params:
   isbn13: '9781982159375'
   year: '2020'
 slug: '9781982159375'
-star_rating: 3
+star_rating: 2
 title: On Writing
 ---
 

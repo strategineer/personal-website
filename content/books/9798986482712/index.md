@@ -9,7 +9,7 @@ params:
   isbn13: '9798986482712'
   year: '2022'
 slug: '9798986482712'
-star_rating: 2
+star_rating: 1
 title: What I Mean When I Say I'm Autistic - Unpuzzling A Life On The Autism Spectrum
 ---
 

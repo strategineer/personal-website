@@ -8,7 +8,7 @@ params:
   isbn13: '9782501140812'
   year: '2019'
 slug: '9782501140812'
-star_rating: 2
+star_rating: 1
 title: Je cultive l'anti-ambition
 ---
 

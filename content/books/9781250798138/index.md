@@ -10,7 +10,7 @@ params:
   series_order: '1'
   year: '2021'
 slug: '9781250798138'
-star_rating: 3
+star_rating: 2
 title: Axiom's End
 ---
 

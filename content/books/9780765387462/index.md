@@ -10,7 +10,7 @@ params:
   series_order: '3'
   year: '2017'
 slug: '9780765387462'
-star_rating: 3
+star_rating: 2
 title: A Conjuring Of Light
 ---
 

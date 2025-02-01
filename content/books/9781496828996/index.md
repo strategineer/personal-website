@@ -9,7 +9,7 @@ params:
   isbn13: '9781496828996'
   year: '2020'
 slug: '9781496828996'
-star_rating: 3
+star_rating: 2
 title: Critical Directions In Comics Studies
 ---
 

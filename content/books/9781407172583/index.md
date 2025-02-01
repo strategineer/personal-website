@@ -9,7 +9,7 @@ params:
   isbn13: '9781407172583'
   year: '2016'
 slug: '9781407172583'
-star_rating: 5
+star_rating: 4
 title: Gregor The Overlander
 ---
 

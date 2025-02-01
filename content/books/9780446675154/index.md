@@ -8,7 +8,7 @@ params:
   isbn13: '9780446675154'
   year: '1998'
 slug: '9780446675154'
-star_rating: 3
+star_rating: 2
 title: The Mindbody Prescription
 ---
 

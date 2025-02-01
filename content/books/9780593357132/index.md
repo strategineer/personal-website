@@ -8,7 +8,7 @@ params:
   isbn13: '9780593357132'
   year: '2021'
 slug: '9780593357132'
-star_rating: 3
+star_rating: 2
 title: The Martian
 ---
 

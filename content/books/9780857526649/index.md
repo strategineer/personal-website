@@ -8,15 +8,13 @@ params:
   isbn13: '9780857526649'
   year: '2022'
 slug: '9780857526649'
-star_rating: 4
+star_rating: 2
 title: 'Terry Pratchett: A Life With Footnotes - The Official Biography'
 ---
 
 Terry Pratchett is an all-timer. The rare case of an author who is immensely popular for the right reasons.
 
-This is a biography about him, and it's the best one we're going to get, written by the best person for the job (other than Terry Pratchett himself of course), his assistant Rob Wilkins.
-
-It is what it says it is, the story of Terry Pratchett from the beginning to the very end.
+This is a biography about him, and it's the best one we're going to get.
 
 <!--more-->
 

@@ -9,7 +9,7 @@ params:
   isbn13: '9781594650123'
   year: '2013'
 slug: '9781594650123'
-star_rating: 3
+star_rating: 2
 title: Angel Claws
 ---
 

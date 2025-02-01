@@ -11,7 +11,7 @@ params:
   series_order: '1'
   year: '2022'
 slug: '9781804990315'
-star_rating: 5
+star_rating: 4
 title: The Colour Of Magic
 ---
 

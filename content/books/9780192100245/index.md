@@ -9,7 +9,7 @@ params:
   isbn13: '9780192100245'
   year: '2001'
 slug: '9780192100245'
-star_rating: 4
+star_rating: 3
 title: Think
 ---
 

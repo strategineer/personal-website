@@ -10,7 +10,7 @@ params:
   series_order: '6'
   year: '2012'
 slug: '9780547773728'
-star_rating: 5
+star_rating: 4
 title: The Other Wind
 ---
 

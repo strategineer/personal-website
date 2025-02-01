@@ -10,7 +10,7 @@ params:
   series_order: '4'
   year: '2019'
 slug: '9781473223592'
-star_rating: 5
+star_rating: 4
 title: Tehanu
 ---
 

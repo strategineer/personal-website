@@ -8,7 +8,7 @@ params:
   isbn13: '9780192806819'
   year: '2006'
 slug: '9780192806819'
-star_rating: 5
+star_rating: 4
 title: The Oxford Companion To Food
 ---
 

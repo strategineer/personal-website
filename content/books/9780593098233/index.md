@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2019'
 slug: '9780593098233'
-star_rating: 4
+star_rating: 3
 title: Dune Messiah
 ---
 

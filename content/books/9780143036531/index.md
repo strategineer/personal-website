@@ -8,7 +8,7 @@ params:
   isbn13: '9780143036531'
   year: '2005'
 slug: '9780143036531'
-star_rating: 5
+star_rating: 4
 title: Amusing Ourselves To Death
 ---
 

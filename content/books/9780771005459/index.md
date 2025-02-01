@@ -8,7 +8,7 @@ params:
   isbn13: '9780771005459'
   year: '2023'
 slug: '9780771005459'
-star_rating: 4
+star_rating: 3
 title: Held
 ---
 

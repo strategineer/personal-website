@@ -8,7 +8,7 @@ params:
   isbn13: '9780061671340'
   year: '2010'
 slug: '9780061671340'
-star_rating: 3
+star_rating: 2
 title: The Child Thief
 ---
 

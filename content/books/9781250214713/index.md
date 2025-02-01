@@ -10,7 +10,7 @@ params:
   series_order: '1'
   year: '2019'
 slug: '9781250214713'
-star_rating: 4
+star_rating: 3
 title: All Systems Red
 ---
 

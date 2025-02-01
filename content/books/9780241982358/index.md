@@ -9,7 +9,7 @@ params:
   isbn13: '9780241982358'
   year: '2018'
 slug: '9780241982358'
-star_rating: 5
+star_rating: 4
 title: The Greek Myths
 ---
 

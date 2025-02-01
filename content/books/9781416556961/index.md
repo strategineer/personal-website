@@ -8,7 +8,7 @@ params:
   isbn13: '9781416556961'
   year: '2008'
 slug: '9781416556961'
-star_rating: 5
+star_rating: 4
 title: The Lathe Of Heaven
 ---
 

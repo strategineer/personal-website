@@ -8,7 +8,7 @@ params:
   isbn13: '9781400050581'
   year: '2004'
 slug: '9781400050581'
-star_rating: 2
+star_rating: 1
 title: Songs Of The Gorilla Nation
 ---
 

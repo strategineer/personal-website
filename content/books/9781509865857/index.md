@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2020'
 slug: '9781509865857'
-star_rating: 4
+star_rating: 3
 title: Children Of Ruin
 ---
 

@@ -7,7 +7,7 @@ params:
   isbn13: '9781250217318'
   year: '2021'
 slug: '9781250217318'
-star_rating: 5
+star_rating: 4
 title: The House In The Cerulean Sea
 ---
 

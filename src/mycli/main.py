@@ -304,27 +304,36 @@ def sort_tags():
 
 @click.command()
 @click.option("--debug", is_flag=True)
-def ufo50_renamer(debug):
-    #filenames = glob.glob("exports/ufo50/*")
-    i = 1
-    while True:
-        if i > 50:
-            break
-        i_str = i
-        if i < 10:
-            i_str = f"0{i}"
-        print(f"![]({i_str}.jpg)")
-        i += 1
-    #for f in reversed(filenames):
-    #    print(Path(f))
-    #    i_str = i
-    #    if i < 10:
-    #        i_str = f"0{i}"
-    ##    print(f"exports/ufo50/{i_str}.jpg")
-    #    Path(f).rename(f"exports/ufo50/{i_str}.jpg")
-    #    i += 1
-        #print(f"{f}: {n}, {(n + 49) % 50}")
-    return
+def book_rating_shifter(debug):
+    filenames = glob.glob("content/books/*/index.md")
+    for filename in filenames:
+        with open(filename, encoding="utf-8") as f:
+            try:
+                post = frontmatter.load(f)
+            except UnicodeDecodeError:
+                print(
+                    f"Failed to load file {filename} with frontmatter parser due to unicode error"
+                )
+                continue
+        if post.metadata.get("star_rating", 0):
+            tags = post.metadata["books/tags"]
+            if not tags:
+                tags = []
+            if "tabletop" in tags:
+                continue
+            if "slay" in tags:
+                new_rating = 5
+            else:
+                new_rating = max(1, post.metadata["star_rating"] - 1)
+            post.metadata["star_rating"] = new_rating
+            if "slay" in tags:
+                tags.remove("slay")
+            if new_rating == 5:
+                tags.append("slay")
+            sorted_tags = sorted(tags, key=sorting_fn)
+            if sorted_tags != post.metadata["books/tags"]:
+                post.metadata["books/tags"] = sorted_tags
+            write_post(post, filename)
 
 def count_words_fast(c, text):      
     text = text.lower()  
@@ -522,7 +531,7 @@ cli.add_command(upload)
 cli.add_command(find_used_books)
 cli.add_command(rename_reaction_gif)
 cli.add_command(stats)
-cli.add_command(ufo50_renamer)
+cli.add_command(book_rating_shifter)
 
 if __name__ == "__main__":
     cli()

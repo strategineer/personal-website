@@ -11,7 +11,7 @@ params:
   isbn13: '9780197625798'
   year: '2022'
 slug: '9780197625798'
-star_rating: 4
+star_rating: 3
 title: Aesthetic Life And Why It Matters
 ---
 

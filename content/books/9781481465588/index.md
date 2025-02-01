@@ -10,7 +10,7 @@ params:
   series_order: '7'
   year: '2018'
 slug: '9781481465588'
-star_rating: 4
+star_rating: 3
 title: 'The Books of Earthsea: The Complete Illustrated Edition'
 ---
 

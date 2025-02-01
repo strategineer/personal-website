@@ -9,7 +9,7 @@ params:
   isbn13: '9781594651380'
   year: '2016'
 slug: '9781594651380'
-star_rating: 3
+star_rating: 2
 title: Screaming Planet
 ---
 

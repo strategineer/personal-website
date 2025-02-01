@@ -8,7 +8,7 @@ params:
   isbn13: '9780765324641'
   year: '2010'
 slug: '9780765324641'
-star_rating: 4
+star_rating: 3
 title: The Word For World Is Forest
 ---
 

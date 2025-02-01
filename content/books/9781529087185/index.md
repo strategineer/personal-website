@@ -10,7 +10,7 @@ params:
   series_order: '3'
   year: '2022'
 slug: '9781529087185'
-star_rating: 5
+star_rating: 4
 title: Children Of Memory
 ---
 

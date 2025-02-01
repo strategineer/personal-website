@@ -8,7 +8,7 @@ params:
   isbn13: '9780735277182'
   year: '2019'
 slug: '9780735277182'
-star_rating: 3
+star_rating: 2
 title: Empire Of Wild
 ---
 

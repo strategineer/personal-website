@@ -9,7 +9,7 @@ params:
   isbn13: '9781421590561'
   year: '2016'
 slug: '9781421590561'
-star_rating: 2
+star_rating: 1
 title: 'Tomie: Complete Deluxe Edition'
 ---
 

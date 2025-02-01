@@ -11,7 +11,7 @@ params:
   isbn13: '9780262033848'
   year: '2009'
 slug: '9780262033848'
-star_rating: 5
+star_rating: 0
 title: Introduction To Algorithms
 ---
 

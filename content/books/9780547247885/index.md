@@ -1,13 +1,13 @@
 ---
 authors:
 - José Saramago
-books/tags:
+books/tags: []
 date: 2024-03-01
 params:
   isbn13: '9780547247885'
   year: '2008'
 slug: '9780547247885'
-star_rating: 3
+star_rating: 2
 title: Death With Interruptions
 ---
 

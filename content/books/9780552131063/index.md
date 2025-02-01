@@ -9,7 +9,7 @@ params:
   isbn13: '9780552131063'
   year: '1988'
 slug: '9780552131063'
-star_rating: 3
+star_rating: 2
 title: Mort
 ---
 

@@ -9,7 +9,7 @@ params:
   isbn13: '9780735241237'
   year: '2023'
 slug: '9780735241237'
-star_rating: 5
+star_rating: 4
 title: Rouge
 ---
 

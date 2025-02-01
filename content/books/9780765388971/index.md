@@ -11,7 +11,7 @@ params:
   series_order: '2'
   year: 2018
 slug: '9780765388971'
-star_rating: 4
+star_rating: 3
 title: The Consuming Fire
 ---
 

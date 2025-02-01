@@ -10,7 +10,7 @@ params:
   isbn13: '9780374602666'
   year: '2022'
 slug: '9780374602666'
-star_rating: 3
+star_rating: 2
 title: Terraform - Watch/Worlds/Burn
 ---
 

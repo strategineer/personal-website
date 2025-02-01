@@ -10,7 +10,7 @@ params:
   isbn13: '9780811722193'
   year: '1993'
 slug: '9780811722193'
-star_rating: 4
+star_rating: 3
 title: Performance Rock Climbing
 ---
 

@@ -8,7 +8,7 @@ params:
   isbn13: '9780062073556'
   year: '2011'
 slug: '9780062073556'
-star_rating: 4
+star_rating: 3
 title: Death On The Nile
 ---
 

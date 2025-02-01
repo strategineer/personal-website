@@ -11,6 +11,6 @@ params:
   series_order: '1'
   year: '1992'
 slug: '9780552134651'
-star_rating: 3
+star_rating: 2
 title: Witches Abroad
 ---

@@ -8,7 +8,7 @@ params:
   isbn13: '9781250244048'
   year: '2022'
 slug: '9781250244048'
-star_rating: 4
+star_rating: 3
 title: Nettle & Bone
 ---
 

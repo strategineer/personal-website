@@ -10,7 +10,7 @@ params:
   series_order: '3'
   year: '2018'
 slug: '9781250191786'
-star_rating: 3
+star_rating: 2
 title: Rogue Protocol
 ---
 

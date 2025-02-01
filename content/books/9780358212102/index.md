@@ -8,7 +8,7 @@ params:
   isbn13: '9780358212102'
   year: '2019'
 slug: '9780358212102'
-star_rating: 4
+star_rating: 3
 title: Words Are My Matter - Writings On Life And Books
 ---
 

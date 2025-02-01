@@ -8,7 +8,7 @@ params:
   isbn13: '9781250850973'
   year: '2023'
 slug: '9781250850973'
-star_rating: 4
+star_rating: 3
 title: The Crane Husband
 ---
 

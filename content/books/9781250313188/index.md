@@ -10,7 +10,7 @@ params:
   series_order: '1'
   year: '2020'
 slug: '9781250313188'
-star_rating: 4
+star_rating: 3
 title: Gideon The Ninth
 ---
 

@@ -8,7 +8,7 @@ params:
   isbn13: '9780765389121'
   year: '2022'
 slug: '9780765389121'
-star_rating: 2
+star_rating: 1
 title: The Kaiju Preservation Society
 ---
 

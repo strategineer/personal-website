@@ -8,7 +8,7 @@ params:
   isbn13: '9780062936011'
   year: '2019'
 slug: '9780062936011'
-star_rating: 2
+star_rating: 1
 title: To Be Taught, If Fortunate
 ---
 

@@ -8,7 +8,7 @@ params:
   isbn13: '9781039003347'
   year: '2024'
 slug: '9781039003347'
-star_rating: 4
+star_rating: 3
 title: Snow Road Station
 ---
 

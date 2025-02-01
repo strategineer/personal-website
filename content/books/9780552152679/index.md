@@ -4,6 +4,7 @@ authors:
 books/tags:
 - comedy
 - fantasy
+- slay
 date: 2023-07-12
 params:
   isbn13: '9780552152679'

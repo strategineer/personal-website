@@ -9,7 +9,7 @@ params:
   isbn13: '9780252016929'
   year: '1990'
 slug: '9780252016929'
-star_rating: 5
+star_rating: 4
 title: Across The Wounded Galaxies
 ---
 

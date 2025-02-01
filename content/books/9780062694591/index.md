@@ -10,7 +10,7 @@ params:
   isbn13: '9780062694591'
   year: '2018'
 slug: '9780062694591'
-star_rating: 3
+star_rating: 2
 title: Vita Nostra
 ---
 

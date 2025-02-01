@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2016'
 slug: '9780316229265'
-star_rating: 5
+star_rating: 4
 title: The Obelisk Gate
 ---
 

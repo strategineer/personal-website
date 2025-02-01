@@ -8,7 +8,7 @@ params:
   isbn13: '9781408890042'
   year: '2019'
 slug: '9781408890042'
-star_rating: 5
+star_rating: 4
 title: Circe
 ---
 

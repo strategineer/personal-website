@@ -9,7 +9,7 @@ params:
   isbn13: '9780756411381'
   year: '2016'
 slug: '9780756411381'
-star_rating: 2
+star_rating: 1
 title: The Last Herald-Mage Trilogy
 ---
 

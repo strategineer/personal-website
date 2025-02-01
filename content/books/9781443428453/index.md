@@ -8,7 +8,7 @@ params:
   isbn13: '9781443428453'
   year: '2015'
 slug: '9781443428453'
-star_rating: 3
+star_rating: 2
 title: Area X
 ---
 

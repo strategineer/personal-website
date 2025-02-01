@@ -8,7 +8,7 @@ params:
   isbn13: '9781039002487'
   year: '2021'
 slug: '9781039002487'
-star_rating: 3
+star_rating: 2
 title: The Man Who Mistook His Wife For A Hat
 ---
 

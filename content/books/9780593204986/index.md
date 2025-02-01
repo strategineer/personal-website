@@ -8,7 +8,7 @@ params:
   isbn13: '9780593204986'
   year: '2022'
 slug: '9780593204986'
-star_rating: 2
+star_rating: 1
 title: Living Beyond Borders
 ---
 

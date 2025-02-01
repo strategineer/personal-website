@@ -8,7 +8,7 @@ params:
   isbn13: '9781974717477'
   year: '2020'
 slug: '9781974717477'
-star_rating: 2
+star_rating: 1
 title: Remina
 ---
 

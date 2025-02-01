@@ -10,7 +10,7 @@ params:
   isbn13: '9781593070205'
   year: '2003'
 slug: '9781593070205'
-star_rating: 4
+star_rating: 3
 title: Berserk
 ---
 

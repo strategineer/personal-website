@@ -10,7 +10,7 @@ params:
   series_order: '1'
   year: '2021'
 slug: '9780316705851'
-star_rating: 5
+star_rating: 4
 title: Shards Of Earth
 ---
 

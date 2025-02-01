@@ -9,7 +9,7 @@ params:
   isbn13: '9780063347618'
   year: '2023'
 slug: '9780063347618'
-star_rating: 5
+star_rating: 4
 title: The Cat Who Taught Zen
 ---
 

@@ -10,7 +10,7 @@ params:
   series_order: '5'
   year: '2020'
 slug: '9781250229861'
-star_rating: 3
+star_rating: 2
 title: Network Effect
 ---
 

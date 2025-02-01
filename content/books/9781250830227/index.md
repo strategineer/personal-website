@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2022'
 slug: '9781250830227'
-star_rating: 2
+star_rating: 1
 title: Truth Of The Divine
 ---
 

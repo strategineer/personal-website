@@ -8,7 +8,7 @@ params:
   isbn13: '9780807012390'
   year: '1999'
 slug: '9780807012390'
-star_rating: 4
+star_rating: 3
 title: The Miracle Of Mindfulness
 ---
 

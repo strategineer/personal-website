@@ -7,7 +7,7 @@ params:
   isbn13: '9780676977110'
   year: '2006'
 slug: '9780676977110'
-star_rating: 3
+star_rating: 2
 title: Never Let Me Go
 ---
 

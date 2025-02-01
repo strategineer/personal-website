@@ -10,7 +10,7 @@ params:
   isbn13: '9780385699037'
   year: '2024'
 slug: '9780385699037'
-star_rating: 5
+star_rating: 4
 title: The Husbands
 ---
 
@@ -72,4 +72,4 @@ I was actually laughing out loud through it instead of what I usually do with "f
 
 The protagonist and our POV character in the Husbands, Lauren, is very likeable because she's so funny whether we're reading through her dialogue with the husbands she finds herself with or we're reading through her internal monologue-ing throughout the novel.
 
-Lauren's a gamer at heart and a really funny one at that --- truly a woman after my own heart. 
+Lauren's a gamer at heart and a really funny one at that --- truly a woman after my own heart.

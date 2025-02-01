@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2021'
 slug: '9781800241565'
-star_rating: 4
+star_rating: 3
 title: Bear Head
 ---
 

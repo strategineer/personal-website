@@ -11,7 +11,7 @@ params:
   series_order: '1'
   year: '1998'
 slug: '9780552134620'
-star_rating: 5
+star_rating: 4
 title: Guards! Guards!
 ---
 

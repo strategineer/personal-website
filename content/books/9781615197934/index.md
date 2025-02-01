@@ -2,6 +2,7 @@
 authors:
 - David Robert Grimes
 books/tags:
+- slay
 - non-fiction
 date: 2023-09-08
 params:

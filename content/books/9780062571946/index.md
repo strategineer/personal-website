@@ -8,7 +8,7 @@ params:
   isbn13: '9780062571946'
   year: '2018'
 slug: '9780062571946'
-star_rating: 4
+star_rating: 3
 title: Astounding - John W. Campbell, Isaac Asimov, Robert A. Heinlein, L. Ron Hubbard,
   And The Golden Age Of Science Fiction
 ---

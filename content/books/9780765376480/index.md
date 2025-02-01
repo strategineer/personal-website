@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2017'
 slug: '9780765376480'
-star_rating: 4
+star_rating: 3
 title: A Gathering Of Shadows
 ---
 

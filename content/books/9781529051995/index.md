@@ -10,7 +10,7 @@ params:
   series_order: '3'
   year: '2023'
 slug: '9781529051995'
-star_rating: 5
+star_rating: 4
 title: Lords Of Uncreation
 ---
 

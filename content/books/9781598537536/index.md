@@ -9,7 +9,7 @@ params:
   isbn13: '9781598537536'
   year: '2023'
 slug: '9781598537536'
-star_rating: 4
+star_rating: 3
 title: Novels & Stories
 ---
 

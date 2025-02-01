@@ -8,7 +8,7 @@ params:
   isbn13: '9780393356182'
   year: '2018'
 slug: '9780393356182'
-star_rating: 2
+star_rating: 1
 title: Norse Mythology
 ---
 

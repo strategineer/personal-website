@@ -8,7 +8,7 @@ params:
   isbn13: '9780451499028'
   year: '2018'
 slug: '9780451499028'
-star_rating: 3
+star_rating: 2
 title: The Joy Of Mixology
 ---
 

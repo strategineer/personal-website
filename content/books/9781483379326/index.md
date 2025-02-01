@@ -2,6 +2,7 @@
 authors:
 - W. James Potter
 books/tags:
+- slay
 - non-fiction
 date: 2022-04-07
 params:

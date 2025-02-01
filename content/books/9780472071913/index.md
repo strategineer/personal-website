@@ -8,7 +8,7 @@ params:
   isbn13: '9780472071913'
   year: '2013'
 slug: '9780472071913'
-star_rating: 5
+star_rating: 4
 title: 'Doom: Scarydarkfast'
 ---
 

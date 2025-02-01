@@ -10,7 +10,7 @@ params:
   series_order: '3'
   year: '2012'
 slug: '9781442459922'
-star_rating: 3
+star_rating: 2
 title: The Farthest Shore
 ---
 

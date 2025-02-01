@@ -10,7 +10,7 @@ params:
   series_order: '1'
   year: '2018'
 slug: '9781473223851'
-star_rating: 2
+star_rating: 1
 title: Planetfall
 ---
 

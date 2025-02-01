@@ -8,7 +8,7 @@ params:
   isbn13: '9781481497497'
   year: '2018'
 slug: '9781481497497'
-star_rating: 4
+star_rating: 3
 title: Space Opera
 ---
 

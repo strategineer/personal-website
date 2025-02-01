@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2022'
 slug: '9781529051940'
-star_rating: 5
+star_rating: 4
 title: Eyes Of The Void
 ---
 

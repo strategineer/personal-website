@@ -8,7 +8,7 @@ params:
   isbn13: '9780785809050'
   year: '1998'
 slug: '9780785809050'
-star_rating: 4
+star_rating: 3
 title: The Essential Tao
 ---
 

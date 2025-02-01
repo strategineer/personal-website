@@ -1,13 +1,13 @@
 ---
 authors:
 - José Saramago
-books/tags:
+books/tags: []
 date: 2023-10-11
 params:
   isbn13: '9780547840178'
   year: '2012'
 slug: '9780547840178'
-star_rating: 4
+star_rating: 3
 title: Cain
 ---
 

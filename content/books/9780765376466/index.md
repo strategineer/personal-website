@@ -10,7 +10,7 @@ params:
   series_order: '1'
   year: '2016'
 slug: '9780765376466'
-star_rating: 4
+star_rating: 3
 title: A Darker Shade Of Magic
 ---
 

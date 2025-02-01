@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2018'
 slug: '9781250186928'
-star_rating: 3
+star_rating: 2
 title: Artificial Condition
 ---
 

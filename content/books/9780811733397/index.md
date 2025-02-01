@@ -10,7 +10,7 @@ params:
   isbn13: '9780811733397'
   year: '2006'
 slug: '9780811733397'
-star_rating: 4
+star_rating: 3
 title: The Self-Coached Climber
 ---
 

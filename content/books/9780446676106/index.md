@@ -8,7 +8,7 @@ params:
   isbn13: '9780446676106'
   year: '2000'
 slug: '9780446676106'
-star_rating: 4
+star_rating: 3
 title: Lilith's Brood
 ---
 

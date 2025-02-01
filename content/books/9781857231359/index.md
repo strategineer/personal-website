@@ -10,7 +10,7 @@ params:
   series_order: '3'
   year: '1992'
 slug: '9781857231359'
-star_rating: 3
+star_rating: 2
 title: Use Of Weapons
 ---
 

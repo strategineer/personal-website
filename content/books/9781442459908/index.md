@@ -10,7 +10,7 @@ params:
   series_order: '2'
   year: '2012'
 slug: '9781442459908'
-star_rating: 4
+star_rating: 3
 title: The Tombs Of Atuan
 ---
 
