@@ -147,7 +147,7 @@ I rarely finish books that I hate which skews the numbers but I definitely give 
 
 My average rating is 4.1 which seems excessive.
 
-EDIT (2025-01-02): Thinking about this for the past few weeks, I've decided decided to shift the bellcurve down 1 point across all of my book ratings leveraging the "slay" tag (which I use to seperate my favorite books from the rest) as a sort of 6th point on my 5-point rating scale. Now that I've done that, I'll have to shift the scale in my brain... That'll be the hard part.
+EDIT (2025-01-02): Thinking about this for the past few weeks, I've decided decided to shift the bellcurve down 1 point across all of my book ratings leveraging the "slay" tag (which I use to separate my favorite books from the rest) as a sort of 6th point on my 5-point rating scale. Now that I've done that, I'll have to shift the scale in my brain... That'll be the hard part.
 
 I read 6 books with a friend (the *buddy read*) in 2024. I get so much out of this kind of reading experience that I'd love to be able to do it more.
 
