@@ -3,7 +3,6 @@ authors:
 - Iain Banks
 books/tags:
 - comedy
-- satire
 - science fiction
 date: 2024-05-10
 params:
