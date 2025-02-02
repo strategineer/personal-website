@@ -4,6 +4,7 @@ authors:
 books/tags:
 - historical fiction
 - tournament-of-books-2025
+- tragicomedy
 date: 2024-12-21
 params:
   isbn13: '9781250893697'
