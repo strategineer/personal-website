@@ -2,6 +2,7 @@
 authors:
 - Iain Banks
 books/tags:
+- 2star
 - science fiction
 date: 2024-07-28
 params:

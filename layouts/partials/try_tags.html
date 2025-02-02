@@ -5,10 +5,10 @@
   <div class="d-flex justify-content-center d-flex-inline-list text-center">
     <ul class="list-inline ul-inline">
       {{ range $tags }}
-        {{ $pretty_tag := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
-        {{ if collections.In (slice "1star" "2star" "3star" "4star" "5star") $pretty_tag }}
+        {{ if collections.In (slice "1star" "2star" "3star" "4star" "5star") .LinkTitle }}
         {{ continue }}
         {{ end }}
+        {{ $pretty_tag := index $.Site.Data.tag_mapping .LinkTitle | default .LinkTitle }}
         {{ if collections.In (slice "currently-playing" "currently-reading" "did-not-finish" "slay" "trash" "unowned"
         "owned-but-unread")
         (lower $pretty_tag) }}

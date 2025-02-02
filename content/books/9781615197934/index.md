@@ -2,6 +2,7 @@
 authors:
 - David Robert Grimes
 books/tags:
+- 5star
 - non-fiction
 date: 2023-09-08
 params:

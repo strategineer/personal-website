@@ -2,6 +2,7 @@
 authors:
 - Julian Baggini
 books/tags:
+- 1star
 - trash
 - non-fiction
 - philosophy

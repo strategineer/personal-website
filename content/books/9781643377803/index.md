@@ -3,6 +3,7 @@ authors:
 - Alejandro Jodorowsky
 - Moebius
 books/tags:
+- 5star
 - comics
 - science fiction
 date: 2024-08-14

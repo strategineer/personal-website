@@ -2,6 +2,7 @@
 authors:
 - Justin Alexander
 books/tags:
+- 5star
 - tabletop
 date: 2024-08-23
 params:

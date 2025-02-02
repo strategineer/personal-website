@@ -2,6 +2,7 @@
 authors:
 - Thomas Giddens
 books/tags:
+- 2star
 - academic
 - comics
 date: 2024-08-13

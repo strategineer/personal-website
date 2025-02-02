@@ -3,6 +3,7 @@ authors:
 - Patrick Stuart
 - Zak Sabbath
 books/tags:
+- 5star
 - tabletop
 date: 2024-08-18
 params:

@@ -2,6 +2,7 @@
 authors:
 - Ron Edwards
 books/tags:
+- 5star
 - tabletop
 date: 2024-11-22
 params:

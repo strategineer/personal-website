@@ -2,6 +2,7 @@
 authors:
 - Gene Wolfe
 books/tags:
+- 5star
 - fantasy
 date: 2024-10-11
 params:

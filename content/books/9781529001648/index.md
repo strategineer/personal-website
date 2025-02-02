@@ -2,6 +2,7 @@
 authors:
 - Arkady Martine
 books/tags:
+- 1star
 - trash
 - science fiction
 date: 2024-04-11

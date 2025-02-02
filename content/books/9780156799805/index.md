@@ -2,6 +2,7 @@
 authors:
 - Lu Dongbin
 books/tags:
+- 1star
 - did-not-finish
 - trash
 - philosophy

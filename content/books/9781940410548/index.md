@@ -2,6 +2,7 @@
 authors:
 - Dennis Detwiller
 books/tags:
+- 5star
 - tabletop
 date: 2024-07-31
 params:

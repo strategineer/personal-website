@@ -1,6 +1,6 @@
 {{- $name := humanize (pluralize .Data.Singular) -}}
 {{- $mid := "tagged with" -}}
-{{- $title := add "'" .Title "'" -}}
+{{- $title := add "'" (index $.Site.Data.tag_mapping .Title | default .Title) "'" -}}
 {{- if and (eq $name "Mappers") (ne .Title "Tags") -}}
 {{- $name = "Maps" -}}
 {{- $mid = "by" -}}

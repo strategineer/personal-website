@@ -2,6 +2,7 @@
 authors:
 - Becky Chambers
 books/tags:
+- 1star
 - science fiction
 date: 2023-07-22
 params:

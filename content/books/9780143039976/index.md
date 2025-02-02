@@ -2,6 +2,7 @@
 authors:
 - Shirley Jackson
 books/tags:
+- 5star
 - horror
 date: 2023-10-23
 params:

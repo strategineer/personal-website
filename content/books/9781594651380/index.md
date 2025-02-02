@@ -2,6 +2,7 @@
 authors:
 - Alejandro Jodorowsky
 books/tags:
+- 2star
 - anthology
 - comics
 date: 2024-08-16

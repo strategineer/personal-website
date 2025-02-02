@@ -2,6 +2,7 @@
 authors:
 - V. E. Schwab
 books/tags:
+- 1star
 - fantasy
 date: 2023-10-22
 params:

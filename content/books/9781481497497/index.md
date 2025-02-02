@@ -2,6 +2,7 @@
 authors:
 - Catherynne M. Valente
 books/tags:
+- 3star
 - science fiction
 date: 2023-06-07
 params:

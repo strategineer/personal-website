@@ -4,6 +4,7 @@ authors:
 - Boris Strugatsky
 - Olena Bormashenko
 books/tags:
+- 5star
 - science fiction
 - slavic
 date: 2024-04-03

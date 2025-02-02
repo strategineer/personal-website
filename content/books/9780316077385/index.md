@@ -2,6 +2,7 @@
 authors:
 - Kiyohiko Azuma
 books/tags:
+- 5star
 - comedy
 - comics
 date: 2015-08-29

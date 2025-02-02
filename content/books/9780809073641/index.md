@@ -2,6 +2,7 @@
 authors:
 - Elie Wiesel
 books/tags:
+- 5star
 - memoir
 - non-fiction
 date: 2022-03-01

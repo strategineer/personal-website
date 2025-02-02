@@ -2,6 +2,7 @@
 authors:
 - John Scalzi
 books/tags:
+- 3star
 - science fiction
 date: 2023-09-20
 params:

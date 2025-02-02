@@ -2,6 +2,7 @@
 authors:
 - Margarita Longoria
 books/tags:
+- 1star
 - anthology
 date: 2022-10-04
 params:

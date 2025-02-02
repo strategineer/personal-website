@@ -3,6 +3,7 @@ authors:
 - Dan Hague
 - Douglas Hunter
 books/tags:
+- 3star
 - climbing
 - non-fiction
 date: 2022-09-15

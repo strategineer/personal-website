@@ -2,6 +2,7 @@
 authors:
 - James Wallis
 books/tags:
+- 5star
 - tabletop
 date: 2016-05-01
 params:

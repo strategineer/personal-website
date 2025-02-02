@@ -2,6 +2,7 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
+- 4star
 - philosophy
 date: 2024-04-09
 params:

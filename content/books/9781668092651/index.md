@@ -2,6 +2,7 @@
 authors:
 - Kaliane Bradley
 books/tags:
+- 4star
 - historical fiction
 - romance
 - science fiction

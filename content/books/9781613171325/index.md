@@ -2,6 +2,7 @@
 authors:
 - John Harper
 books/tags:
+- 5star
 - tabletop
 date: 2019-03-01
 params:

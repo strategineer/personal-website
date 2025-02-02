@@ -2,6 +2,7 @@
 authors:
 - Patricia Lockwood
 books/tags:
+- 5star
 - memoir
 - non-fiction
 date: 2023-07-07

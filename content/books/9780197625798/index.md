@@ -4,6 +4,7 @@ authors:
 - Bence Nanay
 - Nick Riggle
 books/tags:
+- 3star
 - non-fiction
 - philosophy
 date: 2022-10-03

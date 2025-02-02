@@ -2,6 +2,7 @@
 authors:
 - Cesca Major
 books/tags:
+- 5star
 - romance
 date: 2024-03-16
 params:

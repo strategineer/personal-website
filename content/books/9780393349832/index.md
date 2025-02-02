@@ -2,6 +2,7 @@
 authors:
 - Brian Hayes
 books/tags:
+- 5star
 - non-fiction
 date: 2021-10-01
 params:

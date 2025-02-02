@@ -2,6 +2,7 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
+- 5star
 - historical fiction
 date: 2024-06-26
 params:

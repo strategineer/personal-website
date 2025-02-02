@@ -2,6 +2,7 @@
 authors:
 - W. James Potter
 books/tags:
+- 5star
 - non-fiction
 date: 2022-04-07
 params:

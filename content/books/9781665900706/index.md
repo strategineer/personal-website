@@ -2,6 +2,7 @@
 authors:
 - Xiran Jay Zhao
 books/tags:
+- 4star
 - fantasy
 - middle-grade
 date: 2023-09-24

@@ -2,6 +2,7 @@
 authors:
 - Ferdia Lennon
 books/tags:
+- 5star
 - historical fiction
 - tournament-of-books-2025
 - tragicomedy

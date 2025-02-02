@@ -141,7 +141,7 @@
         {{ end }}
         <div class="col-lg-12 all-tags">
           <a href="{{ $t.Page.RelPermalink }}">
-            <span class="h4">{{ $t.Page.Title }}</span>
+            <span class="h4">{{ index $.Site.Data.tag_mapping $t.Page.Title | default $t.Page.Title }}</span>
           </a>
         </div>
         <hr />

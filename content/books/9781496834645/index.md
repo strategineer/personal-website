@@ -3,6 +3,7 @@ authors:
 - Benjamin Woo
 - Jeremy Stoll
 books/tags:
+- 3star
 - academic
 date: 2024-08-13
 params:

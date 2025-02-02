@@ -2,6 +2,7 @@
 authors:
 - Will Durant
 books/tags:
+- 1star
 - philosophy
 date: 2024-11-04
 params:

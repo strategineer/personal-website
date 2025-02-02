@@ -2,6 +2,7 @@
 authors:
 - Mona Awad
 books/tags:
+- 4star
 - magical realism
 date: 2023-12-15
 params:

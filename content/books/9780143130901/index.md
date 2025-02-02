@@ -2,6 +2,7 @@
 authors:
 - Nick Riggle
 books/tags:
+- 5star
 - non-fiction
 - philosophy
 date: 2022-08-19

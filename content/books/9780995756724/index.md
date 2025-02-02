@@ -2,6 +2,7 @@
 authors:
 - Melsonian Arts Council
 books/tags:
+- 4star
 - tabletop
 date: 2025-01-12
 params:

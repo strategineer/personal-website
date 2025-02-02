@@ -2,6 +2,7 @@
 authors:
 - Joshua Halberstam
 books/tags:
+- 1star
 - did-not-finish
 - trash
 - philosophy

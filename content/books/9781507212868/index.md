@@ -2,6 +2,7 @@
 authors:
 - James D'Amato
 books/tags:
+- 3star
 - tabletop
 date: 2023-11-18
 params:

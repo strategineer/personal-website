@@ -2,6 +2,7 @@
 authors:
 - Martha Wells
 books/tags:
+- 2star
 - science fiction
 date: 2023-07-15
 params:

@@ -2,6 +2,7 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
+- 3star
 - non-fiction
 date: 2023-09-23
 params:

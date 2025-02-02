@@ -2,6 +2,7 @@
 authors:
 - Octavia E. Butler
 books/tags:
+- 2star
 - post-apocalyptic
 date: 2023-09-02
 params:

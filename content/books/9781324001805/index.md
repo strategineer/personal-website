@@ -3,6 +3,7 @@ authors:
 - Homer
 - Emily Wilson
 books/tags:
+- 4star
 - myth
 date: 2024-01-27
 params:

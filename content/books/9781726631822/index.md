@@ -2,6 +2,7 @@
 authors:
 - Michael Shea
 books/tags:
+- 3star
 - tabletop
 date: 2024-08-23
 params:

@@ -2,6 +2,7 @@
 authors:
 - John E. Sarno
 books/tags:
+- 2star
 - non-fiction
 date: 2022-08-01
 params:

@@ -2,6 +2,7 @@
 authors:
 - Lindsay Ellis
 books/tags:
+- 1star
 - science fiction
 date: 2022-11-20
 params:

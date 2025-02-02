@@ -2,6 +2,7 @@
 authors:
 - Stanislaw Lem
 books/tags:
+- 4star
 - comedy
 - horror
 - science fiction

@@ -2,6 +2,7 @@
 authors:
 - Brom
 books/tags:
+- 3star
 - horror
 - myth
 date: 2024-10-18

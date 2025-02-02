@@ -2,6 +2,7 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
+- 4star
 - science fiction
 date: 2024-09-07
 params:

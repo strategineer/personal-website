@@ -3,6 +3,7 @@ authors:
 - Brian Merchant
 - Claire L. Evans
 books/tags:
+- 2star
 - anthology
 - science fiction
 date: 2022-12-23

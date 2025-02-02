@@ -4,6 +4,7 @@ authors:
 - Scrap Princess
 - Dirk Detweiler Leichty
 books/tags:
+- 4star
 - tabletop
 date: 2024-08-23
 params:

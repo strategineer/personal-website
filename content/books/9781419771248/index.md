@@ -2,6 +2,7 @@
 authors:
 - James Hynes
 books/tags:
+- 4star
 - historical fiction
 - tournament-of-books-2025
 date: 2025-01-12

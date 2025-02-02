@@ -2,6 +2,7 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
+- 5star
 - comedy
 - science fiction
 - tournament-of-books-2025

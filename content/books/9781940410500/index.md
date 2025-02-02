@@ -2,6 +2,7 @@
 authors:
 - Shane Ivey
 books/tags:
+- 4star
 - tabletop
 date: 2024-07-31
 params:

@@ -3,6 +3,7 @@ authors:
 - Marcus Aurelius
 - Gregory Hays
 books/tags:
+- 2star
 - non-fiction
 - philosophy
 date: 2022-02-15

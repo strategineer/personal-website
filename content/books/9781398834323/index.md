@@ -2,6 +2,7 @@
 authors:
 - Lady Wylde
 books/tags:
+- 1star
 - did-not-finish
 - myth
 date: 2024-03-25

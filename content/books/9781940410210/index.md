@@ -5,6 +5,7 @@ authors:
 - Greg Stolze
 - Christopher Gunning
 books/tags:
+- 5star
 - tabletop
 date: 2024-07-30
 params:

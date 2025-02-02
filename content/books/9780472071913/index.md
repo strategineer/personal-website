@@ -2,6 +2,7 @@
 authors:
 - Dan Pinchbeck
 books/tags:
+- 4star
 - academic
 date: 2024-11-22
 params:

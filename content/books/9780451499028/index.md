@@ -2,6 +2,7 @@
 authors:
 - Gary Regan
 books/tags:
+- 2star
 - non-fiction
 date: 2021-11-15
 params:

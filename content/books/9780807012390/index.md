@@ -2,6 +2,7 @@
 authors:
 - Thich Nhat Hanh
 books/tags:
+- 3star
 - philosophy
 date: 2023-08-20
 params:

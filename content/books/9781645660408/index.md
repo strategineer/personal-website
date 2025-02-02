@@ -2,6 +2,7 @@
 authors:
 - Mizuki Tsujimura
 books/tags:
+- 3star
 - fantasy
 date: 2024-04-22
 params:

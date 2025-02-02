@@ -2,6 +2,7 @@
 authors:
 - William Dalrymple
 books/tags:
+- 3star
 - non-fiction
 date: 2022-03-15
 params:

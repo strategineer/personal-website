@@ -2,6 +2,7 @@
 authors:
 - Agatha Christie
 books/tags:
+- 2star
 - detective fiction
 date: 2023-10-29
 params:

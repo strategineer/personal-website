@@ -2,6 +2,7 @@
 authors:
 - Pinnacle Entertainment
 books/tags:
+- 4star
 - tabletop
 date: 2025-01-16
 params:

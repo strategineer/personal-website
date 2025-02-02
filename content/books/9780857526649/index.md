@@ -2,6 +2,7 @@
 authors:
 - Rob Wilkins
 books/tags:
+- 2star
 - non-fiction
 date: 2023-10-28
 params:

@@ -3,6 +3,7 @@ authors:
 - Dale Goddard
 - Udo Neumann
 books/tags:
+- 3star
 - climbing
 - non-fiction
 date: 2022-09-17

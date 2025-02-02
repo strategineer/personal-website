@@ -2,6 +2,7 @@
 authors:
 - Oliver Sacks
 books/tags:
+- 2star
 - non-fiction
 date: 2022-04-01
 params:

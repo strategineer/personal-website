@@ -2,6 +2,7 @@
 authors:
 - Aldous Huxley
 books/tags:
+- 3star
 - dystopian
 - science fiction
 date: 2023-01-08

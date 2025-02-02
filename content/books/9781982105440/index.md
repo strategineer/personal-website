@@ -2,6 +2,7 @@
 authors:
 - Jean-Paul Sartre
 books/tags:
+- 1star
 - did-not-finish
 - trash
 - philosophy

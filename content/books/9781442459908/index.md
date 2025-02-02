@@ -2,6 +2,7 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
+- 3star
 - fantasy
 date: 2023-08-02
 params:

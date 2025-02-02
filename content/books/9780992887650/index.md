@@ -2,6 +2,7 @@
 authors:
 - Francis Sanzaro
 books/tags:
+- 4star
 - non-fiction
 date: 2022-10-20
 params:

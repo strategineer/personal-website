@@ -2,6 +2,7 @@
 authors:
 - Tuesday Knight Games
 books/tags:
+- 4star
 - tabletop
 date: 2024-07-23
 params:

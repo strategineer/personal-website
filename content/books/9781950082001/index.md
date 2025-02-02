@@ -2,6 +2,7 @@
 authors:
 - Shane Lacy Hensley
 books/tags:
+- 5star
 - tabletop
 date: 2025-01-16
 params:

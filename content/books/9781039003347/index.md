@@ -2,6 +2,7 @@
 authors:
 - Elizabeth Hay
 books/tags:
+- 3star
 - tournament-of-books-2024
 date: 2025-01-05
 params:

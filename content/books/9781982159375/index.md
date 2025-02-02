@@ -2,6 +2,7 @@
 authors:
 - Stephen King
 books/tags:
+- 2star
 - non-fiction
 date: 2021-11-01
 params:

@@ -310,7 +310,7 @@ def sort_tags():
                     tags.remove(star_rating_tag)
             star_rating = post.metadata.get("star_rating", 0)
             if star_rating in STAR_RATING_TAGS:
-                tags.push(STAR_RATING_TAGS[star_rating])
+                tags.append(STAR_RATING_TAGS[star_rating])
             sorted_tags = sorted(tags, key=sorting_fn)
             if "slay" in sorted_tags:
                 sorted_tags.remove("slay")

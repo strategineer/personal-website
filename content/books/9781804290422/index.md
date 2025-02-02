@@ -2,6 +2,7 @@
 authors:
 - James Bridle
 books/tags:
+- 5star
 - non-fiction
 date: 2024-03-02
 params:

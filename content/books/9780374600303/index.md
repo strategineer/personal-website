@@ -2,6 +2,7 @@
 authors:
 - Paul Murray
 books/tags:
+- 5star
 - tournament-of-books-2024
 - tragicomedy
 date: 2025-01-28

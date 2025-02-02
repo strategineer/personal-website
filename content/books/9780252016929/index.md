@@ -2,6 +2,7 @@
 authors:
 - Larry McCaffery
 books/tags:
+- 4star
 - anthology
 - science-fiction
 date: 2024-07-29

@@ -2,6 +2,7 @@
 authors:
 - Joanna Russ
 books/tags:
+- 3star
 - fantasy
 - science fiction
 date: 2024-10-28

@@ -2,6 +2,7 @@
 authors:
 - Jennifer Croft
 books/tags:
+- 4star
 - tournament of books 2025
 date: 2024-11-28
 params:

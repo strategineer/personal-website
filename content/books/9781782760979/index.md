@@ -3,6 +3,7 @@ authors:
 - Alejandro Jodorowsky
 - Dongzi Liu
 books/tags:
+- 1star
 - comics
 date: 2024-08-15
 params:

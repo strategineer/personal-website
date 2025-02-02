@@ -2,6 +2,7 @@
 authors:
 - Dave Macleod
 books/tags:
+- 1star
 - trash
 - climbing
 - non-fiction

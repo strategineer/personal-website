@@ -2,6 +2,7 @@
 authors:
 - Alec Nevala-Lee
 books/tags:
+- 3star
 - non-fiction
 date: 2023-08-26
 params:

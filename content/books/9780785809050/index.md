@@ -2,6 +2,7 @@
 authors:
 - Thomas Cleary
 books/tags:
+- 3star
 - philosophy
 date: 2023-08-19
 params:

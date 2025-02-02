@@ -2,6 +2,7 @@
 authors:
 - Roger Zelazny
 books/tags:
+- 5star
 - comedy
 - detective fiction
 - science fiction

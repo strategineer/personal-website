@@ -3,6 +3,7 @@ authors:
 - Osamu Dazai
 - Junji Ito
 books/tags:
+- 3star
 - comics
 date: 2024-08-15
 params:

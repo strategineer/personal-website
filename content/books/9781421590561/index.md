@@ -2,6 +2,7 @@
 authors:
 - Junji Ito
 books/tags:
+- 1star
 - comics
 - horror
 date: 2024-06-07

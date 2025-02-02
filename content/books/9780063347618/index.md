@@ -2,6 +2,7 @@
 authors:
 - James Norbury
 books/tags:
+- 4star
 - comics
 - philosophy
 date: 2024-04-24

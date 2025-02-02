@@ -2,6 +2,7 @@
 authors:
 - Mona Awad
 books/tags:
+- 4star
 - magical realism
 - tournament-of-books-2024
 date: 2024-12-10

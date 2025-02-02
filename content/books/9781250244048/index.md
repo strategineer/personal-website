@@ -2,6 +2,7 @@
 authors:
 - T. Kingfisher
 books/tags:
+- 3star
 - fantasy
 date: 2023-11-14
 params:

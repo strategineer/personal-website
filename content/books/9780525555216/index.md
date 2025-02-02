@@ -2,6 +2,7 @@
 authors:
 - John Green
 books/tags:
+- 1star
 - trash
 - non-fiction
 date: 2022-02-01

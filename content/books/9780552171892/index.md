@@ -3,6 +3,7 @@ authors:
 - Terry Pratchett
 - Neil Gaiman
 books/tags:
+- 2star
 - comedy
 date: 2022-12-10
 params:

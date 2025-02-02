@@ -3,6 +3,7 @@ authors:
 - Frederik Peeters
 - Pierre Oscar Levy
 books/tags:
+- 1star
 - trash
 - comics
 date: 2021-07-22

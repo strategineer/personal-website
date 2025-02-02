@@ -2,6 +2,7 @@
 authors:
 - Jeff VanderMeer
 books/tags:
+- 2star
 - science fiction
 date: 2023-05-03
 params:

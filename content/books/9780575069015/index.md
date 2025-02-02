@@ -2,6 +2,7 @@
 authors:
 - Mary Gentle
 books/tags:
+- 5star
 - alternate history
 - fantasy
 - historical fiction

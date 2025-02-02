@@ -2,6 +2,7 @@
 authors:
 - Irvin D. Yalom
 books/tags:
+- 3star
 - psychology
 date: 2024-10-21
 params:

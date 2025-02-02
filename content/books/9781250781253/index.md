@@ -2,6 +2,7 @@
 authors:
 - Gene Wolfe
 books/tags:
+- 5star
 - post-apocalyptic
 - science fantasy
 date: 2024-02-11

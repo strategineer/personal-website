@@ -2,6 +2,7 @@
 authors:
 - John Gray
 books/tags:
+- 1star
 - trash
 - philosophy
 date: 2023-08-27

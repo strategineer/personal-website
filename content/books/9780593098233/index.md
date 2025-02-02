@@ -2,6 +2,7 @@
 authors:
 - Frank Herbert
 books/tags:
+- 3star
 - science fiction
 date: 2024-07-24
 params:

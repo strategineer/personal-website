@@ -2,6 +2,7 @@
 authors:
 - Gretchen McCulloch
 books/tags:
+- 3star
 - non-fiction
 date: 2022-01-20
 params:

@@ -2,6 +2,7 @@
 authors:
 - Simon Blackburn
 books/tags:
+- 3star
 - non-fiction
 - philosophy
 date: 2022-05-15

@@ -2,6 +2,7 @@
 authors:
 - C. Thi Nguyen
 books/tags:
+- 1star
 - did-not-finish
 - non-fiction
 - philosophy

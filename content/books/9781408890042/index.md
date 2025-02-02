@@ -2,6 +2,7 @@
 authors:
 - Madeline Miller
 books/tags:
+- 4star
 - myth
 date: 2023-12-01
 params:

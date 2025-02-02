@@ -2,6 +2,7 @@
 authors:
 - Cherie Dimaline
 books/tags:
+- 2star
 - magical realism
 date: 2023-09-19
 params:

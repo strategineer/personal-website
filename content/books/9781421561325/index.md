@@ -2,6 +2,7 @@
 authors:
 - Junji Ito
 books/tags:
+- 4star
 - comics
 date: 2015-08-30
 params:

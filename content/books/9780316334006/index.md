@@ -2,6 +2,7 @@
 authors:
 - N. K. Jemisin
 books/tags:
+- 3star
 - fantasy
 date: 2023-12-27
 params:

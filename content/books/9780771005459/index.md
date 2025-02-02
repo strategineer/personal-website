@@ -2,6 +2,7 @@
 authors:
 - Anne Michaels
 books/tags:
+- 3star
 - tournament of books 2025
 date: 2024-12-04
 params:

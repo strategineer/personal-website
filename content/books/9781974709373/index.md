@@ -2,6 +2,7 @@
 authors:
 - Kazuo Umezz
 books/tags:
+- 3star
 - comics
 date: 2021-07-01
 params:

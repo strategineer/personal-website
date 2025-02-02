@@ -2,6 +2,7 @@
 authors:
 - Ted Chiang
 books/tags:
+- 4star
 - science fiction
 - short story collection
 date: 2024-05-02

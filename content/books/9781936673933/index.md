@@ -2,6 +2,7 @@
 authors:
 - Kevin Crawford
 books/tags:
+- 4star
 - tabletop
 date: 2019-06-02
 params:

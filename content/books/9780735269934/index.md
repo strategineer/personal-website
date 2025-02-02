@@ -2,6 +2,7 @@
 authors:
 - Xiran Jay Zhao
 books/tags:
+- 5star
 - science fiction
 - young adult
 date: 2023-09-13

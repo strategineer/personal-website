@@ -2,6 +2,7 @@
 authors:
 - Samantha Harvey
 books/tags:
+- 4star
 - science fiction
 - tournament of books 2025
 date: 2024-12-03

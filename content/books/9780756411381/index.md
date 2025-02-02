@@ -2,6 +2,7 @@
 authors:
 - Mercedes Lackey
 books/tags:
+- 1star
 - fantasy
 - romance
 date: 2024-12-05

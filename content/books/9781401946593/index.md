@@ -3,6 +3,7 @@ authors:
 - Gia-Fu Feng
 - Jane English
 books/tags:
+- 4star
 - philosophy
 date: 2023-07-23
 params:

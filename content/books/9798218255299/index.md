@@ -2,6 +2,7 @@
 authors:
 - Claymore
 books/tags:
+- 5star
 - tabletop
 date: 2024-07-22
 params:

@@ -2,6 +2,7 @@
 authors:
 - Kentaro Miura
 books/tags:
+- 3star
 - comics
 - fantasy
 - horror
