@@ -40,8 +40,11 @@
     {{ $pages := $t.Pages }}
     {{ range $pages }}
       {{ if and (gt .Params.star_rating 0) (ne .Params.weight 0) }}
-        {{ $n_rating = add $n_rating .Params.star_rating }}
-        {{ $n = add $n 1 }}
+          {{ if and $is_authors_page (in (index .Params "books/tags") "tabletop") }}
+          {{ else }}
+            {{ $n_rating = add $n_rating .Params.star_rating }}
+            {{ $n = add $n 1 }}
+          {{ end }}
       {{ end }}
     {{ end }}
     {{ if ne $n 0 }}
