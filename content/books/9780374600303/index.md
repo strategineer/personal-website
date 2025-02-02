@@ -3,6 +3,7 @@ authors:
 - Paul Murray
 books/tags:
 - tournament-of-books-2024
+- tragicomedy
 date: 2025-01-28
 params:
   isbn13: '9780374600303'
