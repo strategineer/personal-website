@@ -2,14 +2,14 @@
 authors:
 - Kelsey Dionne
 books/tags:
-- 5star
+- 4star
 - tabletop
 date: 2024-08-18
 params:
   isbn13: '9798985456400'
   year: '2023'
 slug: '9798985456400'
-star_rating: 5
+star_rating: 4
 title: Shadowdark RPG
 ---
 

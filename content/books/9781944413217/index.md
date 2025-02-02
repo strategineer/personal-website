@@ -2,7 +2,7 @@
 authors:
 - Pinnacle Entertainment
 books/tags:
-- 5star
+- 4star
 - tabletop
 date: 2025-01-12
 params:
@@ -11,7 +11,7 @@ params:
   series_order: '1'
   year: '2017'
 slug: '9781944413217'
-star_rating: 5
+star_rating: 4
 title: 'Savage Worlds: Rifts© - The Tomorrow Legion Players Guide'
 ---
 

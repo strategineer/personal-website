@@ -61,7 +61,7 @@
     {{ if eq $t.Term "currently-reading" }}
       {{ $score = add $score 10000 }}
     {{ end }}
-    {{ if eq $t.Term "slay" }}
+    {{ if eq $t.Term "5star" }}
       {{ $score = mul $score 10 }}
     {{ end }}
     {{ if eq $t.Term "did-not-finish" }}
@@ -75,6 +75,9 @@
     {{ end }}
     {{ if eq $t.Term "owned-but-unread" }}
       {{ $score = 0 }}
+    {{ end }}
+    {{ if collections.In (slice "1star" "2star" "3star" "4star") $t.Term }}
+        {{ $score = mul $score 0.1 }}
     {{ end }}
     {{ $dict_to_avg_star_rating = merge $dict_to_avg_star_rating (dict $t.Term (dict "term" $t.Term "score" $score "object" $t) ) }}
   {{ end }}

@@ -13,7 +13,7 @@ star_rating: 5
 title: So You Want To Be A Game Master?
 ---
 
-An extremely efficient yet thorough guide to running tabletop RPG games. I would have loved to have read this back when I first started GMing over a decade ago! It's got everything you need to give you the confidence you nede
+An extremely efficient yet thorough guide to running tabletop RPG games. I would have loved to have read this back when I first started GMing over a decade ago! It's got everything you need to give you the confidence to start run great games.
 
 Even if you've got experience GMing, there's so much knowledge in this book and it's expressed so clearly that you'll undoubtly learn a bunch reading it, no matter what kind of games you're interesting in running.  
 
