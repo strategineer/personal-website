@@ -3,7 +3,6 @@ authors:
 - John Scalzi
 books/tags:
 - science fiction
-- space opera
 date: 2023-09-20
 params:
   isbn13: '9780765388971'
