@@ -2,6 +2,7 @@
 authors:
 - Kaliane Bradley
 books/tags:
+- historical fiction
 - romance
 - science fiction
 - thriller

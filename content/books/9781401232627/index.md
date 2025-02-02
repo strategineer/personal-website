@@ -6,7 +6,6 @@ books/tags:
 - did-not-finish
 - anthology
 - comics
-- superhero
 date: 2024-08-16
 params:
   isbn13: '9781401232627'

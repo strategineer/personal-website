@@ -2,6 +2,7 @@
 authors:
 - Mary Gentle
 books/tags:
+- alternate history
 - fantasy
 - historical fiction
 date: 2024-06-16

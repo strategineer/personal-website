@@ -4,7 +4,6 @@ authors:
 books/tags:
 - did-not-finish
 - comics
-- superhero
 date: 2024-08-12
 params:
   isbn13: '9781401263126'
