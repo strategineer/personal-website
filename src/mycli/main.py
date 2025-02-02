@@ -286,6 +286,13 @@ def sorting_fn(a):
 @click.command()
 def sort_tags():
     """uhhh this is messy, it's meant to be a sort of validation/fixup step"""
+    STAR_RATING_TAGS = {
+        1: "1star",
+        2: "2star",
+        3: "3star",
+        4: "4star",
+        5: "5star"
+    }
     filenames = glob.glob("content/books/*/index.md")
     for filename in filenames:
         with open(filename, encoding="utf-8") as f:
@@ -297,10 +304,17 @@ def sort_tags():
                 )
                 continue
         if post.metadata["books/tags"]:
-            sorted_tags = sorted(post.metadata["books/tags"], key=sorting_fn)
+            tags = post.metadata["books/tags"]
+            for star_rating_tag in STAR_RATING_TAGS.values():
+                if star_rating_tag in tags:
+                    tags.remove(star_rating_tag)
+            star_rating = post.metadata.get("star_rating", 0)
+            if star_rating in STAR_RATING_TAGS:
+                tags.push(STAR_RATING_TAGS[star_rating])
+            sorted_tags = sorted(tags, key=sorting_fn)
             if "slay" in sorted_tags:
                 sorted_tags.remove("slay")
-            if sorted_tags != post.metadata["books/tags"]:
+            if sorted_tags != tags:
                 post.metadata["books/tags"] = sorted_tags
             write_post(post, filename)
 
