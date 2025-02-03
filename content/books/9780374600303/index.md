@@ -26,7 +26,7 @@ The novel begins at a measured pace, gradually peeling back the layers of the Ba
 
 This narrative technique builds toward a climax where every character, along with their secrets and escalating dilemmas, collides in a final, chaotic maelstorm.
 
-One of Murray's standout achievements in the Bee Sting is his ability to craft distinct, vibrant voices for each character --- something that too many autors struggle to do.
+One of Murray's standout achievements in the Bee Sting is his ability to craft distinct, vibrant voices for each character --- something that too many authors struggle to do.
 
 Imelda, the Barnes matriarch, offers the most singular perspective of all. Her chapters evoke the style of José Saramago, with dialogue and inner monologues that blur seamlessly together, perfectly reflecting her effervescent personality.
 
