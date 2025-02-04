@@ -30,12 +30,14 @@ For example, reading the first chapter I assumed that Never Let Me Go was a fram
 
 Also, I was curious to see Ishiguro dig deeper into this weird world he sets up in the first few chapters. It's being gestured at constantly but never really appears on the page other than brief moments of Kathy reckoning with the world around her.
 
-I would have appreciated Never Let Me Go more if it were more of a science fiction novel, focused on exploring a world unlike our own and what it means for us and ours, and less of a literary fiction novel, focused on exploring the profoundly boring and paper thin inner life of one character.
+Essentially, I would have appreciated Never Let Me Go more if it were more of a science fiction novel, focused on exploring a world unlike our own and what it means for us and ours, and less of a literary fiction novel, focused on exploring the profoundly boring and paper thin inner life of one character.
 
 Never Let Me Go's world seems internally consistent even though at first glance it might not appear to be because of how limited and skewed Kathy's perspective is.
 
 It all makes sense to me.
 
-But it just wasn't much fun to read about Kathy losing a cassette tape, or her frenemy Ruth losing a pencil case, or her friend Tommie having a temper tantrum when Ishiguro could have been telling us about these same moments through the eyes of a less criminally boring narrator.
+But, it wasn't much fun to read about Kathy losing a cassette tape, or her frenemy Ruth losing a pencil case, or her friend Tommie having a temper tantrum when Ishiguro could have been telling us about these same moments through the eyes of a less criminally boring narrator.
 
-All that said, I wish I liked Never Let Me Go more than I did.
+I'm pretty confident Ishiguro is conveying something to the reader about the world and Kathy's part in it with all this mundanity, but I just don't care for the way this meaning is delivered.
+
+All that said, I wish I liked Never Let Me Go more than I do.
