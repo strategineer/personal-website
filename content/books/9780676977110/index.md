@@ -24,11 +24,13 @@ But if you break through Never Let Me Go's thick shell of boredom, you'll see th
 
 It's hard to say whether Ishiguro repeatedly building to climaxes that never come to pass is evidence of bad writing or something else. Either way, I found it hard to enjoy.
 
-Much of what I was initially curious about in the premise of Never Let Me Go was left unexplored or completely forgotten by the end of the novel. Reading the first chapter you might assume that Never Let Me Go is a frame narrative because it's framed that way. Great! I love frame narratives, so you can imagine my disappointment when this gets completely forgotten about.
+Much of what I was initially curious about in the premise of Never Let Me Go was left unexplored or completely forgotten by the end of the novel.
 
-I was also curious about seeing Ishiguro dig deeper into this alternate world being gestured constantly but never really appearing on the page. The alternate history setting turns out to be more of an excuse to be very "literary" and explore Kathy's boring and non-existent inner life.
+For example, reading the first chapter I assumed that Never Let Me Go was a frame narrative because it's framed that way. I love frame narratives, so you can imagine my disappointment when this gets completely forgotten about.
 
-I would have appreciated Never Let Me Go more if it were more of a science fiction novel, focused on exploring a world unlike our own and what it means for us and ours, and less of a literary fiction novel, focused on exploring the inner life (or lack of one) of one emotionless boring AF girl in a boarding school.
+Also, I was curious to see Ishiguro dig deeper into this weird world he sets up in the first few chapters. It's being gestured at constantly but never really appears on the page other than brief moments of Kathy reckoning with the world around her.
+
+I would have appreciated Never Let Me Go more if it were more of a science fiction novel, focused on exploring a world unlike our own and what it means for us and ours, and less of a literary fiction novel, focused on exploring the profoundly boring and paper thin inner life of one character.
 
 Never Let Me Go's world seems internally consistent even though at first glance it might not appear to be because of how limited and skewed Kathy's perspective is.
 
