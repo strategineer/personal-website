@@ -26,7 +26,7 @@ The book starts out slowly --- gradually revealing the inner lives of the four m
 
 In doing so, Murray effectively builds up to the conclusion of the novel when all the characters, their problems, and the consequences of the secrets they've kept all collide with one another in a chaotic maelstorm for one last time.
 
-Murray's ability to give each POV character a distinctive voice suprised me --- bringing them to life in ways that other authors often fail to.
+Murray's ability to give each POV character a distinctive voice surprised me --- bringing them to life in ways that other authors often fail to.
 
 The most unique of the POVs is Imelda's, the wife and mother of the Barnes family. Her chapters evoke the style of José Saramago. With little to no punctuation to be found in her chapters, Imelda's dialogue and inner monologues blend into one another seamlessly --- bringing to life to her effervescent personality.
 
