@@ -24,7 +24,7 @@ But if you scratch away its thick veneer of utter boredom, you'll see that Never
 
 It's hard to say whether Ishiguro's repeated process of building up reader expectations and then never satisfyingly cashing them out is intentional or just bad writing. Either way, I found it hard to enjoy.
 
-Much of what I was curious about the premise in Never Let Me Go was mostly left unexplored or completely forgotten by the end of the novel. Reading the first chapter you might assume that Never Let Me Go is a frame narrative. I love frame narratives so you can imagine my dissapointment when this gets completely forgotten about.
+Much of what I was curious about the premise in Never Let Me Go was mostly left unexplored or completely forgotten by the end of the novel. Reading the first chapter you might assume that Never Let Me Go is a frame narrative. I love frame narratives so you can imagine my disappointment when this gets completely forgotten about.
 
 I was also curious about seeing Ishiguro dig deeper into this alternate world constantly being gestured at but always managing to be just slightly off the page. The alternate history setting turns out to be more of an excuse to be very "literary" and explore Kathy internal inner life, the little of it that there is.
 
