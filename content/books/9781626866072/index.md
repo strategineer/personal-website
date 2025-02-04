@@ -1,7 +1,8 @@
 ---
 authors:
 - Lewis Carroll
-books/tags: []
+books/tags:
+- 3star
 date: 2023-09-07
 params:
   isbn13: '9781626866072'

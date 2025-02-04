@@ -1,7 +1,8 @@
 ---
 authors:
 - José Saramago
-books/tags: []
+books/tags:
+- 2star
 date: 2024-03-01
 params:
   isbn13: '9780547247885'

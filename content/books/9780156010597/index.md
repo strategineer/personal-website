@@ -1,7 +1,8 @@
 ---
 authors:
 - José Saramago
-books/tags: []
+books/tags:
+- 4star
 date: 2023-09-16
 params:
   isbn13: '9780156010597'

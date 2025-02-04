@@ -1,7 +1,8 @@
 ---
 authors:
 - José Saramago
-books/tags: []
+books/tags:
+- 3star
 date: 2023-10-11
 params:
   isbn13: '9780547840178'

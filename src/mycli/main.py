@@ -303,20 +303,21 @@ def sort_tags():
                     f"Failed to load file {filename} with frontmatter parser due to unicode error"
                 )
                 continue
-        if post.metadata["books/tags"]:
-            tags = post.metadata["books/tags"]
-            for star_rating_tag in STAR_RATING_TAGS.values():
-                if star_rating_tag in tags:
-                    tags.remove(star_rating_tag)
-            star_rating = post.metadata.get("star_rating", 0)
-            if star_rating in STAR_RATING_TAGS:
-                tags.append(STAR_RATING_TAGS[star_rating])
-            sorted_tags = sorted(tags, key=sorting_fn)
-            if "slay" in sorted_tags:
-                sorted_tags.remove("slay")
-            if sorted_tags != tags:
-                post.metadata["books/tags"] = sorted_tags
-            write_post(post, filename)
+        tags = post.metadata["books/tags"]
+        if not tags:
+            tags = []
+        for star_rating_tag in STAR_RATING_TAGS.values():
+            if star_rating_tag in tags:
+                tags.remove(star_rating_tag)
+        star_rating = post.metadata.get("star_rating", 0)
+        if star_rating in STAR_RATING_TAGS:
+            tags.append(STAR_RATING_TAGS[star_rating])
+        sorted_tags = sorted(tags, key=sorting_fn)
+        if "slay" in sorted_tags:
+            sorted_tags.remove("slay")
+        if sorted_tags != post.metadata["books/tags"]:
+            post.metadata["books/tags"] = sorted_tags
+        write_post(post, filename)
 
 @click.command()
 @click.option("--debug", is_flag=True)
