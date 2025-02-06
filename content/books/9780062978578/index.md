@@ -21,7 +21,7 @@ thoughts:
 - office worker / data scientist power fantasy?
   - also Anna's arc of being a gig economy data entry henchwoman then becoming an empowered data scientist with a dream job is a vibe
 - what if superheroes were bad actually? Very the boys and everything that came before it. Superheroes have been around a very long time and subversive superhero media has been too.
-- Reminds me of Martha Wells's Murderbot Diaries in the way the protagonist decribes themselves --- Loves watching shows on video streaming services, loves snacks and fast food, loves brands
+- Reminds me of Martha Wells's Murderbot Diaries in the way the protagonist describes themselves --- Loves watching shows on video streaming services, loves snacks and fast food, loves brands
   - it feels like a way of catering to a specific market demographic ("Anna is just like me!") instead of being necessary.
   - It probably stands out more for me because I'm not in that demographic.
 - it's political!
