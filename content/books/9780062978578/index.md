@@ -2,12 +2,13 @@
 authors:
 - Natalie Zina Walschots
 books/tags:
-- currently-reading
-date: 2025-02-04
+- 3star
+date: 2025-02-06
 params:
   isbn13: '9780062978578'
   year: '2020'
 slug: '9780062978578'
+star_rating: 3
 title: Hench
 ---
 
@@ -28,3 +29,7 @@ thoughts:
   - gig economy work sucks, Anna's getting a dream job is interesting but she's still labouring under capitalism... let's see where it goes from there.
   - Anna's dreamjob is a little twisted and in leading her team she's doing vigilante justice and the heroes vigilantes -> what's going to happen next? Consequences are coming I hope
   - framing villains as CEOs and small business men and heroes as dangerous vigilantes is fun
+- ...
+- didn't stick the landing IMO
+  - I was hoping for more than I got
+  - it just wasn't satisfying

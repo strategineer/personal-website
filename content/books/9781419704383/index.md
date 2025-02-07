@@ -3,8 +3,9 @@ authors:
 - Brian Froud
 - Wendy Froud
 books/tags:
-- owned-but-unread
-date: 1800-06-21
+- currently-reading
+- myth
+date: 2025-02-06
 params:
   isbn13: '9781419704383'
   year: '2012'
