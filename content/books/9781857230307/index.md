@@ -2,8 +2,8 @@
 authors:
 - Iain Banks
 books/tags:
+- did-not-finish
 - science fiction
-- owned-but-unread
 date: 2024-07-21
 params:
   isbn13: '9781857230307'
