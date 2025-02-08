@@ -2,8 +2,9 @@
 authors:
 - Neil Philip
 books/tags:
-- owned-but-unread
-date: 1800-08-04
+- currently-reading
+- myth
+date: 2025-02-08
 params:
   isbn13: '9781786787095'
   year: '2022'
