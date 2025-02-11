@@ -13,6 +13,10 @@ star_rating: 4
 title: Trolls
 ---
 
-Art book filled with trolls, created by Brian and Wendy Froud, who worked with The Jim Henson company on iconic work's like the Dark Crystal and the Yoda puppet from the Empire Strikes Back.
+An art book filled with trolls, created by Brian and Wendy Froud, who worked with The Jim Henson company on iconic works like the Dark Crystal and the Yoda puppet from the Empire Strikes Back.
 
 <!--more-->
+
+I skimmed through the last quarter of the book. Don't read this expecting to be wowed by the writing in it. There's some interesting stuff in here but that's not the main appeal.
+
+This is more of a mood board / art reference for a movie that never got made than a work that stands on its own.
