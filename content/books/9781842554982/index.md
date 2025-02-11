@@ -2,8 +2,8 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- owned-but-unread
-date: 1800-08-07
+- currently-reading
+date: 2025-02-11
 params:
   isbn13: '9781842554982'
   series: Annals of the Western Shore
