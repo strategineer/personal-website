@@ -9,7 +9,7 @@ params:
   isbn13: '9781419704383'
   year: '2012'
 slug: '9781419704383'
-star_rating: 4
+star_rating: 3
 title: Trolls
 ---
 
