@@ -2,7 +2,7 @@
 authors:
 - Neil Philip
 books/tags:
-- currently-reading
+- owned-but-unread
 - myth
 date: 2025-02-08
 params:
