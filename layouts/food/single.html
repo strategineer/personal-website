@@ -12,6 +12,11 @@
         {{ .Params.blurb }}
       </div>
     {{ end }}
+    {{ if .Params.summary }}
+    <div class="d-flex justify-content-center">
+      {{ .Params.summary }}
+    </div>
+    {{ end }}
     {{ partial "try_video" . }}
     {{ partial "try_images" . }}
     <div class="row justify-content-center readable">

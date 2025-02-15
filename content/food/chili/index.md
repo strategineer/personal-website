@@ -5,7 +5,7 @@ weight: 2
 food/tags:
   - tried-and-true
   - dinner
-summary: my chili recipe, it's very dense.
+summary: my chili recipe, it's very dense (and tasty).
 servings: 8
 tools:
   - large dutch oven (or pot)
