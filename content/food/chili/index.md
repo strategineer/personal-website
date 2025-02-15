@@ -10,8 +10,8 @@ servings: 8
 tools:
   - large dutch oven (or pot)
   - chef's knife for chopping and dicing
-  - wooden spatula for stirring
-  - wooden ladle for serving/storing
+  - spatula for stirring
+  - ladle for serving/storing
   - "[optional] pressure cooker"
 ingredients:
   - 4-8 tbsp [Mexican seasoning](https://www.food.com/recipe/mexican-seasoning-mix-456146)
