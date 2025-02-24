@@ -2,7 +2,7 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- currently-reading
+- owned-but-unread
 - fantasy
 date: 2025-02-22
 params:
