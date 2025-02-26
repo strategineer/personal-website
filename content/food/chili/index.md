@@ -16,24 +16,24 @@ tools:
 ingredients:
   - 4-8 tbsp [Mexican seasoning](https://www.food.com/recipe/mexican-seasoning-mix-456146)
   - 2 cups dried black beans (or red kidney or pinto) soaked in water overnight
-  - 2-3 tbsp oil
+  - 2-3 tbsp virgin olive oil
   - 226g yellow onions (~2-3), finely chopped
   - 4-8 jalapeño peppers, finely chopped
-  - 8 cloves garlic, finely chopped
+  - 8 cloves of garlic, finely chopped
   - 340g carrots (~2-3), peeled, sliced (1/4 disks)
   - 1 kg ground beef
-  - 2 cans 28 oz (798 ml) diced tomatoes
+  - 2 x 28 oz (798 ml) diced tomatoes cans
   - ~2-3 cups of beef broth (depends on desired chili thickness)
   - tortilla chips
   - sour cream
   - cheddar cheese, shredded
 steps:
   - Cook the beans quickly in a pressure cooker, or slowly in a pot ([don't poison yourself!](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/natural-toxins/lectins-legumes.html)) or use canned beans (drained and rinsed).
-  - In a large dutch oven (or pot), cook the onion, jalapeño peppers and carrots in 2-3 tbsp of **oil** at medium-high heat until they become soft. Season with salt and pepper.
-  - Add the ground beef, breaking it up into smaller pieces and brown thoroughly (you shouldn't be able to see any pink meat).
+  - In a large dutch oven (or a pot), cook the onion, jalapeño peppers and carrots in 2-3 tbsp of virgin olive oil at medium-high heat until they become soft and the onions become semi-translucent. Season with salt and pepper.
+  - Add the ground beef, breaking it up into small pieces and brown thoroughly (you shouldn't be able to see any pink meat).
   - Add the garlic and Mexican seasoning, strirring often, cook for 2 more minutes.
   - Add the remaining ingredients, including the beans, mixing them into the chili and bring it to a boil over high heat.
-  - Once boiling, reduce heat to low-medium. Simmer, stirring occasionally, until chili thickens (thicker than soup but thinner than yogurt).
+  - Once boiling, reduce heat to low-medium. Simmer uncovered, stirring occasionally, until chili thickens (thicker than soup but thinner than yogurt).
   - Taste and adjust the seasoning as the chili thickens.
   - Serve in small bowls with cheese and sour cream on top, and tortilla chips alongside for dipping.
   - Any leftovers can be frozen in pyrex containers or plastic freezer bags. Eat within 3+ months ideally.
