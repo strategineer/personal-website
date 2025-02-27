@@ -1,7 +1,9 @@
-let eggs = new Map();
-{{- range $i, $e := $.Site.Data.eggs -}}
-eggs.set({{ $i }}, `{{ $e }}`)
+let ps2_games = new Map();
+{{- range $i, $e := $.Site.Data.ps2_games -}}
+ps2_games.set({{ $i }}, `{{ $e }}`)
 {{ end }}
+
+// Array.from($("#list")[0].childNodes[2].childNodes).filter( x => x.innerText != undefined).map( x => x.innerText.replace("\n", "") ).map( x => x.replace(/.zip.+/g,'')).map(x => `"${x}",`).join("\n")
 
 function shuffle(array) {
   let currentIndex = array.length,
@@ -23,14 +25,14 @@ function shuffle(array) {
   return array;
 }
 
-let eggIds = [...eggs.keys()];
-shuffle(eggIds);
+let ps2_games_ids = [...ps2_games.keys()];
+shuffle(ps2_games_ids);
 
 let eggCounter = 0;
 
 ExplorerImp = {
-  map: eggs,
-  keys: eggIds,
+  map: ps2_games,
+  keys: ps2_games_ids,
   count: 10,
   onDefaultActionActivated: function () {
     setNextDiscovery();
@@ -40,7 +42,7 @@ ExplorerImp = {
 
     let gameQueueElement = document.getElementById("explorer-queue-count");
     if (typeof gameQueueElement !== "undefined" && gameQueueElement !== null) {
-      gameQueueElement.innerText = `${eggCounter} / ${ExplorerImp.map.size} egg-based breakfast restaurant names seen so far.`;
+      gameQueueElement.innerText = `${eggCounter} / ${ExplorerImp.map.size} ps2 games seen so far.`;
     }
 
     let gameListElement = document.getElementById("explorer-egg-list");
@@ -57,7 +59,7 @@ ExplorerImp = {
       eggNames.push(d.discovery);
     }
     return {
-      title: "Eggstermination",
+      title: "PS2 Dumpster Diver",
       text: eggNames.join("\n"),
       url: window.location.href,
     };
