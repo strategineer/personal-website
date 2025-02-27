@@ -14,19 +14,19 @@ tools:
   - ladle for serving/storing
 ingredients:
   - 2 cup of penne per person
-  - 226g yellow onions (~2-3), finely chopped
+  - 226g yellow onions (1 large onion or 2 small onions), finely chopped
   - 2-3 tbsp virgin olive oil
   - 6 cloves of garlic, finely chopped
-  - 1 kg ground beef
-  - 2 x 28 oz (798 ml) diced tomatoes cans
+  - "[optional] 1 kg ground beef"
+  - 2 x 28 oz (798 ml) **plum** tomato cans
   - ~4 tbsp [Italian seasoning](https://www.themediterraneandish.com/italian-seasoning/)
   - Parmesan cheese
 steps:
   - Fill one pot with 8 cups of water and one tablespoon of salt, dissolve the salt in the water, set it aside.
   - In a large dutch oven (or another pot), cook the diced onions in 2-3 tbsp of virgin olive oil at medium-high heat until they become soft and semi-translucent. Season with salt and pepper.
-  - Add the ground beef, breaking it up into small pieces and brown thoroughly (you shouldn't be able to see any pink meat).
+  - "[optional] Add the ground beef, breaking it up into small pieces and brown thoroughly (you shouldn't be able to see any pink meat)."
   - Add the garlic, strirring often, cook for 2 more minutes.
-  - Add the tomatoes, mixing it all together.
+  - Add the tomatoes, mixing it all together. If they are pre-diced, then crush them with a patato masher or your spatula. Depending on the consistency of the canned tomato juice, you might want to add half a cup of water to the sauce to make it a bit less thick.
   - Add the italian seasoning (3-4 tablespoons should be enough), mix. As a rule of thumb, you can cover the surface of the sauce with a thin layer of seasoning. 
   - Bring it to a boil over high heat.
   - Once boiling, reduce heat to low-medium. Simmer uncovered, stirring occasionally, until sauce reaches the desired consistency (thicker than soup but thinner than yogurt or chili).
