@@ -16,7 +16,7 @@ tools:
 ingredients:
   - 4-8 tbsp [Mexican seasoning](https://www.food.com/recipe/mexican-seasoning-mix-456146)
   - 2 cups dried black beans (or red kidney or pinto) soaked in water overnight
-  - 2-3 tbsp virgin olive oil
+  - 1 tbsp virgin olive oil
   - 226g yellow onions (~2-3), finely chopped
   - 4-8 jalapeño peppers, finely chopped
   - 8 cloves of garlic, finely chopped
@@ -29,7 +29,7 @@ ingredients:
   - cheddar cheese, shredded
 steps:
   - Cook the beans quickly in a pressure cooker, or slowly in a pot ([don't poison yourself!](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/natural-toxins/lectins-legumes.html)) or use canned beans (drained and rinsed).
-  - In a large dutch oven (or a pot), cook the onion, jalapeño peppers and carrots in 2-3 tbsp of virgin olive oil at medium-high heat until they become soft and the onions become semi-translucent. Season with salt and pepper.
+  - In a large dutch oven (or a pot), cook the onion, jalapeño peppers and carrots in the virgin olive oil at medium-high heat until they become soft and the onions become semi-translucent. Season with salt and pepper.
   - Add the ground beef, breaking it up into small pieces and brown thoroughly (you shouldn't be able to see any pink meat).
   - Add the garlic and Mexican seasoning, strirring often, cook for 2 more minutes.
   - Add the remaining ingredients, including the beans, mixing them into the chili and bring it to a boil over high heat.
