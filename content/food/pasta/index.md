@@ -15,7 +15,7 @@ tools:
 ingredients:
   - 2 cup of penne per person
   - 226g yellow onions (1 large onion or 2 small onions), finely chopped
-  - 2-3 tbsp virgin olive oil
+  - 1 tbsp virgin olive oil
   - 6 cloves of garlic, finely chopped
   - "[optional] 1 kg ground beef"
   - 2 x 28 oz (798 ml) **plum** tomato cans
