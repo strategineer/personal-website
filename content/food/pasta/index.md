@@ -24,7 +24,7 @@ ingredients:
   - Parmesan cheese
 steps:
   - Fill one pot with 8 cups of water and one tablespoon of salt, dissolve the salt in the water, set it aside.
-  - In a large dutch oven (or another pot), cook the diced onions in 2-3 tbsp of virgin olive oil at medium-high heat until they become soft and semi-translucent. Season with salt and pepper.
+  - In a large dutch oven (or another pot), cook the diced onions in the virgin olive oil at medium-high heat until they become soft and semi-translucent. Season with salt and pepper.
   - "[optional] Add the ground beef, breaking it up into small pieces and brown thoroughly (you shouldn't be able to see any pink meat)."
   - Add the garlic, strirring often, cook for 2 more minutes.
   - Add the tomatoes, mixing it all together. If they are pre-diced, then crush them with a patato masher or your spatula. Depending on the consistency of the canned tomato juice, you might want to add half a cup of water to the sauce to make it a bit less thick.
