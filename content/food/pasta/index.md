@@ -1,7 +1,6 @@
 ---
 title: "Grandma's Pasta"
 date: 2025-02-25
-weight: 2
 food/tags:
   - tried-and-true
   - dinner
