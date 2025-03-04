@@ -3,7 +3,6 @@ title: "Grandma's Pasta"
 date: 2025-02-25
 food/tags:
   - tried-and-true
-  - dinner
 summary: my bolognese-ish pasta sauce + penne recipe.
 servings: 8
 tools:

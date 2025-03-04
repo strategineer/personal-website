@@ -16,5 +16,4 @@ title: Gifts
 
 <!--more-->
 
-
 {{< series >}}

@@ -3,14 +3,13 @@ title: Simple Guacamole
 date: 2025-03-04
 food/tags:
   - tried-and-true
-  - dip
 servings: 1-2
 tools:
   - mortar and pestle
 ingredients:
   - 2 avocados (ripe)
   - 1/2 lime
-  - 1/8 large onion (or 1/4 small onion), chopped
+  - 1/8 large onion (or 1/4 small onion), finely chopped
 steps:
   - Cut the lime half. Squeeze the juice out of the lime half using the mortar and pestle (optionally, use a lemon squeezer). Remove the peel and insides from the mortar.
   - Cut the avocado around the middle, leaving the seed intact.

@@ -1,10 +1,8 @@
 ---
 title: "Black Hole Chili"
 date: 2025-02-14
-weight: 2
 food/tags:
   - tried-and-true
-  - dinner
 summary: my chili recipe, it's very dense (and tasty).
 servings: 8
 tools:
@@ -17,7 +15,7 @@ ingredients:
   - 4-8 tbsp [Mexican seasoning](https://www.food.com/recipe/mexican-seasoning-mix-456146)
   - 2 cups dried black beans (or red kidney or pinto) soaked in water overnight
   - 1 tbsp virgin olive oil
-  - 226g yellow onions (~2-3), finely chopped
+  - 226g yellow onions (1 large onion or 2 small onions), finely chopped
   - 4-8 jalapeño peppers, finely chopped
   - 8 cloves of garlic, finely chopped
   - 340g carrots (~2-3), peeled, sliced (1/4 disks)
