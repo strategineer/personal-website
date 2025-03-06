@@ -15,7 +15,7 @@ title: 'The Seven Basic Plots'
 
 <!--more-->
 
-It's been interesting reading through this text and trying to see if I can apply the titular "seven basic plots" framework onto the Playstation 2 games I've been playing recently. To my suprise, they fit really well.
+It's been interesting reading through this text and trying to see if I can apply the titular "seven basic plots" framework onto the Playstation 2 games I've been playing recently. To my surprise, they fit really well.
 
 Metal Gear Solid 3: Snake Eater
 : Overcoming the Monster, The Quest (Rescue Sokolov, scale the mountain, infiltrate the base, etc. and "travel" to the underworld in the Sorrow fight), Voyage and Return and Rebirth?
