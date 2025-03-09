@@ -31,3 +31,5 @@ This book takes this premise to an extreme but the malleability of memories are 
 A well-executed novel that does what it sets out to do and engages with themes surrounding suppressed traumatic memories which are particularly poignant for me right now.
 
 Also it's a breeze to read through and doesn't waste your time which I appreciated.
+
+2025-03-09: probably has a reference to Paul Gallico's The Snow Goose, old man with birds and girl who visits, etc
