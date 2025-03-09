@@ -20,7 +20,7 @@ ingredients:
   - 8 cloves of garlic, finely chopped
   - 340g carrots (~2-3), peeled, sliced (1/4 disks)
   - 1 kg ground beef
-  - 2 x 28 oz (798 ml) diced **roma** tomato cans
+  - 2 x 28 oz (798 ml) diced **non-plum** tomato cans
   - ~2-3 cups of beef broth (depends on desired chili thickness)
   - tortilla chips
   - sour cream
