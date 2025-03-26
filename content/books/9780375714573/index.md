@@ -1,6 +1,6 @@
 ---
 authors:
-- ''
+- 'Marjane Satrapi'
 books/tags:
 - owned-but-unread
 date: 2025-03-26
