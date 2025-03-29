@@ -3,7 +3,7 @@ authors:
 - Iain Banks
 books/tags:
 - 5star
-- comedy
+- comic
 - science fiction
 date: 2024-05-10
 params:

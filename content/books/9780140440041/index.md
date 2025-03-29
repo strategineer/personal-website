@@ -3,7 +3,8 @@ authors:
 - Voltaire
 - John Everett Butt
 books/tags:
-- owned-but-unread
+- currently-reading
+- comic
 date: 2025-03-26
 params:
   isbn13: '9780140440041'

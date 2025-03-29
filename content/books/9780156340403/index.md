@@ -3,7 +3,7 @@ authors:
 - Stanislaw Lem
 books/tags:
 - 4star
-- comedy
+- comic
 - horror
 - science fiction
 - slavic

@@ -3,7 +3,7 @@ authors:
 - Holly Gramazio
 books/tags:
 - 4star
-- comedy
+- comic
 - science fiction
 - tournament of books 2025
 date: 2024-11-30

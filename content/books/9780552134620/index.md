@@ -3,7 +3,7 @@ authors:
 - Terry Pratchett
 books/tags:
 - 4star
-- comedy
+- comic
 - fantasy
 date: 2023-11-13
 params:

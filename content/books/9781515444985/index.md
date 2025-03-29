@@ -3,7 +3,7 @@ authors:
 - Roger Zelazny
 books/tags:
 - 5star
-- comedy
+- comic
 - detective fiction
 - science fiction
 date: 2023-07-25

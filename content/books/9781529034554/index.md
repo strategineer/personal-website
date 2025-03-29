@@ -2,7 +2,7 @@
 authors:
 - Douglas Adams
 books/tags:
-- comedy
+- comic
 - science fiction
 date: 2012-05-04
 params:

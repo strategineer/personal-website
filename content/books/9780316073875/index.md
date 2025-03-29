@@ -2,7 +2,7 @@
 authors:
 - Kiyohiko Azuma
 books/tags:
-- comedy
+- comic
 - comics
 date: 2021-12-19
 params:
