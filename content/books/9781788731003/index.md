@@ -2,8 +2,9 @@
 authors:
 - Timothy Morton
 books/tags:
-- owned-but-unread
-date: 2025-03-26
+- currently-reading
+- philosophy
+date: 2025-03-30
 params:
   isbn13: '9781788731003'
   year: '2019'
