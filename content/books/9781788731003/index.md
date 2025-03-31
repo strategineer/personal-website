@@ -13,5 +13,4 @@ star_rating: null
 title: 'Humankind: solidarity with non-human people'
 ---
 
-
 <!--more-->

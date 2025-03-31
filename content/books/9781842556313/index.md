@@ -2,8 +2,8 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- owned-but-unread
 - fantasy
+- owned-but-unread
 date: 2025-02-22
 params:
   isbn13: '9781842556313'

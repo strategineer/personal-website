@@ -9,8 +9,7 @@ params:
   year: '2022'
 slug: '9780156030083'
 star_rating: null
-title: 'Flowers For Algernon'
+title: Flowers For Algernon
 ---
-
 
 <!--more-->

@@ -12,5 +12,4 @@ star_rating: null
 title: 'Blade runner: Do Androids Dream of Electric Sheep?'
 ---
 
-
 <!--more-->

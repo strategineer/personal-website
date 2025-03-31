@@ -3,6 +3,7 @@ authors:
 - Brian Froud
 - Wendy Froud
 books/tags:
+- 3star
 - myth
 date: 2025-02-10
 params:

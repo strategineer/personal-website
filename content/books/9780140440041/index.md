@@ -3,6 +3,7 @@ authors:
 - Voltaire
 - John Everett Butt
 books/tags:
+- 5star
 - comic
 date: 2025-03-30
 params:

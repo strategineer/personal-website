@@ -1,7 +1,8 @@
 ---
 authors:
-- 'Marjane Satrapi'
+- Marjane Satrapi
 books/tags:
+- 3star
 - comics
 date: 2025-03-30
 params:
@@ -9,8 +10,7 @@ params:
   year: '2003'
 slug: '9780375714573'
 star_rating: 3
-title: 'Persepolis'
+title: Persepolis
 ---
-
 
 <!--more-->
