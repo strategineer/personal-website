@@ -2,7 +2,7 @@
 authors:
 - Timothy Morton
 books/tags:
-- currently-reading
+- did-not-finish
 - philosophy
 date: 2025-03-30
 params:
