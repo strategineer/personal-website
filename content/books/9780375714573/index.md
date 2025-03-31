@@ -8,7 +8,7 @@ params:
   isbn13: '9780375714573'
   year: '2003'
 slug: '9780375714573'
-star_rating: 4
+star_rating: 3
 title: 'Persepolis'
 ---
 
