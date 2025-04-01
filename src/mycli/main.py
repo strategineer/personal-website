@@ -195,6 +195,12 @@ def import_books(isbn, tag):
 
 
 @click.command()
+def delete_blog_thumbnails():
+    filenames = glob.glob("content/blog/*/thumbnail.*")
+    for filename in filenames:
+        Path(filename).unlink()
+
+@click.command()
 def fetch_thumbnails():
     print("Add ISBNs from existing books")
     filenames = glob.glob("content/books/*/index.md")
@@ -549,6 +555,7 @@ cli.add_command(find_used_books)
 cli.add_command(rename_reaction_gif)
 cli.add_command(stats)
 cli.add_command(book_rating_shifter)
+cli.add_command(delete_blog_thumbnails)
 
 if __name__ == "__main__":
     cli()
