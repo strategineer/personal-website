@@ -2,13 +2,13 @@
 authors:
 - Emily St. John Mandel
 books/tags:
-- currently-reading
-date: 2025-04-03
+- post-apocalyptic
+date: 2025-04-05
 params:
   isbn13: '9781443434874'
   year: '2017'
 slug: '9781443434874'
-star_rating: null
+star_rating: 4
 title: Station Eleven
 ---
 
