@@ -3,6 +3,7 @@ authors:
 - Dante
 books/tags:
 - currently-reading
+- myth
 date: 2025-03-31
 params:
   isbn13: '9780199535644'
