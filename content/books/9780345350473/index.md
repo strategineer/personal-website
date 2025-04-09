@@ -2,8 +2,9 @@
 authors:
 - Philip K Dick
 books/tags:
-- owned-but-unread
-date: 2025-03-26
+- currently-reading
+- science fiction
+date: 2025-04-09
 params:
   isbn13: '9780345350473'
   year: '2007'
