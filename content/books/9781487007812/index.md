@@ -11,4 +11,8 @@ slug: '9781487007812'
 title: Roguelike
 ---
 
+A collection of sad poems filled with gaming terminology and obscure gaming references.
+
+I picked this up because I thought it was a weird premise, it is, but I'm not convinced it's very good.
+
 <!--more-->
