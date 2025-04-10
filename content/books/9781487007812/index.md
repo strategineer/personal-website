@@ -2,8 +2,8 @@
 authors:
 - Mathew Henderson
 books/tags:
-- owned-but-unread
-date: 1800-01-27
+- poetry
+date: 2025-03-10
 params:
   isbn13: '9781487007812'
   year: '2020'
