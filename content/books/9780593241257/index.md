@@ -1,7 +1,8 @@
 ---
 authors:
 - Sarah Manguso
-books/tags: []
+books/tags:
+- owned-but-unread
 date: 2025-04-12
 params:
   isbn13: '9780593241257'
