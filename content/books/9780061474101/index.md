@@ -13,7 +13,7 @@ slug: '9780061474101'
 title: Anathem
 ---
 
-Intricate world building, a firehose of philosophical ideas, real and fabricated, to think about and a compelling narrative --- all packed into a 900+ page brick of a novel.
+Intricate world building, a firehose of philosophical ideas, real and fictional, to think about and a compelling narrative --- all packed into a 900+ page brick of a novel.
 
 <!--more-->
 
