@@ -2,14 +2,14 @@
 authors:
 - Neal Stephenson
 books/tags:
-- currently-reading
 - science fiction
 - philosophy
-date: 2025-04-10
+date: 2025-04-20
 params:
   isbn13: '9780061474101'
   year: '2009'
 slug: '9780061474101'
+star_rating: 5
 title: Anathem
 ---
 
