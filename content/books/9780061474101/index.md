@@ -9,7 +9,7 @@ params:
   isbn13: '9780061474101'
   year: '2009'
 slug: '9780061474101'
-star_rating: 5
+star_rating: 4
 title: Anathem
 ---
 
