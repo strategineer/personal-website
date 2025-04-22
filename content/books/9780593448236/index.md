@@ -1,8 +1,7 @@
 ---
 authors:
 - Vinson Cunningham
-books/tags:
-- currently-reading
+books/tags: []
 date: 2025-04-22
 params:
   isbn13: '9780593448236'
