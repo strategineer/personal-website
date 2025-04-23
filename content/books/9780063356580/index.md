@@ -1,14 +1,13 @@
 ---
 authors:
 - Rufi Thorpe
-books/tags:
-- currently-reading
-date: 2025-04-22
+books/tags: []
+date: 2025-04-23
 params:
   isbn13: '9780063356580'
   year: '2024'
 slug: '9780063356580'
-star_rating: null
+star_rating: 5
 title: Margo's Got Money Troubles
 ---
 
