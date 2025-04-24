@@ -1,14 +1,13 @@
 ---
 authors:
 - Sarah Manguso
-books/tags:
-- owned-but-unread
-date: 2025-04-12
+books/tags: []
+date: 2025-04-24
 params:
   isbn13: '9780593241257'
   year: '2024'
 slug: '9780593241257'
-star_rating: null
+star_rating: 5
 title: Liars
 ---
 
