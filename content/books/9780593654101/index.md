@@ -1,14 +1,13 @@
 ---
 authors:
 - Rita Bullwinkel
-books/tags:
-- currently-reading
-date: 2025-04-24
+books/tags: []
+date: 2025-04-26
 params:
   isbn13: '9780593654101'
   year: '2024'
 slug: '9780593654101'
-star_rating: null
+star_rating: 5
 title: Headshot
 ---
 
