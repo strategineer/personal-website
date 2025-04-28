@@ -23,3 +23,4 @@ This is sort an anthology with a strong enough thematic connective tissue that I
 - *reductio as absurdum* used as a sledgehammer to smash your soul into pieces by portraying something very real but exaggerated
 - Rejection is a Horror novel and there are a couple jokes in here that sent me into laughing fits. This is writing
 - linking the sections together with common characters and cameos is so good
+- the term antisocial can't even begin to describe the headspaces Rejection puts us in
