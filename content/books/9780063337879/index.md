@@ -11,6 +11,7 @@ slug: '9780063337879'
 star_rating: 5
 title: 'Rejection'
 ---
+Reading Rejection feels like watching a train crash but the train is you.
 
 
 <!--more-->
