@@ -19,3 +19,4 @@ Reading Rejection feels like watching a train crash but the train is you.
 This is sort an anthology with a strong enough thematic connective tissue that I actually like it. Wild.
 
 - weaponized crippling loneliness
+- I don't believe that "Hell is other people" but the POV characters in Rejection are, some tragically some less so, Hell.
