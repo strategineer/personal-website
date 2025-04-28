@@ -23,3 +23,5 @@ This is sort an anthology with a strong enough thematic connective tissue that I
 - Rejection is a Horror novel and there are a couple jokes in here that sent me into laughing fits. This is writing
 - linking the sections together with common characters and cameos is so good
 - the term antisocial can't even begin to describe the headspaces Rejection puts us in
+- one of the most soul crushing reads
+- absolutely floored by this, the number of paragraphs in this novel that are extremely accurate, cutting, specific reads that decked me repeatedly is criminal
