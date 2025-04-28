@@ -7,7 +7,7 @@ params:
   isbn13: '9780593241257'
   year: '2024'
 slug: '9780593241257'
-star_rating: 5
+star_rating: 4
 title: Liars
 ---
 
