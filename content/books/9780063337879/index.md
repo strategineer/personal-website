@@ -1,8 +1,7 @@
 ---
 authors:
 - Tony Tulathimutte
-books/tags:
-- currently-reading
+books/tags: []
 date: 2025-04-27
 params:
   isbn13: '9780063337879'
