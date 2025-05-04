@@ -1,7 +1,8 @@
 ---
 authors:
 - Vinson Cunningham
-books/tags: []
+books/tags:
+- 2star
 date: 2025-04-22
 params:
   isbn13: '9780593448236'
@@ -10,7 +11,6 @@ slug: '9780593448236'
 star_rating: 2
 title: Great Expectations
 ---
-
 
 <!--more-->
 

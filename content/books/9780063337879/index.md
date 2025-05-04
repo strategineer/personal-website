@@ -1,15 +1,17 @@
 ---
 authors:
 - Tony Tulathimutte
-books/tags: []
+books/tags:
+- 5star
 date: 2025-04-27
 params:
   isbn13: '9780063337879'
   year: '2024'
 slug: '9780063337879'
 star_rating: 5
-title: 'Rejection'
+title: Rejection
 ---
+
 Reading Rejection feels like watching a train crash but the train is you.
 
 

@@ -2,8 +2,8 @@
 authors:
 - Ursula K. Le Guin
 books/tags:
-- fantasy
 - currently-reading
+- fantasy
 date: 2025-02-22
 params:
   isbn13: '9781842556313'

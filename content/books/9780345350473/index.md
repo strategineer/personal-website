@@ -2,6 +2,7 @@
 authors:
 - Philip K. Dick
 books/tags:
+- 5star
 - science fiction
 date: 2025-04-09
 params:

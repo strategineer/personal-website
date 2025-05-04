@@ -2,6 +2,7 @@
 authors:
 - Emily St. John Mandel
 books/tags:
+- 3star
 - post-apocalyptic
 date: 2025-04-05
 params:

@@ -2,8 +2,9 @@
 authors:
 - Neal Stephenson
 books/tags:
-- science fiction
+- 4star
 - philosophy
+- science fiction
 date: 2025-04-20
 params:
   isbn13: '9780061474101'
@@ -34,5 +35,3 @@ Fortunately, Anathem's narrative is way more compelling than I was expecting it 
 What's not to love? 
 
 I love a good long-ass book (see Gene Wolfe's the Wizard Knight, Mary Gentle's Ash: a Secret History and Stephen King's Under the Dome). Reading something in the first chapter and having it pay off hundreds of pages later, there's nothing quite like it.
-
-

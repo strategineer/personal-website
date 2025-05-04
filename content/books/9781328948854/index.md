@@ -1,7 +1,8 @@
 ---
 authors:
 - William Goldman
-books/tags: []
+books/tags:
+- 4star
 date: 2025-04-03
 params:
   isbn13: '9781328948854'
