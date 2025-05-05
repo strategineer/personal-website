@@ -9,7 +9,7 @@
   "en": {
     "name": "Bill Tyros",
     "location": "Montreal, Canada",
-    "summary": "Software Engineer with 9+ years of experience in the video game, financial, and hospitality industries.",
+    "summary": "Software Engineer with 10+ years of experience in the video game, financial, and hospitality industries.",
     "main_section": [
       {
         "title": "Work Experience",
@@ -18,17 +18,18 @@
             "hint": "2022-Present",
             "title": "Senior Software Engineer @ Sonder",
             "list": [
+              "Developed data migration system in Ruby for transferring data from an internal PMS to an external one.",
               "Developed availability health metrics that contributed to a $10M year-over-year profit increase.",
-              "Maintained a third-party distribution system in Ruby to sync listings on Airbnb, Booking, and Expedia.",
-              "Refactored a 300k+ LOC legacy Ruby on Rails codebase, upgrading to Ruby 3 and Rails 7.1 for improved performance and maintainability.",
-              "Enhanced and maintained a dynamic pricing system in Python, optimizing rates based on real-time supply/demand."
+              "Maintained a distribution system in Ruby to sync listings on Airbnb, Booking, and Expedia.",
+              "Refactored a 300k+ LOC legacy Ruby on Rails codebase, upgrading to Ruby 3.3 and Rails 7.1 for improved performance and maintainability.",
+              "Enhanced and maintained a pricing system in Python, optimizing rates based on supply/demand."
             ]
           },
           {
             "hint": "2019-2022",
             "title": "Software Engineer @ Morgan Stanley",
             "list": [
-              "Designed and implemented a Python-based system to aggregate data from internal and vendor sources and generate metrics.",
+              "Designed and implemented a system in Python to aggregate data from internal and third-party sources.",
               "Built self-service web applications in TypeScript/Angular (for agile/devops metrics and JIRA administration), streamlining workflows and reducing manual overhead."
             ]
           },
