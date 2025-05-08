@@ -2,14 +2,13 @@
 authors:
 - R A Lafferty
 books/tags:
-- currently-reading
 - science fiction
-date: 2025-05-03
+date: 2025-05-07
 params:
   isbn13: '9781598536461'
   year: '2019'
 slug: '9781598536461'
-star_rating: null
+star_rating: 4
 title: Past Master
 ---
 
