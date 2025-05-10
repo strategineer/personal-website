@@ -18,19 +18,19 @@
             "hint": "2022-Present",
             "title": "Senior Software Engineer @ Sonder",
             "list": [
-              "Developed data migration system in Ruby for transferring data from an internal PMS to an external one.",
+              "Developed a system in Ruby to migrate 100k+ bookings over to external systems.",
               "Developed availability health metrics that contributed to a $10M year-over-year profit increase.",
-              "Maintained a distribution system in Ruby to sync listings on Airbnb, Booking, and Expedia.",
+              "Developed a distribution system in Ruby to sync 50k+ listings on Airbnb, Booking, Expedia and more.",
               "Refactored a 300k+ LOC legacy Ruby on Rails codebase, upgrading to Ruby 3.3 and Rails 7.1 for improved performance and maintainability.",
-              "Enhanced and maintained a pricing system in Python, optimizing rates based on supply/demand."
+              "Developed a pricing system in Python, optimizing rates based on supply/demand, supporting 100% of the revenue produced by the company."
             ]
           },
           {
             "hint": "2019-2022",
             "title": "Software Engineer @ Morgan Stanley",
             "list": [
-              "Designed and implemented a system in Python to aggregate data from internal and third-party sources.",
-              "Built self-service web applications in TypeScript/Angular (for agile/devops metrics and JIRA administration), streamlining workflows and reducing manual overhead."
+              "Developed a system in Python to leverage data aggregated from internal and third-party sources to encourage 10k+ software developers to use best practices in their work.",
+              "Developed a JIRA self-service web application in TypeScript/Angular, empowering workers to admistrate their own JIRA projects and thereby lighten the weekly workload of dozens of JIRA admins."
             ]
           },
           {
@@ -46,10 +46,6 @@
             "list": [
               "Developed core gameplay systems and UI in Unity (C#) for Mages of Mystralia ensuring a polished player experience and robust game architecture."
             ]
-          },
-          {
-            "hint": "2013-2014",
-            "title": "Software Developer (Internship) @ CAE"
           }
         ]
       },
