@@ -48,6 +48,10 @@ That's cool as hell. I don't tend to enjoy fantasy novels broadly speaking espec
 
 I don't know. These novels read more like science fiction than what I usually associate with fantasy novels in that that the fantastical presuppositions are used as a lens to facilitate the exploration of deeply grounded human struggles that we can all relate to deep down but may not be open to exploring through a more grounded lens.
 
+Le Guin is fixated on the return to nature. Most of her novels involve characters exciting from cities and striving to live lives in nature or on farms. 
+
+
+Le Guin also really hates drugs. The depictions of drugs being used for evil in the 3rd Earthsea book, 3rd AotWS book are notable. Possibly even the chemical castration portrayed in The Left Hand of Darkness might be
 
 
 Le Guin's fantasy novels typically are inspired the myths and legends instead of  instead of the majority of works we would consider to be fantasy today which   fantasy stories un
