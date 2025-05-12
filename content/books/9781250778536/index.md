@@ -2,7 +2,8 @@
 authors:
 - R. A. Lafferty
 books/tags:
-- owned-but-unread
+- currently-reading
+- science fiction
 date: 2025-05-11
 params:
   isbn13: '9781250778536'
