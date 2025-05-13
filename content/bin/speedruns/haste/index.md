@@ -38,7 +38,7 @@ Difficulty: Easy
 
 After you've attacked a boss for the last pip on their health bar, you can open the pause menu and select "Abandon Shard" to save a few seconds waiting for the scene transition.
 
-Then after hitting the "Complete Shard" button, open the pause menu and select the "exit" (?) button. Then click continue game on the main menu to skip through another dialogue/cutscene. 
+If you're on shard 2+, after hitting the "Complete Shard" button, open the pause menu and select the "exit" (?) button. Then click continue game on the main menu to skip through another dialogue/cutscene. 
 
 ## Shop/Rest Back Portal 
 
