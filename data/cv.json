@@ -22,7 +22,7 @@
               "Developed availability health metrics that contributed to a $10M year-over-year profit increase.",
               "Developed a distribution system in Ruby to sync 50k+ listings on Airbnb, Booking, Expedia and more.",
               "Refactored a 300k+ LOC legacy Ruby on Rails codebase, upgrading to Ruby 3.3 and Rails 7.1 for improved performance and maintainability.",
-              "Developed a pricing system in Python, optimizing rates based on supply/demand, supporting 100% of the revenue produced by the company."
+              "Developed a pricing system in Python, optimizing rates based on supply/demand."
             ]
           },
           {
@@ -55,7 +55,8 @@
           {
             "list": [
               "Languages: Python, Ruby, C#, Go, TypeScript, JavaScript, C++",
-              "CI/CD: GitHub Actions, Jenkins, CircleCI, Buddy"
+              "CI/CD: GitHub Actions, Jenkins, CircleCI, Buddy",
+              "Monitoring: Grafana, Datadog"
             ]
           }
         ]
