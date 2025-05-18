@@ -11,19 +11,23 @@ In no particular order, here's a show and tell of TTRPG systems that I've played
 
 {{< book "maze_rats" >}}
 
-# Spark Tables.
+# Spark Tables
 
 In Maze Rats, after a long rest, PCs with one or more spell slots rolls on a series of three different tables to generate each spell's name, with the mechanics of the spell being determined by the GM based on the name.
 
 For example, rolling on the first table might produce an Ethereal Effect and Physical Element spell, two subsequent rolls on the relevant tables might result in a spell named "Bewildering Insect".
 
-Then, the GM will quickly make a ruling about what the spell will generally do when cast to give guidance to the player on how it might be used. When the PC casts the spell, the GM can nail down the specifics based on context and the player's ingenuity.
+Then, the GM will quickly make a ruling about what the spell will do when cast to give guidance to the player on how it might be used. When the PC casts the spell, the GM can nail down the specifics based on context and the player's ingenuity.
+
+This a great tool for easily generating specific things (in this case, spells) that players can latch onto and have fun with, without being burdened by the cost of specifying everything in detail and in doing so limit the potential of said generated thing.
+
+Using words, latent with meaning, as the fulcrum for leveraging more specific randomness into your play while retaining the inherent flexibility of words is a genius design choice and I can see myself using spark tables like this for other GMing purposes like generating NPCs.
 
 {{< book "9781950082001" >}}
 
-# Exploding Dice, the Wild Die and Raises.
+# Exploding Dice, the Wild Die and Raises
 
-In Savage Worlds, skill checks involve rolling two dice, your skill die which can be anything from d4 to d12 and a Wild die which is always a d6.
+In Savage Worlds, skill checks involve rolling two dice, your skill die which can be anything from a d4 to d12 and a Wild die which is always a d6.
 
 Both of these dice are rolled separately and they can both "explode" (if you roll the highest number on a die, then you roll the die again, adding both results to the total, repeating this process until the die doesn't explode).
 
@@ -37,7 +41,7 @@ If I ever build or homebrew my own system
 
 {{< book "9781913032111" >}}
 
-# Beats.
+# Beats
 
 Essentially, beats are a list of "story beats" that players want their PCs to participate in during play, once they've the beat is over, they get a level up.
 
@@ -47,19 +51,19 @@ Although Beats aren't as easy to homebrew into any system you might be playing w
 
 {{< book "9798985456400" >}}
 
-# The Death Timer.
+# The Death Timer
 
-Whenever a PC falls to 0HP or below, the rules dictate that you roll a d4 + CON. The result is the number of rounds that the PC has before they are fully dead.
+Whenever a PC falls to zero HP or below, the rules dictate that you roll a d4 plus the PC's constitution score. The result is the number of rounds that the PC has before they are fully dead.
 
 Inspired by the Death Save rule in Mothership, my simple twist on Shadowdark's Death Timer rule (which I used over and over again [in my Shadowdark RPG Maze of the Blue Medusa campaign](/blog/2025-01-23/#running-a-high-lethality-survival-horror-like-campaign)) is that this roll is done in secret and the result is only seen by the GM.
 
 Turning every potential PC death into a recurring high intensity risk vs. reward combat situation that everyone at the table is super invested in is a master class in design especially when combined with high lethality OSR-style gameplay.
 
-I will never run an OSR game without at least considering bringing some version of this rule to the table because of how effective it is in raising the stakes over and over again. Theoretically, a rule like this might make a game less lethal by reducing the likelihood of death, for example in a system like {{< book_url "Maze Rats">}} where a PC falling to 0HP or below means instant death, but if that's a problem then the GM can ramp up the difficulty accordingly to account for this.
+I will never run an OSR game without at least considering bringing some version of this rule to the table because of how effective it is in raising the stakes over and over again. Theoretically, a rule like this might make a game less lethal by reducing the likelihood of death, for example in a system like {{< book_url "Maze Rats">}} where a PC falling to zero HP or below means instant death, but if that's a problem then the GM can ramp up the difficulty accordingly to account for this.
 
 {{< book "9781908460646" >}}
 
-# The In-Character Debriefing.
+# The In-Character Debriefing
 
 Paranoia is a great system, it's bold, evocative and extremely English. If you forced me to pick the thing about it that I really like, it would be the debriefing that the PCs have with their supervising officer. It's a fantastic way to end a session on a high note, reminding players of all the choices they made and the hijinks they got themselves into, amplifying the fun of it all.
 
@@ -71,9 +75,9 @@ Giving the PCs an opportunity to gloat, reflect, display pride about their actio
 
 {{< book "9789188805645" >}}
 
-# The Calendar of Nechrubel.
+# The Calendar of Nechrubel
 
-In Mörk Borg, at dawn, the GM rolls a die, on a 1, a catastrophe is unleashed upon the world and after 7 of these catastrophes have crippled the world beyond repair, the world ends.
+In Mörk Borg, at dawn, the GM rolls a die, on a one, a catastrophe is unleashed upon the world and after seven of these catastrophes have crippled the world beyond repair, the world ends.
 
 Conceptually this is really cool but mechanically it provides an explicit timer and eventual end to the campaign.
 
