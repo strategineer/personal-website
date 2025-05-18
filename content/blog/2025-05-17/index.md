@@ -7,7 +7,7 @@ draft: true
 ---
 All of the tabletop RPG systems (and some modules) that I'm familiar with are gathering together today to party like it's 2025 and they've all brought something to the table (my brain).
 
-In no particular order, here's a show and tell of TTRPG systems that I've played and/or run with a mechanic that has stuck with me ever since.
+In no particular order, here's a show and tell of mechanics that blew my mind from TTRPG systems that I've played and/or run in the past few years.
 
 {{< book "maze_rats" >}}
 
@@ -17,7 +17,9 @@ In Maze Rats, after a long rest, PCs with one or more spell slots rolls on a ser
 
 For example, rolling on the first table might produce an Ethereal Effect and Physical Element spell, two subsequent rolls on the relevant tables might result in a spell named "Bewildering Insect".
 
-Then, the GM will quickly make a ruling about what the spell will do when cast to give guidance to the player on how it might be used. When the PC casts the spell, the GM can nail down the specifics based on context and the player's ingenuity.
+Then, the GM will quickly make a ruling about what the spell will do when cast to give guidance to the player on how it might be used ("Bewildering Insect will materialize an insect of your choice, the sight of which will temporarily confuse anyone who sees it.").
+
+When the PC casts the spell, the GM can nail down the specifics based on context and the player's ingenuity ("upon seeing the 3 foot tall cockroach, Arggg the Bridge Troll-in-Training is confused for 1 round while he decides who to stop from crossing the bridge, the roach or the party.").
 
 This a great tool for easily generating specific things (in this case, spells) that players can latch onto and have fun with, without being burdened by the cost of specifying everything in detail and in doing so limit the potential of said generated thing.
 
