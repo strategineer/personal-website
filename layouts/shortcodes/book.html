@@ -2,9 +2,9 @@
 {{ $found := false }}
 
 {{ range .Site.RegularPages }}
-  {{ if eq .Section "books" }}
-    {{- if eq $title (lower .Title) -}}
-      {{ $is_books := eq .Section "books" }}
+  {{ $is_books := eq .Section "books" }}
+  {{ if $is_books }}
+  {{- if or (eq $title (lower .Title)) (eq $title .Params.isbn13) (eq $title .Slug) -}}
       {{ $is_owned_but_unread_book := and $is_books (in (index .Params "books/tags") "owned-but-unread") }}
       
       {{ if not .IsNode }}

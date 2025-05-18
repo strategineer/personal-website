@@ -10,7 +10,7 @@ params:
   isbn13: '9781913032111'
   year: '2020'
 slug: '9781913032111'
-star_rating: 4
+star_rating: 5
 title: Heart - The City Beneath
 ---
 
