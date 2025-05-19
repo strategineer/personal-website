@@ -165,7 +165,7 @@ Tables from Knave 2e.
 {{< rpg_table name="Form" hide_button="true" >}}
 | d100 | Form |
 | ---- | --------|
-| 1 | Animal (p. 6 ) |
+| 1 | {Animal} (p. 6 ) |
 | 2 | Arc |
 | 3 | Archer |
 | 4 | Armor |
@@ -224,7 +224,7 @@ Tables from Knave 2e.
 | 57 | Monolith |
 | 58 | {Monster} (p. 61) |
 | 59 | Mouth |
-| 60 | Organ (p. 64) |
+| 60 | {Organ} (p. 64) |
 | 61 | Path |
 | 62 | Pit |
 | 63 | Pool |
@@ -697,7 +697,7 @@ Tables from Knave 2e.
 | 3 | Alter body	|
 | 4 | Alter face	|
 | 5 | Alter voice	|
-| 6 | Animal form (p. 64) |
+| 6 | {Animal} form (p. 64) |
 | 7 | Armor	|
 | 8 | Beast-speech	|
 | 9 | Bird-speech	|
@@ -748,7 +748,7 @@ Tables from Knave 2e.
 | 54 | {MonsterTrait} (p. 65) |
 | 55 | {Mutation} (p. 30) |
 | 56 | {NPCDetail} (p. 56) |
-| 57 | Organ (p. 64) |
+| 57 | {Organ} (p. 64) |
 | 58 | Ooze form |
 | 59 | Paranoia |
 | 60 | {Personality} (p. 56) |
@@ -803,11 +803,11 @@ Tables from Knave 2e.
 | 2 | {FemaleName} {SurnameStart}{SurnameEnd} |
 {{< /rpg_table >}}
 
-{{< rpg_table_button name="NPCBlock" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}. Wants to {Goal} ({Archetype}). {Activity}." >}}
+{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
 
-{{< rpg_table_button name="CityBlock" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
+{{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
 
-{{< rpg_table_button name="MagicItemBlock" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}. Domains: {Domain}, {Domain}. Symbol: {Symbol}." >}}
+{{< rpg_table_button name="MagicItem" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}. Domains: {Domain}, {Domain}. Symbol: {Symbol}." >}}
 
 {{< rpg_table name="Item">}}
 | d100 | Archetype |
@@ -1309,7 +1309,7 @@ Tables from Knave 2e.
 | 66 | Lead faction |
 | 67 | Map wild |
 | 68 | Master skill |
-| 69 | Mission (p. 51) |
+| 69 | {Mission} (p. 51) |
 | 70 | Overthrow ruler |
 | 71 | Pacify faction |
 | 72 | Protect artifacts |
@@ -1877,7 +1877,7 @@ Tables from Knave 2e.
 | 1 | Aboleth	|
 | 2 | Air elemental	|
 | 3 | Angel	|
-| 4 | Animal (p. 64)	|
+| 4 | {Animal} (p. 64)	|
 | 5 | Animated armor |
 | 6 | Banshee	|
 | 7 | Basilisk	|
@@ -1908,7 +1908,7 @@ Tables from Knave 2e.
 | 32 | Ghost	|
 | 33 | Ghoul	|
 | 34 | Giant	|
-| 35 | Giant animal (p. 64) |
+| 35 | Giant {Animal} (p. 64) |
 | 36 | Giant centipede	|
 | 37 | Giant crab	|
 | 38 | Giant frog	|
@@ -1982,7 +1982,7 @@ Tables from Knave 2e.
 | 1 | Acid blood	|
 | 2 | Amphibious	|
 | 3 | Ancient	|
-| 4 | Animal form (p. 29) |
+| 4 | {Animal} form (p. 29) |
 | 5 | Animated	|
 | 6 | Asymmetrical	|
 | 7 | Bloated	|
@@ -2041,7 +2041,7 @@ Tables from Knave 2e.
 | 60 | No neck |
 | 61 | One eye |
 | 62 | Ooze-form |
-| 63 | Organ (p. 64) |
+| 63 | {Organ} (p. 64) |
 | 64 | {Personality} (p. 56) |
 | 65 | Poisonous |
 | 66 | {Potion} (p. 35) |
@@ -2887,7 +2887,7 @@ Tables from Knave 2e.
 |60| Looting|
 |61| Mapping|
 |62| Marrying|
-|63| Mission (p. 51)|
+|63| {Mission} (p. 51)|
 |64| Mourning|
 |65| Murdering|
 |66| Pardoning|
@@ -2932,17 +2932,17 @@ Tables from Knave 2e.
 | --- | --------|
 |1| Ages backwards  |
 |2| Ages faster	|
-|3| Animal body (p. 64) |
-|4| Animal ears (p. 64) |
-|5| Animal eyes (p. 64) |
-|6| Animal form (p. 64) |
-|7| Animal head (p. 64) |
-|8| Animal limb (p. 64) |
-|9| Animal scent (p. 64) |
-|10| Animal skin (p. 64) |
-|11| Animal tail (p. 64) |
-|12| Animal teeth (p. 64) |
-|13| Animal voice (p. 64) |
+|3| {Animal} body (p. 64) |
+|4| {Animal} ears (p. 64) |
+|5| {Animal} eyes (p. 64) |
+|6| {Animal} form (p. 64) |
+|7| {Animal} head (p. 64) |
+|8| {Animal} limb (p. 64) |
+|9| {Animal} scent (p. 64) |
+|10| {Animal} skin (p. 64) |
+|11| {Animal} tail (p. 64) |
+|12| {Animal} teeth (p. 64) |
+|13| {Animal} voice (p. 64) |
 |14| Antennae	|
 |15| Antlers	|
 |16| Arms grow	|
@@ -2996,7 +2996,7 @@ Tables from Knave 2e.
 |64| One arm|
 |65| One eye|
 |66| One leg|
-|67| Organ (p. 64)|
+|67| {Organ} (p. 64)|
 |68| {Personality} (p. 56)|
 |69| Pig snout|
 |70| {Power} (p. 65)|
@@ -3039,7 +3039,7 @@ Tables from Knave 2e.
 |2| Alcohol	|
 |3| Almond	|
 |4| Ammonia	|
-|5| Animal (p. 64)	|
+|5| {Animal} (p. 64)	|
 |6| Baby	|
 |7| Balsamic	|
 |8| Banana	|
@@ -3141,7 +3141,7 @@ Tables from Knave 2e.
 | d100 | Sound |
 | --- | --------|
 |1| {Activity} (p. 19)	|
-|2| Animal (p. 64)	|
+|2| {Animal} (p. 64)	|
 |3| Banging	|
 |4| Barking	|
 |5| Bashing	|
@@ -3352,7 +3352,7 @@ Tables from Knave 2e.
 | --- | --------|
 |1| Acid	|
 |2| Alcohol	|
-|3| Animal (p. 64)	|
+|3| {Animal} (p. 64)	|
 |4| Anti-magic	|
 |5| Arms	|
 |6| Arrows	|
@@ -3515,7 +3515,7 @@ Tables from Knave 2e.
 |58| Nest|
 |59| Nesting sounds|
 |60| Offspring|
-|61| Organ (p. 64)|
+|61| {Organ} (p. 64)|
 |62| Pellets|
 |63| Pheromones|
 |64| Polished surface|
@@ -3986,7 +3986,7 @@ Tables from Knave 2e.
 |2| Acid	|
 |3| Alarm	|
 |4| Alcohol	|
-|5| Animal (p. 64)	|
+|5| {Animal} (p. 64)	|
 |6| Arrow	|
 |7| Automatons	|
 |8| Avalanche	|
@@ -4198,8 +4198,8 @@ Tables from Knave 2e.
 |4| Always rude	|
 |5| Always sleepy	|
 |6| Amnesia	|
-|7| Animal (p. 64)	|
-|8| Asset (p. 58)	|
+|7| {Animal} (p. 64)	|
+|8| {Asset} (p. 58)	|
 |9| Aura reading	|
 |10| Automaton	|
 |11| Being followed	|
@@ -4251,7 +4251,7 @@ Tables from Knave 2e.
 |57| Medium|
 |58| Mind controlled|
 |59| Missing limb|
-|60| Mission (p. 51)|
+|60| {Mission} (p. 51)|
 |61| {Monster} (p. 61)|
 |62| {MonsterTrait} (p. 65)|
 |63| Must dance|
@@ -4262,7 +4262,7 @@ Tables from Knave 2e.
 |68| Must steal|
 |69| {Name} (pp. 54-55)|
 |70| {NPCDetail} (p. 56)|
-|71| Organ (p. 64)|
+|71| {Organ} (p. 64)|
 |72| Personal army|
 |73| {Personality} (p. 56)|
 |74| Planar traveler|
@@ -4612,7 +4612,7 @@ Tables from Knave 2e.
 {{< rpg_table name="Symbol" hide_button="true" >}}
 | d100 | ? |
 | --- | --------|
-|1| Animal (p. 64)	|
+|1| {Animal} (p. 64)	|
 |2| Antlers	|
 |3| Arrow	|
 |4| Axe	|
@@ -4673,7 +4673,7 @@ Tables from Knave 2e.
 |59| Moon|
 |60| Nut|
 |61| Octopus|
-|62| Organ (p. 64)|
+|62| {Organ} (p. 64)|
 |63| Ox|
 |64| Pen|
 |65| Pincer|
@@ -4826,7 +4826,7 @@ Tables from Knave 2e.
 |2| Allspice	|
 |3| Almond	|
 |4| Ammonia	|
-|5| Animal (p. 64)	|
+|5| {Animal} (p. 64)	|
 |6| Asparagus	|
 |7| Basil	|
 |8| Beer	|
@@ -5032,7 +5032,7 @@ Tables from Knave 2e.
 {{< rpg_table name="Ingredient" hide_button="true" >}}
 | d100 | ? |
 | --- | --------|
-|1| Animal (p. 64)	|
+|1| {Animal} (p. 64)	|
 |2| Antimony	|
 |3| Arsenic	|
 |4| Belladonna	|
@@ -5095,7 +5095,7 @@ Tables from Knave 2e.
 |61| Newborn's cry|
 |62| Nickel|
 |63| Nightshade|
-|64| Organ (p. 64)|
+|64| {Organ} (p. 64)|
 |65| Platinum|
 |66| Poppy|
 |67| {Potion} (p. 35)|
@@ -5302,7 +5302,7 @@ Tables from Knave 2e.
 |56| Military orders|
 |57| Mirror|
 |58| Orb|
-|59| Organ (p. 64)|
+|59| {Organ} (p. 64)|
 |60| Paintbrush|
 |61| Painting|
 |62| Passport|
@@ -5382,7 +5382,7 @@ Tables from Knave 2e.
 |31| Espionage	|
 |32| Ethics	|
 |33| Etiquette	|
-|34| Faction (p. 50)	|
+|34| {FactionType} (p. 50)	|
 |35| Fashion	|
 |36| Finance	|
 |37| Fishing	|
@@ -5561,7 +5561,7 @@ Tables from Knave 2e.
 | --- | --------|
 |1| Alligator skin	|
 |2| Alpaca wool	|
-|3| Animal skin (p. 64) |
+|3| {Animal} skin (p. 64) |
 |4| Badger skin	|
 |5| Bamboo weave	|
 |6| Barkcloth	|
@@ -5822,7 +5822,7 @@ Tables from Knave 2e.
 |51| Mural|
 |52| Music box|
 |53| Necklace|
-|54| Organ (p. 64)|
+|54| {Organ} (p. 64)|
 |55| Orrery|
 |56| Painting|
 |57| Pen|
@@ -6190,7 +6190,7 @@ Tables from Knave 2e.
 | d100 | ? |
 | --- | --------|
 |1| Alchemy	|
-|2| Animal (p. 64)	|
+|2| {Animal} (p. 64)	|
 |3| Aristocracy	|
 |4| Art	|
 |5| Asylums	|
@@ -6400,7 +6400,7 @@ Tables from Knave 2e.
 | d100 | ? |
 | --- | --------|
 |1| Activity (p. 19)	|
-|2| Animals (p. 64)	|
+|2| {Animal} (many) (p. 64)	|
 |3| Aqueduct	|
 |4| Arcade	|
 |5| Archway	|
@@ -6940,7 +6940,7 @@ Tables from Knave 2e.
 |1| Acorn	|
 |2| Alligator	|
 |3| Almond	|
-|4| Animal (p. 64)	|
+|4| {Animal} (p. 64)	|
 |5| Antelope	|
 |6| Apple	|
 |7| Artichokes	|
@@ -7000,7 +7000,7 @@ Tables from Knave 2e.
 |61| Mutton|
 |62| Onion|
 |63| Orange|
-|64| Organ (p. 64)|
+|64| {Organ} (p. 64)|
 |65| Partridge|
 |66| Pea|
 |67| Pear|
@@ -7039,17 +7039,987 @@ Tables from Knave 2e.
 |00| Yam|
 {{< /rpg_table >}}
 
-{{< rpg_table name="TravelBlah" hide_button="true" >}}
+{{< rpg_table name="Faction" >}}
+| ? |
+| --------|
+| {FactionTrait} and {FactionTrait} {FactionType}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}. |
+{{< /rpg_table >}}
+
+{{< rpg_table name="FactionType" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Actors' guild	|
+|2| Angelic army	|
+|3| Art movement	|
+|4| Art school	|
+|5| Assassins' guild	|
+|6| Bandit troop	|
+|7| Banking corp	|
+|8| Barbarian horde |
+|9| Bards' guild	|
+|10| Beggars' guild	|
+|11| Big game hunters |
+|12| Burgling crew	|
+|13| Chimney sweeps |
+|14| Circus troupe	|
+|15| City council	|
+|16| City guard	|
+|17| Convent	|
+|18| Counterfeiters	|
+|19| Courtier faction  |
+|20| Crafting guild	|
+|21| Crime family	|
+|22| Cult fanatics	|
+|23| Debate society	|
+|24| Demonic army	|
+|25| Deserter band	|
+|26| Dragon cult	|
+|27| Druid circle	|
+|28| Dungeoneer guild |
+|29| Elite warriors	|
+|30| Explorer's club	|
+|31| Fencing school	|
+|32| Fight club	|
+|33| Fraternity	|
+|34| Free company	|
+|35| Gambling ring	|
+|36| Ghost society	|
+|37| Gladiator league |
+|38| Gourmand club	|
+|39| Gravediggers	|
+|40| Healing order	|
+|41| Heist crew	|
+|42| Heretical sect	|
+|43| High council	|
+|44| Hired muscle	|
+|45| Illuminati	|
+|46| Inquisition	|
+|47| Knightly order	|
+|48| Living machines |
+|49| Local watch	|
+|50| Mad scientists |
+|51| Merchant cartel|
+|52| Midwife union|
+|53| Militia|
+|54| Mining company|
+|55| Monastery|
+|56| Monster hunters|
+|57| Mothers|
+|58| Mutants|
+|59| National church|
+|60| Naval crew|
+|61| Necromancers|
+|62| Noble house|
+|63| Officers' club|
+|64| Oracles' circle|
+|65| Outlander clan|
+|66| Peacekeepers|
+|67| Philosophy club|
+|68| Pirate crew|
+|69| Poachers|
+|70| Social movement|
+|71| Political party|
+|72| Ranger squad|
+|73| Religious sect|
+|74| Resistance|
+|75| Royal army|
+|76| Royal house|
+|77| Scholar's circle|
+|78| School faculty|
+|79| Secret society|
+|80| Sewer people|
+|81| Smuggling ring|
+|82| Sports league|
+|83| Sports team|
+|84| Spy network|
+|85| Street artists|
+|86| Street gang|
+|87| Street musicians|
+|88| Student union|
+|89| Terrorist cell|
+|90| Thieves' guild|
+|91| Trade company|
+|92| Urchin swarm|
+|93| Vampire clan|
+|94| Veteran society|
+|95| Vigilante league|
+|96| Warlock pact|
+|97| Werewolf pack|
+|98| Witch coven|
+|99| Wizard school|
+|00| Zombie horde|
+{{< /rpg_table >}}
+
+{{< rpg_table name="FactionTrait" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Activist	|
+|2| {Activity} (p. 19)	|
+|3| Aging	|
+|4| Anarchic	|
+|5| Ancient	|
+|6| Athletic	|
+|7| Avant-garde	|
+|8| Backstabbing	|
+|9| Bankrupt	|
+|10| Breakaway	|
+|11| Bureaucratic	|
+|12| Charitable	|
+|13| Code of conduct |
+|14| Connected	|
+|15| Contemptuous	|
+|16| Corrupt	|
+|17| Crime-fighting	|
+|18| Decadent	|
+|19| Desperate	|
+|20| Discriminatory	|
+|21| Disciplined	|
+|22| Divided	|
+|23| Dwindling	|
+|24| Egalitarian	|
+|25| Elite	|
+|26| Eloquent	|
+|27| Elusive	|
+|28| Erratic	|
+|29| Exclusive	|
+|30| Expanding	|
+|31| Family	|
+|32| Fanatical	|
+|33| Feared	|
+|34| Fractious	|
+|35| Genteel	|
+|36| Glamorous	|
+|37| Global reach	|
+|38| Gullible	|
+|39| Heretical	|
+|40| Homeless	|
+|41| Hunted	|
+|42| Inbred	|
+|43| Incompetent	|
+|44| Incorruptible	|
+|45| Inquisitive	|
+|46| Insane	|
+|47| Insular	|
+|48| Internecine	|
+|49| Intoxicated	|
+|50| Laid back |
+|51| Law-abiding|
+|52| Learned|
+|53| Magical|
+|54| Manipulative|
+|55| Martial|
+|56| Monarchist|
+|57| Murderous|
+|58| Musical|
+|59| Mutated|
+|60| National reach|
+|61| Obnoxious|
+|62| Ostentatious|
+|63| Patriotic|
+|64| {Personality} (p. 56)|
+|65| Pious|
+|66| Popular|
+|67| Predatory|
+|68| Predictable|
+|69| Proselytizing|
+|70| Proud|
+|71| Respected|
+|72| Reunified|
+|73| Revered|
+|74| Reviled|
+|75| Revolutionary|
+|76| Righteous|
+|77| Rules-bound|
+|78| Ruthless|
+|79| Scrappy|
+|80| Secretive|
+|81| Single-minded|
+|82| Slandered|
+|83| Snobby|
+|84| Stealthy|
+|85| Stodgy|
+|86| Subversive|
+|87| Suppressed|
+|88| Thieving|
+|89| Threatened|
+|90| Thriving|
+|91| Traitorous|
+|92| Undead|
+|93| Up-and-coming|
+|94| Wealthy|
+|95| Welcoming|
+|96| Well-armed|
+|97| Well-provisioned|
+|98| Wretched|
+|99| Xenophobic|
+|00| Youthful|
+{{< /rpg_table >}}
+
+
+{{< rpg_table name="Mission" >}}
+| d100 | ? |
+| --- | --------|
+|1| Apprehend NPC  |
+|2| Arrange marriage |
+|3| Awaken monster |
+|4| Banish demon	|
+|5| Befoul location	|
+|6| Blackmail NPC	|
+|7| Bribe faction	|
+|8| Bribe NPC	|
+|9| Burgle building	|
+|10| Chart dungeon	|
+|11| Chart location	|
+|12| Clear dungeon	|
+|13| Clear lair	|
+|14| Control building |
+|15| Craft item	|
+|16| Cripple NPC	|
+|17| Deceive faction	|
+|18| Deceive NPC	|
+|19| Deface building	|
+|20| Defraud NPC	|
+|21| Destroy building |
+|22| Destroy item	|
+|23| Destroy monster |
+|24| Destroy warband |
+|25| Discredit NPC	|
+|26| Drown NPC	|
+|27| Duplicate item	|
+|28| Entertain NPC	|
+|29| Entrap NPC	|
+|30| Escape building	|
+|31| Escape city	|
+|32| Escape dungeon |
+|33| Escape location	|
+|34| Escort NPC	|
+|35| Extort NPC	|
+|36| Follow NPC	|
+|37| Forge weapon	|
+|38| Frame NPC	|
+|39| Frighten NPC	|
+|40| Goal (p. 57)	|
+|41| Haunt NPC	|
+|42| Hide item	|
+|43| Hide NPC	|
+|44| Humiliate NPC	|
+|45| Impersonate NPC |
+|46| Impress faction	|
+|47| Impress NPC	|
+|48| Infiltrate building |
+|49| Infiltrate city	|
+|50| Infiltrate dungeon |
+|51| Infiltrate faction|
+|52| Investigate crime|
+|53| Kidnap leader|
+|54| Kidnap NPC|
+|55| Kill leader|
+|56| Kill NPC|
+|57| Locate city|
+|58| Locate dungeon|
+|59| Locate faction|
+|60| Locate item|
+|61| Locate landmark|
+|62| Locate NPC|
+|63| Locate location|
+|64| Loot dungeon|
+|65| Overthrow NPC|
+|66| Patrol building|
+|67| Patrol city|
+|68| Persuade faction|
+|69| Persuade NPC|
+|70| Plant item|
+|71| Poison NPC|
+|72| Prank NPC|
+|73| Protect building|
+|74| Protect item|
+|75| Protect NPC|
+|76| Pursue NPC|
+|77| Raid building|
+|78| Replace item|
+|79| Replace NPC|
+|80| Rescue family|
+|81| Rescue leader|
+|82| Rescue NPC|
+|83| Resolve dispute|
+|84| Retrieve item|
+|85| Rob faction|
+|86| Rob NPC|
+|87| Sabotage item|
+|88| Sabotage treaty|
+|89| Sabotage wedding|
+|90| Seduce NPC|
+|91| Smuggle item in|
+|92| Smuggle item out|
+|93| Spread rumor|
+|94| Spy on faction|
+|95| Spy on NPC|
+|96| Summon being|
+|97| Survive test|
+|98| Tame monster|
+|99| Transport item|
+|00| Transport NPC|
+{{< /rpg_table >}}
+
+
+{{< rpg_table name="Reward" >}}
+| d100 | ? |
+| --- | --------|
+|1| A blind eye	|
+|2| Alcohol	|
+|3| {Animal} (p. 64)	|
+|4| Armor	|
+|5| Army	|
+|6| Artwork	|
+|7| {Asset} (p. 58)	|
+|8| Blackmail	|
+|9| Blessing	|
+|10| Blueprints	|
+|11| {Building} (p. 47)	|
+|12| Business	|
+|13| Caravel	|
+|14| Carriage	|
+|15| Castle	|
+|16| Chapel	|
+|17| Charter	|
+|18| Companion	|
+|19| Contract	|
+|20| Cottage	|
+|21| Craftsmen	|
+|22| Cypher	|
+|23| Delivery	|
+|24| {Dungeon} (p. 16)	|
+|25| Dungeon map	|
+|26| Endorsement	|
+|27| Estate	|
+|28| Expert	|
+|29| {FactionType} ally (p. 50) |
+|30| Familiar	|
+|31| Farm	|
+|32| Favor	|
+|33| Fishing boat	|
+|34| Fleet	|
+|35| Forge	|
+|36| Formula	|
+|37| Galleon	|
+|38| Gold	|
+|39| Guide	|
+|40| Guildhall	|
+|41| Healing	|
+|42| Hideout	|
+|43| Hirelings	|
+|44| Hounds	|
+|45| House	|
+|46| Influential ally	|
+|47| {Inn} (p. 48)	|
+|48| Jewels	|
+|49| Key	|
+|50| Livestock |
+|51| {Location} (p. 10)|
+|52| Machine|
+|53| {MagicItem} |
+|54| Magical ally|
+|55| Mansion|
+|56| {Material} (p. 42)|
+|57| Meeting|
+|58| Mercenaries|
+|59| {Monster} ally (p. 61)|
+|60| Noble clothing|
+|61| Noble title|
+|62| Palace|
+|63| Pardon|
+|64| Planar portal|
+|65| Political clout|
+|66| Potion (p. 35)|
+|67| Printing press|
+|68| Reduced sentence|
+|69| Location map|
+|70| Relic|
+|71| Religious clout|
+|72| Renown|
+|73| Revenge|
+|74| Rights|
+|75| Royal clothing|
+|76| Safe passage|
+|77| Secret|
+|78| Servants|
+|79| Shortcut|
+|80| Sloop|
+|81| Social clout|
+|82| {Spell} (pp. 22-25)|
+|83| Spices|
+|84| {Structure} (p. 11)|
+|85| Temple|
+|86| Theater|
+|87| Time extension|
+|88| Tower|
+|89| Training|
+|90| Transformation|
+|91| Transport|
+|92| {Treasure} (p. 42)|
+|93| Treasure map|
+|94| Vineyard|
+|95| Wagon|
+|96| Warband|
+|97| Warhorse|
+|98| Wealthy clothing|
+|99| {Weakness} (p. 67)|
+|00| {Weapon} (p. 43)|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Asset" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Agile	|
+|2| Assassin leader	|
+|3| Bodyguards	|
+|4| {Book} expert (p. 40) |
+|5| {Building} (p. 47)	|
+|6| Building access	|
+|7| Card shark	|
+|8| Charming	|
+|9| Contortionist	|
+|10| Cooks books	|
+|11| Cult leader	|
+|12| Demigod	|
+|13| Disciples	|
+|14| Disguises	|
+|15| Dungeon access |
+|16| Elite archer	|
+|17| Elite fighter	|
+|18| Erases evidence	|
+|19| Excellent liar	|
+|20| Extremely rich	|
+|21| Faction leader	|
+|22| Faction member |
+|23| Famous actor	|
+|24| Famous artist	|
+|25| Famous cleric	|
+|26| Famous composer|
+|27| Famous explorer |
+|28| Famous general	|
+|29| Famous poet	|
+|30| Fast	|
+|31| Feared	|
+|32| Fence	|
+|33| Forges papers	|
+|34| Gorgeous	|
+|35| Hears rumors	|
+|36| Heir to a fortune |
+|37| Huge family	|
+|38| Impersonator	|
+|39| Instructor	|
+|40| Intimidating	|
+|41| Knows buyers	|
+|42| Knows shortcut  |
+|43| Launders money |
+|44| Local knowledge |
+|45| Loremaster	|
+|46| Loyal henchmen |
+|47| Master mage	|
+|48| Mechanical expert|
+|49| Military leader	|
+|50| Multilingual |
+|51| Natural leader|
+|52| Noble|
+|53| Nothing to lose|
+|54| Owed favors|
+|55| Owed money|
+|56| Owns armory|
+|57| Owns army|
+|58| Owns castle|
+|59| Owns factory|
+|60| Owns fleet|
+|61| Owns library|
+|62| Owns manor|
+|63| Owns press|
+|64| Owns relics|
+|65| Owns ship|
+|66| Owns stables|
+|67| Owns the guards|
+|68| Owns tower|
+|69| Owns warband|
+|70| Political leader|
+|71| {Potion} (p. 35)|
+|72| Potion stockpile|
+|73| {Power} (p. 65)|
+|74| Powerful ex|
+|75| Powerful friend|
+|76| Powerful lover|
+|77| Powerful parent|
+|78| Powerful spouse|
+|79| Procures gear|
+|80| {Profession} (p. 57)|
+|81| Religious leader|
+|82| Respected|
+|83| Saboteur|
+|84| Secret base|
+|85| Secret lab|
+|86| Secret weapon|
+|87| Sells contraband|
+|88| Servants|
+|89| Shapeshifter|
+|90| Smuggles goods|
+|91| {Spell} (pp. 22-25)|
+|92| Spy network|
+|93| Stage magician|
+|94| Stealthy|
+|95| Strong|
+|96| {Structure} (p. 11)|
+|97| Trained animals|
+|98| Trained monsters|
+|99| Unbreakable|
+|00| War hero|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Liability" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alcoholic	|
+|2| Arthritis	|
+|3| Bad leader	|
+|4| Bad liar	|
+|5| Bankrupt	|
+|6| Beholden	|
+|7| Blackmailed	|
+|8| Blind	|
+|9| Cannot count	|
+|10| Cannot read	|
+|11| Clumsy	|
+|12| Condescending	|
+|13| Coward	|
+|14| Crippled	|
+|15| Cursed	|
+|16| Deaf	|
+|17| Decadent	|
+|18| {Delusion} (p. 30)	|
+|19| Disloyal followers |
+|20| Disobeys orders  |
+|21| Drug addict	|
+|22| Evil lineage	|
+|23| Exiled	|
+|24| Faction enemy	|
+|25| Faints	|
+|26| Family enemy	|
+|27| Flirts constantly  |
+|28| {Food} addict (p. 49) |
+|29| Fragile	|
+|30| Gambling addict |
+|31| Gets in fights	|
+|32| Glutton	|
+|33| Greedy	|
+|34| Gullible	|
+|35| Hemophilia	|
+|36| Hideous	|
+|37| Huge debts	|
+|38| Insurrectionist	|
+|39| Jealous	|
+|40| Known con artist |
+|41| Known murderer |
+|42| Known thief	|
+|43| Known traitor	|
+|44| Known vandal	|
+|45| Laughingstock	|
+|46| Lazy	|
+|47| Leaves evidence |
+|48| Loud	|
+|49| Lowborn	|
+|50| Many enemies |
+|51| Many exes|
+|52| Migraines|
+|53| Military enemy|
+|54| Mind-controlled|
+|55| Misinformed|
+|56| Money trail|
+|57| {MonsterTrait} (p. 65)|
+|58| {Mutation} (p. 30)|
+|59| Narcissist|
+|60| Needs flattery|
+|61| Needs medicine|
+|62| No rights|
+|63| Non-human|
+|64| Obese|
+|65| Obnoxious|
+|66| OCD|
+|67| Outcast|
+|68| Paranoid|
+|69| Pariah|
+|70| Party animal|
+|71| Political enemy|
+|72| Poor equipment|
+|73| Prison record|
+|74| Reckless|
+|75| Religious enemy|
+|76| Scandalous birth|
+|77| Smells like {Scent} (p. 66)|
+|78| Secret lover|
+|79| Seizures|
+|80| Senile|
+|81| Softhearted|
+|82| Sound (p. 66)|
+|83| Strict routines|
+|84| Stupid|
+|85| Superstitious|
+|86| Surveilled|
+|87| Suspicious|
+|88| Too generous|
+|89| Transformed|
+|90| Uncool|
+|91| Undead|
+|92| Unpopular|
+|93| Vampire|
+|94| Very short|
+|95| Wanted|
+|96| War criminal|
+|97| Weak-willed|
+|98| {Weakness} (p. 67)|
+|99| Werewolf|
+|00| Widely despised|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Relationship" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acquaintance	|
+|2| Admirer	|
+|3| Adviser	|
+|4| Ally	|
+|5| Apprentice	|
+|6| Assistant	|
+|7| Aunt or uncle	|
+|8| Believer	|
+|9| Beneficiary	|
+|10| Best friend	|
+|11| Blackmailer	|
+|12| Bodyguard	|
+|13| Business partner |
+|14| Business rival	|
+|15| Buyer	|
+|16| Captive	|
+|17| Captor	|
+|18| Champion	|
+|19| Child	|
+|20| Client	|
+|21| Coach	|
+|22| Collaborator	|
+|23| Colleague	|
+|24| Competitor	|
+|25| Confessor	|
+|26| Confidant	|
+|27| Contact	|
+|28| Crush	|
+|29| Customer	|
+|30| Debtholder	|
+|31| Debtor	|
+|32| Disciple	|
+|33| Donor	|
+|34| Employee	|
+|35| Employer	|
+|36| Ex-spouse	|
+|37| Fan	|
+|38| Fiance	|
+|39| Frenemy	|
+|40| Grandchild	|
+|41| Grandparent	|
+|42| Guardian	|
+|43| Guest	|
+|44| Half-sibling	|
+|45| Harasser	|
+|46| Henchman	|
+|47| Housekeeper	|
+|48| Idol	|
+|49| Investor	|
+|50| Jilted lover |
+|51| Kidnapper|
+|52| Lover|
+|53| Maid|
+|54| Master|
+|55| Mentor|
+|56| Niece or nephew|
+|57| Nemesis|
+|58| Oppressor|
+|59| Paid companion|
+|60| Paramour|
+|61| Parent|
+|62| Patron|
+|63| Pen pal|
+|64| Political prisoner|
+|65| Political rival|
+|66| Predator|
+|67| Prey|
+|68| Prisoner|
+|69| Protege|
+|70| Quarry|
+|71| Right hand|
+|72| Rival suitor|
+|73| Servant|
+|74| Sibling|
+|75| Snitch|
+|76| Social rival|
+|77| Source|
+|78| Sponsor|
+|79| Spouse|
+|80| Stalker|
+|81| Step-child|
+|82| Step-parent|
+|83| Step-sibling|
+|84| Steward|
+|85| Student|
+|86| Suitor|
+|87| Supplicant|
+|88| Supplier|
+|89| Sweetheart|
+|90| Teacher|
+|91| Teammate|
+|92| Thrall|
+|93| Tormentor|
+|94| Trainer|
+|95| Unrequited love|
+|96| Valet|
+|97| Vassal|
+|98| Victim|
+|99| War buddy|
+|00| Ward|
+{{< /rpg_table >}}
+
+{{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
+
+{{< rpg_table name="Animal" >}}
+| d100 | ? |
+| --- | --------|
+|1| Ant	|
+|2| Anteater	|
+|3| Ape	|
+|4| Badger	|
+|5| Bat	|
+|6| Bear	|
+|7| Beaver	|
+|8| Bee	|
+|9| Beetle	|
+|10| Boar	|
+|11| Bulldog	|
+|12| Butterfly	|
+|13| Camel	|
+|14| Cat	|
+|15| Centipede	|
+|16| Chameleon	|
+|17| Cobra	|
+|18| Cockroach	|
+|19| Constrictor	|
+|20| Cougar	|
+|21| Cow	|
+|22| Coyote	|
+|23| Crab	|
+|24| Crane	|
+|25| Cricket	|
+|26| Crocodile	|
+|27| Crow	|
+|28| Cuckoo	|
+|29| Donkey	|
+|30| Dragonfly	|
+|31| Duck	|
+|32| Eagle	|
+|33| Eel	|
+|34| Elephant	|
+|35| Elk	|
+|36| Falcon	|
+|37| Firefly	|
+|38| Fox	|
+|39| Frog	|
+|40| Goat	|
+|41| Goose	|
+|42| Hare	|
+|43| Hart	|
+|44| Hawk	|
+|45| Hedgehog	|
+|46| Hornet	|
+|47| Horse	|
+|48| Hound	|
+|49| Hummingbird	|
+|50| Jackal	|
+|51| Jellyfish|
+|52| Leech|
+|53| Lion|
+|54| Locust|
+|55| Lynx|
+|56| Mantis|
+|57| Mastodon|
+|58| Mockingbird|
+|59| Mole|
+|60| Monkey|
+|61| Moose|
+|62| Moth|
+|63| Mouse|
+|64| Mule|
+|65| Octopus|
+|66| Otter|
+|67| Owl|
+|68| Ox|
+|69| Panther|
+|70| Pig|
+|71| Pony|
+|72| Porcupine|
+|73| Possum|
+|74| Rabbit|
+|75| Raccoon|
+|76| Rat|
+|77| Reindeer|
+|78| Rooster|
+|79| Salamander|
+|80| Scorpion|
+|81| Seal|
+|82| Shark|
+|83| Sheep|
+|84| Slug|
+|85| Snail|
+|86| Sparrow|
+|87| Spider|
+|88| Squid|
+|89| Squirrel|
+|90| Tiger|
+|91| Toad|
+|92| Turtle|
+|93| Viper|
+|94| Vulture|
+|95| Walrus|
+|96| Weasel|
+|97| Whale|
+|98| Wolf|
+|99| Wolverine|
+|00| Worm|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Organ" >}}
+| d100 | ? |
+| --- | --------|
+|1| Antennae	|
+|2| Antlers	|
+|3| Baleen	|
+|4| Bat wings	|
+|5| Beaver tail	|
+|6| Blowhole	|
+|7| Blubber	|
+|8| Boar tusks	|
+|9| Bushy tail	|
+|10| Butterfly wings	|
+|11| Carapace	|
+|12| Cat tail	|
+|13| Chameleon eyes |
+|14| Claws	|
+|15| Cobra hood	|
+|16| Comb	|
+|17| Compound eyes |
+|18| Crab shell	|
+|19| Crane beak	|
+|20| Crest	|
+|21| Cricket legs	|
+|22| Detachable tail	|
+|23| Digging claws	|
+|24| Dragonfly wings  |
+|25| Duck bill	|
+|26| Eagle wings	|
+|27| Elephant tusks	|
+|28| Exoskeleton	|
+|29| Eye stalks	|
+|30| Falcon beak	|
+|31| Fangs	|
+|32| Feathers	|
+|33| Fins	|
+|34| Fly wings	|
+|35| Frog legs	|
+|36| Gills	|
+|37| Gliding flaps	|
+|38| Hooves	|
+|39| Horns	|
+|40| Horse tail	|
+|41| Humming wings |
+|42| Humps	|
+|43| Large ears	|
+|44| Large eyes	|
+|45| Large incisors	|
+|46| Long body	|
+|47| Long ears	|
+|48| Long legs	|
+|49| Long neck	|
+|50| Long snout	|
+|51| Long tongue|
+|52| Loose skin|
+|53| Mandibles|
+|54| Mane|
+|55| Mantis arms|
+|56| Monkey tail|
+|57| Mouse ears|
+|58| Mucus|
+|59| Otter tail|
+|60| Oyster shell|
+|61| Pelican bill|
+|62| Pig snout|
+|63| Pig tail|
+|64| Pincers|
+|65| Plates|
+|66| Plumage|
+|67| Proboscis|
+|68| Pseudopod|
+|69| Quills|
+|70| Rat tail|
+|71| Scales|
+|72| Scorpion tail|
+|73| Segments|
+|74| Shaggy hair|
+|75| Short fur|
+|76| Siphon|
+|77| Snail shell|
+|78| Spikes|
+|79| Spines|
+|80| Spinnerets|
+|81| Spotted fur|
+|82| Squid beak|
+|83| Stinger|
+|84| Striped fur|
+|85| Stubby tail|
+|86| Suction cups|
+|87| Talons|
+|88| Tendrils|
+|89| Tentacles|
+|90| Toucan beak|
+|91| Trunk|
+|92| Turtle shell|
+|93| Udder|
+|94| Walrus tusks|
+|95| Warts|
+|96| Wattle|
+|97| Webbed feet|
+|98| Webbed hands|
+|99| Whiskers|
+|00| Wool|
+{{< /rpg_table >}}
+
+{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
 
-{{< rpg_table name="TravelBlah" hide_button="true" >}}
+{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
 
-{{< rpg_table name="TravelBlah" hide_button="true" >}}
+{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+{{< /rpg_table >}}
+
+{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+{{< /rpg_table >}}
+
+{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+{{< /rpg_table >}}
+
+{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
