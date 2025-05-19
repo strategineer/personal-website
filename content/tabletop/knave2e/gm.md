@@ -614,7 +614,7 @@ Tables from Knave 2e.
 | 52 | Might |
 | 53 | Mind reading |
 | 54 | {MonsterTrait} (p. 65) |
-| 55 | Mutation (p. 30) |
+| 55 | {Mutation} (p. 30) |
 | 56 | {NPCDetail} (p. 56) |
 | 57 | Organ (p. 64) |
 | 58 | Ooze form |
@@ -622,7 +622,7 @@ Tables from Knave 2e.
 | 60 | {Personality} (p. 56) |
 | 61 | Plant-speech |
 | 62 | Poison-proof |
-| 63 | Power (p. 65) |
+| 63 | {Power} (p. 65) |
 | 64 | {Profession} (p. 57) |
 | 65 | Rage |
 | 66 | Sense danger |
@@ -939,7 +939,7 @@ Tables from Knave 2e.
 | 53 | Missing hand |
 | 54 | Missing leg |
 | 55 | Missing teeth |
-| 56 | Mutation (p. 30) |
+| 56 | {Mutation} (p. 30) |
 | 57 | Mute |
 | 58 | No eyebrows |
 | 59 | Noose scar |
@@ -1726,8 +1726,8 @@ Tables from Knave 2e.
 {{< rpg_table name="MonsterBlock" >}}
 | d100 | Monster Block |
 | --- | --------|
-| 1 | {MonsterTrait} {Monster}. {MonsterPower}. {Activity}. |
-| 2 | {MonsterTrait} {Monster}. {MonsterPower}. {Activity}. |
+| 1 | {MonsterTrait} {Monster}. {Power}. {Activity}. |
+| 2 | {MonsterTrait} {Monster}. {Power}. {Activity}. |
 {{< /rpg_table >}}
 
 {{< rpg_table name="Monster" hide_button="true" >}}
@@ -1896,7 +1896,7 @@ Tables from Knave 2e.
 | 56 | Mismatched limbs |
 | 57 | Molting |
 | 58 | Muscular |
-| 59 | Mutation (p. 30) |
+| 59 | {Mutation} (p. 30) |
 | 60 | No neck |
 | 61 | One eye |
 | 62 | Ooze-form |
@@ -1905,7 +1905,7 @@ Tables from Knave 2e.
 | 65 | Poisonous |
 | 66 | {Potion} (p. 35) |
 | 67 | Powdery |
-| 68 | Power (p. 65) |
+| 68 | {Power} (p. 65) |
 | 69 | Pulsing |
 | 70 | Radioactive |
 | 71 | Reflective |
@@ -1940,8 +1940,8 @@ Tables from Knave 2e.
 | 00 | Weakness (p. 67) |
 {{< /rpg_table >}}
 
-{{< rpg_table name="MonsterPower" hide_button="true" >}}
-| d100 | Monster Power |
+{{< rpg_table name="Power" hide_button="true" >}}
+| d100 | Power |
 | --- | --------|
 | 1 | Absorb abilities	|
 | 2 | Acid aura	|
@@ -2792,9 +2792,109 @@ Tables from Knave 2e.
 |00| Worshiping|
 {{< /rpg_table >}}
 
-{{< rpg_table name="TravelBlah" hide_button="true" >}}
+{{< rpg_table name="Mutation" hide_button="true" >}}
 | d100 | ? |
 | --- | --------|
+|1| Ages backwards  |
+|2| Ages faster	|
+|3| Animal body (p. 64) |
+|4| Animal ears (p. 64) |
+|5| Animal eyes (p. 64) |
+|6| Animal form (p. 64) |
+|7| Animal head (p. 64) |
+|8| Animal limb (p. 64) |
+|9| Animal scent (p. 64) |
+|10| Animal skin (p. 64) |
+|11| Animal tail (p. 64) |
+|12| Animal teeth (p. 64) |
+|13| Animal voice (p. 64) |
+|14| Antennae	|
+|15| Antlers	|
+|16| Arms grow	|
+|17| Bat wings	|
+|18| Beak	|
+|19| Bird wings	|
+|20| Bleeds acid	|
+|21| Chameleon eyes |
+|22| Claws	|
+|23| Color skin (p. 37)	|
+|24| Crystal growth	|
+|25| Drooling	|
+|26| Duck bill	|
+|27| Ears grow	|
+|28| {Element} blood (p. 29) |
+|29| {Element} body (p. 29) |
+|30| {Element} breath (p. 29) |
+|31| Emits fumes	|
+|32| Excretes ooze	|
+|33| Extra arms	|
+|34| Extra eyes	|
+|35| Extra fingers	|
+|36| Extra heads	|
+|37| Extra legs	|
+|38| Eye stalks	|
+|39| Eyes grow	|
+|40| Fangs	|
+|41| Feathers	|
+|42| Feet swell	|
+|43| Fins	|
+|44| Fly eyes	|
+|45| Fungal growth	|
+|46| Gain d20 inches  |
+|47| Gills	|
+|48| Hair growth	|
+|49| Hair loss	|
+|50| Hands swell |
+|51| Head swells|
+|52| Horns|
+|53| Invisible head|
+|54| Jelly arms|
+|55| Legs grow|
+|56| Long tongue|
+|57| Lose d20 inches|
+|58| {Mannerism} (p. 59)|
+|59| {MonsterTrait} (p. 65)|
+|60| No eyes|
+|61| No nose|
+|62| No teeth|
+|63| {NPCDetail} (p. 56)|
+|64| One arm|
+|65| One eye|
+|66| One leg|
+|67| Organ (p. 64)|
+|68| {Personality} (p. 56)|
+|69| Pig snout|
+|70| {Power} (p. 65)|
+|71| Rat tail|
+|72| Scales|
+|73| Scent (p. 66)|
+|74| Scorpion tail|
+|75| Shaggy fur|
+|76| Shell|
+|77| Skin boils|
+|78| Skin hardens|
+|79| Skin pattern|
+|80| Skin sags|
+|81| Skin shedding|
+|82| Smoke breath|
+|83| Snake hair|
+|84| Sound (p. 66)|
+|85| Spines|
+|86| Spinnerets|
+|87| Suction cups|
+|88| Sweats blood|
+|89| Tentacles|
+|90| Texture body (p. 36)|
+|91| Totally numb|
+|92| Translucent skin|
+|93| Transparent skin|
+|94| Tusks|
+|95| Two faces|
+|96| Warts|
+|97| Webbed hands|
+|98| Weight doubles|
+|99| Weight halves|
+|00| Wooly|
 {{< /rpg_table >}}
 
 {{< rpg_table name="TravelBlah" hide_button="true" >}}

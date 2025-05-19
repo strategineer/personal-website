@@ -11,7 +11,6 @@ Ideas for GMing FIST.
 
 # Mission Generation
 
-{{< rpg_multi_table Mission MissionPrompt Reward TheDossierSays IsTryingTo WhichWill But >}}
 
 {{< rpg_table name="TheDossierSays" hide_table=true >}}
 | The Dossier Says ... |

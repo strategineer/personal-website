@@ -5,15 +5,15 @@ blog/tags:
   - tabletop
 draft: true
 ---
-All of the tabletop RPG systems (and some modules) that I'm familiar with are gathering together today to party like it's 2025 and they've all brought something to the table (my brain).
+Most of the tabletop RPG systems (and some modules) that I'm familiar with are gathering together today to party like it's 2025 and they've all brought something to the table (my brain).
 
-In no particular order, here's a show and tell of mechanics that blew my mind from TTRPG systems that I've played and/or run in the past few years.
+In no particular order, here's a show and tell of the most interesting mechanics from TTRPG systems that I've played and/or run in the past few years.
 
 {{< book "maze_rats" >}}
 
 # Spark Tables
 
-In Maze Rats, after a long rest, PCs with one or more spell slots rolls on a series of three different tables to generate each spell's name, with the mechanics of the spell being determined by the GM based on the name.
+In Maze Rats, after a long rest, PCs with one or more spell slots roll on a series of three different tables to generate each spell's name, with the mechanics of the spell being determined by the GM based on the name.
 
 For example, rolling on the first table might produce an Ethereal Effect and Physical Element spell, two subsequent rolls on the relevant tables might result in a spell named "Bewildering Insect".
 

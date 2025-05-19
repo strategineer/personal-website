@@ -71,8 +71,6 @@ When players enter a room Dr. Stillman can make some comment to them.
 
 # 5. Tables
 
-{{< rpg_multi_table FullRoom Room Hazards BasicEnemies WildAnimals >}}
-
 {{< rpg_table name="Room" weighted=true hide_table=true >}}
 | 2d6+ | Room | Notes |
 | ---  | ---  | --- |
