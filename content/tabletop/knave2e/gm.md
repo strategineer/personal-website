@@ -9,6 +9,8 @@ Tables from Knave 2e.
 
 <!--more-->
 
+{{< toc >}}
+
 
 <!-- put bar between number and rest of text -->
 <!-- [^.]($| \d+)[^\n)] -->
@@ -249,7 +251,7 @@ Tables from Knave 2e.
 | 82 | Storm |
 | 83 | Strike |
 | 84 | {Structure} (p. 11) |
-| 85 | Symbol (p. 33) |
+| 85 | {Symbol} (p. 33) |
 | 86 | Tangle |
 | 87 | {Tool} (p. 39) |
 | 88 | Torrent |
@@ -395,10 +397,10 @@ Tables from Knave 2e.
 | 18 | Crystal |
 | 19 | Darkness |
 | 20 | Death |
-| 21 | Domain (p. 33) |
+| 21 | {Domain} (p. 33) |
 | 22 | Dream |
 | 23 | Dust |
-| 24 | Fabric (p. 41) |
+| 24 | {Fabric} (p. 41) |
 | 25 | Flame |
 | 26 | Flesh |
 | 27 | Foam |
@@ -568,8 +570,8 @@ Tables from Knave 2e.
 | 86 | Subtle |
 | 87 | Superior |
 | 88 | Supreme |
-| 89 | Taste (p. 36) |
-| 90 | Texture (p. 36) |
+| 89 | {Taste} (p. 36) |
+| 90 | {Texture} (p. 36) |
 | 91 | True |
 | 92 | Uncanny |
 | 93 | Unfathomable |
@@ -713,7 +715,7 @@ Tables from Knave 2e.
 | 19 | {Delusion} (p. 30)	|
 | 20 | {Effect} (p. 28)	|
 | 21 | Elasticity	|
-| 22 | {{Element}} form (p. 29) |
+| 22 | {Element} form (p. 29) |
 | 23 | Extra arms	|
 | 24 | False death	|
 | 25 | Fear	|
@@ -2070,7 +2072,7 @@ Tables from Knave 2e.
 | 89 | Stone-like |
 | 90 | Stretchy |
 | 91 | {Tactic} (p. 67) |
-| 92 | Texture (p. 36) |
+| 92 | {Texture} (p. 36) |
 | 93 | Tiny |
 | 94 | Translucent |
 | 95 | Tree-like |
@@ -2215,9 +2217,9 @@ Tables from Knave 2e.
 | 24 | Dust devil	|
 | 25 | Dust storm	|
 | 26 | Earthquake	|
-| 27 | Effect rain (p. 28)	|
+| 27 | {Effect} rain (p. 28)	|
 | 28 | Electric storms	|
-| 29 | Element rain (p. 29) |
+| 29 | {Element} rain (p. 29) |
 | 30 | Fire whirls	|
 | 31 | Fireflies	|
 | 32 | Firestorms	|
@@ -2277,8 +2279,8 @@ Tables from Knave 2e.
 | 86 | Strong winds |
 | 87 | Sulfur clouds |
 | 88 | Swamp lights |
-| 89 | Taste rain (p. 36) |
-| 90 | Texture rain (p. 36) |
+| 89 | {Taste} rain (p. 36) |
+| 90 | {Texture} rain (p. 36) |
 | 91 | Thunderstorms |
 | 92 | Tornado |
 | 93 | Tremors |
@@ -2322,7 +2324,7 @@ Tables from Knave 2e.
 |24 | Dam	|
 |25 | Dirt road	|
 |26 | Dolmen	|
-|27 | Dungeon (p. 16)	|
+|27 | {Dungeon} (p. 16)	|
 |28 | Farm	|
 |29 | Ferry	|
 |30 | Festival	|
@@ -2343,7 +2345,7 @@ Tables from Knave 2e.
 |45 | Highway	|
 |46 | Hunter's camp	|
 |47 | Hunting lodge	|
-|48 | Inn (p. 48)	|
+|48 | {Inn} (inn) (p. 48)	|
 |49 | Keep	|
 |50 | Library	|
 |51 | Lighthouse |
@@ -2369,7 +2371,7 @@ Tables from Knave 2e.
 |71 | Pyramid |
 |72 | Refugee camp |
 |73 | Road |
-|74 | Room (p. 14) |
+|74 | {Room} (p. 14) |
 |75 | Ruin |
 |76 | Shepherd hut |
 |77 | Shrine |
@@ -2468,7 +2470,7 @@ Tables from Knave 2e.
 |65 | Ravenous|
 |66 | Restless|
 |67 | Revered|
-|68 | Room theme (p. 15)|
+|68 | {RoomTheme} (p. 15)|
 |69 | Savage|
 |70 | Scorching|
 |71 | Screaming|
@@ -2488,7 +2490,7 @@ Tables from Knave 2e.
 |85 | Swarming|
 |86 | Sweltering|
 |87 | Terrifying|
-|88 | Texture (p. 36)|
+|88 | {Texture} (p. 36)|
 |89 | Thorny|
 |90 | Thundering|
 |91 | Twisting|
@@ -2545,7 +2547,7 @@ Tables from Knave 2e.
 |33 | Dining room	|
 |34 | Divination room |
 |35 | Dormitory	|
-|36 | Dungeon (p. 16)	|
+|36 | {Dungeon} (p. 16)	|
 |37 | Dressing room	|
 |38 | Embalming room |
 |39 | Fighting pit	|
@@ -2625,7 +2627,7 @@ Tables from Knave 2e.
 |8| Bath	|
 |9| Bed	|
 |10| Bones	|
-|11| Book (p. 40)	|
+|11| {Book} (book) (p. 40)	|
 |12| Brazier	|
 |13| Broken glass	|
 |14| Cabinet	|
@@ -2653,7 +2655,7 @@ Tables from Knave 2e.
 |36| Display case	|
 |37| Dumbwaiter	|
 |38| Elevator	|
-|39| Fabric (p. 41)	|
+|39| {Fabric} (p. 41)	|
 |40| Fireplace	|
 |41| Flowing water	|
 |42| {Food} (p. 49)	|
@@ -2700,7 +2702,7 @@ Tables from Knave 2e.
 |83| Statues |
 |84| Stove |
 |85| {StreetDetail} (p. 47) |
-|86| Symbol (p. 33) |
+|86| {Symbol} (p. 33) |
 |87| Table |
 |88| Tapestry |
 |89| Thick dust |
@@ -2725,7 +2727,7 @@ Tables from Knave 2e.
 |3 | Blindness	|
 |4 | Blood	|
 |5 | Bones	|
-|6 | Book (p. 40)	|
+|6 | {Book} (p. 40)	|
 |7 | Brains	|
 |8 | Chaos	|
 |9 | {CityTheme} (p. 46) |
@@ -2742,7 +2744,7 @@ Tables from Knave 2e.
 |20 | Decay	|
 |21 | Disease	|
 |22 | Divination	|
-|23 | Domain (p. 33)	|
+|23 | {Domain} (p. 33)	|
 |24 | Dragons	|
 |25 | Drowning	|
 |26 | Eyes	|
@@ -2873,7 +2875,7 @@ Tables from Knave 2e.
 |46| Foraging	|
 |47| Fortifying	|
 |48| Gambling	|
-|49| Goal (p. 57)	|
+|49| {Goal} (p. 57)	|
 |50| Guarding	|
 |51| Harvesting|
 |52| Hauling|
@@ -3019,7 +3021,7 @@ Tables from Knave 2e.
 |87| Suction cups|
 |88| Sweats blood|
 |89| Tentacles|
-|90| Texture body (p. 36)|
+|90| {Texture} body (p. 36)|
 |91| Totally numb|
 |92| Translucent skin|
 |93| Transparent skin|
@@ -3123,7 +3125,7 @@ Tables from Knave 2e.
 |86| Stinky cheese|
 |87| Sulfur|
 |88| Sweat|
-|89| Taste (p. 36)|
+|89| {Taste} (p. 36)|
 |90| Tea|
 |91| Thyme|
 |92| Tobacco|
@@ -3438,7 +3440,7 @@ Tables from Knave 2e.
 |86| Spine|
 |87| Starlight|
 |88| Sunlight|
-|89| Symbol (p. 33)|
+|89| {Symbol} (p. 33)|
 |90| {Tactic} (p. 67)|
 |91| Tears|
 |92| Thunder|
@@ -3482,7 +3484,7 @@ Tables from Knave 2e.
 |25| Eggs	|
 |26| Eggshells	|
 |27| {Element} trail (p. 29) |
-|28| Fabric scrap (p. 41) |
+|28| {Fabric} scrap (p. 41) |
 |29| Fallen trees	|
 |30| Feathers	|
 |31| Fighting sounds  |
@@ -3846,7 +3848,7 @@ Tables from Knave 2e.
 |72| Palace|
 |73| Prison|
 |74| Race track|
-|75| Room (p. 14)|
+|75| {Room} (p. 14)|
 |76| Sanctum|
 |77| Sculpture gallery|
 |78| Sewer|
@@ -3855,7 +3857,7 @@ Tables from Knave 2e.
 |81| Slaughterhouse|
 |82| Stable|
 |83| Stronghold|
-|84| Structure (p. 11)|
+|84| {Structure} (p. 11)|
 |85| Summoning site|
 |86| Temple|
 |87| Testing ground|
@@ -4217,7 +4219,7 @@ Tables from Knave 2e.
 |23| Famous	|
 |24| Fears birds	|
 |25| Fears blood	|
-|26| Fears {Domain}} (p. 33)  |
+|26| Fears {Domain} (p. 33)  |
 |27| Fears fire	|
 |28| Fears gold	|
 |29| Fears iron	|
@@ -4246,7 +4248,7 @@ Tables from Knave 2e.
 |52| Invisible servant|
 |53| Invulnerable|
 |54| Language switch|
-|55| Liability (p. 58)|
+|55| {Liability} (p. 58)|
 |56| {Mannerism} (p. 59)|
 |57| Medium|
 |58| Mind controlled|
@@ -4276,7 +4278,7 @@ Tables from Knave 2e.
 |82| Sees dead people|
 |83| Shapeshifter|
 |84| Silent|
-|85| Skin texture (p. 36)|
+|85| Skin {Texture} (p. 36)|
 |86| {Sound} (p. 66)|
 |87| Spy|
 |88| Super strength|
@@ -4313,7 +4315,7 @@ Tables from Knave 2e.
 |14 |City appears	|
 |15 |City changes	|
 |16 |Deadly fog	|
-|17 |Delusion (p. 30)	|
+|17 |{Delusion} (p. 30)	|
 |18 |Demon invasion |
 |19 |Doors lock	|
 |20 |Dragon wakes	|
@@ -4321,8 +4323,8 @@ Tables from Knave 2e.
 |22 |Drought	|
 |23 |Earth to sand	|
 |24 |Earthquake	|
-|25 |Effect rain (p. 28)	|
-|26 |Element rain (p. 29) |
+|25 |{Effect} rain (p. 28)	|
+|26 |{Element} rain (p. 29) |
 |27 |Endless day	|
 |28 |Endless night	|
 |29 |Endless rain	|
@@ -4362,7 +4364,7 @@ Tables from Knave 2e.
 |63 |Meteor strike|
 |64 |Mirages|
 |65 |Mirrors speak|
-|66 |Mutation (p. 30)|
+|66 |{Mutation} (p. 30)|
 |67 |No stars|
 |68 |Objects animate|
 |69 |Outsider enters|
@@ -4385,7 +4387,7 @@ Tables from Knave 2e.
 |86 |Space distorts|
 |87 |Stone to flesh|
 |88 |Stones speak|
-|89 |Texture rain (p. 36)|
+|89 |{Texture} rain (p. 36)|
 |90 |Time loop|
 |91 |Time slows|
 |92 |Time warp|
@@ -4426,7 +4428,7 @@ Tables from Knave 2e.
 |22| Desert	|
 |23| Destruction	|
 |24| Divination	|
-|25| Domain (p. 33)	|
+|25| {Domain} (p. 33)	|
 |26| Dragons	|
 |27| Dreams	|
 |28| Earth	|
@@ -4517,7 +4519,7 @@ Tables from Knave 2e.
 |8| Blades	|
 |9| Blood	|
 |10| Blossoms	|
-|11| Book (p. 40)	|
+|11| {Book} (p. 40)	|
 |12| Clay	|
 |13| Clouds	|
 |14| Commerce	|
@@ -5039,7 +5041,7 @@ Tables from Knave 2e.
 |5| Bitumen	|
 |6| Black pearl	|
 |7| Blind eye	|
-|8| Book (p. 40)	|
+|8| {Book} (p. 40)	|
 |9| Brimstone	|
 |10| Camphor	|
 |11| Celandine	|
@@ -5247,7 +5249,7 @@ Tables from Knave 2e.
 |1| Amulet	|
 |2| Arrowhead	|
 |3| Birdcage	|
-|4| Book (p. 40)	|
+|4| {Book} (p. 40)	|
 |5| Bowl	|
 |6| Box	|
 |7| Brooch	|
@@ -5265,7 +5267,7 @@ Tables from Knave 2e.
 |19| Drum	|
 |20| Egg	|
 |21| Embroidery	|
-|22| Fabric (p. 41)	|
+|22| {Fabric} (p. 41)	|
 |23| Feather	|
 |24| Figurine	|
 |25| Finger bone	|
@@ -5313,7 +5315,7 @@ Tables from Knave 2e.
 |67| Poem|
 |68| Portrait|
 |69| {Potion} (p. 35)|
-|70| Potion recipe|
+|70| {Potion} recipe (p. 35)|
 |71| Prayer|
 |72| Pressed flower|
 |73| Purse|
@@ -5420,7 +5422,7 @@ Tables from Knave 2e.
 |69| Painting|
 |70| Planar studies|
 |71| Politics|
-|72| Potion recipe (p. 35)|
+|72| {Potion} recipe (p. 35)|
 |73| Prayers|
 |74| {Profession} (p. 57)|
 |75| Propaganda|
@@ -5835,7 +5837,7 @@ Tables from Knave 2e.
 |64| Printing block|
 |65| Rare coin|
 |66| Relic|
-|67| Reward (p. 51)|
+|67| {Reward} (p. 51)|
 |68| Ring|
 |69| Royal robes|
 |70| Scabbard|
@@ -6220,8 +6222,8 @@ Tables from Knave 2e.
 |29| Dueling	|
 |30| {Dungeon} (p. 16)	|
 |31| {Element} (p. 29)	|
-|32| Faction (p. 50)	|
-|33| Faction trait (p. 50) |
+|32| {Faction} (p. 50)	|
+|33| {FactionTrait} (p. 50) |
 |34| Fashion	|
 |35| Festivals	|
 |36| Feuds	|
@@ -6399,7 +6401,7 @@ Tables from Knave 2e.
 {{< rpg_table name="StreetDetail" hide_button="true" >}}
 | d100 | ? |
 | --- | --------|
-|1| Activity (p. 19)	|
+|1| {Activity} (p. 19)	|
 |2| {Animal} (many) (p. 64)	|
 |3| Aqueduct	|
 |4| Arcade	|
@@ -6444,7 +6446,7 @@ Tables from Knave 2e.
 |43| Gravel	|
 |44| Guards	|
 |45| Hay bales	|
-|46| Hazard (p. 17)	|
+|46| {Hazard} (p. 17)	|
 |47| Hot coals	|
 |48| Ladders	|
 |49| Lampposts	|
@@ -6452,7 +6454,7 @@ Tables from Knave 2e.
 |51| Livestock|
 |52| Long steps|
 |53| Manure pile|
-|54| Misc. items (p. 39)|
+|54| {MiscItems} (many) (p. 39)|
 |55| Mud|
 |56| Narrow|
 |57| Nobility|
@@ -6461,13 +6463,13 @@ Tables from Knave 2e.
 |60| Palanquins|
 |61| Pickpockets|
 |62| Piles of rags|
-|63| Place trait (p. 11)|
+|63| {PlaceTrait} (p. 11)|
 |64| Pollen clouds|
 |65| Pool|
 |66| Posters|
-|67| Profession (p. 57)|
+|67| {Profession} (p. 57)|
 |68| Roof access|
-|69| Room detail (p. 15)|
+|69| {RoomDetail} (p. 15)|
 |70| Roots|
 |71| Ropes|
 |72| Roundabout|
@@ -6994,7 +6996,7 @@ Tables from Knave 2e.
 |55| Lime|
 |56| Lobster|
 |57| Moose|
-|58| Monster (p. 61)|
+|58| {Monster} (p. 61)|
 |59| Mushroom|
 |60| Mussels|
 |61| Mutton|
@@ -7298,7 +7300,7 @@ Tables from Knave 2e.
 |37| Forge weapon	|
 |38| Frame NPC	|
 |39| Frighten NPC	|
-|40| Goal (p. 57)	|
+|40| {Goal} (p. 57)	|
 |41| Haunt NPC	|
 |42| Hide item	|
 |43| Hide NPC	|
@@ -7430,7 +7432,7 @@ Tables from Knave 2e.
 |63| Pardon|
 |64| Planar portal|
 |65| Political clout|
-|66| Potion (p. 35)|
+|66| {Potion} (p. 35)|
 |67| Printing press|
 |68| Reduced sentence|
 |69| Location map|
@@ -7656,7 +7658,7 @@ Tables from Knave 2e.
 |79| Seizures|
 |80| Senile|
 |81| Softhearted|
-|82| Sound (p. 66)|
+|82| {Sound} (p. 66)|
 |83| Strict routines|
 |84| Stupid|
 |85| Superstitious|
