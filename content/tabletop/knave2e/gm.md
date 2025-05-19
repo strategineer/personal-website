@@ -54,7 +54,7 @@ Tables from Knave 2e.
 {{< rpg_table_button name="MagicItem" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}. Domains: {Domain}, {Domain}. Symbol: {Symbol}." >}}
 
 {{< rpg_table name="Item">}}
-| d100 | Archetype |
+| d100 | Item |
 | --- | --------|
 | 1 | {Fabric} {Clothing} |
 | 2 | {Weapon} |
@@ -73,6 +73,13 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
 
+{{< rpg_table_button name="FoodBlock" expr="{FoodTrait} {Food}" >}}
+
+{{< rpg_table name="FactionBlock" >}}
+| Faction Block |
+| --------|
+|"{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}."|
+{{< /rpg_table >}}
 
 # Careers
 
@@ -182,6 +189,31 @@ Tables from Knave 2e.
 {{< /rpg_table >}}
 
 # Traveling
+
+{{< rpg_table name="TravelHazardDie" >}}
+| d6 | Travel Hazard |
+| --- | --------|
+|1| encounter: The party has a random encounter.|
+|2| fatigue: Each party member takes 1 damage unless they spend the next watch resting. Ignore while resting.|
+|3| depletion: Roll a d6 for each perishable item. On a 1 it has gone bad.|
+|4| travel shift: The weather changes.|
+|5| sign: PCs find a sign of a nearby encounter or a clue to a secret.|
+|6| free: No effect.|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Weather" >}}
+| 1-3 | Thunderstorm, blizzard in winter |
+| 4-8 | Heavy rain, heavy snow in winter |
+| 9-17 | Cold for the season |
+| 18-28 | Light rain, snow in winter |
+| 29-42 | Cool for the season |
+| 43-58 | Mild for the season |
+| 59-72 | Warm for the season |
+| 73-83 | Windy |
+| 84-92 | Hot for the season |
+| 93-97 | Strong winds |
+| 98-00 | Hail in spring, humidity in summer, fog in fall, frost in winter |
+{{< /rpg_table >}}
 
 {{< rpg_table name="TravelShift" >}}
 | d100 | Travel Shift |
@@ -710,7 +742,7 @@ Tables from Knave 2e.
 
 # Delving
 
-{{< rpg_table name="DungeonHazard" >}}
+{{< rpg_table name="DungeonHazardDie" >}}
 | d6 | NPC |
 | --- | --------|
 |1| encounter: The party has an encounter, usually rolled from a table designed for the dungeon. The GM determines the encounter’s reaction, activity, distance from the party, and if they are surprised (p. 19).|
@@ -1563,6 +1595,22 @@ Tables from Knave 2e.
 
 # Encounters
 
+{{< rpg_table name="NpcReaction" >}}
+| d100 | NPC Reaction |
+| --- | -------- |
+| 1-3 | Kill the PCs |
+| 4-8 | Injure or capture the PCs |
+| 9-17 | Harass or rob the PCs |
+| 18-28 | Insult, threaten, or command the PCs |
+| 29-42 | Avoid the PCs |
+| 43-58 | Ignore the PCs |
+| 59-72 | Follow or observe the PCs |
+| 73-83 | Greet or question the PCs |
+| 84-92 | Share information with the PCs |
+| 93-97 | Perform minor favors the PCs |
+| 98-00 | Ask to join the PCs’ party |
+{{< /rpg_table >}}
+
 {{< rpg_table name="Activity" >}}
 | d100 | Activity |
 | --- | --------|
@@ -1667,7 +1715,6 @@ Tables from Knave 2e.
 |99| Traveling|
 |00| Worshiping|
 {{< /rpg_table >}}
-
 
 # Spellcasting
 
@@ -3375,6 +3422,24 @@ Tables from Knave 2e.
 
 # Equipment
 
+{{< rpg_table name="CostOfLiving" >}}
+cost of living (per month)
+| d12 | ? |
+| --- | --------|
+| 1 | destitute: Beggars, Outlaws (90c). |
+| 2 | poor: Servants, Laborers, Sailors, |
+| 3 | Farmers, Soldiers (300c). |
+| 4 | humble: Innkeepers, Bakers, Craftsmen, |
+| 5 | Scribes, Priests, Mercenaries (600c). |
+| 6 | respectable: Physicians, Merchants, |
+| 7 | Lawyers, Master Craftsmen (1200c). |
+| 8 | wealthy: Courtiers, Knights, Rich |
+| 9 | Merchants, Bishops, Gentry (3000c). |
+| 10 | minor noble: Barons, Counts (12,000c). |
+| 11 | major noble: Dukes, Princes (60,000c). |
+| 12 | royal: Kings, Emperors (600,000c). |
+{{< /rpg_table >}}
+
 {{< rpg_table name="Tool" >}}
 | d100 | ? |
 | --- | --------|
@@ -3621,7 +3686,7 @@ Tables from Knave 2e.
 |31| Espionage	|
 |32| Ethics	|
 |33| Etiquette	|
-|34| {FactionType} (p. 50)	|
+|34| {Faction} (p. 50)	|
 |35| Fashion	|
 |36| Finance	|
 |37| Fishing	|
@@ -5087,11 +5152,6 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |00| Worm|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Food" >}}
-| ? |
-| --------|
-| {FoodTrait} {FoodType} |
-{{< /rpg_table >}}
 
 {{< rpg_table name="FoodTrait" >}}
 | d100 | ? |
@@ -5198,7 +5258,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |00| Wrapped|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FoodType" >}}
+{{< rpg_table name="Food" >}}
 | d100 | ? |
 | --- | --------|
 |1| Acorn	|
@@ -5305,12 +5365,6 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 
 {{< rpg_table name="Faction" >}}
-| ? |
-| --------|
-| {FactionTrait} and {FactionTrait} {FactionType}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}. |
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionType" >}}
 | d100 | ? |
 | --- | --------|
 |1| Actors' guild	|
@@ -5658,7 +5712,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |26| Endorsement	|
 |27| Estate	|
 |28| Expert	|
-|29| {FactionType} ally (p. 50) |
+|29| {Faction} ally (p. 50) |
 |30| Familiar	|
 |31| Farm	|
 |32| Favor	|
@@ -5730,6 +5784,41 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |98| Wealthy clothing|
 |99| {Weakness} (p. 67)|
 |00| {Weapon} (p. 43)|
+{{< /rpg_table >}}
+
+# Downtime
+
+{{< rpg_table name="CarousingMishap" >}}
+| d20 | Carousing Mishaps |
+| --- | ----------------- |
+|1| You made a public fool of yourself. |
+|2| Take d3 direct damage from a fight. |
+|3| Pay d100c due to fines. |
+|4| You are engaged to be married. |
+|5| Lose d1000c from gambling. |
+|6| Groupies follow you everywhere. |
+|7| You’ve made an enemy. |
+|8| You have an ugly, prominent tattoo. |
+|9| Hangover: take -5 on all tests today. |
+|10| You have joined a local faction (p. 50)<br> (Faction? {FactionBlock}) |
+|11| Robbed: Lose all remaining coin. |
+|12| You wake up in prison. |
+|13| The building is on fire! |
+|14| You’re expected to complete a mission (p. 51) due to your boasts. (Mission? {Mission}) |
+|15| A duel is scheduled for the next dawn. |
+|16| You signed a shady contract. |
+|17| A stranger’s corpse is on the floor. |
+|18| A faction hates you (p. 50)<br>(Faction? {FactionBlock}) |
+|19| All your belongings have been stolen. |
+|20| You meet a new companion who wants to join your party. |
+{{< /rpg_table >}}
+
+{{< rpg_table name="CareerType" >}}
+| d3 | CareerType |
+| --- | ----------------- |
+| 1 | common: Requires 1 month and 1000c (carpenter, hunter, fisherman, sailor, dyer, gardener, blacksmith, etc.).|
+| 2 | uncommon careers: Requires 3 months and 5000c to attempt related tasks and an additional 3 months and 5000c to gain a +5 to related non-combat checks (burglar, acrobat, locksmith, grave robber, herbalist, tattooist, prospector, etc.).|
+| 3 | rare careers: Requires 1 year and 30,000c to attempt related tasks and an additional year and 30,000c to gain a +5 to related non-combat checks (alchemist, lawyer, assassin, sculptor, folklorist, etc.).|
 {{< /rpg_table >}}
 
 # Recruiting
