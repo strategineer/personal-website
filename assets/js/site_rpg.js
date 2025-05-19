@@ -4,6 +4,7 @@
 // http://creativecommons.org/publicdomain/zero/1.0/
 
 let gen_data = {};
+let gen_debug = false;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // generator function
@@ -13,7 +14,11 @@ function generate_text(type) {
   if ((list = gen_data[type])) {
     let string;
     if ((string = select_from(list))) {
-      return expand_tokens(string).trim();
+      if (gen_debug) {
+        return "[" + type + ":" + expand_tokens(string).trim() + "]";
+      } else {
+        return expand_tokens(string).trim();
+      }
     }
   }
   return "";

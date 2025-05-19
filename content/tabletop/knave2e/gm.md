@@ -5,15 +5,27 @@ no_search: true
 is_tabletop: true
 ---
 
-Tables from Knave 2e.
+One-click Rollable Tables, including my own composite rolls for generating spells and traps, using the tables provided in Knave 2e.
 
 <!--more-->
 
+"Knave 2e" (https://questingblog.com/knave/) by Ben Milton is licensed under the following license:
+
+> Creative Commons Attribution 4.0 International License: You are free to share and adapt this material for any purpose, including commercially, as long as you give attribution.
+
+
 {{< toc >}}
 
+# Notes
 
-<!-- put bar between number and rest of text -->
-<!-- [^.]($| \d+)[^\n)] -->
+The [following button](#debug-button) can be used to toggle between showing/hiding which tables each of the rolled results came from. This is especially useful if you're curious to see where all the pieces came from in my composite tables/rolls.
+
+For now, the ordering of the tables follows their ordering in the Knave 2e rule book. The organisation of my composite tables is very WIP but I'm planning on moving them around based on whether they'd be useful during play or prep or both, etc.
+
+
+# Debug Button
+
+{{< rpg_table_inspect_toggle >}}
 
 # Composite tables
 
@@ -22,9 +34,9 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="StructureBlock" expr="{PlaceTrait} {Structure}" >}}
 
-{{< rpg_table_button name="RoomBlock" expr="Room: {Room}. {RoomStyle}. {RoomTheme}. {RoomDetail}." >}}
+{{< rpg_table_button name="RoomBlock" expr="{Room}. {RoomStyle}. {RoomTheme}. {RoomDetail}." >}}
 
-{{< rpg_table_button name="Trap" expr="Trap: {TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
+{{< rpg_table_button name="Trap" expr="{TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
 
 {{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {Spell}" >}}
 

@@ -1,0 +1,8 @@
+  <script type="text/javascript">
+    function toggleInspect() {
+      gen_debug = !gen_debug;
+      let debug_text = gen_debug ? "Hide Table Sources" : "Inspect Table Sources"
+      document.getElementById("InspectToggle").innerHTML = debug_text;
+  }
+  </script>
+  <button id="InspectToggle" onclick="toggleInspect()">Inspect Table Sources</button>
