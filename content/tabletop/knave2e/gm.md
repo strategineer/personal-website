@@ -38,6 +38,27 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="SpellScroll" expr="Scroll of {Spell}" >}}
 
+{{< rpg_table_button name="Potion" expr="Potion of {PotionEffect}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+
+{{< rpg_table name="Name" >}}
+| d2 | NPC |
+| --- | --------|
+| 1 | {MaleName} {SurnameStart}{SurnameEnd} |
+| 2 | {FemaleName} {SurnameStart}{SurnameEnd} |
+{{< /rpg_table >}}
+
+{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
+
+{{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
+
+{{< rpg_table_button name="MagicItem" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}. Domains: {Domain}, {Domain}. Symbol: {Symbol}." >}}
+
+{{< rpg_table name="Item">}}
+| d100 | Archetype |
+| --- | --------|
+| 1 | {Fabric} {Clothing} |
+| 2 | {Weapon} |
+{{< /rpg_table >}}
 
 # Careers
 
@@ -1653,109 +1674,215 @@ Tables from Knave 2e.
 | 12 | {WizardName}’s {Quality} {Effect} |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Form" >}}
-| d100 | Form |
+
+{{< rpg_table name="WizardName" >}}
+| d100 | Wizard Name |
 | ---- | --------|
-| 1 | {Animal} (p. 6 ) |
-| 2 | Arc |
-| 3 | Archer |
-| 4 | Armor |
-| 5 | Arrow |
-| 6 | Aura |
-| 7 | Avalanche |
-| 8 | Axe |
-| 9 | Beacon |
-| 10 | Beam |
-| 11 | Beast |
-| 12 | Blade |
-| 13 | Blast |
-| 14 | Blob |
-| 15 | Bolt |
-| 16 | Bubble |
-| 17 | Cage |
-| 18 | Carriage |
-| 19 | Chain |
-| 20 | Chariot |
-| 21 | Circle |
-| 22 | Cloak |
-| 23 | {Clothing} (p. 40) |
-| 24 | Cloud |
-| 25 | Coil |
-| 26 | Colossus |
-| 27 | Column |
-| 28 | Cone |
-| 29 | Crown |
-| 30 | Cube |
-| 31 | Disk |
-| 32 | Dragon |
-| 33 | Eye |
-| 34 | Fang |
-| 35 | Finger |
-| 36 | Fissure |
-| 37 | Fist |
-| 38 | Flood |
-| 39 | Fly |
-| 40 | Fountain |
-| 41 | Gate |
-| 42 | Gaze |
-| 43 | Geyser |
-| 44 | Gloves |
-| 45 | Guardian |
-| 46 | Hammer |
-| 47 | Hand |
-| 48 | Hawk |
-| 49 | Horn |
-| 50 | Hound |
-| 51 | Key |
-| 52 | Knife |
-| 53 | Knight |
-| 54 | Mask |
-| 55 | {Mechanism} (p. 17) |
-| 56 | {MiscItem} (p. 39) |
-| 57 | Monolith |
-| 58 | {Monster} (p. 61) |
-| 59 | Mouth |
-| 60 | {Organ} (p. 64) |
-| 61 | Path |
-| 62 | Pit |
-| 63 | Pool |
-| 64 | Pulse |
-| 65 | Pyramid |
-| 66 | Ray |
-| 67 | Rune |
-| 68 | Sanctuary |
-| 69 | Serpent |
-| 70 | Servant |
-| 71 | Shield |
-| 72 | Skeleton |
-| 73 | Skin |
-| 74 | Song |
-| 75 | Spear |
-| 76 | Sphere |
-| 77 | Spider |
-| 78 | Spike |
-| 79 | Spray |
-| 80 | Staff |
-| 81 | Steed |
-| 82 | Storm |
-| 83 | Strike |
-| 84 | {Structure} (p. 11) |
-| 85 | {Symbol} (p. 33) |
-| 86 | Tangle |
-| 87 | {Tool} (p. 39) |
-| 88 | Torrent |
-| 89 | Touch |
-| 90 | Tree |
-| 91 | Tunnel |
-| 92 | Vortex |
-| 93 | Wall |
-| 94 | Wave |
-| 95 | {Weapon} (p. 43) |
-| 96 | Web |
-| 97 | Wheel |
-| 98 | Whip |
-| 99 | Word |
-| 00 | Zone |
+| 1 | Abrogast |
+| 2 | Angvar |
+| 3 | Armolok |
+| 4 | Asterwin |
+| 5 | Azerphon |
+| 6 | Barbaloff |
+| 7 | Boglin |
+| 8 | Borgarot |
+| 9 | Byzby |
+| 10 | Candula |
+| 11 | Chalgot |
+| 12 | Cronibal |
+| 13 | Cydinax |
+| 14 | Darj |
+| 15 | Dormog |
+| 16 | Dregwith |
+| 17 | Dulzant |
+| 18 | Elmeer |
+| 19 | Eofast |
+| 20 | Evthalon |
+| 21 | Felonse |
+| 22 | Fenundor |
+| 23 | Folgun |
+| 24 | Gelonvir |
+| 25 | Garzant |
+| 26 | Gathifex |
+| 27 | Gilux |
+| 28 | Gyodo |
+| 29 | Hashman |
+| 30 | Helkhal |
+| 31 | Hetemtul |
+| 32 | Hoonai |
+| 33 | Ifit |
+| 34 | Ildefad |
+| 35 | Imzirian |
+| 36 | Irolo |
+| 37 | Jorkhal |
+| 38 | Jorphdan |
+| 39 | Kaldash |
+| 40 | Karneblin |
+| 41 | Kirtep |
+| 42 | Kisdal |
+| 43 | Krolgo |
+| 44 | Leodelf |
+| 45 | Lexikrin |
+| 46 | Lestin |
+| 47 | Lomard |
+| 48 | Majdin |
+| 49 | Mazifant |
+| 50 | Melkash |
+| 51 | Mizisto |
+| 52 | Mordandred |
+| 53 | Nazmok |
+| 54 | Nobtrik |
+| 55 | Nothry |
+| 56 | Noonund |
+| 57 | Nizmo |
+| 58 | Obrigal |
+| 59 | Ornoza |
+| 60 | Osrat |
+| 61 | Otilix |
+| 62 | Pandelo |
+| 63 | Panderbal |
+| 64 | Perdeo |
+| 65 | Pevin |
+| 66 | Quartat |
+| 67 | Quasmir |
+| 68 | Quilian |
+| 69 | Quinfan |
+| 70 | Redrak |
+| 71 | Roshmor |
+| 72 | Rudishan |
+| 73 | Rumalto |
+| 74 | Sekeen |
+| 75 | Sivinez |
+| 76 | Snilimar |
+| 77 | Sofnu |
+| 78 | {Surname} (p. 55) |
+| 79 | Tasham |
+| 80 | Tchamukal |
+| 81 | Tenat |
+| 82 | Turminster |
+| 83 | Ukanel |
+| 84 | Umbalem |
+| 85 | Uneni |
+| 86 | Urokar |
+| 87 | Vanceus |
+| 88 | Vermulsin |
+| 89 | Voriel |
+| 90 | Wallester |
+| 91 | Wenton |
+| 92 | Wiltrik |
+| 93 | Xedu |
+| 94 | Xepheran |
+| 95 | Xolark |
+| 96 | Yamorthrax |
+| 97 | Yandant |
+| 98 | Zanuptra |
+| 99 | Zarugaz |
+| 00 | Zilik |
+{{< /rpg_table >}}
+
+{{< rpg_table name="Quality" >}}
+| d100 | Quality |
+| ---- | --------|
+| 1 | Abnormal |
+| 2 | Abominable |
+| 3 | Advanced |
+| 4 | Ancestral |
+| 5 | Ancient |
+| 6 | Arcane |
+| 7 | Artful |
+| 8 | Baleful |
+| 9 | Bizarre |
+| 10 | Canonical |
+| 11 | Celestial |
+| 12 | Cerebral |
+| 13 | Chaotic |
+| 14 | {Color} (p. 37) |
+| 15 | Cosmic |
+| 16 | Crafty |
+| 17 | Cryptic |
+| 18 | Curious |
+| 19 | Detestable |
+| 20 | Dismal |
+| 21 | Dreadful |
+| 22 | Elder |
+| 23 | Eldritch |
+| 24 | Enigmatic |
+| 25 | Esoteric |
+| 26 | Excellent |
+| 27 | Exquisite |
+| 28 | Extraordinary |
+| 29 | Fantastic |
+| 30 | Fey |
+| 31 | Foul |
+| 32 | Galactic |
+| 33 | Ghastly |
+| 34 | Grand |
+| 35 | Grim |
+| 36 | Grotesque |
+| 37 | Hateful |
+| 38 | Hideous |
+| 39 | Horrible |
+| 40 | Incomparable |
+| 41 | Incomprehensible |
+| 42 | Inexplicable |
+| 43 | Infernal |
+| 44 | Ingenious |
+| 45 | Inscrutable |
+| 46 | Insidious |
+| 47 | Iridescent |
+| 48 | Jocular |
+| 49 | Lawful |
+| 50 | Legendary |
+| 51 | Loathsome |
+| 52 | Magnificent |
+| 53 | Majestic |
+| 54 | Marvelous |
+| 55 | Masterful |
+| 56 | Miraculous |
+| 57 | Mysterious |
+| 58 | Noetic |
+| 59 | Noxious |
+| 60 | Odious |
+| 61 | Ominous |
+| 62 | Original |
+| 63 | Orthodox |
+| 64 | Ostentatious |
+| 65 | Otherworldly |
+| 66 | Peculiar |
+| 67 | Pernicious |
+| 68 | Phenomenal |
+| 69 | {PlaceTrait} (p. 11) |
+| 70 | Planar |
+| 71 | Planetary |
+| 72 | Preeminent |
+| 73 | Primal |
+| 74 | Primeval |
+| 75 | Primordial |
+| 76 | Prodigious |
+| 77 | Psychedelic |
+| 78 | Remarkable |
+| 79 | Resplendent |
+| 80 | Royal |
+| 81 | Sacred |
+| 82 | {Scent} (p. 66) |
+| 83 | Sinister |
+| 84 | {Sound} (p. 66) |
+| 85 | Splendid |
+| 86 | Subtle |
+| 87 | Superior |
+| 88 | Supreme |
+| 89 | {Taste} (p. 36) |
+| 90 | {Texture} (p. 36) |
+| 91 | True |
+| 92 | Uncanny |
+| 93 | Unfathomable |
+| 94 | Unnatural |
+| 95 | Unorthodox |
+| 96 | Unspeakable |
+| 97 | Vile |
+| 98 | Whimsical |
+| 99 | Wondrous |
+| 00 | Wretched |
 {{< /rpg_table >}}
 
 {{< rpg_table name="Effect" >}}
@@ -1968,217 +2095,743 @@ Tables from Knave 2e.
 | 00 | Wood |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Quality" >}}
-| d100 | Quality |
+{{< rpg_table name="Form" >}}
+| d100 | Form |
 | ---- | --------|
-| 1 | Abnormal |
-| 2 | Abominable |
-| 3 | Advanced |
-| 4 | Ancestral |
-| 5 | Ancient |
-| 6 | Arcane |
-| 7 | Artful |
-| 8 | Baleful |
-| 9 | Bizarre |
-| 10 | Canonical |
-| 11 | Celestial |
-| 12 | Cerebral |
-| 13 | Chaotic |
-| 14 | {Color} (p. 37) |
-| 15 | Cosmic |
-| 16 | Crafty |
-| 17 | Cryptic |
-| 18 | Curious |
-| 19 | Detestable |
-| 20 | Dismal |
-| 21 | Dreadful |
-| 22 | Elder |
-| 23 | Eldritch |
-| 24 | Enigmatic |
-| 25 | Esoteric |
-| 26 | Excellent |
-| 27 | Exquisite |
-| 28 | Extraordinary |
-| 29 | Fantastic |
-| 30 | Fey |
-| 31 | Foul |
-| 32 | Galactic |
-| 33 | Ghastly |
-| 34 | Grand |
-| 35 | Grim |
-| 36 | Grotesque |
-| 37 | Hateful |
-| 38 | Hideous |
-| 39 | Horrible |
-| 40 | Incomparable |
-| 41 | Incomprehensible |
-| 42 | Inexplicable |
-| 43 | Infernal |
-| 44 | Ingenious |
-| 45 | Inscrutable |
-| 46 | Insidious |
-| 47 | Iridescent |
-| 48 | Jocular |
-| 49 | Lawful |
-| 50 | Legendary |
-| 51 | Loathsome |
-| 52 | Magnificent |
-| 53 | Majestic |
-| 54 | Marvelous |
-| 55 | Masterful |
-| 56 | Miraculous |
-| 57 | Mysterious |
-| 58 | Noetic |
-| 59 | Noxious |
-| 60 | Odious |
-| 61 | Ominous |
-| 62 | Original |
-| 63 | Orthodox |
-| 64 | Ostentatious |
-| 65 | Otherworldly |
-| 66 | Peculiar |
-| 67 | Pernicious |
-| 68 | Phenomenal |
-| 69 | {PlaceTrait} (p. 11) |
-| 70 | Planar |
-| 71 | Planetary |
-| 72 | Preeminent |
-| 73 | Primal |
-| 74 | Primeval |
-| 75 | Primordial |
-| 76 | Prodigious |
-| 77 | Psychedelic |
-| 78 | Remarkable |
-| 79 | Resplendent |
-| 80 | Royal |
-| 81 | Sacred |
-| 82 | {Scent} (p. 66) |
-| 83 | Sinister |
-| 84 | {Sound} (p. 66) |
-| 85 | Splendid |
-| 86 | Subtle |
-| 87 | Superior |
-| 88 | Supreme |
-| 89 | {Taste} (p. 36) |
-| 90 | {Texture} (p. 36) |
-| 91 | True |
-| 92 | Uncanny |
-| 93 | Unfathomable |
-| 94 | Unnatural |
-| 95 | Unorthodox |
-| 96 | Unspeakable |
-| 97 | Vile |
-| 98 | Whimsical |
-| 99 | Wondrous |
-| 00 | Wretched |
+| 1 | {Animal} (p. 6 ) |
+| 2 | Arc |
+| 3 | Archer |
+| 4 | Armor |
+| 5 | Arrow |
+| 6 | Aura |
+| 7 | Avalanche |
+| 8 | Axe |
+| 9 | Beacon |
+| 10 | Beam |
+| 11 | Beast |
+| 12 | Blade |
+| 13 | Blast |
+| 14 | Blob |
+| 15 | Bolt |
+| 16 | Bubble |
+| 17 | Cage |
+| 18 | Carriage |
+| 19 | Chain |
+| 20 | Chariot |
+| 21 | Circle |
+| 22 | Cloak |
+| 23 | {Clothing} (p. 40) |
+| 24 | Cloud |
+| 25 | Coil |
+| 26 | Colossus |
+| 27 | Column |
+| 28 | Cone |
+| 29 | Crown |
+| 30 | Cube |
+| 31 | Disk |
+| 32 | Dragon |
+| 33 | Eye |
+| 34 | Fang |
+| 35 | Finger |
+| 36 | Fissure |
+| 37 | Fist |
+| 38 | Flood |
+| 39 | Fly |
+| 40 | Fountain |
+| 41 | Gate |
+| 42 | Gaze |
+| 43 | Geyser |
+| 44 | Gloves |
+| 45 | Guardian |
+| 46 | Hammer |
+| 47 | Hand |
+| 48 | Hawk |
+| 49 | Horn |
+| 50 | Hound |
+| 51 | Key |
+| 52 | Knife |
+| 53 | Knight |
+| 54 | Mask |
+| 55 | {Mechanism} (p. 17) |
+| 56 | {MiscItem} (p. 39) |
+| 57 | Monolith |
+| 58 | {Monster} (p. 61) |
+| 59 | Mouth |
+| 60 | {Organ} (p. 64) |
+| 61 | Path |
+| 62 | Pit |
+| 63 | Pool |
+| 64 | Pulse |
+| 65 | Pyramid |
+| 66 | Ray |
+| 67 | Rune |
+| 68 | Sanctuary |
+| 69 | Serpent |
+| 70 | Servant |
+| 71 | Shield |
+| 72 | Skeleton |
+| 73 | Skin |
+| 74 | Song |
+| 75 | Spear |
+| 76 | Sphere |
+| 77 | Spider |
+| 78 | Spike |
+| 79 | Spray |
+| 80 | Staff |
+| 81 | Steed |
+| 82 | Storm |
+| 83 | Strike |
+| 84 | {Structure} (p. 11) |
+| 85 | {Symbol} (p. 33) |
+| 86 | Tangle |
+| 87 | {Tool} (p. 39) |
+| 88 | Torrent |
+| 89 | Touch |
+| 90 | Tree |
+| 91 | Tunnel |
+| 92 | Vortex |
+| 93 | Wall |
+| 94 | Wave |
+| 95 | {Weapon} (p. 43) |
+| 96 | Web |
+| 97 | Wheel |
+| 98 | Whip |
+| 99 | Word |
+| 00 | Zone |
 {{< /rpg_table >}}
 
-{{< rpg_table name="WizardName" >}}
-| d100 | Wizard Name |
-| ---- | --------|
-| 1 | Abrogast |
-| 2 | Angvar |
-| 3 | Armolok |
-| 4 | Asterwin |
-| 5 | Azerphon |
-| 6 | Barbaloff |
-| 7 | Boglin |
-| 8 | Borgarot |
-| 9 | Byzby |
-| 10 | Candula |
-| 11 | Chalgot |
-| 12 | Cronibal |
-| 13 | Cydinax |
-| 14 | Darj |
-| 15 | Dormog |
-| 16 | Dregwith |
-| 17 | Dulzant |
-| 18 | Elmeer |
-| 19 | Eofast |
-| 20 | Evthalon |
-| 21 | Felonse |
-| 22 | Fenundor |
-| 23 | Folgun |
-| 24 | Gelonvir |
-| 25 | Garzant |
-| 26 | Gathifex |
-| 27 | Gilux |
-| 28 | Gyodo |
-| 29 | Hashman |
-| 30 | Helkhal |
-| 31 | Hetemtul |
-| 32 | Hoonai |
-| 33 | Ifit |
-| 34 | Ildefad |
-| 35 | Imzirian |
-| 36 | Irolo |
-| 37 | Jorkhal |
-| 38 | Jorphdan |
-| 39 | Kaldash |
-| 40 | Karneblin |
-| 41 | Kirtep |
-| 42 | Kisdal |
-| 43 | Krolgo |
-| 44 | Leodelf |
-| 45 | Lexikrin |
-| 46 | Lestin |
-| 47 | Lomard |
-| 48 | Majdin |
-| 49 | Mazifant |
-| 50 | Melkash |
-| 51 | Mizisto |
-| 52 | Mordandred |
-| 53 | Nazmok |
-| 54 | Nobtrik |
-| 55 | Nothry |
-| 56 | Noonund |
-| 57 | Nizmo |
-| 58 | Obrigal |
-| 59 | Ornoza |
-| 60 | Osrat |
-| 61 | Otilix |
-| 62 | Pandelo |
-| 63 | Panderbal |
-| 64 | Perdeo |
-| 65 | Pevin |
-| 66 | Quartat |
-| 67 | Quasmir |
-| 68 | Quilian |
-| 69 | Quinfan |
-| 70 | Redrak |
-| 71 | Roshmor |
-| 72 | Rudishan |
-| 73 | Rumalto |
-| 74 | Sekeen |
-| 75 | Sivinez |
-| 76 | Snilimar |
-| 77 | Sofnu |
-| 78 | {Surname} (p. 55) |
-| 79 | Tasham |
-| 80 | Tchamukal |
-| 81 | Tenat |
-| 82 | Turminster |
-| 83 | Ukanel |
-| 84 | Umbalem |
-| 85 | Uneni |
-| 86 | Urokar |
-| 87 | Vanceus |
-| 88 | Vermulsin |
-| 89 | Voriel |
-| 90 | Wallester |
-| 91 | Wenton |
-| 92 | Wiltrik |
-| 93 | Xedu |
-| 94 | Xepheran |
-| 95 | Xolark |
-| 96 | Yamorthrax |
-| 97 | Yandant |
-| 98 | Zanuptra |
-| 99 | Zarugaz |
-| 00 | Zilik |
+{{< rpg_table name="Mutation" >}}
+| d100 | Mutation |
+| --- | --------|
+|1| Ages backwards  |
+|2| Ages faster	|
+|3| {Animal} body (p. 64) |
+|4| {Animal} ears (p. 64) |
+|5| {Animal} eyes (p. 64) |
+|6| {Animal} form (p. 64) |
+|7| {Animal} head (p. 64) |
+|8| {Animal} limb (p. 64) |
+|9| {Animal} scent (p. 64) |
+|10| {Animal} skin (p. 64) |
+|11| {Animal} tail (p. 64) |
+|12| {Animal} teeth (p. 64) |
+|13| {Animal} voice (p. 64) |
+|14| Antennae	|
+|15| Antlers	|
+|16| Arms grow	|
+|17| Bat wings	|
+|18| Beak	|
+|19| Bird wings	|
+|20| Bleeds acid	|
+|21| Chameleon eyes |
+|22| Claws	|
+|23| {Color} skin (p. 37)	|
+|24| Crystal growth	|
+|25| Drooling	|
+|26| Duck bill	|
+|27| Ears grow	|
+|28| {Element} blood (p. 29) |
+|29| {Element} body (p. 29) |
+|30| {Element} breath (p. 29) |
+|31| Emits fumes	|
+|32| Excretes ooze	|
+|33| Extra arms	|
+|34| Extra eyes	|
+|35| Extra fingers	|
+|36| Extra heads	|
+|37| Extra legs	|
+|38| Eye stalks	|
+|39| Eyes grow	|
+|40| Fangs	|
+|41| Feathers	|
+|42| Feet swell	|
+|43| Fins	|
+|44| Fly eyes	|
+|45| Fungal growth	|
+|46| Gain d20 inches  |
+|47| Gills	|
+|48| Hair growth	|
+|49| Hair loss	|
+|50| Hands swell |
+|51| Head swells|
+|52| Horns|
+|53| Invisible head|
+|54| Jelly arms|
+|55| Legs grow|
+|56| Long tongue|
+|57| Lose d20 inches|
+|58| {Mannerism} (p. 59)|
+|59| {MonsterTrait} (p. 65)|
+|60| No eyes|
+|61| No nose|
+|62| No teeth|
+|63| {NPCDetail} (p. 56)|
+|64| One arm|
+|65| One eye|
+|66| One leg|
+|67| {Organ} (p. 64)|
+|68| {Personality} (p. 56)|
+|69| Pig snout|
+|70| {Power} (p. 65)|
+|71| Rat tail|
+|72| Scales|
+|73| {Scent} (p. 66)|
+|74| Scorpion tail|
+|75| Shaggy fur|
+|76| Shell|
+|77| Skin boils|
+|78| Skin hardens|
+|79| Skin pattern|
+|80| Skin sags|
+|81| Skin shedding|
+|82| Smoke breath|
+|83| Snake hair|
+|84| {Sound} (p. 66)|
+|85| Spines|
+|86| Spinnerets|
+|87| Suction cups|
+|88| Sweats blood|
+|89| Tentacles|
+|90| {Texture} body (p. 36)|
+|91| Totally numb|
+|92| Translucent skin|
+|93| Transparent skin|
+|94| Tusks|
+|95| Two faces|
+|96| Warts|
+|97| Webbed hands|
+|98| Weight doubles|
+|99| Weight halves|
+|00| Wooly|
 {{< /rpg_table >}}
 
-{{< rpg_table_button name="Potion" expr="Potion of {PotionEffect}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+{{< rpg_table name="Delusion" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Activity} (p. 19)	|
+|2| Always drunk	|
+|3| Always polite	|
+|4| Always rude	|
+|5| Always sleepy	|
+|6| Amnesia	|
+|7| {Animal} (p. 64)	|
+|8| {Asset} (p. 58)	|
+|9| Aura reading	|
+|10| Automaton	|
+|11| Being followed	|
+|12| Cannot count	|
+|13| Cannot lie	|
+|14| Cannot read	|
+|15| Chosen one	|
+|16| Clone	|
+|17| Constant rage	|
+|18| Dark vision	|
+|19| Demonic	|
+|20| Divine	|
+|21| Extra limb	|
+|22| Falls in love	|
+|23| Famous	|
+|24| Fears birds	|
+|25| Fears blood	|
+|26| Fears {Domain} (p. 33)  |
+|27| Fears fire	|
+|28| Fears gold	|
+|29| Fears iron	|
+|30| Fears music	|
+|31| Fears own hand  |
+|32| Fears PC	|
+|33| Fears rain	|
+|34| Fears rivers	|
+|35| Fears sleep	|
+|36| Fears sunlight	|
+|37| Fears {Symbol} (p. 33) |
+|38| Fears the moon	|
+|39| Flight	|
+|40| Genius	|
+|41| Gets lost	|
+|42| {Goal} (p. 57)	|
+|43| Gorgeous	|
+|44| Hates violence	|
+|45| Healing touch	|
+|46| Hideous	|
+|47| Illuminati	|
+|48| Immortal	|
+|49| In an RPG	|
+|50| Infamous |
+|51| Invisible|
+|52| Invisible servant|
+|53| Invulnerable|
+|54| Language switch|
+|55| {Liability} (p. 58)|
+|56| {Mannerism} (p. 59)|
+|57| Medium|
+|58| Mind controlled|
+|59| Missing limb|
+|60| {Mission} (p. 51)|
+|61| {Monster} (p. 61)|
+|62| {MonsterTrait} (p. 65)|
+|63| Must dance|
+|64| Must lie|
+|65| Must obey|
+|66| Must shout|
+|67| Must skip|
+|68| Must steal|
+|69| {Name} (pp. 54-55)|
+|70| {NPCDetail} (p. 56)|
+|71| {Organ} (p. 64)|
+|72| Personal army|
+|73| {Personality} (p. 56)|
+|74| Planar traveler|
+|75| {Power} (p. 65)|
+|76| {Profession} (p. 57)|
+|77| Prophet|
+|78| Reincarnated|
+|79| Rich|
+|80| Says thoughts|
+|81| Secret monarch|
+|82| Sees dead people|
+|83| Shapeshifter|
+|84| Silent|
+|85| Skin {Texture} (p. 36)|
+|86| {Sound} (p. 66)|
+|87| Spy|
+|88| Super strength|
+|89| Talks to animals|
+|90| Talks to plants|
+|91| Telekinetic|
+|92| Telepathic|
+|93| Time traveler|
+|94| Vampire|
+|95| {Weakness} (p. 67)|
+|96| Weather control|
+|97| Werewolf|
+|98| Whispers|
+|99| {WizardName} (p. 27)|
+|00| X-ray vision|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Disaster" >}}
+| d100 | ? |
+| --- | --------|
+|1 |Acid rain	|
+|2 |Aging accelerates |
+|3 |Aging reverses	|
+|4 |All iron rusts	|
+|5 |Amnesia	|
+|6 |Animal revolt	|
+|7 |Animals die	|
+|8 |Animals mutate |
+|9 |Animals speak	|
+|10 |Birds attack	|
+|11 |Birds die	|
+|12 |Body swaps	|
+|13 |Cities move	|
+|14 |City appears	|
+|15 |City changes	|
+|16 |Deadly fog	|
+|17 |{Delusion} (p. 30)	|
+|18 |Demon invasion |
+|19 |Doors lock	|
+|20 |Dragon wakes	|
+|21 |Dream plague	|
+|22 |Drought	|
+|23 |Earth to sand	|
+|24 |Earthquake	|
+|25 |{Effect} rain (p. 28)	|
+|26 |{Element} rain (p. 29) |
+|27 |Endless day	|
+|28 |Endless night	|
+|29 |Endless rain	|
+|30 |Endless storm	|
+|31 |Endless twilight |
+|32 |Endless winter	|
+|33 |Eruption	|
+|34 |Fae return	|
+|35 |Famine	|
+|36 |Fear epidemic	|
+|37 |Firestorm	|
+|38 |Fish die	|
+|39 |Fish speak	|
+|40 |Flesh to stone	|
+|41 |Flood	|
+|42 |Forest appears	|
+|43 |Forgetfulness	|
+|44 |Giants march	|
+|45 |Gold to tin	|
+|46 |Graves open	|
+|47 |Gravity decreases |
+|48 |Gravity increases |
+|49 |Hills move	|
+|50 |Iron to cloth |
+|51 |Language loss|
+|52 |Lightning storm|
+|53 |Living nightmare|
+|54 |Locusts|
+|55 |Maggots|
+|56 |Magic barrier|
+|57 |Mass blindness|
+|58 |Mass hypnosis|
+|59 |Mass insanity|
+|60 |Mass possession|
+|61 |Mass slumber|
+|62 |Mass telepathy|
+|63 |Meteor strike|
+|64 |Mirages|
+|65 |Mirrors speak|
+|66 |{Mutation} (p. 30)|
+|67 |No stars|
+|68 |Objects animate|
+|69 |Outsider enters|
+|70 |People shrink|
+|71 |People vanish|
+|72 |Pits open|
+|73 |Plague|
+|74 |Planar overlay|
+|75 |Plants wither|
+|76 |Portal opens|
+|77 |Rage epidemic|
+|78 |Rampant growth|
+|79 |Rifts open|
+|80 |Rivers move|
+|81 |Rivers reverse|
+|82 |Roads move|
+|83 |Shadows detach|
+|84 |Shadows speak|
+|85 |Smoke|
+|86 |Space distorts|
+|87 |Stone to flesh|
+|88 |Stones speak|
+|89 |{Texture} rain (p. 36)|
+|90 |Time loop|
+|91 |Time slows|
+|92 |Time warp|
+|93 |Tornado|
+|94 |Total silence|
+|95 |Tower appears|
+|96 |Trees march|
+|97 |Voices of dead|
+|98 |Water to blood|
+|99 |{Weapon} rain (p. 43)|
+|00 |Windstorm|
+{{< /rpg_table >}}
+
+{{< rpg_table name="MagicSchool" >}}
+| d100 | ? |
+| --- | --------|
+|1| Abjuration	|
+|2| Air	|
+|3| Alchemy	|
+|4| Alteration	|
+|5| Animation	|
+|6| Anti-magic	|
+|7| Archery	|
+|8| Architecture	|
+|9| Armor	|
+|10| Artifice	|
+|11| Beasts	|
+|12| Biomancy	|
+|13| Birds	|
+|14| {Book} (p. 40)	|
+|15| Charms	|
+|16| Chromatic	|
+|17| Conjuration	|
+|18| Counterspells	|
+|19| Creation	|
+|20| Darkness	|
+|21| Death	|
+|22| Desert	|
+|23| Destruction	|
+|24| Divination	|
+|25| {Domain} (p. 33)	|
+|26| Dragons	|
+|27| Dreams	|
+|28| Earth	|
+|29| Emotions	|
+|30| Enchantment	|
+|31| Evocation	|
+|32| Fear	|
+|33| Finding	|
+|34| Fire	|
+|35| Fish	|
+|36| Flight	|
+|37| Food	|
+|38| Force	|
+|39| Forest	|
+|40| Fungi	|
+|41| Geometry	|
+|42| Healing	|
+|43| Ice	|
+|44| Ignorance	|
+|45| Illness	|
+|46| Illumination	|
+|47| Illusion	|
+|48| Insects	|
+|49| Invocation	|
+|50| Knowledge |
+|51| Lightning|
+|52| Martial arts|
+|53| Memory|
+|54| Metamagic|
+|55| Mind control|
+|56| Mirrors|
+|57| Misdirection|
+|58| Mist|
+|59| Music|
+|60| Necromancy|
+|61| Oratory|
+|62| Outsiders|
+|63| Planes|
+|64| Portals|
+|65| Power|
+|66| Protection|
+|67| Rays|
+|68| Reptiles|
+|69| Revelation|
+|70| {RoomTheme} (p. 15)|
+|71| Sea|
+|72| Servants|
+|73| Shadow|
+|74| Shaping|
+|75| Sight|
+|76| Sound|
+|77| Speed|
+|78| Stars|
+|79| Stasis|
+|80| Staves|
+|81| Stealth|
+|82| Stones|
+|83| Storms|
+|84| Summoning|
+|85| Sun|
+|86| Swords|
+|87| Telekinesis|
+|88| Telepathy|
+|89| Teleportation|
+|90| Theft|
+|91| Time|
+|92| Transmutation|
+|93| Trickery|
+|94| Vampirism|
+|95| Walls|
+|96| Water|
+|97| Weapons|
+|98| Wild magic|
+|99| Wind|
+|00| Witchery|
+{{< /rpg_table >}}
+
+# Relic Magic 
+{{< rpg_table name="Domain" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acid	|
+|2| Alchemy	|
+|3| Beauty	|
+|4| Bees	|
+|5| Beggars	|
+|6| Betrayal	|
+|7| Birds	|
+|8| Blades	|
+|9| Blood	|
+|10| Blossoms	|
+|11| {Book} (p. 40)	|
+|12| Clay	|
+|13| Clouds	|
+|14| Commerce	|
+|15| Courage	|
+|16| Cowards	|
+|17| Craftsmanship	|
+|18| Crows	|
+|19| Darkness	|
+|20| Deserts	|
+|21| Destruction	|
+|22| Disease	|
+|23| Doors	|
+|24| Dreams	|
+|25| Duels	|
+|26| Eagles	|
+|27| Earthquakes	|
+|28| Fire	|
+|29| Fish	|
+|30| Forge	|
+|31| Fungi	|
+|32| Gluttony	|
+|33| Greed	|
+|34| Healing	|
+|35| Horses	|
+|36| Hunger	|
+|37| Illusions	|
+|38| Jealousy	|
+|39| Language	|
+|40| Lava	|
+|41| Libraries	|
+|42| Light	|
+|43| Lightning	|
+|44| Love	|
+|45| Luck	|
+|46| Machines	|
+|47| Madness	|
+|48| {MagicSchool} (p. 31) |
+|49| Mazes	|
+|50| Mirrors |
+|51| Mountains|
+|52| Murderers|
+|53| Music|
+|54| Oratory|
+|55| Performance|
+|56| Poison|
+|57| Priests|
+|58| Prisoners|
+|59| Rage|
+|60| Rain|
+|61| Revenge|
+|62| Revolution|
+|63| Roads|
+|64| {RoomTheme} (p. 15)|
+|65| Royalty|
+|66| Rust|
+|67| Sand|
+|68| Secrets|
+|69| Serpents|
+|70| Silence|
+|71| Slaves|
+|72| Sleep|
+|73| Smoke|
+|74| Soldiers|
+|75| Spiders|
+|76| Swamps|
+|77| Tailors|
+|78| The blind|
+|79| The elderly|
+|80| The future|
+|81| The grave|
+|82| The harvest|
+|83| The hearth|
+|84| The hunt|
+|85| The haw|
+|86| The sea|
+|87| Thieves|
+|88| Thorns|
+|89| Travelers|
+|90| Trees|
+|91| Trickery|
+|92| Truth|
+|93| Tundra|
+|94| Tunnels|
+|95| Vermin|
+|96| Walls|
+|97| Wind|
+|98| Wine|
+|99| Winter|
+|00| Wolves|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Symbol" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Animal} (p. 64)	|
+|2| Antlers	|
+|3| Arrow	|
+|4| Axe	|
+|5| Bear	|
+|6| Bell	|
+|7| Bird	|
+|8| Blood drop	|
+|9| Book	|
+|10| Boots	|
+|11| Bow	|
+|12| Bowl	|
+|13| Branch	|
+|14| Brazier	|
+|15| Cauldron	|
+|16| Chain	|
+|17| Chariot	|
+|18| Circle	|
+|19| {Clothing} (p. 40)	|
+|20| Cloud	|
+|21| Coin	|
+|22| Constellation	|
+|23| Crab	|
+|24| Cross	|
+|25| Crown	|
+|26| Crystal	|
+|27| Dagger	|
+|28| Deer	|
+|29| Dice	|
+|30| Eye	|
+|31| Fangs	|
+|32| Feather	|
+|33| Fish	|
+|34| Fist	|
+|35| Flower	|
+|36| Fountain	|
+|37| {Food} (p. 49)	|
+|38| {Form} (p. 29)	|
+|39| Fox	|
+|40| Frog	|
+|41| Gate	|
+|42| Goat	|
+|43| Hammer	|
+|44| Hand	|
+|45| Heart	|
+|46| Helmet	|
+|47| Hook	|
+|48| Horn	|
+|49| Horse	|
+|50| Hourglass |
+|51| Key|
+|52| Knot|
+|53| Lamp|
+|54| Leaf|
+|55| Lightning bolt|
+|56| Lock|
+|57| Mask|
+|58| {MiscItem} (p. 39)|
+|59| Moon|
+|60| Nut|
+|61| Octopus|
+|62| {Organ} (p. 64)|
+|63| Ox|
+|64| Pen|
+|65| Pincer|
+|66| Pine cone|
+|67| Planet|
+|68| Rabbit|
+|69| Rat|
+|70| Ring|
+|71| Scorpion|
+|72| Scales|
+|73| Scroll|
+|74| Serpent|
+|75| Shield|
+|76| Sickle|
+|77| Skull|
+|78| Snail|
+|79| Snowflake|
+|80| Spear|
+|81| Spiral|
+|82| Square|
+|83| Staff|
+|84| Star|
+|85| Sun|
+|86| Sword|
+|87| Tentacle|
+|88| Throne|
+|89| Tooth|
+|90| Torch|
+|91| Tree|
+|92| Triangle|
+|93| Turtle|
+|94| Wave|
+|95| {Weapon} (p. 43)|
+|96| Web|
+|97| Whale|
+|98| Whip|
+|99| Wings|
+|00| Wolf|
+{{< /rpg_table >}}
+
+# Alchemy
 
 {{< rpg_table name="PotionEffect">}}
 | d100 | Potion |
@@ -2285,26 +2938,2766 @@ Tables from Knave 2e.
 | 00 | Youth |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Name" >}}
-| d2 | NPC |
+
+{{< rpg_table name="Texture" >}}
+| d100 | ? |
 | --- | --------|
-| 1 | {MaleName} {SurnameStart}{SurnameEnd} |
-| 2 | {FemaleName} {SurnameStart}{SurnameEnd} |
+|1| Aerated	|
+|2| Battery	|
+|3| Blended	|
+|4| Boiling	|
+|5| Brackish	|
+|6| Bubbling	|
+|7| Buttery	|
+|8| Caramelized	|
+|9| Chalky	|
+|10| Chilled	|
+|11| Chunky	|
+|12| Churning	|
+|13| Clotted	|
+|14| Coagulated	|
+|15| Condensed	|
+|16| Congealed	|
+|17| Cool	|
+|18| Creamy	|
+|19| Crystalized	|
+|20| Curdled	|
+|21| Dregs	|
+|22| Effervescent	|
+|23| Filmy	|
+|24| Fizzing	|
+|25| Flakes	|
+|26| Foaming	|
+|27| Foggy	|
+|28| Frigid	|
+|29| Frosty	|
+|30| Frothy	|
+|31| Gelatinous	|
+|32| Glimmering	|
+|33| Gloppy	|
+|34| Glowing	|
+|35| Gluey	|
+|36| Grainy	|
+|37| Greasy	|
+|38| Gritty	|
+|39| Grounds	|
+|40| Gummy	|
+|41| Gunky	|
+|42| Gurgling	|
+|43| Hissing	|
+|44| Humming	|
+|45| Ichorous	|
+|46| Icy	|
+|47| Jellied	|
+|48| Living	|
+|49| Lukewarm	|
+|50| Lumpy |
+|51| Mashed|
+|52| Metallic|
+|53| Motes|
+|54| Moving|
+|55| Muddy|
+|56| Murky|
+|57| Mushy|
+|58| Oily|
+|59| Oozy|
+|60| Pasty|
+|61| Powdery|
+|62| Pudding|
+|63| Pulpy|
+|64| Pulsing|
+|65| Pureed|
+|66| Quicksilver|
+|67| Reflective|
+|68| Rippling|
+|69| Roiling|
+|70| Sandy|
+|71| Sappy|
+|72| Scalding|
+|73| Scummy film|
+|74| Sediment|
+|75| Shining|
+|76| Silty|
+|77| Simmering|
+|78| Sizzling|
+|79| Slimy|
+|80| Slushy|
+|81| Smoking|
+|82| Smoky|
+|83| Soapy|
+|84| Sparkling|
+|85| Steaming|
+|86| Sticky|
+|87| Swirling|
+|88| Syrupy|
+|89| Tarry|
+|90| Thin|
+|91| Throbbing|
+|92| Trembling|
+|93| Turbulent|
+|94| Vibrating|
+|95| Viscid|
+|96| Viscous|
+|97| Warm|
+|98| Watery|
+|99| Whirling|
+|00| Whistling|
 {{< /rpg_table >}}
 
-{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
-
-{{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
-
-{{< rpg_table_button name="MagicItem" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}. Domains: {Domain}, {Domain}. Symbol: {Symbol}." >}}
-
-{{< rpg_table name="Item">}}
-| d100 | Archetype |
+{{< rpg_table name="Taste" >}}
+| d100 | ? |
 | --- | --------|
-| 1 | {Fabric} {Clothing} |
-| 2 | {Weapon} |
+|1| Absinthe	|
+|2| Allspice	|
+|3| Almond	|
+|4| Ammonia	|
+|5| {Animal} (p. 64)	|
+|6| Asparagus	|
+|7| Basil	|
+|8| Beer	|
+|9| Berries	|
+|10| Black currant	|
+|11| Blackberry	|
+|12| Blood	|
+|13| Butter	|
+|14| Camphor	|
+|15| Candy	|
+|16| Caramel	|
+|17| Cardamom	|
+|18| Cherry	|
+|19| Chili pepper	|
+|20| Chives	|
+|21| Chocolate	|
+|22| Cinnamon	|
+|23| Cloves	|
+|24| Coconut	|
+|25| Coffee	|
+|26| Copper	|
+|27| Cranberry	|
+|28| Crude oil	|
+|29| Cucumber	|
+|30| Cumin	|
+|31| Curry	|
+|32| Dates	|
+|33| Elderberry	|
+|34| Figs	|
+|35| Flowers	|
+|36| {Food} (p. 49)	|
+|37| Garlic	|
+|38| Ginger	|
+|39| Gooseberry	|
+|40| Grapefruit	|
+|41| Grass	|
+|42| Herbs	|
+|43| Honey	|
+|44| Honeysuckle	|
+|45| Horseradish	|
+|46| Huckleberry	|
+|47| Hyacinth	|
+|48| Leather	|
+|49| Lemon	|
+|50| Lemongrass |
+|51| Licorice|
+|52| Lime|
+|53| Loam|
+|54| Maple syrup|
+|55| Mead|
+|56| Milk|
+|57| Mineral|
+|58| Mint|
+|59| Mud|
+|60| Mustard|
+|61| Nutmeg|
+|62| Oak|
+|63| Olive oil|
+|64| Onion|
+|65| Orange|
+|66| Oregano|
+|67| Peach|
+|68| Pears|
+|69| Pepper|
+|70| Phlegm|
+|71| Pickle juice|
+|72| Pine|
+|73| Pistachios|
+|74| Plum|
+|75| Pumpkin|
+|76| Quince|
+|77| Rhubarb|
+|78| Roast duck|
+|79| Rose|
+|80| Rosemary|
+|81| Rust|
+|82| Saffron|
+|83| Sage|
+|84| Salt water|
+|85| {Scent} (p. 66)|
+|86| Soap|
+|87| Soursop|
+|88| Spearmint|
+|89| Sulphur|
+|90| Tamarind|
+|91| Tea|
+|92| Tears|
+|93| Thyme|
+|94| Tobacco|
+|95| Vanilla|
+|96| Walnuts|
+|97| Whiskey|
+|98| Wine|
+|99| Wintergreen|
+|00| Wormwood|
 {{< /rpg_table >}}
 
+{{< rpg_table name="Color" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acid green	|
+|2| Alabaster	|
+|3| Amber	|
+|4| Amethyst	|
+|5| Apricot	|
+|6| Aquamarine	|
+|7| Asparagus	|
+|8| Auburn	|
+|9| Aureolin	|
+|10| Avocado	|
+|11| Azure	|
+|12| Baby blue	|
+|13| Beige	|
+|14| Bone	|
+|15| Bottle green	|
+|16| Bronze	|
+|17| Bubblegum	|
+|18| Carmine	|
+|19| Carrot	|
+|20| Celadon	|
+|21| Cerise	|
+|22| Cerulean	|
+|23| Champagne	|
+|24| Charcoal	|
+|25| Chartreuse	|
+|26| Chestnut	|
+|27| Cinnamon	|
+|28| Colorless	|
+|29| Coppery	|
+|30| Coral pink	|
+|31| Creamy	|
+|32| Crimson	|
+|33| Cyan	|
+|34| Dove grey	|
+|35| Dun	|
+|36| Eggshell	|
+|37| Electric blue	|
+|38| Emerald	|
+|39| Flesh	|
+|40| Fuchsia	|
+|41| Fuligin	|
+|42| Golden	|
+|43| Grape juice	|
+|44| Heliotrope	|
+|45| Ice blue	|
+|46| Indigo	|
+|47| Inky	|
+|48| Invisible	|
+|49| Ivory	|
+|50| Kelly green |
+|51| Lavender|
+|52| Lilac|
+|53| Lime|
+|54| Magenta|
+|55| Mahogany|
+|56| Maroon|
+|57| Mauve|
+|58| Milk white|
+|59| Moss green|
+|60| Mustard|
+|61| Ochre|
+|62| Olive|
+|63| Opalescent|
+|64| Oxblood|
+|65| Pea green|
+|66| Peach|
+|67| Peacock blue|
+|68| Pearl|
+|69| Periwinkle|
+|70| Pine green|
+|71| Plum|
+|72| Primrose|
+|73| Pumpkin|
+|74| Rainbow|
+|75| Rose|
+|76| Ruby|
+|77| Russet|
+|78| Rusty|
+|79| Saffron|
+|80| Salmon|
+|81| Sapphire|
+|82| Scarlet|
+|83| Sepia|
+|84| Shocking pink|
+|85| Silver|
+|86| Slate blue|
+|87| Smokey grey|
+|88| Tangerine|
+|89| Teal|
+|90| Terracotta|
+|91| Titian red|
+|92| Tomato|
+|93| Turquoise|
+|94| Tyrian|
+|95| Ultramarine|
+|96| Umber|
+|97| Verdigris|
+|98| Vermilion|
+|99| Violet|
+|00| Viridian|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Ingredient" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Animal} (p. 64)	|
+|2| Antimony	|
+|3| Arsenic	|
+|4| Belladonna	|
+|5| Bitumen	|
+|6| Black pearl	|
+|7| Blind eye	|
+|8| {Book} (p. 40)	|
+|9| Brimstone	|
+|10| Camphor	|
+|11| Celandine	|
+|12| Chalk	|
+|13| {Clothing} (p. 40)	|
+|14| Cobalt	|
+|15| Cocklebur	|
+|16| Coffin nail	|
+|17| Columbine	|
+|18| Copper	|
+|19| Corpse's hair	|
+|20| Crossroad dust	|
+|21| Dandelion	|
+|22| Deathcap	|
+|23| Devil's trumpet	|
+|24| Element	|
+|25| {Fabric} (p. 41)	|
+|26| {Food} (p. 49)	|
+|27| Foxglove	|
+|28| Funeral wine	|
+|29| Gold	|
+|30| Grave dust	|
+|31| Hellebore	|
+|32| Hemlock	|
+|33| Henbane	|
+|34| Holly	|
+|35| Honey	|
+|36| Hyssop	|
+|37| Iron	|
+|38| Killer's hand	|
+|39| King's tooth	|
+|40| Larkspur	|
+|41| Last breath	|
+|42| Lead	|
+|43| Liar's tongue	|
+|44| Lightning bolt	|
+|45| Lime	|
+|46| Lodestone	|
+|47| Lotus	|
+|48| Lye	|
+|49| Mandrake	|
+|50| {Material} (p. 42) |
+|51| Meadowsweet|
+|52| {MiscItem} (p. 39)|
+|53| Mistletoe|
+|54| Monk's vow|
+|55| {Monster} (p. 61)|
+|56| Moonflower|
+|57| Mugwort|
+|58| Natron|
+|59| Nectar|
+|60| Nettle|
+|61| Newborn's cry|
+|62| Nickel|
+|63| Nightshade|
+|64| {Organ} (p. 64)|
+|65| Platinum|
+|66| Poppy|
+|67| {Potion} (p. 35)|
+|68| Pyre ember|
+|69| Queen bee|
+|70| Queen's blood|
+|71| Quicksilver|
+|72| Ragwort|
+|73| Resin|
+|74| Rosemary|
+|75| Sage|
+|76| Sea water|
+|77| Ship's barnacle|
+|78| Silver|
+|79| Snakeweed|
+|80| Soot|
+|81| Star-metal|
+|82| Stinkhorn|
+|83| Sugar|
+|84| Thief's finger|
+|85| Thistle|
+|86| Tin|
+|87| Tomb flower|
+|88| {Tool} (p. 39)|
+|89| {Treasure} (p. 42)|
+|90| Valerian|
+|91| Verdigris|
+|92| Vinegar|
+|93| Wax|
+|94| {Weapon} (p. 43)|
+|95| Wedding ring|
+|96| Widow's tears|
+|97| Witch hazel|
+|98| Wizard's skull|
+|99| Wolfsbane|
+|00| Wormwood|
+{{< /rpg_table >}}
+
+# Equipment
+
+{{< rpg_table name="Tool" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acid vial	|
+|2| Animal scent	|
+|3| Antitoxin	|
+|4| Astrolabe	|
+|5| Bandoleer	|
+|6| Bear trap	|
+|7| Bedroll	|
+|8| Beeswax	|
+|9| Bell	|
+|10| Bellows	|
+|11| Birdcage	|
+|12| Blank book	|
+|13| Blanket	|
+|14| Block and tackle |
+|15| Boltcutters	|
+|16| Bottle	|
+|17| Bucket	|
+|18| Bullseye lantern  |
+|19| Caltrops	|
+|20| Candle	|
+|21| Censer	|
+|22| Chain	|
+|23| Chalk	|
+|24| Chisel	|
+|25| Climbing hook	|
+|26| Compass	|
+|27| Copper wire	|
+|28| Crowbar	|
+|29| Dice	|
+|30| Door ram	|
+|31| Ear trumpet	|
+|32| Ether	|
+|33| Fire oil	|
+|34| Fishing hook	|
+|35| Flashbomb	|
+|36| Flashpowder	|
+|37| Garlic	|
+|38| Glue	|
+|39| Grappling hook  |
+|40| Grease	|
+|41| Hacksaw	|
+|42| Hammer	|
+|43| Hand drill	|
+|44| Hemp rope	|
+|45| Hog holder	|
+|46| Hooded lantern	|
+|47| Hound	|
+|48| Hourglass	|
+|49| Incense	|
+|50| Iron pot |
+|51| Iron tongs|
+|52| Lantern|
+|53| Large sack|
+|54| Lockpicks|
+|55| Lodestone|
+|56| Magnifying lens|
+|57| Manacles|
+|58| Marbles|
+|59| Metal File|
+|60| Mortar and pestle|
+|61| Mule|
+|62| Net|
+|63| Padlock and key|
+|64| Pen and ink|
+|65| Pickaxe|
+|66| Pitchfork|
+|67| Piton|
+|68| Pliers|
+|69| Poison|
+|70| Pole (10')|
+|71| Pure alcohol|
+|72| Rat|
+|73| Rum|
+|74| Salve|
+|75| Scissors|
+|76| Sealing wax|
+|77| Sewing needle|
+|78| Sextant|
+|79| Shovel|
+|80| Silk rope|
+|81| Sledgehammer|
+|82| Smokebomb|
+|83| Smoked goggles|
+|84| Soap|
+|85| Spikes|
+|86| Spyglass|
+|87| Stake|
+|88| Steel mirror|
+|89| Sundial|
+|90| Tent|
+|91| Thick gloves|
+|92| Tinderbox|
+|93| Torch|
+|94| Trumpet|
+|95| Twine|
+|96| Vial|
+|97| Waterskin|
+|98| Whetstone|
+|99| Whistle|
+|00| Wolfsbane|
+{{< /rpg_table >}}
+
+{{< rpg_table name="MiscItem" >}}
+| d100 | ? |
+| --- | --------|
+|1| Amulet	|
+|2| Arrowhead	|
+|3| Birdcage	|
+|4| {Book} (p. 40)	|
+|5| Bowl	|
+|6| Box	|
+|7| Brooch	|
+|8| Button	|
+|9| Card	|
+|10| Cipher	|
+|11| Clock	|
+|12| {Clothing} (p. 40)	|
+|13| Coin	|
+|14| Comb	|
+|15| Crystal	|
+|16| Cup	|
+|17| Degree	|
+|18| Doll	|
+|19| Drum	|
+|20| Egg	|
+|21| Embroidery	|
+|22| {Fabric} (p. 41)	|
+|23| Feather	|
+|24| Figurine	|
+|25| Finger bone	|
+|26| Flag	|
+|27| Flute	|
+|28| {Food} (p. 49)	|
+|29| {Food} recipe	|
+|30| Fork	|
+|31| Game piece	|
+|32| Gem	|
+|33| Hair oil	|
+|34| Hairbrush	|
+|35| Handkerchief	|
+|36| Horn	|
+|37| Icon	|
+|38| {Ingredient} (p. 37)	|
+|39| Jar	|
+|40| Key	|
+|41| Knife	|
+|42| Ladle	|
+|43| Leg bone	|
+|44| Lens	|
+|45| Letter	|
+|46| List of demands	|
+|47| Lock of hair	|
+|48| Locket	|
+|49| Lotion	|
+|50| Lute |
+|51| Lyre|
+|52| Manifesto|
+|53| Map|
+|54| Mascara|
+|55| {Material} (p. 42)|
+|56| Military orders|
+|57| Mirror|
+|58| Orb|
+|59| {Organ} (p. 64)|
+|60| Paintbrush|
+|61| Painting|
+|62| Passport|
+|63| Pearl|
+|64| Perfume|
+|65| Pipe|
+|66| Pipes|
+|67| Poem|
+|68| Portrait|
+|69| {Potion} (p. 35)|
+|70| {Potion} recipe (p. 35)|
+|71| Prayer|
+|72| Pressed flower|
+|73| Purse|
+|74| Puzzle box|
+|75| Pyramid|
+|76| Razor|
+|77| Ribbon|
+|78| Ring|
+|79| Rouge|
+|80| Shopping list|
+|81| Signet ring|
+|82| Sketchbook|
+|83| Skull|
+|84| Snuffbox|
+|85| Spatula|
+|86| {SpellScroll} (p. 22)|
+|87| {SpellBook} (p. 22)|
+|88| Spoon|
+|89| Star chart|
+|90| Ticket|
+|91| {Tool} (p. 39)|
+|92| Tooth|
+|93| {Treasure} (p. 42)|
+|94| Treaty|
+|95| Tuning fork|
+|96| Wand|
+|97| Warrant|
+|98| {Weapon} (p. 43)|
+|99| Wine|
+|00| Yarn|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Book" >}}
+| d100 | ? |
+| --- | --------|
+|1| Adventure novel |
+|2| Agriculture	|
+|3| Almanac	|
+|4| Anatomy	|
+|5| Ancient history	|
+|6| Archaeology	|
+|7| Architecture	|
+|8| Astrology	|
+|9| Bestiary	|
+|10| Biography	|
+|11| Blackmail	|
+|12| Botany	|
+|13| Calendars	|
+|14| {CityTheme} (p. 46) |
+|15| Comedic novel	|
+|16| Commerce	|
+|17| Condemnation	|
+|18| Confession	|
+|19| Conspiracies	|
+|20| Cookbook	|
+|21| Criminal secrets |
+|22| Cryptography	|
+|23| Culture	|
+|24| Customs	|
+|25| Diplomacy	|
+|26| {Disaster} (p. 31)	|
+|27| Divination	|
+|28| {Domain} (p. 33)	|
+|29| {Dungeon} (p. 16)	|
+|30| Epic poems	|
+|31| Espionage	|
+|32| Ethics	|
+|33| Etiquette	|
+|34| {FactionType} (p. 50)	|
+|35| Fashion	|
+|36| Finance	|
+|37| Fishing	|
+|38| Folklore	|
+|39| Genealogy	|
+|40| Geography	|
+|41| Geology	|
+|42| Ghosts	|
+|43| Gods	|
+|44| Hagiography	|
+|45| Heraldry	|
+|46| Horror stories	|
+|47| Hunting	|
+|48| Husbandry	|
+|49| Journal	|
+|50| Language |
+|51| Laws|
+|52| Letters|
+|53| Libraries|
+|54| Logic|
+|55| Lost empires|
+|56| Lost places|
+|57| Love poems|
+|58| {MagicSchool} (p. 31)|
+|59| Mathematics|
+|60| Medicine|
+|61| Modern history|
+|62| {Monster} (p. 61)|
+|63| Music|
+|64| Mystery novel|
+|65| Mythology|
+|66| Nation|
+|67| Navigation|
+|68| Oceanography|
+|69| Painting|
+|70| Planar studies|
+|71| Politics|
+|72| {Potion} recipe (p. 35)|
+|73| Prayers|
+|74| {Profession} (p. 57)|
+|75| Propaganda|
+|76| Prophecies|
+|77| Psychology|
+|78| Region|
+|79| Religion|
+|80| Rhetoric|
+|81| Romantic novel|
+|82| {RoomTheme} (p. 15)|
+|83| Sages|
+|84| Sayings|
+|85| Sculpture|
+|86| Secret societies|
+|87| Shipbuilding|
+|88| Shrines|
+|89| Siegecraft|
+|90| Songs|
+|91| {Spell} (pp. 22-25)|
+|92| State secrets|
+|93| Sword fighting|
+|94| Theology|
+|95| {Trap} (pp. 16-17)|
+|96| Treasures|
+|97| Utopian novel|
+|98| War chronicle|
+|99| Who's who|
+|00| Witch-hunting|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Clothing" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alb	|
+|2| Arm wrap	|
+|3| Arming doublet  |
+|4| Bascinet	|
+|5| Belt	|
+|6| Beret	|
+|7| Bicorne hat	|
+|8| Blouse	|
+|9| Bodice	|
+|10| Bonnet	|
+|11| Boots	|
+|12| Bracelet	|
+|13| Braies	|
+|14| Breastplate	|
+|15| Breeches	|
+|16| Buckler	|
+|17| Cap	|
+|18| Cape	|
+|19| Cassock	|
+|20| Chaperon	|
+|21| Chasuble	|
+|22| Cincture	|
+|23| Cloak	|
+|24| Clogs	|
+|25| Coat	|
+|26| Codpiece	|
+|27| Corset	|
+|28| Cotte	|
+|29| Cowl	|
+|30| Cravat	|
+|31| Curiass	|
+|32| Dalmatic	|
+|33| Doublet	|
+|34| Dress	|
+|35| Earing	|
+|36| Eyepatch	|
+|37| Fez	|
+|38| Frog mouth helm |
+|39| Gambeson	|
+|40| Gauntlet	|
+|41| Girdle	|
+|42| Gloves	|
+|43| Gorget	|
+|44| Gown	|
+|45| Great helm	|
+|46| Greaves	|
+|47| Hat	|
+|48| Hauberk	|
+|49| Headdress	|
+|50| Helmet |
+|51| Hood|
+|52| Hose|
+|53| Hounskull helm|
+|54| Houppeland|
+|55| Jacket|
+|56| Jerkin|
+|57| Kerchief|
+|58| Kilt|
+|59| Kirtle|
+|60| Leg wrap|
+|61| Maniple|
+|62| Mask|
+|63| Mitre|
+|64| Nasal helm|
+|65| Necklace|
+|66| Nightcap|
+|67| Pauldron|
+|68| Petticoat|
+|69| Pocket|
+|70| Pointed hat|
+|71| Purse|
+|72| Rerebrace|
+|73| Robe|
+|74| Sabatons|
+|75| Salet|
+|76| Sandals|
+|77| Sash|
+|78| Scarf|
+|79| Shield|
+|80| Shirt|
+|81| Shoes|
+|82| Skirt|
+|83| Sleeves|
+|84| Slippers|
+|85| Smock|
+|86| Socks|
+|87| Stockings|
+|88| Stole|
+|89| Surcoat|
+|90| Surplice|
+|91| Tabard|
+|92| Tower shield|
+|93| Tricorn hat|
+|94| Trousers|
+|95| Tunic|
+|96| Turban|
+|97| Vambrace|
+|98| Veil|
+|99| Vest|
+|00| Wimple|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Fabric" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alligator skin	|
+|2| Alpaca wool	|
+|3| {Animal} skin (p. 64) |
+|4| Badger skin	|
+|5| Bamboo weave	|
+|6| Barkcloth	|
+|7| Bearskin	|
+|8| Beaver skin	|
+|9| Blanket	|
+|10| Brass	|
+|11| Brocade	|
+|12| Bronze	|
+|13| Burlap	|
+|14| Calfskin	|
+|15| Calico	|
+|16| Camel hair	|
+|17| Camel skin	|
+|18| Canvas	|
+|19| Cashmere wool  |
+|20| Cat hair	|
+|21| Chambray	|
+|22| Chiffon	|
+|23| Chino	|
+|24| Coconut fiber	|
+|25| Copper	|
+|26| Corduroy	|
+|27| Cotton	|
+|28| Cow skin	|
+|29| Crepe	|
+|30| Damask	|
+|31| Deerskin	|
+|32| Denim	|
+|33| Dog hair	|
+|34| Eel skin	|
+|35| Felt	|
+|36| Fish skin	|
+|37| Fishnet	|
+|38| Flannel	|
+|39| Flax	|
+|40| Fleece	|
+|41| Fox skin	|
+|42| Gauze	|
+|43| Gingham	|
+|44| Goatskin	|
+|45| Grass weave	|
+|46| Hemp	|
+|47| Herringbone	|
+|48| Horse hair	|
+|49| Horse skin	|
+|50| Iron	|
+|51| Jute|
+|52| Lace|
+|53| Lamb wool|
+|54| Lambskin|
+|55| Leather|
+|56| Leopard skin|
+|57| Linen|
+|58| Lion skin|
+|59| Llama wool|
+|60| Mail|
+|61| Mesh|
+|62| Mink fur|
+|63| Mink skin|
+|64| Mohair wool|
+|65| {Monster} skin (p. 61)|
+|66| Muslin|
+|67| Oilcloth|
+|68| Ostrich skin|
+|69| Otter skin|
+|70| Patchwork|
+|71| Pig skin|
+|72| Quilt|
+|73| Rabbit skin|
+|74| Rags|
+|75| Rat skin|
+|76| Reindeer skin|
+|77| Sailcloth|
+|78| Satin|
+|79| Sealskin|
+|80| Seersucker|
+|81| Sheepskin|
+|82| Sheep wool|
+|83| Silk|
+|84| Snake skin|
+|85| Squirrel skin|
+|86| Steel|
+|87| Stingray skin|
+|88| Suede|
+|89| Taffeta|
+|90| Tartan|
+|91| Terrycloth|
+|92| Tiger skin|
+|93| Tinsel|
+|94| Tulle|
+|95| Tweed|
+|96| Twill|
+|97| Velour|
+|98| Velvet|
+|99| Wolf skin|
+|00| Yak wool|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Decoration" >}}
+| d100 | ? |
+| --- | --------|
+|1| Antique	|
+|2| Beaded	|
+|3| Beast motif	|
+|4| Bells	|
+|5| Bird motif	|
+|6| Bloody	|
+|7| Bones	|
+|8| Buckles	|
+|9| Buttons	|
+|10| Chains	|
+|11| Chimes	|
+|12| Cloud motif	|
+|13| Coat of arms	|
+|14| {Color} (p. 37)	|
+|15| Cords	|
+|16| Decorative coins |
+|17| Distressed	|
+|18| Down-stuffed	|
+|19| Emblem	|
+|20| Embroidered	|
+|21| Enamel pins	|
+|22| Feathers	|
+|23| Flamboyant	|
+|24| Flame motif	|
+|25| Flower motif	|
+|26| Flowers	|
+|27| Food-stained	|
+|28| Formal	|
+|29| Fringe	|
+|30| Fur lined	|
+|31| Fur trim	|
+|32| Gold studs	|
+|33| Gold thread	|
+|34| Harlequin	|
+|35| Heavyweight	|
+|36| Heraldry	|
+|37| Horns	|
+|38| Ink-stained	|
+|39| {ItemTrait} (p. 43)	|
+|40| Jewels	|
+|41| Lace trim	|
+|42| Laced up	|
+|43| Medallions	|
+|44| Mold	|
+|45| Monster motif	|
+|46| Moon motif	|
+|47| Moth-eaten	|
+|48| Muddy	|
+|49| Ocean motif	|
+|50| Ornate border |
+|51| Oversized|
+|52| Padded|
+|53| Paisley|
+|54| Patches|
+|55| Pearls|
+|56| Perfumed|
+|57| Plated|
+|58| Pockets|
+|59| Punctured|
+|60| Reeking|
+|61| Rhinestones|
+|62| Ribbed|
+|63| Ribbons|
+|64| Ruffles|
+|65| Satin bows|
+|66| Scandalous|
+|67| {Scent} (p. 66)|
+|68| Secret pocket|
+|69| Sequins|
+|70| Shimmering|
+|71| Sigils|
+|72| Silver studs|
+|73| Silver thread|
+|74| Skintight|
+|75| Skull motif|
+|76| Slashed|
+|77| Sparkling|
+|78| Spiked|
+|79| Spot pattern|
+|80| Star motif|
+|81| Starched|
+|82| Stonewashed|
+|83| Striped|
+|84| Studded|
+|85| Sun designs|
+|86| Sun-faded|
+|87| {Symbol} (p. 33)|
+|88| Tassels|
+|89| Taxidermy|
+|90| Threadbare|
+|91| Tie-died|
+|92| Torn|
+|93| Tree motif|
+|94| Undersized|
+|95| Unfashionable|
+|96| Velvet applique|
+|97| Wave designs|
+|98| Wine-stained|
+|99| Wrinkled|
+|00| Zigzag pattern|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Treasure" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alchemical device |
+|2| Amulet	|
+|3| Armor	|
+|4| Arrows	|
+|5| Astrolabe	|
+|6| Belt	|
+|7| Blackmail	|
+|8| Blueprints	|
+|9| {Book} (p. 40)	|
+|10| Bow	|
+|11| Bowl	|
+|12| Bracelet	|
+|13| Business record	|
+|14| Calligraphy	|
+|15| Candelabra	|
+|16| Carpet	|
+|17| Celestial map	|
+|18| Chalice	|
+|19| Chandelier	|
+|20| Clock	|
+|21| {Clothing} (p. 40)	|
+|22| Codpiece	|
+|23| Comb	|
+|24| Compass	|
+|25| Contract	|
+|26| Couch	|
+|27| Crown	|
+|28| Crystal	|
+|29| Dagger	|
+|30| Deed	|
+|31| Doll	|
+|32| Dress	|
+|33| Earrings	|
+|34| Embroidery	|
+|35| Fine china	|
+|36| Fine liquor	|
+|37| Furs	|
+|38| Gaming set	|
+|39| Gemstone	|
+|40| Helmet	|
+|41| {Ingredient} (p. 37)	|
+|42| Instrument	|
+|43| Ivory carving	|
+|44| Lamp	|
+|45| Letter	|
+|46| {Material} (p. 42)	|
+|47| Medal	|
+|48| Mirror	|
+|49| {Monster} skin (p. 61) |
+|50| Mosaic |
+|51| Mural|
+|52| Music box|
+|53| Necklace|
+|54| {Organ} (p. 64)|
+|55| Orrery|
+|56| Painting|
+|57| Pen|
+|58| Perfume|
+|59| Pipe|
+|60| Planar map|
+|61| Porcelain figure|
+|62| {Potion} (p. 35)|
+|63| Prayer book|
+|64| Printing block|
+|65| Rare coin|
+|66| Relic|
+|67| {Reward} (p. 51)|
+|68| Ring|
+|69| Royal robes|
+|70| Scabbard|
+|71| Scientific device|
+|72| Scrimshaw|
+|73| Sextant|
+|74| Sheet music|
+|75| Shield|
+|76| Shoes|
+|77| Signet ring|
+|78| Silk|
+|79| Silverware|
+|80| Snuffbox|
+|81| Spear|
+|82| {Spell} (pp. 22-25)|
+|83| Spices|
+|84| Spyglass|
+|85| Stained glass|
+|86| State secrets|
+|87| Stone statue|
+|88| Sword|
+|89| Table|
+|90| Tapestry|
+|91| Taxidermy|
+|92| Tea set|
+|93| Telescope|
+|94| Throne|
+|95| Treasure map|
+|96| Trophy|
+|97| Trunk|
+|98| Vase|
+|99| Watch|
+|00| {Weapon} (p. 43)|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Material" >}}
+| d100 | ? |
+| --- | --------|
+|1| Adamantine	|
+|2| Alabaster	|
+|3| Amber	|
+|4| Ambergris	|
+|5| Aquamarine	|
+|6| Aventurine	|
+|7| Azurite	|
+|8| Beryl	|
+|9| Black alabaster	|
+|10| Black opal	|
+|11| Black pearl	|
+|12| Bloodstone	|
+|13| Bloodwood	|
+|14| Blue amber	|
+|15| Blue jade	|
+|16| Blue opal	|
+|17| Bone china	|
+|18| Cairngorm	|
+|19| Carbuncle	|
+|20| Carnelian	|
+|21| Cat's-eye	|
+|22| Chalcedony	|
+|23| Cherry amber	|
+|24| Cinnabar	|
+|25| Citrine	|
+|26| Crystal	|
+|27| Cyclops agate	|
+|28| Dendritic agate	|
+|29| Diamond	|
+|30| Dragon bone	|
+|31| Ebony	|
+|32| Emerald	|
+|33| Fire agate	|
+|34| Fire coral	|
+|35| Fire jasper	|
+|36| Fire opal	|
+|37| Garnet	|
+|38| Gold	|
+|39| Heliodor	|
+|40| Hematite	|
+|41| Horn	|
+|42| Ironwood	|
+|43| Jet	|
+|44| Kingfisher jade	|
+|45| Koa wood	|
+|46| Lapis lazuli	|
+|47| Lavender jade	|
+|48| Lingum vitae	|
+|49| Mahogany	|
+|50| Malachite	|
+|51| Mammoth tusk|
+|52| Moonstone|
+|53| Morganite|
+|54| Moss agate|
+|55| Mother of pearl|
+|56| Narwhal horn|
+|57| Nephrite|
+|58| Obsidian|
+|59| Onyx|
+|60| Orichalcum|
+|61| Palladium|
+|62| Pearl|
+|63| Peridot|
+|64| Petrified wood|
+|65| Pink sapphire|
+|66| Platinum|
+|67| Polyhedroid agate|
+|68| Porcelain|
+|69| Porcelain jasper|
+|70| Porphyry|
+|71| Purpleheart wood|
+|72| Quartz|
+|73| Quetzal jade|
+|74| Rainbow agate|
+|75| Rainbow jasper|
+|76| Rainbow obsidian|
+|77| Redheart wood|
+|78| Rose opal|
+|79| Rose quartz|
+|80| Rosewood|
+|81| Ruby|
+|82| Sandalwood|
+|83| Sapphire|
+|84| Sard|
+|85| Serpentine|
+|86| Silver|
+|87| Snakewood|
+|88| Spinel|
+|89| Star Iron|
+|90| Star rose quartz|
+|91| Star sapphire|
+|92| Sunstone|
+|93| Tiger's eye|
+|94| Tigerwood|
+|95| Topaz|
+|96| Tourmaline|
+|97| Turquoise|
+|98| Turtle shell|
+|99| Unicorn horn|
+|00| Whale ivory|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Weapon" >}}
+| d100 | ? |
+| --- | --------|
+|1| Arming sword	|
+|2| Backsword	|
+|3| Bardiche	|
+|4| Baton	|
+|5| Battleaxe	|
+|6| Beheading sword |
+|7| Bill hook	|
+|8| Blowgun	|
+|9| Blowpipe	|
+|10| Boar spear	|
+|11| Bolas	|
+|12| Boomerang	|
+|13| Brass knuckles	|
+|14| Bullet crossbow  |
+|15| Butterfly sword	|
+|16| Censer flail	|
+|17| Cestus	|
+|18| Chain whip	|
+|19| Chakram	|
+|20| Claymore	|
+|21| Club	|
+|22| Crossbow	|
+|23| Cutlass	|
+|24| Dagger	|
+|25| Dao	|
+|26| Deer horn knives |
+|27| Dirk	|
+|28| Double flail	|
+|29| Emeici	|
+|30| Falchion	|
+|31| Flail	|
+|32| Flambard	|
+|33| Flying claws	|
+|34| Gauntlet sword	|
+|35| Gladius	|
+|36| Glaive	|
+|37| Halberd	|
+|38| Hatchet	|
+|39| Hook sword	|
+|40| Horsebow	|
+|41| Hunting knife	|
+|42| Ice pick	|
+|43| Javelin	|
+|44| Katana	|
+|45| Katar	|
+|46| Kopesh	|
+|47| Kukri	|
+|48| Lance	|
+|49| Lasso	|
+|50| Longbow |
+|51| Longsword|
+|52| Lucerne hammer|
+|53| Mace|
+|54| Machete|
+|55| Man catcher|
+|56| Maul|
+|57| Messer|
+|58| Meteor hammer|
+|59| Military fork|
+|60| Morningstar|
+|61| Nunchaku|
+|62| Pickaxe|
+|63| Pike|
+|64| Poleaxe|
+|65| Push dagger|
+|66| Ranseur|
+|67| Rapier|
+|68| Recurve bow|
+|69| Rondel dagger|
+|70| Rope dart|
+|71| Sabre|
+|72| Sai|
+|73| Scimitar|
+|74| Scourge|
+|75| Shortbow|
+|76| Shortsword|
+|77| Shuriken|
+|78| Sickle|
+|79| Side sword|
+|80| Sling|
+|81| Slingshot|
+|82| Spear|
+|83| Staff|
+|84| Stave sling|
+|85| Stiletto|
+|86| Swordstaff|
+|87| Tanto|
+|88| Three-part staff|
+|89| Throwing axe|
+|90| Throwing knife|
+|91| Tiger claws|
+|92| Tonfa|
+|93| Trident|
+|94| Triple flail|
+|95| Wakizashi|
+|96| War scythe|
+|97| Warhammer|
+|98| Warpick|
+|99| Whip|
+|00| Zweihander|
+{{< /rpg_table >}}
+
+{{< rpg_table name="ItemTrait" >}}
+| d100 | ? |
+| --- | --------|
+|1| Ancient	|
+|2| Avant-garde	|
+|3| Blessed	|
+|4| Bloody	|
+|5| Brittle	|
+|6| Broken	|
+|7| Bulky	|
+|8| Carved	|
+|9| Classy	|
+|10| Cold	|
+|11| Collectible	|
+|12| {Color} (p. 37)	|
+|13| Compact	|
+|14| Crusty	|
+|15| Cultural value	|
+|16| Cursed	|
+|17| Cutting edge	|
+|18| Damaged	|
+|19| Damp	|
+|20| Defective	|
+|21| Detects foes	|
+|22| Disguised	|
+|23| Draws foes	|
+|24| Dusty	|
+|25| Edible	|
+|26| {Effect} (p. 28)	|
+|27| {Element} (p. 29)	|
+|28| Embellished	|
+|29| Encoded	|
+|30| Eroded	|
+|31| Expandable	|
+|32| Extra-planar	|
+|33| Famous	|
+|34| Fashionable	|
+|35| Filthy	|
+|36| Flaking	|
+|37| Floppy	|
+|38| Foldable	|
+|39| Forbidden	|
+|40| Fragile	|
+|41| Gaudy	|
+|42| Glowing	|
+|43| Gold-plated	|
+|44| Gooey	|
+|45| Gorgeous	|
+|46| Heavy	|
+|47| Hot	|
+|48| Icy	|
+|49| Immovable	|
+|50| Impractical |
+|51| Indestructible|
+|52| Infamous|
+|53| Intelligent|
+|54| Kitchy|
+|55| Loud|
+|56| Lukewarm|
+|57| Luxurious|
+|58| Masterwork|
+|59| Military value|
+|60| Miniature|
+|61| Minimalist|
+|62| Modified|
+|63| Mythic|
+|64| Non-human|
+|65| Organic|
+|66| Oversized|
+|67| Owned|
+|68| Padded|
+|69| Painted|
+|70| Partial|
+|71| Perfumed|
+|72| {Personality} (p. 56)|
+|73| Political value|
+|74| Prickly|
+|75| Pulsing|
+|76| Reflective|
+|77| Refurbished|
+|78| Religious value|
+|79| Repaired|
+|80| Reviled|
+|81| Rotting|
+|82| {Scent} (p. 66)|
+|83| Sharp|
+|84| Shiny|
+|85| Shoddy|
+|86| Silent|
+|87| Slippery|
+|88| Smoke-stained|
+|89| {Sound} (p. 66)|
+|90| Spiky|
+|91| Squishy|
+|92| Sticky|
+|93| Stinky|
+|94| Talking|
+|95| {Texture} (p. 36)|
+|96| Toxic|
+|97| Twitching|
+|98| Ugly|
+|99| Vulgar|
+|00| Whispering|
+{{< /rpg_table >}}
+
+
+# Building
+
+{{< rpg_table name="Building" >}}
+| d100 | ? |
+| --- | --------|
+|1| Academy	|
+|2| Alchemist	|
+|3| Apothecary	|
+|4| Archive	|
+|5| Armorer	|
+|6| Art dealer	|
+|7| Asylum	|
+|8| Baker	|
+|9| Bank	|
+|10| Barber	|
+|11| Bathhouse	|
+|12| Blacksmith	|
+|13| Bookbinder	|
+|14| Bookseller	|
+|15| Boyer	|
+|16| Brewery	|
+|17| Butcher	|
+|18| Candlemaker	|
+|19| Carpenter	|
+|20| Castle	|
+|21| Catacombs	|
+|22| Chandler	|
+|23| Cheesemaker	|
+|24| Clockmaker	|
+|25| Clothier	|
+|26| Cobbler	|
+|27| Courthouse	|
+|28| Criminal den	|
+|29| Curiosity shop	|
+|30| Dock	|
+|31| {Dungeon} (p. 16)	|
+|32| Dyer	|
+|33| Fighting pit	|
+|34| Fletcher	|
+|35| Fortune teller	|
+|36| Furrier	|
+|37| Gallery	|
+|38| Gambling hall	|
+|39| Garden	|
+|40| Gatehouse	|
+|41| Glassworks	|
+|42| Goldsmith	|
+|43| Guildhall	|
+|44| Haberdashery	|
+|45| Hospital	|
+|46| {Inn} (p. 48)	|
+|47| Jeweler	|
+|48| Law office	|
+|49| Leatherworks	|
+|50| Library |
+|51| Locksmith|
+|52| Lounge|
+|53| Manor|
+|54| Marketplace|
+|55| Mason|
+|56| Menagerie|
+|57| Monastery|
+|58| Moneylender|
+|59| Museum|
+|60| Observatory|
+|61| Opera house|
+|62| Orphanage|
+|63| Outfitter|
+|64| Palace|
+|65| Park|
+|66| Physician|
+|67| Potter|
+|68| Printer|
+|69| Prison|
+|70| Restaurant|
+|71| Rope maker|
+|72| {Room} (p. 14)|
+|73| Saddler|
+|74| Sewers|
+|75| Shipyards|
+|76| Shrine|
+|77| Slaughterhouse|
+|78| Stables|
+|79| Stockyard|
+|80| Stonecarver|
+|81| {Structure} (p. 11)|
+|82| Tailor|
+|83| Tannery|
+|84| Tattooist|
+|85| Taxidermist|
+|86| Temple|
+|87| Theater|
+|88| Tobacconist|
+|89| Townhouse|
+|90| University|
+|91| Veterinarian|
+|92| Warehouse|
+|93| Watchtower|
+|94| Watermill|
+|95| Weapon smith|
+|96| Weaver|
+|97| Windmill|
+|98| Winery|
+|99| Wizard's tower|
+|00| Workshop|
+{{< /rpg_table >}}
+
+
+{{< rpg_table name="CityTheme" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alchemy	|
+|2| {Animal} (p. 64)	|
+|3| Aristocracy	|
+|4| Art	|
+|5| Asylums	|
+|6| {Activity} (p. 19)	|
+|7| Banking	|
+|8| Baths	|
+|9| Begging	|
+|10| Bells	|
+|11| Brewing	|
+|12| Bridges	|
+|13| {Building} (p. 47)	|
+|14| Bureaucracy	|
+|15| Business	|
+|16| Canals	|
+|17| Catacombs	|
+|18| Cats	|
+|19| {CityEvent} (p. 46)	|
+|20| Courts	|
+|21| Crime families	|
+|22| Cults	|
+|23| Dancing	|
+|24| {Delusion} (p. 30)	|
+|25| Dining	|
+|26| {Disaster} (p. 31)	|
+|27| {Domain} (p. 33)	|
+|28| Drinking	|
+|29| Dueling	|
+|30| {Dungeon} (p. 16)	|
+|31| {Element} (p. 29)	|
+|32| {Faction} (p. 50)	|
+|33| {FactionTrait} (p. 50) |
+|34| Fashion	|
+|35| Festivals	|
+|36| Feuds	|
+|37| Fishing	|
+|38| Flowers	|
+|39| {Food} (p. 49)	|
+|40| Fortifications	|
+|41| Fountains	|
+|42| Gambling	|
+|43| Gangs	|
+|44| Gardens	|
+|45| Government	|
+|46| Guilds	|
+|47| {Hazard} (p. 17)	|
+|48| Horses	|
+|49| Hunger	|
+|50| Industry |
+|51| Inventions|
+|52| Leisure|
+|53| Libraries|
+|54| Livestock|
+|55| {MagicSchool} (p. 31)|
+|56| Marketplaces|
+|57| Mausoleums|
+|58| Medicine|
+|59| Mercenaries|
+|60| Military|
+|61| Monasteries|
+|62| Monuments|
+|63| Museums|
+|64| Music|
+|65| {Mutation} (p. 30)|
+|66| Opulence|
+|67| Perfume|
+|68| Printing|
+|69| Prisons|
+|70| {Profession} (p. 57)|
+|71| Punishment|
+|72| Rats|
+|73| Ravens|
+|74| Refuse|
+|75| Rituals|
+|76| {RoomTheme} (p. 15)|
+|77| Ruins|
+|78| Sacrifices|
+|79| Science|
+|80| Shipyards|
+|81| Slavery|
+|82| Slums|
+|83| Smithing|
+|84| Smoke|
+|85| Song|
+|86| Spices|
+|87| Spores|
+|88| Steam power|
+|89| {Structure} (p. 11)|
+|90| Temples|
+|91| Textiles|
+|92| Theaters|
+|93| Thievery|
+|94| Towers|
+|95| Training|
+|96| {TravelShift} (p. 9)|
+|97| {Treasure} (p. 42)|
+|98| Trees|
+|99| Universities|
+|00| Wizardry|
+{{< /rpg_table >}}
+
+{{< rpg_table name="CityEvent" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Activity} (p. 19)	|
+|2| Alcohol ban	|
+|3| Art trend	|
+|4| Assassination	|
+|5| Beggar crowds	|
+|6| Blessing	|
+|7| Building collapse |
+|8| Carnival	|
+|9| Conscription	|
+|10| Consecration	|
+|11| Construction	|
+|12| Coronation	|
+|13| Coup	|
+|14| Crime wave	|
+|15| Curfew	|
+|16| Delegation	|
+|17| {Delusion} (p. 30)	|
+|18| Demolition	|
+|19| {Disaster} (p. 31)	|
+|20| Discovery	|
+|21| Dueling trend	|
+|22| Earthquake	|
+|23| Election	|
+|24| Excavation	|
+|25| Execution	|
+|26| Exodus	|
+|27| Faction war (p. 50) |
+|28| Fashion ban	|
+|29| Fashion trend	|
+|30| Fasting	|
+|31| Feasting	|
+|32| Fire	|
+|33| Flood	|
+|34| Funeral	|
+|35| Gambling ban	|
+|36| Gang war	|
+|37| Grain shortage	|
+|38| Heresy	|
+|39| Holy day	|
+|40| House war	|
+|41| Hysteria	|
+|42| Iconoclasm	|
+|43| Immigration	|
+|44| Inquisition	|
+|45| Insurrection	|
+|46| Invasion	|
+|47| Jailbreak	|
+|48| Kidnapping	|
+|49| Landslide	|
+|50| Magic ban |
+|51| Manhunt|
+|52| Mass arrests|
+|53| Mass conversion|
+|54| Mass execution|
+|55| Mass expulsion|
+|56| Mass pardon|
+|57| Meat shortage|
+|58| Military parade|
+|59| Missionaries|
+|60| Mourning|
+|61| Mud|
+|62| {Mutation} (p. 30)|
+|63| New invention|
+|64| Patrols|
+|65| Peace talks|
+|66| Pilgrims|
+|67| Plague|
+|68| Political scandal|
+|69| Preaching|
+|70| Procession|
+|71| Proclamation|
+|72| Protests|
+|73| Public debate|
+|74| Public games|
+|75| Public prayer|
+|76| Refugees|
+|77| Religious council|
+|78| Religious scandal|
+|79| Religious war|
+|80| Rioting|
+|81| Sacrifice|
+|82| Schism|
+|83| Serial killer|
+|84| Siege|
+|85| Sinkhole|
+|86| Smoke|
+|87| Social scandal|
+|88| Stench|
+|89| Street racing|
+|90| Summoning|
+|91| Surrender|
+|92| Taxation|
+|93| Textile shortage|
+|94| Tournament|
+|95| {TravelShift} (p. 9)|
+|96| Trial|
+|97| Vandalism|
+|98| Vermin|
+|99| Weapons ban|
+|00| Wedding|
+{{< /rpg_table >}}
+
+{{< rpg_table name="StreetDetail" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Activity} (p. 19)	|
+|2| {Animal} (many) (p. 64)	|
+|3| Aqueduct	|
+|4| Arcade	|
+|5| Archway	|
+|6| Awnings	|
+|7| Balconies	|
+|8| Barricades	|
+|9| Benches	|
+|10| Bonfire	|
+|11| Bricklayers	|
+|12| Bridge	|
+|13| Broken glass	|
+|14| {Building} (p. 47)	|
+|15| Canal	|
+|16| Carpets	|
+|17| Carriages	|
+|18| Carts	|
+|19| Catwalks	|
+|20| Checkpoint	|
+|21| Children	|
+|22| Chimneys	|
+|23| Clergy	|
+|24| Climbable walls	|
+|25| Clotheslines	|
+|26| Compost	|
+|27| Crates	|
+|28| Crowd	|
+|29| Crumbling walls |
+|30| Dead end	|
+|31| Dusty	|
+|32| Entertainers	|
+|33| Fence	|
+|34| Flooding	|
+|35| Food stalls	|
+|36| Fountain	|
+|37| Fresh paint	|
+|38| Fungi	|
+|39| Gardens	|
+|40| Gas leak	|
+|41| Gates	|
+|42| Graffiti	|
+|43| Gravel	|
+|44| Guards	|
+|45| Hay bales	|
+|46| {Hazard} (p. 17)	|
+|47| Hot coals	|
+|48| Ladders	|
+|49| Lampposts	|
+|50| Lanterns |
+|51| Livestock|
+|52| Long steps|
+|53| Manure pile|
+|54| {MiscItems} (many) (p. 39)|
+|55| Mud|
+|56| Narrow|
+|57| Nobility|
+|58| Oil spill|
+|59| Overgrown|
+|60| Palanquins|
+|61| Pickpockets|
+|62| Piles of rags|
+|63| {PlaceTrait} (p. 11)|
+|64| Pollen clouds|
+|65| Pool|
+|66| Posters|
+|67| {Profession} (p. 57)|
+|68| Roof access|
+|69| {RoomDetail} (p. 15)|
+|70| Roots|
+|71| Ropes|
+|72| Roundabout|
+|73| Sand pile|
+|74| Scaffolding|
+|75| Sewage|
+|76| Sewer access|
+|77| Shrine|
+|78| Sinkhole|
+|79| Skybridge|
+|80| Smoke|
+|81| Spilled fruit|
+|82| Statues|
+|83| Steam|
+|84| Steep roofs|
+|85| Steep streets|
+|86| Stepping stones|
+|87| Street cleaners|
+|88| Street criers|
+|89| Teens|
+|90| Tents|
+|91| Thugs|
+|92| Torches|
+|93| Torn up street|
+|94| Trees|
+|95| Tunnel|
+|96| Vermin swarms|
+|97| Weapon stalls|
+|98| Well|
+|99| Wet cement|
+|00| Wine spill|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Inn" >}}
+| d2| Inn |
+| --- | --------|
+| 1 | {InnName1} {InnName2} |
+| 2 | {InnName2} {InnName2} |
+{{< /rpg_table >}}
+
+{{< rpg_table name="InnName1" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Activity} (p. 19)	|
+|2| Bellowing	|
+|3| Bitter	|
+|4| Black	|
+|5| Blazing	|
+|6| Bleak	|
+|7| Blessed	|
+|8| Bloody	|
+|9| Blue	|
+|10| Broken	|
+|11| Bucking	|
+|12| Busy	|
+|13| Cacophonous	|
+|14| {Color} (p. 37)	|
+|15| Copper	|
+|16| Courageous	|
+|17| Crimson	|
+|18| Cunning	|
+|19| Dancing	|
+|20| Dead	|
+|21| Disdainful	|
+|22| Drunken	|
+|23| Extravagant	|
+|24| Floating	|
+|25| Flying	|
+|26| Frosty	|
+|27| Ghastly	|
+|28| Ghostly	|
+|29| Glittering	|
+|30| Golden	|
+|31| Graceful	|
+|32| Green	|
+|33| Grotesque	|
+|34| Harmless	|
+|35| Heartless	|
+|36| Helpful	|
+|37| Hideous	|
+|38| Honeyed	|
+|39| Howling	|
+|40| Hungry	|
+|41| Jolly	|
+|42| Kindly	|
+|43| Last	|
+|44| Lazy	|
+|45| Loathsome	|
+|46| Lovesick	|
+|47| Loyal	|
+|48| Melancholy	|
+|49| Merry	|
+|50| Moldy |
+|51| Musical |
+|52| Muttering |
+|53| Mysterious |
+|54| Nervous |
+|55| Nimble |
+|56| Oozing |
+|57| Petrified |
+|58| {PlaceTrait} (p. 11) |
+|59| Prancing |
+|60| Purple |
+|61| {Quality} (p. 28) |
+|62| Reckless |
+|63| Righteous |
+|64| Roaring |
+|65| Roasted |
+|66| Romantic |
+|67| Ruby |
+|68| Salty |
+|69| Scented |
+|70| Seven |
+|71| Shimmering |
+|72| Shivering |
+|73| Shrieking |
+|74| Sickly |
+|75| Silent |
+|76| Silver |
+|77| Singing |
+|78| Sleeping |
+|79| Smoking |
+|80| {Sound} (p. 66) |
+|81| Squeaky |
+|82| Stubborn |
+|83| Tainted |
+|84| Terrible |
+|85| Thirsty |
+|86| Thirteen |
+|87| Three |
+|88| Tipsy |
+|89| Troublesome |
+|90| Two |
+|91| Vexing |
+|92| Violet |
+|93| Wailing |
+|94| Wandering |
+|95| Wanton |
+|96| Whispering |
+|97| Whistling |
+|98| White |
+|99| Wicked |
+|00| Yellow |
+{{< /rpg_table >}}
+
+{{< rpg_table name="InnName2" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Animal} (p. 64)	|
+|2| Ant	|
+|3| Axe	|
+|4| Barrel	|
+|5| Bear	|
+|6| Beaver	|
+|7| Beetle	|
+|8| Bell	|
+|9| Boar	|
+|10| Boot	|
+|11| Bowl	|
+|12| Bucket	|
+|13| Bull	|
+|14| Candle	|
+|15| Cat	|
+|16| Claw	|
+|17| Cloak	|
+|18| {Clothing} (p. 40)	|
+|19| Cock	|
+|20| Coin	|
+|21| Comb	|
+|22| Cow	|
+|23| Crow	|
+|24| Crown	|
+|25| Cup	|
+|26| Door	|
+|27| Dragon	|
+|28| Eagle	|
+|29| Egg	|
+|30| Elephant	|
+|31| Fish	|
+|32| Flea	|
+|33| {Food} (p. 49)	|
+|34| Fork	|
+|35| Giant	|
+|36| Griffin	|
+|37| Hare	|
+|38| Hart	|
+|39| Hawk	|
+|40| Hen	|
+|41| Hog	|
+|42| Hole	|
+|43| Horse	|
+|44| Hound	|
+|45| Jar	|
+|46| Kettle	|
+|47| Key	|
+|48| Knife	|
+|49| Lamb	|
+|50| Lamp |
+|51| Lantern|
+|52| Lion|
+|53| Lute|
+|54| Mackerel|
+|55| Maid|
+|56| Mermaid|
+|57| {MiscItem} (p. 39)|
+|58| Mole|
+|59| Monk|
+|60| {Monster} (p. 61)|
+|61| Moon|
+|62| Mule|
+|63| Needle|
+|64| Noose|
+|65| Orb|
+|66| Pearl|
+|67| Pig|
+|68| Pipe|
+|69| Plow|
+|70| Post|
+|71| Prince|
+|72| {Profession} (p. 57)|
+|73| Queen|
+|74| Rat|
+|75| Rose|
+|76| Saint|
+|77| Serpent|
+|78| Shoe|
+|79| Shovel|
+|80| Skull|
+|81| Sow|
+|82| Spoon|
+|83| Staff|
+|84| Star|
+|85| Stone|
+|86| Sun|
+|87| Sword|
+|88| Thistle|
+|89| Thorn|
+|90| Torch|
+|91| Tower|
+|92| Unicorn|
+|93| Vulture|
+|94| {Weapon} (p. 43)|
+|95| Weasel|
+|96| Whale|
+|97| Wheel|
+|98| Whistle|
+|99| Wife|
+|00| Worm|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Food" >}}
+| ? |
+| --------|
+| {FoodTrait} {FoodType} |
+{{< /rpg_table >}}
+
+{{< rpg_table name="FoodTrait" >}}
+| d100 | ? |
+| --- | --------|
+|1| Aged	|
+|2| Bacon-wrapped	|
+|3| Baked	|
+|4| Balls	|
+|5| Barbecued	|
+|6| Basted	|
+|7| Battered	|
+|8| Blackened	|
+|9| Blanched	|
+|10| Boiled	|
+|11| Braised	|
+|12| Breaded	|
+|13| Brined	|
+|14| Broiled	|
+|15| Broth	|
+|16| Browned	|
+|17| Buttered	|
+|18| Cake	|
+|19| Candied	|
+|20| Canned	|
+|21| Caramelized	|
+|22| Casserole	|
+|23| Charred	|
+|24| Chilled	|
+|25| Chowder	|
+|26| Cobbler	|
+|27| Creamed	|
+|28| Crumble	|
+|29| Cubed	|
+|30| Cured	|
+|31| Deep-fried	|
+|32| Diced	|
+|33| Drunk	|
+|34| Emulsified	|
+|35| Fermented	|
+|36| Flambéd	|
+|37| Fondue	|
+|38| Frozen	|
+|39| Glazed	|
+|40| Grilled	|
+|41| Gruel	|
+|42| Hash	|
+|43| Hasty	|
+|44| Honeyed	|
+|45| Iced	|
+|46| Inside-out	|
+|47| Jellied	|
+|48| Layered	|
+|49| Live	|
+|50| Loaf |
+|51| Marinated|
+|52| Mashed|
+|53| Melt|
+|54| Minced|
+|55| Moldy|
+|56| Pan-fried|
+|57| Pastry|
+|58| Patty|
+|59| Peppered|
+|60| Pickled|
+|61| Pie|
+|62| Poached|
+|63| Porridge|
+|64| Pudding|
+|65| Quiche|
+|66| Rancid|
+|67| Raw|
+|68| Roasted|
+|69| Roll|
+|70| Salad|
+|71| Salted|
+|72| Sandwich|
+|73| Sausage|
+|74| Sautéed|
+|75| Seared|
+|76| Seasoned|
+|77| Shredded|
+|78| Simmered|
+|79| Slow-cooked|
+|80| Smoked|
+|81| Soup|
+|82| Sour|
+|83| Spiced|
+|84| Spit-roasted|
+|85| Stale|
+|86| Steamed|
+|87| Stewed|
+|88| Stir-fried|
+|89| Strips|
+|90| Stuffed|
+|91| Sugared|
+|92| Sun-dried|
+|93| Tenderized|
+|94| {Texture} (p. 36)|
+|95| Toasted|
+|96| Turnover|
+|97| Undercooked|
+|98| Upside-down|
+|99| Wind-dried|
+|00| Wrapped|
+{{< /rpg_table >}}
+
+{{< rpg_table name="FoodType" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acorn	|
+|2| Alligator	|
+|3| Almond	|
+|4| {Animal} (p. 64)	|
+|5| Antelope	|
+|6| Apple	|
+|7| Artichokes	|
+|8| Asparagus	|
+|9| Bass	|
+|10| Bear	|
+|11| Beaver	|
+|12| Beef	|
+|13| Beet	|
+|14| Bell pepper	|
+|15| Bison	|
+|16| Blueberry	|
+|17| Broccoli	|
+|18| Brussels sprout	|
+|19| Cabbage	|
+|20| Carp	|
+|21| Carrot	|
+|22| Catfish	|
+|23| Cattail	|
+|24| Cauliflower	|
+|25| Caviar	|
+|26| Celery	|
+|27| Cheese	|
+|28| Cherry	|
+|29| Chestnut	|
+|30| Chicken	|
+|31| Clams	|
+|32| Corn	|
+|33| Crab	|
+|34| Crayfish	|
+|35| Cucumber	|
+|36| Dandelion	|
+|37| Duck	|
+|38| Eel	|
+|39| Egg	|
+|40| Eggplant	|
+|41| Elk	|
+|42| Goat	|
+|43| Goose	|
+|44| Grape	|
+|45| Green bean	|
+|46| Guinea pig	|
+|47| Ham	|
+|48| Hare	|
+|49| Hazelnut	|
+|50| Hot pepper |
+|51| Kidney bean|
+|52| Lamb|
+|53| Leek|
+|54| Lemon|
+|55| Lime|
+|56| Lobster|
+|57| Moose|
+|58| {Monster} (p. 61)|
+|59| Mushroom|
+|60| Mussels|
+|61| Mutton|
+|62| Onion|
+|63| Orange|
+|64| {Organ} (p. 64)|
+|65| Partridge|
+|66| Pea|
+|67| Pear|
+|68| Perch|
+|69| Pheasant|
+|70| Pork|
+|71| Possum|
+|72| Potato|
+|73| Pumpkin|
+|74| Quail|
+|75| Rabbit|
+|76| Raccoon|
+|77| Radish|
+|78| Raspberry|
+|79| Rat|
+|80| Reindeer|
+|81| Rhubarb|
+|82| Salmon|
+|83| Shrimp|
+|84| Snails|
+|85| Snake|
+|86| Spinach|
+|87| Squash|
+|88| Squirrel|
+|89| Strawberry|
+|90| Sturgeon|
+|91| Tangerine|
+|92| Tomato|
+|93| Trout|
+|94| Turnip|
+|95| Turtle|
+|96| Veal|
+|97| Venison|
+|98| Walnut|
+|99| Wild boar|
+|00| Yam|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Faction" >}}
+| ? |
+| --------|
+| {FactionTrait} and {FactionTrait} {FactionType}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}. |
+{{< /rpg_table >}}
+
+{{< rpg_table name="FactionType" >}}
+| d100 | ? |
+| --- | --------|
+|1| Actors' guild	|
+|2| Angelic army	|
+|3| Art movement	|
+|4| Art school	|
+|5| Assassins' guild	|
+|6| Bandit troop	|
+|7| Banking corp	|
+|8| Barbarian horde |
+|9| Bards' guild	|
+|10| Beggars' guild	|
+|11| Big game hunters |
+|12| Burgling crew	|
+|13| Chimney sweeps |
+|14| Circus troupe	|
+|15| City council	|
+|16| City guard	|
+|17| Convent	|
+|18| Counterfeiters	|
+|19| Courtier faction  |
+|20| Crafting guild	|
+|21| Crime family	|
+|22| Cult fanatics	|
+|23| Debate society	|
+|24| Demonic army	|
+|25| Deserter band	|
+|26| Dragon cult	|
+|27| Druid circle	|
+|28| Dungeoneer guild |
+|29| Elite warriors	|
+|30| Explorer's club	|
+|31| Fencing school	|
+|32| Fight club	|
+|33| Fraternity	|
+|34| Free company	|
+|35| Gambling ring	|
+|36| Ghost society	|
+|37| Gladiator league |
+|38| Gourmand club	|
+|39| Gravediggers	|
+|40| Healing order	|
+|41| Heist crew	|
+|42| Heretical sect	|
+|43| High council	|
+|44| Hired muscle	|
+|45| Illuminati	|
+|46| Inquisition	|
+|47| Knightly order	|
+|48| Living machines |
+|49| Local watch	|
+|50| Mad scientists |
+|51| Merchant cartel|
+|52| Midwife union|
+|53| Militia|
+|54| Mining company|
+|55| Monastery|
+|56| Monster hunters|
+|57| Mothers|
+|58| Mutants|
+|59| National church|
+|60| Naval crew|
+|61| Necromancers|
+|62| Noble house|
+|63| Officers' club|
+|64| Oracles' circle|
+|65| Outlander clan|
+|66| Peacekeepers|
+|67| Philosophy club|
+|68| Pirate crew|
+|69| Poachers|
+|70| Social movement|
+|71| Political party|
+|72| Ranger squad|
+|73| Religious sect|
+|74| Resistance|
+|75| Royal army|
+|76| Royal house|
+|77| Scholar's circle|
+|78| School faculty|
+|79| Secret society|
+|80| Sewer people|
+|81| Smuggling ring|
+|82| Sports league|
+|83| Sports team|
+|84| Spy network|
+|85| Street artists|
+|86| Street gang|
+|87| Street musicians|
+|88| Student union|
+|89| Terrorist cell|
+|90| Thieves' guild|
+|91| Trade company|
+|92| Urchin swarm|
+|93| Vampire clan|
+|94| Veteran society|
+|95| Vigilante league|
+|96| Warlock pact|
+|97| Werewolf pack|
+|98| Witch coven|
+|99| Wizard school|
+|00| Zombie horde|
+{{< /rpg_table >}}
+
+{{< rpg_table name="FactionTrait" >}}
+| d100 | ? |
+| --- | --------|
+|1| Activist	|
+|2| {Activity} (p. 19)	|
+|3| Aging	|
+|4| Anarchic	|
+|5| Ancient	|
+|6| Athletic	|
+|7| Avant-garde	|
+|8| Backstabbing	|
+|9| Bankrupt	|
+|10| Breakaway	|
+|11| Bureaucratic	|
+|12| Charitable	|
+|13| Code of conduct |
+|14| Connected	|
+|15| Contemptuous	|
+|16| Corrupt	|
+|17| Crime-fighting	|
+|18| Decadent	|
+|19| Desperate	|
+|20| Discriminatory	|
+|21| Disciplined	|
+|22| Divided	|
+|23| Dwindling	|
+|24| Egalitarian	|
+|25| Elite	|
+|26| Eloquent	|
+|27| Elusive	|
+|28| Erratic	|
+|29| Exclusive	|
+|30| Expanding	|
+|31| Family	|
+|32| Fanatical	|
+|33| Feared	|
+|34| Fractious	|
+|35| Genteel	|
+|36| Glamorous	|
+|37| Global reach	|
+|38| Gullible	|
+|39| Heretical	|
+|40| Homeless	|
+|41| Hunted	|
+|42| Inbred	|
+|43| Incompetent	|
+|44| Incorruptible	|
+|45| Inquisitive	|
+|46| Insane	|
+|47| Insular	|
+|48| Internecine	|
+|49| Intoxicated	|
+|50| Laid back |
+|51| Law-abiding|
+|52| Learned|
+|53| Magical|
+|54| Manipulative|
+|55| Martial|
+|56| Monarchist|
+|57| Murderous|
+|58| Musical|
+|59| Mutated|
+|60| National reach|
+|61| Obnoxious|
+|62| Ostentatious|
+|63| Patriotic|
+|64| {Personality} (p. 56)|
+|65| Pious|
+|66| Popular|
+|67| Predatory|
+|68| Predictable|
+|69| Proselytizing|
+|70| Proud|
+|71| Respected|
+|72| Reunified|
+|73| Revered|
+|74| Reviled|
+|75| Revolutionary|
+|76| Righteous|
+|77| Rules-bound|
+|78| Ruthless|
+|79| Scrappy|
+|80| Secretive|
+|81| Single-minded|
+|82| Slandered|
+|83| Snobby|
+|84| Stealthy|
+|85| Stodgy|
+|86| Subversive|
+|87| Suppressed|
+|88| Thieving|
+|89| Threatened|
+|90| Thriving|
+|91| Traitorous|
+|92| Undead|
+|93| Up-and-coming|
+|94| Wealthy|
+|95| Welcoming|
+|96| Well-armed|
+|97| Well-provisioned|
+|98| Wretched|
+|99| Xenophobic|
+|00| Youthful|
+{{< /rpg_table >}}
+
+
+{{< rpg_table name="Mission" >}}
+| d100 | ? |
+| --- | --------|
+|1| Apprehend NPC  |
+|2| Arrange marriage |
+|3| Awaken monster |
+|4| Banish demon	|
+|5| Befoul location	|
+|6| Blackmail NPC	|
+|7| Bribe faction	|
+|8| Bribe NPC	|
+|9| Burgle building	|
+|10| Chart dungeon	|
+|11| Chart location	|
+|12| Clear dungeon	|
+|13| Clear lair	|
+|14| Control building |
+|15| Craft item	|
+|16| Cripple NPC	|
+|17| Deceive faction	|
+|18| Deceive NPC	|
+|19| Deface building	|
+|20| Defraud NPC	|
+|21| Destroy building |
+|22| Destroy item	|
+|23| Destroy monster |
+|24| Destroy warband |
+|25| Discredit NPC	|
+|26| Drown NPC	|
+|27| Duplicate item	|
+|28| Entertain NPC	|
+|29| Entrap NPC	|
+|30| Escape building	|
+|31| Escape city	|
+|32| Escape dungeon |
+|33| Escape location	|
+|34| Escort NPC	|
+|35| Extort NPC	|
+|36| Follow NPC	|
+|37| Forge weapon	|
+|38| Frame NPC	|
+|39| Frighten NPC	|
+|40| {Goal} (p. 57)	|
+|41| Haunt NPC	|
+|42| Hide item	|
+|43| Hide NPC	|
+|44| Humiliate NPC	|
+|45| Impersonate NPC |
+|46| Impress faction	|
+|47| Impress NPC	|
+|48| Infiltrate building |
+|49| Infiltrate city	|
+|50| Infiltrate dungeon |
+|51| Infiltrate faction|
+|52| Investigate crime|
+|53| Kidnap leader|
+|54| Kidnap NPC|
+|55| Kill leader|
+|56| Kill NPC|
+|57| Locate city|
+|58| Locate dungeon|
+|59| Locate faction|
+|60| Locate item|
+|61| Locate landmark|
+|62| Locate NPC|
+|63| Locate location|
+|64| Loot dungeon|
+|65| Overthrow NPC|
+|66| Patrol building|
+|67| Patrol city|
+|68| Persuade faction|
+|69| Persuade NPC|
+|70| Plant item|
+|71| Poison NPC|
+|72| Prank NPC|
+|73| Protect building|
+|74| Protect item|
+|75| Protect NPC|
+|76| Pursue NPC|
+|77| Raid building|
+|78| Replace item|
+|79| Replace NPC|
+|80| Rescue family|
+|81| Rescue leader|
+|82| Rescue NPC|
+|83| Resolve dispute|
+|84| Retrieve item|
+|85| Rob faction|
+|86| Rob NPC|
+|87| Sabotage item|
+|88| Sabotage treaty|
+|89| Sabotage wedding|
+|90| Seduce NPC|
+|91| Smuggle item in|
+|92| Smuggle item out|
+|93| Spread rumor|
+|94| Spy on faction|
+|95| Spy on NPC|
+|96| Summon being|
+|97| Survive test|
+|98| Tame monster|
+|99| Transport item|
+|00| Transport NPC|
+{{< /rpg_table >}}
+
+
+{{< rpg_table name="Reward" >}}
+| d100 | ? |
+| --- | --------|
+|1| A blind eye	|
+|2| Alcohol	|
+|3| {Animal} (p. 64)	|
+|4| Armor	|
+|5| Army	|
+|6| Artwork	|
+|7| {Asset} (p. 58)	|
+|8| Blackmail	|
+|9| Blessing	|
+|10| Blueprints	|
+|11| {Building} (p. 47)	|
+|12| Business	|
+|13| Caravel	|
+|14| Carriage	|
+|15| Castle	|
+|16| Chapel	|
+|17| Charter	|
+|18| Companion	|
+|19| Contract	|
+|20| Cottage	|
+|21| Craftsmen	|
+|22| Cypher	|
+|23| Delivery	|
+|24| {Dungeon} (p. 16)	|
+|25| Dungeon map	|
+|26| Endorsement	|
+|27| Estate	|
+|28| Expert	|
+|29| {FactionType} ally (p. 50) |
+|30| Familiar	|
+|31| Farm	|
+|32| Favor	|
+|33| Fishing boat	|
+|34| Fleet	|
+|35| Forge	|
+|36| Formula	|
+|37| Galleon	|
+|38| Gold	|
+|39| Guide	|
+|40| Guildhall	|
+|41| Healing	|
+|42| Hideout	|
+|43| Hirelings	|
+|44| Hounds	|
+|45| House	|
+|46| Influential ally	|
+|47| {Inn} (p. 48)	|
+|48| Jewels	|
+|49| Key	|
+|50| Livestock |
+|51| {Location} (p. 10)|
+|52| Machine|
+|53| {MagicItem} |
+|54| Magical ally|
+|55| Mansion|
+|56| {Material} (p. 42)|
+|57| Meeting|
+|58| Mercenaries|
+|59| {Monster} ally (p. 61)|
+|60| Noble clothing|
+|61| Noble title|
+|62| Palace|
+|63| Pardon|
+|64| Planar portal|
+|65| Political clout|
+|66| {Potion} (p. 35)|
+|67| Printing press|
+|68| Reduced sentence|
+|69| Location map|
+|70| Relic|
+|71| Religious clout|
+|72| Renown|
+|73| Revenge|
+|74| Rights|
+|75| Royal clothing|
+|76| Safe passage|
+|77| Secret|
+|78| Servants|
+|79| Shortcut|
+|80| Sloop|
+|81| Social clout|
+|82| {Spell} (pp. 22-25)|
+|83| Spices|
+|84| {Structure} (p. 11)|
+|85| Temple|
+|86| Theater|
+|87| Time extension|
+|88| Tower|
+|89| Training|
+|90| Transformation|
+|91| Transport|
+|92| {Treasure} (p. 42)|
+|93| Treasure map|
+|94| Vineyard|
+|95| Wagon|
+|96| Warband|
+|97| Warhorse|
+|98| Wealthy clothing|
+|99| {Weakness} (p. 67)|
+|00| {Weapon} (p. 43)|
+{{< /rpg_table >}}
+
+
+# TODO
 
 {{< rpg_table name="Archetype" >}}
 | d100 | Archetype |
@@ -3676,111 +7069,6 @@ Tables from Knave 2e.
 {{< /rpg_table >}}
 
 
-{{< rpg_table name="Mutation" >}}
-| d100 | Mutation |
-| --- | --------|
-|1| Ages backwards  |
-|2| Ages faster	|
-|3| {Animal} body (p. 64) |
-|4| {Animal} ears (p. 64) |
-|5| {Animal} eyes (p. 64) |
-|6| {Animal} form (p. 64) |
-|7| {Animal} head (p. 64) |
-|8| {Animal} limb (p. 64) |
-|9| {Animal} scent (p. 64) |
-|10| {Animal} skin (p. 64) |
-|11| {Animal} tail (p. 64) |
-|12| {Animal} teeth (p. 64) |
-|13| {Animal} voice (p. 64) |
-|14| Antennae	|
-|15| Antlers	|
-|16| Arms grow	|
-|17| Bat wings	|
-|18| Beak	|
-|19| Bird wings	|
-|20| Bleeds acid	|
-|21| Chameleon eyes |
-|22| Claws	|
-|23| {Color} skin (p. 37)	|
-|24| Crystal growth	|
-|25| Drooling	|
-|26| Duck bill	|
-|27| Ears grow	|
-|28| {Element} blood (p. 29) |
-|29| {Element} body (p. 29) |
-|30| {Element} breath (p. 29) |
-|31| Emits fumes	|
-|32| Excretes ooze	|
-|33| Extra arms	|
-|34| Extra eyes	|
-|35| Extra fingers	|
-|36| Extra heads	|
-|37| Extra legs	|
-|38| Eye stalks	|
-|39| Eyes grow	|
-|40| Fangs	|
-|41| Feathers	|
-|42| Feet swell	|
-|43| Fins	|
-|44| Fly eyes	|
-|45| Fungal growth	|
-|46| Gain d20 inches  |
-|47| Gills	|
-|48| Hair growth	|
-|49| Hair loss	|
-|50| Hands swell |
-|51| Head swells|
-|52| Horns|
-|53| Invisible head|
-|54| Jelly arms|
-|55| Legs grow|
-|56| Long tongue|
-|57| Lose d20 inches|
-|58| {Mannerism} (p. 59)|
-|59| {MonsterTrait} (p. 65)|
-|60| No eyes|
-|61| No nose|
-|62| No teeth|
-|63| {NPCDetail} (p. 56)|
-|64| One arm|
-|65| One eye|
-|66| One leg|
-|67| {Organ} (p. 64)|
-|68| {Personality} (p. 56)|
-|69| Pig snout|
-|70| {Power} (p. 65)|
-|71| Rat tail|
-|72| Scales|
-|73| {Scent} (p. 66)|
-|74| Scorpion tail|
-|75| Shaggy fur|
-|76| Shell|
-|77| Skin boils|
-|78| Skin hardens|
-|79| Skin pattern|
-|80| Skin sags|
-|81| Skin shedding|
-|82| Smoke breath|
-|83| Snake hair|
-|84| {Sound} (p. 66)|
-|85| Spines|
-|86| Spinnerets|
-|87| Suction cups|
-|88| Sweats blood|
-|89| Tentacles|
-|90| {Texture} body (p. 36)|
-|91| Totally numb|
-|92| Translucent skin|
-|93| Transparent skin|
-|94| Tusks|
-|95| Two faces|
-|96| Warts|
-|97| Webbed hands|
-|98| Weight doubles|
-|99| Weight halves|
-|00| Wooly|
-{{< /rpg_table >}}
-
 {{< rpg_table name="Scent" >}}
 | d100 | Scent |
 | --- | --------|
@@ -4201,3283 +7489,6 @@ Tables from Knave 2e.
 |00| Wormwood
 {{< /rpg_table >}}
 
-
-
-{{< rpg_table name="Delusion" >}}
-| d100 | ? |
-| --- | --------|
-|1| {Activity} (p. 19)	|
-|2| Always drunk	|
-|3| Always polite	|
-|4| Always rude	|
-|5| Always sleepy	|
-|6| Amnesia	|
-|7| {Animal} (p. 64)	|
-|8| {Asset} (p. 58)	|
-|9| Aura reading	|
-|10| Automaton	|
-|11| Being followed	|
-|12| Cannot count	|
-|13| Cannot lie	|
-|14| Cannot read	|
-|15| Chosen one	|
-|16| Clone	|
-|17| Constant rage	|
-|18| Dark vision	|
-|19| Demonic	|
-|20| Divine	|
-|21| Extra limb	|
-|22| Falls in love	|
-|23| Famous	|
-|24| Fears birds	|
-|25| Fears blood	|
-|26| Fears {Domain} (p. 33)  |
-|27| Fears fire	|
-|28| Fears gold	|
-|29| Fears iron	|
-|30| Fears music	|
-|31| Fears own hand  |
-|32| Fears PC	|
-|33| Fears rain	|
-|34| Fears rivers	|
-|35| Fears sleep	|
-|36| Fears sunlight	|
-|37| Fears {Symbol} (p. 33) |
-|38| Fears the moon	|
-|39| Flight	|
-|40| Genius	|
-|41| Gets lost	|
-|42| {Goal} (p. 57)	|
-|43| Gorgeous	|
-|44| Hates violence	|
-|45| Healing touch	|
-|46| Hideous	|
-|47| Illuminati	|
-|48| Immortal	|
-|49| In an RPG	|
-|50| Infamous |
-|51| Invisible|
-|52| Invisible servant|
-|53| Invulnerable|
-|54| Language switch|
-|55| {Liability} (p. 58)|
-|56| {Mannerism} (p. 59)|
-|57| Medium|
-|58| Mind controlled|
-|59| Missing limb|
-|60| {Mission} (p. 51)|
-|61| {Monster} (p. 61)|
-|62| {MonsterTrait} (p. 65)|
-|63| Must dance|
-|64| Must lie|
-|65| Must obey|
-|66| Must shout|
-|67| Must skip|
-|68| Must steal|
-|69| {Name} (pp. 54-55)|
-|70| {NPCDetail} (p. 56)|
-|71| {Organ} (p. 64)|
-|72| Personal army|
-|73| {Personality} (p. 56)|
-|74| Planar traveler|
-|75| {Power} (p. 65)|
-|76| {Profession} (p. 57)|
-|77| Prophet|
-|78| Reincarnated|
-|79| Rich|
-|80| Says thoughts|
-|81| Secret monarch|
-|82| Sees dead people|
-|83| Shapeshifter|
-|84| Silent|
-|85| Skin {Texture} (p. 36)|
-|86| {Sound} (p. 66)|
-|87| Spy|
-|88| Super strength|
-|89| Talks to animals|
-|90| Talks to plants|
-|91| Telekinetic|
-|92| Telepathic|
-|93| Time traveler|
-|94| Vampire|
-|95| {Weakness} (p. 67)|
-|96| Weather control|
-|97| Werewolf|
-|98| Whispers|
-|99| {WizardName} (p. 27)|
-|00| X-ray vision|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Disaster" >}}
-| d100 | ? |
-| --- | --------|
-|1 |Acid rain	|
-|2 |Aging accelerates |
-|3 |Aging reverses	|
-|4 |All iron rusts	|
-|5 |Amnesia	|
-|6 |Animal revolt	|
-|7 |Animals die	|
-|8 |Animals mutate |
-|9 |Animals speak	|
-|10 |Birds attack	|
-|11 |Birds die	|
-|12 |Body swaps	|
-|13 |Cities move	|
-|14 |City appears	|
-|15 |City changes	|
-|16 |Deadly fog	|
-|17 |{Delusion} (p. 30)	|
-|18 |Demon invasion |
-|19 |Doors lock	|
-|20 |Dragon wakes	|
-|21 |Dream plague	|
-|22 |Drought	|
-|23 |Earth to sand	|
-|24 |Earthquake	|
-|25 |{Effect} rain (p. 28)	|
-|26 |{Element} rain (p. 29) |
-|27 |Endless day	|
-|28 |Endless night	|
-|29 |Endless rain	|
-|30 |Endless storm	|
-|31 |Endless twilight |
-|32 |Endless winter	|
-|33 |Eruption	|
-|34 |Fae return	|
-|35 |Famine	|
-|36 |Fear epidemic	|
-|37 |Firestorm	|
-|38 |Fish die	|
-|39 |Fish speak	|
-|40 |Flesh to stone	|
-|41 |Flood	|
-|42 |Forest appears	|
-|43 |Forgetfulness	|
-|44 |Giants march	|
-|45 |Gold to tin	|
-|46 |Graves open	|
-|47 |Gravity decreases |
-|48 |Gravity increases |
-|49 |Hills move	|
-|50 |Iron to cloth |
-|51 |Language loss|
-|52 |Lightning storm|
-|53 |Living nightmare|
-|54 |Locusts|
-|55 |Maggots|
-|56 |Magic barrier|
-|57 |Mass blindness|
-|58 |Mass hypnosis|
-|59 |Mass insanity|
-|60 |Mass possession|
-|61 |Mass slumber|
-|62 |Mass telepathy|
-|63 |Meteor strike|
-|64 |Mirages|
-|65 |Mirrors speak|
-|66 |{Mutation} (p. 30)|
-|67 |No stars|
-|68 |Objects animate|
-|69 |Outsider enters|
-|70 |People shrink|
-|71 |People vanish|
-|72 |Pits open|
-|73 |Plague|
-|74 |Planar overlay|
-|75 |Plants wither|
-|76 |Portal opens|
-|77 |Rage epidemic|
-|78 |Rampant growth|
-|79 |Rifts open|
-|80 |Rivers move|
-|81 |Rivers reverse|
-|82 |Roads move|
-|83 |Shadows detach|
-|84 |Shadows speak|
-|85 |Smoke|
-|86 |Space distorts|
-|87 |Stone to flesh|
-|88 |Stones speak|
-|89 |{Texture} rain (p. 36)|
-|90 |Time loop|
-|91 |Time slows|
-|92 |Time warp|
-|93 |Tornado|
-|94 |Total silence|
-|95 |Tower appears|
-|96 |Trees march|
-|97 |Voices of dead|
-|98 |Water to blood|
-|99 |{Weapon} rain (p. 43)|
-|00 |Windstorm|
-{{< /rpg_table >}}
-
-{{< rpg_table name="MagicSchool" >}}
-| d100 | ? |
-| --- | --------|
-|1| Abjuration	|
-|2| Air	|
-|3| Alchemy	|
-|4| Alteration	|
-|5| Animation	|
-|6| Anti-magic	|
-|7| Archery	|
-|8| Architecture	|
-|9| Armor	|
-|10| Artifice	|
-|11| Beasts	|
-|12| Biomancy	|
-|13| Birds	|
-|14| {Book} (p. 40)	|
-|15| Charms	|
-|16| Chromatic	|
-|17| Conjuration	|
-|18| Counterspells	|
-|19| Creation	|
-|20| Darkness	|
-|21| Death	|
-|22| Desert	|
-|23| Destruction	|
-|24| Divination	|
-|25| {Domain} (p. 33)	|
-|26| Dragons	|
-|27| Dreams	|
-|28| Earth	|
-|29| Emotions	|
-|30| Enchantment	|
-|31| Evocation	|
-|32| Fear	|
-|33| Finding	|
-|34| Fire	|
-|35| Fish	|
-|36| Flight	|
-|37| Food	|
-|38| Force	|
-|39| Forest	|
-|40| Fungi	|
-|41| Geometry	|
-|42| Healing	|
-|43| Ice	|
-|44| Ignorance	|
-|45| Illness	|
-|46| Illumination	|
-|47| Illusion	|
-|48| Insects	|
-|49| Invocation	|
-|50| Knowledge |
-|51| Lightning|
-|52| Martial arts|
-|53| Memory|
-|54| Metamagic|
-|55| Mind control|
-|56| Mirrors|
-|57| Misdirection|
-|58| Mist|
-|59| Music|
-|60| Necromancy|
-|61| Oratory|
-|62| Outsiders|
-|63| Planes|
-|64| Portals|
-|65| Power|
-|66| Protection|
-|67| Rays|
-|68| Reptiles|
-|69| Revelation|
-|70| {RoomTheme} (p. 15)|
-|71| Sea|
-|72| Servants|
-|73| Shadow|
-|74| Shaping|
-|75| Sight|
-|76| Sound|
-|77| Speed|
-|78| Stars|
-|79| Stasis|
-|80| Staves|
-|81| Stealth|
-|82| Stones|
-|83| Storms|
-|84| Summoning|
-|85| Sun|
-|86| Swords|
-|87| Telekinesis|
-|88| Telepathy|
-|89| Teleportation|
-|90| Theft|
-|91| Time|
-|92| Transmutation|
-|93| Trickery|
-|94| Vampirism|
-|95| Walls|
-|96| Water|
-|97| Weapons|
-|98| Wild magic|
-|99| Wind|
-|00| Witchery|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Domain" >}}
-| d100 | ? |
-| --- | --------|
-|1| Acid	|
-|2| Alchemy	|
-|3| Beauty	|
-|4| Bees	|
-|5| Beggars	|
-|6| Betrayal	|
-|7| Birds	|
-|8| Blades	|
-|9| Blood	|
-|10| Blossoms	|
-|11| {Book} (p. 40)	|
-|12| Clay	|
-|13| Clouds	|
-|14| Commerce	|
-|15| Courage	|
-|16| Cowards	|
-|17| Craftsmanship	|
-|18| Crows	|
-|19| Darkness	|
-|20| Deserts	|
-|21| Destruction	|
-|22| Disease	|
-|23| Doors	|
-|24| Dreams	|
-|25| Duels	|
-|26| Eagles	|
-|27| Earthquakes	|
-|28| Fire	|
-|29| Fish	|
-|30| Forge	|
-|31| Fungi	|
-|32| Gluttony	|
-|33| Greed	|
-|34| Healing	|
-|35| Horses	|
-|36| Hunger	|
-|37| Illusions	|
-|38| Jealousy	|
-|39| Language	|
-|40| Lava	|
-|41| Libraries	|
-|42| Light	|
-|43| Lightning	|
-|44| Love	|
-|45| Luck	|
-|46| Machines	|
-|47| Madness	|
-|48| {MagicSchool} (p. 31) |
-|49| Mazes	|
-|50| Mirrors |
-|51| Mountains|
-|52| Murderers|
-|53| Music|
-|54| Oratory|
-|55| Performance|
-|56| Poison|
-|57| Priests|
-|58| Prisoners|
-|59| Rage|
-|60| Rain|
-|61| Revenge|
-|62| Revolution|
-|63| Roads|
-|64| {RoomTheme} (p. 15)|
-|65| Royalty|
-|66| Rust|
-|67| Sand|
-|68| Secrets|
-|69| Serpents|
-|70| Silence|
-|71| Slaves|
-|72| Sleep|
-|73| Smoke|
-|74| Soldiers|
-|75| Spiders|
-|76| Swamps|
-|77| Tailors|
-|78| The blind|
-|79| The elderly|
-|80| The future|
-|81| The grave|
-|82| The harvest|
-|83| The hearth|
-|84| The hunt|
-|85| The haw|
-|86| The sea|
-|87| Thieves|
-|88| Thorns|
-|89| Travelers|
-|90| Trees|
-|91| Trickery|
-|92| Truth|
-|93| Tundra|
-|94| Tunnels|
-|95| Vermin|
-|96| Walls|
-|97| Wind|
-|98| Wine|
-|99| Winter|
-|00| Wolves|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Symbol" >}}
-| d100 | ? |
-| --- | --------|
-|1| {Animal} (p. 64)	|
-|2| Antlers	|
-|3| Arrow	|
-|4| Axe	|
-|5| Bear	|
-|6| Bell	|
-|7| Bird	|
-|8| Blood drop	|
-|9| Book	|
-|10| Boots	|
-|11| Bow	|
-|12| Bowl	|
-|13| Branch	|
-|14| Brazier	|
-|15| Cauldron	|
-|16| Chain	|
-|17| Chariot	|
-|18| Circle	|
-|19| {Clothing} (p. 40)	|
-|20| Cloud	|
-|21| Coin	|
-|22| Constellation	|
-|23| Crab	|
-|24| Cross	|
-|25| Crown	|
-|26| Crystal	|
-|27| Dagger	|
-|28| Deer	|
-|29| Dice	|
-|30| Eye	|
-|31| Fangs	|
-|32| Feather	|
-|33| Fish	|
-|34| Fist	|
-|35| Flower	|
-|36| Fountain	|
-|37| {Food} (p. 49)	|
-|38| {Form} (p. 29)	|
-|39| Fox	|
-|40| Frog	|
-|41| Gate	|
-|42| Goat	|
-|43| Hammer	|
-|44| Hand	|
-|45| Heart	|
-|46| Helmet	|
-|47| Hook	|
-|48| Horn	|
-|49| Horse	|
-|50| Hourglass |
-|51| Key|
-|52| Knot|
-|53| Lamp|
-|54| Leaf|
-|55| Lightning bolt|
-|56| Lock|
-|57| Mask|
-|58| {MiscItem} (p. 39)|
-|59| Moon|
-|60| Nut|
-|61| Octopus|
-|62| {Organ} (p. 64)|
-|63| Ox|
-|64| Pen|
-|65| Pincer|
-|66| Pine cone|
-|67| Planet|
-|68| Rabbit|
-|69| Rat|
-|70| Ring|
-|71| Scorpion|
-|72| Scales|
-|73| Scroll|
-|74| Serpent|
-|75| Shield|
-|76| Sickle|
-|77| Skull|
-|78| Snail|
-|79| Snowflake|
-|80| Spear|
-|81| Spiral|
-|82| Square|
-|83| Staff|
-|84| Star|
-|85| Sun|
-|86| Sword|
-|87| Tentacle|
-|88| Throne|
-|89| Tooth|
-|90| Torch|
-|91| Tree|
-|92| Triangle|
-|93| Turtle|
-|94| Wave|
-|95| {Weapon} (p. 43)|
-|96| Web|
-|97| Whale|
-|98| Whip|
-|99| Wings|
-|00| Wolf|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Texture" >}}
-| d100 | ? |
-| --- | --------|
-|1| Aerated	|
-|2| Battery	|
-|3| Blended	|
-|4| Boiling	|
-|5| Brackish	|
-|6| Bubbling	|
-|7| Buttery	|
-|8| Caramelized	|
-|9| Chalky	|
-|10| Chilled	|
-|11| Chunky	|
-|12| Churning	|
-|13| Clotted	|
-|14| Coagulated	|
-|15| Condensed	|
-|16| Congealed	|
-|17| Cool	|
-|18| Creamy	|
-|19| Crystalized	|
-|20| Curdled	|
-|21| Dregs	|
-|22| Effervescent	|
-|23| Filmy	|
-|24| Fizzing	|
-|25| Flakes	|
-|26| Foaming	|
-|27| Foggy	|
-|28| Frigid	|
-|29| Frosty	|
-|30| Frothy	|
-|31| Gelatinous	|
-|32| Glimmering	|
-|33| Gloppy	|
-|34| Glowing	|
-|35| Gluey	|
-|36| Grainy	|
-|37| Greasy	|
-|38| Gritty	|
-|39| Grounds	|
-|40| Gummy	|
-|41| Gunky	|
-|42| Gurgling	|
-|43| Hissing	|
-|44| Humming	|
-|45| Ichorous	|
-|46| Icy	|
-|47| Jellied	|
-|48| Living	|
-|49| Lukewarm	|
-|50| Lumpy |
-|51| Mashed|
-|52| Metallic|
-|53| Motes|
-|54| Moving|
-|55| Muddy|
-|56| Murky|
-|57| Mushy|
-|58| Oily|
-|59| Oozy|
-|60| Pasty|
-|61| Powdery|
-|62| Pudding|
-|63| Pulpy|
-|64| Pulsing|
-|65| Pureed|
-|66| Quicksilver|
-|67| Reflective|
-|68| Rippling|
-|69| Roiling|
-|70| Sandy|
-|71| Sappy|
-|72| Scalding|
-|73| Scummy film|
-|74| Sediment|
-|75| Shining|
-|76| Silty|
-|77| Simmering|
-|78| Sizzling|
-|79| Slimy|
-|80| Slushy|
-|81| Smoking|
-|82| Smoky|
-|83| Soapy|
-|84| Sparkling|
-|85| Steaming|
-|86| Sticky|
-|87| Swirling|
-|88| Syrupy|
-|89| Tarry|
-|90| Thin|
-|91| Throbbing|
-|92| Trembling|
-|93| Turbulent|
-|94| Vibrating|
-|95| Viscid|
-|96| Viscous|
-|97| Warm|
-|98| Watery|
-|99| Whirling|
-|00| Whistling|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Taste" >}}
-| d100 | ? |
-| --- | --------|
-|1| Absinthe	|
-|2| Allspice	|
-|3| Almond	|
-|4| Ammonia	|
-|5| {Animal} (p. 64)	|
-|6| Asparagus	|
-|7| Basil	|
-|8| Beer	|
-|9| Berries	|
-|10| Black currant	|
-|11| Blackberry	|
-|12| Blood	|
-|13| Butter	|
-|14| Camphor	|
-|15| Candy	|
-|16| Caramel	|
-|17| Cardamom	|
-|18| Cherry	|
-|19| Chili pepper	|
-|20| Chives	|
-|21| Chocolate	|
-|22| Cinnamon	|
-|23| Cloves	|
-|24| Coconut	|
-|25| Coffee	|
-|26| Copper	|
-|27| Cranberry	|
-|28| Crude oil	|
-|29| Cucumber	|
-|30| Cumin	|
-|31| Curry	|
-|32| Dates	|
-|33| Elderberry	|
-|34| Figs	|
-|35| Flowers	|
-|36| {Food} (p. 49)	|
-|37| Garlic	|
-|38| Ginger	|
-|39| Gooseberry	|
-|40| Grapefruit	|
-|41| Grass	|
-|42| Herbs	|
-|43| Honey	|
-|44| Honeysuckle	|
-|45| Horseradish	|
-|46| Huckleberry	|
-|47| Hyacinth	|
-|48| Leather	|
-|49| Lemon	|
-|50| Lemongrass |
-|51| Licorice|
-|52| Lime|
-|53| Loam|
-|54| Maple syrup|
-|55| Mead|
-|56| Milk|
-|57| Mineral|
-|58| Mint|
-|59| Mud|
-|60| Mustard|
-|61| Nutmeg|
-|62| Oak|
-|63| Olive oil|
-|64| Onion|
-|65| Orange|
-|66| Oregano|
-|67| Peach|
-|68| Pears|
-|69| Pepper|
-|70| Phlegm|
-|71| Pickle juice|
-|72| Pine|
-|73| Pistachios|
-|74| Plum|
-|75| Pumpkin|
-|76| Quince|
-|77| Rhubarb|
-|78| Roast duck|
-|79| Rose|
-|80| Rosemary|
-|81| Rust|
-|82| Saffron|
-|83| Sage|
-|84| Salt water|
-|85| {Scent} (p. 66)|
-|86| Soap|
-|87| Soursop|
-|88| Spearmint|
-|89| Sulphur|
-|90| Tamarind|
-|91| Tea|
-|92| Tears|
-|93| Thyme|
-|94| Tobacco|
-|95| Vanilla|
-|96| Walnuts|
-|97| Whiskey|
-|98| Wine|
-|99| Wintergreen|
-|00| Wormwood|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Color" >}}
-| d100 | ? |
-| --- | --------|
-|1| Acid green	|
-|2| Alabaster	|
-|3| Amber	|
-|4| Amethyst	|
-|5| Apricot	|
-|6| Aquamarine	|
-|7| Asparagus	|
-|8| Auburn	|
-|9| Aureolin	|
-|10| Avocado	|
-|11| Azure	|
-|12| Baby blue	|
-|13| Beige	|
-|14| Bone	|
-|15| Bottle green	|
-|16| Bronze	|
-|17| Bubblegum	|
-|18| Carmine	|
-|19| Carrot	|
-|20| Celadon	|
-|21| Cerise	|
-|22| Cerulean	|
-|23| Champagne	|
-|24| Charcoal	|
-|25| Chartreuse	|
-|26| Chestnut	|
-|27| Cinnamon	|
-|28| Colorless	|
-|29| Coppery	|
-|30| Coral pink	|
-|31| Creamy	|
-|32| Crimson	|
-|33| Cyan	|
-|34| Dove grey	|
-|35| Dun	|
-|36| Eggshell	|
-|37| Electric blue	|
-|38| Emerald	|
-|39| Flesh	|
-|40| Fuchsia	|
-|41| Fuligin	|
-|42| Golden	|
-|43| Grape juice	|
-|44| Heliotrope	|
-|45| Ice blue	|
-|46| Indigo	|
-|47| Inky	|
-|48| Invisible	|
-|49| Ivory	|
-|50| Kelly green |
-|51| Lavender|
-|52| Lilac|
-|53| Lime|
-|54| Magenta|
-|55| Mahogany|
-|56| Maroon|
-|57| Mauve|
-|58| Milk white|
-|59| Moss green|
-|60| Mustard|
-|61| Ochre|
-|62| Olive|
-|63| Opalescent|
-|64| Oxblood|
-|65| Pea green|
-|66| Peach|
-|67| Peacock blue|
-|68| Pearl|
-|69| Periwinkle|
-|70| Pine green|
-|71| Plum|
-|72| Primrose|
-|73| Pumpkin|
-|74| Rainbow|
-|75| Rose|
-|76| Ruby|
-|77| Russet|
-|78| Rusty|
-|79| Saffron|
-|80| Salmon|
-|81| Sapphire|
-|82| Scarlet|
-|83| Sepia|
-|84| Shocking pink|
-|85| Silver|
-|86| Slate blue|
-|87| Smokey grey|
-|88| Tangerine|
-|89| Teal|
-|90| Terracotta|
-|91| Titian red|
-|92| Tomato|
-|93| Turquoise|
-|94| Tyrian|
-|95| Ultramarine|
-|96| Umber|
-|97| Verdigris|
-|98| Vermilion|
-|99| Violet|
-|00| Viridian|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Ingredient" >}}
-| d100 | ? |
-| --- | --------|
-|1| {Animal} (p. 64)	|
-|2| Antimony	|
-|3| Arsenic	|
-|4| Belladonna	|
-|5| Bitumen	|
-|6| Black pearl	|
-|7| Blind eye	|
-|8| {Book} (p. 40)	|
-|9| Brimstone	|
-|10| Camphor	|
-|11| Celandine	|
-|12| Chalk	|
-|13| {Clothing} (p. 40)	|
-|14| Cobalt	|
-|15| Cocklebur	|
-|16| Coffin nail	|
-|17| Columbine	|
-|18| Copper	|
-|19| Corpse's hair	|
-|20| Crossroad dust	|
-|21| Dandelion	|
-|22| Deathcap	|
-|23| Devil's trumpet	|
-|24| Element	|
-|25| {Fabric} (p. 41)	|
-|26| {Food} (p. 49)	|
-|27| Foxglove	|
-|28| Funeral wine	|
-|29| Gold	|
-|30| Grave dust	|
-|31| Hellebore	|
-|32| Hemlock	|
-|33| Henbane	|
-|34| Holly	|
-|35| Honey	|
-|36| Hyssop	|
-|37| Iron	|
-|38| Killer's hand	|
-|39| King's tooth	|
-|40| Larkspur	|
-|41| Last breath	|
-|42| Lead	|
-|43| Liar's tongue	|
-|44| Lightning bolt	|
-|45| Lime	|
-|46| Lodestone	|
-|47| Lotus	|
-|48| Lye	|
-|49| Mandrake	|
-|50| {Material} (p. 42) |
-|51| Meadowsweet|
-|52| {MiscItem} (p. 39)|
-|53| Mistletoe|
-|54| Monk's vow|
-|55| {Monster} (p. 61)|
-|56| Moonflower|
-|57| Mugwort|
-|58| Natron|
-|59| Nectar|
-|60| Nettle|
-|61| Newborn's cry|
-|62| Nickel|
-|63| Nightshade|
-|64| {Organ} (p. 64)|
-|65| Platinum|
-|66| Poppy|
-|67| {Potion} (p. 35)|
-|68| Pyre ember|
-|69| Queen bee|
-|70| Queen's blood|
-|71| Quicksilver|
-|72| Ragwort|
-|73| Resin|
-|74| Rosemary|
-|75| Sage|
-|76| Sea water|
-|77| Ship's barnacle|
-|78| Silver|
-|79| Snakeweed|
-|80| Soot|
-|81| Star-metal|
-|82| Stinkhorn|
-|83| Sugar|
-|84| Thief's finger|
-|85| Thistle|
-|86| Tin|
-|87| Tomb flower|
-|88| {Tool} (p. 39)|
-|89| {Treasure} (p. 42)|
-|90| Valerian|
-|91| Verdigris|
-|92| Vinegar|
-|93| Wax|
-|94| {Weapon} (p. 43)|
-|95| Wedding ring|
-|96| Widow's tears|
-|97| Witch hazel|
-|98| Wizard's skull|
-|99| Wolfsbane|
-|00| Wormwood|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Tool" >}}
-| d100 | ? |
-| --- | --------|
-|1| Acid vial	|
-|2| Animal scent	|
-|3| Antitoxin	|
-|4| Astrolabe	|
-|5| Bandoleer	|
-|6| Bear trap	|
-|7| Bedroll	|
-|8| Beeswax	|
-|9| Bell	|
-|10| Bellows	|
-|11| Birdcage	|
-|12| Blank book	|
-|13| Blanket	|
-|14| Block and tackle |
-|15| Boltcutters	|
-|16| Bottle	|
-|17| Bucket	|
-|18| Bullseye lantern  |
-|19| Caltrops	|
-|20| Candle	|
-|21| Censer	|
-|22| Chain	|
-|23| Chalk	|
-|24| Chisel	|
-|25| Climbing hook	|
-|26| Compass	|
-|27| Copper wire	|
-|28| Crowbar	|
-|29| Dice	|
-|30| Door ram	|
-|31| Ear trumpet	|
-|32| Ether	|
-|33| Fire oil	|
-|34| Fishing hook	|
-|35| Flashbomb	|
-|36| Flashpowder	|
-|37| Garlic	|
-|38| Glue	|
-|39| Grappling hook  |
-|40| Grease	|
-|41| Hacksaw	|
-|42| Hammer	|
-|43| Hand drill	|
-|44| Hemp rope	|
-|45| Hog holder	|
-|46| Hooded lantern	|
-|47| Hound	|
-|48| Hourglass	|
-|49| Incense	|
-|50| Iron pot |
-|51| Iron tongs|
-|52| Lantern|
-|53| Large sack|
-|54| Lockpicks|
-|55| Lodestone|
-|56| Magnifying lens|
-|57| Manacles|
-|58| Marbles|
-|59| Metal File|
-|60| Mortar and pestle|
-|61| Mule|
-|62| Net|
-|63| Padlock and key|
-|64| Pen and ink|
-|65| Pickaxe|
-|66| Pitchfork|
-|67| Piton|
-|68| Pliers|
-|69| Poison|
-|70| Pole (10')|
-|71| Pure alcohol|
-|72| Rat|
-|73| Rum|
-|74| Salve|
-|75| Scissors|
-|76| Sealing wax|
-|77| Sewing needle|
-|78| Sextant|
-|79| Shovel|
-|80| Silk rope|
-|81| Sledgehammer|
-|82| Smokebomb|
-|83| Smoked goggles|
-|84| Soap|
-|85| Spikes|
-|86| Spyglass|
-|87| Stake|
-|88| Steel mirror|
-|89| Sundial|
-|90| Tent|
-|91| Thick gloves|
-|92| Tinderbox|
-|93| Torch|
-|94| Trumpet|
-|95| Twine|
-|96| Vial|
-|97| Waterskin|
-|98| Whetstone|
-|99| Whistle|
-|00| Wolfsbane|
-{{< /rpg_table >}}
-
-{{< rpg_table name="MiscItem" >}}
-| d100 | ? |
-| --- | --------|
-|1| Amulet	|
-|2| Arrowhead	|
-|3| Birdcage	|
-|4| {Book} (p. 40)	|
-|5| Bowl	|
-|6| Box	|
-|7| Brooch	|
-|8| Button	|
-|9| Card	|
-|10| Cipher	|
-|11| Clock	|
-|12| {Clothing} (p. 40)	|
-|13| Coin	|
-|14| Comb	|
-|15| Crystal	|
-|16| Cup	|
-|17| Degree	|
-|18| Doll	|
-|19| Drum	|
-|20| Egg	|
-|21| Embroidery	|
-|22| {Fabric} (p. 41)	|
-|23| Feather	|
-|24| Figurine	|
-|25| Finger bone	|
-|26| Flag	|
-|27| Flute	|
-|28| {Food} (p. 49)	|
-|29| {Food} recipe	|
-|30| Fork	|
-|31| Game piece	|
-|32| Gem	|
-|33| Hair oil	|
-|34| Hairbrush	|
-|35| Handkerchief	|
-|36| Horn	|
-|37| Icon	|
-|38| {Ingredient} (p. 37)	|
-|39| Jar	|
-|40| Key	|
-|41| Knife	|
-|42| Ladle	|
-|43| Leg bone	|
-|44| Lens	|
-|45| Letter	|
-|46| List of demands	|
-|47| Lock of hair	|
-|48| Locket	|
-|49| Lotion	|
-|50| Lute |
-|51| Lyre|
-|52| Manifesto|
-|53| Map|
-|54| Mascara|
-|55| {Material} (p. 42)|
-|56| Military orders|
-|57| Mirror|
-|58| Orb|
-|59| {Organ} (p. 64)|
-|60| Paintbrush|
-|61| Painting|
-|62| Passport|
-|63| Pearl|
-|64| Perfume|
-|65| Pipe|
-|66| Pipes|
-|67| Poem|
-|68| Portrait|
-|69| {Potion} (p. 35)|
-|70| {Potion} recipe (p. 35)|
-|71| Prayer|
-|72| Pressed flower|
-|73| Purse|
-|74| Puzzle box|
-|75| Pyramid|
-|76| Razor|
-|77| Ribbon|
-|78| Ring|
-|79| Rouge|
-|80| Shopping list|
-|81| Signet ring|
-|82| Sketchbook|
-|83| Skull|
-|84| Snuffbox|
-|85| Spatula|
-|86| {SpellScroll} (p. 22)|
-|87| {SpellBook} (p. 22)|
-|88| Spoon|
-|89| Star chart|
-|90| Ticket|
-|91| {Tool} (p. 39)|
-|92| Tooth|
-|93| {Treasure} (p. 42)|
-|94| Treaty|
-|95| Tuning fork|
-|96| Wand|
-|97| Warrant|
-|98| {Weapon} (p. 43)|
-|99| Wine|
-|00| Yarn|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Book" >}}
-| d100 | ? |
-| --- | --------|
-|1| Adventure novel |
-|2| Agriculture	|
-|3| Almanac	|
-|4| Anatomy	|
-|5| Ancient history	|
-|6| Archaeology	|
-|7| Architecture	|
-|8| Astrology	|
-|9| Bestiary	|
-|10| Biography	|
-|11| Blackmail	|
-|12| Botany	|
-|13| Calendars	|
-|14| {CityTheme} (p. 46) |
-|15| Comedic novel	|
-|16| Commerce	|
-|17| Condemnation	|
-|18| Confession	|
-|19| Conspiracies	|
-|20| Cookbook	|
-|21| Criminal secrets |
-|22| Cryptography	|
-|23| Culture	|
-|24| Customs	|
-|25| Diplomacy	|
-|26| {Disaster} (p. 31)	|
-|27| Divination	|
-|28| {Domain} (p. 33)	|
-|29| {Dungeon} (p. 16)	|
-|30| Epic poems	|
-|31| Espionage	|
-|32| Ethics	|
-|33| Etiquette	|
-|34| {FactionType} (p. 50)	|
-|35| Fashion	|
-|36| Finance	|
-|37| Fishing	|
-|38| Folklore	|
-|39| Genealogy	|
-|40| Geography	|
-|41| Geology	|
-|42| Ghosts	|
-|43| Gods	|
-|44| Hagiography	|
-|45| Heraldry	|
-|46| Horror stories	|
-|47| Hunting	|
-|48| Husbandry	|
-|49| Journal	|
-|50| Language |
-|51| Laws|
-|52| Letters|
-|53| Libraries|
-|54| Logic|
-|55| Lost empires|
-|56| Lost places|
-|57| Love poems|
-|58| {MagicSchool} (p. 31)|
-|59| Mathematics|
-|60| Medicine|
-|61| Modern history|
-|62| {Monster} (p. 61)|
-|63| Music|
-|64| Mystery novel|
-|65| Mythology|
-|66| Nation|
-|67| Navigation|
-|68| Oceanography|
-|69| Painting|
-|70| Planar studies|
-|71| Politics|
-|72| {Potion} recipe (p. 35)|
-|73| Prayers|
-|74| {Profession} (p. 57)|
-|75| Propaganda|
-|76| Prophecies|
-|77| Psychology|
-|78| Region|
-|79| Religion|
-|80| Rhetoric|
-|81| Romantic novel|
-|82| {RoomTheme} (p. 15)|
-|83| Sages|
-|84| Sayings|
-|85| Sculpture|
-|86| Secret societies|
-|87| Shipbuilding|
-|88| Shrines|
-|89| Siegecraft|
-|90| Songs|
-|91| {Spell} (pp. 22-25)|
-|92| State secrets|
-|93| Sword fighting|
-|94| Theology|
-|95| {Trap} (pp. 16-17)|
-|96| Treasures|
-|97| Utopian novel|
-|98| War chronicle|
-|99| Who's who|
-|00| Witch-hunting|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Clothing" >}}
-| d100 | ? |
-| --- | --------|
-|1| Alb	|
-|2| Arm wrap	|
-|3| Arming doublet  |
-|4| Bascinet	|
-|5| Belt	|
-|6| Beret	|
-|7| Bicorne hat	|
-|8| Blouse	|
-|9| Bodice	|
-|10| Bonnet	|
-|11| Boots	|
-|12| Bracelet	|
-|13| Braies	|
-|14| Breastplate	|
-|15| Breeches	|
-|16| Buckler	|
-|17| Cap	|
-|18| Cape	|
-|19| Cassock	|
-|20| Chaperon	|
-|21| Chasuble	|
-|22| Cincture	|
-|23| Cloak	|
-|24| Clogs	|
-|25| Coat	|
-|26| Codpiece	|
-|27| Corset	|
-|28| Cotte	|
-|29| Cowl	|
-|30| Cravat	|
-|31| Curiass	|
-|32| Dalmatic	|
-|33| Doublet	|
-|34| Dress	|
-|35| Earing	|
-|36| Eyepatch	|
-|37| Fez	|
-|38| Frog mouth helm |
-|39| Gambeson	|
-|40| Gauntlet	|
-|41| Girdle	|
-|42| Gloves	|
-|43| Gorget	|
-|44| Gown	|
-|45| Great helm	|
-|46| Greaves	|
-|47| Hat	|
-|48| Hauberk	|
-|49| Headdress	|
-|50| Helmet |
-|51| Hood|
-|52| Hose|
-|53| Hounskull helm|
-|54| Houppeland|
-|55| Jacket|
-|56| Jerkin|
-|57| Kerchief|
-|58| Kilt|
-|59| Kirtle|
-|60| Leg wrap|
-|61| Maniple|
-|62| Mask|
-|63| Mitre|
-|64| Nasal helm|
-|65| Necklace|
-|66| Nightcap|
-|67| Pauldron|
-|68| Petticoat|
-|69| Pocket|
-|70| Pointed hat|
-|71| Purse|
-|72| Rerebrace|
-|73| Robe|
-|74| Sabatons|
-|75| Salet|
-|76| Sandals|
-|77| Sash|
-|78| Scarf|
-|79| Shield|
-|80| Shirt|
-|81| Shoes|
-|82| Skirt|
-|83| Sleeves|
-|84| Slippers|
-|85| Smock|
-|86| Socks|
-|87| Stockings|
-|88| Stole|
-|89| Surcoat|
-|90| Surplice|
-|91| Tabard|
-|92| Tower shield|
-|93| Tricorn hat|
-|94| Trousers|
-|95| Tunic|
-|96| Turban|
-|97| Vambrace|
-|98| Veil|
-|99| Vest|
-|00| Wimple|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Fabric" >}}
-| d100 | ? |
-| --- | --------|
-|1| Alligator skin	|
-|2| Alpaca wool	|
-|3| {Animal} skin (p. 64) |
-|4| Badger skin	|
-|5| Bamboo weave	|
-|6| Barkcloth	|
-|7| Bearskin	|
-|8| Beaver skin	|
-|9| Blanket	|
-|10| Brass	|
-|11| Brocade	|
-|12| Bronze	|
-|13| Burlap	|
-|14| Calfskin	|
-|15| Calico	|
-|16| Camel hair	|
-|17| Camel skin	|
-|18| Canvas	|
-|19| Cashmere wool  |
-|20| Cat hair	|
-|21| Chambray	|
-|22| Chiffon	|
-|23| Chino	|
-|24| Coconut fiber	|
-|25| Copper	|
-|26| Corduroy	|
-|27| Cotton	|
-|28| Cow skin	|
-|29| Crepe	|
-|30| Damask	|
-|31| Deerskin	|
-|32| Denim	|
-|33| Dog hair	|
-|34| Eel skin	|
-|35| Felt	|
-|36| Fish skin	|
-|37| Fishnet	|
-|38| Flannel	|
-|39| Flax	|
-|40| Fleece	|
-|41| Fox skin	|
-|42| Gauze	|
-|43| Gingham	|
-|44| Goatskin	|
-|45| Grass weave	|
-|46| Hemp	|
-|47| Herringbone	|
-|48| Horse hair	|
-|49| Horse skin	|
-|50| Iron	|
-|51| Jute|
-|52| Lace|
-|53| Lamb wool|
-|54| Lambskin|
-|55| Leather|
-|56| Leopard skin|
-|57| Linen|
-|58| Lion skin|
-|59| Llama wool|
-|60| Mail|
-|61| Mesh|
-|62| Mink fur|
-|63| Mink skin|
-|64| Mohair wool|
-|65| {Monster} skin (p. 61)|
-|66| Muslin|
-|67| Oilcloth|
-|68| Ostrich skin|
-|69| Otter skin|
-|70| Patchwork|
-|71| Pig skin|
-|72| Quilt|
-|73| Rabbit skin|
-|74| Rags|
-|75| Rat skin|
-|76| Reindeer skin|
-|77| Sailcloth|
-|78| Satin|
-|79| Sealskin|
-|80| Seersucker|
-|81| Sheepskin|
-|82| Sheep wool|
-|83| Silk|
-|84| Snake skin|
-|85| Squirrel skin|
-|86| Steel|
-|87| Stingray skin|
-|88| Suede|
-|89| Taffeta|
-|90| Tartan|
-|91| Terrycloth|
-|92| Tiger skin|
-|93| Tinsel|
-|94| Tulle|
-|95| Tweed|
-|96| Twill|
-|97| Velour|
-|98| Velvet|
-|99| Wolf skin|
-|00| Yak wool|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Decoration" >}}
-| d100 | ? |
-| --- | --------|
-|1| Antique	|
-|2| Beaded	|
-|3| Beast motif	|
-|4| Bells	|
-|5| Bird motif	|
-|6| Bloody	|
-|7| Bones	|
-|8| Buckles	|
-|9| Buttons	|
-|10| Chains	|
-|11| Chimes	|
-|12| Cloud motif	|
-|13| Coat of arms	|
-|14| {Color} (p. 37)	|
-|15| Cords	|
-|16| Decorative coins |
-|17| Distressed	|
-|18| Down-stuffed	|
-|19| Emblem	|
-|20| Embroidered	|
-|21| Enamel pins	|
-|22| Feathers	|
-|23| Flamboyant	|
-|24| Flame motif	|
-|25| Flower motif	|
-|26| Flowers	|
-|27| Food-stained	|
-|28| Formal	|
-|29| Fringe	|
-|30| Fur lined	|
-|31| Fur trim	|
-|32| Gold studs	|
-|33| Gold thread	|
-|34| Harlequin	|
-|35| Heavyweight	|
-|36| Heraldry	|
-|37| Horns	|
-|38| Ink-stained	|
-|39| {ItemTrait} (p. 43)	|
-|40| Jewels	|
-|41| Lace trim	|
-|42| Laced up	|
-|43| Medallions	|
-|44| Mold	|
-|45| Monster motif	|
-|46| Moon motif	|
-|47| Moth-eaten	|
-|48| Muddy	|
-|49| Ocean motif	|
-|50| Ornate border |
-|51| Oversized|
-|52| Padded|
-|53| Paisley|
-|54| Patches|
-|55| Pearls|
-|56| Perfumed|
-|57| Plated|
-|58| Pockets|
-|59| Punctured|
-|60| Reeking|
-|61| Rhinestones|
-|62| Ribbed|
-|63| Ribbons|
-|64| Ruffles|
-|65| Satin bows|
-|66| Scandalous|
-|67| {Scent} (p. 66)|
-|68| Secret pocket|
-|69| Sequins|
-|70| Shimmering|
-|71| Sigils|
-|72| Silver studs|
-|73| Silver thread|
-|74| Skintight|
-|75| Skull motif|
-|76| Slashed|
-|77| Sparkling|
-|78| Spiked|
-|79| Spot pattern|
-|80| Star motif|
-|81| Starched|
-|82| Stonewashed|
-|83| Striped|
-|84| Studded|
-|85| Sun designs|
-|86| Sun-faded|
-|87| {Symbol} (p. 33)|
-|88| Tassels|
-|89| Taxidermy|
-|90| Threadbare|
-|91| Tie-died|
-|92| Torn|
-|93| Tree motif|
-|94| Undersized|
-|95| Unfashionable|
-|96| Velvet applique|
-|97| Wave designs|
-|98| Wine-stained|
-|99| Wrinkled|
-|00| Zigzag pattern|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Treasure" >}}
-| d100 | ? |
-| --- | --------|
-|1| Alchemical device |
-|2| Amulet	|
-|3| Armor	|
-|4| Arrows	|
-|5| Astrolabe	|
-|6| Belt	|
-|7| Blackmail	|
-|8| Blueprints	|
-|9| {Book} (p. 40)	|
-|10| Bow	|
-|11| Bowl	|
-|12| Bracelet	|
-|13| Business record	|
-|14| Calligraphy	|
-|15| Candelabra	|
-|16| Carpet	|
-|17| Celestial map	|
-|18| Chalice	|
-|19| Chandelier	|
-|20| Clock	|
-|21| {Clothing} (p. 40)	|
-|22| Codpiece	|
-|23| Comb	|
-|24| Compass	|
-|25| Contract	|
-|26| Couch	|
-|27| Crown	|
-|28| Crystal	|
-|29| Dagger	|
-|30| Deed	|
-|31| Doll	|
-|32| Dress	|
-|33| Earrings	|
-|34| Embroidery	|
-|35| Fine china	|
-|36| Fine liquor	|
-|37| Furs	|
-|38| Gaming set	|
-|39| Gemstone	|
-|40| Helmet	|
-|41| {Ingredient} (p. 37)	|
-|42| Instrument	|
-|43| Ivory carving	|
-|44| Lamp	|
-|45| Letter	|
-|46| {Material} (p. 42)	|
-|47| Medal	|
-|48| Mirror	|
-|49| {Monster} skin (p. 61) |
-|50| Mosaic |
-|51| Mural|
-|52| Music box|
-|53| Necklace|
-|54| {Organ} (p. 64)|
-|55| Orrery|
-|56| Painting|
-|57| Pen|
-|58| Perfume|
-|59| Pipe|
-|60| Planar map|
-|61| Porcelain figure|
-|62| {Potion} (p. 35)|
-|63| Prayer book|
-|64| Printing block|
-|65| Rare coin|
-|66| Relic|
-|67| {Reward} (p. 51)|
-|68| Ring|
-|69| Royal robes|
-|70| Scabbard|
-|71| Scientific device|
-|72| Scrimshaw|
-|73| Sextant|
-|74| Sheet music|
-|75| Shield|
-|76| Shoes|
-|77| Signet ring|
-|78| Silk|
-|79| Silverware|
-|80| Snuffbox|
-|81| Spear|
-|82| {Spell} (pp. 22-25)|
-|83| Spices|
-|84| Spyglass|
-|85| Stained glass|
-|86| State secrets|
-|87| Stone statue|
-|88| Sword|
-|89| Table|
-|90| Tapestry|
-|91| Taxidermy|
-|92| Tea set|
-|93| Telescope|
-|94| Throne|
-|95| Treasure map|
-|96| Trophy|
-|97| Trunk|
-|98| Vase|
-|99| Watch|
-|00| {Weapon} (p. 43)|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Material" >}}
-| d100 | ? |
-| --- | --------|
-|1| Adamantine	|
-|2| Alabaster	|
-|3| Amber	|
-|4| Ambergris	|
-|5| Aquamarine	|
-|6| Aventurine	|
-|7| Azurite	|
-|8| Beryl	|
-|9| Black alabaster	|
-|10| Black opal	|
-|11| Black pearl	|
-|12| Bloodstone	|
-|13| Bloodwood	|
-|14| Blue amber	|
-|15| Blue jade	|
-|16| Blue opal	|
-|17| Bone china	|
-|18| Cairngorm	|
-|19| Carbuncle	|
-|20| Carnelian	|
-|21| Cat's-eye	|
-|22| Chalcedony	|
-|23| Cherry amber	|
-|24| Cinnabar	|
-|25| Citrine	|
-|26| Crystal	|
-|27| Cyclops agate	|
-|28| Dendritic agate	|
-|29| Diamond	|
-|30| Dragon bone	|
-|31| Ebony	|
-|32| Emerald	|
-|33| Fire agate	|
-|34| Fire coral	|
-|35| Fire jasper	|
-|36| Fire opal	|
-|37| Garnet	|
-|38| Gold	|
-|39| Heliodor	|
-|40| Hematite	|
-|41| Horn	|
-|42| Ironwood	|
-|43| Jet	|
-|44| Kingfisher jade	|
-|45| Koa wood	|
-|46| Lapis lazuli	|
-|47| Lavender jade	|
-|48| Lingum vitae	|
-|49| Mahogany	|
-|50| Malachite	|
-|51| Mammoth tusk|
-|52| Moonstone|
-|53| Morganite|
-|54| Moss agate|
-|55| Mother of pearl|
-|56| Narwhal horn|
-|57| Nephrite|
-|58| Obsidian|
-|59| Onyx|
-|60| Orichalcum|
-|61| Palladium|
-|62| Pearl|
-|63| Peridot|
-|64| Petrified wood|
-|65| Pink sapphire|
-|66| Platinum|
-|67| Polyhedroid agate|
-|68| Porcelain|
-|69| Porcelain jasper|
-|70| Porphyry|
-|71| Purpleheart wood|
-|72| Quartz|
-|73| Quetzal jade|
-|74| Rainbow agate|
-|75| Rainbow jasper|
-|76| Rainbow obsidian|
-|77| Redheart wood|
-|78| Rose opal|
-|79| Rose quartz|
-|80| Rosewood|
-|81| Ruby|
-|82| Sandalwood|
-|83| Sapphire|
-|84| Sard|
-|85| Serpentine|
-|86| Silver|
-|87| Snakewood|
-|88| Spinel|
-|89| Star Iron|
-|90| Star rose quartz|
-|91| Star sapphire|
-|92| Sunstone|
-|93| Tiger's eye|
-|94| Tigerwood|
-|95| Topaz|
-|96| Tourmaline|
-|97| Turquoise|
-|98| Turtle shell|
-|99| Unicorn horn|
-|00| Whale ivory|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Weapon" >}}
-| d100 | ? |
-| --- | --------|
-|1| Arming sword	|
-|2| Backsword	|
-|3| Bardiche	|
-|4| Baton	|
-|5| Battleaxe	|
-|6| Beheading sword |
-|7| Bill hook	|
-|8| Blowgun	|
-|9| Blowpipe	|
-|10| Boar spear	|
-|11| Bolas	|
-|12| Boomerang	|
-|13| Brass knuckles	|
-|14| Bullet crossbow  |
-|15| Butterfly sword	|
-|16| Censer flail	|
-|17| Cestus	|
-|18| Chain whip	|
-|19| Chakram	|
-|20| Claymore	|
-|21| Club	|
-|22| Crossbow	|
-|23| Cutlass	|
-|24| Dagger	|
-|25| Dao	|
-|26| Deer horn knives |
-|27| Dirk	|
-|28| Double flail	|
-|29| Emeici	|
-|30| Falchion	|
-|31| Flail	|
-|32| Flambard	|
-|33| Flying claws	|
-|34| Gauntlet sword	|
-|35| Gladius	|
-|36| Glaive	|
-|37| Halberd	|
-|38| Hatchet	|
-|39| Hook sword	|
-|40| Horsebow	|
-|41| Hunting knife	|
-|42| Ice pick	|
-|43| Javelin	|
-|44| Katana	|
-|45| Katar	|
-|46| Kopesh	|
-|47| Kukri	|
-|48| Lance	|
-|49| Lasso	|
-|50| Longbow |
-|51| Longsword|
-|52| Lucerne hammer|
-|53| Mace|
-|54| Machete|
-|55| Man catcher|
-|56| Maul|
-|57| Messer|
-|58| Meteor hammer|
-|59| Military fork|
-|60| Morningstar|
-|61| Nunchaku|
-|62| Pickaxe|
-|63| Pike|
-|64| Poleaxe|
-|65| Push dagger|
-|66| Ranseur|
-|67| Rapier|
-|68| Recurve bow|
-|69| Rondel dagger|
-|70| Rope dart|
-|71| Sabre|
-|72| Sai|
-|73| Scimitar|
-|74| Scourge|
-|75| Shortbow|
-|76| Shortsword|
-|77| Shuriken|
-|78| Sickle|
-|79| Side sword|
-|80| Sling|
-|81| Slingshot|
-|82| Spear|
-|83| Staff|
-|84| Stave sling|
-|85| Stiletto|
-|86| Swordstaff|
-|87| Tanto|
-|88| Three-part staff|
-|89| Throwing axe|
-|90| Throwing knife|
-|91| Tiger claws|
-|92| Tonfa|
-|93| Trident|
-|94| Triple flail|
-|95| Wakizashi|
-|96| War scythe|
-|97| Warhammer|
-|98| Warpick|
-|99| Whip|
-|00| Zweihander|
-{{< /rpg_table >}}
-
-{{< rpg_table name="ItemTrait" >}}
-| d100 | ? |
-| --- | --------|
-|1| Ancient	|
-|2| Avant-garde	|
-|3| Blessed	|
-|4| Bloody	|
-|5| Brittle	|
-|6| Broken	|
-|7| Bulky	|
-|8| Carved	|
-|9| Classy	|
-|10| Cold	|
-|11| Collectible	|
-|12| {Color} (p. 37)	|
-|13| Compact	|
-|14| Crusty	|
-|15| Cultural value	|
-|16| Cursed	|
-|17| Cutting edge	|
-|18| Damaged	|
-|19| Damp	|
-|20| Defective	|
-|21| Detects foes	|
-|22| Disguised	|
-|23| Draws foes	|
-|24| Dusty	|
-|25| Edible	|
-|26| {Effect} (p. 28)	|
-|27| {Element} (p. 29)	|
-|28| Embellished	|
-|29| Encoded	|
-|30| Eroded	|
-|31| Expandable	|
-|32| Extra-planar	|
-|33| Famous	|
-|34| Fashionable	|
-|35| Filthy	|
-|36| Flaking	|
-|37| Floppy	|
-|38| Foldable	|
-|39| Forbidden	|
-|40| Fragile	|
-|41| Gaudy	|
-|42| Glowing	|
-|43| Gold-plated	|
-|44| Gooey	|
-|45| Gorgeous	|
-|46| Heavy	|
-|47| Hot	|
-|48| Icy	|
-|49| Immovable	|
-|50| Impractical |
-|51| Indestructible|
-|52| Infamous|
-|53| Intelligent|
-|54| Kitchy|
-|55| Loud|
-|56| Lukewarm|
-|57| Luxurious|
-|58| Masterwork|
-|59| Military value|
-|60| Miniature|
-|61| Minimalist|
-|62| Modified|
-|63| Mythic|
-|64| Non-human|
-|65| Organic|
-|66| Oversized|
-|67| Owned|
-|68| Padded|
-|69| Painted|
-|70| Partial|
-|71| Perfumed|
-|72| {Personality} (p. 56)|
-|73| Political value|
-|74| Prickly|
-|75| Pulsing|
-|76| Reflective|
-|77| Refurbished|
-|78| Religious value|
-|79| Repaired|
-|80| Reviled|
-|81| Rotting|
-|82| {Scent} (p. 66)|
-|83| Sharp|
-|84| Shiny|
-|85| Shoddy|
-|86| Silent|
-|87| Slippery|
-|88| Smoke-stained|
-|89| {Sound} (p. 66)|
-|90| Spiky|
-|91| Squishy|
-|92| Sticky|
-|93| Stinky|
-|94| Talking|
-|95| {Texture} (p. 36)|
-|96| Toxic|
-|97| Twitching|
-|98| Ugly|
-|99| Vulgar|
-|00| Whispering|
-{{< /rpg_table >}}
-
-{{< rpg_table name="CityTheme" >}}
-| d100 | ? |
-| --- | --------|
-|1| Alchemy	|
-|2| {Animal} (p. 64)	|
-|3| Aristocracy	|
-|4| Art	|
-|5| Asylums	|
-|6| {Activity} (p. 19)	|
-|7| Banking	|
-|8| Baths	|
-|9| Begging	|
-|10| Bells	|
-|11| Brewing	|
-|12| Bridges	|
-|13| {Building} (p. 47)	|
-|14| Bureaucracy	|
-|15| Business	|
-|16| Canals	|
-|17| Catacombs	|
-|18| Cats	|
-|19| {CityEvent} (p. 46)	|
-|20| Courts	|
-|21| Crime families	|
-|22| Cults	|
-|23| Dancing	|
-|24| {Delusion} (p. 30)	|
-|25| Dining	|
-|26| {Disaster} (p. 31)	|
-|27| {Domain} (p. 33)	|
-|28| Drinking	|
-|29| Dueling	|
-|30| {Dungeon} (p. 16)	|
-|31| {Element} (p. 29)	|
-|32| {Faction} (p. 50)	|
-|33| {FactionTrait} (p. 50) |
-|34| Fashion	|
-|35| Festivals	|
-|36| Feuds	|
-|37| Fishing	|
-|38| Flowers	|
-|39| {Food} (p. 49)	|
-|40| Fortifications	|
-|41| Fountains	|
-|42| Gambling	|
-|43| Gangs	|
-|44| Gardens	|
-|45| Government	|
-|46| Guilds	|
-|47| {Hazard} (p. 17)	|
-|48| Horses	|
-|49| Hunger	|
-|50| Industry |
-|51| Inventions|
-|52| Leisure|
-|53| Libraries|
-|54| Livestock|
-|55| {MagicSchool} (p. 31)|
-|56| Marketplaces|
-|57| Mausoleums|
-|58| Medicine|
-|59| Mercenaries|
-|60| Military|
-|61| Monasteries|
-|62| Monuments|
-|63| Museums|
-|64| Music|
-|65| {Mutation} (p. 30)|
-|66| Opulence|
-|67| Perfume|
-|68| Printing|
-|69| Prisons|
-|70| {Profession} (p. 57)|
-|71| Punishment|
-|72| Rats|
-|73| Ravens|
-|74| Refuse|
-|75| Rituals|
-|76| {RoomTheme} (p. 15)|
-|77| Ruins|
-|78| Sacrifices|
-|79| Science|
-|80| Shipyards|
-|81| Slavery|
-|82| Slums|
-|83| Smithing|
-|84| Smoke|
-|85| Song|
-|86| Spices|
-|87| Spores|
-|88| Steam power|
-|89| {Structure} (p. 11)|
-|90| Temples|
-|91| Textiles|
-|92| Theaters|
-|93| Thievery|
-|94| Towers|
-|95| Training|
-|96| {TravelShift} (p. 9)|
-|97| {Treasure} (p. 42)|
-|98| Trees|
-|99| Universities|
-|00| Wizardry|
-{{< /rpg_table >}}
-
-{{< rpg_table name="CityEvent" >}}
-| d100 | ? |
-| --- | --------|
-|1| {Activity} (p. 19)	|
-|2| Alcohol ban	|
-|3| Art trend	|
-|4| Assassination	|
-|5| Beggar crowds	|
-|6| Blessing	|
-|7| Building collapse |
-|8| Carnival	|
-|9| Conscription	|
-|10| Consecration	|
-|11| Construction	|
-|12| Coronation	|
-|13| Coup	|
-|14| Crime wave	|
-|15| Curfew	|
-|16| Delegation	|
-|17| {Delusion} (p. 30)	|
-|18| Demolition	|
-|19| {Disaster} (p. 31)	|
-|20| Discovery	|
-|21| Dueling trend	|
-|22| Earthquake	|
-|23| Election	|
-|24| Excavation	|
-|25| Execution	|
-|26| Exodus	|
-|27| Faction war (p. 50) |
-|28| Fashion ban	|
-|29| Fashion trend	|
-|30| Fasting	|
-|31| Feasting	|
-|32| Fire	|
-|33| Flood	|
-|34| Funeral	|
-|35| Gambling ban	|
-|36| Gang war	|
-|37| Grain shortage	|
-|38| Heresy	|
-|39| Holy day	|
-|40| House war	|
-|41| Hysteria	|
-|42| Iconoclasm	|
-|43| Immigration	|
-|44| Inquisition	|
-|45| Insurrection	|
-|46| Invasion	|
-|47| Jailbreak	|
-|48| Kidnapping	|
-|49| Landslide	|
-|50| Magic ban |
-|51| Manhunt|
-|52| Mass arrests|
-|53| Mass conversion|
-|54| Mass execution|
-|55| Mass expulsion|
-|56| Mass pardon|
-|57| Meat shortage|
-|58| Military parade|
-|59| Missionaries|
-|60| Mourning|
-|61| Mud|
-|62| {Mutation} (p. 30)|
-|63| New invention|
-|64| Patrols|
-|65| Peace talks|
-|66| Pilgrims|
-|67| Plague|
-|68| Political scandal|
-|69| Preaching|
-|70| Procession|
-|71| Proclamation|
-|72| Protests|
-|73| Public debate|
-|74| Public games|
-|75| Public prayer|
-|76| Refugees|
-|77| Religious council|
-|78| Religious scandal|
-|79| Religious war|
-|80| Rioting|
-|81| Sacrifice|
-|82| Schism|
-|83| Serial killer|
-|84| Siege|
-|85| Sinkhole|
-|86| Smoke|
-|87| Social scandal|
-|88| Stench|
-|89| Street racing|
-|90| Summoning|
-|91| Surrender|
-|92| Taxation|
-|93| Textile shortage|
-|94| Tournament|
-|95| {TravelShift} (p. 9)|
-|96| Trial|
-|97| Vandalism|
-|98| Vermin|
-|99| Weapons ban|
-|00| Wedding|
-{{< /rpg_table >}}
-
-{{< rpg_table name="StreetDetail" >}}
-| d100 | ? |
-| --- | --------|
-|1| {Activity} (p. 19)	|
-|2| {Animal} (many) (p. 64)	|
-|3| Aqueduct	|
-|4| Arcade	|
-|5| Archway	|
-|6| Awnings	|
-|7| Balconies	|
-|8| Barricades	|
-|9| Benches	|
-|10| Bonfire	|
-|11| Bricklayers	|
-|12| Bridge	|
-|13| Broken glass	|
-|14| {Building} (p. 47)	|
-|15| Canal	|
-|16| Carpets	|
-|17| Carriages	|
-|18| Carts	|
-|19| Catwalks	|
-|20| Checkpoint	|
-|21| Children	|
-|22| Chimneys	|
-|23| Clergy	|
-|24| Climbable walls	|
-|25| Clotheslines	|
-|26| Compost	|
-|27| Crates	|
-|28| Crowd	|
-|29| Crumbling walls |
-|30| Dead end	|
-|31| Dusty	|
-|32| Entertainers	|
-|33| Fence	|
-|34| Flooding	|
-|35| Food stalls	|
-|36| Fountain	|
-|37| Fresh paint	|
-|38| Fungi	|
-|39| Gardens	|
-|40| Gas leak	|
-|41| Gates	|
-|42| Graffiti	|
-|43| Gravel	|
-|44| Guards	|
-|45| Hay bales	|
-|46| {Hazard} (p. 17)	|
-|47| Hot coals	|
-|48| Ladders	|
-|49| Lampposts	|
-|50| Lanterns |
-|51| Livestock|
-|52| Long steps|
-|53| Manure pile|
-|54| {MiscItems} (many) (p. 39)|
-|55| Mud|
-|56| Narrow|
-|57| Nobility|
-|58| Oil spill|
-|59| Overgrown|
-|60| Palanquins|
-|61| Pickpockets|
-|62| Piles of rags|
-|63| {PlaceTrait} (p. 11)|
-|64| Pollen clouds|
-|65| Pool|
-|66| Posters|
-|67| {Profession} (p. 57)|
-|68| Roof access|
-|69| {RoomDetail} (p. 15)|
-|70| Roots|
-|71| Ropes|
-|72| Roundabout|
-|73| Sand pile|
-|74| Scaffolding|
-|75| Sewage|
-|76| Sewer access|
-|77| Shrine|
-|78| Sinkhole|
-|79| Skybridge|
-|80| Smoke|
-|81| Spilled fruit|
-|82| Statues|
-|83| Steam|
-|84| Steep roofs|
-|85| Steep streets|
-|86| Stepping stones|
-|87| Street cleaners|
-|88| Street criers|
-|89| Teens|
-|90| Tents|
-|91| Thugs|
-|92| Torches|
-|93| Torn up street|
-|94| Trees|
-|95| Tunnel|
-|96| Vermin swarms|
-|97| Weapon stalls|
-|98| Well|
-|99| Wet cement|
-|00| Wine spill|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Building" >}}
-| d100 | ? |
-| --- | --------|
-|1| Academy	|
-|2| Alchemist	|
-|3| Apothecary	|
-|4| Archive	|
-|5| Armorer	|
-|6| Art dealer	|
-|7| Asylum	|
-|8| Baker	|
-|9| Bank	|
-|10| Barber	|
-|11| Bathhouse	|
-|12| Blacksmith	|
-|13| Bookbinder	|
-|14| Bookseller	|
-|15| Boyer	|
-|16| Brewery	|
-|17| Butcher	|
-|18| Candlemaker	|
-|19| Carpenter	|
-|20| Castle	|
-|21| Catacombs	|
-|22| Chandler	|
-|23| Cheesemaker	|
-|24| Clockmaker	|
-|25| Clothier	|
-|26| Cobbler	|
-|27| Courthouse	|
-|28| Criminal den	|
-|29| Curiosity shop	|
-|30| Dock	|
-|31| {Dungeon} (p. 16)	|
-|32| Dyer	|
-|33| Fighting pit	|
-|34| Fletcher	|
-|35| Fortune teller	|
-|36| Furrier	|
-|37| Gallery	|
-|38| Gambling hall	|
-|39| Garden	|
-|40| Gatehouse	|
-|41| Glassworks	|
-|42| Goldsmith	|
-|43| Guildhall	|
-|44| Haberdashery	|
-|45| Hospital	|
-|46| {Inn} (p. 48)	|
-|47| Jeweler	|
-|48| Law office	|
-|49| Leatherworks	|
-|50| Library |
-|51| Locksmith|
-|52| Lounge|
-|53| Manor|
-|54| Marketplace|
-|55| Mason|
-|56| Menagerie|
-|57| Monastery|
-|58| Moneylender|
-|59| Museum|
-|60| Observatory|
-|61| Opera house|
-|62| Orphanage|
-|63| Outfitter|
-|64| Palace|
-|65| Park|
-|66| Physician|
-|67| Potter|
-|68| Printer|
-|69| Prison|
-|70| Restaurant|
-|71| Rope maker|
-|72| {Room} (p. 14)|
-|73| Saddler|
-|74| Sewers|
-|75| Shipyards|
-|76| Shrine|
-|77| Slaughterhouse|
-|78| Stables|
-|79| Stockyard|
-|80| Stonecarver|
-|81| {Structure} (p. 11)|
-|82| Tailor|
-|83| Tannery|
-|84| Tattooist|
-|85| Taxidermist|
-|86| Temple|
-|87| Theater|
-|88| Tobacconist|
-|89| Townhouse|
-|90| University|
-|91| Veterinarian|
-|92| Warehouse|
-|93| Watchtower|
-|94| Watermill|
-|95| Weapon smith|
-|96| Weaver|
-|97| Windmill|
-|98| Winery|
-|99| Wizard's tower|
-|00| Workshop|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Inn" >}}
-| d2| Inn |
-| --- | --------|
-| 1 | {InnName1} {InnName2} |
-| 2 | {InnName2} {InnName2} |
-{{< /rpg_table >}}
-
-{{< rpg_table name="InnName1" >}}
-| d100 | ? |
-| --- | --------|
-|1| {Activity} (p. 19)	|
-|2| Bellowing	|
-|3| Bitter	|
-|4| Black	|
-|5| Blazing	|
-|6| Bleak	|
-|7| Blessed	|
-|8| Bloody	|
-|9| Blue	|
-|10| Broken	|
-|11| Bucking	|
-|12| Busy	|
-|13| Cacophonous	|
-|14| {Color} (p. 37)	|
-|15| Copper	|
-|16| Courageous	|
-|17| Crimson	|
-|18| Cunning	|
-|19| Dancing	|
-|20| Dead	|
-|21| Disdainful	|
-|22| Drunken	|
-|23| Extravagant	|
-|24| Floating	|
-|25| Flying	|
-|26| Frosty	|
-|27| Ghastly	|
-|28| Ghostly	|
-|29| Glittering	|
-|30| Golden	|
-|31| Graceful	|
-|32| Green	|
-|33| Grotesque	|
-|34| Harmless	|
-|35| Heartless	|
-|36| Helpful	|
-|37| Hideous	|
-|38| Honeyed	|
-|39| Howling	|
-|40| Hungry	|
-|41| Jolly	|
-|42| Kindly	|
-|43| Last	|
-|44| Lazy	|
-|45| Loathsome	|
-|46| Lovesick	|
-|47| Loyal	|
-|48| Melancholy	|
-|49| Merry	|
-|50| Moldy |
-|51| Musical |
-|52| Muttering |
-|53| Mysterious |
-|54| Nervous |
-|55| Nimble |
-|56| Oozing |
-|57| Petrified |
-|58| {PlaceTrait} (p. 11) |
-|59| Prancing |
-|60| Purple |
-|61| {Quality} (p. 28) |
-|62| Reckless |
-|63| Righteous |
-|64| Roaring |
-|65| Roasted |
-|66| Romantic |
-|67| Ruby |
-|68| Salty |
-|69| Scented |
-|70| Seven |
-|71| Shimmering |
-|72| Shivering |
-|73| Shrieking |
-|74| Sickly |
-|75| Silent |
-|76| Silver |
-|77| Singing |
-|78| Sleeping |
-|79| Smoking |
-|80| {Sound} (p. 66) |
-|81| Squeaky |
-|82| Stubborn |
-|83| Tainted |
-|84| Terrible |
-|85| Thirsty |
-|86| Thirteen |
-|87| Three |
-|88| Tipsy |
-|89| Troublesome |
-|90| Two |
-|91| Vexing |
-|92| Violet |
-|93| Wailing |
-|94| Wandering |
-|95| Wanton |
-|96| Whispering |
-|97| Whistling |
-|98| White |
-|99| Wicked |
-|00| Yellow |
-{{< /rpg_table >}}
-
-{{< rpg_table name="InnName2" >}}
-| d100 | ? |
-| --- | --------|
-|1| {Animal} (p. 64)	|
-|2| Ant	|
-|3| Axe	|
-|4| Barrel	|
-|5| Bear	|
-|6| Beaver	|
-|7| Beetle	|
-|8| Bell	|
-|9| Boar	|
-|10| Boot	|
-|11| Bowl	|
-|12| Bucket	|
-|13| Bull	|
-|14| Candle	|
-|15| Cat	|
-|16| Claw	|
-|17| Cloak	|
-|18| {Clothing} (p. 40)	|
-|19| Cock	|
-|20| Coin	|
-|21| Comb	|
-|22| Cow	|
-|23| Crow	|
-|24| Crown	|
-|25| Cup	|
-|26| Door	|
-|27| Dragon	|
-|28| Eagle	|
-|29| Egg	|
-|30| Elephant	|
-|31| Fish	|
-|32| Flea	|
-|33| {Food} (p. 49)	|
-|34| Fork	|
-|35| Giant	|
-|36| Griffin	|
-|37| Hare	|
-|38| Hart	|
-|39| Hawk	|
-|40| Hen	|
-|41| Hog	|
-|42| Hole	|
-|43| Horse	|
-|44| Hound	|
-|45| Jar	|
-|46| Kettle	|
-|47| Key	|
-|48| Knife	|
-|49| Lamb	|
-|50| Lamp |
-|51| Lantern|
-|52| Lion|
-|53| Lute|
-|54| Mackerel|
-|55| Maid|
-|56| Mermaid|
-|57| {MiscItem} (p. 39)|
-|58| Mole|
-|59| Monk|
-|60| {Monster} (p. 61)|
-|61| Moon|
-|62| Mule|
-|63| Needle|
-|64| Noose|
-|65| Orb|
-|66| Pearl|
-|67| Pig|
-|68| Pipe|
-|69| Plow|
-|70| Post|
-|71| Prince|
-|72| {Profession} (p. 57)|
-|73| Queen|
-|74| Rat|
-|75| Rose|
-|76| Saint|
-|77| Serpent|
-|78| Shoe|
-|79| Shovel|
-|80| Skull|
-|81| Sow|
-|82| Spoon|
-|83| Staff|
-|84| Star|
-|85| Stone|
-|86| Sun|
-|87| Sword|
-|88| Thistle|
-|89| Thorn|
-|90| Torch|
-|91| Tower|
-|92| Unicorn|
-|93| Vulture|
-|94| {Weapon} (p. 43)|
-|95| Weasel|
-|96| Whale|
-|97| Wheel|
-|98| Whistle|
-|99| Wife|
-|00| Worm|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Food" >}}
-| ? |
-| --------|
-| {FoodTrait} {FoodType} |
-{{< /rpg_table >}}
-
-{{< rpg_table name="FoodTrait" >}}
-| d100 | ? |
-| --- | --------|
-|1| Aged	|
-|2| Bacon-wrapped	|
-|3| Baked	|
-|4| Balls	|
-|5| Barbecued	|
-|6| Basted	|
-|7| Battered	|
-|8| Blackened	|
-|9| Blanched	|
-|10| Boiled	|
-|11| Braised	|
-|12| Breaded	|
-|13| Brined	|
-|14| Broiled	|
-|15| Broth	|
-|16| Browned	|
-|17| Buttered	|
-|18| Cake	|
-|19| Candied	|
-|20| Canned	|
-|21| Caramelized	|
-|22| Casserole	|
-|23| Charred	|
-|24| Chilled	|
-|25| Chowder	|
-|26| Cobbler	|
-|27| Creamed	|
-|28| Crumble	|
-|29| Cubed	|
-|30| Cured	|
-|31| Deep-fried	|
-|32| Diced	|
-|33| Drunk	|
-|34| Emulsified	|
-|35| Fermented	|
-|36| Flambéd	|
-|37| Fondue	|
-|38| Frozen	|
-|39| Glazed	|
-|40| Grilled	|
-|41| Gruel	|
-|42| Hash	|
-|43| Hasty	|
-|44| Honeyed	|
-|45| Iced	|
-|46| Inside-out	|
-|47| Jellied	|
-|48| Layered	|
-|49| Live	|
-|50| Loaf |
-|51| Marinated|
-|52| Mashed|
-|53| Melt|
-|54| Minced|
-|55| Moldy|
-|56| Pan-fried|
-|57| Pastry|
-|58| Patty|
-|59| Peppered|
-|60| Pickled|
-|61| Pie|
-|62| Poached|
-|63| Porridge|
-|64| Pudding|
-|65| Quiche|
-|66| Rancid|
-|67| Raw|
-|68| Roasted|
-|69| Roll|
-|70| Salad|
-|71| Salted|
-|72| Sandwich|
-|73| Sausage|
-|74| Sautéed|
-|75| Seared|
-|76| Seasoned|
-|77| Shredded|
-|78| Simmered|
-|79| Slow-cooked|
-|80| Smoked|
-|81| Soup|
-|82| Sour|
-|83| Spiced|
-|84| Spit-roasted|
-|85| Stale|
-|86| Steamed|
-|87| Stewed|
-|88| Stir-fried|
-|89| Strips|
-|90| Stuffed|
-|91| Sugared|
-|92| Sun-dried|
-|93| Tenderized|
-|94| {Texture} (p. 36)|
-|95| Toasted|
-|96| Turnover|
-|97| Undercooked|
-|98| Upside-down|
-|99| Wind-dried|
-|00| Wrapped|
-{{< /rpg_table >}}
-
-{{< rpg_table name="FoodType" >}}
-| d100 | ? |
-| --- | --------|
-|1| Acorn	|
-|2| Alligator	|
-|3| Almond	|
-|4| {Animal} (p. 64)	|
-|5| Antelope	|
-|6| Apple	|
-|7| Artichokes	|
-|8| Asparagus	|
-|9| Bass	|
-|10| Bear	|
-|11| Beaver	|
-|12| Beef	|
-|13| Beet	|
-|14| Bell pepper	|
-|15| Bison	|
-|16| Blueberry	|
-|17| Broccoli	|
-|18| Brussels sprout	|
-|19| Cabbage	|
-|20| Carp	|
-|21| Carrot	|
-|22| Catfish	|
-|23| Cattail	|
-|24| Cauliflower	|
-|25| Caviar	|
-|26| Celery	|
-|27| Cheese	|
-|28| Cherry	|
-|29| Chestnut	|
-|30| Chicken	|
-|31| Clams	|
-|32| Corn	|
-|33| Crab	|
-|34| Crayfish	|
-|35| Cucumber	|
-|36| Dandelion	|
-|37| Duck	|
-|38| Eel	|
-|39| Egg	|
-|40| Eggplant	|
-|41| Elk	|
-|42| Goat	|
-|43| Goose	|
-|44| Grape	|
-|45| Green bean	|
-|46| Guinea pig	|
-|47| Ham	|
-|48| Hare	|
-|49| Hazelnut	|
-|50| Hot pepper |
-|51| Kidney bean|
-|52| Lamb|
-|53| Leek|
-|54| Lemon|
-|55| Lime|
-|56| Lobster|
-|57| Moose|
-|58| {Monster} (p. 61)|
-|59| Mushroom|
-|60| Mussels|
-|61| Mutton|
-|62| Onion|
-|63| Orange|
-|64| {Organ} (p. 64)|
-|65| Partridge|
-|66| Pea|
-|67| Pear|
-|68| Perch|
-|69| Pheasant|
-|70| Pork|
-|71| Possum|
-|72| Potato|
-|73| Pumpkin|
-|74| Quail|
-|75| Rabbit|
-|76| Raccoon|
-|77| Radish|
-|78| Raspberry|
-|79| Rat|
-|80| Reindeer|
-|81| Rhubarb|
-|82| Salmon|
-|83| Shrimp|
-|84| Snails|
-|85| Snake|
-|86| Spinach|
-|87| Squash|
-|88| Squirrel|
-|89| Strawberry|
-|90| Sturgeon|
-|91| Tangerine|
-|92| Tomato|
-|93| Trout|
-|94| Turnip|
-|95| Turtle|
-|96| Veal|
-|97| Venison|
-|98| Walnut|
-|99| Wild boar|
-|00| Yam|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Faction" >}}
-| ? |
-| --------|
-| {FactionTrait} and {FactionTrait} {FactionType}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}. |
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionType" >}}
-| d100 | ? |
-| --- | --------|
-|1| Actors' guild	|
-|2| Angelic army	|
-|3| Art movement	|
-|4| Art school	|
-|5| Assassins' guild	|
-|6| Bandit troop	|
-|7| Banking corp	|
-|8| Barbarian horde |
-|9| Bards' guild	|
-|10| Beggars' guild	|
-|11| Big game hunters |
-|12| Burgling crew	|
-|13| Chimney sweeps |
-|14| Circus troupe	|
-|15| City council	|
-|16| City guard	|
-|17| Convent	|
-|18| Counterfeiters	|
-|19| Courtier faction  |
-|20| Crafting guild	|
-|21| Crime family	|
-|22| Cult fanatics	|
-|23| Debate society	|
-|24| Demonic army	|
-|25| Deserter band	|
-|26| Dragon cult	|
-|27| Druid circle	|
-|28| Dungeoneer guild |
-|29| Elite warriors	|
-|30| Explorer's club	|
-|31| Fencing school	|
-|32| Fight club	|
-|33| Fraternity	|
-|34| Free company	|
-|35| Gambling ring	|
-|36| Ghost society	|
-|37| Gladiator league |
-|38| Gourmand club	|
-|39| Gravediggers	|
-|40| Healing order	|
-|41| Heist crew	|
-|42| Heretical sect	|
-|43| High council	|
-|44| Hired muscle	|
-|45| Illuminati	|
-|46| Inquisition	|
-|47| Knightly order	|
-|48| Living machines |
-|49| Local watch	|
-|50| Mad scientists |
-|51| Merchant cartel|
-|52| Midwife union|
-|53| Militia|
-|54| Mining company|
-|55| Monastery|
-|56| Monster hunters|
-|57| Mothers|
-|58| Mutants|
-|59| National church|
-|60| Naval crew|
-|61| Necromancers|
-|62| Noble house|
-|63| Officers' club|
-|64| Oracles' circle|
-|65| Outlander clan|
-|66| Peacekeepers|
-|67| Philosophy club|
-|68| Pirate crew|
-|69| Poachers|
-|70| Social movement|
-|71| Political party|
-|72| Ranger squad|
-|73| Religious sect|
-|74| Resistance|
-|75| Royal army|
-|76| Royal house|
-|77| Scholar's circle|
-|78| School faculty|
-|79| Secret society|
-|80| Sewer people|
-|81| Smuggling ring|
-|82| Sports league|
-|83| Sports team|
-|84| Spy network|
-|85| Street artists|
-|86| Street gang|
-|87| Street musicians|
-|88| Student union|
-|89| Terrorist cell|
-|90| Thieves' guild|
-|91| Trade company|
-|92| Urchin swarm|
-|93| Vampire clan|
-|94| Veteran society|
-|95| Vigilante league|
-|96| Warlock pact|
-|97| Werewolf pack|
-|98| Witch coven|
-|99| Wizard school|
-|00| Zombie horde|
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionTrait" >}}
-| d100 | ? |
-| --- | --------|
-|1| Activist	|
-|2| {Activity} (p. 19)	|
-|3| Aging	|
-|4| Anarchic	|
-|5| Ancient	|
-|6| Athletic	|
-|7| Avant-garde	|
-|8| Backstabbing	|
-|9| Bankrupt	|
-|10| Breakaway	|
-|11| Bureaucratic	|
-|12| Charitable	|
-|13| Code of conduct |
-|14| Connected	|
-|15| Contemptuous	|
-|16| Corrupt	|
-|17| Crime-fighting	|
-|18| Decadent	|
-|19| Desperate	|
-|20| Discriminatory	|
-|21| Disciplined	|
-|22| Divided	|
-|23| Dwindling	|
-|24| Egalitarian	|
-|25| Elite	|
-|26| Eloquent	|
-|27| Elusive	|
-|28| Erratic	|
-|29| Exclusive	|
-|30| Expanding	|
-|31| Family	|
-|32| Fanatical	|
-|33| Feared	|
-|34| Fractious	|
-|35| Genteel	|
-|36| Glamorous	|
-|37| Global reach	|
-|38| Gullible	|
-|39| Heretical	|
-|40| Homeless	|
-|41| Hunted	|
-|42| Inbred	|
-|43| Incompetent	|
-|44| Incorruptible	|
-|45| Inquisitive	|
-|46| Insane	|
-|47| Insular	|
-|48| Internecine	|
-|49| Intoxicated	|
-|50| Laid back |
-|51| Law-abiding|
-|52| Learned|
-|53| Magical|
-|54| Manipulative|
-|55| Martial|
-|56| Monarchist|
-|57| Murderous|
-|58| Musical|
-|59| Mutated|
-|60| National reach|
-|61| Obnoxious|
-|62| Ostentatious|
-|63| Patriotic|
-|64| {Personality} (p. 56)|
-|65| Pious|
-|66| Popular|
-|67| Predatory|
-|68| Predictable|
-|69| Proselytizing|
-|70| Proud|
-|71| Respected|
-|72| Reunified|
-|73| Revered|
-|74| Reviled|
-|75| Revolutionary|
-|76| Righteous|
-|77| Rules-bound|
-|78| Ruthless|
-|79| Scrappy|
-|80| Secretive|
-|81| Single-minded|
-|82| Slandered|
-|83| Snobby|
-|84| Stealthy|
-|85| Stodgy|
-|86| Subversive|
-|87| Suppressed|
-|88| Thieving|
-|89| Threatened|
-|90| Thriving|
-|91| Traitorous|
-|92| Undead|
-|93| Up-and-coming|
-|94| Wealthy|
-|95| Welcoming|
-|96| Well-armed|
-|97| Well-provisioned|
-|98| Wretched|
-|99| Xenophobic|
-|00| Youthful|
-{{< /rpg_table >}}
-
-
-{{< rpg_table name="Mission" >}}
-| d100 | ? |
-| --- | --------|
-|1| Apprehend NPC  |
-|2| Arrange marriage |
-|3| Awaken monster |
-|4| Banish demon	|
-|5| Befoul location	|
-|6| Blackmail NPC	|
-|7| Bribe faction	|
-|8| Bribe NPC	|
-|9| Burgle building	|
-|10| Chart dungeon	|
-|11| Chart location	|
-|12| Clear dungeon	|
-|13| Clear lair	|
-|14| Control building |
-|15| Craft item	|
-|16| Cripple NPC	|
-|17| Deceive faction	|
-|18| Deceive NPC	|
-|19| Deface building	|
-|20| Defraud NPC	|
-|21| Destroy building |
-|22| Destroy item	|
-|23| Destroy monster |
-|24| Destroy warband |
-|25| Discredit NPC	|
-|26| Drown NPC	|
-|27| Duplicate item	|
-|28| Entertain NPC	|
-|29| Entrap NPC	|
-|30| Escape building	|
-|31| Escape city	|
-|32| Escape dungeon |
-|33| Escape location	|
-|34| Escort NPC	|
-|35| Extort NPC	|
-|36| Follow NPC	|
-|37| Forge weapon	|
-|38| Frame NPC	|
-|39| Frighten NPC	|
-|40| {Goal} (p. 57)	|
-|41| Haunt NPC	|
-|42| Hide item	|
-|43| Hide NPC	|
-|44| Humiliate NPC	|
-|45| Impersonate NPC |
-|46| Impress faction	|
-|47| Impress NPC	|
-|48| Infiltrate building |
-|49| Infiltrate city	|
-|50| Infiltrate dungeon |
-|51| Infiltrate faction|
-|52| Investigate crime|
-|53| Kidnap leader|
-|54| Kidnap NPC|
-|55| Kill leader|
-|56| Kill NPC|
-|57| Locate city|
-|58| Locate dungeon|
-|59| Locate faction|
-|60| Locate item|
-|61| Locate landmark|
-|62| Locate NPC|
-|63| Locate location|
-|64| Loot dungeon|
-|65| Overthrow NPC|
-|66| Patrol building|
-|67| Patrol city|
-|68| Persuade faction|
-|69| Persuade NPC|
-|70| Plant item|
-|71| Poison NPC|
-|72| Prank NPC|
-|73| Protect building|
-|74| Protect item|
-|75| Protect NPC|
-|76| Pursue NPC|
-|77| Raid building|
-|78| Replace item|
-|79| Replace NPC|
-|80| Rescue family|
-|81| Rescue leader|
-|82| Rescue NPC|
-|83| Resolve dispute|
-|84| Retrieve item|
-|85| Rob faction|
-|86| Rob NPC|
-|87| Sabotage item|
-|88| Sabotage treaty|
-|89| Sabotage wedding|
-|90| Seduce NPC|
-|91| Smuggle item in|
-|92| Smuggle item out|
-|93| Spread rumor|
-|94| Spy on faction|
-|95| Spy on NPC|
-|96| Summon being|
-|97| Survive test|
-|98| Tame monster|
-|99| Transport item|
-|00| Transport NPC|
-{{< /rpg_table >}}
-
-
-{{< rpg_table name="Reward" >}}
-| d100 | ? |
-| --- | --------|
-|1| A blind eye	|
-|2| Alcohol	|
-|3| {Animal} (p. 64)	|
-|4| Armor	|
-|5| Army	|
-|6| Artwork	|
-|7| {Asset} (p. 58)	|
-|8| Blackmail	|
-|9| Blessing	|
-|10| Blueprints	|
-|11| {Building} (p. 47)	|
-|12| Business	|
-|13| Caravel	|
-|14| Carriage	|
-|15| Castle	|
-|16| Chapel	|
-|17| Charter	|
-|18| Companion	|
-|19| Contract	|
-|20| Cottage	|
-|21| Craftsmen	|
-|22| Cypher	|
-|23| Delivery	|
-|24| {Dungeon} (p. 16)	|
-|25| Dungeon map	|
-|26| Endorsement	|
-|27| Estate	|
-|28| Expert	|
-|29| {FactionType} ally (p. 50) |
-|30| Familiar	|
-|31| Farm	|
-|32| Favor	|
-|33| Fishing boat	|
-|34| Fleet	|
-|35| Forge	|
-|36| Formula	|
-|37| Galleon	|
-|38| Gold	|
-|39| Guide	|
-|40| Guildhall	|
-|41| Healing	|
-|42| Hideout	|
-|43| Hirelings	|
-|44| Hounds	|
-|45| House	|
-|46| Influential ally	|
-|47| {Inn} (p. 48)	|
-|48| Jewels	|
-|49| Key	|
-|50| Livestock |
-|51| {Location} (p. 10)|
-|52| Machine|
-|53| {MagicItem} |
-|54| Magical ally|
-|55| Mansion|
-|56| {Material} (p. 42)|
-|57| Meeting|
-|58| Mercenaries|
-|59| {Monster} ally (p. 61)|
-|60| Noble clothing|
-|61| Noble title|
-|62| Palace|
-|63| Pardon|
-|64| Planar portal|
-|65| Political clout|
-|66| {Potion} (p. 35)|
-|67| Printing press|
-|68| Reduced sentence|
-|69| Location map|
-|70| Relic|
-|71| Religious clout|
-|72| Renown|
-|73| Revenge|
-|74| Rights|
-|75| Royal clothing|
-|76| Safe passage|
-|77| Secret|
-|78| Servants|
-|79| Shortcut|
-|80| Sloop|
-|81| Social clout|
-|82| {Spell} (pp. 22-25)|
-|83| Spices|
-|84| {Structure} (p. 11)|
-|85| Temple|
-|86| Theater|
-|87| Time extension|
-|88| Tower|
-|89| Training|
-|90| Transformation|
-|91| Transport|
-|92| {Treasure} (p. 42)|
-|93| Treasure map|
-|94| Vineyard|
-|95| Wagon|
-|96| Warband|
-|97| Warhorse|
-|98| Wealthy clothing|
-|99| {Weakness} (p. 67)|
-|00| {Weapon} (p. 43)|
-{{< /rpg_table >}}
 
 {{< rpg_table name="Asset" >}}
 | d100 | ? |
