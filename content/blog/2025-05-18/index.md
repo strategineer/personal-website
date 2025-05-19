@@ -17,7 +17,7 @@ In Maze Rats, after a long rest, PCs with one or more spell slots roll on a seri
 
 For example, rolling on the first table might produce an Ethereal Effect and Physical Element spell, two subsequent rolls on the relevant tables might result in a spell named "Bewildering Insect".
 
-Then, the GM will quickly make a ruling about what the spell will do when cast to give guidance to the player on how it might be used ("Bewildering Insect will materialize an insect of your choice, the sight of which will temporarily confuse anyone who sees it.").
+Then, the GM can make a ruling about what the spell will do when cast so that the the player knows how it might be used ("Bewildering Insect will materialize an insect of your choice, the sight of which will temporarily confuse anyone who sees it.").
 
 When the PC casts the spell, the GM can nail down the specifics based on context and the player's ingenuity ("Arggg the Bridge Troll-in-Training sees the 3 foot tall cockroach you created and becomes confused for one round, deciding who to stop from crossing the bridge, the roach or the party.").
 

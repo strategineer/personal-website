@@ -1,0 +1,13 @@
+  {{ $table_name := printf "%s" .Params.name }}
+  {{ $expr := printf "%s" .Params.expr}}
+  {{ $result_count := .Params.count | default 1}}
+
+  <script type="text/javascript">
+    function pickRandomlyFromTable{{- $table_name | safeJS -}}() {
+      document.getElementById("table_result_{{$table_name}}").innerHTML = expand_tokens("{{ $expr }}")
+  }
+  </script>
+  <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Generate {{ $result_count }} random {{ $table_name -}}!</button>
+  <br>
+  <span id="table_result_{{$table_name}}"></span>
+  <br>

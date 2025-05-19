@@ -12,8 +12,138 @@ Tables from Knave 2e.
 
 <!-- put bar between number and rest of text -->
 <!-- [^.]($| \d+)[^\n)] -->
+# Delving
+
+{{< rpg_table name="DungeonHazardRoll" >}}
+| d6 | NPC |
+| --- | --------|
+|1| encounter: The party has an encounter, usually rolled from a table designed for the dungeon. The GM determines the encounter’s reaction, activity, distance from the party, and if they are surprised (p. 19).|
+|2| fatigue: Each party member takes 1 damage unless they spend the next turn resting. The damage may be higher in dungeons with harsh conditions. Ignore this result while resting.|
+|3| burn: Lit torches burn out. New torches can be lit from the embers of the previous ones.|
+|4| delve shift: The dungeon environment changes. If a dungeon doesn’t have any obvious shifts, use minor effects like sounds, temperature shifts, wind, falling debris, apparitions, or vermin.  Possible shifts: 1. {DelveShift} 2. {DelveShift} 3. {DelveShift}|
+|5| sign: The players find a sign (p. 10) that a random encounter (p. 19) is nearby. The next time an encounter is rolled in this dungeon, the PCs meets that creature. Alternatively, reveal a clue to something hidden. Possible Signs: 1. {Sign} 2. {Sign} 3. {Sign}|
+|6| free: No effect.
+{{< /rpg_table >}}
+
+# Player
+
+{{< rpg_table name="Career" >}}
+| d100 | Career |
+| --- | --------|
+|1 | acolyte: candlestick, censer, incense	|
+|2 | acrobat: flash powder, balls, lamp oil	|
+|3 | actor: wig, makeup, costume	|
+|4 | alchemist: acid, mortar/pestle, 6 vials	|
+|5 | antiquarian: old coin, flag, lore book	|
+|6 | arcanist: spell book, arcane robes, chalk	|
+|7 | architect: plumb line, level, ruler	|
+|8 | assassin: crossbow, garrote, soft boots	|
+|9 | astrologer: star charts, almanac, telescope |
+|10 | baker: rolling pin, flour bag, lard block	|
+|11 | bandit: mask, manacles, caltrops	|
+|12 | barber: scissors, hair oil, straight razor	|
+|13 | beast tamer: whip, gloves, leash	|
+|14 | beekeeper: honey, mask, smoke bomb	|
+|15 | blacksmith: hammer, bellows, tongs	|
+|16 | boatman: 10' pole, instrument, paddle	|
+|17 | bookbinder: sewing kit, glue, quill/ink	|
+|18 | brewer: mash paddle, beer keg, hops	|
+|19 | burglar: lockpicks, grappling hook, rope  |
+|20 | butcher: cleaver, meat hook, bacon	|
+|21 | candlemaker: 10 candles, lamp oil, wax	|
+|22 | carpenter: hammer, saw, box of nails	|
+|23 | charlatan: costume, fake elixir, degree	|
+|24 | cobbler: leather roll, fancy shoes, tacks	|
+|25 | coachman: whip, lockbox, oilskin coat	|
+|26 | cook: frying pan, salt, olive oil	|
+|27 | courier: oilskin bag, local map, lantern	|
+|28 | courtier: perfume, wig, fan	|
+|29 | cultist: dagger, ritual robes, amulet	|
+|30 | cutpurse: knife, caltrops, sack	|
+|31 | dyer: 10' pole, dyes, soap	|
+|32 | explorer: sextant, spyglass, crampons	|
+|33 | falconer: bird cage, gloves, whistle	|
+|34 | fence: short sword, file, sealing wax	|
+|35 | fisherman: spear, net, fishing tackle	|
+|36 | folklorist: prophecy, bones, scales	|
+|37 | gambler: rapier, card deck, dice	|
+|38 | gamekeeper: sling, horn, rope ladder	|
+|39 | gardener: sickle, shovel, shears	|
+|40 | grave robber: saw, crowbar, pulleys	|
+|41 | gravedigger: shovel, pickaxe, bucket	|
+|42 | groom: oats, horse brush, blanket	|
+|43 | guard: halberd, livery, horn	|
+|44 | headsman: axe, hood, garrote	|
+|45 | herbalist: herbs, sickle, herb manual	|
+|46 | hermit: staff, fungi, basket	|
+|47 | hunter: tent, bearskin, bear trap	|
+|48 | innkeeper: ladle, 10 candles, cauldron	|
+|49 | inquisitor: manual, vestments, pliers	|
+|50 | investigator: journal, manacles, vial	|
+|51 | jailer: padlock, 10' chain, wine jug |
+|52 | jester: scepter, donkey head, motley |
+|53 | jeweler: pliers, loupe, tweezers |
+|54 | knight: lady's favor, banner, signet ring |
+|55 | kidnapper: chloroform, manacles, hood |
+|56 | lawyer: fancy robe, law book, certificate |
+|57 | locksmith: crowbar, picks, padlock |
+|58 | mason: chisel, hammer, chalk |
+|59 | merchant: scales, strongbox, bag of spice |
+|60 | miner: pickaxe, lantern, pet canary |
+|61 | musician: 3 instruments |
+|62 | naturalist: fossil, insect case, geode |
+|63 | officer: shoe polish, medal, spyglass |
+|64 | oracle: tea leaves, tarot deck, crystal |
+|65 | orator: 100 marbles, bullhorn, wax tablet |
+|66 | painter: linseed oil, pigments, brushes |
+|67 | peddler: bucket, 300' twine, mirror |
+|68 | philosopher: staff, lantern, chalk |
+|69 | physician: saw, scalpel, wine jug |
+|70 | pilgrim: staff, relic, letter of passage |
+|71 | pirate: sextant, cannonball, grappling hook |
+|72 | pit fighter: net, whip, wine jug |
+|73 | playwright: quill/ink, skull, 10 candles |
+|74 | poacher: animal scent, bow, 20 arrows |
+|75 | poet: stationery, bell, perfume |
+|76 | priest: holy water, 10 stakes, prayer book |
+|77 | prospector: 10 iron spikes, pickaxe, pan |
+|78 | puppeteer: confetti, puppet, sewing kit |
+|79 | rat catcher: cage, 10 rat traps, sack |
+|80 | saboteur: air bladder, crowbar, bomb |
+|81 | sailor: beeswax, pullies, spyglass |
+|82 | scout: signal flags, black grease, dice |
+|83 | scribe: lamp oil, quill/ink, sealing wax |
+|84 | sculptor: chisel, clay, calipers |
+|85 | servant: sponge, silverware, poker |
+|86 | shepherd: crook, instrument, sling |
+|87 | shipwright: drill, hammer, axe |
+|88 | singer: mirror, makeup, locket |
+|89 | smuggler: pulleys, rope, makeup |
+|90 | soldier: tent, card deck, shovel |
+|91 | spy: caltrops, poison, forged papers |
+|92 | squire: torch, armor polish, trumpet |
+|93 | tailor: sewing kit, scissors, soap |
+|94 | tattooist: soot pot, needles, 10 candles |
+|95 | thieftaker: bear trap, manacles, torch |
+|96 | thug: poison, knife, lamp oil |
+|97 | torturer: drill, hourglass, 10' chain |
+|98 | trapper: bear trap, 300' twine, bear pelt |
+|99 | watchman: lantern, trumpet, spear |
+|00 | woodcutter: axe, firewood, 50' rope |
+{{< /rpg_table >}}
 
 # Spells
+
+{{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {Spell}" >}}
+
+{{< rpg_table name="SpellBookType" hide_button="true" >}}
+| d22 | Spell Book Type |
+| --- | --------|
+| 1 | Tome |
+| 2 | Book |
+{{< /rpg_table >}}
+
+{{< rpg_table_button name="SpellScroll" expr="Scroll of {Spell}" >}}
 
 {{< rpg_table name="Spell" >}}
 | d12 | Spell Formulae |
@@ -57,7 +187,7 @@ Tables from Knave 2e.
 | 20 | Chariot |
 | 21 | Circle |
 | 22 | Cloak |
-| 23 | Clothing (p. 40) |
+| 23 | {Clothing} (p. 40) |
 | 24 | Cloud |
 | 25 | Coil |
 | 26 | Colossus |
@@ -89,8 +219,8 @@ Tables from Knave 2e.
 | 52 | Knife |
 | 53 | Knight |
 | 54 | Mask |
-| 55 | Mechanism (p. 17) |
-| 56 | Misc. item (p. 39) |
+| 55 | {Mechanism} (p. 17) |
+| 56 | {MiscItem} (p. 39) |
 | 57 | Monolith |
 | 58 | {Monster} (p. 61) |
 | 59 | Mouth |
@@ -121,7 +251,7 @@ Tables from Knave 2e.
 | 84 | {Structure} (p. 11) |
 | 85 | Symbol (p. 33) |
 | 86 | Tangle |
-| 87 | Tool (p. 39) |
+| 87 | {Tool} (p. 39) |
 | 88 | Torrent |
 | 89 | Touch |
 | 90 | Tree |
@@ -129,7 +259,7 @@ Tables from Knave 2e.
 | 92 | Vortex |
 | 93 | Wall |
 | 94 | Wave |
-| 95 | Weapon (p. 43) |
+| 95 | {Weapon} (p. 43) |
 | 96 | Web |
 | 97 | Wheel |
 | 98 | Whip |
@@ -234,7 +364,7 @@ Tables from Knave 2e.
 | 92 | Teleporting |
 | 93 | Terrifying |
 | 94 | Transmuting |
-| 95 | Trap effect (p. 28) |
+| 95 | {TrapEffect} (p. 28) |
 | 96 | Transporting |
 | 97 | Vaporizing |
 | 98 | Warding |
@@ -273,7 +403,7 @@ Tables from Knave 2e.
 | 26 | Flesh |
 | 27 | Foam |
 | 28 | Fog |
-| 29 | Food (p. 49) |
+| 29 | {Food} (p. 49) |
 | 30 | Frost |
 | 31 | Fume |
 | 32 | Fungus |
@@ -295,7 +425,7 @@ Tables from Knave 2e.
 | 48 | Light |
 | 49 | Lightning |
 | 50 | Marmalade |
-| 51 | Material (p. 42) |
+| 51 | {Material} (p. 42) |
 | 52 | Memory |
 | 53 | Miasma |
 | 54 | Moss |
@@ -363,7 +493,7 @@ Tables from Knave 2e.
 | 11 | Celestial |
 | 12 | Cerebral |
 | 13 | Chaotic |
-| 14 | Color (p. 37) |
+| 14 | {Color} (p. 37) |
 | 15 | Cosmic |
 | 16 | Crafty |
 | 17 | Cryptic |
@@ -431,9 +561,9 @@ Tables from Knave 2e.
 | 79 | Resplendent |
 | 80 | Royal |
 | 81 | Sacred |
-| 82 | Scent (p. 66) |
+| 82 | {Scent} (p. 66) |
 | 83 | Sinister |
-| 84 | Sound (p. 66) |
+| 84 | {Sound} (p. 66) |
 | 85 | Splendid |
 | 86 | Subtle |
 | 87 | Superior |
@@ -557,7 +687,9 @@ Tables from Knave 2e.
 | 00 | Zilik |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Potion" >}}
+{{< rpg_table_button name="Potion" expr="Potion of {PotionEffect}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+
+{{< rpg_table name="PotionEffect" hide_button="true">}}
 | d100 | Potion |
 | ---- | --------|
 | 1 | Age	|
@@ -578,7 +710,7 @@ Tables from Knave 2e.
 | 16 | Cure wounds	|
 | 17 | Dark vision	|
 | 18 | Dead-speech	|
-| 19 | Delusion (p. 30)	|
+| 19 | {Delusion} (p. 30)	|
 | 20 | {Effect} (p. 28)	|
 | 21 | Elasticity	|
 | 22 | {{Element}} form (p. 29) |
@@ -664,12 +796,26 @@ Tables from Knave 2e.
 
 # GMing
 
-{{< rpg_table name="NPCBlock" >}}
+{{< rpg_table name="Name" >}}
 | d2 | NPC |
 | --- | --------|
-| 1 | {MaleName} {SurnameStart}{SurnameEnd}. {Personality} {Profession}. {Mannerism}. {NPCDetail}. Wants to {Goal} ({Archetype}). {Activity}. |
-| 2 | {FemaleName} {SurnameStart}{SurnameEnd}. {Personality} {Profession}. {Mannerism}. {NPCDetail}. Wants to {Goal} ({Archetype}). {Activity}. |
+| 1 | {MaleName} {SurnameStart}{SurnameEnd} |
+| 2 | {FemaleName} {SurnameStart}{SurnameEnd} |
 {{< /rpg_table >}}
+
+{{< rpg_table_button name="NPCBlock" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}. Wants to {Goal} ({Archetype}). {Activity}." >}}
+
+{{< rpg_table_button name="CityBlock" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
+
+{{< rpg_table_button name="MagicItemBlock" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}. Domains: {Domain}, {Domain}. Symbol: {Symbol}." >}}
+
+{{< rpg_table name="Item">}}
+| d100 | Archetype |
+| --- | --------|
+| 1 | {Fabric} {Clothing} |
+| 2 | {Weapon} |
+{{< /rpg_table >}}
+
 
 {{< rpg_table name="Archetype" hide_button="true" >}}
 | d100 | Archetype |
@@ -1287,7 +1433,7 @@ Tables from Knave 2e.
 | 84 | Sneering |
 | 85 | Sonorous |
 | 86 | Soothing |
-| 87 | Sound (p. 66) |
+| 87 | {Sound} (p. 66) |
 | 88 | Speechifying |
 | 89 | Squeaky |
 | 90 | Street slang |
@@ -1723,12 +1869,7 @@ Tables from Knave 2e.
 | 00 | worthy |
 {{< /rpg_table >}}
 
-{{< rpg_table name="MonsterBlock" >}}
-| d100 | Monster Block |
-| --- | --------|
-| 1 | {MonsterTrait} {Monster}. {Power}. {Activity}. |
-| 2 | {MonsterTrait} {Monster}. {Power}. {Activity}. |
-{{< /rpg_table >}}
+{{< rpg_table_button name="MonsterBlock" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
 
 {{< rpg_table name="Monster" hide_button="true" >}}
 | d100 | Monster |
@@ -1850,11 +1991,11 @@ Tables from Knave 2e.
 | 10 | Burning	|
 | 11 | Charged	|
 | 12 | Clay-like	|
-| 13 | Color (p. 37)	|
+| 13 | {Color} (p. 37)	|
 | 14 | Colossal	|
 | 15 | Crystalline	|
 | 16 | Decaying	|
-| 17 | Delusion (p. 30)	|
+| 17 | {Delusion} (p. 30)	|
 | 18 | {Element} skin (p. 29) |
 | 19 | Elongated	|
 | 20 | Ethereal	|
@@ -1910,7 +2051,7 @@ Tables from Knave 2e.
 | 70 | Radioactive |
 | 71 | Reflective |
 | 72 | Rubbery |
-| 73 | Scent (p. 66) |
+| 73 | {Scent} (p. 66) |
 | 74 | Shadowy |
 | 75 | Sharp |
 | 76 | Short limbs |
@@ -1921,14 +2062,14 @@ Tables from Knave 2e.
 | 81 | Smoking |
 | 82 | Soft |
 | 83 | Sooty |
-| 84 | Sound (p. 66) |
+| 84 | {Sound} (p. 66) |
 | 85 | Sparking |
 | 86 | Steaming |
 | 87 | Sticky |
 | 88 | Stinking |
 | 89 | Stone-like |
 | 90 | Stretchy |
-| 91 | Tactic (p. 67) |
+| 91 | {Tactic} (p. 67) |
 | 92 | Texture (p. 36) |
 | 93 | Tiny |
 | 94 | Translucent |
@@ -1937,7 +2078,7 @@ Tables from Knave 2e.
 | 97 | Venomous |
 | 98 | Vibrating |
 | 99 | Waxy |
-| 00 | Weakness (p. 67) |
+| 00 | {Weakness} (p. 67) |
 {{< /rpg_table >}}
 
 {{< rpg_table name="Power" hide_button="true" >}}
@@ -2061,14 +2202,14 @@ Tables from Knave 2e.
 | 11 | Blizzard	|
 | 12 | Blood moon	|
 | 13 | Brush fire	|
-| 14 | City event (p. 46)	|
+| 14 | {CityEvent} (p. 46)	|
 | 15 | Cloudburst	|
 | 16 | Cold wave	|
 | 17 | Cold weather	|
-| 18 | Color sky (p. 37)	|
-| 19 | Delusion (p. 30)	|
+| 18 | {Color} sky (p. 37)	|
+| 19 | {Delusion} (p. 30)	|
 | 20 | Dense fog	|
-| 21 | Disaster (p. 31)	|
+| 21 | {Disaster} (p. 31)	|
 | 22 | Downburst	|
 | 23 | Drizzle	|
 | 24 | Dust devil	|
@@ -2084,7 +2225,7 @@ Tables from Knave 2e.
 | 34 | Flooding	|
 | 35 | Fluffy clouds	|
 | 36 | Fog	|
-| 37 | Food rain (p. 49)	|
+| 37 | {Food} rain (p. 49)	|
 | 38 | Forest fire	|
 | 39 | Freezing fog	|
 | 40 | Freezing rain	|
@@ -2124,12 +2265,12 @@ Tables from Knave 2e.
 | 74 | Rainbow |
 | 75 | Salt storm |
 | 76 | Sandstorm |
-| 77 | Scent (p. 66) |
+| 77 | {Scent} (p. 66) |
 | 78 | Showers |
 | 79 | Smog |
 | 80 | Smoke |
 | 81 | Solar eclipse |
-| 82 | Sound (p. 66) |
+| 82 | {Sound} (p. 66) |
 | 83 | Stampede |
 | 84 | Star jelly |
 | 85 | Steam devils |
@@ -2145,16 +2286,12 @@ Tables from Knave 2e.
 | 95 | Warm rain |
 | 96 | Warm winds |
 | 97 | Waterspouts |
-| 98 | Weapon rain (p. 43) |
+| 98 | {Weapon} rain (p. 43) |
 | 99 | Windstorm |
 | 00 | Wispy clouds |
 {{< /rpg_table >}}
 
-{{< rpg_table name="StructureBlock" >}}
-| Structure |
-| --------|
-| {PlaceTrait} {Structure} |
-{{< /rpg_table >}}
+{{< rpg_table_button name="StructureBlock" expr="{PlaceTrait} {Structure}" >}}
 
 {{< rpg_table name="Structure" hide_button="true" >}}
 | d100 | Structure |
@@ -2172,7 +2309,7 @@ Tables from Knave 2e.
 |11 | Bonfire	|
 |12 | Bower	|
 |13 | Brazier	|
-|14 | Building (p. 47)	|
+|14 | {Building} (p. 47)	|
 |15 | Cairn	|
 |16 | Cart track	|
 |17 | Castle	|
@@ -2250,7 +2387,7 @@ Tables from Knave 2e.
 |89 | Town |
 |90 | Trader camp |
 |91 | Trail |
-|92 | Trap (pp. 16-17) |
+|92 | {Trap} (pp. 16-17) |
 |93 | Village |
 |94 | Wall |
 |95 | Watchtower |
@@ -2277,7 +2414,7 @@ Tables from Knave 2e.
 |11 | Burning	|
 |12 | Charred	|
 |13 | Collapsed	|
-|14 | Color (p. 37)	|
+|14 | {Color} (p. 37)	|
 |15 | Crawling	|
 |16 | Crimson	|
 |17 | Crumbling	|
@@ -2344,7 +2481,7 @@ Tables from Knave 2e.
 |78 | Sinister|
 |79 | Sinking|
 |80 | Sleeping|
-|81 | Sound (p. 66)|
+|81 | {Sound} (p. 66)|
 |82 | Stony|
 |83 | Sunken|
 |84 | Swamped|
@@ -2366,11 +2503,9 @@ Tables from Knave 2e.
 |00 | Writhing|
 {{< /rpg_table >}}
 
-{{< rpg_table name="RoomBlock" >}}
-| Room |
-| --------|
-| {Room}. {RoomTheme}. {RoomDetail}. |
-{{< /rpg_table >}}
+{{< rpg_table_button name="RoomBlock" expr="Room: {Room}. {RoomTheme}. {RoomDetail}." >}}
+
+{{< rpg_table_button name="Trap" expr="Trap: {TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
 
 {{< rpg_table name="Room" hide_button="true" >}}
 | d100 | Room |
@@ -2392,7 +2527,7 @@ Tables from Knave 2e.
 |15 | Baths	|
 |16 | Bed chamber	|
 |17 | Brewery	|
-|18 | Building (p. 47)	|
+|18 | {Building} (p. 47)	|
 |19 | Catacombs	|
 |20 | Cave	|
 |21 | Cell	|
@@ -2436,7 +2571,7 @@ Tables from Knave 2e.
 |59 | Lounge|
 |60 | Map room|
 |61 | Maze|
-|62 | Mechanism (p. 17)|
+|62 | {Mechanism} (p. 17)|
 |63 | Meditation room|
 |64 | Menagerie|
 |65 | Mess hall|
@@ -2452,7 +2587,7 @@ Tables from Knave 2e.
 |75 | Pool|
 |76 | Prison|
 |77 | Record room|
-|78 | Location (p. 10)|
+|78 | {Location} (p. 10)|
 |79 | Salon|
 |80 | Scriptorium|
 |81 | Scullery|
@@ -2463,7 +2598,7 @@ Tables from Knave 2e.
 |86 | Smoking room|
 |87 | Stables|
 |88 | Storeroom|
-|89 | Structure (p. 11)|
+|89 | {Structure} (p. 11)|
 |90 | Study|
 |91 | Tapestry room|
 |92 | Theater|
@@ -2502,7 +2637,7 @@ Tables from Knave 2e.
 |20| Chalk marks	|
 |21| Chandelier	|
 |22| Chest	|
-|23| Clothing (p. 40)	|
+|23| {Clothing} (p. 40)	|
 |24| Coffin	|
 |25| Coins	|
 |26| Collapsed ceiling |
@@ -2521,22 +2656,22 @@ Tables from Knave 2e.
 |39| Fabric (p. 41)	|
 |40| Fireplace	|
 |41| Flowing water	|
-|42| Food (p. 49)	|
+|42| {Food} (p. 49)	|
 |43| Fountain	|
 |44| Fungi	|
 |45| Graffiti	|
-|46| Hazard (p. 17)	|
+|46| {Hazard} (p. 17)	|
 |47| Incense	|
-|48| Ingredient (p. 37)	|
+|48| {Ingredient} (p. 37)	|
 |49| Instrument	|
 |50| Lantern	|
 |51| Map |
-|52| Material (p. 42) |
-|53| Mechanism (p. 17) |
+|52| {Material} (p. 42) |
+|53| {Mechanism} (p. 17) |
 |54| Message |
 |55| Mine cart |
 |56| Mirror |
-|57| Misc. item (p. 39) |
+|57| {MiscItem} (p. 39) |
 |58| {Monster} (p. 61) |
 |59| Mural |
 |60| Nest |
@@ -2551,35 +2686,35 @@ Tables from Knave 2e.
 |69| Repairs |
 |70| Roots |
 |71| Rubble |
-|72| Scent (p. 66) |
+|72| {Scent} (p. 66) |
 |73| Shaft |
 |74| Shelf |
-|75| Sign (p. 10) |
+|75| {Sign} (p. 10) |
 |76| Skeletons |
 |77| Smoke |
 |78| Sofa |
-|79| Sound (p. 66) |
+|79| {Sound} (p. 66) |
 |80| Spyhole |
 |81| Stairs |
 |82| Stalactites |
 |83| Statues |
 |84| Stove |
-|85| Street detail (p. 47) |
+|85| {StreetDetail} (p. 47) |
 |86| Symbol (p. 33) |
 |87| Table |
 |88| Tapestry |
 |89| Thick dust |
 |90| Throne |
 |91| Toilet |
-|92| Tool (p. 39) |
+|92| {Tool} (p. 39) |
 |93| Torch |
 |94| Torture device |
 |95| Training dummy |
 |96| Trap door |
-|97| Treasure (p. 42) |
+|97| {Treasure} (p. 42) |
 |98| Vines |
 |99| Wardrobe |
-|00| Weapon (p. 43)|
+|00| {Weapon} (p. 43)|
 {{< /rpg_table >}}
 
 {{< rpg_table name="RoomTheme" hide_button="true" >}}
@@ -2593,7 +2728,7 @@ Tables from Knave 2e.
 |6 | Book (p. 40)	|
 |7 | Brains	|
 |8 | Chaos	|
-|9 | City theme (p. 46) |
+|9 | {CityTheme} (p. 46) |
 |10 | Collapse	|
 |11 | Combat	|
 |12 | Corpses	|
@@ -2627,12 +2762,12 @@ Tables from Knave 2e.
 |40 | Invasion	|
 |41 | Invention	|
 |42 | Inversion	|
-|43 | Item trait (p. 43)	|
+|43 | {ItemTrait} (p. 43)	|
 |44 | Judgment	|
 |45 | Light	|
 |46 | Locks	|
 |47 | Madness	|
-|48 | Magic school (p. 31) |
+|48 | {MagicSchool} (p. 31) |
 |49 | Memory	|
 |50 | Mirrors	|
 |51 | Mouths|
@@ -2688,7 +2823,7 @@ Tables from Knave 2e.
 {{< /rpg_table >}}
 
 {{< rpg_table name="Activity" hide_button="true" >}}
-| d100 | ? |
+| d100 | Activity |
 | --- | --------|
 |1| Ambushing	|
 |2| Arguing	|
@@ -2778,11 +2913,11 @@ Tables from Knave 2e.
 |86| Selling|
 |87| Singing|
 |88| Sleeping|
-|89| Sound (p. 66)|
+|89| {Sound} (p. 66)|
 |90| Summoning|
 |91| Surrendering|
 |92| Swindling|
-|93| Tactic (p. 67)|
+|93| {Tactic} (p. 67)|
 |94| Tending|
 |95| Threatening|
 |96| Tracking|
@@ -2793,7 +2928,7 @@ Tables from Knave 2e.
 {{< /rpg_table >}}
 
 {{< rpg_table name="Mutation" hide_button="true" >}}
-| d100 | ? |
+| d100 | Mutation |
 | --- | --------|
 |1| Ages backwards  |
 |2| Ages faster	|
@@ -2817,7 +2952,7 @@ Tables from Knave 2e.
 |20| Bleeds acid	|
 |21| Chameleon eyes |
 |22| Claws	|
-|23| Color skin (p. 37)	|
+|23| {Color} skin (p. 37)	|
 |24| Crystal growth	|
 |25| Drooling	|
 |26| Duck bill	|
@@ -2867,7 +3002,7 @@ Tables from Knave 2e.
 |70| {Power} (p. 65)|
 |71| Rat tail|
 |72| Scales|
-|73| Scent (p. 66)|
+|73| {Scent} (p. 66)|
 |74| Scorpion tail|
 |75| Shaggy fur|
 |76| Shell|
@@ -2878,7 +3013,7 @@ Tables from Knave 2e.
 |81| Skin shedding|
 |82| Smoke breath|
 |83| Snake hair|
-|84| Sound (p. 66)|
+|84| {Sound} (p. 66)|
 |85| Spines|
 |86| Spinnerets|
 |87| Suction cups|
@@ -2897,9 +3032,4011 @@ Tables from Knave 2e.
 |00| Wooly|
 {{< /rpg_table >}}
 
-{{< rpg_table name="TravelBlah" hide_button="true" >}}
+{{< rpg_table name="Scent" hide_button="true" >}}
+| d100 | Scent |
+| --- | --------|
+|1| Acid	|
+|2| Alcohol	|
+|3| Almond	|
+|4| Ammonia	|
+|5| Animal (p. 64)	|
+|6| Baby	|
+|7| Balsamic	|
+|8| Banana	|
+|9| Barnyard	|
+|10| Bitter	|
+|11| Blood	|
+|12| Bread dough	|
+|13| Brine	|
+|14| Burnt hair	|
+|15| Burnt plastic	|
+|16| Burnt rubber	|
+|17| Burnt sugar	|
+|18| Burnt toast	|
+|19| Caramel	|
+|20| Cedarwood	|
+|21| Cherry	|
+|22| Chlorine	|
+|23| Chocolate	|
+|24| Cigarette ash	|
+|25| Coffee	|
+|26| Cologne	|
+|27| Cookies	|
+|28| Coppery	|
+|29| Cut grass	|
+|30| Damp	|
+|31| Dog breath	|
+|32| Dumpster	|
+|33| Earth	|
+|34| {Element} (p. 29)	|
+|35| Exhaust	|
+|36| Fish	|
+|37| {Food} (p. 49)	|
+|38| Formaldehyde	|
+|39| Garlic	|
+|40| Gasoline	|
+|41| Ginger	|
+|42| Gunpowder	|
+|43| Hamster cage	|
+|44| Hay	|
+|45| Herbal	|
+|46| Honey	|
+|47| Hops	|
+|48| Incense	|
+|49| Leather	|
+|50| Lemon	|
+|51| Licorice|
+|52| Lysol|
+|53| Manure|
+|54| Medicinal|
+|55| Mildew|
+|56| Mint|
+|57| Mold|
+|58| Musk|
+|59| Nutmeg|
+|60| Old books|
+|61| Old socks|
+|62| Olive oil|
+|63| Onion|
+|64| Orange|
+|65| Ozone|
+|66| Paint|
+|67| Peanut butter|
+|68| Peat moss|
+|69| Pine|
+|70| Pineapple|
+|71| Popcorn|
+|72| Rain|
+|73| Resinous|
+|74| Rose|
+|75| Rotten eggs|
+|76| Rotten meat|
+|77| Rotting fruit|
+|78| Seaweed|
+|79| Sewer|
+|80| Skunk|
+|81| Sour milk|
+|82| Spicy|
+|83| Spruce|
+|84| Stagnant|
+|85| Stale beer|
+|86| Stinky cheese|
+|87| Sulfur|
+|88| Sweat|
+|89| Taste (p. 36)|
+|90| Tea|
+|91| Thyme|
+|92| Tobacco|
+|93| Turpentine|
+|94| Vanilla|
+|95| Vinegar|
+|96| Violets|
+|97| Vomit|
+|98| Wet cardboard|
+|99| Wet dog|
+|00| Wood smoke|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Sound" hide_button="true" >}}
+| d100 | Sound |
+| --- | --------|
+|1| {Activity} (p. 19)	|
+|2| Animal (p. 64)	|
+|3| Banging	|
+|4| Barking	|
+|5| Bashing	|
+|6| Beeping	|
+|7| Bellowing	|
+|8| Bleating	|
+|9| Breathing	|
+|10| Buzzing	|
+|11| Cackling	|
+|12| Cawing	|
+|13| Chanting	|
+|14| Chewing	|
+|15| Chiming	|
+|16| Chirping	|
+|17| Chittering	|
+|18| Choking	|
+|19| Chomping	|
+|20| Clacking	|
+|21| Clanging	|
+|22| Clattering	|
+|23| Clicking	|
+|24| Clinking	|
+|25| Cracking	|
+|26| Crackling	|
+|27| Crawling	|
+|28| Creaking	|
+|29| Croaking	|
+|30| Crunching	|
+|31| Dripping	|
+|32| Fizzing	|
+|33| Flapping	|
+|34| Fluttering	|
+|35| Galloping	|
+|36| Gnashing	|
+|37| Gnawing	|
+|38| Grating	|
+|39| Grinding	|
+|40| Groaning	|
+|41| Growling	|
+|42| Grunting	|
+|43| Gulping	|
+|44| Gurgling	|
+|45| Hissing	|
+|46| Hooting	|
+|47| Howling	|
+|48| Humming	|
+|49| Jangling	|
+|50| Keening |
+|51| Licking|
+|52| {Mannerism} (p. 59)|
+|53| Moaning|
+|54| Muttering|
+|55| Pattering|
+|56| Popping|
+|57| Pounding|
+|58| Puffing|
+|59| Purring|
+|60| Rattling|
+|61| Ripping|
+|62| Roaring|
+|63| Rumbling|
+|64| Rustling|
+|65| Scrabbling|
+|66| Scraping|
+|67| Scratching|
+|68| Screeching|
+|69| Shrieking|
+|70| Shuffling|
+|71| Singing|
+|72| Sizzling|
+|73| Skittering|
+|74| Slapping|
+|75| Slithering|
+|76| Slurping|
+|77| Smacking|
+|78| Snapping|
+|79| Snarling|
+|80| Sniffing|
+|81| Snorting|
+|82| Spitting|
+|83| Splashing|
+|84| Squawking|
+|85| Squeaking|
+|86| Squelching|
+|87| Stomping|
+|88| Swooshing|
+|89| Thudding|
+|90| Thumping|
+|91| Ticking|
+|92| Trotting|
+|93| Wailing|
+|94| Wheezing|
+|95| Whimpering|
+|96| Whining|
+|97| Whipping|
+|98| Whirring|
+|99| Whistling|
+|00| Yelping|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Tactic" hide_button="true" >}}
+| d100 | Tactic |
+| --- | --------|
+|1| Ambush	|
+|2| Annoy	|
+|3| Bind	|
+|4| Blind	|
+|5| Body slam	|
+|6| Break armor	|
+|7| Break terrain	|
+|8| Break weapons	|
+|9| Bulldoze	|
+|10| Burrow	|
+|11| Burst	|
+|12| Cannibalize	|
+|13| Capture	|
+|14| Challenge	|
+|15| Chant	|
+|16| Charge	|
+|17| Cheat	|
+|18| Choke	|
+|19| Climb	|
+|20| Confuse	|
+|21| Create barrier	|
+|22| Cripple	|
+|23| Deafen	|
+|24| Deceive	|
+|25| Demand worship |
+|26| Disarm	|
+|27| Disorient	|
+|28| Distract	|
+|29| Divide foes	|
+|30| Dodge	|
+|31| Drop down	|
+|32| {Effect} (p. 28)	|
+|33| Encircle	|
+|34| Entangle	|
+|35| Evade	|
+|36| Feint	|
+|37| Flank	|
+|38| Follow	|
+|39| Frighten	|
+|40| Gang up	|
+|41| Go berserk	|
+|42| Goad	|
+|43| Grab	|
+|44| Harry	|
+|45| Ignite	|
+|46| Immobilize	|
+|47| Leap	|
+|48| Link up	|
+|49| Lure in	|
+|50| Manipulate |
+|51| Merge|
+|52| Mire|
+|53| Monologue|
+|54| Negotiate|
+|55| Obscure|
+|56| Order minion|
+|57| Pincer maneuver|
+|58| Play dead|
+|59| Poison|
+|60| Power up|
+|61| Praise self|
+|62| Protect leader|
+|63| Protect self|
+|64| Pull|
+|65| Push|
+|66| Roll|
+|67| Scatter foes|
+|68| Scream|
+|69| Shake|
+|70| Sicken|
+|71| Slam object|
+|72| Spin|
+|73| Split body|
+|74| Squeeze|
+|75| Stalk|
+|76| Stare down|
+|77| Steal|
+|78| Strategic retreat|
+|79| Stun|
+|80| Summon aid|
+|81| Swallow whole|
+|82| Swarm|
+|83| Sweep|
+|84| Swing creature|
+|85| Swing object|
+|86| Target insolent|
+|87| Target leader|
+|88| Target nearest|
+|89| Target richest|
+|90| Target strongest|
+|91| Target weakest|
+|92| Throw creature|
+|93| Throw object|
+|94| Thrust|
+|95| Toy with|
+|96| Trap|
+|97| {TrapEffect} (p. 16)|
+|98| Trip|
+|99| Undermine|
+|00| Vomit|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Weakness" hide_button="true" >}}
+| d100 | Weakness |
+| --- | --------|
+|1| Acid	|
+|2| Alcohol	|
+|3| Animal (p. 64)	|
+|4| Anti-magic	|
+|5| Arms	|
+|6| Arrows	|
+|7| Birds	|
+|8| Blessings	|
+|9| Blood	|
+|10| Blunt damage	|
+|11| Chest	|
+|12| Children	|
+|13| Church bells	|
+|14| Cold	|
+|15| {Color} (p. 37)	|
+|16| Competition	|
+|17| Conversation	|
+|18| Cutting damage  |
+|19| Darkness	|
+|20| Dirt	|
+|21| Disease	|
+|22| {Domain} (p. 33)	|
+|23| Ears	|
+|24| {Element} (p. 29)	|
+|25| Eyes	|
+|26| Feet	|
+|27| Fingers	|
+|28| Fire	|
+|29| Firelight	|
+|30| Fish	|
+|31| Flattery	|
+|32| Flowers	|
+|33| {Food} (p. 49)	|
+|34| Garlic	|
+|35| Gifts	|
+|36| Gold	|
+|37| Hands	|
+|38| {Hazard} (p. 17)	|
+|39| Heart	|
+|40| Heat	|
+|41| Holy image	|
+|42| Holy oil	|
+|43| Holy water	|
+|44| Ice	|
+|45| {Ingredient} (p. 37)	|
+|46| Insects	|
+|47| Insults	|
+|48| Iron	|
+|49| Legs	|
+|50| Lightning	|
+|51| {Location} (p. 10)|
+|52| Machines|
+|53| {MagicSchool} (p. 31)|
+|54| {Material} (p. 42)|
+|55| Mirrors|
+|56| {MiscItem} (p. 39)|
+|57| Mistletoe|
+|58| Moonlight|
+|59| Mouth|
+|60| Music|
+|61| Neck|
+|62| Noise|
+|63| Nose|
+|64| Oil|
+|65| Phylactery|
+|66| Piercing damage|
+|67| Poison|
+|68| {Profession} (p. 57)|
+|69| Psychic damage|
+|70| Puzzles|
+|71| Rain|
+|72| Relic|
+|73| Riddles|
+|74| Rituals|
+|75| Running water|
+|76| Salt|
+|77| {Scent} (p. 66)|
+|78| Seawater|
+|79| Silver|
+|80| Singing|
+|81| Skin|
+|82| Soap|
+|83| {Sound} (p. 66)|
+|84| {Spell} (pp. 22-25)|
+|85| Spicy food|
+|86| Spine|
+|87| Starlight|
+|88| Sunlight|
+|89| Symbol (p. 33)|
+|90| {Tactic} (p. 67)|
+|91| Tears|
+|92| Thunder|
+|93| {Tool} (p. 39)|
+|94| {TravelShift} (p. 9)|
+|95| {Treasure} (p. 42)|
+|96| True name|
+|97| Water|
+|98| {Weapon} (p. 43)|
+|99| Wolfsbane|
+|00| Wormwood
+{{< /rpg_table >}}
+
+{{< rpg_table name="Sign" hide_button="true" >}}
 | d100 | ? |
 | --- | --------|
+|1| Arguing	|
+|2| Ash	|
+|3| Bile	|
+|4| Blade marks	|
+|5| Blood	|
+|6| Blood tracks	|
+|7| Bone fragments	|
+|8| Bones	|
+|9| Boreholes	|
+|10| Bowers	|
+|11| Broken branches |
+|12| {Hazard} (p. 17)	|
+|13| Burrow	|
+|14| Carcass	|
+|15| Chewed plants	|
+|16| Claw marks	|
+|17| {Clothing} (p. 40)	|
+|18| Cocoons	|
+|19| Crushed grass	|
+|20| Dams	|
+|21| Diagrams	|
+|22| Digging sounds	|
+|23| Droppings	|
+|24| Droppings scent |
+|25| Eggs	|
+|26| Eggshells	|
+|27| {Element} trail (p. 29) |
+|28| Fabric scrap (p. 41) |
+|29| Fallen trees	|
+|30| Feathers	|
+|31| Fighting sounds  |
+|32| Fire pit	|
+|33| Flags	|
+|34| Fleeing prey	|
+|35| Food cache	|
+|36| Food scent	|
+|37| {Food} scraps (p. 49) |
+|38| Footprints	|
+|39| Fruit pits	|
+|40| Fur	|
+|41| Graffiti	|
+|42| Graves	|
+|43| Hives	|
+|44| Hunters	|
+|45| Injured prey	|
+|46| Lair	|
+|47| Lair scent	|
+|48| Letters	|
+|49| Mating ground	|
+|50| {Mechanism} (p. 17) |
+|51| Middens|
+|52| {MiscItem} (p. 39)|
+|53| Molted husk|
+|54| Mounds|
+|55| Mucus|
+|56| Mud tracks|
+|57| Musk|
+|58| Nest|
+|59| Nesting sounds|
+|60| Offspring|
+|61| Organ (p. 64)|
+|62| Pellets|
+|63| Pheromones|
+|64| Polished surface|
+|65| Pollen|
+|66| Ritual remnants|
+|67| Saliva|
+|68| Scales|
+|69| {Scent} (p. 66)|
+|70| Scorch marks|
+|71| Shadows|
+|72| Shed skin|
+|73| Shells|
+|74| Signaling sounds|
+|75| Singing|
+|76| Slime trails|
+|77| {Sound} (p. 66)|
+|78| Stalking sounds|
+|79| Stripped bark|
+|80| Symbols|
+|81| Teeth marks|
+|82| {Texture} trail (p. 36)|
+|83| {Tool} (p. 39)|
+|84| Trails|
+|85| Traps|
+|86| Trash|
+|87| Tree scratches|
+|88| Tunnels|
+|89| Urine|
+|90| Urine scent|
+|91| Voices|
+|92| Wallows|
+|93| Warning scent|
+|94| Warning sounds|
+|95| Warnings|
+|96| Wax|
+|97| {Weapon} (p. 43)|
+|98| Webs|
+|99| Wings|
+|00| Worshipers|
+{{< /rpg_table >}}
+
+{{< rpg_table_button name="LocationBlock" expr="{PlaceTrait} {Location}">}}
+
+{{< rpg_table name="Location" hide_button="true">}}
+| d100 | ? |
+| --- | --------|
+|1| Ashland	|
+|2| Badland	|
+|3| Bamboo forest	|
+|4| Basalt columns	|
+|5| Bay	|
+|6| Beach	|
+|7| Bluff	|
+|8| Bog	|
+|9| Boulder field	|
+|10| Brook	|
+|11| Butte	|
+|12| Caldera	|
+|13| Canyon	|
+|14| Cave	|
+|15| Cliff	|
+|16| Cloud forest	|
+|17| Coniferous forest |
+|18| Copse	|
+|19| Crag	|
+|20| Crater	|
+|21| Creek	|
+|22| Crossing	|
+|23| Crystals	|
+|24| Deciduous forest |
+|25| Delta	|
+|26| Dunes	|
+|27| Dust bowl	|
+|28| {Element} field (p. 35)|
+|29| Fen	|
+|30| Fjord	|
+|31| Floodplain	|
+|32| Gas vent	|
+|33| Geyser	|
+|34| Glacier	|
+|35| Gorge	|
+|36| Grotto	|
+|37| Grove	|
+|38| Gulch	|
+|39| Heath	|
+|40| Highland	|
+|41| Hollow	|
+|42| Hoodoo	|
+|43| Hot Spring	|
+|44| Ice Sheet	|
+|45| Jungle	|
+|46| Knoll	|
+|47| Lagoon	|
+|48| Lair	|
+|49| Lake	|
+|50| Lakebed |
+|51| Lava field|
+|52| Lava tube|
+|53| Loch|
+|54| Mangrove swamp|
+|55| Marsh|
+|56| Meadow|
+|57| Mesa|
+|58| Mire|
+|59| Moor|
+|60| Mountain|
+|61| Mud plain|
+|62| Oasis|
+|63| Oil seep|
+|64| Pass|
+|65| Pasture|
+|66| Petrified forest|
+|67| Pit|
+|68| Plateau|
+|69| Pond|
+|70| Prairie|
+|71| Quicksand|
+|72| Rainforest|
+|73| Rapids|
+|74| Ravine|
+|75| Ridge|
+|76| River|
+|77| Riverland|
+|78| Rockslide|
+|79| Salt Flat|
+|80| Salt Marsh|
+|81| Savanna|
+|82| Scree Slope|
+|83| Scrubland|
+|84| Sinkhole|
+|85| Spring|
+|86| Steppe|
+|87| Stream|
+|88| Sulfur Spring|
+|89| Swamp|
+|90| Taiga|
+|91| Tar Pit|
+|92| Thicket|
+|93| Tundra|
+|94| Valley|
+|95| Volcanic Plain|
+|96| Volcano|
+|97| Wasteland|
+|98| Waterfall|
+|99| Wetlands|
+|00| Whirlpool|
+{{< /rpg_table >}}
+
+{{< rpg_table name="DelveShift" >}}
+| d100 | Delve Shift |
+| --- | --------|
+|1| Alarm	|
+|2| Animal sounds	|
+|3| Apparition	|
+|4| Awakening	|
+|5| Battle	|
+|6| Blessing	|
+|7| Blood scent	|
+|8| Ceilings moves	|
+|9| Ceremony	|
+|10| {CityEvent} (p. 46)	|
+|11| Cleaning	|
+|12| Cloud of flies	|
+|13| Combat sounds	|
+|14| Construction	|
+|15| Crystal growth	|
+|16| Curse	|
+|17| Dead rise	|
+|18| Decay scent	|
+|19| Decreased patrols |
+|20| {Delusion} (p. 30)	|
+|21| Device activates |
+|22| {Disaster} (p. 31)	|
+|23| Doors close	|
+|24| Doors open	|
+|25| Draining	|
+|26| Dungeon rotates |
+|27| Dungeon slides	|
+|28| Dungeon tilts	|
+|29| Dust cloud	|
+|30| Earthquake	|
+|31| Element flow (p.29) |
+|32| Eruption	|
+|33| Excavation	|
+|34| Faction alliance	|
+|35| Faction truce	|
+|36| Faction war	|
+|37| Feast	|
+|38| Fire	|
+|39| Flammable gas	|
+|40| Flooding	|
+|41| Floors move	|
+|42| Fog	|
+|43| Food scent	|
+|44| Foraging	|
+|45| Freezing	|
+|46| Gravel flow	|
+|47| Hatching	|
+|48| Hot	|
+|49| Humid	|
+|50| Hunt |
+|51| Incense|
+|52| Increased patrols|
+|53| Invasion|
+|54| Lava flow|
+|55| Leak|
+|56| Liquid sounds|
+|57| Machine sounds|
+|58| Manure scent|
+|59| Monster scent|
+|60| Monster sounds|
+|61| Mud flow|
+|62| Music|
+|63| Nesting|
+|64| New faction|
+|65| New monster|
+|66| New rooms|
+|67| Oil flow|
+|68| Passages close|
+|69| Passages open|
+|70| Plague|
+|71| Planar overlay|
+|72| Plants bloom|
+|73| Plants grow|
+|74| Plants wither|
+|75| Repairs|
+|76| Rift opens|
+|77| Room revolves|
+|78| Room slides|
+|79| Room tilts|
+|80| Rooms filled in|
+|81| Rooms rearrange|
+|82| Sand flow|
+|83| {Scent} (p. 66)|
+|84| Singing|
+|85| Sleep|
+|86| Smoke|
+|87| {Sound} (p. 66)|
+|88| Static charge|
+|89| Summoning|
+|90| Total silence|
+|91| {TrapEffect} (p. 28)|
+|92| Traps rearm|
+|93| Vermin swarm|
+|94| Voices|
+|95| Walls close in|
+|96| Walls move|
+|97| Walls widen|
+|98| Water flow|
+|99| Wind|
+|00| Worship|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Dungeon" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alchemy lab	|
+|2| Animal burrow	|
+|3| Aquarium	|
+|4| Arboretum	|
+|5| Archive	|
+|6| Arena	|
+|7| Armory	|
+|8| Art gallery	|
+|9| Asylum	|
+|10| Automaton	|
+|11| Aviary	|
+|12| Bank	|
+|13| Bathhouse	|
+|14| {Building} (p. 47)	|
+|15| Bunker	|
+|16| Casino	|
+|17| Castle	|
+|18| Catacombs	|
+|19| Cathedral	|
+|20| Cave system	|
+|21| Cistern	|
+|22| City	|
+|23| Clock	|
+|24| Corpse	|
+|25| Court	|
+|26| Criminal den	|
+|27| Curiosity cabinet |
+|28| Dam	|
+|29| Deathtrap	|
+|30| Depot	|
+|31| Dig site	|
+|32| Dormitory	|
+|33| Faction hideout	|
+|34| Factory	|
+|35| Fashion gallery	|
+|36| Feasting hall	|
+|37| Forge	|
+|38| Garbage pit	|
+|39| Gateway	|
+|40| Guildhall	|
+|41| Historical gallery |
+|42| Hospital	|
+|43| Hotel	|
+|44| Ice caves	|
+|45| Insect hive	|
+|46| Instrument	|
+|47| Kennel	|
+|48| Kitchen	|
+|49| Labyrinth	|
+|50| Larder |
+|51| Lava tubes|
+|52| Library|
+|53| Living dungeon|
+|54| Lock|
+|55| Mansion|
+|56| Marketplace|
+|57| Mausoleum|
+|58| Memorial|
+|59| Menagerie|
+|60| Mill|
+|61| Mine|
+|62| Monastery|
+|63| Monster gallery|
+|64| Monster lab|
+|65| Monster lair|
+|66| Museum|
+|67| Mushroom forest|
+|68| Nest|
+|69| Nursery|
+|70| Observatory|
+|71| Orrery|
+|72| Palace|
+|73| Prison|
+|74| Race track|
+|75| Room (p. 14)|
+|76| Sanctum|
+|77| Sculpture gallery|
+|78| Sewer|
+|79| Ship|
+|80| Silo|
+|81| Slaughterhouse|
+|82| Stable|
+|83| Stronghold|
+|84| Structure (p. 11)|
+|85| Summoning site|
+|86| Temple|
+|87| Testing ground|
+|88| Theater|
+|89| Theme park|
+|90| Tomb|
+|91| Tower|
+|92| Training complex|
+|93| Treasure vault|
+|94| Tree|
+|95| Warehouse|
+|96| Warren|
+|97| Waterworks|
+|98| Weapon gallery|
+|99| Wine cellar|
+|00| Work pit|
+{{< /rpg_table >}}
+
+{{< rpg_table name="TrapEffect" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Absorbing	|
+|2| Accelerating	|
+|3| Arranging	|
+|4| Attracting	|
+|5| Balancing	|
+|6| Beating	|
+|7| Bending	|
+|8| Blocking	|
+|9| Blowing	|
+|10| Bludgeoning	|
+|11| Boiling	|
+|12| Burning	|
+|13| Bursting	|
+|14| Burying	|
+|15| Catching	|
+|16| Charging	|
+|17| Choking	|
+|18| Closing	|
+|19| Compressing	|
+|20| Contracting	|
+|21| Counting down	|
+|22| Crushing	|
+|23| Deafening	|
+|24| Delivering	|
+|25| {DelveShift} (p. 14) |
+|26| Desiccating	|
+|27| Dividing	|
+|28| Draining	|
+|29| Dropping	|
+|30| {Effect} (p. 28)	|
+|31| Expanding	|
+|32| Extending	|
+|33| Filling	|
+|34| Flapping	|
+|35| Floating	|
+|36| Focusing	|
+|37| Freezing	|
+|38| Grabbing	|
+|39| Hardening	|
+|40| Hooking	|
+|41| Immobilizing	|
+|42| Imprisoning	|
+|43| Inflating	|
+|44| Inserting	|
+|45| Launching	|
+|46| Lifting	|
+|47| Locking	|
+|48| Loosening	|
+|49| Lowering	|
+|50| Opening |
+|51| Oscillating|
+|52| Piercing|
+|53| Pinching|
+|54| Pointing|
+|55| Poking|
+|56| Pulling|
+|57| Pushing|
+|58| Reflecting|
+|59| Releasing|
+|60| Removing|
+|61| Repelling|
+|62| Rolling|
+|63| Scooping|
+|64| Scrambling|
+|65| Severing|
+|66| Shaking|
+|67| Shocking|
+|68| Shooting|
+|69| Shredding|
+|70| Sifting|
+|71| Sinking|
+|72| Slashing|
+|73| Sliding|
+|74| Slowing|
+|75| Smothering|
+|76| Soaking|
+|77| Softening|
+|78| Spinning|
+|79| Squeezing|
+|80| Staining|
+|81| Sticking|
+|82| Stretching|
+|83| Swinging|
+|84| Tangling|
+|85| Tearing|
+|86| Tightening|
+|87| Tilting|
+|88| Toppling|
+|89| Transporting|
+|90| Tripping|
+|91| Turning|
+|92| Twisting|
+|93| Unbalancing|
+|94| Unearthing|
+|95| Unlocking|
+|96| Weighing|
+|97| Whipping|
+|98| Winding|
+|99| Wobbling|
+|00| Wrapping|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Hazard" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acceleration	|
+|2| Acid	|
+|3| Alarm	|
+|4| Alcohol	|
+|5| Animal (p. 64)	|
+|6| Arrow	|
+|7| Automatons	|
+|8| Avalanche	|
+|9| Axe	|
+|10| Bat	|
+|11| Blinding light	|
+|12| Boiling tar	|
+|13| Boiling water	|
+|14| Cold	|
+|15| Crocodile	|
+|16| Crude oil	|
+|17| Darkness	|
+|18| Deafening noise  |
+|19| {Delusion} (p. 30)	|
+|20| {DelveShift} (p. 14)  |
+|21| {Disaster} (p. 31)	|
+|22| Disease	|
+|23| Drill	|
+|24| Dust	|
+|25| {Effect} (p. 28)	|
+|26| Electricity	|
+|27| {Element} (p. 29)	|
+|28| Fall	|
+|29| Fear gas	|
+|30| Fire	|
+|31| Fire ant	|
+|32| Force field	|
+|33| Glass shard	|
+|34| Glue	|
+|35| Grease	|
+|36| Guillotine	|
+|37| Hammer	|
+|38| Heat	|
+|39| Heavy gas	|
+|40| Hook	|
+|41| Hot metal	|
+|42| Hot wax	|
+|43| Hydrogen	|
+|44| Ice block	|
+|45| Ink	|
+|46| Lantern oil	|
+|47| Lava	|
+|48| Log	|
+|49| Magnet	|
+|50| Mercury |
+|51| Metal jaws|
+|52| Mold|
+|53| Molten gold|
+|54| Molten iron|
+|55| {Monster} (p. 61)|
+|56| Mud|
+|57| {Mutation} (p. 30)|
+|58| Nail|
+|59| Needle|
+|60| Noose|
+|61| Ooze|
+|62| Phosphorus|
+|63| Piano wire|
+|64| Piranha|
+|65| Poison|
+|66| Poison gas|
+|67| Quicksand|
+|68| Radiation|
+|69| Rage gas|
+|70| Rat|
+|71| Sand|
+|72| Saw|
+|73| Scissor|
+|74| Sewage|
+|75| Shredder|
+|76| Sleeping gas|
+|77| Smoke|
+|78| Snake|
+|79| Spear|
+|80| {Spell} (pp. 22-25)|
+|81| Spider|
+|82| Spike|
+|83| Spore|
+|84| Steam|
+|85| Stench|
+|86| Stone block|
+|87| Sulfur|
+|88| Sword|
+|89| Tar|
+|90| Thin air|
+|91| Thorns|
+|92| {TravelShift} (p. 9)|
+|93| Vacuum|
+|94| Vine|
+|95| Wasps|
+|96| Water|
+|97| {Weapon} (p. 43)|
+|98| Web|
+|99| Wet cement|
+|00| Wind|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Mechanism" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Air pump	|
+|2| Ball bearings	|
+|3| Barrel	|
+|4| Bars	|
+|5| Basket	|
+|6| Beam	|
+|7| Bell	|
+|8| Bellows	|
+|9| Belt	|
+|10| Bow	|
+|11| Breaks	|
+|12| Bucket	|
+|13| Button	|
+|14| Cable	|
+|15| Cage	|
+|16| Capstan	|
+|17| Cartwheel	|
+|18| Catapult	|
+|19| Chain pull	|
+|20| Chains	|
+|21| Channel	|
+|22| Claw	|
+|23| Clock	|
+|24| Copper wire	|
+|25| Corridor	|
+|26| Crane	|
+|27| Creature	|
+|28| Crossbow	|
+|29| Curtain	|
+|30| Cylinder	|
+|31| Dial	|
+|32| Door	|
+|33| Drain	|
+|34| Drum	|
+|35| Fan	|
+|36| Float	|
+|37| Gears	|
+|38| Grate	|
+|39| Hamster wheel	|
+|40| Handwheel	|
+|41| Hook	|
+|42| Hourglass	|
+|43| Hydrogen tank	|
+|44| Jack	|
+|45| Ladder	|
+|46| Latch	|
+|47| Lens	|
+|48| Lift	|
+|49| Light beam	|
+|50| Lock |
+|51| Mirror|
+|52| Net|
+|53| Paddle|
+|54| Pendulum|
+|55| Pin|
+|56| Pipes|
+|57| Pit|
+|58| Platform|
+|59| Plug|
+|60| Pneumatics|
+|61| Pole|
+|62| Portcullis|
+|63| Pressure plate|
+|64| Pulley|
+|65| Rack and pinion|
+|66| Rails|
+|67| Ramp|
+|68| Ratchet|
+|69| Reservoir|
+|70| Room|
+|71| Scales|
+|72| Scissor lift|
+|73| Screw|
+|74| Scoop|
+|75| Shaft|
+|76| Slide|
+|77| Sluice|
+|78| Sphere|
+|79| Spring|
+|80| Stairs|
+|81| Switch|
+|82| Tank treads|
+|83| Tap|
+|84| Thread|
+|85| {Tool} (p. 39)|
+|86| Trap door|
+|87| Treadmill|
+|88| Trigger|
+|89| Tripwire|
+|90| Trolley|
+|91| Vacuum pump|
+|92| Valve|
+|93| Vice|
+|94| Walls|
+|95| Water pump|
+|96| Waterwheel|
+|97| Wedge|
+|98| Weights|
+|99| Winch|
+|00| Windmill|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Delusion" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Activity} (p. 19)	|
+|2| Always drunk	|
+|3| Always polite	|
+|4| Always rude	|
+|5| Always sleepy	|
+|6| Amnesia	|
+|7| Animal (p. 64)	|
+|8| Asset (p. 58)	|
+|9| Aura reading	|
+|10| Automaton	|
+|11| Being followed	|
+|12| Cannot count	|
+|13| Cannot lie	|
+|14| Cannot read	|
+|15| Chosen one	|
+|16| Clone	|
+|17| Constant rage	|
+|18| Dark vision	|
+|19| Demonic	|
+|20| Divine	|
+|21| Extra limb	|
+|22| Falls in love	|
+|23| Famous	|
+|24| Fears birds	|
+|25| Fears blood	|
+|26| Fears {Domain}} (p. 33)  |
+|27| Fears fire	|
+|28| Fears gold	|
+|29| Fears iron	|
+|30| Fears music	|
+|31| Fears own hand  |
+|32| Fears PC	|
+|33| Fears rain	|
+|34| Fears rivers	|
+|35| Fears sleep	|
+|36| Fears sunlight	|
+|37| Fears {Symbol} (p. 33) |
+|38| Fears the moon	|
+|39| Flight	|
+|40| Genius	|
+|41| Gets lost	|
+|42| {Goal} (p. 57)	|
+|43| Gorgeous	|
+|44| Hates violence	|
+|45| Healing touch	|
+|46| Hideous	|
+|47| Illuminati	|
+|48| Immortal	|
+|49| In an RPG	|
+|50| Infamous |
+|51| Invisible|
+|52| Invisible servant|
+|53| Invulnerable|
+|54| Language switch|
+|55| Liability (p. 58)|
+|56| {Mannerism} (p. 59)|
+|57| Medium|
+|58| Mind controlled|
+|59| Missing limb|
+|60| Mission (p. 51)|
+|61| {Monster} (p. 61)|
+|62| {MonsterTrait} (p. 65)|
+|63| Must dance|
+|64| Must lie|
+|65| Must obey|
+|66| Must shout|
+|67| Must skip|
+|68| Must steal|
+|69| {Name} (pp. 54-55)|
+|70| {NPCDetail} (p. 56)|
+|71| Organ (p. 64)|
+|72| Personal army|
+|73| {Personality} (p. 56)|
+|74| Planar traveler|
+|75| {Power} (p. 65)|
+|76| {Profession} (p. 57)|
+|77| Prophet|
+|78| Reincarnated|
+|79| Rich|
+|80| Says thoughts|
+|81| Secret monarch|
+|82| Sees dead people|
+|83| Shapeshifter|
+|84| Silent|
+|85| Skin texture (p. 36)|
+|86| {Sound} (p. 66)|
+|87| Spy|
+|88| Super strength|
+|89| Talks to animals|
+|90| Talks to plants|
+|91| Telekinetic|
+|92| Telepathic|
+|93| Time traveler|
+|94| Vampire|
+|95| {Weakness} (p. 67)|
+|96| Weather control|
+|97| Werewolf|
+|98| Whispers|
+|99| {WizardName} (p. 27)|
+|00| X-ray vision|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Disaster" >}}
+| d100 | ? |
+| --- | --------|
+|1 |Acid rain	|
+|2 |Aging accelerates |
+|3 |Aging reverses	|
+|4 |All iron rusts	|
+|5 |Amnesia	|
+|6 |Animal revolt	|
+|7 |Animals die	|
+|8 |Animals mutate |
+|9 |Animals speak	|
+|10 |Birds attack	|
+|11 |Birds die	|
+|12 |Body swaps	|
+|13 |Cities move	|
+|14 |City appears	|
+|15 |City changes	|
+|16 |Deadly fog	|
+|17 |Delusion (p. 30)	|
+|18 |Demon invasion |
+|19 |Doors lock	|
+|20 |Dragon wakes	|
+|21 |Dream plague	|
+|22 |Drought	|
+|23 |Earth to sand	|
+|24 |Earthquake	|
+|25 |Effect rain (p. 28)	|
+|26 |Element rain (p. 29) |
+|27 |Endless day	|
+|28 |Endless night	|
+|29 |Endless rain	|
+|30 |Endless storm	|
+|31 |Endless twilight |
+|32 |Endless winter	|
+|33 |Eruption	|
+|34 |Fae return	|
+|35 |Famine	|
+|36 |Fear epidemic	|
+|37 |Firestorm	|
+|38 |Fish die	|
+|39 |Fish speak	|
+|40 |Flesh to stone	|
+|41 |Flood	|
+|42 |Forest appears	|
+|43 |Forgetfulness	|
+|44 |Giants march	|
+|45 |Gold to tin	|
+|46 |Graves open	|
+|47 |Gravity decreases |
+|48 |Gravity increases |
+|49 |Hills move	|
+|50 |Iron to cloth |
+|51 |Language loss|
+|52 |Lightning storm|
+|53 |Living nightmare|
+|54 |Locusts|
+|55 |Maggots|
+|56 |Magic barrier|
+|57 |Mass blindness|
+|58 |Mass hypnosis|
+|59 |Mass insanity|
+|60 |Mass possession|
+|61 |Mass slumber|
+|62 |Mass telepathy|
+|63 |Meteor strike|
+|64 |Mirages|
+|65 |Mirrors speak|
+|66 |Mutation (p. 30)|
+|67 |No stars|
+|68 |Objects animate|
+|69 |Outsider enters|
+|70 |People shrink|
+|71 |People vanish|
+|72 |Pits open|
+|73 |Plague|
+|74 |Planar overlay|
+|75 |Plants wither|
+|76 |Portal opens|
+|77 |Rage epidemic|
+|78 |Rampant growth|
+|79 |Rifts open|
+|80 |Rivers move|
+|81 |Rivers reverse|
+|82 |Roads move|
+|83 |Shadows detach|
+|84 |Shadows speak|
+|85 |Smoke|
+|86 |Space distorts|
+|87 |Stone to flesh|
+|88 |Stones speak|
+|89 |Texture rain (p. 36)|
+|90 |Time loop|
+|91 |Time slows|
+|92 |Time warp|
+|93 |Tornado|
+|94 |Total silence|
+|95 |Tower appears|
+|96 |Trees march|
+|97 |Voices of dead|
+|98 |Water to blood|
+|99 |{Weapon} rain (p. 43)|
+|00 |Windstorm|
+{{< /rpg_table >}}
+
+{{< rpg_table name="MagicSchool" >}}
+| d100 | ? |
+| --- | --------|
+|1| Abjuration	|
+|2| Air	|
+|3| Alchemy	|
+|4| Alteration	|
+|5| Animation	|
+|6| Anti-magic	|
+|7| Archery	|
+|8| Architecture	|
+|9| Armor	|
+|10| Artifice	|
+|11| Beasts	|
+|12| Biomancy	|
+|13| Birds	|
+|14| {Book} (p. 40)	|
+|15| Charms	|
+|16| Chromatic	|
+|17| Conjuration	|
+|18| Counterspells	|
+|19| Creation	|
+|20| Darkness	|
+|21| Death	|
+|22| Desert	|
+|23| Destruction	|
+|24| Divination	|
+|25| Domain (p. 33)	|
+|26| Dragons	|
+|27| Dreams	|
+|28| Earth	|
+|29| Emotions	|
+|30| Enchantment	|
+|31| Evocation	|
+|32| Fear	|
+|33| Finding	|
+|34| Fire	|
+|35| Fish	|
+|36| Flight	|
+|37| Food	|
+|38| Force	|
+|39| Forest	|
+|40| Fungi	|
+|41| Geometry	|
+|42| Healing	|
+|43| Ice	|
+|44| Ignorance	|
+|45| Illness	|
+|46| Illumination	|
+|47| Illusion	|
+|48| Insects	|
+|49| Invocation	|
+|50| Knowledge |
+|51| Lightning|
+|52| Martial arts|
+|53| Memory|
+|54| Metamagic|
+|55| Mind control|
+|56| Mirrors|
+|57| Misdirection|
+|58| Mist|
+|59| Music|
+|60| Necromancy|
+|61| Oratory|
+|62| Outsiders|
+|63| Planes|
+|64| Portals|
+|65| Power|
+|66| Protection|
+|67| Rays|
+|68| Reptiles|
+|69| Revelation|
+|70| {RoomTheme} (p. 15)|
+|71| Sea|
+|72| Servants|
+|73| Shadow|
+|74| Shaping|
+|75| Sight|
+|76| Sound|
+|77| Speed|
+|78| Stars|
+|79| Stasis|
+|80| Staves|
+|81| Stealth|
+|82| Stones|
+|83| Storms|
+|84| Summoning|
+|85| Sun|
+|86| Swords|
+|87| Telekinesis|
+|88| Telepathy|
+|89| Teleportation|
+|90| Theft|
+|91| Time|
+|92| Transmutation|
+|93| Trickery|
+|94| Vampirism|
+|95| Walls|
+|96| Water|
+|97| Weapons|
+|98| Wild magic|
+|99| Wind|
+|00| Witchery|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Domain" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acid	|
+|2| Alchemy	|
+|3| Beauty	|
+|4| Bees	|
+|5| Beggars	|
+|6| Betrayal	|
+|7| Birds	|
+|8| Blades	|
+|9| Blood	|
+|10| Blossoms	|
+|11| Book (p. 40)	|
+|12| Clay	|
+|13| Clouds	|
+|14| Commerce	|
+|15| Courage	|
+|16| Cowards	|
+|17| Craftsmanship	|
+|18| Crows	|
+|19| Darkness	|
+|20| Deserts	|
+|21| Destruction	|
+|22| Disease	|
+|23| Doors	|
+|24| Dreams	|
+|25| Duels	|
+|26| Eagles	|
+|27| Earthquakes	|
+|28| Fire	|
+|29| Fish	|
+|30| Forge	|
+|31| Fungi	|
+|32| Gluttony	|
+|33| Greed	|
+|34| Healing	|
+|35| Horses	|
+|36| Hunger	|
+|37| Illusions	|
+|38| Jealousy	|
+|39| Language	|
+|40| Lava	|
+|41| Libraries	|
+|42| Light	|
+|43| Lightning	|
+|44| Love	|
+|45| Luck	|
+|46| Machines	|
+|47| Madness	|
+|48| {MagicSchool} (p. 31) |
+|49| Mazes	|
+|50| Mirrors |
+|51| Mountains|
+|52| Murderers|
+|53| Music|
+|54| Oratory|
+|55| Performance|
+|56| Poison|
+|57| Priests|
+|58| Prisoners|
+|59| Rage|
+|60| Rain|
+|61| Revenge|
+|62| Revolution|
+|63| Roads|
+|64| {RoomTheme} (p. 15)|
+|65| Royalty|
+|66| Rust|
+|67| Sand|
+|68| Secrets|
+|69| Serpents|
+|70| Silence|
+|71| Slaves|
+|72| Sleep|
+|73| Smoke|
+|74| Soldiers|
+|75| Spiders|
+|76| Swamps|
+|77| Tailors|
+|78| The blind|
+|79| The elderly|
+|80| The future|
+|81| The grave|
+|82| The harvest|
+|83| The hearth|
+|84| The hunt|
+|85| The haw|
+|86| The sea|
+|87| Thieves|
+|88| Thorns|
+|89| Travelers|
+|90| Trees|
+|91| Trickery|
+|92| Truth|
+|93| Tundra|
+|94| Tunnels|
+|95| Vermin|
+|96| Walls|
+|97| Wind|
+|98| Wine|
+|99| Winter|
+|00| Wolves|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Symbol" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Animal (p. 64)	|
+|2| Antlers	|
+|3| Arrow	|
+|4| Axe	|
+|5| Bear	|
+|6| Bell	|
+|7| Bird	|
+|8| Blood drop	|
+|9| Book	|
+|10| Boots	|
+|11| Bow	|
+|12| Bowl	|
+|13| Branch	|
+|14| Brazier	|
+|15| Cauldron	|
+|16| Chain	|
+|17| Chariot	|
+|18| Circle	|
+|19| {Clothing} (p. 40)	|
+|20| Cloud	|
+|21| Coin	|
+|22| Constellation	|
+|23| Crab	|
+|24| Cross	|
+|25| Crown	|
+|26| Crystal	|
+|27| Dagger	|
+|28| Deer	|
+|29| Dice	|
+|30| Eye	|
+|31| Fangs	|
+|32| Feather	|
+|33| Fish	|
+|34| Fist	|
+|35| Flower	|
+|36| Fountain	|
+|37| {Food} (p. 49)	|
+|38| {Form} (p. 29)	|
+|39| Fox	|
+|40| Frog	|
+|41| Gate	|
+|42| Goat	|
+|43| Hammer	|
+|44| Hand	|
+|45| Heart	|
+|46| Helmet	|
+|47| Hook	|
+|48| Horn	|
+|49| Horse	|
+|50| Hourglass |
+|51| Key|
+|52| Knot|
+|53| Lamp|
+|54| Leaf|
+|55| Lightning bolt|
+|56| Lock|
+|57| Mask|
+|58| {MiscItem} (p. 39)|
+|59| Moon|
+|60| Nut|
+|61| Octopus|
+|62| Organ (p. 64)|
+|63| Ox|
+|64| Pen|
+|65| Pincer|
+|66| Pine cone|
+|67| Planet|
+|68| Rabbit|
+|69| Rat|
+|70| Ring|
+|71| Scorpion|
+|72| Scales|
+|73| Scroll|
+|74| Serpent|
+|75| Shield|
+|76| Sickle|
+|77| Skull|
+|78| Snail|
+|79| Snowflake|
+|80| Spear|
+|81| Spiral|
+|82| Square|
+|83| Staff|
+|84| Star|
+|85| Sun|
+|86| Sword|
+|87| Tentacle|
+|88| Throne|
+|89| Tooth|
+|90| Torch|
+|91| Tree|
+|92| Triangle|
+|93| Turtle|
+|94| Wave|
+|95| {Weapon} (p. 43)|
+|96| Web|
+|97| Whale|
+|98| Whip|
+|99| Wings|
+|00| Wolf|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Texture" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Aerated	|
+|2| Battery	|
+|3| Blended	|
+|4| Boiling	|
+|5| Brackish	|
+|6| Bubbling	|
+|7| Buttery	|
+|8| Caramelized	|
+|9| Chalky	|
+|10| Chilled	|
+|11| Chunky	|
+|12| Churning	|
+|13| Clotted	|
+|14| Coagulated	|
+|15| Condensed	|
+|16| Congealed	|
+|17| Cool	|
+|18| Creamy	|
+|19| Crystalized	|
+|20| Curdled	|
+|21| Dregs	|
+|22| Effervescent	|
+|23| Filmy	|
+|24| Fizzing	|
+|25| Flakes	|
+|26| Foaming	|
+|27| Foggy	|
+|28| Frigid	|
+|29| Frosty	|
+|30| Frothy	|
+|31| Gelatinous	|
+|32| Glimmering	|
+|33| Gloppy	|
+|34| Glowing	|
+|35| Gluey	|
+|36| Grainy	|
+|37| Greasy	|
+|38| Gritty	|
+|39| Grounds	|
+|40| Gummy	|
+|41| Gunky	|
+|42| Gurgling	|
+|43| Hissing	|
+|44| Humming	|
+|45| Ichorous	|
+|46| Icy	|
+|47| Jellied	|
+|48| Living	|
+|49| Lukewarm	|
+|50| Lumpy |
+|51| Mashed|
+|52| Metallic|
+|53| Motes|
+|54| Moving|
+|55| Muddy|
+|56| Murky|
+|57| Mushy|
+|58| Oily|
+|59| Oozy|
+|60| Pasty|
+|61| Powdery|
+|62| Pudding|
+|63| Pulpy|
+|64| Pulsing|
+|65| Pureed|
+|66| Quicksilver|
+|67| Reflective|
+|68| Rippling|
+|69| Roiling|
+|70| Sandy|
+|71| Sappy|
+|72| Scalding|
+|73| Scummy film|
+|74| Sediment|
+|75| Shining|
+|76| Silty|
+|77| Simmering|
+|78| Sizzling|
+|79| Slimy|
+|80| Slushy|
+|81| Smoking|
+|82| Smoky|
+|83| Soapy|
+|84| Sparkling|
+|85| Steaming|
+|86| Sticky|
+|87| Swirling|
+|88| Syrupy|
+|89| Tarry|
+|90| Thin|
+|91| Throbbing|
+|92| Trembling|
+|93| Turbulent|
+|94| Vibrating|
+|95| Viscid|
+|96| Viscous|
+|97| Warm|
+|98| Watery|
+|99| Whirling|
+|00| Whistling|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Taste" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Absinthe	|
+|2| Allspice	|
+|3| Almond	|
+|4| Ammonia	|
+|5| Animal (p. 64)	|
+|6| Asparagus	|
+|7| Basil	|
+|8| Beer	|
+|9| Berries	|
+|10| Black currant	|
+|11| Blackberry	|
+|12| Blood	|
+|13| Butter	|
+|14| Camphor	|
+|15| Candy	|
+|16| Caramel	|
+|17| Cardamom	|
+|18| Cherry	|
+|19| Chili pepper	|
+|20| Chives	|
+|21| Chocolate	|
+|22| Cinnamon	|
+|23| Cloves	|
+|24| Coconut	|
+|25| Coffee	|
+|26| Copper	|
+|27| Cranberry	|
+|28| Crude oil	|
+|29| Cucumber	|
+|30| Cumin	|
+|31| Curry	|
+|32| Dates	|
+|33| Elderberry	|
+|34| Figs	|
+|35| Flowers	|
+|36| {Food} (p. 49)	|
+|37| Garlic	|
+|38| Ginger	|
+|39| Gooseberry	|
+|40| Grapefruit	|
+|41| Grass	|
+|42| Herbs	|
+|43| Honey	|
+|44| Honeysuckle	|
+|45| Horseradish	|
+|46| Huckleberry	|
+|47| Hyacinth	|
+|48| Leather	|
+|49| Lemon	|
+|50| Lemongrass |
+|51| Licorice|
+|52| Lime|
+|53| Loam|
+|54| Maple syrup|
+|55| Mead|
+|56| Milk|
+|57| Mineral|
+|58| Mint|
+|59| Mud|
+|60| Mustard|
+|61| Nutmeg|
+|62| Oak|
+|63| Olive oil|
+|64| Onion|
+|65| Orange|
+|66| Oregano|
+|67| Peach|
+|68| Pears|
+|69| Pepper|
+|70| Phlegm|
+|71| Pickle juice|
+|72| Pine|
+|73| Pistachios|
+|74| Plum|
+|75| Pumpkin|
+|76| Quince|
+|77| Rhubarb|
+|78| Roast duck|
+|79| Rose|
+|80| Rosemary|
+|81| Rust|
+|82| Saffron|
+|83| Sage|
+|84| Salt water|
+|85| {Scent} (p. 66)|
+|86| Soap|
+|87| Soursop|
+|88| Spearmint|
+|89| Sulphur|
+|90| Tamarind|
+|91| Tea|
+|92| Tears|
+|93| Thyme|
+|94| Tobacco|
+|95| Vanilla|
+|96| Walnuts|
+|97| Whiskey|
+|98| Wine|
+|99| Wintergreen|
+|00| Wormwood|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Color" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acid green	|
+|2| Alabaster	|
+|3| Amber	|
+|4| Amethyst	|
+|5| Apricot	|
+|6| Aquamarine	|
+|7| Asparagus	|
+|8| Auburn	|
+|9| Aureolin	|
+|10| Avocado	|
+|11| Azure	|
+|12| Baby blue	|
+|13| Beige	|
+|14| Bone	|
+|15| Bottle green	|
+|16| Bronze	|
+|17| Bubblegum	|
+|18| Carmine	|
+|19| Carrot	|
+|20| Celadon	|
+|21| Cerise	|
+|22| Cerulean	|
+|23| Champagne	|
+|24| Charcoal	|
+|25| Chartreuse	|
+|26| Chestnut	|
+|27| Cinnamon	|
+|28| Colorless	|
+|29| Coppery	|
+|30| Coral pink	|
+|31| Creamy	|
+|32| Crimson	|
+|33| Cyan	|
+|34| Dove grey	|
+|35| Dun	|
+|36| Eggshell	|
+|37| Electric blue	|
+|38| Emerald	|
+|39| Flesh	|
+|40| Fuchsia	|
+|41| Fuligin	|
+|42| Golden	|
+|43| Grape juice	|
+|44| Heliotrope	|
+|45| Ice blue	|
+|46| Indigo	|
+|47| Inky	|
+|48| Invisible	|
+|49| Ivory	|
+|50| Kelly green |
+|51| Lavender|
+|52| Lilac|
+|53| Lime|
+|54| Magenta|
+|55| Mahogany|
+|56| Maroon|
+|57| Mauve|
+|58| Milk white|
+|59| Moss green|
+|60| Mustard|
+|61| Ochre|
+|62| Olive|
+|63| Opalescent|
+|64| Oxblood|
+|65| Pea green|
+|66| Peach|
+|67| Peacock blue|
+|68| Pearl|
+|69| Periwinkle|
+|70| Pine green|
+|71| Plum|
+|72| Primrose|
+|73| Pumpkin|
+|74| Rainbow|
+|75| Rose|
+|76| Ruby|
+|77| Russet|
+|78| Rusty|
+|79| Saffron|
+|80| Salmon|
+|81| Sapphire|
+|82| Scarlet|
+|83| Sepia|
+|84| Shocking pink|
+|85| Silver|
+|86| Slate blue|
+|87| Smokey grey|
+|88| Tangerine|
+|89| Teal|
+|90| Terracotta|
+|91| Titian red|
+|92| Tomato|
+|93| Turquoise|
+|94| Tyrian|
+|95| Ultramarine|
+|96| Umber|
+|97| Verdigris|
+|98| Vermilion|
+|99| Violet|
+|00| Viridian|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Ingredient" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Animal (p. 64)	|
+|2| Antimony	|
+|3| Arsenic	|
+|4| Belladonna	|
+|5| Bitumen	|
+|6| Black pearl	|
+|7| Blind eye	|
+|8| Book (p. 40)	|
+|9| Brimstone	|
+|10| Camphor	|
+|11| Celandine	|
+|12| Chalk	|
+|13| {Clothing} (p. 40)	|
+|14| Cobalt	|
+|15| Cocklebur	|
+|16| Coffin nail	|
+|17| Columbine	|
+|18| Copper	|
+|19| Corpse's hair	|
+|20| Crossroad dust	|
+|21| Dandelion	|
+|22| Deathcap	|
+|23| Devil's trumpet	|
+|24| Element	|
+|25| {Fabric} (p. 41)	|
+|26| {Food} (p. 49)	|
+|27| Foxglove	|
+|28| Funeral wine	|
+|29| Gold	|
+|30| Grave dust	|
+|31| Hellebore	|
+|32| Hemlock	|
+|33| Henbane	|
+|34| Holly	|
+|35| Honey	|
+|36| Hyssop	|
+|37| Iron	|
+|38| Killer's hand	|
+|39| King's tooth	|
+|40| Larkspur	|
+|41| Last breath	|
+|42| Lead	|
+|43| Liar's tongue	|
+|44| Lightning bolt	|
+|45| Lime	|
+|46| Lodestone	|
+|47| Lotus	|
+|48| Lye	|
+|49| Mandrake	|
+|50| {Material} (p. 42) |
+|51| Meadowsweet|
+|52| {MiscItem} (p. 39)|
+|53| Mistletoe|
+|54| Monk's vow|
+|55| {Monster} (p. 61)|
+|56| Moonflower|
+|57| Mugwort|
+|58| Natron|
+|59| Nectar|
+|60| Nettle|
+|61| Newborn's cry|
+|62| Nickel|
+|63| Nightshade|
+|64| Organ (p. 64)|
+|65| Platinum|
+|66| Poppy|
+|67| {Potion} (p. 35)|
+|68| Pyre ember|
+|69| Queen bee|
+|70| Queen's blood|
+|71| Quicksilver|
+|72| Ragwort|
+|73| Resin|
+|74| Rosemary|
+|75| Sage|
+|76| Sea water|
+|77| Ship's barnacle|
+|78| Silver|
+|79| Snakeweed|
+|80| Soot|
+|81| Star-metal|
+|82| Stinkhorn|
+|83| Sugar|
+|84| Thief's finger|
+|85| Thistle|
+|86| Tin|
+|87| Tomb flower|
+|88| {Tool} (p. 39)|
+|89| {Treasure} (p. 42)|
+|90| Valerian|
+|91| Verdigris|
+|92| Vinegar|
+|93| Wax|
+|94| {Weapon} (p. 43)|
+|95| Wedding ring|
+|96| Widow's tears|
+|97| Witch hazel|
+|98| Wizard's skull|
+|99| Wolfsbane|
+|00| Wormwood|
+{{< /rpg_table >}}
+
+# Equipment
+
+{{< rpg_table name="Tool" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acid vial	|
+|2| Animal scent	|
+|3| Antitoxin	|
+|4| Astrolabe	|
+|5| Bandoleer	|
+|6| Bear trap	|
+|7| Bedroll	|
+|8| Beeswax	|
+|9| Bell	|
+|10| Bellows	|
+|11| Birdcage	|
+|12| Blank book	|
+|13| Blanket	|
+|14| Block and tackle |
+|15| Boltcutters	|
+|16| Bottle	|
+|17| Bucket	|
+|18| Bullseye lantern  |
+|19| Caltrops	|
+|20| Candle	|
+|21| Censer	|
+|22| Chain	|
+|23| Chalk	|
+|24| Chisel	|
+|25| Climbing hook	|
+|26| Compass	|
+|27| Copper wire	|
+|28| Crowbar	|
+|29| Dice	|
+|30| Door ram	|
+|31| Ear trumpet	|
+|32| Ether	|
+|33| Fire oil	|
+|34| Fishing hook	|
+|35| Flashbomb	|
+|36| Flashpowder	|
+|37| Garlic	|
+|38| Glue	|
+|39| Grappling hook  |
+|40| Grease	|
+|41| Hacksaw	|
+|42| Hammer	|
+|43| Hand drill	|
+|44| Hemp rope	|
+|45| Hog holder	|
+|46| Hooded lantern	|
+|47| Hound	|
+|48| Hourglass	|
+|49| Incense	|
+|50| Iron pot |
+|51| Iron tongs|
+|52| Lantern|
+|53| Large sack|
+|54| Lockpicks|
+|55| Lodestone|
+|56| Magnifying lens|
+|57| Manacles|
+|58| Marbles|
+|59| Metal File|
+|60| Mortar and pestle|
+|61| Mule|
+|62| Net|
+|63| Padlock and key|
+|64| Pen and ink|
+|65| Pickaxe|
+|66| Pitchfork|
+|67| Piton|
+|68| Pliers|
+|69| Poison|
+|70| Pole (10')|
+|71| Pure alcohol|
+|72| Rat|
+|73| Rum|
+|74| Salve|
+|75| Scissors|
+|76| Sealing wax|
+|77| Sewing needle|
+|78| Sextant|
+|79| Shovel|
+|80| Silk rope|
+|81| Sledgehammer|
+|82| Smokebomb|
+|83| Smoked goggles|
+|84| Soap|
+|85| Spikes|
+|86| Spyglass|
+|87| Stake|
+|88| Steel mirror|
+|89| Sundial|
+|90| Tent|
+|91| Thick gloves|
+|92| Tinderbox|
+|93| Torch|
+|94| Trumpet|
+|95| Twine|
+|96| Vial|
+|97| Waterskin|
+|98| Whetstone|
+|99| Whistle|
+|00| Wolfsbane|
+{{< /rpg_table >}}
+
+{{< rpg_table name="MiscItem" >}}
+| d100 | ? |
+| --- | --------|
+|1| Amulet	|
+|2| Arrowhead	|
+|3| Birdcage	|
+|4| Book (p. 40)	|
+|5| Bowl	|
+|6| Box	|
+|7| Brooch	|
+|8| Button	|
+|9| Card	|
+|10| Cipher	|
+|11| Clock	|
+|12| {Clothing} (p. 40)	|
+|13| Coin	|
+|14| Comb	|
+|15| Crystal	|
+|16| Cup	|
+|17| Degree	|
+|18| Doll	|
+|19| Drum	|
+|20| Egg	|
+|21| Embroidery	|
+|22| Fabric (p. 41)	|
+|23| Feather	|
+|24| Figurine	|
+|25| Finger bone	|
+|26| Flag	|
+|27| Flute	|
+|28| {Food} (p. 49)	|
+|29| {Food} recipe	|
+|30| Fork	|
+|31| Game piece	|
+|32| Gem	|
+|33| Hair oil	|
+|34| Hairbrush	|
+|35| Handkerchief	|
+|36| Horn	|
+|37| Icon	|
+|38| {Ingredient} (p. 37)	|
+|39| Jar	|
+|40| Key	|
+|41| Knife	|
+|42| Ladle	|
+|43| Leg bone	|
+|44| Lens	|
+|45| Letter	|
+|46| List of demands	|
+|47| Lock of hair	|
+|48| Locket	|
+|49| Lotion	|
+|50| Lute |
+|51| Lyre|
+|52| Manifesto|
+|53| Map|
+|54| Mascara|
+|55| {Material} (p. 42)|
+|56| Military orders|
+|57| Mirror|
+|58| Orb|
+|59| Organ (p. 64)|
+|60| Paintbrush|
+|61| Painting|
+|62| Passport|
+|63| Pearl|
+|64| Perfume|
+|65| Pipe|
+|66| Pipes|
+|67| Poem|
+|68| Portrait|
+|69| {Potion} (p. 35)|
+|70| Potion recipe|
+|71| Prayer|
+|72| Pressed flower|
+|73| Purse|
+|74| Puzzle box|
+|75| Pyramid|
+|76| Razor|
+|77| Ribbon|
+|78| Ring|
+|79| Rouge|
+|80| Shopping list|
+|81| Signet ring|
+|82| Sketchbook|
+|83| Skull|
+|84| Snuffbox|
+|85| Spatula|
+|86| {SpellScroll} (p. 22)|
+|87| {SpellBook} (p. 22)|
+|88| Spoon|
+|89| Star chart|
+|90| Ticket|
+|91| {Tool} (p. 39)|
+|92| Tooth|
+|93| {Treasure} (p. 42)|
+|94| Treaty|
+|95| Tuning fork|
+|96| Wand|
+|97| Warrant|
+|98| {Weapon} (p. 43)|
+|99| Wine|
+|00| Yarn|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Book" >}}
+| d100 | ? |
+| --- | --------|
+|1| Adventure novel |
+|2| Agriculture	|
+|3| Almanac	|
+|4| Anatomy	|
+|5| Ancient history	|
+|6| Archaeology	|
+|7| Architecture	|
+|8| Astrology	|
+|9| Bestiary	|
+|10| Biography	|
+|11| Blackmail	|
+|12| Botany	|
+|13| Calendars	|
+|14| {CityTheme} (p. 46) |
+|15| Comedic novel	|
+|16| Commerce	|
+|17| Condemnation	|
+|18| Confession	|
+|19| Conspiracies	|
+|20| Cookbook	|
+|21| Criminal secrets |
+|22| Cryptography	|
+|23| Culture	|
+|24| Customs	|
+|25| Diplomacy	|
+|26| {Disaster} (p. 31)	|
+|27| Divination	|
+|28| {Domain} (p. 33)	|
+|29| {Dungeon} (p. 16)	|
+|30| Epic poems	|
+|31| Espionage	|
+|32| Ethics	|
+|33| Etiquette	|
+|34| Faction (p. 50)	|
+|35| Fashion	|
+|36| Finance	|
+|37| Fishing	|
+|38| Folklore	|
+|39| Genealogy	|
+|40| Geography	|
+|41| Geology	|
+|42| Ghosts	|
+|43| Gods	|
+|44| Hagiography	|
+|45| Heraldry	|
+|46| Horror stories	|
+|47| Hunting	|
+|48| Husbandry	|
+|49| Journal	|
+|50| Language |
+|51| Laws|
+|52| Letters|
+|53| Libraries|
+|54| Logic|
+|55| Lost empires|
+|56| Lost places|
+|57| Love poems|
+|58| {MagicSchool} (p. 31)|
+|59| Mathematics|
+|60| Medicine|
+|61| Modern history|
+|62| {Monster} (p. 61)|
+|63| Music|
+|64| Mystery novel|
+|65| Mythology|
+|66| Nation|
+|67| Navigation|
+|68| Oceanography|
+|69| Painting|
+|70| Planar studies|
+|71| Politics|
+|72| Potion recipe (p. 35)|
+|73| Prayers|
+|74| {Profession} (p. 57)|
+|75| Propaganda|
+|76| Prophecies|
+|77| Psychology|
+|78| Region|
+|79| Religion|
+|80| Rhetoric|
+|81| Romantic novel|
+|82| {RoomTheme} (p. 15)|
+|83| Sages|
+|84| Sayings|
+|85| Sculpture|
+|86| Secret societies|
+|87| Shipbuilding|
+|88| Shrines|
+|89| Siegecraft|
+|90| Songs|
+|91| {Spell} (pp. 22-25)|
+|92| State secrets|
+|93| Sword fighting|
+|94| Theology|
+|95| {Trap} (pp. 16-17)|
+|96| Treasures|
+|97| Utopian novel|
+|98| War chronicle|
+|99| Who's who|
+|00| Witch-hunting|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Clothing" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alb	|
+|2| Arm wrap	|
+|3| Arming doublet  |
+|4| Bascinet	|
+|5| Belt	|
+|6| Beret	|
+|7| Bicorne hat	|
+|8| Blouse	|
+|9| Bodice	|
+|10| Bonnet	|
+|11| Boots	|
+|12| Bracelet	|
+|13| Braies	|
+|14| Breastplate	|
+|15| Breeches	|
+|16| Buckler	|
+|17| Cap	|
+|18| Cape	|
+|19| Cassock	|
+|20| Chaperon	|
+|21| Chasuble	|
+|22| Cincture	|
+|23| Cloak	|
+|24| Clogs	|
+|25| Coat	|
+|26| Codpiece	|
+|27| Corset	|
+|28| Cotte	|
+|29| Cowl	|
+|30| Cravat	|
+|31| Curiass	|
+|32| Dalmatic	|
+|33| Doublet	|
+|34| Dress	|
+|35| Earing	|
+|36| Eyepatch	|
+|37| Fez	|
+|38| Frog mouth helm |
+|39| Gambeson	|
+|40| Gauntlet	|
+|41| Girdle	|
+|42| Gloves	|
+|43| Gorget	|
+|44| Gown	|
+|45| Great helm	|
+|46| Greaves	|
+|47| Hat	|
+|48| Hauberk	|
+|49| Headdress	|
+|50| Helmet |
+|51| Hood|
+|52| Hose|
+|53| Hounskull helm|
+|54| Houppeland|
+|55| Jacket|
+|56| Jerkin|
+|57| Kerchief|
+|58| Kilt|
+|59| Kirtle|
+|60| Leg wrap|
+|61| Maniple|
+|62| Mask|
+|63| Mitre|
+|64| Nasal helm|
+|65| Necklace|
+|66| Nightcap|
+|67| Pauldron|
+|68| Petticoat|
+|69| Pocket|
+|70| Pointed hat|
+|71| Purse|
+|72| Rerebrace|
+|73| Robe|
+|74| Sabatons|
+|75| Salet|
+|76| Sandals|
+|77| Sash|
+|78| Scarf|
+|79| Shield|
+|80| Shirt|
+|81| Shoes|
+|82| Skirt|
+|83| Sleeves|
+|84| Slippers|
+|85| Smock|
+|86| Socks|
+|87| Stockings|
+|88| Stole|
+|89| Surcoat|
+|90| Surplice|
+|91| Tabard|
+|92| Tower shield|
+|93| Tricorn hat|
+|94| Trousers|
+|95| Tunic|
+|96| Turban|
+|97| Vambrace|
+|98| Veil|
+|99| Vest|
+|00| Wimple|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Fabric" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alligator skin	|
+|2| Alpaca wool	|
+|3| Animal skin (p. 64) |
+|4| Badger skin	|
+|5| Bamboo weave	|
+|6| Barkcloth	|
+|7| Bearskin	|
+|8| Beaver skin	|
+|9| Blanket	|
+|10| Brass	|
+|11| Brocade	|
+|12| Bronze	|
+|13| Burlap	|
+|14| Calfskin	|
+|15| Calico	|
+|16| Camel hair	|
+|17| Camel skin	|
+|18| Canvas	|
+|19| Cashmere wool  |
+|20| Cat hair	|
+|21| Chambray	|
+|22| Chiffon	|
+|23| Chino	|
+|24| Coconut fiber	|
+|25| Copper	|
+|26| Corduroy	|
+|27| Cotton	|
+|28| Cow skin	|
+|29| Crepe	|
+|30| Damask	|
+|31| Deerskin	|
+|32| Denim	|
+|33| Dog hair	|
+|34| Eel skin	|
+|35| Felt	|
+|36| Fish skin	|
+|37| Fishnet	|
+|38| Flannel	|
+|39| Flax	|
+|40| Fleece	|
+|41| Fox skin	|
+|42| Gauze	|
+|43| Gingham	|
+|44| Goatskin	|
+|45| Grass weave	|
+|46| Hemp	|
+|47| Herringbone	|
+|48| Horse hair	|
+|49| Horse skin	|
+|50| Iron	|
+|51| Jute|
+|52| Lace|
+|53| Lamb wool|
+|54| Lambskin|
+|55| Leather|
+|56| Leopard skin|
+|57| Linen|
+|58| Lion skin|
+|59| Llama wool|
+|60| Mail|
+|61| Mesh|
+|62| Mink fur|
+|63| Mink skin|
+|64| Mohair wool|
+|65| {Monster} skin (p. 61)|
+|66| Muslin|
+|67| Oilcloth|
+|68| Ostrich skin|
+|69| Otter skin|
+|70| Patchwork|
+|71| Pig skin|
+|72| Quilt|
+|73| Rabbit skin|
+|74| Rags|
+|75| Rat skin|
+|76| Reindeer skin|
+|77| Sailcloth|
+|78| Satin|
+|79| Sealskin|
+|80| Seersucker|
+|81| Sheepskin|
+|82| Sheep wool|
+|83| Silk|
+|84| Snake skin|
+|85| Squirrel skin|
+|86| Steel|
+|87| Stingray skin|
+|88| Suede|
+|89| Taffeta|
+|90| Tartan|
+|91| Terrycloth|
+|92| Tiger skin|
+|93| Tinsel|
+|94| Tulle|
+|95| Tweed|
+|96| Twill|
+|97| Velour|
+|98| Velvet|
+|99| Wolf skin|
+|00| Yak wool|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Decoration" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Antique	|
+|2| Beaded	|
+|3| Beast motif	|
+|4| Bells	|
+|5| Bird motif	|
+|6| Bloody	|
+|7| Bones	|
+|8| Buckles	|
+|9| Buttons	|
+|10| Chains	|
+|11| Chimes	|
+|12| Cloud motif	|
+|13| Coat of arms	|
+|14| {Color} (p. 37)	|
+|15| Cords	|
+|16| Decorative coins |
+|17| Distressed	|
+|18| Down-stuffed	|
+|19| Emblem	|
+|20| Embroidered	|
+|21| Enamel pins	|
+|22| Feathers	|
+|23| Flamboyant	|
+|24| Flame motif	|
+|25| Flower motif	|
+|26| Flowers	|
+|27| Food-stained	|
+|28| Formal	|
+|29| Fringe	|
+|30| Fur lined	|
+|31| Fur trim	|
+|32| Gold studs	|
+|33| Gold thread	|
+|34| Harlequin	|
+|35| Heavyweight	|
+|36| Heraldry	|
+|37| Horns	|
+|38| Ink-stained	|
+|39| {ItemTrait} (p. 43)	|
+|40| Jewels	|
+|41| Lace trim	|
+|42| Laced up	|
+|43| Medallions	|
+|44| Mold	|
+|45| Monster motif	|
+|46| Moon motif	|
+|47| Moth-eaten	|
+|48| Muddy	|
+|49| Ocean motif	|
+|50| Ornate border |
+|51| Oversized|
+|52| Padded|
+|53| Paisley|
+|54| Patches|
+|55| Pearls|
+|56| Perfumed|
+|57| Plated|
+|58| Pockets|
+|59| Punctured|
+|60| Reeking|
+|61| Rhinestones|
+|62| Ribbed|
+|63| Ribbons|
+|64| Ruffles|
+|65| Satin bows|
+|66| Scandalous|
+|67| {Scent} (p. 66)|
+|68| Secret pocket|
+|69| Sequins|
+|70| Shimmering|
+|71| Sigils|
+|72| Silver studs|
+|73| Silver thread|
+|74| Skintight|
+|75| Skull motif|
+|76| Slashed|
+|77| Sparkling|
+|78| Spiked|
+|79| Spot pattern|
+|80| Star motif|
+|81| Starched|
+|82| Stonewashed|
+|83| Striped|
+|84| Studded|
+|85| Sun designs|
+|86| Sun-faded|
+|87| {Symbol} (p. 33)|
+|88| Tassels|
+|89| Taxidermy|
+|90| Threadbare|
+|91| Tie-died|
+|92| Torn|
+|93| Tree motif|
+|94| Undersized|
+|95| Unfashionable|
+|96| Velvet applique|
+|97| Wave designs|
+|98| Wine-stained|
+|99| Wrinkled|
+|00| Zigzag pattern|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Treasure" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alchemical device |
+|2| Amulet	|
+|3| Armor	|
+|4| Arrows	|
+|5| Astrolabe	|
+|6| Belt	|
+|7| Blackmail	|
+|8| Blueprints	|
+|9| {Book} (p. 40)	|
+|10| Bow	|
+|11| Bowl	|
+|12| Bracelet	|
+|13| Business record	|
+|14| Calligraphy	|
+|15| Candelabra	|
+|16| Carpet	|
+|17| Celestial map	|
+|18| Chalice	|
+|19| Chandelier	|
+|20| Clock	|
+|21| {Clothing} (p. 40)	|
+|22| Codpiece	|
+|23| Comb	|
+|24| Compass	|
+|25| Contract	|
+|26| Couch	|
+|27| Crown	|
+|28| Crystal	|
+|29| Dagger	|
+|30| Deed	|
+|31| Doll	|
+|32| Dress	|
+|33| Earrings	|
+|34| Embroidery	|
+|35| Fine china	|
+|36| Fine liquor	|
+|37| Furs	|
+|38| Gaming set	|
+|39| Gemstone	|
+|40| Helmet	|
+|41| {Ingredient} (p. 37)	|
+|42| Instrument	|
+|43| Ivory carving	|
+|44| Lamp	|
+|45| Letter	|
+|46| {Material} (p. 42)	|
+|47| Medal	|
+|48| Mirror	|
+|49| {Monster} skin (p. 61) |
+|50| Mosaic |
+|51| Mural|
+|52| Music box|
+|53| Necklace|
+|54| Organ (p. 64)|
+|55| Orrery|
+|56| Painting|
+|57| Pen|
+|58| Perfume|
+|59| Pipe|
+|60| Planar map|
+|61| Porcelain figure|
+|62| {Potion} (p. 35)|
+|63| Prayer book|
+|64| Printing block|
+|65| Rare coin|
+|66| Relic|
+|67| Reward (p. 51)|
+|68| Ring|
+|69| Royal robes|
+|70| Scabbard|
+|71| Scientific device|
+|72| Scrimshaw|
+|73| Sextant|
+|74| Sheet music|
+|75| Shield|
+|76| Shoes|
+|77| Signet ring|
+|78| Silk|
+|79| Silverware|
+|80| Snuffbox|
+|81| Spear|
+|82| {Spell} (pp. 22-25)|
+|83| Spices|
+|84| Spyglass|
+|85| Stained glass|
+|86| State secrets|
+|87| Stone statue|
+|88| Sword|
+|89| Table|
+|90| Tapestry|
+|91| Taxidermy|
+|92| Tea set|
+|93| Telescope|
+|94| Throne|
+|95| Treasure map|
+|96| Trophy|
+|97| Trunk|
+|98| Vase|
+|99| Watch|
+|00| {Weapon} (p. 43)|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Material" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Adamantine	|
+|2| Alabaster	|
+|3| Amber	|
+|4| Ambergris	|
+|5| Aquamarine	|
+|6| Aventurine	|
+|7| Azurite	|
+|8| Beryl	|
+|9| Black alabaster	|
+|10| Black opal	|
+|11| Black pearl	|
+|12| Bloodstone	|
+|13| Bloodwood	|
+|14| Blue amber	|
+|15| Blue jade	|
+|16| Blue opal	|
+|17| Bone china	|
+|18| Cairngorm	|
+|19| Carbuncle	|
+|20| Carnelian	|
+|21| Cat's-eye	|
+|22| Chalcedony	|
+|23| Cherry amber	|
+|24| Cinnabar	|
+|25| Citrine	|
+|26| Crystal	|
+|27| Cyclops agate	|
+|28| Dendritic agate	|
+|29| Diamond	|
+|30| Dragon bone	|
+|31| Ebony	|
+|32| Emerald	|
+|33| Fire agate	|
+|34| Fire coral	|
+|35| Fire jasper	|
+|36| Fire opal	|
+|37| Garnet	|
+|38| Gold	|
+|39| Heliodor	|
+|40| Hematite	|
+|41| Horn	|
+|42| Ironwood	|
+|43| Jet	|
+|44| Kingfisher jade	|
+|45| Koa wood	|
+|46| Lapis lazuli	|
+|47| Lavender jade	|
+|48| Lingum vitae	|
+|49| Mahogany	|
+|50| Malachite	|
+|51| Mammoth tusk|
+|52| Moonstone|
+|53| Morganite|
+|54| Moss agate|
+|55| Mother of pearl|
+|56| Narwhal horn|
+|57| Nephrite|
+|58| Obsidian|
+|59| Onyx|
+|60| Orichalcum|
+|61| Palladium|
+|62| Pearl|
+|63| Peridot|
+|64| Petrified wood|
+|65| Pink sapphire|
+|66| Platinum|
+|67| Polyhedroid agate|
+|68| Porcelain|
+|69| Porcelain jasper|
+|70| Porphyry|
+|71| Purpleheart wood|
+|72| Quartz|
+|73| Quetzal jade|
+|74| Rainbow agate|
+|75| Rainbow jasper|
+|76| Rainbow obsidian|
+|77| Redheart wood|
+|78| Rose opal|
+|79| Rose quartz|
+|80| Rosewood|
+|81| Ruby|
+|82| Sandalwood|
+|83| Sapphire|
+|84| Sard|
+|85| Serpentine|
+|86| Silver|
+|87| Snakewood|
+|88| Spinel|
+|89| Star Iron|
+|90| Star rose quartz|
+|91| Star sapphire|
+|92| Sunstone|
+|93| Tiger's eye|
+|94| Tigerwood|
+|95| Topaz|
+|96| Tourmaline|
+|97| Turquoise|
+|98| Turtle shell|
+|99| Unicorn horn|
+|00| Whale ivory|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Weapon" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Arming sword	|
+|2| Backsword	|
+|3| Bardiche	|
+|4| Baton	|
+|5| Battleaxe	|
+|6| Beheading sword |
+|7| Bill hook	|
+|8| Blowgun	|
+|9| Blowpipe	|
+|10| Boar spear	|
+|11| Bolas	|
+|12| Boomerang	|
+|13| Brass knuckles	|
+|14| Bullet crossbow  |
+|15| Butterfly sword	|
+|16| Censer flail	|
+|17| Cestus	|
+|18| Chain whip	|
+|19| Chakram	|
+|20| Claymore	|
+|21| Club	|
+|22| Crossbow	|
+|23| Cutlass	|
+|24| Dagger	|
+|25| Dao	|
+|26| Deer horn knives |
+|27| Dirk	|
+|28| Double flail	|
+|29| Emeici	|
+|30| Falchion	|
+|31| Flail	|
+|32| Flambard	|
+|33| Flying claws	|
+|34| Gauntlet sword	|
+|35| Gladius	|
+|36| Glaive	|
+|37| Halberd	|
+|38| Hatchet	|
+|39| Hook sword	|
+|40| Horsebow	|
+|41| Hunting knife	|
+|42| Ice pick	|
+|43| Javelin	|
+|44| Katana	|
+|45| Katar	|
+|46| Kopesh	|
+|47| Kukri	|
+|48| Lance	|
+|49| Lasso	|
+|50| Longbow |
+|51| Longsword|
+|52| Lucerne hammer|
+|53| Mace|
+|54| Machete|
+|55| Man catcher|
+|56| Maul|
+|57| Messer|
+|58| Meteor hammer|
+|59| Military fork|
+|60| Morningstar|
+|61| Nunchaku|
+|62| Pickaxe|
+|63| Pike|
+|64| Poleaxe|
+|65| Push dagger|
+|66| Ranseur|
+|67| Rapier|
+|68| Recurve bow|
+|69| Rondel dagger|
+|70| Rope dart|
+|71| Sabre|
+|72| Sai|
+|73| Scimitar|
+|74| Scourge|
+|75| Shortbow|
+|76| Shortsword|
+|77| Shuriken|
+|78| Sickle|
+|79| Side sword|
+|80| Sling|
+|81| Slingshot|
+|82| Spear|
+|83| Staff|
+|84| Stave sling|
+|85| Stiletto|
+|86| Swordstaff|
+|87| Tanto|
+|88| Three-part staff|
+|89| Throwing axe|
+|90| Throwing knife|
+|91| Tiger claws|
+|92| Tonfa|
+|93| Trident|
+|94| Triple flail|
+|95| Wakizashi|
+|96| War scythe|
+|97| Warhammer|
+|98| Warpick|
+|99| Whip|
+|00| Zweihander|
+{{< /rpg_table >}}
+
+{{< rpg_table name="ItemTrait" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Ancient	|
+|2| Avant-garde	|
+|3| Blessed	|
+|4| Bloody	|
+|5| Brittle	|
+|6| Broken	|
+|7| Bulky	|
+|8| Carved	|
+|9| Classy	|
+|10| Cold	|
+|11| Collectible	|
+|12| {Color} (p. 37)	|
+|13| Compact	|
+|14| Crusty	|
+|15| Cultural value	|
+|16| Cursed	|
+|17| Cutting edge	|
+|18| Damaged	|
+|19| Damp	|
+|20| Defective	|
+|21| Detects foes	|
+|22| Disguised	|
+|23| Draws foes	|
+|24| Dusty	|
+|25| Edible	|
+|26| {Effect} (p. 28)	|
+|27| {Element} (p. 29)	|
+|28| Embellished	|
+|29| Encoded	|
+|30| Eroded	|
+|31| Expandable	|
+|32| Extra-planar	|
+|33| Famous	|
+|34| Fashionable	|
+|35| Filthy	|
+|36| Flaking	|
+|37| Floppy	|
+|38| Foldable	|
+|39| Forbidden	|
+|40| Fragile	|
+|41| Gaudy	|
+|42| Glowing	|
+|43| Gold-plated	|
+|44| Gooey	|
+|45| Gorgeous	|
+|46| Heavy	|
+|47| Hot	|
+|48| Icy	|
+|49| Immovable	|
+|50| Impractical |
+|51| Indestructible|
+|52| Infamous|
+|53| Intelligent|
+|54| Kitchy|
+|55| Loud|
+|56| Lukewarm|
+|57| Luxurious|
+|58| Masterwork|
+|59| Military value|
+|60| Miniature|
+|61| Minimalist|
+|62| Modified|
+|63| Mythic|
+|64| Non-human|
+|65| Organic|
+|66| Oversized|
+|67| Owned|
+|68| Padded|
+|69| Painted|
+|70| Partial|
+|71| Perfumed|
+|72| {Personality} (p. 56)|
+|73| Political value|
+|74| Prickly|
+|75| Pulsing|
+|76| Reflective|
+|77| Refurbished|
+|78| Religious value|
+|79| Repaired|
+|80| Reviled|
+|81| Rotting|
+|82| {Scent} (p. 66)|
+|83| Sharp|
+|84| Shiny|
+|85| Shoddy|
+|86| Silent|
+|87| Slippery|
+|88| Smoke-stained|
+|89| {Sound} (p. 66)|
+|90| Spiky|
+|91| Squishy|
+|92| Sticky|
+|93| Stinky|
+|94| Talking|
+|95| {Texture} (p. 36)|
+|96| Toxic|
+|97| Twitching|
+|98| Ugly|
+|99| Vulgar|
+|00| Whispering|
+{{< /rpg_table >}}
+
+{{< rpg_table name="CityTheme" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alchemy	|
+|2| Animal (p. 64)	|
+|3| Aristocracy	|
+|4| Art	|
+|5| Asylums	|
+|6| {Activity} (p. 19)	|
+|7| Banking	|
+|8| Baths	|
+|9| Begging	|
+|10| Bells	|
+|11| Brewing	|
+|12| Bridges	|
+|13| {Building} (p. 47)	|
+|14| Bureaucracy	|
+|15| Business	|
+|16| Canals	|
+|17| Catacombs	|
+|18| Cats	|
+|19| {CityEvent} (p. 46)	|
+|20| Courts	|
+|21| Crime families	|
+|22| Cults	|
+|23| Dancing	|
+|24| {Delusion} (p. 30)	|
+|25| Dining	|
+|26| {Disaster} (p. 31)	|
+|27| {Domain} (p. 33)	|
+|28| Drinking	|
+|29| Dueling	|
+|30| {Dungeon} (p. 16)	|
+|31| {Element} (p. 29)	|
+|32| Faction (p. 50)	|
+|33| Faction trait (p. 50) |
+|34| Fashion	|
+|35| Festivals	|
+|36| Feuds	|
+|37| Fishing	|
+|38| Flowers	|
+|39| {Food} (p. 49)	|
+|40| Fortifications	|
+|41| Fountains	|
+|42| Gambling	|
+|43| Gangs	|
+|44| Gardens	|
+|45| Government	|
+|46| Guilds	|
+|47| {Hazard} (p. 17)	|
+|48| Horses	|
+|49| Hunger	|
+|50| Industry |
+|51| Inventions|
+|52| Leisure|
+|53| Libraries|
+|54| Livestock|
+|55| {MagicSchool} (p. 31)|
+|56| Marketplaces|
+|57| Mausoleums|
+|58| Medicine|
+|59| Mercenaries|
+|60| Military|
+|61| Monasteries|
+|62| Monuments|
+|63| Museums|
+|64| Music|
+|65| {Mutation} (p. 30)|
+|66| Opulence|
+|67| Perfume|
+|68| Printing|
+|69| Prisons|
+|70| {Profession} (p. 57)|
+|71| Punishment|
+|72| Rats|
+|73| Ravens|
+|74| Refuse|
+|75| Rituals|
+|76| {RoomTheme} (p. 15)|
+|77| Ruins|
+|78| Sacrifices|
+|79| Science|
+|80| Shipyards|
+|81| Slavery|
+|82| Slums|
+|83| Smithing|
+|84| Smoke|
+|85| Song|
+|86| Spices|
+|87| Spores|
+|88| Steam power|
+|89| {Structure} (p. 11)|
+|90| Temples|
+|91| Textiles|
+|92| Theaters|
+|93| Thievery|
+|94| Towers|
+|95| Training|
+|96| {TravelShift} (p. 9)|
+|97| {Treasure} (p. 42)|
+|98| Trees|
+|99| Universities|
+|00| Wizardry|
+{{< /rpg_table >}}
+
+{{< rpg_table name="CityEvent" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Activity} (p. 19)	|
+|2| Alcohol ban	|
+|3| Art trend	|
+|4| Assassination	|
+|5| Beggar crowds	|
+|6| Blessing	|
+|7| Building collapse |
+|8| Carnival	|
+|9| Conscription	|
+|10| Consecration	|
+|11| Construction	|
+|12| Coronation	|
+|13| Coup	|
+|14| Crime wave	|
+|15| Curfew	|
+|16| Delegation	|
+|17| {Delusion} (p. 30)	|
+|18| Demolition	|
+|19| {Disaster} (p. 31)	|
+|20| Discovery	|
+|21| Dueling trend	|
+|22| Earthquake	|
+|23| Election	|
+|24| Excavation	|
+|25| Execution	|
+|26| Exodus	|
+|27| Faction war (p. 50) |
+|28| Fashion ban	|
+|29| Fashion trend	|
+|30| Fasting	|
+|31| Feasting	|
+|32| Fire	|
+|33| Flood	|
+|34| Funeral	|
+|35| Gambling ban	|
+|36| Gang war	|
+|37| Grain shortage	|
+|38| Heresy	|
+|39| Holy day	|
+|40| House war	|
+|41| Hysteria	|
+|42| Iconoclasm	|
+|43| Immigration	|
+|44| Inquisition	|
+|45| Insurrection	|
+|46| Invasion	|
+|47| Jailbreak	|
+|48| Kidnapping	|
+|49| Landslide	|
+|50| Magic ban |
+|51| Manhunt|
+|52| Mass arrests|
+|53| Mass conversion|
+|54| Mass execution|
+|55| Mass expulsion|
+|56| Mass pardon|
+|57| Meat shortage|
+|58| Military parade|
+|59| Missionaries|
+|60| Mourning|
+|61| Mud|
+|62| {Mutation} (p. 30)|
+|63| New invention|
+|64| Patrols|
+|65| Peace talks|
+|66| Pilgrims|
+|67| Plague|
+|68| Political scandal|
+|69| Preaching|
+|70| Procession|
+|71| Proclamation|
+|72| Protests|
+|73| Public debate|
+|74| Public games|
+|75| Public prayer|
+|76| Refugees|
+|77| Religious council|
+|78| Religious scandal|
+|79| Religious war|
+|80| Rioting|
+|81| Sacrifice|
+|82| Schism|
+|83| Serial killer|
+|84| Siege|
+|85| Sinkhole|
+|86| Smoke|
+|87| Social scandal|
+|88| Stench|
+|89| Street racing|
+|90| Summoning|
+|91| Surrender|
+|92| Taxation|
+|93| Textile shortage|
+|94| Tournament|
+|95| {TravelShift} (p. 9)|
+|96| Trial|
+|97| Vandalism|
+|98| Vermin|
+|99| Weapons ban|
+|00| Wedding|
+{{< /rpg_table >}}
+
+{{< rpg_table name="StreetDetail" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Activity (p. 19)	|
+|2| Animals (p. 64)	|
+|3| Aqueduct	|
+|4| Arcade	|
+|5| Archway	|
+|6| Awnings	|
+|7| Balconies	|
+|8| Barricades	|
+|9| Benches	|
+|10| Bonfire	|
+|11| Bricklayers	|
+|12| Bridge	|
+|13| Broken glass	|
+|14| {Building} (p. 47)	|
+|15| Canal	|
+|16| Carpets	|
+|17| Carriages	|
+|18| Carts	|
+|19| Catwalks	|
+|20| Checkpoint	|
+|21| Children	|
+|22| Chimneys	|
+|23| Clergy	|
+|24| Climbable walls	|
+|25| Clotheslines	|
+|26| Compost	|
+|27| Crates	|
+|28| Crowd	|
+|29| Crumbling walls |
+|30| Dead end	|
+|31| Dusty	|
+|32| Entertainers	|
+|33| Fence	|
+|34| Flooding	|
+|35| Food stalls	|
+|36| Fountain	|
+|37| Fresh paint	|
+|38| Fungi	|
+|39| Gardens	|
+|40| Gas leak	|
+|41| Gates	|
+|42| Graffiti	|
+|43| Gravel	|
+|44| Guards	|
+|45| Hay bales	|
+|46| Hazard (p. 17)	|
+|47| Hot coals	|
+|48| Ladders	|
+|49| Lampposts	|
+|50| Lanterns |
+|51| Livestock|
+|52| Long steps|
+|53| Manure pile|
+|54| Misc. items (p. 39)|
+|55| Mud|
+|56| Narrow|
+|57| Nobility|
+|58| Oil spill|
+|59| Overgrown|
+|60| Palanquins|
+|61| Pickpockets|
+|62| Piles of rags|
+|63| Place trait (p. 11)|
+|64| Pollen clouds|
+|65| Pool|
+|66| Posters|
+|67| Profession (p. 57)|
+|68| Roof access|
+|69| Room detail (p. 15)|
+|70| Roots|
+|71| Ropes|
+|72| Roundabout|
+|73| Sand pile|
+|74| Scaffolding|
+|75| Sewage|
+|76| Sewer access|
+|77| Shrine|
+|78| Sinkhole|
+|79| Skybridge|
+|80| Smoke|
+|81| Spilled fruit|
+|82| Statues|
+|83| Steam|
+|84| Steep roofs|
+|85| Steep streets|
+|86| Stepping stones|
+|87| Street cleaners|
+|88| Street criers|
+|89| Teens|
+|90| Tents|
+|91| Thugs|
+|92| Torches|
+|93| Torn up street|
+|94| Trees|
+|95| Tunnel|
+|96| Vermin swarms|
+|97| Weapon stalls|
+|98| Well|
+|99| Wet cement|
+|00| Wine spill|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Building" >}}
+| d100 | ? |
+| --- | --------|
+|1| Academy	|
+|2| Alchemist	|
+|3| Apothecary	|
+|4| Archive	|
+|5| Armorer	|
+|6| Art dealer	|
+|7| Asylum	|
+|8| Baker	|
+|9| Bank	|
+|10| Barber	|
+|11| Bathhouse	|
+|12| Blacksmith	|
+|13| Bookbinder	|
+|14| Bookseller	|
+|15| Boyer	|
+|16| Brewery	|
+|17| Butcher	|
+|18| Candlemaker	|
+|19| Carpenter	|
+|20| Castle	|
+|21| Catacombs	|
+|22| Chandler	|
+|23| Cheesemaker	|
+|24| Clockmaker	|
+|25| Clothier	|
+|26| Cobbler	|
+|27| Courthouse	|
+|28| Criminal den	|
+|29| Curiosity shop	|
+|30| Dock	|
+|31| {Dungeon} (p. 16)	|
+|32| Dyer	|
+|33| Fighting pit	|
+|34| Fletcher	|
+|35| Fortune teller	|
+|36| Furrier	|
+|37| Gallery	|
+|38| Gambling hall	|
+|39| Garden	|
+|40| Gatehouse	|
+|41| Glassworks	|
+|42| Goldsmith	|
+|43| Guildhall	|
+|44| Haberdashery	|
+|45| Hospital	|
+|46| {Inn} (p. 48)	|
+|47| Jeweler	|
+|48| Law office	|
+|49| Leatherworks	|
+|50| Library |
+|51| Locksmith|
+|52| Lounge|
+|53| Manor|
+|54| Marketplace|
+|55| Mason|
+|56| Menagerie|
+|57| Monastery|
+|58| Moneylender|
+|59| Museum|
+|60| Observatory|
+|61| Opera house|
+|62| Orphanage|
+|63| Outfitter|
+|64| Palace|
+|65| Park|
+|66| Physician|
+|67| Potter|
+|68| Printer|
+|69| Prison|
+|70| Restaurant|
+|71| Rope maker|
+|72| {Room} (p. 14)|
+|73| Saddler|
+|74| Sewers|
+|75| Shipyards|
+|76| Shrine|
+|77| Slaughterhouse|
+|78| Stables|
+|79| Stockyard|
+|80| Stonecarver|
+|81| {Structure} (p. 11)|
+|82| Tailor|
+|83| Tannery|
+|84| Tattooist|
+|85| Taxidermist|
+|86| Temple|
+|87| Theater|
+|88| Tobacconist|
+|89| Townhouse|
+|90| University|
+|91| Veterinarian|
+|92| Warehouse|
+|93| Watchtower|
+|94| Watermill|
+|95| Weapon smith|
+|96| Weaver|
+|97| Windmill|
+|98| Winery|
+|99| Wizard's tower|
+|00| Workshop|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Inn" >}}
+| d2| Inn |
+| --- | --------|
+| 1 | {InnName1} {InnName2} |
+| 2 | {InnName2} {InnName2} |
+{{< /rpg_table >}}
+
+{{< rpg_table name="InnName1" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Activity} (p. 19)	|
+|2| Bellowing	|
+|3| Bitter	|
+|4| Black	|
+|5| Blazing	|
+|6| Bleak	|
+|7| Blessed	|
+|8| Bloody	|
+|9| Blue	|
+|10| Broken	|
+|11| Bucking	|
+|12| Busy	|
+|13| Cacophonous	|
+|14| {Color} (p. 37)	|
+|15| Copper	|
+|16| Courageous	|
+|17| Crimson	|
+|18| Cunning	|
+|19| Dancing	|
+|20| Dead	|
+|21| Disdainful	|
+|22| Drunken	|
+|23| Extravagant	|
+|24| Floating	|
+|25| Flying	|
+|26| Frosty	|
+|27| Ghastly	|
+|28| Ghostly	|
+|29| Glittering	|
+|30| Golden	|
+|31| Graceful	|
+|32| Green	|
+|33| Grotesque	|
+|34| Harmless	|
+|35| Heartless	|
+|36| Helpful	|
+|37| Hideous	|
+|38| Honeyed	|
+|39| Howling	|
+|40| Hungry	|
+|41| Jolly	|
+|42| Kindly	|
+|43| Last	|
+|44| Lazy	|
+|45| Loathsome	|
+|46| Lovesick	|
+|47| Loyal	|
+|48| Melancholy	|
+|49| Merry	|
+|50| Moldy |
+|51| Musical |
+|52| Muttering |
+|53| Mysterious |
+|54| Nervous |
+|55| Nimble |
+|56| Oozing |
+|57| Petrified |
+|58| {PlaceTrait} (p. 11) |
+|59| Prancing |
+|60| Purple |
+|61| {Quality} (p. 28) |
+|62| Reckless |
+|63| Righteous |
+|64| Roaring |
+|65| Roasted |
+|66| Romantic |
+|67| Ruby |
+|68| Salty |
+|69| Scented |
+|70| Seven |
+|71| Shimmering |
+|72| Shivering |
+|73| Shrieking |
+|74| Sickly |
+|75| Silent |
+|76| Silver |
+|77| Singing |
+|78| Sleeping |
+|79| Smoking |
+|80| {Sound} (p. 66) |
+|81| Squeaky |
+|82| Stubborn |
+|83| Tainted |
+|84| Terrible |
+|85| Thirsty |
+|86| Thirteen |
+|87| Three |
+|88| Tipsy |
+|89| Troublesome |
+|90| Two |
+|91| Vexing |
+|92| Violet |
+|93| Wailing |
+|94| Wandering |
+|95| Wanton |
+|96| Whispering |
+|97| Whistling |
+|98| White |
+|99| Wicked |
+|00| Yellow |
+{{< /rpg_table >}}
+
+{{< rpg_table name="InnName2" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| {Animal} (p. 64)	|
+|2| Ant	|
+|3| Axe	|
+|4| Barrel	|
+|5| Bear	|
+|6| Beaver	|
+|7| Beetle	|
+|8| Bell	|
+|9| Boar	|
+|10| Boot	|
+|11| Bowl	|
+|12| Bucket	|
+|13| Bull	|
+|14| Candle	|
+|15| Cat	|
+|16| Claw	|
+|17| Cloak	|
+|18| {Clothing} (p. 40)	|
+|19| Cock	|
+|20| Coin	|
+|21| Comb	|
+|22| Cow	|
+|23| Crow	|
+|24| Crown	|
+|25| Cup	|
+|26| Door	|
+|27| Dragon	|
+|28| Eagle	|
+|29| Egg	|
+|30| Elephant	|
+|31| Fish	|
+|32| Flea	|
+|33| {Food} (p. 49)	|
+|34| Fork	|
+|35| Giant	|
+|36| Griffin	|
+|37| Hare	|
+|38| Hart	|
+|39| Hawk	|
+|40| Hen	|
+|41| Hog	|
+|42| Hole	|
+|43| Horse	|
+|44| Hound	|
+|45| Jar	|
+|46| Kettle	|
+|47| Key	|
+|48| Knife	|
+|49| Lamb	|
+|50| Lamp |
+|51| Lantern|
+|52| Lion|
+|53| Lute|
+|54| Mackerel|
+|55| Maid|
+|56| Mermaid|
+|57| {MiscItem} (p. 39)|
+|58| Mole|
+|59| Monk|
+|60| {Monster} (p. 61)|
+|61| Moon|
+|62| Mule|
+|63| Needle|
+|64| Noose|
+|65| Orb|
+|66| Pearl|
+|67| Pig|
+|68| Pipe|
+|69| Plow|
+|70| Post|
+|71| Prince|
+|72| {Profession} (p. 57)|
+|73| Queen|
+|74| Rat|
+|75| Rose|
+|76| Saint|
+|77| Serpent|
+|78| Shoe|
+|79| Shovel|
+|80| Skull|
+|81| Sow|
+|82| Spoon|
+|83| Staff|
+|84| Star|
+|85| Stone|
+|86| Sun|
+|87| Sword|
+|88| Thistle|
+|89| Thorn|
+|90| Torch|
+|91| Tower|
+|92| Unicorn|
+|93| Vulture|
+|94| {Weapon} (p. 43)|
+|95| Weasel|
+|96| Whale|
+|97| Wheel|
+|98| Whistle|
+|99| Wife|
+|00| Worm|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Food" >}}
+| ? |
+| --------|
+| {FoodTrait} {FoodType} |
+{{< /rpg_table >}}
+
+{{< rpg_table name="FoodTrait" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Aged	|
+|2| Bacon-wrapped	|
+|3| Baked	|
+|4| Balls	|
+|5| Barbecued	|
+|6| Basted	|
+|7| Battered	|
+|8| Blackened	|
+|9| Blanched	|
+|10| Boiled	|
+|11| Braised	|
+|12| Breaded	|
+|13| Brined	|
+|14| Broiled	|
+|15| Broth	|
+|16| Browned	|
+|17| Buttered	|
+|18| Cake	|
+|19| Candied	|
+|20| Canned	|
+|21| Caramelized	|
+|22| Casserole	|
+|23| Charred	|
+|24| Chilled	|
+|25| Chowder	|
+|26| Cobbler	|
+|27| Creamed	|
+|28| Crumble	|
+|29| Cubed	|
+|30| Cured	|
+|31| Deep-fried	|
+|32| Diced	|
+|33| Drunk	|
+|34| Emulsified	|
+|35| Fermented	|
+|36| Flambéd	|
+|37| Fondue	|
+|38| Frozen	|
+|39| Glazed	|
+|40| Grilled	|
+|41| Gruel	|
+|42| Hash	|
+|43| Hasty	|
+|44| Honeyed	|
+|45| Iced	|
+|46| Inside-out	|
+|47| Jellied	|
+|48| Layered	|
+|49| Live	|
+|50| Loaf |
+|51| Marinated|
+|52| Mashed|
+|53| Melt|
+|54| Minced|
+|55| Moldy|
+|56| Pan-fried|
+|57| Pastry|
+|58| Patty|
+|59| Peppered|
+|60| Pickled|
+|61| Pie|
+|62| Poached|
+|63| Porridge|
+|64| Pudding|
+|65| Quiche|
+|66| Rancid|
+|67| Raw|
+|68| Roasted|
+|69| Roll|
+|70| Salad|
+|71| Salted|
+|72| Sandwich|
+|73| Sausage|
+|74| Sautéed|
+|75| Seared|
+|76| Seasoned|
+|77| Shredded|
+|78| Simmered|
+|79| Slow-cooked|
+|80| Smoked|
+|81| Soup|
+|82| Sour|
+|83| Spiced|
+|84| Spit-roasted|
+|85| Stale|
+|86| Steamed|
+|87| Stewed|
+|88| Stir-fried|
+|89| Strips|
+|90| Stuffed|
+|91| Sugared|
+|92| Sun-dried|
+|93| Tenderized|
+|94| {Texture} (p. 36)|
+|95| Toasted|
+|96| Turnover|
+|97| Undercooked|
+|98| Upside-down|
+|99| Wind-dried|
+|00| Wrapped|
+{{< /rpg_table >}}
+
+{{< rpg_table name="FoodType" hide_button="true" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acorn	|
+|2| Alligator	|
+|3| Almond	|
+|4| Animal (p. 64)	|
+|5| Antelope	|
+|6| Apple	|
+|7| Artichokes	|
+|8| Asparagus	|
+|9| Bass	|
+|10| Bear	|
+|11| Beaver	|
+|12| Beef	|
+|13| Beet	|
+|14| Bell pepper	|
+|15| Bison	|
+|16| Blueberry	|
+|17| Broccoli	|
+|18| Brussels sprout	|
+|19| Cabbage	|
+|20| Carp	|
+|21| Carrot	|
+|22| Catfish	|
+|23| Cattail	|
+|24| Cauliflower	|
+|25| Caviar	|
+|26| Celery	|
+|27| Cheese	|
+|28| Cherry	|
+|29| Chestnut	|
+|30| Chicken	|
+|31| Clams	|
+|32| Corn	|
+|33| Crab	|
+|34| Crayfish	|
+|35| Cucumber	|
+|36| Dandelion	|
+|37| Duck	|
+|38| Eel	|
+|39| Egg	|
+|40| Eggplant	|
+|41| Elk	|
+|42| Goat	|
+|43| Goose	|
+|44| Grape	|
+|45| Green bean	|
+|46| Guinea pig	|
+|47| Ham	|
+|48| Hare	|
+|49| Hazelnut	|
+|50| Hot pepper |
+|51| Kidney bean|
+|52| Lamb|
+|53| Leek|
+|54| Lemon|
+|55| Lime|
+|56| Lobster|
+|57| Moose|
+|58| Monster (p. 61)|
+|59| Mushroom|
+|60| Mussels|
+|61| Mutton|
+|62| Onion|
+|63| Orange|
+|64| Organ (p. 64)|
+|65| Partridge|
+|66| Pea|
+|67| Pear|
+|68| Perch|
+|69| Pheasant|
+|70| Pork|
+|71| Possum|
+|72| Potato|
+|73| Pumpkin|
+|74| Quail|
+|75| Rabbit|
+|76| Raccoon|
+|77| Radish|
+|78| Raspberry|
+|79| Rat|
+|80| Reindeer|
+|81| Rhubarb|
+|82| Salmon|
+|83| Shrimp|
+|84| Snails|
+|85| Snake|
+|86| Spinach|
+|87| Squash|
+|88| Squirrel|
+|89| Strawberry|
+|90| Sturgeon|
+|91| Tangerine|
+|92| Tomato|
+|93| Trout|
+|94| Turnip|
+|95| Turtle|
+|96| Veal|
+|97| Venison|
+|98| Walnut|
+|99| Wild boar|
+|00| Yam|
 {{< /rpg_table >}}
 
 {{< rpg_table name="TravelBlah" hide_button="true" >}}
@@ -2912,109 +7049,7 @@ Tables from Knave 2e.
 | --- | --------|
 {{< /rpg_table >}}
 
-# Player
-
-{{< rpg_table name="Career" >}}
-| d100 | Career |
+{{< rpg_table name="TravelBlah" hide_button="true" >}}
+| d100 | ? |
 | --- | --------|
-|1 | acolyte: candlestick, censer, incense	|
-|2 | acrobat: flash powder, balls, lamp oil	|
-|3 | actor: wig, makeup, costume	|
-|4 | alchemist: acid, mortar/pestle, 6 vials	|
-|5 | antiquarian: old coin, flag, lore book	|
-|6 | arcanist: spell book, arcane robes, chalk	|
-|7 | architect: plumb line, level, ruler	|
-|8 | assassin: crossbow, garrote, soft boots	|
-|9 | astrologer: star charts, almanac, telescope |
-|10 | baker: rolling pin, flour bag, lard block	|
-|11 | bandit: mask, manacles, caltrops	|
-|12 | barber: scissors, hair oil, straight razor	|
-|13 | beast tamer: whip, gloves, leash	|
-|14 | beekeeper: honey, mask, smoke bomb	|
-|15 | blacksmith: hammer, bellows, tongs	|
-|16 | boatman: 10' pole, instrument, paddle	|
-|17 | bookbinder: sewing kit, glue, quill/ink	|
-|18 | brewer: mash paddle, beer keg, hops	|
-|19 | burglar: lockpicks, grappling hook, rope  |
-|20 | butcher: cleaver, meat hook, bacon	|
-|21 | candlemaker: 10 candles, lamp oil, wax	|
-|22 | carpenter: hammer, saw, box of nails	|
-|23 | charlatan: costume, fake elixir, degree	|
-|24 | cobbler: leather roll, fancy shoes, tacks	|
-|25 | coachman: whip, lockbox, oilskin coat	|
-|26 | cook: frying pan, salt, olive oil	|
-|27 | courier: oilskin bag, local map, lantern	|
-|28 | courtier: perfume, wig, fan	|
-|29 | cultist: dagger, ritual robes, amulet	|
-|30 | cutpurse: knife, caltrops, sack	|
-|31 | dyer: 10' pole, dyes, soap	|
-|32 | explorer: sextant, spyglass, crampons	|
-|33 | falconer: bird cage, gloves, whistle	|
-|34 | fence: short sword, file, sealing wax	|
-|35 | fisherman: spear, net, fishing tackle	|
-|36 | folklorist: prophecy, bones, scales	|
-|37 | gambler: rapier, card deck, dice	|
-|38 | gamekeeper: sling, horn, rope ladder	|
-|39 | gardener: sickle, shovel, shears	|
-|40 | grave robber: saw, crowbar, pulleys	|
-|41 | gravedigger: shovel, pickaxe, bucket	|
-|42 | groom: oats, horse brush, blanket	|
-|43 | guard: halberd, livery, horn	|
-|44 | headsman: axe, hood, garrote	|
-|45 | herbalist: herbs, sickle, herb manual	|
-|46 | hermit: staff, fungi, basket	|
-|47 | hunter: tent, bearskin, bear trap	|
-|48 | innkeeper: ladle, 10 candles, cauldron	|
-|49 | inquisitor: manual, vestments, pliers	|
-|50 | investigator: journal, manacles, vial	|
-|51 | jailer: padlock, 10' chain, wine jug |
-|52 | jester: scepter, donkey head, motley |
-|53 | jeweler: pliers, loupe, tweezers |
-|54 | knight: lady's favor, banner, signet ring |
-|55 | kidnapper: chloroform, manacles, hood |
-|56 | lawyer: fancy robe, law book, certificate |
-|57 | locksmith: crowbar, picks, padlock |
-|58 | mason: chisel, hammer, chalk |
-|59 | merchant: scales, strongbox, bag of spice |
-|60 | miner: pickaxe, lantern, pet canary |
-|61 | musician: 3 instruments |
-|62 | naturalist: fossil, insect case, geode |
-|63 | officer: shoe polish, medal, spyglass |
-|64 | oracle: tea leaves, tarot deck, crystal |
-|65 | orator: 100 marbles, bullhorn, wax tablet |
-|66 | painter: linseed oil, pigments, brushes |
-|67 | peddler: bucket, 300' twine, mirror |
-|68 | philosopher: staff, lantern, chalk |
-|69 | physician: saw, scalpel, wine jug |
-|70 | pilgrim: staff, relic, letter of passage |
-|71 | pirate: sextant, cannonball, grappling hook |
-|72 | pit fighter: net, whip, wine jug |
-|73 | playwright: quill/ink, skull, 10 candles |
-|74 | poacher: animal scent, bow, 20 arrows |
-|75 | poet: stationery, bell, perfume |
-|76 | priest: holy water, 10 stakes, prayer book |
-|77 | prospector: 10 iron spikes, pickaxe, pan |
-|78 | puppeteer: confetti, puppet, sewing kit |
-|79 | rat catcher: cage, 10 rat traps, sack |
-|80 | saboteur: air bladder, crowbar, bomb |
-|81 | sailor: beeswax, pullies, spyglass |
-|82 | scout: signal flags, black grease, dice |
-|83 | scribe: lamp oil, quill/ink, sealing wax |
-|84 | sculptor: chisel, clay, calipers |
-|85 | servant: sponge, silverware, poker |
-|86 | shepherd: crook, instrument, sling |
-|87 | shipwright: drill, hammer, axe |
-|88 | singer: mirror, makeup, locket |
-|89 | smuggler: pulleys, rope, makeup |
-|90 | soldier: tent, card deck, shovel |
-|91 | spy: caltrops, poison, forged papers |
-|92 | squire: torch, armor polish, trumpet |
-|93 | tailor: sewing kit, scissors, soap |
-|94 | tattooist: soot pot, needles, 10 candles |
-|95 | thieftaker: bear trap, manacles, torch |
-|96 | thug: poison, knife, lamp oil |
-|97 | torturer: drill, hourglass, 10' chain |
-|98 | trapper: bear trap, 300' twine, bear pelt |
-|99 | watchman: lantern, trumpet, spear |
-|00 | woodcutter: axe, firewood, 50' rope |
 {{< /rpg_table >}}
