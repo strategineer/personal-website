@@ -22,7 +22,7 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="StructureBlock" expr="{PlaceTrait} {Structure}" >}}
 
-{{< rpg_table_button name="RoomBlock" expr="Room: {Room}. {RoomTheme}. {RoomDetail}." >}}
+{{< rpg_table_button name="RoomBlock" expr="Room: {Room}. {RoomStyle}. {RoomTheme}. {RoomDetail}." >}}
 
 {{< rpg_table_button name="Trap" expr="Trap: {TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
 
@@ -43,8 +43,8 @@ Tables from Knave 2e.
 {{< rpg_table name="Name" >}}
 | d2 | NPC |
 | --- | --------|
-| 1 | {MaleName} {SurnameStart}{SurnameEnd} |
-| 2 | {FemaleName} {SurnameStart}{SurnameEnd} |
+| 1 | {MaleName} {Surname1}{Surname2} |
+| 2 | {FemaleName} {Surname1}{Surname2} |
 {{< /rpg_table >}}
 
 {{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
@@ -59,6 +59,20 @@ Tables from Knave 2e.
 | 1 | {Fabric} {Clothing} |
 | 2 | {Weapon} |
 {{< /rpg_table >}}
+
+
+{{< rpg_table name="Inn" >}}
+| d2| Inn |
+| --- | --------|
+| 1 | {InnName1} {InnName2} |
+| 2 | {InnName2} {InnName2} |
+{{< /rpg_table >}}
+
+
+{{< rpg_table_button name="MonsterBlock" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
+
+{{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
+
 
 # Careers
 
@@ -4412,113 +4426,34 @@ Tables from Knave 2e.
 {{< /rpg_table >}}
 
 
-# Building
+# Buildings
 
 {{< rpg_table name="Building" >}}
 | d100 | ? |
 | --- | --------|
-|1| Academy	|
-|2| Alchemist	|
-|3| Apothecary	|
-|4| Archive	|
-|5| Armorer	|
-|6| Art dealer	|
-|7| Asylum	|
-|8| Baker	|
-|9| Bank	|
-|10| Barber	|
-|11| Bathhouse	|
-|12| Blacksmith	|
-|13| Bookbinder	|
-|14| Bookseller	|
-|15| Boyer	|
-|16| Brewery	|
-|17| Butcher	|
-|18| Candlemaker	|
-|19| Carpenter	|
-|20| Castle	|
-|21| Catacombs	|
-|22| Chandler	|
-|23| Cheesemaker	|
-|24| Clockmaker	|
-|25| Clothier	|
-|26| Cobbler	|
-|27| Courthouse	|
-|28| Criminal den	|
-|29| Curiosity shop	|
-|30| Dock	|
-|31| {Dungeon} (p. 16)	|
-|32| Dyer	|
-|33| Fighting pit	|
-|34| Fletcher	|
-|35| Fortune teller	|
-|36| Furrier	|
-|37| Gallery	|
-|38| Gambling hall	|
-|39| Garden	|
-|40| Gatehouse	|
-|41| Glassworks	|
-|42| Goldsmith	|
-|43| Guildhall	|
-|44| Haberdashery	|
-|45| Hospital	|
-|46| {Inn} (p. 48)	|
-|47| Jeweler	|
-|48| Law office	|
-|49| Leatherworks	|
-|50| Library |
-|51| Locksmith|
-|52| Lounge|
-|53| Manor|
-|54| Marketplace|
-|55| Mason|
-|56| Menagerie|
-|57| Monastery|
-|58| Moneylender|
-|59| Museum|
-|60| Observatory|
-|61| Opera house|
-|62| Orphanage|
-|63| Outfitter|
-|64| Palace|
-|65| Park|
-|66| Physician|
-|67| Potter|
-|68| Printer|
-|69| Prison|
-|70| Restaurant|
-|71| Rope maker|
-|72| {Room} (p. 14)|
-|73| Saddler|
-|74| Sewers|
-|75| Shipyards|
-|76| Shrine|
-|77| Slaughterhouse|
-|78| Stables|
-|79| Stockyard|
-|80| Stonecarver|
-|81| {Structure} (p. 11)|
-|82| Tailor|
-|83| Tannery|
-|84| Tattooist|
-|85| Taxidermist|
-|86| Temple|
-|87| Theater|
-|88| Tobacconist|
-|89| Townhouse|
-|90| University|
-|91| Veterinarian|
-|92| Warehouse|
-|93| Watchtower|
-|94| Watermill|
-|95| Weapon smith|
-|96| Weaver|
-|97| Windmill|
-|98| Winery|
-|99| Wizard's tower|
-|00| Workshop|
-{{< /rpg_table >}}
+| 1 | Poor hovel 100|
+| 2 | Humble cottage 1k|
+| 3 | Respectable house, chapel 10k|
+| 4 | Wealthy house, guildhall, theater, warehouse 50k|
+| 5 | Church, stone tower 100k|
+| 6 | Small castle 2m|
+| 7 | Minor noble’s mansion, temple, medium castle 8m|
+| 8 | Large castle 32m|
+| 9 | Major noble’s estate, cathedral 100m|
+| 10 | Imperial palace, basilica 400m |
 
+{{< rpg_table name="RoomStyle" >}}
+| d6 | ? |
+| --- | --------|
+| 1 | poor: Earth walls, thatched roofs,
+earth floors. (10) |
+| 2 | humble: Wattle and daub walls with some bricks or field stone, thatched roofs, reed floors. (50) |
+| 3 | respectable: Wood and brick walls with some stone, shingled roof, wood floors. 250
+wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors. This is also the cost for a 5’ cube of defensive stone walls. (1k) |
+| 4 | minor nobles and castles: Stone walls, shingled roof, flagstone floors. Some use of materials like glass and marble, minor architectural flourishes. (5k) |
+| 5 | major nobles: Stone walls, stone roof, tiled floors, glass windows, high ceilings, significant architectural flourishes. (50k) |
+| 6 | royal: Marble walls, stone roof, marble floors, glass windows, soaring ceilings, art everywhere. (100k) |
+{{< /rpg_table >}}
 
 {{< rpg_table name="CityTheme" >}}
 | d100 | ? |
@@ -4835,12 +4770,111 @@ Tables from Knave 2e.
 |00| Wine spill|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Inn" >}}
-| d2| Inn |
+{{< rpg_table name="Buildings" >}}
+| d100 | ? |
 | --- | --------|
-| 1 | {InnName1} {InnName2} |
-| 2 | {InnName2} {InnName2} |
+|1| Academy	|
+|2| Alchemist	|
+|3| Apothecary	|
+|4| Archive	|
+|5| Armorer	|
+|6| Art dealer	|
+|7| Asylum	|
+|8| Baker	|
+|9| Bank	|
+|10| Barber	|
+|11| Bathhouse	|
+|12| Blacksmith	|
+|13| Bookbinder	|
+|14| Bookseller	|
+|15| Boyer	|
+|16| Brewery	|
+|17| Butcher	|
+|18| Candlemaker	|
+|19| Carpenter	|
+|20| Castle	|
+|21| Catacombs	|
+|22| Chandler	|
+|23| Cheesemaker	|
+|24| Clockmaker	|
+|25| Clothier	|
+|26| Cobbler	|
+|27| Courthouse	|
+|28| Criminal den	|
+|29| Curiosity shop	|
+|30| Dock	|
+|31| {Dungeon} (p. 16)	|
+|32| Dyer	|
+|33| Fighting pit	|
+|34| Fletcher	|
+|35| Fortune teller	|
+|36| Furrier	|
+|37| Gallery	|
+|38| Gambling hall	|
+|39| Garden	|
+|40| Gatehouse	|
+|41| Glassworks	|
+|42| Goldsmith	|
+|43| Guildhall	|
+|44| Haberdashery	|
+|45| Hospital	|
+|46| {Inn} (p. 48)	|
+|47| Jeweler	|
+|48| Law office	|
+|49| Leatherworks	|
+|50| Library |
+|51| Locksmith|
+|52| Lounge|
+|53| Manor|
+|54| Marketplace|
+|55| Mason|
+|56| Menagerie|
+|57| Monastery|
+|58| Moneylender|
+|59| Museum|
+|60| Observatory|
+|61| Opera house|
+|62| Orphanage|
+|63| Outfitter|
+|64| Palace|
+|65| Park|
+|66| Physician|
+|67| Potter|
+|68| Printer|
+|69| Prison|
+|70| Restaurant|
+|71| Rope maker|
+|72| {Room} (p. 14)|
+|73| Saddler|
+|74| Sewers|
+|75| Shipyards|
+|76| Shrine|
+|77| Slaughterhouse|
+|78| Stables|
+|79| Stockyard|
+|80| Stonecarver|
+|81| {Structure} (p. 11)|
+|82| Tailor|
+|83| Tannery|
+|84| Tattooist|
+|85| Taxidermist|
+|86| Temple|
+|87| Theater|
+|88| Tobacconist|
+|89| Townhouse|
+|90| University|
+|91| Veterinarian|
+|92| Warehouse|
+|93| Watchtower|
+|94| Watermill|
+|95| Weapon smith|
+|96| Weaver|
+|97| Windmill|
+|98| Winery|
+|99| Wizard's tower|
+|00| Workshop|
 {{< /rpg_table >}}
+
 
 {{< rpg_table name="InnName1" >}}
 | d100 | ? |
@@ -5267,6 +5301,7 @@ Tables from Knave 2e.
 |99| Wild boar|
 |00| Yam|
 {{< /rpg_table >}}
+
 
 {{< rpg_table name="Faction" >}}
 | ? |
@@ -5696,8 +5731,7 @@ Tables from Knave 2e.
 |00| {Weapon} (p. 43)|
 {{< /rpg_table >}}
 
-
-# TODO
+# Recruiting
 
 {{< rpg_table name="Archetype" >}}
 | d100 | Archetype |
@@ -5802,6 +5836,427 @@ Tables from Knave 2e.
 | 98 | Wizened crone |
 | 99 | Worn-out boxer |
 | 00 | Zealous inquisitor |
+{{< /rpg_table >}}
+
+
+{{< rpg_table name="MaleName" >}}
+| d100 | Male Name |
+| --- | --------|
+| 1 | Alaric	|
+| 2 | Aldous	|
+| 3 | Alton	|
+| 4 | Archibald	|
+| 5 | Arne	|
+| 6 | Arthur	|
+| 7 | Balthazar	|
+| 8 | Bard	|
+| 9 | Bartholomew	|
+| 10 | Bartlett	|
+| 11 | Basil	|
+| 12 | Baxton	|
+| 13 | Benedict	|
+| 14 | Bennett	|
+| 15 | Beorn	|
+| 16 | Bertram	|
+| 17 | Burchard	|
+| 18 | Cadman	|
+| 19 | Caspian	|
+| 20 | Chadwick	|
+| 21 | Clovis	|
+| 22 | Conrad	|
+| 23 | Corbett	|
+| 24 | Crispin	|
+| 25 | Cyprian	|
+| 26 | Cyrus	|
+| 27 | Daegal	|
+| 28 | Denis	|
+| 29 | Destrian	|
+| 30 | Drogo	|
+| 31 | Eldon	|
+| 32 | Ellis	|
+| 33 | Elric	|
+| 34 | Emil	|
+| 35 | Erasmus	|
+| 36 | Faustus	|
+| 37 | Felix	|
+| 38 | Finn	|
+| 39 | Finnian	|
+| 40 | Fitzhugh	|
+| 41 | Florian	|
+| 42 | Fox	|
+| 43 | Galileo	|
+| 44 | Giles	|
+| 45 | Godfrey	|
+| 46 | Godwin	|
+| 47 | Grimwald	|
+| 48 | Hamlin	|
+| 49 | Hannibal	|
+| 50 | Hildebrand	|
+| 51 | Jasper |
+| 52 | Jeremiah |
+| 53 | Johan |
+| 54 | Jules |
+| 55 | Kenric |
+| 56 | Leif |
+| 57 | Leopold |
+| 58 | Leoric |
+| 59 | Lothar |
+| 60 | Lucian |
+| 61 | Merrick |
+| 62 | Milo |
+| 63 | Mordred |
+| 64 | Mortimer |
+| 65 | Neville |
+| 66 | Odel |
+| 67 | Ogden |
+| 68 | Orion |
+| 69 | Orvyn |
+| 70 | Osric |
+| 71 | Oswald |
+| 72 | Paschal |
+| 73 | Percival |
+| 74 | Peregrine |
+| 75 | Piers |
+| 76 | Quentin |
+| 77 | Randolf |
+| 78 | Redmaine |
+| 79 | Reinhold |
+| 80 | Rex |
+| 81 | Ricard |
+| 82 | Roland |
+| 83 | Rufus |
+| 84 | Silas |
+| 85 | Stilton |
+| 86 | Stratford |
+| 87 | Sylvio |
+| 88 | Tenpiece |
+| 89 | Thaddeus |
+| 90 | Torsten |
+| 91 | Tristan |
+| 92 | Urban |
+| 93 | Valentin |
+| 94 | Valerian |
+| 95 | Virgil |
+| 96 | Warrick |
+| 97 | Waverly |
+| 98 | Webster |
+| 99 | Wilkin |
+| 00 | Wymond |
+{{< /rpg_table >}}
+
+{{< rpg_table name="FemaleName" >}}
+| d100 | Female Name |
+| --- | --------|
+| 1 | Adelaide	|
+| 2 | Agnes	|
+| 3 | Alma	|
+| 4 | Anastasia	|
+| 5 | Anika	|
+| 6 | Annora	|
+| 7 | Astrid	|
+| 8 | Barsaba	|
+| 9 | Beatrix	|
+| 10 | Bethel	|
+| 11 | Bianca	|
+| 12 | Blanche	|
+| 13 | Bodil	|
+| 14 | Bridget	|
+| 15 | Brunhilde	|
+| 16 | Calypso	|
+| 17 | Catalina	|
+| 18 | Cecilia	|
+| 19 | Celeste	|
+| 20 | Charlotte	|
+| 21 | Cleopha	|
+| 22 | Clotilde	|
+| 23 | Clover	|
+| 24 | Colette	|
+| 25 | Constance	|
+| 26 | Damaris	|
+| 27 | Daphne	|
+| 28 | Demona	|
+| 29 | Desirae	|
+| 30 | Ella	|
+| 31 | Elsbeth	|
+| 32 | Esme	|
+| 33 | Eulalia	|
+| 34 | Euphemia	|
+| 35 | Eydis	|
+| 36 | Fern	|
+| 37 | Fiora	|
+| 38 | Fleur	|
+| 39 | Florence	|
+| 40 | Francesca	|
+| 41 | Gertrude	|
+| 42 | Giselle	|
+| 43 | Godiva	|
+| 44 | Guinevere	|
+| 45 | Heloise	|
+| 46 | Henrietta	|
+| 47 | Hester	|
+| 48 | Hippolyta	|
+| 49 | Honora	|
+| 50 | Imogene	|
+| 51 | Ingrid |
+| 52 | Ione |
+| 53 | Iris |
+| 54 | Isabetta |
+| 55 | Isolde |
+| 56 | Jacquette |
+| 57 | Jeanne |
+| 58 | Jessamine |
+| 59 | Jilly |
+| 60 | Lavinia |
+| 61 | Lisbet |
+| 62 | Madelena |
+| 63 | Margot |
+| 64 | Marian |
+| 65 | Marigold |
+| 66 | Matilda |
+| 67 | Melisande |
+| 68 | Millicent |
+| 69 | Minerva |
+| 70 | Morgan |
+| 71 | Nerissa |
+| 72 | Odette |
+| 73 | Olga |
+| 74 | Olivia |
+| 75 | Orchid |
+| 76 | Pepper |
+| 77 | Petra |
+| 78 | Philomena |
+| 79 | Phoebe |
+| 80 | Piety |
+| 81 | Poppy |
+| 82 | Portia |
+| 83 | Rosalind |
+| 84 | Rose |
+| 85 | Sabina |
+| 86 | Sif |
+| 87 | Sigourney |
+| 88 | Sigrid |
+| 89 | Silence |
+| 90 | Sybil |
+| 91 | Tabitha |
+| 92 | Trillby |
+| 93 | Ulfhild |
+| 94 | Ursula |
+| 95 | Vivian |
+| 96 | Wendy |
+| 97 | Willow |
+| 98 | Winifred |
+| 99 | Yvette |
+| 00 | Zora |
+{{< /rpg_table >}}
+
+{{< rpg_table name="Surname1" >}}
+| d100 | Surname Start |
+| --- | --------|
+| 1 | Adder	|
+| 2 | Apple	|
+| 3 | Ash	|
+| 4 | Bab	|
+| 5 | Bag	|
+| 6 | Bar	|
+| 7 | Barrow	|
+| 8 | Basker	|
+| 9 | Beau	|
+| 10 | Beetle	|
+| 11 | Berry	|
+| 12 | Bird	|
+| 13 | Brandy	|
+| 14 | Bright	|
+| 15 | Brindle	|
+| 16 | Bull	|
+| 17 | Bux	|
+| 18 | Caven	|
+| 19 | Chelten	|
+| 20 | Chester	|
+| 21 | Chuff	|
+| 22 | Chum	|
+| 23 | Clod	|
+| 24 | Cobble	|
+| 25 | Cotton	|
+| 26 | Cress	|
+| 27 | Crom	|
+| 28 | Cumber	|
+| 29 | Dela	|
+| 30 | Dig	|
+| 31 | Draw	|
+| 32 | Dreg	|
+| 33 | Drol	|
+| 34 | Dun	|
+| 35 | Even	|
+| 36 | Ever	|
+| 37 | Fair	|
+| 38 | Fallow	|
+| 39 | Farthing	|
+| 40 | Feather	|
+| 41 | Ferns	|
+| 42 | Fox	|
+| 43 | Gam	|
+| 44 | Gird	|
+| 45 | Gos	|
+| 46 | Grey	|
+| 47 | Grim	|
+| 48 | Half	|
+| 49 | Hard	|
+| 50 | Harrow	|
+| 51 | Hart |
+| 52 | Haver |
+| 53 | Hedge |
+| 54 | Hither |
+| 55 | Holly |
+| 56 | Honey |
+| 57 | Horn |
+| 58 | Kettle |
+| 59 | Kings |
+| 60 | Little |
+| 61 | Long |
+| 62 | Love |
+| 63 | Middle |
+| 64 | Mug |
+| 65 | Nether |
+| 66 | Never |
+| 67 | Obling |
+| 68 | Pember |
+| 69 | Penning |
+| 70 | Pens |
+| 71 | Pinker |
+| 72 | Porten |
+| 73 | Quill |
+| 74 | Rath |
+| 75 | Sack |
+| 76 | Sallow |
+| 77 | Salt |
+| 78 | Scor |
+| 79 | Sedge |
+| 80 | Silver |
+| 81 | Slither |
+| 82 | Smit |
+| 83 | Snod |
+| 84 | Souther |
+| 85 | Stew |
+| 86 | Stir |
+| 87 | Swine |
+| 88 | Tar |
+| 89 | Temple |
+| 90 | Tide |
+| 91 | Tread |
+| 92 | Under |
+| 93 | Vander |
+| 94 | Weather |
+| 95 | Wester |
+| 96 | Wex |
+| 97 | Whit |
+| 98 | Wither |
+| 99 | Within |
+| 00 | Wy |
+{{< /rpg_table >}}
+
+{{< rpg_table name="Surname2" >}}
+| d100 | Surname End |
+| --- | --------|
+| 1 | bald	|
+| 2 | barrow	|
+| 3 | batch	|
+| 4 | beck	|
+| 5 | blood	|
+| 6 | bold	|
+| 7 | bone	|
+| 8 | bottle	|
+| 9 | bottom	|
+| 10 | bridge	|
+| 11 | buck	|
+| 12 | burn	|
+| 13 | bury	|
+| 14 | by	|
+| 15 | caster	|
+| 16 | castle	|
+| 17 | chester	|
+| 18 | child	|
+| 19 | church	|
+| 20 | cliff	|
+| 21 | cloth	|
+| 22 | coat	|
+| 23 | combe	|
+| 24 | cott	|
+| 25 | dale	|
+| 26 | dish	|
+| 27 | ditch	|
+| 28 | down	|
+| 29 | fax	|
+| 30 | field	|
+| 31 | fent	|
+| 32 | fer	|
+| 33 | field	|
+| 34 | foot	|
+| 35 | force	|
+| 36 | fort	|
+| 37 | fry	|
+| 38 | gale	|
+| 39 | grass	|
+| 40 | grave	|
+| 41 | green	|
+| 42 | grove	|
+| 43 | ham	|
+| 44 | hill	|
+| 45 | hope	|
+| 46 | lack	|
+| 47 | lain	|
+| 48 | land	|
+| 49 | less	|
+| 50 | lin	|
+| 51 | ling |
+| 52 | lish |
+| 53 | lock |
+| 54 | long |
+| 55 | low |
+| 56 | ly |
+| 57 | man |
+| 58 | march |
+| 59 | mark |
+| 60 | marl |
+| 61 | marsh |
+| 62 | mass |
+| 63 | meer |
+| 64 | mond |
+| 65 | mont |
+| 66 | more |
+| 67 | morn |
+| 68 | nick |
+| 69 | ny |
+| 70 | port |
+| 71 | ridge |
+| 72 | row |
+| 73 | sea |
+| 74 | set |
+| 75 | shot |
+| 76 | sop |
+| 77 | spoon |
+| 78 | staff |
+| 79 | stoke |
+| 80 | stone |
+| 81 | ten |
+| 82 | thorn |
+| 83 | thorpe |
+| 84 | throp |
+| 85 | ton |
+| 86 | tooth |
+| 87 | top |
+| 88 | vane |
+| 89 | ville |
+| 90 | wald |
+| 91 | wark |
+| 92 | watch |
+| 93 | water |
+| 94 | well |
+| 95 | whistle |
+| 96 | wick |
+| 97 | wood |
+| 98 | worm |
+| 99 | worth |
+| 00 | worthy |
 {{< /rpg_table >}}
 
 {{< rpg_table name="Personality" >}}
@@ -6014,7 +6469,6 @@ Tables from Knave 2e.
 | 00 | Wispy hair |
 {{< /rpg_table >}}
 
-
 {{< rpg_table name="Profession" >}}
 | d100 | Profession |
 | --- | --------|
@@ -6225,6 +6679,320 @@ Tables from Knave 2e.
 | 00 | Survive dangers |
 {{< /rpg_table >}}
 
+{{< rpg_table name="Asset" >}}
+| d100 | ? |
+| --- | --------|
+|1| Agile	|
+|2| Assassin leader	|
+|3| Bodyguards	|
+|4| {Book} expert (p. 40) |
+|5| {Building} (p. 47)	|
+|6| Building access	|
+|7| Card shark	|
+|8| Charming	|
+|9| Contortionist	|
+|10| Cooks books	|
+|11| Cult leader	|
+|12| Demigod	|
+|13| Disciples	|
+|14| Disguises	|
+|15| Dungeon access |
+|16| Elite archer	|
+|17| Elite fighter	|
+|18| Erases evidence	|
+|19| Excellent liar	|
+|20| Extremely rich	|
+|21| Faction leader	|
+|22| Faction member |
+|23| Famous actor	|
+|24| Famous artist	|
+|25| Famous cleric	|
+|26| Famous composer|
+|27| Famous explorer |
+|28| Famous general	|
+|29| Famous poet	|
+|30| Fast	|
+|31| Feared	|
+|32| Fence	|
+|33| Forges papers	|
+|34| Gorgeous	|
+|35| Hears rumors	|
+|36| Heir to a fortune |
+|37| Huge family	|
+|38| Impersonator	|
+|39| Instructor	|
+|40| Intimidating	|
+|41| Knows buyers	|
+|42| Knows shortcut  |
+|43| Launders money |
+|44| Local knowledge |
+|45| Loremaster	|
+|46| Loyal henchmen |
+|47| Master mage	|
+|48| Mechanical expert|
+|49| Military leader	|
+|50| Multilingual |
+|51| Natural leader|
+|52| Noble|
+|53| Nothing to lose|
+|54| Owed favors|
+|55| Owed money|
+|56| Owns armory|
+|57| Owns army|
+|58| Owns castle|
+|59| Owns factory|
+|60| Owns fleet|
+|61| Owns library|
+|62| Owns manor|
+|63| Owns press|
+|64| Owns relics|
+|65| Owns ship|
+|66| Owns stables|
+|67| Owns the guards|
+|68| Owns tower|
+|69| Owns warband|
+|70| Political leader|
+|71| {Potion} (p. 35)|
+|72| Potion stockpile|
+|73| {Power} (p. 65)|
+|74| Powerful ex|
+|75| Powerful friend|
+|76| Powerful lover|
+|77| Powerful parent|
+|78| Powerful spouse|
+|79| Procures gear|
+|80| {Profession} (p. 57)|
+|81| Religious leader|
+|82| Respected|
+|83| Saboteur|
+|84| Secret base|
+|85| Secret lab|
+|86| Secret weapon|
+|87| Sells contraband|
+|88| Servants|
+|89| Shapeshifter|
+|90| Smuggles goods|
+|91| {Spell} (pp. 22-25)|
+|92| Spy network|
+|93| Stage magician|
+|94| Stealthy|
+|95| Strong|
+|96| {Structure} (p. 11)|
+|97| Trained animals|
+|98| Trained monsters|
+|99| Unbreakable|
+|00| War hero|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Liability" >}}
+| d100 | ? |
+| --- | --------|
+|1| Alcoholic	|
+|2| Arthritis	|
+|3| Bad leader	|
+|4| Bad liar	|
+|5| Bankrupt	|
+|6| Beholden	|
+|7| Blackmailed	|
+|8| Blind	|
+|9| Cannot count	|
+|10| Cannot read	|
+|11| Clumsy	|
+|12| Condescending	|
+|13| Coward	|
+|14| Crippled	|
+|15| Cursed	|
+|16| Deaf	|
+|17| Decadent	|
+|18| {Delusion} (p. 30)	|
+|19| Disloyal followers |
+|20| Disobeys orders  |
+|21| Drug addict	|
+|22| Evil lineage	|
+|23| Exiled	|
+|24| Faction enemy	|
+|25| Faints	|
+|26| Family enemy	|
+|27| Flirts constantly  |
+|28| {Food} addict (p. 49) |
+|29| Fragile	|
+|30| Gambling addict |
+|31| Gets in fights	|
+|32| Glutton	|
+|33| Greedy	|
+|34| Gullible	|
+|35| Hemophilia	|
+|36| Hideous	|
+|37| Huge debts	|
+|38| Insurrectionist	|
+|39| Jealous	|
+|40| Known con artist |
+|41| Known murderer |
+|42| Known thief	|
+|43| Known traitor	|
+|44| Known vandal	|
+|45| Laughingstock	|
+|46| Lazy	|
+|47| Leaves evidence |
+|48| Loud	|
+|49| Lowborn	|
+|50| Many enemies |
+|51| Many exes|
+|52| Migraines|
+|53| Military enemy|
+|54| Mind-controlled|
+|55| Misinformed|
+|56| Money trail|
+|57| {MonsterTrait} (p. 65)|
+|58| {Mutation} (p. 30)|
+|59| Narcissist|
+|60| Needs flattery|
+|61| Needs medicine|
+|62| No rights|
+|63| Non-human|
+|64| Obese|
+|65| Obnoxious|
+|66| OCD|
+|67| Outcast|
+|68| Paranoid|
+|69| Pariah|
+|70| Party animal|
+|71| Political enemy|
+|72| Poor equipment|
+|73| Prison record|
+|74| Reckless|
+|75| Religious enemy|
+|76| Scandalous birth|
+|77| Smells like {Scent} (p. 66)|
+|78| Secret lover|
+|79| Seizures|
+|80| Senile|
+|81| Softhearted|
+|82| {Sound} (p. 66)|
+|83| Strict routines|
+|84| Stupid|
+|85| Superstitious|
+|86| Surveilled|
+|87| Suspicious|
+|88| Too generous|
+|89| Transformed|
+|90| Uncool|
+|91| Undead|
+|92| Unpopular|
+|93| Vampire|
+|94| Very short|
+|95| Wanted|
+|96| War criminal|
+|97| Weak-willed|
+|98| {Weakness} (p. 67)|
+|99| Werewolf|
+|00| Widely despised|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Relationship" >}}
+| d100 | ? |
+| --- | --------|
+|1| Acquaintance	|
+|2| Admirer	|
+|3| Adviser	|
+|4| Ally	|
+|5| Apprentice	|
+|6| Assistant	|
+|7| Aunt or uncle	|
+|8| Believer	|
+|9| Beneficiary	|
+|10| Best friend	|
+|11| Blackmailer	|
+|12| Bodyguard	|
+|13| Business partner |
+|14| Business rival	|
+|15| Buyer	|
+|16| Captive	|
+|17| Captor	|
+|18| Champion	|
+|19| Child	|
+|20| Client	|
+|21| Coach	|
+|22| Collaborator	|
+|23| Colleague	|
+|24| Competitor	|
+|25| Confessor	|
+|26| Confidant	|
+|27| Contact	|
+|28| Crush	|
+|29| Customer	|
+|30| Debtholder	|
+|31| Debtor	|
+|32| Disciple	|
+|33| Donor	|
+|34| Employee	|
+|35| Employer	|
+|36| Ex-spouse	|
+|37| Fan	|
+|38| Fiance	|
+|39| Frenemy	|
+|40| Grandchild	|
+|41| Grandparent	|
+|42| Guardian	|
+|43| Guest	|
+|44| Half-sibling	|
+|45| Harasser	|
+|46| Henchman	|
+|47| Housekeeper	|
+|48| Idol	|
+|49| Investor	|
+|50| Jilted lover |
+|51| Kidnapper|
+|52| Lover|
+|53| Maid|
+|54| Master|
+|55| Mentor|
+|56| Niece or nephew|
+|57| Nemesis|
+|58| Oppressor|
+|59| Paid companion|
+|60| Paramour|
+|61| Parent|
+|62| Patron|
+|63| Pen pal|
+|64| Political prisoner|
+|65| Political rival|
+|66| Predator|
+|67| Prey|
+|68| Prisoner|
+|69| Protege|
+|70| Quarry|
+|71| Right hand|
+|72| Rival suitor|
+|73| Servant|
+|74| Sibling|
+|75| Snitch|
+|76| Social rival|
+|77| Source|
+|78| Sponsor|
+|79| Spouse|
+|80| Stalker|
+|81| Step-child|
+|82| Step-parent|
+|83| Step-sibling|
+|84| Steward|
+|85| Student|
+|86| Suitor|
+|87| Supplicant|
+|88| Supplier|
+|89| Sweetheart|
+|90| Teacher|
+|91| Teammate|
+|92| Thrall|
+|93| Tormentor|
+|94| Trainer|
+|95| Unrequited love|
+|96| Valet|
+|97| Vassal|
+|98| Victim|
+|99| War buddy|
+|00| Ward|
+{{< /rpg_table >}}
 
 {{< rpg_table name="Mannerism" >}}
 | d100 | Mannerism |
@@ -6331,427 +7099,7 @@ Tables from Knave 2e.
 | 00 | Wry |
 {{< /rpg_table >}}
 
-{{< rpg_table name="MaleName" >}}
-| d100 | Male Name |
-| --- | --------|
-| 1 | Alaric	|
-| 2 | Aldous	|
-| 3 | Alton	|
-| 4 | Archibald	|
-| 5 | Arne	|
-| 6 | Arthur	|
-| 7 | Balthazar	|
-| 8 | Bard	|
-| 9 | Bartholomew	|
-| 10 | Bartlett	|
-| 11 | Basil	|
-| 12 | Baxton	|
-| 13 | Benedict	|
-| 14 | Bennett	|
-| 15 | Beorn	|
-| 16 | Bertram	|
-| 17 | Burchard	|
-| 18 | Cadman	|
-| 19 | Caspian	|
-| 20 | Chadwick	|
-| 21 | Clovis	|
-| 22 | Conrad	|
-| 23 | Corbett	|
-| 24 | Crispin	|
-| 25 | Cyprian	|
-| 26 | Cyrus	|
-| 27 | Daegal	|
-| 28 | Denis	|
-| 29 | Destrian	|
-| 30 | Drogo	|
-| 31 | Eldon	|
-| 32 | Ellis	|
-| 33 | Elric	|
-| 34 | Emil	|
-| 35 | Erasmus	|
-| 36 | Faustus	|
-| 37 | Felix	|
-| 38 | Finn	|
-| 39 | Finnian	|
-| 40 | Fitzhugh	|
-| 41 | Florian	|
-| 42 | Fox	|
-| 43 | Galileo	|
-| 44 | Giles	|
-| 45 | Godfrey	|
-| 46 | Godwin	|
-| 47 | Grimwald	|
-| 48 | Hamlin	|
-| 49 | Hannibal	|
-| 50 | Hildebrand	|
-| 51 | Jasper |
-| 52 | Jeremiah |
-| 53 | Johan |
-| 54 | Jules |
-| 55 | Kenric |
-| 56 | Leif |
-| 57 | Leopold |
-| 58 | Leoric |
-| 59 | Lothar |
-| 60 | Lucian |
-| 61 | Merrick |
-| 62 | Milo |
-| 63 | Mordred |
-| 64 | Mortimer |
-| 65 | Neville |
-| 66 | Odel |
-| 67 | Ogden |
-| 68 | Orion |
-| 69 | Orvyn |
-| 70 | Osric |
-| 71 | Oswald |
-| 72 | Paschal |
-| 73 | Percival |
-| 74 | Peregrine |
-| 75 | Piers |
-| 76 | Quentin |
-| 77 | Randolf |
-| 78 | Redmaine |
-| 79 | Reinhold |
-| 80 | Rex |
-| 81 | Ricard |
-| 82 | Roland |
-| 83 | Rufus |
-| 84 | Silas |
-| 85 | Stilton |
-| 86 | Stratford |
-| 87 | Sylvio |
-| 88 | Tenpiece |
-| 89 | Thaddeus |
-| 90 | Torsten |
-| 91 | Tristan |
-| 92 | Urban |
-| 93 | Valentin |
-| 94 | Valerian |
-| 95 | Virgil |
-| 96 | Warrick |
-| 97 | Waverly |
-| 98 | Webster |
-| 99 | Wilkin |
-| 00 | Wymond |
-{{< /rpg_table >}}
-
-{{< rpg_table name="FemaleName" >}}
-| d100 | Female Name |
-| --- | --------|
-| 1 | Adelaide	|
-| 2 | Agnes	|
-| 3 | Alma	|
-| 4 | Anastasia	|
-| 5 | Anika	|
-| 6 | Annora	|
-| 7 | Astrid	|
-| 8 | Barsaba	|
-| 9 | Beatrix	|
-| 10 | Bethel	|
-| 11 | Bianca	|
-| 12 | Blanche	|
-| 13 | Bodil	|
-| 14 | Bridget	|
-| 15 | Brunhilde	|
-| 16 | Calypso	|
-| 17 | Catalina	|
-| 18 | Cecilia	|
-| 19 | Celeste	|
-| 20 | Charlotte	|
-| 21 | Cleopha	|
-| 22 | Clotilde	|
-| 23 | Clover	|
-| 24 | Colette	|
-| 25 | Constance	|
-| 26 | Damaris	|
-| 27 | Daphne	|
-| 28 | Demona	|
-| 29 | Desirae	|
-| 30 | Ella	|
-| 31 | Elsbeth	|
-| 32 | Esme	|
-| 33 | Eulalia	|
-| 34 | Euphemia	|
-| 35 | Eydis	|
-| 36 | Fern	|
-| 37 | Fiora	|
-| 38 | Fleur	|
-| 39 | Florence	|
-| 40 | Francesca	|
-| 41 | Gertrude	|
-| 42 | Giselle	|
-| 43 | Godiva	|
-| 44 | Guinevere	|
-| 45 | Heloise	|
-| 46 | Henrietta	|
-| 47 | Hester	|
-| 48 | Hippolyta	|
-| 49 | Honora	|
-| 50 | Imogene	|
-| 51 | Ingrid |
-| 52 | Ione |
-| 53 | Iris |
-| 54 | Isabetta |
-| 55 | Isolde |
-| 56 | Jacquette |
-| 57 | Jeanne |
-| 58 | Jessamine |
-| 59 | Jilly |
-| 60 | Lavinia |
-| 61 | Lisbet |
-| 62 | Madelena |
-| 63 | Margot |
-| 64 | Marian |
-| 65 | Marigold |
-| 66 | Matilda |
-| 67 | Melisande |
-| 68 | Millicent |
-| 69 | Minerva |
-| 70 | Morgan |
-| 71 | Nerissa |
-| 72 | Odette |
-| 73 | Olga |
-| 74 | Olivia |
-| 75 | Orchid |
-| 76 | Pepper |
-| 77 | Petra |
-| 78 | Philomena |
-| 79 | Phoebe |
-| 80 | Piety |
-| 81 | Poppy |
-| 82 | Portia |
-| 83 | Rosalind |
-| 84 | Rose |
-| 85 | Sabina |
-| 86 | Sif |
-| 87 | Sigourney |
-| 88 | Sigrid |
-| 89 | Silence |
-| 90 | Sybil |
-| 91 | Tabitha |
-| 92 | Trillby |
-| 93 | Ulfhild |
-| 94 | Ursula |
-| 95 | Vivian |
-| 96 | Wendy |
-| 97 | Willow |
-| 98 | Winifred |
-| 99 | Yvette |
-| 00 | Zora |
-{{< /rpg_table >}}
-
-{{< rpg_table name="SurnameStart" >}}
-| d100 | Surname Start |
-| --- | --------|
-| 1 | Adder	|
-| 2 | Apple	|
-| 3 | Ash	|
-| 4 | Bab	|
-| 5 | Bag	|
-| 6 | Bar	|
-| 7 | Barrow	|
-| 8 | Basker	|
-| 9 | Beau	|
-| 10 | Beetle	|
-| 11 | Berry	|
-| 12 | Bird	|
-| 13 | Brandy	|
-| 14 | Bright	|
-| 15 | Brindle	|
-| 16 | Bull	|
-| 17 | Bux	|
-| 18 | Caven	|
-| 19 | Chelten	|
-| 20 | Chester	|
-| 21 | Chuff	|
-| 22 | Chum	|
-| 23 | Clod	|
-| 24 | Cobble	|
-| 25 | Cotton	|
-| 26 | Cress	|
-| 27 | Crom	|
-| 28 | Cumber	|
-| 29 | Dela	|
-| 30 | Dig	|
-| 31 | Draw	|
-| 32 | Dreg	|
-| 33 | Drol	|
-| 34 | Dun	|
-| 35 | Even	|
-| 36 | Ever	|
-| 37 | Fair	|
-| 38 | Fallow	|
-| 39 | Farthing	|
-| 40 | Feather	|
-| 41 | Ferns	|
-| 42 | Fox	|
-| 43 | Gam	|
-| 44 | Gird	|
-| 45 | Gos	|
-| 46 | Grey	|
-| 47 | Grim	|
-| 48 | Half	|
-| 49 | Hard	|
-| 50 | Harrow	|
-| 51 | Hart |
-| 52 | Haver |
-| 53 | Hedge |
-| 54 | Hither |
-| 55 | Holly |
-| 56 | Honey |
-| 57 | Horn |
-| 58 | Kettle |
-| 59 | Kings |
-| 60 | Little |
-| 61 | Long |
-| 62 | Love |
-| 63 | Middle |
-| 64 | Mug |
-| 65 | Nether |
-| 66 | Never |
-| 67 | Obling |
-| 68 | Pember |
-| 69 | Penning |
-| 70 | Pens |
-| 71 | Pinker |
-| 72 | Porten |
-| 73 | Quill |
-| 74 | Rath |
-| 75 | Sack |
-| 76 | Sallow |
-| 77 | Salt |
-| 78 | Scor |
-| 79 | Sedge |
-| 80 | Silver |
-| 81 | Slither |
-| 82 | Smit |
-| 83 | Snod |
-| 84 | Souther |
-| 85 | Stew |
-| 86 | Stir |
-| 87 | Swine |
-| 88 | Tar |
-| 89 | Temple |
-| 90 | Tide |
-| 91 | Tread |
-| 92 | Under |
-| 93 | Vander |
-| 94 | Weather |
-| 95 | Wester |
-| 96 | Wex |
-| 97 | Whit |
-| 98 | Wither |
-| 99 | Within |
-| 00 | Wy |
-{{< /rpg_table >}}
-
-{{< rpg_table name="SurnameEnd" >}}
-| d100 | Surname End |
-| --- | --------|
-| 1 | bald	|
-| 2 | barrow	|
-| 3 | batch	|
-| 4 | beck	|
-| 5 | blood	|
-| 6 | bold	|
-| 7 | bone	|
-| 8 | bottle	|
-| 9 | bottom	|
-| 10 | bridge	|
-| 11 | buck	|
-| 12 | burn	|
-| 13 | bury	|
-| 14 | by	|
-| 15 | caster	|
-| 16 | castle	|
-| 17 | chester	|
-| 18 | child	|
-| 19 | church	|
-| 20 | cliff	|
-| 21 | cloth	|
-| 22 | coat	|
-| 23 | combe	|
-| 24 | cott	|
-| 25 | dale	|
-| 26 | dish	|
-| 27 | ditch	|
-| 28 | down	|
-| 29 | fax	|
-| 30 | field	|
-| 31 | fent	|
-| 32 | fer	|
-| 33 | field	|
-| 34 | foot	|
-| 35 | force	|
-| 36 | fort	|
-| 37 | fry	|
-| 38 | gale	|
-| 39 | grass	|
-| 40 | grave	|
-| 41 | green	|
-| 42 | grove	|
-| 43 | ham	|
-| 44 | hill	|
-| 45 | hope	|
-| 46 | lack	|
-| 47 | lain	|
-| 48 | land	|
-| 49 | less	|
-| 50 | lin	|
-| 51 | ling |
-| 52 | lish |
-| 53 | lock |
-| 54 | long |
-| 55 | low |
-| 56 | ly |
-| 57 | man |
-| 58 | march |
-| 59 | mark |
-| 60 | marl |
-| 61 | marsh |
-| 62 | mass |
-| 63 | meer |
-| 64 | mond |
-| 65 | mont |
-| 66 | more |
-| 67 | morn |
-| 68 | nick |
-| 69 | ny |
-| 70 | port |
-| 71 | ridge |
-| 72 | row |
-| 73 | sea |
-| 74 | set |
-| 75 | shot |
-| 76 | sop |
-| 77 | spoon |
-| 78 | staff |
-| 79 | stoke |
-| 80 | stone |
-| 81 | ten |
-| 82 | thorn |
-| 83 | thorpe |
-| 84 | throp |
-| 85 | ton |
-| 86 | tooth |
-| 87 | top |
-| 88 | vane |
-| 89 | ville |
-| 90 | wald |
-| 91 | wark |
-| 92 | watch |
-| 93 | water |
-| 94 | well |
-| 95 | whistle |
-| 96 | wick |
-| 97 | wood |
-| 98 | worm |
-| 99 | worth |
-| 00 | worthy |
-{{< /rpg_table >}}
-
-{{< rpg_table_button name="MonsterBlock" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
+# Monster
 
 {{< rpg_table name="Monster" >}}
 | d100 | Monster |
@@ -6856,6 +7204,216 @@ Tables from Knave 2e.
 | 98 | Wyvern |
 | 99 | Yeti |
 | 00 | Zombie |
+{{< /rpg_table >}}
+
+{{< rpg_table name="Animal" >}}
+| d100 | ? |
+| --- | --------|
+|1| Ant	|
+|2| Anteater	|
+|3| Ape	|
+|4| Badger	|
+|5| Bat	|
+|6| Bear	|
+|7| Beaver	|
+|8| Bee	|
+|9| Beetle	|
+|10| Boar	|
+|11| Bulldog	|
+|12| Butterfly	|
+|13| Camel	|
+|14| Cat	|
+|15| Centipede	|
+|16| Chameleon	|
+|17| Cobra	|
+|18| Cockroach	|
+|19| Constrictor	|
+|20| Cougar	|
+|21| Cow	|
+|22| Coyote	|
+|23| Crab	|
+|24| Crane	|
+|25| Cricket	|
+|26| Crocodile	|
+|27| Crow	|
+|28| Cuckoo	|
+|29| Donkey	|
+|30| Dragonfly	|
+|31| Duck	|
+|32| Eagle	|
+|33| Eel	|
+|34| Elephant	|
+|35| Elk	|
+|36| Falcon	|
+|37| Firefly	|
+|38| Fox	|
+|39| Frog	|
+|40| Goat	|
+|41| Goose	|
+|42| Hare	|
+|43| Hart	|
+|44| Hawk	|
+|45| Hedgehog	|
+|46| Hornet	|
+|47| Horse	|
+|48| Hound	|
+|49| Hummingbird	|
+|50| Jackal	|
+|51| Jellyfish|
+|52| Leech|
+|53| Lion|
+|54| Locust|
+|55| Lynx|
+|56| Mantis|
+|57| Mastodon|
+|58| Mockingbird|
+|59| Mole|
+|60| Monkey|
+|61| Moose|
+|62| Moth|
+|63| Mouse|
+|64| Mule|
+|65| Octopus|
+|66| Otter|
+|67| Owl|
+|68| Ox|
+|69| Panther|
+|70| Pig|
+|71| Pony|
+|72| Porcupine|
+|73| Possum|
+|74| Rabbit|
+|75| Raccoon|
+|76| Rat|
+|77| Reindeer|
+|78| Rooster|
+|79| Salamander|
+|80| Scorpion|
+|81| Seal|
+|82| Shark|
+|83| Sheep|
+|84| Slug|
+|85| Snail|
+|86| Sparrow|
+|87| Spider|
+|88| Squid|
+|89| Squirrel|
+|90| Tiger|
+|91| Toad|
+|92| Turtle|
+|93| Viper|
+|94| Vulture|
+|95| Walrus|
+|96| Weasel|
+|97| Whale|
+|98| Wolf|
+|99| Wolverine|
+|00| Worm|
+{{< /rpg_table >}}
+
+{{< rpg_table name="Organ" >}}
+| d100 | ? |
+| --- | --------|
+|1| Antennae	|
+|2| Antlers	|
+|3| Baleen	|
+|4| Bat wings	|
+|5| Beaver tail	|
+|6| Blowhole	|
+|7| Blubber	|
+|8| Boar tusks	|
+|9| Bushy tail	|
+|10| Butterfly wings	|
+|11| Carapace	|
+|12| Cat tail	|
+|13| Chameleon eyes |
+|14| Claws	|
+|15| Cobra hood	|
+|16| Comb	|
+|17| Compound eyes |
+|18| Crab shell	|
+|19| Crane beak	|
+|20| Crest	|
+|21| Cricket legs	|
+|22| Detachable tail	|
+|23| Digging claws	|
+|24| Dragonfly wings  |
+|25| Duck bill	|
+|26| Eagle wings	|
+|27| Elephant tusks	|
+|28| Exoskeleton	|
+|29| Eye stalks	|
+|30| Falcon beak	|
+|31| Fangs	|
+|32| Feathers	|
+|33| Fins	|
+|34| Fly wings	|
+|35| Frog legs	|
+|36| Gills	|
+|37| Gliding flaps	|
+|38| Hooves	|
+|39| Horns	|
+|40| Horse tail	|
+|41| Humming wings |
+|42| Humps	|
+|43| Large ears	|
+|44| Large eyes	|
+|45| Large incisors	|
+|46| Long body	|
+|47| Long ears	|
+|48| Long legs	|
+|49| Long neck	|
+|50| Long snout	|
+|51| Long tongue|
+|52| Loose skin|
+|53| Mandibles|
+|54| Mane|
+|55| Mantis arms|
+|56| Monkey tail|
+|57| Mouse ears|
+|58| Mucus|
+|59| Otter tail|
+|60| Oyster shell|
+|61| Pelican bill|
+|62| Pig snout|
+|63| Pig tail|
+|64| Pincers|
+|65| Plates|
+|66| Plumage|
+|67| Proboscis|
+|68| Pseudopod|
+|69| Quills|
+|70| Rat tail|
+|71| Scales|
+|72| Scorpion tail|
+|73| Segments|
+|74| Shaggy hair|
+|75| Short fur|
+|76| Siphon|
+|77| Snail shell|
+|78| Spikes|
+|79| Spines|
+|80| Spinnerets|
+|81| Spotted fur|
+|82| Squid beak|
+|83| Stinger|
+|84| Striped fur|
+|85| Stubby tail|
+|86| Suction cups|
+|87| Talons|
+|88| Tendrils|
+|89| Tentacles|
+|90| Toucan beak|
+|91| Trunk|
+|92| Turtle shell|
+|93| Udder|
+|94| Walrus tusks|
+|95| Warts|
+|96| Wattle|
+|97| Webbed feet|
+|98| Webbed hands|
+|99| Whiskers|
+|00| Wool|
 {{< /rpg_table >}}
 
 {{< rpg_table name="MonsterTrait" >}}
@@ -7067,7 +7625,6 @@ Tables from Knave 2e.
 | 99 | Wind control |
 | 00 | Wind wall |
 {{< /rpg_table >}}
-
 
 {{< rpg_table name="Scent" >}}
 | d100 | Scent |
@@ -7487,562 +8044,4 @@ Tables from Knave 2e.
 |98| {Weapon} (p. 43)|
 |99| Wolfsbane|
 |00| Wormwood
-{{< /rpg_table >}}
-
-
-{{< rpg_table name="Asset" >}}
-| d100 | ? |
-| --- | --------|
-|1| Agile	|
-|2| Assassin leader	|
-|3| Bodyguards	|
-|4| {Book} expert (p. 40) |
-|5| {Building} (p. 47)	|
-|6| Building access	|
-|7| Card shark	|
-|8| Charming	|
-|9| Contortionist	|
-|10| Cooks books	|
-|11| Cult leader	|
-|12| Demigod	|
-|13| Disciples	|
-|14| Disguises	|
-|15| Dungeon access |
-|16| Elite archer	|
-|17| Elite fighter	|
-|18| Erases evidence	|
-|19| Excellent liar	|
-|20| Extremely rich	|
-|21| Faction leader	|
-|22| Faction member |
-|23| Famous actor	|
-|24| Famous artist	|
-|25| Famous cleric	|
-|26| Famous composer|
-|27| Famous explorer |
-|28| Famous general	|
-|29| Famous poet	|
-|30| Fast	|
-|31| Feared	|
-|32| Fence	|
-|33| Forges papers	|
-|34| Gorgeous	|
-|35| Hears rumors	|
-|36| Heir to a fortune |
-|37| Huge family	|
-|38| Impersonator	|
-|39| Instructor	|
-|40| Intimidating	|
-|41| Knows buyers	|
-|42| Knows shortcut  |
-|43| Launders money |
-|44| Local knowledge |
-|45| Loremaster	|
-|46| Loyal henchmen |
-|47| Master mage	|
-|48| Mechanical expert|
-|49| Military leader	|
-|50| Multilingual |
-|51| Natural leader|
-|52| Noble|
-|53| Nothing to lose|
-|54| Owed favors|
-|55| Owed money|
-|56| Owns armory|
-|57| Owns army|
-|58| Owns castle|
-|59| Owns factory|
-|60| Owns fleet|
-|61| Owns library|
-|62| Owns manor|
-|63| Owns press|
-|64| Owns relics|
-|65| Owns ship|
-|66| Owns stables|
-|67| Owns the guards|
-|68| Owns tower|
-|69| Owns warband|
-|70| Political leader|
-|71| {Potion} (p. 35)|
-|72| Potion stockpile|
-|73| {Power} (p. 65)|
-|74| Powerful ex|
-|75| Powerful friend|
-|76| Powerful lover|
-|77| Powerful parent|
-|78| Powerful spouse|
-|79| Procures gear|
-|80| {Profession} (p. 57)|
-|81| Religious leader|
-|82| Respected|
-|83| Saboteur|
-|84| Secret base|
-|85| Secret lab|
-|86| Secret weapon|
-|87| Sells contraband|
-|88| Servants|
-|89| Shapeshifter|
-|90| Smuggles goods|
-|91| {Spell} (pp. 22-25)|
-|92| Spy network|
-|93| Stage magician|
-|94| Stealthy|
-|95| Strong|
-|96| {Structure} (p. 11)|
-|97| Trained animals|
-|98| Trained monsters|
-|99| Unbreakable|
-|00| War hero|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Liability" >}}
-| d100 | ? |
-| --- | --------|
-|1| Alcoholic	|
-|2| Arthritis	|
-|3| Bad leader	|
-|4| Bad liar	|
-|5| Bankrupt	|
-|6| Beholden	|
-|7| Blackmailed	|
-|8| Blind	|
-|9| Cannot count	|
-|10| Cannot read	|
-|11| Clumsy	|
-|12| Condescending	|
-|13| Coward	|
-|14| Crippled	|
-|15| Cursed	|
-|16| Deaf	|
-|17| Decadent	|
-|18| {Delusion} (p. 30)	|
-|19| Disloyal followers |
-|20| Disobeys orders  |
-|21| Drug addict	|
-|22| Evil lineage	|
-|23| Exiled	|
-|24| Faction enemy	|
-|25| Faints	|
-|26| Family enemy	|
-|27| Flirts constantly  |
-|28| {Food} addict (p. 49) |
-|29| Fragile	|
-|30| Gambling addict |
-|31| Gets in fights	|
-|32| Glutton	|
-|33| Greedy	|
-|34| Gullible	|
-|35| Hemophilia	|
-|36| Hideous	|
-|37| Huge debts	|
-|38| Insurrectionist	|
-|39| Jealous	|
-|40| Known con artist |
-|41| Known murderer |
-|42| Known thief	|
-|43| Known traitor	|
-|44| Known vandal	|
-|45| Laughingstock	|
-|46| Lazy	|
-|47| Leaves evidence |
-|48| Loud	|
-|49| Lowborn	|
-|50| Many enemies |
-|51| Many exes|
-|52| Migraines|
-|53| Military enemy|
-|54| Mind-controlled|
-|55| Misinformed|
-|56| Money trail|
-|57| {MonsterTrait} (p. 65)|
-|58| {Mutation} (p. 30)|
-|59| Narcissist|
-|60| Needs flattery|
-|61| Needs medicine|
-|62| No rights|
-|63| Non-human|
-|64| Obese|
-|65| Obnoxious|
-|66| OCD|
-|67| Outcast|
-|68| Paranoid|
-|69| Pariah|
-|70| Party animal|
-|71| Political enemy|
-|72| Poor equipment|
-|73| Prison record|
-|74| Reckless|
-|75| Religious enemy|
-|76| Scandalous birth|
-|77| Smells like {Scent} (p. 66)|
-|78| Secret lover|
-|79| Seizures|
-|80| Senile|
-|81| Softhearted|
-|82| {Sound} (p. 66)|
-|83| Strict routines|
-|84| Stupid|
-|85| Superstitious|
-|86| Surveilled|
-|87| Suspicious|
-|88| Too generous|
-|89| Transformed|
-|90| Uncool|
-|91| Undead|
-|92| Unpopular|
-|93| Vampire|
-|94| Very short|
-|95| Wanted|
-|96| War criminal|
-|97| Weak-willed|
-|98| {Weakness} (p. 67)|
-|99| Werewolf|
-|00| Widely despised|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Relationship" >}}
-| d100 | ? |
-| --- | --------|
-|1| Acquaintance	|
-|2| Admirer	|
-|3| Adviser	|
-|4| Ally	|
-|5| Apprentice	|
-|6| Assistant	|
-|7| Aunt or uncle	|
-|8| Believer	|
-|9| Beneficiary	|
-|10| Best friend	|
-|11| Blackmailer	|
-|12| Bodyguard	|
-|13| Business partner |
-|14| Business rival	|
-|15| Buyer	|
-|16| Captive	|
-|17| Captor	|
-|18| Champion	|
-|19| Child	|
-|20| Client	|
-|21| Coach	|
-|22| Collaborator	|
-|23| Colleague	|
-|24| Competitor	|
-|25| Confessor	|
-|26| Confidant	|
-|27| Contact	|
-|28| Crush	|
-|29| Customer	|
-|30| Debtholder	|
-|31| Debtor	|
-|32| Disciple	|
-|33| Donor	|
-|34| Employee	|
-|35| Employer	|
-|36| Ex-spouse	|
-|37| Fan	|
-|38| Fiance	|
-|39| Frenemy	|
-|40| Grandchild	|
-|41| Grandparent	|
-|42| Guardian	|
-|43| Guest	|
-|44| Half-sibling	|
-|45| Harasser	|
-|46| Henchman	|
-|47| Housekeeper	|
-|48| Idol	|
-|49| Investor	|
-|50| Jilted lover |
-|51| Kidnapper|
-|52| Lover|
-|53| Maid|
-|54| Master|
-|55| Mentor|
-|56| Niece or nephew|
-|57| Nemesis|
-|58| Oppressor|
-|59| Paid companion|
-|60| Paramour|
-|61| Parent|
-|62| Patron|
-|63| Pen pal|
-|64| Political prisoner|
-|65| Political rival|
-|66| Predator|
-|67| Prey|
-|68| Prisoner|
-|69| Protege|
-|70| Quarry|
-|71| Right hand|
-|72| Rival suitor|
-|73| Servant|
-|74| Sibling|
-|75| Snitch|
-|76| Social rival|
-|77| Source|
-|78| Sponsor|
-|79| Spouse|
-|80| Stalker|
-|81| Step-child|
-|82| Step-parent|
-|83| Step-sibling|
-|84| Steward|
-|85| Student|
-|86| Suitor|
-|87| Supplicant|
-|88| Supplier|
-|89| Sweetheart|
-|90| Teacher|
-|91| Teammate|
-|92| Thrall|
-|93| Tormentor|
-|94| Trainer|
-|95| Unrequited love|
-|96| Valet|
-|97| Vassal|
-|98| Victim|
-|99| War buddy|
-|00| Ward|
-{{< /rpg_table >}}
-
-{{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
-
-{{< rpg_table name="Animal" >}}
-| d100 | ? |
-| --- | --------|
-|1| Ant	|
-|2| Anteater	|
-|3| Ape	|
-|4| Badger	|
-|5| Bat	|
-|6| Bear	|
-|7| Beaver	|
-|8| Bee	|
-|9| Beetle	|
-|10| Boar	|
-|11| Bulldog	|
-|12| Butterfly	|
-|13| Camel	|
-|14| Cat	|
-|15| Centipede	|
-|16| Chameleon	|
-|17| Cobra	|
-|18| Cockroach	|
-|19| Constrictor	|
-|20| Cougar	|
-|21| Cow	|
-|22| Coyote	|
-|23| Crab	|
-|24| Crane	|
-|25| Cricket	|
-|26| Crocodile	|
-|27| Crow	|
-|28| Cuckoo	|
-|29| Donkey	|
-|30| Dragonfly	|
-|31| Duck	|
-|32| Eagle	|
-|33| Eel	|
-|34| Elephant	|
-|35| Elk	|
-|36| Falcon	|
-|37| Firefly	|
-|38| Fox	|
-|39| Frog	|
-|40| Goat	|
-|41| Goose	|
-|42| Hare	|
-|43| Hart	|
-|44| Hawk	|
-|45| Hedgehog	|
-|46| Hornet	|
-|47| Horse	|
-|48| Hound	|
-|49| Hummingbird	|
-|50| Jackal	|
-|51| Jellyfish|
-|52| Leech|
-|53| Lion|
-|54| Locust|
-|55| Lynx|
-|56| Mantis|
-|57| Mastodon|
-|58| Mockingbird|
-|59| Mole|
-|60| Monkey|
-|61| Moose|
-|62| Moth|
-|63| Mouse|
-|64| Mule|
-|65| Octopus|
-|66| Otter|
-|67| Owl|
-|68| Ox|
-|69| Panther|
-|70| Pig|
-|71| Pony|
-|72| Porcupine|
-|73| Possum|
-|74| Rabbit|
-|75| Raccoon|
-|76| Rat|
-|77| Reindeer|
-|78| Rooster|
-|79| Salamander|
-|80| Scorpion|
-|81| Seal|
-|82| Shark|
-|83| Sheep|
-|84| Slug|
-|85| Snail|
-|86| Sparrow|
-|87| Spider|
-|88| Squid|
-|89| Squirrel|
-|90| Tiger|
-|91| Toad|
-|92| Turtle|
-|93| Viper|
-|94| Vulture|
-|95| Walrus|
-|96| Weasel|
-|97| Whale|
-|98| Wolf|
-|99| Wolverine|
-|00| Worm|
-{{< /rpg_table >}}
-
-{{< rpg_table name="Organ" >}}
-| d100 | ? |
-| --- | --------|
-|1| Antennae	|
-|2| Antlers	|
-|3| Baleen	|
-|4| Bat wings	|
-|5| Beaver tail	|
-|6| Blowhole	|
-|7| Blubber	|
-|8| Boar tusks	|
-|9| Bushy tail	|
-|10| Butterfly wings	|
-|11| Carapace	|
-|12| Cat tail	|
-|13| Chameleon eyes |
-|14| Claws	|
-|15| Cobra hood	|
-|16| Comb	|
-|17| Compound eyes |
-|18| Crab shell	|
-|19| Crane beak	|
-|20| Crest	|
-|21| Cricket legs	|
-|22| Detachable tail	|
-|23| Digging claws	|
-|24| Dragonfly wings  |
-|25| Duck bill	|
-|26| Eagle wings	|
-|27| Elephant tusks	|
-|28| Exoskeleton	|
-|29| Eye stalks	|
-|30| Falcon beak	|
-|31| Fangs	|
-|32| Feathers	|
-|33| Fins	|
-|34| Fly wings	|
-|35| Frog legs	|
-|36| Gills	|
-|37| Gliding flaps	|
-|38| Hooves	|
-|39| Horns	|
-|40| Horse tail	|
-|41| Humming wings |
-|42| Humps	|
-|43| Large ears	|
-|44| Large eyes	|
-|45| Large incisors	|
-|46| Long body	|
-|47| Long ears	|
-|48| Long legs	|
-|49| Long neck	|
-|50| Long snout	|
-|51| Long tongue|
-|52| Loose skin|
-|53| Mandibles|
-|54| Mane|
-|55| Mantis arms|
-|56| Monkey tail|
-|57| Mouse ears|
-|58| Mucus|
-|59| Otter tail|
-|60| Oyster shell|
-|61| Pelican bill|
-|62| Pig snout|
-|63| Pig tail|
-|64| Pincers|
-|65| Plates|
-|66| Plumage|
-|67| Proboscis|
-|68| Pseudopod|
-|69| Quills|
-|70| Rat tail|
-|71| Scales|
-|72| Scorpion tail|
-|73| Segments|
-|74| Shaggy hair|
-|75| Short fur|
-|76| Siphon|
-|77| Snail shell|
-|78| Spikes|
-|79| Spines|
-|80| Spinnerets|
-|81| Spotted fur|
-|82| Squid beak|
-|83| Stinger|
-|84| Striped fur|
-|85| Stubby tail|
-|86| Suction cups|
-|87| Talons|
-|88| Tendrils|
-|89| Tentacles|
-|90| Toucan beak|
-|91| Trunk|
-|92| Turtle shell|
-|93| Udder|
-|94| Walrus tusks|
-|95| Warts|
-|96| Wattle|
-|97| Webbed feet|
-|98| Webbed hands|
-|99| Whiskers|
-|00| Wool|
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionTypeaaa" >}}
-| d100 | ? |
-| --- | --------|
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionTypeaaa" >}}
-| d100 | ? |
-| --- | --------|
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionTypeaaa" >}}
-| d100 | ? |
-| --- | --------|
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionTypeaaa" >}}
-| d100 | ? |
-| --- | --------|
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionTypeaaa" >}}
-| d100 | ? |
-| --- | --------|
-{{< /rpg_table >}}
-
-{{< rpg_table name="FactionTypeaaa" >}}
-| d100 | ? |
-| --- | --------|
 {{< /rpg_table >}}

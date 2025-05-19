@@ -1140,6 +1140,7 @@
       "table_result_Room",
       "table_result_RoomBlock",
       "table_result_RoomDetail",
+      "table_result_RoomStyle",
       "table_result_RoomTheme",
       "table_result_Scene",
       "table_result_Scent",
