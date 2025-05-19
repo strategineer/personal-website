@@ -4441,6 +4441,7 @@ Tables from Knave 2e.
 | 8 | Large castle 32m|
 | 9 | Major noble’s estate, cathedral 100m|
 | 10 | Imperial palace, basilica 400m |
+{{< /rpg_table >}}
 
 {{< rpg_table name="RoomStyle" >}}
 | d6 | ? |
