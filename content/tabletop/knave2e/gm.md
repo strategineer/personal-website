@@ -138,7 +138,7 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {Spell}" >}}
 
-{{< rpg_table name="SpellBookType" hide_button="true" >}}
+{{< rpg_table name="SpellBookType" >}}
 | d22 | Spell Book Type |
 | --- | --------|
 | 1 | Tome |
@@ -164,7 +164,7 @@ Tables from Knave 2e.
 | 12 | {WizardName}’s {Quality} {Effect} |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Form" hide_button="true" >}}
+{{< rpg_table name="Form" >}}
 | d100 | Form |
 | ---- | --------|
 | 1 | {Animal} (p. 6 ) |
@@ -269,7 +269,7 @@ Tables from Knave 2e.
 | 00 | Zone |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Effect" hide_button="true" >}}
+{{< rpg_table name="Effect" >}}
 | d100 | Effect |
 | ---- | --------|
 | 1 | Absorbing |
@@ -374,7 +374,7 @@ Tables from Knave 2e.
 | 00 | Withering |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Element" hide_button="true" >}}
+{{< rpg_table name="Element" >}}
 | d100 | Element |
 | ---- | --------|
 | 1 | Acid |
@@ -479,7 +479,7 @@ Tables from Knave 2e.
 | 00 | Wood |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Quality" hide_button="true" >}}
+{{< rpg_table name="Quality" >}}
 | d100 | Quality |
 | ---- | --------|
 | 1 | Abnormal |
@@ -584,7 +584,7 @@ Tables from Knave 2e.
 | 00 | Wretched |
 {{< /rpg_table >}}
 
-{{< rpg_table name="WizardName" hide_button="true" >}}
+{{< rpg_table name="WizardName" >}}
 | d100 | Wizard Name |
 | ---- | --------|
 | 1 | Abrogast |
@@ -691,7 +691,7 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="Potion" expr="Potion of {PotionEffect}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
-{{< rpg_table name="PotionEffect" hide_button="true">}}
+{{< rpg_table name="PotionEffect">}}
 | d100 | Potion |
 | ---- | --------|
 | 1 | Age	|
@@ -819,7 +819,7 @@ Tables from Knave 2e.
 {{< /rpg_table >}}
 
 
-{{< rpg_table name="Archetype" hide_button="true" >}}
+{{< rpg_table name="Archetype" >}}
 | d100 | Archetype |
 | --- | --------|
 | 1 | Adventurous lad |
@@ -924,7 +924,7 @@ Tables from Knave 2e.
 | 00 | Zealous inquisitor |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Personality" hide_button="true" >}}
+{{< rpg_table name="Personality" >}}
 | d100 | Personality |
 | --- | --------|
 | 1 | Always bored |
@@ -1029,7 +1029,7 @@ Tables from Knave 2e.
 | 00 | Wisecracking |
 {{< /rpg_table >}}
 
-{{< rpg_table name="NPCDetail" hide_button="true" >}}
+{{< rpg_table name="NPCDetail" >}}
 | d100 | Detail |
 | --- | --------|
 | 1 | Acid scar	|
@@ -1135,7 +1135,7 @@ Tables from Knave 2e.
 {{< /rpg_table >}}
 
 
-{{< rpg_table name="Profession" hide_button="true" >}}
+{{< rpg_table name="Profession" >}}
 | d100 | Profession |
 | --- | --------|
 | 1 | Abbot	|
@@ -1240,7 +1240,7 @@ Tables from Knave 2e.
 | 00 | Young lady |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Goal" hide_button="true" >}}
+{{< rpg_table name="Goal" >}}
 | d100 | Goal |
 | --- | --------|
 | 1 | Achieve holiness |
@@ -1346,7 +1346,7 @@ Tables from Knave 2e.
 {{< /rpg_table >}}
 
 
-{{< rpg_table name="Mannerism" hide_button="true" >}}
+{{< rpg_table name="Mannerism" >}}
 | d100 | Mannerism |
 | --- | --------|
 | 1 | Anecdotes	|
@@ -1451,7 +1451,7 @@ Tables from Knave 2e.
 | 00 | Wry |
 {{< /rpg_table >}}
 
-{{< rpg_table name="MaleName" hide_button="true" >}}
+{{< rpg_table name="MaleName" >}}
 | d100 | Male Name |
 | --- | --------|
 | 1 | Alaric	|
@@ -1556,7 +1556,7 @@ Tables from Knave 2e.
 | 00 | Wymond |
 {{< /rpg_table >}}
 
-{{< rpg_table name="FemaleName" hide_button="true" >}}
+{{< rpg_table name="FemaleName" >}}
 | d100 | Female Name |
 | --- | --------|
 | 1 | Adelaide	|
@@ -1661,7 +1661,7 @@ Tables from Knave 2e.
 | 00 | Zora |
 {{< /rpg_table >}}
 
-{{< rpg_table name="SurnameStart" hide_button="true" >}}
+{{< rpg_table name="SurnameStart" >}}
 | d100 | Surname Start |
 | --- | --------|
 | 1 | Adder	|
@@ -1766,7 +1766,7 @@ Tables from Knave 2e.
 | 00 | Wy |
 {{< /rpg_table >}}
 
-{{< rpg_table name="SurnameEnd" hide_button="true" >}}
+{{< rpg_table name="SurnameEnd" >}}
 | d100 | Surname End |
 | --- | --------|
 | 1 | bald	|
@@ -1873,7 +1873,7 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="MonsterBlock" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
 
-{{< rpg_table name="Monster" hide_button="true" >}}
+{{< rpg_table name="Monster" >}}
 | d100 | Monster |
 | --- | --------|
 | 1 | Aboleth	|
@@ -1978,7 +1978,7 @@ Tables from Knave 2e.
 | 00 | Zombie |
 {{< /rpg_table >}}
 
-{{< rpg_table name="MonsterTrait" hide_button="true" >}}
+{{< rpg_table name="MonsterTrait" >}}
 | d100 | Monster Trait |
 | --- | --------|
 | 1 | Acid blood	|
@@ -2083,7 +2083,7 @@ Tables from Knave 2e.
 | 00 | {Weakness} (p. 67) |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Power" hide_button="true" >}}
+{{< rpg_table name="Power" >}}
 | d100 | Power |
 | --- | --------|
 | 1 | Absorb abilities	|
@@ -2188,7 +2188,7 @@ Tables from Knave 2e.
 | 00 | Wind wall |
 {{< /rpg_table >}}
 
-{{< rpg_table name="TravelShift" hide_button="true" >}}
+{{< rpg_table name="TravelShift" >}}
 | d100 | Travel Shift |
 | --- | --------|
 | 1 | Acid rain	|
@@ -2295,7 +2295,7 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="StructureBlock" expr="{PlaceTrait} {Structure}" >}}
 
-{{< rpg_table name="Structure" hide_button="true" >}}
+{{< rpg_table name="Structure" >}}
 | d100 | Structure |
 | --- | --------|
 |1 | Abbey	|
@@ -2400,7 +2400,7 @@ Tables from Knave 2e.
 |00 | Wooden bridge |
 {{< /rpg_table >}}
 
-{{< rpg_table name="PlaceTrait" hide_button="true">}}
+{{< rpg_table name="PlaceTrait">}}
 | d100 | Place Trait |
 | --- | --------|
 |1 | Ashen	|
@@ -2509,7 +2509,7 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="Trap" expr="Trap: {TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
 
-{{< rpg_table name="Room" hide_button="true" >}}
+{{< rpg_table name="Room" >}}
 | d100 | Room |
 | --- | --------|
 |1 | Alchemy room	|
@@ -2614,7 +2614,7 @@ Tables from Knave 2e.
 |00 | Workshop|
 {{< /rpg_table >}}
 
-{{< rpg_table name="RoomDetail" hide_button="true" >}}
+{{< rpg_table name="RoomDetail" >}}
 | d100 | ? |
 | --- | --------|
 |1| Alcohol	|
@@ -2719,7 +2719,7 @@ Tables from Knave 2e.
 |00| {Weapon} (p. 43)|
 {{< /rpg_table >}}
 
-{{< rpg_table name="RoomTheme" hide_button="true" >}}
+{{< rpg_table name="RoomTheme" >}}
 | d100 | Room Theme |
 | --- | --------|
 |1 | {Activity} (p. 19)	|
@@ -2824,7 +2824,7 @@ Tables from Knave 2e.
 |00 | Zealotry|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Activity" hide_button="true" >}}
+{{< rpg_table name="Activity" >}}
 | d100 | Activity |
 | --- | --------|
 |1| Ambushing	|
@@ -2929,7 +2929,7 @@ Tables from Knave 2e.
 |00| Worshiping|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Mutation" hide_button="true" >}}
+{{< rpg_table name="Mutation" >}}
 | d100 | Mutation |
 | --- | --------|
 |1| Ages backwards  |
@@ -3034,7 +3034,7 @@ Tables from Knave 2e.
 |00| Wooly|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Scent" hide_button="true" >}}
+{{< rpg_table name="Scent" >}}
 | d100 | Scent |
 | --- | --------|
 |1| Acid	|
@@ -3139,7 +3139,7 @@ Tables from Knave 2e.
 |00| Wood smoke|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Sound" hide_button="true" >}}
+{{< rpg_table name="Sound" >}}
 | d100 | Sound |
 | --- | --------|
 |1| {Activity} (p. 19)	|
@@ -3244,7 +3244,7 @@ Tables from Knave 2e.
 |00| Yelping|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Tactic" hide_button="true" >}}
+{{< rpg_table name="Tactic" >}}
 | d100 | Tactic |
 | --- | --------|
 |1| Ambush	|
@@ -3349,7 +3349,7 @@ Tables from Knave 2e.
 |00| Vomit|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Weakness" hide_button="true" >}}
+{{< rpg_table name="Weakness" >}}
 | d100 | Weakness |
 | --- | --------|
 |1| Acid	|
@@ -3454,7 +3454,7 @@ Tables from Knave 2e.
 |00| Wormwood
 {{< /rpg_table >}}
 
-{{< rpg_table name="Sign" hide_button="true" >}}
+{{< rpg_table name="Sign" >}}
 | d100 | ? |
 | --- | --------|
 |1| Arguing	|
@@ -3561,7 +3561,7 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="LocationBlock" expr="{PlaceTrait} {Location}">}}
 
-{{< rpg_table name="Location" hide_button="true">}}
+{{< rpg_table name="Location">}}
 | d100 | ? |
 | --- | --------|
 |1| Ashland	|
@@ -3876,7 +3876,7 @@ Tables from Knave 2e.
 |00| Work pit|
 {{< /rpg_table >}}
 
-{{< rpg_table name="TrapEffect" hide_button="true" >}}
+{{< rpg_table name="TrapEffect" >}}
 | d100 | ? |
 | --- | --------|
 |1| Absorbing	|
@@ -3981,7 +3981,7 @@ Tables from Knave 2e.
 |00| Wrapping|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Hazard" hide_button="true" >}}
+{{< rpg_table name="Hazard" >}}
 | d100 | ? |
 | --- | --------|
 |1| Acceleration	|
@@ -4086,7 +4086,7 @@ Tables from Knave 2e.
 |00| Wind|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Mechanism" hide_button="true" >}}
+{{< rpg_table name="Mechanism" >}}
 | d100 | ? |
 | --- | --------|
 |1| Air pump	|
@@ -4506,7 +4506,7 @@ Tables from Knave 2e.
 |00| Witchery|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Domain" hide_button="true" >}}
+{{< rpg_table name="Domain" >}}
 | d100 | ? |
 | --- | --------|
 |1| Acid	|
@@ -4611,7 +4611,7 @@ Tables from Knave 2e.
 |00| Wolves|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Symbol" hide_button="true" >}}
+{{< rpg_table name="Symbol" >}}
 | d100 | ? |
 | --- | --------|
 |1| {Animal} (p. 64)	|
@@ -4716,7 +4716,7 @@ Tables from Knave 2e.
 |00| Wolf|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Texture" hide_button="true" >}}
+{{< rpg_table name="Texture" >}}
 | d100 | ? |
 | --- | --------|
 |1| Aerated	|
@@ -4821,7 +4821,7 @@ Tables from Knave 2e.
 |00| Whistling|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Taste" hide_button="true" >}}
+{{< rpg_table name="Taste" >}}
 | d100 | ? |
 | --- | --------|
 |1| Absinthe	|
@@ -4926,7 +4926,7 @@ Tables from Knave 2e.
 |00| Wormwood|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Color" hide_button="true" >}}
+{{< rpg_table name="Color" >}}
 | d100 | ? |
 | --- | --------|
 |1| Acid green	|
@@ -5031,7 +5031,7 @@ Tables from Knave 2e.
 |00| Viridian|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Ingredient" hide_button="true" >}}
+{{< rpg_table name="Ingredient" >}}
 | d100 | ? |
 | --- | --------|
 |1| {Animal} (p. 64)	|
@@ -5663,7 +5663,7 @@ Tables from Knave 2e.
 |00| Yak wool|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Decoration" hide_button="true" >}}
+{{< rpg_table name="Decoration" >}}
 | d100 | ? |
 | --- | --------|
 |1| Antique	|
@@ -5768,7 +5768,7 @@ Tables from Knave 2e.
 |00| Zigzag pattern|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Treasure" hide_button="true" >}}
+{{< rpg_table name="Treasure" >}}
 | d100 | ? |
 | --- | --------|
 |1| Alchemical device |
@@ -5873,7 +5873,7 @@ Tables from Knave 2e.
 |00| {Weapon} (p. 43)|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Material" hide_button="true" >}}
+{{< rpg_table name="Material" >}}
 | d100 | ? |
 | --- | --------|
 |1| Adamantine	|
@@ -5978,7 +5978,7 @@ Tables from Knave 2e.
 |00| Whale ivory|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Weapon" hide_button="true" >}}
+{{< rpg_table name="Weapon" >}}
 | d100 | ? |
 | --- | --------|
 |1| Arming sword	|
@@ -6083,7 +6083,7 @@ Tables from Knave 2e.
 |00| Zweihander|
 {{< /rpg_table >}}
 
-{{< rpg_table name="ItemTrait" hide_button="true" >}}
+{{< rpg_table name="ItemTrait" >}}
 | d100 | ? |
 | --- | --------|
 |1| Ancient	|
@@ -6293,7 +6293,7 @@ Tables from Knave 2e.
 |00| Wizardry|
 {{< /rpg_table >}}
 
-{{< rpg_table name="CityEvent" hide_button="true" >}}
+{{< rpg_table name="CityEvent" >}}
 | d100 | ? |
 | --- | --------|
 |1| {Activity} (p. 19)	|
@@ -6398,7 +6398,7 @@ Tables from Knave 2e.
 |00| Wedding|
 {{< /rpg_table >}}
 
-{{< rpg_table name="StreetDetail" hide_button="true" >}}
+{{< rpg_table name="StreetDetail" >}}
 | d100 | ? |
 | --- | --------|
 |1| {Activity} (p. 19)	|
@@ -6615,7 +6615,7 @@ Tables from Knave 2e.
 | 2 | {InnName2} {InnName2} |
 {{< /rpg_table >}}
 
-{{< rpg_table name="InnName1" hide_button="true" >}}
+{{< rpg_table name="InnName1" >}}
 | d100 | ? |
 | --- | --------|
 |1| {Activity} (p. 19)	|
@@ -6720,7 +6720,7 @@ Tables from Knave 2e.
 |00| Yellow |
 {{< /rpg_table >}}
 
-{{< rpg_table name="InnName2" hide_button="true" >}}
+{{< rpg_table name="InnName2" >}}
 | d100 | ? |
 | --- | --------|
 |1| {Animal} (p. 64)	|
@@ -6831,7 +6831,7 @@ Tables from Knave 2e.
 | {FoodTrait} {FoodType} |
 {{< /rpg_table >}}
 
-{{< rpg_table name="FoodTrait" hide_button="true" >}}
+{{< rpg_table name="FoodTrait" >}}
 | d100 | ? |
 | --- | --------|
 |1| Aged	|
@@ -6936,7 +6936,7 @@ Tables from Knave 2e.
 |00| Wrapped|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FoodType" hide_button="true" >}}
+{{< rpg_table name="FoodType" >}}
 | d100 | ? |
 | --- | --------|
 |1| Acorn	|
@@ -7047,7 +7047,7 @@ Tables from Knave 2e.
 | {FactionTrait} and {FactionTrait} {FactionType}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}. |
 {{< /rpg_table >}}
 
-{{< rpg_table name="FactionType" hide_button="true" >}}
+{{< rpg_table name="FactionType" >}}
 | d100 | ? |
 | --- | --------|
 |1| Actors' guild	|
@@ -7152,7 +7152,7 @@ Tables from Knave 2e.
 |00| Zombie horde|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FactionTrait" hide_button="true" >}}
+{{< rpg_table name="FactionTrait" >}}
 | d100 | ? |
 | --- | --------|
 |1| Activist	|
@@ -7469,7 +7469,7 @@ Tables from Knave 2e.
 |00| {Weapon} (p. 43)|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Asset" hide_button="true" >}}
+{{< rpg_table name="Asset" >}}
 | d100 | ? |
 | --- | --------|
 |1| Agile	|
@@ -7574,7 +7574,7 @@ Tables from Knave 2e.
 |00| War hero|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Liability" hide_button="true" >}}
+{{< rpg_table name="Liability" >}}
 | d100 | ? |
 | --- | --------|
 |1| Alcoholic	|
@@ -7679,7 +7679,7 @@ Tables from Knave 2e.
 |00| Widely despised|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Relationship" hide_button="true" >}}
+{{< rpg_table name="Relationship" >}}
 | d100 | ? |
 | --- | --------|
 |1| Acquaintance	|
@@ -7996,32 +7996,32 @@ Tables from Knave 2e.
 |00| Wool|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+{{< rpg_table name="FactionTypeaaa" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+{{< rpg_table name="FactionTypeaaa" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+{{< rpg_table name="FactionTypeaaa" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+{{< rpg_table name="FactionTypeaaa" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+{{< rpg_table name="FactionTypeaaa" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
 
-{{< rpg_table name="FactionTypeaaa" hide_button="true" >}}
+{{< rpg_table name="FactionTypeaaa" >}}
 | d100 | ? |
 | --- | --------|
 {{< /rpg_table >}}
