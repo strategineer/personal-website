@@ -38,7 +38,7 @@ Tables from Knave 2e.
 
 {{< rpg_table_button name="SpellScroll" expr="Scroll of {Spell}" >}}
 
-{{< rpg_table_button name="Potion" expr="Potion of {PotionEffect}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+{{< rpg_table_button name="PotionBlock" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
 {{< rpg_table name="Name" >}}
 | d2 | NPC |
@@ -2847,7 +2847,7 @@ Tables from Knave 2e.
 
 # Alchemy
 
-{{< rpg_table name="PotionEffect">}}
+{{< rpg_table name="Potion">}}
 | d100 | Potion |
 | ---- | --------|
 | 1 | Age	|
