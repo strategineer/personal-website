@@ -1,6 +1,6 @@
 ---
 title: "A Potluck of TTRPG Mechanics"
-date: 2025-05-17
+date: 2025-05-18
 blog/tags:
   - tabletop
 draft: true
@@ -19,7 +19,7 @@ For example, rolling on the first table might produce an Ethereal Effect and Phy
 
 Then, the GM will quickly make a ruling about what the spell will do when cast to give guidance to the player on how it might be used ("Bewildering Insect will materialize an insect of your choice, the sight of which will temporarily confuse anyone who sees it.").
 
-When the PC casts the spell, the GM can nail down the specifics based on context and the player's ingenuity ("upon seeing the 3 foot tall cockroach, Arggg the Bridge Troll-in-Training is confused for 1 round while he decides who to stop from crossing the bridge, the roach or the party.").
+When the PC casts the spell, the GM can nail down the specifics based on context and the player's ingenuity ("Arggg the Bridge Troll-in-Training sees the 3 foot tall cockroach you created and becomes confused for one round, deciding who to stop from crossing the bridge, the roach or the party.").
 
 This a great tool for easily generating specific things (in this case, spells) that players can latch onto and have fun with, without being burdened by the cost of specifying everything in detail and in doing so limit the potential of said generated thing.
 

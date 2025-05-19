@@ -48,8 +48,6 @@ https://www.paperspencils.com/structuring-encounter-tables-amended-restated/
 
 Encounter Table
 
-{{< rpg_multi_table Encounters Encounter EncounterTerritoryKobold EncounterTerritoryBoneboy >}}
-
 {{< rpg_table name="Encounter" weighted=true >}}
 | % | Encounter a ... |
 | ------ | --------|
