@@ -5,7 +5,7 @@ no_search: true
 is_tabletop: true
 ---
 
-One-click Rollable Tables, including my own composite rolls for generating spells and traps, using the tables provided in Knave 2e.
+One-click Rollable Tables, including composite rolls, for generating spells, traps, cities, etc., using the amazing tables provided in Knave 2e and my own.
 
 <!--more-->
 
@@ -20,10 +20,26 @@ One-click Rollable Tables, including my own composite rolls for generating spell
 
 ## Notes
 
-The [following button](#debug-button) can be used to toggle between showing/hiding which tables each of the rolled results came from. This is especially useful when recursive results are rolled on the Knave tables or for my composite tables to figure out where all the rolled results came from.
+### Why?
 
-For now, the ordering of the tables follows their ordering in the Knave 2e rule book. The organisation of my composite tables is very WIP but I'm planning on moving them around based on whether they'd be useful during play or prep or both, etc.
+The tables in the Knave 2e rulebook are so great that being able to roll on them with a single click would be a godsend for speeding up prep and allowing for creating Chaos Spell books during play almost instantly instead of rolling on 4+ tables by hand.
 
+Also, the tables in the Knave 2e rulebook are recursive, meaning that certain entries refer to other tables. The Knave 2e rules encourage you to just pick another entry if this recursion happens more than once (tables within tables within tables), but I thought it would be fun to fully automate the rolling process and allow for these crazy recursive rolls to happen.
+
+Also, the Knave 2e rulebook encourages you to roll on many different tables to create single things like Generating New Spells requiring at least 3 rolls to generate, or generating relics requiring 5+ rolls. This combined with my desire to add my own tables encouraged me to implement "composite" rolls which roll on a bunch of different tables to generate more complex things like NPCs, Relics, Factions, etc. 
+
+### How does this page work?
+
+Basically, press a button to generate the specified thing.
+
+The ordering of the Knave 2e tables follows their ordering in the rulebook. The organisation of my composite tables is based on my own preference but generally I've tried to organize the buttons into sensible categories to help me find the ones I need during play, prep or both.
+
+If you're curious to know exactly where the rolled results (recursive ones included) are coming from. The [following button](#debug-button) can be used to toggle between showing/hiding that information for new rolls.
+
+### Features I'd like to add
+
+- Shareable custom rolls to make it easier for me to test rolls before implementing them fully 
+- Add tables for generating more kinds of names, place names, monster names, patron/god names, faction names.
 
 ## Debug Button
 
