@@ -23,13 +23,21 @@
 
   {{ $result_count := .Params.count | default 3}}
 
+  {{ $is_name_table := .Params.is_name_table | default false }}
+
   <script type="text/javascript">
-    {{ if not (strings.Contains (index $clean_rows 1) "|") }}
+    {{ if $is_name_table }}
+      name_set["{{- $table_name | safeJS }}"] = [
+        {{- range $r := $clean_rows -}}
+        "{{- trim $r $cut_set -}}",
+        {{ end }}
+      ];
+    {{ else if not (strings.Contains (index $clean_rows 1) "|") }}
       gen_data["{{- $table_name | safeJS }}"] = [
       {{- range $r := $clean_rows -}}
         "{{- trim $r $cut_set -}}",
       {{ end }}
-    ];
+      ];
     {{ else }}
     gen_data["{{- $table_name | safeJS }}"] = {
         {{- range $r := $clean_rows -}}
@@ -40,7 +48,12 @@
     };
     {{ end }}
     function pickRandomlyFromTable{{- $table_name | safeJS -}}() {
-      document.getElementById("table_result_{{$table_name}}").innerHTML = generate_list("{{ $table_name }}", {{ $result_count}})
+     {{ if $is_name_table }}
+       let result = name_list("{{ $table_name }}", {{ $result_count }});
+     {{ else }}
+       let result = generate_list("{{ $table_name }}", {{ $result_count }});
+     {{ end }}
+      document.getElementById("table_result_{{$table_name}}").innerHTML = result;
   }
   </script>
   {{ if not .Params.hide_button | default false }}
