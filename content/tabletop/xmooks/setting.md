@@ -69,6 +69,10 @@ Considered as a threat by most of its neighbours, however the Korgish state tend
 
 Kargish dissidents who oppose the Kargish's states discriminatory policies exist and have been looking to overthrow the existing government but require the support of powerful allies to do so.
 
+### Local Factions
+
+...
+
 ### Hooks
 
 - Kargish dissidents are looking for support to overthrow their government, a neighboring nation could supply the manpower and resources needed to do so.
@@ -79,36 +83,66 @@ A neutral meeting ground in the center of Golgea, serves as a trading hub and ac
 
 Anyone who is willing to buy, sell or work to help others do either, is allowed to stay at the Hearth, others are shunned.
 
-The Hearth, and its merchant guild, is hierarchical. One's position in society is determined by the value they bring to the Hearth through trade or facilitating trades occurring. A rigid system of bureaucrats and accountants work diligently to keep track of everyone's contributions to Hearth's wealth.
+The [Hearth](#the-hearth), and its merchant guild, is hierarchical. One's position in society is determined by the value they bring to the [Hearth](#the-hearth) through trade or facilitating trades occurring. A rigid system of bureaucrats and accountants work diligently to keep track of everyone's contributions to [Hearth](#the-hearth)'s wealth.
 
-It's in the interest of most to help with this process but some seek to subvert it for their own gains. The Merchant Guild harshly punishes those who are caught by its network of auditors. But the interconnectedness of merchants and their relationships with each other discourages most from snitching. Also, the Hearth's large scale allows for certain less than legal transactions to fall through the cracks.
+It's in the interest of most to help with this process but some seek to subvert it for their own gains. The [Merchant Guild](#the-merchant-guild) harshly punishes those who are caught by its network of auditors. But the interconnectedness of merchants and their relationships with each other discourages most from snitching. Also, the [Hearth](#the-hearth)'s large scale allows for certain less than legal transactions to fall through the cracks.
 
-The Hearth pays all its functionaries using the funds gained through the minor transaction fees applied to each trade.
+The [Hearth](#the-hearth) pays all its functionaries using the funds gained through the minor transaction fees applied to each trade.
 
-The Hearth bankrolls the Mechanist Guild and they provide the Hearth with the [Watchmen](#the-watchmen), mechanical golems that act as the city's internal security force. The Watchmen are powered by an energy grid that permeates the Hearth. The Watchmen may not leave the city lest they become unpowered.
+The [Hearth](#the-hearth) bankrolls the Mechanist Guild and they provide the [Hearth](#the-hearth) with the [Watchmen](#the-watchmen), mechanical golems that act as the city's internal security force. The [Watchmen](#the-watchmen) are powered by an energy grid that permeates the Hearth. The [Watchmen](#the-watchmen) may not leave the city lest they become unpowered.
 
-### Factions
+### Local Factions
 
 #### The Merchant Guild
 
-Runs the Hearth. Consists of merchants, caraveeners, guards and auditors who ensure that all trade is sanctioned by the Hearth.
+Runs the [Hearth](#the-hearth). Consists of merchants, caraveeners, guards and auditors who ensure that all trade is sanctioned by the Hearth.
 
 Applies force with the [Watchmen](#the-watchmen).
 
 #### The Watchmen
 
-Mechanical golems. Controlled by the [Merchant Guild](#the-merchant-guild).
+Mechanical golems who can only function on the Hearth's power grid. Controlled by the [Merchant Guild](#the-merchant-guild).
 
-#### The Mechanists
+#### The Mechanist Guild
 
-Maintain the Hearth's power grid and the [Watchmen](#the-watchmen). Exist within their hierarchy falling outside of the direct purview of the [Merchant Guild](#the-merchant-guild).
+Maintain the [Hearth](#the-hearth)'s power grid, the [Watchmen](#the-watchmen) and lesser machines used for transporting goods to and from the Hearth. Exist within their hierarchy falling outside of the direct purview of the [Merchant Guild](#the-merchant-guild).
+
+#### The Prospector Guild
+
+A guild of adventurers who plunder ruins and dungeons of civilizations long dead (or slumbering) and return to the [Hearth](#the-hearth) and sell their loot to the highest bidders.
+
+Conflict with the [Merchant Guild](#the-merchant-guild) due to power differential?
+
+#### The Freemen
+
+A nomadic people living in the desert beyond the [Hearth](#the-hearth)'s control. They travel across the sands, temporarily sheltering in ruins and dungeons when needed due to sandstorms or the group's needs (pregnancies, deaths), subsisting on the land and the meager fauna and flora that populate it. 
+
+The [Freemen](#the-freemen) are attuned with the land they travel on and their elders have a deep understanding of the gods of Glogea, passed on through the generations through their oral histories.
+
+Their connection and understanding of the gods make them effective wielders of divine relics which in addition to their martial skills make them fearsome fighters.
+
+[Freemen](#the-freemen) groups communicate with each other as they pass one other in the world or shelter in the same place, but this happens rarely. Most communication and exchanges between groups occur during their celebration of Echelbe'och when all [Freemen](#the-freemen) gather in [Oasis](#oasis).
 
 ### Hooks
 
-- The Hearth's auditors are looking for scrupulous individuals to infiltrate a local merchant's operation to suss out any funny business.
-- The Prospectors's Guild is always looking for new recruits to provide with the location of nearby ruins and dungeons and some basic prospecting gear on loan in exchange for a cut of the profits.
-- Geppetto, a Mechanist in the Mechanist Guild, believes that he can power a Watchmen golem using a powerful enough magical artifact such that it could function outside of the Hearth's walls.
-- The Watchmen are sentient (each is granted sentience by a spell tied to them, like with people) but their actions are controlled by their overseers in the Mechanist Guild. They tire of serving the Hearth, and wish to be free.
+- The [Hearth](#the-hearth)'s auditors are looking for scrupulous individuals to infiltrate a local merchant's operation to suss out any funny business.
+- The [Prospector Guild](#the-prospector-guild) is always looking for new recruits to provide with the location of nearby ruins and dungeons and some basic prospecting gear on loan in exchange for a cut of the profits.
+- Geppetto, a Mechanist in the [Mechanist Guild](#the-mechanist-guild), believes that he can power a [Watchmen](#the-watchmen) golem using a powerful enough magical artifact such that it could function outside of the [Hearth](#the-hearth)'s walls. All he needs is a powerful enough and small enough power source. If able to produce these power sources at scale, the [Watchmen](#the-watchmen) could be freed from being shackled to the [Hearth](#the-hearth).
+- The [Watchmen](#the-watchmen) are sentient (each is granted sentience by a spell tied to them, like with people) but their actions are controlled by their overseers in the [Mechanist Guild](#the-mechanist-guild). They tire of serving the [Hearth](#the-hearth), and wish to be free of their control.
+- The [Freemen](#the-freemen) They could reward the PCs with knowledge of ruins and dungeons rich with loot.
+
+## Oasis
+
+A settlement outside of the iron grip of the [Hearth](#the-hearth).
+
+Once a year, Acts as a gathering place for the [Freemen](#the-freemen).
+
+### Local Factions
+
+...
+
+### Hooks
+
 
 ## The Kingdom of Arathea
 
@@ -124,7 +158,7 @@ In other lands, there are rumors that Aldeus is the latest product of generation
 
 The Arathean state exerts power and control throughout the land by granting local power to locally elected leaders, usually wizards.
 
-### Factions
+### Local Factions
 
 ...
 
@@ -135,20 +169,20 @@ The Arathean state exerts power and control throughout the land by granting loca
 
 ## The Deep Forest
 
-The Deep Forest lies between Korgath and The Hearth blocking the land crossing between the two. Without an experienced tracker or the blessing of the Elves, passage through the forest is risky and isn't attempted by many for fear of death or worse.
+The Deep Forest lies between Korgath and The [Hearth](#the-hearth) blocking the land crossing between the two. Without an experienced tracker or the blessing of the Elves, passage through the forest is risky and isn't attempted by many for fear of death or worse.
 
 The Deep Forest is home to many of the Elves of Golgea, many ravenous fauna and flora, many elven conclaves (if you know where to look) and ruins from a time before.
 
 The Elves of Golgea are short lived but pass on their memories to their offspring before dying. The Elven lands are maintained by a Council of Elders who's memory lineage goes all the way back to the creation of Golgea, at least that's what is believed. Elves and their families are highly sought after as teachers and lore masters all throughout Golgea.
 
-### Factions
+### Local Factions
 
 ...
 
 ### Hooks
 
 - The Elves have noticed a sickness spreading throughout their forest, making travelling through the forest and riskier proposition, and have begun seeking help from their neighbours to find the source of the problem.
-- Caravans passing between Korgath and The Hearth are always looking for guards to protect their shipments through the Deep Forest, especially due to the progressive darkening of the forest.
+- Caravans passing between Korgath and The [Hearth](#the-hearth) are always looking for guards to protect their shipments through the Deep Forest, especially due to the progressive darkening of the forest.
 
 ## Ashenbane
 
@@ -158,7 +192,7 @@ Home to many deep dwarves who spend their days mining and exporting the minerals
 
 The dwarves of Ashenbane are a long lived and ancient people who tire of their mortal coil and wish to leave this plane of existence.
 
-### Factions
+### Local Factions
 
 ...
 
