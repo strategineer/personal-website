@@ -341,7 +341,7 @@ owl bear
 |Parennefer|
 |Pasebakhaenniut|
 |Pasekhonsu|
-|Parser|
+|Paser|
 |Pashedbast|
 |Pashedu|
 |Pasherdjehuty|
@@ -473,7 +473,7 @@ owl bear
 |Yey|
 |Yii|
 |Yuya|
-|Zazamoukh|
+|Zazamouk|
 {{< /rpg_table >}}
 
 ### Groups
