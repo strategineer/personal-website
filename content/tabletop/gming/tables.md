@@ -3981,8 +3981,8 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 ### Groups
 
-{{< rpg_table name="FactionDesc" >}}
-| Faction Desc |
+{{< rpg_table name="FactionDescription" >}}
+| Faction Description |
 | --------|
 |{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
 {{< /rpg_table >}}
@@ -3991,15 +3991,15 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 ### Overworld
 
-{{< rpg_table_button name="LocationDesc" expr="{PlaceTrait} {Location}">}}
+{{< rpg_table_button name="LocationDescription" expr="{PlaceTrait} {Location}">}}
 
-{{< rpg_table_button name="StructureDesc" expr="{PlaceTrait} {Structure}" >}}
+{{< rpg_table_button name="StructureDescription" expr="{PlaceTrait} {Structure}" >}}
 
 ### Settlements
 
 {{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
 
-{{< rpg_table_button name="Inn" expr="{InnName}.<br>Specialties:<br>Drink: {DrinkDesc}<br>Food: {FoodDesc}" >}}
+{{< rpg_table_button name="Inn" expr="{InnName}.<br>Specialties:<br>Drink: {DrinkDescription}<br>Food: {FoodDescription}" >}}
 
 
 {{< rpg_table name="InnName" >}}
@@ -4012,13 +4012,13 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 ### Dungeons
 
-{{< rpg_table name="DungeonDesc" >}}
-| Dungeon Desc |
+{{< rpg_table name="DungeonDescription" >}}
+| Dungeon Description |
 | --------|
-| You stumble upon the {StructureDesc} near the {LocationDesc}.<br>---The following factions are interested in this location---<br>-{FactionDesc}<br>-{FactionDesc}<br>---Revevant NPCs---<br>-{NPC}<br>-{NPC}<br>---Key Rooms---<br>-{RoomDesc}<br>-{RoomDesc}<br>-{RoomDesc}<br>-{RoomDesc}<br>-{RoomDesc}. |
+| You stumble upon the {StructureDescription} near the {LocationDescription}.<br>---The following factions are interested in this location---<br>-{FactionDescription}<br>-{FactionDescription}<br>---Revevant NPCs---<br>-{NPC}<br>-{NPC}<br>---Key Rooms---<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}. |
 {{< /rpg_table >}}
 
-{{< rpg_table_button name="RoomDesc" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
+{{< rpg_table_button name="RoomDescription" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
 
 
 {{< rpg_table_button name="Trap" expr="{TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
@@ -4032,7 +4032,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 {{< rpg_table_button name="Relic" expr="{ItemTrait} {Item} of {GeneratedSpellForRelics}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
 
-{{< rpg_table_button name="PotionDesc" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+{{< rpg_table_button name="PotionDescription" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
 {{< rpg_table name="SpellBookType" hide_button="true" >}}
 | d2 | Spell Book Type |
@@ -4064,14 +4064,14 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 ### Food and Drink
 
-{{< rpg_table_button name="FoodDesc" expr="{FoodTrait} {Food}. Tastes like {Taste}, smells like {Scent}." >}}
+{{< rpg_table_button name="FoodDescription" expr="{FoodTrait} {Food}. Tastes like {Taste}, smells like {Scent}." >}}
 
-{{< rpg_table_button name="DrinkDesc" expr="{Color} color, tastes like {Taste}, smells like {Scent}." >}}
+{{< rpg_table_button name="DrinkDescription" expr="{Color} color, tastes like {Taste}, smells like {Scent}." >}}
 
 
 ## Monsters
 
-{{< rpg_table_button name="MonsterDesc" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
+{{< rpg_table_button name="MonsterDescription" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
 
 {{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
 
@@ -9903,7 +9903,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |7| You’ve made an enemy. |
 |8| You have an ugly, prominent tattoo. |
 |9| Hangover: take -5 on all tests today. |
-|10| You have joined a local faction (p. 50)<br> (Faction? {FactionDesc}) |
+|10| You have joined a local faction (p. 50)<br> (Faction? {FactionDescription}) |
 |11| Robbed: Lose all remaining coin. |
 |12| You wake up in prison. |
 |13| The building is on fire! |
@@ -9911,7 +9911,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |15| A duel is scheduled for the next dawn. |
 |16| You signed a shady contract. |
 |17| A stranger’s corpse is on the floor. |
-|18| A faction hates you (p. 50)<br>(Faction? {FactionDesc}) |
+|18| A faction hates you (p. 50)<br>(Faction? {FactionDescription}) |
 |19| All your belongings have been stolen. |
 |20| You meet a new companion who wants to join your party. |
 {{< /rpg_table >}}
