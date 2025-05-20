@@ -28,16 +28,6 @@ function generate_text(type) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // generate multiple
 
-function generate_list_from_expr(expr, n_of) {
-  let list = [];
-
-  let i;
-  for (i = 0; i < n_of; i++) {
-    list.push(expand_tokens(expr));
-  }
-  return list.join("<hr>");
-}
-
 function generate_list(type, n_of) {
   let list = [];
 

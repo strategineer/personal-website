@@ -1,6 +1,6 @@
 {{- $inner := .Inner -}}
 {{- if strings.ContainsNonSpace $inner -}}
-  {{ $cut_set := " |\r" }}
+  {{ $cut_set := " |\r\t" }}
   {{ $clean_rows := slice }}
   {{ $rows := split $inner "\n" }}
   {{ $header := "Table" }}

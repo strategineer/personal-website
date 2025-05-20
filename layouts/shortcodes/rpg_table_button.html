@@ -3,8 +3,11 @@
   {{ $result_count := .Params.count | default 3}}
 
   <script type="text/javascript">
+    gen_data["{{- $table_name | safeJS }}"] = [
+              "{{- $expr -}}"
+    ]
     function pickRandomlyFromTable{{- $table_name | safeJS -}}() {
-      document.getElementById("table_result_{{$table_name}}").innerHTML = generate_list_from_expr("{{ $expr }}", {{$result_count}})
+      document.getElementById("table_result_{{$table_name}}").innerHTML = generate_list("{{ $table_name }}", {{$result_count}})
   }
   </script>
   <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Generate {{ $result_count }} random {{ $table_name -}}!</button>

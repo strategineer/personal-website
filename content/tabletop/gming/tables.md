@@ -38,8 +38,9 @@ If you're curious to know exactly where the rolled results (recursive ones inclu
 
 ### Features I'd like to add
 
-- Shareable custom rolls to make it easier for me to test rolls before implementing them fully 
+- Add a button to show the underlying table data for each of the buttons (Temporarily you can open the console in your browser of choice, F12 on Firefox, then check the `gen_data` which contains all the data for all the tables)
 - Add tables for generating more kinds of names, place names, monster names, patron/god names, faction names.
+- Shareable custom rolls to make it easier for me to test rolls before implementing them fully 
 
 ## Debug Button
 
@@ -52,15 +53,13 @@ If you're curious to know exactly where the rolled results (recursive ones inclu
 Just use the owl bear stat block if I don't have a stat block for a creature.
 
 owl bear
-: AC 14, HP 20, LVL 5, ATK 2 claws (d8) and 1 bite (d8), MOV 40’, MRL 9, NA d4 (d4). Deals 2d8 bonus damage when both claws hit one target. Playful.
+: AC 14, HP 20, LVL 5, ATK 2 claws (d8) and 1 bite (d8), MOV 40’, MRL 9, NA d4 (d4).
 
 # My Tables
 
-## Composite tables
+## People
 
-### People
-
-#### NPCSs
+### NPCs
 
 {{< rpg_table name="Name" >}}
 | d2 | NPC |
@@ -71,7 +70,7 @@ owl bear
 
 {{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
 
-#### Groups
+### Groups
 
 {{< rpg_table name="FactionDescription" >}}
 | Faction Description |
@@ -79,15 +78,15 @@ owl bear
 |{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
 {{< /rpg_table >}}
 
-### Places
+## Places
 
-#### Overworld
+### Overworld
 
 {{< rpg_table_button name="LocationDescription" expr="{PlaceTrait} {Location}">}}
 
 {{< rpg_table_button name="StructureDescription" expr="{PlaceTrait} {Structure}" >}}
 
-#### Settlements
+### Settlements
 
 
 {{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
@@ -104,7 +103,7 @@ owl bear
 {{< /rpg_table >}}
 
 
-#### Dungeons
+### Dungeons
 
 {{< rpg_table_button name="RoomDescription" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
 
@@ -112,9 +111,9 @@ owl bear
 {{< rpg_table_button name="Trap" expr="{TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
 
 
-### Items
+## Items
 
-#### Spells and Relics
+### Spells and Relics
 
 {{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {GeneratedSpell}" >}}
 
@@ -150,13 +149,13 @@ owl bear
 | 6 | The {Quality} {Effect} {Element} |
 {{< /rpg_table >}}
 
-#### Food
+### Food
 
 {{< rpg_table_button name="FoodDescription" expr="{FoodTrait} {Food}" >}}
 
 
 
-### Monsters
+## Monsters
 
 {{< rpg_table_button name="MonsterDescription" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
 
@@ -178,7 +177,7 @@ owl bear
 | 5 | -{Domain} |
 {{< /rpg_table >}}
 
-# Knave Tables
+# Knave 2e Tables
 
 ## Careers
 
