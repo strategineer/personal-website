@@ -90,7 +90,19 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 {{< rpg_table name="FactionBlock" >}}
 | Faction Block |
 | --------|
-|"{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}."|
+|{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
+{{< /rpg_table >}}
+
+{{< rpg_table_button name="Patron" expr="{PatronDomains}. {Goal}. {Personality}. {Mannerism}." >}}
+
+{{< rpg_table name="PatronDomains" >}}
+| d3 | Patron Domains |
+| --- | --------|
+| 1 | +{Domain}, +{Domain} |
+| 2 | +{Domain}, -{Domain} |
+| 3 | -{Domain}, -{Domain} |
+| 4 | +{Domain} |
+| 5 | -{Domain} |
 {{< /rpg_table >}}
 
 # Careers
