@@ -30,7 +30,7 @@ Also, the Knave 2e rulebook encourages you to roll on many different tables to c
 
 ### How does this page work?
 
-Basically, press a button to generate the specified thing (See the [spell book button](#spells-and-relics) or the [NPC button](#npcs) if you're unsure of where to start).
+Basically, press a button to generate the specified thing (See the [spell book, relic and patron buttons](#spells-and-relics) or the [NPC button](#npcs) if you're unsure of where to start).
 
 The ordering of the Knave 2e tables follows their ordering in the rulebook. The organisation of my composite tables is based on my own preference but generally I've tried to organize the buttons into sensible categories to help me find the ones I need during play, prep or both.
 
@@ -124,6 +124,22 @@ owl bear
 
 {{< rpg_table_button name="Relic" expr="{ItemTrait} {Item} of {GeneratedSpellForRelics}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
 
+{{< rpg_table name="Patron" >}}
+| Patron |
+| --------|
+| {PatronDomains}. {Symbol}. Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}. |
+{{< /rpg_table >}}
+
+{{< rpg_table name="PatronDomains" >}}
+| d5 | Patron Domains |
+| --- | --------|
+| 1 | +{Domain}, +{Domain} |
+| 2 | +{Domain}, -{Domain} |
+| 3 | -{Domain}, -{Domain} |
+| 4 | +{Domain} |
+| 5 | -{Domain} |
+{{< /rpg_table >}}
+
 {{< rpg_table_button name="PotionDesc" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
 {{< rpg_table name="SpellBookType" hide_button="true" >}}
@@ -166,22 +182,6 @@ owl bear
 {{< rpg_table_button name="MonsterDesc" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
 
 {{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
-
-{{< rpg_table name="Patron" >}}
-| Patron |
-| --------|
-| {PatronDomains}. {Symbol}. Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}. |
-{{< /rpg_table >}}
-
-{{< rpg_table name="PatronDomains" >}}
-| d5 | Patron Domains |
-| --- | --------|
-| 1 | +{Domain}, +{Domain} |
-| 2 | +{Domain}, -{Domain} |
-| 3 | -{Domain}, -{Domain} |
-| 4 | +{Domain} |
-| 5 | -{Domain} |
-{{< /rpg_table >}}
 
 # Knave 2e Tables
 
