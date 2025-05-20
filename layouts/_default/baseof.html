@@ -55,9 +55,6 @@
     <span data-pagefind-ignore>
     {{ end }}
     {{ if $.Params.is_tabletop }}
-      {{ with resources.Get "js/rpg_table_randomizer.js" }}
-      <script type="text/javascript" src="{{ .RelPermalink }}"> </script>
-      {{ end }}
       {{ with resources.Get "js/site_rpg.js" | resources.Minify }}
       <script type="text/javascript" src="{{ .RelPermalink }}"> </script>
       {{ end }}
