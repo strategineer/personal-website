@@ -117,7 +117,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 
 ## Careers
 
-{{< rpg_table name="Career" >}}
+{{< rpg_table name="Career" count="2" >}}
 | d100 | Career |
 | --- | --------|
 |1 | acolyte: candlestick, censer, incense	|

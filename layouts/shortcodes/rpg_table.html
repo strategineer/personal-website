@@ -21,7 +21,7 @@
 
   {{ $table_name := printf "%s" .Params.name }}
 
-  {{ $result_count := .Params.count | default 1}}
+  {{ $result_count := .Params.count | default 3}}
 
   <script type="text/javascript">
     {{ if not (strings.Contains (index $clean_rows 1) "|") }}
@@ -40,7 +40,7 @@
     };
     {{ end }}
     function pickRandomlyFromTable{{- $table_name | safeJS -}}() {
-      document.getElementById("table_result_{{$table_name}}").innerHTML = generate_text("{{ $table_name }}")
+      document.getElementById("table_result_{{$table_name}}").innerHTML = generate_list("{{ $table_name }}", {{ $result_count}})
   }
   </script>
   {{ if not .Params.hide_button | default false }}
