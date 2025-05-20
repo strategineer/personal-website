@@ -16,29 +16,33 @@ One-click Rollable Tables, including my own composite rolls for generating spell
 
 {{< toc >}}
 
-# Notes
+# Intro
+
+## Notes
 
 The [following button](#debug-button) can be used to toggle between showing/hiding which tables each of the rolled results came from. This is especially useful when recursive results are rolled on the Knave tables or for my composite tables to figure out where all the rolled results came from.
 
 For now, the ordering of the tables follows their ordering in the Knave 2e rule book. The organisation of my composite tables is very WIP but I'm planning on moving them around based on whether they'd be useful during play or prep or both, etc.
 
 
-# Debug Button
+## Debug Button
 
 {{< rpg_table_inspect_toggle >}}
 
-# Composite tables
+# My Tables
+
+## Composite tables
 
 
-{{< rpg_table_button name="LocationBlock" expr="{PlaceTrait} {Location}">}}
+{{< rpg_table_button name="LocationDescription" expr="{PlaceTrait} {Location}">}}
 
-{{< rpg_table_button name="StructureBlock" expr="{PlaceTrait} {Structure}" >}}
+{{< rpg_table_button name="StructureDescription" expr="{PlaceTrait} {Structure}" >}}
 
-{{< rpg_table_button name="RoomBlock" expr="{Room}. {RoomStyle}. {RoomTheme}. {RoomDetail}." >}}
+{{< rpg_table_button name="RoomDescription" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
 
 {{< rpg_table_button name="Trap" expr="{TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
 
-{{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {NewSpell}" >}}
+{{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {GeneratedSpell}" >}}
 
 
 {{< rpg_table name="SpellBookType" >}}
@@ -48,9 +52,9 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 | 2 | Book |
 {{< /rpg_table >}}
 
-{{< rpg_table_button name="SpellScroll" expr="Scroll of {NewSpell}" >}}
+{{< rpg_table_button name="SpellScroll" expr="Scroll of {GeneratedSpell}" >}}
 
-{{< rpg_table_button name="PotionBlock" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+{{< rpg_table_button name="PotionDescription" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
 {{< rpg_table name="Name" >}}
 | d2 | NPC |
@@ -63,7 +67,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 
 {{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
 
-{{< rpg_table_button name="MagicItem" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}. Domains: {Domain}, {Domain}. Symbol: {Symbol}." >}}
+{{< rpg_table_button name="Relic" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
 
 {{< rpg_table name="Item">}}
 | d100 | Item |
@@ -81,22 +85,26 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 {{< /rpg_table >}}
 
 
-{{< rpg_table_button name="MonsterBlock" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
+{{< rpg_table_button name="MonsterDescription" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
 
 {{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
 
-{{< rpg_table_button name="FoodBlock" expr="{FoodTrait} {Food}" >}}
+{{< rpg_table_button name="FoodDescription" expr="{FoodTrait} {Food}" >}}
 
-{{< rpg_table name="FactionBlock" >}}
-| Faction Block |
+{{< rpg_table name="FactionDescription" >}}
+| Faction Description |
 | --------|
 |{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
 {{< /rpg_table >}}
 
-{{< rpg_table_button name="Patron" expr="{PatronDomains}. {Goal}. {Personality}. {Mannerism}." >}}
+{{< rpg_table name="Patron" >}}
+| Patron |
+| --------|
+| {PatronDomains}. {Symbol}. Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}. |
+{{< /rpg_table >}}
 
 {{< rpg_table name="PatronDomains" >}}
-| d3 | Patron Domains |
+| d5 | Patron Domains |
 | --- | --------|
 | 1 | +{Domain}, +{Domain} |
 | 2 | +{Domain}, -{Domain} |
@@ -105,7 +113,9 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 | 5 | -{Domain} |
 {{< /rpg_table >}}
 
-# Careers
+# Knave Tables
+
+## Careers
 
 {{< rpg_table name="Career" >}}
 | d100 | Career |
@@ -212,7 +222,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |00 | woodcutter: axe, firewood, 50' rope |
 {{< /rpg_table >}}
 
-# Traveling
+## Traveling
 
 {{< rpg_table name="TravelHazardDie" >}}
 | d6 | Travel Hazard |
@@ -764,7 +774,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |00 | Writhing|
 {{< /rpg_table >}}
 
-# Delving
+## Delving
 
 {{< rpg_table name="DungeonHazardDie" >}}
 | d6 | NPC |
@@ -1617,7 +1627,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |00| Windmill|
 {{< /rpg_table >}}
 
-# Encounters
+## Encounters
 
 {{< rpg_table name="NpcReaction" >}}
 | d100 | NPC Reaction |
@@ -1740,7 +1750,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |00| Worshiping|
 {{< /rpg_table >}}
 
-# Spellcasting
+## Spellcasting
 
 {{< rpg_table name="Spell" show_table="true" >}}
 | d100 | Spell |
@@ -1847,7 +1857,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |00| x-ray vision: You can see through INT feet of material.|
 {{< /rpg_table >}}
 
-{{< rpg_table name="NewSpell" >}}
+{{< rpg_table name="GeneratedSpell" >}}
 | d12 | Spell Formulae |
 | --- | --------|
 | 1 | {Element} {Form} |
@@ -2810,7 +2820,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |00| Witchery|
 {{< /rpg_table >}}
 
-# Relic Magic 
+## Relic Magic 
 {{< rpg_table name="Domain" >}}
 | d100 | ? |
 | --- | --------|
@@ -3021,7 +3031,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |00| Wolf|
 {{< /rpg_table >}}
 
-# Alchemy
+## Alchemy
 
 {{< rpg_table name="Potion">}}
 | d100 | Potion |
@@ -3549,7 +3559,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |00| Wormwood|
 {{< /rpg_table >}}
 
-# Equipment
+## Equipment
 
 {{< rpg_table name="CostOfLiving" >}}
 cost of living (per month)
@@ -4267,7 +4277,7 @@ cost of living (per month)
 |63| Prayer book|
 |64| Printing block|
 |65| Rare coin|
-|66| Relic|
+|66| {Relic} |
 |67| {Reward} (p. 51)|
 |68| Ring|
 |69| Royal robes|
@@ -4620,7 +4630,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 
-# Buildings
+## Buildings
 
 {{< rpg_table name="Building" >}}
 | d100 | ? |
@@ -5865,7 +5875,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |50| Livestock |
 |51| {Location} (p. 10)|
 |52| Machine|
-|53| {MagicItem} |
+|53| {Relic} |
 |54| Magical ally|
 |55| Mansion|
 |56| {Material} (p. 42)|
@@ -5882,7 +5892,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |67| Printing press|
 |68| Reduced sentence|
 |69| Location map|
-|70| Relic|
+|70| {Relic}|
 |71| Religious clout|
 |72| Renown|
 |73| Revenge|
@@ -5915,7 +5925,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |00| {Weapon} (p. 43)|
 {{< /rpg_table >}}
 
-# Downtime
+## Downtime
 
 {{< rpg_table name="CarousingMishap" >}}
 | d20 | Carousing Mishaps |
@@ -5929,7 +5939,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |7| You’ve made an enemy. |
 |8| You have an ugly, prominent tattoo. |
 |9| Hangover: take -5 on all tests today. |
-|10| You have joined a local faction (p. 50)<br> (Faction? {FactionBlock}) |
+|10| You have joined a local faction (p. 50)<br> (Faction? {FactionDescription}) |
 |11| Robbed: Lose all remaining coin. |
 |12| You wake up in prison. |
 |13| The building is on fire! |
@@ -5937,7 +5947,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |15| A duel is scheduled for the next dawn. |
 |16| You signed a shady contract. |
 |17| A stranger’s corpse is on the floor. |
-|18| A faction hates you (p. 50)<br>(Faction? {FactionBlock}) |
+|18| A faction hates you (p. 50)<br>(Faction? {FactionDescription}) |
 |19| All your belongings have been stolen. |
 |20| You meet a new companion who wants to join your party. |
 {{< /rpg_table >}}
@@ -5950,7 +5960,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 | 3 | rare careers: Requires 1 year and 30,000c to attempt related tasks and an additional year and 30,000c to gain a +5 to related non-combat checks (alchemist, lawyer, assassin, sculptor, folklorist, etc.).|
 {{< /rpg_table >}}
 
-# Recruiting
+## Recruiting
 
 {{< rpg_table name="Archetype" >}}
 | d100 | Archetype |
@@ -7318,7 +7328,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 | 00 | Wry |
 {{< /rpg_table >}}
 
-# Monster
+## Monster
 
 {{< rpg_table name="Monster" >}}
 | d100 | Monster |

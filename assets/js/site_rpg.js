@@ -5,6 +5,7 @@
 
 let gen_data = {};
 let gen_debug = false;
+let strip_page_numbers = true;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // generator function
@@ -104,6 +105,9 @@ function expand_tokens(string) {
     } else {
       string = string.replace("{" + token + "}", token);
     }
+  }
+  if (strip_page_numbers) {
+    return string.replace(/\(p. \d+\)/i, "");
   }
   return string;
 }
