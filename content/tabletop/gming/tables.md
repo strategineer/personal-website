@@ -8822,3 +8822,5 @@ If you're curious to know exactly where the rolled results (recursive ones inclu
 "Knave 2e" (https://questingblog.com/knave/) by Ben Milton is licensed under the Creative Commons Attribution 4.0 International license.
 
 "donjon.bin.sh random token and name code" by drow <drow@bin.sh> is licensed under the CC0 1.0 Universal license.
+
+"Onomastikon" by Kate Monk. 
