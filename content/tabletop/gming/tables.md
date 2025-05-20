@@ -63,7 +63,7 @@ owl bear
 
 ### NPCs
 
-{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
+{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
 
 {{< rpg_table name="Name" >}}
 | d2 | NPC |
