@@ -34,11 +34,19 @@ owl bear
 
 ## People
 
-### NPCs
+### Names
 
-{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
+The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_chain) to generate names that should sort of look like names from the cultures they're pulling from but not exactly. Relatively expected names can be generated but you can also get really weird and long names.
 
-{{< rpg_table_button name="Surname" expr="{Surname1}{Surname2}" >}}
+{{< rpg_table name="PatronName" >}}
+| d4 | Patron Name |
+| --- | --------|
+| 1-25 | {BiblicalProphetsName} |
+| 26-50 | {GreekGodsName}|
+| 51-70 | {HinduGodsName} |
+| 71-90 | {HinduGoddessesName} |
+| 91-00 | {HinduDemonsName} |
+{{< /rpg_table >}}
 
 {{< rpg_table name="Name" >}}
 | d2 | Name |
@@ -53,6 +61,8 @@ owl bear
 | 8 | {LiteraryArthurianName} {Surname} |
 | 9 | {ForeignNorseName} {Surname} |
 {{< /rpg_table >}}
+
+{{< rpg_table_button name="Surname" expr="{Surname1}{Surname2}" >}}
 
 {{< rpg_table name="EgyptianName" is_name_table="true" >}}
 | Egyptian Name |
@@ -3375,6 +3385,597 @@ owl bear
 {{< /rpg_table >}}
 
 
+{{< rpg_table name="HinduDemonsName" is_name_table="true" >}}
+| Names |
+| ----- |
+|Ahi|
+|Anarsani|
+|Andhaka|
+|Araru|
+|Arbuda|
+|Arista|
+|Arkanayaana|
+|Arujas|
+|Asaniprabha|
+|Asira|
+|Asrapa|
+|Asuradhipa|
+|Asurendra|
+|Asva|
+|Atapin|
+|Atikaya|
+|Atiloma|
+|Ayahkaya|
+|Ayahsanku|
+|Ayahsiras|
+|Ayomukhi|
+|Bahusaktin|
+|Bahu|
+|Baka|
+|Balaka|
+|Balavala|
+|Balhika|
+|Baskala|
+|Bhanudatta|
+|Bhanukopa|
+|Bhasmasura|
+|Bhauma|
+|Bhimaksa|
+|Bhrasakarna|
+|Bhumipala|
+|Bhutihan|
+|Bidalaksa|
+|Brhaddhvaja|
+|Buddhakapalini|
+|Cakradrsa|
+|Cakramauli|
+|Cakrayodhin|
+|Cancala|
+|Candasakti|
+|Canda|
+|Candrabahu|
+|Candrahantr|
+|Candralocana|
+|Candranabha|
+|Candravinasana|
+|Canura|
+|Carvaka|
+|Caturasya|
+|Chayagrahi|
+|Ciravasus|
+|Citraratha|
+|Citrasena|
+|Citrasvana|
+|Dagdharatha|
+|Daityapati|
+|Daityendra|
+|Daivya|
+|Daksakantha|
+|Damanaka|
+|Danapati|
+|Danavendra|
+|Dansa|
+|Dantamukha|
+|Dasagriva|
+|Dasakandhara|
+|Dasanana|
+|Dasasya|
+|Dasmukha|
+|Devantaka|
+|Devaprabha|
+|Dharmapriya|
+|Dhenuka|
+|Dhumrakesa|
+|Dhumraketu|
+|Dhumraksa|
+|Dhumrasikha|
+|Dhundumat|
+|Dhurandhara|
+|Dirghabahu|
+|Dirghajihva|
+|Dirghajihva|
+|Dirghakantha|
+|Ditija|
+|Divakara|
+|Drumiinimila|
+|Dundha|
+|Dundhubi|
+|Dundhu|
+|Durapa|
+|Durgamsa|
+|Durga|
+|Durjaya|
+|Durmarsa|
+|Dusana|
+|Dvivaktra|
+|Ekajata|
+|Gaganamurdha|
+|Gajasiras|
+|Garuistha|
+|Gavistha|
+|Ghantadara|
+|Ghatodara|
+|Gomukha|
+|Gopati|
+|Grhadevi|
+|Hanusa|
+|Harava|
+|Haridatta|
+|Harijata|
+|Haryaksa|
+|Hastikarna|
+|Hayagriva|
+|Hunda|
+|Illibisa|
+|Sakuni|
+{{< /rpg_table >}}
+
+
+{{< rpg_table name="GreekGodsName" is_name_table="true" >}}
+|Aceso|
+|Achelous|
+|Acheron|
+|Achlys|
+|Achos|
+|Acis|
+|Acmon|
+|Acratopotes|
+|Actaeus|
+|Acte|
+|Adephagia|
+|Adikia|
+|Adonis|
+|Adrasteia|
+|Aegaeon|
+|Aegle|
+|Aeolus|
+|Aergia|
+|Aether|
+|Aetna|
+|Agathodaemon|
+|Agdistis|
+|Aglaea|
+|Agon|
+|Aiakos|
+|Aidos|
+|Aion|
+|Aisa|
+|Aitnaios|
+|Alala|
+|Alastor|
+|Alcyone|
+|Alecto|
+|Alectrona|
+|Aletheia|
+|Alexiares|
+|Alke|
+|Alkon|
+|Alpheus|
+|Amechania|
+|Amphiaraus|
+|Amphictyonis|
+|Amphitrite|
+|Anaideia|
+|Ananke|
+|Anatolia|
+|Angelia|
+|Angelos|
+|Ania|
+|Anicetus|
+|Anteros|
+|Antheia|
+|Anthousai|
+|Aoide|
+|Aparctias|
+|Apate|
+|Aphaea|
+|Apheleia|
+|Apheliotes|
+|Aphrodite|
+|Aphroditus|
+|Apollo|
+|Apollonis|
+|Arche|
+|Ares|
+|Arete|
+|Arethusa|
+|Argestes|
+|Argyron|
+|Aristaeus|
+|Arke|
+|Arktos|
+|Artemis|
+|Asbetos|
+|Asclepius|
+|Askalaphos|
+|Asopus|
+|Asteria|
+|Astraea|
+|Astraeus|
+|Astraios|
+|Atabyrius|
+|Atë|
+|Athena|
+|Atlas|
+|Atropos|
+|Attis|
+|Auge|
+|Aura|
+|Aurai|
+|Auxesia|
+|Auxo|
+|Benthesikyme|
+|Bia|
+|Boreas|
+|Borysthenis|
+|Britomartis|
+|Brizo|
+|Caerus|
+|Caicias|
+|Calleis|
+|Calliope|
+|Celaeno|
+|Cephisso|
+|Ceraon|
+|Ceto|
+|Chalcon|
+|Chaos|
+|Charon|
+|Cheimon|
+|Chione|
+|Chloris|
+|Chronos|
+|Chryson|
+|Chrysus|
+|Circe|
+|Circios|
+|Cladeus|
+|Cleta|
+|Clio|
+|Clotho|
+|Coeus|
+|Comus|
+|Corus|
+|Corymbus|
+|Crius|
+|Cronus|
+|Cyamites|
+|Cybele|
+|Cyllenus|
+|Cymopoleia|
+|Damia|
+|Damnameneus|
+|Damon|
+|Daphne|
+|Deimos|
+|Deipneus|
+|Delas|
+|Demeter|
+|Despoina|
+|Dexithea|
+|Dikaiosyne|
+|Dike|
+|Dione|
+|Dionysus|
+|Dolos|
+|Dryades|
+|Dynamene|
+|Dysis|
+|Dysnomia|
+|Dyssebeia|
+|Echo|
+|Eiar|
+|Eidothea|
+|Eileithyia|
+|Eirene|
+|Eiresione|
+|Ekecheiria|
+|Electra|
+|Eleos|
+|Elpis|
+|Empusa|
+|Enyalius|
+|Enyo|
+|Eos|
+|Eosphorus|
+|Epiales|
+|Epidotes|
+|Epimedes|
+|Epimeliades|
+|Epimetheus|
+|Epione|
+|Epiphron|
+|Erato|
+|Erebos|
+|Erebus|
+|Eridanos|
+|Eris|
+|Eros|
+|Ersa|
+|Eucleia|
+|Eudaimonia|
+|Eulabeia|
+|Eunomia|
+|Eunostus|
+|Eupheme|
+|Euphrosyne|
+|Euporie|
+|Eupraxia|
+|Euronotus|
+|Eurotas|
+|Eurus|
+|Eurymedon|
+|Eusebeia|
+|Euterpe|
+|Euthenia|
+|Euthymia|
+|Gaia|
+|Galene|
+|Gelos|
+|Geras|
+|Glaucus|
+|Glycon|
+|Gorgyra|
+|Gymnastica|
+|Hades|
+|Hamadryades|
+|Harmonia|
+|Harpocrates|
+|Hebe|
+|Hecate|
+|Hecaterus|
+|Hedone|
+|Hedylogos|
+|Hegemone|
+|Heimarmene|
+|Hekaerge|
+|Helios|
+|Hemera|
+|Hephaestus|
+|Hera|
+|Heracles|
+|Hermaphroditus|
+|Hermes|
+|Hesperis|
+|Hesperus|
+|Hestia|
+|Himeros|
+|Homados|
+|Homonoia|
+|Horkos|
+|Horme|
+|Hybris|
+|Hygieia|
+|Hymenaios|
+|Hypate|
+|Hyperion|
+|Hypnos|
+|Iapetus|
+|Iasios|
+|Iaso|
+|Ichnaea|
+|Idyia|
+|Ioke|
+|Iris|
+|Iynx|
+|Kakia|
+|Karpo|
+|Kelmis|
+|Keuthonymos|
+|Koalemos|
+|Kokytos|
+|Kratos|
+|Kydoimos|
+|Lachesis|
+|Lelantos|
+|Lethe|
+|Leto|
+|Leucothea|
+|Limos|
+|Lips|
+|Loxo|
+|Lupe|
+|Lycos|
+|Lysagora|
+|Lyssa|
+|Macaria|
+|Maenades|
+|Maia|
+|Makelo|
+|Mania|
+|Matton|
+|Megaera|
+|Megalesius|
+|Melete|
+|Meliae|
+|Melinoe|
+|Melpomene|
+|Men|
+|Menoetes|
+|Menoetius|
+|Merope|
+|Mese|
+|Mesembria|
+|Methe|
+|Metis|
+|Metope|
+|Minos|
+|Minthe|
+|Mneme|
+|Mnemosyne|
+|Momus|
+|Moros|
+|Morpheus|
+|Musica|
+|Mylas|
+|Nemesis|
+|Nephele|
+|Nereus|
+|Nerites|
+|Nesoi|
+|Nete|
+|Nike|
+|Nikon|
+|Nilus|
+|Nomos|
+|Notus|
+|Nymphe|
+|Nyx|
+|Oceanus|
+|Oizys|
+|Omodamos|
+|Oneiroi|
+|Onnes|
+|Ormenos|
+|Orphne|
+|Orthosie|
+|Oupis|
+|Ourea|
+|Paean|
+|Paidia|
+|Palaemon|
+|Palaestra|
+|Palioxis|
+|Pallas|
+|Pan|
+|Panacea|
+|Pandaisia|
+|Pandia|
+|Pannychis|
+|Pasithea|
+|Peitharchia|
+|Peitho|
+|Peneus|
+|Penia|
+|Penthus|
+|Pepromene|
+|Persephone|
+|Perses|
+|Phaenna|
+|Phaenon|
+|Phaethon|
+|Phanes|
+|Pheme|
+|Pherousa|
+|Philomelus|
+|Philophrosyne|
+|Philotes|
+|Phlegethon|
+|Phobos|
+|Phoebe|
+|Phorcys|
+|Phrike|
+|Phthonus|
+|Pistis|
+|Plutus|
+|Poine|
+|Polemos|
+|Polyhymnia |
+|Polymatheia|
+|Ponos|
+|Pontos|
+|Pontus|
+|Poros|
+|Poseidon|
+|Pothos|
+|Praxidike|
+|Priapus|
+|Proioxis|
+|Prometheus|
+|Prophasis|
+|Proteus|
+|Psamathe|
+|Pthinoporon|
+|Ptocheia|
+|Pyroeis|
+|Pyrrhichos|
+|Rhadamanthys|
+|Rhapso|
+|Rhea|
+|Sabaktes|
+|Sabazios|
+|Sangarius|
+|Scamander|
+|Selene|
+|Silenus|
+|Simon|
+|Skeiron|
+|Skelmis|
+|Skythes|
+|Smaragos|
+|Sophrosyne|
+|Soter|
+|Soteria|
+|Sponde|
+|Sterope|
+|Stilbon|
+|Styx|
+|Syntribos|
+|Tartarus|
+|Taygete|
+|Telesphorus|
+|Telete|
+|Terpsichore|
+|Tethys|
+|Thalassa|
+|Thalia|
+|Thallo|
+|Thanatos|
+|Thaumas|
+|The Amphilogiai|
+|The Androktasiai|
+|The Arae|
+|The Hesperides|
+|The Hysminai|
+|The Keres|
+|The Litae|
+|The Machai|
+|The Neikea|
+|The Oneiroi|
+|The Ourea|
+|The Palici|
+|The Phonoi|
+|Theia|
+|Thelxinoe|
+|Themis|
+|Theros|
+|Thetis|
+|Thoosa|
+|Thrasos|
+|Tisiphone|
+|Titias|
+|Tonnes|
+|Triptolemus|
+|Triteia|
+|Triton|
+|Tritones |
+|Tyche|
+|Urania|
+|Uranus|
+|Zagreus|
+|Zelos|
+|Zephyrus|
+|Zeus|
+{{< /rpg_table >}}
+
+### Gods/Patrons
+
+
+{{< rpg_table_button name="Patron" expr="{PatronName} the Patron, {PatronDomains}.<br>Symbol: {Symbol}.<br>Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}." >}}
+
+{{< rpg_table name="PatronDomains" >}}
+| d3 | Patron Domains |
+| --- | --------|
+| 1 | likes {Domain} and likes {Domain} |
+| 2 | likes {Domain} and hates {Domain} |
+| 3 | hates {Domain} and hates {Domain} |
+{{< /rpg_table >}}
+
+
+### NPCs
+
+{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
+
 
 ### Groups
 
@@ -3428,24 +4029,6 @@ owl bear
 {{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {GeneratedSpell}" >}}
 
 {{< rpg_table_button name="Relic" expr="{ItemTrait} {Item} of {GeneratedSpellForRelics}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
-
-{{< rpg_table_button name="Patron" expr="{PatronName} the Patron, {PatronDomains}.<br>Symbol: {Symbol}.<br>Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}." >}}
-
-{{< rpg_table name="PatronName" >}}
-| d2 | Patron Name |
-| --- | --------|
-| 1 | {BiblicalProphetsName} |
-| 2 | {HinduGodsName} |
-| 3 | {HinduGoddessesName} |
-{{< /rpg_table >}}
-
-{{< rpg_table name="PatronDomains" >}}
-| d3 | Patron Domains |
-| --- | --------|
-| 1 | likes {Domain} and likes {Domain} |
-| 2 | likes {Domain} and hates {Domain} |
-| 3 | hates {Domain} and hates {Domain} |
-{{< /rpg_table >}}
 
 {{< rpg_table_button name="PotionDesc" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
