@@ -31,7 +31,7 @@ from __init__ import (
 IMPORT_START_DATE = date(1800, 1, 1)
 
 
-# {'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
+# {'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}   
 
 
 def fetch_and_write_thumbnail(isbn, filename):
@@ -199,6 +199,51 @@ def delete_blog_thumbnails():
     filenames = glob.glob("content/blog/*/thumbnail.*")
     for filename in filenames:
         Path(filename).unlink()
+
+@click.command()
+@click.argument('urls', nargs=-1, type=str)
+def scrape_onomastikon(urls):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36",
+        "Accept-Language": "en-US, en;q=0.5",
+    }
+    for url in urls:
+        # https://tekeli.li/onomastikon/Europe-Western/Germany/Germanic.html
+        split_url = url.split("/")
+        url_name = f"{split_url[-2]}{split_url[-1].replace('.html', '')}"
+        html = requests.get(url, headers=headers)
+        soup = bs(html.text, features="html.parser")
+        results = soup.find_all("tr")
+        ls = []
+        for r in results:
+            name = str(r.select_one("td"))
+            if not name:
+                continue
+            name = name.replace("</td>", "")
+            name = name.replace("<td>", "")
+            name = name.replace("<p>", "")
+            name = name.replace("</p>", "")
+            name = name.replace("Given Name", "")
+            name = name.replace("and Variants", "")
+            name = name.replace("variants", "")
+            name = name.replace("?", "")
+            name = name.replace("*", "")
+            if not name:
+                continue
+            names = name.split(",")
+            for n in names:
+              for a in n.split(" "):
+                a = a.strip()
+              if not a:
+                continue
+              ls.append(f"|{a}|")
+        ls = sorted(ls)
+        ls = [f'{{{{< rpg_table name="{url_name}Name" is_name_table="true" >}}}}', "| Names |","| ----- |"] + ls + [r"{{< /rpg_table >}}", ""]
+        ls = [f"{l}\n" for l in ls]
+        names_export_filename = r"exports/names.txt"
+        Path(names_export_filename).touch()
+        with open(names_export_filename, "a", encoding="utf-8") as f:
+          f.writelines(ls)
 
 @click.command()
 def fetch_thumbnails():
@@ -556,6 +601,7 @@ cli.add_command(rename_reaction_gif)
 cli.add_command(stats)
 cli.add_command(book_rating_shifter)
 cli.add_command(delete_blog_thumbnails)
+cli.add_command(scrape_onomastikon)
 
 if __name__ == "__main__":
     cli()
