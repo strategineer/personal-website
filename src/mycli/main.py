@@ -216,34 +216,37 @@ def scrape_onomastikon(urls):
         results = soup.find_all("tr")
         ls = []
         for r in results:
-            name = str(r.select_one("td"))
-            if not name:
-                continue
-            name = name.replace("</td>", "")
-            name = name.replace("<td>", "")
-            name = name.replace("<p>", "")
-            name = name.replace("</p>", "")
-            name = name.replace("Given Name", "")
-            name = name.replace("and Variants", "")
-            name = name.replace("variants", "")
-            name = name.replace("?", "")
-            name = name.replace("*", "")
-            if not name:
-                continue
-            names = name.split(",")
-            for n in names:
-              for a in n.split(" "):
-                a = a.strip()
-              if not a:
-                continue
-              ls.append(f"|{a}|")
+            for s in r.select("td"):
+                name = str(s.text)
+                if not name:
+                    continue
+                name = name.replace("</td>", "")
+                name = name.replace("<td>", "")
+                name = name.replace("<p>", "")
+                name = name.replace("</p>", "")
+                name = name.replace("Given Name", "")
+                name = name.replace("and Variants", "")
+                name = name.replace("variants", "")
+                name = name.replace("?", "")
+                name = name.replace("*", "")
+                name = name.replace("</i>", "")
+                name = name.replace("<i>", "")
+                if not name:
+                    continue
+                names = name.split(",")
+                for n in names:
+                    for a in n.split(" "):
+                        a = a.strip()
+                if not a:
+                    continue
+                ls.append(f"|{a}|")
         ls = sorted(ls)
         ls = [f'{{{{< rpg_table name="{url_name}Name" is_name_table="true" >}}}}', "| Names |","| ----- |"] + ls + [r"{{< /rpg_table >}}", ""]
         ls = [f"{l}\n" for l in ls]
         names_export_filename = r"exports/names.txt"
         Path(names_export_filename).touch()
         with open(names_export_filename, "a", encoding="utf-8") as f:
-          f.writelines(ls)
+            f.writelines(ls)
 
 @click.command()
 def fetch_thumbnails():
