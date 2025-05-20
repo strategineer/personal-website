@@ -1,5 +1,5 @@
 ---
-title: "X-Mooks Setting"
+title: "Glogea Setting"
 is_readable: true
 no_search: true
 is_tabletop: true
