@@ -22,6 +22,7 @@
   {{ $table_name := printf "%s" .Params.name }}
 
   {{ $result_count := .Params.count | default 3}}
+  {{ $split_header := split $header "|"}}
 
   {{ $is_name_table := .Params.is_name_table | default false }}
 
@@ -57,7 +58,7 @@
   }
   </script>
   {{ if not .Params.hide_button | default false }}
-  <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Generate {{ $result_count }} random {{ $table_name -}}!</button>
+  <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Generate {{ $result_count }} {{ pluralize (humanize (index $split_header (sub (len $split_header) 2))) -}}</button>
   <br>
   <span id="table_result_{{$table_name}}"></span>
   <hr>

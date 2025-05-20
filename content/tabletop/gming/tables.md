@@ -41,11 +41,11 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< rpg_table name="PatronName" >}}
 | d4 | Patron Name |
 | --- | --------|
-| 1-25 | {BiblicalProphetsName} |
-| 26-50 | {GreekGodsName}|
-| 51-70 | {HinduGodsName} |
-| 71-90 | {HinduGoddessesName} |
-| 91-00 | {HinduDemonsName} |
+| 1-25 | {BiblicalProphetName} |
+| 26-50 | {GreekGodName}|
+| 51-70 | {HinduGodName} |
+| 71-90 | {HinduGoddessName} |
+| 91-00 | {HinduDemonName} |
 {{< /rpg_table >}}
 
 {{< rpg_table name="Name" >}}
@@ -495,7 +495,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="GermanyGermanicName" is_name_table="true" >}}
-| Names |
+| Germanic Name |
 | ----- |
 |Adalgisa|
 |Adelaide|
@@ -785,7 +785,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="ItalyLatinName" is_name_table="true" >}}
-| Names |
+| Italian Name |
 | ----- |
 |7Boninsegna|
 |Abbondio|
@@ -1229,7 +1229,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="GreeceGreekName" is_name_table="true" >}}
-| Names |
+| Greek Name |
 | ----- |
 |Acacia|
 |Acheron|
@@ -1423,7 +1423,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="RomeNominaName" is_name_table="true" >}}
-| Names |
+| Roman Name |
 | ----- |
 |Accius|
 |Aemilia|
@@ -1521,7 +1521,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="LiteraryArthurianName" is_name_table="true" >}}
-| Names |
+| Arthurian Name |
 | ----- |
 |Ablamar|
 |Accolon|
@@ -2245,7 +2245,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="ForeignNorseName" is_name_table="true" >}}
-| Names |
+| Norse Name |
 | ----- |
 |Aaric|
 |Aarik|
@@ -2462,8 +2462,8 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Turburn|
 {{< /rpg_table >}}
 
-{{< rpg_table name="BiblicalProphetsName" is_name_table="true" >}}
-| Names |
+{{< rpg_table name="BiblicalProphetName" is_name_table="true" >}}
+| Biblical Prophet Name |
 | ----- |
 |Alishua|
 |Aysaiah|
@@ -2952,8 +2952,8 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Zhekai|
 {{< /rpg_table >}}
 
-{{< rpg_table name="HinduGodsName" is_name_table="true" >}}
-| Names |
+{{< rpg_table name="HinduGodName" is_name_table="true" >}}
+| Hindu God Name |
 | ----- |
 |Abhinanda|
 |Abhinatha|
@@ -3222,8 +3222,8 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Yudhisthira|
 {{< /rpg_table >}}
 
-{{< rpg_table name="HinduGoddessesName" is_name_table="true" >}}
-| Names |
+{{< rpg_table name="HinduGoddessName" is_name_table="true" >}}
+| Hindu Goddess Name |
 | ----- |
 |Adija|
 |Adisakti|
@@ -3385,8 +3385,8 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 
-{{< rpg_table name="HinduDemonsName" is_name_table="true" >}}
-| Names |
+{{< rpg_table name="HinduDemonName" is_name_table="true" >}}
+| Hindu Demon Name |
 | ----- |
 |Ahi|
 |Anarsani|
@@ -3511,7 +3511,9 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 
-{{< rpg_table name="GreekGodsName" is_name_table="true" >}}
+{{< rpg_table name="GreekGodName" is_name_table="true" >}}
+|Greek God Name|
+|---|
 |Aceso|
 |Achelous|
 |Acheron|
@@ -4185,7 +4187,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 ## Traveling
 
 {{< rpg_table name="TravelHazardDie" >}}
-| d6 | Travel Hazard |
+| d6 | Travel Hazard Die Result |
 | --- | --------|
 |1| encounter: The party has a random encounter.|
 |2| fatigue: Each party member takes 1 damage unless they spend the next watch resting. Ignore while resting.|
@@ -4196,6 +4198,8 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Weather" >}}
+| d100 | Weather |
+| --- | --- |
 | 1-3 | Thunderstorm, blizzard in winter |
 | 4-8 | Heavy rain, heavy snow in winter |
 | 9-17 | Cold for the season |
@@ -4315,7 +4319,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Sign" >}}
-| d100 | ? |
+| d100 | Sign |
 | --- | --------|
 |1| Arguing	|
 |2| Ash	|
@@ -4420,7 +4424,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Location">}}
-| d100 | ? |
+| d100 | Location |
 | --- | --------|
 |1| Ashland	|
 |2| Badland	|
@@ -4737,7 +4741,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 ## Delving
 
 {{< rpg_table name="DungeonHazardDie" >}}
-| d6 | NPC |
+| d6 | Dungeon Hazard Die Result |
 | --- | --------|
 |1| encounter: The party has an encounter, usually rolled from a table designed for the dungeon. The GM determines the encounter’s reaction, activity, distance from the party, and if they are surprised (p. 19).|
 |2| fatigue: Each party member takes 1 damage unless they spend the next turn resting. The damage may be higher in dungeons with harsh conditions. Ignore this result while resting.|
@@ -4958,7 +4962,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="RoomDetail" >}}
-| d100 | ? |
+| d100 | Room Detail |
 | --- | --------|
 |1| Alcohol	|
 |2| Alcove	|
@@ -5168,7 +5172,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Dungeon" >}}
-| d100 | ? |
+| d100 | Dungeon |
 | --- | --------|
 |1| Alchemy lab	|
 |2| Animal burrow	|
@@ -5273,7 +5277,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="TrapEffect" >}}
-| d100 | ? |
+| d100 | Trap Effect |
 | --- | --------|
 |1| Absorbing	|
 |2| Accelerating	|
@@ -5378,7 +5382,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Hazard" >}}
-| d100 | ? |
+| d100 | Hazard |
 | --- | --------|
 |1| Acceleration	|
 |2| Acid	|
@@ -5483,7 +5487,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Mechanism" >}}
-| d100 | ? |
+| d100 | Mechanism |
 | --- | --------|
 |1| Air pump	|
 |2| Ball bearings	|
@@ -5818,7 +5822,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="GeneratedSpell" >}}
-| d12 | Spell Formulae |
+| d12 | GeneratedSpell |
 | --- | --------|
 | 1 | {Element} {Form} |
 | 2 | {Effect} {Form} |
@@ -6466,7 +6470,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Delusion" >}}
-| d100 | ? |
+| d100 | Delusion |
 | --- | --------|
 |1| {Activity} (p. 19)	|
 |2| Always drunk	|
@@ -6571,7 +6575,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Disaster" >}}
-| d100 | ? |
+| d100 | Disaster |
 | --- | --------|
 |1 |Acid rain	|
 |2 |Aging accelerates |
@@ -6676,7 +6680,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="MagicSchool" >}}
-| d100 | ? |
+| d100 | Magic School |
 | --- | --------|
 |1| Abjuration	|
 |2| Air	|
@@ -6782,7 +6786,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 ## Relic Magic 
 {{< rpg_table name="Domain" >}}
-| d100 | ? |
+| d100 | Domain |
 | --- | --------|
 |1| Acid	|
 |2| Alchemy	|
@@ -6887,7 +6891,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Symbol" >}}
-| d100 | ? |
+| d100 | Symbol |
 | --- | --------|
 |1| {Animal} (p. 64)	|
 |2| Antlers	|
@@ -7100,7 +7104,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 
 {{< rpg_table name="Texture" >}}
-| d100 | ? |
+| d100 | Texture |
 | --- | --------|
 |1| Aerated	|
 |2| Battery	|
@@ -7205,7 +7209,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Taste" >}}
-| d100 | ? |
+| d100 | Taste |
 | --- | --------|
 |1| Absinthe	|
 |2| Allspice	|
@@ -7310,7 +7314,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Color" >}}
-| d100 | ? |
+| d100 | Color |
 | --- | --------|
 |1| Acid green	|
 |2| Alabaster	|
@@ -7415,7 +7419,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table name="Ingredient" >}}
-| d100 | ? |
+| d100 | Ingredient |
 | --- | --------|
 |1| {Animal} (p. 64)	|
 |2| Antimony	|
@@ -7523,7 +7527,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 {{< rpg_table name="CostOfLiving" >}}
 cost of living (per month)
-| d12 | ? |
+| d12 | Cost Of Living |
 | --- | --------|
 | 1 | destitute: Beggars, Outlaws (90c). |
 | 2 | poor: Servants, Laborers, Sailors, |
@@ -7540,7 +7544,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="Tool" >}}
-| d100 | ? |
+| d100 | Tool |
 | --- | --------|
 |1| Acid vial	|
 |2| Animal scent	|
@@ -7645,7 +7649,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="MiscItem" >}}
-| d100 | ? |
+| d100 | Misc. Item |
 | --- | --------|
 |1| Amulet	|
 |2| Arrowhead	|
@@ -7750,7 +7754,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="Book" >}}
-| d100 | ? |
+| d100 | Book |
 | --- | --------|
 |1| Adventure novel |
 |2| Agriculture	|
@@ -7855,7 +7859,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="Clothing" >}}
-| d100 | ? |
+| d100 | Clothing |
 | --- | --------|
 |1| Alb	|
 |2| Arm wrap	|
@@ -7960,7 +7964,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="Fabric" >}}
-| d100 | ? |
+| d100 | Fabric |
 | --- | --------|
 |1| Alligator skin	|
 |2| Alpaca wool	|
@@ -8065,7 +8069,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="Decoration" >}}
-| d100 | ? |
+| d100 | Decoration |
 | --- | --------|
 |1| Antique	|
 |2| Beaded	|
@@ -8170,7 +8174,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="Treasure" >}}
-| d100 | ? |
+| d100 | Treasure |
 | --- | --------|
 |1| Alchemical device |
 |2| Amulet	|
@@ -8275,7 +8279,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="Material" >}}
-| d100 | ? |
+| d100 | Material |
 | --- | --------|
 |1| Adamantine	|
 |2| Alabaster	|
@@ -8380,7 +8384,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="Weapon" >}}
-| d100 | ? |
+| d100 | Weapon |
 | --- | --------|
 |1| Arming sword	|
 |2| Backsword	|
@@ -8485,7 +8489,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="ItemTrait" >}}
-| d100 | ? |
+| d100 | Item Trait |
 | --- | --------|
 |1| Ancient	|
 |2| Avant-garde	|
@@ -8593,7 +8597,7 @@ cost of living (per month)
 ## Buildings
 
 {{< rpg_table name="Building" >}}
-| d100 | ? |
+| d100 | Building |
 | --- | --------|
 | 1 | Poor hovel 100|
 | 2 | Humble cottage 1k|
@@ -8608,7 +8612,7 @@ cost of living (per month)
 {{< /rpg_table >}}
 
 {{< rpg_table name="RoomStyle" >}}
-| d6 | ? |
+| d6 | Room Style |
 | --- | --------|
 | 1 | poor: Earth walls, thatched roofs,
 earth floors. (10) |
@@ -8621,7 +8625,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="CityTheme" >}}
-| d100 | ? |
+| d100 | City Theme |
 | --- | --------|
 |1| Alchemy	|
 |2| {Animal} (p. 64)	|
@@ -8726,7 +8730,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="CityEvent" >}}
-| d100 | ? |
+| d100 | City Event |
 | --- | --------|
 |1| {Activity} (p. 19)	|
 |2| Alcohol ban	|
@@ -8831,7 +8835,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="StreetDetail" >}}
-| d100 | ? |
+| d100 | Street Detail |
 | --- | --------|
 |1| {Activity} (p. 19)	|
 |2| {Animal} (many) (p. 64)	|
@@ -8936,7 +8940,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Buildings" >}}
-| d100 | ? |
+| d100 | Buildings |
 | --- | --------|
 |1| Academy	|
 |2| Alchemist	|
@@ -9042,7 +9046,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 
 {{< rpg_table name="InnName1" >}}
-| d100 | ? |
+| d100 | Inn Name 1 |
 | --- | --------|
 |1| {Activity} (p. 19)	|
 |2| Bellowing	|
@@ -9147,7 +9151,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="InnName2" >}}
-| d100 | ? |
+| d100 | Inn Name 2 |
 | --- | --------|
 |1| {Animal} (p. 64)	|
 |2| Ant	|
@@ -9253,7 +9257,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 
 {{< rpg_table name="FoodTrait" >}}
-| d100 | ? |
+| d100 | Food Trait |
 | --- | --------|
 |1| Aged	|
 |2| Bacon-wrapped	|
@@ -9358,7 +9362,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Food" >}}
-| d100 | ? |
+| d100 | Food |
 | --- | --------|
 |1| Acorn	|
 |2| Alligator	|
@@ -9464,7 +9468,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 
 {{< rpg_table name="Faction" >}}
-| d100 | ? |
+| d100 | Faction |
 | --- | --------|
 |1| Actors' guild	|
 |2| Angelic army	|
@@ -9569,7 +9573,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="FactionTrait" >}}
-| d100 | ? |
+| d100 | Faction Trait |
 | --- | --------|
 |1| Activist	|
 |2| {Activity} (p. 19)	|
@@ -9675,7 +9679,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 
 {{< rpg_table name="Mission" >}}
-| d100 | ? |
+| d100 | Mission |
 | --- | --------|
 |1| Apprehend NPC  |
 |2| Arrange marriage |
@@ -9781,7 +9785,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 
 {{< rpg_table name="Reward" >}}
-| d100 | ? |
+| d100 | Reward |
 | --- | --------|
 |1| A blind eye	|
 |2| Alcohol	|
@@ -10239,7 +10243,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Surname1" >}}
-| d100 | Surname Start |
+| d100 | Surname 1 |
 | --- | --------|
 | 1 | Adder	|
 | 2 | Apple	|
@@ -10344,7 +10348,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Surname2" >}}
-| d100 | Surname End |
+| d100 | Surname 2 |
 | --- | --------|
 | 1 | bald	|
 | 2 | barrow	|
@@ -10554,7 +10558,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="NPCDetail" >}}
-| d100 | Detail |
+| d100 | NPC Detail |
 | --- | --------|
 | 1 | Acid scar	|
 | 2 | Aquiline face	|
@@ -10869,7 +10873,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Asset" >}}
-| d100 | ? |
+| d100 | Asset |
 | --- | --------|
 |1| Agile	|
 |2| Assassin leader	|
@@ -10974,7 +10978,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Liability" >}}
-| d100 | ? |
+| d100 | Liability |
 | --- | --------|
 |1| Alcoholic	|
 |2| Arthritis	|
@@ -11079,7 +11083,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Relationship" >}}
-| d100 | ? |
+| d100 | Relationship |
 | --- | --------|
 |1| Acquaintance	|
 |2| Admirer	|
@@ -11435,7 +11439,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Animal" >}}
-| d100 | ? |
+| d100 | Animal |
 | --- | --------|
 |1| Ant	|
 |2| Anteater	|
@@ -11540,7 +11544,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 {{< /rpg_table >}}
 
 {{< rpg_table name="Organ" >}}
-| d100 | ? |
+| d100 | Organ |
 | --- | --------|
 |1| Antennae	|
 |2| Antlers	|
