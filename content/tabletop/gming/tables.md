@@ -4114,7 +4114,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ### Settlements
 
-{{< rpg_table_button name="City" expr="{CityName}. {CityTheme}, {CityTheme}, {CityTheme}." >}}
+{{< rpg_table_button name="City" expr="{CityName}.<br>Themes: {CityTheme}, {CityTheme}, {CityTheme}.<br>Symbol: {Symbol}." >}}
 
 {{< rpg_table_button name="Inn" expr="{InnName}.<br>Specialties:<br>Drink: {DrinkDescription}<br>Food: {FoodDescription}" >}}
 
