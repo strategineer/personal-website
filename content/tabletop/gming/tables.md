@@ -1,5 +1,5 @@
 ---
-title: "Knave 2e - One-Click Tables"
+title: "GMing Tables"
 is_readable: true
 no_search: true
 is_tabletop: true
