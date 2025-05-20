@@ -18,9 +18,11 @@ One-click Rollable Tables, including composite rolls, for generating spells, tra
 
 # Intro
 
-## Notes
+## Feedback?
 
-### Why?
+Check out my [about page](/about/#contact-info) if you'd like to get in touch.
+
+## Why?
 
 The tables in the Knave 2e rulebook are so great that being able to roll on them with a single click would be a godsend for speeding up prep and allowing for creating Chaos Spell books during play almost instantly instead of rolling on 4+ tables by hand.
 
@@ -28,7 +30,7 @@ Also, the tables in the Knave 2e rulebook are recursive, meaning that certain en
 
 Also, the Knave 2e rulebook encourages you to roll on many different tables to create single things like Generating New Spells requiring at least 3 rolls to generate, or generating relics requiring 5+ rolls. This combined with my desire to add my own tables encouraged me to implement "composite" rolls which roll on a bunch of different tables to generate more complex things like NPCs, Relics, Factions, etc. 
 
-### How does this page work?
+## How does this page work?
 
 Basically, press a button to generate the specified thing (See the [spell book, relic and patron buttons](#spells-and-relics) or the [NPC button](#npcs) if you're unsure of where to start).
 
@@ -36,12 +38,11 @@ The ordering of the Knave 2e tables follows their ordering in the rulebook. The 
 
 If you're curious to know exactly where the rolled results (recursive ones included) are coming from. The [following button](#debug-button) can be used to toggle between showing/hiding that information for new rolls.
 
-### Features I'd like to add
+## Features I'd like to add
 
 - A roll history
 - Add a button to show the underlying table data for each of the buttons (Temporarily you can open the console in your browser of choice, F12 on Firefox, then check the `gen_data` which contains all the data for all the tables)
 - Add tables for generating more kinds of names, place names, monster names, patron/god names, faction names.
-- Shareable custom rolls to make it easier for me to test rolls before implementing them fully 
 
 ## Debug Button
 

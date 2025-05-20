@@ -18,7 +18,7 @@ Here on my website, I usually post about my favorite hobbies: video gaming, read
 
 ### Contact Info
 
-I'm always happy to chat about media or anything else. Feel free to reach out:
+I'm always happy to chat about art, tabletop roleplaying or anything else. Feel free to reach out:
 
 - **Email**: [me@strategineer.com](mailto:me@strategineer.com)  
 - **Discord**: `@strategineer`
