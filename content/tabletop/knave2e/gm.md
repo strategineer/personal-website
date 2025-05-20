@@ -1,5 +1,5 @@
 ---
-title: "Knave tables"
+title: "Knave 2e - One-Click Tables"
 is_readable: true
 no_search: true
 is_tabletop: true
@@ -18,7 +18,7 @@ One-click Rollable Tables, including my own composite rolls for generating spell
 
 # Notes
 
-The [following button](#debug-button) can be used to toggle between showing/hiding which tables each of the rolled results came from. This is especially useful if you're curious to see where all the pieces came from in my composite tables/rolls.
+The [following button](#debug-button) can be used to toggle between showing/hiding which tables each of the rolled results came from. This is especially useful when recursive results are rolled on the Knave tables or for my composite tables to figure out where all the rolled results came from.
 
 For now, the ordering of the tables follows their ordering in the Knave 2e rule book. The organisation of my composite tables is very WIP but I'm planning on moving them around based on whether they'd be useful during play or prep or both, etc.
 

@@ -1,6 +1,6 @@
 ---
 authors:
-- Ben Wilson
+- Ben Milton
 books/tags:
 - 5star
 - tabletop
