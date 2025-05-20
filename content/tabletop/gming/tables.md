@@ -11,7 +11,7 @@ One-click Rollable Tables for generating NPCs, factions, spells, traps, cities, 
 
 # How does this page work?
 
-Basically, press a button to generate the specified thing (See the [NPC button](#npcs) or the [spell book, relic and patron buttons](#spells-and-relics) if you're unsure of where to start). The buttons here would be of use to GMs prepping adventures for their groups, and during play if their players do something unexpected or if they want to generate something on the fly.
+Basically, press a button to generate the specified thing (See the [NPC button](#npcs) or the [spell book, relic and patron buttons](#spells-and-relics) if you're unsure of where to start). This page can be of use to GMs prepping adventures for their groups. Also, during play, this page can help GMs to gracefully handle their players doing something unexpected or for GMs who want to generate something on the fly (like spell books or magic items).
 
 {{< toc >}}
 
