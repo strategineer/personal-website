@@ -29,7 +29,7 @@ The more powerful a being's power is the more visually distinct its manifestatio
 
 Spells are creatures that can be convinced to join your cause, think Pokémon.
 
-When you're born, you're bound to a spell semi-permanently (there's always exceptions), called an innate spell, think X Men but with magic.
+When you're born, you're bound to a spell semi-permanently (there are always exceptions), called an innate spell, think X-Men but with magic.
 
 Innate spells manifest visually:
 
@@ -51,17 +51,17 @@ Your innate spell may influence your personality, at least that's what people be
 
 # People
 
-Humans, elves, dwarves, orcs, a variety of humanoid animals all co-exist in Golgea.
+Humans, elves, dwarves, orcs, a variety of other humanoids (bat people, bovine people, snake people, etc.) all co-exist in Golgea.
 
-Sentient beings of all kinds are common in Golgea, some don't get along, some do, but this is usually a matter of context and circumstance rather than racial hatred.
+Sentient beings of all kinds are common in Golgea, some don't get along, some do, but this is usually a matter of context and circumstance rather than speciest hatred.
 
-There is a distinct lack of mindless "evil" humanoids in Golgea. Humanoid beings that are truly evil, can't be reasoned with and will fight to the death unless given no other choice are very rare. Exceptions for this are death cultists, the mindless undead (undead necromancers, vampires and the like excluded) and primordial evil beings from a time before Time (don't ask).
+There is a distinct lack of mindless "evil" humanoids in Golgea. Truly evil humanoids who can't be reasoned with and will fight to the death no matter what are very rare. Exceptions to this are death cultists, the mindless undead (undead necromancers, vampires and the like excluded) and primordial evil beings from a time before Time (don't ask).
 
 # Places
 
 ## Korgath
 
-An ethno-state ruled by human fascists. Most believe that humans, of any skin color or creed, are above animal humanoids and treat them in best cases with comtempt in worst cases violently.
+An ethno-state ruled by human fascists. Most believe that "pure" humans, regardless of skin color or creed, are above other humanoids and treat them in best case with contempt in worst cases violently.
 
 If animal humanoids are unlucky enough to find themselves within Korgish lands, they will soon find themselves without whether they like it or not.
 
