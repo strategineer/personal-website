@@ -29,32 +29,22 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 
 {{< rpg_table_inspect_toggle >}}
 
+# Note to self
+
+## the owl bear stat block
+
+Just use the owl bear stat block if I don't have a stat block for a creature.
+
+owl bear
+: AC 14, HP 20, LVL 5, ATK 2 claws (d8) and 1 bite (d8), MOV 40’, MRL 9, NA d4 (d4). Deals 2d8 bonus damage when both claws hit one target. Playful.
+
 # My Tables
 
 ## Composite tables
 
+### People
 
-{{< rpg_table_button name="LocationDescription" expr="{PlaceTrait} {Location}">}}
-
-{{< rpg_table_button name="StructureDescription" expr="{PlaceTrait} {Structure}" >}}
-
-{{< rpg_table_button name="RoomDescription" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
-
-{{< rpg_table_button name="Trap" expr="{TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
-
-{{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {GeneratedSpell}" >}}
-
-
-{{< rpg_table name="SpellBookType" >}}
-| d2 | Spell Book Type |
-| --- | --------|
-| 1 | Tome |
-| 2 | Book |
-{{< /rpg_table >}}
-
-{{< rpg_table_button name="SpellScroll" expr="Scroll of {GeneratedSpell}" >}}
-
-{{< rpg_table_button name="PotionDescription" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+#### NPCSs
 
 {{< rpg_table name="Name" >}}
 | d2 | NPC |
@@ -65,19 +55,32 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 
 {{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
 
-{{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
+#### Groups
 
-{{< rpg_table_button name="Relic" expr="{ItemTrait} {Item}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
-
-{{< rpg_table name="Item">}}
-| d100 | Item |
-| --- | --------|
-| 1 | {Fabric} {Clothing} |
-| 2 | {Weapon} |
+{{< rpg_table name="FactionDescription" >}}
+| Faction Description |
+| --------|
+|{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
 {{< /rpg_table >}}
 
+### Places
 
-{{< rpg_table name="Inn" >}}
+#### Overworld
+
+{{< rpg_table_button name="LocationDescription" expr="{PlaceTrait} {Location}">}}
+
+{{< rpg_table_button name="StructureDescription" expr="{PlaceTrait} {Structure}" >}}
+
+#### Settlements
+
+
+{{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
+
+
+{{< rpg_table_button name="Inn" expr="{InnName}.<br>Specialties:<br>Drink: {Color} color, tastes like {Taste}, smells like {Scent}.<br>Food: {Food}. Tastes like {Taste}, smells like {Scent}." >}}
+
+
+{{< rpg_table name="InnName" >}}
 | d2| Inn |
 | --- | --------|
 | 1 | {InnName1} {InnName2} |
@@ -85,17 +88,63 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 {{< /rpg_table >}}
 
 
-{{< rpg_table_button name="MonsterDescription" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
+#### Dungeons
 
-{{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
+{{< rpg_table_button name="RoomDescription" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
+
+
+{{< rpg_table_button name="Trap" expr="{TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
+
+
+### Items
+
+#### Spells and Relics
+
+{{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {GeneratedSpell}" >}}
+
+{{< rpg_table_button name="Relic" expr="{ItemTrait} {Item} of {GeneratedSpellForRelics}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
+
+{{< rpg_table_button name="PotionDescription" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+
+{{< rpg_table name="SpellBookType" hide_button="true" >}}
+| d2 | Spell Book Type |
+| --- | --------|
+| 1 | Tome |
+| 2 | Book |
+{{< /rpg_table >}}
+
+{{< rpg_table_button name="SpellScroll" expr="Scroll of {GeneratedSpell}" >}}
+
+{{< rpg_table name="Item" >}}
+| d100 | Item |
+| --- | --------|
+| 1 | {Fabric} {Clothing} |
+| 2 | {Weapon} |
+| 3 | {Tool} |
+{{< /rpg_table >}}
+
+{{< rpg_table name="GeneratedSpellForRelics" >}}
+| d6 | Spell Formulae |
+| --- | --------|
+| 1 | {Element} {Form} |
+| 2 | {Effect} {Form} |
+| 3 | {Effect} {Element} |
+| 4 | The {Quality} {Element} {Form} |
+| 5 | The {Quality} {Effect} {Form} |
+| 6 | The {Quality} {Effect} {Element} |
+{{< /rpg_table >}}
+
+#### Food
 
 {{< rpg_table_button name="FoodDescription" expr="{FoodTrait} {Food}" >}}
 
-{{< rpg_table name="FactionDescription" >}}
-| Faction Description |
-| --------|
-|{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
-{{< /rpg_table >}}
+
+
+### Monsters
+
+{{< rpg_table_button name="MonsterDescription" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
+
+{{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
 
 {{< rpg_table name="Patron" >}}
 | Patron |
@@ -614,7 +663,7 @@ For now, the ordering of the tables follows their ordering in the Knave 2e rule 
 |45 | Highway	|
 |46 | Hunter's camp	|
 |47 | Hunting lodge	|
-|48 | {Inn} (inn) (p. 48)	|
+|48 | {InnName} (inn) (p. 48)	|
 |49 | Keep	|
 |50 | Library	|
 |51 | Lighthouse |

@@ -117,7 +117,7 @@ function expand_tokens(string) {
     }
   }
   if (strip_page_numbers) {
-    return string.replace(/\(p. \d+\)/i, "");
+    return string.replace(/\(p. \d+ ?\)/i, "");
   }
   return string;
 }

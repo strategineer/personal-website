@@ -75,17 +75,33 @@ Kargish dissidents who oppose the Kargish's states discriminatory policies exist
 
 ## The Hearth
 
-A neutral meeting ground in the center of Golgea, serves as a trading hub and acts as the home of Golgea's Merchant Guild.
+A neutral meeting ground in the center of Golgea, serves as a trading hub and acts as the home of Golgea's [Merchant Guild](#the-merchant-guild).
 
 Anyone who is willing to buy, sell or work to help others do either, is allowed to stay at the Hearth, others are shunned.
 
-The Hearth, and its merchant guild, is hierarchical. One's position in society is determined by the value they bring to the Hearth through trading or helping trades occur. A rigid system of bureaucrats and accountants work diligently to keep track of everyone's contributions.
+The Hearth, and its merchant guild, is hierarchical. One's position in society is determined by the value they bring to the Hearth through trade or facilitating trades occurring. A rigid system of bureaucrats and accountants work diligently to keep track of everyone's contributions to Hearth's wealth.
 
-It's in the interest of most to help with this process but some seek to subvert it for their own gains. The Merchant Guild harshly punishes those who are caught by its network of auditors. But the interconnectedness of merchants and their relationships with each other discourages most from snitching on each other.
+It's in the interest of most to help with this process but some seek to subvert it for their own gains. The Merchant Guild harshly punishes those who are caught by its network of auditors. But the interconnectedness of merchants and their relationships with each other discourages most from snitching. Also, the Hearth's large scale allows for certain less than legal transactions to fall through the cracks.
 
-The Hearth pays all its functionaries using the funds gained through the minor transaction fee applied to each trade.
+The Hearth pays all its functionaries using the funds gained through the minor transaction fees applied to each trade.
 
-The Hearth bankrolls the Mechanist Guild and they provide the Hearth with the Watchmen, mechanical golems that act as the city's internal security force. The Watchmen are powered by an energy grid that permeates the Hearth. The Watchmen may not leave the city lest they become unpowered.
+The Hearth bankrolls the Mechanist Guild and they provide the Hearth with the [Watchmen](#the-watchmen), mechanical golems that act as the city's internal security force. The Watchmen are powered by an energy grid that permeates the Hearth. The Watchmen may not leave the city lest they become unpowered.
+
+### Factions
+
+#### The Merchant Guild
+
+Runs the Hearth. Consists of merchants, caraveeners, guards and auditors who ensure that all trade is sanctioned by the Hearth.
+
+Applies force with the [Watchmen](#the-watchmen).
+
+#### The Watchmen
+
+Mechanical golems. Controlled by the [Merchant Guild](#the-merchant-guild).
+
+#### The Mechanists
+
+Maintain the Hearth's power grid and the [Watchmen](#the-watchmen). Exist within their hierarchy falling outside of the direct purview of the [Merchant Guild](#the-merchant-guild).
 
 ### Hooks
 
@@ -108,6 +124,10 @@ In other lands, there are rumors that Aldeus is the latest product of generation
 
 The Arathean state exerts power and control throughout the land by granting local power to locally elected leaders, usually wizards.
 
+### Factions
+
+...
+
 ### Hooks
 
 - The extent of Aldeus's powers are unclear, any concrete evidence to support or contradict claims about his powers would be very valuable for interested parties throughout Golgea.
@@ -121,6 +141,10 @@ The Deep Forest is home to many of the Elves of Golgea, many ravenous fauna and 
 
 The Elves of Golgea are short lived but pass on their memories to their offspring before dying. The Elven lands are maintained by a Council of Elders who's memory lineage goes all the way back to the creation of Golgea, at least that's what is believed. Elves and their families are highly sought after as teachers and lore masters all throughout Golgea.
 
+### Factions
+
+...
+
 ### Hooks
 
 - The Elves have noticed a sickness spreading throughout their forest, making travelling through the forest and riskier proposition, and have begun seeking help from their neighbours to find the source of the problem.
@@ -133,6 +157,10 @@ A mountainous area isolated from the rest of Golgea by terrain impassable by mos
 Home to many deep dwarves who spend their days mining and exporting the minerals they find to their neighbours, storing their most precious loot in deep trapped vaults.
 
 The dwarves of Ashenbane are a long lived and ancient people who tire of their mortal coil and wish to leave this plane of existence.
+
+### Factions
+
+...
 
 ### Hooks
 
