@@ -36,7 +36,19 @@ owl bear
 
 ### Names
 
-The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_chain) to generate names that should sort of look like names from the cultures they're pulling from but not exactly. Relatively expected names can be generated but you can also get really weird and long names.
+Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_chain) to generate names that should sort of look like names from the cultures they're pulling from but not exactly. Relatively expected names can be generated but you can also get really weird and long names.
+
+{{< rpg_table name="CityName" >}}
+| dX | City Name|
+| --- | --- |
+| 1 | {Color}{Surname2}|
+| 2 | {Location}{Surname2}|
+| 3 | {PlaceTrait}{Surname2}|
+| 4 | {Element}{Surname2}|
+| 5 | {Form}{Surname2}|
+| 6 | {Symbol}{Surname2}|
+| 7 | {WackyWizardName}{Surname2}|
+{{< /rpg_table >}}
 
 {{< rpg_table name="PatronName" >}}
 | d4 | Patron Name |
@@ -63,6 +75,111 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 {{< /rpg_table >}}
 
 {{< rpg_table_button name="Surname" expr="{Surname1}{Surname2}" >}}
+
+{{< rpg_table name="WackyWizardName" is_name_table="true" >}}
+| Wacky Wizard Name |
+| --------|
+| Abrogast |
+| Angvar |
+| Armolok |
+| Asterwin |
+| Azerphon |
+| Barbaloff |
+| Boglin |
+| Borgarot |
+| Byzby |
+| Candula |
+| Chalgot |
+| Cronibal |
+| Cydinax |
+| Darj |
+| Dormog |
+| Dregwith |
+| Dulzant |
+| Elmeer |
+| Eofast |
+| Evthalon |
+| Felonse |
+| Fenundor |
+| Folgun |
+| Gandalf |
+| Garzant |
+| Gathifex |
+| Gelonvir |
+| Gilux |
+| Gyodo |
+| Hashman |
+| Helkhal |
+| Hetemtul |
+| Hoonai |
+| Ifit |
+| Ildefad |
+| Imzirian |
+| Irolo |
+| Jorkhal |
+| Jorphdan |
+| Kaldash |
+| Karneblin |
+| Kirtep |
+| Kisdal |
+| Krolgo |
+| Leodelf |
+| Lestin |
+| Lexikrin |
+| Lomard |
+| Majdin |
+| Mazifant |
+| Melkash |
+| Mizisto |
+| Mordandred |
+| Nazmok |
+| Nizmo |
+| Nobtrik |
+| Noonund |
+| Nothry |
+| Obrigal |
+| Ornoza |
+| Osrat |
+| Otilix |
+| Pandelo |
+| Panderbal |
+| Perdeo |
+| Pevin |
+| Quartat |
+| Quasmir |
+| Quilian |
+| Quinfan |
+| Redrak |
+| Roshmor |
+| Rudishan |
+| Rumalto |
+| Sekeen |
+| Sivinez |
+| Snilimar |
+| Sofnu |
+| Tasham |
+| Tchamukal |
+| Tenat |
+| Turminster |
+| Ukanel |
+| Umbalem |
+| Uneni |
+| Urokar |
+| Vanceus |
+| Vermulsin |
+| Voriel |
+| Wallester |
+| Wenton |
+| Wiltrik |
+| Xedu |
+| Xepheran |
+| Xolark |
+| Yamorthrax |
+| Yandant |
+| Zanuptra |
+| Zarugaz |
+| Zilik |
+{{< /rpg_table >}}
 
 {{< rpg_table name="EgyptianName" is_name_table="true" >}}
 | Egyptian Name |
@@ -3997,7 +4114,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 
 ### Settlements
 
-{{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
+{{< rpg_table_button name="City" expr="{CityName}. {CityTheme}, {CityTheme}, {CityTheme}." >}}
 
 {{< rpg_table_button name="Inn" expr="{InnName}.<br>Specialties:<br>Drink: {DrinkDescription}<br>Food: {FoodDescription}" >}}
 
@@ -4544,7 +4661,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |11 | Bonfire	|
 |12 | Bower	|
 |13 | Brazier	|
-|14 | {Building} (p. 47)	|
+|14 | {Buildings} (p. 47)	|
 |15 | Cairn	|
 |16 | Cart track	|
 |17 | Castle	|
@@ -4876,7 +4993,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |15 | Baths	|
 |16 | Bed chamber	|
 |17 | Brewery	|
-|18 | {Building} (p. 47)	|
+|18 | {Buildings} (p. 47)	|
 |19 | Catacombs	|
 |20 | Cave	|
 |21 | Cell	|
@@ -5187,7 +5304,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |11| Aviary	|
 |12| Bank	|
 |13| Bathhouse	|
-|14| {Building} (p. 47)	|
+|14| {Buildings} (p. 47)	|
 |15| Bunker	|
 |16| Casino	|
 |17| Castle	|
@@ -8639,7 +8756,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |10| Bells	|
 |11| Brewing	|
 |12| Bridges	|
-|13| {Building} (p. 47)	|
+|13| {Buildings} (p. 47)	|
 |14| Bureaucracy	|
 |15| Business	|
 |16| Canals	|
@@ -8850,7 +8967,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |11| Bricklayers	|
 |12| Bridge	|
 |13| Broken glass	|
-|14| {Building} (p. 47)	|
+|14| {Buildings} (p. 47)	|
 |15| Canal	|
 |16| Carpets	|
 |17| Carriages	|
@@ -9797,7 +9914,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |8| Blackmail	|
 |9| Blessing	|
 |10| Blueprints	|
-|11| {Building} (p. 47)	|
+|11| {Buildings} (p. 47)	|
 |12| Business	|
 |13| Caravel	|
 |14| Carriage	|
@@ -10879,7 +10996,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |2| Assassin leader	|
 |3| Bodyguards	|
 |4| {Book} expert (p. 40) |
-|5| {Building} (p. 47)	|
+|5| {Buildings} (p. 47)	|
 |6| Building access	|
 |7| Card shark	|
 |8| Charming	|
