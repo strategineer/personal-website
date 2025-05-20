@@ -55,7 +55,7 @@ Just use the owl bear stat block if I don't have a stat block for a creature.
 owl bear
 : AC 14, HP 20, LVL 5, ATK 2 claws (d8) and 1 bite (d8), MOV 40’, MRL 9, NA d4 (d4).
 
-# My Tables
+# My Rolls and Tables
 
 ## People
 
@@ -72,8 +72,8 @@ owl bear
 
 ### Groups
 
-{{< rpg_table name="FactionDescription" >}}
-| Faction Description |
+{{< rpg_table name="FactionDesc" >}}
+| Faction Desc |
 | --------|
 |{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
 {{< /rpg_table >}}
@@ -82,12 +82,11 @@ owl bear
 
 ### Overworld
 
-{{< rpg_table_button name="LocationDescription" expr="{PlaceTrait} {Location}">}}
+{{< rpg_table_button name="LocationDesc" expr="{PlaceTrait} {Location}">}}
 
-{{< rpg_table_button name="StructureDescription" expr="{PlaceTrait} {Structure}" >}}
+{{< rpg_table_button name="StructureDesc" expr="{PlaceTrait} {Structure}" >}}
 
 ### Settlements
-
 
 {{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
 
@@ -105,7 +104,13 @@ owl bear
 
 ### Dungeons
 
-{{< rpg_table_button name="RoomDescription" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
+{{< rpg_table name="DungeonDesc" >}}
+| Dungeon Desc |
+| --------|
+| You stumble upon the {StructureDesc} near the {LocationDesc}.<br>---The following factions are interested in this location---<br>-{FactionDesc}<br>-{FactionDesc}<br>---Revevant NPCs---<br>-{NPC}<br>-{NPC}<br>---Key Rooms---<br>-{RoomDesc}<br>-{RoomDesc}<br>-{RoomDesc}<br>-{RoomDesc}<br>-{RoomDesc}. |
+{{< /rpg_table >}}
+
+{{< rpg_table_button name="RoomDesc" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
 
 
 {{< rpg_table_button name="Trap" expr="{TrapEffect}. {Mechanism}, {Mechanism}, {Mechanism}. {Hazard}. " >}}
@@ -119,7 +124,7 @@ owl bear
 
 {{< rpg_table_button name="Relic" expr="{ItemTrait} {Item} of {GeneratedSpellForRelics}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
 
-{{< rpg_table_button name="PotionDescription" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
+{{< rpg_table_button name="PotionDesc" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
 {{< rpg_table name="SpellBookType" hide_button="true" >}}
 | d2 | Spell Book Type |
@@ -151,13 +156,13 @@ owl bear
 
 ### Food
 
-{{< rpg_table_button name="FoodDescription" expr="{FoodTrait} {Food}" >}}
+{{< rpg_table_button name="FoodDesc" expr="{FoodTrait} {Food}" >}}
 
 
 
 ## Monsters
 
-{{< rpg_table_button name="MonsterDescription" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
+{{< rpg_table_button name="MonsterDesc" expr="{MonsterTrait} {Monster}.<br>Strong/Weak? {Power}. {Weakness}. <br>Tactic? {Tactic}.<br>Sign/Sound/Scent? {Sign}. {Sound}. {Scent}.<br>Doing? {Activity}." >}}
 
 {{< rpg_table_button name="Chimera" expr="{Animal}, {Animal}. With {Organ}, {Organ}, {Organ}." >}}
 
@@ -6003,7 +6008,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |7| You’ve made an enemy. |
 |8| You have an ugly, prominent tattoo. |
 |9| Hangover: take -5 on all tests today. |
-|10| You have joined a local faction (p. 50)<br> (Faction? {FactionDescription}) |
+|10| You have joined a local faction (p. 50)<br> (Faction? {FactionDesc}) |
 |11| Robbed: Lose all remaining coin. |
 |12| You wake up in prison. |
 |13| The building is on fire! |
@@ -6011,7 +6016,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |15| A duel is scheduled for the next dawn. |
 |16| You signed a shady contract. |
 |17| A stranger’s corpse is on the floor. |
-|18| A faction hates you (p. 50)<br>(Faction? {FactionDescription}) |
+|18| A faction hates you (p. 50)<br>(Faction? {FactionDesc}) |
 |19| All your belongings have been stolen. |
 |20| You meet a new companion who wants to join your party. |
 {{< /rpg_table >}}
