@@ -5,7 +5,7 @@ no_search: true
 is_tabletop: true
 ---
 
-One-click Rollable Tables, including composite rolls, for generating spells, traps, cities, etc., using the amazing tables provided in Knave 2e ([credits and attributions](#credits)) and some of my own. If you're curious about why I built this tool or if you would like to contact me [see my notes below](#developer-notes).
+One-click Rollable Tables for generating NPCs, factions, spells, traps, cities, dungeons, etc., using the amazing tables provided in Knave 2e ([credits and attributions](#credits)) and some of my own. If you're curious about why I built this tool or if you would like to contact me [see my notes below](#developer-notes).
 
 <!--more-->
 
