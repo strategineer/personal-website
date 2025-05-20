@@ -54,12 +54,12 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 | 1 | {MaleName} {Surname} |
 | 2 | {FemaleName} {Surname} |
 | 3 | {EgyptianName} {Surname} |
-| 4 | {GermanyGermanicName} {Surname} |
-| 5 | {ItalyLatinName} {Surname} |
-| 6 | {GreeceGreekName} {Surname} |
-| 7 | {RomeNominaName} {Surname} |
-| 8 | {LiteraryArthurianName} {Surname} |
-| 9 | {ForeignNorseName} {Surname} |
+| 4 | {GermanicName} {Surname} |
+| 5 | {ItalianName} {Surname} |
+| 6 | {GreekName} {Surname} |
+| 7 | {RomanName} {Surname} |
+| 8 | {ArthurianName} {Surname} |
+| 9 | {NorseName} {Surname} |
 {{< /rpg_table >}}
 
 {{< rpg_table_button name="Surname" expr="{Surname1}{Surname2}" >}}
@@ -494,7 +494,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Zazamouk|
 {{< /rpg_table >}}
 
-{{< rpg_table name="GermanyGermanicName" is_name_table="true" >}}
+{{< rpg_table name="GermanicName" is_name_table="true" >}}
 | Germanic Name |
 | ----- |
 |Adalgisa|
@@ -784,7 +784,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Yvonne|
 {{< /rpg_table >}}
 
-{{< rpg_table name="ItalyLatinName" is_name_table="true" >}}
+{{< rpg_table name="ItalianName" is_name_table="true" >}}
 | Italian Name |
 | ----- |
 |7Boninsegna|
@@ -1228,7 +1228,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Vivaldo|
 {{< /rpg_table >}}
 
-{{< rpg_table name="GreeceGreekName" is_name_table="true" >}}
+{{< rpg_table name="GreekName" is_name_table="true" >}}
 | Greek Name |
 | ----- |
 |Acacia|
@@ -1422,7 +1422,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Zinara|
 {{< /rpg_table >}}
 
-{{< rpg_table name="RomeNominaName" is_name_table="true" >}}
+{{< rpg_table name="RomanName" is_name_table="true" >}}
 | Roman Name |
 | ----- |
 |Accius|
@@ -1520,7 +1520,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Vitruvius|
 {{< /rpg_table >}}
 
-{{< rpg_table name="LiteraryArthurianName" is_name_table="true" >}}
+{{< rpg_table name="ArthurianName" is_name_table="true" >}}
 | Arthurian Name |
 | ----- |
 |Ablamar|
@@ -2244,7 +2244,7 @@ The following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_ch
 |Ywein|
 {{< /rpg_table >}}
 
-{{< rpg_table name="ForeignNorseName" is_name_table="true" >}}
+{{< rpg_table name="NorseName" is_name_table="true" >}}
 | Norse Name |
 | ----- |
 |Aaric|

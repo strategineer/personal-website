@@ -198,7 +198,11 @@ let strip_page_numbers = true;
 function generate_name(type) {
   let chain;
   if ((chain = markov_chain(type))) {
-    return markov_name(chain);
+    if (gen_debug) {
+      return "[" + type + ":" + markov_name(chain) + "]";
+    } else {
+      return markov_name(chain);
+    }
   }
   return "";
 }
