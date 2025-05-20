@@ -96,6 +96,10 @@ function key_range(key) {
 
 function expand_tokens(string) {
   let match;
+  while ((match = /{(\d+d\d+)}/.exec(string))) {
+    let expr = match[1];
+    string = string.replace("{" + expr + "}", roll(expr));
+  }
   while ((match = /{(\w+)}/.exec(string))) {
     let token = match[1];
 

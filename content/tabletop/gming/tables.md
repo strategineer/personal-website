@@ -30,7 +30,7 @@ Also, the Knave 2e rulebook encourages you to roll on many different tables to c
 
 ### How does this page work?
 
-Basically, press a button to generate the specified thing.
+Basically, press a button to generate the specified thing (See the [spell book button](#spells-and-relics) or the [NPC button](#npcs) if you're unsure of where to start).
 
 The ordering of the Knave 2e tables follows their ordering in the rulebook. The organisation of my composite tables is based on my own preference but generally I've tried to organize the buttons into sensible categories to help me find the ones I need during play, prep or both.
 
@@ -38,6 +38,7 @@ If you're curious to know exactly where the rolled results (recursive ones inclu
 
 ### Features I'd like to add
 
+- A roll history
 - Add a button to show the underlying table data for each of the buttons (Temporarily you can open the console in your browser of choice, F12 on Firefox, then check the `gen_data` which contains all the data for all the tables)
 - Add tables for generating more kinds of names, place names, monster names, patron/god names, faction names.
 - Shareable custom rolls to make it easier for me to test rolls before implementing them fully 
@@ -61,14 +62,14 @@ owl bear
 
 ### NPCs
 
+{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
+
 {{< rpg_table name="Name" >}}
 | d2 | NPC |
 | --- | --------|
 | 1 | {MaleName} {Surname1}{Surname2} |
 | 2 | {FemaleName} {Surname1}{Surname2} |
 {{< /rpg_table >}}
-
-{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}. {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal} ({Archetype}).<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
 
 ### Groups
 
@@ -90,15 +91,14 @@ owl bear
 
 {{< rpg_table_button name="City" expr="{CityTheme}. {CityTheme}, {CityTheme}. Streets: {StreetDetail}, {StreetDetail}, {StreetDetail}." >}}
 
-
-{{< rpg_table_button name="Inn" expr="{InnName}.<br>Specialties:<br>Drink: {Color} color, tastes like {Taste}, smells like {Scent}.<br>Food: {Food}. Tastes like {Taste}, smells like {Scent}." >}}
+{{< rpg_table_button name="Inn" expr="{InnName}.<br>Specialties:<br>Drink: {DrinkDesc}<br>Food: {FoodDesc}" >}}
 
 
 {{< rpg_table name="InnName" >}}
 | d2| Inn |
 | --- | --------|
-| 1 | {InnName1} {InnName2} |
-| 2 | {InnName2} {InnName2} |
+| 1 | The {InnName1} {InnName2} |
+| 2 | The {InnName2} and {InnName2} |
 {{< /rpg_table >}}
 
 
@@ -154,10 +154,11 @@ owl bear
 | 6 | The {Quality} {Effect} {Element} |
 {{< /rpg_table >}}
 
-### Food
+### Food and Drink
 
-{{< rpg_table_button name="FoodDesc" expr="{FoodTrait} {Food}" >}}
+{{< rpg_table_button name="FoodDesc" expr="{FoodTrait} {Food}. Tastes like {Taste}, smells like {Scent}." >}}
 
+{{< rpg_table_button name="DrinkDesc" expr="{Color} color, tastes like {Taste}, smells like {Scent}." >}}
 
 
 ## Monsters
