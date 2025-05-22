@@ -82,7 +82,7 @@ It's a great way to end a session on a high note, reminding players of all the c
 
 Explicitly applying this rule broadly into other systems isn't very easy unless you're playing something like {{< book_url "9798218255299" >}} or {{< book_url "9781944413217" >}} where the PCs are soldiers sent out on missions. In games like this, it would be expected for PCs to return to base after every mission to debrief with their supervising officer.
 
-If you're playing a game where this isn't the case, then I've found that pushing myself to have NPCs simply ask the PCs questions about the things they've done recently achieves a similar effect. Sometimes this can feel a little unnatural from the GM's perspective because both the GM and the players know fully well what they just did and the hijinks they got themselves into. If this is the case for you, try to push past it and see if your players enjoy these sorts of in-character debriefings of their play.
+If you're playing a game where this isn't the case, then I've found that pushing myself to have NPCs simply ask the PCs questions about the things they've done recently achieves a similar effect. Sometimes this can feel a little unnatural from the GM's perspective because both the GM and the players know fully well what the PCs just did and the hijinks they got themselves into. If this is the case for you, try to push past it and see if your players enjoy these sorts of in-character debriefings of their play.
 
 I've found that giving the players an opportunity to gloat about, commemorate and reflect on their actions in-character often makes for great roleplay and more memorable sessions.
 
