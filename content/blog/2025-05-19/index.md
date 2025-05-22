@@ -76,7 +76,7 @@ One caveat to this is that this rule might make a game less lethal by reducing t
 
 # The In-Character Debriefing
 
-Paranoia is a great system, it's bold, evocative and extremely English. If you forced me to pick the one part of it that I like the most, it would be the debriefing that the PCs have with their supervising officer.
+Paranoia is a great system, it's bold, evocative and extremely English. If you forced me to pick the one part of it that I like the most, it would be the debriefing that the PCs have with their supervising officer at the end of each mission.
 
 It's a great way to end a session on a high note, reminding players of all the choices they made and the hijinks they got themselves into, amplifying the fun of it all.
 
