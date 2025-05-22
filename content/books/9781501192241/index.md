@@ -3,7 +3,7 @@ authors:
 - Stephen King
 books/tags:
 - horror
-date: 2025-05-20
+date: 2025-05-22
 params:
   isbn13: '9781501192241'
   year: '2016'
