@@ -4,7 +4,7 @@ date: 2025-05-19
 blog/tags:
   - tabletop
 ---
-Most of the tabletop RPG systems (and some modules) that I'm familiar with are gathering together today to party like it's 2025 and they've all brought something to the table (my brain).
+Most of the tabletop RPG systems that I'm familiar with are gathering together today to party like it's 2025 and they've all brought something to the table (my brain).
 
 In no particular order, here's a show and tell of the most interesting mechanics from TTRPG systems that I've played and/or ran in the past few years.
 
@@ -78,13 +78,13 @@ One caveat to this is that this rule might make a game less lethal by reducing t
 
 # The In-Character Debriefing
 
-Paranoia is a great system, it's bold, evocative and extremely English. If you forced me to pick the one part of it that I like the most, it would be the debriefing that the PCs have with their supervising officer.
+Paranoia is a great system, it's bold, evocative and extremely English. If you forced me to pick the one part of it that I like the most, it would be the debriefing that the PCs have with their supervising officer at the end of each mission.
 
 It's a great way to end a session on a high note, reminding players of all the choices they made and the hijinks they got themselves into, amplifying the fun of it all.
 
 Explicitly applying this rule broadly into other systems isn't very easy unless you're playing something like {{< book_url "9798218255299" >}} or {{< book_url "9781944413217" >}} where the PCs are soldiers sent out on missions. In games like this, it would be expected for PCs to return to base after every mission to debrief with their supervising officer.
 
-If you're playing a game where this isn't the case, then I've found that pushing myself to have NPCs simply asks the PCs questions about the things they've done recently achieves a similar effect. Sometimes this can feel a little unnatural from the GM's perspective because both the GM and the players know fully well what they just did and the hijinks they got themselves into. If this is the case for you, try to push past it and see if your players enjoy these sorts of in-character debriefings of their play.
+If you're playing a game where this isn't the case, then I've found that pushing myself to have NPCs simply ask the PCs questions about the things they've done recently achieves a similar effect. Sometimes this can feel a little unnatural from the GM's perspective because both the GM and the players know fully well what the PCs just did and the hijinks they got themselves into. If this is the case for you, try to push past it and see if your players enjoy these sorts of in-character debriefings of their play.
 
 I've found that giving the players an opportunity to gloat about, commemorate and reflect on their actions in-character often makes for great roleplay and more memorable sessions.
 
@@ -100,7 +100,7 @@ As you've likely experienced yourself, many campaigns peter out. Having an expli
 
 Knowing that the end is nigh, provides players with a lot of interesting roleplaying opportunities. What do the PCs choose to do when they know that the world is going to end in a few days? Answering those kinds of questions at the table can be really fun.
 
-Not every campaign needs to be framed with a world-ending apocalypse. But, most campaigns could be improved by the GM thinking constantly about the passage of time and how it can impact the game world. For example, what if there's a big dungeon with a ton of loot and people living in it? How would the PCs react if they knew that the dungeon was going to collapse in 7 days?
+Not every campaign needs to be framed with a world-ending apocalypse though. But, most campaigns could be improved by the GM thinking constantly about the passage of time and how it can impact the game world. For example, what if there's a big dungeon with a ton of loot and people living in it? How would the PCs react if they knew that the dungeon was going to collapse in 7 days?
 
 I don't know but I'm sure it would be interesting to find out.
 
@@ -110,7 +110,7 @@ I don't know but I'm sure it would be interesting to find out.
 
 I've already [written quite a bit about my obsession with forcing players to come up with connections their PCs have with each other and with NPCs during character creation](/blog/2024-11-18/#force-players-to-think-about-relationships-between-their-own-characters-and-the-setting-during-character-creation) so I'll keep this short.
 
-Determining how the PCs know each other and who they know in the world during character creation does wonders for giving the GM something to riff off of and helps build the world before the first session even begins. And, it gives players an initial thrust into thinking about their PC as something more than just a sheet of stats.
+Determining how the PCs know each other and who they know in the world during character creation does wonders for giving the GM something to riff off of and helps build the world before the first session even begins. And, it gives players an initial thrust into thinking about their PCs as something more than just a sheet of stats.
 
 Also, letting players contribute meaningfully to the setting of the game right from the start is great for me because I'm interested in collaborative storytelling and I've found that the more opportunities I give players to meaningfully contribute to the story being told at the table, the more they end up enjoying the roleplaying experience.
 
