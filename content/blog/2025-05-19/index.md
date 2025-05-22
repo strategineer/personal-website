@@ -98,7 +98,7 @@ As you've likely experienced yourself, many campaigns peter out. Having an expli
 
 Knowing that the end is nigh, provides players with a lot of interesting roleplaying opportunities. What do the PCs choose to do when they know that the world is going to end in a few days? Answering those kinds of questions at the table can be really fun.
 
-Not every campaign needs to be framed with a world-ending apocalypse. But, most campaigns could be improved by the GM thinking constantly about the passage of time and how it can impact the game world. For example, what if there's a big dungeon with a ton of loot and people living in it? How would the PCs react if they knew that the dungeon was going to collapse in 7 days?
+Not every campaign needs to be framed with a world-ending apocalypse though. But, most campaigns could be improved by the GM thinking constantly about the passage of time and how it can impact the game world. For example, what if there's a big dungeon with a ton of loot and people living in it? How would the PCs react if they knew that the dungeon was going to collapse in 7 days?
 
 I don't know but I'm sure it would be interesting to find out.
 
