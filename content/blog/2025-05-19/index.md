@@ -108,7 +108,7 @@ I don't know but I'm sure it would be interesting to find out.
 
 I've already [written quite a bit about my obsession with forcing players to come up with connections their PCs have with each other and with NPCs during character creation](/blog/2024-11-18/#force-players-to-think-about-relationships-between-their-own-characters-and-the-setting-during-character-creation) so I'll keep this short.
 
-Determining how the PCs know each other and who they know in the world during character creation does wonders for giving the GM something to riff off of and helps build the world before the first session even begins. And, it gives players an initial thrust into thinking about their PC as something more than just a sheet of stats.
+Determining how the PCs know each other and who they know in the world during character creation does wonders for giving the GM something to riff off of and helps build the world before the first session even begins. And, it gives players an initial thrust into thinking about their PCs as something more than just a sheet of stats.
 
 Also, letting players contribute meaningfully to the setting of the game right from the start is great for me because I'm interested in collaborative storytelling and I've found that the more opportunities I give players to meaningfully contribute to the story being told at the table, the more they end up enjoying the roleplaying experience.
 
