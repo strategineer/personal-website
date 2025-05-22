@@ -240,7 +240,7 @@ Some of your prep time will be wasted no matter what you do--especially when run
 
 For example, our first session ended at a fork in the dungeon leading to two paths. I didn't confirm with players which direction they wanted to go in before the session ended. So, I prepped for both choices when instead I could have spent twice as much prep time on the path they ended up taking.
 
-You might be wondering if that prep work really was wasted, presumably the party would have double back and taken that path. Twelve sessions later, they never did and so that prep was truly wasted.
+You might be wondering if that prep work really was wasted, presumably the party would have doubled back and taken that path. Twelve sessions later, they never did and so that prep was truly wasted.
 
 ### Give players opportunities to accelerate their dungeon exploration
 
