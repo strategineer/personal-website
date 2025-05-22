@@ -4145,7 +4145,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ### Spells and Relics
 
-{{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {GeneratedSpell}" >}}
+{{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {GeneratedSpell}" count="10" >}}
 
 {{< rpg_table_button name="Relic" expr="{ItemTrait} {Item} of {GeneratedSpellForRelics}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
 
