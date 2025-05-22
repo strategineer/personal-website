@@ -4,7 +4,7 @@ date: 2025-05-19
 blog/tags:
   - tabletop
 ---
-Most of the tabletop RPG systems (and some modules) that I'm familiar with are gathering together today to party like it's 2025 and they've all brought something to the table (my brain).
+Most of the tabletop RPG systems that I'm familiar with are gathering together today to party like it's 2025 and they've all brought something to the table (my brain).
 
 In no particular order, here's a show and tell of the most interesting mechanics from TTRPG systems that I've played and/or ran in the past few years.
 
