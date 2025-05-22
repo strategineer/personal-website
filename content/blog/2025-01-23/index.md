@@ -276,7 +276,7 @@ Putting in the time and effort to improve at every part of it has paid dividends
 
 I was so happy when I whipped out a voice for a "grumpy old man performing a crappy stand-up comedy routine" at a party I was attending recently and got a really positive reaction to it.
 
-I wouldn't have had the confidence or the skills to do that without forcing myself to do funny voices every week when GMing this campaign.
+I wouldn't have had the confidence or the skills to do that without forcing myself to come up funny voices GMing this campaign.
 
 The Maze of the Blue Medusa features a ton of wild characters, and trying--sometimes failing--to give all of them unique voices was a great learning experience and a ton of fun for my players and me.
 
