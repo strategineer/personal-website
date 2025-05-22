@@ -1,28 +1,70 @@
 ---
-title: "DRAFT: Knave 2e gods, magic and stats."
+title: "DRAFT: Knave 2e's divine and arcane magic and what it means gods, magic and stats."
 date: 2025-05-21
 blog/tags:
   - tabletop
 draft: true
 ---
 
-Knave 2e implicit design
+Knave 2nd edition is Ben Milton's second attempt at designing an OSR TTRPG, a followup to his previous design, Maze Rats. Having prepped for and GMed a session of it last week ([I ran an expedition into the Gloam Wood from Joseph R. Lewis's Nightmare over Ragged Hollow if you're curious](/books/nightmare_over_ragged_hollow/)), Maze Rats blew me away with how both simple it is (perfect for one-shots or introducing players to OSR style play) and how creative its magic system is (the names of spells are rolled using a few tables and then the GM makes ruling to decide how they're going to be used, [I've written about this here](/blog/2025-05-19/)).
 
-Tying magic items, called relics in Knave 2e, to gods, called patrons means that PCs have to devote themselves to serving the gods to gain their favor and boons, in the form of relics. 
+But, Maze Rats is a little too simple for my taste, it leaves very little room for non-magic oriented characters to shine mechanically and in the long run Maze Rats simplicity would make it hard for me to differentiate combat encounters from one another.
 
-Breaking these pacts with the gods, would lead to these objects of power, losing their power at best out at worst cursing those who try to make use of them. 
+So, when I learned that Knave 2e, also designed by [Ben Milton](https://www.youtube.com/@QuestingBeast), retained Maze Rats's amazing magic system and tuned up the crunch in all the other directions, I was ecstatic.
 
-NB: Knave 2e would be great for running a campaign set in Mythical Ancient Greece.
+[5 days later]
 
-Implicitly gods exist and their existence is common knowledge.
+To say that that I've gone all-in on Knave 2e since then would be an understatement. I've spent around sixteen hours [building a page to facilitate rolling on Knave's 2e many tables](/tabletop/gming/tables/), leveraging [drow's freely available RNG code](https://donjon.bin.sh/code/) to allow for this and expanding on what's already there (specifically using Markov chains to add more variety to the name generation tables and to allow for generating names for patrons and cities).
+
+I've also spent quite a bit of time thinking about the Knave 2e rules and the presuppositions it makes about the kinds of campaign settings that will be used with it.
+
+Like many OSR TTRPGs that don't come with a "default" setting, Knave 2e is quite flexible and I can see myself using these rules for just about any kind of fantasy setting. With a bit of massaging and adding some of my own tables, I can see myself running a science fantasy campaign with the Knave 2e rules.
+
+So, the Knave 2e rules aren't very prescriptive about the setting your game should take place in. Despite this, any attempt at designing a TTRPG requires the designer to make choices based on certain assumptions about GMs, players, and good TTRPG-design and, in doing so, prescribe to some extent how that play should occur at the table. As someone looking to use Knave 2e in my own campaign setting, these design choices are especially interesting to me because I'll to unpack them to fit the Knave 2e rules to my setting or tweak my setting to support a campaign using Knave 2e.
+
+So, let's start off with the basics.
+
+Knave 2e assumes a fantasy setting of some sort. This should be pretty obvious from glancing at the rules, the art, the tables, the rules themselves clearly point to a (mostly, we'll get into it) generic fantasy setting. Even so, hacking the system to make it work for a science fantasy campaign doesn't seem like it would be too hard.
+
+One of the bold choices that Milton makes in Knave 2e, is drawing a hard line between arcane magic and divine magic. See below from Ben Milton's Designer Commentary section of the rules:
+
+{{< quote "73">}}
+Unlike arcane magic, relic magic is relational and requires the PC to actually devote themselves to a cause (or at least act like it). A player using relic magic is a great opportunity for the GM to create adventure hooks and missions for the party to embark on, or to present them with moral quandaries.
+{{< /quote >}}
+
+In Knave 2e, spellbooks and potions are categorized as arcane magic whereas relics (more commonly known as "magic items" in other fantasy OSR games) are categorized as divine magic.
+
+And so, in one fell swoop, Milton has created a set of rules that mechanically empowers non-arcane PCs with the ability to gain favor with a patron (Knave 2e's word for god), hopefully by roleplaying through fun adventures, and then have them reward the PC for their devotion with relics accordingly.
+
+A PC's Charisma stat determines how many divine boons they can have while their Intelligence stat determines how many spells they can cast per day. This separation is mechanically interesting because it forces players to choose between going all in on spells which are insanely cool in Knave 2e or going all in on relics which are also insanely cool in Knave 2e, or going for a mix of both.
+
+So, to re-iterate, patrons grant PCs with relics as gifts in return for their devotion and labor (missions, etc.)
+
+Firstly, although this system doesn't require a pantheon of gods, I think that it actively encourages it. A singular patron granting relics to their true faithful, running around and pogrom-ing everyone else seems like a nightmare of a roleplaying scenario (although I'm sure enterprising GMs could make it work).
+
+So, let's assume that our *ideal" Knave 2e campaign setting involves a pantheon of gods of some kind.
+
+Already, this is lighting a fire in my brain because I love Greek Mythology and I can see myself running a Greek Mythology themed campaign using Knave 2e with very little changes to the rules.
+
+{{< quote "32">}}
+[Patrons] might be petty gods, saints, nature spirits, outsiders, etc. GMs should treat patrons like NPCs, giving them goals, personalities, mannerisms, etc. 
+{{< /quote >}}
+
+Also, I would argue that these rules explicitly state that patrons (or gods) exist and they imply that their existence is common knowledge.
+
+The Knave 2e rulebooks states the following:
+
+{{< quote "32">}}
+Shrines are religious sites dedicated to particular patrons where PCs may freely communicate with them, assuming they have the patron’s favor and at least one of their relics. Cities have shrines to every patron, towns have d6 shrines, and villages usually only have a single shrine.
+{{< /quote >}}
 
 Explicitly, big cities are said to have shrines to all the gods. Perhaps some are less obvious than others but worshippers of a god can find a shrine for them.
 
-This means that the system as written is open to dealing with issues of religious persecution but the problem underlying this conflict wouldn't be one of existence vs. nonexistence. 
+This means that the system as written is open to dealing with issues of religious persecution but the problem underlying these kinds of conflicts wouldn't be one of existence vs. nonexistence but rather .
 
-As designed though, it seems that Knave 2e is more well suited for a setting where the gods are specific to a few domains (think Christian God vs. Mnemosyne, the Greek god of memory) and regular people tend to pray to one or another based on need rather than singular devotion. 
+As designed though, it seems that Knave 2e is more well suited for a setting where the gods are specific to a few domains (think Christian God vs. Mnemosyne, the Greek god of memory) and regular people pray to one or another based on need rather than singular devotion. 
 
-Certain gods might have a clerical class (priests, druids, death cultist leaders) who are more devoted and serve as more direct representation of the gods in the earthly realm
+Certain gods might have a clerical class (priests, druids, death cultist leaders) who are more devoted and serve as more direct representation of the gods on the earthly realm.
 
 The system as written is packed with potential energy...
 

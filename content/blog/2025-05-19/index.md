@@ -8,6 +8,8 @@ Most of the tabletop RPG systems (and some modules) that I'm familiar with are g
 
 In no particular order, here's a show and tell of the most interesting mechanics from TTRPG systems that I've played and/or ran in the past few years.
 
+<!--more-->
+
 {{< book "maze_rats" >}}
 
 # Spark Tables
