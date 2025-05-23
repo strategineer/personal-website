@@ -2,7 +2,7 @@
 authors:
 - Dante
 books/tags:
-- currently-reading
+- did-not-finish
 - myth
 date: 2025-03-31
 params:
