@@ -14,3 +14,5 @@ title: The Divine Comedy
 ---
 
 <!--more-->
+
+Finished Inferno, taking a break. Although this translation of the divine comedy seems great, reading through it feels like the literary equivalent of eating my vegetables.
