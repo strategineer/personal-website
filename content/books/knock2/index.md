@@ -4,8 +4,7 @@ authors:
 books/tags:
 - 5star
 - tabletop
-- currently-reading
-date: 2025-05-23
+date: 2025-05-22
 params:
   year: '2022'
 slug: 'knock2'
