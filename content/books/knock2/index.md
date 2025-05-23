@@ -5,11 +5,11 @@ books/tags:
 - 5star
 - tabletop
 - currently-reading
-date: 2025-05-18
+date: 2025-05-23
 params:
   year: '2022'
 slug: 'knock2'
-star_rating: null
+star_rating: 5
 title: "Knock #2"
 ---
 
