@@ -34,6 +34,49 @@ owl bear
 
 ## People
 
+### Characters
+
+{{< rpg_table_button name="PC" expr="{Name}<br>{PCStats}<br>HP: {1d6} (1d6)<br># of item slots: 10 + CON<br>Careers and Inventory:<br>{Career}<br>{Career}<br>And anything you can carry from the following list: 3d6×10 coins, 2 rations, a 50’ rope, 2 torches, any armor pieces or weapons (p. 38) and a quiver of 20 arrows.<br>If the PC has any points in INT, they may receive a random spell book (pp. 22-25) for each point.<br>">}}
+
+{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
+
+
+{{< rpg_table name="PCStats" >}}
+| d30 | Lvl 1 PC Stats |
+| --- | --- |
+| 1 |STR: 0, DEX: 0, CON: 0, INT: 0, WIS: 1, CHA: 2|
+| 2 |STR: 0, DEX: 0, CON: 0, INT: 0, WIS: 2, CHA: 1|
+| 3 |STR: 0, DEX: 0, CON: 0, INT: 1, WIS: 0, CHA: 2|
+| 4 |STR: 0, DEX: 0, CON: 0, INT: 1, WIS: 2, CHA: 0|
+| 5 |STR: 0, DEX: 0, CON: 0, INT: 2, WIS: 0, CHA: 1|
+| 6 |STR: 0, DEX: 0, CON: 0, INT: 2, WIS: 1, CHA: 0|
+| 7 |STR: 0, DEX: 0, CON: 1, INT: 0, WIS: 0, CHA: 2|
+| 8 |STR: 0, DEX: 0, CON: 1, INT: 0, WIS: 2, CHA: 0|
+| 9 |STR: 0, DEX: 0, CON: 1, INT: 2, WIS: 0, CHA: 0|
+| 10 |STR: 0, DEX: 0, CON: 2, INT: 0, WIS: 0, CHA: 1|
+| 11 |STR: 0, DEX: 0, CON: 2, INT: 0, WIS: 1, CHA: 0|
+| 12 |STR: 0, DEX: 0, CON: 2, INT: 1, WIS: 0, CHA: 0|
+| 13 |STR: 0, DEX: 1, CON: 0, INT: 0, WIS: 0, CHA: 2|
+| 14 |STR: 0, DEX: 1, CON: 0, INT: 0, WIS: 2, CHA: 0|
+| 15 |STR: 0, DEX: 1, CON: 0, INT: 2, WIS: 0, CHA: 0|
+| 16 |STR: 0, DEX: 1, CON: 2, INT: 0, WIS: 0, CHA: 0|
+| 17 |STR: 0, DEX: 2, CON: 0, INT: 0, WIS: 0, CHA: 1|
+| 18 |STR: 0, DEX: 2, CON: 0, INT: 0, WIS: 1, CHA: 0|
+| 19 |STR: 0, DEX: 2, CON: 0, INT: 1, WIS: 0, CHA: 0|
+| 20 |STR: 0, DEX: 2, CON: 1, INT: 0, WIS: 0, CHA: 0|
+| 21 |STR: 1, DEX: 0, CON: 0, INT: 0, WIS: 0, CHA: 2|
+| 22 |STR: 1, DEX: 0, CON: 0, INT: 0, WIS: 2, CHA: 0|
+| 23 |STR: 1, DEX: 0, CON: 0, INT: 2, WIS: 0, CHA: 0|
+| 24 |STR: 1, DEX: 0, CON: 2, INT: 0, WIS: 0, CHA: 0|
+| 25 |STR: 1, DEX: 2, CON: 0, INT: 0, WIS: 0, CHA: 0|
+| 26 |STR: 2, DEX: 0, CON: 0, INT: 0, WIS: 0, CHA: 1|
+| 27 |STR: 2, DEX: 0, CON: 0, INT: 0, WIS: 1, CHA: 0|
+| 28 |STR: 2, DEX: 0, CON: 0, INT: 1, WIS: 0, CHA: 0|
+| 29 |STR: 2, DEX: 0, CON: 1, INT: 0, WIS: 0, CHA: 0|
+| 30 |STR: 2, DEX: 1, CON: 0, INT: 0, WIS: 0, CHA: 0|
+{{< /rpg_table >}}
+
+
 ### Names
 
 Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_chain) to generate names that should sort of look like names from the cultures they're pulling from but not exactly. Relatively expected names can be generated but you can also get really weird and long names.
@@ -4089,11 +4132,6 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 | 2 | likes {Domain} and hates {Domain} |
 | 3 | hates {Domain} and hates {Domain} |
 {{< /rpg_table >}}
-
-
-### NPCs
-
-{{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
 
 
 ### Groups

@@ -11,6 +11,7 @@ import sys
 import urllib
 import re
 from collections import Counter
+import itertools
 
 from PIL import Image
 from mergedeep import merge
@@ -200,6 +201,11 @@ def delete_blog_thumbnails():
     for filename in filenames:
         Path(filename).unlink()
 
+@click.command()
+def knave_stats():
+    for str, dex, con, int, wis, cha in sorted(set(itertools.permutations([2, 1, 0, 0, 0, 0]))):
+        print(f"STR: {str}, DEX: {dex}, CON: {con}, INT: {int}, WIS: {wis}, CHA: {cha}")
+    
 @click.command()
 @click.argument('urls', nargs=-1, type=str)
 def scrape_onomastikon(urls):
@@ -605,6 +611,7 @@ cli.add_command(stats)
 cli.add_command(book_rating_shifter)
 cli.add_command(delete_blog_thumbnails)
 cli.add_command(scrape_onomastikon)
+cli.add_command(knave_stats)
 
 if __name__ == "__main__":
     cli()

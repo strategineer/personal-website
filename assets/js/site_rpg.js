@@ -157,6 +157,20 @@ class DiceRoller {
 }
 
 /**
+ * Random integer between two numbers (stolen from underscorejs)
+ * @param {Number} [min=0] mininum value
+ * @param {Number} [max=null] maximum value
+ * @returns {Number} random value
+ */
+const randomInteger = function (min = 0, max = null) {
+  if (max == null) {
+      max = min;
+      min = 0;
+  }
+  return min + Math.floor(Math.random() * (max - min + 1));
+};
+
+/**
  * takes a string like '3d6+2', 'd6', '2d6', parses it, and puts it through roll
  * @params {String} string a die roll notation
  * @returns {Number} the result of the roll
