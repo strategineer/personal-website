@@ -4,12 +4,11 @@ authors:
 books/tags:
 - 5star
 - tabletop
-- owned-but-unread
-date: 2025-05-18
+date: 2025-05-23
 params:
   year: '2024'
 slug: 'knock4'
-star_rating: null
+star_rating: 5
 title: "Knock #4"
 ---
 
