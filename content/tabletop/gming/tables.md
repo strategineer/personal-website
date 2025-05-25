@@ -40,6 +40,11 @@ owl bear
 
 {{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
 
+{{< rpg_table_button name="Wizard" expr="{WackyWizardName}.<br>{WizardDescription}." >}}
+
+
+{{< rpg_table_button name="WizardDescription" expr="{Personality}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
+
 
 {{< rpg_table name="PCStats" >}}
 | d30 | Lvl 1 PC Stats |
@@ -4122,8 +4127,9 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ### Gods/Patrons
 
+{{< rpg_table_button name="Patron" expr="{PatronName}<br>{PatronDescription}." >}}
 
-{{< rpg_table_button name="Patron" expr="{PatronName} the Patron, {PatronDomains}.<br>Symbol: {Symbol}.<br>Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}." >}}
+{{< rpg_table_button name="PatronDescription" expr="{PatronDomains}.<br>Symbol: {Symbol}.<br>Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}." >}}
 
 {{< rpg_table name="PatronDomains" >}}
 | d3 | Patron Domains |
@@ -4185,7 +4191,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 {{< rpg_table_button name="SpellBook" expr="{SpellBookType} of {GeneratedSpell}" count="10" >}}
 
-{{< rpg_table_button name="Relic" expr="{ItemTrait} {Item} of {GeneratedSpellForRelics}. {Decoration}. Made of {Material}.<br>Patron: {Patron}" >}}
+{{< rpg_table_button name="Relic" expr="{ItemTrait} {Item} of {GeneratedSpellForRelics}. {Decoration}. Made of {Material}.<br>Patron: {PatronName:PatronDescription}." >}}
 
 {{< rpg_table_button name="PotionDescription" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
@@ -5977,7 +5983,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 {{< /rpg_table >}}
 
 {{< rpg_table name="GeneratedSpell" >}}
-| d12 | GeneratedSpell |
+| d12 | Generated Spell |
 | --- | --------|
 | 1 | {Element} {Form} |
 | 2 | {Effect} {Form} |
@@ -5985,12 +5991,12 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 | 4 | The {Quality} {Element} {Form} |
 | 5 | The {Quality} {Effect} {Form} |
 | 6 | The {Quality} {Effect} {Element} |
-| 7 | {WizardName}’s {Element} {Form} |
-| 8 | {WizardName}’s {Effect} {Form} |
-| 9 | {WizardName}’s {Effect} {Element} |
-| 10 | {WizardName}’s {Quality} {Element} {Form} |
-| 11 | {WizardName}’s {Quality} {Effect} {Form} |
-| 12 | {WizardName}’s {Quality} {Effect} |
+| 7 | {WackyWizardName:WizardDescription}’s {Element} {Form} |
+| 8 | {WackyWizardName:WizardDescription}’s {Effect} {Form} |
+| 9 | {WackyWizardName:WizardDescription}’s {Effect} {Element} |
+| 10 | {WackyWizardName:WizardDescription}’s {Quality} {Element} {Form} |
+| 11 | {WackyWizardName:WizardDescription}’s {Quality} {Effect} {Form} |
+| 12 | {WackyWizardName:WizardDescription}’s {Quality} {Effect} |
 {{< /rpg_table >}}
 
 

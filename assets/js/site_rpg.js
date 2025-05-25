@@ -1,3 +1,10 @@
+let name_set = {};
+let chain_cache = {};
+
+let gen_data = {};
+let gen_debug = false;
+let strip_page_numbers = true;
+
 // rpg_table_randomizer
 /* eslint-disable no-useless-escape */
 
@@ -164,8 +171,8 @@ class DiceRoller {
  */
 const randomInteger = function (min = 0, max = null) {
   if (max == null) {
-      max = min;
-      min = 0;
+    max = min;
+    min = 0;
   }
   return min + Math.floor(Math.random() * (max - min + 1));
 };
@@ -194,12 +201,6 @@ const getDiceResult = function (die = "") {
 };
 
 // name_generator.js
-let name_set = {};
-let chain_cache = {};
-
-let gen_data = {};
-let gen_debug = false;
-let strip_page_numbers = true;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // name_generator.js
@@ -371,14 +372,25 @@ function select_link(chain, key) {
 // generator function
 
 function generate_text(type) {
+  let details = [];
+  let repl = generate_text_helper(type, details);
+  if (details.length > 0) {
+    return repl + "<br>[" + details.join("<br") + "]";
+  } else {
+    return repl;
+  }
+}
+
+function generate_text_helper(type, details, context = {}) {
   let list;
   if ((list = gen_data[type])) {
     let string;
     if ((string = select_from(list))) {
+      let repl = expand_tokens(string, details, context).trim();
       if (gen_debug) {
-        return "[" + type + ":" + expand_tokens(string).trim() + "]";
+        return "[" + type + ":" + repl + "]";
       } else {
-        return expand_tokens(string).trim();
+        return repl;
       }
     }
   }
@@ -454,22 +466,39 @@ function key_range(key) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // expand {token} in string
 
-function expand_tokens(string) {
+function expand_tokens(string, details, context) {
   let match;
+  let detail = null;
   while ((match = /{(\d+d\d+)}/.exec(string))) {
     let expr = match[1];
     string = string.replace("{" + expr + "}", roll(expr));
   }
-  while ((match = /{(\w+)}/.exec(string))) {
+  while (
+    (match = /{(\w+)}/.exec(string)) ||
+    (match = /{(\w+:\w+)}/.exec(string))
+  ) {
+    let full_match = match[0];
     let token = match[1];
 
+    const detail_separator = ":";
+    if (token.includes(detail_separator)) {
+      let splitted = token.split(detail_separator);
+      token = splitted[0];
+      let left =
+        generate_text_helper(token, details, context) || generate_name(token);
+      context[token] = left;
+      let right = generate_text_helper(splitted[1], details, context);
+      details.push(`${left}:${right}`);
+    }
     let repl;
-    if ((repl = generate_text(token))) {
-      string = string.replace("{" + token + "}", repl);
-    } else if ((repl = generate_name(token))) {
-      string = string.replace("{" + token + "}", repl);
+    if (
+      (repl = context[token]) ||
+      (repl = generate_text_helper(token, details, context)) ||
+      (repl = generate_name(token))
+    ) {
+      string = string.replace(full_match, repl);
     } else {
-      string = string.replace("{" + token + "}", token);
+      string = string.replace(full_match, token);
     }
   }
   if (strip_page_numbers) {
