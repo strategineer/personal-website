@@ -11561,7 +11561,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 | 00 | Zombie |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Bestiary"  >}}
+{{< rpg_table name="Bestiary" show_table="true" >}}
 | d34 | Bestiary |
 | --- | -------- |
 | 1 | animated armor: AC 18, HP 24, LVL 6, ATK weapon (d8), MOV 20’, MRL 12, NA d6 (0). Immune to mental effects. Dark vision. Held together by magic. Loud.|
