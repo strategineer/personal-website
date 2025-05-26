@@ -375,7 +375,10 @@ function generate_text(type) {
   let details = [];
   let repl = generate_text_helper(type, details);
   if (details.length > 0) {
-    return repl + "<br>[" + details.join("<br") + "]";
+    console.log(details);
+    return (
+      repl + "<br><b>References</b>:<br>" + details.join("<br>---<br>") + ""
+    );
   } else {
     return repl;
   }
@@ -484,15 +487,21 @@ function expand_tokens(string, details, context) {
     if (token.includes(detail_separator)) {
       let splitted = token.split(detail_separator);
       token = splitted[0];
-      let left =
-        generate_text_helper(token, details, context) || generate_name(token);
-      context[token] = left;
+      let left = generate_text_helper(token, details) || generate_name(token);
+      let id = `id_${left.replace(/\W/g, "_").toLowerCase()}`;
+      let id_key = `${id}_key`;
+      let id_ref = `${id}_ref`;
+      context[token] = `<a id="${id_key}" href="#${id_ref}">${left}</a>`;
       let right = generate_text_helper(splitted[1], details, context);
-      details.push(`${left}:${right}`);
+      details.unshift(
+        `<a id="${id_ref}" href="#${id_key}">${left}</a><br>${right}`,
+      );
     }
     let repl;
-    if (
-      (repl = context[token]) ||
+    if ((repl = context[token])) {
+      delete context[token];
+      string = string.replace(full_match, repl);
+    } else if (
       (repl = generate_text_helper(token, details, context)) ||
       (repl = generate_name(token))
     ) {

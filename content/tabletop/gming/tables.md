@@ -40,10 +40,10 @@ owl bear
 
 {{< rpg_table_button name="NPC" expr="{Name}. {Personality} {Profession}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
 
-{{< rpg_table_button name="Wizard" expr="{WackyWizardName}.<br>{WizardDescription}." >}}
+{{< rpg_table_button name="Wizard" expr="{WackyWizardName}.<br>{WizardDescription}" >}}
 
 
-{{< rpg_table_button name="WizardDescription" expr="{Personality}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}.<br>Relationships: {Relationship}, {Relationship}, {Relationship}." >}}
+{{< rpg_table_button name="WizardDescription" expr="{Personality}.<br>RP? {Mannerism}. {NPCDetail}.<br>Asset/Liability? {Asset}, {Liability}.<br>Wants to {Goal}.<br>Activity: {Activity}." >}}
 
 
 {{< rpg_table name="PCStats" >}}
@@ -4127,7 +4127,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ### Gods/Patrons
 
-{{< rpg_table_button name="Patron" expr="{PatronName}<br>{PatronDescription}." >}}
+{{< rpg_table_button name="Patron" expr="{PatronName}<br>{PatronDescription}" >}}
 
 {{< rpg_table_button name="PatronDescription" expr="{PatronDomains}.<br>Symbol: {Symbol}.<br>Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}." >}}
 
@@ -4141,11 +4141,12 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 
 ### Groups
+{{< rpg_table_button name="FactionName" expr="{FactionTrait} and {FactionTrait} {Faction}" >}}
 
 {{< rpg_table name="FactionDescription" >}}
 | Faction Description |
 | --------|
-|{FactionTrait} and {FactionTrait} {Faction}.<br>Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
+|Want to {Mission}, {Mission}, {Mission}.<br>Rewards PCs with {Reward}, {Reward}, {Reward}.|
 {{< /rpg_table >}}
 
 ## Places
@@ -4176,7 +4177,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 {{< rpg_table name="DungeonDescription" >}}
 | Dungeon Description |
 | --------|
-| You stumble upon the {StructureDescription} near the {LocationDescription}.<br>---The following factions are interested in this location---<br>-{FactionDescription}<br>-{FactionDescription}<br>---Revevant NPCs---<br>-{NPC}<br>-{NPC}<br>---Key Rooms---<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}. |
+| You stumble upon the {StructureDescription} near the {LocationDescription}.<br>---The following factions are interested in this location---<br>-{FactionName:FactionDescription}<br>-{FactionName:FactionDescription}<br>-{FactionName:FactionDescription}<br>---Revevant NPCs---<br>-{NPC}<br>-{NPC}<br>---Key Rooms---<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}<br>-{RoomDescription}. |
 {{< /rpg_table >}}
 
 {{< rpg_table_button name="RoomDescription" expr="{Room}. {RoomTheme}. {RoomDetail}." >}}
@@ -10064,7 +10065,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |7| You’ve made an enemy. |
 |8| You have an ugly, prominent tattoo. |
 |9| Hangover: take -5 on all tests today. |
-|10| You have joined a local faction (p. 50)<br> (Faction? {FactionDescription}) |
+|10| You have joined a local faction (p. 50) ({FactionName:FactionDescription}) |
 |11| Robbed: Lose all remaining coin. |
 |12| You wake up in prison. |
 |13| The building is on fire! |
@@ -10072,7 +10073,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |15| A duel is scheduled for the next dawn. |
 |16| You signed a shady contract. |
 |17| A stranger’s corpse is on the floor. |
-|18| A faction hates you (p. 50)<br>(Faction? {FactionDescription}) |
+|18| A faction hates you (p. 50) ({FactionName:FactionDescription}) |
 |19| All your belongings have been stolen. |
 |20| You meet a new companion who wants to join your party. |
 {{< /rpg_table >}}

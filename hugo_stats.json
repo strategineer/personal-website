@@ -1110,6 +1110,7 @@
       "table_result_Fabric",
       "table_result_Faction",
       "table_result_FactionDescription",
+      "table_result_FactionName",
       "table_result_FactionTrait",
       "table_result_FemaleName",
       "table_result_Food",
