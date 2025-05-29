@@ -109,7 +109,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 {{< /rpg_table >}}
 
 {{< rpg_table name="ReligiousGroupType" >}}
-| Group Type |
+| Religious Group Type |
 | --- |
 | Faithful |
 | Servants |
