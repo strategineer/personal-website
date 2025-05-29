@@ -86,16 +86,49 @@ owl bear
 
 Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/Markov_chain) to generate names that should sort of look like names from the cultures they're pulling from but not exactly. Relatively expected names can be generated but you can also get really weird and long names.
 
-{{< rpg_table name="CityName" >}}
-| dX | City Name|
+{{< rpg_table name="GroupName" count="10" >}}
+| d100 | Group Name|
 | --- | --- |
-| 1 | {Color}{Surname2}|
-| 2 | {Location}{Surname2}|
-| 3 | {PlaceTrait}{Surname2}|
-| 4 | {Element}{Surname2}|
-| 5 | {Form}{Surname2}|
-| 6 | {Symbol}{Surname2}|
-| 7 | {WackyWizardName}{Surname2}|
+| 1-80 | {Name}'s {Quality} {GroupType}|
+| 81-90 | {PatronName}'s {Quality} {ReligiousGroupType}|
+| 91-00 | {WackyWizardName}'s {Quality} {GroupType}|
+{{< /rpg_table >}}
+
+{{< rpg_table name="GroupType" >}}
+| Group Type |
+| --- |
+| Band |
+| Group |
+| Troupe |
+| Team |
+| Crew |
+| Party |
+| Gang |
+| Posse |
+| Family |
+{{< /rpg_table >}}
+
+{{< rpg_table name="ReligiousGroupType" >}}
+| Group Type |
+| --- |
+| Faithful |
+| Servants |
+| Believers |
+| Followers |
+| Penitents |
+| Warriors |
+{{< /rpg_table >}}
+
+{{< rpg_table name="CityName" >}}
+| City Name|
+| --- |
+| {Color}{Surname2}|
+| {Location}{Surname2}|
+| {PlaceTrait}{Surname2}|
+| {Element}{Surname2}|
+| {Form}{Surname2}|
+| {Symbol}{Surname2}|
+| {WackyWizardName}{Surname2}|
 {{< /rpg_table >}}
 
 {{< rpg_table name="PatronName" >}}
@@ -109,17 +142,26 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 {{< /rpg_table >}}
 
 {{< rpg_table name="Name" >}}
-| d2 | Name |
-| --- | --------|
-| 1 | {MaleName} {Surname} |
-| 2 | {FemaleName} {Surname} |
-| 3 | {EgyptianName} {Surname} |
-| 4 | {GermanicName} {Surname} |
-| 5 | {ItalianName} {Surname} |
-| 6 | {GreekName} {Surname} |
-| 7 | {RomanName} {Surname} |
-| 8 | {ArthurianName} {Surname} |
-| 9 | {NorseName} {Surname} |
+| Name |
+| --------|
+| {MaleName} {Surname} |
+| {FemaleName} {Surname} |
+| {EgyptianName} {Surname} |
+| {GermanicName} {Surname} |
+| {ItalianName} {Surname} |
+| {GreekName} {Surname} |
+| {RomanName} {Surname} |
+| {ArthurianName} {Surname} |
+| {NorseName} {Surname} |
+| {MaleName} |
+| {FemaleName}|
+| {EgyptianName} |
+| {GermanicName} |
+| {ItalianName} |
+| {GreekName} |
+| {RomanName} |
+| {ArthurianName} |
+| {NorseName} |
 {{< /rpg_table >}}
 
 {{< rpg_table_button name="Surname" expr="{Surname1}{Surname2}" >}}
@@ -4197,10 +4239,10 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 {{< rpg_table_button name="PotionDescription" expr="Potion of {Potion}. {Color}, {Texture}. Smells like {Scent}. Tastes like {Taste}. Made with {Ingredient}, {Ingredient}, {Ingredient}.">}}
 
 {{< rpg_table name="SpellBookType" hide_button="true" >}}
-| d2 | Spell Book Type |
-| --- | --------|
-| 1 | Tome |
-| 2 | Book |
+| Spell Book Type |
+| --------|
+| Tome |
+| Book |
 {{< /rpg_table >}}
 
 {{< rpg_table_button name="SpellScroll" expr="Scroll of {GeneratedSpell}" >}}
@@ -4214,14 +4256,14 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 {{< /rpg_table >}}
 
 {{< rpg_table name="GeneratedSpellForRelics" >}}
-| d6 | Spell Formulae |
-| --- | --------|
-| 1 | {Element} {Form} |
-| 2 | {Effect} {Form} |
-| 3 | {Effect} {Element} |
-| 4 | The {Quality} {Element} {Form} |
-| 5 | The {Quality} {Effect} {Form} |
-| 6 | The {Quality} {Effect} {Element} |
+| Spell Formulae |
+| --------|
+| {Element} {Form} |
+| {Effect} {Form} |
+| {Effect} {Element} |
+| The {Quality} {Element} {Form} |
+| The {Quality} {Effect} {Form} |
+| The {Quality} {Effect} {Element} |
 {{< /rpg_table >}}
 
 ### Food and Drink
