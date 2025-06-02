@@ -4368,7 +4368,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ### Gods/Patrons
 
-{{< rpg_table_button name="Patron" expr="{PatronName}<br>{PatronDescription}" >}}
+{{< rpg_table_button name="Patron" expr="{PatronName} {PatronDescription}" >}}
 
 {{< rpg_table_button name="PatronDescription" expr="{PatronDomains}.<br>Symbol: {Symbol}.<br>Goal: {Goal}.<br>Personality: {Personality}. {Mannerism}." >}}
 
@@ -4467,7 +4467,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ### Food and Drink
 
-{{< rpg_table_button name="FoodDescription" expr="{FoodTrait} {Food}. Tastes like {Taste}, smells like {Scent}." >}}
+{{< rpg_table_button name="FoodDescription" expr="{FoodTrait} {Food}, tastes like {Taste}, smells like {Scent}." >}}
 
 {{< rpg_table_button name="DrinkDescription" expr="{Color} color, tastes like {Taste}, smells like {Scent}." >}}
 
