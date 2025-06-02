@@ -135,7 +135,8 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 | d4 | Patron Name |
 | --- | --------|
 | 1-25 | {BiblicalProphetName} |
-| 26-50 | {GreekGodName}|
+| 26-40 | {GreekGodName}|
+| 41-50 | {GreatOldOnesName} |
 | 51-70 | {HinduGodName} |
 | 71-90 | {HinduGoddessName} |
 | 91-00 | {HinduDemonName} |
@@ -269,6 +270,204 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 | Zanuptra |
 | Zarugaz |
 | Zilik |
+{{< /rpg_table >}}
+
+{{< rpg_table name="GreatOldOnesName" is_name_table="true" >}}
+| Great Old Ones Name |
+| ----- |
+|'Ymnar|
+|Abholos|
+|Alala|
+|Ammutseba|
+|Amon-Gorloth|
+|Aphoom-Zhah|
+|Apocolothoth|
+|Arwassa|
+|Atlach-Nacha|
+|Ayi'ig|
+|Aylith|
+|Azathoth|
+|Cthulhu|
+|Nyarlathotep|
+|Shub-Niggurath|
+|Hastur|
+|B'gnu-Thun|
+|Basatan|
+|Bibliography|
+|Bokrug|
+|Bugg-Shash|
+|Byagoona|
+|Byatis|
+|Coatlicue|
+|Coinchenn|
+|R'lyeh|
+|Cruach|
+|Cthaat|
+|Cthaeghya|
+|Cthugha|
+|Cthulhu|
+|Cthylla|
+|Ctoggha|
+|Cynothoglys|
+|Cyäegha|
+|Dhumin|
+|Dygra|
+|Dythalla|
+|Dzéwà|
+|Egnis|
+|Ei'lor|
+|Eihort|
+|Faugn|
+|Ghadamon|
+|Ghatanothoa|
+|Ghisguth|
+|Gi-Hoveg|
+|Gla'aki|
+|Gleeth|
+|Gloon|
+|Gobogeg|
+|Gog-Hoor|
+|Gol-goroth|
+|Golothess|
+|Groth-Golka|
+|Gtuhanai|
+|Gur'la-ya|
+|Gurathnaka|
+|Gwandu|
+|Gwarloth|
+|Gzxtyos|
+|H'chtelegoth|
+|Haiogh-Yai|
+|Han|
+|Hastalÿk|
+|Hastur|
+|Hnarqu|
+|Hziulquoigmnzhah|
+|Idh-yaa|
+|Inpesca|
+|Iod|
+|Istasha|
+|Ithaqua|
+|Janai'ngo|
+|Juk-Shabb|
+|K'nar'st|
+|Kaalut|
+|Kassogtha|
+|Kaunuzoth|
+|Khal'kru|
+|Klosmiebhyx|
+|Krang|
+|Kthaw'keth|
+|Kurpannga|
+|Lam|
+|Lexur'iga-serr'roth|
+|Zhar|
+|Lloigor|
+|Lythalia|
+|M'Nagalah|
+|Shudde M'ell|
+|Mnomquah|
+|Moonlight|
+|Mordiggian|
+|Mormo|
+|Mortllgh|
+|Mynoghra|
+|Nctosa|
+|Nctolhu|
+|Ngirrth'lu|
+|Northot|
+|Nssu-Ghahnb|
+|Nyaghoggua|
+|Nycrama|
+|Nyogtha|
+|Ob'mbu|
+|Oorn|
+|Othuum|
+|Othuyeg|
+|Perse|
+|Pharol|
+|Poseidon|
+|Psuchawrl|
+|Ptar-Axtlan|
+|Q'yth-az|
+|Quyagen|
+|Raandaii-B'nk|
+|Ragnalla|
+|Raphanasuan|
+|Rhagorthua|
+|Rhan-Tegoth|
+|Rhogog|
+|Rokon|
+|Mappo no Ryujin|
+|S'tya-Yg'Nalle|
+|Saaitii|
+|Scathach|
+|Sebek|
+|Sedmelluq|
+|Sfatlicllp|
+|Rlim Shaikorth|
+|Shaklatal|
+|Shathak|
+|Shaurash-Ho|
+|Sheb-Teth|
+|Shista|
+|Shlithneth|
+|Sho-Gath|
+|Shterot|
+|Shuy-Nihl|
+|Sthanee|
+|Summanus|
+|Swarog|
+|T'ith|
+|Th'rygh|
+|Thanaroa|
+|Tharapithia|
+|Thasaidon|
+|Thog|
+|Time|
+|Toth|
+|Tsathoggua|
+|Tulushuggua|
+|Turua|
+|Uitzilcapac|
+|Ut'Ulls-Hr'Her|
+|Quachil Uttaus|
+|Vhuzompha|
+|Vibur|
+|Vile-Oct|
+|Volgna-Gath|
+|Voltiyig|
+|Vthyarilops|
+|Vulthoom|
+|Xalafu|
+|Xcthol|
+|Xinlurgash|
+|Xirdneth|
+|Xitalu|
+|Xoxiigghua|
+|Y'golonac|
+|Y'lla|
+|Yamath|
+|Nub|
+|Yeb|
+|Yegg-Ha|
+|Yhagni|
+|Yhashtur|
+|Yig|
+|Yog-Sapha|
+|Yorith|
+|Ysbaddaden|
+|Ythogtha|
+|Yug-Siturath|
+|Yuggoth|
+|Z'toggua|
+|Z'uqqa-Mogg|
+|Zathog|
+|Zindarak|
+|Zoth-Ommog|
+|Zstylzhemghi|
+|Zushakon|
+|Zvilpogghua|
 {{< /rpg_table >}}
 
 {{< rpg_table name="EgyptianName" is_name_table="true" >}}

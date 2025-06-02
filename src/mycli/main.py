@@ -246,6 +246,7 @@ def scrape_onomastikon(urls):
                 if not a:
                     continue
                 ls.append(f"|{a}|")
+                break
         ls = sorted(ls)
         ls = [f'{{{{< rpg_table name="{url_name}Name" is_name_table="true" >}}}}', "| Names |","| ----- |"] + ls + [r"{{< /rpg_table >}}", ""]
         ls = [f"{l}\n" for l in ls]
