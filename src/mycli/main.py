@@ -205,7 +205,44 @@ def delete_blog_thumbnails():
 def knave_stats():
     for str, dex, con, int, wis, cha in sorted(set(itertools.permutations([2, 1, 0, 0, 0, 0]))):
         print(f"STR: {str}, DEX: {dex}, CON: {con}, INT: {int}, WIS: {wis}, CHA: {cha}")
-    
+
+def cleanup(s):
+    s = s.replace("(see below)", "")
+    s = s.replace("(variable)", "")
+    s = s.replace("\u2019", "'")
+    s = s.replace("\u2013", "")
+    s = s.replace("\u00bd", "1/2")
+    s = s.replace("\u00a0", " ")
+    s = s.strip("* ")
+    return s
+
+@click.command()
+def scrape_bfmonsters():
+    with open("C:\dev\personal-website\data\monsters.json", encoding="utf-8") as file:
+        data = json.load(file)
+        for m in data:
+            m = {k:cleanup(v) for k,v in m.items()}
+            name = m["Name"]
+            ac = m["Armor Class:"].replace("(s)", "").replace("(m)", "").strip("* ")
+            hd = m["Hit Dice:"]
+            atk = m["No.\xa0of Attacks:"]
+            dmg = m["Damage:"]
+            mov = m["Movement:"]
+            na = m["No.\xa0Appearing:"]
+            na = re.sub(r'Wild (\d+d\d+)', '(\g<1>)', na).strip(", ")
+            na = re.sub(r'Lair (\d+d\d+)', '', na).strip(", ")
+            na = na.replace(", ", " ")
+            na = re.sub(r'^\((\d+d\d+)\)$', '0 (\g<1>)', na).strip(", ")
+            mrl = m["Morale:"]
+            # {'Name': 'Skeletaire', 'Armor Class:': '13 (see below)', 'Hit Dice:': '1* (variable)', 'No.\xa0of Attacks:': '1 dagger or 1 spell', 'Damage:': '1d4 or per spell', 'Movement:': '40▒', 'No.\xa0Appearing:': '1', 'Save As:': 'Magic-User: by HD', 'Morale:': '12', 'Treasure Type:': 'None', 'XP:': '37 (variable)'}
+            hp = "HP ?"
+            try:
+                hp = f"HP {int(hd) * 4}"
+            except:
+                pass
+            print(f"- **{name.lower()}:** AC {ac}, {hp}, LVL {hd}, ATK {atk} ({dmg}), MOV {mov}, NA {na}, MRL {mrl}")
+    return
+
 @click.command()
 @click.argument('urls', nargs=-1, type=str)
 def scrape_onomastikon(urls):
@@ -613,6 +650,7 @@ cli.add_command(book_rating_shifter)
 cli.add_command(delete_blog_thumbnails)
 cli.add_command(scrape_onomastikon)
 cli.add_command(knave_stats)
+cli.add_command(scrape_bfmonsters)
 
 if __name__ == "__main__":
     cli()
