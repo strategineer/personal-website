@@ -28,3 +28,5 @@ __pycache__
 /resources/_gen
 .hugo_build.lock
 /latex/*.log
+*.aux
+*.synctex(busy)
