@@ -255,20 +255,6 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
     latex_commands = [r"""
 % Auto Generated File DOT NOT MODIFY 
 % with command: poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "exports/knave2e_stats.tex"
-\mdfdefinestyle{StatBlock}{%
-    linecolor=black,
-    outerlinewidth=10pt,
-    roundcorner=10pt,
-    innertopmargin=5pt,
-    innerbottommargin=5pt,
-    innerrightmargin=7.5pt,
-    innerleftmargin=7.5pt,
-    backgroundcolor=white}
-\newcommand{\statblock}[9] {
-	\begin{mdframed}[style=StatBlock]
-	 #1: AC #2, HP #3, LVL #4, ATK #5, MOV #6, MRL #7, NA #8. #9.
-	\end{mdframed}
-}
                       """]
     REPLACEMENTS =[
             ("~", r"\textasciitilde"),
@@ -292,6 +278,8 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
         if n < 8:
             continue
         name, ac, hp, lvl, atk, mov, mrl, na, *desc = splits
+
+        nice_name = name
         name = "".join(c for c in name if c.isalpha() or c.isdigit() or c==' ').rstrip().replace(" ", "")
         ac = ac.removeprefix("AC ")
         hp = hp.removeprefix("HP ")
@@ -301,7 +289,7 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
         mrl = mrl.removeprefix("MRL ")
         na = na.removeprefix("NA ")
         desc = " ".join(desc)
-        latex_commands.append((f"\\newcommand{{\\statblock{name}}}{{\\statblock{{{name}}}{{{ac}}}{{{hp}}}{{{lvl}}}{{{atk}}}{{{mov}}}{{{mrl}}}{{{mrl}}}{{{na}}}{{{desc}}}}}"))
+        latex_commands.append((f"\\newcommand{{\\statblock{name}}}[1][{desc}.]{{\\statblock{{{ac}}}{{{hp}}}{{{lvl}}}{{{atk}}}{{{mov}}}{{{mrl}}}{{{na}}}{{#1}}}}"))
     latex_commands.sort()
     for c in latex_commands:
         print(c)
