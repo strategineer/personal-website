@@ -27,3 +27,4 @@ __pycache__
 /node_modules/
 /resources/_gen
 .hugo_build.lock
+/latex/*.log
