@@ -244,6 +244,65 @@ def scrape_bfmonsters():
     return
 
 @click.command()
+@click.argument("infilepath", type=str)
+@click.argument("outfilepath", type=str)
+def convert_bestiary_to_latex(infilepath, outfilepath):
+    # C:\synced\Notes\pages\Knave 2e Bestiary.md
+    lines = []
+    with open(infilepath, 'r') as file:
+        lines = [l.strip() for l in file.readlines()]
+        lines = [l for l in lines if not l.startswith("collapsed::") and not l.startswith("id::") and not l.startswith("tags::")]
+    latex_commands = [r"""
+% Auto Generated File DOT NOT MODIFY 
+% with command: poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "exports/knave2e_stats.tex"
+\mdfdefinestyle{StatBlock}{%
+    linecolor=black,
+    outerlinewidth=10pt,
+    roundcorner=10pt,
+    innertopmargin=5pt,
+    innerbottommargin=5pt,
+    innerrightmargin=7.5pt,
+    innerleftmargin=7.5pt,
+    backgroundcolor=white}
+\newcommand{\statblock}[9] {
+	\begin{mdframed}[style=StatBlock]
+	 #1: AC #2, HP #3, LVL #4, ATK #5, MOV #6, MRL #7, NA #8. #9.
+	\end{mdframed}
+}
+                      """]
+    REPLACEMENTS =[
+            ("~", "\\textasciitilde"),
+            ("^", "\\textasciicircum"),
+            ("\\", "\\textbackslash")
+        ]
+    for l in lines:
+        splits = re.split(r',|:', l, 8)
+        splits = [s.strip("* -.") for s in splits]
+        for i in range(len(splits)):
+            for frm, to in REPLACEMENTS:
+                splits[i] = splits[i].replace(frm, to)
+            splits[i] = re.sub(r"([&%$#_{}])", "\g<1>", splits[i])
+        n = len(splits)
+        if n < 8:
+            continue
+        name, ac, hp, lvl, atk, mov, mrl, na, *desc = splits
+        name = "".join(c for c in name if c.isalpha() or c.isdigit() or c==' ').rstrip().replace(" ", "")
+        ac = ac.removeprefix("AC ")
+        hp = hp.removeprefix("HP ")
+        lvl = lvl.removeprefix("LVL ")
+        atk = atk.removeprefix("ATK ")
+        mov = mov.removeprefix("MOV ")
+        mrl = mrl.removeprefix("MRL ")
+        na = na.removeprefix("NA ")
+        desc = " ".join(desc)
+        latex_commands.append((f"\\newcommand{{\\statblock{name}{{\\statblock{{{ac}}}{{{hp}}}{{{lvl}}}{{{atk}}}{{{mov}}}{{{mrl}}}{{{mrl}}}{{{na}}}{{{desc}}}}}"))
+    latex_commands.sort()
+    for c in latex_commands:
+        print(c)
+    with open(outfilepath, "w") as f:
+        f.write("\n".join(latex_commands))
+
+@click.command()
 @click.argument('urls', nargs=-1, type=str)
 def scrape_onomastikon(urls):
     headers = {
@@ -651,6 +710,7 @@ cli.add_command(delete_blog_thumbnails)
 cli.add_command(scrape_onomastikon)
 cli.add_command(knave_stats)
 cli.add_command(scrape_bfmonsters)
+cli.add_command(convert_bestiary_to_latex)
 
 if __name__ == "__main__":
     cli()
