@@ -30,3 +30,4 @@ __pycache__
 /latex/*.log
 *.aux
 *.synctex(busy)
+*.gz

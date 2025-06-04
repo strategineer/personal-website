@@ -1,8 +1,63 @@
+\documentclass[letterpaper]{article}
+\title{Darkness under Windygale}
+\author{Bill Tyros}
+\date{\vspace{-5ex}}
+
+\usepackage{varioref}
+\usepackage{xcolor}
+\usepackage[margin=.5in]{geometry}
+\usepackage{multicol}
+\usepackage{pifont}
+\usepackage{mdframed}
+\mdfdefinestyle{BoxedText}{%
+    linecolor=black,
+    outerlinewidth=10pt,
+    roundcorner=10pt,
+    innertopmargin=5pt,
+    innerbottommargin=5pt,
+    innerrightmargin=7.5pt,
+    innerleftmargin=7.5pt,
+    backgroundcolor=white}
+
+\renewcommand{\labelitemi}{\ding{42}}
 
 \begin{document}
-\begin{multicol}{2}
-Column 1
-\columnbreak
-Column 2
-\end{multicol}
+	\begin{multicols}{2}
+	\maketitle
+	\section{Valley of Prosperity}
+		\begin{mdframed}[style=BoxedText]
+		        A sheer cliff dips hundred of feet below you leading to a dry valley, an \textbf{imposing castle} and a \textbf{massive clock tower} loom over a \textbf{bustling town} surrounded by cacti farms as far as the eye can see, a \textbf{leaning tower} rises above the flat land surrounded by a few stone buildings and a sea of misshappen megaliths, a glowing darkness rises above a \textbf{deep dark hole} in the ground with fissures spiraling outwards all around it.
+		\end{mdframed}
+		\begin{itemize}
+		  \item \textbf{Imposing Castle.~\vref{location-castle}} Castle Greypoint.
+		  \item \textbf{Massive Clock Tower.~\vref{location-temple}} Temple of Jorike.
+		  \item \textbf{Bustling Town.~\vref{location-town}} Windygale.
+		  \item \textbf{Deep Dark Hole.~\vref{location-caves}} Quaking Caves.
+		\end{itemize}
+		\section{Castle Greypoint~\label{location-castle}}
+				\begin{mdframed}[style=BoxedText]
+					A high castle overlooks the surrounding town, a large tower between four turrets rises above a \textbf{gatehouse} leading to an \textbf{inner courtyard} with a stable and paths leading to the \textbf{guard's quarters} and the \textbf{lord's apartments}.
+				\end{mdframed}
+					 \begin{itemize}
+						  \item \textbf{Gatehouse.} 1 \textbf{knight} and 4 guards standing watch, won't let anyone inside the castle without a reason (bounty, letter of recommendation, etc.).
+						  \begin{itemize}
+						  	\item \textbf{Knight.} \textit{High Knight Percival}. Bored, resents being assigned this post which is beneath his status.
+						  \end{itemize}
+						  \item \textbf{Inner Couryard.} Temple of Jorike.
+						  \item \textbf{Guard's Quarters.} Windygale.
+						  \item \textbf{Lord's Apartments.} Quaking Caves.
+				 \end{itemize}
+
+			\section{Temple of Jorike~\label{location-temple}}
+				\begin{mdframed}[style=BoxedText]
+					Blah
+				\end{mdframed}
+			\section{Windygale~\label{location-town}}
+				\begin{mdframed}[style=BoxedText]
+					Blah
+				\end{mdframed}
+			\section{Quacking Caves~\label{location-caves}}
+				\begin{mdframed}[style=BoxedText]
+				\end{mdframed}
+	\end{multicols}
 \end{document}
