@@ -271,13 +271,19 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
 }
                       """]
     REPLACEMENTS =[
-            ("~", "\\textasciitilde"),
-            ("^", "\\textasciicircum"),
-            ("\\", "\\textbackslash")
+            ("~", r"\textasciitilde"),
+            ("^", r"\textasciicircum"),
+            ("&", r"\&"),
+            ("%", r"\%"),
+            ("$", r"\$"),
+            ("#", r"\#"),
+            ("_", r"\_"),
+            ("{", r"\{"),
+            ("}", r"\}"),
         ]
     for l in lines:
-        splits = re.split(r',|:', l, 8)
-        splits = [s.strip("* -.") for s in splits]
+        splits = re.split(r',|:|\.', l, 8)
+        splits = [s.strip("* -.").replace("\\", r"\textbackslash") for s in splits]
         for i in range(len(splits)):
             for frm, to in REPLACEMENTS:
                 splits[i] = splits[i].replace(frm, to)
@@ -295,7 +301,7 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
         mrl = mrl.removeprefix("MRL ")
         na = na.removeprefix("NA ")
         desc = " ".join(desc)
-        latex_commands.append((f"\\newcommand{{\\statblock{name}{{\\statblock{{{ac}}}{{{hp}}}{{{lvl}}}{{{atk}}}{{{mov}}}{{{mrl}}}{{{mrl}}}{{{na}}}{{{desc}}}}}"))
+        latex_commands.append((f"\\newcommand{{\\statblock{name}}}{{\\statblock{{{name}}}{{{ac}}}{{{hp}}}{{{lvl}}}{{{atk}}}{{{mov}}}{{{mrl}}}{{{mrl}}}{{{na}}}{{{desc}}}}}"))
     latex_commands.sort()
     for c in latex_commands:
         print(c)
