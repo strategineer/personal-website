@@ -4589,7 +4589,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ## Traveling
 
-{{< rpg_table name="TravelHazardDie" >}}
+{{< rpg_table name="TravelHazardDie" show_table="true" >}}
 | d6 | Travel Hazard Die Result |
 | --- | --------|
 |1| encounter: The party has a random encounter.|
@@ -4600,7 +4600,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 |6| free: No effect.|
 {{< /rpg_table >}}
 
-{{< rpg_table name="Weather" >}}
+{{< rpg_table name="Weather" show_table="true" >}}
 | d100 | Weather |
 | --- | --- |
 | 1-3 | Thunderstorm, blizzard in winter |
@@ -4616,7 +4616,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 | 98-00 | Hail in spring, humidity in summer, fog in fall, frost in winter |
 {{< /rpg_table >}}
 
-{{< rpg_table name="TravelShift" >}}
+{{< rpg_table name="TravelShift" show_table="true" >}}
 | d100 | Travel Shift |
 | --- | --------|
 | 1 | Acid rain	|
@@ -5143,7 +5143,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ## Delving
 
-{{< rpg_table name="DungeonHazardDie" >}}
+{{< rpg_table name="DungeonHazardDie" show_table="true" >}}
 | d6 | Dungeon Hazard Die Result |
 | --- | --------|
 |1| encounter: The party has an encounter, usually rolled from a table designed for the dungeon. The GM determines the encounter’s reaction, activity, distance from the party, and if they are surprised (p. 19).|
@@ -5154,7 +5154,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 |6| free: No effect.
 {{< /rpg_table >}}
 
-{{< rpg_table name="DelveShift" >}}
+{{< rpg_table name="DelveShift" show_table="true" >}}
 | d100 | Delve Shift |
 | --- | --------|
 |1| Alarm	|
