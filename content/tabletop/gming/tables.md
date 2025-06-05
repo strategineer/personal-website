@@ -11697,7 +11697,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 ## Monster
 
-{{< rpg_table name="Monster" >}}
+{{< rpg_table name="Monster" show_table="true" >}}
 | d100 | Monster |
 | --- | --------|
 | 1 | Aboleth	|
