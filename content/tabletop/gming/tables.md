@@ -6012,7 +6012,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 | 98-00 | Ask to join the PCs’ party |
 {{< /rpg_table >}}
 
-{{< rpg_table name="Activity" >}}
+{{< rpg_table name="Activity" show_table="true" >}}
 | d100 | Activity |
 | --- | --------|
 |1| Ambushing	|
@@ -7928,7 +7928,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ## Equipment
 
-{{< rpg_table name="CostOfLiving" >}}
+{{< rpg_table name="CostOfLiving" show_table="true" >}}
 cost of living (per month)
 | d12 | Cost Of Living |
 | --- | --------|
@@ -8999,7 +8999,7 @@ cost of living (per month)
 
 ## Buildings
 
-{{< rpg_table name="Building" >}}
+{{< rpg_table name="Building" show_table="true" >}}
 | d100 | Building |
 | --- | --------|
 | 1 | Poor hovel 100|
@@ -9014,7 +9014,7 @@ cost of living (per month)
 | 10 | Imperial palace, basilica 400m |
 {{< /rpg_table >}}
 
-{{< rpg_table name="RoomStyle" >}}
+{{< rpg_table name="RoomStyle" show_table="true" >}}
 | d6 | Room Style |
 | --- | --------|
 | 1 | poor: Earth walls, thatched roofs,
@@ -10294,7 +10294,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 ## Downtime
 
-{{< rpg_table name="CarousingMishap" >}}
+{{< rpg_table name="CarousingMishap" show_table="true" >}}
 | d20 | Carousing Mishaps |
 | --- | ----------------- |
 |1| You made a public fool of yourself. |
@@ -10319,7 +10319,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 |20| You meet a new companion who wants to join your party. |
 {{< /rpg_table >}}
 
-{{< rpg_table name="CareerType" >}}
+{{< rpg_table name="CareerType" show_table="true" >}}
 | d3 | CareerType |
 | --- | ----------------- |
 | 1 | common: Requires 1 month and 1000c (carpenter, hunter, fisherman, sailor, dyer, gardener, blacksmith, etc.).|
