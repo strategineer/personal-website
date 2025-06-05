@@ -10,7 +10,7 @@
       document.getElementById("table_result_{{$table_name}}").innerHTML = generate_list("{{ $table_name }}", {{$result_count}})
   }
   </script>
-  <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Generate {{ $result_count }} {{ pluralize (humanize $table_name) -}}</button>
+  <button id="btn{{- $table_name | safeJS -}}" onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Generate {{ $result_count }} {{ pluralize (humanize $table_name) -}}</button> <a href="#btn{{- $table_name | safeJS -}}">¶</a>
   <br>
   <span id="table_result_{{$table_name}}"></span>
   <hr>

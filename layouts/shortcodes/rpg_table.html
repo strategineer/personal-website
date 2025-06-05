@@ -58,7 +58,7 @@
   }
   </script>
   {{ if not .Params.hide_button | default false }}
-  <button onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Generate {{ $result_count }} {{ pluralize (humanize (index $split_header (sub (len $split_header) 2))) -}}</button>
+  <button id="btn{{- $table_name | safeJS -}}" onclick="pickRandomlyFromTable{{- $table_name | safeJS -}}()">Generate {{ $result_count }} {{ pluralize (humanize (index $split_header (sub (len $split_header) 2))) -}}</button> <a href="#btn{{- $table_name | safeJS -}}">¶</a>
   <br>
   <span id="table_result_{{$table_name}}"></span>
   <hr>
