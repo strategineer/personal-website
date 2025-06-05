@@ -5996,7 +5996,7 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 
 ## Encounters
 
-{{< rpg_table name="NpcReaction" >}}
+{{< rpg_table name="NpcReaction" show_table="true" >}}
 | d100 | NPC Reaction |
 | --- | -------- |
 | 1-3 | Kill the PCs |
