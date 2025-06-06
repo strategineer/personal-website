@@ -275,6 +275,9 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
                 splits[i] = splits[i].replace(frm, to)
             splits[i] = re.sub(r"([&%$#_{}])", "\g<1>", splits[i])
             splits[i] = splits[i].strip(",")
+        # no line breaks in non desc fields
+        for i in range(len(splits) - 1):
+            splits[i] = splits[i].replace(" ", "~")
         n = len(splits)
         if n < 8:
             continue
