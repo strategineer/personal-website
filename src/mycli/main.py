@@ -275,6 +275,7 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
                 splits[i] = splits[i].replace(frm, to)
             splits[i] = re.sub(r"([&%$#_{}])", "\g<1>", splits[i])
             splits[i] = splits[i].strip(",")
+        nice_name = splits[0].strip(":").capitalize()
         # no line breaks in non desc fields
         for i in range(len(splits) - 1):
             splits[i] = splits[i].replace(" ", "~")
@@ -284,17 +285,31 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
         name, ac, hp, lvl, atk, mov, mrl, na, *desc = splits
         name = "".join(c for c in name if c.isalpha() or c.isdigit() or c==' ').rstrip().replace(" ", "")
         desc = " ".join(desc)
+
         latex_commands.append((f"""
-\\newcommand{{\\statblock{name}}}[1][{desc}.]{{\\statblock
-    {{{ac}}}% AC
-    {{{hp}}}% HP
-    {{{lvl}}}% Level
-    {{{atk}}}% Attacks
-    {{{mov}}}% Move
-    {{{mrl}}}% Morale
-    {{{na}}}% No. Appearing
-    {{#1}}% Notes
-}}"""))
+\\newcommand{{\\hstats{name}}}[1][{desc}]{{\\stats
+    {{{ac}}}  % AC
+    {{{hp}}}  % HP
+    {{{lvl}}} % Level
+    {{{atk}}} % Attacks
+    {{{mov}}} % Move
+    {{{mrl}}} % Morale
+    {{{na}}}  % No. Appearing
+    {{#1}}    % Notes
+}}
+\\newcommand{{\\stats{name}}}{{
+    \\wstats{{{nice_name}}}{{\\hstats{name}}}
+}}
+\\newcommand{{\\nstats{name}}}[1]{{
+    \\wstats{{#1}}{{\\hstats{name}}}
+}}
+\\newcommand{{\\dstats{name}}}[1]{{
+    \\wstats{{{nice_name}}}{{\\hstats{name}[#1]}}
+}}
+\\newcommand{{\\ndstats{name}}}[2]{{
+    \\wstats{{#1}}{{\\hstats{name}[#2]}}
+}}
+"""))
     latex_commands.sort()
     for c in latex_commands:
         print(c)
