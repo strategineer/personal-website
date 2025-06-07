@@ -246,16 +246,18 @@ def scrape_bfmonsters():
 @click.command()
 @click.argument("infilepath", type=str)
 @click.argument("outfilepath", type=str)
-def convert_bestiary_to_latex(infilepath, outfilepath):
+@click.argument("bestiaryoutfilepath", type=str)
+def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
     # C:\synced\Notes\pages\Knave 2e Bestiary.md
     lines = []
     with open(infilepath, 'r') as file:
         lines = [l.strip() for l in file.readlines()]
         lines = [l for l in lines if not l.startswith("collapsed::") and not l.startswith("id::") and not l.startswith("tags::")]
+    bestiary_commands = []
     latex_commands = [r"""
-% Auto Generated File DOT NOT MODIFY 
-% with command: poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "exports/knave2e_stats.tex"
-                      """]
+% Auto Generated File DOT NOT MODIFY
+% with command: poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "exports/lib/ttrpg/scoundrel1e_stats.tex" "exports/scoundrel1e_bestiary.tex"
+"""]
     REPLACEMENTS =[
             ("~", r"\textasciitilde"),
             ("^", r"\textasciicircum"),
@@ -276,8 +278,10 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
             splits[i] = re.sub(r"([&%$#_{}])", "\g<1>", splits[i])
             splits[i] = splits[i].strip(",")
         nice_name = splits[0].strip(":").capitalize()
-        # no line breaks in non desc fields
+        # no line breaks in non desc,atk fields
         for i in range(len(splits) - 1):
+            if i == 4:
+                continue
             splits[i] = splits[i].replace(" ", "~")
         n = len(splits)
         if n < 8:
@@ -287,35 +291,53 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
         desc = " ".join(desc)
         if desc != "":
             desc = f" {desc}."
+        cmd_name = f"\\hstats{name}"
+        bestiary_commands.append((nice_name, name))
         latex_commands.append((f"""
-\\newcommand{{\\hstats{name}}}[1][{desc}]{{\\stats
-    {{{ac}}}  % AC
-    {{{hp}}}  % HP
-    {{{lvl}}} % Level
-    {{{atk}}} % Attacks
-    {{{mov}}} % Move
-    {{{mrl}}} % Morale
-    {{{na}}}  % No. Appearing
-    {{#1}}    % Notes
+\\newcommand{{{cmd_name}}}[1][{desc}]{{\\stats
+  {{{ac}}}  % AC
+  {{{hp}}}  % HP
+  {{{lvl}}} % Level
+  {{{atk}}} % Attacks
+  {{{mov}}} % Move
+  {{{mrl}}} % Morale
+  {{{na}}}  % No. Appearing
+  {{#1}}    % Notes
+}}
+\\newcommand{{\\mhstats{name}}}{{
+  \\hhstats{{{cmd_name}}}
 }}
 \\newcommand{{\\stats{name}}}{{
-    \\wstats{{{nice_name}}}{{\\hstats{name}}}
+  \\wstats{{{nice_name}}}{{{cmd_name}}}
 }}
 \\newcommand{{\\nstats{name}}}[1]{{
-    \\wstats{{#1}}{{\\hstats{name}}}
+  \\wstats{{#1}}{{{cmd_name}}}
 }}
 \\newcommand{{\\dstats{name}}}[1]{{
-    \\wstats{{{nice_name}}}{{\\hstats{name}[ #1]}}
+  \\wstats{{{nice_name}}}{{{cmd_name}[ #1]}}
 }}
 \\newcommand{{\\ndstats{name}}}[2]{{
-    \\wstats{{#1}}{{\\hstats{name}[ #2]}}
+  \\wstats{{#1}}{{{cmd_name}[ #2]}}
 }}
 """))
     latex_commands.sort()
-    for c in latex_commands:
-        print(c)
     with open(outfilepath, "w") as f:
-        f.write("\n".join(latex_commands))
+        f.write("".join(latex_commands))
+    bestiary_commands.sort()
+    with open(bestiaryoutfilepath, "w") as f:
+        f.write(r"""
+\documentclass[letterpaper,openany]{memoir}
+\input{lib/ttrpg/common}
+\input{lib/ttrpg/scoundrel1e_stats}
+                
+\setcounter{tocdepth}{2}
+\begin{document}
+\begin{multicols}{2}
+  \tableofcontents*
+"""+ "\n".join(f"  \\subsection{{{nice_name}}}\n  \\mhstats{name}" for nice_name, name in bestiary_commands) + r"""
+\end{multicols}
+\end{document}
+""")
 
 @click.command()
 @click.argument('urls', nargs=-1, type=str)
