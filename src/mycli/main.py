@@ -248,7 +248,6 @@ def scrape_bfmonsters():
 @click.argument("outfilepath", type=str)
 @click.argument("bestiaryoutfilepath", type=str)
 def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
-    # C:\synced\Notes\pages\Knave 2e Bestiary.md
     lines = []
     with open(infilepath, 'r') as file:
         lines = [l.strip() for l in file.readlines()]
@@ -256,7 +255,8 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
     bestiary_commands = []
     latex_commands = [r"""
 % Auto Generated File DOT NOT MODIFY
-% with command: poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "exports/lib/ttrpg/scoundrel1e_stats.tex" "exports/scoundrel1e_bestiary.tex"
+% with command:
+    poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_stats.tex" "C:\dev\writing\lib\scoundrel1e_bestiary.tex"
 """]
     REPLACEMENTS =[
             ("~", r"\textasciitilde"),
