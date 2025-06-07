@@ -278,11 +278,6 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
             splits[i] = re.sub(r"([&%$#_{}])", "\g<1>", splits[i])
             splits[i] = splits[i].strip(",")
         nice_name = splits[0].strip(":").capitalize()
-        # no line breaks in non desc,atk fields
-        for i in range(len(splits) - 1):
-            if i == 4:
-                continue
-            splits[i] = splits[i].replace(" ", "~")
         n = len(splits)
         if n < 8:
             continue
