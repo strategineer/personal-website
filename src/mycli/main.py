@@ -329,6 +329,8 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
 \documentclass[letterpaper,openany]{memoir}
 \input{lib/ttrpg/common}
 \input{lib/ttrpg/scoundrel1e_stats}
+
+\setheadings{}{Scoundrel 1e}{\thepage}
                 
 \setcounter{tocdepth}{2}
 \begin{document}
