@@ -285,7 +285,8 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
         name, ac, hp, lvl, atk, mov, mrl, na, *desc = splits
         name = "".join(c for c in name if c.isalpha() or c.isdigit() or c==' ').rstrip().replace(" ", "")
         desc = " ".join(desc)
-
+        if desc != "":
+            desc = f" {desc}."
         latex_commands.append((f"""
 \\newcommand{{\\hstats{name}}}[1][{desc}]{{\\stats
     {{{ac}}}  % AC
@@ -304,10 +305,10 @@ def convert_bestiary_to_latex(infilepath, outfilepath):
     \\wstats{{#1}}{{\\hstats{name}}}
 }}
 \\newcommand{{\\dstats{name}}}[1]{{
-    \\wstats{{{nice_name}}}{{\\hstats{name}[#1]}}
+    \\wstats{{{nice_name}}}{{\\hstats{name}[ #1]}}
 }}
 \\newcommand{{\\ndstats{name}}}[2]{{
-    \\wstats{{#1}}{{\\hstats{name}[#2]}}
+    \\wstats{{#1}}{{\\hstats{name}[ #2]}}
 }}
 """))
     latex_commands.sort()
