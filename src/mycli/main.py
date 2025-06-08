@@ -320,7 +320,7 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
         f.write("".join(latex_commands))
     bestiary_commands.sort()
     with open(bestiaryoutfilepath, "w") as f:
-        f.write("\n".join(f"  \\subsection{{{nice_name}}}\n  \\mhstats{name}" for nice_name, name in bestiary_commands))
+        f.write("\n".join(f"\\subsection{{{nice_name}}}\n\\mhstats{name}" for nice_name, name in bestiary_commands))
 
 @click.command()
 @click.argument('urls', nargs=-1, type=str)
