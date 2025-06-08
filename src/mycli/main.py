@@ -256,7 +256,7 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
     latex_commands = [r"""
 % Auto Generated File DOT NOT MODIFY
 % with command:
-%    poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_stats.tex" "C:\dev\writing\scoundrel1e_bestiary.tex"
+%    poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_stats.tex" "C:\dev\writing\lib\ttrpg\scoundrel1e_bestiary.tex"
 """]
     REPLACEMENTS =[
             ("~", r"\textasciitilde"),
@@ -320,21 +320,7 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
         f.write("".join(latex_commands))
     bestiary_commands.sort()
     with open(bestiaryoutfilepath, "w") as f:
-        f.write(r"""
-\documentclass[letterpaper,openany]{memoir}
-\input{lib/ttrpg/common}
-\input{lib/ttrpg/scoundrel1e_stats}
-
-\setheadings{}{Scoundrel 1e}{\thepage}
-       
-\setcounter{tocdepth}{2}
-\begin{document}
-\begin{multicols}{2}
-  \tableofcontents*
-"""+ "\n".join(f"  \\subsection{{{nice_name}}}\n  \\mhstats{name}" for nice_name, name in bestiary_commands) + r"""
-\end{multicols}
-\end{document}
-""")
+        f.write("\n".join(f"  \\subsection{{{nice_name}}}\n  \\mhstats{name}" for nice_name, name in bestiary_commands))
 
 @click.command()
 @click.argument('urls', nargs=-1, type=str)
