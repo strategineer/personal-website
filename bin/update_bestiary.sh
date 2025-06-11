@@ -1,0 +1,2 @@
+#!/bin/bash
+poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_stats.tex" "C:\dev\writing\lib\ttrpg\scoundrel1e_bestiary.tex"
