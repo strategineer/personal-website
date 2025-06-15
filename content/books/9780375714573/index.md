@@ -4,6 +4,7 @@ authors:
 books/tags:
 - 3star
 - comics
+- unowned
 date: 2025-03-30
 params:
   isbn13: '9780375714573'

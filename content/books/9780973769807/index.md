@@ -4,6 +4,7 @@ authors:
 books/tags:
 - 1star
 - philosophy
+- unowned
 date: 2024-11-04
 params:
   isbn13: '9780973769807'

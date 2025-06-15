@@ -6,6 +6,7 @@ authors:
 books/tags:
 - 2star
 - fantasy
+- unowned
 date: 2024-07-25
 params:
   isbn13: '9780062694591'

@@ -4,6 +4,7 @@ authors:
 books/tags:
 - 2star
 - non-fiction
+- unowned
 date: 2023-10-28
 params:
   isbn13: '9780857526649'

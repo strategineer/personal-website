@@ -5,6 +5,7 @@ authors:
 books/tags:
 - 2star
 - comic
+- unowned
 date: 2022-12-10
 params:
   isbn13: '9780552171892'

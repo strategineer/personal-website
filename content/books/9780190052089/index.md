@@ -6,6 +6,7 @@ books/tags:
 - did-not-finish
 - non-fiction
 - philosophy
+- unowned
 date: 2022-09-14
 params:
   isbn13: '9780190052089'
