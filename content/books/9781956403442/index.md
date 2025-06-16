@@ -3,7 +3,6 @@ authors:
 - Jonah Fishel
 - Tristan Fishel
 books/tags:
-- 2star
 - tabletop
 date: 2025-01-19
 params:

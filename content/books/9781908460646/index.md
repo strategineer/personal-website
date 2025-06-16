@@ -4,7 +4,6 @@ authors:
 - Grant Howitt
 - Paul Dean
 books/tags:
-- 5star
 - tabletop
 date: 2024-05-14
 params:

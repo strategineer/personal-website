@@ -3,7 +3,6 @@ authors:
 - D. Vincent Baker
 - Meguey Baker
 books/tags:
-- 4star
 - tabletop
 date: 2024-11-22
 params:

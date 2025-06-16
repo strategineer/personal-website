@@ -2,7 +2,6 @@
 authors:
 - Monte Cook
 books/tags:
-- 5star
 - tabletop
 date: 2025-01-22
 params:

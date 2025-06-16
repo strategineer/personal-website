@@ -2,7 +2,6 @@
 authors:
 - The Merry Mushmen
 books/tags:
-- 5star
 - tabletop
 date: 2025-05-17
 params:

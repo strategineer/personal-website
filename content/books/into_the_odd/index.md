@@ -2,7 +2,6 @@
 authors:
 - Chris Mcdowall
 books/tags:
-- 4star
 - tabletop
 date: 2025-05-11
 params:

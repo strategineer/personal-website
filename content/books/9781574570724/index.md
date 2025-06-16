@@ -2,7 +2,6 @@
 authors:
 - Kevin Siembieda
 books/tags:
-- 4star
 - tabletop
 date: 2025-01-19
 params:

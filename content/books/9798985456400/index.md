@@ -2,7 +2,6 @@
 authors:
 - Kelsey Dionne
 books/tags:
-- 4star
 - tabletop
 date: 2024-08-18
 params:

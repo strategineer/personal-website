@@ -4,7 +4,6 @@ authors:
 - Monte Cook
 - Skip Williams
 books/tags:
-- 3star
 - tabletop
 date: 2010-09-01
 params:

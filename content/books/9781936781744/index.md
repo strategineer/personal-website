@@ -2,7 +2,6 @@
 authors:
 - Kobold Press
 books/tags:
-- 3star
 - tabletop
 date: 2024-08-23
 params:

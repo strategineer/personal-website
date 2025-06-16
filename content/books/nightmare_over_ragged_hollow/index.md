@@ -2,7 +2,6 @@
 authors:
 - Joseph R. Lewis
 books/tags:
-- 5star
 - tabletop
 date: 2025-05-14
 params:

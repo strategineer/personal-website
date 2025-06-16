@@ -481,13 +481,14 @@ def sort_tags():
                 )
                 continue
         tags = post.metadata["books/tags"]
+        should_have_tag = "tabletop" not in tags
         if not tags:
             tags = []
         for star_rating_tag in STAR_RATING_TAGS.values():
             if star_rating_tag in tags:
                 tags.remove(star_rating_tag)
         star_rating = post.metadata.get("star_rating", 0)
-        if star_rating in STAR_RATING_TAGS:
+        if should_have_tag and star_rating in STAR_RATING_TAGS:
             tags.append(STAR_RATING_TAGS[star_rating])
         sorted_tags = sorted(tags, key=sorting_fn)
         if "slay" in sorted_tags:

@@ -2,7 +2,6 @@
 authors:
 - Micheal Sands
 books/tags:
-- 3star
 - tabletop
 date: 2022-08-17
 params:

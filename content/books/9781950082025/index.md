@@ -2,7 +2,6 @@
 authors:
 - Shane Lacy Hensley
 books/tags:
-- 4star
 - tabletop
 date: 2025-01-17
 params:

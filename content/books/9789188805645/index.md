@@ -3,7 +3,6 @@ authors:
 - Pelle Nilsson
 - Johan Nohr
 books/tags:
-- 4star
 - tabletop
 date: 2022-11-02
 params:

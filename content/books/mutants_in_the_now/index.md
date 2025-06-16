@@ -2,7 +2,6 @@
 authors:
 - Julian Kay
 books/tags:
-- 2star
 - tabletop
 date: 2025-05-10
 params:

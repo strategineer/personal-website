@@ -2,7 +2,6 @@
 authors:
 - Ben Nielson
 books/tags:
-- 4star
 - tabletop
 date: 2022-11-01
 params:

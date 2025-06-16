@@ -2,7 +2,6 @@
 authors:
 - Venger Satanis
 books/tags:
-- 2star
 - tabletop
 date: 2025-01-17
 params:

@@ -2,7 +2,6 @@
 authors:
 - Ben Milton
 books/tags:
-- 5star
 - tabletop
 date: 2025-05-19
 params:
