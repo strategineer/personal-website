@@ -7,7 +7,7 @@ books/tags:
 date: 2025-05-14
 params:
   year: '2023'
-slug: 'nightmare_over_ragged_hollow'
+slug: nightmare_over_ragged_hollow
 star_rating: 5
 title: Nightmare over Ragged Hollow
 ---
@@ -24,4 +24,4 @@ During character creation I gave them the premise of the module and skipped over
 
 So, I added a bridge troll-in-training blocking their path towards the Gloamwood. But I can imagine you choosing to start your players off in the town with less of an initial railroad if you're planning a campaign (instead of a one-shot) and you're running a session with players experienced with roleplaying and OSR-style play. Even in that case, providing a patron with a clear goal and direction for players to strive towards might be good to start the campaign/module off on the right foot.
 
-Kids with trained imaginations can have fun with sandboxes but the adults you're probably playing with might need a little guidance to ease them into the premise and their role in it. 
+Kids with trained imaginations can have fun with sandboxes but the adults you're probably playing with might need a little guidance to ease them into the premise and their role in it.

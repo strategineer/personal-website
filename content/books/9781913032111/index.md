@@ -3,7 +3,7 @@ authors:
 - Grant Howitt
 - Christopher Taylor
 books/tags:
-- 4star
+- 5star
 - tabletop
 date: 2022-08-16
 params:

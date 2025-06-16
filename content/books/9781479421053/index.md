@@ -12,5 +12,4 @@ star_rating: null
 title: The R.A. Lafferty Fantastic MEGAPACK®
 ---
 
-
 <!--more-->

@@ -7,7 +7,7 @@ books/tags:
 date: 2025-05-12
 params:
   year: '2020'
-slug: 'electric_bastionland'
+slug: electric_bastionland
 star_rating: 4
 title: Electric Bastion
 ---

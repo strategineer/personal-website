@@ -7,7 +7,7 @@ books/tags:
 date: 2025-05-11
 params:
   year: '2016'
-slug: 'into_the_odd'
+slug: into_the_odd
 star_rating: 4
 title: Into The Odd
 ---

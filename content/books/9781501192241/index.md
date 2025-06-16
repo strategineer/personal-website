@@ -2,6 +2,7 @@
 authors:
 - Stephen King
 books/tags:
+- 5star
 - horror
 date: 2025-05-22
 params:

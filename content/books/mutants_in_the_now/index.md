@@ -7,7 +7,7 @@ books/tags:
 date: 2025-05-10
 params:
   year: '2022'
-slug: 'mutants_in_the_now'
+slug: mutants_in_the_now
 star_rating: 2
 title: Mutants in the Now
 ---

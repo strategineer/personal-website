@@ -7,9 +7,9 @@ books/tags:
 date: 2025-05-22
 params:
   year: '2022'
-slug: 'knock2'
+slug: knock2
 star_rating: 5
-title: "Knock #2"
+title: 'Knock #2'
 ---
 
 <!--more-->

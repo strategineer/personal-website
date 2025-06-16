@@ -2,6 +2,7 @@
 authors:
 - R A Lafferty
 books/tags:
+- 4star
 - science fiction
 date: 2025-05-07
 params:

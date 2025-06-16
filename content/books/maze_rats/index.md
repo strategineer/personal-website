@@ -7,7 +7,7 @@ books/tags:
 date: 2025-05-13
 params:
   year: '2024'
-slug: 'maze_rats'
+slug: maze_rats
 star_rating: 5
 title: Maze Rats
 ---
