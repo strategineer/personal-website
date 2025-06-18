@@ -303,13 +303,16 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
   \\hhstats{{{cmd_name}}}
 }}
 \\newcommand{{\\stats{name}}}{{
+  \\wsstats{{{cmd_name}}}
+}}
+\\newcommand{{\\sstats{name}}}{{
   \\wstats{{{nice_name}}}{{{cmd_name}}}
 }}
 \\newcommand{{\\nstats{name}}}[1]{{
   \\wstats{{#1}}{{{cmd_name}}}
 }}
 \\newcommand{{\\dstats{name}}}[1]{{
-  \\wstats{{{nice_name}}}{{{cmd_name}[ #1]}}
+  \\wsstats{{{cmd_name}[ #1]}}
 }}
 \\newcommand{{\\ndstats{name}}}[2]{{
   \\wstats{{#1}}{{{cmd_name}[ #2]}}
