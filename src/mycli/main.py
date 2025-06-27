@@ -3,7 +3,7 @@ import glob
 import os
 from io import BytesIO
 from pathlib import Path
-from datetime import date, timedelta
+from datetime import date
 from time import sleep
 from difflib import *
 import subprocess
@@ -11,7 +11,6 @@ import sys
 import urllib
 import re
 from collections import Counter
-import itertools
 
 from PIL import Image
 from mergedeep import merge
@@ -200,242 +199,6 @@ def delete_blog_thumbnails():
     filenames = glob.glob("content/blog/*/thumbnail.*")
     for filename in filenames:
         Path(filename).unlink()
-
-@click.command()
-def knave_stats():
-    for str, dex, con, int, wis, cha in sorted(set(itertools.permutations([2, 1, 0, 0, 0, 0]))):
-        print(f"STR: {str}, DEX: {dex}, CON: {con}, INT: {int}, WIS: {wis}, CHA: {cha}")
-
-def cleanup(s):
-    s = s.replace("(see below)", "")
-    s = s.replace("(variable)", "")
-    s = s.replace("\u2019", "'")
-    s = s.replace("\u2013", "")
-    s = s.replace("\u00bd", "1/2")
-    s = s.replace("\u00a0", " ")
-    s = s.strip("* ")
-    return s
-
-@click.command()
-def scrape_bfmonsters():
-    with open("C:\dev\personal-website\data\monsters.json", encoding="utf-8") as file:
-        data = json.load(file)
-        for m in data:
-            m = {k:cleanup(v) for k,v in m.items()}
-            name = m["Name"]
-            ac = m["Armor Class:"].replace("(s)", "").replace("(m)", "").strip("* ")
-            hd = m["Hit Dice:"]
-            atk = m["No.\xa0of Attacks:"]
-            dmg = m["Damage:"]
-            mov = m["Movement:"]
-            na = m["No.\xa0Appearing:"]
-            na = re.sub(r'Wild (\d+d\d+)', '(\g<1>)', na).strip(", ")
-            na = re.sub(r'Lair (\d+d\d+)', '', na).strip(", ")
-            na = na.replace(", ", " ")
-            na = re.sub(r'^\((\d+d\d+)\)$', '0 (\g<1>)', na).strip(", ")
-            mrl = m["Morale:"]
-            # {'Name': 'Skeletaire', 'Armor Class:': '13 (see below)', 'Hit Dice:': '1* (variable)', 'No.\xa0of Attacks:': '1 dagger or 1 spell', 'Damage:': '1d4 or per spell', 'Movement:': '40▒', 'No.\xa0Appearing:': '1', 'Save As:': 'Magic-User: by HD', 'Morale:': '12', 'Treasure Type:': 'None', 'XP:': '37 (variable)'}
-            hp = "HP ?"
-            try:
-                hp = f"HP {int(hd) * 4}"
-            except:
-                pass
-            print(f"- **{name.lower()}:** AC {ac}, {hp}, LVL {hd}, ATK {atk} ({dmg}), MOV {mov}, NA {na}, MRL {mrl}")
-    return
-
-REPLACEMENTS =[
-        ("~", r"\textasciitilde"),
-        ("^", r"\textasciicircum"),
-        ("&", r"\&"),
-        ("%", r"\%"),
-        ("$", r"\$"),
-        ("#", r"\#"),
-        ("_", r"\_"),
-        ("{", r"\{"),
-        ("}", r"\}"),
-    ]
-    
-@click.command()
-@click.argument("infilepath", type=str)
-@click.argument("outfilepath", type=str)
-@click.argument("bestiaryoutfilepath", type=str)
-def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
-    lines = []
-    with open(infilepath, 'r') as file:
-        lines = [l.strip() for l in file.readlines()]
-    bestiary_commands = []
-    latex_commands = [r"""
-% Auto Generated File DOT NOT MODIFY
-% with command:
-%    poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\dev\writing\scoundrel1e_bestiary.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_stats.tex" "C:\dev\writing\lib\ttrpg\scoundrel1e_bestiary.tex"
-"""]
-    for l in lines:
-        if ":" not in l:
-            continue
-        splits = re.split(r'AC|HP|LVL|ATK|MOV|MRL|NA|\.', l, 8)
-        splits = [s.strip("* -.").replace("\\", r"\textbackslash") for s in splits]
-        for i in range(len(splits)):
-            for frm, to in REPLACEMENTS:
-                splits[i] = splits[i].replace(frm, to)
-            splits[i] = re.sub(r"([&%$#_{}])", "\g<1>", splits[i])
-            splits[i] = splits[i].strip(",")
-        nice_name = splits[0].strip(":").capitalize()
-        n = len(splits)
-        if n < 8:
-            continue
-        name, ac, hp, lvl, atk, mov, mrl, na, *desc = splits
-        name = "".join(c for c in name if c.isalpha() or c.isdigit() or c==' ').rstrip().replace(" ", "")
-        desc = " ".join(desc)
-        if desc != "":
-            desc = f" {desc}."
-        cmd_name = f"\\hstats{name}"
-        bestiary_commands.append((nice_name, name))
-        latex_commands.append((f"""
-\\newcommand{{{cmd_name}}}[1][{desc}]{{\\stats
-  {{{ac}}}  % AC
-  {{{hp}}}  % HP
-  {{{lvl}}} % Level
-  {{{atk}}} % Attacks
-  {{{mov}}} % Move
-  {{{mrl}}} % Morale
-  {{{na}}}  % No. Appearing
-  {{#1}}    % Notes
-}}
-\\newcommand{{\\mhstats{name}}}{{
-  \\hhstats{{{cmd_name}}}
-}}
-\\newcommand{{\\stats{name}}}{{
-  \\wsstats{{{cmd_name}}}
-}}
-\\newcommand{{\\sstats{name}}}{{
-  \\wstats{{{nice_name}}}{{{cmd_name}}}
-}}
-\\newcommand{{\\nstats{name}}}[1]{{
-  \\wstats{{#1}}{{{cmd_name}}}
-}}
-\\newcommand{{\\dstats{name}}}[1]{{
-  \\wsstats{{{cmd_name}[ #1]}}
-}}
-\\newcommand{{\\ndstats{name}}}[2]{{
-  \\wstats{{#1}}{{{cmd_name}[ #2]}}
-}}
-"""))
-    latex_commands.sort()
-    with open(outfilepath, "w") as f:
-        f.write("".join(latex_commands))
-    bestiary_commands.sort()
-    with open(bestiaryoutfilepath, "w") as f:
-        f.write("\n".join(f"\\subsection{{{nice_name}}}\n\\mhstats{name}" for nice_name, name in bestiary_commands))
-
-@click.command()
-@click.argument("infilepath", type=str)
-@click.argument("outfilepath", type=str)
-@click.argument("itemcatalogueoutfilepath", type=str)
-def convert_items_to_latex(infilepath, outfilepath, itemcatalogueoutfilepath):
-    lines = []
-    with open(infilepath, 'r') as file:
-        lines = [l.strip() for l in file.readlines()]
-    item_commands = []
-    latex_commands = [r"""
-% Auto Generated File DOT NOT MODIFY
-% with command:
-%    poetry run py -u "src/mycli/main.py" convert-items-to-latex "C:\dev\writing\scoundrel1e_items.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_items.tex" "C:\dev\writing\lib\ttrpg\scoundrel1e_item_catalogue.tex"
-"""]
-    n_splits = 2
-    for l in lines:
-        if ":" not in l:
-            if l.startswith("#"):
-                item_commands.append(("", l.strip("# "), True))
-            continue
-        splits = re.split(r':', l, n_splits)
-        splits = [s.strip("* -.").replace("\\", r"\textbackslash") for s in splits]
-        for i in range(len(splits)):
-            for frm, to in REPLACEMENTS:
-                splits[i] = splits[i].replace(frm, to)
-            splits[i] = re.sub(r"([&%$#_{}])", "\g<1>", splits[i])
-            splits[i] = splits[i].strip(",")
-        nice_name = splits[0].strip(":")
-        n = len(splits)
-        if n < n_splits:
-            continue
-        name, desc = splits
-        name = "".join(c for c in name if c.isalpha() or c.isdigit() or c==' ').rstrip().replace(" ", "")
-        if desc != "":
-            desc = f" {desc}."
-        desc = desc.strip()
-        cmd_name = f"\\loot{name}"
-        item_commands.append((nice_name, name, False))
-        latex_commands.append((f"""
-\\newcommand{{{cmd_name}}}{{\\loot
-  {{{nice_name}}}  % Name
-  {{{desc}}}% Description
-}}
-"""))
-    latex_commands.sort()
-    with open(outfilepath, "w") as f:
-        f.write("".join(latex_commands))
-    with open(itemcatalogueoutfilepath, "w") as f:
-        is_start = True
-        for nice_name, name, is_category in item_commands:
-            if is_category:
-                if not is_start:
-                    f.write("\\end{enumerate}\n")
-                is_start = False
-                f.write(f"\\section{{{name}}}\n")
-                f.write("\\begin{enumerate}\n")
-            else:
-                f.write(f"  \\item \\loot{name}\n")            
-        f.write("\\end{enumerate}\n")
-
-
-@click.command()
-@click.argument('urls', nargs=-1, type=str)
-def scrape_onomastikon(urls):
-    headers = {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36",
-        "Accept-Language": "en-US, en;q=0.5",
-    }
-    for url in urls:
-        # https://tekeli.li/onomastikon/Europe-Western/Germany/Germanic.html
-        split_url = url.split("/")
-        url_name = f"{split_url[-2]}{split_url[-1].replace('.html', '')}"
-        html = requests.get(url, headers=headers)
-        soup = bs(html.text, features="html.parser")
-        results = soup.find_all("tr")
-        ls = []
-        for r in results:
-            for s in r.select("td"):
-                name = str(s.text)
-                if not name:
-                    continue
-                name = name.replace("</td>", "")
-                name = name.replace("<td>", "")
-                name = name.replace("<p>", "")
-                name = name.replace("</p>", "")
-                name = name.replace("Given Name", "")
-                name = name.replace("and Variants", "")
-                name = name.replace("variants", "")
-                name = name.replace("?", "")
-                name = name.replace("*", "")
-                name = name.replace("</i>", "")
-                name = name.replace("<i>", "")
-                if not name:
-                    continue
-                names = name.split(",")
-                for n in names:
-                    for a in n.split(" "):
-                        a = a.strip()
-                if not a:
-                    continue
-                ls.append(f"|{a}|")
-                break
-        ls = sorted(ls)
-        ls = [f'{{{{< rpg_table name="{url_name}Name" is_name_table="true" >}}}}', "| Names |","| ----- |"] + ls + [r"{{< /rpg_table >}}", ""]
-        ls = [f"{l}\n" for l in ls]
-        names_export_filename = r"exports/names.txt"
-        Path(names_export_filename).touch()
-        with open(names_export_filename, "a", encoding="utf-8") as f:
-            f.writelines(ls)
 
 @click.command()
 def fetch_thumbnails():
@@ -794,11 +557,6 @@ cli.add_command(rename_reaction_gif)
 cli.add_command(stats)
 cli.add_command(book_rating_shifter)
 cli.add_command(delete_blog_thumbnails)
-cli.add_command(scrape_onomastikon)
-cli.add_command(knave_stats)
-cli.add_command(scrape_bfmonsters)
-cli.add_command(convert_bestiary_to_latex)
-cli.add_command(convert_items_to_latex)
 
 if __name__ == "__main__":
     cli()
