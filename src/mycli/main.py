@@ -344,6 +344,8 @@ def convert_items_to_latex(infilepath, outfilepath, itemcatalogueoutfilepath):
     n_splits = 2
     for l in lines:
         if ":" not in l:
+            if l.startswith("#"):
+                item_commands.append(("", l.strip("# "), True))
             continue
         splits = re.split(r':', l, n_splits)
         splits = [s.strip("* -.").replace("\\", r"\textbackslash") for s in splits]
@@ -362,7 +364,7 @@ def convert_items_to_latex(infilepath, outfilepath, itemcatalogueoutfilepath):
             desc = f" {desc}."
         desc = desc.strip()
         cmd_name = f"\\loot{name}"
-        item_commands.append((nice_name, name))
+        item_commands.append((nice_name, name, False))
         latex_commands.append((f"""
 \\newcommand{{{cmd_name}}}{{\\loot
   {{{nice_name}}}  % Name
@@ -372,11 +374,18 @@ def convert_items_to_latex(infilepath, outfilepath, itemcatalogueoutfilepath):
     latex_commands.sort()
     with open(outfilepath, "w") as f:
         f.write("".join(latex_commands))
-    item_commands.sort()
     with open(itemcatalogueoutfilepath, "w") as f:
-        f.write("\\begin{steps}\n")
-        f.write("\n".join(f"\\item \\loot{name}" for _, name in item_commands))
-        f.write("\n\\end{steps}\n")
+        is_start = True
+        for nice_name, name, is_category in item_commands:
+            if is_category:
+                if not is_start:
+                    f.write("\\end{enumerate}\n")
+                is_start = False
+                f.write(f"\\section{{{name}}}\n")
+                f.write("\\begin{enumerate}\n")
+            else:
+                f.write(f"  \\item \\loot{name}\n")            
+        f.write("\\end{enumerate}\n")
 
 
 @click.command()
