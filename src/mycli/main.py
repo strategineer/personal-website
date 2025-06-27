@@ -270,6 +270,8 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
 %    poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\dev\writing\scoundrel1e_bestiary.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_stats.tex" "C:\dev\writing\lib\ttrpg\scoundrel1e_bestiary.tex"
 """]
     for l in lines:
+        if ":" not in l:
+            continue
         splits = re.split(r'AC|HP|LVL|ATK|MOV|MRL|NA|\.', l, 8)
         splits = [s.strip("* -.").replace("\\", r"\textbackslash") for s in splits]
         for i in range(len(splits)):
@@ -341,6 +343,8 @@ def convert_items_to_latex(infilepath, outfilepath, itemcatalogueoutfilepath):
 """]
     n_splits = 2
     for l in lines:
+        if ":" not in l:
+            continue
         splits = re.split(r':', l, n_splits)
         splits = [s.strip("* -.").replace("\\", r"\textbackslash") for s in splits]
         for i in range(len(splits)):
