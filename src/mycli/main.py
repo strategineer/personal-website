@@ -243,6 +243,18 @@ def scrape_bfmonsters():
             print(f"- **{name.lower()}:** AC {ac}, {hp}, LVL {hd}, ATK {atk} ({dmg}), MOV {mov}, NA {na}, MRL {mrl}")
     return
 
+REPLACEMENTS =[
+        ("~", r"\textasciitilde"),
+        ("^", r"\textasciicircum"),
+        ("&", r"\&"),
+        ("%", r"\%"),
+        ("$", r"\$"),
+        ("#", r"\#"),
+        ("_", r"\_"),
+        ("{", r"\{"),
+        ("}", r"\}"),
+    ]
+    
 @click.command()
 @click.argument("infilepath", type=str)
 @click.argument("outfilepath", type=str)
@@ -251,24 +263,12 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
     lines = []
     with open(infilepath, 'r') as file:
         lines = [l.strip() for l in file.readlines()]
-        lines = [l for l in lines if not l.startswith("collapsed::") and not l.startswith("id::") and not l.startswith("tags::")]
     bestiary_commands = []
     latex_commands = [r"""
 % Auto Generated File DOT NOT MODIFY
 % with command:
-%    poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\synced\Notes\pages\Knave 2e Bestiary.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_stats.tex" "C:\dev\writing\lib\ttrpg\scoundrel1e_bestiary.tex"
+%    poetry run py -u "src/mycli/main.py" convert-bestiary-to-latex "C:\dev\writing\scoundrel1e_bestiary.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_stats.tex" "C:\dev\writing\lib\ttrpg\scoundrel1e_bestiary.tex"
 """]
-    REPLACEMENTS =[
-            ("~", r"\textasciitilde"),
-            ("^", r"\textasciicircum"),
-            ("&", r"\&"),
-            ("%", r"\%"),
-            ("$", r"\$"),
-            ("#", r"\#"),
-            ("_", r"\_"),
-            ("{", r"\{"),
-            ("}", r"\}"),
-        ]
     for l in lines:
         splits = re.split(r'AC|HP|LVL|ATK|MOV|MRL|NA|\.', l, 8)
         splits = [s.strip("* -.").replace("\\", r"\textbackslash") for s in splits]
@@ -324,6 +324,56 @@ def convert_bestiary_to_latex(infilepath, outfilepath, bestiaryoutfilepath):
     bestiary_commands.sort()
     with open(bestiaryoutfilepath, "w") as f:
         f.write("\n".join(f"\\subsection{{{nice_name}}}\n\\mhstats{name}" for nice_name, name in bestiary_commands))
+
+@click.command()
+@click.argument("infilepath", type=str)
+@click.argument("outfilepath", type=str)
+@click.argument("itemcatalogueoutfilepath", type=str)
+def convert_items_to_latex(infilepath, outfilepath, itemcatalogueoutfilepath):
+    lines = []
+    with open(infilepath, 'r') as file:
+        lines = [l.strip() for l in file.readlines()]
+    item_commands = []
+    latex_commands = [r"""
+% Auto Generated File DOT NOT MODIFY
+% with command:
+%    poetry run py -u "src/mycli/main.py" convert-items-to-latex "C:\dev\writing\scoundrel1e_items.md" "C:\dev\writing\lib\ttrpg\scoundrel1e_items.tex" "C:\dev\writing\lib\ttrpg\scoundrel1e_item_catalogue.tex"
+"""]
+    n_splits = 2
+    for l in lines:
+        splits = re.split(r':', l, n_splits)
+        splits = [s.strip("* -.").replace("\\", r"\textbackslash") for s in splits]
+        for i in range(len(splits)):
+            for frm, to in REPLACEMENTS:
+                splits[i] = splits[i].replace(frm, to)
+            splits[i] = re.sub(r"([&%$#_{}])", "\g<1>", splits[i])
+            splits[i] = splits[i].strip(",")
+        nice_name = splits[0].strip(":")
+        n = len(splits)
+        if n < n_splits:
+            continue
+        name, desc = splits
+        name = "".join(c for c in name if c.isalpha() or c.isdigit() or c==' ').rstrip().replace(" ", "")
+        if desc != "":
+            desc = f" {desc}."
+        desc = desc.strip()
+        cmd_name = f"\\loot{name}"
+        item_commands.append((nice_name, name))
+        latex_commands.append((f"""
+\\newcommand{{{cmd_name}}}{{\\loot
+  {{{nice_name}}}  % Name
+  {{{desc}}}% Description
+}}
+"""))
+    latex_commands.sort()
+    with open(outfilepath, "w") as f:
+        f.write("".join(latex_commands))
+    item_commands.sort()
+    with open(itemcatalogueoutfilepath, "w") as f:
+        f.write("\\begin{steps}\n")
+        f.write("\n".join(f"\\item \\loot{name}" for _, name in item_commands))
+        f.write("\n\\end{steps}\n")
+
 
 @click.command()
 @click.argument('urls', nargs=-1, type=str)
@@ -735,6 +785,7 @@ cli.add_command(scrape_onomastikon)
 cli.add_command(knave_stats)
 cli.add_command(scrape_bfmonsters)
 cli.add_command(convert_bestiary_to_latex)
+cli.add_command(convert_items_to_latex)
 
 if __name__ == "__main__":
     cli()
