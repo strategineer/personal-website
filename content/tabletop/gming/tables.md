@@ -119,6 +119,113 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 | Warriors |
 {{< /rpg_table >}}
 
+
+{{< rpg_table name="FantasyBeastName" is_name_table="true">}}
+| Fantasy Beast Name |
+| --------|
+|Ahtra|
+|Alatus|
+|Angorn|
+|Aramatus|
+|Avir|
+|Bane|
+|Batranc|
+|Behemoth|
+|Chang|
+|Chig|
+|Darkmane|
+|Death's Head Viper|
+|Drac|
+|Draconid|
+|Dractyl|
+|Duadir|
+|Durge|
+|Echinomorph|
+|Endomorph|
+|Enim|
+|Erd|
+|Exomorph|
+|Fantasm|
+|Frostwere|
+|Ghast|
+|Graymane|
+|Harbinger|
+|Horag|
+|Ibik|
+|Ikshada|
+|Iron Dragonfly|
+|Ironshrike|
+|Juju|
+|Kra|
+|L'latha|
+|Loper|
+|Malathrope|
+|Mandragore|
+|Mang|
+|Mangonel Lizard|
+|Manrak|
+|Marsh Strider|
+|Megalodont|
+|Monolith|
+|Moodish|
+|Morde|
+|Mud Walker|
+|Mudray|
+|Muskront|
+|Nar-Eel|
+|Necrophage|
+|Neuromorph|
+|Neurovore|
+|Nighthawk|
+|Nightstalker|
+|Nx-Eel|
+|Ogriphant|
+|Ogront|
+|Omnivrax|
+|Opteryx|
+|Oruk|
+|Phasm|
+|Rainbow Kra|
+|Rajan Scorpion|
+|Raknid|
+|Ravenger|
+|River Kra|
+|Rock Urchin|
+|Sardonicus|
+|Satada|
+|Sea Dragon|
+|Sea Scorpion|
+|Shadow Wizard|
+|Shadow Wight|
+|Shaitan|
+|Shathane|
+|Shrieker|
+|Silvermane|
+|Skalanx|
+|Skank|
+|Smokk|
+|Snowmane|
+|Strider|
+|Tardisite|
+|Tarhs|
+|Tarkus|
+|Tazian Fly|
+|Tundra Beast|
+|Urthrax|
+|Vasp|
+|Void Monster|
+|Vorl|
+|Raknid|
+|Waterwhisp|
+|Werebeast|
+|Winged Viper|
+|Woodwhisp|
+|Yaksha|
+|Yrman|
+|Zaratan|
+|{{< /rpg_table >}}
+
+
 {{< rpg_table name="CityName" >}}
 | City Name|
 | --- |
