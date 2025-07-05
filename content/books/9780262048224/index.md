@@ -9,8 +9,7 @@ params:
   year: '2023'
 slug: '9780262048224'
 star_rating: 5
-title: 'Monsters, aliens, and holes in the ground'
+title: Monsters, aliens, and holes in the ground
 ---
-
 
 <!--more-->

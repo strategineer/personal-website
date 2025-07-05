@@ -2,6 +2,7 @@
 authors:
 - Catherine Dorion
 books/tags:
+- 5star
 - memeoir
 date: 2025-06-21
 params:

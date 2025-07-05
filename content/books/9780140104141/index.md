@@ -2,6 +2,7 @@
 authors:
 - Art Spiegelman
 books/tags:
+- 4star
 - comics
 date: 2025-07-04
 params:

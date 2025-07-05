@@ -2,6 +2,7 @@
 authors:
 - Gene Wolfe
 books/tags:
+- 3star
 - did-not-finish
 - fantasy
 - historical fiction

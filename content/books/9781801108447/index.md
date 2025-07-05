@@ -2,6 +2,7 @@
 authors:
 - Adrian Tchaikovsky
 books/tags:
+- 5star
 - fantasy
 date: 2025-07-03
 params:
