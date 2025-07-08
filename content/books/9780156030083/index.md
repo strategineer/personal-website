@@ -2,7 +2,7 @@
 authors:
 - Daniel Keyes
 books/tags:
-- owned-but-unread
+- science fiction
 date: 2025-07-07
 params:
   isbn13: '9780156030083'
