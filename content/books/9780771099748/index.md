@@ -2,8 +2,8 @@
 authors:
 - Mordecai Richler
 books/tags:
-- owned-but-unread
-date: 1800-05-11
+- currently-reading
+date: 2025-07-09
 params:
   isbn13: '9780771099748'
   year: '1989'
