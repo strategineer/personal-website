@@ -2,7 +2,7 @@
 authors:
 - Nicola Griffith
 books/tags:
-- currently-reading
+- owned-but-unread
 - historical fiction
 date: 2025-07-09
 params:
