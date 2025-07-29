@@ -4,15 +4,18 @@ authors:
 books/tags:
 - comic
 - science fiction
-date: 2012-05-06
+- did-not-finish
+date: 2025-07-28
 params:
   isbn13: '9780517693117'
   series: The Hitchhiker's Guide To The Galaxy
   series_order: '6'
   year: '1989'
 slug: '9780517693117'
-star_rating: 0
+star_rating: 2
 title: The More Than Complete Hitchhiker's Guide - Complete & Unabridged
 ---
 
 <!--more-->
+
+It's got some undeniably funny parts but overall the novel doesn't hold up.
