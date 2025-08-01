@@ -3,7 +3,7 @@ authors:
 - Jorge Luis Borges
 - Andrew Hurley
 books/tags:
-- owned-but-unread
+- currently-reading
 date: 2025-07-19
 params:
   isbn13: '9780140286809'
@@ -15,3 +15,9 @@ title: Collected fictions
 
 
 <!--more-->
+
+Read:
+
+- The Library of Babel
+- Pierre Menard, Author of the Quixote
+- The Aleph
