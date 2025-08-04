@@ -10,19 +10,21 @@ All TODOs are for adding personal info. Ask first!
 
 In this post, I'll briefly describe Sleepaway, a TTRPG designed by Jay Dragon, then I'll cover my story game "credentials" (or lack thereof) and then I'll conclude with some thoughts on the oneshot I played in recently.
 
-# Sleepaway
+{{< toc >}}
+
+# The Sleepaway TTRPG
 
 Sleepaway is a horror TTRPG where players each play a camp counselor in a camp of their own creation suffering from the evil and chaotic influence of the Lindworm (like The Thing but more lovecraftian).
 
 Sleepaway is a GMless TTRPG and so players are encouraged to "pick up" setting elements at appropriate times, stuff like "The Field at the Center of the Camp" or "The Campers", and bring these parts of the camp to life in a collaborative way.
 
-# Story Game Experience
+# My Story Game Experience
 
 My experience with story game TTRPGs is relatively light. I've played a few sessions of {{< book_url "9781633442801" >}} almost a decade ago. I read the rules for {{< book_url "apocalypse_world_2e" >}} and {{< book_url "the_annotated_sorcerer" >}}. I've ran a dozen sessions of {{< book_url "9781613171325" >}} and I've played in a few dozen more (but it's been awhile).
 
 I'm always looking to improve my roleplaying skills and so when I was given the chance to play in a kind of TTRPG that I don't have a lot of experience with, I jumped at the opportunity.
 
-# Sleepaway Oneshot
+# The Oneshot
 
 So how did this oneshot of Sleepaway go?
 
@@ -32,9 +34,9 @@ For context, the character I chose to play was The Athlete. I felt like my inexp
 
 I'll start by writing about the things I would do differently if I were to play Sleepaway again as well as parts of the game I really liked.
 
-# The Less Good
+## The Less Good
 
-## Time (or lack of it)
+### Time (or lack of it)
 
 The session was 3 hours long and this included the character creation process, the camp creation process and the oneshot.
 
@@ -48,7 +50,7 @@ To help with this, next time, I would ask the table to agree on what kind of int
 
 Is this a mystery that ends with the flaying of an animal or is this a slasher that ends with the last camp councilor holding onto a bloody knife, hiding in a closet? We'd then use the answer to this as a guiding hand to help us collaborate on building up to the conclusion of the oneshot that we feel is appropriate within the allotted time.
 
-## My Roleplaying
+### My Roleplaying
 
 I never end a roleplaying session feeling like I've run or played it perfectly. I always try my best, I'm always looking to improve what my best is, and compassionately critiquing my own play is part of that. So let's have at it.
 
@@ -66,9 +68,9 @@ What an absolute shame. A simple "FUCK YOU!" by Burt followed by a "SEE YOU IN H
 
 This is a recurring issue I have where I already have a hard enough time coming up with full sentences that my characters should say, playing both characters at once and setting up this climax was a bit too much for my brain to handle in the moment.
 
-# The Good
+## The Good
 
-## Moves and Objectives
+### Moves and Objectives
 
 Capital M Moves are the bread and butter of Powered by the Apocalypse style games. After reading a few PbtA rulebooks, I got the impression that Moves were a great way of constraining roleplay just enough to help players get into their characters minds and help them figure out what kinds of things they would do and say. Now that I've actually played a PbtA game I can confirm that's exactly what they do. It's interesting how a limited set of broad kinds of actions you can take as a player felt more freeing than the equivalent to a blank page that you often get in other games, especially the OSR-style adventure games that I'm much more used to playing these days.
 
@@ -86,7 +88,7 @@ Sam's player Sparky TODO took that in stride and used a move on his sheet in res
 
 This was cool as hell and it would have never in a million years happened in one of my OSR games. You can bet that I'll be on the hunt for more story game experiences moving forward because of this scene in particular.
 
-## Character Creation Process
+### The Character Creation Process
 
 Simple and quick yet left a lot of room for ideation based on the little of it there is.
 
@@ -94,7 +96,7 @@ Despite it not coming up explicitly in the session itself, I thought the Burt's 
 
 The character description, the simple pick lists that you choose from combined with the moves that you have access to made me feel ready to roleplay my character. I can't say the same for most games, including {{< book_url "9781913032111" >}} which I'm playing in right now, even after having written 2 pages of backstory, motivations and "stock" phrases I can say.
 
-## Camp Creation Process
+### The Collaborative Camp Creation Process
 
 Cutting up the camp into sections that each player can contribute to was great
 
