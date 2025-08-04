@@ -8,7 +8,7 @@ params:
   year: '2011'
 slug: the_annotated_sorcerer
 star_rating: 4
-title: The Annotated Sorcerer
+title: Sorcerer
 ---
 
 Sorcerer is a tabletop roleplaying game by Ron Edwards. It is an explicit precursor to Apocalypse World, being mentioned in those rules several times (and by extension, all of the Powered by the Apocalypse games).
