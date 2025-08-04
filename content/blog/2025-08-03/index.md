@@ -10,22 +10,27 @@ All TODOs are for adding personal info. Ask first!
 
 In this post, I'll briefly describe Sleepaway, a TTRPG designed by Jay Dragon, then I'll cover my story game "credentials" (or lack thereof) and then I'll conclude with some thoughts on the oneshot I played in recently.
 
+# Sleepaway
+
 Sleepaway is a horror TTRPG where players each play a camp counselor in a camp of their own creation suffering from the evil and chaotic influence of the Lindworm (like The Thing but more lovecraftian).
 
 Sleepaway is a GMless TTRPG and so players are encouraged to "pick up" setting elements at appropriate times, stuff like "The Field at the Center of the Camp" or "The Campers", and bring these parts of the camp to life in a collaborative way.
+
+# Story Game Experience
 
 My experience with story game TTRPGs is relatively light. I've played a few sessions of {{< book_url "9781633442801" >}} almost a decade ago. I read the rules for {{< book_url "apocalypse_world_2e" >}} and {{< book_url "the_annotated_sorcerer" >}}. I've ran a dozen sessions of {{< book_url "9781613171325" >}} and I've played in a few dozen more (but it's been awhile).
 
 I'm always looking to improve my roleplaying skills and so when I was given the chance to play in a kind of TTRPG that I don't have a lot of experience with, I jumped at the opportunity.
 
-I chose to play The Athlete, because I felt like my inexperience with this kind of TTRPG would be a good fit for a character who's suppressing their emotions, walking away from social conflict to punch something up until the pressure overflows into outbursts of anger and frustration. 
+# Sleepaway Oneshot
 
-I prepped for the session by reading through the rulebook and filling out the  
+So how did this oneshot of Sleepaway go?
 
+Great! I would love to play a game with my players who have expressed an interest in doing more collaborative storytelling and roleplaying at the table.
 
-So how did this session of Sleepaway go?
+For context, the character I chose to play was The Athlete. I felt like my inexperience with this kind of TTRPG would be a good fit for a character who's suppressing their emotions, walking away from social conflict to punch things and eventually blowing up in fits of anger.
 
-Great! I would love to bring a game like this to my table with players who have expressed an interest in doing more collaborative storytelling and roleplaying.
+I'll start by writing about the things I would do differently if I were to play Sleepaway again as well as parts of the game I really liked.
 
 # The Less Good
 

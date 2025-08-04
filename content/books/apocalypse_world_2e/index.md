@@ -9,7 +9,7 @@ params:
   year: '2016'
 slug: apocalypse_world_2e
 star_rating: 4
-title: Apocalypse World (2nd Edition)
+title: Apocalypse World
 ---
 
 The tabletop roleplaying game that inspired so many others (through their Powered by the Apocalypse branding) including games I've played and enjoyed like Blades in the Dark.
