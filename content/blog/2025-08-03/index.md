@@ -1,26 +1,24 @@
 ---
-title: "Secret Sunday Sampler - Sleepaway"
+title: "After Action Report - Sleepaway Oneshot"
 date: 2025-08-03
 blog/tags:
   - tabletop
 draft: true
 ---
 
-All TODOs are for adding personal info. Ask first!
-
-In this post, I'll briefly describe Sleepaway, a TTRPG designed by Jay Dragon, then I'll cover my story game "credentials" (or lack thereof) and then I'll conclude with some thoughts on the oneshot I played in recently.
+In this post, I'll briefly describe Sleepaway, a TTRPG designed by Jay Dragon, then I'll cover my story game "credentials" (or lack thereof) and then I'll conclude with some thoughts on the oneshot I played on August 3rd 2025 with some folks from the Quinns Quest's community (thanks to Sparky for pitching and organizing the oneshot and thanks to [birdmilk](https://secretsundaysampler.com/) and TundraFundra for showing up and being great).
 
 {{< toc >}}
 
 # The Sleepaway TTRPG
 
-Sleepaway is a horror TTRPG where players each play a camp counselor in a camp of their own creation suffering from the evil and chaotic influence of the Lindworm (like The Thing but more lovecraftian).
+Sleepaway is a horror TTRPG where players each play a camp counselor in a camp of their own creation suffering from the evil and chaotic influence of the Lindworm (like John Carpenter's The Thing but more lovecraftian).
 
-Sleepaway is a GMless TTRPG and so players are encouraged to "pick up" setting elements at appropriate times, stuff like "The Field at the Center of the Camp" or "The Campers", and bring these parts of the camp to life in a collaborative way.
+Sleepaway is a GMless TTRPG and so players are encouraged to "pick up" setting elements at appropriate times, stuff like "The Field at the Center of the Camp" or "The Campers", and bring these parts of the camp to life at the table in a collaborative way.
 
 # My Story Game Experience
 
-My experience with story game TTRPGs is relatively light. I've played a few sessions of {{< book_url "9781633442801" >}} almost a decade ago. I read the rules for {{< book_url "apocalypse_world_2e" >}} and {{< book_url "the_annotated_sorcerer" >}}. I've ran a dozen sessions of {{< book_url "9781613171325" >}} and I've played in a few dozen more (but it's been awhile).
+My experience with story game TTRPGs is relatively light. I've played a few sessions of {{< book_url "9781633442801" >}} almost a decade ago. I read the rules for {{< book_url "apocalypse_world_2e" >}} and {{< book_url "the_annotated_sorcerer" >}}. I've ran a dozen sessions of {{< book_url "9781613171325" >}} and I've played in a few dozen more but it's been a few years.
 
 I'm always looking to improve my roleplaying skills and so when I was given the chance to play in a kind of TTRPG that I don't have a lot of experience with, I jumped at the opportunity.
 
@@ -28,88 +26,88 @@ I'm always looking to improve my roleplaying skills and so when I was given the 
 
 So how did this oneshot of Sleepaway go?
 
-Great! I would love to play a game with my players who have expressed an interest in doing more collaborative storytelling and roleplaying at the table.
+Great! I've never played a Powered by the Apocalypse (PbtA) game before and now that I have I think it would be a perfect fit for some of my players who've expressed an interest in doing more collaborative storytelling and roleplaying at our table.
 
-For context, the character I chose to play was The Athlete. I felt like my inexperience with this kind of TTRPG would be a good fit for a character who's suppressing their emotions, walking away from social conflict to punch things and eventually blowing up in fits of anger.
+> For context, in this Sleepaway oneshot, the character I chose to play was Burt Bertrand, AKA BB, the Athlete. I felt like my inexperience with this kind of TTRPG would be a good fit for a character who's bottling their emotions, walking away from most sources of emotional and social conflict and eventually blowing up under the pressure.
 
-I'll start by writing about the things I would do differently if I were to play Sleepaway again as well as parts of the game I really liked.
+Let's get into it. I'll start by writing about the things I would do differently if I were to play Sleepaway again as well as parts of the game I really liked.
 
 ## The Less Good
 
 ### Time (or lack of it)
 
-The session was 3 hours long and this included the character creation process, the camp creation process and the oneshot.
+The session was three hours long in total. We started by creating characters, creating our camp and after about an hour and a half, we began to play.
 
-If I were to play this again I would fight for a 4 hour at least because the oneshot encourages you to end on a concluding scene where everything is fucked and there's no coming back from "uncomfortable and tragic positions" that the councilors find themselves in. 
+I felt like we didn't have enough time to introduce the characters and the camp we'd created as well as ramp up satisfyingly to the camp's eventual collapse by the end of the session.
 
-The oneshot was around 1h30min and I felt like that didn't give us enough time to introduce the characters and the camp we'd created and ramp up to its eventual collapse by the end of the session.
+At the start of the session, coming to an agreement about the genre of horror we were interested in roleplaying and the vibe of the final scene would have helped.
+ 
+Is this a mystery that ends with the flaying of an animal or is this a slasher that ends with the last camp councilor holding onto a bloody knife, hiding in a closet? Answering these kinds of questions would be great to help players set up scenes that would naturally lead to a satisfying conclusion for the oneshot within the allotted time.
 
-I thought that it would be cool to end on this kind of BIG climax. At the end of the session, another player expressed that they liked the first part of the session, before steered it into hardcore horror (through my roles as both Lindworm "seer" and the Underhill King).
-
-To help with this, next time, I would ask the table to agree on what kind of intensity/genre of horror we're interested in roleplaying and where we're hoping we'll end up by the end of the oneshot.
-
-Is this a mystery that ends with the flaying of an animal or is this a slasher that ends with the last camp councilor holding onto a bloody knife, hiding in a closet? We'd then use the answer to this as a guiding hand to help us collaborate on building up to the conclusion of the oneshot that we feel is appropriate within the allotted time.
+We got there but not everyone was equally satisfied by the events leading up to the climax (completely fair, if our session was a movie, the ending would have been poorly edited and extremely schlocky).
 
 ### My Roleplaying
 
-I never end a roleplaying session feeling like I've run or played it perfectly. I always try my best, I'm always looking to improve what my best is, and compassionately critiquing my own play is part of that. So let's have at it.
+I never end a roleplaying session feeling like I've run or played it perfectly. I always try my best and I'm always looking to improve what my best is. Compassionately critiquing my own play is part of that. So let's have at it.
 
-The one rule of improv is "Yes, and". Basically, you should accept the ideas that are presented by others at the table and build on them constructively. The "Yes" part of this is easy but the "and" part, not so much at least for me.
+The one rule of improv is "Yes, and". Basically, you should accept the ideas that are presented by others at the table and build on these ideas constructively. The "Yes" part of this is easy for me but the "and" part, not so much.
 
-Specifically, when speaking as a character to another character I sometimes find myself at a loss and falling short of my own expectations.
+When responding directly to another speaking character speaking to mine, I sometimes find myself at a loss for what to say and by responding quickly and poorly I fail to act on the "and" part of "Yes, and".
 
-I need to catch myself in these moments and responding in-character in a way that makes sense and builds on what the other player has said. Relating to this, I'm proud of one moment during the session where I realized that I hadn't given enough for the other player to bounce off of when I was speaking in character and so I added some more meat onto my response for them to respond to.
+I need to catch myself in these moments and recover gracefully. In the future, I would like to try describing how my character is thinking about how he's going to respond to whatever just been said to him (runs hand through his hair, closes his eyes and rubs his forehead, etc.), giving myself time to process and come up with a better in-character response than blurting out the first dumb thing that comes to my mind or not responding at all.
 
-Also, when I killing my character Burt off (cool!), he didn't say anything... That was a big missed opportunity there, screaming "FUCK YOU!" straight at the skull of this evil Horned God (a manifestation of the Underhill King?) would have been great and would have fit Burt's character perfectly. It happens, whatever. We'll do better next time.
+One example during play where I recovered semi-gracefully from a bad in-character response, was when birdmilk's character Randall, the Councillor, said something to my character BB, I fumbled a little with my response but I caught myself in the moment and followed up with another line to give birdmilk a bit more to work with.
 
-An even greater sin, was that the Horned God, as he was slicing Burt in half, also didn't say anything. Uhhhhhh.
+A more specific example of me fumbling my roleplay (it's much easier for me remember the bad than the good) was when I was busy killing my character BB off (cool!), he didn't say anything (not so cool...) That was a big missed opportunity.
 
-What an absolute shame. A simple "FUCK YOU!" by Burt followed by a "SEE YOU IN HELL!" by the Underhill King would have been SO MUCH BETTER. Also, this would have been a great mirror to the conflict between Burt and Sam described below.
+Screaming "FUCK YOU!" as BB was leaping off the pier into the middle of the lake (partially parted) straight at the, clearly evil, Horned God standing there ominously would have been great and would have fit BB's character perfectly. But I didn't. Sigh. It happens though. What's less forgivable is that the Horned God sliced BB in half with his greatsword killing him instantly and the Horned God didn't say anything before, during or after this moment. Heavy sigh.
 
-This is a recurring issue I have where I already have a hard enough time coming up with full sentences that my characters should say, playing both characters at once and setting up this climax was a bit too much for my brain to handle in the moment.
+At least I noticed this, I'm calling attention to it and providing a potiental solution for this problem that I can use to maybe do better next time!
+
+Now, let's talk about what I really liked about Sleepaway and the session.
 
 ## The Good
 
 ### Moves and Objectives
 
-Capital M Moves are the bread and butter of Powered by the Apocalypse style games. After reading a few PbtA rulebooks, I got the impression that Moves were a great way of constraining roleplay just enough to help players get into their characters minds and help them figure out what kinds of things they would do and say. Now that I've actually played a PbtA game I can confirm that's exactly what they do. It's interesting how a limited set of broad kinds of actions you can take as a player felt more freeing than the equivalent to a blank page that you often get in other games, especially the OSR-style adventure games that I'm much more used to playing these days.
+Capital M Moves are the bread and butter of PbtA style games. After reading a few PbtA rulebooks, it seemed to be that Moves were a great way of constraining roleplay just enough to help players get into their characters's minds and help the players figure out what kinds of things their characters would do and say.
 
-The oneshot section of the rules contain a list of objectives like "Make aggressively strong choices" and "Put your Characters in bad situations" which combined with the Moves that I had access to felt like being given permission to be an in-character asshole at the table and produce interesting conflicts and scenes as a result of that.
+Now that I've actually played a PbtA game I can confirm that Moves do exactly what I thought they would do and it's amazing.
 
-Without the appropriate rules and tools to support this kind of play, I would have felt comfortable being as bold as I was during this session.
+It's interesting how these Moves combined with the Moves the other players have access to, usually different ones, felt so freeing and just by being written on the page, these Moves, tell you so much about how you should be roleplaying your character.
 
-For example, one of the Athletes moves is "Lash out at someone and injure them" which exemplifies the loose and broad style of Moves in Sleepaway.
+> NB: I feel like I might start writing Moves for all the characters I play not matter what system I'm using just to help me think explicitly about the kinds of actions that my character would take and how those actions would affect and be responded to by others.
 
-I interpreted this lashing out as verbal rather than physical and so when Sam, the Fresh Blood, a fellow councilor, started crying and puking at the sight of a dead camper, Burt lashed out at Sam.
+The oneshot section of the Sleepaway rules contain a list of objectives like "Make aggressively strong choices" and "Put your Characters in bad situations" which combined with the Moves that I had access to felt like being given permission for my character to be asshole and, in doing so, produce interesting conflicts and scenes as a result of that.
 
-> Burt: "These campers need you to be strong. You're a fucking disgrace. You should be ashamed of yourself".
+Without the appropriate rules and tools to support this kind of play, I wouldn't have felt comfortable being as bold as I was during this session.
 
-Sam's player Sparky TODO took that in stride and used a move on his sheet in response: "Do something you didn’t think you were capable of doing". Sam stood up to the beast of a man towering over him, Burt, gaining his respect for having finally stood up for himself and grown in the process.
+For example, one of the Athletes Moves is "Lash out at someone and injure them". I interpreted this as a verbal attack rather than a physical one and so when Sam, the Fresh Blood, played by Sparky, started crying and puking at the sight of a dead camper, BB lashed out at Sam.
 
-This was cool as hell and it would have never in a million years happened in one of my OSR games. You can bet that I'll be on the hunt for more story game experiences moving forward because of this scene in particular.
+BB: "These campers need you to be strong. You're a fucking disgrace. You should be ashamed of yourself."
 
-### The Character Creation Process
+Sparky took that in stride and used a Move on his sheet in response: "Do something you didn't think you were capable of doing". For the first time, Sam stood up to BB, shouting back at him with a great monologue. BB took that in stride and respectfully tipped his metaphorical hat to Sam.
 
-Simple and quick yet left a lot of room for ideation based on the little of it there is.
+> Now that I'm thinking back on this, this would have been a good moment for BB to apologize and talk about his emotions and the pressure he's been under.
 
-Despite it not coming up explicitly in the session itself, I thought the Burt's coach/mentor being his homophobic dad would be a good premise that would explain some of the emotional repression and outbursts that are built into the character's moves.
+This was cool as hell, in a campaign I think that we would have returned and built on that moment. What's so interesting to me about this moment, is that a scene like this would have never in a million years happened in one of my OSR games.
 
-The character description, the simple pick lists that you choose from combined with the moves that you have access to made me feel ready to roleplay my character. I can't say the same for most games, including {{< book_url "9781913032111" >}} which I'm playing in right now, even after having written 2 pages of backstory, motivations and "stock" phrases I can say.
+Don't get me wrong I like my OSR games but clearly I need to play more story games and that's what I'll be doing.
 
-### The Collaborative Camp Creation Process
+### The Character/Camp Creation Process
 
-Cutting up the camp into sections that each player can contribute to was great
+The Character creation process was simple and quick yet left a lot of room for ideation on the character's motivations and their vibe.
 
-I liked the campgrounds that we created together and the sense of place that it provided.
+Despite it not coming up explicitly in the session itself, through the character creation process I came up with the idea that BB's coach/mentor would be his homophobic dad and this could explain some of the emotional repression and outbursts that are built into the Athlete's Moves. It never came up but that backstory element helped to ground the character in my mind.
 
-Collaborative world building is a great way to involve all the players and get them invested in the world they're going to be playing in.
+The character description, the simple pick lists that you can choose from combined with the Moves made me feel ready to roleplay my character immediately which is great for a oneshot.
 
-I would do this almost anytime I roleplay moving forward.
+The Camp creation process was quick too. This sort of collaborative world building is a great way to get all the players invested in this shared imaginary space and it works great in Sleepaway.
+
+The picklists for the setting elements like "The Field at the Center of the Camp" weren't as evocative or interesting as the ones present on the character sheet's but they didn't have to be.
 
 # Conclusion
 
-> Take action, leaving yourself vulnerable.
-
-Even though I'm much more familiar with OSR-style TTRPGs, this one session of Sleepaway has convinced me that I've really been missing out and that I should play more story games.
+Even though I'm much more familiar with OSR-style TTRPGs, this oneshot of Sleepaway has convinced me that I've really been missing out and that I should find more opportunities to play more story games.
 
 As long as I can find people who'll bear with me "dropping the ball" here and there while I get better at it.
