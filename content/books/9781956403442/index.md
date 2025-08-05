@@ -19,7 +19,7 @@ The focus on GMing tips for fantasy games doesn't help because I'm not intereste
 
 <!--more-->
 
-This seems like a whole book digging into a version of the Beat system from the {{< book_url "Heart - The City Beneath" >}} RPG with the serial numbers filed off.
+This seems like a whole book digging into a version of the Beat system from the {{< book_url "9781913032111" >}} RPG with the serial numbers filed off.
 
 Using goals set by players to help guide the GM's hand towards building the kinds of roleplaying experiences and character beats that the players want their characters to have is genius and writing a whole book about how to maximize the effectiveness of this tool makes sense.
 
