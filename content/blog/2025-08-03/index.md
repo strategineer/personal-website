@@ -109,6 +109,8 @@ The camp creation process was quick too. This sort of collaborative world buildi
 
 # Conclusion
 
-Even though I'm much more familiar with OSR-style TTRPGs, this oneshot of Sleepaway has convinced me that I've really been missing out and that I should find more opportunities to play more story games.
+Even though I'm much more familiar with OSR-style TTRPGs, this oneshot of Sleepaway has convinced me that I've really been missing out and that I should find more opportunities to play more story games. And, that's what I plan on doing!
 
-As long as I can find people who'll bear with me "dropping the ball" here and there while I get better at this style of play.
+Let me know if you've got any story game recommendations for me.
+
+EDIT: Reworded conclusion to be a little less needlessly self-critical.
