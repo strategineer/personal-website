@@ -26,7 +26,7 @@ I'm always looking to improve my roleplaying skills and so when I was given the 
 
 So how did this oneshot of Sleepaway go?
 
-Great! I've never played a Powered by the Apocalypse (PbtA) game before and now that I have I think it would be a perfect fit for some of my players who've expressed an interest in doing more collaborative storytelling and roleplaying at our table.
+Great! I've never played a Powered by the Apocalypse (PbtA) game before and now that I have, I think it would be a perfect fit for some of my players who've expressed an interest in doing more collaborative storytelling and roleplaying at our table.
 
 > For context, in this Sleepaway oneshot, the character I chose to play was Burt Bertrand, AKA BB, the Athlete. I felt like my inexperience with this kind of TTRPG would be a good fit for a character who's bottling up their emotions, walking away from most sources of emotional and social conflict, eventually leading them to explode under the pressure.
 
@@ -52,9 +52,9 @@ I never end a roleplaying session feeling like I've run or played it perfectly. 
 
 The one rule of improv is "Yes, and". Basically, you should accept the ideas that are presented by others at the table and build on these ideas constructively. The "Yes" part of this is easy for me but the "and" part, not so much.
 
-When responding directly to a character speaking to mine, I sometimes find myself at a loss for what to say and by responding quickly and poorly I fail to act on the "and" part of "Yes, and" successfully.
+When responding directly to a character speaking to mine, I sometimes find myself at a loss for what to say and by responding quickly and poorly in situations like this I'm letting down the other players by failing to "and" their "Yes, and" appropriately.
 
-I need to catch myself in these moments and recover gracefully. In the future, I would like to try describing what my character is doing while he's thinking about how he's going to respond to whatever has been said to him (runs hand through his hair, closes his eyes and rubs his forehead, etc.), giving myself time to process and come up with a better in-character response than blurting out the first thing that comes to my mind or not responding at all.
+I need to catch myself in these moments and recover gracefully. In the future, I would like to try describing what my character is doing while he's thinking about how he's going to respond to whatever has been said to him (BB runs hand through his hair looking up at the sky, BB closes his eyes and rubs his forehead in frustration, etc.), giving myself time to process and come up with a better in-character response rather than blurting out the first thing that comes to mind or, even worse, not responding at all.
 
 One example during play where I recovered semi-gracefully from a situation like this, was when birdmilk's character Randall, the Councillor, said something to my character BB, I fumbled a little with my response but I caught myself in the moment, realizing that I hadn't really given birdmilk much to respond to and so I followed up with another line from BB to give birdmilk a bit more to work with.
 
@@ -64,7 +64,7 @@ Screaming "FUCK YOU!" as BB was leaping off the pier into the middle of the lake
 
 It happens though. What's less forgivable is that the Horned God sliced BB in half with his greatsword killing him instantly and the Horned God didn't say anything before, during or after this pivotal moment. Heavy sigh.
 
-At least I noticed this now, I'm calling attention to it and providing a potiental solution for this problem that I can use to maybe do better next time!
+At least I noticed this problem now, I'm calling attention to it and I've provided myself with a potential solution so that I can maybe do better next time!
 
 Now, let's talk about what I really liked about Sleepaway and the session.
 
@@ -90,24 +90,24 @@ BB: "These campers need you to be strong. You're a fucking disgrace. You should 
 
 Sparky took that in stride and used a Move on his sheet in response: "Do something you didn't think you were capable of doing".
 
-For the first time, Sam stood up to BB, shouting back at him with Sparky delivering a truly great monologue. BB took that in stride and respectfully tipped his metaphorical hat to Sam.
+For the first time, Sam stood up to BB, shouting back at him with Sparky delivering a great monologue. BB took that in stride and respectfully tipped his metaphorical hat to Sam.
 
 This was cool as hell, in a campaign I think that we would have returned and built on that moment in subsequent sessions. What's so interesting to me about this moment, is that a scene like this would have never in a million years happened in one of my OSR games.
 
-Don't get me wrong I like my OSR games but clearly I need to play more story games and that's what I'll be doing.
+Don't get me wrong I like my OSR games but clearly I need to play more story games if I want to experience more moments like this and that's what I'll be doing.
 
 ### The Character/Camp Creation Process
 
 The character creation process was simple and quick yet left a lot of room on the page for thinking about my character's motivations and their vibe.
 
-Despite it not coming up explicitly in the session itself, through the character creation process I came up with the idea that BB's coach/mentor would be his homophobic dad and this could explain some of the emotional repression and outbursts that are built into the Athlete's Moves. It never came up explicitly in play but that backstory element helped to ground the character in my mind.
+Despite it not coming up explicitly in the session itself, through the character creation process I came up with the idea that BB's coach/mentor would be his homophobic dad and this could explain some of the emotional repression and outbursts that are built into the Athlete's Moves. It never came up explicitly in play but I think that this backstory element helped me to roleplay BB more effectively at the table.
 
 Reading through the character description, the simple picklists that you can choose from and their Moves made me feel ready to roleplay my character immediately which is great for a oneshot.
 
-The camp creation process was quick too. This sort of collaborative world building is a great way to get everyone at the table invested in this shared imaginary space and it works great in Sleepaway (it also works great in TundraFundra's Blightfall, I'll be writing about that later on).
+The camp creation process was quick too. This sort of collaborative world building is a great way to get everyone at the table invested in a shared imaginary space and it works great in Sleepaway (it also works great in TundraFundra's Blightfall, I'll be writing about that later on).
 
 # Conclusion
 
 Even though I'm much more familiar with OSR-style TTRPGs, this oneshot of Sleepaway has convinced me that I've really been missing out and that I should find more opportunities to play more story games.
 
-As long as I can find people who'll bear with me "dropping the ball" here and there while I get better at it.
+As long as I can find people who'll bear with me "dropping the ball" here and there while I get better at this style of play.
