@@ -1,9 +1,8 @@
 ---
 title: "After Action Report - Sleepaway Oneshot"
-date: 2025-08-03
+date: 2025-08-05
 blog/tags:
   - tabletop
-draft: true
 ---
 
 In this post, I'll briefly describe Sleepaway, a TTRPG designed by Jay Dragon, then I'll cover my story game "credentials" (or lack thereof) and then I'll conclude with some thoughts on the oneshot I played on August 3rd 2025 with some folks from the Quinns Quest's community (thanks to Sparky for pitching and organizing the oneshot and thanks to [birdmilk](https://secretsundaysampler.com/) and TundraFundra for showing up and being great).
