@@ -175,27 +175,154 @@ Panelist: Jesse Betteridge ([bsky](https://bsky.app/profile/jbetteridge.bsky.soc
 
 Follow this man, listen to his podcast! Great voice, great presentation, love it
 
+This panel was dense with info on TV in Japan. From its inception, to its spread from rich households to all households through the intermediary of pro wrestling.
+
+In post-WW2 era Japan, large groups of people would crowd around small TVs outdoors to watch asian pro-wrestlers (the most popular of them, Mitsuhiro Momota, was actually Korean) wrestle "american" wrestlers (often Canadian). This kind of narrative proved popular at the time due to the american occupation of Japan.
+
+---
+
+In the mid-90s the anime industry was in a bit of slump, Neon Genesis Evangelion, directed by Hideaki Anno, most likely is responsible for ending that slump due to its massive popularity in Japan and in the rest of the world.
+
+---
+
+In Persona 4, the imagery of TV sets stacked on top of one another was inspired by the actual stacks of TV sets found in Japan when they switched over from analog signals to digital signals.
+
+---
+
+The [Asama-Sansō incident](https://en.wikipedia.org/wiki/Asama-Sans%C5%8D_incident) AKA the Wrecking Ball Operation.
+
+---
+
+And a bunch more stuff but that's all I got for now.
+
 ## "i hire hitman on u" - What doesn't make sense about toxic behavior in online games?
 
 Panelist: Thomas Burelli ([cv](https://www.uottawa.ca/faculty-law/common-law/centre-environmental-law-global-sustainability/people/thomas-burelli))
 
 > title translated from French: "i hire hitman on u" - Qu'est-ce qui ne tourne pas rond avec la toxicité dans les jeux en ligne?
 
+Thomas Burelli Professor of Law at University of Ottawa with one of his PhD students (I didn't catch his name) presented two amazing panels at Otakuthon. This one focused on toxic behavior in online games.
+
+---
+
+Apparently, you can't defend yourself in court for making death threats by saying "it's just a joke bro", at least in Quebec. By definition, a death threat cannot be a joke. There's no such thing.
+
+---
+
+According to the data provided to Thomas Burelli's team by the EU, there were no instances of sex-based discrimination in League of Legends in the year that they requested the data for.
+
+Huh? Anyone's who's played LoL knows that there's no way that this is actually true. But that's the data reported to the EU by Riot Games so, either they're lying or there is something seriously wrong with the way they're reporting their data.
+
+---
+
+It's easier to get banned by leaving a game of League of Legends early than it is to get banned by repeatedly making death threats through text and voice chat. Leaving games is detected and punished through automated means but that doesn't seem to be the case for death threats.
+
+This doesn't seem right considering that death threats (in North America and the EU at least) are criminal offenses whereas leaving games early definitely are not. So. there's obviously a big disconnect between how the law as written and how it's enforced, or not in this case, 
+
+---
+
+A great part of both of Thomas Burelli panels was the concrete steps he presented to the audience of actions they could take to help make the situation better. It's well and good to present a problem but providing some next steps is even better.
+
+For this panel, the easiest thing to do was to request your data from the online games that you every 3 months. Because legally, at least in Quebec and the EU, they're obligated to allow you to see this data and modify it if it's wrong (for example, if you've been reported for making death threats but you actually haven't).
+
 ## Directing JRPG with Katelyn Gault
 
 Panelist: Katelyn Gault ([imdb](https://www.imdb.com/name/nm3072277/))
+
+Although I'm not planning on becoming a professional voice actor or director anytime soon I'm glad I showed up anyway. But I'm always trying to get better at doing voices for my tabletop roleplaying sessions and I could see myself eventually needing to direct a voice actor for a video game project of mine.  
+
+Thankfully, Katelyn Gault's panel was a fantastic overview of her work as both a voice actor and director and how she does it.
+
+---
+
+"As an actor, you're always interviewing for a job."
+
+As a voice actor you're constantly looking for work, the likelihood of landing a job is really low and so Gault recommends that you prep as you need for an audition and then once it's done don't think about it ever again.
+
+I'm not a voice actor and I'm not planning to be but I often find myself interviewing for jobs and I'm going to be trying to put this recommendation into practice myself. To keep myself sane during the interview processes.
+
+TODO
+
+---
+
+Gault described what 1st sessions with a voice actor usually look like for her:
+
+- The director, the actor, the sound engineer (the unsung heroes of the voice recording world) and maybe a writer listen to the voice actor's audition
+- The writer, if present, and the director would give the voice actor an initial round of feedback.
+- The actor is give the chance to ask questions to the director and the writer. Gault says that this is a very important part of the collaborative process. The actor is expected to bring something to the table more than just their performance.
+- Recordings are broken down into sessions based on the kind of voice work that's going to be done. For example, voice actors can do JRPG-style battle voice work for about 1h30min so that should be accounted for in the planning. 
+- Each line is recorded with at least 3 takes (A, B, C) and they choose the best one.
+  - If the voice actor is recording without any other actors present, which is often the case, the director should read everyone else's line to bring the voice actor into the scene.
+  - Each line is recorded to picture (tied to a cutscene), timed (tied to an animation) or dry (completely freeform like in visual novel dialogs).
+
+---
+
+A voice director primarily acts as a liaison between the client (usually a game/animation studio) and the actors. The casting is usually done by someone else. It's both a creative and managerial position that is often done freelance.
+
+Ideally, the voice director should be in a position to provide the voice actor with all the context they need so that they can deliver the best performance for the role. To do so, the client needs to provide the voice director with the context they'll need to pass on to the voice actors they'll be directing.
+
+---
+
+According to Gault, a good voice director is going to be looking for the following from a voice actor:
+
+- Clean solid diction/enunciation/elocution
+- Proper vocal technique, breath support and stamina (vocally trained singers have a big advantage here)
+- The ability to take direction and iterate
+- Offers ideas for the performance (open to collaboration)
+- Believability (no matter how ridiculous lines are, the voice actor has to convince everyone else with their performance that they believe)
+- Strong choices
+
+---
+
+Asking yourself "What are the stakes of the scene?" before giving the line is key. Are you picking up milk from the grocery store to go with your cookies back home or to save little kitty or, better yet, the world?
+
+---
+
+"I'm always going to be anxious, I'm an actor."
+
+This was interesting to hear in context with what Gault's mentor, her words not mine, Tony Oliver said in his panel.
+
+According to Oliver, at its core acting requires the actor to feel what the character is feeling emotionally and the rest of the performance will from that.
+
+---
+
+Awesome panel!
+
 
 ## Hell Teacher Jigoku Sensei Nube talk with Ryōtarō Okiayu
 
 Panelist: Ryōtarō Okiayu ([wikipedia](https://en.wikipedia.org/wiki/Ry%C5%8Dtar%C5%8D_Okiayu)) with interpreter, REMOW Co. Ltd. Representative
 
-Dat voice though
+This panel was not good. But being able to sit just a few feet away from a professional japanese voice actor, especially one as experienced as Ryōtarō Okiayu, performing a live-dubbing of a scene from an anime he's in was insane.
+
+The voice coming out of his body was unreal. I've heard performances like this through my speakers time and time again but it was really impressive being physically present for one.
+
+---
+
+One interesting thing about this presentation was that they had prizes to give away to people in the audience. Because there were fewer prizes to give out than people in the audience, they had to choose people to give the prizes too. So, they did so through a quiz with the simplest questions you can imagine.
+
+In the moment, I couldn't comprehend why they would choose to do this with a quiz. The vibe was off.
+
+And then I remembered that in Quebec, it's illegal to have a lottery of any kind without involving [Loto-Québec](https://en.wikipedia.org/wiki/Loto-Qu%C3%A9bec), a branch of the provincial government that oversees any and all gambling that occurs in the province. So they could get in trouble if the panelist gave out the prizes randomly.
+
+---
+
+As we'll see later, the two REMOW presentations I went to, one willingly one semi-willingly, were unmitigated disasters although I still to get something out of them. 
 
 ## Ken Arto - A journey through japanimation
 
 title translated from French: Ken Arto - Un parcours dans la japanimation
 
 Panelist: Ken Arto ([imdb](https://www.imdb.com/name/nm4632702/))
+
+There's likely very few people in the world better suited for revealing how the Japanese animation industry actually works to a French-speaking audience than Ken Arto, a French-Japanese animator who's been working in Japan for over a decade.
+
+Ken Arto was soft-spoken and humble but also clearly extremely talented.
+
+A combination of his French mannerisms and some nervousness led him to repeat "du coup" (roughly translated as "therefore" but used as a filler word) constantly which was endearing.
+
+I learned a lot!
+
 
 ## Directing Anime - A Nuts and Bolts Panel
 
