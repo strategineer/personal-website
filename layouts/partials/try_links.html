@@ -1,6 +1,14 @@
 {{ $has_blog_tags := index .Params "blog/tags" }}
 <div class="d-flex justify-content-center d-flex-inline-list text-center">
   <ul class="list-inline ul-inline">
+    {{ if .Params.is_vn }}
+        <li class="list-inline-item li-inline">
+          <a href="https://vndb.org/{{ .Slug }}">
+            <img class="icon icon-filter" alt="vndb icon" src="/icons/vndb.svg" width="32" height="32"
+              label="Search for this visual novel on vndb" />
+          </a>
+        </li>
+    {{ end }}
     {{ if .Params.isbn13 }}
     <li class="list-inline-item li-inline">
       <a
