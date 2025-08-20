@@ -13,7 +13,6 @@ star_rating: null
 title: Collected fictions
 ---
 
-
 <!--more-->
 
 Read:

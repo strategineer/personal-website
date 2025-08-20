@@ -2,9 +2,10 @@
 authors:
 - Douglas Adams
 books/tags:
+- 2star
+- did-not-finish
 - comic
 - science fiction
-- did-not-finish
 date: 2025-07-28
 params:
   isbn13: '9780517693117'

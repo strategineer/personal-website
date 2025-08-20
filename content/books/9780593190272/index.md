@@ -1,7 +1,8 @@
 ---
 authors:
 - Miranda July
-books/tags: []
+books/tags:
+- 4star
 date: 2025-08-04
 params:
   isbn13: '9780593190272'
@@ -10,6 +11,5 @@ slug: '9780593190272'
 star_rating: 4
 title: All Fours
 ---
-
 
 <!--more-->

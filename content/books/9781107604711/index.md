@@ -2,6 +2,7 @@
 authors:
 - Thomas Nagel
 books/tags:
+- 5star
 - philosophy
 date: 2025-07-28
 params:
@@ -11,6 +12,5 @@ slug: '9781107604711'
 star_rating: 5
 title: Mortal Questions
 ---
-
 
 <!--more-->

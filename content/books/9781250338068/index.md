@@ -1,7 +1,8 @@
 ---
 authors:
 - Justin Torres
-books/tags: []
+books/tags:
+- 4star
 date: 2025-08-02
 params:
   isbn13: '9781250338068'
@@ -10,7 +11,6 @@ slug: '9781250338068'
 star_rating: 4
 title: Blackouts
 ---
-
 
 <!--more-->
 

@@ -12,5 +12,4 @@ star_rating: null
 title: Shock Doctrine - The Rise of Disaster Capitalism
 ---
 
-
 <!--more-->

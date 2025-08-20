@@ -2,6 +2,7 @@
 authors:
 - Daniel Keyes
 books/tags:
+- 5star
 - science fiction
 date: 2025-07-07
 params:
