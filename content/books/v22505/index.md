@@ -2,15 +2,15 @@
 authors:
 - MAGES
 books/tags:
-- visual novel
 - currently-reading
+- visual novel
 date: 2025-08-20
 params:
-  year: '2022'
   is_vn: true
+  year: '2022'
 slug: v22505
 star_rating: null
-title: 'CHAOS;HEAD NOAH'
+title: CHAOS;HEAD NOAH
 ---
 
 <!--more-->

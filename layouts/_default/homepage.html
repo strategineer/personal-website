@@ -3,8 +3,8 @@
 
 {{ define "main" }}
 
-{{ $num_posts := 3 }}
-{{ $num_finished_books := 5 }}
+{{ $num_posts := 2 }}
+{{ $num_finished_books := 4 }}
 <div class="row justify-content-center text-center page-title">
   <div class="col h1">
     <a href="/blog/">What I've written</a>
@@ -17,14 +17,11 @@
     {{ if eq .Section "blog" }}
     {{ .Render "summary" }}
     {{ $i = add $i 1}}
-    {{ if gt $i $num_posts }}
+    {{ if ge $i $num_posts }}
     {{ break }}
     {{ end }}
     {{ end }}
     {{ end }}
-  </div>
-  <div class="row">
-    <a class="h2 text-end" href="/blog/">more blog posts...</a>
   </div>
 </span>
 
@@ -43,9 +40,6 @@
     {{ end }}
     {{ end }}
   </div>
-  <div class="row">
-    <a class="h2 text-end" href="/books/">more books...</a>
-  </div>
 </span>
 
 
@@ -62,15 +56,12 @@
     {{- if not ((in (index .Params "books/tags") "currently-reading")) -}}
     {{ .Render "summary" }}
     {{ $i = add $i 1}}
-    {{ if gt $i $num_finished_books }}
+    {{ if ge $i $num_finished_books }}
     {{ break }}
     {{ end }}
     {{ end }}
     {{ end }}
     {{ end }}
-  </div>
-  <div class="row">
-    <a class="h2 text-end" href="/books/">more books...</a>
   </div>
 </span>
 
