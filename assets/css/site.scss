@@ -59,13 +59,11 @@ $link_highlight: nth($colors, 2);
 
   .cv-bullet-item {
     font-size: 1rem !important;
-    
   }
 
   .cv-main-entry-bullets {
     font-size: 1rem !important;
   }
-
 
   .cv-main-entry-title {
     font-size: 1.2rem !important;
@@ -73,7 +71,7 @@ $link_highlight: nth($colors, 2);
 
   .cv-main-title {
     font-size: 1.4rem !important;
-    font-weight: bold; 
+    font-weight: bold;
   }
 
   .end-page {
@@ -417,7 +415,6 @@ figure {
 }
 
 .summary-row {
-  
 }
 
 .summary-thumbnail-and-rating {
@@ -656,6 +653,8 @@ ul {
 .spoiler2,
 .spoiler a,
 .spoiler2 a,
+.spoiler > section > p > code,
+.spoiler2 > section > p > code,
 .spoiler > blockquote,
 .spoiler2 > blockquote,
 .spoiler > blockquote > p,
@@ -671,16 +670,20 @@ ul {
   border-width: 3px;
 }
 
-
 .spoiler:hover,
 .spoiler:hover a,
 .spoiler:hover > blockquote,
-.spoiler:hover > blockquote > p  {
+.spoiler:hover > blockquote > p {
   color: $color_base;
+}
+
+.spoiler:hover > section > p > code {
+  color: var(--bs-code-color);
 }
 
 .spoiler:hover > blockquote,
 .spoiler:hover > blockquote > p,
+.spoiler2:hover > section > p > code,
 .spoiler2:hover > blockquote,
 .spoiler2:hover > blockquote > p {
   background-color: $bg_light;
