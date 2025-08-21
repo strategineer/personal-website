@@ -321,35 +321,129 @@ Ken Arto was soft-spoken and humble but also clearly extremely talented.
 
 A combination of his French mannerisms and some nervousness led him to repeat "du coup" (roughly translated as "therefore" but used as a filler word) constantly which was endearing.
 
-I learned a lot!
+---
+
+Arto contrasted the French style of visual arts education with the Japanese one. In France, you spend many years learning how to draw and animate in school entering the workforce fully capable of doing the job whereas in Japan, you learn to draw and animate on the job for the most part.  
+
+---
+
+In terms of the economics of the work, in the mid 2010s he started his career making a fixed salary of 400€ per month and about 2€ to 3€ per drawing. Every month, he'd be able to produce something like 300 drawings which was the expectation at the time and so in total he'd make around 1000€ per month.
+
+Most animation studios being located in a certain part of Tokyo, this wouldn't have been enough money to live and so most animators getting into the industry are forced to either live with their parents, commute long distances or draw extremely quickly and work longer hours than they should be, if they're able.
+
+After several years in the industry, Arto's monthly pay increased to something around 3000€ per month which is fine and livable but great.
+
+The Japanese animation industry seems to be trending towards better pay for their animators but the crunch culture and generally high and overzealous expectations put on animators hasn't changed much.
+
+And so, the biggest problem with this culture is that it leaves the more experienced animators with less time to mentor the younger ones, and in doing pass on the knowledge they've gained over the course of their long careers in a way that keeps the industry healthy and always improving.
+
+In many ways, the Japanese animation industry seems to have much in common with the global video industry. One that uses and abuses its most passionate workers. Leaving them with no choice but to leave the industry to do literally anything else. Replacing them with a revolving door of juniors who don't know what they're doing and without anyone to mentor them.
+
+If we don't learn from the past, we're destined to repeat it in a never-ending cycle of mediocrity.
+
+---
+
+Video games with anime-style cutscenes pay much more than anime shows. This makes a lot of sense considering the economics of the situation, weebs are willing to pay 60€ for a JRPG but the same is not the case for a anime these days.
+
+---
+
+Arto ended his panel talking about the brain drain that's been happening in the industry for the past few decades. If you take the number of animators working in Japan right now, around 6000, and divide that by the number of animation projects happen at any given time in Japan, around 400, you get 15 animators per projects.
+
+Considering how labour-intensive anime is to produce, there aren't enough Japanese animators to work on all of these projects that the market is funding.
+
+And so, this results in more pressure being applied on the fewer and fewer animators working. Leaving the more experienced of them less time to train new animators to potentially stop this problem from continuing. 
 
 
 ## Directing Anime - A Nuts and Bolts Panel
 
 Panelist: Tony Oliver ([wikipedia](https://en.wikipedia.org/wiki/Tony_Oliver))
 
-Producer on the power rangers show, my childhood right there
+Tony Oliver is a voice actor and director who's presence on the stage was impressive. Within just a few minutes of the presentation, I had an overwhelming sense of him being the most interesting people in the room, potentially one of the most interesting people at the con.
+
+---
+
+Oliver's tips on solving vocal drift:
+
+1. A vocal reference (record yourself doing a voice then listen to it again if you want to reproduce).
+2. Physicality. Position your body and vocal chords in the same way to reproduce the same voice.
+3. Come up with and repeat a specific phrase that'll get you back back into the voice.
+
+---
+
+According to Oliver, the hardest part of being a voice actor is quieting the voice inside your head that tells you, you suck,
+
+This seems to be an issue that a lot of creatives face. Never feeling like they're work is good enough. When one of the most influential writers of the 20th century repeatedly [states how is work just isn't that good](https://www.youtube.com/watch?v=bNxzQSheCkc) compared to other writers, it's pretty clear that no matter how good you are at what you do, there's a part of you that'll always strive for more.
+
+---
 
 ## Open Q&A with Coda
 
-Panelist: Coda ([french wikipedia](https://fr.wikipedia.org/wiki/Kazus%C5%8D_Oda)) with interpreter 
+Panelist: Coda ([french wikipedia](https://fr.wikipedia.org/wiki/Kazus%C5%8D_Oda)) with interpreter
 
-Let's please let artists do their art instead of forcing them to be parasocial with us.
+My main takeaway from this panel was the idea that we should just let artists make their art instead of forcing them to be parasocial with us.
 
-There were a few good questions here but many boring ones.
+Although some of the questions were interesting and resulted in interesting responses, many questions were fishing for the artist to validate the question asker's opinion instead of interesting answers.
 
-It was sad to see one person being racist and ignorant. I heard that they started screening questions the next day, probably because of this one asshole.
+---
+
+Asking people walking up to the mike to say their name before asking their question is great because it allows the question asker to test the mike and adjust themselves physically before asking their question increasing the chances of their question being heard and understood by the crowd and the panelists.
+
+NB: If you're fielding questions from an audience without microphones, it is critical to restate the question with a mike so that everyone in the room hears both the question and the answer to it. 
+
+I'll definitely keep this in mind if I ever run a panel.
 
 ## Magnificent Transformations and Oceans of Sparkles: Maho Shojo & Queerness
 
 Panelist: Pluie d'Astéroïdes ([instagram](https://www.instagram.com/pluiedasteroides/))
 
+One of the only panels that was able to get me to viscerally feel something. A lot of panels at this year's Otakuthon were interesting but none have been emotionally resonant in a positive way.
+
+Watching some of the transformation clips from Maho Shojo (magical girl) anime really hit me in a way that I wasn't expecting.
+
+There's two reasons I can see for this:
+
+1. I watched a bunch of Sailor Moon as a kid and watching these transformation animations brought me back to that time and place.
+2. Because these transformation sequences are usually meant to be re-used in more than one episode, the animation studios have an incentive to make them look and sound as good as possible.So, that's what they try to do.
+
+> NB: The Sailor Moon dub was produced in Canada and played in a timeslot when Canadian kids would actually be likely to watch it. And, that explains why so many Canadians of my generation grew up watching the anime and most Americans did not. 
+
+I haven't watched much Maho Shojo anime other than Sailor Moon.
+
+Except for Puella Magi Madoka Magica. Like most of the anime I like, Puella Magi Madoka Magica is clearly an anime made by people who are aware of what Maho Shojo anime tends to be like and are looking to tell a story that thinks critically about what it would actually be like if we relied on young, innocent until they're not, girls to bear the weight of saving the world all the while dealing with the young girlhood.
+
+This extremely fantastical situation doesn't happen in reality but it serves to mimic what it often feels like for kids to grow up in traumatic environments with piles of expectations thrust onto them from all corners.
+
+It's good.
+
+I would love to watch more Maho Shojo anime but Puella Magi Madoka Magica seems more like an exception rather than a rule in terms of quality.
 
 ## Shinto in Anime
 
-Panelist: AcerRhus ([instagram](https://www.instagram.com/acerrhus/))
+This panel was by far the worst I attended all weekend.
 
-Yikes
+The slides were poorly put together. The worst offender of this was a single slide showing 15 thousand years of Shinto history.
+
+The panelist didn't seem like were interested in what they were presenting. That's OK. It would be extremely hypocritical for me to point a finger at someone who's not emoting "enough".
+
+Giving a good presentation involves knowing and catering to your audience and I don't believe that the panelist did this.
+
+Now, I've sat through worse presentations in my life.
+
+What sent me over the edge with this panel was the Orientalist perspective.
+
+Now, I'm not saying that a white person can't be into Shintoism and communicate that passion in a panel at a weeb convention. But if a white person would, hypothetically speaking, do such a thing then I would expect them to be aware of themselves being a white person talking about something that culturally does not belong to them, and thus at least giving it the respect it deserves.
+
+Of course, I would rather have someone who has spent significant time of their lives embedding themselves within Japanese culture to speak on the subject their passionate about or, even better yet, a Japanese person.
+
+For example, people like Ken Arto who spoke about Japanese animation at this year's Otakuthon or Cyril Coppini who performed [Rakugo](https://en.wikipedia.org/wiki/Rakugo) at last year's Otakuthon.
+
+But, sometimes the best you've got is a white person who went to Japan one time. And that's OK as long as this particular white person is self-aware of themselves as an outsider and respectful of the culture they are talking about. That was definitely not the case in this panel.
+
+So, please for the love of (the) god(s), if you are a white person looking to speak on cultural matters outside of your own lived experience then please listen to [the Asians Represent Podcast](https://www.youtube.com/@aznsrepresent/videos) and read [Orientalism by Edward Said](https://en.wikipedia.org/wiki/Orientalism_(book)) before presenting something to hundreds of people at a convention.
+
+Of course, the fault here also lies with organizers of Otakuthon who greenlit this panel and most definitely shouldn't have.
+
+We can do better.
 
 # Day 3
 
@@ -358,6 +452,8 @@ Yikes
 title translated from French: Jouer sous surveillance - La collect\e de données dans les jeux vidéo et les ripostes possibles
 
 Panelist: Thomas Burelli ([cv](https://www.uottawa.ca/faculty-law/common-law/centre-environmental-law-global-sustainability/people/thomas-burelli))
+
+
 
 ## Ken Arto - The stages of creating an anime
 
