@@ -453,6 +453,59 @@ title translated from French: Jouer sous surveillance - La collect\e de données
 
 Panelist: Thomas Burelli ([cv](https://www.uottawa.ca/faculty-law/common-law/centre-environmental-law-global-sustainability/people/thomas-burelli))
 
+A group of Thomas Burelli's PhD students (if I understood correctly), read through ~140 video game EULAs focusing mostly on mobile video games targeted at children. After their analysis, they determined that children shouldn't be playing any mobile video games because of how morally, ethically and crimenally worded their EULAs tend to be.
+
+One of the common and messed up things they do is the following:
+
+1. They build a game that only children would be interested in playing.
+2. The game is rated "E for Everyone".
+3. In the EULA, the game states that nobody under the age of 16 years old should be playing the game. 
+
+By doing this, these companies are able to track the players of their games while not being held back by child data protection that are ubiquitous, at least in the EU and NA.
+
+It's fucked.
+
+---
+
+Video game EULAs are often shown to you for the first time when you've already bought and launched the game. If you disagree with the EULA, well too bad you can't necessarily easily refund the game, especially on some consoles.
+
+---
+
+These EULAs are extremely hard to read, even for lawyers. And so, the question to ask is if the people agreeing to these EULAs don't read them and don't understand them when they do then what's the point?
+
+We should think of EULAs as being sorts of deals with the devil because they are written that way and always seem to reveal layers of data collection permissions and that we are granting to these companies despite not understanding their depth and breath.
+
+Can you really consent to signing away your rights over to company if you don't understand the contract that you're signing? No. This is deal with the devil shit.
+
+---
+
+Another trick a lot of EULAs play is through the use of data collection third parties. Essentially, a company will create a game that allows for a third party service/company to collect data on the players of their game.
+
+In their EULA, they will state something like: "Hurr Durr, we DO NOT collect data on our players BUT TeeHee our third parties do".
+
+And so, using an intermediary companies are able to get you to sign away your rights related to the collection of your personal data without even seeing those terms and conditions within the EULAs.
+
+---
+
+EULAs often leverage the fact that some data protection laws have a vague definition for personal information (so essentially the kind of data that can be used to trace back to you). The Canadian law relating to this is quite vague, but Quebec is a little better. 
+
+---
+
+In the 140 EULAs sampled, none of them mentioned Quebec. This is problematic because of the definition of a child in Quebec law for the purposes of data protection is 14 years old and younger whereas in the US it is 13 years old and younger. So, any EULA that doesn't explicitly call out this difference
+
+Unfortunately, these companies couldn't care less about Quebec law and getting these protections enforced is hard.
+
+---
+
+Due to all of the above nonsense, Burelli expects there to be an increase of class action lawsuits looking to impose fines on companies abusing the law in their favor. Although, considering the profits these companies make, it's likely that most companies would rather pay the fines then actually respect the laws.
+
+---
+
+Laws must be clear otherwise they serve no purpose.
+
+---
+
+TODO calls to action
 
 
 ## Ken Arto - The stages of creating an anime
@@ -461,14 +514,26 @@ title translate from French: Ken Arto - Les etapes de la creation d'un anime
 
 Panelist: Ken Arto ([imdb](https://www.imdb.com/name/nm4632702/))
 
+TODO
+
+
 ## AMA with Katelyn Gault
 
 Panelist: Katelyn Gault ([imdb](https://www.imdb.com/name/nm3072277/))
+
+
+Nothing to say.
+
 
 ## All about REMOW (Industry Panel)
 
 Panelist: REMOW Co. Ltd. Representative
 
+
+Nothing to say. Absolute catastrophe of a panel.
+
+I would have much rather have sat down for 1h presentation on the panelist instead of the company shill speal.  
+
 # Conclusion
 
-it was fun
+it was fun, I plan on going again. If I'm able to attend just as many awesome panels next year, I'll be more than happy to have paid the price of admission.
