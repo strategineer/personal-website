@@ -531,7 +531,7 @@ And so, this results in more pressure being applied on the fewer and fewer anima
 Panelist: Katelyn Gault ([imdb](https://www.imdb.com/name/nm3072277/))
 
 
-Nothing to say.
+"It's ethical!" (you just had to be there).
 
 
 ## All about REMOW (Industry Panel)
@@ -541,7 +541,7 @@ Panelist: REMOW Co. Ltd. Representative
 
 Absolute catastrophe of a panel. If you're going to run a panel that's just a straight up ad, please try to make it interesting.
 
-There was a little more than a dozen people in the room. It was truly out of this world watching people putting their hands up, asking variations of the question: "How are is your company profitable and how do you expect to continue existing?" 
+There was a little more than a dozen people in the room. It was truly out of this world watching people putting their hands up, asking variations of the question: "Where is the money coming from?" 
 
 The pitch for REMOW was the following: exclusive anime contracts on streaming services "kills" anime, so REMOW is looking to both produce as well as acquire the rights to older anime and then make non-exclusive streaming deals with a variety of streaming platforms to serve the anime to as big of an audience as possible.
 
