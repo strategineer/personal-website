@@ -347,11 +347,7 @@ Video games with anime-style cutscenes pay much more than anime shows. This make
 
 ---
 
-Arto ended his panel talking about the brain drain that's been happening in the industry for the past few decades. If you take the number of animators working in Japan right now, around 6000, and divide that by the number of animation projects happen at any given time in Japan, around 400, you get 15 animators per projects.
-
-Considering how labour-intensive anime is to produce, there aren't enough Japanese animators to work on all of these projects that the market is funding.
-
-And so, this results in more pressure being applied on the fewer and fewer animators working. Leaving the more experienced of them less time to train new animators to potentially stop this problem from continuing. 
+Great panel! The next day Ken present another panel, [The stages of creating an anime](#ken-arto---the-stages-of-creating-an-anime) where he unpacked the whole process for creating an anime in Japan.
 
 
 ## Directing Anime - A Nuts and Bolts Panel
@@ -514,7 +510,20 @@ title translate from French: Ken Arto - Les etapes de la creation d'un anime
 
 Panelist: Ken Arto ([imdb](https://www.imdb.com/name/nm4632702/))
 
-TODO
+The second panel I attended presented by Ken Arto this Otakuthon. In it, he presented the phases and steps of anime creation process.
+
+---
+
+Arto 
+
+
+---
+
+Arto ended his panel talking about the brain drain that's been happening in the industry for the past few decades. If you take the number of animators working in Japan right now, around 6000, and divide that by the number of animation projects happen at any given time in Japan, around 400, you get 15 animators per projects.
+
+Considering how labour-intensive anime is to produce, there aren't enough Japanese animators to work on all of these projects that the market is funding.
+
+And so, this results in more pressure being applied on the fewer and fewer animators working. Leaving the more experienced of them less time to train new animators to potentially stop this problem from continuing. 
 
 
 ## AMA with Katelyn Gault
@@ -530,9 +539,17 @@ Nothing to say.
 Panelist: REMOW Co. Ltd. Representative
 
 
-Nothing to say. Absolute catastrophe of a panel.
+Absolute catastrophe of a panel. If you're going to run a panel that's just a straight up ad, please try to make it interesting.
 
-I would have much rather have sat down for 1h presentation on the panelist instead of the company shill speal.  
+There was a little more than a dozen people in the room. It was truly out of this world watching people putting their hands up, asking variations of the question: "How are is your company profitable and how do you expect to continue existing?" 
+
+The pitch for REMOW was the following: exclusive anime contracts on streaming services "kills" anime, so REMOW is looking to both produce as well as acquire the rights to older anime and then make non-exclusive streaming deals with a variety of streaming platforms to serve the anime to as big of an audience as possible.
+
+In practice, they've begun to just straight upload obscure older anime that they had acquired the rights for free on Youtube (subbed in English for the first time). The people who showed up for this panel, including my friend were curious about this, rightfully so, questioning the longterm prospects of this strategy when each of the episodes gets something like 500 views.
+
+Like where's the money at?
+
+I don't expect REMOW to exist for much longer unless they make some serious changes to their business model. Although they are a subsidiary of a much larger, and presumably successful company, so maybe they'll be fine.
 
 # Conclusion
 
