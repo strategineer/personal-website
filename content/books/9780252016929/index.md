@@ -4,7 +4,7 @@ authors:
 books/tags:
 - 4star
 - anthology
-- science-fiction
+- non-fiction
 date: 2024-07-29
 params:
   isbn13: '9780252016929'

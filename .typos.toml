@@ -1,5 +1,5 @@
 [files]
-extend-exclude = ["/content/blog/2025-08-12/index.md", "**/*.js", "hugo_stats.json", "build", "data/ps2_games.json", "data/steamgames.json", "data/wordle_words.json", "static/decks/*", "**/*.svg", "content/tabletop/gming/tables.md"]
+extend-exclude = ["**/*.js", "hugo_stats.json", "build", "data/ps2_games.json", "data/steamgames.json", "data/wordle_words.json", "static/decks/*", "**/*.svg", "content/tabletop/gming/tables.md"]
 
 [default.extend-words]
 # Don't correct the surname "Teh"

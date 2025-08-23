@@ -3,6 +3,7 @@ authors:
 - Martin Puchner
 books/tags:
 - 5star
+- non-fiction
 date: 2025-08-07
 params:
   isbn13: '9780812998931'

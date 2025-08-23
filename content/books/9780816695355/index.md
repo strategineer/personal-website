@@ -3,6 +3,7 @@ authors:
 - Frenchy Lunning
 books/tags:
 - academic
+- non-fiction
 date: 2025-08-22
 params:
   isbn13: '9780816695355'

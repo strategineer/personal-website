@@ -3,6 +3,7 @@ authors:
 - Shigeru Mizuki
 books/tags:
 - comics
+- historical fiction
 date: 2017-05-10
 params:
   isbn13: '9781770460416'

@@ -3,6 +3,7 @@ authors:
 - Francis Sanzaro
 books/tags:
 - 4star
+- philosophy
 - non-fiction
 date: 2022-10-20
 params:

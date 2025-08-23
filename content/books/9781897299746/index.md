@@ -4,6 +4,8 @@ authors:
 books/tags:
 - did-not-finish
 - comics
+- memoir
+- non-fiction
 date: 2017-12-10
 params:
   isbn13: '9781897299746'

@@ -5,6 +5,7 @@ books/tags:
 - 2star
 - academic
 - comics
+- non-fiction
 date: 2024-08-13
 params:
   isbn13: '9781496828996'

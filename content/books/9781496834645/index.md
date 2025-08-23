@@ -5,6 +5,7 @@ authors:
 books/tags:
 - 3star
 - academic
+- non-fiction
 date: 2024-08-13
 params:
   isbn13: '9781496834645'

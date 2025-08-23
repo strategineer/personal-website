@@ -4,6 +4,7 @@ authors:
 books/tags:
 - 4star
 - academic
+- non-fiction
 date: 2024-11-22
 params:
   isbn13: '9780472071913'

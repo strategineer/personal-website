@@ -4,6 +4,7 @@ authors:
 books/tags:
 - 5star
 - philosophy
+- non-fiction
 date: 2025-07-28
 params:
   isbn13: '9781107604711'

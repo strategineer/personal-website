@@ -3,6 +3,7 @@ authors:
 - David Macaulay
 books/tags:
 - did-not-finish
+- non-fiction
 date: 2018-10-26
 params:
   isbn13: '9780544824386'

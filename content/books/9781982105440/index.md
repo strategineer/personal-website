@@ -6,6 +6,7 @@ books/tags:
 - did-not-finish
 - trash
 - philosophy
+- non-fiction
 date: 2023-10-25
 params:
   isbn13: '9781982105440'

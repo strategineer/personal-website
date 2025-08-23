@@ -4,6 +4,7 @@ authors:
 books/tags:
 - 3star
 - psychology
+- non-fiction
 date: 2024-10-21
 params:
   isbn13: '9780465021475'

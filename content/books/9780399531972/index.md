@@ -4,6 +4,7 @@ authors:
 books/tags:
 - 5star
 - philosophy
+- non-fiction
 date: 2025-08-19
 params:
   isbn13: '9780399531972'

@@ -3,6 +3,7 @@ authors:
 - Theresa Regan
 books/tags:
 - autism
+- non-fiction
 date: 2022-06-01
 params:
   isbn13: '9781946824912'

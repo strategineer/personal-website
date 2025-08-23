@@ -3,7 +3,8 @@ authors:
 - Catherine Dorion
 books/tags:
 - 5star
-- memeoir
+- memoir
+- non-fiction
 date: 2025-06-21
 params:
   isbn13: '9782898330063'

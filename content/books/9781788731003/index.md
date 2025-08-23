@@ -5,6 +5,7 @@ books/tags:
 - did-not-finish
 - philosophy
 - unowned
+- non-fiction
 date: 2025-03-30
 params:
   isbn13: '9781788731003'

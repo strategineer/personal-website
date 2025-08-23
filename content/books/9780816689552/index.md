@@ -4,6 +4,7 @@ authors:
 books/tags:
 - academic
 - currently-reading
+- non-fiction
 date: 2025-08-23
 params:
   isbn13: '9780816689552'
