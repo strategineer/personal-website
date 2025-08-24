@@ -1,6 +1,6 @@
 {{ if and (not (in (slice "author" "book") .Data.Singular)) (not (in (slice "/books/owned/" "/books/unowned/") .RelPermalink)) }}
   <div class="container justify-content-center text-center page-title">
-    <div class="col h1">
+    <div class="col-md-7 h1">
       {{ $v := split .Data.Plural "/" }}
       All {{ .Data.Singular }} tags
     </div>

@@ -1,14 +1,16 @@
 ---
-title: "Cursed with Knowledge"
+title: "Looking at Brau1589's Punishment and Gift: Greek Mythology in Pluto Episode 1"
 date: 2025-08-23
 blog/tags:
-  - life
+- media
 draft: true
 ---
 
-<!--more-->
+This is a short essay on the first episode of the Pluto (2023) anime.
 
-Spoilers for the first episode of the Pluto (2023) anime.
+First, I'll present evidence for the robot Brau1589 being an allusion to Prometheus from Greek mythology. Then, I'll discuss my thoughts on what "fire" Brau1589 may have stolen from the gods, who the "gods" may be in this context and who Brau1589 may have given the "fire" to. Finally, I'll present some open questions that this allusion raises.
+
+<!--more-->
 
 *--- Spoiler Warning ---*
 
@@ -34,13 +36,13 @@ Brau1589's killing of a human marks him as an anomaly, but also something more.
 
 Portrayed as he is, as well as is function within the story thus far, Brau1589 is clearly a reference to Prometheus.
 
-As stated on Wikipedia, "In Greek mythology, Prometheus is a Titan responsible for creating or aiding humanity in its earliest days. He defied the Olympian gods by taking fire from them and giving it to humanity in the form of technology, knowledge and, more generally, civilization".[^1]
+As stated on Wikipedia, "In Greek mythology, Prometheus is a Titan responsible for creating or aiding humanity in its earliest days. He defied the Olympian gods by taking fire from them and giving it to humanity in the form of technology, knowledge and, more generally, civilization.[^1]"
 
-Prometheus was punished for having gone against the wishes of the Olympian gods. He was pinned by the gods to a tree and cursed to have an eagle eat his, regenerating, liver every day for the rest of his immortal life for his actions. Interestingly, in ancient Greece, according to Wikipedia, "the liver was thought to be the seat of human emotions".[^1]
+Prometheus was punished for having gone against the wishes of the Olympian gods. He was pinned by the gods to a tree and cursed to have an eagle eat his, regenerating, liver every day for the rest of his immortal life for his actions. Interestingly, in ancient Greece, according to Wikipedia, "the liver was thought to be the seat of human emotions.[^1]"
 
 I doubt that Brau1589 has anything like a liver inside of him but his ressemblace to Prometheus is uncanny.
 
-This allusion to Prometheus becomes closer to a reference through Brau1589's words during his discussion with the detective Gesicht. The detective shows Brau1589 some photos of the crime scenes and asks him: "What do you think these horns mean?"
+This allusion to Prometheus becomes closer to a reference through Brau1589's words during his discussion with the detective Gesicht. The detective shows Brau1589 some photos of the crime scenes and asks him: "What do you think these horns mean?[^2]"
 
 ![](2.jpg)
 
@@ -48,40 +50,41 @@ In reply, Brau1589 speaks about the gods of death. Specifically, Herne the Hunte
 
 This explicit reference to mythology primes us as viewers to start thinking about these mythic references explicitly. The Brau1589/Prometheus allusion being the most obvious one.
 
-Brau1589 continues by spelling out his theory on who the next targets may be. The murdered (destroyed?) robot was Mont Blanc, a legendary robot "[built with] the best technologies the world had to offer" and "who can also be weapons of mass destruction". Seven such robots were built, Mont Blanc and Brau1589 among them, Brau1589 believes that the rest of these robots will be targeted next, himself included.
+Brau1589 continues by spelling out his theory on who the next targets may be. The murdered (destroyed?) robot was Mont Blanc, a legendary robot "[built with] the best technologies the world had to offer[^2]" and "who can also be weapons of mass destruction[^2]." Seven such robots were built, Mont Blanc and Brau1589 among them, Brau1589 believes that the rest of these robots will be targeted next, himself included.
 
 Brau1589 and the other legendary robots being god-like in their powers, the allusion to Prometheus becomes more and more clear.
 
-If Brau1589 is an allusion to Prometheus, then what is the "fire" that he stole and who did he give it to?
+If Brau1589 is an allusion to Prometheus, then what "fire" did he take, who did he take it from and who did he give it to?
 
-Brau1589 and the other legendary robots are god-like but compared to Greek mythology, the roles have been seemingly reversed where in Pluto the humans have created the gods (legendary robots).
+Interestingly, Brau1589 is both a god-like being and a robot; manufactured by, and ultimately subservient to and punished by, humans.
 
-despite being godlike, the creator and created roles have been switched between the robots and the humans
+Perhaps, the "fire" that Brau1589 took was the human capacity to kill, taken from the humans who created him and given to the many non-legendary and god-like robots of the world.
 
-1. Much like Prometheus, Brau1589 is both above humanity as a god-like being but also subservient to it, being both created by and imprisoned by humans.
-2. If Brau1589 is an allusion to Prometheus, are the other legendary robots also allusions? 
+In being recognized as being the first robot to have killed a human, Brau1589 may be acting as a harginger of this change rather than being the inciting incident of this change.
 
-Now that we've concluded
+Either way, he is being punished just like Prometheus all the same.
 
-of the world's which Brau1589 equates to weapons of mass destruction. , The six remaining,  mentions that there are gods is a robot but is he also a god?
+Both the detective Gesicht and North #2 (another of the seven legendary robots) are plagued by persistent dreams. Robots don't kill humans and robots don't dream in the world of Pluto, yet Gesicht and North #2 are exceptions to this rule.
 
+Perhaps, the "fire" that Brau1589 took from humans and then gave to the rest of the robots was not the human capacity to kill but rather the human capacity to feel and to dream.
 
-This shouldn't Of course, Pluto is 
+---
 
-are robots gods? maybe? Mont Blanc is likened to one
+Pluto is exactly the kind of media that I love; dense with latent meaning, ready to be discovered by those of us lucky enough to find it. So far, it's proven itself to be the opposite of the kind of media that I dislike more than anything, that is "tale[s] told by an idiot, full of sound and fury, signifying nothing.[^3]"
 
-We can think of Brau1589 as being the harbinger of the capacity to murder within robotkind. It's clear that 
+In this essay, I focused mostly on one character, Brau1589, who's featured in a single four minute long scene but there's so much more to think about.
 
-We can also think of Brau1589 as being a source of knowledge for the humans who have chosen to keep him alive for nefarious purposes 
+For example:
+- The mass media's portrayal of Mont Blanc as a hero who captured "many terrorist cells without any bloodshed[^2]" contrasted with our knowledge of North #2's killing of tens of thousands of his robot brethren in the same war, and forced to live the .
+- As stated by the newscaster, this war they're talking about is "39th Central Asian War[^2]". Wait up... There were 38 Central Asian Wars before this one? Ok... So shouldn't the real heroes the people and robots working to stop the 40th Central Asian War from happening?
+- Brau1589 is an allusion to Prometheus but could he also be an inversion of him? His voice over and vibes are sus as hell. I don't think we're supposed to take what he says at face value. Instead of being a god of "forethought and crafty counsel[^1]" like Prometheus, could Brau1589 be be lying to Gesicht, leading him and us as viewers astray in our understanding of the story?
+- If Brau1589 is an allusion to Prometheus, are the other legendary robots also allusions? North #2 looks a hell of a lot like Ultraman.
+- Is Gesicht a legendary robot? He's having dreams just like North #2. Brau1589 greets Gesicht like so: "in terms of detective AI, you're the best there is[^2]". The professor who performs Gesicht's scheduled maintenance states that Gesicht's design is so human that he might be able to experience fatigue unlike most other robots. I doubt robotics professors's are spending much of their time performing scheduled maintenances on any old robot. What makes Gesicht special enough to warrant this kind of treatment?
 
-danger of technology that is inherently evil such as nuclear weapons being stockpiled and kept just in case
+And that's just me barely scratching the surface of the first episode of Pluto. Well, I can't wait to watch some more. Did I mention that the animation, the sound and the voice over are top-notch?
 
-craving knowledge of the outside world which is normally deprived from.
-
-what is a robot , what is a human, what is the difference, why does it matter?
-
-a 5min scene can be so latent with meaning and reference that seeing it, reconigzing it would give you a much different appreaciatiing of the source material
-
-it's important not only to reference but also modify and leverage pre-existing things to talk about something new
+It's good.
 
 [^1]: “Prometheus.” Wikipedia, Wikimedia Foundation, 20 Aug. 2025, en.wikipedia.org/wiki/Prometheus.
+[^2]: “Episode 1.” Pluto, written by Heisuke Yamashita, season 1, episode 1, Tezuka Productions, 2023.
+[^3]: Shakespeare, William. Macbeth. Edited by Ted Hughes, The Ecco Press, 1991.
