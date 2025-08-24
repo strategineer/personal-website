@@ -12792,7 +12792,7 @@ wealthy: Mostly stone walls with some wood and brick, shingled roof, wood floors
 
 ## Feedback?
 
-Check out my [about page](/about/#contact-info) if you'd like to get in touch.
+Check out my [about page](/#contact-info) if you'd like to get in touch.
 
 ## Why?
 
