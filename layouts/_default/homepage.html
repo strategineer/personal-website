@@ -50,17 +50,17 @@
 </div>
 <span data-pagefind-ignore>
   <div class="row">
-    {{ $i = 0 }}
+    {{ $j := 0 }}
     {{ range .Site.RegularPages }}
-    {{ if eq .Section "books" }}
-    {{- if not ((in (index .Params "books/tags") "currently-reading")) -}}
-    {{ .Render "summary" }}
-    {{ $i = add $i 1}}
-    {{ if ge $i $num_finished_books }}
-    {{ break }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
+      {{ if eq .Section "books" }}
+        {{- if and (not ((in (index .Params "books/tags") "currently-reading"))) (not ((in (index .Params "books/tags") "owned-but-unread"))) -}}
+          {{ .Render "summary" }}
+          {{ $j = add $j 1}}
+          {{ if ge $j $num_finished_books }}
+            {{ break }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
     {{ end }}
   </div>
 </span>
