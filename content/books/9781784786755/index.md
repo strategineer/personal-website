@@ -2,7 +2,7 @@
 authors:
 - Benedict Anderson
 books/tags:
-- owned-but-unread
+- currently-reading
 - non-fiction
 date: 2025-08-23
 params:
