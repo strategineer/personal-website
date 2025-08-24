@@ -6,6 +6,8 @@ books/tags:
 date: 2025-08-22
 params:
   is_vn: true
+  series: Science Adventure
+  series_order: "1"
   year: '2022'
 slug: v22505
 star_rating: 5
@@ -13,6 +15,8 @@ title: CHAOS;HEAD NOAH
 ---
 
 <!--more-->
+
+{{< series >}}
 
 Spoilers below:
 
