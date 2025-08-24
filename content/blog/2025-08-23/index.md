@@ -59,7 +59,7 @@ Interestingly, Brau1589 is both a god-like being and a robot; having been manufa
 
 Perhaps, the "fire" that Brau1589 took was the human capacity to kill, taken from the humans who created him and given to the rest of the robots of the world.
 
-In being recognized as being the first robot to have killed a human, Brau1589 may be acting as a harginger of this change rather than being the cause of it.
+In being recognized as being the first robot to have killed a human, Brau1589 may be acting as a harbinger of this change rather than being the cause of it.
 
 Either way, he is being punished just like Prometheus all the same.
 
