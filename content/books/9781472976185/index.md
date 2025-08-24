@@ -4,8 +4,8 @@ authors:
 books/tags:
 - 5star
 - myth
-- reference
 - non-fiction
+- reference
 date: 2025-03-28
 params:
   isbn13: '9781472976185'

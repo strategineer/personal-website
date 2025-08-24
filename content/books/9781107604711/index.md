@@ -3,8 +3,8 @@ authors:
 - Thomas Nagel
 books/tags:
 - 5star
-- philosophy
 - non-fiction
+- philosophy
 date: 2025-07-28
 params:
   isbn13: '9781107604711'

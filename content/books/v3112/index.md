@@ -9,7 +9,7 @@ params:
   year: '2016'
 slug: v3112
 star_rating: null
-title: "Zero Escape: The Nonary Games"
+title: 'Zero Escape: The Nonary Games'
 ---
 
 <!--more-->

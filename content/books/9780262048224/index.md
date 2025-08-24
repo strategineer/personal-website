@@ -2,8 +2,8 @@
 authors:
 - Stu Horvath
 books/tags:
-- tabletop
 - non-fiction
+- tabletop
 date: 2025-07-01
 params:
   isbn13: '9780262048224'

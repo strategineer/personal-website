@@ -10,7 +10,7 @@ params:
   year: '2018'
 slug: v1299
 star_rating: null
-title: "428: Shibuya Scramble"
+title: '428: Shibuya Scramble'
 ---
 
 <!--more-->

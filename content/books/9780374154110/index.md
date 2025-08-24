@@ -4,8 +4,8 @@ authors:
 books/tags:
 - 1star
 - trash
-- philosophy
 - non-fiction
+- philosophy
 date: 2023-08-27
 params:
   isbn13: '9780374154110'

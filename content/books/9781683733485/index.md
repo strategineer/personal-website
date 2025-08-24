@@ -3,8 +3,8 @@ authors:
 - Janina Fisher
 books/tags:
 - currently-reading
-- psychology
 - non-fiction
+- psychology
 date: 2025-07-30
 params:
   isbn13: '9781683733485'

@@ -3,9 +3,9 @@ authors:
 - Timothy Morton
 books/tags:
 - did-not-finish
+- non-fiction
 - philosophy
 - unowned
-- non-fiction
 date: 2025-03-30
 params:
   isbn13: '9781788731003'

@@ -2,12 +2,13 @@
 authors:
 - MAGES
 books/tags:
+- 5star
 - visual novel
 date: 2025-08-22
 params:
   is_vn: true
   series: Science Adventure
-  series_order: "1"
+  series_order: '1'
   year: '2022'
 slug: v22505
 star_rating: 5

@@ -7,11 +7,11 @@ date: 2017-11-27
 params:
   is_vn: true
   series: Danganronpa
-  series_order: "1" 
+  series_order: '1'
   year: '2016'
 slug: v7014
 star_rating: null
-title: "Danganronpa: Trigger Happy Havoc"
+title: 'Danganronpa: Trigger Happy Havoc'
 ---
 
 <!--more-->

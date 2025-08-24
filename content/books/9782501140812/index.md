@@ -3,9 +3,9 @@ authors:
 - Paul Douard
 books/tags:
 - 1star
-- unowned
 - memoir
 - non-fiction
+- unowned
 date: 2023-06-15
 params:
   isbn13: '9782501140812'

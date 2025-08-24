@@ -3,8 +3,8 @@ authors:
 - John Dewey
 books/tags:
 - 5star
-- philosophy
 - non-fiction
+- philosophy
 date: 2025-08-19
 params:
   isbn13: '9780399531972'

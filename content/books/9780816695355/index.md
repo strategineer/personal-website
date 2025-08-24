@@ -2,6 +2,7 @@
 authors:
 - Frenchy Lunning
 books/tags:
+- 5star
 - academic
 - non-fiction
 date: 2025-08-22
@@ -12,9 +13,8 @@ params:
   year: '2014'
 slug: '9780816695355'
 star_rating: 5
-title: "Mechademia 9: Origins"
+title: 'Mechademia 9: Origins'
 ---
-
 
 <!--more-->
 
@@ -34,4 +34,3 @@ Favorite articles:
 - Powers of (Dis)Ability: Toward a Bodily Origin in Mushishi
 - Conceptualizing Anime and the Database Fantasyscape
 - Tezuka's Buddha at the Tokyo National Museum: An Interview with Matsumoto Nobuyuki
-

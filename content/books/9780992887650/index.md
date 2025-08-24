@@ -3,8 +3,8 @@ authors:
 - Francis Sanzaro
 books/tags:
 - 4star
-- philosophy
 - non-fiction
+- philosophy
 date: 2022-10-20
 params:
   isbn13: '9780992887650'

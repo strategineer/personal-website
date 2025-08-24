@@ -10,7 +10,7 @@ params:
   year: '2015'
 slug: v4
 star_rating: null
-title: "CLANNAD"
+title: CLANNAD
 ---
 
 <!--more-->
