@@ -3,8 +3,8 @@ authors:
 - MAGES
 books/tags:
 - visual novel
-- owned-but-unread
-date: 2025-08-22
+- currently-playing
+date: 2025-08-24
 params:
   is_vn: true
   series: Science Adventure
