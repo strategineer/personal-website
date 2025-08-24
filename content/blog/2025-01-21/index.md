@@ -5,7 +5,7 @@ blog/tags:
   - life
 ---
 
-This website has existed in some form or another since Tuesday, October 10th 2017 (that was 7 years, 3 months and 11 days ago at the time of writing this)... It's been a long time coming, I've got an [about me page now](/about). Check it out!
+This website has existed in some form or another since Tuesday, October 10th 2017 (that was 7 years, 3 months and 11 days ago at the time of writing this)... It's been a long time coming, I've got an [about me page now](/#about-me). Check it out!
 
 <!--more-->
 
