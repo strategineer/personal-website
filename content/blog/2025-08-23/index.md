@@ -63,7 +63,7 @@ In being recognized as being the first robot to have killed a human, Brau1589 ma
 
 Either way, he is being punished just like Prometheus all the same.
 
-Both the detective Gesicht and North #2 (another of the seven legendary robots) are plagued by persistent dreams. Robots don't kill humans and robots don't have dreams in the world of Pluto. Gesicht and North #2 seem to both be exceptions to this rule, at least with respect to their dreams.
+Both the detective Gesicht and North No. 2 (another of the seven legendary robots) are plagued by persistent dreams. Robots don't kill humans and robots don't have dreams in the world of Pluto. Gesicht and North No. 2 seem to both be exceptions to this rule, at least with respect to their dreams.
 
 Perhaps, the "fire" that Brau1589 took from humans and then gave to the rest of the robots was not the human capacity to kill but rather the human capacity to feel, and to dream.
 
@@ -74,11 +74,11 @@ Pluto is exactly the kind of media that I love; dense with latent meaning, ready
 In this essay, I focused mostly on one character, Brau1589, who's featured in a single four minute long scene but there's so much more to think about.
 
 For example:
-- The mass media's portrayal of Mont Blanc as a hero who captured "many terrorist cells without any bloodshed[^2]" contrasted with our knowledge of North #2's killing of tens of thousands of his robot brethren in the same war, and forced to live the consequences of his actions in it. If robots can have PTSD then maybe they're more human than we think?
+- The mass media's portrayal of Mont Blanc as a hero who captured "many terrorist cells without any bloodshed[^2]" contrasted with our knowledge of North No. 2's killing of tens of thousands of his robot brethren in the same war, and forced to live the consequences of his actions in it. If robots can have PTSD then maybe they're more human than we think?
 - As stated by the newscaster, this war they're referring to is the "39th Central Asian War[^2]". Wait up... There were 38 Central Asian Wars before this one? Ok... Shouldn't the real heroes be the humans and robots working to stop the 40th Central Asian War from happening instead of a "weapon of mass destruction[^2]" created, presumably, by geopolitical powers capable of stopping these wars yet choosing not to?
 - Brau1589 is an allusion to Prometheus but could he perhaps be an inversion of him? His voice over and vibes are sus as hell. I doubt that we're supposed to take what he says at face value. Instead of being a god of "forethought and crafty counsel[^1]" like Prometheus, could Brau1589 be the opposite and be lying outright to Gesicht, leading him and us as viewers astray in our understanding of the mystery as presented thus far?
-- If Brau1589 is an allusion to Prometheus, are the other legendary robots also allusions? I don't want anybody to get sued but North #2 looks a hell of a lot like Ultraman.
-- Is Gesicht a legendary robot? He's having dreams just like North #2. Brau1589 greets Gesicht like so: "in terms of detective AI, you're the best there is[^2]". The professor who performs Gesicht's scheduled maintenance states that Gesicht's design is so human that he might be able to experience fatigue unlike most other robots. I doubt that most robotics professors are spending much of their valuable time performing scheduled maintenances on any old robot. What makes Gesicht special enough to warrant this kind of treatment?
+- If Brau1589 is an allusion to Prometheus, are the other legendary robots also allusions? I don't want anybody to get sued but North No. 2 looks a hell of a lot like Ultraman.
+- Is Gesicht a legendary robot? He's having dreams just like North No. 2. Brau1589 greets Gesicht like so: "in terms of detective AI, you're the best there is[^2]". The professor who performs Gesicht's scheduled maintenance states that Gesicht's design is so human that he might be able to experience fatigue unlike most other robots. I doubt that most robotics professors are spending much of their valuable time performing scheduled maintenances on any old robot. What makes Gesicht special enough to warrant this kind of treatment?
 
 And that's just me barely scratching the surface of the first episode of Pluto. Well, I can't wait to watch some more. Did I mention that the animation, the sound and the voice over are top-notch?
 
