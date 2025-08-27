@@ -3,7 +3,7 @@ authors:
 - Edward W. Said
 books/tags:
 - non-fiction
-- owned-but-unread
+- currently-reading
 date: 2025-08-23
 params:
   isbn13: '9780394740676'
