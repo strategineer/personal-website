@@ -3,13 +3,12 @@ authors:
 - Edward W. Said
 books/tags:
 - non-fiction
-- currently-reading
-date: 2025-08-23
+date: 2025-09-01
 params:
   isbn13: '9780394740676'
   year: '2014'
 slug: '9780394740676'
-star_rating: null
+star_rating: 5
 title: Orientalism
 ---
 
