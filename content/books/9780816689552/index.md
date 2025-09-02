@@ -2,7 +2,7 @@
 authors:
 - Frenchy Lunning
 books/tags:
-- currently-reading
+- did-not-finish
 - academic
 - non-fiction
 date: 2025-08-23
