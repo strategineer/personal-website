@@ -3,6 +3,7 @@ authors:
 - Emily Taylor
 books/tags:
 - academic
+- non-fiction
 date: 2025-08-28
 params:
   isbn13: '9781719891202'
