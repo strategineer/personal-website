@@ -2,6 +2,7 @@
 authors:
 - Edward W. Said
 books/tags:
+- 5star
 - non-fiction
 date: 2025-09-01
 params:

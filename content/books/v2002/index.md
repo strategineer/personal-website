@@ -2,8 +2,8 @@
 authors:
 - MAGES
 books/tags:
-- visual novel
 - currently-reading
+- visual novel
 date: 2025-08-24
 params:
   is_vn: true

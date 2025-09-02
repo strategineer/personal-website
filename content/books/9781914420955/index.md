@@ -9,8 +9,7 @@ params:
   year: '2023'
 slug: '9781914420955'
 star_rating: null
-title: 'Dig Where You Stand'
+title: Dig Where You Stand
 ---
-
 
 <!--more-->

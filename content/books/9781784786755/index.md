@@ -2,6 +2,7 @@
 authors:
 - Benedict Anderson
 books/tags:
+- 5star
 - non-fiction
 date: 2025-08-26
 params:
