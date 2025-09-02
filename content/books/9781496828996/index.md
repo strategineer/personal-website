@@ -4,7 +4,6 @@ authors:
 books/tags:
 - 2star
 - academic
-- comics
 - non-fiction
 date: 2024-08-13
 params:
