@@ -112,6 +112,8 @@ def convert_post_to_star_rating(filename, post):
     star_rating = post.metadata.get("star_rating", 0)
     if star_rating == 0:
         star_rating = "currently reading..."
+    elif star_rating is None:
+        star_rating = "did not finish..."
     else:
         star_rating = "★" * star_rating
     book_number_prefix = f"Book {post.metadata.get('params', {}).get('series_order')}"
