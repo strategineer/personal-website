@@ -2,7 +2,7 @@
 authors:
 - Emily Taylor
 books/tags:
-- 4star
+- 3star
 - academic
 - non-fiction
 date: 2025-08-28
@@ -10,7 +10,7 @@ params:
   isbn13: '9781719891202'
   year: '2018'
 slug: '9781719891202'
-star_rating: 4
+star_rating: 3
 title: Dating Simulation Games - Romance, Love, and Sex in Virtual Japan
 ---
 
