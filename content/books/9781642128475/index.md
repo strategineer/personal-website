@@ -16,10 +16,10 @@ title: O Maidens in Your Savage Season
 
 <!--more-->
 
-A heartfelt high school rom-com about virginity from the perspective of five girls.
+A heartfelt rom-com about female virginity following five girls in a high school literature club.
 
-A lot of bold choices and story beats that I've never seen tackled in a manga/anime. Mostly, they're successful and interesting except for one character/"love interest" in particular.
+In writing O Maidens, Mari Okada came up with a lot of bold story beats that I've never seen tackled in a manga/anime before (or other fiction for that matter).
 
-I watched the anime dubbed and I read the manga after. Both were written by Mari Okada and so they're extremely faithful to each other.
+I really enjoyed both the anime (the dub is great) and the manga (they are faithful to one other and were both written by Mari Okada) except for the portrayal/framing of one character/"love interest" (Tomoaki Yamagishi). In the end, I'd much rather a writer try something different, bold and fail to live up to the potential of their attempt instead of them writing something rote, expected and boring (which is thankfully not the case here).
 
-The translations are different of course with only minor differences made to the story/visuals itself. I'd recommend checking out either one.
+Both the manga and anime are quite tame and absolutely not horny, despite what the premise might lead you to believe. The potentially scandelous premise is leveraged to both entertain and help the viewer/reader empathise with these girls as they each, together and alone, come face to face with obstacles relating to their sexualities.  
