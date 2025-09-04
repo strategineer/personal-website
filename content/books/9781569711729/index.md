@@ -3,13 +3,12 @@ authors:
 - Adam Warren
 books/tags:
 - comics
-- currently-reading
 date: 2025-09-03
 params:
   isbn13: '9781569711729'
   year: '1996'
 slug: '9781569711729'
-star_rating: null
+star_rating: 3
 title: Dirty Pair
 ---
 
@@ -26,3 +25,4 @@ Dirty Pair is:
 - Post-modern. Warren is well-aware of what the Dirty Pair comic is. Especially starting from *A Plague of Angels* onwards, Adam Warren seems to become more interested in putting textual commentary into the text itself.
   - In *A Plague of Angels*, the journalist Cory is introduced to the story (she's cannonically trans which is cool) and is tasked with following the Dirty Pair on one of their missions. Through Cory, Warren explicitly frames the Dirty Pair as being the whirlwind of chaos and destruction that they are (whereas prior to Cory's introduction, this theme of the show was mostly implicit).
   - In *Fatal and not Serious*, Cory is re-introduced to the story as a talk show host interviewing the Dirty Pair in the days before the inaugural Kei n' Yuri con 41, an in-universe fandom convention dedicated to the main characters of the comic book. An in-universe pair of AI hosts cover the events of the con live through personalized video streams to convention goers. In the comic, panels of commentary are spliced into the events of the comic providing color commentary, textual analysis and serve as another lens through which to view the Dirty Pair's shenaningans---all within the comic itself.
+- A little uneven. The first few arcs are really big standard, lacking the oomhph that makes the rest of the series stand out, and the last arc's art style is bad and just isn't that interesting.
