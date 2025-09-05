@@ -3,13 +3,12 @@ authors:
 - Hiromu Arakawa
 books/tags:
 - comics
-- currently-reading
-date: 2025-09-03
+date: 2025-09-05
 params:
   isbn13: '9781975310042'
   year: '2018'
 slug: '9781975310042'
-star_rating: null
+star_rating: 4
 title: Silver Spoon
 ---
 
@@ -24,3 +23,4 @@ Silver Spoon is:
   - about community---leaning on it when you need to and contributing to it for the good of everyone.
   - about privilege---not taking it for granted and leveraging it to help make the world a better place.
 - Filled with Buddhist themes.
+- A manga serialized from April 2011 to November 2019. Over the course of 8 years, it shouldn't be surprising that the manga itself changed as the people making it changed and the world changed around them. Serialization will always come at the expense of consistency (style, thematic cohesiveness, etc)---the degree to which this impacts a serialized work like this is something I'm always looking at.
