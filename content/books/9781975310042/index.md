@@ -24,3 +24,17 @@ Silver Spoon is:
   - about privilege---not taking it for granted and leveraging it to help make the world a better place.
 - Filled with Buddhist themes.
 - A manga serialized from April 2011 to November 2019. Over the course of 8 years, it shouldn't be surprising that the manga itself changed as the people making it changed and the world changed around them. Serialization will always come at the expense of consistency (style, thematic cohesiveness, etc)---the degree to which this impacts a serialized work like this is something I'm always looking at. There's great moments all throughout Silver Spoon but they're much more densely packed in the first half of the series. There's a moment about halfway through the series where it feels like the team behind the manga ran out of good ideas, were unable to start closing loops (letting the guy and girl get together, etc.) and so, started padding out arcs without imbuing them with the love and care that was clearly packed into the rest of the series up until this point.
+
+Here's a few cool pages/panels from the first two volumes (nothing too spoilery):
+
+![](1.png)
+_Arakawa filling a single panel with Hachiken's thinking about three other characters, his verbal and non-verbal reactions to these thoughts and Mikage's reaction to his reaction. Man, she's efficiently using this space!_
+
+![](2.png)
+_Arakawa's breathing so much life onto the page by combining prose and visual arts in a way that you wouldn't be able to achieve with either medium on its own. Also, contrasting Aikawa, the squeamish veteranian hopeful, with the rest of the students here is a nice touch._
+
+![](3.png)
+_Arakawa cutting back-and-forth between the boys and the girls as each of them compete in a friendly (or not so friendly) physical competition._
+
+![](4.png)
+_Arakawa's amazing use of a black gradient escaping from the panels onto the page itself---representing Hachiken being overwhelmed by the trauma from his past._
