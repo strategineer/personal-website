@@ -2,6 +2,7 @@
 authors:
 - Hiromu Arakawa
 books/tags:
+- 4star
 - comics
 date: 2025-09-05
 params:

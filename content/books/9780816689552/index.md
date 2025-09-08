@@ -13,7 +13,7 @@ params:
   year: '2014'
 slug: '9780816689552'
 star_rating: null
-title: "Mechademia 8: Tezuka's Manga Life"
+title: 'Mechademia 8: Tezuka''s Manga Life'
 ---
 
 <!--more-->

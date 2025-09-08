@@ -12,5 +12,4 @@ star_rating: null
 title: This Earth of Mankind
 ---
 
-
 <!--more-->

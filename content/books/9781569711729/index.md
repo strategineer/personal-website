@@ -2,6 +2,7 @@
 authors:
 - Adam Warren
 books/tags:
+- 3star
 - comics
 date: 2025-09-03
 params:
@@ -11,7 +12,6 @@ slug: '9781569711729'
 star_rating: 3
 title: Dirty Pair
 ---
-
 
 <!--more-->
 

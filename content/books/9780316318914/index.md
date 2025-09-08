@@ -12,5 +12,4 @@ star_rating: null
 title: A bright and blinding sun
 ---
 
-
 <!--more-->
