@@ -18,7 +18,7 @@
             "hint": "2022-2025",
             "title": "Senior Software Engineer @ Sonder",
             "list": [
-              "Developed a system in Ruby to migrate 100k+ bookings over to external systems.",
+              "Developed a system in Ruby to migrate 300k+ bookings over to external systems.",
               "Developed availability health metrics that contributed to a $10M year-over-year profit increase.",
               "Developed a distribution system in Ruby to sync 50k+ listings on Airbnb, Booking, Expedia and more.",
               "Refactored a 300k+ LOC legacy Ruby on Rails codebase, upgrading to Ruby 3.3 and Rails 7.1 for improved performance and maintainability.",
