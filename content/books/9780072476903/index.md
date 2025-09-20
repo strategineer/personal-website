@@ -2,7 +2,8 @@
 authors:
 - James Rachels
 books/tags:
-- owned-but-unread
+- currently-reading
+- philosophy
 date: 2025-09-20
 params:
   isbn13: '9780072476903'
