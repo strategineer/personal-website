@@ -4,7 +4,7 @@ authors:
 - Raj Patel
 books/tags:
 - non-fiction
-date: 2025-09-15
+date: 2025-09-19
 params:
   isbn13: '9781250849298'
   year: '2022'
