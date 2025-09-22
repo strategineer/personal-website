@@ -3,7 +3,6 @@ authors:
 - Pellegrino Artusi
 books/tags:
 - reference
-- non-fiction
 date: 2025-09-20
 params:
   isbn13: '9780802086570'
