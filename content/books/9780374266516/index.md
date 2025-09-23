@@ -2,7 +2,8 @@
 authors:
 - Jostein Gaarder
 books/tags:
-- owned-but-unread
+- did-not-finish
+- unowned
 date: 2025-09-20
 params:
   isbn13: '9780374266516'
