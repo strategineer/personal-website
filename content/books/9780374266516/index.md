@@ -4,7 +4,7 @@ authors:
 books/tags:
 - did-not-finish
 - unowned
-date: 2025-09-20
+date: 2025-09-21
 params:
   isbn13: '9780374266516'
   year: '1996'
