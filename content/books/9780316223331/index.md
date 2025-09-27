@@ -2,8 +2,8 @@
 authors:
 - Edith Hamilton
 books/tags:
-- owned-but-unread
-date: 1800-03-02
+- currently-reading
+date: 2025-09-27
 params:
   isbn13: '9780316223331'
   year: '2013'
