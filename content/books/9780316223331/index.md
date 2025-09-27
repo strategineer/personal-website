@@ -3,6 +3,7 @@ authors:
 - Edith Hamilton
 books/tags:
 - currently-reading
+- myth
 date: 2025-09-27
 params:
   isbn13: '9780316223331'
