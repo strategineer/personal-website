@@ -4,7 +4,7 @@ authors:
 books/tags:
 - reference
 - myth
-date: 2025-09-27
+date: 2025-10-01
 params:
   isbn13: '9780316223331'
   year: '2013'
