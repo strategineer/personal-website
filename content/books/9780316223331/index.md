@@ -8,7 +8,7 @@ date: 2025-10-01
 params:
   isbn13: '9780316223331'
   year: '2013'
-star_rating: 4
+star_rating: 3
 slug: '9780316223331'
 title: Mythology
 ---
