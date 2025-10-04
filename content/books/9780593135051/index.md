@@ -8,7 +8,7 @@ params:
   isbn13: '9780593135051'
   year: '2020'
 slug: '9780593135051'
-star_rating: 4
+star_rating: 3
 title: The Space Between Worlds
 ---
 
