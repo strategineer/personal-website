@@ -8,7 +8,7 @@ params:
   isbn13: '9781777510756'
   year: '2023'
 slug: '9781777510756'
-star_rating: 4
+star_rating: 1
 title: Unconquered
 ---
 
