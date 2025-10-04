@@ -8,7 +8,7 @@ params:
   isbn13: '9780771099748'
   year: '1989'
 slug: '9780771099748'
-star_rating: 4
+star_rating: 3
 title: St. Urbain's Horseman
 ---
 
