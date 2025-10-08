@@ -9,7 +9,7 @@ params:
   isbn13: '9780060839871'
   year: '1974'
 slug: '9780060839871'
-star_rating: null
+star_rating: 3
 title: Zen and the Art of Motorcycle Maintenance
 ---
 
