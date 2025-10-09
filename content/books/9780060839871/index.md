@@ -20,7 +20,7 @@ title: Zen and the Art of Motorcycle Maintenance
 
 Blah blah blah motorcycles blah blah.
 
-Women shouldn't be in STEM, that's just how it is and we shouldn't fight it. 
+Women belong in the kitchen, that's just how it is and we shouldn't fight it. 
 
 Blah blah motorcycles blah blah blah.
 
