@@ -2,7 +2,7 @@
 authors:
 - Pramoedya Ananta Toer
 books/tags:
-- historical
+- historical fiction
 date: 2025-10-12
 params:
   isbn13: '9780140256352'
