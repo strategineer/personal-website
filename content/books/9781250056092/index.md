@@ -3,8 +3,8 @@ authors:
 - Nicola Griffith
 books/tags:
 - historical fiction
-- owned-but-unread
-date: 2025-07-09
+- currently-reading
+date: 2025-10-13
 params:
   isbn13: '9781250056092'
   year: '2014'
