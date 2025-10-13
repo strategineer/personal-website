@@ -3,9 +3,8 @@ authors:
 - E. Paul Zehr
 books/tags:
 - non-fiction
-- currently-reading
 - comics
-date: 2025-10-12
+date: 2025-10-13
 params:
   isbn13: '9780801890635'
   year: '2008'
