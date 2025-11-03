@@ -5,15 +5,17 @@ no_search: true
 is_tabletop: true
 ---
 
-Everything I know about Arc Raiders all in one place. All of my knowledge thus far has come from solo play so these tips and builds might be less relevant for squad play.
+Everything I know about Arc Raiders all in one place.
+
+<!--more-->
+
+All of my knowledge thus far has come from solo play so these tips and builds might be less relevant for squad play.
 
 All of the information here is up to date as of November 3rd, 2025 and correct, to the best of my ability.
 
 Fuck LLMs.
 
 Thoughts/Comments/Corrections? Propose additions and edits [here](https://github.com/strategineer/personal-website/blob/master/content/bin/gaming/arc_raiders/index.md) or [send me a message](/#about).
-
-<!--more-->
 
 {{< toc >}}
 
