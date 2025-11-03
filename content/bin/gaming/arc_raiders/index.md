@@ -88,7 +88,7 @@ Early testing with the IL TORO shotgun (which can be purchased from the Gun Shop
 
 ## Day One Budget Build
 
-- Roll the dice on a Free Loadout and extract succesfully to gather materials you'll need to make a "real" build. 
+- Roll the dice on a Free Loadout and extract successfully to gather materials you'll need to make a "real" build. 
 
 But, the Free Loadout only:
 - Equips you a single low tier weapon (god forbid you get the Kettle). Pray for a Stitcher and friendly raiders if you're going in solo.
