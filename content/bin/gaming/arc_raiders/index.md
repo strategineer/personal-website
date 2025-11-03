@@ -77,7 +77,7 @@ All the weapons below can be crafted relatively cheaply from the Workbench, exce
 | B | ![](/img/arc_raiders/weapons/Rattler.webp) | Rattler | Jack of All Trades. Decently effective at medium range against everything. Upgrades increase ammo count. | Extremely slow reloads. Low ammo count. Expensive to craft and upgrade (~2-3x the cost of the Stitcher).|
 | C | ![](/img/arc_raiders/weapons/Kettle.webp) | Kettle | High ammo count. | Semi-Automatic. Low bullet velocity. Slow reloads. |
 | F | ![](/img/arc_raiders/weapons/Hairpin.webp) | Hairpin |  | Tickles raiders and ARC alike. Waste of an inventory slot and crafting materials. Louder than you would expect but I've never heard anyone else fire a Hairpin so I don't know. |
-{.table .table-striped .table-bordered .table-sm}
+{.table .table-bordered .table-sm}
 
 TLDR
 : Running a Ferro and a Stitcher (ideally with a cheap extended mag mod) is extremely cheap and effective. With good aim at short or medium range, you can take out a fully healed raider easily by shooting them with the Ferro once (ideally getting a headshot if you can), sprinting at them while switching to the Stitcher, and finally spraying them with the Stitcher (watch out for the crazy recoil) before they can heal themselves. It's effective enough that you can easily be hit by a few shots while emoting ("don't shoot") at a raider and still win the subsequent fight against them if they're equipped poorly.
