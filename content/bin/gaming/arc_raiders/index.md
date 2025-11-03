@@ -52,7 +52,7 @@ Look at the Timer
 : When you load into a match look at the Timer in the middle of the screen. If it's around 30min that means you've spawned into a fresh map, nothing having been looted. If the time is significantly lower, that means that other Raiders have already signed into the map and have been looting.
 
 Think Twice About Repairing
-: For some broken items (items with a durability of 0.0), it is cheaper for you to recycle them and craft new ones rather than repairing them twice. The most egregious example of this that I've found so far is the Medium Shield which requires 1x ARC Circuitry and 4x Battery to build, requires 2x ARC Circuitry and 2x Battery to repair and grants 1x ARC Circuitry when recycled (insert Pepe Silvia meme)... TLDR, repairing these items only makes sense if you can't craft them yet (crafting a Medium Shield requires Gear Bench II), but even then unless your squad bullies you into it, I would never waste these resources before inventory is fat with loot.
+: For some broken items (items with a durability of 0.0), it is cheaper for you to recycle them and then craft  them rather than repairing them twice. The most egregious example of this that I've found so far is the Medium Shield which requires 1x ARC Circuitry and 4x Battery to craft, requires 2x ARC Circuitry and 2x Battery to fully repair (from 0.0 to 100.0) and grants 1x ARC Circuitry when recycled (insert Pepe Silvia meme)... TLDR, repairing these items only makes sense if you can't craft them yet (crafting a Medium Shield requires Gear Bench II), but even then unless your squad bullies you into it, I would never waste these resources before your inventory is fat with loot.
 
 
 
