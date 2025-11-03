@@ -61,6 +61,7 @@
     {{ end  }}
     <div class="container-fluid"> 
       {{ $is_readable := default false .Params.is_readable}}
+      {{ $is_readable_wide := default false .Params.is_readable_wide}}
       {{ $has_aside_toc := and $.Params.is_tabletop (default false .Page.Params.is_tabletop) (not (default false .Page.Params.no_aside_toc))}}
       <div class="row no-margin justify-content-center">
         {{ if $has_aside_toc }}
@@ -88,6 +89,8 @@
           {{ end }}
           {{ if $is_readable }}
             <div class="readable">
+          {{ else if $is_readable_wide }}
+            <div class="readable-wide">
           {{ end }}
             {{ block "main" . }}
             {{ end }}
