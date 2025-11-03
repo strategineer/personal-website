@@ -9,7 +9,7 @@ Everything I know about Arc Raiders all in one place. All of my knowledge thus f
 
 All of the information here is up to date as of November 3rd, 2025 and correct, to the best of my ability.
 
-Fuck AI.
+Fuck LLMs.
 
 Thoughts/Comments/Corrections? Propose additions and edits [here](https://github.com/strategineer/personal-website/blob/master/content/bin/gaming/arc_raiders/index.md) or [send me a message](/#about).
 
@@ -17,44 +17,49 @@ Thoughts/Comments/Corrections? Propose additions and edits [here](https://github
 
 {{< toc >}}
 
+# Key Skills
+
+*WIP UNDER CONSTRUCTION*
+
+But just make sure you get the Field Crafting skill to allow you to craft items during a run.
+
 # Tips
 
 Two Weapons are Better than One
-: Switching to a secondary [weapon](#early-weapon-tier-list) is usually quicker than reloading, so bring two weapons instead of just one. A cheap but effective [build](#builds) can be the bolt-action Ferro for drones and long range PvP fights, go for headshots if you can, and the fast-firing Stitcher close range PvP fights is a good start.
+: The early [weapons](#early-weapon-tier-list) tend to be very strong at specific ranges against specific targets but much weaker in other situations. Bringing two different weapons on a raid can be a cheap and effective way of dealing with your weapons's weaknesses. Also, switching to a secondary weapon is usually quicker than reloading which could be the difference between winning a PvP encounter or losing it. A cheap but effective [build](#builds) for early play is the bolt-action Ferro, used for drones and mid-long range PvP fights, paired with the fast-firing Stitcher, used close range PvP fights.
 
-Go To Go Fast
-: Adrenaline shots are really cheap to make so bring them with you on every run, use them to run ASAP to high value loot areas as you spawn into the map, looting them in peace and then extract before anyone's noticed you.
+Got To Go Fast
+: Adrenaline shots are surprisingly cheap to make. Bring them with you on every run, using them to run ASAP to high value loot areas as you load into a raid, looting these areas in peace and then extract before anyone even noticed you. If you've spawned late or are getting shot at from somewhere, adrenaline shots can also be used to escape from threats. Remember to holster your weapons to run even faster!
 
 Ape Together Strong
-: When solo-queue-ing, every other raider you encounter on the map is going to be alone. If you can group up with the first other raider you meet (asking them through emotes AND VOIP from behind cover ideally), you've just doubled your ability to defend yourself from enemy raiders on this run. Trusting a stranger will build your faith in humanity.
+: When solo-queue-ing, every other raider you encounter on the map is going to be alone. If you can group up with the first other raider you meet (asking them through emotes AND VOIP from behind cover ideally), you've just doubled your ability to defend yourself from enemy raiders on this raid. Also, trusting a stranger and providing in-raid mutual aid can feel really good.
 
 Free Loadouts, Free Stress
-: Free Loadouts are usually a great choice if you're looking to have a low intensity match with lower stakes. But, keep in mind that free loadouts have less inventory slots, including no safe pocket slot, and so if you do find any high value loot during your raid, you're going to be sweating buckets getting it back to your base safely.
+: Free Loadouts can be a great choice if you're looking to have a low intensity match with lower stakes or just looking to build up your inventory without any risk. But, keep in mind that Free Loadouts have less inventory slots, including no safe pocket slot, and so if you do find any high value loot during your raid, you're going to be sweating trying to get it back to your base safely.
 
 Free Loadouts, Free Death
-: Free Loadouts have their perks (they're free), but going into a raid with a single weapon and few useful utility items means that you can easily find yourself at the mercy of better equipped raiders. Hopefully, they're friendly or you're ratty enough to get the drop on them at an appropriate range for the weapon you have.
+: Free Loadouts have their perks (they're free), but going into a raid with one, potentially mediocre, weapon and few useful utility items means that you can easily find yourself at the mercy of better equipped raiders. Hopefully, they're friendly or you're ratty enough to get the drop on them at an appropriate range for the weapon you have.
 
-No Fall Damage (If you're smart)
-: There are many ways of negating fall damage when falling (or jumping off) a cliff or building, here are a few: grabbing on to a ledge before you hit the ground, dodge rolling just before you hit the ground (from up to about 2-3 floors up), grabbing on to a zip line as you fall.
+Negate All Fall Damage
+: There are many ways of negating fall damage when falling (or jumping off) a cliff or building, here are a few: grabbing on to a ledge before you hit the ground (hold the jump button while you fall), grabbing on to a zip line as you fall or crouching/dodging just before you hit the ground (although this only works from about 2-3 floors up).
 
-Use your Ears
-: Gunfire, breaching noise, emotes, proximity chat audio and ARC probes can be heard from surprisingly far away and can usually be used to accurately pinpoint where the sources of these sounds are coming from quite easily. To a lesser degree, looting sounds, footsteps and ARC thruster sounds can also be heard if you're not making too much noise yourself. Use these sounds to navigate through the map safely.
+Listen! Use your Ears
+: Gunfire, breaching noise, emotes, proximity chat audio and ARC probes can be heard from surprisingly far away and can often be used to accurately pinpoint where the sources of these sounds are coming. To a lesser degree, looting sounds, footsteps and ARC thruster sounds can also be heard if you're not making too much noise yourself. Use these sounds to navigate through the map safely.
 
-Dodge Rolls Will Save Your Life
-: The Dodge Roll drastically reduces the size of your hitbox and moves your head's hitbox around quickly making it harder for enemy raiders to hit it. Due to almost universally low ammo counts on raider weapons, a well-timed dodge can be the difference between dying and living long enough to take out whoever shooting at you. Dodging into cover is ideal but even dodge rolling in the open can be just as effective especially if you dodge to get closer to cover.
+Dodge Rolls, Never Forget
+: The Dodge Roll drastically reduces the size of your hitbox and moves your head's hitbox around quickly making it harder for enemy raiders to hit. Due to almost universally low ammo counts on weapons, a well-timed dodge can be the difference between dying and living long enough to return fire and take out whoever is shooting at you. Dodging into cover is ideal but dodge rolling in the open can be just as effective especially if you dodge towards some nearby cover. But, beware that dodging requires stamina!
 
 One Man's Baron Husk, Another Man's Treasure
-: Baron Husks are massive dead drones that you find on some maps. If you can hear them emitting a sound, that means that they're full of loot. If there's no one around or you've got somebody spotting for you, climb on to the top of the Husk, breach the loot cache, once it's open, jump on to one of its legs to avoid the flames then you can go back and loot it. This venting process is very loud and visible on the map so be prepared to encounter raiders soon after.
+: Baron Husks are massive dead drones that you find on some maps. If you can hear them emitting a sound, that means that they haven't been looted yet. If there's no one around or you've got somebody spotting for you, climb on to the Husk, breach it, once it's open, jump on to one of its legs to avoid the flame venting process then you can go back to the top of the Husk and loot it. This venting process is very loud and visible on the map so be prepared to encounter raiders soon after.
 
-Probes, Probes, Probes
-: Probes that you can see landing on the planet are absolute gold mines of loot, they are likely to give you high value loot that you can sell or use to build medium shields, among other items.
+Probes, Probes, Probes (also, Raider Caches)
+: Probes that you can see landing on the planet are filled with loot (they're about twice as tall as a raider and emit a sort-of "radar pinging" sound that can be heard from quite far away). Probes are likely to give you high value loot that you can sell or use to build Medium Shields, among other things. Beware that breaching them may cause other ARCs nearby to show up. Raider caches work similarly but are placed on the map initially, they also emit a sort of pinging sound.
 
-Look at the Timer
-: When you load into a match look at the Timer in the middle of the screen. If it's around 30min that means you've spawned into a fresh map, nothing having been looted. If the time is significantly lower, that means that other Raiders have already signed into the map and have been looting.
+Fresh or Stale Spawn, Know the Difference
+: When you load into a raid look at the timer in the middle of the screen. If it's around 30min that means you've loaded into a fresh map, where nothing has been looted yet and everyone else on the map has also just spawned. If the time shown is significantly lower, that means that other raiders have already loaded into the map and have been looting. If so, beware that other raiders may be closer to you on the map than you would expect.
 
-Think Twice About Repairing
-: For some broken items (items with a durability of 0.0), it is cheaper for you to recycle them and then craft  them rather than repairing them twice. The most egregious example of this that I've found so far is the Medium Shield which requires 1x ARC Circuitry and 4x Battery to craft, requires 2x ARC Circuitry and 2x Battery to fully repair (from 0.0 to 100.0) and grants 1x ARC Circuitry when recycled (insert Pepe Silvia meme)... TLDR, repairing these items only makes sense if you can't craft them yet (crafting a Medium Shield requires Gear Bench II), but even then unless your squad bullies you into it, I would never waste these resources before your inventory is fat with loot.
-
+Think Twice, About Repairing instead of Crafting
+: Some broken items (items with a durability of 0.0) are more costly to fully repair compared to recycling them and crafting them from scratch. The most egregious example of this that I've found so far is the Medium Shield which requires 1x ARC Circuitry and 4x Battery to craft, it requires 2x ARC Circuitry and 2x Battery to fully repair (from 0.0 to 100.0) and it grants 1x ARC Circuitry when recycled (insert Pepe Silvia meme)... TLDR: repairing these items only makes sense if you can't craft them yet (crafting a Medium Shield requires Gear Bench II), but even then unless your squad bullies you into it, early on I wouldn't waste precious resources before your inventory is fat with loot (but, if that's the case you're likely to have access to Gear Bench II).
 
 
 # Tier Lists
@@ -65,17 +70,17 @@ All the weapons below can be crafted relatively cheaply from the Workbench, exce
 
 | Tier |  | Name | Pros | Cons |
 | --- | --- | --- | --- | --- |
-| S | ![](/img/arc_raiders/weapons/Ferro.webp) | Ferro | Effective at medium to long range against raiders (especially when they're looting containers so you can headshot them) and at taking out ARC. Extremely cheap to craft. | Bolt-Action. Slow reloads at level 1. |
-| S | ![](/img/arc_raiders/weapons/Stitcher.webp) | Stitcher | High DPS. Effective at short range against raiders and lightly armored ARC. Can be modded with a cheap extended mag, adding 5 bullets to the base of 20. | High Recoil at level 1. |
-| B | ![](/img/arc_raiders/weapons/Rattler.webp) | Rattler | Jack of All Trades. Effective at medium range against everything. Upgrades increase ammo count. Running two Rattlers might be effective, because you can increase your ammo count cheaply and avoid the slow reloads.  | Extremely slow reloads. Low ammo count. Expensive to craft and upgraded (~2-3x the cost of the Stitcher).|
+| S | ![](/img/arc_raiders/weapons/Ferro.webp) | Ferro | Effective at medium to long range against raiders (especially when they're looting containers so you can headshot them) and at taking out ARC. Extremely cheap to craft. | Bolt-Action. Slow reloads at level 1. Weak against other raiders, especially at close range, if this is the only weapon you have. |
+| S | ![](/img/arc_raiders/weapons/Stitcher.webp) | Stitcher | High DPS. Effective at short range against raiders and lightly armored ARC. Can be modded with a cheap extended mag, adding 5 bullets to the base of 20. | Really High Recoil at level 1 (but cheap to upgrade). |
+| B | ![](/img/arc_raiders/weapons/Rattler.webp) | Rattler | Jack of All Trades. Decently effective at medium range against everything. Upgrades increase ammo count. | Extremely slow reloads. Low ammo count. Expensive to craft and upgrade (~2-3x the cost of the Stitcher).|
 | C | ![](/img/arc_raiders/weapons/Kettle.webp) | Kettle | High ammo count. | Semi-Automatic. Low bullet velocity. Slow reloads. |
 | F | ![](/img/arc_raiders/weapons/Hairpin.webp) | Hairpin |  | Tickles raiders and ARC alike. Waste of an inventory slot and crafting materials. Louder than you would expect but I've never heard anyone else fire a Hairpin so I don't know. |
 
 TLDR
-: Running a Ferro and a Stitcher (ideally with a cheap extended mag mod) is extremely cheap and effective. With good aim at short or medium range, you can take out a fully healed raider easily by shooting them with the Ferro once (ideally getting a headshot if you can), sprinting at them while switching to the Stitcher, and finally spraying them with the Stitcher (watch out for the crazy recoil) before they can heal themselves.
+: Running a Ferro and a Stitcher (ideally with a cheap extended mag mod) is extremely cheap and effective. With good aim at short or medium range, you can take out a fully healed raider easily by shooting them with the Ferro once (ideally getting a headshot if you can), sprinting at them while switching to the Stitcher, and finally spraying them with the Stitcher (watch out for the crazy recoil) before they can heal themselves. It's effective enough that you can easily take a few shots while emoting ("don't shoot") and still win the fight against a poorly equipped hostile raider.
 
 Thoughts on the Two Rattler Build
-: I'm not sold on the effectiveness of the two Rattler build just yet because of its high cost. But, you could keep dumping upgrades into the Rattlers so that if you can survive the initial onslaught from another raider (which seems unlikely if they're running two weapons and have decent aim) then you'd be able to output more damage over a longer period of time before having to reload. This build might shine in squad play because you and your buddies might be able to take out an enemy squad of raiders leveraging your lack of needed to reload.
+: I'm not sold on the effectiveness of the two Rattler build just yet because of its high cost. But, you could keep dumping crafting materials into upgrading both Rattlers so that if you can survive the initial onslaught from another raider (which seems unlikely if they're running two weapons and have decent aim) then you'd be able to output more damage over a longer period of time than them before having to reload. This build might shine in squad play because you and your buddies might be able to get the upper hand on an enemy squad of raiders leveraging your high ammo counts and lack of need to reload to "punch up".
 
 ## Mid Weapon Tier List
 
@@ -92,31 +97,40 @@ Early testing with the IL TORO shotgun (which can be purchased from the Gun Shop
 - Roll the dice on a Free Loadout and extract successfully to gather materials you'll need to make a "real" build. 
 
 But, the Free Loadout only:
-- Equips you a single low tier weapon (god forbid you get the Kettle). Pray for a Stitcher and friendly raiders if you're going in solo.
-- Has a Max Loadout Weight of 35.0 and 14 inventory slots (35.0/14). This is quite low compared to the 50.0/18 provided by the Looting Augment Mk. 1 and the 45.0/16 provided by the Combat Augment Mk. 1. So, with a Free Loadout you'll likely find yourself wishing you had a real Augment equipped after you loot two containers or a quarter of a Raider's inventory.
+- Equips you a single, potentially mediocre, weapon (god forbid you get the Kettle). Pray for a Stitcher and friendly raiders if you're going in to a raid by yourself.
+- Has a Max Loadout Weight of 35.0 and 14 inventory slots (35.0/14). This is quite low compared to the 50.0/18 provided by the Looting Augment Mk. 1 and the 45.0/16 provided by the Combat Augment Mk. 1. With a Free Loadout you'll likely find yourself wishing you had a real Augment equipped after you loot two containers or a quarter of a Raider's inventory.
 
 
 ## Early Budget Build
 
+This build is cheap but effective, providing you with everything you need to take out raiders and low level ARC with ease no matter the situation you find yourself in.
+
 - Looting Augment Mk. 1
 - Light Shield
-- 1 Stitcher I
-- 1 Ferro I
-- 3 bandages
-- 1-2 shield rechargers
-- 1 adrenaline shot
+- 1x Stitcher I
+- 1x Ferro I
+- 3x bandages
+- 1-2x shield rechargers
+- 1x adrenaline shot
 
 ## Mid Budget Build
 
+Similar to the [early budget build](#early-budget-build) but a little more expensive. It also requires a Gear Bench II to be sustainable (to be able to craft the Medium Shield).
+
+Although the Medium Shield only provides 2.5% more damage reduction than the Light Shield, the Medium Shield can reduce about 2.5x (?) more damage overall before turning shutting off compared to the Light Shield. This can give you the edge you need to survive an initial salvo of fire taking out the hostile raider before your shield shuts off. It can also allow you to bandage up during a firefight and continue trading fire instead of being forced to both bandage up and recharge your shield.
+
 - Combat Augment Mk. 1
 - Medium Shield
-- 1 Stitcher I-III with Light Extended Mag I
-- 1 Ferro I (no need to upgrade the Ferro, you're never going to reload this weapon in combat unless you have to)
-- 5 bandages
-- 4-5 shield rechargers
-- 3 adrenaline shots
+- 1x Stitcher I-III with Light Extended Mag I
+- 1x Ferro I
+  - No need to upgrade the Ferro, you're never going to reload this weapon in combat unless you have to. You'd be better served by not returning fire at all and either getting closer to allow your Stitcher to come into play or run from the fight completely. 
+- 5x bandages
+- 4-5x shield rechargers
+- 3x adrenaline shots
 
 # Randomizer
+
+*WIP UNDER CONSTRUCTION*
 
 {{< rpg_table name="EarlyWeapons" hide_button="true" >}}
 | d5 | Early Weapons |
