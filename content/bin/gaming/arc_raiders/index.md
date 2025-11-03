@@ -54,7 +54,7 @@ Dodge Rolls, Never Forget
 One Man's Baron Husk, Another Man's Treasure
 : Baron Husks are massive dead drones that you find on some maps. If you can hear them emitting a sound, that means that they haven't been looted yet. If there's no one around or you've got somebody spotting for you, climb on to the Husk, breach it, once it's open, jump on to one of its legs to avoid the flame venting process then you can go back to the top of the Husk and loot it. This venting process is very loud and visible on the map so be prepared to encounter raiders soon after.
 
-Probes, Probes, Probes (also, Raider Caches)
+Always Be Probing
 : Probes that you can see landing on the planet are filled with loot (they're about twice as tall as a raider and emit a sort-of "radar pinging" sound that can be heard from quite far away). Probes are likely to give you high value loot that you can sell or use to build Medium Shields, among other things. Beware that breaching them may cause other ARCs nearby to show up. Raider caches work similarly but are placed on the map initially, they also emit a sort of pinging sound.
 
 Fresh or Stale Spawn, Know the Difference
