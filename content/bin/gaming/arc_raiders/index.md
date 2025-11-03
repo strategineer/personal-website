@@ -22,8 +22,8 @@ Thoughts/Comments/Corrections? Propose additions and edits [here](https://github
 # Key Skills
 
 *WIP UNDER CONSTRUCTION*
-
-But just make sure you get the Field Crafting skill to allow you to craft items during a raid.
+- Make sure you get the Field Crafting skill to allow you to craft items during a raid.
+- Avoid putting more than a single point into the following skills: [Slip and Slide, Sturdy Ankles](https://www.youtube.com/watch?v=L420VCCwlrw), [Effortless Roll, Calming Stroll](https://www.youtube.com/watch?v=GJ-7kL9Bc14). They really don't seem to do anything.
 
 # Tips
 
