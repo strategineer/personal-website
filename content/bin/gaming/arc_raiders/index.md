@@ -23,7 +23,7 @@ Thoughts/Comments/Corrections? Propose additions and edits [here](https://github
 
 *WIP UNDER CONSTRUCTION*
 
-But just make sure you get the Field Crafting skill to allow you to craft items during a run.
+But just make sure you get the Field Crafting skill to allow you to craft items during a raid.
 
 # Tips
 
@@ -147,10 +147,10 @@ Although the Medium Shield only provides 2.5% more damage reduction than the Lig
 {{< rpg_table name="Goals" hide_button="true" >}}
 | d4 | Goals |
 | --- | --- |
-| 1 | Squad up with another raider/squad and help them with one of their goals.  |
-| 2 | Take out the biggest ARC on the map and loot it. |
-| 3 | Look at your inventory, find an item that you need for your next workshop upgrade, run straight for a loot area where it might spawn then loot it. |
-| 4 | Get 1k or more on Trial {1d5}. |
+| 1 | Squad up with another raider/squad and help them with one of their goals |
+| 2 | Take out the biggest ARC on the map and loot it |
+| 3 | Look at your inventory, find an item that you need for your next workshop upgrade, run straight for a loot area where it might spawn then loot it |
+| 4 | Get 1k or more on Trial {1d5} |
 {{< /rpg_table >}}
 
 {{< rpg_table_button name="RandomizedSoloRaid" count="1" expr="Equipment: {EarlyWeapons} and {EarlyWeapons}.<br>Goal: {Goals}." >}}
