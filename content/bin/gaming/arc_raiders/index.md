@@ -131,7 +131,7 @@ But, the Free Loadout only:
 {{< rpg_table name="Goals" hide_button="true" >}}
 | d4 | Goals |
 | --- | --- |
-| 1 | Squad up with a raider and help them with one of their goals.  |
+| 1 | Squad up with another raider/squad and help them with one of their goals.  |
 | 2 | Take out the biggest ARC on the map and loot it. |
 | 3 | Look at your inventory, find an item that you need for your next workshop upgrade, run straight for a loot area where it might spawn then loot it. |
 | 4 | Get 1k or more on Trial {1d5}. |
