@@ -2,6 +2,7 @@
 title: "Arc Raiders Guide"
 is_readable_wide: true
 no_search: true
+is_tabletop: true
 ---
 
 Everything I know about Arc Raiders all in one place. All of my knowledge thus far has come from solo play so these tips and builds might be less relevant for squad play.
@@ -117,4 +118,23 @@ But, the Free Loadout only:
 
 # Randomizer
 
-TODO
+{{< rpg_table name="EarlyWeapons" hide_button="true" >}}
+| d5 | Early Weapons |
+| --- | --- |
+| 1 | a Ferro |
+| 2 | a Stitcher |
+| 3 | a Rattler |
+| 4 | a Kettle |
+| 5 | a weapon of your choice |
+{{< /rpg_table >}}
+
+{{< rpg_table name="Goals" hide_button="true" >}}
+| d4 | Goals |
+| --- | --- |
+| 1 | Squad up with a raider and help them with one of their goals.  |
+| 2 | Take out the biggest ARC on the map and loot it. |
+| 3 | Look at your inventory, find an item that you need for your next workshop upgrade, run straight for a loot area where it might spawn then loot it. |
+| 4 | Get 1k or more on Trial {1d5}. |
+{{< /rpg_table >}}
+
+{{< rpg_table_button name="RandomizedSoloRaid" count="1" expr="Equipment: {EarlyWeapons} and {EarlyWeapons}.<br>Goal: {Goals}." >}}

@@ -1300,13 +1300,10 @@ Most of the following tables use [markov chains](https://en.wikipedia.org/wiki/M
 {{< rpg_table name="ItalianName" is_name_table="true" >}}
 | Italian Name |
 | ----- |
-|7Boninsegna|
 |Abbondio|
-|Addolorata*|
-|Adriana|
+|Addolorata|
 |Adriano|
 |Agostina|
-|Agostino|
 |Albano|
 |Alba|
 |Albina|
