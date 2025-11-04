@@ -22,6 +22,9 @@ Thoughts/Comments/Corrections? Propose additions and edits [here](https://github
 # Key Skills
 
 *WIP UNDER CONSTRUCTION*
+
+TLDR: Focus on speed over all else. You can't go wrong with faster looting, breaching and more stamina for running around the map. But, not all skills are created equally, some, mentioned below, seem to provide little to no real benefit despite claiming to. Until we can datamine the game or the devs prominently display the real data for these skills somewhere, we'll have to really on trial and error, people bricking their skill trees for science. 
+
 - Make sure you get the Field Crafting skill to allow you to craft items during a raid.
 - Avoid putting more than a single point into the following skills: [Slip and Slide, Sturdy Ankles](https://www.youtube.com/watch?v=L420VCCwlrw), [Effortless Roll, Calming Stroll](https://www.youtube.com/watch?v=GJ-7kL9Bc14). They really don't seem to do anything.
 
