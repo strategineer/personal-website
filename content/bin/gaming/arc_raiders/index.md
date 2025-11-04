@@ -66,6 +66,9 @@ Fresh or Stale Spawn, Know the Difference
 Think Twice, About Repairing instead of Crafting
 : Some broken items (items with a durability of 0.0) are more costly to fully repair compared to recycling them and crafting them from scratch. The most egregious example of this that I've found so far is the Medium Shield which requires 1x ARC Circuitry and 4x Battery to craft, it requires 2x ARC Circuitry and 2x Battery to fully repair (from 0.0 to 100.0) and it grants 1x ARC Circuitry when recycled (insert Pepe Silvia meme)... TLDR: repairing these items only makes sense if you can't craft them yet (crafting a Medium Shield requires Gear Bench II), but even then unless your squad bullies you into it, early on I wouldn't waste precious resources before your inventory is fat with loot (but, if that's the case you're likely to have access to Gear Bench II).
 
+Bang, Bang, Bang (in the elevator)
+: Shooting raiders gives you XP so even if you've found some friendly raiders to extract with you should shoot at them once the extraction exit has been activated as much as you can because that will give you XP at no cost to anyone (other than the ammo expenditure). If you can warn them about this ahead of time, they might appreciate that! 
+
 
 # Tier Lists
 
