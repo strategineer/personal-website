@@ -77,16 +77,41 @@ All the weapons below can be crafted relatively cheaply from the Workbench, exce
 | --- | --- | --- | --- | --- |
 | S | ![](/img/arc_raiders/weapons/Ferro.webp) | Ferro | Effective at medium to long range against raiders (especially when they're looting containers so you can headshot them) and at taking out ARC. Extremely cheap to craft. | Bolt-Action. Slow reloads at level 1. Weak against other raiders, especially at close range, if this is the only weapon you have. |
 | S | ![](/img/arc_raiders/weapons/Stitcher.webp) | Stitcher | High DPS. Effective at short range against raiders and lightly armored ARC. Can be modded with a cheap extended mag, adding 5 bullets to the base of 20. | Really High Recoil at level 1 (but cheap to upgrade). |
-| B | ![](/img/arc_raiders/weapons/Rattler.webp) | Rattler | Jack of All Trades. Decently effective at medium range against everything. Upgrades increase ammo count. | Extremely slow reloads. Low ammo count. Expensive to craft and upgrade (~2-3x the cost of the Stitcher).|
+| A | ![](/img/arc_raiders/weapons/Rattler.webp) | Rattler | Jack of All Trades. Effective at medium range against everything, especially when upgraded. Upgrades increase ammo count. | Extremely slow reloads. Low ammo count at level 1. Expensive to craft and upgrade (~2-3x the cost of the Stitcher).|
 | C | ![](/img/arc_raiders/weapons/Kettle.webp) | Kettle | High ammo count. | Semi-Automatic. Low bullet velocity. Slow reloads. |
 | F | ![](/img/arc_raiders/weapons/Hairpin.webp) | Hairpin |  | Tickles raiders and ARC alike. Waste of an inventory slot and crafting materials. Louder than you would expect but I've never heard anyone else fire a Hairpin so I don't know. |
 {.table .table-bordered .table-sm}
 
-TLDR
-: Running a Ferro and a Stitcher (ideally with a cheap extended mag mod) is extremely cheap and effective. With good aim at short or medium range, you can take out a fully healed raider easily by shooting them with the Ferro once (ideally getting a headshot if you can), sprinting at them while switching to the Stitcher, and finally spraying them with the Stitcher (watch out for the crazy recoil) before they can heal themselves. It's effective enough that you can easily be hit by a few shots while emoting ("don't shoot") at a raider and still win the subsequent fight against them if they're equipped poorly.
+TLDR:
+- Running a Ferro and a Stitcher (ideally with a cheap extended mag mod) is extremely cheap and effective.
+- With good aim at short or medium range, you can take a fully healed and decked out raider in the following way:
+  - Shoot them with the Ferro once (ideally getting a headshot if you can)
+  - Sprint at them while switching to the Stitcher
+  - Spray at them with the Stitcher (watch out for the crazy recoil) before they can heal themselves.
+- It's effective enough that you can easily be hit by a few shots while emoting ("don't shoot") at a raider and still win the subsequent fight against them if they're equipped poorly.
+- At very close range, stick to the Stitcher because missing with your initial Ferro shot is devestating.
+- If you're willing to pay the price and willing to lose some effectiveness at very close range against raiders (in exchange for ), then replacing the Stitcher with a Rattler might be viable. 
 
-Thoughts on the Two Rattler Build
-: I'm not sold on the effectiveness of the two Rattler build just yet because of its high cost. But, you could keep dumping crafting materials into upgrading both Rattlers so that if you can survive the initial onslaught from another raider (which seems unlikely if they're running two weapons and have decent aim) then you'd be able to output more damage over a longer period of time than them before needing to reload. This build might shine in squad play because you and your buddies might be able to get the upper hand on an enemy squad of raiders leveraging your high ammo counts and lack of need to reload to "punch up" at squads with better gear and more numbers.
+### Thoughts on the Two Rattler Build
+
+The following thoughts are condition
+
+Pros:
+- Jack of All Trades. The Rattler is great against ARC AND Raiders when upgraded. Even a single one can get a lot done but when you run out of ammo, especially against other raiders, you'll be wishing you had a side arm.
+- Surprise Factor. For example, if someone hears you shooting with a Rattler and ambushes you while you're fighting ARC, they won't expect you to have another fully reloaded Rattler ready to switch to and blast them away with.
+- Extremely effective against ARC. If you're looking to take down ARC for their materials, Trials or Feats, the Rattler provides a good balance of cost to benefit at the expense of worst outcomes against raiders at very close range.
+
+
+Cons:
+- Expensive. Crafting and Upgrading the Rattler costs a lot. So upgrading two of them costs twice as much.
+- Not as effective at very close range against raiders compared to the Stitcher.
+
+The two Rattler build provides you with more sustained DPS over longer periods of time than the other cheaper alternatives which tend to be more bursty.
+
+The two Rattler build is effective against hordes of light ARC, bigger ARC and other raiders (potentially even when outnumbered due to its great ARC armor penetration and sustained DPS allowing you to fire for longer periods of time at more targets than the alternatives.
+
+You have to ask yourself whether you're willing to either pay the cost reducing your effectiveness at close range against raiders who might be able to take you out before you can even whip out your second Rattler.
+
 
 ## Mid Weapon Tier List
 
@@ -133,6 +158,14 @@ Although the Medium Shield only provides 2.5% more damage reduction than the Lig
 - 5x bandages
 - 4-5x shield rechargers
 - 3x adrenaline shots
+
+# Raid Modifiers
+
+Probes
+: More probes landing during the raid. They reliably contain great mid-late loot to allow you to build better shields. If there's a probe out in the open, a smoke might be able to cover you while you loot.
+
+Night Raid
+: Better loot but ratting is encouraged because looting makes sound but sitting in the dark doesn't. Also, raider flares (big red flares that shoot up into the sky) don't trigger when raiders die in buildings (where most ratting occurs) reducing the risk of a raider looting a dead raider from getting jumped by a 3rd raider.
 
 # Randomizer
 
