@@ -164,11 +164,22 @@ Although the Medium Shield only provides 2.5% more damage reduction than the Lig
 
 # Raid Modifiers
 
-Probes
+Prospecting Probes
 : More probes landing during the raid. They reliably contain great mid-late loot to allow you to build better shields. If there's a probe out in the open, a smoke might be able to cover you while you loot.
 
 Night Raid
 : Better loot but ratting is encouraged because looting makes sound but sitting in the dark doesn't. Also, raider flares (big red flares that shoot up into the sky) don't trigger when raiders die in buildings (where most ratting occurs) reducing the risk of a raider looting a dead raider from getting jumped by a 3rd raider.
+
+Launch Tower Loot (Spaceport only)
+: *WIP UNDER CONSTRUCTION*
+
+
+Electromagnetic Storm
+: *WIP UNDER CONSTRUCTION*
+
+Harvester
+: *WIP UNDER CONSTRUCTION*
+
 
 # Randomizer
 
