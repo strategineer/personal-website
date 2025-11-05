@@ -19,6 +19,10 @@ Thoughts/Comments/Corrections? Propose additions and edits [here](https://github
 
 {{< toc >}}
 
+# Resources
+
+- [Min Max Lab](https://www.youtube.com/@MinMaxLabs): short videos showing the mathematics of Arc Raiders gained through looking at the numbers and experimentation in-game.
+
 # Key Skills
 
 *WIP UNDER CONSTRUCTION*
