@@ -95,9 +95,7 @@ TLDR:
 - At very close range, stick to the Stitcher because missing with your initial Ferro shot is devestating.
 - If you're willing to pay the price and willing to lose some effectiveness at very close range against raiders (in exchange for ), then replacing the Stitcher with a Rattler might be viable. 
 
-### Thoughts on the Two Rattler Build
-
-The following thoughts are condition
+### The Two Rattler Build
 
 Pros:
 - Jack of All Trades. The Rattler is great against ARC AND Raiders when upgraded. Even a single one can get a lot done but when you run out of ammo, especially against other raiders, you'll be wishing you had a side arm.
