@@ -27,7 +27,7 @@ Thoughts/Comments/Corrections? Propose additions and edits [here](https://github
 
 *WIP UNDER CONSTRUCTION*
 
-TLDR: Focus on speed over all else. You can't go wrong with faster looting, breaching and more stamina for running around the map. But, not all skills are created equally, some, mentioned below, seem to provide little to no real benefit despite claiming to. Until we can datamine the game or the devs prominently display the real data for these skills somewhere, we'll have to really on trial and error, people bricking their skill trees for science. 
+TLDR: Focus on speed over all else. You can't go wrong with faster looting, breaching and more stamina for running around the map. But, not all skills are created equally, some, mentioned below, seem to provide little to no real benefit despite claiming to. Until we can datamine the game or the devs prominently display the real data for these skills somewhere, we'll have to really on trial and error and generous souls bricking their skill trees for science. 
 
 - Make sure you get the Field Crafting skill to allow you to craft items during a raid.
 - Avoid putting more than a single point into the following skills: [Slip and Slide, Sturdy Ankles](https://www.youtube.com/watch?v=L420VCCwlrw), [Effortless Roll, Calming Stroll](https://www.youtube.com/watch?v=GJ-7kL9Bc14). They really don't seem to do anything.
@@ -134,6 +134,50 @@ Early testing with the IL TORO shotgun (which can be purchased from the Gun Shop
 Source: from Discord user @theendofnether
 
 ![](/img/arc_raiders/graphs/tier1_weapon_stats.png)
+
+# Augments
+
+The kind of augment you choose to use will depend on which Mk. of augments you have access to 
+
+## Mk. 1
+
+Mk. 1 augments don't have special abilities like the later Mk.(s) do so the main difference between each of them is the number of inventory slots they grant you and their Max Inventory Weight stat which determines how much heavy loot you can carry.
+
+Presumably, if you're using Mk. 1 augments you're poor and so looting and extracting succefully will be your first priority.
+
+In that case, your choice of Mk. 1 augment will depend on what level of shield you have access to.
+
+**If you only have access to Light Shield(s)**, then you'll want to use the Looting Augment Mk. 1 which is only compatible with the Light Shield but grants you the maximum number of inventory slots and Max Inventory Weight.
+
+**If you have access to Medium Shield(s)**, then you'll want to use the Combat Augment Mk. 1 which will allow you to use it. You'll be paying for a bit of extra survivability with a few less inventory slots but if the Medium Shield helps you survive a PvP fight it'll pay for itself.
+
+## Mk. 2
+
+**The Looting augment Mk 2.**:
+- Gives you 3 extra trinket slots (trinkets are items that can only be sold for money, or in some rare cases they can be used for upgrades).
+- Gives +4 normal inventory slots compared to the other Mk 2. augments.
+- TBD WEIGHT
+- Automatically throws ticks off of you (a useless ability).
+- Is compatible with Light Shield(s). 
+
+**The Combat Augment Mk 2.**:
+- Gives you an extra grenade slot which can only be used for grenades.
+- TBD WEIGHT
+- Grants you 1 HP regen every 5 seconds (a really weak ability).
+- Is compatible with all shields.
+
+**The Tactical Augment Mk 2.**
+- Gives you an extra "Raider Tool" slot (for now, I've only got Ziplines that can go in this slot but I think the Grappling Hook can also be put in there).
+- Gives +1 normal inventory slots compared to the other Mk 2. augments.
+- TBD WEIGHT
+- Automatically drops a small smoke grenade on you when the shield blows up (a really useful ability).
+- Is compatible with Light Shield(s) and Medium Shield(s).
+
+I've settled on using Tactical Augment Mk 2. with a Medium Shield for most raids due to the effectiveness of its ability but for loot-heavy raids (when I'm bringing a key especially) I might choose to bring a Looting Augment Mk 2. to maximize my profits due to many more inventory slots.
+
+## Mk. 3
+
+TBD
 
 # Builds
 
