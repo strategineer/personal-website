@@ -116,7 +116,7 @@ Cons:
 
 The two Rattler build provides you with more sustained DPS over longer periods of time than the other cheaper alternatives which tend to be more bursty.
 
-The two Rattler build is effective against hordes of light ARC, bigger ARC and other raiders (potentially even when outnumbered due to its great ARC armor penetration and sustained DPS allowing you to fire for longer periods of time at more targets than the alternatives.
+The two Rattler build is effective against hordes of light ARC, bigger ARC and other raiders (potentially even when outnumbered) due to its great ARC armor penetration and sustained DPS allowing you to fire for longer periods of time at more targets than the alternatives.
 
 You have to ask yourself whether you're willing to either pay the cost reducing your effectiveness at close range against raiders who might be able to take you out before you can even whip out your second Rattler.
 
@@ -128,6 +128,12 @@ Until you find some weapon blueprints (which seem to be a very rare loot drop), 
 Early testing with the Arpeggio assault rifle (which can be crafted from the Gunsmith II) is promising but more testing needs to be done to see if it's worth crafting.
 
 Early testing with the IL TORO shotgun (which can be purchased from the Gun Shop) is promising but more testing need to be done to see if it's worth buying.
+
+## Tier 1 Weapon Stats
+
+Source: from Discord user @theendofnether
+
+![](/img/arc_raiders/graphs/tier1_weapon_stats.png)
 
 # Builds
 
