@@ -173,7 +173,9 @@ In that case, your choice of Mk. 1 augment will depend on what level of shield y
 - Automatically drops a small smoke grenade on you when the shield blows up (a really useful ability).
 - Is compatible with Light Shield(s) and Medium Shield(s).
 
-I've settled on using Tactical Augment Mk 2. with a Medium Shield for most raids due to the effectiveness of its ability but for loot-heavy raids (when I'm bringing a key especially) I might choose to bring a Looting Augment Mk 2. to maximize my profits due to many more inventory slots.
+I've settled on using Tactical Augment Mk 2. with a Medium Shield for most raids due to the effectiveness of its ability. Use it for yourself and you'll see how effective the smoke is at preventing you being killed instantly; the smoke can provide you with just a few moments of relative safety to get back into cover and escape or if the enemy raider chooses to push into the smoke then you might be able to take them down.
+
+For loot-heavy raids (when I'm bringing a key especially) I might choose to bring a Looting Augment Mk 2. to maximize my profits due to many more inventory slots.
 
 ## Mk. 3
 
@@ -219,21 +221,31 @@ Although the Medium Shield only provides 2.5% more damage reduction than the Lig
 
 # Raid Modifiers
 
-Prospecting Probes
-: More probes landing during the raid. They reliably contain great mid-late loot to allow you to build better shields. If there's a probe out in the open, a smoke might be able to cover you while you loot.
+## Prospecting Probes
 
-Night Raid
-: Better loot but ratting is encouraged because looting makes sound but sitting in the dark doesn't. Also, raider flares (big red flares that shoot up into the sky) don't trigger when raiders die in buildings (where most ratting occurs) reducing the risk of a raider looting a dead raider from getting jumped by a 3rd raider.
+During these raids, more probes will land on the surface. Probes are tall cylindral ARC with a blue light at the top which contain ARC loot but especially ARC Circuitry which are used in the fabrication of Medium Shield(s).
 
-Launch Tower Loot (Spaceport only)
-: *WIP UNDER CONSTRUCTION*
+Bring smokes to cover you while you breach and loot these probes. Even the cheapest smoke can, if placed and timed right, prevent the probe from calling nearby ARC to attack you while you're breaching it.
+
+## Night Raid
+
+Better loot but ratting is encouraged because looting makes sound but sitting in the dark doesn't. Also, raider flares (big red flares that shoot up into the sky) don't trigger when raiders die in buildings (where most ratting occurs) reducing the risk that a raider looting a raider they've killed might get jumped by a 3rd raider.
+
+Night Raid is considered to be a map modifier for the purposes of Trials, so performing Trials challenges in Night Raids provides you with 2x the number of points than you would normally get. This 2x point modifier is a prerequesite for 3 star-ing most of these Trials IMO.
+
+At night, the white strobbing light at the top of Supply Beacons make them really visible, making Night Raids even more ideal than other map modifiers for calling in and getting to Supply Drops.
+
+## Launch Tower Loot (Spaceport only)
+
+*WIP UNDER CONSTRUCTION*
 
 
-Electromagnetic Storm
-: *WIP UNDER CONSTRUCTION*
+## Electromagnetic Storm
 
-Harvester
-: *WIP UNDER CONSTRUCTION*
+*WIP UNDER CONSTRUCTION*
+
+## Harvester
+*WIP UNDER CONSTRUCTION*
 
 
 # Randomizer
