@@ -156,6 +156,7 @@ In that case, your choice of Mk. 1 augment will depend on what level of shield y
 **The Looting augment Mk 2.**:
 - Gives you 3 extra trinket slots (trinkets are items that can only be sold for money, or in some rare cases they can be used for upgrades).
 - Gives +4 normal inventory slots compared to the other Mk 2. augments.
+- Gives 2 safe pocket slots instead of 1.
 - TBD WEIGHT
 - Automatically throws ticks off of you (a useless ability).
 - Is compatible with Light Shield(s). 
