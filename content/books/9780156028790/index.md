@@ -2,8 +2,8 @@
 authors:
 - José Saramago
 books/tags:
-- owned-but-unread
-date: 1800-02-15
+- currently-reading
+date: 2025-11-09
 params:
   isbn13: '9780156028790'
   year: '2003'
