@@ -189,6 +189,15 @@ The Surveyor is a large ball-shaped grounded ARC that rolls around continuously 
 Weakpoints:
 - Antenna. Revealed when it's stopped.
 
+## Snitch
+
+The Snitch is a flying ARC that floats high in the sky and calls in ARC reinforcements from space if it detects any raiders in its vicinity.
+
+- Not to be confused with the Stitch (the weapon).
+
+Weakpoints:
+- 3x Side Flaps. Take one out then hit the vulnerable core to out a Snitch.
+
 ## Wasp
 
 The Wasp is a flying ARC with four unarmored thrusters.
@@ -244,16 +253,6 @@ The Leaper is a grounded ARC that walks around on four legs and leaps at any rai
 Weakpoints:
 - Armored leg joints.
 - Armored core.
-
-
-## Stitch
-
-The Stitch is a flying ARC that floats high in the sky and calls in ARC reinforcements from space if it detects any raiders in its vicinity.
-
-- Not to be confused with the Stitch (the weapon).
-
-Weakpoints:
-- 3x Side Flaps. Take one out then hit the vulnerable core to out a Snitch.
 
 # Augments
 
