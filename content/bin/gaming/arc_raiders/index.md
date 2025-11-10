@@ -76,6 +76,9 @@ Shoot your Friends (in the elevator) for Profit
 A Farro a Day, Takes Their (light) Shield Away
 : Landing a single Farro shot on a raider (which deals 40 damage before damage reduction) will blow up their shield immediately (playing a noticeable visual and sound effect) if they're equipped with a Light Shield (which can take up to 40 damage before blowing up), otherwise, the shield won't blow up and then you'll know that the raider is equipped with a heavier shield. Either way, you'll now approximately know how many more bullets you'll need to dump into them before they go down. Technically you can look at a raider's back to see which shield they're equipped with but that's not feasible in most circumstances.
 
+(In)doors, Weapons Out
+: Fireballs and Pops ARC can be found in surprising numbers inside buildings. These ARC will hunt you down and they can travel through zipline shafts, so always keep a weapon out, keep your ears and eyes open and be ready to fire on any ARC (or any raiders that) run up to you.
+
 
 # Tier Lists
 
@@ -139,8 +142,118 @@ Source: from Discord user @theendofnether
 
 - Better bandages are essential, especially in PvP. Make as many as you can and focus on the Medical Bench upgrades and having crafting materials available to make them.
 - Jolt Mine SSS for solo play.
+- Wolfpack SSS. Rare but can take out ARC quickly allowing you to loot them for their valuable loot. 
 - Adrenaline Shot SS. Getting to places first to loot them safely is key. After a certain number of minutes have elapsed the likelihood of someone hiding in a corner of a building increases astronomically. It's best to avoid that. The earlier you exit the less likely that your exit will be contested.
 - Lure Grenade S. Essential for getting ARC away from you so that you can remain in stealth, for luring ARC toward other raiders to discourage them from facing you (especially in squad play), also using a big ARC to take out another big ARC with the Lure Grenade can be fun (TBD).
+
+# ARC
+
+Crouching and moving slowly does wonders for avoiding ARC. Not firing loud weapons near them also helps a bunch.
+
+If you can't avoid doing both of these things near ARC, then be prepared for a fight with them and for any nearby ARC to show up.
+
+ARC are universally weak to the electrical stuns provided by a few items (Showstopper(s), Hornet Driver(s), Jolt Mine(s)). Any ARC hit by a stun will be rendered immobile and unable to attack for 10 seconds allowing you to escape or to target their weakpoints more easily (or if you're like me, land your grenades on them).
+
+## Pop
+
+The Pop is a small ball-shaped grounded ARC that rolls around.
+
+- Unarmored.
+- A smaller target than the Fireball.
+- Often found in buildings.
+
+Weakpoints:
+- None. But its unarmored.
+
+## Fireball
+
+The Fireball is a medium-sized ball-shaped grounded ARC that rolls around.
+
+- Armored.
+- Attacks with high damage flames at close range.
+- Do not be caught offguard by this a Fireball. It'll hurt.
+- Often found in buildings.
+
+Weakpoints:
+- Inner Core. Revealed (usually) when it sees a raider. It'll stop moving for a second before starting to spew flames.
+
+## Surveyor
+
+The Surveyor is a large ball-shaped grounded ARC that rolls around continuously and periodically stops, revealing its weak antenna, beaming a cylindrical-shaped blue light into the sky.
+
+- Armored.
+- No attacks, only flees.
+- Found outside.
+
+
+Weakpoints:
+- Antenna. Revealed when it's stopped.
+
+## Wasp
+
+The Wasp is a flying ARC with four unarmored thrusters.
+
+- Fires bursts of shots at close to medium range.
+
+Weakpoints:
+- Unarmored thrusters. Take two out and the Wasp will crash to the ground.
+
+
+## Hornet
+
+The Hornet is a flying ARC with two armored front thrusters and two unarmored back thrusters.
+
+- Fires single taser-like shots at close to medium range. A "charging up" sound can be heard before it fires.
+
+Weakpoints:
+- Unarmored back thrusters. Take two thrusters out and the Hornet will crash to the ground.
+- Armored front thrusters. Less of a weakpoint than the unarmored back thrusters but sometimes they'll have to do.
+
+## Rocketteer
+
+The Rocketteer is a flying ARC that rains rockets down on any raiders it detects.
+
+- The rockets are quick and are very hard to avoid.
+- Once a Rocketteer started shooting rockets the ensuing noise is likely to bring in any nearby ARC to investigate. 
+- Can be taken out by a single Wolfpack grenade.
+
+Weakpoints:
+- Armored thrusters. Take two out and the Rocketteer will crash to the ground.
+
+
+## Bastion
+
+TBD confirm that I'm not confusing two different ARC.
+
+The Bastion is a grounded ARC that is accompanied by two flying Spotter ARC at a time (they look like miniature Snitch(es)) that it uses to acquire targets. The Bastion fires homing missiles at any targets its Spotters acquire for it.
+
+- Bastion fire makes a ton of noise which bring in any curious raiders.
+- Get into cover ASAP to avoid getting hit by Bastion fire.
+
+Weakpoints:
+- None. Although taking out its Spotters from cover will prevent it from firing at you.
+
+## Leaper
+
+The Leaper is a grounded ARC that walks around on four legs and leaps at any raiders it sees.
+
+- Avoid fighting Leapers out in the open. Even with a few Adrenaline Shot(s), you won't be able to outrun one unless you can get into a building ASAP.
+- If you need to fight a Leaper then do so from inside of buildings.
+- Can *almost* be taken out by a single Wolfpack grenade. You'll need to take a few more shots at it to take it out.
+
+Weakpoints:
+- Armored leg joints.
+- Armored core.
+
+
+## Stitch
+
+The Stitch is a flying ARC that floats high in the sky and calls in ARC reinforcements from space if it detects any raiders in its vicinity.
+
+- Not to be confused with the Stitch (the weapon).
+
+Weakpoints:
+- 3x Side Flaps. Take one out then hit the vulnerable core to out a Snitch.
 
 # Augments
 
