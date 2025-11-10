@@ -135,6 +135,13 @@ Source: from Discord user @theendofnether
 
 ![](/img/arc_raiders/graphs/tier1_weapon_stats.png)
 
+## Item Tier List
+
+- Better bandages are essential, especially in PvP. Make as many as you can and focus on the Medical Bench upgrades and having crafting materials available to make them.
+- Jolt Mine SSS for solo play.
+- Adrenaline Shot SS. Getting to places first to loot them safely is key. After a certain number of minutes have elapsed the likelihood of someone hiding in a corner of a building increases astronomically. It's best to avoid that. The earlier you exit the less likely that your exit will be contested.
+- Lure Grenade S. Essential for getting ARC away from you so that you can remain in stealth, for luring ARC toward other raiders to discourage them from facing you (especially in squad play), also using a big ARC to take out another big ARC with the Lure Grenade can be fun (TBD).
+
 # Augments
 
 The kind of augment you choose to use will depend on which Mk. of augments you have access to 
