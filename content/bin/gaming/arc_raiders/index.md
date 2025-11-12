@@ -230,17 +230,28 @@ Weakpoints:
 - Armored thrusters. Take two out and the Rocketteer will crash to the ground.
 
 
-## Bastion
+## Bombadier
 
 TBD confirm that I'm not confusing two different ARC.
 
-The Bastion is a grounded ARC that is accompanied by two flying Spotter ARC at a time (they look like miniature Snitch(es)) that it uses to acquire targets. The Bastion fires homing missiles at any targets its Spotters acquire for it.
+The Bombadier is a grounded ARC that is accompanied by two flying Spotter ARC at a time (they look like miniature Snitch(es)) that it uses to acquire targets. The Bombadier fires homing missiles at any targets its Spotters acquire for it.
 
-- Bastion fire makes a ton of noise which bring in any curious raiders.
-- Get into cover ASAP to avoid getting hit by Bastion fire.
+- Bombadier fire makes a ton of noise which bring in any curious raiders.
+- Get into cover ASAP to avoid getting hit by Bombadier fire.
 
 Weakpoints:
 - None. Although taking out its Spotters from cover will prevent it from firing at you.
+
+## Bastion
+
+WIP
+
+The Bastion is a grounded ARC that lays down heavy fire at anyone it sees.
+
+- The Bastion is loud!
+
+Weakpoints:
+- None?
 
 ## Leaper
 
