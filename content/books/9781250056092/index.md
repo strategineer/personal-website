@@ -3,13 +3,12 @@ authors:
 - Nicola Griffith
 books/tags:
 - historical fiction
-- currently-reading
-date: 2025-10-13
+date: 2025-11-12
 params:
   isbn13: '9781250056092'
   year: '2014'
 slug: '9781250056092'
-star_rating: null
+star_rating: 5
 title: Hild
 ---
 
