@@ -3,6 +3,7 @@ authors:
 - Voltaire
 - Frederic Deloffre
 books/tags:
+- 5star
 - philosophy
 date: 2025-09-25
 params:
@@ -12,6 +13,5 @@ slug: '9782070466634'
 star_rating: 5
 title: Candide ou l'Optimisme
 ---
-
 
 <!--more-->

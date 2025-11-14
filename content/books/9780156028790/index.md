@@ -1,7 +1,8 @@
 ---
 authors:
 - José Saramago
-books/tags: []
+books/tags:
+- 5star
 date: 2025-11-13
 params:
   isbn13: '9780156028790'

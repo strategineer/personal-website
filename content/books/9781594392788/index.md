@@ -13,5 +13,4 @@ star_rating: null
 title: 'Simplified tai chi chuan: 24 postures with applications and standard 48 postures'
 ---
 
-
 <!--more-->

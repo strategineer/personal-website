@@ -2,6 +2,7 @@
 authors:
 - Xiran Jay Zhao
 books/tags:
+- 5star
 - science fiction
 date: 2025-10-05
 params:

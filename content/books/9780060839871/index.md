@@ -2,10 +2,11 @@
 authors:
 - Robert M. Pirsig
 books/tags:
+- 1star
 - did-not-finish
 - philosophy
-- unowned
 - psyop
+- unowned
 date: 2025-10-08
 params:
   isbn13: '9780060839871'
@@ -14,7 +15,6 @@ slug: '9780060839871'
 star_rating: 1
 title: Zen and the Art of Motorcycle Maintenance
 ---
-
 
 <!--more-->
 
@@ -35,4 +35,3 @@ Blah blah motorcycles blah blah blah.
 ---
 
 The concentration of horrible politics expressed in this book defies comprehension. Tearing it apart in the margins for the first 100 pages or so made the reading feel less like the torture that it was. But in the end, that was just about how much I could stomach.
-

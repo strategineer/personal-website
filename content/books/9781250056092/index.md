@@ -2,6 +2,7 @@
 authors:
 - Nicola Griffith
 books/tags:
+- 5star
 - historical fiction
 date: 2025-11-12
 params:

@@ -2,6 +2,7 @@
 authors:
 - James Rachels
 books/tags:
+- 5star
 - philosophy
 date: 2025-09-21
 params:
@@ -11,6 +12,5 @@ slug: '9780072476903'
 star_rating: 5
 title: The elements of moral philosophy
 ---
-
 
 <!--more-->

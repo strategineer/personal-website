@@ -1,7 +1,8 @@
 ---
 authors:
 - Thomas Pynchon
-books/tags: []
+books/tags:
+- 4star
 date: 2025-11-04
 params:
   isbn13: '9780060913076'
@@ -10,7 +11,6 @@ slug: '9780060913076'
 star_rating: 4
 title: The Crying of Lot 49
 ---
-
 
 <!--more-->
 

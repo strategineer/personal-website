@@ -2,6 +2,7 @@
 authors:
 - Micaiah Johnson
 books/tags:
+- 3star
 - science fiction
 date: 2025-10-03
 params:

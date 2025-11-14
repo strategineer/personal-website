@@ -2,6 +2,7 @@
 authors:
 - Pramoedya Ananta Toer
 books/tags:
+- 5star
 - historical fiction
 date: 2025-10-12
 params:

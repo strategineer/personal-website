@@ -2,7 +2,8 @@
 authors:
 - Jorge Luis Borges
 - Andrew Hurley
-books/tags: []
+books/tags:
+- 4star
 date: 2025-09-26
 params:
   isbn13: '9780140286809'

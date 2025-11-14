@@ -2,8 +2,9 @@
 authors:
 - E. Paul Zehr
 books/tags:
-- non-fiction
+- 5star
 - comics
+- non-fiction
 date: 2025-10-13
 params:
   isbn13: '9780801890635'

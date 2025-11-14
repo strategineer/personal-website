@@ -3,6 +3,7 @@ authors:
 - Rupa Marya
 - Raj Patel
 books/tags:
+- 5star
 - non-fiction
 date: 2025-09-19
 params:

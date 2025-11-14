@@ -2,7 +2,7 @@
 authors:
 - Mordecai Richler
 books/tags:
-- 4star
+- 3star
 date: 2025-07-11
 params:
   isbn13: '9780771099748'

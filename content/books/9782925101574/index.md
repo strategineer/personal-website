@@ -2,6 +2,7 @@
 authors:
 - Catherine Fournier
 books/tags:
+- 4star
 - non-fiction
 date: 2025-11-09
 params:
