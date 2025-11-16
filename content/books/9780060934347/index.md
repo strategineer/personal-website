@@ -4,7 +4,7 @@ authors:
 - Edith Grossman
 books/tags:
 - currently-reading
-date: 2025-07-11
+date: 2025-11-15
 params:
   isbn13: '9780060934347'
   year: '2005'
