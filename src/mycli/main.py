@@ -12,6 +12,7 @@ import urllib
 import re
 from collections import Counter
 
+from pypdf import PdfWriter
 from PIL import Image
 from mergedeep import merge
 import click
@@ -290,6 +291,21 @@ def sorting_fn(a):
     return a
 
 @click.command()
+def update_cv():
+    base = 'static/cv/cv'
+    en_cv = base + '_en.pdf'
+    fr_cv = base + '_fr.pdf'
+
+    with PdfWriter() as m:
+        for pdf in [en_cv, fr_cv]:
+            m.append(pdf)
+        m.write(base + "_en_fr.pdf")
+    with PdfWriter() as m:
+        for pdf in [fr_cv, en_cv]:
+            m.append(pdf)
+        m.write(base + "_fr_en.pdf")
+
+@click.command()
 def sort_tags():
     """uhhh this is messy, it's meant to be a sort of validation/fixup step"""
     STAR_RATING_TAGS = {
@@ -557,6 +573,7 @@ cli.add_command(rename_reaction_gif)
 cli.add_command(stats)
 cli.add_command(book_rating_shifter)
 cli.add_command(delete_blog_thumbnails)
+cli.add_command(update_cv)
 
 if __name__ == "__main__":
     cli()

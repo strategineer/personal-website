@@ -18,6 +18,7 @@ pillow = "^10.3.0"
 csv-diff = "^1.1"
 lxml = "^4.9.3"
 black = "^24.4.2"
+pypdf = "^6.3.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.1.1"

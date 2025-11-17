@@ -6,74 +6,69 @@
     "Python": "/projects/tags/python",
     "Unity": "/projects/tags/unity"
   },
-  "en": {
-    "name": "Bill Tyros",
-    "location": "Montreal, Canada",
-    "summary": "Software Engineer with 10+ years of experience in the video game, financial, and hospitality industries.",
-    "main_section": [
-      {
-        "title": "Work Experience",
-        "list": [
-          {
-            "hint": "2022-2025",
-            "title": "Senior Software Engineer @ Sonder",
-            "list": [
-              "Developed a system in Ruby to migrate 300k+ bookings over to external systems.",
-              "Developed availability health metrics that contributed to a $10M year-over-year profit increase.",
-              "Developed a distribution system in Ruby to sync 50k+ listings on Airbnb, Booking, Expedia and more.",
-              "Refactored a 300k+ LOC legacy Ruby on Rails codebase, upgrading to Ruby 3.3 and Rails 7.1 for improved performance and maintainability.",
-              "Developed a pricing system in Python, optimizing rates based on supply/demand."
-            ]
-          },
-          {
-            "hint": "2019-2022",
-            "title": "Software Engineer @ Morgan Stanley",
-            "list": [
-              "Developed a system in Python to leverage data aggregated from internal and third-party sources to encourage 10k+ software developers to use best practices in their work.",
-              "Developed a JIRA self-service web application in TypeScript/Angular, empowering workers to admistrate their own JIRA projects and thereby lighten the weekly workload of dozens of JIRA admins."
-            ]
-          },
-          {
-            "hint": "2017-2019",
-            "title": "Programmer @ Framestore VR",
-            "list": [
-              "Engineered an art asset pipeline for Unreal Engine 4, creating C++ and Python plugins to automate workflows and improve production efficiency."
-            ]
-          },
-          {
-            "hint": "2016-2017",
-            "title": "Programmer @ Borealys Games",
-            "list": [
-              "Developed core gameplay systems and UI in Unity (C#) for Mages of Mystralia ensuring a polished player experience and robust game architecture."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Skills / Technologies",
-        "list": [
-          {
-            "list": [
-              "Languages: Python, Ruby, C#, Go, TypeScript, JavaScript, C++",
-              "CI/CD: GitHub Actions, Jenkins, CircleCI, Buddy",
-              "Monitoring: Grafana, Datadog"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Education",
-        "list": [
-          {
-            "hint": "2016",
-            "title": "Interactive Real-Time Systems Development @ University of Sherbrooke"
-          },
-          {
-            "hint": "2015",
-            "title": "B.Sc. Software Engineering (Honours) @ McGill University"
-          }
-        ]
-      }
-    ]
-  }
+  "name": "Bill Tyros",
+  "location": "Montreal, Canada",
+  "summary": "Software Engineer with 10+ years of experience in the video game, financial, and hospitality industries.",
+  "main_section": [
+    {
+      "title": "Work Experience",
+      "list": [
+        {
+          "hint": "2022-2025",
+          "title": "Senior Software Engineer @ Sonder",
+          "list": [
+            "Developed a system in Ruby to migrate 300k+ bookings over to external systems.",
+            "Developed availability health metrics that contributed to a $10M year-over-year profit increase.",
+            "Developed a distribution system in Ruby to sync 50k+ listings on Airbnb, Booking, Expedia and more.",
+            "Refactored a 300k+ LOC legacy Ruby on Rails codebase, upgrading to Ruby 3.3 and Rails 7.1 for improved performance and maintainability.",
+            "Developed a pricing system in Python, optimizing rates based on supply/demand."
+          ]
+        },
+        {
+          "hint": "2019-2022",
+          "title": "Software Engineer @ Morgan Stanley",
+          "list": [
+            "Developed a system in Python to leverage data aggregated from internal and third-party sources to encourage 10k+ software developers to use best practices in their work."
+          ]
+        },
+        {
+          "hint": "2017-2019",
+          "title": "Programmer @ Framestore VR",
+          "list": [
+            "Developed an art asset pipeline in Python for Unreal Engine 4, creating C++ and Python plugins to automate workflows and improve production efficiency."
+          ]
+        },
+        {
+          "hint": "2016-2017",
+          "title": "Programmer @ Borealys Games",
+          "list": ["Developed core gameplay systems and UI in Unity in C#."]
+        }
+      ]
+    },
+    {
+      "title": "Skills / Technologies",
+      "list": [
+        {
+          "list": [
+            "Languages: Python, C#, TypeScript, JavaScript, Ruby, Go, C++.",
+            "CI/CD: GitHub Actions, Jenkins, CircleCI, Buddy.",
+            "Monitoring: Grafana, Datadog."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "list": [
+        {
+          "hint": "2016",
+          "title": "Interactive Real-Time Systems Development @ University of Sherbrooke"
+        },
+        {
+          "hint": "2015",
+          "title": "B.Sc. Software Engineering (Honours) @ McGill University"
+        }
+      ]
+    }
+  ]
 }

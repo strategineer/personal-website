@@ -1,0 +1,76 @@
+{
+  "tags": {
+    "C++": "/projects/tags/cpp",
+    "UE4": "/projects/tags/unreal-engine",
+    "C#": "/projects/tags/c",
+    "Python": "/projects/tags/python",
+    "Unity": "/projects/tags/unity"
+  },
+  "name": "Bill Tyros",
+  "location": "Montréal, Canada",
+  "summary": "Ingénieur logiciel avec 10 ans d'expérience dans les secteurs des jeux vidéo, de la finance et de l'hôtellerie.",
+  "main_section": [
+    {
+      "title": "Expérience professionnelle",
+      "list": [
+        {
+          "hint": "2022-2025",
+          "title": "Ingénieur logiciel senior @ Sonder",
+          "list": [
+            "Développement d'un projet en Ruby pour migrer plus de 300k réservations vers des systèmes externes.",
+            "Développement de mesures de santé de la disponibilité qui ont contribué à une augmentation des bénéfices de 10 millions de dollars d'une année sur l'autre.",
+            "Développement d'un système de distribution en Ruby pour synchroniser plus de 50k annonces sur Airbnb, Booking, Expedia, etc.",
+            "Refonte d'un système en Ruby on Rails héritée de plus de 300k lignes de code, mise à niveau vers Ruby 3.3 et Rails 7.1 pour une performance et une maintenabilité améliorées.",
+            "Développement d'un système de tarification en Python, optimisant les tarifs en fonction de l'offre et de la demande."
+          ]
+        },
+        {
+          "hint": "2019-2022",
+          "title": "Ingénieur logiciel @ Morgan Stanley",
+          "list": [
+            "Développement d'un système en Python pour exploiter les données agrégées à partir de sources internes et tierces afin d'encourager plus de 10k développeurs à utiliser les meilleures pratiques."
+          ]
+        },
+        {
+          "hint": "2017-2019",
+          "title": "Programmeur @ Framestore VR",
+          "list": [
+            "Conception d'un pipeline d'actifs artistiques pour Unreal Engine 4, création de plugins C++ et Python pour automatiser les flux de travail et améliorer l'efficacité de la production."
+          ]
+        },
+        {
+          "hint": "2016-2017",
+          "title": "Programmeur @ Borealys Games",
+          "list": [
+            "Développement de systèmes de jeu de base et d'interface utilisateur dans Unity en C#."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Compétences / Technologies",
+      "list": [
+        {
+          "list": [
+            "Langages : Python, C#, TypeScript, JavaScript, Ruby, Go, C++.",
+            "CI/CD : GitHub Actions, Jenkins, CircleCI, Buddy.",
+            "Surveillance : Grafana, Datadog."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Formation",
+      "list": [
+        {
+          "hint": "2016",
+          "title": "Développement de systèmes interactifs en temps réel @ Université de Sherbrooke"
+        },
+        {
+          "hint": "2015",
+          "title": "B.Sc. Ingénierie du logiciel (avec distinction) @ Université McGill"
+        }
+      ]
+    }
+  ]
+}

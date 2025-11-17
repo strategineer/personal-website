@@ -15,7 +15,7 @@ cascade:
 
 Welcome!
 
-My name is Bill Tyros, though you might know me online as _strategineer_. I'm a software engineer by trade, with a lifelong love for sharing my thoughts through my writing.
+My name is Bill Tyros, though you might know me online as _strategineer_. I'm a software engineer by trade ([CV in English](/cv/), [CV in French](/cv_fr/)), with a lifelong love for sharing my thoughts through my writing.
 
 Here on my website, I usually post about my favorite hobbies: video gaming, reading, and—most recently—tabletop roleplaying.
 
