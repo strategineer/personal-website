@@ -9,7 +9,7 @@ params:
   isbn13: '9781250056092'
   year: '2014'
 slug: '9781250056092'
-star_rating: 5
+star_rating: 4
 title: Hild
 ---
 
