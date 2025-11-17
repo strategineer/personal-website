@@ -3,6 +3,7 @@ authors:
 - David Graeber
 books/tags:
 - 5star
+- non-fiction
 - currently-reading
 date: 2025-11-16
 params:
