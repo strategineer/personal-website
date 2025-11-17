@@ -9,7 +9,7 @@ params:
   isbn13: '9782925101574'
   year: '2025'
 slug: '9782925101574'
-star_rating: 4
+star_rating: 3
 title: La Politique
 ---
 
