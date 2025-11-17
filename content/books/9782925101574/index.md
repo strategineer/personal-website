@@ -2,8 +2,9 @@
 authors:
 - Catherine Fournier
 books/tags:
-- 4star
+- 3star
 - non-fiction
+- unowned
 date: 2025-11-09
 params:
   isbn13: '9782925101574'
