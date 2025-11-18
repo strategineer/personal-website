@@ -23,6 +23,8 @@ A list of games, in randomized order, released in 2025 that I played and enjoyed
 - Blue Prince
 - Eternal Strands
 - Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island
+- The Roottrees are Dead
+- Q-Up
 
 # Honourable Mentions
 

@@ -12,5 +12,4 @@ star_rating: null
 title: No One Is Talking About This
 ---
 
-
 <!--more-->

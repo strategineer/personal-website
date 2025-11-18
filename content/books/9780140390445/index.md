@@ -15,5 +15,4 @@ star_rating: null
 title: Walden and Civil Disobedience
 ---
 
-
 <!--more-->
