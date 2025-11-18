@@ -14,7 +14,7 @@
       "title": "Work Experience",
       "list": [
         {
-          "hint": "2022-2025",
+          "hint": "2022-05/2025-07",
           "title": "Senior Software Engineer @ Sonder",
           "list": [
             "Developed a system in Ruby to migrate 300k+ bookings over to external systems.",
@@ -25,21 +25,21 @@
           ]
         },
         {
-          "hint": "2019-2022",
+          "hint": "2019-08/2022-04",
           "title": "Software Engineer @ Morgan Stanley",
           "list": [
             "Developed a system in Python to leverage data aggregated from internal and third-party sources to encourage 10k+ software developers to use best practices in their work."
           ]
         },
         {
-          "hint": "2017-2019",
+          "hint": "2017-12/2019-02",
           "title": "Programmer @ Framestore VR",
           "list": [
             "Developed an art asset pipeline in Python for Unreal Engine 4, creating C++ and Python plugins to automate workflows and improve production efficiency."
           ]
         },
         {
-          "hint": "2016-2017",
+          "hint": "2016-05/2017-12",
           "title": "Programmer @ Borealys Games",
           "list": ["Developed core gameplay systems and UI in Unity in C#."]
         }

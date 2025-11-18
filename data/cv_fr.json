@@ -14,7 +14,7 @@
       "title": "Expérience professionnelle",
       "list": [
         {
-          "hint": "2022-2025",
+          "hint": "2022-05/2025-07",
           "title": "Ingénieur logiciel senior @ Sonder",
           "list": [
             "Développement d'un projet en Ruby pour migrer plus de 300k réservations vers des systèmes externes.",
@@ -25,21 +25,21 @@
           ]
         },
         {
-          "hint": "2019-2022",
+          "hint": "2019-08/2022-04",
           "title": "Ingénieur logiciel @ Morgan Stanley",
           "list": [
             "Développement d'un système en Python pour exploiter les données agrégées à partir de sources internes et tierces afin d'encourager plus de 10k développeurs à utiliser les meilleures pratiques."
           ]
         },
         {
-          "hint": "2017-2019",
+          "hint": "2017-12/2019-02",
           "title": "Programmeur @ Framestore VR",
           "list": [
             "Conception d'un pipeline d'actifs artistiques pour Unreal Engine 4, création de plugins C++ et Python pour automatiser les flux de travail et améliorer l'efficacité de la production."
           ]
         },
         {
-          "hint": "2016-2017",
+          "hint": "2016-05/2017-12",
           "title": "Programmeur @ Borealys Games",
           "list": [
             "Développement de systèmes de jeu de base et d'interface utilisateur dans Unity en C#."
