@@ -2,7 +2,7 @@
 authors:
 - Vera Brittain
 books/tags:
-- owned-but-unread
+- unowned
 date: 1800-01-22
 params:
   isbn13: '9780140188448'
