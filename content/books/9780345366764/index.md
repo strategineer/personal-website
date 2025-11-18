@@ -2,7 +2,7 @@
 authors:
 - John Irving
 books/tags:
-- owned-but-unread
+- unowned
 date: 1800-03-11
 params:
   isbn13: '9780345366764'
