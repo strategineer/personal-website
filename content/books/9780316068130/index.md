@@ -2,7 +2,7 @@
 authors:
 - Brent Weeks
 books/tags:
-- owned-but-unread
+- unowned
 date: 1800-02-27
 params:
   isbn13: '9780316068130'
