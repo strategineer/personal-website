@@ -2,7 +2,7 @@
 authors:
 - Terry Brooks
 books/tags:
-- owned-but-unread
+- unowned
 date: 1800-01-13
 params:
   isbn13: '9780345363008'
