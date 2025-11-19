@@ -2,7 +2,7 @@
 authors:
 - David Eddings
 books/tags:
-- owned-but-unread
+- unowned
 date: 1800-01-03
 params:
   isbn13: '9780345356918'
