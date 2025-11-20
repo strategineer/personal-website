@@ -3,8 +3,8 @@ authors:
 - Anton Hur
 books/tags:
 - science fiction
-- owned-but-unread
-date: 2025-11-08
+- currently-reading
+date: 2025-11-19
 params:
   isbn13: '9780063415331'
   year: '2024'
