@@ -3,9 +3,8 @@ authors:
 - David Graeber
 books/tags:
 - 5star
-- currently-reading
 - non-fiction
-date: 2025-11-16
+date: 2025-11-19
 params:
   isbn13: '9781501143335'
   year: '2019'
