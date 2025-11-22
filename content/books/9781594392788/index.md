@@ -2,9 +2,8 @@
 authors:
 - Shou-Yu Liang
 books/tags:
-- currently-reading
 - non-fiction
-date: 2025-10-30
+date: 2025-11-22
 params:
   isbn13: '9781594392788'
   year: '2014'
