@@ -2,8 +2,9 @@
 authors:
 - Sven Lindqvist
 books/tags:
-- owned-but-unread
-date: 2025-09-01
+- currently-reading
+- non-fiction
+date: 2025-11-24
 params:
   isbn13: '9781914420955'
   year: '2023'
