@@ -2,7 +2,7 @@
 authors:
 - Sven Lindqvist
 books/tags:
-- currently-reading
+- did-not-finish
 - non-fiction
 date: 2025-11-24
 params:
