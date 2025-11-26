@@ -2,8 +2,9 @@
 authors:
 - Derek Walcott
 books/tags:
-- owned-but-unread
-date: 2025-11-16
+- currently-reading
+- myth
+date: 2025-11-26
 params:
   isbn13: '9780571144594'
   year: '1990'
