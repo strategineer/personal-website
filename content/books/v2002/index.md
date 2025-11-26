@@ -2,7 +2,7 @@
 authors:
 - MAGES
 books/tags:
-- currently-reading
+- did-not-finish
 - visual novel
 date: 2025-08-24
 params:
