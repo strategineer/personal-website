@@ -21,7 +21,7 @@ Overdrive
 
 # Replay Analysis / Tips
 
-## 2025-12-02 - 2v2 vs. AI with Louis
+## 2025-12-01 - 2v2 vs. AI with Louis
 
 Replay: https://zero-k.info/Battles/Detail/2312277
 
