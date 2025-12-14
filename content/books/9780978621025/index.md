@@ -2,8 +2,9 @@
 authors:
 - R. A. Lafferty
 books/tags:
-- owned-but-unread
-date: 2025-05-11
+- science fiction
+- did-not-finish
+date: 2025-12-14
 params:
   isbn13: '9780978621025'
   year: '2018'
@@ -13,3 +14,5 @@ title: The Reefs of Earth
 ---
 
 <!--more-->
+
+A writer who's work is interesting, profound, visionary at its best but difficult, boring and a little too weird at its worst.
