@@ -14,20 +14,19 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 
 
 - 1000 x Resist
-- 2016-ish physics lego game
 - Ace Combat 7
 - Against the Storm
-- Age of Wonders planetfall/4
+- Age of Wonders Planetfall
+- Age of Wonders 4
 - Alan Wake
 - Alpha Protocol
-- Amnesia the Bunker
-- ape escape
-- Arc Raiders
+- Amnesia: The Bunker
+- Ape Escape
 - ARC Raiders
 - Artifact
 - Ass creed 1 + 2
 - Baby Steps
-- Banjo Kazooie Nuts and Bolts'
+- Banjo Kazooie Nuts and Bolts
 - Batman Arkham Asylum
 - Battlefield 1942
 - BATTLETECH
@@ -36,26 +35,28 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Bioshock 1+2
 - Black
 - Blast Corps
-- Blood bowl 2
+- Blood Bowl 2
+- Bonkies
 - Brothers a Tale of Two Sons
 - Burnout Paradise
+- Call of Duty Modern Warfare
 - Caves of Qud
-- Chaos head
 - Chaos Reborn
+- CHAOS;HEAD
 - Chronicles of Riddick
-- CoD Modern Warfare
+- Clair Obscur: Expedition 33
 - Cogmind
 - Condemned 2
 - Conker's Bad Fur Day
 - Crash Bandicoot
 - Crusader Kings 2
-- Ctrl Alt ego
-- culdcept saga
+- Ctrl Alt Ego
+- Culdcept Saga
 - Cyber Hook
 - Dark Cloud 2
-- Ddlc
 - DDR Universe 2
-- Dead rising 1/2
+- Dead Rising
+- Dead Rising 2
 - Dead Space
 - Deadly Premonition
 - Delta Force
@@ -67,10 +68,12 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Dirt 2
 - Disco Elysium
 - Disgaea 2: Cursed Memories
-- Dishonored 1/2
+- Dishonored 
+- Dishonored 2
+- Doki Doki Literature Club
 - Dominions 5
+- Doom (2016)
 - Doom 2
-- Doom 2016
 - Dragon Age
 - Duskers
 - Dwarf Fortress
@@ -78,48 +81,46 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Earth Defense Force 4.1 The Shadow of New Despair
 - Earthion
 - Everyday Genius: SquareLogic
-- Expedition 33
 - Factorio
 - Fallout 2
-- Fallout New Vegas
+- Fallout: New Vegas
 - FEAR
 - Fear & Hunger 1 + 2
 - Final Fantasy 10
 - Final Fantasy 13
-- fire emblem (which one?)
-- freedom fighters ps2
+- Fire Emblem: The Blazing Blade
 - Frogger
-- Frozen synapse 2 / Frozen Cortex
-- Gears of War 1-2
+- Frozen Cortex
+- Frozen Synapse 2
+- Gears of War
 - Gears Tactics
-- Geometry Wars 1 + 2
+- Geometry Wars
 - Ghost Recon: Wildlands
 - GLTron
 - God Hand
 - GoldenEye 007
-- Gorilla tag
-- gran turismo
-- GTA 3
-- guilty gear strive / street fighter 2
+- Gorilla Tag
+- Grand Theft Auto 3
+- Guilty Gear Strive
 - Guitar Hero World Tour
 - Half Life 1 + 2
 - Half life Alyx
-- Halo 1/2
-- Hardspace ship breaker
-- hardspace shipbreaker
+- Halo 2
+- Halo Combat Evolved
+- Hardspace Shipbreaker
 - Heavenly Bodies
 - Heavy Rain
 - Hitman World of Assassination
 - Hot Lava
-- hot shots golf fore
-- Hunt showdown
-- Hyper demon
+- Hot Shots Golf Fore
+- Hunt Showdown
+- Hyper Demon
 - Ico
-- Infested planet
+- Infested Planet
 - Inscryption
 - Inside
 - Into the Breach
-- Invisible inc.
+- Invisible Inc.
 - It Takes Two
 - Jade Empire
 - Jagged Alliance 3
@@ -132,9 +133,9 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Killer7
 - Klonoa - Door to Phantomile
 - La Mulana
-- Left 4 dead 2
-- Legend of Grimrock 1 + 2
-- Lego party
+- Left 4 Dead 2
+- Legend of Grimrock
+- Legend of Grimrock 2
 - Lemmings
 - Lethal League
 - Lorelei and the Laser Eyes
@@ -144,118 +145,123 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Max Payne 3
 - Mechabellum
 - Mercenaries 2
-- Metal Gear Solid 1 + 2
-- MGS 2
+- Metal Gear Solid
+- Metal Gear Solid 2
 - Microsoft 3d Pinball: Space Cadet
-- minecraft
+- Minecraft
 - Mirror's Edge
-- Mirrors edge
 - Mister Mosquito
-- monkey physics game
 - Monster Hunter Generations
-- Monster Hunter world
+- Monster Hunter World
 - Monster Prom
-- monster rancher
+- Monster Rancher
 - Mosa Lina
 - Mount Your Friends
 - Mudrunner/Snowrunner
-- N++++
+- N++
 - NBA Jam
-- need for speed edgy drifing one
+- Need for Speed Most Wanted
 - NERTS! Online
 - NHL 97
 - Nidhogg 2
-- Ninja Gaiden 1 +2
+- Ninja Gaiden
+- Ninja Gaiden 2
 - NITE Team 4
 - Noita
 - Outer Wilds
-- outriders
+- Outriders
 - Pacific Drive
 - Painkiller
-- parappa the raper
+- Parappa the Rapper
 - Peaks of Yore
 - Peggle
 - Persona 4
 - Phoenix Point
 - Pig Eat Ball
-- Pillars of Eternity 1/2
+- Pillars of Eternity
+- Pillars of Eternity 2
 - Portal 2
 - Prey
 - Prismata
-- ps2 mall destruction game
-- psx Gex
 - Puyo Puyo Tetris
 - Racingmaybe
 - Rainbow Six Siege
 - Rainbow Six Vegas 2
-- Re 7
-- Re revelations 2
-- Red faction guerrilla
+- Red Faction Guerrilla
 - Reflex
+- Resident Evil 1 (remake)
+- Resident Evil 2 (remake)
 - Resident Evil 4
-- Resident Evil remakes, 1 2 4
+- Resident Evil 4 (remake)
+- Resident Evil 7
+- Resident Evil Revelations 2
 - Return of the Obra Dinn
 - Road Rash 64
 - Rocket League
 - Rollercoaster Tycoon 2
-- Saints row 3/4
+- S.T.A.L.K.E.R. Call of Pripyat
+- Saints Row 3
+- Saints Row 4
 - Salary Man Saga! Incredible Crisis!
 - Sekiro
-- Shadow of Mordor/War
 - Shadow of the Colossus
+- Shadow of War
 - Sifu
-- silent hill 2 (magazine ads living rent free in my brain forever)
+- Silent Hill 2 (magazine ads living rent free in my brain forever)
 - Sims
-- Skate 1+2
+- Skate
 - Slay the Spire
 - Sleeping Dogs
 - Slice & Dice
 - Smash Bros 64
 - Sniper Elite 4
 - Solium Infernum
-- Spy party
+- Spy Party
 - Spyro
 - SSX Tricky
-- Stalker call of pripyat
 - StarCraft
 - State of Emergency
-- super mario world
+- Super Mario World
+- Super Street Fighter II Turbo HD Remix
 - Superhot
 - Supernatural
 - Surmount
 - Suzerain
 - SWAT 4
-- System shock 2
+- System Shock 2
 - Tales of Vesperia
-- Team fortress 2
+- Team Fortress 2
 - Tenchu: Stealth Assassins
 - The Bazaar
 - The Deadly Tower of Monsters
 - The Elder Scrolls III: Morrowind
 - The Evil Within 2
 - The Finals
-- the forgotten city
-- The nonary games
+- The Forgotten City
+- The Nonary Games
 - The Orange Box
-- the simpsons hit and run
+- The Simpsons Hit and Run
 - Thief II: the Metal Age
 - Titanfall 2
-- To the moon
-- To the top
+- To the Moon
+- To the Top
 - Trials Rising
 - Triangle Strategy
-- twisted metal 2
+- Tricky Towers
+- Twisted Metal 2
 - Tyranny
-- Ufo 50
 - UFO 50
-- Underail
 - Underrail
-- unity of command 2
-- valkyria chronicles 4
+- Unity of Command 2
+- Valkyria Chronicles 4
 - Vanguard Bandits
-- vigilante 8
+- Vigilante 8
 - Warcraft 3
 - Worms Armaggedon
 - Yoku's Island Express
-- Youka laylee and the impossible lair
+- Youka Laylee and the Impossible Lair
 - Zombie Army 3
+
+# Ordered List
+
+1. 
