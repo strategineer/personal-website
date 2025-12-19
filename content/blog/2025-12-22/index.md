@@ -10,6 +10,8 @@ My favorite 100 videos games of all time.
 
 I played freeware games and PC games outside of Steam off-and-on between 2005-2015 and those games are harder to track...
 
+To mitigate recency bias I've decided to not include any games released in 2025 from this list. I'll be writing my usual GOTY list for 2025 at some point if you're curious about the games released this year.
+
 <!--more-->
 
 
