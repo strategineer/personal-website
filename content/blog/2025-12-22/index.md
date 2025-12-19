@@ -2,7 +2,7 @@
 title: "Top 100 Games of All Time"
 date: 2025-12-22
 blog/tags:
-  - gaming
+  # gaming
 draft: true
 ---
 
@@ -15,254 +15,254 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 <!--more-->
 
 
-- 1000 x Resist
-- Ace Combat 7
-- Against the Storm
-- Age of Wonders Planetfall
-- Age of Wonders 4
-- Alan Wake
-- Alpha Protocol
-- Amnesia: The Bunker
-- Ape Escape
-- ARC Raiders
-- Artifact
-- Ass creed 1 + 2
-- Baby Steps
-- Banjo Kazooie Nuts and Bolts
-- Batman Arkham Asylum
-- Battlefield 1942
-- BATTLETECH
-- Bayonetta
-- Beyond Two Souls
-- Bioshock 1+2
-- Black
-- Blast Corps
-- Blood Bowl 2
-- Bonkies
-- Brothers a Tale of Two Sons
-- Burnout Paradise
-- Call of Duty Modern Warfare
-- Caves of Qud
-- Chaos Reborn
-- CHAOS;HEAD
-- Chronicles of Riddick
-- Clair Obscur: Expedition 33
-- Cogmind
-- Condemned 2
-- Conker's Bad Fur Day
-- Crash Bandicoot
-- Crusader Kings 2
-- Ctrl Alt Ego
-- Culdcept Saga
-- Cyber Hook
-- Dark Cloud 2
-- DDR Universe 2
-- Dead Rising
-- Dead Rising 2
-- Dead Space
-- Deadly Premonition
-- Delta Force
-- Demon Turf
-- Desktop Dungeons
-- Destruction Derby 64
-- Deux Ex
-- Diablo 2
-- Dirt 2
-- Disco Elysium
-- Disgaea 2: Cursed Memories
-- Dishonored 
-- Dishonored 2
-- Doki Doki Literature Club
-- Dominions 5
-- Doom (2016)
-- Doom 2
-- Dragon Age
-- Duskers
-- Dwarf Fortress
-- Dynasty Warriors 2
-- Earth Defense Force 4.1 The Shadow of New Despair
-- Earthion
-- Everyday Genius: SquareLogic
-- Factorio
-- Fallout 2
-- Fallout: New Vegas
-- FEAR
-- Fear & Hunger 1 + 2
-- Final Fantasy 10
-- Final Fantasy 13
-- Fire Emblem: The Blazing Blade
-- Frogger
-- Frozen Cortex
-- Frozen Synapse 2
-- Gears of War
-- Gears Tactics
-- Geometry Wars
-- Ghost Recon: Wildlands
-- GLTron
-- God Hand
-- GoldenEye 007
-- Gorilla Tag
-- Grand Theft Auto 3
-- Guilty Gear Strive
-- Guitar Hero World Tour
-- Half Life 1 + 2
-- Half life Alyx
-- Halo 2
-- Halo Combat Evolved
-- Hardspace Shipbreaker
-- Heavenly Bodies
-- Heavy Rain
-- Hitman World of Assassination
-- Hot Lava
-- Hot Shots Golf Fore
-- Hunt Showdown
-- Hyper Demon
-- Ico
-- Infested Planet
-- Inscryption
-- Inside
-- Into the Breach
-- Invisible Inc.
-- It Takes Two
-- Jade Empire
-- Jagged Alliance 3
-- Jet Island
-- Jet Set Radio Future
-- Katamari Damacy
-- Keep Talking and Nobody Explodes
-- Kenshi
-- Kerbal Space Program
-- Killer7
-- Klonoa - Door to Phantomile
-- La Mulana
-- Left 4 Dead 2
-- Legend of Grimrock
-- Legend of Grimrock 2
-- Lemmings
-- Lethal League
-- Lorelei and the Laser Eyes
-- Mario 64
-- Mass Effect 1/2/3
-- Master of Orion 2
-- Max Payne 3
-- Mechabellum
-- Mercenaries 2
-- Metal Gear Solid
-- Metal Gear Solid 2
-- Microsoft 3d Pinball: Space Cadet
-- Minecraft
-- Mirror's Edge
-- Mister Mosquito
-- Monster Hunter Generations
-- Monster Hunter World
-- Monster Prom
-- Monster Rancher
-- Mosa Lina
-- Mount Your Friends
-- Mudrunner/Snowrunner
-- N++
-- NBA Jam
-- Need for Speed Most Wanted
-- NERTS! Online
-- NHL 97
-- Nidhogg 2
-- Ninja Gaiden
-- Ninja Gaiden 2
-- NITE Team 4
-- Noita
-- Outer Wilds
-- Outriders
-- Pacific Drive
-- Painkiller
-- Parappa the Rapper
-- Peaks of Yore
-- Peggle
-- Persona 4
-- Phoenix Point
-- Pig Eat Ball
-- Pillars of Eternity
-- Pillars of Eternity 2
-- Portal 2
-- Prey
-- Prismata
-- Puyo Puyo Tetris
-- Racingmaybe
-- Rainbow Six Siege
-- Rainbow Six Vegas 2
-- Red Faction Guerrilla
-- Reflex
-- Resident Evil 1 (remake)
-- Resident Evil 2 (remake)
-- Resident Evil 4
-- Resident Evil 4 (remake)
-- Resident Evil 7
-- Resident Evil Revelations 2
-- Return of the Obra Dinn
-- Road Rash 64
-- Rocket League
-- Rollercoaster Tycoon 2
-- S.T.A.L.K.E.R. Call of Pripyat
-- Saints Row 3
-- Saints Row 4
-- Salary Man Saga! Incredible Crisis!
-- Sekiro
-- Shadow of the Colossus
-- Shadow of War
-- Sifu
-- Silent Hill 2 (magazine ads living rent free in my brain forever)
-- Sims
-- Skate
-- Slay the Spire
-- Sleeping Dogs
-- Slice & Dice
-- Smash Bros 64
-- Sniper Elite 4
-- Solium Infernum
-- Spy Party
-- Spyro
-- SSX Tricky
-- StarCraft
-- State of Emergency
-- Super Mario World
-- Super Street Fighter II Turbo HD Remix
-- Superhot
-- Supernatural
-- Surmount
-- Suzerain
-- SWAT 4
-- System Shock 2
-- Tales of Vesperia
-- Team Fortress 2
-- Tenchu: Stealth Assassins
-- The Bazaar
-- The Deadly Tower of Monsters
-- The Elder Scrolls III: Morrowind
-- The Evil Within 2
-- The Finals
-- The Forgotten City
-- The Nonary Games
-- The Orange Box
-- The Simpsons Hit and Run
-- Thief II: the Metal Age
-- Titanfall 2
-- To the Moon
-- To the Top
-- Trials Rising
-- Triangle Strategy
-- Tricky Towers
-- Twisted Metal 2
-- Tyranny
-- UFO 50
-- Underrail
-- Unity of Command 2
-- Valkyria Chronicles 4
-- Vanguard Bandits
-- Vigilante 8
-- Warcraft 3
-- Worms Armaggedon
-- Yoku's Island Express
-- Youka Laylee and the Impossible Lair
-- Zombie Army 3
+# 1000 x Resist
+# Ace Combat 7
+# Against the Storm
+# Age of Wonders Planetfall
+# Age of Wonders 4
+# Alan Wake
+# Alpha Protocol
+# Amnesia: The Bunker
+# Ape Escape
+# ARC Raiders
+# Artifact
+# Ass creed 1 + 2
+# Baby Steps
+# Banjo Kazooie Nuts and Bolts
+# Batman Arkham Asylum
+# Battlefield 1942
+# BATTLETECH
+# Bayonetta
+# Beyond Two Souls
+# Bioshock 1+2
+# Black
+# Blast Corps
+# Blood Bowl 2
+# Bonkies
+# Brothers a Tale of Two Sons
+# Burnout Paradise
+# Call of Duty Modern Warfare
+# Caves of Qud
+# Chaos Reborn
+# CHAOS;HEAD
+# Chronicles of Riddick
+# Clair Obscur: Expedition 33
+# Cogmind
+# Condemned 2
+# Conker's Bad Fur Day
+# Crash Bandicoot
+# Crusader Kings 2
+# Ctrl Alt Ego
+# Culdcept Saga
+# Cyber Hook
+# Dark Cloud 2
+# DDR Universe 2
+# Dead Rising
+# Dead Rising 2
+# Dead Space
+# Deadly Premonition
+# Delta Force
+# Demon Turf
+# Desktop Dungeons
+# Destruction Derby 64
+# Deux Ex
+# Diablo 2
+# Dirt 2
+# Disco Elysium
+# Disgaea 2: Cursed Memories
+# Dishonored 
+# Dishonored 2
+# Doki Doki Literature Club
+# Dominions 5
+# Doom (2016)
+# Doom 2
+# Dragon Age
+# Duskers
+# Dwarf Fortress
+# Dynasty Warriors 2
+# Earth Defense Force 4.1 The Shadow of New Despair
+# Earthion
+# Everyday Genius: SquareLogic
+# Factorio
+# Fallout 2
+# Fallout: New Vegas
+# FEAR
+# Fear & Hunger 1 + 2
+# Final Fantasy 10
+# Final Fantasy 13
+# Fire Emblem: The Blazing Blade
+# Frogger
+# Frozen Cortex
+# Frozen Synapse 2
+# Gears of War
+# Gears Tactics
+# Geometry Wars
+# Ghost Recon: Wildlands
+# GLTron
+# God Hand
+# GoldenEye 007
+# Gorilla Tag
+# Grand Theft Auto 3
+# Guilty Gear Strive
+# Guitar Hero World Tour
+# Half Life 1 + 2
+# Half life Alyx
+# Halo 2
+# Halo Combat Evolved
+# Hardspace Shipbreaker
+# Heavenly Bodies
+# Heavy Rain
+# Hitman World of Assassination
+# Hot Lava
+# Hot Shots Golf Fore
+# Hunt Showdown
+# Hyper Demon
+# Ico
+# Infested Planet
+# Inscryption
+# Inside
+# Into the Breach
+# Invisible Inc.
+# It Takes Two
+# Jade Empire
+# Jagged Alliance 3
+# Jet Island
+# Jet Set Radio Future
+# Katamari Damacy
+# Keep Talking and Nobody Explodes
+# Kenshi
+# Kerbal Space Program
+# Killer7
+# Klonoa # Door to Phantomile
+# La Mulana
+# Left 4 Dead 2
+# Legend of Grimrock
+# Legend of Grimrock 2
+# Lemmings
+# Lethal League
+# Lorelei and the Laser Eyes
+# Mario 64
+# Mass Effect 1/2/3
+# Master of Orion 2
+# Max Payne 3
+# Mechabellum
+# Mercenaries 2
+# Metal Gear Solid
+# Metal Gear Solid 2
+# Microsoft 3d Pinball: Space Cadet
+# Minecraft
+# Mirror's Edge
+# Mister Mosquito
+# Monster Hunter Generations
+# Monster Hunter World
+# Monster Prom
+# Monster Rancher
+# Mosa Lina
+# Mount Your Friends
+# Mudrunner/Snowrunner
+# N++
+# NBA Jam
+# Need for Speed Most Wanted
+# NERTS! Online
+# NHL 97
+# Nidhogg 2
+# Ninja Gaiden
+# Ninja Gaiden 2
+# NITE Team 4
+# Noita
+# Outer Wilds
+# Outriders
+# Pacific Drive
+# Painkiller
+# Parappa the Rapper
+# Peaks of Yore
+# Peggle
+# Persona 4
+# Phoenix Point
+# Pig Eat Ball
+# Pillars of Eternity
+# Pillars of Eternity 2
+# Portal 2
+# Prey
+# Prismata
+# Puyo Puyo Tetris
+# Racingmaybe
+# Rainbow Six Siege
+# Rainbow Six Vegas 2
+# Red Faction Guerrilla
+# Reflex
+# Resident Evil 1 (remake)
+# Resident Evil 2 (remake)
+# Resident Evil 4
+# Resident Evil 4 (remake)
+# Resident Evil 7
+# Resident Evil Revelations 2
+# Return of the Obra Dinn
+# Road Rash 64
+# Rocket League
+# Rollercoaster Tycoon 2
+# S.T.A.L.K.E.R. Call of Pripyat
+# Saints Row 3
+# Saints Row 4
+# Salary Man Saga! Incredible Crisis!
+# Sekiro
+# Shadow of the Colossus
+# Shadow of War
+# Sifu
+# Silent Hill 2 (magazine ads living rent free in my brain forever)
+# Sims
+# Skate
+# Slay the Spire
+# Sleeping Dogs
+# Slice & Dice
+# Smash Bros 64
+# Sniper Elite 4
+# Solium Infernum
+# Spy Party
+# Spyro
+# SSX Tricky
+# StarCraft
+# State of Emergency
+# Super Mario World
+# Super Street Fighter II Turbo HD Remix
+# Superhot
+# Supernatural
+# Surmount
+# Suzerain
+# SWAT 4
+# System Shock 2
+# Tales of Vesperia
+# Team Fortress 2
+# Tenchu: Stealth Assassins
+# The Bazaar
+# The Deadly Tower of Monsters
+# The Elder Scrolls III: Morrowind
+# The Evil Within 2
+# The Finals
+# The Forgotten City
+# The Nonary Games
+# The Orange Box
+# The Simpsons Hit and Run
+# Thief II: the Metal Age
+# Titanfall 2
+# To the Moon
+# To the Top
+# Trials Rising
+# Triangle Strategy
+# Tricky Towers
+# Twisted Metal 2
+# Tyranny
+# UFO 50
+# Underrail
+# Unity of Command 2
+# Valkyria Chronicles 4
+# Vanguard Bandits
+# Vigilante 8
+# Warcraft 3
+# Worms Armaggedon
+# Yoku's Island Express
+# Youka Laylee and the Impossible Lair
+# Zombie Army 3
 
 # Ordered List
 
