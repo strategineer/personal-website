@@ -25,6 +25,7 @@ A list of games, in randomized order, released in 2025 that I played and enjoyed
 - Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island
 - The Roottrees are Dead
 - Q-Up
+- Earthion
 
 # Honourable Mentions
 
