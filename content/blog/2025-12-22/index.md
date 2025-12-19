@@ -25,7 +25,6 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Arc Raiders
 - ARC Raiders
 - Artifact
-- Artifact
 - Ass creed 1 + 2
 - Baby Steps
 - Banjo Kazooie Nuts and Bolts'
@@ -41,16 +40,13 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Brothers a Tale of Two Sons
 - Burnout Paradise
 - Caves of Qud
-- Caves of Qud
 - Chaos head
 - Chaos Reborn
 - Chronicles of Riddick
 - CoD Modern Warfare
 - Cogmind
-- Cogmind
 - Condemned 2
 - Conker's Bad Fur Day
-- Crash Bandicoot
 - Crash Bandicoot
 - Crusader Kings 2
 - Ctrl Alt ego
@@ -72,7 +68,6 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Disco Elysium
 - Disgaea 2: Cursed Memories
 - Dishonored 1/2
-- Dominions 5
 - Dominions 5
 - Doom 2
 - Doom 2016
@@ -147,9 +142,7 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Mass Effect 1/2/3
 - Master of Orion 2
 - Max Payne 3
-- Max Payne 3
 - Mechabellum
-- Mercenaries 2
 - Mercenaries 2
 - Metal Gear Solid 1 + 2
 - MGS 2
@@ -157,7 +150,6 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - minecraft
 - Mirror's Edge
 - Mirrors edge
-- Mister Mosquito
 - Mister Mosquito
 - monkey physics game
 - Monster Hunter Generations
@@ -178,7 +170,6 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Noita
 - Outer Wilds
 - outriders
-- Pacific Drive
 - Pacific Drive
 - Painkiller
 - parappa the raper
@@ -212,8 +203,6 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Sekiro
 - Shadow of Mordor/War
 - Shadow of the Colossus
-- Shadow of the Colossus
-- Sifu
 - Sifu
 - silent hill 2 (magazine ads living rent free in my brain forever)
 - Sims
@@ -225,7 +214,6 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - Sniper Elite 4
 - Solium Infernum
 - Spy party
-- Spyro
 - Spyro
 - SSX Tricky
 - Stalker call of pripyat
@@ -245,7 +233,6 @@ I played freeware games and PC games outside of Steam off-and-on between 2005-20
 - The Deadly Tower of Monsters
 - The Elder Scrolls III: Morrowind
 - The Evil Within 2
-- The Finals
 - The Finals
 - the forgotten city
 - The nonary games
