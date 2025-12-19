@@ -128,9 +128,7 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Katamari Damacy
 ## Keep Talking and Nobody Explodes
 ## Kenshi
-## Kerbal Space Program
 ## Killer7
-## Klonoa - Door to Phantomile
 ## La Mulana
 ## Left 4 Dead 2
 ## Legend of Grimrock
@@ -260,6 +258,7 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Hitman World of Assassination
 ## Worms Armaggedon
 ## Caves of Qud
+## Kerbal Space Program
 ## UFO 50
 ## Blood Bowl 2
 ## Phoenix Point
