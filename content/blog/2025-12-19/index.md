@@ -40,12 +40,10 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Bioshock 2
 ## Black
 ## Blast Corps
-## Blood Bowl 2
 ## Bonkies
 ## Brothers: A Tale of Two Sons
 ## Burnout Paradise
 ## Call of Duty Modern Warfare
-## Caves of Qud
 ## Chaos Reborn
 ## CHAOS;HEAD
 ## Chronicles of Riddick
@@ -112,15 +110,12 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Halo 2
 ## Halo Combat Evolved
 ## Hardspace Shipbreaker
-## Heavenly Bodies
 ## Heavy Rain
-## Hitman World of Assassination
 ## Hot Lava
 ## Hot Shots Golf Fore
 ## Hunt Showdown
 ## Hyper Demon
 ## Ico
-## Infested Planet
 ## Inscryption
 ## Inside
 ## Into the Breach
@@ -181,7 +176,6 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Peaks of Yore
 ## Peggle
 ## Persona 4
-## Phoenix Point
 ## Pig Eat Ball
 ## Pillars of Eternity
 ## Pillars of Eternity 2
@@ -215,7 +209,6 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Silent Hill 2 (magazine ads living rent free in my brain forever)
 ## Sims
 ## Skate
-## Slay the Spire
 ## Sleeping Dogs
 ## Slice & Dice
 ## Smash Bros 64
@@ -223,21 +216,17 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Solium Infernum
 ## Spy Party
 ## Spyro
-## SSX Tricky
 ## StarCraft
-## State of Emergency
 ## Super Mario World
 ## Super Street Fighter II Turbo HD Remix
 ## Superhot
 ## Supernatural
-## Surmount
 ## Suzerain
 ## SWAT 4
 ## System Shock 2
 ## Tales of Vesperia
 ## Team Fortress 2
 ## Tenchu: Stealth Assassins
-## The Bazaar
 ## The Deadly Tower of Monsters
 ## The Elder Scrolls III: Morrowind
 ## The Evil Within 2
@@ -255,18 +244,26 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Tricky Towers
 ## Twisted Metal 2
 ## Tyranny
-## UFO 50
 ## Underrail
 ## Unity of Command 2
 ## Valkyria Chronicles 4
 ## Vanguard Bandits
 ## Vigilante 8
 ## Warcraft 3
-## Worms Armaggedon
+
 ## Yoku's Island Express
 ## Youka Laylee and the Impossible Lair
 ## Zombie Army 3
 
-# Ordered List
+# Ordered List (WIP)
 
-1. 
+## Hitman World of Assassination
+## Worms Armaggedon
+## Caves of Qud
+## UFO 50
+## Blood Bowl 2
+## Phoenix Point
+## Heavenly Bodies
+## Slay the Spire
+## SSX Tricky
+## Surmount
