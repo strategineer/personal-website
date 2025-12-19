@@ -1,35 +1,274 @@
 ---
-title: "GOTY List 2025"
+title: "Top 100 Games of All Time"
 date: 2025-12-22
 blog/tags:
   - gaming
 draft: true
 ---
 
-A list of games, in randomized order, released in 2025 that I played and enjoyed.
+My favorite 100 videos games of all time.
 
+I played freeware games and PC games outside of Steam off-and-on between 2005-2015 and those games are harder to track...
 
 <!--more-->
 
-# GOTY List
 
+- 1000 x Resist
+- 2016-ish physics lego game
+- Ace Combat 7
+- Against the Storm
+- Age of Wonders planetfall/4
+- Alan Wake
+- Alpha Protocol
+- Amnesia the Bunker
+- ape escape
+- Arc Raiders
 - ARC Raiders
-- The Bazaar
-- PEAK
-- Abiotic Factor
-- BF6
+- Artifact
+- Artifact
+- Ass creed 1 + 2
 - Baby Steps
-- Clair Obscur: Expedition 33
-- Blue Prince
-- Eternal Strands
-- Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island
-- The Roottrees are Dead
-- Q-Up
-
-# Honourable Mentions
-
-## The PS2
-
-The PS2 wasn't my first console (the PSX was) but it was my favorite. The number of games that were released for the PS2 over the course of its lifetime is wild.
-
-I spent a lot of time playing PS2 games this year, it might be 
+- Banjo Kazooie Nuts and Bolts'
+- Batman Arkham Asylum
+- Battlefield 1942
+- BATTLETECH
+- Bayonetta
+- Beyond Two Souls
+- Bioshock 1+2
+- Black
+- Blast Corps
+- Blood bowl 2
+- Brothers a Tale of Two Sons
+- Burnout Paradise
+- Caves of Qud
+- Caves of Qud
+- Chaos head
+- Chaos Reborn
+- Chronicles of Riddick
+- CoD Modern Warfare
+- Cogmind
+- Cogmind
+- Condemned 2
+- Conker's Bad Fur Day
+- Crash Bandicoot
+- Crash Bandicoot
+- Crusader Kings 2
+- Ctrl Alt ego
+- culdcept saga
+- Cyber Hook
+- Dark Cloud 2
+- Ddlc
+- DDR Universe 2
+- Dead rising 1/2
+- Dead Space
+- Deadly Premonition
+- Delta Force
+- Demon Turf
+- Desktop Dungeons
+- Destruction Derby 64
+- Deux Ex
+- Diablo 2
+- Dirt 2
+- Disco Elysium
+- Disgaea 2: Cursed Memories
+- Dishonored 1/2
+- Dominions 5
+- Dominions 5
+- Doom 2
+- Doom 2016
+- Dragon Age
+- Duskers
+- Dwarf Fortress
+- Dynasty Warriors 2
+- Earth Defense Force 4.1 The Shadow of New Despair
+- Earthion
+- Everyday Genius: SquareLogic
+- Expedition 33
+- Factorio
+- Fallout 2
+- Fallout New Vegas
+- FEAR
+- Fear & Hunger 1 + 2
+- Final Fantasy 10
+- Final Fantasy 13
+- fire emblem (which one?)
+- freedom fighters ps2
+- Frogger
+- Frozen synapse 2 / Frozen Cortex
+- Gears of War 1-2
+- Gears Tactics
+- Geometry Wars 1 + 2
+- Ghost Recon: Wildlands
+- GLTron
+- God Hand
+- GoldenEye 007
+- Gorilla tag
+- gran turismo
+- GTA 3
+- guilty gear strive / street fighter 2
+- Guitar Hero World Tour
+- Half Life 1 + 2
+- Half life Alyx
+- Halo 1/2
+- Hardspace ship breaker
+- hardspace shipbreaker
+- Heavenly Bodies
+- Heavy Rain
+- Hitman World of Assassination
+- Hot Lava
+- hot shots golf fore
+- Hunt showdown
+- Hyper demon
+- Ico
+- Infested planet
+- Inscryption
+- Inside
+- Into the Breach
+- Invisible inc.
+- It Takes Two
+- Jade Empire
+- Jagged Alliance 3
+- Jet Island
+- Jet Set Radio Future
+- Katamari Damacy
+- Keep Talking and Nobody Explodes
+- Kenshi
+- Kerbal Space Program
+- Killer7
+- Klonoa - Door to Phantomile
+- La Mulana
+- Left 4 dead 2
+- Legend of Grimrock 1 + 2
+- Lego party
+- Lemmings
+- Lethal League
+- Lorelei and the Laser Eyes
+- Mario 64
+- Mass Effect 1/2/3
+- Master of Orion 2
+- Max Payne 3
+- Max Payne 3
+- Mechabellum
+- Mercenaries 2
+- Mercenaries 2
+- Metal Gear Solid 1 + 2
+- MGS 2
+- Microsoft 3d Pinball: Space Cadet
+- minecraft
+- Mirror's Edge
+- Mirrors edge
+- Mister Mosquito
+- Mister Mosquito
+- monkey physics game
+- Monster Hunter Generations
+- Monster Hunter world
+- Monster Prom
+- monster rancher
+- Mosa Lina
+- Mount Your Friends
+- Mudrunner/Snowrunner
+- N++++
+- NBA Jam
+- need for speed edgy drifing one
+- NERTS! Online
+- NHL 97
+- Nidhogg 2
+- Ninja Gaiden 1 +2
+- NITE Team 4
+- Noita
+- Outer Wilds
+- outriders
+- Pacific Drive
+- Pacific Drive
+- Painkiller
+- parappa the raper
+- Peaks of Yore
+- Peggle
+- Persona 4
+- Phoenix Point
+- Pig Eat Ball
+- Pillars of Eternity 1/2
+- Portal 2
+- Prey
+- Prismata
+- ps2 mall destruction game
+- psx Gex
+- Puyo Puyo Tetris
+- Racingmaybe
+- Rainbow Six Siege
+- Rainbow Six Vegas 2
+- Re 7
+- Re revelations 2
+- Red faction guerrilla
+- Reflex
+- Resident Evil 4
+- Resident Evil remakes, 1 2 4
+- Return of the Obra Dinn
+- Road Rash 64
+- Rocket League
+- Rollercoaster Tycoon 2
+- Saints row 3/4
+- Salary Man Saga! Incredible Crisis!
+- Sekiro
+- Shadow of Mordor/War
+- Shadow of the Colossus
+- Shadow of the Colossus
+- Sifu
+- Sifu
+- silent hill 2 (magazine ads living rent free in my brain forever)
+- Sims
+- Skate 1+2
+- Slay the Spire
+- Sleeping Dogs
+- Slice & Dice
+- Smash Bros 64
+- Sniper Elite 4
+- Solium Infernum
+- Spy party
+- Spyro
+- Spyro
+- SSX Tricky
+- Stalker call of pripyat
+- StarCraft
+- State of Emergency
+- super mario world
+- Superhot
+- Supernatural
+- Surmount
+- Suzerain
+- SWAT 4
+- System shock 2
+- Tales of Vesperia
+- Team fortress 2
+- Tenchu: Stealth Assassins
+- The Bazaar
+- The Deadly Tower of Monsters
+- The Elder Scrolls III: Morrowind
+- The Evil Within 2
+- The Finals
+- The Finals
+- the forgotten city
+- The nonary games
+- The Orange Box
+- the simpsons hit and run
+- Thief II: the Metal Age
+- Titanfall 2
+- To the moon
+- To the top
+- Trials Rising
+- Triangle Strategy
+- twisted metal 2
+- Tyranny
+- Ufo 50
+- UFO 50
+- Underail
+- Underrail
+- unity of command 2
+- valkyria chronicles 4
+- Vanguard Bandits
+- vigilante 8
+- Warcraft 3
+- Worms Armaggedon
+- Yoku's Island Express
+- Youka laylee and the impossible lair
+- Zombie Army 3
