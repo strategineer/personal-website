@@ -2,7 +2,7 @@
 authors:
 - Naomi Klein
 books/tags:
-- currently-unread
+- currently-reading
 - non-fiction
 date: 2025-12-17
 params:
