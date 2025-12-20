@@ -21,112 +21,70 @@ Notes:
 # Unordered List
 
 
-## Ace Combat 7
 ## Age of Wonders Planetfall
 ## Age of Wonders 4
 ## Alpha Protocol
 ## Amnesia: The Bunker
 ## Batman Arkham Asylum
 ## Battlefield 1942
-## BATTLETECH
 ## Bayonetta
 ## Bioshock
 ## Bioshock 2
 ## Bonkies
 ## Brothers: A Tale of Two Sons
-## Burnout Paradise
 ## Call of Duty Modern Warfare
 ## Chaos Reborn
-## Chronicles of Riddick
-## Cogmind
 ## Conker's Bad Fur Day
 ## Crash Bandicoot
-## Ctrl Alt Ego
 ## DDR Universe 2
 ## Dead Space
 ## Deadly Premonition
-## Demon Turf
-## Desktop Dungeons
 ## Deux Ex
 ## Diablo 2
 ## Dirt 2
 ## Disco Elysium
-## Dishonored 
-## Dishonored 2
-## Doki Doki Literature Club
 ## Doom (2016)
-## Doom 2
-## Dragon Age
 ## Duskers
-## Dwarf Fortress
-## Dynasty Warriors 2
 ## Earth Defense Force 4.1 The Shadow of New Despair
 ## Everyday Genius: SquareLogic
-## Factorio
 ## Fallout 2
 ## Fallout: New Vegas
 ## FEAR
 ## Fear & Hunger
 ## Fear & Hunger 2
-## Final Fantasy 10
-## Final Fantasy 13
 ## Fire Emblem: The Blazing Blade
-## Frogger
-## Frozen Cortex
-## Frozen Synapse 2
-## Gears of War
-## Gears Tactics
 ## Geometry Wars
-## Ghost Recon: Wildlands
-## GLTron
-## God Hand
-## GoldenEye 007
 ## Gorilla Tag
 ## Grand Theft Auto 3
 ## Guilty Gear Strive
 ## Half Life 1 + 2
 ## Half Life Alyx
-## Halo 2
 ## Halo Combat Evolved
-## Hardspace Shipbreaker
-## Heavy Rain
 ## Hot Lava
 ## Hot Shots Golf Fore
-## Hunt Showdown
 ## Hyper Demon
 ## Ico
 ## Inscryption
-## Inside
 ## Invisible Inc.
 ## It Takes Two
-## Jade Empire
 ## Jet Island
 ## Jet Set Radio Future
 ## Katamari Damacy
 ## Keep Talking and Nobody Explodes
 ## Kenshi
-## Killer7
 ## Left 4 Dead 2
 ## Lethal League
-## Lorelei and the Laser Eyes
 ## Mass Effect 1/2/3
 ## Master of Orion 2
 ## Minecraft
 ## Mirror's Edge
 ## Mister Mosquito
-## Monster Hunter Generations
-## Monster Hunter World
-## Monster Prom
-## Monster Rancher
-## Snowrunner
 ## N++
 ## NBA Jam
-## Need for Speed Most Wanted
 ## Nidhogg 2
 ## Ninja Gaiden
 ## Ninja Gaiden 2
 ## NITE Team 4
-## Pacific Drive
 ## Painkiller
 ## Pig Eat Ball
 ## Portal 2
@@ -144,12 +102,9 @@ Notes:
 ## Rollercoaster Tycoon 2
 ## Saints Row 3
 ## Saints Row 4
-## Sekiro
 ## Shadow of the Colossus
 ## Shadow of War
-## Sifu
 ## Silent Hill 2 (magazine ads living rent free in my brain forever)
-## Spyro
 ## StarCraft
 ## Super Mario World
 ## Super Street Fighter II Turbo HD Remix
@@ -158,7 +113,6 @@ Notes:
 ## SWAT 4
 ## System Shock 2
 ## Team Fortress 2
-## The Elder Scrolls III: Morrowind
 ## The Evil Within 2
 ## The Finals
 ## The Orange Box
@@ -170,52 +124,84 @@ Notes:
 ## Underrail
 
 # Ordered List (WIP)
-## Max Payne 3
 
-
+## Doom 2
 ## Hitman World of Assassination
-## Worms Armaggedon
-## Artifact
-## Guitar Hero World Tour
-## Caves of Qud
+## Factorio
 ## Mosa Lina
+## Artifact
 ## Mario 64
+## Guitar Hero World Tour
+## Halo 2
+## Worms Armaggedon
+## Caves of Qud
+## Cogmind
 ## La Mulana
+## Dwarf Fortress
 ## Kerbal Space Program
 ## Trials Rising
+## Supernatural
+## Frozen Synapse 2
+## Lorelei and the Laser Eyes
+## Spyro the Dragon
+## Final Fantasy 10
 ## Into the Breach
+## Snowrunner
 ## S.T.A.L.K.E.R. Anomaly
 ## Mount Your Friends
+## Max Payne 3
 ## Metal Gear Solid 2
-## Supernatural
 ## Slice & Dice
 ## UFO 50
 ## Slay the Spire
 ## Prey
+## Dishonored 2
 ## The Forgotten City
-## Crusader Kings 2
-## Dead Rising (1 + 2)
 ## Spy Party
 ## Rocket League
+## Crusader Kings 2
+## Dead Rising (1 + 2)
+## Sekiro
+## Sifu
+## Mechabellum
+## Blood Bowl 2
+## Hunt Showdown
+## Ctrl Alt Ego
+## Burnout Paradise
 ## Solium Infernum
 ## Unity of Command 2
 ## Jagged Alliance 3
 ## Triangle Strategy
-## Return of the Obra Dinn
-## Outer Wilds
+## Ace Combat 7
+## Armored Core VI
+## Demon Turf
 ## The Nonary Games
+## Outer Wilds
+## Return of the Obra Dinn
+## 1000 x Resist
+## Inside
 ## Against the Storm
 ## Phoenix Point
-## Dominions 5
-## Mechabellum
-## 1000 x Resist
 ## Heavenly Bodies
+## Pacific Drive
 ## Peaks of Yore
+## Dominions 5
+## Ghost Recon: Wildlands
+## Desktop Dungeons
 ## Banjo Kazooie Nuts and Bolts
+## Monster Hunter World
+## The Elder Scrolls III: Morrowind
 ## Noita
+## Chronicles of Riddick
+## Killer7
 ## SSX Tricky
 ## CHAOS;HEAD
-## Blood Bowl 2
+## Doki Doki Literature Club
 ## Thief II: the Metal Age
 ## Surmount
+## Gears Tactics
+## Heavy Rain
 ## Microsoft 3D Pinball: Space Cadet
+## Final Fantasy 13
+## Dungeon Crawl Stone Soup
+## Cataclysm Dark Days Ahead
