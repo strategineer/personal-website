@@ -10,70 +10,50 @@ My favorite 100 videos games of all time.
 
 <!--more-->
 
-I played freeware games and PC games outside of Steam off-and-on between 2005-2015 and those games are harder to track...
-
-To mitigate recency bias I've decided to not include any games released in 2025 from this list. I'll be writing my usual GOTY list for 2025 at some point if you're curious about the games released this year.
+Notes:
+- I played freeware games and PC games outside of Steam off-and-on between 2005-2015 and those games are harder to track...
+- To mitigate recency bias I've decided to not include any games released in 2025 from this list. I'll be writing my usual GOTY list for 2025 at some point if you're curious about the games released this year.
+- Nostalgia is a hell of a drug.
 
 {{< toc >}}
 
 
 # Unordered List
 
-## 1000 x Resist
+
 ## Ace Combat 7
-## Against the Storm
 ## Age of Wonders Planetfall
 ## Age of Wonders 4
-## Alan Wake
 ## Alpha Protocol
 ## Amnesia: The Bunker
-## Ape Escape
-## Artifact
-## Ass creed 1 + 2
-## Banjo Kazooie Nuts and Bolts
 ## Batman Arkham Asylum
 ## Battlefield 1942
 ## BATTLETECH
 ## Bayonetta
-## Beyond Two Souls
 ## Bioshock
 ## Bioshock 2
-## Black
-## Blast Corps
 ## Bonkies
 ## Brothers: A Tale of Two Sons
 ## Burnout Paradise
 ## Call of Duty Modern Warfare
 ## Chaos Reborn
-## CHAOS;HEAD
 ## Chronicles of Riddick
 ## Cogmind
-## Condemned 2
 ## Conker's Bad Fur Day
 ## Crash Bandicoot
-## Crusader Kings 2
 ## Ctrl Alt Ego
-## Culdcept Saga
-## Cyber Hook
-## Dark Cloud 2
 ## DDR Universe 2
-## Dead Rising
-## Dead Rising 2
 ## Dead Space
 ## Deadly Premonition
-## Delta Force
 ## Demon Turf
 ## Desktop Dungeons
-## Destruction Derby 64
 ## Deux Ex
 ## Diablo 2
 ## Dirt 2
 ## Disco Elysium
-## Disgaea 2: Cursed Memories
 ## Dishonored 
 ## Dishonored 2
 ## Doki Doki Literature Club
-## Dominions 5
 ## Doom (2016)
 ## Doom 2
 ## Dragon Age
@@ -104,7 +84,6 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Gorilla Tag
 ## Grand Theft Auto 3
 ## Guilty Gear Strive
-## Guitar Hero World Tour
 ## Half Life 1 + 2
 ## Half Life Alyx
 ## Halo 2
@@ -118,33 +97,20 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Ico
 ## Inscryption
 ## Inside
-## Into the Breach
 ## Invisible Inc.
 ## It Takes Two
 ## Jade Empire
-## Jagged Alliance 3
 ## Jet Island
 ## Jet Set Radio Future
 ## Katamari Damacy
 ## Keep Talking and Nobody Explodes
 ## Kenshi
 ## Killer7
-## La Mulana
 ## Left 4 Dead 2
-## Legend of Grimrock
-## Legend of Grimrock 2
-## Lemmings
 ## Lethal League
 ## Lorelei and the Laser Eyes
-## Mario 64
 ## Mass Effect 1/2/3
 ## Master of Orion 2
-## Max Payne 3
-## Mechabellum
-## Mercenaries 2
-## Metal Gear Solid
-## Metal Gear Solid 2
-## Microsoft 3D Pinball: Space Cadet
 ## Minecraft
 ## Mirror's Edge
 ## Mister Mosquito
@@ -152,36 +118,19 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Monster Hunter World
 ## Monster Prom
 ## Monster Rancher
-## Mosa Lina
-## Mount Your Friends
-## Mudrunner
 ## Snowrunner
 ## N++
 ## NBA Jam
 ## Need for Speed Most Wanted
-## NERTS! Online
-## NHL 97
 ## Nidhogg 2
 ## Ninja Gaiden
 ## Ninja Gaiden 2
 ## NITE Team 4
-## Noita
-## Outer Wilds
-## Outriders
 ## Pacific Drive
 ## Painkiller
-## Parappa the Rapper
-## Peaks of Yore
-## Peggle
-## Persona 4
 ## Pig Eat Ball
-## Pillars of Eternity
-## Pillars of Eternity 2
 ## Portal 2
-## Prey
 ## Prismata
-## Puyo Puyo Tetris
-## Racingmaybe
 ## Rainbow Six Siege
 ## Rainbow Six Vegas 2
 ## Red Faction Guerrilla
@@ -192,77 +141,81 @@ To mitigate recency bias I've decided to not include any games released in 2025 
 ## Resident Evil 4 (remake)
 ## Resident Evil 7
 ## Resident Evil Revelations 2
-## Return of the Obra Dinn
-## Road Rash 64
-## Rocket League
 ## Rollercoaster Tycoon 2
-## S.T.A.L.K.E.R. Call of Pripyat
 ## Saints Row 3
 ## Saints Row 4
-## Salary Man Saga! Incredible Crisis!
 ## Sekiro
 ## Shadow of the Colossus
 ## Shadow of War
 ## Sifu
 ## Silent Hill 2 (magazine ads living rent free in my brain forever)
-## Sims
-## Skate
-## Sleeping Dogs
-## Slice & Dice
-## Smash Bros 64
-## Sniper Elite 4
-## Solium Infernum
-## Spy Party
 ## Spyro
 ## StarCraft
 ## Super Mario World
 ## Super Street Fighter II Turbo HD Remix
 ## Superhot
-## Supernatural
 ## Suzerain
 ## SWAT 4
 ## System Shock 2
-## Tales of Vesperia
 ## Team Fortress 2
-## Tenchu: Stealth Assassins
-## The Deadly Tower of Monsters
 ## The Elder Scrolls III: Morrowind
 ## The Evil Within 2
 ## The Finals
-## The Forgotten City
-## The Nonary Games
 ## The Orange Box
-## The Simpsons Hit and Run
-## Thief II: the Metal Age
 ## Titanfall 2
 ## To the Moon
 ## To the Top
-## Trials Rising
-## Triangle Strategy
 ## Tricky Towers
-## Twisted Metal 2
 ## Tyranny
 ## Underrail
-## Unity of Command 2
-## Valkyria Chronicles 4
-## Vanguard Bandits
-## Vigilante 8
-## Warcraft 3
-
-## Yoku's Island Express
-## Youka Laylee and the Impossible Lair
-## Zombie Army 3
 
 # Ordered List (WIP)
+## Max Payne 3
+
 
 ## Hitman World of Assassination
 ## Worms Armaggedon
+## Artifact
+## Guitar Hero World Tour
 ## Caves of Qud
+## Mosa Lina
+## Mario 64
+## La Mulana
 ## Kerbal Space Program
+## Trials Rising
+## Into the Breach
+## S.T.A.L.K.E.R. Anomaly
+## Mount Your Friends
+## Metal Gear Solid 2
+## Supernatural
+## Slice & Dice
 ## UFO 50
-## Blood Bowl 2
-## Phoenix Point
-## Heavenly Bodies
 ## Slay the Spire
+## Prey
+## The Forgotten City
+## Crusader Kings 2
+## Dead Rising (1 + 2)
+## Spy Party
+## Rocket League
+## Solium Infernum
+## Unity of Command 2
+## Jagged Alliance 3
+## Triangle Strategy
+## Return of the Obra Dinn
+## Outer Wilds
+## The Nonary Games
+## Against the Storm
+## Phoenix Point
+## Dominions 5
+## Mechabellum
+## 1000 x Resist
+## Heavenly Bodies
+## Peaks of Yore
+## Banjo Kazooie Nuts and Bolts
+## Noita
 ## SSX Tricky
+## CHAOS;HEAD
+## Blood Bowl 2
+## Thief II: the Metal Age
 ## Surmount
+## Microsoft 3D Pinball: Space Cadet
