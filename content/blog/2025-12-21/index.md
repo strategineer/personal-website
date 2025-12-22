@@ -89,7 +89,7 @@ If you're anything like me, you'll get hooked by its addictiveness and by the ti
 
 And that's the point.
 
-Unlike games like Vampire Survivors, Balatro, Megabonk, Deep Rock Galactic Survivor (I could go on, the rise of *gambling slop barely-games* continues), Q-UP raises up its **freak** card proudly while pointing at these other games and making you feel like shit for playing them (as you should).
+Unlike games like Vampire Survivors, Balatro, Megabonk, Deep Rock Galactic Survivor (I could go on, the rise of *gambling slop barely-games* continues), Q-UP raises its **freak** card proudly while holding your head such that you can't look away from the dark design elements present in it (intentionally so), perhaps in such a way that will allow you to be more aware of this kind of dark design present in other games.
 
 ## [The Bazaar](https://store.steampowered.com/app/1617400/The_Bazaar/)
 
