@@ -17,191 +17,134 @@ Notes:
 
 {{< toc >}}
 
+# Top 10
 
-# Unordered List
+1. Doom 2
+1. Hitman World of Assassination
+1. Factorio
+1. Mosa Lina
+1. Worms Armaggedon
+1. Caves of Qud
+1. La Mulana
+1. Kerbal Space Program
+1. Trials Rising
+1. Lorelei and the Laser Eyes
 
+# The Next 40
 
-## Age of Wonders Planetfall
-## Age of Wonders 4
-## Alpha Protocol
-## Amnesia: The Bunker
-## Batman Arkham Asylum
-## Battlefield 1942
-## Bayonetta
-## Bioshock
-## Bioshock 2
-## Bonkies
-## Brothers: A Tale of Two Sons
-## Call of Duty Modern Warfare
-## Chaos Reborn
-## Conker's Bad Fur Day
-## Crash Bandicoot
-## DDR Universe 2
-## Dead Space
-## Deadly Premonition
-## Deux Ex
-## Diablo 2
-## Dirt 2
-## Disco Elysium
-## Doom (2016)
-## Duskers
-## Earth Defense Force 4.1 The Shadow of New Despair
-## Everyday Genius: SquareLogic
-## Fallout 2
-## Fallout: New Vegas
-## FEAR
-## Fear & Hunger
-## Fear & Hunger 2
-## Fire Emblem: The Blazing Blade
-## Geometry Wars
-## Gorilla Tag
-## Grand Theft Auto 3
-## Guilty Gear Strive
-## Half Life 1 + 2
-## Half Life Alyx
-## Halo Combat Evolved
-## Hot Lava
-## Hot Shots Golf Fore
-## Hyper Demon
-## Ico
-## Inscryption
-## Invisible Inc.
-## It Takes Two
-## Jet Island
-## Jet Set Radio Future
-## Katamari Damacy
-## Keep Talking and Nobody Explodes
-## Kenshi
-## Left 4 Dead 2
-## Lethal League
-## Mass Effect 1/2/3
-## Master of Orion 2
-## Minecraft
-## Mirror's Edge
-## Mister Mosquito
-## N++
-## NBA Jam
-## Nidhogg 2
-## Ninja Gaiden
-## Ninja Gaiden 2
-## NITE Team 4
-## Painkiller
-## Pig Eat Ball
-## Portal 2
-## Prismata
-## Rainbow Six Siege
-## Rainbow Six Vegas 2
-## Red Faction Guerrilla
-## Reflex
-## Resident Evil 1 (remake)
-## Resident Evil 2 (remake)
-## Resident Evil 4
-## Resident Evil 4 (remake)
-## Resident Evil 7
-## Resident Evil Revelations 2
-## Rollercoaster Tycoon 2
-## Saints Row 3
-## Saints Row 4
-## Shadow of the Colossus
-## Shadow of War
-## Silent Hill 2 (magazine ads living rent free in my brain forever)
-## StarCraft
-## Super Mario World
-## Super Street Fighter II Turbo HD Remix
-## Superhot
-## Suzerain
-## SWAT 4
-## System Shock 2
-## Team Fortress 2
-## The Evil Within 2
-## The Finals
-## The Orange Box
-## Titanfall 2
-## To the Moon
-## To the Top
-## Tricky Towers
-## Tyranny
-## Underrail
+1. Mario 64
+1. Halo 2
+1. Guitar Hero World Tour
+1. Dwarf Fortress
+1. Supernatural
+1. Spyro the Dragon
+1. Final Fantasy 10
+1. Artifact
+1. Frozen Synapse 2
+1. Cogmind
+1. Into the Breach
+1. S.T.A.L.K.E.R. Anomaly
+1. Mount Your Friends
+1. Metal Gear Solid 2
+1. Slice & Dice
+1. UFO 50
+1. Slay the Spire
+1. Prey
+1. Dishonored 2
+1. The Forgotten City
+1. Spy Party
+1. Rocket League
+1. Crusader Kings 2
+1. Super Mario World
+1. Dead Rising
+1. Sekiro
+1. Sifu
+1. Blood Bowl 2
+1. Hunt Showdown
+1. Ctrl Alt Ego
+1. Burnout Paradise
+1. Solium Infernum
+1. Unity of Command 2
+1. Jagged Alliance 3
+1. Triangle Strategy
+1. Ace Combat 7
+1. Demon Turf
+1. The Nonary Games
+1. Outer Wilds
+1. Against the Storm
 
-# Ordered List (WIP)
+# The Other 50
 
-## Doom 2
-## Hitman World of Assassination
-## Factorio
-## Mosa Lina
-## Artifact
-## Mario 64
-## Guitar Hero World Tour
-## Halo 2
-## Worms Armaggedon
-## Caves of Qud
-## Cogmind
-## La Mulana
-## Dwarf Fortress
-## Kerbal Space Program
-## Trials Rising
-## Supernatural
-## Frozen Synapse 2
-## Lorelei and the Laser Eyes
-## Spyro the Dragon
-## Final Fantasy 10
-## Into the Breach
-## Snowrunner
-## S.T.A.L.K.E.R. Anomaly
-## Mount Your Friends
-## Max Payne 3
-## Metal Gear Solid 2
-## Slice & Dice
-## UFO 50
-## Slay the Spire
-## Prey
-## Dishonored 2
-## The Forgotten City
-## Spy Party
-## Rocket League
-## Crusader Kings 2
-## Dead Rising (1 + 2)
-## Sekiro
-## Sifu
-## Mechabellum
-## Blood Bowl 2
-## Hunt Showdown
-## Ctrl Alt Ego
-## Burnout Paradise
-## Solium Infernum
-## Unity of Command 2
-## Jagged Alliance 3
-## Triangle Strategy
-## Ace Combat 7
-## Armored Core VI
-## Demon Turf
-## The Nonary Games
-## Outer Wilds
-## Return of the Obra Dinn
-## 1000 x Resist
-## Inside
-## Against the Storm
-## Phoenix Point
-## Heavenly Bodies
-## Pacific Drive
-## Peaks of Yore
-## Dominions 5
-## Ghost Recon: Wildlands
-## Desktop Dungeons
-## Banjo Kazooie Nuts and Bolts
-## Monster Hunter World
-## The Elder Scrolls III: Morrowind
-## Noita
-## Chronicles of Riddick
-## Killer7
-## SSX Tricky
-## CHAOS;HEAD
-## Doki Doki Literature Club
-## Thief II: the Metal Age
-## Surmount
-## Gears Tactics
-## Heavy Rain
-## Microsoft 3D Pinball: Space Cadet
-## Final Fantasy 13
-## Dungeon Crawl Stone Soup
-## Cataclysm Dark Days Ahead
+1. Snowrunner
+1. Max Payne 3
+1. Armored Core VI
+1. Mechabellum
+1. Return of the Obra Dinn
+1. 1000 x Resist
+1. Inside
+1. Phoenix Point
+1. Heavenly Bodies
+1. Pacific Drive
+1. Peaks of Yore
+1. Dominions 5
+1. Ghost Recon: Wildlands
+1. Banjo Kazooie Nuts and Bolts
+1. Monster Hunter World
+1. The Elder Scrolls III: Morrowind
+1. Noita
+1. Chronicles of Riddick
+1. Killer7
+1. SSX Tricky
+1. Doki Doki Literature Club
+1. Thief II: the Metal Age
+1. Surmount
+1. Heavy Rain
+1. Kenshi
+1. Disco Elysium
+1. Fallout: New Vegas
+1. Half Life Alyx
+1. Everyday Genius: SquareLogic
+1. It Takes Two
+1. Team Fortress 2
+1. Gorilla Tag
+1. Inscryption
+1. Invisible Inc.
+1. Left 4 Dead 2
+1. Lethal League
+1. Mirror's Edge
+1. Nidhogg 2
+1. Rainbow Six Siege
+1. Resident Evil 2 (remake)
+1. Resident Evil 4 (remake)
+1. Resident Evil 7
+1. Rollercoaster Tycoon 2
+1. Shadow of War
+1. Superhot
+1. System Shock 2
+1. Tyranny
+1. Shadow of the Colossus
+1. The Evil Within 2
+1. Bayonetta
+
+# Honourable Mentions
+
+1. Saints Row 4
+1. Red Faction Guerrilla -> precursor to the Finals
+1. Hot Shots Golf Fore
+1. Amnesia: The Bunker
+1. To the Moon
+1. Halo Combat Evolved
+1. Prismata
+1. Earth Defense Force 4.1 The Shadow of New Despair
+1. Katamari Damacy
+1. Titanfall 2
+1. Master of Orion 2
+1. StarCraft
+1. Underrail
+1. Portal 2
+1. SWAT 4
+1. Suzerain
+1. Hyper Demon
+1. Dead Space
+1. Dungeon Crawl Stone Soup
+1. Chaos Reborn
