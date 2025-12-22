@@ -131,7 +131,7 @@ I've played half a dozen visual novels over the course of my gaming career, sink
 
 The Hundred Line -Last Defense Academy- is a *AA (AAA by visual novel standards) maximalist visual novel* developed as a collaboration between the two creators of the Zero Escape series and the Danganronpa series.
 
-As someone who's enjoyed both of these series in the past, I spent the whole year trying to avoid this game because of the egregious number of hours required to beat it.
+As someone who has enjoyed both of these series in the past, I spent the whole year trying to avoid this game because of the egregious number of hours required to beat it.
 
 Eventually, the constant bombardment of recommendations thrown my way for this game combined with the renewed interest in visual novels I was afflicted with this year (see my [thoughts on CHAOS;HEAD NOAH below](#chaoshead-noah)) wore me down enough to get me pick it up and commit to seeing it all the way through.
 
