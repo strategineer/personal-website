@@ -43,9 +43,9 @@ But keep in mind that Shiren and Caves of Qud are **very** different games, so y
 
 Deadeye Deepfake Simulacrum is a *top-down action immersive sim* in which you play a little guy tasked with infiltrating high-tech secure facilities as a contractor for a company you don't know much about.
 
-Depending on how you've decided to kit your guy out, you'll have access to a different set of wacky abilities that determine the options you'll have access to when tackling the many obstacles the game throws at you.
+Depending on how you've decided to kit your guy out, you'll have access to a different set of game-changing abilities that will determine the options you'll have access to when tackling the many obstacles the game throws at you.
 
-Deadeye Deepfake Simulacrum reminds me of a slowed down and much weirdier immersive sim-ified version of Hotline Miami in which you can hack bullets so that they turn around mid-air and hit the people who fired them instead of you and that's why Deadeye Deepfake Simulacrum is a **freak** game.
+Deadeye Deepfake Simulacrum reminds me of a slowed down and much weirdier immersive sim-ified version of Hotline Miami in which you can hack a bullet so that it turns around mid-air and kills the person that fired it instead of you and that's why Deadeye Deepfake Simulacrum is a **freak** game.
 
 ## [Earthion](https://store.steampowered.com/app/3597580/Earthion/)
 
