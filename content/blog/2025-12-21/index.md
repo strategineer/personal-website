@@ -57,7 +57,7 @@ What differentiates Earthion from other "throwback"-style games is that if Earth
 
 Given how amazing Earthion is on every conceivable level (art, music, gameplay, you name it), if it had released back then I think it could have been responsible for reversing Sega's meteoric descent into obscurity and game publisher-dom.
 
-If developing a Sega Genesis (which I'll remind you is a console that released in the year of our lord 1989) game in 2025 doesn't scream **freak** to you then I don't what would.
+If developing a Sega Genesis (which I'll remind you is a console that released in the year of our lord 1989) game in 2025 doesn't scream **freak** to you then I don't know what would.
 
 ## [Baby Steps](https://store.steampowered.com/app/1281040/Baby_Steps/)
 
