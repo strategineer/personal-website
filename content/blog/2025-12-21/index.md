@@ -97,7 +97,7 @@ Unlike games like Vampire Survivors, Balatro, Megabonk, Deep Rock Galactic Survi
 
 The Bazaar is hard to describe succinctly because it's different enough from the games that came before it that referring to them isn't very helpful.
 
-It's an *asynchronous multiplayer roguelike autobattler deckbuilder* with Hearthstone aesthetics.
+The Bazaar is an *asynchronous multiplayer roguelike autobattler deckbuilder* with Hearthstone aesthetics.
 
 The boldness of the Bazaar's concept and its polish compared to the relatively few number of people who seem to know about it make the Bazaar an obvious contender for **freakiest** *asynchronous multiplayer roguelike autobattler deckbuilder* game of the year.
 
