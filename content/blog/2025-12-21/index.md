@@ -17,7 +17,7 @@ This year I've decided to focus on highlighting **freak** games that most people
 
 ![](shiren.jpg)
 
-The meaning of the word *roguelike* today is not what it once was, and that's fine. But this change that occurred sometime in late 00s and early 10s forced oldschool roguelike community to find another name for the games that they love that were actually like Rogue.
+The meaning of the word *roguelike* today is not what it once was, and that's fine. But this change that occurred sometime in late 00s and early 10s forced members of the oldschool roguelike community to find another name for the games that they love that were actually like Rogue.
 
 The name they landed on was **[traditional roguelike](https://www.roguebasin.com/index.php/What_a_roguelike_is)**.
 
