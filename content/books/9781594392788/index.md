@@ -2,6 +2,7 @@
 authors:
 - Shou-Yu Liang
 books/tags:
+- 3star
 - non-fiction
 date: 2025-11-22
 params:

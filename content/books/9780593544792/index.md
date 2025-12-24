@@ -3,6 +3,7 @@ authors:
 - Álvaro Enrigue
 - Natasha Wimmer
 books/tags:
+- 2star
 - historical fiction
 date: 2025-11-26
 params:

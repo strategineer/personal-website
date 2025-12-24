@@ -397,7 +397,7 @@ def stats(debug):
                 if year not in posts_by_year:
                     posts_by_year[year] = []
                 tags = post.metadata.get("books/tags", [])
-                if tags is not None and ("owned-but-unread" in tags or "did-not-finish" in tags):
+                if tags is not None and ("owned-but-unread" in tags or "tabletop" in tags):
                     continue
                 posts_by_year[year].append(post)
                 isbn13 = post.metadata.get("params", {}).get("isbn13")
@@ -411,7 +411,7 @@ def stats(debug):
                 )
                 continue
     for year in posts_by_year:
-        if year != 2024:
+        if year != 2025:
             continue
         print(f"number of book posts in {year}: {len(posts_by_year[year])}")
         ratings_counter = Counter()

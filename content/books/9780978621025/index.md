@@ -2,8 +2,8 @@
 authors:
 - R. A. Lafferty
 books/tags:
-- science fiction
 - did-not-finish
+- science fiction
 date: 2025-12-14
 params:
   isbn13: '9780978621025'

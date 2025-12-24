@@ -14,5 +14,4 @@ star_rating: null
 title: 'Calling Bullshit: The Art of Skepticism in a Data-Driven World'
 ---
 
-
 <!--more-->

@@ -2,8 +2,8 @@
 authors:
 - Too Kyo Games
 books/tags:
-- visual novel
 - currently-reading
+- visual novel
 date: 2025-12-18
 params:
   is_vn: true

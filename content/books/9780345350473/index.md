@@ -10,7 +10,7 @@ params:
   year: '2007'
 slug: '9780345350473'
 star_rating: 5
-title: 'Blade runner: Do Androids Dream of Electric Sheep?'
+title: Do Androids Dream of Electric Sheep?
 ---
 
 <!--more-->

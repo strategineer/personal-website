@@ -10,7 +10,7 @@ params:
   year: '2008'
 slug: '9781039006911'
 star_rating: 5
-title: 'Doppelganger: A Trip into the Mirror World'
+title: Doppelganger
 ---
 
 <!--more-->
