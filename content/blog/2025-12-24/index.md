@@ -30,6 +30,8 @@ A list of novels, in randomized order, that I read and enjoyed in 2025.
 
 {{< book "Flowers For Algernon" >}}
 
+I'd heard 
+
 {{< book "The Shock Doctrine: The Rise Of Disaster Capitalism" >}}
 
 {{< book "Monsters, aliens, and holes in the ground" >}}
