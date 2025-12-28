@@ -155,7 +155,8 @@ h6 {
 
 .readable,
 .cv-readable,
-.readable-wide {
+.readable-wide,
+.readable-wide-thin {
   margin: auto;
 }
 
@@ -626,6 +627,10 @@ ul {
   // set the maximum with to allow for better readability.
   .readable-wide {
     width: 900px;
+  }
+
+  .readable-wide-thin {
+    width: 750px;
   }
 
   .cell-display {
