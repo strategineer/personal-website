@@ -9,12 +9,12 @@ tools:
   - stainless steel pan
 ingredients:
   - 2 chicken breasts
-  - 1 green bell pepper (sliced into 1/2 inch strips)
-  - 5 cloves of garlic (diced)
-  - 1 large carrot (peeled and sliced into half moons)
-  - 1 large onion (diced)
-  - 3 small-medium tomatoes (sliced into 1/2 inch strips)
-  - 1 cup of basmati rice (rinced)
+  - 1 green bell pepper, sliced into 1/2 inch strips
+  - 5 cloves of garlic, diced
+  - 1 large carrot, peeled and sliced into half moons
+  - 1 large onion, diced
+  - 3 small-medium tomatoes, sliced into 1/2 inch strips
+  - 1 cup of basmati rice, rinced
   - 2 cups of chicken broth
   - 2 tablespoons of curry powder
   - 1 tablespoon of tandoori chicken spices
