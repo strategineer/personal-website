@@ -28,7 +28,7 @@
     {{ end }}
     {{ if .Params.ingredients }}
       {{ if .Params.tools }}
-      <div class="col">
+      <div class="col print-display-none">
         <div class="d-flex">
           <h1>Tools</h1>
         </div>
@@ -39,25 +39,22 @@
         </ul>
       </div>
       {{ end }}
-      <div class="col-md-7">
-        <div class="d-flex">
-          <h1>Ingredients</h1>
-        </div>
-        <ul class="post-bullet-list">
+      <div class="col">
+        <ul>
           {{ range $index, $val := .Params.ingredients }}
-            <li>{{ $val | markdownify }}</li>
+            <li class="ingredient-list-item">{{ $val | markdownify }}</li>
           {{ end }}
         </ul>
       </div>
     {{ end }}
     {{ if .Params.steps }}
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center print-display-none">
         <h1>Steps</h1>
       </div>
       <div class="d-flex justify-content-center">
         <ol class="post-bullet-list">
           {{ range $index, $val := .Params.steps }}
-            <li>{{ $val | markdownify }}</li>
+            <li class="recipe-step-item">{{ $val | markdownify }}</li>
           {{ end }}
         </ol>
       </div>

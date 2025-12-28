@@ -57,8 +57,20 @@ $link_highlight: nth($colors, 2);
     font-weight: bold;
   }
 
+  .text-center {
+    text-align: left !important;
+  }
+
   .print-display-none {
     display: none !important;
+  }
+
+  .recipe-step-item {
+    font-size: 1.1rem !important;
+  }
+
+  .ingredient-list-item {
+    font-size: 1rem !important;
   }
 
   .cv-bullet-item {
