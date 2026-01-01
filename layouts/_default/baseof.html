@@ -80,7 +80,7 @@
           {{ partial "header" . }}
           {{ $has_search := and (ne .Section "cv") (not .Params.no_search) }}
           {{ if $has_search }}
-          <div class="col search">
+          <div class="col search print-display-none">
             <div id="search"></div>
           </div>
           {{ end }}
