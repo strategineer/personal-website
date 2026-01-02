@@ -196,12 +196,6 @@ def import_books(isbn, tag):
 
 
 @click.command()
-def delete_blog_thumbnails():
-    filenames = glob.glob("content/blog/*/thumbnail.*")
-    for filename in filenames:
-        Path(filename).unlink()
-
-@click.command()
 def fetch_thumbnails():
     print("Add ISBNs from existing books")
     filenames = glob.glob("content/books/*/index.md")
@@ -242,44 +236,6 @@ def fetch_thumbnails():
                 if not success:
                     # todo fallback to cover function and/or amazon but without the extra request?
                     pass
-
-@click.command()
-def find_isbns():
-    print("Add ISBNs from existing books")
-    filenames = glob.glob("content/books/*/index.md")
-    for filename in filenames:
-        post = None
-        has_isbn13 = True
-        with open(filename, encoding="utf-8") as f:
-            try:
-                post = frontmatter.load(f)
-            except UnicodeDecodeError:
-                print(
-                    f"Failed to load file {filename} with frontmatter parser due to unicode error"
-                )
-                continue
-            if "params" not in post.metadata:
-                post.metadata["params"] = {}
-            if "year" not in post.metadata["params"]:
-                has_isbn13 = False
-                author = get_primary_author_from_post(post)
-                print(f"Trying to find ISBN for {post.metadata['title']} by {author}")
-                try:
-                    fetched_metadata = None
-                    if "isbn13" in post.metadata["params"]:
-                        fetched_metadata = meta(post.metadata["params"]["isbn13"])
-                    else:
-                        a = isbn_from_words(f"{post.metadata['title']} {author}")
-                        fetched_metadata = meta(a)
-                    post.metadata["params"]["isbn13"] = fetched_metadata["ISBN-13"]
-                    post.metadata["params"]["year"] = fetched_metadata["Year"]
-                    post.metadata["title"] = fetched_metadata["Title"]
-                except:
-                    print(f"No isbn found for {post.metadata}")
-                    print(f"fetched_metadata: {fetched_metadata}")
-                if not has_isbn13 and post is not None:
-                    write_post(post, filename)
-
 
 def sorting_fn(a):
     pre_sort = ["currently-reading", "did-not-finish", "slay", "trash"]
@@ -341,39 +297,6 @@ def sort_tags():
         if sorted_tags != post.metadata["books/tags"]:
             post.metadata["books/tags"] = sorted_tags
         write_post(post, filename)
-
-@click.command()
-@click.option("--debug", is_flag=True)
-def book_rating_shifter(debug):
-    filenames = glob.glob("content/books/*/index.md")
-    for filename in filenames:
-        with open(filename, encoding="utf-8") as f:
-            try:
-                post = frontmatter.load(f)
-            except UnicodeDecodeError:
-                print(
-                    f"Failed to load file {filename} with frontmatter parser due to unicode error"
-                )
-                continue
-        if post.metadata.get("star_rating", 0):
-            tags = post.metadata["books/tags"]
-            if not tags:
-                tags = []
-            if "tabletop" in tags:
-                continue
-            if "slay" in tags:
-                new_rating = 5
-            else:
-                new_rating = max(1, post.metadata["star_rating"] - 1)
-            post.metadata["star_rating"] = new_rating
-            if "slay" in tags:
-                tags.remove("slay")
-            if new_rating == 5:
-                tags.append("slay")
-            sorted_tags = sorted(tags, key=sorting_fn)
-            if sorted_tags != post.metadata["books/tags"]:
-                post.metadata["books/tags"] = sorted_tags
-            write_post(post, filename)
 
 def count_words_fast(c, text):      
     text = text.lower()  
@@ -494,13 +417,10 @@ def rename_reaction_gif(a, b):
 
 cli.add_command(import_books)
 cli.add_command(fetch_thumbnails)
-cli.add_command(find_isbns)
 cli.add_command(sort_tags)
 cli.add_command(upload)
 cli.add_command(rename_reaction_gif)
 cli.add_command(stats)
-cli.add_command(book_rating_shifter)
-cli.add_command(delete_blog_thumbnails)
 cli.add_command(update_cv)
 
 if __name__ == "__main__":
