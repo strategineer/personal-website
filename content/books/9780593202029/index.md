@@ -1,7 +1,8 @@
 ---
 authors:
 - Rachel Harrison
-books/tags: []
+books/tags:
+- 4star
 date: 2025-12-26
 params:
   isbn13: '9780593202029'
@@ -10,6 +11,5 @@ slug: '9780593202029'
 star_rating: 4
 title: Cackle
 ---
-
 
 <!--more-->

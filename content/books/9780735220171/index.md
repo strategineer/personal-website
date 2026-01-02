@@ -12,5 +12,4 @@ star_rating: null
 title: Black Leopard, Red Wolf
 ---
 
-
 <!--more-->

@@ -464,77 +464,6 @@ def upload(debug):
 BOOKS_BODY_ID = "booksBody"
 
 
-def get_wob_search_url(author, title):
-  author = " ".join(reversed(author.split(",")))
-  # N.K. -> N. K.
-  author = re.sub(r"([A-Z])\.([A-Z])\.", "\g<1>. \g<2>.", author)
-  query = f'"{author.strip()}" "{title.strip()}"'
-  query = urllib.parse.quote_plus(query)
-  return f"https://www.wob.com/en-gb/category/all?search={query}&so=price_asc&pt=book"
-
-
-def soupify_url(session, url):
-  r = session.get(url, headers={})
-  return bs(r.text, "lxml")
-
-
-@click.command()
-@click.argument("url")
-@click.option("--debug", is_flag=True)
-def find_used_books(url, debug):
-  headers = {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0",
-      }
-  goodreads_tag_url = url
-  html = requests.get(goodreads_tag_url, headers=headers)
-  soup = bs(html.text, features="html.parser")
-  booksBody = soup.find("tbody", {"id": BOOKS_BODY_ID})
-  if booksBody is None:
-      print(f"No DOM element with id={BOOKS_BODY_ID} found, exiting")
-      return
-
-  titles = booksBody.find_all("td", {"class": "field title"})
-  authors = booksBody.find_all("td", {"class": "field author"})
-  isbns = booksBody.find_all("td", {"class": "field isbn13"})
-
-  titles = [td.div.a.contents[0].strip() for td in titles]
-  authors = [td.div.a.text.strip() for td in authors]
-  isbns = [td.div.text.strip() for td in isbns]
-
-  books = list(zip(authors, titles, isbns))
-  
-  urls = [get_wob_search_url(author, title) for (author, title, _) in books]
-
-  books_and_urls = list(zip(books, urls))
-  print(books_and_urls)
-  if debug:
-    sys.exit(1)
-  for (author, title, isbn), url in books_and_urls:
-    sleep(5)
-    html = requests.get(url, headers=headers)
-    wob_soup = bs(html.text, features="html.parser")
-    try:
-      # todo this title search might not be necessary if the searches are specific enough now
-      #found_title = wob_soup.find(
-      #    "span", {"class": "title"}
-      #)
-      #if title is not None and title in found_title.text: 
-      price = wob_soup.find(
-          "div", {"class": "itemPrice"}
-      )
-      if price:
-        condition = wob_soup.find(
-          "div", {"class": "itemType"}
-        )
-        #print(f"Price found for {author}'s {title}\n\t at {url}:\n\t\t{price.text.strip()} pounds ({condition.text.strip()})")
-        print(f"{price.text.strip()},({condition.text.strip()}),{url}")
-      else:
-        pass
-        #print(f"no price found for {author}'s {title}")
-    except IndexError:
-        pass
-        #print("ehhhh not found...")
-
 def get_reaction_gif_path_from_name(n):
     return Path(f"assets/img/react/{n}.gif")
 
@@ -568,7 +497,6 @@ cli.add_command(fetch_thumbnails)
 cli.add_command(find_isbns)
 cli.add_command(sort_tags)
 cli.add_command(upload)
-cli.add_command(find_used_books)
 cli.add_command(rename_reaction_gif)
 cli.add_command(stats)
 cli.add_command(book_rating_shifter)

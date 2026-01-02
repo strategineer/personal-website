@@ -2,6 +2,7 @@
 authors:
 - Alex Lewin
 books/tags:
+- 5star
 - reference
 date: 2025-12-29
 params:
@@ -11,6 +12,5 @@ slug: '9781631595073'
 star_rating: 5
 title: Real Food Fermentation
 ---
-
 
 <!--more-->
