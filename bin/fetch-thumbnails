@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+poetry run python3 -u src/mycli/main.py fetch-thumbnails "$@"
