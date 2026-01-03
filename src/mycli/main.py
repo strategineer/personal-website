@@ -20,7 +20,11 @@ import requests
 import frontmatter
 from isbnlib import meta, isbn_from_words
 from isbnlib._exceptions import NotValidISBNError
-from isbnlib.dev._exceptions import ISBNNotConsistentError, ISBNLibHTTPError, ISBNLibURLError
+from isbnlib.dev._exceptions import (
+    ISBNNotConsistentError,
+    ISBNLibHTTPError,
+    ISBNLibURLError,
+)
 from bs4 import BeautifulSoup as bs
 
 from __init__ import (
@@ -32,7 +36,7 @@ from __init__ import (
 IMPORT_START_DATE = date(1800, 1, 1)
 
 
-# {'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}   
+# {'ISBN-13': '9780547773742', 'Title': 'A Wizard Of Earthsea', 'Authors': ['Ursula K. Le Guin'], 'Publisher': 'Clarion Books', 'Year': '2012', 'Language': 'en'}
 
 
 def fetch_and_write_thumbnail(isbn, filename):
@@ -128,8 +132,8 @@ def cli():
 
 
 @click.command()
-@click.argument('isbn', nargs=-1, type=str)
-@click.option('--tag', type=str)
+@click.argument("isbn", nargs=-1, type=str)
+@click.option("--tag", type=str)
 def import_books(isbn, tag):
     """Import book ISBNs"""
     filenames = glob.glob("**/bs_export_*.json")
@@ -148,7 +152,7 @@ def import_books(isbn, tag):
         book = books[isbn]
         metadata = {}
         fetched_metadata = {}
-        for service in ["goob","openl","wiki"]:
+        for service in ["goob", "openl", "wiki"]:
             print(service)
             try:
                 fetched_metadata = meta(isbn, service=service)
@@ -218,16 +222,16 @@ def fetch_thumbnails():
                 )
                 continue
             if not has_thumbnail or not thumbnail_big_enough:
-                isbn13 = post.metadata['params'].get('isbn13')
-                if isbn13 is None or isbn13 in ["9781250251510", "9780441003051", "9780252016929"]:
+                isbn13 = post.metadata["params"].get("isbn13")
+                if isbn13 is None or isbn13 in [
+                    "9781250251510",
+                    "9780441003051",
+                    "9780252016929",
+                ]:
                     continue
-                print(
-                    f"Fetching thumbnail for:\n\t{isbn13}\n\t{filename}"
-                )
+                print(f"Fetching thumbnail for:\n\t{isbn13}\n\t{filename}")
                 try:
-                    success = fetch_and_write_thumbnail(
-                        isbn13, filename
-                    )
+                    success = fetch_and_write_thumbnail(isbn13, filename)
                 except:
                     success = False
                     print(
@@ -236,6 +240,7 @@ def fetch_thumbnails():
                 if not success:
                     # todo fallback to cover function and/or amazon but without the extra request?
                     pass
+
 
 def sorting_fn(a):
     pre_sort = ["currently-reading", "did-not-finish", "slay", "trash"]
@@ -246,11 +251,12 @@ def sorting_fn(a):
         return f"zzz{post_sort.index(a)}"
     return a
 
+
 @click.command()
 def update_cv():
-    base = 'static/cv/cv'
-    en_cv = base + '_en.pdf'
-    fr_cv = base + '_fr.pdf'
+    base = "static/cv/cv"
+    en_cv = base + "_en.pdf"
+    fr_cv = base + "_fr.pdf"
 
     with PdfWriter() as m:
         for pdf in [en_cv, fr_cv]:
@@ -261,16 +267,11 @@ def update_cv():
             m.append(pdf)
         m.write(base + "_fr_en.pdf")
 
+
 @click.command()
 def sort_tags():
     """uhhh this is messy, it's meant to be a sort of validation/fixup step"""
-    STAR_RATING_TAGS = {
-        1: "1star",
-        2: "2star",
-        3: "3star",
-        4: "4star",
-        5: "5star"
-    }
+    STAR_RATING_TAGS = {1: "1star", 2: "2star", 3: "3star", 4: "4star", 5: "5star"}
     filenames = glob.glob("content/books/*/index.md")
     for filename in filenames:
         with open(filename, encoding="utf-8") as f:
@@ -298,12 +299,14 @@ def sort_tags():
             post.metadata["books/tags"] = sorted_tags
         write_post(post, filename)
 
-def count_words_fast(c, text):      
-    text = text.lower()  
-    skips = [".", ", ", ":", ";", "'", '"']  
-    for ch in skips:  
-        text = text.replace(ch, "")  
-    c.update(text.split(" "))  
+
+def count_words_fast(c, text):
+    text = text.lower()
+    skips = [".", ", ", ":", ";", "'", '"']
+    for ch in skips:
+        text = text.replace(ch, "")
+    c.update(text.split(" "))
+
 
 @click.command()
 @click.option("--debug", is_flag=True)
@@ -320,12 +323,14 @@ def stats(debug):
                 if year not in posts_by_year:
                     posts_by_year[year] = []
                 tags = post.metadata.get("books/tags", [])
-                if tags is not None and ("owned-but-unread" in tags or "tabletop" in tags):
+                if tags is not None and (
+                    "owned-but-unread" in tags or "tabletop" in tags
+                ):
                     continue
                 posts_by_year[year].append(post)
                 isbn13 = post.metadata.get("params", {}).get("isbn13")
                 # these have unicode in them and can't be counted properly
-                #if isbn13 not in ["9780735210936", "9781101972120", "9781598537536"]:
+                # if isbn13 not in ["9780735210936", "9781101972120", "9781598537536"]:
                 #    count_words_fast(c, post.content)
                 #    posts.append((isbn13, filename, post))
             except UnicodeDecodeError:
@@ -339,15 +344,18 @@ def stats(debug):
         print(f"number of book posts in {year}: {len(posts_by_year[year])}")
         ratings_counter = Counter()
         posts_by_word_count = []
-        for post in sorted(posts_by_year[year], key=lambda x : x.metadata.get("date")):
-            posts_by_word_count.append((len(post.content.split()),post.metadata.get('title')))
+        for post in sorted(posts_by_year[year], key=lambda x: x.metadata.get("date")):
+            posts_by_word_count.append(
+                (len(post.content.split()), post.metadata.get("title"))
+            )
             ratings_counter.update([post.metadata.get("star_rating", 0)])
-            #print(f"{post.metadata.get('title')}: {len(post.content.split())}")
+            # print(f"{post.metadata.get('title')}: {len(post.content.split())}")
         for x, y in sorted(posts_by_word_count):
             print(f"{y}: {x}")
         print(ratings_counter)
-    #print(str(c.most_common(200)))
+    # print(str(c.most_common(200)))
     return
+
 
 @click.command()
 @click.option("--debug", is_flag=True)
@@ -390,6 +398,7 @@ BOOKS_BODY_ID = "booksBody"
 def get_reaction_gif_path_from_name(n):
     return Path(f"assets/img/react/{n}.gif")
 
+
 @click.command()
 @click.argument("a")
 @click.argument("b")
@@ -403,17 +412,20 @@ def rename_reaction_gif(a, b):
         raise FileNotFoundError(f"No file found at {path_from}")
     path_to = get_reaction_gif_path_from_name(b)
     if path_to.exists():
-        raise FileExistsError(f"File already found at {path_to}, can't rename {path_from} to it")
+        raise FileExistsError(
+            f"File already found at {path_to}, can't rename {path_from} to it"
+        )
     path_from.rename(path_to)
     filenames = glob.glob("content/books/*/index.md")
     for filename in filenames:
-        with open(filename, 'r') as file:
+        with open(filename, "r") as file:
             filedata = file.read()
         before_str = f"![]({a})"
         if before_str in filedata:
             filedata = filedata.replace(before_str, f"![]({b})")
-            with open(filename, 'w') as file:
+            with open(filename, "w") as file:
                 file.write(filedata)
+
 
 cli.add_command(import_books)
 cli.add_command(fetch_thumbnails)
