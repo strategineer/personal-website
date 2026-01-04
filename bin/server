@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-hugo server -N -O -D > /dev/null 2>&1 &
+hugo server --buildDrafts --buildFuture --openBrowser --navigateToChanged > /dev/null 2>&1 &
